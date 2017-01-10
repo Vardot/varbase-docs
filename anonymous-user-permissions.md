@@ -1,10 +1,12 @@
-# **Anonymous user permissions:**
+# **Anonymous user permissions**
 
-Visitors will only be able to 
+Visitors will only be able to:
 
-- 'access content' 
+* 'access content'
 
-- 'search content' 
+* 'search content'
 
-- 'view media'
+* 'view media'
+
+
 
