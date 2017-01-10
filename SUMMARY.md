@@ -29,4 +29,5 @@
         * [Themes](themes.md)
 * [Installation](installation.md)
     * [Building with the composer](building-with-the-composer.md)
+* [Update](update.md)
 
