@@ -30,4 +30,5 @@
 * [Installation](installation.md)
     * [Building with the composer](building-with-the-composer.md)
 * [Update](update.md)
+    * [Manual update](manual-update.md)
 
