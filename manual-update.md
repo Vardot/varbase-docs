@@ -1,44 +1,46 @@
 # Manual update
 
-1 - **Backups**
+**1 - Read the release notes to know what had been changed.**
+
+
+
+**2 - Backups**
 
 > * Backup your project database.
 >
 > * Backup your project files.
 
-2 - **Get the packaged files for the new version of Varbase 8.4.x**
+**3 - Get the packaged files for the new version of Varbase 8.4.x**
 
 > * **From Drupal website: **[https://www.drupal.org/project/varbase](https://www.drupal.org/project/varbase)
 >
 > * **Using Varbase-Build:**  [https://packagist.org/packages/vardot/varbase-build](https://packagist.org/packages/vardot/varbase-build)
 
+**4 - From your terminal, change directory to the root directory of your project to do the update:**
 
+```gherkin
+  For Example:
 
-**3 - From your terminal, change directory to the root directory of your project:**
+    Given that we do have a project at /var/www/html/projects/example
 
-      For Example:
+    And we do have our custom themes, features, custom modules in
+         /var/www/html/projects/example/themes/custom/
+         /var/www/html/projects/example/modules/custom/
+         /var/www/html/projects/example/sites/default
+    And we checked directory the project folder "cd /var/www/html/projects/example"
+    When we delete all files and folders, except our changes on Varbase.
+    Then we will be left with only custom changes
+    
+    When we copy all Varbase files
+     And we make sure that we do not have any overridden files or folders
+         
+         
+      
+```
 
-        **Given** that we do have a project at /var/www/html/projects/example
+** 5 - Set the right file permissions.**
 
-          **And** we do have our custom themes, features, custom modules in
-
-`               /var/www/html/projects/example/themes/custom/`
-
-`               /var/www/html/projects/example/modules/custom/`
-
-`              /var/www/html/projects/example/modules`
-
-
-
-* Delete all files and folders, except your changes on Varbase.
-
-* Download the new Varbase 8.x-4.x release, and read the release notes to know what had been changed.
-
-* Copy all files to the your project folder
-
-* Set the right file permissions.
-
-* $ composer drupal-update
+* $ composer update
 
 * Make sure that you do have modules in the right place
 
