@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-    * Extra components
 * [Components](chapter1.md)
     * [Features](features.md)
         * [Varbase Core](varbase-core.md)
@@ -17,11 +16,13 @@
             * [Content Admin permissions](content-admin-permissions.md)
             * [Site Admin permissions](site-admin-permissions.md)
             * [Super Admin permissions](super-admin-permissions.md)
+        * [Varbase Admin](varbase-admin.md)
     * Themes
         * Bootstrap theme
         * Vartheme
         * VARTHEME\_SUBTHEME
         * Adminimal theme
         * Varbase admin
+* [Extra components](extra-components.md)
 * [Create new projects](features.md)
 
