@@ -7,7 +7,7 @@
         * [Varbase Editor](varbase-editor.md)
         * [Varbase Landing](varbase-landing.md)
         * [Varbase Page](varbase-page.md)
-        * Varbase SEO
+        * [Varbase SEO](varbase-seo.md)
         * Varbase Site
         * Varbase User
     * Themes
