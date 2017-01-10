@@ -6,7 +6,7 @@ For each stable release we will have some notes, and extra steps,
   developers need to do to update the last release to the new release.
 
 ```
-   For Example:
+For Example:
 ```
 
 **2 - Backups**
@@ -36,7 +36,7 @@ For each stable release we will have some notes, and extra steps,
          like contributed modules which we had theme added  
          while working on the project.
 
-  **And** we opened a terminal console window  
+**And** we opened a terminal console window  
   **And** we changed directory to our project folder  
          cd /var/www/html/projects/example in Linux
 
@@ -61,21 +61,25 @@ For each stable release we will have some notes, and extra steps,
 
 ---
 
-  **Given** that you are logged in with the "webmaster" user
+**Given** that you are logged in with the "webmaster" user
 
-     **And** the "Features" module is enabled
+```
+ **And** the "Features" module is enabled
 
-     **And** the "Features UI" module is enabled
+ **And** the "Features UI" module is enabled
+```
 
-  **When** you go to "admin/config/development/features"
+**When** you go to "admin/config/development/features"
 
-   **Then** you should not see any changed features in the Varbase core bundle.
+**Then** you should not see any changed features in the Varbase core bundle.
 
-  **When** you click on all "Changed"
+**When** you click on all "Changed"
 
-   **Then** you will be able to see all changes
+**Then** you will be able to see all changes
 
-     **And** you will be able to import new changes if you need them
+```
+ **And** you will be able to import new changes if you need them
+```
 
 ---
 
@@ -83,8 +87,6 @@ For each stable release we will have some notes, and extra steps,
 
 * By the terminal "drush updb".
 * By the web browser  by going to "yousite.domain/update.php" 
-
-
 
 **9 - Regression test the full site.**
 
