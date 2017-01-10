@@ -2,7 +2,7 @@
 
 **1 - Read the release notes to know what had been changed.**
 
-
+      For each stable release we will have some notes, and extra steps, developers need to do to update the last release to the new release.      
 
 **2 - Backups**
 
@@ -19,7 +19,7 @@
 **4 - From your terminal, change directory to the root directory of your project to do the update:**
 
 ```gherkin
-  For Example:
+For Example:
 
     Given that we do have a project at /var/www/html/projects/example
 
@@ -30,12 +30,9 @@
     And we checked directory the project folder "cd /var/www/html/projects/example"
     When we delete all files and folders, except our changes on Varbase.
     Then we will be left with only custom changes
-    
+
     When we copy all Varbase files
      And we make sure that we do not have any overridden files or folders
-         
-         
-      
 ```
 
 ** 5 - Set the right file permissions.**
