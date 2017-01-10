@@ -35,7 +35,7 @@ For Example:
          so on ...
          like contributed modules which we had theme added
          while working on the project. 
-         
+
     And we opened a the terminal console window
     And we changed directory to our project folder
          cd /var/www/html/projects/example in Linux
