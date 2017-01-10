@@ -17,7 +17,7 @@
             * [Site Admin permissions](site-admin-permissions.md)
             * [Super Admin permissions](super-admin-permissions.md)
         * [Varbase Admin](varbase-admin.md)
-    * Themes
+    * [Themes](themes.md)
         * Bootstrap theme
         * Vartheme
         * VARTHEME\_SUBTHEME
@@ -26,6 +26,6 @@
     * Extra Components
         * [Features](features.md)
             * [Varbase Development](varbase-development.md)
-        * Themes
+        * [Themes](themes.md)
 * [Create new projects](features.md)
 
