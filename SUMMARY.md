@@ -5,7 +5,7 @@
     * [Features](features.md)
         * [Varbase Core](varbase-core.md)
         * [Varbase Editor](varbase-editor.md)
-        * Varbase Landing
+        * [Varbase Landing](varbase-landing.md)
         * Varbase Page
         * Varbase SEO
         * Varbase Site
