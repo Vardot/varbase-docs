@@ -32,6 +32,10 @@ For Example:
          /var/www/html/projects/example/themes/custom/
          /var/www/html/projects/example/modules/custom/
          /var/www/html/projects/example/sites/default
+         so on ...
+         like contributed modules which we had theme added
+         while working on the project. 
+         
     And we opened a the terminal console window
     And we changed directory to our project folder
          cd /var/www/html/projects/example in Linux
