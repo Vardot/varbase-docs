@@ -2,17 +2,19 @@
 
 Logged in users will only be able to:
 
-- 'access content'
+* 'access content'
 
-- 'access shortcuts'
+* 'access shortcuts'
 
-- 'search content'
+* 'search content'
 
-- 'use text format basic\_html'
+* 'use text format basic\_html'
 
-- 'access sitemap'
+* 'access sitemap'
 
-- 'access user profiles'
+* 'access user profiles'
 
-- 'view media'
+* 'view media'
+
+
 
