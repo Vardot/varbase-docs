@@ -3,8 +3,8 @@
 * [Introduction](README.md)
 * [Components](chapter1.md)
     * [Features](features.md)
-        * Varbase Core
-        * Varbase Editor
+        * [Varbase Core](varbase-core.md)
+        * [Varbase Editor](varbase-editor.md)
         * Varbase Landing
         * Varbase Page
         * Varbase SEO
