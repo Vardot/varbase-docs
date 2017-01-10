@@ -11,6 +11,7 @@
         * [Varbase SEO](varbase-seo.md)
         * [Varbase Site](varbase-site.md)
         * [Varbase User](varbase-user.md)
+            * [Anonymous user permissions](anonymous-user-permissions.md)
     * Themes
         * Bootstrap theme
         * Vartheme
