@@ -2,82 +2,81 @@
 
 ##### Editors will be able to:
 
-- 'access files overview'
+* 'access files overview'
 
-- 'access media overview'
+* 'access media overview'
 
-- 'update media'
+* 'update media'
 
-- 'view media'
+* 'view media'
 
-- 'create page content'
+* 'create page content'
 
-- 'delete own page content'
+* 'delete own page content'
 
-- 'edit own page content'
+* 'edit own page content'
 
-- 'administer panelizer node landing\_page content'
+* 'administer panelizer node landing\_page content'
 
-- 'use ipe with page manager'
+* 'use ipe with page manager'
 
-- 'access panels in-place editing'
+* 'access panels in-place editing'
 
-- 'create url aliases'
+* 'create url aliases'
 
-- 'access in-place editing'
+* 'access in-place editing'
 
-- 'access administration pages'
+* 'access administration pages'
 
-- 'access site in maintenance mode'
+* 'access site in maintenance mode'
 
-- 'access user profiles'
+* 'access user profiles'
 
-- 'use text format basic\_html'
+* 'use text format basic\_html'
 
-- 'use text format full\_html'
+* 'use text format full\_html'
 
-- 'customize shortcut links'
+* 'customize shortcut links'
 
-- 'access shortcuts'
+* 'access shortcuts'
 
-- 'access toolbar'
+* 'access toolbar'
 
-- 'access content overview'
+* 'access content overview'
 
-- 'view all revisions'
+* 'view all revisions'
 
-- 'view page revisions'
+* 'view page revisions'
 
-- 'create landing\_page content'
+* 'create landing\_page content'
 
-- 'delete own landing\_page content'
+* 'delete own landing\_page content'
 
-- 'edit own landing\_page content'
+* 'edit own landing\_page content'
 
-- 'view landing\_page revisions'
+* 'view landing\_page revisions'
 
-- 'view the administration theme'
+* 'view the administration theme'
 
-- 'access contextual links'
+* 'access contextual links'
 
-- 'create media'
+* 'create media'
 
-- 'update any media'
+* 'update any media'
 
-- 'ds switch view mode'
+* 'ds switch view mode'
 
-- 'translate page node'
+* 'translate page node'
 
-- 'access editor\_media\_browser entity browser pages'
+* 'access editor\_media\_browser entity browser pages'
 
-- 'access image\_browser entity browser pages'
+* 'access image\_browser entity browser pages'
 
-- 'access images\_browser entity browser pages'
+* 'access images\_browser entity browser pages'
 
-- 'delete media'
+* 'delete media'
 
-- 'dropzone upload files'
+* 'dropzone upload files'
 
-  
 
 
