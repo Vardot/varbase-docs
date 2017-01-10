@@ -27,5 +27,5 @@
         * [Features](features.md)
             * [Varbase Development](varbase-development.md)
         * [Themes](themes.md)
-* [Create new projects](features.md)
+* [Installation](installation.md)
 
