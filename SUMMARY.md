@@ -8,7 +8,7 @@
         * [Varbase Landing](varbase-landing.md)
         * [Varbase Page](varbase-page.md)
         * [Varbase SEO](varbase-seo.md)
-        * Varbase Site
+        * [Varbase Site](varbase-site.md)
         * Varbase User
     * Themes
         * Bootstrap theme
