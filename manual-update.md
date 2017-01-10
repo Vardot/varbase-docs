@@ -12,7 +12,23 @@
 >
 > * **Using Varbase-Build:**  [https://packagist.org/packages/vardot/varbase-build](https://packagist.org/packages/vardot/varbase-build)
 
-* From your terminal, change directory to the root directory of Drupal 8:
+
+
+**3 - From your terminal, change directory to the root directory of your project:**
+
+      For Example:
+
+        **Given** that we do have a project at /var/www/html/projects/example
+
+          **And** we do have our custom themes, features, custom modules in
+
+`               /var/www/html/projects/example/themes/custom/`
+
+`               /var/www/html/projects/example/modules/custom/`
+
+`              /var/www/html/projects/example/modules`
+
+
 
 * Delete all files and folders, except your changes on Varbase.
 
