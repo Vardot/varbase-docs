@@ -1,12 +1,12 @@
 # Manual update
 
-1. **Backups**
+1 - **Backups**
 
 > * Backup your project database.
 >
 > * Backup your project files.
 
-   2.  **Get the packaged files for the new version of Varbase 8.4.x**
+2 - **Get the packaged files for the new version of Varbase 8.4.x**
 
 > * **From Drupal website: **[https://www.drupal.org/project/varbase](https://www.drupal.org/project/varbase)
 >
