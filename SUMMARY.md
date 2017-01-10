@@ -23,6 +23,9 @@
         * VARTHEME\_SUBTHEME
         * Adminimal theme
         * Varbase admin
-* [Extra components](extra-components.md)
+    * Extra Components
+        * [Features](features.md)
+            * [Varbase Development](varbase-development.md)
+        * Themes
 * [Create new projects](features.md)
 
