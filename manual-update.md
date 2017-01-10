@@ -3,11 +3,10 @@
 **1 - Read the release notes to know what had been changed.**
 
 ```
-  For each stable release we will have some notes, and extra steps,
+For each stable release we will have some notes, and extra steps,
   developers need to do to update the last release to the new release.
-  
+
        For Example:
-            
 ```
 
 **2 - Backups**
@@ -42,8 +41,6 @@ For Example:
 ```
 
 ** 5 - Set the right file permissions.**
-
- 
 
 ** 6 - Update composer packages.**
 
