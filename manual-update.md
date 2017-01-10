@@ -26,9 +26,8 @@ For each stable release we will have some notes, and extra steps,
 ```
 For Example:
 
-    Given that we do have a project at /var/www/html/projects/example
-
-    And we do have our custom themes, features, custom modules in
+Given that we do have a project at the /var/www/html/projects/example folder
+  And we do have our custom themes, features, custom modules in
          /var/www/html/projects/example/themes/custom/
          /var/www/html/projects/example/modules/custom/
          /var/www/html/projects/example/sites/default
@@ -36,15 +35,16 @@ For Example:
          like contributed modules which we had theme added
          while working on the project. 
 
-    And we opened a the terminal console window
-    And we changed directory to our project folder
+  And we opened a the terminal console window
+  And we changed directory to our project folder
          cd /var/www/html/projects/example in Linux
 
-    When we delete all files and folders, except our changes on Varbase.
-    Then we will be left with only custom changes
+ When we delete all files and folders, except our changes on Varbase.
+ Then we will be left with only custom changes
 
-    When we copy all Varbase files
-     And we make sure that we do not have any overridden files or folders
+ When we copy all Varbase files
+  And we make sure that we do not have any overridden files or folders
+         only delete old ones and copy new folder of modules to the same place
 ```
 
 ** 5 - Set the right file permissions.**
