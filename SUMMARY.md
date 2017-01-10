@@ -12,6 +12,7 @@
         * [Varbase Site](varbase-site.md)
         * [Varbase User](varbase-user.md)
             * [Anonymous user permissions](anonymous-user-permissions.md)
+            * [Authenticated user permissions](authenticated-user-permissions.md)
     * Themes
         * Bootstrap theme
         * Vartheme
