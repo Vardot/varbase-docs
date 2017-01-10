@@ -15,6 +15,7 @@
             * [Authenticated user permissions](authenticated-user-permissions.md)
             * [Editor permissions](editor-permissions.md)
             * [Content Admin permissions](content-admin-permissions.md)
+            * [Site Admin permissions](site-admin-permissions.md)
     * Themes
         * Bootstrap theme
         * Vartheme
