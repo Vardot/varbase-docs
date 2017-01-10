@@ -23,7 +23,7 @@ For each stable release we will have some notes, and extra steps,
 
 **4 - From your terminal, change directory to the root directory of your project to do the update:**
 
-```gherkin
+```
 For Example:
 
     Given that we do have a project at /var/www/html/projects/example
@@ -32,7 +32,10 @@ For Example:
          /var/www/html/projects/example/themes/custom/
          /var/www/html/projects/example/modules/custom/
          /var/www/html/projects/example/sites/default
-    And we checked directory the project folder "cd /var/www/html/projects/example"
+    And we opened a the terminal console window
+    And we changed directory to our project folder
+         cd /var/www/html/projects/example in Linux
+         
     When we delete all files and folders, except our changes on Varbase.
     Then we will be left with only custom changes
 
