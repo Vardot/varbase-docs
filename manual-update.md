@@ -5,9 +5,9 @@
 For each stable release we will have some notes, and extra steps,  
   developers need to do to update the last release to the new release.
 
-```
+
 For Example:
-```
+
 
 **2 - Backups**
 
@@ -63,11 +63,10 @@ For Example:
 
 **Given** that you are logged in with the "webmaster" user
 
-```
- **And** the "Features" module is enabled
+
+**And** the "Features" module is enabled
 
  **And** the "Features UI" module is enabled
-```
 
 **When** you go to "admin/config/development/features"
 
@@ -77,9 +76,7 @@ For Example:
 
 **Then** you will be able to see all changes
 
-```
- **And** you will be able to import new changes if you need them
-```
+**And** you will be able to import new changes if you need them
 
 ---
 
