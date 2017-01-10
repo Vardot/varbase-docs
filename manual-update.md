@@ -35,7 +35,7 @@ For Example:
     And we opened a the terminal console window
     And we changed directory to our project folder
          cd /var/www/html/projects/example in Linux
-         
+
     When we delete all files and folders, except our changes on Varbase.
     Then we will be left with only custom changes
 
