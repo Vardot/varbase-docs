@@ -14,6 +14,7 @@
             * [Anonymous user permissions](anonymous-user-permissions.md)
             * [Authenticated user permissions](authenticated-user-permissions.md)
             * [Editor permissions](editor-permissions.md)
+            * [Content Admin permissions](content-admin-permissions.md)
     * Themes
         * Bootstrap theme
         * Vartheme
