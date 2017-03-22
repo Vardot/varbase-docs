@@ -10,11 +10,10 @@
     * [Varbase SEO](varbase-seo.md)
     * [Varbase Admin](varbase-admin.md)
   * [Themes](themes.md)
-    * Bootstrap theme
     * Vartheme
     * VARTHEME\_SUBTHEME
-    * Adminimal theme
     * Varbase admin
+    * [Create new Vartheme subtheme for a project](themes/create-new-vartheme-subtheme-for-a-project.md)
   * Extra Components
     * [Features](features.md)
       * [Varbase Development](varbase-development.md)
