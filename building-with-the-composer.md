@@ -22,14 +22,12 @@ composer create-project Vardot/varbase-build:8.x PROJECT_DIR_NAME --stability de
 
 ```
 composer create-new-vartheme "THEME_NAME" "ltr" "docroot/sites/default/themes/custom"
-
 ```
 
 For right to left themes.
 
 ```
 composer create-new-vartheme "THEME_NAME" "rtl" "docroot/sites/default/themes/custom"
-
 ```
 
 or to create a new theme in the docroot/themes/custom
