@@ -9,7 +9,7 @@ To build Varbase using the [**Varbase Build**](https://github.com/Vardot/varbase
 After making sure that you have installed Composer successfully on your development machine, you can create the project with this command:
 
 ```
-composer create-project Vardot/varbase-build:^8.4.0 PROJECT_DIR_NAME --no-dev --no-interaction
+composer create-project Vardot/varbase-build:^8.4.01 PROJECT_DIR_NAME --no-dev --no-interaction
 ```
 
 If you want to create a project with the development option, to get the latest development work.
