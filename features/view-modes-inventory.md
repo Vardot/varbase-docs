@@ -52,15 +52,15 @@ https://www.drupal.org/project/vmi
 
 To make use of this module, you can follow the following use case scenario:
 
-**Given** that the "View Modes Inventory (VMI)" module is enabled
-**And** you have a "Content type" to utilize the view modes available from VMI
-**And** the "Content type" has a "Title field"
-**And** a "Body field"
-**And** an "Image field"
-**When** you go to "Manage display" under the Default view mode admin/structure/types/manage/[CONTENT_TYPE_NAME]/display
-**And** you click on "Custom display settings" tab link
+* **Given** that the "View Modes Inventory (VMI)" module is enabled
+* **And** you have a "Content type" to utilize the view modes available from VMI
+* **And** the "Content type" has a "Title field"
+* **And** a "Body field"
+* **And** an "Image field"
+* **When** you go to "Manage display" under the Default view mode admin/structure/types/manage/[CONTENT_TYPE_NAME]/display
+* **And** you click on "Custom display settings" tab link
 You will see the list of ready View Modes Inventory (VMI)
-**When** you select the View Modes you need for the Content type and save
-**Then** You will see the list of enabled View Modes auto mapped with their layout
+* **When** you select the View Modes you need for the Content type and save
+* **Then** You will see the list of enabled View Modes auto mapped with their layout
 
 
