@@ -10,6 +10,7 @@
     * [Varbase SEO](varbase-seo.md)
     * [Varbase Admin](varbase-admin.md)
     * [Varbase Webform](varbase-webform.md)
+    * [Varbase Security](varbase-security.md)
   * [Themes](themes.md)
     * Vartheme
     * VARTHEME\_SUBTHEME
