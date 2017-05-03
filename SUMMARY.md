@@ -21,6 +21,7 @@
     * [Create new Vartheme subtheme for a project](themes/create-new-vartheme-subtheme-for-a-project.md)
   * Extra Components
     * [Features](features.md)
+      * [View Modes Inventory](features/view-modes-inventory.md)
     * [Themes](themes.md)
 * [Installation](installation.md)
   * [Building with the composer](building-with-the-composer.md)
