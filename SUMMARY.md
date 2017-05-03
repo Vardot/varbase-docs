@@ -13,6 +13,7 @@
     * [Varbase Security](varbase-security.md)
     * [Varbase Media](varbase-media.md)
     * [Varbase Internationalization](varbase-internationalization.md)
+    * [Varbase Development](varbase-development.md)
   * [Themes](themes.md)
     * Vartheme
     * VARTHEME\_SUBTHEME
@@ -20,7 +21,6 @@
     * [Create new Vartheme subtheme for a project](themes/create-new-vartheme-subtheme-for-a-project.md)
   * Extra Components
     * [Features](features.md)
-      * [Varbase Development](varbase-development.md)
     * [Themes](themes.md)
 * [Installation](installation.md)
   * [Building with the composer](building-with-the-composer.md)
