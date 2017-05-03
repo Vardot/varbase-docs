@@ -22,6 +22,7 @@
   * Extra Components
     * [Features](features.md)
       * [View Modes Inventory](features/view-modes-inventory.md)
+      * [Media Hero Slider](features/media-hero-slider.md)
     * [Themes](themes.md)
 * [Installation](installation.md)
   * [Building with the composer](building-with-the-composer.md)
