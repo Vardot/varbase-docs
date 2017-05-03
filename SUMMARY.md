@@ -11,6 +11,7 @@
     * [Varbase Admin](varbase-admin.md)
     * [Varbase Webform](varbase-webform.md)
     * [Varbase Security](varbase-security.md)
+    * [Varbase Media](varbase-media.md)
   * [Themes](themes.md)
     * Vartheme
     * VARTHEME\_SUBTHEME
