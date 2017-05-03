@@ -12,6 +12,7 @@
     * [Varbase Webform](varbase-webform.md)
     * [Varbase Security](varbase-security.md)
     * [Varbase Media](varbase-media.md)
+    * [Varbase Internationalization](varbase-internationalization.md)
   * [Themes](themes.md)
     * Vartheme
     * VARTHEME\_SUBTHEME
