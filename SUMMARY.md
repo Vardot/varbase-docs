@@ -44,6 +44,5 @@
     * [Features](features.md)
     * [Themes](themes.md)
 * [Frequently Asked Questions \(FAQs\)](installation.md)
-* [Update](update.md)
-  * [Manual update](manual-update.md)
+* [How To Get Support](update.md)
 
