@@ -10,33 +10,36 @@
 * [Developing With Varbase](requirements.md)
   * [Core Components](requirements/core-components.md)
     * Modules and Features
+      * [Varbase Core](varbase-core.md)
+      * [Varbase Editor](varbase-editor.md)
+      * [Varbase Landing](varbase-landing.md)
+      * [Varbase SEO](varbase-seo.md)
+      * [Varbase Admin](varbase-admin.md)
+      * [Varbase Security](varbase-security.md)
+      * [Varbase Media](varbase-media.md)
+      * [Varbase Page](varbase-page.md)
+      * [Varbase Development](varbase-development.md)
     * Themes
+      * Varbase admin
+      * VARTHEME\_SUBTHEME
+      * [Create new Vartheme subtheme for a project](themes/create-new-vartheme-subtheme-for-a-project.md)
+      * Vartheme
   * Optional Components
     * Modules and Features
+      * Var
+      * [VMI: View Modes Inventory](features/view-modes-inventory.md)
+      * [Varbase Internationalization](varbase-internationalization.md)
     * Themes
   * Extending Varbase
     * Overriding Varbase
     * Creating Your Own Theme
+    * Creating Your Own Feature
+    * Creating A Sub Profile From Varbase
 * [Components](chapter1.md)
   * [Core Features](features.md)
-    * [Varbase Core](varbase-core.md)
-    * [Varbase Editor](varbase-editor.md)
-    * [Varbase Landing](varbase-landing.md)
-    * [Varbase Page](varbase-page.md)
-    * [Varbase SEO](varbase-seo.md)
-    * [Varbase Admin](varbase-admin.md)
-    * [Varbase Security](varbase-security.md)
-    * [Varbase Media](varbase-media.md)
-    * [Varbase Development](varbase-development.md)
   * [Themes](themes.md)
-    * Vartheme
-    * VARTHEME\_SUBTHEME
-    * Varbase admin
-    * [Create new Vartheme subtheme for a project](themes/create-new-vartheme-subtheme-for-a-project.md)
   * [Optional Components](extra-components.md)
     * [Features](features.md)
-      * [Varbase Internationalization](varbase-internationalization.md)
-      * [VMI: View Modes Inventory](features/view-modes-inventory.md)
       * [Media Hero Slider](features/media-hero-slider.md)
       * [Varbase Carousels](features/varbase-carousels.md)
       * [Varbase Webform](varbase-webform.md)
