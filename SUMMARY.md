@@ -7,7 +7,16 @@
   * [Installing Varbase](getting-started/installing-varbase.md)
     * [Installing Through Composer](getting-started/installing-varbase/installing-through-composer.md)
     * [Installing From Packaged Drupal.org](getting-started/installing-varbase/installing-from-packaged-drupalorg.md)
-* [Requirements](requirements.md)
+* [Developing With Varbase](requirements.md)
+  * [Core Components](requirements/core-components.md)
+    * Modules and Features
+    * Themes
+  * Optional Components
+    * Modules and Features
+    * Themes
+  * Extending Varbase
+    * Overriding Varbase
+    * Creating Your Own Theme
 * [Components](chapter1.md)
   * [Core Features](features.md)
     * [Varbase Core](varbase-core.md)
