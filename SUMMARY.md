@@ -45,6 +45,6 @@
     * [Themes](themes.md)
 * [Frequently Asked Questions \(FAQs\)](installation.md)
 * [How To Get Support](update.md)
-* Contributing
-* Additional Respources
+* [Contributing](contributing.md)
+* [Additional Resources](additional-respources.md)
 
