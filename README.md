@@ -12,11 +12,11 @@ Varbase is an enhanced Drupal distribution with a lot of necessities. Necessitie
 
 Clients love it, because it speeds up development, it provides standardized configurations, and it comes with a lot of features that ease everyone's life.
 
-this distribution is sponsored and developed by 
+this distribution is sponsored and developed by
 
 **@ To do:**
 
-* **    Explain what is Varbase**
+* ** Explain what is Varbase**
 
 * **Call for action to try Varbase with simplytest**
 
@@ -24,7 +24,7 @@ this distribution is sponsored and developed by
 
 * **Overview of problems solved when using Varbase**
 
-* **Cred@To do :  
+* **Cred@To do :    
   **
 
 **The link for Varbase in Drupal.org is:  **[**https://www.drupal.org/project/varbase**](https://www.drupal.org/project/varbase)
