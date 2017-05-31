@@ -2,7 +2,12 @@
 
 * [About Varbase](README.md)
 * [Roadmap](roadmap.md)
-* Getting Started
+* [Getting Started](getting-started.md)
+  * Requirements
+  * [Installing Varbase](getting-started/installing-varbase.md)
+    * [Installing Through Composer](getting-started/installing-varbase/installing-through-composer.md)
+    * Installing From Packaged Drupal.org
+* [Requirements](requirements.md)
 * [Components](chapter1.md)
   * [Core Features](features.md)
     * [Varbase Core](varbase-core.md)
