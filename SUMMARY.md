@@ -2,8 +2,7 @@
 
 * [About Varbase](README.md)
 * [Roadmap](roadmap.md)
-* [Installation](installation.md)
-  * [Building with the composer](building-with-the-composer.md)
+* Getting Started
 * [Components](chapter1.md)
   * [Core Features](features.md)
     * [Varbase Core](varbase-core.md)
@@ -28,6 +27,8 @@
       * [Varbase Carousels](features/varbase-carousels.md)
       * [Varbase Webform](varbase-webform.md)
     * [Themes](themes.md)
+* [Installation](installation.md)
+  * [Building with the composer](building-with-the-composer.md)
 * [Update](update.md)
   * [Manual update](manual-update.md)
 
