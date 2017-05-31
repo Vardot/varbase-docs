@@ -9,7 +9,7 @@
     * [Installing From Packaged Drupal.org](getting-started/installing-varbase/installing-from-packaged-drupalorg.md)
 * [Developing With Varbase](requirements.md)
   * [Core Components](requirements/core-components.md)
-    * Modules and Features
+    * [Modules and Features](requirements/core-components/modules-and-features.md)
       * [Varbase Core](varbase-core.md)
       * [Varbase Editor](varbase-editor.md)
       * [Varbase Landing](varbase-landing.md)
@@ -19,20 +19,20 @@
       * [Varbase Media](varbase-media.md)
       * [Varbase Page](varbase-page.md)
       * [Varbase Development](varbase-development.md)
-    * Themes
+    * [Themes](requirements/core-components/themes.md)
       * Varbase admin
       * VARTHEME\_SUBTHEME
       * [Create new Vartheme subtheme for a project](themes/create-new-vartheme-subtheme-for-a-project.md)
       * Vartheme
-  * Optional Components
-    * Modules and Features
+  * [Optional Components](requirements/optional-components.md)
+    * [Modules and Features](requirements/optional-components/modules-and-features.md)
       * [Varbase Webform](varbase-webform.md)
       * [Varbase Carousels](features/varbase-carousels.md)
       * [Media Hero Slider](features/media-hero-slider.md)
       * [VMI: View Modes Inventory](features/view-modes-inventory.md)
       * [Varbase Internationalization](varbase-internationalization.md)
-    * Themes
-  * Extending Varbase
+    * [Themes](requirements/optional-components/themes.md)
+  * [Extending Varbase](requirements/extending-varbase.md)
     * Overriding Varbase
     * Creating Your Own Theme
     * Creating Your Own Feature
