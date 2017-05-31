@@ -39,7 +39,7 @@
     * Creating A Sub Profile From Varbase
 * [Updating Varbase](chapter1.md)
   * [If Installed From Composer](features.md)
-  * [Themes](themes.md)
+  * [If Installed From Packaged Drupal.Org](themes.md)
   * [Optional Components](extra-components.md)
     * [Features](features.md)
     * [Themes](themes.md)
