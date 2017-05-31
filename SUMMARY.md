@@ -37,8 +37,8 @@
     * Creating Your Own Theme
     * Creating Your Own Feature
     * Creating A Sub Profile From Varbase
-* [Components](chapter1.md)
-  * [Core Features](features.md)
+* [Updating Varbase](chapter1.md)
+  * [If Installed From Composer](features.md)
   * [Themes](themes.md)
   * [Optional Components](extra-components.md)
     * [Features](features.md)
