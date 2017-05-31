@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [About Varbase](README.md)
 * [Components](chapter1.md)
   * [Core Features](features.md)
     * [Varbase Core](varbase-core.md)
