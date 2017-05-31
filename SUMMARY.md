@@ -43,8 +43,7 @@
   * [Optional Components](extra-components.md)
     * [Features](features.md)
     * [Themes](themes.md)
-* [Installation](installation.md)
-  * [Building with the composer](building-with-the-composer.md)
+* [Frequently Asked Questions \(FAQs\)](installation.md)
 * [Update](update.md)
   * [Manual update](manual-update.md)
 
