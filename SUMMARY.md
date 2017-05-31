@@ -26,7 +26,9 @@
       * Vartheme
   * Optional Components
     * Modules and Features
-      * Var
+      * [Varbase Webform](varbase-webform.md)
+      * [Varbase Carousels](features/varbase-carousels.md)
+      * [Media Hero Slider](features/media-hero-slider.md)
       * [VMI: View Modes Inventory](features/view-modes-inventory.md)
       * [Varbase Internationalization](varbase-internationalization.md)
     * Themes
@@ -40,9 +42,6 @@
   * [Themes](themes.md)
   * [Optional Components](extra-components.md)
     * [Features](features.md)
-      * [Media Hero Slider](features/media-hero-slider.md)
-      * [Varbase Carousels](features/varbase-carousels.md)
-      * [Varbase Webform](varbase-webform.md)
     * [Themes](themes.md)
 * [Installation](installation.md)
   * [Building with the composer](building-with-the-composer.md)
