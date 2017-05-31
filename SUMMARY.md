@@ -3,7 +3,7 @@
 * [About Varbase](README.md)
 * [Roadmap](roadmap.md)
 * [Getting Started](getting-started.md)
-  * Requirements
+  * [Requirements](getting-started/requirements.md)
   * [Installing Varbase](getting-started/installing-varbase.md)
     * [Installing Through Composer](getting-started/installing-varbase/installing-through-composer.md)
     * [Installing From Packaged Drupal.org](getting-started/installing-varbase/installing-from-packaged-drupalorg.md)
@@ -20,10 +20,10 @@
       * [Varbase Page](varbase-page.md)
       * [Varbase Development](varbase-development.md)
     * [Themes](requirements/core-components/themes.md)
-      * Varbase admin
-      * VARTHEME\_SUBTHEME
+      * [Varbase admin](themes/varbase-admin.md)
+      * [VARTHEME\_SUBTHEME](themes/varthemesubtheme.md)
       * [Create new Vartheme subtheme for a project](themes/create-new-vartheme-subtheme-for-a-project.md)
-      * Vartheme
+      * [Vartheme](themes/vartheme.md)
   * [Optional Components](requirements/optional-components.md)
     * [Modules and Features](requirements/optional-components/modules-and-features.md)
       * [Varbase Webform](varbase-webform.md)
@@ -33,10 +33,10 @@
       * [Varbase Internationalization](varbase-internationalization.md)
     * [Themes](requirements/optional-components/themes.md)
   * [Extending Varbase](requirements/extending-varbase.md)
-    * Overriding Varbase
-    * Creating Your Own Theme
-    * Creating Your Own Feature
-    * Creating A Sub Profile From Varbase
+    * [Overriding Varbase](requirements/extending-varbase/overriding-varbase.md)
+    * [Creating Your Own Theme](requirements/extending-varbase/creating-your-own-theme.md)
+    * [Creating Your Own Feature](requirements/extending-varbase/creating-your-own-feature.md)
+    * [Creating A Sub Profile From Varbase](requirements/extending-varbase/creating-a-sub-profile-from-varbase.md)
 * [Updating Varbase](chapter1.md)
   * [If Installed From Composer](features.md)
   * [If Installed From Packaged Drupal.Org](themes.md)
