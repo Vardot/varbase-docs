@@ -1,30 +1,25 @@
 # **Varbase 8.4.x Developer Guide**
 
-## 
-
-## 
-
 ## **Introduction**
 
-All of[ Vardot](https://www.vardot.com)'s clients use Varbase!
+Varbase is an enhanced Drupal distribution packed with adaptive functionalities and essential modules, that speed up your development, and provides you with standardized configurations, making your life easier.
 
-Varbase is an enhanced Drupal distribution with a lot of necessities. Necessities are all the modules, features, configurations that we include in every project.
+The essence of Varbase, lies within the basic concept that initiated it; [DRY \(Don’t Repeat Yourself\)](https://www.wikiwand.com/en/Don%27t_repeat_yourself). Varbase handles that for you, relieving you from repeating all the modules, features, configurations that are included in every Drupal project.
 
-Clients love it, because it speeds up development, it provides standardized configurations, and it comes with a lot of features that ease everyone's life.
+Varbase can bring ease to you if you are:
 
-this distribution is sponsored and developed by Vardot.
+* Confused about choosing the appropriate module needed for a specific functionality.
+* Trying to bridge the gap between the users experience and editors experience.
+* Being overwhelmed by the complexity of making a fully-fledged Drupal CMS website.
+* Wasting so much time on choosing the suitable functionalities.
 
-**@ To do:**
+## Give it a spin and try it
 
-* ** Explain what is Varbase**
+We simplify and organize all the work for you! So you can enjoy building your website in less time. 
 
-* **Call for action to try Varbase with simplytest**
+Try out Varbase with [simplytest.me](https://simplytest.me/) here: [**Try Varbase**](https://simplytest.me/project/varbase)!
 
-* **Why is Varbase needed**
+## Credits
 
-* **Overview of problems solved when using Varbase**
-
-* **Credits and attribution. **
-
-
+[Varbase](https://www.drupal.org/project/varbase) is a product of [Vardot](https://www.vardot.com/), the enterprise Drupal solutions provider.
 
