@@ -1,10 +1,12 @@
 # **Varbase 8.4.x Developer Guide**
 
+![](/assets/Large-Logo Color with padding.png)
+
 ## **Introduction**
 
 Varbase is an enhanced Drupal distribution packed with adaptive functionalities and essential modules, that speed up your development, and provides you with standardized configurations, making your life easier.
 
-The essence of Varbase, lies within the basic concept that initiated it; [DRY \(Don’t Repeat Yourself\)](https://www.wikiwand.com/en/Don%27t_repeat_yourself). Varbase handles that for you, relieving you from repeating all the modules, features, configurations that are included in every Drupal project.
+The essence of Varbase, lies within the basic concept that initiated it; [DRY \(Don’t Repeat Yourself\)](https://www.wikiwand.com/en/Don't_repeat_yourself). Varbase handles that for you, relieving you from repeating all the modules, features, configurations that are included in every Drupal project.
 
 Varbase can bring ease to you if you are:
 
@@ -15,7 +17,7 @@ Varbase can bring ease to you if you are:
 
 ## Give it a spin and try it
 
-We simplify and organize all the work for you! So you can enjoy building your website in less time. 
+We simplify and organize all the work for you! So you can enjoy building your website in less time.
 
 Try out Varbase with [simplytest.me](https://simplytest.me/) here: [**Try Varbase**](https://simplytest.me/project/varbase)!
 
