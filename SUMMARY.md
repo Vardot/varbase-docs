@@ -3,6 +3,7 @@
 * [About Varbase](README.md)
 * [Roadmap](roadmap.md)
 * [Getting Started](getting-started.md)
+  * [Understanding Varbase](understanding-varbase.md)
   * [Requirements](getting-started/requirements.md)
   * [Installing Varbase](getting-started/installing-varbase.md)
     * [Installing Through Composer](getting-started/installing-varbase/installing-through-composer.md)
@@ -43,5 +44,4 @@
 * [Frequently Asked Questions \(FAQs\)](installation.md)
 * [How To Get Support](update.md)
 * [Contributing](contributing.md)
-* [Additional Resources](additional-respources.md)
 
