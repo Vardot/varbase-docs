@@ -10,5 +10,13 @@ Visit Drupal.org for more information: [http://www.drupal.org](http://www.drupal
 
 Read here about how Drupal 8's installation profile feature works: [https://www.drupal.org/docs/8/creating-distributions](https://www.drupal.org/docs/8/creating-distributions)
 
+## Varbase components
+
+The components that make up Varbase a outlined in the Venn diagram below.
+
 ![](/assets/Varbase Structure.png)
+
+
+
+
 
