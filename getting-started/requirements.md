@@ -12,13 +12,27 @@
 | :--- | :--- |
 | **Browser** | A browser with ability to fully execute JavaScript from Varbase to access its full functionality. |
 
+## 
+
 ## Server-side requirements for evaluation purposes
 
-|  |  |
+| **Component** | **Description** |
 | :--- | :--- |
 |  |  |
 
+## 
+
 ## Server-side requirements for production
+
+| **Component** | **Description** |
+| :--- | :--- |
+|  |  |
+
+Additional recommended components for production use
+
+| **Component** | Description |
+| :--- | :--- |
+|  |  |
 
 
 
