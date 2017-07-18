@@ -14,9 +14,7 @@
 
 ## Server-side requirements for evaluation purposes
 
-
-
-## Server-side requirements for production 
+## Server-side requirements for production
 
 
 
