@@ -18,6 +18,9 @@
 
 | **Component** | **Description** |
 | :--- | :--- |
+| PHP | \* PHP version 5.6 or higher |
+| Web Server |  |
+| Database Engine |  |
 |  |  |
 
 ## 
