@@ -18,7 +18,7 @@
 
 | **Component** | **Description** |
 | :--- | :--- |
-| PHP | \* PHP version 5.6 or higher |
+| PHP | <ul><li>PHP version 5.6 or higher. PHP 7 is recommended.</li><li>PHP extensions: `mysqli (for MySQL), pgsql (for PostgreSQL), xml, gd, openssl, json, curl, mbstring, date, dom, filter, hash, pcre, pdo, session, SimpleXML, SPL, tokenizer`</li></ul> |
 | Web Server |  |
 | Database Engine |  |
 |  |  |
