@@ -8,11 +8,6 @@
 
 ## Client-side requirements
 
-[]()  | 
-------|------
-Browser | Enable your browser to execute JavaScript from Varbase to access their full functionality.
-
-
 ## Server-side requirements for evaluation purposes
 
 ## Server-side requirements for production
