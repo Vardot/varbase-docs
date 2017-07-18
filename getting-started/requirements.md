@@ -8,7 +8,7 @@
 
 ## Client-side requirements
 
-| **Requirement Type** | **Description** |
+| **Component** | **Description** |
 | :--- | :--- |
 | **Browser** | A browser with ability to fully execute JavaScript from Varbase to access its full functionality. |
 
