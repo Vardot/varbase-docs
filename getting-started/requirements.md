@@ -57,7 +57,6 @@ If you need help sizing your server, please contact us at https://www.vardot.com
 | :--- | :--- |
 | Memcache | <ul><li>Memcached server daemon</li><li>PECL Memcache or PHP Memcached libraries</li></ul> |
 | Varnish | Varnish cache, an advanced and very fast reverse-proxy system. |
-| Database Engine | Varbase works on any multiple database engines: <ul><li>MySQL (or an equivalent such as MariaDB or Percona Server) <em>(recommended)</em></li><li>PostgreSQL 9.1.2 or higher</li></ul> |
 
 
 
