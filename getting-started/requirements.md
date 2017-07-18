@@ -15,9 +15,18 @@
 ## 
 
 ## Server-side requirements for evaluation
+
+The below requirements outline the minimum needed requirements. If you need help sizing your server, please contact us at https://www.vardot.com/contact-us for consultation.
+
+* **Disk space**: Minimum 300MB for codebase, 5GB for files, and 1GB for database _(Will greatly depend on your application data and usage)_.
+* **Memory**: Minimum of 2GB (for 1 host).
+* **CPU**: Minimum of 2 CPUs is recommended (for 1 host).
+
+
+
 | **Component** | **Description** |
 | :--- | :--- |
-| PHP | <ul><li>PHP version 5.6 or higher. PHP 7 is recommended.</li><li>PHP extensions: `mysqli` <em>(for MySQL)</em>, `pgsql` <em>(for PostgreSQL)</em>, `xml`, `gd`, `openssl`, `json`, `curl`, `mbstring`, `date`, `dom`, `filter`, `hash`, `pcre`, `pdo`, `session`, `SimpleXML`, `SPL`, `tokenizer`, `mcrypt`</li></ul> |
+| PHP | <ul><li>PHP version 5.6 or higher. PHP 7 is recommended.</li><li>PHP extensions: mysqli <em>(for MySQL)</em>, pgsql <em>(for PostgreSQL)</em>, xml, gd, openssl, json, curl, mbstring, date, dom, filter, hash, pcre, pdo, session, SimpleXML, SPL, tokenizer, mcrypt</li></ul> |
 | Applications | <ul><li>Composer</li><li>Drush 9 or higher</li></ul> |
 | Web Server | Varbase works on any web server with PHP version of 5.6 or higher.<ul><li>Apache 2.x <em>(recommended)</em></li><li>Nginx</li><li>Microsoft IIS</li></ul>`mod_rewrite` is required if you use Apache.<br />`ngx_http_rewrite_module` if you use Nginx. |
 | Database Engine | Varbase works on any multiple database engines: <ul><li>MySQL (or an equivalent such as MariaDB or Percona Server) <em>(recommended)</em></li><li>PostgreSQL 9.1.2 or higher</li><li>SQLite 3.6.8 or higher</li></ul> |
@@ -25,6 +34,13 @@
 ## 
 
 ## Server-side requirements for production
+
+To deploy and run Varbase your web server must meet certain minimum requirements. We recommend sizing your application and considering your database size, files data, and expected traffic.
+
+Your servers' requirements will greatly be impacted by the usage of your application. For example, if you have more logged-in users that anonymous users, you will need to consider higher requirements to serve non-cached requests.
+
+If you need help sizing your server, please contact us at https://www.vardot.com/contact-us for consultation.
+
 
 | **Component** | **Description** |
 | :--- | :--- |
