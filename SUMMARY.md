@@ -42,6 +42,6 @@
   * [If Installed From Composer](features.md)
   * [If Installed From Packaged Drupal.Org](themes.md)
 * [Frequently Asked Questions \(FAQs\)](installation.md)
-* [How To Get Support](update.md)
+* [How to Get Support](update.md)
 * [Contributing](contributing.md)
 
