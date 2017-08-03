@@ -24,3 +24,7 @@ Apart from the regular Drupal updates, bug fixes, these are new features to be a
 | July 2017 | - ~~Landing pages using Paragraphs~~ <br /> - ~~Varbase Search feature to provide turnkey search feature~~ <br /> - ~~Cleanup composer installer to provide project-specific composer file for easier updates~~ <br /> |
 | August 2017 | - Add "Trash" feature for deleted content <br /> - Add "coming soon" feature for new sites <br /> - Add ability to clone entities/nodes<br /> - Add an admin dashboard for intuitive administration experience <br /> - Add ability to embed tweets, and other rich content in WYSIWYG <br /> - Add "Autocomplete deluxe" for nicer tagging |
 | September 2017 | _To be determined_  |
+| October 2017 | _To be determined_  |
+| November 2017 | _To be determined_  |
+| December 2017 | _To be determined_  |
+
