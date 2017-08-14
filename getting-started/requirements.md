@@ -14,7 +14,7 @@
 
 ## 
 
-## Server-side requirements for evaluation
+## Server-side requirements for evaluation or development
 
 The below requirements outline the minimum needed requirements. If you need help sizing your server, please contact us at https://www.vardot.com/contact-us for consultation.
 
@@ -27,7 +27,7 @@ The below requirements outline the minimum needed requirements. If you need help
 | **Component** | **Description** |
 | :--- | :--- |
 | PHP | <ul><li>PHP version 5.6 or higher. PHP 7 is recommended.</li><li>PHP extensions: mysqli <em>(for MySQL)</em>, pgsql <em>(for PostgreSQL)</em>, xml, gd, openssl, json, curl, mbstring, date, dom, filter, hash, pcre, pdo, session, SimpleXML, SPL, tokenizer, mcrypt</li></ul> |
-| Applications | <ul><li>Composer</li><li>Drush 9 or higher</li></ul> |
+| Applications | <ul><li>Composer</li><li>Drush 9 or higher</li><li>Git</li></ul> |
 | Web Server | Varbase works on any web server with PHP version of 5.6 or higher.<ul><li>Apache 2.x <em>(recommended)</em></li><li>Nginx</li><li>Microsoft IIS</li></ul>`mod_rewrite` is required if you use Apache.<br />`ngx_http_rewrite_module` if you use Nginx. |
 | Database Engine | Varbase works on any multiple database engines: <ul><li>MySQL (or an equivalent such as MariaDB or Percona Server) <em>(recommended)</em></li><li>PostgreSQL 9.1.2 or higher</li><li>SQLite 3.6.8 or higher</li></ul> |
 
@@ -45,7 +45,7 @@ If you need help sizing your server, please contact us at https://www.vardot.com
 | **Component** | **Description** |
 | :--- | :--- |
 | PHP | <ul><li>PHP version 5.6 or higher. PHP 7 is recommended.</li><li>PHP extensions: mysqli <em>(for MySQL)</em>, pgsql <em>(for PostgreSQL)</em>, xml, gd, openssl, json, curl, mbstring, date, dom, filter, hash, pcre, pdo, session, SimpleXML, SPL, tokenizer, mcrypt</li></ul> |
-| Applications | <ul><li>Composer</li><li>Drush 9 or higher</li></ul> |
+| Applications | <ul><li>Composer</li><li>Drush 9 or higher</li><li>Git</li></ul> |
 | Web Server | Varbase works on any web server with PHP version of 5.6 or higher.<ul><li>Apache 2.x <em>(recommended)</em></li><li>Nginx</li><li>Microsoft IIS</li></ul>`mod_rewrite` is required if you use Apache.<br />`ngx_http_rewrite_module` if you use Nginx. |
 | Database Engine | Varbase works on any multiple database engines: <ul><li>MySQL (or an equivalent such as MariaDB or Percona Server) <em>(recommended)</em></li><li>PostgreSQL 9.1.2 or higher</li></ul> |
 
