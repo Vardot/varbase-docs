@@ -4,11 +4,14 @@ Download it from:
 https://bitbucket.org/Vardot/varbase_subprofile_basic
 
 
-## Managing Installation Steps for Varbase sub profiles
+### Managing Installation Steps for Varbase sub profiles
+
 By managing your custom ConfigBits:
 
 
 **default.components.varbase_subprofile_basic.bit.yml**
+
+
 Which it could be a copy of [Varbase default components](https://github.com/Vardot/varbase/blob/8.x-4.x/configbit/default.components.varbase.bit.yml)
 
 
@@ -53,7 +56,10 @@ config_bit:
 
 **extra.components.varbase_subprofile_basic.bit.yml**
 
-Which it could be a copy of [extra varbase components](https://github.com/Vardot/varbase/blob/8.x-4.x/configbit/extra.components.varbase.bit.yml)
+
+Which it could be a copy of
+
+  [extra varbase components](https://github.com/Vardot/varbase/blob/8.x-4.x/configbit/extra.components.varbase.bit.yml)
 
 
 
@@ -82,7 +88,9 @@ config_bit:
 
 **demo.content.varbase_subprofile_basic.bit.yml**
 
-Which it could be a copy of [varbase demo components](https://github.com/Vardot/varbase/blob/8.x-4.x/configbit/demo.content.varbase.bit.yml)
+Which it could be a copy of
+
+  [varbase demo components](https://github.com/Vardot/varbase/blob/8.x-4.x/configbit/demo.content.varbase.bit.yml)
 
 
 ```
