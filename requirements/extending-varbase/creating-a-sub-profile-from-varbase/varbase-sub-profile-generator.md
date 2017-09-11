@@ -1,7 +1,9 @@
 # Varbase Sub Profile Generator
 
-We do have generator for new Varbase sub profiles
-as you could run the following commands in your local terminal.
+We do have a generator for new Varbase sub profiles, which could help you in a quick way.
+
+**For Example:** If we want to create a new Varbase sub profile named **cv** , we could do the following you could run the following commands in your local terminal.
+
 
 ```
 mkdir /var/www/html/products
@@ -38,5 +40,6 @@ varbase_subprofile_basic/
 varbase-subprofile-basic-project/
 ```
 
+You could download the latest generator for latest Varbase from https://bitbucket.org/Vardot/varbase-subprofile-generator/downloads/?tab=tags
 
 
