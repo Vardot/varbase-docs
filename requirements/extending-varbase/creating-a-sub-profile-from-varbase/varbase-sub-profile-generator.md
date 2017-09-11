@@ -91,7 +91,25 @@ git commit -m "Initial commit" .
 git push origin master
 ```
 
+## Step #6
+You will need to have a development working directory to work on changing on your sub profile
 
+** For Example:** 
+ If we want to add new features, modules, default content, demo content, and custom theme to our **cv** sub profile we could download the cv-project from https://bitbucket.org/Vardot/cv-project/downloads/ or clone it.
+ 
+ ```
+ mkdir /var/www/html/dev
+ cd /var/www/html/dev
+ git clone git@bitbucket.org:Vardot/cv-project.git
+ cd /var/www/html/dev/cv-project
+ ```
+
+After that you could run the composer install command
+
+```
+cd /var/www/html/dev/cv-project
+composer install -vvv
+```
 
 
 
