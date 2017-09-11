@@ -121,7 +121,7 @@ You will notice a **settings.yml** file which will set the default settings for 
 
 ```
 version: "8.4.08"
-dev_version: "8.4.x-dev"
+dev_version: "dev-master"
 default:
   subprofile_name: "varbase_subprofile_basic"
 processor:
