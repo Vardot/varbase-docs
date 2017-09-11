@@ -11,6 +11,7 @@ By managing your custom ConfigBits:
 **default.components.varbase_subprofile_basic.bit.yml**
 Which it could be a copy of [Varbase default components](https://github.com/Vardot/varbase/blob/8.x-4.x/configbit/default.components.varbase.bit.yml)
 
+
 ```
 # ==============================================================================
 # List of default varbase sub profile basic components, which they will be
@@ -54,6 +55,8 @@ config_bit:
 
 Which it could be a copy of [extra varbase components](https://github.com/Vardot/varbase/blob/8.x-4.x/configbit/extra.components.varbase.bit.yml)
 
+
+
 ```
 # ==============================================================================
 # List of varbase_subprofile_basic extra components, which they will be listed
@@ -71,15 +74,19 @@ config_bit:
           description: "A suite of site search engine tools to help you build better search performance, customization, and search experience. Built using <a href=\"https://www.drupal.org/project/search_api\" target=\"_blank\">Search API</a>."
           selected: false
           config_form: false
-
 ```
+
+
+
 
 
 **demo.content.varbase_subprofile_basic.bit.yml**
 
 Which it could be a copy of [varbase demo components](https://github.com/Vardot/varbase/blob/8.x-4.x/configbit/demo.content.varbase.bit.yml)
 
-```# ==============================================================================
+
+```
+# ==============================================================================
 # List of VARBASE_SUBPROFILE_BASIC demo components, which they will be listed under the 
 # Extra components installation step, in the Demo content section.
 # ==============================================================================
