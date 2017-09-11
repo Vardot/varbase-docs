@@ -7,15 +7,10 @@ We do have a generator for new Varbase sub profiles, which could help you in a q
 
 ```
 mkdir /var/www/html/products
-
 cd /var/www/html/products
-
 git clone git@bitbucket.org:Vardot/varbase-subprofile-generator.git
-
 cd /var/www/html/products/varbase-subprofile-generator
-
 git checkout 8.4.08
-
 bash create-new-varbase-subprofile.sh "cv" -vvv
 ```
 
@@ -24,18 +19,13 @@ After that you will have a new **cv** sub p**rofile cv-project** as you can see 
 
 ```
 cd /var/www/html/products/varbase-subprofile-generator
-
 ll
-
 create-new-varbase-subprofile.sh
-
 cv/
 cv-project/
-
 .git/
 README.md
 settings.yml
-
 varbase_subprofile_basic/
 varbase-subprofile-basic-project/
 ```
