@@ -4,7 +4,7 @@ Download it from:
 https://bitbucket.org/Vardot/varbase_subprofile_basic
 
 
-## Manage the custom Varbase sub profile
+## Managing Installation Steps for Varbase sub profiles
 By managing your custom ConfigBits:
 
 
