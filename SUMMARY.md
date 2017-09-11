@@ -38,8 +38,8 @@
     * [Creating Your Own Theme](requirements/extending-varbase/creating-your-own-theme.md)
     * [Creating Your Own Feature](requirements/extending-varbase/creating-your-own-feature.md)
     * [Creating A Sub Profile From Varbase](requirements/extending-varbase/creating-a-sub-profile-from-varbase.md)
-      * Varbase Sub Profile Basic Template
-      * Varbase Sub Profile Basic Project Template
+      * [Varbase Sub Profile Basic Template](requirements/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-basic-template.md)
+      * [Varbase Sub Profile Basic Project Template](requirements/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-basic-project-template.md)
       * [Varbase Sub Profile Generator](requirements/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-generator.md)
 * [Updating Varbase](chapter1.md)
   * [If Installed From Composer](features.md)
