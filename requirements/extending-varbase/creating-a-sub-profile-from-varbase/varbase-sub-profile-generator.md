@@ -132,7 +132,8 @@ processor:
   public_drupal: false
 ```
 
-
+For Development you may need to change the
+**dev_version** to and set it to **dev-master**.
 
 
 
