@@ -103,6 +103,8 @@ You will need to have a development working directory to work on changing on you
  git clone git@bitbucket.org:Vardot/cv-project.git
  cd /var/www/html/dev/cv-project
  ```
+ 
+ You will need set your needed branches, for example 8.x-1.x, or 8.x-4.x for your cv and cv-project to call then needed branch for development.
 
 After that you could run the composer install command
 
@@ -110,6 +112,26 @@ After that you could run the composer install command
 cd /var/www/html/dev/cv-project
 composer install -vvv
 ```
+
+Now you could head to http://localhost/dev/cv-project/docroot and install your sub profile for development.
+
+
+## Generator Settings
+You will notice a **settings.yml** file which will set the default settings for Varbase Sub Profile Generator.
+
+```
+version: "8.4.08"
+dev_version: "8.4.x-dev"
+default:
+  subprofile_name: "varbase_subprofile_basic"
+processor:
+  private_bitbucket: true
+  public_bitbucket: false
+  private_github: false
+  public_github: false
+  public_drupal: false
+```
+
 
 
 
