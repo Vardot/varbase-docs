@@ -70,9 +70,28 @@ https://bitbucket.org/Vardot/cv-project
 Then we could add the remote repositories
 
 ```
+cd /var/www/html/products/cv
+git init
+git remote add origin git@bitbucket.org:Vardot/cv.git
+git add .
+git commit -m "Initial commit" .
+git push origin master
+```
 
+Now we do have our cv sub profile as drupal-profile 
+
+And for the cv-project templates
 
 ```
+cd /var/www/html/products/cv-project
+git init
+git remote add origin git@bitbucket.org:Vardot/cv-project.git
+git add .
+git commit -m "Initial commit" .
+git push origin master
+```
+
+
 
 
 
