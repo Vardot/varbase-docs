@@ -6,7 +6,7 @@
 
 Varbase is an enhanced Drupal distribution packed with adaptive functionalities and essential modules, that speed up your development, and provides you with standardized configurations, making your life easier.
 
-The essence of Varbase, lies within the basic concept that initiated it; \[DRY \(Don’t Repeat Yourself\)\]\([https://www.wikiwand.com/en/Don't\_repeat\_yourself](https://www.wikiwand.com/en/Don't_repeat_yourself)\). Varbase handles that for you, relieving you from repeating all the modules, features, configurations that are included in every Drupal project.
+The essence of Varbase, lies within the basic concept that initiated it; \[DRY \(Don’t Repeat Yourself\)\]\(\[[https://www.wikiwand.com/en/Don't\_repeat\_yourself\]\(https://www.wikiwand.com/en/Don't\_repeat\_yourself\)\](https://www.wikiwand.com/en/Don't_repeat_yourself]%28https://www.wikiwand.com/en/Don't_repeat_yourself%29\)\). Varbase handles that for you, relieving you from repeating all the modules, features, configurations that are included in every Drupal project.
 
 Varbase can bring ease to you if you are:
 
@@ -17,7 +17,7 @@ Varbase can bring ease to you if you are:
 
 ## Join Varbase Slack team for feedback and support
 
-![](https://www.drupal.org/files/varbase-slack-cta_0.png)Visit http://slack.varbase.vardot.com/ to join now.
+[![](https://www.drupal.org/files/varbase-slack-cta_0.png)](http://slack.varbase.vardot.com/)Visit [http://slack.varbase.vardot.com/](http://slack.varbase.vardot.com/) to join now.
 
 ## 
 
