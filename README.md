@@ -6,7 +6,7 @@
 
 Varbase is an enhanced Drupal distribution packed with adaptive functionalities and essential modules, that speed up your development, and provides you with standardized configurations, making your life easier.
 
-The essence of Varbase, lies within the basic concept that initiated it; [DRY \(Don’t Repeat Yourself\)](https://www.wikiwand.com/en/Don't_repeat_yourself). Varbase handles that for you, relieving you from repeating all the modules, features, configurations that are included in every Drupal project.
+The essence of Varbase, lies within the basic concept that initiated it; \[DRY \(Don’t Repeat Yourself\)\]\([https://www.wikiwand.com/en/Don't\_repeat\_yourself](https://www.wikiwand.com/en/Don't_repeat_yourself)\). Varbase handles that for you, relieving you from repeating all the modules, features, configurations that are included in every Drupal project.
 
 Varbase can bring ease to you if you are:
 
@@ -14,6 +14,12 @@ Varbase can bring ease to you if you are:
 * Trying to bridge the gap between the users experience and editors experience.
 * Being overwhelmed by the complexity of making a fully-fledged Drupal CMS website.
 * Wasting so much time on choosing the suitable functionalities.
+
+## Join Varbase Slack team for feedback and support
+
+![](https://www.drupal.org/files/varbase-slack-cta_0.png)Visit http://slack.varbase.vardot.com/ to join now.
+
+## 
 
 ## Give it a spin and try it
 
