@@ -23,8 +23,8 @@ Apart from the regular Drupal updates, bug fixes, these are new features to be a
 | :--- | :--- |
 | July 2017 | - ~~Landing pages using Paragraphs~~ <br /> - ~~Varbase Search feature to provide turnkey search feature~~ <br /> - ~~Cleanup composer installer to provide project-specific composer file for easier updates~~ <br /> |
 | August 2017 | - ~~Add ability to clone entities/nodes~~ <br /> - ~~Add an admin dashboard for intuitive administration experience~~ <br /> - ~~Add ability to embed tweets, and other rich content in WYSIWYG~~ <br /> - ~~Add "Autocomplete deluxe" for nicer tagging~~ <br /> - ~~Add Schema Metatag for Varbase SEO~~ |
-| September 2017 | - Add subprofile template for distributions willing to build on top of Varbase <br />- ~~Add better paragraphs preview~~ <br /> - Add demo content and template theme |
-| October 2017 | - Add "Trash" feature for deleted content <br /> - Upgrade to Drupal 8.4 <br /> - Add "coming soon" feature for new sites <br />  |
+| September 2017 | - ~~Add subprofile template for distributions willing to build on top of Varbase~~ <br />- ~~Add better paragraphs preview~~ <br /> - ~~Add demo content and template theme~~ |
+| October 2017 | - ~~Upgrade to Drupal 8.4~~ <br /> - Add "coming soon" feature for new sites <br />  |
 | November 2017 | _To be determined_  |
 | December 2017 | _To be determined_  |
 
