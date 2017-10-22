@@ -21,7 +21,7 @@ Set the version of the generator
 
 ```
 cd /var/www/html/products/varbase-subprofile-generator
-git checkout 8.4.08
+git checkout 8.4.10
 ```
 
 ### Step #3
