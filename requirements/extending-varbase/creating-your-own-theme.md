@@ -17,7 +17,7 @@ bash ./create-new-vartheme.sh "THEME_NAME" "ltr" "sites/default/themes/custom"
 ```
 --------------------------------------------------------------------------------
 
-#### ## For right to left themes.
+#### For right to left themes.
 By Composer:
 ```
 cd PROJECT_DIR_NAME/docroot/profiles/varbase
