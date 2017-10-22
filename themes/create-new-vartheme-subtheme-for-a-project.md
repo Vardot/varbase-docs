@@ -2,21 +2,49 @@
 
 If you created your project with [Varbase Project](https://github.com/Vardot/varbase-project), you could use the ready create-new-vartheme command.
 
+
+#### Create new Vartheme sub theme for a project.
+By Composer:
 ```
-composer create-new-vartheme "THEME_NAME" "ltr" "docroot/sites/default/themes/custom"
+cd PROJECT_DIR_NAME/docroot/profiles/varbase
+composer create-new-vartheme "THEME_NAME" "ltr" "sites/default/themes/custom"
 ```
 
-For right to left themes.
-
+By Bash:
 ```
-composer create-new-vartheme "THEME_NAME" "rtl" "docroot/sites/default/themes/custom"
+cd PROJECT_DIR_NAME/docroot/profiles/varbase/scripts
+bash ./create-new-vartheme.sh "THEME_NAME" "ltr" "sites/default/themes/custom"
+```
+--------------------------------------------------------------------------------
+
+#### ## For right to left themes.
+By Composer:
+```
+cd PROJECT_DIR_NAME/docroot/profiles/varbase
+composer create-new-vartheme "THEME_NAME" "rtl" "sites/default/themes/custom"
 ```
 
-or to create a new theme in the docroot/themes/custom
-
+By Bash:
 ```
+cd PROJECT_DIR_NAME/docroot/profiles/varbase/scripts
+bash ./create-new-vartheme.sh "THEME_NAME" "rtl" "sites/default/themes/custom"
+```
+--------------------------------------------------------------------------------
+
+#### To create a new theme in the themes/custom
+By Composer:
+```
+cd PROJECT_DIR_NAME/docroot/profiles/varbase
 composer create-new-vartheme "THEME_NAME" "ltr"
 ```
+
+By Bash:
+```
+cd PROJECT_DIR_NAME/docroot/profiles/varbase/scripts
+bash ./create-new-vartheme.sh "THEME_NAME" "ltr"
+```
+--------------------------------------------------------------------------------
+
 
 #### List of steps to create new vartheme subtheme are listed in this link bash file.
 
