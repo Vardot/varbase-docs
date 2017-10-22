@@ -104,3 +104,7 @@ bash ./create-new-vartheme.sh "THEME_NAME" "ltr"
 
 All command for steps are in this [link](https://github.com/Vardot/varbase/blob/8.x-4.x/scripts/create-new-vartheme.sh)
 
+[https://github.com/Vardot/varbase/blob/8.x-4.x/scripts/create-new-vartheme.sh](https://github.com/Vardot/varbase/blob/8.x-4.x/scripts/create-new-vartheme.sh)
+
+
+
