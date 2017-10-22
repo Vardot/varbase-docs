@@ -1,4 +1,4 @@
-# Create new Vartheme subtheme for a project
+# Creating Your Own Theme
 
 If you created your project with [Varbase Project](https://github.com/Vardot/varbase-project), you could use the ready create-new-vartheme command.
 
