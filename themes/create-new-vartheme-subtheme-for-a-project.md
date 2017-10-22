@@ -1,6 +1,6 @@
 # Create new Vartheme subtheme for a project
 
-If you created your project with [Varbase Build](https://github.com/Vardot/varbase-build), you could use the ready create-new-vartheme command.
+If you created your project with [Varbase Project](https://github.com/Vardot/varbase-project), you could use the ready create-new-vartheme command.
 
 ```
 composer create-new-vartheme "THEME_NAME" "ltr" "docroot/sites/default/themes/custom"
@@ -20,7 +20,7 @@ composer create-new-vartheme "THEME_NAME" "ltr"
 
 #### List of steps to create new vartheme subtheme are listed in this link bash file.
 
-[https://github.com/Vardot/varbase-build/blob/8.x/scripts/varbase/cmd/create-new-vartheme.sh](https://github.com/Vardot/varbase-build/blob/8.x/scripts/varbase/cmd/create-new-vartheme.sh)
+[https://github.com/Vardot/varbase/blob/8.x-4.x/scripts/create-new-vartheme.sh](https://github.com/Vardot/varbase/blob/8.x-4.x/scripts/create-new-vartheme.sh)
 
 #### If you installed Varbase from drupal.org directly or by a drush dl varbase-8 you could follow the following steps:
 
