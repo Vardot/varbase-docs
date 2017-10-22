@@ -52,37 +52,54 @@ bash ./create-new-vartheme.sh "THEME_NAME" "ltr"
 
 #### If you installed Varbase from drupal.org directly or by a drush dl varbase-8 you could follow the following steps:
 
-1. Copy the VARTHEME\_SUBTHEME folder to your custom theme location.
+1. Copy the VARTHEME_SUBTHEME folder to your custom theme location.
 
-2. Rename VARTHEME\_SUBTHEME.starterkit.yml your\_subtheme\_name.info.yml
+2. Rename VARTHEME_SUBTHEME.starterkit.yml your_subtheme_name.info.yml
 
-3. Rename VARTHEME\_SUBTHEME.libraries.yml your\_subtheme\_name.libraries.yml
+3. Rename VARTHEME_SUBTHEME.libraries.yml your_subtheme_name.libraries.yml
 
-4. Rename VARTHEME\_SUBTHEME.theme your\_subtheme\_name.theme
+4. Rename VARTHEME_SUBTHEME.theme your_subtheme_name.theme
 
-5. Rename VARTHEME\_SUBTHEME.settings.yml
+5. Rename VARTHEME_SUBTHEME.settings.yml
 
-6. Rename VARTHEME\_SUBTHEME.schema.yml
+6. Rename VARTHEME_SUBTHEME.schema.yml
 
-7. Replace all VARTHEME\_SUBTHEME with the machine name of your theme.
+7. Rename VARTHEME_SUBTHEME optional blocks.
 
-8. Replace the name: 'Vartheme Sub-Theme \(LESS\)' to the name of your theme.
+8. Rename VARTHEME_SUBTHEME.base.css files.
 
-9. We do our changes in the theme to make it our own for the current project :\)
+9. Rename VARTHEME_SUBTHEME-rtl.base.css files.
 
-11 If we want to use the bootstrap library in the subtheme.
+10. Rename VARTHEME_SUBTHEME.base.less file.
 
-* 11.1 Delete the template folder bootstrap.
-* 11.2 Download the bootstrap library. change the version as you need.
-* 11.3 Extract the bootstrap library.
-* 11.4 Delete the archived bootstrap library.
+11. Rename VARTHEME_SUBTHEME-rtl.base.less file.
 
-12. we want to use the RTL \(right to left\) bootstrap.
+12. Replace all VARTHEME_SUBTHEME with the machine name of your theme.
 
-* 12.1. Delete the template folder bootstrap-rtl.
-* 12.2. Download the bootstrap library. change the version as you need.
-* 12.3. Extract the bootstrap library.
-* 12.4. Delete the archived bootstrap library.
+13. Replace the name: 'Vartheme Sub-Theme (LESS)' to the name of your theme.
 
-All command for steps are in this [link](https://github.com/Vardot/varbase-build/blob/8.x/scripts/varbase/cmd/create-new-vartheme.sh)
+#### We do our changes in the theme to make it our own for the current project :\)
+
+14. If we want to use the RTL (right to left) bootstrap.
+
+15.1 Delete the template folder bootstrap.
+
+15.2 Download the bootstrap library. change the version as you need.
+
+15.3 Extract the bootstrap library.
+
+15.4 Delete the archived bootstrap library.
+
+16. If we want to use the RTL (right to left) bootstrap.
+
+16.1. Delete the template folder bootstrap-rtl.
+
+16.2. Download the bootstrap library. change the version as you need.
+
+16.3. Extract the bootstrap library.
+
+16.4. Delete the archived bootstrap library.
+
+
+All command for steps are in this [link](https://github.com/Vardot/varbase/blob/8.x-4.x/scripts/create-new-vartheme.sh)
 
