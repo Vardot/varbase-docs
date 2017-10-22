@@ -78,27 +78,28 @@ bash ./create-new-vartheme.sh "THEME_NAME" "ltr"
 
 13. Replace the name: 'Vartheme Sub-Theme (LESS)' to the name of your theme.
 
-#### We do our changes in the theme to make it our own for the current project :\)
+#### We do our changes in the theme to make it our own for the current project :
 
-14. If we want to use the RTL (right to left) bootstrap.
+14 If we want to use the LTR (Left To Right) bootstrap.
 
-15.1 Delete the template folder bootstrap.
 
-15.2 Download the bootstrap library. change the version as you need.
+* 15.1 Delete the template folder bootstrap.
 
-15.3 Extract the bootstrap library.
+* 15.2 Download the bootstrap library. change the version as you need.
 
-15.4 Delete the archived bootstrap library.
+* 15.3 Extract the bootstrap library.
 
-16. If we want to use the RTL (right to left) bootstrap.
+* 15.4 Delete the archived bootstrap library.
 
-16.1. Delete the template folder bootstrap-rtl.
+16 If we want to use the RTL (right to left) bootstrap.
 
-16.2. Download the bootstrap library. change the version as you need.
+* 16.1 Delete the template folder bootstrap-rtl.
 
-16.3. Extract the bootstrap library.
+* 16.2. Download the bootstrap library. change the version as you need.
 
-16.4. Delete the archived bootstrap library.
+* 16.3. Extract the bootstrap library.
+
+* 16.4. Delete the archived bootstrap library.
 
 
 All command for steps are in this [link](https://github.com/Vardot/varbase/blob/8.x-4.x/scripts/create-new-vartheme.sh)
