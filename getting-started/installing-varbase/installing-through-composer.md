@@ -1,3 +1,5 @@
+# Installing Through Composer
+
 To install the most recent stable release of Varbase 8.4.x run this command:
 
 ```
