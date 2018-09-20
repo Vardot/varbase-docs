@@ -1,21 +1,16 @@
 # Varbase Sub Profile Basic Template
 
-Download it from:
-https://bitbucket.org/Vardot/varbase_subprofile_basic
+Download it from: [https://bitbucket.org/Vardot/varbase\_subprofile\_basic](https://bitbucket.org/Vardot/varbase_subprofile_basic)
 
-
-### Managing Installation Steps for Varbase sub profiles
+## Managing Installation Steps for Varbase sub profiles
 
 By managing your custom ConfigBits:
 
-
-**default.components.varbase_subprofile_basic.bit.yml**
-
+**default.components.varbase\_subprofile\_basic.bit.yml**
 
 Which it could be a copy of [Varbase default components](https://github.com/Vardot/varbase/blob/8.x-4.x/configbit/default.components.varbase.bit.yml)
 
-
-```
+```text
 # ==============================================================================
 # List of default varbase sub profile basic components, which they will be
 # installed when we install varbase.
@@ -47,23 +42,16 @@ config_bit:
 #        - varbase_subprofile_basic_CUSTOM_FEATRE_01
 #        - varbase_subprofile_basic_CUSTOM_FEATRE_02
 #        - varbase_subprofile_basic_CUSTOM_FEATRE_03
-#        - varbase_subprofile_basic_CUSTOM_FEATRE_04 
-
+#        - varbase_subprofile_basic_CUSTOM_FEATRE_04
 ```
 
-
-
-
-**extra.components.varbase_subprofile_basic.bit.yml**
-
+**extra.components.varbase\_subprofile\_basic.bit.yml**
 
 Which it could be a copy of
 
-  [extra varbase components](https://github.com/Vardot/varbase/blob/8.x-4.x/configbit/extra.components.varbase.bit.yml)
+[extra varbase components](https://github.com/Vardot/varbase/blob/8.x-4.x/configbit/extra.components.varbase.bit.yml)
 
-
-
-```
+```text
 # ==============================================================================
 # List of varbase_subprofile_basic extra components, which they will be listed
 # in the Extra feature form, when we install varbase subprofile basic.
@@ -82,18 +70,13 @@ config_bit:
           config_form: false
 ```
 
-
-
-
-
-**demo.content.varbase_subprofile_basic.bit.yml**
+**demo.content.varbase\_subprofile\_basic.bit.yml**
 
 Which it could be a copy of
 
-  [varbase demo components](https://github.com/Vardot/varbase/blob/8.x-4.x/configbit/demo.content.varbase.bit.yml)
+[varbase demo components](https://github.com/Vardot/varbase/blob/8.x-4.x/configbit/demo.content.varbase.bit.yml)
 
-
-```
+```text
 # ==============================================================================
 # List of VARBASE_SUBPROFILE_BASIC demo components, which they will be listed under the 
 # Extra components installation step, in the Demo content section.
@@ -110,6 +93,5 @@ config_bit:
           description: "If you're evaluating Varbase Subprofile, installing demo content will help you get an idea of how Varbase Subprofile works, and what features are included."
           selected: false
           config_form: false
-
-
 ```
+
