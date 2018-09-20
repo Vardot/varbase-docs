@@ -31,7 +31,7 @@ The below requirements outline the minimum needed requirements. If you need help
     <tr>
       <td style="text-align:left">PHP</td>
       <td style="text-align:left">
-        <p>PHP version 5.6 or higher. PHP 7 is recommended.</p>
+        <p>PHP 7 or higher. PHP 7.2 is recommended.</p>
         <p>PHP extensions: mysqli <em>(for MySQL)</em>, pgsql <em>(for PostgreSQL)</em>,
           xml, gd, openssl, json, curl, mbstring, date, dom, filter, hash, pcre,
           pdo, session, SimpleXML, SPL, tokenizer, mcrypt</p>
@@ -53,7 +53,15 @@ The below requirements outline the minimum needed requirements. If you need help
     </tr>
     <tr>
       <td style="text-align:left">Database Engine</td>
-      <td style="text-align:left">Varbase works on any multiple database engines:</td>
+      <td style="text-align:left">
+        <p>Varbase works on any multiple database engines. MySQL, MariaDB or Percona
+          Server (Recommended)</p>
+        <ul>
+          <li>MySQL 8 is supported only on Varbase 8.6.x or higher</li>
+          <li>Required MySQL 5.5.3/MariaDB 5.5.20/Percona Server 5.5.8 or higher with
+            InnoDB</li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>## Server-side requirements for production
@@ -77,7 +85,7 @@ If you need help sizing your server, please contact us at [https://www.vardot.co
     <tr>
       <td style="text-align:left">PHP</td>
       <td style="text-align:left">
-        <p>PHP version 5.6 or higher. PHP 7 is recommended.</p>
+        <p>PHP 7 or higher. PHP 7.2 is recommended.</p>
         <p>PHP extensions: mysqli <em>(for MySQL)</em>, pgsql <em>(for PostgreSQL)</em>,
           xml, gd, openssl, json, curl, mbstring, date, dom, filter, hash, pcre,
           pdo, session, SimpleXML, SPL, tokenizer, mcrypt</p>
@@ -99,7 +107,15 @@ If you need help sizing your server, please contact us at [https://www.vardot.co
     </tr>
     <tr>
       <td style="text-align:left">Database Engine</td>
-      <td style="text-align:left">Varbase works on any multiple database engines:</td>
+      <td style="text-align:left">
+        <p>Varbase works on any multiple database engines. MySQL, MariaDB or Percona
+          Server (Recommended)</p>
+        <ul>
+          <li>MySQL 8 is supported only on Varbase 8.6.x or higher</li>
+          <li>Required MySQL 5.5.3/MariaDB 5.5.20/Percona Server 5.5.8 or higher with
+            InnoDB</li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>### Additional recommended components for production use
@@ -130,5 +146,5 @@ If you need help sizing your server, please contact us at [https://www.vardot.co
 
 | **Component** | **Description** |
 | :--- | :--- |
-| Solr Search | Solr search server. Versions 4.x, 5.x or 6.x are all compatible. |
+| Solr Search | The minimum support Solr version is Solr 6.4 and Solr 7 is supported. |
 
