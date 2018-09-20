@@ -311,7 +311,7 @@ We have broken down the epics by month to provide a clear and transparent roadma
       </td>
       <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-5.0-alpha5">8.x-5.0-alpha5</a>
       </td>
-      <td style="text-align:center"><del>8.x-6.x-dev</del>
+      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.x-dev">8.x-6.x-dev</a>
       </td>
       <td style="text-align:left">
         <p></p>
