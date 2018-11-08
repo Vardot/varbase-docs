@@ -369,8 +369,23 @@ We have broken down the epics by month to provide a clear and transparent roadma
       <td style="text-align:left">October 2018</td>
       <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.26">8.x-4.26</a>
       </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">
+        <p></p>
+        <p></p>
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-5.2"><br />8.x-5.2</a>
+        </p>
+      </td>
+      <td style="text-align:center">
+        <p></p>
+        <p>
+          <br />
+          <br />
+        </p>
+        <p></p>
+        <p>
+          <br /><a href="https://www.drupal.org/project/varbase/releases/8.x-6.0">8.x-6.0</a>
+        </p>
+      </td>
       <td style="text-align:left">
         <p><b>Change for 8.x-4.x:</b>
         </p>
@@ -378,15 +393,6 @@ We have broken down the epics by month to provide a clear and transparent roadma
           <li><del>Drupal core and module updates</del>
           </li>
         </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-5.2">8.x-5.2</a>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:left">
         <p><b>Change for 8.x-5.x:</b>
         </p>
         <ul>
@@ -395,15 +401,6 @@ We have broken down the epics by month to provide a clear and transparent roadma
           <li><del>Changed modules info to use project:module syntax standard</del>
           </li>
         </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.0">8.x-6.0</a>
-      </td>
-      <td style="text-align:left">
         <p><b>Change for 8.x-6.x:</b>
         </p>
         <ul>
@@ -418,8 +415,16 @@ We have broken down the epics by month to provide a clear and transparent roadma
       <td style="text-align:left">November 2018</td>
       <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.27">8.x-27</a>
       </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">
+        <p></p>
+        <p><b><br /></b><a href="https://www.drupal.org/project/varbase/releases/8.x-5.3">8.x-5.3</a>
+        </p>
+      </td>
+      <td style="text-align:center">
+        <p></p>
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-6.1"><b><br /><br /><br /></b>8.x-6.1</a>
+        </p>
+      </td>
       <td style="text-align:left">
         <p><b>Change for 8.x-4.x:</b>
         </p>
@@ -427,15 +432,6 @@ We have broken down the epics by month to provide a clear and transparent roadma
           <li><del>Drupal core and module updates</del>
           </li>
         </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-5.3">8.x-5.3</a>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:left">
         <p><b>Change for 8.x-5.x:</b>
         </p>
         <ul>
@@ -444,15 +440,6 @@ We have broken down the epics by month to provide a clear and transparent roadma
           <li><del>Fixed some reported issues</del>
           </li>
         </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.1">8.x-6.1</a>
-      </td>
-      <td style="text-align:left">
         <p><b>Change for 8.x-6.x:</b>
         </p>
         <ul>
