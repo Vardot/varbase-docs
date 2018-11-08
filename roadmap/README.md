@@ -343,7 +343,12 @@ We have broken down the epics by month to provide a clear and transparent roadma
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.25">8.x-4.25</a>
         </p>
       </td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-5.0">8.x-5.0</a>
+      <td style="text-align:center">
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-5.0">8.x-5.0</a>
+        </p>
+        <p></p>
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-5.1">8.x-5.1</a>
+        </p>
       </td>
       <td style="text-align:center"></td>
       <td style="text-align:left">
