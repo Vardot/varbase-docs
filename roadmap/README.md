@@ -263,7 +263,7 @@ We have broken down the epics by month to provide a clear and transparent roadma
       </td>
       <td style="text-align:center">-</td>
       <td style="text-align:left">
-        <p><b>Change for 8.x-5.x:</b>
+        <p><b>Highlighted Changes for 8.x-5.x:</b>
         </p>
         <ul>
           <li><del>Change media entities to use Drupal core's media instead of contrib media entity</del>
@@ -289,13 +289,13 @@ We have broken down the epics by month to provide a clear and transparent roadma
       </td>
       <td style="text-align:center">-</td>
       <td style="text-align:left">
-        <p><b>Change for 8.x-4.x:</b>
+        <p><b>Highlighted Changes for 8.x-4.x:</b>
         </p>
         <ul>
           <li><del>Updates and bug fixes</del>
           </li>
         </ul>
-        <p><b>Change for 8.x-5.x:</b>
+        <p><b>Highlighted Changes for 8.x-5.x:</b>
         </p>
         <ul>
           <li><del>Add ability to link embedded media (image) when in CKEditor</del>
@@ -315,19 +315,19 @@ We have broken down the epics by month to provide a clear and transparent roadma
       </td>
       <td style="text-align:left">
         <p></p>
-        <p><b>Change for 8.x-4.x:</b>
+        <p><b>Highlighted Changes for 8.x-4.x:</b>
         </p>
         <ul>
           <li><del>Drupal core security update SA-CORE-2018-005 patch/fix</del>
           </li>
         </ul>
-        <p><b>Change for 8.x-5.x:</b>
+        <p><b>Highlighted Changes for 8.x-5.x:</b>
         </p>
         <ul>
           <li><del>Drupal core security update SA-CORE-2018-005 patch/fix</del>
           </li>
         </ul>
-        <p><b>Change for 8.x-6.x:</b>
+        <p><b>Highlighted Changes for 8.x-6.x:</b>
         </p>
         <ul>
           <li><del>Development branch to plan for 8.x-6.x utilizing Media Library new Drupal 8.6 core features</del>
@@ -353,7 +353,7 @@ We have broken down the epics by month to provide a clear and transparent roadma
       <td style="text-align:center"></td>
       <td style="text-align:left">
         <p></p>
-        <p><b>Change for 8.x-4.x:</b>
+        <p><b>Highlighted Changes for 8.x-4.x:</b>
         </p>
         <ul>
           <li><del>Drupal core and module updates</del>
@@ -361,7 +361,7 @@ We have broken down the epics by month to provide a clear and transparent roadma
           <li><del>Deprecate/remove Vartheme Material Design</del>
           </li>
         </ul>
-        <p><b>Change for 8.x-5.x:</b>
+        <p><b>Highlighted Changes for 8.x-5.x:</b>
         </p>
         <ul>
           <li><del>Add asset composer repo (</del>asset-packagist.org)</li>
@@ -374,39 +374,24 @@ We have broken down the epics by month to provide a clear and transparent roadma
       <td style="text-align:left">October 2018</td>
       <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.26">8.x-4.26</a>
       </td>
-      <td style="text-align:center">
-        <p></p>
-        <p></p>
-        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-5.2"><br />8.x-5.2</a>
-        </p>
+      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-5.2">8.x-5.2</a>
       </td>
-      <td style="text-align:center">
-        <p></p>
-        <p>
-          <br />
-          <br />
-        </p>
-        <p></p>
-        <p>
-          <br /><a href="https://www.drupal.org/project/varbase/releases/8.x-6.0">8.x-6.0</a>
-        </p>
+      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.0">8.x-6.0</a>
       </td>
       <td style="text-align:left">
-        <p><b>Change for 8.x-4.x:</b>
+        <p><b>Highlighted Changes for 8.x-4.x:</b>
         </p>
         <ul>
-          <li><del>Drupal core and module updates</del>
+          <li><del>Drupal core security update SA-CORE-2018-006 patch/fix</del>
           </li>
         </ul>
-        <p><b>Change for 8.x-5.x:</b>
+        <p><b>Highlighted Changes for 8.x-5.x:</b>
         </p>
         <ul>
-          <li><del>Drupal core and module updates</del>
-          </li>
-          <li><del>Changed modules info to use project:module syntax standard</del>
+          <li><del>Drupal core security update SA-CORE-2018-006 patch/fix</del>
           </li>
         </ul>
-        <p><b>Change for 8.x-6.x:</b>
+        <p><b>Highlighted Changes for 8.x-6.x:</b>
         </p>
         <ul>
           <li><del>Switched [Varbase Media] to use [Remote Video] with oEmbed from Drupal 8.6.x core</del>
@@ -418,43 +403,29 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">November 2018</td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.27">8.x-27</a>
+      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.27">8.x-4.27</a>
       </td>
-      <td style="text-align:center">
-        <p></p>
-        <p><b><br /></b><a href="https://www.drupal.org/project/varbase/releases/8.x-5.3">8.x-5.3</a>
-        </p>
+      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-5.3">8.x-5.3</a>
       </td>
-      <td style="text-align:center">
-        <p></p>
-        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-6.1"><b><br /><br /><br /></b>8.x-6.1</a>
-        </p>
+      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.1">8.x-6.1</a>
       </td>
       <td style="text-align:left">
-        <p><b>Change for 8.x-4.x:</b>
+        <p><b>Highlighted Changes for 8.x-4.x:</b>
         </p>
         <ul>
-          <li><del>Drupal core and module updates</del>
+          <li><del>Paragraphs Security Update</del>
           </li>
         </ul>
-        <p><b>Change for 8.x-5.x:</b>
+        <p><b>Highlighted Changes for 8.x-5.x:</b>
         </p>
         <ul>
-          <li><del>Drupal core and module updates</del>
-          </li>
-          <li><del>Fixed some reported issues</del>
+          <li><del>Paragraphs Security Update</del>
           </li>
         </ul>
-        <p><b>Change for 8.x-6.x:</b>
+        <p><b>Highlighted Changes for 8.x-6.x:</b>
         </p>
         <ul>
-          <li><del>Drupal core and module updates</del>
-          </li>
-          <li><del>Added exposed date filters to [Content, People] admin pages</del>
-          </li>
-          <li><del>Added a default [Simple sitemap] settings with [Skip non-existent translations] checked by default</del>
-          </li>
-          <li><del>Fixed some reported issues</del>
+          <li><del>Paragraphs Security Update</del>
           </li>
         </ul>
       </td>
