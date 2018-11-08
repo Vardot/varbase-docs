@@ -367,17 +367,105 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">October 2018</td>
+      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.26">8.x-4.26</a>
+      </td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
+      <td style="text-align:left">
+        <p><b>Change for 8.x-4.x:</b>
+        </p>
+        <ul>
+          <li><del>Drupal core and module updates</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-5.2">8.x-5.2</a>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:left">
+        <p><b>Change for 8.x-5.x:</b>
+        </p>
+        <ul>
+          <li><del>Drupal core and module updates</del>
+          </li>
+          <li><del>Changed modules info to use project:module syntax standard</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.0">8.x-6.0</a>
+      </td>
+      <td style="text-align:left">
+        <p><b>Change for 8.x-6.x:</b>
+        </p>
+        <ul>
+          <li><del>Switched [Varbase Media] to use [Remote Video] with oEmbed from Drupal 8.6.x core</del>
+          </li>
+          <li><del>Enabled an OPTIONAL [Layout Builder] configs to use with the [Default] view mode for the [Basic page] content type</del>
+          </li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">November 2018</td>
+      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.27">8.x-27</a>
+      </td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
+      <td style="text-align:left">
+        <p><b>Change for 8.x-4.x:</b>
+        </p>
+        <ul>
+          <li><del>Drupal core and module updates</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-5.3">8.x-5.3</a>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:left">
+        <p><b>Change for 8.x-5.x:</b>
+        </p>
+        <ul>
+          <li><del>Drupal core and module updates</del>
+          </li>
+          <li><del>Fixed some reported issues</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.1">8.x-6.1</a>
+      </td>
+      <td style="text-align:left">
+        <p><b>Change for 8.x-6.x:</b>
+        </p>
+        <ul>
+          <li><del>Drupal core and module updates</del>
+          </li>
+          <li><del>Added exposed date filters to [Content, People] admin pages</del>
+          </li>
+          <li><del>Added a default [Simple sitemap] settings with [Skip non-existent translations] checked by default</del>
+          </li>
+          <li><del>Fixed some reported issues</del>
+          </li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">December 2018</td>

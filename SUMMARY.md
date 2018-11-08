@@ -1,7 +1,8 @@
 # Table of contents
 
 * [About Varbase](README.md)
-* [Roadmap](roadmap.md)
+* [Roadmap](roadmap/README.md)
+  * [Release Cycle and Supported Versions](roadmap/release-cycle-and-supported-versions.md)
 * [Getting Started](getting-started/README.md)
   * [Understanding Varbase](getting-started/understanding-varbase.md)
   * [Requirements](getting-started/requirements.md)
