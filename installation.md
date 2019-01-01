@@ -4,7 +4,7 @@
 
 Use the new update instructions. Link is below.
 
-{% page-ref page="chapter1.md" %}
+{% page-ref page="updating-varbase.md" %}
 
 ### I have Varbase 8.4.x, how can I start using Media in core instead of the contributed Media modules?
 
@@ -15,7 +15,7 @@ You'll need to update your site in two steps.
 
 Alternatively, you can use the [varbase-updater](https://github.com/Vardot/varbase-updater) project which guides you through this process in a wizard. See the link below:
 
-{% page-ref page="chapter1.md" %}
+{% page-ref page="updating-varbase.md" %}
 
 
 

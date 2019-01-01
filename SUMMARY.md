@@ -42,7 +42,7 @@
       * [Varbase Sub Profile Basic Template](requirements/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-basic-template.md)
       * [Varbase Sub Profile Basic Project Template](requirements/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-basic-project-template.md)
       * [Varbase Sub Profile Generator](requirements/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-generator.md)
-* [Updating Varbase](chapter1.md)
+* [Updating Varbase](updating-varbase.md)
 * [Frequently Asked Questions \(FAQs\)](installation.md)
 * [How to Get Support](update.md)
 * [Contributing](contributing.md)
