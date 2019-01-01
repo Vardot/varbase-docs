@@ -6,6 +6,13 @@ Updating Varbase is best done through composer. When you installed Varbase, we w
 
 This will create the Varbase project directory that will look like this: `/path/to/YOUR_PROJECT` with the Drupal codebase installed via Varbase installation profile in `/path/to/YOUR_PROJECT`.
 
+{% hint style="danger" %}
+Updating Varbase should always be done in a local or development environment. Once the update process is properly done and tested you can push your code and build to your production site.  
+DO NOT update Varbase directly when in production. 
+{% endhint %}
+
+
+
 ### The Update Process
 
 There are two main update processes we will cover. 1\) Automated process using a tool we've developed to ease the update process for Varbase called [varbase-updater](https://github.com/Vardot/varbase-updater). 2\) Manual process if you wish to take take matters into your own hands.
