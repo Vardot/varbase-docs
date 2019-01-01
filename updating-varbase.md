@@ -19,7 +19,7 @@ An easy to use Automated Process is now available.
 
 If you previously used our Composer-based project template to install Varbase [varbase-project](https://github.com/Vardot/varbase-project), complete the following steps to update your codebase’s installed version of Varbase:
 
-1. From a command prompt window, navigate to your your project: `cd /path/to/YOUR_PROJECT`  
+1. From a command prompt window, navigate to your project: `cd /path/to/YOUR_PROJECT`  
 2. If you're using Varbase 8.6.2 or older, install [varbase-updater](https://github.com/Vardot/varbase-updater) through composer `composer require vardot/varbase-updater:^1.0`   If you're using Varbase 8.6.3 or newer, skip this step; [varbase-updater](https://github.com/Vardot/varbase-updater) comes pre-installed with your Varbase project. 
 3. Run the Varbase update tool `/bin/update-varbase.sh`  
 4. Follow the wizard. 
@@ -37,7 +37,7 @@ Did you face a problem after the wizard has run? Please report your problem thro
 
 #### OPTION 2: Manual Process — Do it Yourself
 
-1. From a command prompt window, navigate to your your project:  `cd /path/to/YOUR_PROJECT`  
+1. From a command prompt window, navigate to your project:  `cd /path/to/YOUR_PROJECT`  
 2. Edit your _composer.json_ file to be ready for updates. You have two choices.
    1. **The hard way:** Edit your _composer.json_ to include all the new updates made in [varbase-project](https://github.com/Vardot/varbase-project/blob/8.6.x/composer.json). This includes the new components required and its versions _"require"_, _"repositories"_, _"extra"_, and any other important config. You can use a diff tool such as [Meld](http://meldmerge.org/) or [DiffMerge](https://sourcegear.com/diffmerge/) to help you diff between your old _composer.json_ and the new one from [varbase-project](https://github.com/Vardot/varbase-project/blob/8.6.x/composer.json). 
    2. **The easy way:** 
