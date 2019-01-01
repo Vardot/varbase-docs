@@ -31,7 +31,7 @@ If you previously used our Composer-based project template to install Varbase [v
 3. Run the Varbase update tool `/bin/update-varbase.sh`  
 4. Follow the wizard. 
 
-   _You can learn about what is going on in the wizard in Varbase Updater wizard section._
+   _Curious?_ [_Learn more_ ](understanding-varbase-updater-package.md)_about what's going on in the Varbase Updater wizard._
 
 5. Buy yourself a drink! You're done. 
 6. After the update finishes and you get a success message, navigate to **admin/reports/varbase-updates** to learn about the new changes and updates introduced in your Varbase site.
