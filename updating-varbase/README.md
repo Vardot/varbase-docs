@@ -1,6 +1,6 @@
 # Updating Varbase
 
-### Before You Update
+## Before You Update
 
 Updating Varbase is best done through Composer. We will assume that you have [installed Varbase the recommended way](../getting-started/installing-varbase.md) through the Composer-based project template [varbase-project](https://github.com/Vardot/varbase-project) by running the command: `composer create-project Vardot/varbase-project:^8.6 YOUR_PROJECT --no-dev --no-interaction`
 
@@ -13,7 +13,7 @@ DO NOT update Varbase directly when in production.
 
 
 
-### The Update Process
+## The Update Process
 
 There are two main update processes we will cover. 1\) Automated process using a tool we've developed to ease the update process for Varbase called [varbase-updater](https://github.com/Vardot/varbase-updater). 2\) Manual process if you wish to take matters into your own hands.
 
@@ -23,7 +23,7 @@ An easy to use Automated Process is now available.
 ### ↓
 {% endhint %}
 
-#### OPTION 1: Automated Process — Using Varbase Updater \([varbase-updater](https://github.com/Vardot/varbase-updater)\)
+### OPTION 1: Automated Process — Using Varbase Updater \([varbase-updater](https://github.com/Vardot/varbase-updater)\)
 
 If you previously used our Composer-based project template to install Varbase [varbase-project](https://github.com/Vardot/varbase-project), complete the following steps to update your codebase’s installed version of Varbase:
 
@@ -43,7 +43,7 @@ Did you face a problem after the wizard has run? Please report your problem thro
 
 
 
-#### OPTION 2: Manual Process — Do it Yourself
+### OPTION 2: Manual Process — Do it Yourself
 
 1. From a command prompt window, navigate to your project:  `cd /path/to/YOUR_PROJECT`  
 2. Edit your _composer.json_ file to be ready for updates. You have two choices.
