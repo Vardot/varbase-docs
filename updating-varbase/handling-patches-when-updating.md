@@ -61,11 +61,23 @@ You can review it and try to handle those patches yourself.
 
 ## Installing Vardot's composer-patches Package
 
+#### Varbase 8.6.3 or greater
+
 If you're using Varbase 8.6.3 or greater, just run `composer update` and it will work.
 
-If you're using Varbase 8.6.2 or older, you can [update to the most recent version of Varbase 8.6.x](https://docs.varbase.vardot.com/updating-varbase#the-update-process) and make use of this functionality. Or run the following commands:
+#### Varbase 8.6.2 or older
 
-1. Add Vardot's composer-patches repository to use our forked package instead of the cweagans's. `composer config repositories.composer-patches vcs https://github.com/vardot/composer-patches`
-2. Run `composer update` to get the new package.
-3. Run `composer update` again to update your packages and start applying the new patching mechanism.
+If you're using Varbase 8.6.2 or older, you can [update to the most recent version of Varbase 8.6.x](https://docs.varbase.vardot.com/updating-varbase#the-update-process) and make use of this functionality. 
+
+#### Use Vardot's composer-patches without updating Varbase _\(not recommended\)_
+
+You can use Vardot's composer-patches without updating your Varbase installation by running the following commands:
+
+1. From a command prompt window, navigate to your project:  `cd /path/to/YOUR_PROJECT`  
+2. Require the Varbase Updater package. _\(Requiring the package only without running the update command will add the Composer plugins for patching but won't update Varbase. To update, you need to_ [_run the update command_](./#the-update-process)_\)._ `composer require vardot/varbase-updater`  
+3. Add Vardot's composer-patches repository to use our forked package instead of the cweagans's.  `composer config repositories.composer-patches vcs https://github.com/vardot/composer-patches` 
+4. Run `composer update` to get the new package. 
+5. Run `composer update` again to update your packages and start applying the new patching mechanism.
+
+
 
