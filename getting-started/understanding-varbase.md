@@ -4,8 +4,6 @@
 
 A Drupal distribution is collection of Drupal and other software components built, assembled and configured so that it can be used essentially "as is" for its intended purpose.
 
-![A Drupal 8 Distribution Illustration](../.gitbook/assets/image%20%281%29.png)
-
 Varbase is built on top of [Drupal 8](https://www.drupal.org/8), utilizing Drupal 8's installation profiles feature.
 
 Drupal is the \#1 platform for web content management among global enterprises, governments, higher education institutions, and NGOs. Flexible and highly scalable, Drupal publishes a single web site or shares content in multiple languages across many devices. Technology and business leaders transform content management into powerful digital solutions with Drupal backed by one of the world's most innovative open source communities.
