@@ -18,9 +18,7 @@ DO NOT update Varbase directly when in production.
 There are two main update processes we will cover. 1\) Automated process using a tool we've developed to ease the update process for Varbase called [varbase-updater](https://github.com/Vardot/varbase-updater). 2\) Manual process if you wish to take matters into your own hands.
 
 {% hint style="success" %}
-An easy to use Automated Process is now available.
-
-### ↓
+An easy to use Automated Process is now available. **↓**
 {% endhint %}
 
 ### OPTION 1: Automated Process — Using Varbase Updater \([varbase-updater](https://github.com/Vardot/varbase-updater)\)

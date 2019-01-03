@@ -1,12 +1,12 @@
 # Release Cycle and Supported Versions
 
-### Understanding Version Numbers
+## Understanding Version Numbers
 
 Varbase follows Drupal 8 release cycle. Therefore, a version of Varbase that is named 8.x-5.x uses the same **major** version of Drupal 8.x-5.x.
 
 
 
-### Varbase Supported Versions
+## Varbase Supported Versions
 
 Varbase supports one major version. That is the most recent one using the most recent Drupal 8 major version \(_e.g. `8.x-6.x`_\). 
 

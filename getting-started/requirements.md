@@ -4,13 +4,13 @@
 > No installation required, request your access in 5 mins.  
 > With an option to migrate to your own server later
 
-## Client-side requirements
+## Client-side Requirements
 
 | **Component** | **Description** |
 | :--- | :--- |
 | **Browser** | A browser with ability to fully execute JavaScript from Varbase to access its full functionality. |
 
-## Server-side requirements for evaluation or development
+## Server-side Requirements for Evaluation or Development
 
 The below requirements outline the minimum needed requirements. If you need help sizing your server, please contact us at [https://www.vardot.com/contact-us](https://www.vardot.com/contact-us) for consultation.
 
@@ -64,7 +64,7 @@ The below requirements outline the minimum needed requirements. If you need help
       </td>
     </tr>
   </tbody>
-</table>## Server-side requirements for production
+</table>## Server-side Requirements for Production
 
 To deploy and run Varbase your web server must meet certain minimum requirements. We recommend sizing your application and considering your database size, files data, and expected traffic.
 
@@ -118,7 +118,7 @@ If you need help sizing your server, please contact us at [https://www.vardot.co
       </td>
     </tr>
   </tbody>
-</table>### Additional recommended components for production use
+</table>### Additional Recommended Components for Production Use
 
 <table>
   <thead>
@@ -142,7 +142,7 @@ If you need help sizing your server, please contact us at [https://www.vardot.co
       <td style="text-align:left">Varnish cache, an advanced and very fast reverse-proxy system.</td>
     </tr>
   </tbody>
-</table>### Solr Search requirements \(if you use search\)
+</table>### Solr Search Requirements _\(If You Use Search API Solr\)_
 
 | **Component** | **Description** |
 | :--- | :--- |

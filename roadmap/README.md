@@ -1,19 +1,18 @@
 # Roadmap
 
-## Release cycle
+## Release Cycle
 
 Varbase is released every 2 to 3 weeks. Minor releases will be tagged when new features are introduced.
 
 Varbase releases are being communicated, coordinated and discussed on Drupal.org project's page at: [https://www.drupal.org/node/2890528](https://www.drupal.org/node/2890528)
 
-## Builds history
+## Builds History
 
 Builds are executed using Travis CI and can be viewed on this link: [https://travis-ci.org/Vardot/varbase](https://travis-ci.org/Vardot/varbase)
 
-Version 8.x-5.x [![Build Status](https://travis-ci.org/Vardot/varbase.svg?branch=8.x-5.x)](https://travis-ci.org/Vardot/varbase)  
 Version 8.x-6.x [![Build Status](https://travis-ci.org/Vardot/varbase.svg?branch=8.x-6.x)](https://travis-ci.org/Vardot/varbase)
 
-## Feature roadmap and change log
+## Feature Roadmap and Change Log
 
 These epics still need to be further research and refined. Please [contact us](http://varbase.vardot.com/contact) if you have ideas about realization or contribution.
 
