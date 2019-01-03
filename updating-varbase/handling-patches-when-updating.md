@@ -28,8 +28,8 @@ When you execute `composer update` or `composer require vendor/xyz` command, new
 
 | **Patch Applying Scenario** | **Patch is Still Needed?** | **Patch Will Apply?** | **Manual Action Needed?** |
 | :--- | :---: | :---: | :--- |
-| **1. Best Case:** Patch has not been included, and new version did not break the patch. | **Yes** | **Yes** | ✅**Nothing needed**. |
-| **2. Average Case:** Patch has been included in the new version. | **No** | **No** | ❌**You have to do** remove the patch from `composer.json` |
+| **1. Best Case:** Patch has not been included, and new version did not break the patch. | **Yes** | **Yes** | ✅**Nothing needed** |
+| **2. Average Case:** Patch has been included in the new version. | **No** | **No** | ❌**You have to** remove the patch from `composer.json` |
 | **3. Worst Case:** Patch has not been included, and new version did break the patch. | **Yes** | **No** | ❌**You have to** manually re-roll the patch, handle conflict, and fix it yourself |
 
 ### 
