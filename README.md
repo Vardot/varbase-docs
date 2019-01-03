@@ -6,7 +6,7 @@
 
 Varbase is an enhanced Drupal distribution packed with adaptive functionalities and essential modules, that speed up your development, and provides you with standardized configurations, making your life easier.
 
-The essence of Varbase, lies within the basic concept that initiated it; \[DRY \(Don’t Repeat Yourself\)\]\([https://www.wikiwand.com/en/Don't\_repeat\_yourself](https://www.wikiwand.com/en/Don't_repeat_yourself)\). Varbase handles that for you, relieving you from repeating all the modules, features, configurations that are included in every Drupal project.
+The essence of Varbase, lies within the basic concept that initiated it; [DRY \(Don’t Repeat Yourself\)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself). Varbase handles that for you, relieving you from repeating all the modules, features, configurations that are included in every Drupal project.
 
 Varbase can bring ease to you if you are:
 
@@ -15,15 +15,21 @@ Varbase can bring ease to you if you are:
 * Being overwhelmed by the complexity of making a fully-fledged Drupal CMS website.
 * Wasting so much time on choosing the suitable functionalities.
 
-## Join Varbase Slack team for feedback and support
+
+
+## Join Varbase Slack Team for Feedback and Support
 
 [![](https://www.drupal.org/files/varbase-slack-cta_0.png)](http://slack.varbase.vardot.com/)Visit [http://slack.varbase.vardot.com/](http://slack.varbase.vardot.com/) to join now.
 
-## Give it a spin and try it
+
+
+## Give It a Spin and Try It
 
 We simplify and organize all the work for you! So you can enjoy building your website in less time.
 
 Try out Varbase with [simplytest.me](https://simplytest.me/) here: [**Try Varbase**](https://simplytest.me/project/varbase)!
+
+
 
 ## Credits
 
