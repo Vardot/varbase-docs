@@ -12,7 +12,7 @@ You will need to update your Varbase installation to use Varbase 8.6.x, the [var
 
 Alternatively, you can update your site in two steps.
 
-1. Update to Varbase 8.4.29, then run `drush updb` to migrate your media entities to the core Media.
+1. Update to Varbase 8.4.28, then run `drush updb` to migrate your media entities to the core Media.
 2. After first steps is successful, update to the most recent version of Varbase.
 
 
