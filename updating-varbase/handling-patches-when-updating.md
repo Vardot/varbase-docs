@@ -20,6 +20,8 @@ If you have [updated to Varbase 8.6.3 or newer](./#option-1-automated-process-us
 Or see [installing Vardot's version of `composer-patches`](../getting-started/installing-varbase.md#installing-varbase-on-platform-sh) to add it manually.
 {% endhint %}
 
+
+
 ## Patching Scenarios
 
 When you execute `composer update` or `composer require vendor/xyz` command, newer versions of modules or core are downloaded. If patches for those modules are included, there are 3 possible scenarios:
@@ -33,25 +35,13 @@ When you execute `composer update` or `composer require vendor/xyz` command, new
       </th>
       <th style="text-align:center"><b>Patch will apply?</b>
       </th>
-      <th style="text-align:left"><b>Manual action needed?</b>
+      <th style="text-align:left"><b>Manual action needed</b>
       </th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><b>Base case:</b> Patch has been included in the new version.</td>
-      <td style="text-align:center"><b>No</b>
-      </td>
-      <td style="text-align:center"><b>No</b>
-      </td>
-      <td style="text-align:left">
-        <p><b>Yes</b>.</p>
-        <p>Remove the patch from <code>composer.json</code>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Normal case:</b> Patch has not been included, and new version did not
+      <td style="text-align:left"><b>1. Best Case:</b> Patch has not been included, and new version did not
         break the patch.</td>
       <td style="text-align:center"><b>Yes</b>
       </td>
@@ -60,8 +50,21 @@ When you execute `composer update` or `composer require vendor/xyz` command, new
       <td style="text-align:left"><b>No</b>.</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Worst case:</b> Patch has not been included, and new version did break
-        the patch.</td>
+      <td style="text-align:left"><b>2. Average Case:</b> Patch has been included in the new version.</td>
+      <td
+      style="text-align:center"><b>No</b>
+        </td>
+        <td style="text-align:center"><b>No</b>
+        </td>
+        <td style="text-align:left">
+          <p><b>Yes</b>.</p>
+          <p>Remove the patch from <code>composer.json</code>
+          </p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>3. Worst Case:</b> Patch has not been included, and new version did
+        break the patch.</td>
       <td style="text-align:center"><b>Yes</b>
       </td>
       <td style="text-align:center"><b>No</b>
@@ -70,16 +73,32 @@ When you execute `composer update` or `composer require vendor/xyz` command, new
         <br />Manually re-roll the patch, handle conflict, and fix it yourself</td>
     </tr>
   </tbody>
-</table>
+</table>### 
+
+### How Vardot Will Handle Those Cases
 
 Based on the scenarios mentioned above, we have forked the `"cweagans/composer-patches"` package, and added an Event Dispatcher on patch failure. The Event Dispatcher will dispatch an Event that will prompt you to perform an action depending on the scenarios above. Thus:
 
-1. **Base case:** Patch has been included in the new version.
-   * The Varbase Updater will detect that the patch has been applied and ask you if you want to remove it from your `composer.json`
-2. **Normal case:** Patch has been included in the new version.
-   * Nothing will happen.
-3. **Worst case:** Patch has not been included, and new version did break the patch.
-   * The Varbase Updater will log failed patches to a file named `failed-patches.txt`. You can review it and try to handle those patches yourself.
+{% hint style="success" %}
+#### **Best Case:** Patch has not been included, and new version did not break the patch.
+
+Nothing will happen.
+{% endhint %}
+
+{% hint style="warning" %}
+#### **Average Case:** Patch has been included in the new version.
+
+The Varbase Updater will detect that the patch has been applied and ask you if you want to remove it from your `composer.json`
+{% endhint %}
+
+{% hint style="danger" %}
+#### **Worst Case:** Patch has not been included, and new version did break the patch.
+
+The Varbase Updater will log failed patches to a file named `failed-patches.txt`  
+You can review it and try to handle those patches yourself.
+{% endhint %}
+
+
 
 ## Installing Vardot's composer-patches Package
 
