@@ -29,7 +29,7 @@ You can install Varbase on [Platform.sh](https://platform.sh/) and enjoy 30 days
 
 Follow this link to provision your Varbase instance on Platform.sh: [accounts.platform.sh/platform/trial/varbase/setup](https://accounts.platform.sh/platform/trial/varbase/setup)
 
-Or deploy Varbase using the baseline Varbase in our [Varbase Platforn.sh template project](https://github.com/Vardot/platformsh-example-varbase).
+Or deploy it using the baseline [Varbase Platform.sh template project](https://github.com/Vardot/platformsh-example-varbase).
 
 {% hint style="info" %}
 Follow Platform.sh documentation on developing with Drupal 8 and Varbase.  
