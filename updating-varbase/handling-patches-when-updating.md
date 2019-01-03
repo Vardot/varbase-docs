@@ -14,8 +14,8 @@ These issues become quite irritating and when maintaining a Drupal site, as Varb
 Therefore, we have thought of a better way to handle patching \(it's now implemented in Varbase 8.6.3 and above\). You'll need to [update your Varbase version](https://docs.varbase.vardot.com/updating-varbase#the-update-process) to make use of this patching mechanism.
 
 {% hint style="success" %}
-Now Varbase offers a forked and upgraded version of `composer-patches` package.  
-  
+#### Now Varbase offers a forked and upgraded version of `composer-patches` package.
+
 If you have [updated to Varbase 8.6.3 or newer](./#option-1-automated-process-using-varbase-updater-varbase-updater) it will be automatically included.  
 Or see [installing Vardot's version of `composer-patches`](../getting-started/installing-varbase.md#installing-varbase-on-platform-sh) to add it manually.
 {% endhint %}
@@ -26,54 +26,13 @@ Or see [installing Vardot's version of `composer-patches`](../getting-started/in
 
 When you execute `composer update` or `composer require vendor/xyz` command, newer versions of modules or core are downloaded. If patches for those modules are included, there are 3 possible scenarios:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Patch Applying Scenario</b>
-      </th>
-      <th style="text-align:center"><b>Patch is Still Needed?</b>
-      </th>
-      <th style="text-align:center"><b>Patch Will Apply?</b>
-      </th>
-      <th style="text-align:left"><b>Manual Action Needed?</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>1. Best Case:</b> Patch has not been included, and new version did not
-        break the patch.</td>
-      <td style="text-align:center"><b>Yes</b>
-      </td>
-      <td style="text-align:center"><b>Yes</b>
-      </td>
-      <td style="text-align:left"><b>No</b>.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>2. Average Case:</b> Patch has been included in the new version.</td>
-      <td
-      style="text-align:center"><b>No</b>
-        </td>
-        <td style="text-align:center"><b>No</b>
-        </td>
-        <td style="text-align:left">
-          <p><b>Yes</b>.</p>
-          <p>Remove the patch from <code>composer.json</code>
-          </p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>3. Worst Case:</b> Patch has not been included, and new version did
-        break the patch.</td>
-      <td style="text-align:center"><b>Yes</b>
-      </td>
-      <td style="text-align:center"><b>No</b>
-      </td>
-      <td style="text-align:left"><b>Yes</b>.
-        <br />Manually re-roll the patch, handle conflict, and fix it yourself</td>
-    </tr>
-  </tbody>
-</table>### 
+| **Patch Applying Scenario** | **Patch is Still Needed?** | **Patch Will Apply?** | **Manual Action Needed?** |
+| :--- | :---: | :---: | :--- |
+| **1. Best Case:** Patch has not been included, and new version did not break the patch. | **Yes** | **Yes** | ✅**Nothing needed**. |
+| **2. Average Case:** Patch has been included in the new version. | **No** | **No** | ❌**You have to do** remove the patch from `composer.json` |
+| **3. Worst Case:** Patch has not been included, and new version did break the patch. | **Yes** | **No** | ❌**You have to** manually re-roll the patch, handle conflict, and fix it yourself |
+
+### 
 
 ### How Vardot Will Handle Those Cases
 
