@@ -1,4 +1,4 @@
-# Handing Patches When Updating
+# Handling Patches When Updating
 
 ## Background
 
@@ -16,8 +16,8 @@ Therefore, we have thought of a better way to handle patching \(it's now impleme
 {% hint style="success" %}
 Now Varbase offers a forked and upgraded version of `composer-patches` package.  
   
-If you have [updated to Varbase 8.6.3 and or newer](./#option-1-automated-process-using-varbase-updater-varbase-updater) it will be automatically included.  
-Or see [installing Vardot's version of `composer-patches`](../getting-started/installing-varbase.md#installing-varbase-on-platform-sh) for manually adding it yourself.
+If you have [updated to Varbase 8.6.3 or newer](./#option-1-automated-process-using-varbase-updater-varbase-updater) it will be automatically included.  
+Or see [installing Vardot's version of `composer-patches`](../getting-started/installing-varbase.md#installing-varbase-on-platform-sh) to add it manually.
 {% endhint %}
 
 ## Patching Scenarios

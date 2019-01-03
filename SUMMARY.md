@@ -42,7 +42,7 @@
       * [Varbase Sub Profile Generator](requirements/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-generator.md)
 * [Updating Varbase](updating-varbase/README.md)
   * [Understanding Varbase Updater Package](updating-varbase/understanding-varbase-updater-package.md)
-  * [Handing Patches When Updating](updating-varbase/handing-patches-when-updating.md)
+  * [Handling Patches When Updating](updating-varbase/handling-patches-when-updating.md)
 * [Frequently Asked Questions \(FAQs\)](installation.md)
 * [How to Get Support](update.md)
 * [Contributing](contributing.md)
