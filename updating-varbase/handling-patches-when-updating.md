@@ -18,6 +18,8 @@ Therefore, we have thought of a better way to handle patching \(it's now impleme
 
 If you have [updated to Varbase 8.6.3 or newer](./#option-1-automated-process-using-varbase-updater-varbase-updater) it will be automatically included.  
 Or see [installing Vardot's version of `composer-patches`](../getting-started/installing-varbase.md#installing-varbase-on-platform-sh) to add it manually.
+
+You can find it on [https://github.com/Vardot/composer-patches](https://github.com/Vardot/composer-patches)
 {% endhint %}
 
 
