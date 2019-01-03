@@ -47,7 +47,7 @@ Nothing will happen.
 {% hint style="warning" %}
 #### **Average Case:** Patch has been included in the new version.
 
-The Varbase Updater will detect that the patch has been applied and ask you if you want to remove it from your `composer.json`
+The Varbase Updater will detect that the patch has been applied and ask you if you want to remove it from your `composer.json` file.
 {% endhint %}
 
 {% hint style="danger" %}
