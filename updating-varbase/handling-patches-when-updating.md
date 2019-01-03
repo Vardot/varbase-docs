@@ -61,7 +61,7 @@ The Varbase Updater will log failed patches to a file named `failed-patches.txt`
 You can review it and try to handle those patches yourself.
 {% endhint %}
 
-Example screenshot below
+Example screenshot of `failed-patches.txt` below:
 
 ![](../.gitbook/assets/vardot-composer-ptaches-failed-patches.txt-log-file.png)
 
