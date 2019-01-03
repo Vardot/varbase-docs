@@ -50,12 +50,20 @@ Nothing will happen.
 The Varbase Updater will detect that the patch has been applied and ask you if you want to remove it from your `composer.json` file.
 {% endhint %}
 
+Example screenshot below:
+
+![](../.gitbook/assets/vardot-composer-patches-patch-detected.png)
+
 {% hint style="danger" %}
 #### **Worst Case:** Patch has not been included, and new version did break the patch.
 
 The Varbase Updater will log failed patches to a file named `failed-patches.txt`  
 You can review it and try to handle those patches yourself.
 {% endhint %}
+
+Example screenshot below
+
+![](../.gitbook/assets/vardot-composer-ptaches-failed-patches.txt-log-file.png)
 
 
 
