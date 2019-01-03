@@ -31,11 +31,11 @@ When you execute `composer update` or `composer require vendor/xyz` command, new
     <tr>
       <th style="text-align:left"><b>Patch Applying Scenario</b>
       </th>
-      <th style="text-align:center"><b>Patch is still needed?</b>
+      <th style="text-align:center"><b>Patch is Still Needed?</b>
       </th>
-      <th style="text-align:center"><b>Patch will apply?</b>
+      <th style="text-align:center"><b>Patch Will Apply?</b>
       </th>
-      <th style="text-align:left"><b>Manual action needed</b>
+      <th style="text-align:left"><b>Manual Action Needed?</b>
       </th>
     </tr>
   </thead>
@@ -109,11 +109,4 @@ If you're using Varbase 8.6.2 or older, you can [update to the most recent versi
 1. Add Vardot's composer-patches repository to use our forked package instead of the cweagans's. `composer config repositories.composer-patches vcs https://github.com/vardot/composer-patches`
 2. Run `composer update` to get the new package.
 3. Run `composer update` again to update your packages and start applying the new patching mechanism.
-
-
-
-
-
-  
-
 
