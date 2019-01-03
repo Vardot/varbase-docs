@@ -23,3 +23,10 @@ Varbase follows Drupal 8 release cycle. Therefore, a version of Varbase that is 
 
 Read the [Release Cycle and Supported Versions](roadmap/release-cycle-and-supported-versions.md#varbase-supported-versions) to understand more.
 
+
+
+### What will happen if a patch that was added in the composer.json file got applied in the version of a module/package?
+
+We have developed a mechanism to handle and detect this scenario. [Read how](updating-varbase/handling-patches-when-updating.md) the new `composer-patches` package developed by Vardot will handle these cases.  
+Note, you'll need to have Varbase 8.6.3 to make use of this plugin.
+
