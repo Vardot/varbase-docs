@@ -33,7 +33,7 @@ If you previously used our Composer-based project template to install Varbase [v
    _Curious?_ [_Learn more_ ](understanding-varbase-updater-package.md)_about what's going on in the Varbase Updater wizard._
 
 5. Buy yourself a drink! You're done. 
-6. After the update finishes and you get a success message, navigate to **admin/reports/varbase-updates** to learn about the new changes and updates introduced in your Varbase site.
+6. After the update finishes and you get a success message, navigate to **admin/config/development/update-helper** to learn about the new changes and updates introduced in your Varbase site.
 
 {% hint style="info" %}
 Did you face a problem after the wizard has run? Please report your problem through the [Varbase issue queue](https://www.drupal.org/node/add/project-issue/varbase?component=Updater).
@@ -53,5 +53,7 @@ Did you face a problem after the wizard has run? Please report your problem thro
 3. Back up your code and database 
 4. Execute Composer update to download updates to modules and libraries. `composer update`  
 5. Run your database updates. `drush updatedb`  or by navigating to http://my.varbase-site.local/update.php \(where _my.varbase-site.local_ is the URL for your website\) and follow the on-screen instructions. 
-6. After the update finishes and you get a success message, navigate to **admin/reports/varbase-updates** to learn about the new changes and updates introduced in your Varbase site.
+6. After the update finishes and you get a success message, navigate to **admin/config/development/update-helper** to learn about the new changes and updates introduced in your Varbase site.
+
+
 
