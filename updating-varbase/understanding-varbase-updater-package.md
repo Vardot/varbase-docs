@@ -16,18 +16,16 @@ Varbase Updater process is outlined in the rudimentary flowchart below:
 
 ![](../.gitbook/assets/varbase-updater-flowchart.png)
 
-The process relies on a configuration file that is used as rules for updating from version to another. The configuration file can be found in `config/update-config.json` and is described as below:
+The process relies on a configuration file that is used as rules for updating from one version to another. The configuration file can be found in `config/update-config.json` and is described as below:
 
-The `update-config.json` file sets the update rules for a detected version. Directives are as follow
-
-* Each version pattern is treated as the version to be updated, and is defined in the JSON file with its own rules that include:
+* `“composer-project-json-url”`: the composer.json file that will be used in as the new file to process the update.
+* Each version pattern is treated as the detected version to be updated, and is defined in the JSON file with its own rules which are:
   * `“from”`: is the detected version.
-  * `“to”`: is the target version to upgrade to.
+  * `“to”`: is the target limit version to upgrade to.
   * `“packages”`: can include:
     * `“crucial”`: determines the packages that must be required/re-downloaded even if the target version no longer requires them.
     * `“skip”`: determines the packages that won’t be updated and remain on its old version.
   * `“enable-after-update”`: defines the modules will be enabled after the code update, and before the `drush updatedb` command.
-* `“composer-project-json-url”`: the composer.json file that will be used in as the new file to process the update.
 
 **Example:**
 
