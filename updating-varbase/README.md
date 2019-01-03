@@ -39,6 +39,13 @@ If you previously used our Composer-based project template to install Varbase [v
 Did you face a problem after the wizard has run? Please report your problem through the [Varbase issue queue](https://www.drupal.org/node/add/project-issue/varbase?component=Updater).
 {% endhint %}
 
+{% hint style="info" %}
+At the end of the update process, two log files are useful to troubleshoot your update:
+
+* `.update-error-log`: a log of all errors that occurred during the update process.
+* `failed-patches.txt`: a log of all patches that failed to apply during the update process.
+{% endhint %}
+
 
 
 ### OPTION 2: Manual Process — Do it Yourself
