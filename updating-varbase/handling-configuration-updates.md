@@ -57,28 +57,16 @@ In Varbase, we categorize configuration changes and updates into 4 types:
   </tbody>
 </table>
 
-## How Do We Communicate These Updates?
+## Varbase Update Changelog UI
 
-You'll find a list of . And right now we're looking into [Update Helper](https://www.drupal.org/project/update_helper) \(a tool made by Thunder team\) which provides UI using [Checklist API](https://www.drupal.org/project/checklistapi). This is a good tool as it shows the site admin, developer, or maintainer what new updates are available from inside the site itself.
+Varbase uses the [Update Helper](https://www.drupal.org/project/update_helper) module \(a module made by Thunder team\) which provides a UI using the [Checklist API](https://www.drupal.org/project/checklistapi). This is a good tool as it shows the site admin, developer, or maintainer what new updates are available from inside the site itself.
 
-* **Forced update** will show only if we want to tell the user about it, it will show as checked/done automatically.
-* **Forced update if unchanged** will show as checked/done automatically if it works, if configuration has been changed, it will show unchecked and inform the user about it. The user then has the option to override it \(which will make it an **Optional update**\).
-* **Optional update** show as unchecked with instructions on how to get this update. E.g., running a drush command or going to a page and checking a checkbox.
+{% hint style="info" %}
+### How to Access Varbase Updates Changelog UI
 
-#### How do we ensure "Forced update" run smoothly?
+You can navigate to _http://my.varbase-site.local/admin**/config/development/update-helper**_ _\(where my.varbase-site.local is the URL for your website\)_  
+or go to **Administration** → **Reports** → **Checklists** → **Varbase Updates** to learn about the new changes and updates introduced in your Varbase site.
+{% endhint %}
 
-These are regular update\_hooks and run similar to any module's change. If we want to tell the user about it, we will add it in the Update Helper checklist.
 
-#### How do we ensure "Forced update if unchanged" run smoothly, specially if existing config has been made/changed by site owner?
-
-Forced updates are usually low-risk and should not be made on entities that will most-likely be changed. Previously, we ran simple if statements to verify expected configuration before updating, then perform the update.
-
-Now, we're looking into [Update Helper](https://www.drupal.org/project/update_helper) as it provides an easy way to verify expected config through `expected_config:` in the yml file of the update.  
-See our work-in-progress here: [https://github.com/Vardot/varbase\_update\_helper](https://github.com/Vardot/varbase_update_helper)
-
-In the scenario you provided for the field\_tags, the `expected_config` will fail to detect the needed config since it was deleted, and the update will fail, but gracefully report it was failed in the UI without breaking the whole update process.
-
-#### How do we ensure "Optional update" run smoothly, specially if existing config has been changed by site owner?
-
-Through code. Usually we'd do a drush command for optional updates which gives us the flexibility to manipulate configuration as we want. Such optional updates are also expected to override the site's owner own configuration in case it was changed. But since it's optional, the site owner or developer should be aware of that. E.g., updating the admin/content view with new exposed filters we've added. If the view has been edited by the site owner, we give them a disclaimer that this optional update _might_ make their edits go away.
 
