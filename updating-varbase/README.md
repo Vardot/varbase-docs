@@ -44,8 +44,8 @@ Did you face a problem after the wizard has run? Please report your problem thro
 {% hint style="info" %}
 At the end of the update process, two log files are useful to troubleshoot your update:
 
-* `.update-error-log`: a log of all errors that occurred during the update process.
-* `failed-patches.txt`: a log of all patches that failed to apply during the update process.
+* `varbase_update_error.log`: a log of all errors that occurred during the update process.
+* `varbase_failed_patches.log`: a log of all patches that failed to apply during the update process.
 {% endhint %}
 
 

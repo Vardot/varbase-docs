@@ -33,38 +33,52 @@ The process relies on a configuration file that is used as rules for updating fr
 {
   "profile": "varbase",
   "package": "vardot/varbase",
+  "8.6.*": {
+    "from": "8.6.*",
+    "to": "8.6.*"
+  },
   "8.4.*": {
     "from": "8.4.*",
     "to": "8.4.28"
   },
   "8.4.28": {
     "from": "8.4.28",
-    "to": "8.6.3",
+    "to": "8.6.*",
     "packages": {
       "crucial": {
         "drupal/varbase_carousels": "6.0",
         "drupal/entity_browser": "2.0",
         "drupal/video_embed_field": "2.0",
         "drupal/media_entity": "2.0-beta3",
-        "drupal/panelizer": "4.1"
+        "drupal/panelizer": "4.1",
+        "vardot/entity_browser_generic_embed": "8.1.x-dev"
       }
     },
+    "skip":[
+      "media_entity_document",
+      "media_entity_image"
+    ],
     "enable-after-update":[
       "entity_browser_generic_embed"
     ]
   },
   "8.5.*": {
     "from": "8.5.*",
-    "to": "8.6.3",
+    "to": "8.6.*",
     "packages": {
       "crucial": {
         "drupal/varbase_carousels": "6.0",
         "drupal/entity_browser": "2.0",
         "drupal/video_embed_field": "2.0",
         "drupal/media_entity": "2.0-beta3",
-        "drupal/panelizer": "4.1"
+        "drupal/panelizer": "4.1",
+        "vardot/entity_browser_generic_embed": "8.1.x-dev"
       }
     },
+    "skip":[
+      "media_entity_document",
+      "media_entity_image"
+    ],
     "enable-after-update":[
       "entity_browser_generic_embed"
     ]
@@ -78,7 +92,7 @@ The process relies on a configuration file that is used as rules for updating fr
 {% hint style="info" %}
 At the end of the update process, two log files are useful to troubleshoot your update:
 
-* `.update-error-log`: a log of all errors that occurred during the update process.
-* `failed-patches.txt`: a log of all patches that failed to apply during the update process.
+* `varbase_update_error.log`: a log of all errors that occurred during the update process.
+* `varbase_failed_patches.log`: a log of all patches that failed to apply during the update process.
 {% endhint %}
 

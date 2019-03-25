@@ -30,9 +30,9 @@ When you execute `composer update` or `composer require vendor/xyz` command, new
 
 | **Patch Applying Scenario** | **Patch is Still Needed?** | **Patch Will Apply?** | **Manual Action Needed?** |
 | :--- | :---: | :---: | :--- |
-| **1. Best Case:** Patch has not been included, and new version did not break the patch. | **Yes** | **Yes** | ✅**Nothing needed** |
-| **2. Average Case:** Patch has been included in the new version. | **No** | **No** | ❌**You have to** remove the patch from `composer.json` |
-| **3. Worst Case:** Patch has not been included, and new version did break the patch. | **Yes** | **No** | ❌**You have to** manually re-roll the patch, handle conflict, and fix it yourself |
+| **1. Best Case:** Patch has not been included, and new version did not break the patch. | **Yes** | **Yes** | ✅ **Nothing needed** |
+| **2. Average Case:** Patch has been included in the new version. | **No** | **No** | ❌ **You have to** remove the patch from `composer.json`or add the patch to `patches-ignore` list in`composer.json` |
+| **3. Worst Case:** Patch has not been included, and new version did break the patch. | **Yes** | **No** | ❌ **You have to** manually re-roll the patch, handle conflict, and fix it yourself |
 
 ### 
 
@@ -49,7 +49,8 @@ Nothing will happen.
 {% hint style="warning" %}
 #### **Average Case:** Patch has been included in the new version.
 
-The Varbase Updater will detect that the patch has been applied and ask you if you want to remove it from your `composer.json` file.
+The Varbase Updater will detect that the patch has been applied and ask you if you want to remove it from your `composer.json` file.  
+If the patch is not in the root `composer.json` file, then Varbase Updater will ask to add it to the `patches-ignore` list instead.
 {% endhint %}
 
 Example screenshot below:
@@ -59,11 +60,11 @@ Example screenshot below:
 {% hint style="danger" %}
 #### **Worst Case:** Patch has not been included, and new version did break the patch.
 
-The Varbase Updater will log failed patches to a file named `failed-patches.txt`  
+The Varbase Updater will log failed patches to a file named `varbase_failed_patches.log`  
 You can review it and try to handle those patches yourself.
 {% endhint %}
 
-Example screenshot of `failed-patches.txt` below:
+Example screenshot of `varbase_failed_patches.log` below:
 
 ![](../.gitbook/assets/vardot-composer-ptaches-failed-patches.txt-log-file.png)
 

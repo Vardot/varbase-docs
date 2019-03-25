@@ -19,12 +19,12 @@ In Varbase, we categorize configuration changes and updates into 4 types:
       <td style="text-align:left"><b>Forced Update</b>
       </td>
       <td style="text-align:left">
-        <p>We have a new module that became a dependency, a configuration "fix",
+        <p>We have a new module that became a dependency, a configuration &quot;fix&quot;,
           or a database table alter.</p>
         <p>This is forced and will always be executed through <em>hook_update</em>.</p>
       </td>
       <td style="text-align:left">
-        <p>Increasing the "Maximum length" of a field of type "Text"</p>
+        <p>Increasing the &quot;Maximum length&quot; of a field of type &quot;Text&quot;</p>
         <p></p>
         <p>Enabling a low-risk module that will become a standard in Varbase</p>
       </td>
@@ -33,9 +33,9 @@ In Varbase, we categorize configuration changes and updates into 4 types:
       <td style="text-align:left"><b>Forced Update if Unchanged</b>
       </td>
       <td style="text-align:left">Mostly a configuration change. In the <em>hook_update</em> we check if this
-        setting remained the same before we do it so we don't override user's setting.</td>
-      <td
-      style="text-align:left">Changed a checkbox default value.</td>
+        setting remained the same before we do it so we don&apos;t override user&apos;s
+        setting.</td>
+      <td style="text-align:left">Changed a checkbox default value.</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Optional Update</b>
@@ -43,7 +43,7 @@ In Varbase, we categorize configuration changes and updates into 4 types:
       <td style="text-align:left">
         <p>A nice enhancement that we recommend you to use. We usually communicate
           this in Release notes.</p>
-        <p>There's no <em>hook_update</em> for this.</p>
+        <p>There&apos;s no <em>hook_update</em> for this.</p>
       </td>
       <td style="text-align:left">Introduced an updated view with more exposed filters for admins to manage
         content.</td>

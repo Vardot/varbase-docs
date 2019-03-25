@@ -96,7 +96,7 @@ We have broken down the epics by month to provide a clear and transparent roadma
         <ul>
           <li><del>Add ability to clone entities/nodes</del>
           </li>
-          <li><del>Add "Autocomplete deluxe" for nicer tagging</del>
+          <li><del>Add &quot;Autocomplete deluxe&quot; for nicer tagging</del>
           </li>
           <li><del>Add ability to choose background color in paragraphs</del>
           </li>
@@ -139,7 +139,7 @@ We have broken down the epics by month to provide a clear and transparent roadma
       <td style="text-align:center">-</td>
       <td style="text-align:left">
         <ul>
-          <li><del>Add "Edge-to-Edge 4:1 responsive image style for full-bleed images/paragraphs</del>
+          <li><del>Add &quot;Edge-to-Edge 4:1 responsive image style for full-bleed images/paragraphs</del>
           </li>
           <li><del>Reorder right-side fieldsets in content add/edit pages for consistent experience</del>
           </li>
@@ -265,9 +265,9 @@ We have broken down the epics by month to provide a clear and transparent roadma
         <p><b>Highlighted Changes for 8.x-5.x:</b>
         </p>
         <ul>
-          <li><del>Change media entities to use Drupal core's media instead of contrib media entity</del>
+          <li><del>Change media entities to use Drupal core&apos;s media instead of contrib media entity</del>
           </li>
-          <li><del>Add Video and Media fields, and change Varbase Blog to use "Main Media" which allows for a video or image instead of only image</del>
+          <li><del>Add Video and Media fields, and change Varbase Blog to use &quot;Main Media&quot; which allows for a video or image instead of only image</del>
           </li>
         </ul>
       </td>
