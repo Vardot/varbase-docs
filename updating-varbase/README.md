@@ -1,4 +1,4 @@
-# Updating Varbase
+# Updating a Varbase Site
 
 ## Before You Update
 

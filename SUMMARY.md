@@ -40,7 +40,7 @@
       * [Varbase Sub Profile Basic Template](requirements/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-basic-template.md)
       * [Varbase Sub Profile Basic Project Template](requirements/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-basic-project-template.md)
       * [Varbase Sub Profile Generator](requirements/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-generator.md)
-* [Updating Varbase](updating-varbase/README.md)
+* [Updating a Varbase Site](updating-varbase/README.md)
   * [Understanding Varbase Updater Package](updating-varbase/understanding-varbase-updater-package.md)
   * [Handling Patches When Updating](updating-varbase/handling-patches-when-updating.md)
   * [Handling Configuration Updates](updating-varbase/handling-configuration-updates.md)
