@@ -1,6 +1,6 @@
 # About Varbase
 
-![](.gitbook/assets/large-logo-color-with-padding.png)
+![The Ultimate Drupal CMS Starter Kit \(Bootstrap Ready\)](.gitbook/assets/large-logo-color-with-padding.png)
 
 ## **Introduction**
 
@@ -23,7 +23,9 @@ Varbase can bring ease to you if you are:
 
 We simplify and organize all the work for you! So you can enjoy building your website in less time.
 
-Try out Varbase with [simplytest.me](https://simplytest.me/) here: [**Try Varbase**](https://simplytest.me/project/varbase)!
+Try out Varbase on [**accounts.vardot.com**](https://accounts.vardot.com/)**.**
+
+
 
 ## Credits
 
