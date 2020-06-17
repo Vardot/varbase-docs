@@ -5,7 +5,7 @@
   * [Release Cycle and Supported Versions](roadmap/release-cycle-and-supported-versions.md)
 * [How to Get Support](update.md)
 
-## Developer and Site Builder Docs
+## Developer and Site Builder Docs <a id="dev-docs"></a>
 
 * [Getting Started](getting-started/README.md)
   * [Understanding Varbase](getting-started/understanding-varbase.md)
@@ -52,7 +52,9 @@
 
 ## User Guide
 
-## Contributing to Varbase
+* [Coming soon](user-guide/coming-soon.md)
 
-* [Contributing](contributing-to-varbase/contributing.md)
+## Contributing to Varbase <a id="contributing"></a>
+
+* [Contributing](contributing/contributing.md)
 
