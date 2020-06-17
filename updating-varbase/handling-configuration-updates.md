@@ -1,6 +1,6 @@
 # Handling Configuration Updates
 
-Varbase utilizes [Drupal 8's configuration management](https://www.drupal.org/docs/8/configuration-management) which made it extremely resilient to manage update paths for configuration changes in Varbase versions. 
+Varbase utilizes [Drupal 8's configuration management](https://www.drupal.org/docs/8/configuration-management) which made it extremely resilient to manage update paths for configuration changes in Varbase versions.
 
 ## Change or Update Types
 
@@ -25,7 +25,6 @@ In Varbase, we categorize configuration changes and updates into 4 types:
       </td>
       <td style="text-align:left">
         <p>Increasing the &quot;Maximum length&quot; of a field of type &quot;Text&quot;</p>
-        <p></p>
         <p>Enabling a low-risk module that will become a standard in Varbase</p>
       </td>
     </tr>
@@ -64,9 +63,7 @@ Varbase uses the [Update Helper](https://www.drupal.org/project/update_helper) m
 {% hint style="info" %}
 ### How to Access Varbase Updates Changelog UI
 
-You can navigate to _http://my.varbase-site.local/admin**/config/development/update-helper**_ _\(where my.varbase-site.local is the URL for your website\)_  
+You can navigate to [http://my.varbase-site.local/admin\*\*/config/development/update-helper\*\*](http://my.varbase-site.local/admin**/config/development/update-helper**) _\(where my.varbase-site.local is the URL for your website\)_  
 or go to **Administration** → **Reports** → **Checklists** → **Varbase Updates** to learn about the new changes and updates introduced in your Varbase site.
 {% endhint %}
-
-
 

@@ -1,4 +1,2 @@
 # Developing With Varbase
 
-
-

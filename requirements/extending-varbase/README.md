@@ -1,4 +1,2 @@
 # Extending Varbase
 
-
-

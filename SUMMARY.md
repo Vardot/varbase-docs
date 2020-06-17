@@ -3,6 +3,11 @@
 * [About Varbase](README.md)
 * [Roadmap](roadmap/README.md)
   * [Release Cycle and Supported Versions](roadmap/release-cycle-and-supported-versions.md)
+* [How to Get Support](update.md)
+* [Contributing](contributing.md)
+
+## Developer and Site Builder Docs
+
 * [Getting Started](getting-started/README.md)
   * [Understanding Varbase](getting-started/understanding-varbase.md)
   * [Requirements](getting-started/requirements.md)
@@ -45,6 +50,6 @@
   * [Handling Patches When Updating](updating-varbase/handling-patches-when-updating.md)
   * [Handling Configuration Updates](updating-varbase/handling-configuration-updates.md)
 * [Frequently Asked Questions \(FAQs\)](faqs.md)
-* [How to Get Support](update.md)
-* [Contributing](contributing.md)
+
+## User Guide
 

@@ -4,11 +4,9 @@ The Varbase Updater \([varbase-updater](https://github.com/Vardot/varbase-update
 
 ## Installing Varbase Updater
 
-Varbase Updater comes pre-installed with Varbase if you install Varbase through the Composer-based project template [varbase-project](https://github.com/Vardot/varbase-project). 
+Varbase Updater comes pre-installed with Varbase if you install Varbase through the Composer-based project template [varbase-project](https://github.com/Vardot/varbase-project).
 
 However, if you're using Varbase 8.6.2 and older, you will have to manually add the package by running this command: `composer require vardot/varbase-updater`
-
-
 
 ## Varbase Updater Process
 
@@ -86,8 +84,6 @@ The process relies on a configuration file that is used as rules for updating fr
   "composer-project-json-url": "https://raw.githubusercontent.com/Vardot/varbase-project/8.6.x/composer.json"
 }
 ```
-
-
 
 {% hint style="info" %}
 At the end of the update process, two log files are useful to troubleshoot your update:

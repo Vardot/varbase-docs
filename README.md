@@ -15,21 +15,15 @@ Varbase can bring ease to you if you are:
 * Being overwhelmed by the complexity of making a fully-fledged Drupal CMS website.
 * Wasting so much time on choosing the suitable functionalities.
 
-
-
 ## Join Varbase Slack Team for Feedback and Support
 
 [![](https://www.drupal.org/files/varbase-slack-cta_0.png)](http://slack.varbase.vardot.com/)Visit [http://slack.varbase.vardot.com/](http://slack.varbase.vardot.com/) to join now.
-
-
 
 ## Give It a Spin and Try It
 
 We simplify and organize all the work for you! So you can enjoy building your website in less time.
 
 Try out Varbase with [simplytest.me](https://simplytest.me/) here: [**Try Varbase**](https://simplytest.me/project/varbase)!
-
-
 
 ## Credits
 

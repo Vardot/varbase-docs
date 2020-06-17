@@ -18,42 +18,48 @@ The below requirements outline the minimum needed requirements. If you need help
 * **Memory**: Minimum of 2GB \(for 1 host\).
 * **CPU**: Minimum of 2 CPUs is recommended \(for 1 host\).
 
+| **Component** | **Description** |
+| :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b>Component</b>
-      </th>
-      <th style="text-align:left"><b>Description</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">PHP</td>
-      <td style="text-align:left">
+      <th style="text-align:left">PHP</th>
+      <th style="text-align:left">
         <p>PHP 7 or higher. PHP 7.2 is recommended.</p>
         <p>PHP extensions: mysqli <em>(for MySQL)</em>, pgsql <em>(for PostgreSQL)</em>,
           xml, gd, openssl, json, curl, mbstring, date, dom, filter, hash, pcre,
           pdo, session, SimpleXML, SPL, tokenizer, mcrypt</p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<table>
+  <thead>
     <tr>
-      <td style="text-align:left">Applications</td>
-      <td style="text-align:left">
+      <th style="text-align:left">Applications</th>
+      <th style="text-align:left">
         <p>Composer</p>
         <p>Drush 9 or higher</p>
         <p>Git</p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+| Web Server | Varbase works on any web server with PHP version of 5.6 or higher.`mod_rewrite` is required if you use Apache. `ngx_http_rewrite_module` if you use Nginx. |
+| :--- | :--- |
+
+
+<table>
+  <thead>
     <tr>
-      <td style="text-align:left">Web Server</td>
-      <td style="text-align:left">Varbase works on any web server with PHP version of 5.6 or higher.<code>mod_rewrite</code> is
-        required if you use Apache.
-        <br /><code>ngx_http_rewrite_module</code> if you use Nginx.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Database Engine</td>
-      <td style="text-align:left">
+      <th style="text-align:left">Database Engine</th>
+      <th style="text-align:left">
         <p>Varbase works on any multiple database engines. MySQL, MariaDB or Percona
           Server (Recommended)</p>
         <ul>
@@ -61,10 +67,11 @@ The below requirements outline the minimum needed requirements. If you need help
           <li>Required MySQL 5.5.3/MariaDB 5.5.20/Percona Server 5.5.8 or higher with
             InnoDB</li>
         </ul>
-      </td>
+      </th>
     </tr>
-  </tbody>
-</table>## Server-side Requirements for Production
+  </thead>
+  <tbody></tbody>
+</table>
 
 To deploy and run Varbase your web server must meet certain minimum requirements. We recommend sizing your application and considering your database size, files data, and expected traffic.
 
@@ -72,42 +79,48 @@ Your servers' requirements will greatly be impacted by the usage of your applica
 
 If you need help sizing your server, please contact us at [https://www.vardot.com/contact-us](https://www.vardot.com/contact-us) for consultation.
 
+| **Component** | **Description** |
+| :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b>Component</b>
-      </th>
-      <th style="text-align:left"><b>Description</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">PHP</td>
-      <td style="text-align:left">
+      <th style="text-align:left">PHP</th>
+      <th style="text-align:left">
         <p>PHP 7 or higher. PHP 7.2 is recommended.</p>
         <p>PHP extensions: mysqli <em>(for MySQL)</em>, pgsql <em>(for PostgreSQL)</em>,
           xml, gd, openssl, json, curl, mbstring, date, dom, filter, hash, pcre,
           pdo, session, SimpleXML, SPL, tokenizer, mcrypt</p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<table>
+  <thead>
     <tr>
-      <td style="text-align:left">Applications</td>
-      <td style="text-align:left">
+      <th style="text-align:left">Applications</th>
+      <th style="text-align:left">
         <p>Composer</p>
         <p>Drush 9 or higher</p>
         <p>Git</p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+| Web Server | Varbase works on any web server with PHP version of 5.6 or higher.`mod_rewrite` is required if you use Apache. `ngx_http_rewrite_module` if you use Nginx. |
+| :--- | :--- |
+
+
+<table>
+  <thead>
     <tr>
-      <td style="text-align:left">Web Server</td>
-      <td style="text-align:left">Varbase works on any web server with PHP version of 5.6 or higher.<code>mod_rewrite</code> is
-        required if you use Apache.
-        <br /><code>ngx_http_rewrite_module</code> if you use Nginx.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Database Engine</td>
-      <td style="text-align:left">
+      <th style="text-align:left">Database Engine</th>
+      <th style="text-align:left">
         <p>Varbase works on any multiple database engines. MySQL, MariaDB or Percona
           Server (Recommended)</p>
         <ul>
@@ -115,34 +128,32 @@ If you need help sizing your server, please contact us at [https://www.vardot.co
           <li>Required MySQL 5.5.3/MariaDB 5.5.20/Percona Server 5.5.8 or higher with
             InnoDB</li>
         </ul>
-      </td>
+      </th>
     </tr>
-  </tbody>
-</table>### Additional Recommended Components for Production Use
+  </thead>
+  <tbody></tbody>
+</table>
+
+| **Component** | **Description** |
+| :--- | :--- |
+
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b>Component</b>
-      </th>
-      <th style="text-align:left"><b>Description</b>
+      <th style="text-align:left">Memcache</th>
+      <th style="text-align:left">
+        <p>Memcached server daemon</p>
+        <p>PECL Memcache or PHP Memcached libraries</p>
       </th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Memcache</td>
-      <td style="text-align:left">
-        <p>Memcached server daemon</p>
-        <p>PECL Memcache or PHP Memcached libraries</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Varnish</td>
-      <td style="text-align:left">Varnish cache, an advanced and very fast reverse-proxy system.</td>
-    </tr>
-  </tbody>
-</table>### Solr Search Requirements _\(If You Use Search API Solr\)_
+  <tbody></tbody>
+</table>
+
+| Varnish | Varnish cache, an advanced and very fast reverse-proxy system. |
+| :--- | :--- |
+
 
 | **Component** | **Description** |
 | :--- | :--- |

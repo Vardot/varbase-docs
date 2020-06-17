@@ -2,7 +2,7 @@
 
 ## How You Can Help
 
-Varbase is a Drupal 8 distribution packed with adaptive functionalities and essential modules, that speed up your development, and provides you with standardized configurations, making your life easier. 
+Varbase is a Drupal 8 distribution packed with adaptive functionalities and essential modules, that speed up your development, and provides you with standardized configurations, making your life easier.
 
 It helps you build sites that employ enterprise-editing experience with a lot of functionalities.
 
@@ -10,8 +10,7 @@ We would love for you to join us in the effort of building Varbase. We are welco
 
 You can also join our Varbase Slack team for feedback and support
 
-[![](https://www.drupal.org/files/varbase-slack-cta_0.png)](http://slack.varbase.vardot.com/)Visit [http://slack.varbase.vardot.com/](http://slack.varbase.vardot.com/) to join now.  
-
+[![](https://www.drupal.org/files/varbase-slack-cta_0.png)](http://slack.varbase.vardot.com/)Visit [http://slack.varbase.vardot.com/](http://slack.varbase.vardot.com/) to join now.
 
 ## Help in Development
 
@@ -31,12 +30,5 @@ You can also join our Varbase Slack team for feedback and support
 
 ## Help in Documentation
 
-@todo: document.  
-
-
-
-
-
-
-
+@todo: document.
 

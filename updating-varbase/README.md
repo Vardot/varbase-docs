@@ -8,7 +8,7 @@ This will create the Varbase project directory that will look like this: `/path/
 
 {% hint style="warning" %}
 Updating Varbase should always be done in a **local or development environment**. Once the update process is properly done and tested you can push your code and build to your production site.  
-DO NOT update Varbase directly when in production. 
+DO NOT update Varbase directly when in production.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -30,12 +30,12 @@ If you previously used our Composer-based project template to install Varbase [v
 1. From a command prompt window, navigate to your project: `cd /path/to/YOUR_PROJECT`  
 2. If you're using Varbase 8.6.2 or older, install [varbase-updater](https://github.com/Vardot/varbase-updater) through Composer. `composer require vardot/varbase-updater`   If you're using Varbase 8.6.3 or newer, skip this step; [varbase-updater](https://github.com/Vardot/varbase-updater) comes pre-installed with your Varbase project. 
 3. Run the Varbase update tool. `./bin/update-varbase.sh`  
-4. Follow the wizard. 
+4. Follow the wizard.
 
    _Curious?_ [_Learn more_ ](understanding-varbase-updater-package.md)_about what's going on in the Varbase Updater wizard._
 
-5. Buy yourself a drink! You're done. 
-6. After the update finishes and you get a success message, navigate to _http://my.varbase-site.local/**admin/config/development/update-helper**_ \(where my.varbase-site.local is the URL for your website\) to learn about the new changes and updates introduced in your Varbase site.
+5. Buy yourself a drink! You're done.
+6. After the update finishes and you get a success message, navigate to [http://my.varbase-site.local/\*\*admin/config/development/update-helper\*\*](http://my.varbase-site.local/**admin/config/development/update-helper**) \(where my.varbase-site.local is the URL for your website\) to learn about the new changes and updates introduced in your Varbase site.
 
 {% hint style="info" %}
 Did you face a problem after the wizard has run? Please report your problem through the [Varbase issue queue](https://www.drupal.org/node/add/project-issue/varbase?component=Updater).
@@ -48,8 +48,6 @@ At the end of the update process, two log files are useful to troubleshoot your 
 * `varbase_failed_patches.log`: a log of all patches that failed to apply during the update process.
 {% endhint %}
 
-
-
 ### OPTION 2: Manual Process — Do it Yourself
 
 1. From a command prompt window, navigate to your project:  `cd /path/to/YOUR_PROJECT`  
@@ -61,8 +59,6 @@ At the end of the update process, two log files are useful to troubleshoot your 
       3. Move your new Composer file _composer.new.json_ in place of the old one. `mv composer.json composer.json.b; \ mv composer.new.json composer.json` 
 3. Back up your code and database 
 4. Execute Composer update to download updates to modules and libraries. `composer update`  
-5. Run your database updates. `drush updatedb`  or by navigating to _http://my.varbase-site.local/update.php_ \(where _my.varbase-site.local_ is the URL for your website\) and follow the on-screen instructions. 
-6. After the update finishes and you get a success message, navigate to _http://my.varbase-site.local/**admin/config/development/update-helper**_ \(where _my.varbase-site.local_ is the URL for your website\) to learn about the new changes and updates introduced in your Varbase site.
-
-
+5. Run your database updates. `drush updatedb`  or by navigating to [http://my.varbase-site.local/update.php](http://my.varbase-site.local/update.php) \(where _my.varbase-site.local_ is the URL for your website\) and follow the on-screen instructions. 
+6. After the update finishes and you get a success message, navigate to [http://my.varbase-site.local/\*\*admin/config/development/update-helper\*\*](http://my.varbase-site.local/**admin/config/development/update-helper**) \(where _my.varbase-site.local_ is the URL for your website\) to learn about the new changes and updates introduced in your Varbase site.
 

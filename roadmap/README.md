@@ -22,15 +22,15 @@ We have broken down the epics by month to provide a clear and transparent roadma
   <thead>
     <tr>
       <th style="text-align:left">Month/Year</th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>Version</p>
         <p>(8.x-4.x)</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>Version</p>
         <p>(8.x-5.x)</p>
       </th>
-      <th style="text-align:center">
+      <th style="text-align:left">
         <p>Version</p>
         <p>(8.x-6.x)</p>
       </th>
@@ -40,17 +40,17 @@ We have broken down the epics by month to provide a clear and transparent roadma
   <tbody>
     <tr>
       <td style="text-align:left">July 2017</td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.05">8.x-4.05</a>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.05">8.x-4.05</a>
       </td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
       <td style="text-align:left">
         <ul>
-          <li><del>Landing pages using Paragraphs</del> 
+          <li><del>Landing pages using Paragraphs</del>
           </li>
-          <li><del>Varbase Search feature to provide turnkey search feature</del> 
+          <li><del>Varbase Search feature to provide turnkey search feature</del>
           </li>
-          <li><del>Cleanup composer installer to provide project-specific composer file for easier updates</del> 
+          <li><del>Cleanup composer installer to provide project-specific composer file for easier updates</del>
             <br
             />
           </li>
@@ -59,22 +59,21 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">August 2017</td>
-      <td style="text-align:center">
+      <td style="text-align:left">
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.06">8.x-4.06</a>
         </p>
-        <p></p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.07">8.x-4.07</a>
         </p>
       </td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
       <td style="text-align:left">
         <ul>
-          <li><del>Add an admin dashboard for intuitive administration experience</del> 
+          <li><del>Add an admin dashboard for intuitive administration experience</del>
           </li>
           <li><del>Add subpro</del>file template for distributions willing to build
             on top of Varbase</li>
-          <li><del>Add ability to embed tweets, and other rich content in WYSIWYG</del> 
+          <li><del>Add ability to embed tweets, and other rich content in WYSIWYG</del>
           </li>
           <li><del>Add ability to send a node/content to an entityqueue from the add/edit form</del>
           </li>
@@ -83,15 +82,14 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">September 2017</td>
-      <td style="text-align:center">
+      <td style="text-align:left">
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.08">8.x-4.08</a>
         </p>
-        <p></p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.09">8.x-4.09</a>
         </p>
       </td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
       <td style="text-align:left">
         <ul>
           <li><del>Add ability to clone entities/nodes</del>
@@ -102,7 +100,7 @@ We have broken down the epics by month to provide a clear and transparent roadma
           </li>
           <li><del>Add Schema Metatag for Varbase SEO</del>
           </li>
-          <li><del>Add better paragraphs preview</del> 
+          <li><del>Add better paragraphs preview</del>
           </li>
           <li><del>Add default content and template theme</del>
           </li>
@@ -115,10 +113,10 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">October 2017</td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.10">8.x-4.10</a>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.10">8.x-4.10</a>
       </td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
       <td style="text-align:left">
         <ul>
           <li><del>Upgrade to Drupal 8.4 with media module in core</del>
@@ -128,15 +126,14 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">November 2017</td>
-      <td style="text-align:center">
+      <td style="text-align:left">
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.11">8.x-4.11</a>
         </p>
-        <p></p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.12">8.x-4.12</a>
         </p>
       </td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
       <td style="text-align:left">
         <ul>
           <li><del>Add &quot;Edge-to-Edge 4:1 responsive image style for full-bleed images/paragraphs</del>
@@ -150,10 +147,10 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">December 2017</td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.13">8.x-4.13</a>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.13">8.x-4.13</a>
       </td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
       <td style="text-align:left">
         <ul>
           <li><del>Paragraphs UX enhancements</del>
@@ -163,10 +160,10 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">January 2018</td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.14">8.x-4.14</a>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.14">8.x-4.14</a>
       </td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
       <td style="text-align:left">
         <ul>
           <li><del>Nicer and compact login screens (using Better Login module)</del>
@@ -178,10 +175,10 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">February 2018</td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.15">8.x-4.15</a>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.15">8.x-4.15</a>
       </td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
       <td style="text-align:left">
         <ul>
           <li><del>Drupal core security update SA-CORE-2018-001 patch/fix</del>
@@ -191,23 +188,21 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">March 2018</td>
-      <td style="text-align:center">
+      <td style="text-align:left">
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.16">8.x-4.16</a>
         </p>
-        <p></p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.17">8.x-4.17</a>
         </p>
-        <p></p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.18">8.x-4.18</a>
         </p>
       </td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
       <td style="text-align:left">
         <ul>
           <li><del>Add of-the-shelf Varbase Blog feature for ready to use blog</del>
           </li>
-          <li><del>Add of-the-shelf Varbase Auth feature for ready to use Social Media authentication </del>
+          <li><del>Add of-the-shelf Varbase Auth feature for ready to use Social Media authentication</del>
           </li>
           <li><del>Add Vartheme Material Design</del>
           </li>
@@ -222,19 +217,17 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">April 2018</td>
-      <td style="text-align:center">
+      <td style="text-align:left">
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.19">8.x-4.19</a>
         </p>
-        <p></p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.20">8.x-4.20</a>
         </p>
         <p>
           <br /><a href="https://www.drupal.org/project/varbase/releases/8.x-4.21">8.x-4.21</a>
         </p>
-        <p></p>
       </td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
       <td style="text-align:left">
         <ul>
           <li><del>Restructure Varbase features/modules/themes. To be required in composer and have their own release cycle/project repo</del>
@@ -250,17 +243,17 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">May 2018</td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">-</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">June 2018</td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-5.0-alpha1">8.x-5.0-alpha1</a>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-5.0-alpha1">8.x-5.0-alpha1</a>
       </td>
-      <td style="text-align:center">-</td>
+      <td style="text-align:left">-</td>
       <td style="text-align:left">
         <p><b>Highlighted Changes for 8.x-5.x:</b>
         </p>
@@ -274,19 +267,17 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">July 2018</td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.22">8.x-4.22</a>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.22">8.x-4.22</a>
       </td>
-      <td style="text-align:center">
+      <td style="text-align:left">
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-5.0-alpha2">8.x-5.0-alpha2</a>
         </p>
-        <p></p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-5.0-alpha3">8.x-5.0-alpha3</a>
         </p>
-        <p></p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-5.0-alpha4">8.x-5.0-alpha4</a>
         </p>
       </td>
-      <td style="text-align:center">-</td>
+      <td style="text-align:left">-</td>
       <td style="text-align:left">
         <p><b>Highlighted Changes for 8.x-4.x:</b>
         </p>
@@ -306,14 +297,13 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">August 2018</td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.23">8.x-4.23</a>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.23">8.x-4.23</a>
       </td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-5.0-alpha5">8.x-5.0-alpha5</a>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-5.0-alpha5">8.x-5.0-alpha5</a>
       </td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.x-dev">8.x-6.x-dev</a>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.x-dev">8.x-6.x-dev</a>
       </td>
       <td style="text-align:left">
-        <p></p>
         <p><b>Highlighted Changes for 8.x-4.x:</b>
         </p>
         <ul>
@@ -336,22 +326,20 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">September 2018</td>
-      <td style="text-align:center">
+      <td style="text-align:left">
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.24">8.x-4.24<br /></a>
         </p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.25">8.x-4.25</a>
         </p>
       </td>
-      <td style="text-align:center">
+      <td style="text-align:left">
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-5.0">8.x-5.0</a>
         </p>
-        <p></p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-5.1">8.x-5.1</a>
         </p>
       </td>
-      <td style="text-align:center"></td>
+      <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <p><b>Highlighted Changes for 8.x-4.x:</b>
         </p>
         <ul>
@@ -371,11 +359,11 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">October 2018</td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.26">8.x-4.26</a>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.26">8.x-4.26</a>
       </td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-5.2">8.x-5.2</a>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-5.2">8.x-5.2</a>
       </td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.0">8.x-6.0</a>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.0">8.x-6.0</a>
       </td>
       <td style="text-align:left">
         <p><b>Highlighted Changes for 8.x-4.x:</b>
@@ -402,11 +390,11 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">November 2018</td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.27">8.x-4.27</a>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-4.27">8.x-4.27</a>
       </td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-5.3">8.x-5.3</a>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-5.3">8.x-5.3</a>
       </td>
-      <td style="text-align:center"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.1">8.x-6.1</a>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.1">8.x-6.1</a>
       </td>
       <td style="text-align:left">
         <p><b>Highlighted Changes for 8.x-4.x:</b>
@@ -431,9 +419,9 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
     <tr>
       <td style="text-align:left">December 2018</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
   </tbody>
