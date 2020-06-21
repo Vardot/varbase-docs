@@ -35,13 +35,17 @@ Follow the steps below to setup Varbase with Lando.
    composer create-project Vardot/varbase-project MY_VARBASE_PROJECT --no-dev --no-interaction
    ```
 
-5. Move the Lando file inside the Varbase project folder and then start Lando
+5. Move the Lando file inside the Varbase project folder
 
    ```text
    mv .lando.yml MY_VARBASE_PROJECT
    cd MY_VARBASE_PROJECT
+   ```
 
-   lando start
+6. Rebuild the site to make sure Lando is wired up to the directories correctly. It will show green links if everything is in the right place
+
+   ```text
+   lando rebuild
    ```
 
 
