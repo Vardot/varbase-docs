@@ -13,5 +13,5 @@ It's made with the following benefits in mind:
 
 1. [Understanding Varbase](understanding-varbase.md)
 2. [Requirements](requirements.md)
-3. [Installing Varbase](installing-varbase.md)
+3. [Installing Varbase](installing-varbase/)
 
