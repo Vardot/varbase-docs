@@ -12,14 +12,11 @@ These epics still need to be further research and refined. Please [contact us](h
 
 We have broken down the epics by month to provide a clear and transparent roadmap. Apart from the regular Drupal updates, bug fixes, these are new features to be added.
 
-
 <table>
   <thead>
     <tr>
       <th style="text-align:left">Month/Year</th>
-      <th style="text-align:left">
-        <p>Version</p>
-      </th>
+      <th style="text-align:left">Version</th>
       <th style="text-align:left">Epic</th>
     </tr>
   </thead>
@@ -29,10 +26,8 @@ We have broken down the epics by month to provide a clear and transparent roadma
       <td style="text-align:left">
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.27">8.x-4.27</a>
         </p>
-        <p></p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-5.3">8.x-5.3</a>
         </p>
-        <p></p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-6.1">8.x-6.1</a>
         </p>
       </td>
@@ -62,14 +57,12 @@ We have broken down the epics by month to provide a clear and transparent roadma
       <td style="text-align:left">
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.26">8.x-4.26</a>
         </p>
-        <p></p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-5.0">8.x-5.0</a>
           <br
           />
         </p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-5.1">8.x-5.1</a>
         </p>
-        <p></p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-6.0">8.x-6.0</a>
         </p>
       </td>
@@ -103,7 +96,6 @@ We have broken down the epics by month to provide a clear and transparent roadma
         </p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.25">8.x-4.25</a>
         </p>
-        <p></p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-5.0">8.x-5.0</a>
           <br
           />
@@ -134,10 +126,8 @@ We have broken down the epics by month to provide a clear and transparent roadma
       <td style="text-align:left">
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.23">8.x-4.23</a>
         </p>
-        <p></p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-5.0-alpha5">8.x-5.0-alpha5</a>
         </p>
-        <p></p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-6.x-dev">8.x-6.x-dev</a>
         </p>
       </td>
@@ -167,7 +157,6 @@ We have broken down the epics by month to provide a clear and transparent roadma
       <td style="text-align:left">
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.22">8.x-4.22</a>
         </p>
-        <p></p>
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-5.0-alpha2">8.x-5.0-alpha2</a>
         </p>
         <p>
@@ -399,3 +388,4 @@ We have broken down the epics by month to provide a clear and transparent roadma
     </tr>
   </tbody>
 </table>
+

@@ -17,7 +17,7 @@ Alternatively, you can update your site in two steps.
 
 Varbase follows Drupal 8 release cycle. Therefore, a version of Varbase that is named 8.x-5.x uses the same **major** version of Drupal 8.x-5.x.
 
-Read the [Release Cycle and Supported Versions](roadmap/release-cycle-and-supported-versions.md#varbase-supported-versions) to understand more.
+Read the [Release Cycle and Supported Versions](../roadmap/release-cycle-and-supported-versions.md#varbase-supported-versions) to understand more.
 
 ## What will happen if a patch that was added in the composer.json file got applied in the version of a module/package?
 

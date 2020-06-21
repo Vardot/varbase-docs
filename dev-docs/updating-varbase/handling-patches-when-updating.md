@@ -51,7 +51,7 @@ If the patch is not in the root `composer.json` file, then Varbase Updater will 
 
 Example screenshot below:
 
-![](../.gitbook/assets/vardot-composer-patches-patch-detected.png)
+![](../../.gitbook/assets/vardot-composer-patches-patch-detected.png)
 
 {% hint style="danger" %}
 #### **Worst Case:** Patch has not been included, and new version did break the patch.
@@ -62,7 +62,7 @@ You can review it and try to handle those patches yourself.
 
 Example screenshot of `varbase_failed_patches.log` below:
 
-![](../.gitbook/assets/vardot-composer-ptaches-failed-patches.txt-log-file.png)
+![](../../.gitbook/assets/vardot-composer-ptaches-failed-patches.txt-log-file.png)
 
 ## Installing Vardot's composer-patches Package
 

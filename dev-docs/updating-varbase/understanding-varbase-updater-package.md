@@ -12,7 +12,7 @@ However, if you're using Varbase 8.6.2 and older, you will have to manually add 
 
 Varbase Updater process is outlined in the rudimentary flowchart below:
 
-![](../.gitbook/assets/varbase-updater-flowchart.png)
+![](../../.gitbook/assets/varbase-updater-flowchart.png)
 
 The process relies on a configuration file that is used as rules for updating from one version to another. The configuration file can be found in `config/update-config.json` and is described as below:
 

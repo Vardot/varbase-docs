@@ -16,5 +16,5 @@ Read here about how Drupal 8's installation profile feature works: [https://www.
 
 The components that make up Varbase are outlined in the Venn diagram below:
 
-![](../.gitbook/assets/varbase-structure.png)
+![](../../.gitbook/assets/varbase-structure.png)
 
