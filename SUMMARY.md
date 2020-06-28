@@ -54,6 +54,7 @@
 ## User Guide
 
 * [Coming soon](user-guide/coming-soon.md)
+* [Default Roles and Site Persons](user-guide/default-roles-and-site-persons.md)
 
 ## Contributing to Varbase <a id="contributing"></a>
 
