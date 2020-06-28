@@ -1,15 +1,27 @@
 # Default Roles and Site Persons
 
-Roles enables you to assign specific permissions to a group and to fine-tune the security, use and administration of modules, therefore of Drupal in general. Users assigned to the role or group, are granted those permissions as assigned to the role. Common examples of roles used with which you may be familiar include: anonymous user, authenticated user, moderator, and administrator.
+**What are Users?**
 
-By default, **Drupal 6** automatically defines two roles as a part of site installation:
+Anyone who visits your website is a _user_, including you. There are three groups of users:
 
-* **anonymous user** -- readers of the site who either do not have an account or are not logged in.
-* **authenticated user** -- the role assigned to new accounts on a Drupal site.
+* Users who are not logged in, or _**anonymous users**_
+* Users who are logged in, or _**authenticated users**_
+* The _**administrative user**_ account that was automatically created when you installed your site, or User 1.
 
-**Drupal 7** creates a third role **Administrator** when you use the _standard_ installation profile. This has all permissions enabled by default. If you want to have an Administrator role using the _Minimal_ installation profile, create a new role and select this as the admin role in admin/config/people/accounts.  
-  
-All users that can access the site have a defined role. Within each role, there are a set of permissions provided to each role. 
+#### What are Permissions? <a id="s-what-are-permissions"></a>
 
+The ability to do actions on your site \(including viewing content, editing content, and changing configuration\) is governed by _permissions_. Each permission has a name \(such as _View published content_\) and covers one action or a small subset of actions. A user must be granted a permission in order to do the corresponding action on the site; permissions are defined by the modules that provide the actions.
 
+#### What are Roles? <a id="s-what-are-roles"></a>
+
+Rather than assigning individual permissions directly to each user, permissions are grouped into _roles_. You can define one or more roles on your site, and then grant permissions to each role. The permissions granted to authenticated and anonymous users are contained in the _Authenticated user_ and _Anonymous user_ roles, and depending on the installation profile you used when you installed your site, there may also be an _Administrator_ role that is automatically assigned all permissions on your site.
+
+Each user account on your site is automatically given the _Authenticated user_ role, and may optionally be assigned one or more additional roles. When you assign a role to a user account, the user will have all the permissions of the role when logged in.
+
+It is a good practice to make several roles on your site. In the farmers market site example, you might want the following roles:
+
+* A Vendor role that allows vendors to edit their own vendor listing page
+* A Content editor role for editing the general farmers market pages
+* A User manager role for managing the vendor accounts
+* The _Administrator_ role that was installed with your site, for expert users to manage the site configuration
 
