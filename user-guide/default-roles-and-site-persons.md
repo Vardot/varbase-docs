@@ -7,5 +7,9 @@ By default, **Drupal 6** automatically defines two roles as a part of site insta
 * **anonymous user** -- readers of the site who either do not have an account or are not logged in.
 * **authenticated user** -- the role assigned to new accounts on a Drupal site.
 
-**Drupal 7** creates a third role **Administrator** when you use the _standard_ installation profile. This has all permissions enabled by default. If you want to have an Administrator role using the _Minimal_ installation profile, create a new role and select this as the admin role in admin/config/people/accounts.
+**Drupal 7** creates a third role **Administrator** when you use the _standard_ installation profile. This has all permissions enabled by default. If you want to have an Administrator role using the _Minimal_ installation profile, create a new role and select this as the admin role in admin/config/people/accounts.  
+  
+All users that can access the site have a defined role. Within each role, there are a set of permissions provided to each role. 
+
+
 
