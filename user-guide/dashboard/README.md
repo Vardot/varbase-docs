@@ -13,7 +13,7 @@ This dashboard is built on top of [Total Control Admin Dashboard](https://www.dr
 
 ![Varbase Total Control Admin Dashboard](../../.gitbook/assets/varbase-total-control-admin-dashboard-imac_0.png)
 
-### How to edit a Dashboard
+## How to edit a Dashboard
 
 Coming soon!
 
