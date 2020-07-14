@@ -1,6 +1,6 @@
 # Getting Started
 
-Varbase is a a solid Drupal starter kit, that enables developers to create enterprise-level websites with ease.
+Varbase is a solid Drupal starter kit, that enables developers to create enterprise-level websites with ease.
 
 It's made with the following benefits in mind:
 

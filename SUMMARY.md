@@ -53,7 +53,9 @@
 
 ## User Guide
 
-* [Default Roles and Site Personas](user-guide/default-roles-and-site-persons.md)
+* [Default Roles and Site Personas](user-guide/default-roles-and-site-persons/README.md)
+  * [Create Roles](user-guide/default-roles-and-site-persons/create-roles.md)
+  * [Edit Role's Permissions](user-guide/default-roles-and-site-persons/edit-roles-permissions.md)
 * [Dashboard](user-guide/dashboard/README.md)
   * [Reports](user-guide/dashboard/reports.md)
 * [Content Management](user-guide/content-management/README.md)
