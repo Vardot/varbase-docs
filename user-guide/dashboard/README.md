@@ -51,9 +51,3 @@ On the Dashboard page, user is able to edit his account information directly fro
 To edit the user information check _User Management_ section &gt; [Edit user](../user-management/edit-user.md)
 {% endhint %}
 
-## In this section:
-
-1. [Reports ](reports.md)from a different section
-2. [Create New contents](../content-management/untitled/)
-3. Quick links
-
