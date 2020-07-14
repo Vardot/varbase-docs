@@ -61,7 +61,7 @@ Check below the major permission on Varbase for each role:
       <td style="text-align:left">No</td>
       <td style="text-align:left">Yes</td>
       <td style="text-align:left">Yes</td>
-      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
       <td style="text-align:left">Yes</td>
       <td style="text-align:left">Yes</td>
     </tr>
@@ -71,7 +71,7 @@ Check below the major permission on Varbase for each role:
       <td style="text-align:left">No</td>
       <td style="text-align:left">Yes</td>
       <td style="text-align:left">Yes</td>
-      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
       <td style="text-align:left">Yes</td>
       <td style="text-align:left">Yes</td>
     </tr>
@@ -81,7 +81,7 @@ Check below the major permission on Varbase for each role:
       <td style="text-align:left">No</td>
       <td style="text-align:left">No</td>
       <td style="text-align:left">Yes</td>
-      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
       <td style="text-align:left">Yes</td>
       <td style="text-align:left">Yes</td>
     </tr>
@@ -91,7 +91,7 @@ Check below the major permission on Varbase for each role:
       <td style="text-align:left">No</td>
       <td style="text-align:left">Yes</td>
       <td style="text-align:left">Yes</td>
-      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
       <td style="text-align:left">Yes</td>
       <td style="text-align:left">Yes</td>
     </tr>
@@ -141,19 +141,29 @@ Check below the major permission on Varbase for each role:
       <td style="text-align:left">No</td>
       <td style="text-align:left">No</td>
       <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Revisions</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
       <td style="text-align:left">No</td>
       <td style="text-align:left">Yes</td>
       <td style="text-align:left">Yes</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Workflows management</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
     </tr>
   </tbody>
 </table>

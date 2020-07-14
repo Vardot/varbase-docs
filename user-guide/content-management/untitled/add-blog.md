@@ -10,3 +10,5 @@ Follow these steps to create a new _Blog page_ in your website:
 4. Click Save. 
 5. You should now see your post.
 
+![Create Blog post](../../../.gitbook/assets/2020-07-14_15-35-22.png)
+
