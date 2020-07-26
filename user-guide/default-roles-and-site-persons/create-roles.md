@@ -1,4 +1,6 @@
-# Create Roles
+# Managing Roles
+
+## Creating New Roles
 
 To create a new role follow these steps:
 
@@ -20,7 +22,7 @@ Pay attention for the following when creating a new role:
 3- Naming convention: Use sentence case for first letters and add spacing between the words.
 {% endhint %}
 
->
+## Manage Existing Roles
 
 
 

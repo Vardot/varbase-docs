@@ -1,24 +1,32 @@
-# Default Roles and Site Personas
+# Varbase Roles and Site Personas
 
-## Roles in Varbase:
+## Roles in Varbase
 
-Anyone who visits your website is a user. There are 7 main roles in Varbase:
+Varbase comes with preconfigured default roles tailored for sites with hierarchical content management permissions.
 
-1. **Anonymous user** User who can access the website without providing a username or password. 
-2. **Authenticated user** User who can access the website by providing a username or password. 
-3. **Editor** User has permission to edit all content on the website but cant publishes any content. 
-4. **Content Admin** This user can edit all content and publish it but can't edit any things else not related to the content roles. 
-5. **SEO Admin** This use can edit items that related to SEO stuff, Meta tags and Google Analytics. 
-6. **Site Admin** This user is can edit, delete, publish all content int the site. 
-7. **Super Admin** This use can edit everything in content and configurations for the site.
+The default roles that come preinstalled with Varbase are:
+
+1. **Editor** User has permission to edit all content on the website but cant publish any content. 
+2. **Content Admin** This user can edit all content and publish it but can't edit any things else not related to the content roles. 
+3. **SEO Admin** This use can edit items that related to SEO stuff, Meta tags and Google Analytics. 
+4. **Site Admin** This user is can edit, delete, publish all content int the site. 
+5. **Super Admin** This use can edit everything in content and configurations for the site.
 
 {% hint style="info" %}
-If you want to create a role, see section [Create Roles](create-roles.md)
+You'll also notice that there are 2 more roles when managing roles and permissions. The **Anonymous user** role and the **Authenticated user** role. These roles are provided by default from Drupal and cannot be edited/deleted. These roles help identify the users such as:
+
+**Anonymous user**: Any visitor/user who can access the website without providing a username or password.
+
+**Authenticated user**: Any user who can access the website by providing a username or password.
 {% endhint %}
 
-### Permissions 
+{% page-ref page="create-roles.md" %}
 
-Check below the major permission on Varbase for each role:
+
+
+## High-level Roles Designation
+
+Varbase default roles were created to with the following high-level roles designation in mind:
 
 <table>
   <thead>
@@ -169,8 +177,12 @@ Check below the major permission on Varbase for each role:
 </table>
 
 {% hint style="info" %}
-To edit any permission, see section [Edit permission](edit-roles-permissions.md)
+Varbase roles default roles and permissions can be edited and changed based on your own use case. 
+
+Like any Drupal site, you can edit the Roles and Permission freely without affecting any of Varbase functionality.
 {% endhint %}
+
+
 
 
 

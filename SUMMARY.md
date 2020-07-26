@@ -53,9 +53,9 @@
 
 ## User Guide
 
-* [Default Roles and Site Personas](user-guide/default-roles-and-site-persons/README.md)
-  * [Create Roles](user-guide/default-roles-and-site-persons/create-roles.md)
-  * [Edit Role's Permissions](user-guide/default-roles-and-site-persons/edit-roles-permissions.md)
+* [Varbase Roles and Site Personas](user-guide/default-roles-and-site-persons/README.md)
+  * [Managing Roles](user-guide/default-roles-and-site-persons/create-roles.md)
+  * [Edit Roles' Permissions](user-guide/default-roles-and-site-persons/edit-roles-permissions.md)
   * [Mascarade roles](user-guide/default-roles-and-site-persons/mascarade-roles.md)
 * [Dashboard](user-guide/dashboard/README.md)
   * [Reports](user-guide/dashboard/reports.md)
