@@ -7,10 +7,10 @@ Varbase comes with preconfigured default roles tailored for sites with hierarchi
 The default roles that come preinstalled with Varbase are:
 
 1. **Editor** User has permission to edit all content on the website but cant publish any content. 
-2. **Content Admin** This user can edit all content and publish it but can't edit any things else not related to the content roles. 
-3. **SEO Admin** This use can edit items that related to SEO stuff, Meta tags and Google Analytics. 
-4. **Site Admin** This user is can edit, delete, publish all content int the site. 
-5. **Super Admin** This use can edit everything in content and configurations for the site.
+2. **Content admin** This user can edit all content and publish it but can't edit any things else not related to the content roles. 
+3. **SEO admin** This use can edit items that related to SEO stuff, Meta tags and Google Analytics. 
+4. **Site admin** This user is can edit, delete, publish all content int the site. 
+5. **Super admin** This use can edit everything in content and configurations for the site.
 
 {% hint style="info" %}
 You'll also notice that there are 2 more roles when managing roles and permissions. The **Anonymous user** role and the **Authenticated user** role. These roles are provided by default from Drupal and cannot be edited/deleted. These roles help identify the users such as:
