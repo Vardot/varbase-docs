@@ -3,7 +3,7 @@
 To create a new role follow these steps:
 
 {% hint style="info" %}
-Note: Only **webmaster** can add new roles. 
+Note: Only **webmaster** can add or delete roles. 
 {% endhint %}
 
 1. In the _Manage_ administrative menu, navigate to _People&gt;Roles._
@@ -13,5 +13,14 @@ Note: Only **webmaster** can add new roles.
 
 You can now edit the permissions for this new Role.
 
-![](../../.gitbook/assets/2020-07-13_16-54-08.png)
+{% hint style="danger" %}
+Pay attention for the following when creating a new role:  
+1- Permissions  
+2- Assignable roles as it needs some configurations  
+3- Naming convention: Use sentence case for first letters and add spacing between the words.
+{% endhint %}
+
+>
+
+
 

@@ -7,9 +7,13 @@ To edit the permissions of any role follow these steps:
 3. Check the boxes for the following permissions, listed by a module.
 4. Click _Save permissions._
 
-{% hint style="info" %}
+{% hint style="success" %}
 **Note:** Some permissions may have security implications. Be cautious while assigning permissions to roles.
 {% endhint %}
 
-![Permissions Page](../../.gitbook/assets/2020-07-14_12-20-52%20%281%29.png)
+![Edit Permessions page](../../.gitbook/assets/permissions_test_qa_varbase_8_8_x_development_13_07_2020.png)
+
+{% hint style="info" %}
+Varbase come with default roles it can be edit and delete it when needed. 
+{% endhint %}
 

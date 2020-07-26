@@ -14,5 +14,5 @@ Follow these steps to create a new _Basic page_ in your website:
 4. Click Save. 
 5. You should now see your post.
 
-![Create Basic Page](../../../.gitbook/assets/2020-07-14_15-31-18.png)
+![](../../../.gitbook/assets/create_basic_page_test_qa_varbase_8_8_x_development_13_07_2020.png)
 

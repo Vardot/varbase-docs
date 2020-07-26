@@ -10,5 +10,5 @@ Follow these steps to create a new _Landing page_ in your website:
 4. Click Save. 
 5. You should now see your post.
 
-![Create Landing page](../../../.gitbook/assets/2020-07-14_15-32-13.png)
+![](../../../.gitbook/assets/create_landing_page_test_qa_varbase_8_8_x_development_13_07_2020.png)
 
