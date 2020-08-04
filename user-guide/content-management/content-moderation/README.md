@@ -1,2 +1,2 @@
-# Content moderation
+# Content Moderation
 
