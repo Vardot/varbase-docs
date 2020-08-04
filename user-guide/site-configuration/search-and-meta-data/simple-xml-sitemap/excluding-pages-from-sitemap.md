@@ -16,9 +16,11 @@ Please follow these steps below:
 
 4. To exclude this page from being indexed please select “Do not index this Basic page entity in variant Default”
 
-You can apply this setting before creating any content by just visiting the “SIMPLE XML SITEMAP” settings if it is enabled.  
-  
-For example Hero slider form, “SIMPLE XML SITEMAP” setting is disabled.
+You can apply this setting before creating any content by just visiting the “SIMPLE XML SITEMAP” settings if it is enabled.
 
-![Update Hero Slider content in site map ](../../../../.gitbook/assets/create-hero-slider-test-qa-varbase-8-8-x-development-13-07-2020.png)
+{% hint style="info" %}
+Some of the content types will be disabled by default like Hero Slider, Testimonials.  In another way, any content type that doesn't have a node page will be not indexed.
+{% endhint %}
+
+![Hero Slider content type in site map is disabled by default ](../../../../.gitbook/assets/create-hero-slider-test-qa-varbase-8-8-x-development-13-07-2020.png)
 
