@@ -1,3 +1,9 @@
+---
+description: >-
+  Creating content in Varbase via the preconfigured content types, and any
+  custom content types your webmaster creates.
+---
+
 # Create Content
 
 ## **Adding Content**
