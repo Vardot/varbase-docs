@@ -106,12 +106,8 @@
   * [System](user-guide/site-configuration/system/README.md)
     * [Google analytics](user-guide/site-configuration/system/google-analytics.md)
     * [Mail templates](user-guide/site-configuration/system/mail-templates.md)
-  * [Content authoring](user-guide/site-configuration/content-authoring/README.md)
-    * [Entity browser](user-guide/site-configuration/content-authoring/entity-browser.md)
-    * [FAQs](user-guide/site-configuration/content-authoring/faqs.md)
   * [User interface](user-guide/site-configuration/user-interface.md)
   * [Development](user-guide/site-configuration/development.md)
-  * [Search and meta data](user-guide/site-configuration/search-and-meta-data.md)
   * [Varbase settings](user-guide/site-configuration/varbase-settings.md)
   * [Web services](user-guide/site-configuration/web-services.md)
 
