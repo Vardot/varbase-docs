@@ -106,7 +106,7 @@
   * [Search and meta data](user-guide/site-configuration/search-and-meta-data/README.md)
     * [Meta tags](user-guide/site-configuration/search-and-meta-data/meta-tags.md)
     * [Simple XML sitemap](user-guide/site-configuration/search-and-meta-data/simple-xml-sitemap/README.md)
-      * [Excluding Pages from Sitemap](user-guide/site-configuration/search-and-meta-data/simple-xml-sitemap/excluding-pages-from-sitemap.md)
+      * [Prevent a single content from being indexed](user-guide/site-configuration/search-and-meta-data/simple-xml-sitemap/excluding-pages-from-sitemap.md)
     * [URL Redirects](user-guide/site-configuration/search-and-meta-data/url-redirects.md)
   * [Varbase settings](user-guide/site-configuration/varbase-settings.md)
   * [Web services](user-guide/site-configuration/web-services.md)

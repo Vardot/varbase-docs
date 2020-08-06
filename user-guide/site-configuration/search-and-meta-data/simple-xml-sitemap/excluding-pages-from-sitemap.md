@@ -1,4 +1,4 @@
-# Excluding Pages from Sitemap
+# Prevent a single content from being indexed
 
 This section will explain how to exclude a certain page from sitemap.xml.
 
