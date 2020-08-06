@@ -8,3 +8,15 @@ On other hand, almost everything can be editable from text, images to menu heade
 
 ![Vardot.com menu](../../.gitbook/assets/menu.png)
 
+## Edit menus
+
+There are several places you can edit the nodes from it. Here are examples where you can edit the content:  
+  
+1- In frontend, for every page you can use the admin menu to edit its content.  
+2- In frontend, for every section on any page, there is a quick edit menu that easily lets you edit the section with only 1 click.   
+3- In backend, there is an edit menu under the content page for each node. 
+
+![Edit and Quick Edit menus](../../.gitbook/assets/edit-content.png)
+
+![Edit menu under content page](../../.gitbook/assets/content-vardot.png)
+
