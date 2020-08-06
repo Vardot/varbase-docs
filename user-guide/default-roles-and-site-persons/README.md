@@ -1,4 +1,4 @@
-# Varbase Roles and Site Personas
+# Default Roles and Site Personas
 
 ## Roles in Varbase
 
@@ -20,7 +20,7 @@ You'll also notice that there are 2 more roles when managing roles and permissio
 **Authenticated user**: Any user who can access the website by providing a username or password.
 {% endhint %}
 
-{% page-ref page="create-roles.md" %}
+{% page-ref page="managing-roles.md" %}
 
 
 
