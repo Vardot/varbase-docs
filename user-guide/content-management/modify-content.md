@@ -1,3 +1,7 @@
+---
+description: Editing existing content in Varbase.
+---
+
 # Modify Content
 
 ## How to edit pages in Varbase

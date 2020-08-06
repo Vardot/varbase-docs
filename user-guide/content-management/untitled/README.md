@@ -1,7 +1,7 @@
 ---
 description: >-
-  Creating content in Varbase via the preconfigured content types, and any
-  custom content types your webmaster creates.
+  A guide to creating content in Varbase via the preconfigured content types,
+  and any custom content types your system administrator creates.
 ---
 
 # Create Content
