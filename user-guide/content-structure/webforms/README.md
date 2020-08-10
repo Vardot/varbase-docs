@@ -1,4 +1,4 @@
 # Webforms
 
-Coming Soon
+The _**Forms**_ management page lists all available webforms, which can be filtered by the following: title, description, elements, category and status.
 
