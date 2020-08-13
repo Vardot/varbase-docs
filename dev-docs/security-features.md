@@ -29,32 +29,20 @@ These modules include:
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">
-        <p>&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/captcha"><b>CAPTCHA</b></a><b> and </b>
-          <a
-          href="https://www.drupal.org/project/recaptcha"><b>reCAPTCHA</b>
-            </a><b> modules</b>
-        </p>
-        <p></p>
-        <p>&lt;em&gt;&lt;/em&gt;<a href="security-features.md#configuring-captcha-and-recaptcha-on-forms"><em>See how to configure &#x2193;</em></a>&lt;em&gt;&lt;/em&gt;</p>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/captcha"><b>CAPTCHA</b></a><b> and </b>
+        <a
+        href="https://www.drupal.org/project/recaptcha"><b>reCAPTCHA</b>
+          </a><b> modules</b>
       </td>
       <td style="text-align:left">Prevent spam submissions on forms</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p><a href="https://www.drupal.org/project/honeypot"><b>Honeypot</b></a><b> module</b>
-        </p>
-        <p></p>
-        <p>&lt;em&gt;&lt;/em&gt;<a href="security-features.md#configuring-honeypot-for-forms"><em>See how to configure &#x2193;</em></a>&lt;em&gt;&lt;/em&gt;</p>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/honeypot"><b>Honeypot</b></a><b> module</b>
       </td>
       <td style="text-align:left">Prevent spam submissions on forms</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p><a href="https://www.drupal.org/project/password_policy"><b>Password Policy</b></a><b> module and its submodules</b>
-        </p>
-        <p></p>
-        <p>&lt;em&gt;&lt;/em&gt;<a href="security-features.md#configuring-password-policies"><em>See how to configure &#x2193;</em></a>&lt;em&gt;&lt;/em&gt;</p>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/password_policy"><b>Password Policy</b></a><b> module and its submodules</b>
       </td>
       <td style="text-align:left">
         <p>Enforce a configurable password policy for site users. This includes:</p>
@@ -67,11 +55,7 @@ These modules include:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/seckit"><b>Security Kit</b></a><b> module</b>
-        </p>
-        <p></p>
-        <p>&lt;em&gt;&lt;/em&gt;<a href="security-features.md#configuring-security-kit-for-xss-csrf-ssl-expect-ct-and-more"><em>See how to configure &#x2193;</em></a>&lt;em&gt;&lt;/em&gt;</p>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/seckit"><b>Security Kit</b></a><b> module</b>
       </td>
       <td style="text-align:left">
         <p>Provides various options to mitigate risks of common web application vulnerabilities
@@ -90,7 +74,7 @@ These modules include:
   </tbody>
 </table>
 
-## Configuring CAPTCHA and reCAPTCHA on Forms
+## CAPTCHA and reCAPTCHA on Forms
 
 To configure the CAPTCHA methods in your site, navigate to:  
 **Administration** \ **Configuration** \ **People** \ _**CAPTCHA module settings**_
@@ -127,7 +111,7 @@ Adding a CAPTCHA challenge to a Webform this way will not list the form in the F
 
 \_\_
 
-## Configuring Honeypot for Forms
+## Honeypot Spam Deterring on Forms
 
 Honeypot uses both the honeypot and timestamp methods of deterring spam bots from completing forms on your site. These methods are effective against many spam bots, and are not as intrusive as CAPTCHAs or other methods which punish the user.
 
@@ -152,7 +136,7 @@ You can also enable Honeypot spam deterring mechanism on Webforms individually f
 
 
 
-## Configuring Password Policies
+## Password Policies
 
 To configure the Password Policies in your site, navigate to:  
 **Administration** \ **Configuration** \ **Security** \ _**Password Policy**_
@@ -169,7 +153,7 @@ A password policy can be defined with a set of constraints which must be met bef
 
 
 
-## Configuring Security Kit for XSS, CSRF, SSL, Expect-CT, and More
+## Security Kit for XSS, CSRF, SSL/TLS, Expect-CT, and More
 
 To configure the Security Kit module in your site, navigate to:  
 **Administration** \ **Configuration** \ **System** \ _**Security Kit settings**_
