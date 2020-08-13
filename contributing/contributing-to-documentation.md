@@ -14,7 +14,7 @@ description: >-
 
 ### Naming Standards and Capitalization
 
-* Always capitalize the Varbase when mentioning it. 
+* Always capitalize the word Varbase when mentioning it. 
 * Use [Grammarly](https://www.grammarly.com/) to check on proper grammar and punctuation.  
 * All titles \(H1, H2, H3\) must use APA title case style. Use [capitalizemytitle.com](https://capitalizemytitle.com/) for help. 
 * All modules and component names must use APA title case style. 
