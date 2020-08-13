@@ -5,15 +5,18 @@ Varbase bundles several security-related enhancements for compliant and secure w
 {% hint style="info" %}
 Varbase security features are bundled through the **Varbase Security** module as part of the **Varbase Core** module.
 
-You can see its code in:  
-  
-`project_directory  
-|-- docroot  
-    |-- modules  
-        |-- contrib  
-            |--` [`varbase_core`](https://git.drupalcode.org/project/varbase_core)                `|-- modules  
-                    |-- varbase_security`
+You can see the code of the Varbase Security module in:
 {% endhint %}
+
+```text
+project_directory
+|-- docroot
+    |-- modules
+        |-- contrib
+            |-- varbase_core
+                |-- modules
+                    |-- varbase_security
+```
 
 These modules include:
 
@@ -26,18 +29,33 @@ These modules include:
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><a href="https://www.drupal.org/project/captcha">CAPTCHA</a> and <a href="https://www.drupal.org/project/recaptcha">reCAPTCHA</a> modules</td>
-      <td
-      style="text-align:left">Prevent spam submissions on forms</td>
+      <td style="text-align:left">
+        <p>&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/captcha"><b>CAPTCHA</b></a><b> and </b>
+          <a
+          href="https://www.drupal.org/project/recaptcha"><b>reCAPTCHA</b>
+            </a><b> modules</b>
+        </p>
+        <p></p>
+        <p>&lt;em&gt;&lt;/em&gt;<a href="security-features.md#configuring-captcha-and-recaptcha-on-forms"><em>See how to configure &#x2193;</em></a>&lt;em&gt;&lt;/em&gt;</p>
+      </td>
+      <td style="text-align:left">Prevent spam submissions on forms</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://www.drupal.org/project/honeypot">Honeypot</a> module</td>
-      <td
-      style="text-align:left">Prevent spam submissions on forms</td>
+      <td style="text-align:left">
+        <p><a href="https://www.drupal.org/project/honeypot"><b>Honeypot</b></a><b> module</b>
+        </p>
+        <p></p>
+        <p>&lt;em&gt;&lt;/em&gt;<a href="security-features.md#configuring-honeypot-for-forms"><em>See how to configure &#x2193;</em></a>&lt;em&gt;&lt;/em&gt;</p>
+      </td>
+      <td style="text-align:left">Prevent spam submissions on forms</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://www.drupal.org/project/password_policy">Password Policy</a> module
-        and its submodules</td>
+      <td style="text-align:left">
+        <p><a href="https://www.drupal.org/project/password_policy"><b>Password Policy</b></a><b> module and its submodules</b>
+        </p>
+        <p></p>
+        <p>&lt;em&gt;&lt;/em&gt;<a href="security-features.md#configuring-password-policies"><em>See how to configure &#x2193;</em></a>&lt;em&gt;&lt;/em&gt;</p>
+      </td>
       <td style="text-align:left">
         <p>Enforce a configurable password policy for site users. This includes:</p>
         <ul>
@@ -49,9 +67,13 @@ These modules include:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://www.drupal.org/project/seckit">Security Kit</a> module</td>
-      <td
-      style="text-align:left">
+      <td style="text-align:left">
+        <p>&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/seckit"><b>Security Kit</b></a><b> module</b>
+        </p>
+        <p></p>
+        <p>&lt;em&gt;&lt;/em&gt;<a href="security-features.md#configuring-security-kit-for-xss-csrf-ssl-expect-ct-and-more"><em>See how to configure &#x2193;</em></a>&lt;em&gt;&lt;/em&gt;</p>
+      </td>
+      <td style="text-align:left">
         <p>Provides various options to mitigate risks of common web application vulnerabilities
           like:</p>
         <ul>
@@ -63,10 +85,24 @@ These modules include:
           <li>Feature Policy</li>
           <li>and other miscellaneous security enhancements</li>
         </ul>
-        </td>
+      </td>
     </tr>
   </tbody>
 </table>
+
+## Configuring CAPTCHA and reCAPTCHA on Forms
+
+
+
+## Configuring Honeypot for Forms
+
+
+
+## Configuring Password Policies
+
+
+
+## Configuring Security Kit for XSS, CSRF, SSL, Expect-CT, and More
 
 
 
