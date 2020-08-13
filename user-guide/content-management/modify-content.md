@@ -18,7 +18,7 @@ There are several places you can edit the nodes from it. Here are examples where
 2- In frontend, for every section on any page, there is a quick edit menu that easily lets you edit the section with only 1 click.   
 3- In backend, there is an edit menu under the content page for each node. 
 
-![Edit and Quick Edit menus](../../.gitbook/assets/edit-content.png)
+![Edit and Quick Edit menus](../../.gitbook/assets/top-10-trending-technologies-to-master-in-2020-test-qa-varbase-8-8-x-development-13-07-2020.png)
 
-![Edit menu under content page](../../.gitbook/assets/content-vardot.png)
+![](../../.gitbook/assets/content-test-qa-varbase-8-8-x-development-13-07-2020%20%281%29.png)
 
