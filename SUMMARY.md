@@ -117,4 +117,5 @@
 ## Contributing to Varbase <a id="contributing"></a>
 
 * [Contributing](contributing/contributing.md)
+* [Contributing to Documentation](contributing/contributing-to-documentation.md)
 
