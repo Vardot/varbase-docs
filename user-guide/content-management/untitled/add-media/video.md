@@ -8,7 +8,7 @@ In Varbase you can add a video from several places:
 2. File field.
 3. WYSIWYG
 
-![Example: Video uploaded from media field in Vardot.com](../../../../.gitbook/assets/vardot-video.png)
+![Video uploaded from media field](../../../../.gitbook/assets/slider-1-test-varbase-property-1.png)
 
 ### Required file types \(Default\):
 

@@ -6,7 +6,5 @@ Remote video is easy to be added in Varbase. As mentioned before you can remote 
 2. WYSIWYG
 3. Remote video field
 
-![Example: Remote video from media field in www.proequest.com](../../../../.gitbook/assets/cashew-proequest.png)
-
-
+![Remote Video added](../../../../.gitbook/assets/ux-ui-design-trends-2020-test-varbase-property-1.png)
 
