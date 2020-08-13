@@ -50,6 +50,7 @@
   * [Handling Patches When Updating](dev-docs/updating-varbase/handling-patches-when-updating.md)
   * [Handling Configuration Updates](dev-docs/updating-varbase/handling-configuration-updates.md)
 * [Frequently Asked Questions \(FAQs\)](dev-docs/faqs.md)
+* [Security Features](dev-docs/security-features.md)
 
 ## User Guide
 
