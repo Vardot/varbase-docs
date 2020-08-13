@@ -2,7 +2,9 @@
 
 ## Overview
 
-Content moderation in Varbase is a fairly simple concept: You can create and manage custom workflows for specific types of content. Workflows simply determine the various stages \(or moderations states\) used when creating content.
+Content moderation in Varbase is a fairly simple concept: You can create and manage custom workflows for specific types of content.   
+  
+Workflows simply determine the various stages \(or moderations states\) used when creating content.
 
 Within each workflow, you can manage two specific parts:
 
@@ -12,6 +14,4 @@ Within each workflow, you can manage two specific parts:
 {% hint style="info" %}
 Admins can add whatever workflow states they need to suit their team’s unique editorial process.
 {% endhint %}
-
-
 
