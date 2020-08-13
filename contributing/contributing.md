@@ -1,3 +1,7 @@
+---
+description: Want to contribute to Varbase? Here are ways you can help!
+---
+
 # Contributing
 
 ## How You Can Help
@@ -11,12 +15,6 @@ We would love for you to join us in the effort of building Varbase. We are welco
 You can also join our Varbase Slack team for feedback and support
 
 [![](https://www.drupal.org/files/varbase-slack-cta_0.png)](http://slack.varbase.vardot.com/)Visit [http://slack.varbase.vardot.com/](http://slack.varbase.vardot.com/) to join now.
-
-## Builds History
-
-Builds are executed using Travis CI and can be viewed on this link: [https://travis-ci.org/Vardot/varbase](https://travis-ci.org/Vardot/varbase)
-
-Version 8.x-6.x [![Build Status](https://travis-ci.org/Vardot/varbase.svg?branch=8.x-6.x)](https://travis-ci.org/Vardot/varbase)
 
 ## Help in Development
 
@@ -34,7 +32,7 @@ Version 8.x-6.x [![Build Status](https://travis-ci.org/Vardot/varbase.svg?branch
 
 @todo: document.
 
-## Help in Documentation
+## Create Functional Behat Tests
 
 @todo: document.
 
