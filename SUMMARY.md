@@ -49,8 +49,8 @@
   * [Understanding Varbase Updater Package](dev-docs/updating-varbase/understanding-varbase-updater-package.md)
   * [Handling Patches When Updating](dev-docs/updating-varbase/handling-patches-when-updating.md)
   * [Handling Configuration Updates](dev-docs/updating-varbase/handling-configuration-updates.md)
-* [Frequently Asked Questions \(FAQs\)](dev-docs/faqs.md)
 * [Security Features](dev-docs/security-features.md)
+* [Frequently Asked Questions \(FAQs\)](dev-docs/faqs.md)
 
 ## User Guide
 
@@ -117,5 +117,5 @@
 ## Contributing to Varbase <a id="contributing"></a>
 
 * [Contributing](contributing/contributing.md)
-* [Contributing to Documentation](contributing/contributing-to-documentation.md)
+* [Contributing to Documentation]()
 
