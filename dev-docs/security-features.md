@@ -2,6 +2,19 @@
 
 Varbase bundles several security-related enhancements for compliant and secure websites.
 
+{% hint style="info" %}
+Varbase security features are bundled through the **Varbase Security** module as part of the **Varbase Core** module.
+
+You can see its code in:  
+  
+`project_directory  
+|-- docroot  
+    |-- modules  
+        |-- contrib  
+            |--` [`varbase_core`](https://git.drupalcode.org/project/varbase_core)                `|-- modules  
+                    |-- varbase_security`
+{% endhint %}
+
 These modules include:
 
 <table>
@@ -54,4 +67,6 @@ These modules include:
     </tr>
   </tbody>
 </table>
+
+
 
