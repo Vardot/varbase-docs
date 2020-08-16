@@ -2,7 +2,15 @@
 
 If you already have a local or hosted environment available for your use that meets [Drupal 8’s system requirements](https://www.drupal.org/requirements) and/or [Varbase's system requirements](requirements.md) including working versions of Apache, MySQL, and PHP, you’re ready to install Varbase.
 
-## Installing Varbase Locally
+## Installing Varbase with Lando
+
+We recommend you install Varbase with Lando to start a new project.
+
+[Lando](https://lando.dev/) is a great local development environment for Drupal and other applications that vastly simplifies local development and DevOps so you can focus on the application, rather than the environment.
+
+{% page-ref page="installing-varbase-with-lando.md" %}
+
+## Installing Varbase Locally with Composer
 
 Follow the steps below to install Varbase distribution for Drupal 8 on a local server.
 
