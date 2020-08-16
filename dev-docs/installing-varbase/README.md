@@ -1,6 +1,6 @@
 # Installing Varbase
 
-If you already have a local or hosted environment available for your use that meets [Drupal 8’s system requirements](https://www.drupal.org/requirements) and/or [Varbase's system requirements](../requirements.md) including working versions of Apache, MySQL, and PHP, you’re ready to install Varbase.
+If you already have a local or hosted environment available for your use that meets [Drupal 8’s system requirements](https://www.drupal.org/requirements) and/or [Varbase's system requirements](requirements.md) including working versions of Apache, MySQL, and PHP, you’re ready to install Varbase.
 
 ## Installing Varbase Locally
 

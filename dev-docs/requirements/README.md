@@ -1,2 +1,0 @@
-# Developing With Varbase
-

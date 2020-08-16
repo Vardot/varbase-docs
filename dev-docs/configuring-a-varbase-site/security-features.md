@@ -1,3 +1,7 @@
+---
+description: Varbase Security is part of Varbase Core.
+---
+
 # Security Features
 
 Varbase bundles several security-related enhancements for compliant and secure websites.
