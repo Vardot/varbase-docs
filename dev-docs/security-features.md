@@ -3,9 +3,11 @@
 Varbase bundles several security-related enhancements for compliant and secure websites.
 
 {% hint style="info" %}
-Varbase security features are bundled through the **Varbase Security** module as part of the **Varbase Core** module.
+Varbase security features are bundled through the **Varbase Security** module as part of the **Varbase Core** module.  
+GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase_core)  
+Drupal.org: [https://www.drupal.org/project/varbase\_core](https://www.drupal.org/project/varbase_core)
 
-You can see the code of the Varbase Security module in:
+After building a project using the `varbase-project` template, you can see the code of the Varbase Security module in:
 {% endhint %}
 
 ```text
