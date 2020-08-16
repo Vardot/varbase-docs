@@ -100,14 +100,14 @@ A CAPTCHA can be added to virtually each form in your website. The configuration
 To enable reCAPTCHA, you'll need a Site key and Secret key for your site. These are provided from Google's reCAPTCHA administration page.
 
 1. Navigate to **reCAPTCHA** tab in your site \(**Administration** \ **Configuration** \ **People** \ **CAPTCHA module settings** _**\ reCAPTCHA**_
-2. Obtain a `Site key` and and a `Secret key` from https://www.google.com/recaptcha/admin, and enter it the reCAPTCHA configuration page
+2. Obtain a `Site key` and and a `Secret key` from [https://www.google.com/recaptcha/admin](https://www.google.com/recaptcha/admin), and enter it the reCAPTCHA configuration page
 3. Change the **Widget settings** to match your site's theme
 
 ### Adding CAPTCHA Challenge to a Specific Form 
 
 1. Navigate to **Form settings** tab in your site \(**Administration** \ **Configuration** \ **People** \ **CAPTCHA module settings** _**\ Form settings**_
 2. Click on "**+ Add captcha point**" to add a new form to the list
-3. Enter the form ID \(e.g. user\_register\_form\) and choose the enabled CAPTCHA type on it, or keep it as the default challenge configured for the site
+3. Enter the form ID \(e.g. `user_register_form`\) and choose the enabled CAPTCHA type on it, or keep it as the default challenge configured for the site
 
 {% hint style="info" %}
 You can also add a CAPTCHA challenge on Webforms individually from the Webform building page, by adding a new CAPTCHA element to the form.
