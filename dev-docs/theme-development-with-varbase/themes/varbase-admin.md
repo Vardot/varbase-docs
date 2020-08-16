@@ -1,4 +1,0 @@
-# Varbase admin
-
-**@To do:**
-

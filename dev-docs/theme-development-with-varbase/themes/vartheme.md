@@ -1,4 +1,0 @@
-# Vartheme
-
-**@To do:**
-
