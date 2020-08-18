@@ -6,7 +6,7 @@ description: Want to contribute to Varbase? Here are ways you can help!
 
 ## How You Can Help
 
-Varbase is a Drupal 8 distribution packed with adaptive functionalities and essential modules, that speed up your development, and provides you with standardized configurations, making your life easier.
+Varbase is a Drupal distribution packed with adaptive functionalities and essential modules, that speed up your development, and provides you with standardized configurations, making your life easier.
 
 It helps you build sites that employ enterprise-editing experience with a lot of functionalities.
 

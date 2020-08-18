@@ -12,7 +12,7 @@ We recommend you install Varbase with Lando to start a new project.
 
 ## Installing Varbase Locally with Composer
 
-Follow the steps below to install Varbase distribution for Drupal 8 on a local server.
+Follow the steps below to install Varbase distribution for Drupal 8/9 on a local server.
 
 ### Requirements
 
@@ -38,7 +38,7 @@ Follow this link to provision your Varbase instance on Platform.sh: [accounts.pl
 Or deploy it using the baseline [Varbase Platform.sh template project](https://github.com/Vardot/platformsh-example-varbase).
 
 {% hint style="info" %}
-Follow Platform.sh documentation on developing with Drupal 8 and Varbase.  
+Follow Platform.sh documentation on developing with Drupal and Varbase.  
 See [https://docs.platform.sh/frameworks/drupal8/developing-with-drupal.html](https://docs.platform.sh/frameworks/drupal8/developing-with-drupal.html)
 {% endhint %}
 

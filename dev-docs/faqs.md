@@ -15,7 +15,7 @@ Alternatively, you can update your site in two steps.
 
 ## What does each Varbase version mean?
 
-Varbase follows Drupal 8 release cycle. Therefore, a version of Varbase that is named 8.x-5.x uses the same **major** version of Drupal 8.x-5.x.
+Varbase follows Drupal 8/9 release cycle. Therefore, a version of Varbase that is named 8.x-5.x uses the same **major** version of Drupal 8.x-5.x.
 
 Read the [Release Cycle and Supported Versions](../roadmap/release-cycle-and-supported-versions.md#varbase-supported-versions) to understand more.
 

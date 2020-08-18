@@ -2,7 +2,7 @@
 
 ## Background
 
-Most Drupal 8 distributions use a Composer patching package called [`"cweagans/composer-patches"`](https://github.com/cweagans/composer-patches). This package handles the patching mechanism nicely.
+Most Drupal distributions use a Composer patching package called [`"cweagans/composer-patches"`](https://github.com/cweagans/composer-patches). This package handles the patching mechanism nicely.
 
 However, there are a number of problems we have had while maintaining Varbase and building sites on Varbase. Those problems are:
 
