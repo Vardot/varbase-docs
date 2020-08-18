@@ -32,7 +32,7 @@ description: >-
 * To make your documentation nice to read, you can add blocks of hints and notes with nice icons by clicking on it, then change it to the desired one.  Example: 
 
 {% hint style="info" %}
-See Platform.sh documentation on developing with Drupal 8 and Varbase as an example.  
+See Platform.sh documentation on developing with Drupal and Varbase as an example.  
 See [https://docs.platform.sh/frameworks/drupal8/developing-with-drupal.html](https://docs.platform.sh/frameworks/drupal8/developing-with-drupal.html)
 {% endhint %}
 
