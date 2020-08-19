@@ -114,7 +114,6 @@ Other additional modules can be installed to provide more meta tag groups. This 
 * Schema.org Review
 * Schema.org Service
 * Schema.org SpecialAnnouncement
-* Schema.org SpecialAnnouncement
 
 
 
