@@ -10,7 +10,7 @@ Meta tags are configured by default for the available pages in a Varbase site. Y
 2. You'll see a list of available meta tag default configuration for each page pattern. Click on **Edit** to edit the patterns
 3. To add a new default meta tag configuration to a new pattern, click on "**+ Add default meta tags**" and choose the type of the pattern from there \(e.g. Your new content type\)
 
-_\[insert screenshot of metatag configuration here\]_
+![Metatag global configuration](../../.gitbook/assets/metatag-test-varbase-property-1.png)
 
 \_\_
 
@@ -127,7 +127,7 @@ To enable meta tag groups, navigate to:
 1. Navigate to **Administration** \ **Configuration** \ **Search and metadata** \ **Metatag** \ _**Settings**_
 2. Under each desired content type or entity type, select the designed meta tag groups to be available on edit or add forms
 
-_\[insert screenshot of metatag configuration here\]_
+![Metatag settings per entity type](../../.gitbook/assets/configure-the-metatag-module-test-varbase-property-1.png)
 
 Note that unselected groups will not appear on the edit or add forms for that entity type, reducing the size of the form and increasing performance. If no groups are selected for a type, all groups will appear.
 
@@ -143,7 +143,9 @@ In Varbase, roles that can add and edit content \(such as Editors, Content admin
 
 Overriding meta tags can be done when editing or adding new content from the sidebar.
 
-_\[insert image here\]_
+![Meta tags menu on sidebar for every content type](../../.gitbook/assets/create-landing-page-paragraphs-test-varbase-property-1%20%283%29.png)
+
+![Override meta tags under each section here](../../.gitbook/assets/create-landing-page-paragraphs-test-varbase-property-1%20%282%29.png)
 
 See the below example of how to prevent a single piece of content from being indexed:
 
