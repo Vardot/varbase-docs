@@ -7,38 +7,36 @@ This article will walk you through how to exclude a specific piece of content fr
 
 So let's see below how we can achieve this:
 
-## Set `noindex` value for `robots` meta tag when adding or editing the content
+### 1. Set `noindex` value for `robots` meta tag when adding or editing the content
 
 1. Navigate to any content for example filter the content page with Basic page
 2. Edit a certain basic page
 3. From the right hand side look for “Meta tags” section.
 
-![Meta tags section for every node page](../../.gitbook/assets/meta.png)
+![Meta tags section when adding/editing content](../../.gitbook/assets/meta.png)
 
 4. Open _Meta tags_ section and scroll down into the "Advanced" tab.  
 5. Look for "Robots" title, and check on "noindex - Prevents search engines from indexing this page."
 
-![Check the nonindex option under Robots section](../../.gitbook/assets/robot.png)
+![Advanced meta tags when adding/editing content](../../.gitbook/assets/robot.png)
 
-## Prevent the content from being added to the XML sitemap
+#### 
+
+### 2. Prevent the content from being added to the XML sitemap
+
+Setting the `noindex` value for `robots` meta tag will prevent search engines from indexing the page. However, the page can still be included in the XML sitemap. This means that you risk getting an error "**Indexed, though blocked by robots.txt**" from the search engine console \(.i.e Google Search Console\).
+
+To prevent/fix this warning from happening, you'll need to exclude this page from your site's XML sitemap.
 
 1. Navigate to any content for example filter the content page with Basic page
-2. Edit a certain basic page
-3. Look for “Simple XML Sitemap” and click the item that can be located in the sidebar \(the node settings\)
+2. Edit a the content you want to exclude from XML sitemap
+3. Look for “**Simple XML Sitemap**” and click the item that can be located in the sidebar
 
-![Sitemap section under basic page](../../.gitbook/assets/create-basic-page-test-qa-varbase-8-8-x-development-13-07-2020.png)
+![XML sitemap section when adding/editing content](../../.gitbook/assets/create-basic-page-test-qa-varbase-8-8-x-development-13-07-2020.png)
 
- 4. You will be seeing two options, “Do not index this basic page” or by default, it is selected “Index this Basic page”
+ 4. You will be seeing two options, “Do not index this basic page” or by default, it is selected “Index this”
 
-![Update sitemap section using this option](../../.gitbook/assets/sitemap.png)
+![](../../.gitbook/assets/sitemap.png)
 
-5. To exclude this page from being indexed please select “Do not index this Basic page entity in variant Default”
-
-You can apply this setting before creating any content by just visiting the “Simple XML Sitemap” settings if it is enabled.
-
-{% hint style="info" %}
-Some of the content types will be disabled by default like Hero Slider, Testimonials.  In another way, any content type that doesn't have a node page will not be indexed.
-{% endhint %}
-
-![Hero Slider content type in site map is disabled by default ](../../.gitbook/assets/create-hero-slider-test-qa-varbase-8-8-x-development-13-07-2020.png)
+5. To exclude this page from being indexed please select “**Do not index this Basic page entity in variant Default**”
 
