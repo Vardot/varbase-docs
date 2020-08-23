@@ -146,6 +146,8 @@ Overriding meta tags can be done when editing or adding new content from the sid
 
 ![Override meta tags under each section here](../../.gitbook/assets/create-landing-page-paragraphs-test-varbase-property-1%20%282%29.png)
 
+
+
 See the below example of how to prevent a single piece of content from being indexed:
 
 {% page-ref page="excluding-content-from-being-indexed.md" %}
