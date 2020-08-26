@@ -9,8 +9,8 @@ This is simply done by implementing a visibility rule to the "**Tabs**" block.
 To change this behavior, simply remove or edit the visibility settings for "**Tabs**" block.
 
 1. Navigate to **Administration** \ **Structure** \ _**Block layout**_ 
-2. Under your desired front-end theme, look for the "**Tabs**" block \(usually under Top Bar region in Vartheme\) and clock on "**Configure**"
-3. Go to "**Pages**" under Visibility, and either remove the `/node/*` entry or add your own rules. Removing the entry  will make the **Tabs** appear again.
+2. Under your desired front-end theme, look for the "**Tabs**" block \(usually under Top Bar region in Vartheme\) and click on "**Configure**"
+3. Go to "**Pages**" under Visibility, and either remove the `/node/*` entry or add your own rules. Removing the entry will make the **Tabs** appear again.
 
 \[insert screenshot here\]
 
