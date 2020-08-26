@@ -172,5 +172,5 @@ Varbase Workflow adds a simple administration view to show the available drafts 
 
 To see the available drafts, navigate to: **Administration** \ **Content** \ _**Moderated content**_ ****
 
-![Moderated content](../../.gitbook/assets/moderated-content-test-qa-varbase-8-8-x-development-13-07-2020.png)
+![Moderated Content Admin View](../../.gitbook/assets/moderated-content-test-qa-varbase-8-8-x-development-13-07-2020.png)
 

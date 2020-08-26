@@ -9,6 +9,7 @@ description: >-
 ## Screenshots Guidelines
 
 * Take screenshots from the latest version of Varbase.
+* For consistency use this screen resolution when taking a screenshot: 1366 x 768
 * Use [Awesomescreenshot](https://www.awesomescreenshot.com/) to help you out.
   * Only use the visible part option, no need to take the whole page, and crop it.
 * Make sure screenshots are displayed in a good resolution, not pixilated.
