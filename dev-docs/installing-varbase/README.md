@@ -25,9 +25,21 @@ Follow the steps below to install Varbase distribution for Drupal 8/9 on a local
 ### 3 easy steps to install
 {% endhint %}
 
-1. From a command prompt window, navigate to your web server directory: `cd /path/to/webserver_directory`  
-2. Run the following command: `composer create-project Vardot/varbase-project YOUR_PROJECT --no-dev --no-interaction`  Composer will create a new directory called `YOUR_PROJECT` containing a `docroot` directory with a full Varbase codebase. 
-3. You can then install Varbase as you install Drupal normally.
+1. From a command prompt window, navigate to your web server directory: 
+
+   ```text
+   cd /path/to/webserver_directory
+   ```
+
+2. Run the following command: 
+
+   ```text
+   composer create-project Vardot/varbase-project YOUR_PROJECT --no-dev --no-interaction
+   ```
+
+   Composer will create a new directory called `YOUR_PROJECT` containing a `docroot` directory with a full Varbase codebase.   
+
+3. You can then install Varbase as you install Drupal normally. 
 
 ## Installing Varbase on Platform.sh
 
