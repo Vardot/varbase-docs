@@ -13,39 +13,39 @@ Note that while you can run Lando in production, it is highly discouraged, not r
 Follow the steps below to setup Varbase with Lando.
 
 1. Install Lando on your machine. Whether you use Linux, Mac, Windows, there's a package for you. [Follow this guide to install Lando on your machine](https://docs.lando.dev/basics/installation.html#system-requirements). 
-2. Create new project directory on your machine
-
-   ```text
-   mkdir varbase
-   ```
-
-3. Initialize Lando with a Drupal 9 recipe
-
-   ```text
-   lando init \
-     --source cwd \
-     --recipe drupal9 \
-     --webroot docroot \
-     --name my-varbase-project
-   ```
-
-4. Create a new Varbase project using composer
+2. Create a new Varbase project using composer, this will include a template file for .lando.yml, for information on how to integrate Lando on an existing project scroll to the bottom of this page.
 
    ```text
    composer create-project Vardot/varbase-project MY_VARBASE_PROJECT --no-dev --no-interaction
    ```
 
-5. Move the Lando file inside the Varbase project folder
+3. Use your favorite editor to edit the .lando.yml file and change name to the name of your project.
 
    ```text
-   mv .lando.yml MY_VARBASE_PROJECT
    cd MY_VARBASE_PROJECT
+   vim .lando.yml
    ```
 
-6. Rebuild the site to make sure Lando is wired up to the directories correctly. It will show green links if everything is in the right place
+4. Edit your settings.php file and add the following code to setup the database connection.
 
    ```text
-   lando rebuild
+   $databases['default']['default'] = [
+     'database' => 'drupal8',
+     'username' => 'drupal8',
+     'password' => 'drupal8',
+     'prefix' => '',
+     'host' => 'database',
+     'port' => '3306',
+     'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+     'driver' => 'mysql',
+   ];
+
+   ```
+
+5. Start the Lando project and enjoy.
+
+   ```text
+   lando start
    ```
 
 
@@ -56,5 +56,8 @@ For more information on the Lando file configuration, read more on [https://docs
 You can type `lando info` to know the MySQL database hostname, username,  password, and all environment config you'll need.
 {% endhint %}
 
+### Adding Lando to existing projects
 
+1. Download .lando.yml from the Varbase project repo [https://github.com/Vardot/varbase-project](https://github.com/Vardot/varbase-project) .
+2. Proceed with steps 3, 4 and 5 mentioned above.
 
