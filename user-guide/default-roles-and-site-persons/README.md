@@ -177,10 +177,12 @@ Varbase default roles were created to with the following high-level roles design
 </table>
 
 {% hint style="info" %}
-Varbase roles default roles and permissions can be edited and changed based on your own use case. 
+Varbase default roles and permissions can be edited and changed based on your own use case. 
 
 Like any Drupal site, you can edit the Roles and Permission freely without affecting any of Varbase functionality.
 {% endhint %}
+
+{% page-ref page="edit-roles-permissions.md" %}
 
 
 
