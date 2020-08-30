@@ -13,20 +13,20 @@ Note that while you can run Lando in production, it is highly discouraged, not r
 Follow the steps below to setup Varbase with Lando.
 
 1. Install Lando on your machine. Whether you use Linux, Mac, Windows, there's a package for you. [Follow this guide to install Lando on your machine](https://docs.lando.dev/basics/installation.html#system-requirements). 
-2. Create a new Varbase project using composer, this will include a template file for .lando.yml, for information on how to integrate Lando on an existing project scroll to the bottom of this page.
+2. Create a new Varbase project using composer, this will include a template file for _.lando.yml_, for information on how to integrate Lando on an existing project scroll to the bottom of this page.
 
    ```text
    composer create-project Vardot/varbase-project MY_VARBASE_PROJECT --no-dev --no-interaction
    ```
 
-3. Use your favorite editor to edit the .lando.yml file and change name to the name of your project.
+3. Use your favorite editor to edit the _.lando.yml_ file and change the `name` value to your project's name.
 
    ```text
    cd MY_VARBASE_PROJECT
    vim .lando.yml
    ```
 
-4. Edit your settings.php file and add the following code to setup the database connection.
+4. Edit your _settings.php_ file and add the following code to setup the database connection.
 
    ```text
    $databases['default']['default'] = [
@@ -56,8 +56,10 @@ For more information on the Lando file configuration, read more on [https://docs
 You can type `lando info` to know the MySQL database hostname, username,  password, and all environment config you'll need.
 {% endhint %}
 
-### Adding Lando to existing projects
 
-1. Download .lando.yml from the Varbase project repo [https://github.com/Vardot/varbase-project](https://github.com/Vardot/varbase-project) .
+
+## Adding Lando to an existing Varbase project
+
+1. Download _.lando.yml_ from the Varbase project repo [https://github.com/Vardot/varbase-project](https://github.com/Vardot/varbase-project) .
 2. Proceed with steps 3, 4 and 5 mentioned above.
 
