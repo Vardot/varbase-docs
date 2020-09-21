@@ -13,6 +13,7 @@ description: >-
 * Use [Awesomescreenshot](https://www.awesomescreenshot.com/) to help you out.
   * Only use the visible part option, no need to take the whole page, and crop it.
 * Make sure screenshots are displayed in a good resolution, not pixilated.
+* Always add a caption to screenshots or images in the documentation page. Captions must be following APA title case style. Use [capitalizemytitle.com](https://capitalizemytitle.com/) for help.
 * Take screenshots from real content on Varbase website and not from other sites.
 
 ## Writing Style
