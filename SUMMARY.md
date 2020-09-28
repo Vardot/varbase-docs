@@ -18,6 +18,7 @@
 * [Configuring a Varbase Site](dev-docs/configuring-a-varbase-site/README.md)
   * [Using View Modes Inventory](dev-docs/configuring-a-varbase-site/using-view-modes-inventory.md)
   * [Content Moderation and Workflows](dev-docs/configuring-a-varbase-site/content-moderation-and-workflows.md)
+  * [Managing Date and Time Formats to Display Across the Site](dev-docs/configuring-a-varbase-site/managing-date-and-time-formats-to-display-across-the-site.md)
   * [Using Varbase Layout Builder](dev-docs/configuring-a-varbase-site/using-varbase-layout-builder.md)
   * [Configuring SEO Features](dev-docs/configuring-a-varbase-site/configuring-seo-features.md)
   * [Configuring Security Features](dev-docs/configuring-a-varbase-site/security-features.md)
