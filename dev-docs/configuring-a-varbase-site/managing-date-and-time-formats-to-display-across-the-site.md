@@ -20,9 +20,9 @@ You will find the date under the created date /  updated date column and it is u
 
 Please follow these steps to add a new date and time format:
 
-1. Navigat to: **Administration \ Configuration \ Regional and language \** _**Date and time formats.**_
-2. Click "Add format" button.
-3. Insert the name of the date fomat.
+1. Navigate to: **Administration \ Configuration \ Regional and language \** _**Date and time formats.**_
+2. Click the "Add format" button.
+3. Insert the name of the date format.
 4. Then insert the "Format string", if you don't know the format please check this [PHP manual](https://www.php.net/manual/en/function.date.php).
 5. Then click "Save format".
 
@@ -34,12 +34,12 @@ Please follow these steps to add a new date and time format:
 
 Please follow these steps to clone a date and time format:
 
-1. Navigat to: **Administration \ Configuration \ Regional and language \** _**Date and time formats.**_
-2. Under operation column click the drop down one of the pre-defined formats, then click "Clone".
-3. Insert the new name of the date fomat, then click "Clone" button. It will redirect you to the homepage.
-4. Navigate back to the Date and time formats section, locate the new cloned dat format then click "Edit" button.
-5. Either keeping the old format or if you like to change the format, notice the example how it changes when inserting new format.
-6. Then click "Save format".
+1. Navigate to: **Administration \ Configuration \ Regional and language \** _**Date and time formats.**_
+2. Under the operation column click the drop down one of the pre-defined formats, then click "Clone".
+3. Insert the new name of the date format, then click the "Clone" button. It will redirect you to the homepage.
+4. Navigate back to the Date and time formats section, locate the new cloned date format then click the "Edit" button.
+5. Either keeping the old format or if you like to change the format, notice the example of how it changes when inserting a new format.
+6. Then click "Save format" button.
 
 ![Cloning a pre-defined format](../../.gitbook/assets/image%20%2819%29.png)
 
@@ -47,7 +47,25 @@ Please follow these steps to clone a date and time format:
 
 ![Locating the cloned date format](../../.gitbook/assets/image%20%2827%29.png)
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![Editing the new cloned date format](../../.gitbook/assets/image%20%2831%29.png)
 
 ### How to Translate a Date Format?
+
+{% hint style="info" %}
+In order to translate a date format, at least two languages should be available.
+{% endhint %}
+
+You can translate any date and time format to any languages that are available on Varbase, please follow these steps to start translating them:
+
+1. Navigate to: **Administration \ Configuration \ Regional and language \** _**Date and time formats.**_
+2. Under the operation column click the drop-down on any date and time formats, then click "Translate".
+3. You will be redirected to the translation section, click the "Add" button to the available language.
+4.  Either keeping the old format or if you like to change the format, notice the example of how it changes when inserting a new format.
+5. Then click "Save translation" button.
+
+![Translate the date format](../../.gitbook/assets/image%20%2829%29.png)
+
+![Adding new translation to the date format](../../.gitbook/assets/image%20%2828%29.png)
+
+![Saving the new translation](../../.gitbook/assets/image%20%2830%29.png)
 
