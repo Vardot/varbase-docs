@@ -77,6 +77,12 @@ These modules include:
         </ul>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/username_enumeration_prevention"><b>Username Enumeration Prevention</b></a><b> module</b>
+      </td>
+      <td style="text-align:left">Mitigates common ways of anonymous users identifying valid usernames on
+        your site.</td>
+    </tr>
   </tbody>
 </table>
 
