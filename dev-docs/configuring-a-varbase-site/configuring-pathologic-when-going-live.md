@@ -1,17 +1,17 @@
 # Configuring Pathologic When Going Live
 
-This module Pathologic is already installed and configured within Varbase. The main purpose of this module is to fix all URLs that should redirect to the production site if it was redirected to the internal contents.
+This module [Pathologic](https://www.drupal.org/project/pathologic) is already installed and configured within Varbase. The main purpose of this module is to fix all URLs that should redirect to the production site if it was redirected to the internal contents.
 
 To navigate to the Pathologic configuration page: **Administration \ Configuration \ Content authoring \** _**Pathologic configuration**_
 
 There are three type of URL formats:
 
-*  Full URL \(http://example.com/foo/bar\):  This option is best for stopping broken images and links in syndicated content \(such as in RSS feeds\), but will likely lead to problems if your site is accessible by both HTTP and HTTPS.
+* Full URL \(http://example.com/foo/bar\):  This option is best for stopping broken images and links in syndicated content \(such as in RSS feeds\), but will likely lead to problems if your site is accessible by both HTTP and HTTPS.
 * Protocol relative URL \(//example.com/foo/bar\):  Paths output with the _Protocol relative URL_ option will avoid such problems, but feed readers and other software not using up-to-date standards may be confused by the paths.
 * Path relative to server root \(/foo/bar\):  The _Path relative to server root_ option will avoid problems with sites accessible by both HTTP and HTTPS with no compatibility concerns, but will absolutely not fix broken images and links in syndicated content.
 
 {% hint style="info" %}
-We recommend to use the "Path relative to server root" option.
+We recommend to use the "Path relative to server root" option. That is if your website's URL does not live inside a directory that appears in the URL.
 {% endhint %}
 
 ![Pathologic configuration section](../../.gitbook/assets/image%20%2838%29.png)
