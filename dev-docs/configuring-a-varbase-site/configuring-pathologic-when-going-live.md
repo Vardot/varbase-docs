@@ -6,12 +6,12 @@ To navigate to the Pathologic configuration page: **Administration \ Configurati
 
 There are three type of URL formats:
 
-* Full URL \(http://example.com/foo/bar\):  This option is best for stopping broken images and links in syndicated content \(such as in RSS feeds\), but will likely lead to problems if your site is accessible by both HTTP and HTTPS.
-* Protocol relative URL \(//example.com/foo/bar\):  Paths output with the _Protocol relative URL_ option will avoid such problems, but feed readers and other software not using up-to-date standards may be confused by the paths.
-* Path relative to server root \(/foo/bar\):  The _Path relative to server root_ option will avoid problems with sites accessible by both HTTP and HTTPS with no compatibility concerns, but will absolutely not fix broken images and links in syndicated content.
+* **Full URL \(http://example.com/foo/bar\)**:  This option is best for stopping broken images and links in syndicated content \(such as in RSS feeds\), but will likely lead to problems if your site is accessible by both HTTP and HTTPS.
+* **Protocol relative URL \(//example.com/foo/bar\)**:  Paths output with the _Protocol relative URL_ option will avoid such problems, but feed readers and other software not using up-to-date standards may be confused by the paths.
+* **Path relative to server root \(/foo/bar\)**:  The _Path relative to server root_ option will avoid problems with sites accessible by both HTTP and HTTPS with no compatibility concerns, but will absolutely not fix broken images and links in syndicated content.
 
 {% hint style="info" %}
-We recommend to use the "Path relative to server root" option. That is if your website's URL does not live inside a directory that appears in the URL.
+We recommend to use the "**Path relative to server root**" option. That so that paths appears relative to your website, and to be actually served from your own domain name.
 {% endhint %}
 
 ![Pathologic configuration section](../../.gitbook/assets/image%20%2838%29.png)
