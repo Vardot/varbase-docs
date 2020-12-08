@@ -39,16 +39,16 @@ We recommend you install Varbase with Lando to start a new project.
 
 
 
-## Installing Varbase on Platform.sh
+## Deploy Varbase on Platform.sh
 
 You can install Varbase on [Platform.sh](https://platform.sh/) and enjoy 30 days free trial for new users!
 
-Follow this link to provision your Varbase instance on Platform.sh: [accounts.platform.sh/platform/trial/varbase/setup](https://accounts.platform.sh/platform/trial/varbase/setup)
+Follow this link to provision your Varbase instance on Platform.sh: [**Deploy Varbase on Platform.sh**](https://console.platform.sh/projects/create-project?template=https://raw.githubusercontent.com/Vardot/templates-external/master/templates/varbase.template.yaml)!
 
-Or deploy it using the baseline [Varbase Platform.sh template project](https://github.com/Vardot/platformsh-example-varbase).
+Or deploy it using the baseline [Varbase Platform.sh template project](https://github.com/Vardot/platformsh-varbase).
 
 {% hint style="info" %}
 Follow Platform.sh documentation on developing with Drupal and Varbase.  
-See [https://docs.platform.sh/frameworks/drupal8/developing-with-drupal.html](https://docs.platform.sh/frameworks/drupal8/developing-with-drupal.html)
+See [https://docs.platform.sh/frameworks/drupal8/developing-with-drupal.html](https://docs.platform.sh/guides/drupal9/deploy.html)
 {% endhint %}
 
