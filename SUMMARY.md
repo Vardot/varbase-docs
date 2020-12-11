@@ -33,6 +33,7 @@
   * [Understanding Varbase Updater Package](dev-docs/updating-varbase/understanding-varbase-updater-package.md)
   * [Handling Patches When Updating](dev-docs/updating-varbase/handling-patches-when-updating.md)
   * [Handling Configuration Updates](dev-docs/updating-varbase/handling-configuration-updates.md)
+  * [Updating Varbase to work with Composer 2.0](dev-docs/updating-varbase/updating-varbase-to-work-with-composer-2.0.md)
 * [Frequently Asked Questions \(FAQs\)](dev-docs/faqs.md)
 * [Extending Varbase](dev-docs/extending-varbase/README.md)
   * [Overriding Varbase](dev-docs/extending-varbase/overriding-varbase.md)
