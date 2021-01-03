@@ -83,8 +83,12 @@ Check the complete changelog if you are interested in reading it all.
 Only if you do have any custom composer plugins or still having issues  
 Or if modules are using the old way of autoloading
 
-> Custom Composer plugins must have  
+> Custom **Composer** plugins must have  
 > `"composer-plugin-api": "^1.1 || ^2"`
 
-> Make sure that you do not have Invalid `PSR-0` / `PSR-4` . class configurations will not autoload anymore in `optimized-autoloader` mode, as per the warnings introduced in 1.10
+> Make sure that you do not have Invalid **`PSR-0`** / **`PSR-4`** . class configurations will not autoload anymore in `optimized-autoloader` mode, as per the warnings introduced in 1.10
+
+**Known issues:**
+
+[**Composer 2.0** issue for **bower-asset/jqueryui-touch-punch** library default branch](https://www.drupal.org/project/varbase/issues/3190703)
 
