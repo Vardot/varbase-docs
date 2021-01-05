@@ -73,6 +73,10 @@ To deploy and run Varbase your web server must meet certain minimum requirements
 
 Your servers' requirements will greatly be impacted by the usage of your application. For example, if you have more logged-in users that anonymous users, you will need to consider higher requirements to serve non-cached requests.
 
+
+
+## Server-side Requirements for Production
+
 If you need help sizing your server, please contact us at [https://www.vardot.com/contact-us](https://www.vardot.com/contact-us) for consultation.
 
 <table>
