@@ -15,7 +15,7 @@
 The below requirements outline the minimum needed requirements. If you need help sizing your server, please contact us at [https://www.vardot.com/contact-us](https://www.vardot.com/contact-us) for consultation.
 
 * **Disk space**: Minimum 300MB for codebase, 5GB for files, and 1GB for database _\(Will greatly depend on your application data and usage\)_.
-* **Memory**: Minimum of 2GB \(for 1 host\).
+* **Memory**: Minimum of 2GB \(for 1 host\). Minimum PHP memory of 196MB _\(might need to increase this as your Varbase site's functionalities increase\)._
 * **CPU**: Minimum of 2 CPUs is recommended \(for 1 host\).
 
 <table>
@@ -31,7 +31,7 @@ The below requirements outline the minimum needed requirements. If you need help
     <tr>
       <td style="text-align:left">PHP</td>
       <td style="text-align:left">
-        <p>PHP 7 or higher. PHP 7.3 is recommended.</p>
+        <p>PHP 7.2 or higher. PHP 7.3 is recommended.</p>
         <p>PHP extensions: mysqli (for MySQL), pgsql (for PostgreSQL), xml, gd, openssl,
           json, curl, mbstring, date, dom, filter, hash, pcre, pdo, session, SimpleXML,
           SPL, tokenizer, mcrypt</p>
@@ -92,10 +92,13 @@ If you need help sizing your server, please contact us at [https://www.vardot.co
     <tr>
       <td style="text-align:left">PHP</td>
       <td style="text-align:left">
-        <p>PHP 7 or higher. PHP 7.2 is recommended.</p>
+        <p>PHP 7.2 or higher. PHP 7.3 is recommended.</p>
         <p>PHP extensions: mysqli <em>(for MySQL)</em>, pgsql <em>(for PostgreSQL)</em>,
           xml, gd, openssl, json, curl, mbstring, date, dom, filter, hash, pcre,
           pdo, session, SimpleXML, SPL, tokenizer, mcrypt</p>
+        <p></p>
+        <p>For production environments, PHP memory of 256MB is recommended. In some
+          memory-intensive pages, you can <a href="https://www.drupal.org/docs/7/managing-site-performance-and-scalability/changing-php-memory-limits#s-settingsphp">optionally increase memory using <code>ini_set()</code></a>.</p>
       </td>
     </tr>
     <tr>
