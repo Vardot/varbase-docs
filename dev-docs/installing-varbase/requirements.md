@@ -49,7 +49,7 @@ The below requirements outline the minimum needed requirements. If you need help
       <td style="text-align:left">Web Server</td>
       <td style="text-align:left">
         <p></p>
-        <p>Varbase works on any web server with PHP version of 5.6 or higher. <code>mod_rewrite</code> is
+        <p>Varbase works on any web server with PHP version of 7 or higher. <code>mod_rewrite</code> is
           required if you use Apache.</p>
         <p><code>ngx_http_rewrite_module</code> if you use Nginx.</p>
       </td>
@@ -111,7 +111,7 @@ If you need help sizing your server, please contact us at [https://www.vardot.co
     </tr>
     <tr>
       <td style="text-align:left">Web Server</td>
-      <td style="text-align:left">Varbase works on any web server with PHP version of 5.6 or higher.<code>mod_rewrite</code> is
+      <td style="text-align:left">Varbase works on any web server with PHP version of 7 or higher.<code>mod_rewrite</code> is
         required if you use Apache.
         <br /><code>ngx_http_rewrite_module</code> if you use Nginx.</td>
     </tr>
