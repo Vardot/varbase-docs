@@ -27,6 +27,27 @@ We have broken down the epics by month to provide a clear and transparent roadma
       <td style="text-align:left"></td>
     </tr>
     <tr>
+      <td style="text-align:left">January 2019</td>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.4">8.x-6.4</a>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 8.x-6.x:</b>
+        </p>
+        <ul>
+          <li><del>Changed Varbase Media Hero Slider  to have a fixed Image max and min Height</del>
+          </li>
+          <li><del>Added the Bootstrap 3 spacing library to support a back-ported spacing style borrowed from Bootstrap 4</del>
+          </li>
+          <li><del>Have bulk oration options for content, people admin pages and changed the batch size to 50</del>
+          </li>
+          <li><del>Added  Created from, and Created to date filters media table admin page</del>
+          </li>
+          <li><del>Added target bundle text and image to landing page components</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">December 2018</td>
       <td style="text-align:left">
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.28">8.x-4.28</a>
