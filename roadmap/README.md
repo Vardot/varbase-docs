@@ -22,6 +22,51 @@ We have broken down the epics by month to provide a clear and transparent roadma
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">July 2019</td>
+      <td style="text-align:left">
+        <p>8.x-6.12</p>
+        <p>8.x-7.0</p>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 8.x-6.x:</b>
+        </p>
+        <p>&lt;b&gt;&lt;/b&gt;</p>
+        <ul>
+          <li>
+            <blockquote>
+              <p><del>Varbase 8.6.12 is the last version for the 8.6.x branch, We recommend to upgrade to Varbase 8.7.0 the first version for the 8.7.x branch</del>
+              </p>
+            </blockquote>
+          </li>
+          <li><del>Have Varbase Update Helper module as a dependency with Varbase Core module</del>
+          </li>
+          <li><del>Enabled Redirect domain module in the Varbase seo module</del>
+          </li>
+          <li><del>Changed Varbase Dashboard to work with C3 Charts and without warning</del>
+          </li>
+        </ul>
+        <p><b>Highlighted Changes for 8.x-7.x:</b>
+        </p>
+        <ul>
+          <li><del>Added Varbase API module and have it as an (optional component) at the varbase install steps</del>
+          </li>
+          <li><del>Changed Varbase Dashboard to work with C3 Charts and without warning</del>
+          </li>
+          <li><del>Enabled Varbase Bootstrap Paragraphs Text and Image in Varbase Landing module</del>
+          </li>
+          <li><del>Added and enabled Paragraphs edit in Varbase Bootstrap Paragraphs with the hook for styling in the single paragraph edit page </del>
+          </li>
+          <li><del>Upgraded Views Bulk Operations (VBO) from ~2.0 to ~3.0</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">June 2019</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
       <td style="text-align:left">May 2019</td>
       <td style="text-align:left">
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-6.9">8.x-6.9</a>
