@@ -22,21 +22,43 @@ We have broken down the epics by month to provide a clear and transparent roadma
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">September 2019</td>
+      <td style="text-align:left">November 2019</td>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-7.3">8.x-7.3</a>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 8.x-7.x:</b>
+        </p>
+        <ul>
+          <li><del>Added Google Tag Manager module to Varbase SEO component</del>
+          </li>
+          <li><del>Added Script Manager module to Varbase SEO - not optional but can be uninstalled</del>
+          </li>
+          <li><del>Added option (on install) to Enable Google Tag Manager and Google Analytics modules</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">October 2019</td>
       <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-7.2">8.x-7.2</a>
       </td>
       <td style="text-align:left">
         <p><b>Highlighted Changes for 8.x-7.x:</b>
         </p>
         <ul>
-          <li><del>Updated [Drupal core] from 8.7.7 to 8.7.8 (~8.7.0 ) and remove applied patches</del>
+          <li><del>Updated Drupal core from 8.7.7 to 8.7.8 (~8.7.0 ) and remove applied patches</del>
           </li>
-          <li><del>Switched CSS management for [Varbase Media Hero Slider] from LESS to SCSS with Gulp as the task manager and make use of the (RFS) Responsive Font Size SCSS library</del>
+          <li><del>Switched CSS management for Varbase Media Hero Slider from LESS to SCSS with Gulp as the task manager and make use of the (RFS) Responsive Font Size SCSS library</del>
           </li>
-          <li><del>Switched CSS management for [Varbase Bootstrap Paragraphs] from LESS to SCSS with Gulp as the task manager and make use of the (RFS) Responsive Font Size SCSS library, which comes with Bootstrap 4</del>
+          <li><del>Switched CSS management for Varbase Bootstrap Paragraphs from LESS to SCSS with Gulp as the task manager and make use of the (RFS) Responsive Font Size SCSS library, which comes with Bootstrap 4</del>
           </li>
         </ul>
       </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">September 2019</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">August 2019</td>
