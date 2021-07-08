@@ -41,20 +41,20 @@ We have broken down the epics by month to provide a clear and transparent roadma
         <p><b>Highlighted Changes for 8.x-4.x:</b>
         </p>
         <ul>
-          <li>Changed to use Drupal ~8.6 with tilde Version Range (~) for a step preparation
-            for the upgrade to Varbase 8.6.x</li>
+          <li><del>Changed to use Drupal ~8.6 with tilde Version Range (~) for a step preparation for the upgrade to Varbase 8.6.x</del>
+          </li>
         </ul>
         <p><b>Highlighted Changes for 8.x-5.x:</b>
         </p>
         <ul>
-          <li>Changed to use Drupal ~8.6 with tilde Version Range (~) for a step preparation
-            for the upgrade to Varbase 8.6.x</li>
+          <li><del>Changed to use Drupal ~8.6 with tilde Version Range (~) for a step preparation for the upgrade to Varbase 8.6.x</del>
+          </li>
         </ul>
         <p><b>Highlighted Changes for 8.x-6.x:</b>
         </p>
         <ul>
-          <li>Now you can install most Varbase components with any Drupal 8 sites. Even
-            if installed with the Minimal or Standard Drupal profile.</li>
+          <li><del>Now you can install most Varbase components with any Drupal 8 sites. Even if installed with the Minimal or Standard Drupal profile.</del>
+          </li>
         </ul>
       </td>
     </tr>
