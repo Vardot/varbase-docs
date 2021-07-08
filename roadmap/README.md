@@ -22,6 +22,51 @@ We have broken down the epics by month to provide a clear and transparent roadma
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">June 2021</td>
+      <td style="text-align:left">
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-8.11">8.x-8.11</a>
+        </p>
+        <p><a href="https://www.drupal.org/project/varbase/releases/9.0.0">9.0.0</a>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 8.x-8.x:</b>
+        </p>
+        <ul>
+          <li><del>Updated Drupal Core from 8.9.14 to 8.9.15 ( ~8.9 ) and remove committed patches</del>
+          </li>
+        </ul>
+        <p><b>Highlighted Changes for 9.0.x:</b>
+        </p>
+        <ul>
+          <li><del>Added Vertical and Horizontal alignments to section styling settings for Varbase Layout Builder ~10</del>
+          </li>
+          <li><del>Added Boxed options ( Wide, Medium, Narrow, Tiny ) in Varbase Layout Builder ~10</del>
+          </li>
+          <li><del>Changed the style for Social Auth login buttons to go with the new standard branding and trust</del>
+          </li>
+          <li><del>Added Media Bulk Upload module</del>
+          </li>
+          <li><del>Added an operations link for nodes with Layout Builder enabled</del>
+          </li>
+          <li><del>Added Bootstrap Display headings sizes to CKEditor styles for the Rich editor in Varbase Editor</del>
+          </li>
+          <li><del>Added Editor Advanced link module</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">May 2021</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">April 2021</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
       <td style="text-align:left">March 2021</td>
       <td style="text-align:left">
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-8.10">8.x-8.10</a>
