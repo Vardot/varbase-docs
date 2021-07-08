@@ -22,6 +22,164 @@ We have broken down the epics by month to provide a clear and transparent roadma
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">December 2020</td>
+      <td style="text-align:left">
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-8.8">8.x-8.8</a>
+        </p>
+        <p><a href="https://www.drupal.org/project/varbase/releases/9.0.0-rc1">9.0.0-rc1</a>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 8.x-8.x:</b>
+        </p>
+        <ul>
+          <li><del>Allowed Varbase to work with Composer ~2.0</del>
+          </li>
+        </ul>
+        <p><b>Highlighted Changes for 9.0.x:</b>
+        </p>
+        <ul>
+          <li><del>Updated Drupal core from ~9.0 to ~9.1 and change needed patches</del>
+          </li>
+          <li><del>Allowed Varbase to work with Composer ~2.0</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">November 2019</td>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/9.0.0-beta1">9.0.0-beta1</a>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 9.0.x:</b>
+        </p>
+        <ul>
+          <li><del>Changed Automated Functional Acceptance Testing to be Drupal 9 compatible on the Varbase 9.0.x branch</del>
+          </li>
+          <li><del>Updated Varbase Theme (Bootstrap 4 - SASS) from ~6.0 ( 8.x-6.x-dev ) to ~9.0 ( 9.0.x-dev ) on the Varbase 9.0.x branch and drop legacy support for Bootstrap 3</del>
+          </li>
+          <li><del>Added support for dropzonejs widget with Media Library in core</del>
+          </li>
+          <li><del>Updated Bootstrap library from 4.5.2 to 4.5.3</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">October 2020</td>
+      <td style="text-align:left">
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-8.7">8.x-8.7</a>
+        </p>
+        <p><a href="https://www.drupal.org/project/varbase/releases/9.0.0-alpha1">9.0.0-alpha1</a>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 8.x-8.x:</b>
+        </p>
+        <ul>
+          <li><del>Themed Layout Builder Modal and Media Library to look like Claro admin theme</del>
+          </li>
+          <li><del>Added Layout Builder Component Attributes module and support for Layout Builder Component Attributes extension integration with Layout Builder UX</del>
+          </li>
+          <li><del>Styled the Moderation state control at the layout editing page</del>
+          </li>
+          <li><del>Converted to use REM and EM instead of PX</del>
+          </li>
+          <li><del>Upgraded Bootstrap Barrio base theme from ~4.0 to ~5.0</del>
+          </li>
+          <li><del>Updated RFS from ~8.0 to ~9.0 for Vartheme BS4 and VARTHEME_BS4_SUBTHEME</del>
+          </li>
+        </ul>
+        <p><b>Highlighted Changes for 9.0.x:</b>
+        </p>
+        <ul>
+          <li><del>Started a 9.0.x branch for Varbase and Varbase Project to integrate with Drupal 9</del>
+          </li>
+          <li><del>Upgraded Drupal core from ~8 to ^9 on the 9.0.x branch</del>
+          </li>
+          <li><del>Updated the patch to allow profiles to define a base/parent profile for Drupal 9</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">September 2020</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">August 2020</td>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-8.6">8.x-8.6</a>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 8.x-8.x:</b>
+        </p>
+        <ul>
+          <li><del>Switched to Homepage node with Layout Builder</del>
+          </li>
+          <li><del>Added Varbase Workflow new module</del>
+          </li>
+          <li><del>Changed default workflow starter config for Simple and Editorial workflows</del>
+          </li>
+          <li><del>Changed default entityqueue form display for the Media Hero Slider entity queue</del>
+          </li>
+          <li><del>Implemented a way to offer default config templates using Varbase&#x2019;s ConfigBit to unify admin experience</del>
+          </li>
+          <li><del>Added Varbase Landing Page (Layout builder) in the default Varbase components and moved Varbase Landing Page (Paragraphs) to the Extra components installation step</del>
+          </li>
+          <li><del>Replaced the current embed media template with the Drupal core Media Library Embed media system</del>
+          </li>
+          <li><del>Replaced the current CKEditor entity browser embed media button with the new Drupal core Media Library Embed media command button</del>
+          </li>
+          <li><del>Updated Bootstrap 4 library from 4.5.0 to 4.5.1</del>
+          </li>
+          <li><del>Changed hiding the Local Task block and use the moderation sidebar tasks menu in view page for all content</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">July 2020</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">June 2020</td>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-8.5">8.x-8.5</a>
+      </td>
+      <td style="text-align:left">
+        <p></p>
+        <p><b>Highlighted Changes for 8.x-8.x:</b>
+        </p>
+        <ul>
+          <li><del>Added Vartheme Claro admin theme and use it as the default installation and administration theme</del>
+          </li>
+          <li><del>Styled Content title field with bigger font size under Claro. Allocate the length indicator inline and to the edge with the bottom of the title field</del>
+          </li>
+          <li><del>Updated Bootstrap 4 library from 4.4.1 to 4.5.0</del>
+          </li>
+          <li><del>Changed drupal/core-recommended to drupal/core and updated Drupal core from 8.8.4 to 8.8.6 ( ~8.8.0 ) and removed committed patches</del>
+          </li>
+          <li><del>Included a drupal/core requirement for [Varbase] profile compatible with Drupal 9</del>
+          </li>
+          <li><del>Required all asset libraries in [Varbase] profiles. As they were moved to suggest in Varbase components</del>
+          </li>
+          <li><del>Switched RTL default font for Vartheme Claro admin theme from Droid to Tajawal</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">May 2020</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">April 2020</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
       <td style="text-align:left">March 2020</td>
       <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-8.4">8.x-8.4</a>
       </td>
