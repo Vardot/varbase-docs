@@ -22,9 +22,27 @@ We have broken down the epics by month to provide a clear and transparent roadma
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">February 2018</td>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.5">8.x-6.5</a>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 8.x-6.x:</b>
+        </p>
+        <ul>
+          <li><del>Cleaned up number of modules with hash commits</del>
+          </li>
+          <li><del>Renamed Google+ to Google in the installer</del>
+          </li>
+          <li><del>Updated Google Analytics Reports module to 8.x-3.0-beta2</del>
+          </li>
+          <li><del>Changed Social Auth Google module&apos;s  Google+ logo to Google accounts as Google shutdown Google+</del>
+          </li>
+          <li><del>Changed Varbase Internationalization not to use the Localization client module by disabling it for old sites and not to install it in new Varbase installations.</del>
+          </li>
+          <li><del>Fixed W3C standards for element div not allowed as child of element h2.</del>
+          </li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">January 2019</td>
@@ -50,11 +68,11 @@ We have broken down the epics by month to provide a clear and transparent roadma
     <tr>
       <td style="text-align:left">December 2018</td>
       <td style="text-align:left">
-        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.28">8.x-4.28</a>
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-4.28">8.x-4.28</a> 
         </p>
-        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-5.5">8.x-5.5</a>
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-5.5">8.x-5.5</a> 
         </p>
-        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-6.3">8.x-6.3</a>
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-6.3">8.x-6.3</a> 
         </p>
       </td>
       <td style="text-align:left">
