@@ -2,7 +2,7 @@
 
 ## Varbase is a Drupal 8/9 Distribution
 
-A Drupal distribution is collection of Drupal and other software components built, assembled and configured so that it can be used essentially "as is" for its intended purpose.
+A Drupal distribution is a collection of Drupal and other software components built, assembled and configured so that it can be used essentially "as is" for its intended purpose.
 
 Varbase is built on top of [Drupal](https://www.drupal.org/), utilizing Drupal 8/9's installation profiles feature.
 
