@@ -22,6 +22,75 @@ We have broken down the epics by month to provide a clear and transparent roadma
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">March 2021</td>
+      <td style="text-align:left">
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-8.10">8.x-8.10</a>
+        </p>
+        <p><a href="https://www.drupal.org/project/varbase/releases/9.0.0-rc2">9.0.0-rc2</a>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 8.x-8.x:</b>
+        </p>
+        <ul>
+          <li><del>Added a tag release-varbase workflow job for the CircleCI automated testing pipelines</del>
+          </li>
+          <li><del>Fixed Blazy Blurry performance issues of not exist derivative image and enhance the logic of the encoding of base64 image</del>
+          </li>
+          <li><del>Fixed creating Blazy Blurry derivatives only if necessary, and the creation of Image style or responsive image style derivatives only if necessary</del>
+          </li>
+        </ul>
+        <p><b>Highlighted Changes for 9.0.x:</b>
+        </p>
+        <ul>
+          <li><del>Updated Varbase Layout Builder module from ~9.0 to ~10.0</del>
+          </li>
+          <li><del>Started a 10.0.x branch for Varbase Layout Builder to use Bootstrap Styles and Bootstrap Layout Builder</del>
+          </li>
+          <li><del>Changed default content for the Homepage to match with the Varbase Layout Builder ~10 config structure</del>
+          </li>
+          <li><del>Switched Blog site section page, Blog post, Blog categories, and Tags to use Varbase Layout Builder ~10</del>
+          </li>
+          <li><del>Changed style of Edit Layout page and preview of sections to look like the front end view of the page</del>
+          </li>
+          <li><del>Changed Varbase Layout Builder default set of breakpoints, layouts, and styles</del>
+          </li>
+          <li><del>Added a checkbox &quot;Keep gutters between columns&quot; to section layout and Default options for sections</del>
+          </li>
+          <li><del>Fixed the style of ADD TO LIBRARY and IMPORT FROM LIBRARY for Layout Builder Section Library</del>
+          </li>
+          <li><del>Made Edge to edge background default checked on</del>
+          </li>
+          <li><del>Fixed Container type and Gutters layouts rendering</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">February 2021</td>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-8.9">8.x-8.9</a>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 8.x-8.x:</b>
+        </p>
+        <ul>
+          <li><del>Added WebP module ~1.0 and enable by default</del>
+          </li>
+          <li><del>Updated Bootstrap library from 4.5.3 to 4.6.0<br />Bootstrap v4.6.0 was released</del>
+          </li>
+          <li><del>Added Preloaded fonts include in Vartheme BS4</del>
+          </li>
+          <li><del>Switched to CircleCI as the default automated testing platform</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">January 2021</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
       <td style="text-align:left">December 2020</td>
       <td style="text-align:left">
         <p><a href="https://www.drupal.org/project/varbase/releases/8.x-8.8">8.x-8.8</a>
