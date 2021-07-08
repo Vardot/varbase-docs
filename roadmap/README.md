@@ -22,6 +22,64 @@ We have broken down the epics by month to provide a clear and transparent roadma
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">May 2019</td>
+      <td style="text-align:left">
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-6.9">8.x-6.9</a>
+        </p>
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-6.10">8.x-6.10</a>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 8.x-6.x:</b>
+        </p>
+        <ul>
+          <li><del>Updated Drupal core from 8.6.15 to 8.6.16 - Drupal core - Moderately critical - Third-party libraries - SA-CORE-2019-007 </del>
+          </li>
+          <li><del>Changed drupal/core ~8.6 to ~8.6.0 to let composer update to 8.6.16 and more 8.6.x versions and not to update to 8.7.x</del>
+          </li>
+          <li><del>Have Vartheme BS4 as the default theme for Varbase and disable Vartheme</del>
+          </li>
+          <li><del>Changed and shifted Varbase Media responsive image styles to work with the mapping of Bootstrap 3 breakpoints into Bootstrap 4 breakpoints.</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">April 2019</td>
+      <td style="text-align:left">
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-6.7">8.x-6.7</a>
+        </p>
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-6.8">8.x-6.8</a>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 8.x-6.x:</b>
+        </p>
+        <ul>
+          <li><del>Switched of using Responsive image styles only to use Blazy loading with responsive image styles for most media view mode sizes of ( Image, Video, Remote Video) media types</del>
+          </li>
+          <li><del>Added Varbase Update Helper to the List of default varbase components, which they will be installed when we install varbase</del>
+          </li>
+          <li><del>Added Varbase Email module to the List of default varbase components, which it will be installed when we install varbase.</del>
+          </li>
+          <li><del>Removed enabling the [smtp] module as we have switched to use swiftmailer ~1.0 and Varbase emailing configs switched to [Varbase Email] module.</del>
+          </li>
+          <li><del>Implement theme suggestions and JS behaviors in Varbase Media for each video provider to support autoplay for various video providers (YouTube, Vimeo, and Local video)</del>
+          </li>
+          <li><del>Initialized the Varbase Media Header slider 8.x-7.x branch structure and implement theme suggestions and JS behaviors for each video provider to support autoplay for various video providers (YouTube, Vimeo, and Local video)</del>
+          </li>
+          <li><del>Implemented theme suggestions and JS behaviours in Varbase Media Header for each video provider to support autoplay for various video providers (YouTube, Vimeo, and Local video) targeted for the media header</del>
+          </li>
+          <li><del>Added [Length Indicator] module 8.1.0-rc3</del>
+          </li>
+          <li><del>Added the checklist for optional updates over the [Length Indicator] configs modules</del>
+          </li>
+          <li><del>Added targeted modules with #dependency in the checklist item and updated the Updated Helper for optional updates</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">March 2019</td>
       <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.6">8.x-6.6</a>
       </td>
