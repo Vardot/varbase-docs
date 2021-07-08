@@ -22,6 +22,98 @@ We have broken down the epics by month to provide a clear and transparent roadma
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">March 2020</td>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-8.4">8.x-8.4</a>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 8.x-8.x:</b>
+        </p>
+        <ul>
+          <li><del>Updated Drupal core from 8.8.2 to 8.8.4 ( ~8.8.0 ) and Updated Varbase Context for the Automated Functional Acceptance Testing groups. Drupal core - Moderately critical - Third-party libraries - SA-CORE-2020-001</del>
+          </li>
+          <li><del>Drupal 9 readiness for Varbase distribution installation profile with Drupal coding standard and practice</del>
+          </li>
+          <li><del>Integrated with advanced Layout Builder UX behaviours</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">February 2020</td>
+      <td style="text-align:left">
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-7.5">8.x-7.5</a>
+        </p>
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-8.2">8.x-8.2</a>
+        </p>
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-8.3">8.x-8.3</a>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 8.x-7.x:</b>
+        </p>
+        <ul>
+          <li><del>Updated Views Bulk Operations (VBO) module to 8.3.4 in the drupal-org.make file to clear the security flag for Drupal.org packaging. Views Bulk Operations (VBO) - Moderately critical - Access bypass - SA-CONTRIB-2020-003</del>
+          </li>
+        </ul>
+        <p><b>Highlighted Changes for 8.x-8.x:</b>
+        </p>
+        <ul>
+          <li><del>Added Varbase Layout Builder settings]for options source config to feed Background color styling option</del>
+          </li>
+          <li><del>Added support for Varbase Layout Builder]colors theme vlb-colors library in Vartheme BS4 and VARTHEME_BS4_SUBTHEME with gulp-csscomb</del>
+          </li>
+          <li><del>Added a redirect to the layout editing page after creating a new entity with a View mode Layout Builder enabled on the default or full content display mode</del>
+          </li>
+          <li><del>Added Media and Gallery Block types to be used with the Varbase Landing Page (Layout Builder) content type</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">January 2020</td>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">December 2019</td>
+      <td style="text-align:left">
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-7.4">8.x-7.4</a>
+        </p>
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-8.0">8.x-8.0</a>
+        </p>
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-8.1">8.x-8.1</a>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 8.x-7.x:</b>
+        </p>
+        <ul>
+          <li><del>Added blurred image effect to Varbase Media]to be loaded for all Blazy enabled images</del>
+          </li>
+        </ul>
+        <p><b>Highlighted Changes for 8.x-8.x:</b>
+        </p>
+        <ul>
+          <li><del>Updated Drupal core from ~8.7.0 to ~8.8.0</del>
+          </li>
+          <li><del>Started an 8.x-8.x new branch for Varbase version: 8.x-8.x-dev and extra branch-alias with dev-8.x-8.x to 8.8.x-dev</del>
+          </li>
+          <li><del>Switched from drupal/core ~8.8.0 to drupal/core-recommended ~8.8.0 in Varbase Core 8.8.0</del>
+          </li>
+          <li><del>Switched from drupal-composer/drupal-scaffold ~2.0 to drupal/core-composer-scaffold ^8.8.0</del>
+          </li>
+          <li><del>Initialized Varbase Layout Builder with a starter set of layouts and styling options for sections</del>
+          </li>
+          <li><del>Fixed replace drupal-composer/drupal-scaffold with drupal/core-composer-scaffold and removed post install cmd scripts</del>
+          </li>
+          <li><del>Vardot/varbase-project template : Fixed replace drupal-composer/drupal-scaffold with drupal/core-composer-scaffold #70</del>
+          </li>
+          <li><del>Vardot/varbase-updater : Changed the update config rules for 8.7.* to 8.8.1 and from 8.8.* to 8.8.* latest #24</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">November 2019</td>
       <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-7.3">8.x-7.3</a>
       </td>
