@@ -22,7 +22,22 @@ We have broken down the epics by month to provide a clear and transparent roadma
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">February 2018</td>
+      <td style="text-align:left">March 2019</td>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.6">8.x-6.6</a>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 8.x-6.x:</b>
+        </p>
+        <ul>
+          <li><del>Added Vartheme (Bootstrap 4 - SASS) theme (~6.0)</del>
+          </li>
+          <li><del>Cleaned up all hash commits so that vardot/varbase-project template and the composer.json looks clean.</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">February 2019</td>
       <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-6.5">8.x-6.5</a>
       </td>
       <td style="text-align:left">
