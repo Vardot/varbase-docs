@@ -22,22 +22,67 @@ We have broken down the epics by month to provide a clear and transparent roadma
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">July 2019</td>
+      <td style="text-align:left">September 2019</td>
+      <td style="text-align:left"><a href="https://www.drupal.org/project/varbase/releases/8.x-7.2">8.x-7.2</a>
+      </td>
       <td style="text-align:left">
-        <p>8.x-6.12</p>
-        <p>8.x-7.0</p>
+        <p><b>Highlighted Changes for 8.x-7.x:</b>
+        </p>
+        <ul>
+          <li><del>Updated [Drupal core] from 8.7.7 to 8.7.8 (~8.7.0 ) and remove applied patches</del>
+          </li>
+          <li><del>Switched CSS management for [Varbase Media Hero Slider] from LESS to SCSS with Gulp as the task manager and make use of the (RFS) Responsive Font Size SCSS library</del>
+          </li>
+          <li><del>Switched CSS management for [Varbase Bootstrap Paragraphs] from LESS to SCSS with Gulp as the task manager and make use of the (RFS) Responsive Font Size SCSS library, which comes with Bootstrap 4</del>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">August 2019</td>
+      <td style="text-align:left">
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-6.13">8.x-6.13</a>
+        </p>
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-7.1">8.x-7.1</a>
+        </p>
       </td>
       <td style="text-align:left">
         <p><b>Highlighted Changes for 8.x-6.x:</b>
         </p>
         <p>&lt;b&gt;&lt;/b&gt;</p>
         <ul>
-          <li>
-            <blockquote>
-              <p><del>Varbase 8.6.12 is the last version for the 8.6.x branch, We recommend to upgrade to Varbase 8.7.0 the first version for the 8.7.x branch</del>
-              </p>
-            </blockquote>
+          <li><del>Updated Drupal core from 8.7.4 to 8.7.6 ( ~8.7.0 ) by removing already applied or committed patches in drupal/core</del>
           </li>
+          <li><del>Updated Metatag module from 8.1.8 to 8.1.9</del>
+          </li>
+          <li><del>Updated Paragraphs module from 8.1.8 to 8.1.9</del>
+          </li>
+        </ul>
+        <p><b>Highlighted Changes for 8.x-7.x:</b>
+        </p>
+        <ul>
+          <li><del>Updated Drupal core from 8.7.4 to 8.7.6 ( ~8.7.0 ) by removing already applied or committed patches in drupal/core</del>
+          </li>
+          <li><del>Updated Metatag module from 8.1.8 to 8.1.9</del>
+          </li>
+          <li><del>Added Gallery media type</del>
+            <br />
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">July 2019</td>
+      <td style="text-align:left">
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-6.12">8.x-6.12</a>
+        </p>
+        <p><a href="https://www.drupal.org/project/varbase/releases/8.x-7.0">8.x-7.0</a>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p><b>Highlighted Changes for 8.x-6.x:</b>
+        </p>
+        <ul>
           <li><del>Have Varbase Update Helper module as a dependency with Varbase Core module</del>
           </li>
           <li><del>Enabled Redirect domain module in the Varbase seo module</del>
