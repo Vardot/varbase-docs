@@ -31,7 +31,7 @@ The below requirements outline the minimum needed requirements. If you need help
     <tr>
       <td style="text-align:left">PHP</td>
       <td style="text-align:left">
-        <p>PHP 7.2 or higher. PHP 7.3 is recommended.</p>
+        <p>PHP 7.3 or higher. PHP 7.4 is recommended.</p>
         <p>PHP extensions: mysqli (for MySQL), pgsql (for PostgreSQL), xml, gd, openssl,
           json, curl, mbstring, date, dom, filter, hash, pcre, pdo, session, SimpleXML,
           SPL, tokenizer, mcrypt</p>
@@ -41,7 +41,7 @@ The below requirements outline the minimum needed requirements. If you need help
       <td style="text-align:left">Applications</td>
       <td style="text-align:left">
         <p>Composer</p>
-        <p>Drush 9 or higher</p>
+        <p>Drush 10 or higher</p>
         <p>Git</p>
       </td>
     </tr>
@@ -92,7 +92,7 @@ If you need help sizing your server, please contact us at [https://www.vardot.co
     <tr>
       <td style="text-align:left">PHP</td>
       <td style="text-align:left">
-        <p>PHP 7.2 or higher. PHP 7.3 is recommended.</p>
+        <p>PHP 7.3 or higher. PHP 7.4 is recommended.</p>
         <p>PHP extensions: mysqli <em>(for MySQL)</em>, pgsql <em>(for PostgreSQL)</em>,
           xml, gd, openssl, json, curl, mbstring, date, dom, filter, hash, pcre,
           pdo, session, SimpleXML, SPL, tokenizer, mcrypt</p>
@@ -105,7 +105,7 @@ If you need help sizing your server, please contact us at [https://www.vardot.co
       <td style="text-align:left">Applications</td>
       <td style="text-align:left">
         <p>Composer</p>
-        <p>Drush 9 or higher</p>
+        <p>Drush 10 or higher</p>
         <p>Git</p>
       </td>
     </tr>
