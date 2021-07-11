@@ -30,9 +30,19 @@ All **Varbase** components follows css files structure organized with [SMACSS](h
 4. **State** — styles that deal with client-side changes to components.
 5. **Theme** — purely visual styling \(“look-and-feel”\) for a component.
 
-#### [**CSS file organization \(for Drupal 9\)**](https://www.drupal.org/docs/develop/standards/css/css-file-organization-for-drupal-9)\*\*\*\*
 
-#### [CSS architecture \(for Drupal 9\)](https://www.drupal.org/docs/develop/standards/css/css-architecture-for-drupal-9)
+
+{% hint style="info" %}
+Refere to Drupal.org standards for CSS file organization \(for Drupal 9\)
+
+[https://www.drupal.org/docs/develop/standards/css/css-file-organization-for-drupal-9](https://www.drupal.org/docs/develop/standards/css/css-file-organization-for-drupal-9)
+{% endhint %}
+
+{% hint style="info" %}
+Refere to Drupal.org standards for CSS architecture
+
+[https://www.drupal.org/docs/develop/standards/css/css-architecture-for-drupal-9](https://www.drupal.org/docs/develop/standards/css/css-architecture-for-drupal-9)
+{% endhint %}
 
 #### 
 
@@ -42,7 +52,13 @@ Build fast, responsive sites with Bootstrap
 
 Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
 
-#### [Bootstrap 4 components](https://getbootstrap.com/docs/4.6/components/alerts/)
+{% hint style="info" %}
+To browse the list of all **Bootstrap 4** components
+
+[https://getbootstrap.com/docs/4.6/components](https://getbootstrap.com/docs/4.6/components)
+{% endhint %}
+
+#### 
 
 ### Vartheme BS4 custom components
 
