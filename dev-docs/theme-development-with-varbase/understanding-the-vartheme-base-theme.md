@@ -6,9 +6,15 @@ A base theme for [**Varbase**](https://www.drupal.org/project/varbase) standard 
 
 Based on the [**Bootstrap Barrio**](https://www.drupal.org/project/bootstrap_barrio) theme \(**Bootstrap 4** - SASS\).
 
-**Vartheme BS4** css files structure organized with [SMACSS](http://smacss.com/book/) in mind. Drupal core theme engine is using that as the wight of assets.
+### Varbase and SMACSS
 
-### [CSS file organization \(for D](https://www.drupal.org/docs/develop/standards/css/css-file-organization-for-drupal-9)[upal 9\)](https://www.drupal.org/docs/develop/standards/css/css-file-organization-for-drupal-9)
+All Varbase components follows css files structure organized with [SMACSS](http://smacss.com/book/) in mind.
+
+### Vartheme and SMACSS
+
+**Vartheme BS4** css files structure organized with [SMACSS](http://smacss.com/book/) in mind.
+
+### Drupal SMACSS
 
 **Drupal 9** follows a **SMACSS-style** categorization of its CSS rules:
 
@@ -18,5 +24,11 @@ Based on the [**Bootstrap Barrio**](https://www.drupal.org/project/bootstrap_bar
 4. **State** — styles that deal with client-side changes to components.
 5. **Theme** — purely visual styling \(“look-and-feel”\) for a component.
 
-### [CSS architecture \(for Drupal 9\)](https://www.drupal.org/docs/develop/standards/css/css-architecture-for-drupal-9)
+
+
+#### [**CSS file organization \(for Drupal 9\)**](https://www.drupal.org/docs/develop/standards/css/css-file-organization-for-drupal-9)\*\*\*\*
+
+#### [CSS architecture \(for Drupal 9\)](https://www.drupal.org/docs/develop/standards/css/css-architecture-for-drupal-9)
+
+#### 
 
