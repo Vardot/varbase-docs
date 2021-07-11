@@ -68,9 +68,11 @@ yarn theme:create-sub-theme "THEME_NAME"
 * Search for the name of the generated new sub theme and click on Install and set as default.
 * Navigate to the home page to check if the new theme is the default theme.
 
-### Compile SCSS files to CSS
+### Run Gulp or Yarn for the first time
 
-* Change directory to the new theme in the terminal to test compiling SASS files to CSS
+Change directory to the new theme in the terminal then run only `gulp` without arguments.
+
+Do this only ones after the creation of a new sub theme or after updating the **Bootstrap 4** library
 
 ```text
 $ cd PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
@@ -92,12 +94,9 @@ or with **Yarn**
 yarn theme:init
 ```
 
-Increase maximum watched SASS files by
+### Compiling SCSS source files
 
-```text
-$ echo fs.inotify.max_user_watches=524288
- | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
-```
+* For example change the color value for the primary color in `scss/bootstrap-variables.scss`   file to test compiling SASS files to CSS
 
 Then run `gulp compile` ones to compile every time the SCSS source changes.
 
@@ -117,7 +116,14 @@ yarn theme:build
 
 ### Watching SCSS source changes
 
-Run `gulp watch` to keep watching for changes. and auto compiling on save.
+Increase maximum watched SASS files by
+
+```text
+$ echo fs.inotify.max_user_watches=524288
+ | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+```
+
+Run `gulp watch` to keep watching for changes. This command will auto compile on each save of changes for SCSS files.
 
 ```text
 $ cd PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
