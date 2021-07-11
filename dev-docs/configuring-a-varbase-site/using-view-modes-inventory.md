@@ -36,7 +36,7 @@ View Modes inventory \(VMI\) provides a set of template content "View Modes" tha
 
 * Hero xlarge.
 
-For a quick tips watch this [YouTube](https://www.youtube.com/watch?v=dh36h9z4LJ8) video
+For quick tips watch this [YouTube](https://www.youtube.com/watch?v=dh36h9z4LJ8) video.
 
 {% embed url="https://www.youtube.com/watch?v=dh36h9z4LJ8" %}
 
