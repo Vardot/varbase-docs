@@ -92,15 +92,22 @@ bash ./create-new-vartheme-bs4.sh "mytheme"
 
 The new theme will be located at _"/var/www/html/mysite/docroot/themes/custom/mytheme"_
 
-\_\_
+When the finishes the following message will show up in the terminal
+
+```text
+---------------------------------------------------------------------------
+   The new Vartheme BS4 Sub-Theme were created at "/var/www/html/mysite/docroot/themes/custom/mytheme :)" 
+---------------------------------------------------------------------------
+```
 
 ### Activate the new theme
 
-* Go to Appearance in the Varbase site.
-* Search for the name of the generated new sub theme and click on Install and set as default.
+* Go to Appearance in the administration of the Varbase site.
+* Search for the name of the newly generated theme
+* Click on Install and set as default.
 * Navigate to the home page to check if the new theme is the default theme.
 
-### Run Gulp or Yarn for the first time
+### Initiation of compiling SCSS 
 
 Change directory to the new theme in the terminal then run only `gulp` without arguments.
 
@@ -126,7 +133,7 @@ or with **Yarn**
 yarn theme:init
 ```
 
-### Compiling SCSS source files
+### Compiling SCSS to CSS
 
 * For example change the color value for the primary color in `scss/bootstrap-variables.scss`   file to test compiling SASS files to CSS
 
@@ -146,7 +153,7 @@ or with **Yarn**
 yarn theme:build
 ```
 
-### Watching SCSS source changes
+### Watching SCSS changes
 
 Increase maximum watched SASS files by
 
