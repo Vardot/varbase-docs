@@ -2,17 +2,16 @@
 
 If you had built your project with the [Varbase Project](https://github.com/Vardot/varbase-project) template, you could use the ready create new Vartheme sub theme command. 
 
-### Vartheme BS4: Varbase Theme \(Bootstrap 4 - SASS\)
+Before that have a look at:
 
-A base theme for [Varbase](https://www.drupal.org/project/varbase) standard websites.
+* [Understanding the Vartheme Base Theme](understanding-the-vartheme-base-theme.md)
+* [Bootstrap standard build tools](https://getbootstrap.com/docs/4.0/getting-started/build-tools/)
 
-Based on the [Bootstrap Barrio](https://www.drupal.org/project/bootstrap_barrio) theme \(Bootstrap 4 - SASS\).
+### Install needed tools
 
-### Install needed tools before generating
+#### **1. Install npm** and [**nodejs**](https://nodejs.org/en/)\*\*\*\*
 
-#### **1. npm** and **nodejs**
-
- Helps getting the **Bootstrap 4** and popper packages. [Bootstrap standard build tools](https://getbootstrap.com/docs/4.0/getting-started/build-tools/)
+ Helps getting the **Bootstrap 4** and **popper** packages. 
 
 ```text
 $ curl -sL https://deb.nodesource.com/setup | sudo bash -
@@ -44,23 +43,56 @@ npm install gulp-cli -g
 npm install gulp -D
 ```
 
-### Generate new Vartheme BS4 sub theme for a project
+### 
 
-#### Generate with Bash script
+### Create new Vartheme BS4 sub theme
 
-After making sure that all the tools are ready, change directory in the terminal to:
+#### Create with Bash script
+
+1. Change directory in the terminal to `docroot/themes/contrib/vartheme_bs4/scripts`
+2. Run the `create-new-vartheme-bs4.sh "THEME_NAME"`
+3. Change the `THEME_NAME` to the project name or any selected theme name.
 
 ```text
 $ cd PROJECT_DIR_NAME/docroot/themes/contrib/vartheme_bs4/scripts
 $ bash ./create-new-vartheme-bs4.sh "THEME_NAME"
 ```
 
-#### Generate with **Yarn**
+#### Create with **Yarn**
 
 ```text
 $ cd PROJECT_DIR_NAME/docroot/themes/contrib/vartheme_bs4
 yarn theme:create-sub-theme "THEME_NAME"
 ```
+
+### 
+
+### Example mythem for mysite
+
+If a Varbase site named _"mysite"_  was built using the following command:
+
+```text
+cd /var/www/html
+composer create-project Vardot/varbase-project:~9 mysite --no-dev --no-interaction
+```
+
+The folder _mysite_  for the project is located at _"/var/www/html/mysite"_
+
+Change directory to `docroot/themes/contrib/vartheme_bs4/scripts`
+
+```text
+cd /var/www/html/mysite/docroot/themes/contrib/vartheme_bs4/scripts
+```
+
+Run the following `bash`command to create a custom theme named "_mytheme"_ 
+
+```text
+bash ./create-new-vartheme-bs4.sh "mytheme"
+```
+
+The new theme will be located at _"/var/www/html/mysite/docroot/themes/custom/mytheme"_
+
+\_\_
 
 ### Activate the new theme
 
