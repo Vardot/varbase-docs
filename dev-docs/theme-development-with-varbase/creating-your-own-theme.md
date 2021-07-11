@@ -112,11 +112,13 @@ When the finishes the following message will show up in the terminal
 * Click on Install and set as default.
 * Navigate to the home page to check if the new theme is the default theme.
 
-### Initiation of compiling SCSS 
+### Initiation commands
 
 Change directory to the new theme in the terminal then run only `gulp` without arguments.
 
-Do this only ones after the creation of a new sub theme or after updating the **Bootstrap 4** library
+Run this command ones after creating a new sub theme
+
+Run it again ones after updating the **Bootstrap 4** library with `yarn install`
 
 ```text
 $ cd PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
