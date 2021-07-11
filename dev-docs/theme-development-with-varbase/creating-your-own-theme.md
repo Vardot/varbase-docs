@@ -1,6 +1,6 @@
 # Creating Your Own Theme
 
-If you had built your project with the [Varbase Project](https://github.com/Vardot/varbase-project) template, you could use the ready create new Vartheme sub theme command. 
+If you had built your project with the [**Varbase Project**](https://github.com/Vardot/varbase-project) template, you could use the ready create new **Vartheme** sub theme command. 
 
 Before that have a look at:
 
@@ -69,7 +69,7 @@ yarn theme:create-sub-theme "THEME_NAME"
 
 ### Example mythem for mysite
 
-If a Varbase site named _"mysite"_  was built using the following command:
+If a **Varbase** site named _"mysite"_  was built using the following command:
 
 ```text
 cd /var/www/html
@@ -102,7 +102,7 @@ When the finishes the following message will show up in the terminal
 
 ### Activate the new theme
 
-* Go to Appearance in the administration of the Varbase site.
+* Go to Appearance in the administration of the **Varbase** site.
 * Search for the name of the newly generated theme
 * Click on Install and set as default.
 * Navigate to the home page to check if the new theme is the default theme.
