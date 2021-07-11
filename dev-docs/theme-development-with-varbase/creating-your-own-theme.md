@@ -1,11 +1,16 @@
 # Creating Your Own Theme
 
-If you had built your project with the [**Varbase Project**](https://github.com/Vardot/varbase-project) template, you could use the ready create new **Vartheme** sub theme command. 
+After building and installing the project with the [**Varbase Project**](https://github.com/Vardot/varbase-project) template, use the create new Vartheme sub theme command. 
 
 Before that have a look at:
 
-* [Understanding the Vartheme Base Theme](understanding-the-vartheme-base-theme.md)
-* [Bootstrap standard build tools](https://getbootstrap.com/docs/4.0/getting-started/build-tools/)
+{% page-ref page="understanding-the-vartheme-base-theme.md" %}
+
+{% hint style="info" %}
+Learn more about Bootstrap standard build tools documentation, compile source code, run tests, and more.
+
+[https://getbootstrap.com/docs/4.0/getting-started/build-tools/](https://getbootstrap.com/docs/4.0/getting-started/build-tools/)
+{% endhint %}
 
 ### Install needed tools
 
