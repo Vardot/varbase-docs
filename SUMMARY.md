@@ -28,6 +28,7 @@
     * [Varbase Editor](dev-docs/understanding-varbase/core-components/varbase-editor.md)
     * [Varbase Media](dev-docs/understanding-varbase/core-components/varbase-media.md)
     * [Varbase Layout Builder](dev-docs/understanding-varbase/core-components/varbase-layout-builder.md)
+    * [Varbase Landing page \(Layout Builder\)](dev-docs/understanding-varbase/core-components/varbase-landing-page-layout-builder.md)
     * [Varbase Blog](dev-docs/understanding-varbase/core-components/varbase-blog.md)
     * [Varbase Bootstrap Paragraphs](dev-docs/understanding-varbase/core-components/varbase-bootstrap-paragraphs.md)
     * [Varbase Landing Page \(Paragraphs\)](dev-docs/understanding-varbase/core-components/varbase-landing-page-paragraphs.md)
