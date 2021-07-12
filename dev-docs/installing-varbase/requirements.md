@@ -8,13 +8,13 @@
 
 | **Component** | **Description** |
 | :--- | :--- |
-| **Browser** | A browser with ability to fully execute JavaScript from Varbase to access its full functionality. |
+| **Browser** | A browser with the ability to fully execute JavaScript from Varbase to access its full functionality. |
 
 ## Server-side Requirements for Evaluation or Development
 
 The below requirements outline the minimum needed requirements. If you need help sizing your server, please contact us at [https://www.vardot.com/contact-us](https://www.vardot.com/contact-us) for consultation.
 
-* **Disk space**: Minimum 300MB for codebase, 5GB for files, and 1GB for database _\(Will greatly depend on your application data and usage\)_.
+* **Disk space**: Minimum 300MB for codebase, 5GB for files, and 1GB for the database _\(Will greatly depend on your application data and usage\)_.
 * **Memory**: Minimum of 2GB \(for 1 host\). Minimum PHP memory of 196MB _\(might need to increase this as your Varbase site's functionalities increase\)._
 * **CPU**: Minimum of 2 CPUs is recommended \(for 1 host\).
 
@@ -111,14 +111,14 @@ If you need help sizing your server, please contact us at [https://www.vardot.co
     </tr>
     <tr>
       <td style="text-align:left">Web Server</td>
-      <td style="text-align:left">Varbase works on any web server with PHP version of 7 or higher.<code>mod_rewrite</code> is
+      <td style="text-align:left">Varbase works on any web server with a PHP version of 7.3 or higher.<code>mod_rewrite</code> is
         required if you use Apache.
         <br /><code>ngx_http_rewrite_module</code> if you use Nginx.</td>
     </tr>
     <tr>
       <td style="text-align:left">Database Engine</td>
       <td style="text-align:left">
-        <p>Varbase works on any multiple database engines. MySQL, MariaDB or Percona
+        <p>Varbase works on multiple database engines. MySQL, MariaDB, or Percona
           Server (Recommended)</p>
         <ul>
           <li>MySQL 8 is supported only on Varbase 8.6.x or higher</li>
