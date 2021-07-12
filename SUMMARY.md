@@ -48,6 +48,8 @@
     * [Varbase Workflow](dev-docs/understanding-varbase/core-components/varbase-workflow.md)
     * [Varbase Content Planner](dev-docs/understanding-varbase/core-components/varbase-content-planner.md)
     * [Varbase Total Control Dashboard](dev-docs/understanding-varbase/core-components/varbase-total-control-dashboard.md)
+    * [Varbase Media Instagram](dev-docs/understanding-varbase/core-components/varbase-media-instagram.md)
+    * [Varbase Media Twitter](dev-docs/understanding-varbase/core-components/varbase-media-twitter.md)
     * [Vartheme Claro](dev-docs/understanding-varbase/core-components/vartheme-claro.md)
   * [Optional Components](dev-docs/understanding-varbase/optional-components/README.md)
     * [Varbase Media Header](dev-docs/understanding-varbase/optional-components/varbase-media-header.md)
