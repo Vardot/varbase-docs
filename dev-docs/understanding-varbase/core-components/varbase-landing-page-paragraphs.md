@@ -4,7 +4,7 @@ Provides the basis for Landing Pages, which are built to include appealing stack
 
 This component was built on top of the **Varbase Bootstrap Paragraphs** module.
 
-{% page-ref page="varbase-bootstrap-paragraphs.md" %}
+{% page-ref page="varbase-bootstrap-paragraphs/" %}
 
 
 

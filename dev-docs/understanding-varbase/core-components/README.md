@@ -30,7 +30,7 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-editor.md" %}
 
-{% page-ref page="varbase-media.md" %}
+{% page-ref page="varbase-media/" %}
 
 {% page-ref page="varbase-blog.md" %}
 
@@ -48,7 +48,7 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-gallery-block.md" %}
 
-{% page-ref page="varbase-bootstrap-paragraphs.md" %}
+{% page-ref page="varbase-bootstrap-paragraphs/" %}
 
 {% page-ref page="varbase-carousels.md" %}
 
