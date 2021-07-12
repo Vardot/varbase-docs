@@ -33,6 +33,8 @@
     * [Varbase Heading block](dev-docs/understanding-varbase/core-components/varbase-heading-block.md)
     * [Varbase Rich text block](dev-docs/understanding-varbase/core-components/varbase-rich-text-block.md)
     * [Varbase HTML code block](dev-docs/understanding-varbase/core-components/varbase-html-code-block.md)
+    * [Varbase Media \(image/video\) block](dev-docs/understanding-varbase/core-components/varbase-media-image-video-block.md)
+    * [Varbase Gallery block](dev-docs/understanding-varbase/core-components/varbase-gallery-block.md)
     * [Varbase Bootstrap Paragraphs](dev-docs/understanding-varbase/core-components/varbase-bootstrap-paragraphs.md)
     * [Varbase Landing Page \(Paragraphs\)](dev-docs/understanding-varbase/core-components/varbase-landing-page-paragraphs.md)
     * [Varbase Carousels](dev-docs/understanding-varbase/core-components/varbase-carousels.md)
