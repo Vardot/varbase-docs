@@ -7,7 +7,7 @@ Learn more about Lando on the official website: [lando.dev](https://lando.dev/)
 {% hint style="danger" %}
 \*\*\*\*[**Lando**](https://lando.dev/) **is a development tool!**
 
-Note that while you can run Lando in production, it is highly discouraged, not recommended and 100% not supported! DON'T DO IT!
+Note that while you can run Lando in production, it is highly discouraged, not recommended, and 100% not supported! DON'T DO IT!
 {% endhint %}
 
 Follow the steps below to setup Varbase with Lando.
@@ -19,14 +19,14 @@ Follow the steps below to setup Varbase with Lando.
    composer create-project Vardot/varbase-project:~9 MY_VARBASE_PROJECT --no-dev --no-interaction
    ```
 
-3. Use your favorite editor to edit the _.lando.yml_ file and change the `name` value to your project's name.
+3. Edit the _.lando.yml_ file and change the `name` value to your project's name.
 
    ```text
    cd MY_VARBASE_PROJECT
    vim .lando.yml
    ```
 
-4. Edit your _settings.php_ file and add the following code to setup the database connection.
+4. Edit the _settings.php_ file and add the following code to setup the database connection.
 
    ```text
    $databases['default']['default'] = [
@@ -58,8 +58,8 @@ You can type `lando info` to know the MySQL database hostname, username,  passwo
 
 
 
-## Adding Lando to an existing Varbase project
+### Adding Lando to an existing Varbase project
 
 1. Download _.lando.yml_ from the Varbase project repo [https://github.com/Vardot/varbase-project](https://github.com/Vardot/varbase-project) .
-2. Proceed with steps 3, 4 and 5 mentioned above.
+2. Proceed with steps 3, 4, and 5 mentioned above.
 
