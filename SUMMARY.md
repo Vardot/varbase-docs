@@ -41,6 +41,7 @@
     * [Varbase Email](dev-docs/understanding-varbase/core-components/varbase-email.md)
     * [Varbase Search](dev-docs/understanding-varbase/core-components/varbase-search.md)
     * [Varbase SEO](dev-docs/understanding-varbase/core-components/varbase-seo.md)
+    * [Varbase Styleguide](dev-docs/understanding-varbase/core-components/varbase-styleguide.md)
     * [Varbase Social Single Sign-On](dev-docs/understanding-varbase/core-components/varbase-social-single-sign-on.md)
     * [Vartheme Claro](dev-docs/understanding-varbase/core-components/vartheme-claro.md)
   * [Optional Components](dev-docs/understanding-varbase/optional-components/README.md)
