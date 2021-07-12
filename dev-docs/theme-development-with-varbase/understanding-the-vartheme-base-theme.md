@@ -68,5 +68,5 @@ To browse the list of all **Bootstrap 4** components
 ### More from Varbase custom components
 
 * `.varbase-heroslider-media` : [**Varbase Hero slider media**](https://www.drupal.org/project/varbase_heroslider_media) style.
-* \*\*\*\*[**View Modes Inventory - Bootstrap Ready**](https://www.drupal.org/project/vmi) **:** Number of view mode components, layouts, and theme, which you can copy from the module and custom for each content type. \( Have a look at [Using the VMI ](../configuring-a-varbase-site/using-view-modes-inventory.md)\)
+* \*\*\*\*[**View Modes Inventory - Bootstrap Ready**](https://www.drupal.org/project/vmi) **:** Number of view mode components, layouts, and themes, which you can copy from the module and custom for each content type. \( Have a look at [Using the VMI ](../configuring-a-varbase-site/using-view-modes-inventory.md)\)
 
