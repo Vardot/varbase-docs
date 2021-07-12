@@ -26,6 +26,7 @@
     * [Varbase Webform](dev-docs/understanding-varbase/core-components/varbase-webform.md)
     * [Varbase API](dev-docs/understanding-varbase/core-components/varbase-api.md)
     * [Varbase Editor](dev-docs/understanding-varbase/core-components/varbase-editor.md)
+    * [Varbase Media](dev-docs/understanding-varbase/core-components/varbase-media.md)
   * [Optional Components](dev-docs/understanding-varbase/optional-components.md)
 * [Configuring a Varbase Site](dev-docs/configuring-a-varbase-site/README.md)
   * [Navigation](dev-docs/configuring-a-varbase-site/navigation/README.md)
