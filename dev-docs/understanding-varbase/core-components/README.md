@@ -50,9 +50,23 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-bootstrap-paragraphs.md" %}
 
+{% page-ref page="varbase-carousels.md" %}
+
+{% page-ref page="varbase-media-hero-slider.md" %}
+
 {% page-ref page="varbase-landing-page-paragraphs.md" %}
 
 {% page-ref page="varbase-email.md" %}
+
+{% page-ref page="varbase-seo.md" %}
+
+{% page-ref page="varbase-styleguide.md" %}
+
+{% page-ref page="varbase-social-single-sign-on.md" %}
+
+{% page-ref page="varbase-workflow.md" %}
+
+{% page-ref page="varbase-total-control-dashboard.md" %}
 
 {% page-ref page="vartheme-claro.md" %}
 
