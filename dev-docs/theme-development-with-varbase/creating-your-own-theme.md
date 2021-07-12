@@ -16,7 +16,7 @@ Learn more about Bootstrap standard build tools documentation, compile source co
 
 #### **1. Install npm** and [**nodejs**](https://nodejs.org/en/)\*\*\*\*
 
- Helps getting the **Bootstrap 4** and **popper** packages. 
+ Helps getting more development tools and the **Bootstrap** and **popper** packages. 
 
 ```text
 $ curl -sL https://deb.nodesource.com/setup | sudo bash -
@@ -55,18 +55,17 @@ npm install gulp -D
 #### Create with Bash script
 
 1. Change directory in the terminal to `docroot/themes/contrib/vartheme_bs4/scripts`
-2. Run the `create-new-vartheme-bs4.sh "THEME_NAME"`
-3. Change the `THEME_NAME` to the project name or any selected theme name.
+2. Run the `create-new-vartheme-bs4.sh "THEME_NAME"`. Change the `THEME_NAME` to the project name or any selected theme name.
 
 ```text
-$ cd PROJECT_DIR_NAME/docroot/themes/contrib/vartheme_bs4/scripts
-$ bash ./create-new-vartheme-bs4.sh "THEME_NAME"
+cd PROJECT_DIR_NAME/docroot/themes/contrib/vartheme_bs4/scripts
+bash ./create-new-vartheme-bs4.sh "THEME_NAME"
 ```
 
 #### Create with **Yarn**
 
 ```text
-$ cd PROJECT_DIR_NAME/docroot/themes/contrib/vartheme_bs4
+cd PROJECT_DIR_NAME/docroot/themes/contrib/vartheme_bs4
 yarn theme:create-sub-theme "THEME_NAME"
 ```
 
@@ -121,8 +120,8 @@ Run this command ones after creating a new sub theme
 Run it again ones after updating the **Bootstrap 4** library with `yarn install`
 
 ```text
-$ cd PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
-$ gulp
+cd PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
+gulp
 [10:55:40] Using gulpfile PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME/gulpfile.js
 [10:55:40] Starting 'default'...
 [10:55:40] Starting 'compile'...
@@ -147,8 +146,8 @@ yarn theme:init
 Then run `gulp compile` ones to compile every time the SCSS source changes.
 
 ```text
-$ cd PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
-$ gulp compile
+cd PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
+gulp compile
 [11:22:30] Using gulpfile PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME/gulpfile.js
 [11:22:30] Starting 'compile'...
 [11:22:33] Finished 'compile' after 2.54 s
@@ -165,15 +164,15 @@ yarn theme:build
 Increase maximum watched SASS files by
 
 ```text
-$ echo fs.inotify.max_user_watches=524288
+echo fs.inotify.max_user_watches=524288
  | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 ```
 
 Run `gulp watch` to keep watching for changes. This command will auto compile on each save of changes for SCSS files.
 
 ```text
-$ cd PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
-$ gulp watch
+d PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
+gulp watch
 [11:25:53] Using gulpfile PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME/gulpfile.js
 [11:25:53] Starting 'watch'...
 ```
