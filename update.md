@@ -6,13 +6,13 @@
 
 [Varbase](https://www.gitbook.com/book/vardot/varbase/edit#) is available as an open source and FREE software for developers and development teams to install, host and run it yourself.
 
-Open Source software is free and promotes the collaboration and sharing of ideas. Varbase is built on Drupal which is Open Source and is completely free. Everyone should [contribute something](https://www.drupal.org/contribute), sometimes simply reporting and maybe fixing a minor bug can make a difference. The Drupal [community](https://www.drupal.org/community) and the [marketplace](https://www.drupal.org/drupal-services) make money supporting Drupal. If you need a feature or support you should contact the Varbase [maintainer](https://www.vardot.com/contact).
+Open Source software is free and promotes the collaboration and sharing of ideas. Varbase was built on top of Drupal, which is Open Source and is completely free. Everyone should [contribute something](https://www.drupal.org/contribute), sometimes simply reporting and maybe fixing a minor bug can make a difference. The Drupal [community](https://www.drupal.org/community) and the [marketplace](https://www.drupal.org/drupal-services) make money supporting Drupal. If you need a feature or support you should contact the Varbase [maintainer](https://www.vardot.com/contact).
 
 ## But I Need Professional Support
 
 Varbase provides a great deal of functionality out of the box, which makes it possible for you to prototype your knowledge base, and try out and experiment all the available features.
 
-However, if you need professional support for implementation, customization, training, or hosted management, please contact Vardot at [https://www.vardot.com/contact](https://www.vardot.com/contact)
+However, if you need a professional support for implementation, customization, training, or hosted management, please contact Vardot at [https://www.vardot.com/contact](https://www.vardot.com/contact)
 
 You may also contact [Vardot](https://www.vardot.com/) for professional and enterprise support of Varbase by sending an email to: [sales@vardot.com](mailto:sales@vardot.com?subject=Requesting%20Vardoc%20Professional%20Support)
 
