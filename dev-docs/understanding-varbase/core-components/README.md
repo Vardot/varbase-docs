@@ -32,6 +32,14 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-media.md" %}
 
+{% page-ref page="varbase-blog.md" %}
+
+{% page-ref page="varbase-bootstrap-paragraphs.md" %}
+
+
+
+
+
 
 
 
