@@ -52,6 +52,18 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-landing-page-paragraphs.md" %}
 
+{% page-ref page="varbase-email.md" %}
+
+{% page-ref page="vartheme-claro.md" %}
+
+{% page-ref page="../../theme-development-with-varbase/understanding-the-vartheme-base-theme.md" %}
+
+
+
+
+
+
+
 
 
 
