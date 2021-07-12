@@ -34,7 +34,25 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-blog.md" %}
 
+{% page-ref page="varbase-layout-builder.md" %}
+
+{% page-ref page="varbase-landing-page-layout-builder.md" %}
+
+{% page-ref page="varbase-heading-block.md" %}
+
+{% page-ref page="varbase-rich-text-block.md" %}
+
+{% page-ref page="varbase-html-code-block.md" %}
+
+{% page-ref page="varbase-media-image-video-block.md" %}
+
+{% page-ref page="varbase-gallery-block.md" %}
+
 {% page-ref page="varbase-bootstrap-paragraphs.md" %}
+
+{% page-ref page="varbase-landing-page-paragraphs.md" %}
+
+
 
 
 
