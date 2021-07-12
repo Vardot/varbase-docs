@@ -42,6 +42,7 @@
     * [Varbase Email](dev-docs/understanding-varbase/core-components/varbase-email.md)
     * [Vartheme Claro](dev-docs/understanding-varbase/core-components/vartheme-claro.md)
   * [Optional Components](dev-docs/understanding-varbase/optional-components/README.md)
+    * [Varbase Media Header](dev-docs/understanding-varbase/optional-components/varbase-media-header.md)
     * [Varbase FAQs](dev-docs/understanding-varbase/optional-components/varbase-faqs.md)
 * [Configuring a Varbase Site](dev-docs/configuring-a-varbase-site/README.md)
   * [Navigation](dev-docs/configuring-a-varbase-site/navigation/README.md)
