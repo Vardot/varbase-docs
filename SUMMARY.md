@@ -14,6 +14,7 @@
 * [Understanding Varbase](dev-docs/understanding-varbase/README.md)
   * [Basic Concepts](dev-docs/understanding-varbase/basic-concepts.md)
   * [Core Components](dev-docs/understanding-varbase/core-components/README.md)
+    * [Vartheme Claro](dev-docs/understanding-varbase/core-components/vartheme-claro.md)
     * [Varbase Core](dev-docs/understanding-varbase/core-components/varbase-core.md)
     * [Varbase Admin](dev-docs/understanding-varbase/core-components/varbase-admin.md)
     * [Varbase Default content](dev-docs/understanding-varbase/core-components/varbase-default-content.md)
