@@ -53,7 +53,7 @@ Build fast, responsive sites with Bootstrap
 Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
 
 {% hint style="info" %}
-To browse the list of all **Bootstrap 4** components
+Browse the list of all **Bootstrap 4** components
 
 [https://getbootstrap.com/docs/4.6/components](https://getbootstrap.com/docs/4.6/components)
 {% endhint %}
