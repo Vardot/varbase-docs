@@ -6,7 +6,7 @@ Varbase follows the Drupal 8/9 release cycle. Therefore, a version of Varbase th
 
 ## Varbase Supported Versions
 
-Varbase supports one major version. That is the most recent one using the most recent Drupal 8/9 major version \(_e.g. `8.x-9.x` , `9.2.x`_\).
+Varbase supports one major version. That is the most recent one using the most recent Drupal 8/9 major version \(_e.g. `8.9.x` , `9.2.x`_\).
 
 Once the most recent stable version of Drupal 9 is released \(_e.g. `9.3.x`_\), Varbase will release its _`9.0.x`_ version and drop support of oldest supported version \(_e.g. `8.8.x`_\).
 
