@@ -6,35 +6,53 @@ Those components are detailed in the table below:
 
 ![Varbase Components Diagram](../../../.gitbook/assets/varbase-components.png)
 
-{% api-method method="get" host="" path="" %}
-{% api-method-summary %}
+{% page-ref page="varbase-core.md" %}
 
-{% endapi-method-summary %}
+{% page-ref page="varbase-admin.md" %}
 
-{% api-method-description %}
+{% page-ref page="varbase-default-content.md" %}
 
-{% endapi-method-description %}
+{% page-ref page="varbase-development.md" %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
+{% page-ref page="varbase-internationalization.md" %}
 
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% page-ref page="varbase-page.md" %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
+{% page-ref page="varbase-security.md" %}
 
-{% endapi-method-response-example-description %}
+{% page-ref page="varbase-tour.md" %}
 
-```
+{% page-ref page="varbase-updates-helper.md" %}
 
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% page-ref page="varbase-webform.md" %}
+
+{% page-ref page="varbase-api.md" %}
+
+{% page-ref page="varbase-editor.md" %}
+
+{% page-ref page="varbase-media.md" %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
