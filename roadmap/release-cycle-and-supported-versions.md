@@ -10,9 +10,9 @@ Varbase supports one major version. That is the most recent one using the most r
 
 Once the most recent stable version of Drupal 8 is released \(_e.g. `8.x-7.x`_\), Varbase will release its _`8.x-7.x`_ version and drop support of oldest supported version \(_e.g. `8.x.4.x`_\).
 
-Upgrade paths will always be provided to guarantee smooth move between Varbase versions.
+Upgrade paths will always be provided to guarantee a smooth move between Varbase versions.
 
 See the below image for illustration of supported versions and major release cycle:
 
-![Drupal Feature Versions Release Cycle and How Varbase Follows It](../.gitbook/assets/varbase-releases.png)
+![](../.gitbook/assets/drupal-feature-versions-release-cycle-and-how-varbase-follows-it.png)
 
