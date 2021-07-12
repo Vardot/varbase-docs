@@ -13,7 +13,7 @@ Platform-as-a-service tuned for security, scalability, and resilience
 
 {% page-ref page="basic-concepts.md" %}
 
-{% page-ref page="core-components.md" %}
+{% page-ref page="core-components/" %}
 
 {% page-ref page="optional-components.md" %}
 
