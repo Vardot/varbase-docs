@@ -32,7 +32,11 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-media/" %}
 
+{% page-ref page="varbase-total-control-dashboard.md" %}
+
 {% page-ref page="varbase-blog.md" %}
+
+{% page-ref page="varbase-media-hero-slider.md" %}
 
 {% page-ref page="varbase-layout-builder.md" %}
 
@@ -46,13 +50,11 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-media-image-video-block.md" %}
 
+{% page-ref page="varbase-carousels.md" %}
+
 {% page-ref page="varbase-gallery-block.md" %}
 
 {% page-ref page="varbase-bootstrap-paragraphs/" %}
-
-{% page-ref page="varbase-carousels.md" %}
-
-{% page-ref page="varbase-media-hero-slider.md" %}
 
 {% page-ref page="varbase-landing-page-paragraphs.md" %}
 
@@ -65,8 +67,6 @@ Those components are detailed in the table below:
 {% page-ref page="varbase-social-single-sign-on.md" %}
 
 {% page-ref page="varbase-workflow.md" %}
-
-{% page-ref page="varbase-total-control-dashboard.md" %}
 
 {% page-ref page="vartheme-claro.md" %}
 
