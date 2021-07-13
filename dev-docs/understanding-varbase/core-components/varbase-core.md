@@ -2,6 +2,8 @@
 
 Provides core components required by other features.
 
+## Varbase Core Module
+
 {% hint style="info" %}
 Varbase core features are bundled through the **Varbase Core** module.  
 GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase_core)  
