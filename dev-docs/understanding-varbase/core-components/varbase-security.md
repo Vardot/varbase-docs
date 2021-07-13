@@ -29,13 +29,13 @@ project_directory
 | \*\*\*\*[**CAPTCHA**](https://www.drupal.org/project/captcha)\*\*\*\* | Provides the CAPTCHA API for adding challenges to arbitrary forms. |
 | \*\*\*\*[**reCAPTCHA**](https://www.drupal.org/project/recaptcha)\*\*\*\* | Protect your website from spam and abuse while letting real people pass through with ease. |
 | \*\*\*\*[**Password Policy**](https://www.drupal.org/project/password_policy)\*\*\*\* | Sets up constraints and expiration of passwords. |
-| Password Character Types Policy | Minimum number of different character types the password must contain. |
-| Password Characters of Type Policy | Minimum characters of a particular type the password must contain. |
-| Password Policy History | Sets up a password constraint to limit repeated use of the same password. |
-| Password Character Length Policy | Sets up a character length constraint for passwords. |
-| Password Username Policy | Restrict users from having their username in their password. |
-| seckit |  |
-| username\_enumeration\_prevention |  |
+| \*\*\*\*[**Password Character Types Policy**](https://www.drupal.org/project/password_policy)\*\*\*\* | Minimum number of different character types the password must contain. |
+| \*\*\*\*[**Password Characters of Type Policy**](https://www.drupal.org/project/password_policy)\*\*\*\* | Minimum characters of a particular type the password must contain. |
+| \*\*\*\*[**Password Policy History**](https://www.drupal.org/project/password_policy)\*\*\*\* | Sets up a password constraint to limit repeated use of the same password. |
+| \*\*\*\*[**Password Character Length Policy**](https://www.drupal.org/project/password_policy)\*\*\*\* | Sets up a character length constraint for passwords. |
+| \*\*\*\*[**Password Username Policy**](https://www.drupal.org/project/password_policy)\*\*\*\* | Restrict users from having their username in their password. |
+| \*\*\*\*[**Security Kit**](https://www.drupal.org/project/seckit)\*\*\*\* | Enhance security of your Drupal website. |
+| \*\*\*\*[**Username Enumeration Prevention**](https://www.drupal.org/project/username_enumeration_prevention)\*\*\*\* | Removes the error message produced by the forgot password form,when an invalid user has been supplied. |
 
 {% page-ref page="../../configuring-a-varbase-site/security-features.md" %}
 
