@@ -2,6 +2,8 @@
 
 Defines simple text field types.Provides Basic page content type and related configuration.
 
+## Varbase Page Module
+
 {% hint style="info" %}
 **Varbase Page** features are bundled through the **Varbase Core** module.  
 GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase_core)  
@@ -94,12 +96,15 @@ project_directory
       style="text-align:left">Adds an optional length indicator to fields</td>
     </tr>
     <tr>
-      <td style="text-align:left">advanced_text_formatter</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/advanced_text_formatter"><b>Advanced Text Formatter</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Provides an additional formatter for text field, text area and text format.</td>
     </tr>
     <tr>
-      <td style="text-align:left">maxlength</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/maxlength"><b>Maxlength</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Limit the number of characters in textfields and textareas and shows the
+        amount of characters left.</td>
     </tr>
   </tbody>
 </table>

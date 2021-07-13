@@ -2,6 +2,8 @@
 
 Manage administration configurations.
 
+## Varbase Admin Module
+
 {% hint style="info" %}
 **Varbase Admin** features are bundled through the **Varbase Core** module.  
 GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase_core)  
