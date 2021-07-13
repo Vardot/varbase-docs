@@ -2,7 +2,7 @@
 
 Integrates a rich editor into [Varbase](https://www.drupal.org/project/varbase) distribution.
 
-### Features
+## Features
 
 * Full media integration with CKEditor including caption and much more.
 * LinkIt Integration for easy internal linking of content.
@@ -11,7 +11,7 @@ Integrates a rich editor into [Varbase](https://www.drupal.org/project/varbase) 
 * Path fixing when uploading images or linking to content with absolute URLs directing to staging or development environments.
 * Code Editor for Web Admins.
 
-### Dependencies and Used Modules
+## Dependencies and Used Modules
 
 * [CKEditor Anchor](https://www.drupal.org/project/anchor_link)
 * [Linkit - Enriched linking experience](https://www.drupal.org/project/linkit)
@@ -24,19 +24,19 @@ Integrates a rich editor into [Varbase](https://www.drupal.org/project/varbase) 
 * [CKEditor BiDi Buttons](https://www.drupal.org/project/ckeditor_bidi)
 * [Ace Code Editor](https://www.drupal.org/project/ace_editor)
 
-### List of text formats
+## List of text formats
 
-#### Rich editor
+### Rich editor
 
 ![Rich Editor](../../../.gitbook/assets/varbase-editor--rich-editor.png)
 
-#### Simple editor
+### Simple editor
 
 ![](../../../.gitbook/assets/varbase-editor--sample-editor.png)
 
 #### 
 
-#### HTML code
+### HTML code
 
 ![](../../../.gitbook/assets/varbase_editor-text-format--code_html.png)
 

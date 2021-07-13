@@ -5,7 +5,7 @@ Development Environment Modules and Features, make sure to disable this feature 
 ## Varbase Development Module
 
 {% hint style="info" %}
-**Varbase Development** features are bundled through the **Varbase Core** module.  
+Varbase development features are bundled through the **Varbase Core** module.  
 GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase_core)  
 Drupal.org: [https://www.drupal.org/project/varbase\_core](https://www.drupal.org/project/varbase_core) 
 
