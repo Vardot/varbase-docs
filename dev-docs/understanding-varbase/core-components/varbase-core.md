@@ -30,8 +30,7 @@ Varbase Core brings in the following core and contributed modules to your site:
   <tbody>
     <tr>
       <td style="text-align:left">
-        <p><b>User module</b>
-        </p>
+        <p><b>User </b>module</p>
         <p><em>(in Drupal core)</em>
         </p>
       </td>
@@ -39,8 +38,7 @@ Varbase Core brings in the following core and contributed modules to your site:
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><b>Node module</b>
-        </p>
+        <p><b>Node </b>module</p>
         <p><em>(in Drupal core)</em>
         </p>
       </td>
@@ -48,8 +46,7 @@ Varbase Core brings in the following core and contributed modules to your site:
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><b>Taxonomy module</b>
-        </p>
+        <p><b>Taxonomy </b>module</p>
         <p><em>(in Drupal core)</em>
         </p>
       </td>
@@ -57,8 +54,7 @@ Varbase Core brings in the following core and contributed modules to your site:
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><b>Text module</b>
-        </p>
+        <p><b>Text </b>module</p>
         <p><em>(in Drupal core)</em>
         </p>
       </td>
@@ -66,8 +62,7 @@ Varbase Core brings in the following core and contributed modules to your site:
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><b>Views module</b>
-        </p>
+        <p><b>Views </b>module</p>
         <p><em>(in Drupal core)</em>
         </p>
       </td>
@@ -75,8 +70,7 @@ Varbase Core brings in the following core and contributed modules to your site:
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><b>Block module</b>
-        </p>
+        <p><b>Block </b>module</p>
         <p><em>(in Drupal core)</em>
         </p>
       </td>
@@ -85,7 +79,48 @@ Varbase Core brings in the following core and contributed modules to your site:
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><b>Block Content module</b>
+        <p><b>Block Content </b>module</p>
+        <p><em>(in Drupal core)</em>
+        </p>
+      </td>
+      <td style="text-align:left">Allows the creation of custom blocks and block types.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><b>Configuration Manager </b>module</p>
+        <p><em>(in Drupal core)</em>
+        </p>
+      </td>
+      <td style="text-align:left">Allows administrators to import and export configuration changes.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Configuration Update Manager </b>module</td>
+      <td style="text-align:left">Provides basic revert and update functionality for other modules</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Config Ignore </b>module</td>
+      <td style="text-align:left">Ignore certain configuration during import</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><b>Datetime </b>module</p>
+        <p><em>(in Drupal core)</em>
+        </p>
+      </td>
+      <td style="text-align:left">Defines datetime form elements and a datetime field type.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><b>File module</b>
+        </p>
+        <p><em>(in Drupal core)</em>
+        </p>
+      </td>
+      <td style="text-align:left">Defines a field type for files.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><b>Image module</b>
         </p>
         <p><em>(in Drupal core)</em>
         </p>
@@ -93,15 +128,30 @@ Varbase Core brings in the following core and contributed modules to your site:
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p><b>Options module</b>
+        </p>
+        <p><em>(in Drupal core)</em>
+        </p>
+      </td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p><b>Path module</b>
+        </p>
+        <p><em>(in Drupal core)</em>
+        </p>
+      </td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p><b>Layout Discovery module</b>
+        </p>
+        <p><em>(in Drupal core)</em>
+        </p>
+      </td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -109,6 +159,10 @@ Varbase Core brings in the following core and contributed modules to your site:
       </td>
       <td style="text-align:left">Provides expanded entity APIs, which will be moved to Drupal core one
         day.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
