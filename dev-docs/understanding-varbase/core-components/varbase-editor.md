@@ -2,6 +2,10 @@
 
 Integrates a rich editor into [Varbase](https://www.drupal.org/project/varbase) distribution.
 
+## Varbase Editor Module
+
+
+
 ## Features
 
 * Full media integration with CKEditor including caption and much more.

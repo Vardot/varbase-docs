@@ -5,7 +5,9 @@ Defines simple text field types.Provides Basic page content type and related con
 ## Varbase Page Module
 
 {% hint style="info" %}
-Varbase basic page features are bundled through the **Varbase Core** module.  
+Varbase basic page features are bundled through the **Varbase Page** module as part of the **Varbase Core** module.
+
+  
 GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase_core)  
 Drupal.org: [https://www.drupal.org/project/varbase\_core](https://www.drupal.org/project/varbase_core) 
 
