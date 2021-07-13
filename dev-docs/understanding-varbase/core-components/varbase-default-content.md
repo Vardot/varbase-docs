@@ -2,6 +2,8 @@
 
 Provides starter default content for Varbase.
 
+## Varbase Default Content Module
+
 {% hint style="info" %}
 **Varbase Default Content** are bundled through the **Varbase Core** module.  
 GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase_core)  

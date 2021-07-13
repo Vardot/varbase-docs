@@ -2,6 +2,8 @@
 
 Languages, and translation support.
 
+## Varbase Internationalization Module
+
 {% hint style="info" %}
 **Varbase Internationalization** features are bundled through the **Varbase Core** module.  
 GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase_core)  
