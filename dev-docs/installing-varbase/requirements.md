@@ -1,6 +1,6 @@
 # Requirements
 
-> No hardware? No problem! [Try using Varbase in the Cloud](https://www.vardot.com/products-services/product-info/varbase-enterprise-website-platform#block-webform-request-free-demo).  
+> No hardware? No problem! [Try using Varbase in the Cloud](https://www.vardot.com/en-us/solutions/varbase#vbp-1518).  
 > No installation required, request your access in 5 mins.  
 > With an option to migrate to your own server later
 
