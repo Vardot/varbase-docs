@@ -5,7 +5,7 @@ Manage administration configurations.
 ## Varbase Admin Module
 
 {% hint style="info" %}
-Varbase admin features are bundled through the **Varbase Core** module.  
+Varbase admin features are bundled through the **Varbase Admin** module as part of the **Varbase Core** module.  
 GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase_core)  
 Drupal.org: [https://www.drupal.org/project/varbase\_core](https://www.drupal.org/project/varbase_core) 
 

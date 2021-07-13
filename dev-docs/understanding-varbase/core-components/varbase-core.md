@@ -506,6 +506,8 @@ Varbase Core brings in the following core and contributed modules to your site:
   </tbody>
 </table>
 
+## Sub modules 
+
 The following sub modules are packaged in the **Varbase Core** module
 
 {% page-ref page="varbase-admin.md" %}

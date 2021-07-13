@@ -9,7 +9,7 @@ Varbase default content are bundled through the **Varbase Default Content** modu
 GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase_core)  
 Drupal.org: [https://www.drupal.org/project/varbase\_core](https://www.drupal.org/project/varbase_core) 
 
-After building a project using the `varbase-project` template, you can see the code of the **Varbase Admin** module in:
+After building a project using the `varbase-project` template, you can see the code of the **Varbase Default Content** module in:
 {% endhint %}
 
 ```text
