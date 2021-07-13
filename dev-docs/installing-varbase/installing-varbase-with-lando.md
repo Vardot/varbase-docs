@@ -13,7 +13,7 @@ Note that while you can run Lando in production, it is highly discouraged, not r
 Follow the steps below to setup Varbase with Lando.
 
 1. Install Lando on your machine. Whether you use Linux, Mac, Windows, there's a package for you. [Follow this guide to install Lando on your machine](https://docs.lando.dev/basics/installation.html#system-requirements). 
-2. Create a new Varbase project using the composer, this will include a template file for _.lando.yml_, for information on how to integrate Lando on an existing project scroll to the bottom of this page.
+2. Create a new Varbase project using Composer, this will include a template file for _.lando.yml_, for information on how to integrate Lando on an existing project scroll to the bottom of this page.
 
    ```text
    composer create-project Vardot/varbase-project:~9 MY_VARBASE_PROJECT --no-dev --no-interaction
