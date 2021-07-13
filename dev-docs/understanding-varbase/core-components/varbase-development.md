@@ -18,7 +18,7 @@ project_directory
             |-- varbase_core
                 |-- contrib
                     |-- modules
-                        |-- varbase_admin
+                        |-- varbase_development
 ```
 
 Varbase Development brings in the following core and contributed modules to your site:
