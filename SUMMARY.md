@@ -16,7 +16,7 @@
   * [Core Components](dev-docs/understanding-varbase/core-components/README.md)
     * [Varbase Core](dev-docs/understanding-varbase/core-components/varbase-core.md)
     * [Varbase Admin](dev-docs/understanding-varbase/core-components/varbase-admin.md)
-    * [Varbase Default content](dev-docs/understanding-varbase/core-components/varbase-default-content.md)
+    * [Varbase Default Content](dev-docs/understanding-varbase/core-components/varbase-default-content.md)
     * [Varbase Development](dev-docs/understanding-varbase/core-components/varbase-development.md)
     * [Varbase Internationalization](dev-docs/understanding-varbase/core-components/varbase-internationalization.md)
     * [Varbase Page](dev-docs/understanding-varbase/core-components/varbase-page.md)
