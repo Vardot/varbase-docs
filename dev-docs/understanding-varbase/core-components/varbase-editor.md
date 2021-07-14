@@ -159,7 +159,7 @@ Varbase Editor brings in the following core and contributed modules to your site
 * [CKEditor BiDi Buttons](https://www.drupal.org/project/ckeditor_bidi)
 * [Ace Code Editor](https://www.drupal.org/project/ace_editor)
 
-## List of text formats
+## List of Text Formats
 
 ### Rich editor
 
