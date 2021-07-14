@@ -62,23 +62,27 @@ Varbase API brings in the following core and contributed modules to your site:
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/openapi_ui_swagger"><b>Swagger UI for OpenAPI UI</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">Provides display of OpenAPI docs using the Swagger UI plugin.</td>
     </tr>
     <tr>
-      <td style="text-align:left">simple_oauth</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/simple_oauth"><b>Simple OAuth (OAuth2) &amp; OpenID Connect</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">The OAuth 2.0 Authorization Framework</td>
     </tr>
     <tr>
-      <td style="text-align:left">restui</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/restui"><b>REST UI</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Provides a user interface to manage REST resources.</td>
     </tr>
     <tr>
-      <td style="text-align:left">jsonapi_extras</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/jsonapi_extras"><b>JSON:API Extras</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Builds on top of JSON:API to deliver extra functionality.</td>
     </tr>
     <tr>
-      <td style="text-align:left">jsonapi_defaults</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/jsonapi_extras"><b>JSON API Defaults</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Builds on top of JSON API to deliver extra functionality.</td>
     </tr>
   </tbody>
 </table>
