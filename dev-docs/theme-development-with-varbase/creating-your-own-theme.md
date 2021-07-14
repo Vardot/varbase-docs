@@ -17,7 +17,7 @@ Learn more about Bootstrap standard build tools documentation, compile source co
 1. Open a terminal window.
 2. Change directory in the terminal to `docroot/themes/contrib/vartheme_bs4/scripts` in the project.
 3. Run the `bash ./install-needed-tools.sh`
-4. Follow with the list of instructions to finish installing all needed tools.
+4. Follow with the list of instructions.
 
 ```text
 cd PROJECT_DIR_NAME/docroot/themes/contrib/vartheme_bs4/scripts
