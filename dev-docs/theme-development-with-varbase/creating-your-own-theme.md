@@ -19,12 +19,12 @@ Learn more about Bootstrap standard build tools documentation, compile source co
  Helps getting more development tools and the **Bootstrap** and **popper** packages. 
 
 ```text
-$ curl -sL https://deb.nodesource.com/setup | sudo bash -
-$ apt install nodejs
-$ apt install build-essential
+sudo curl -sL https://deb.nodesource.com/setup | sudo bash -
+sudo apt install nodejs
+sudo apt install build-essential
 
-$ curl -L https://npmjs.com/install.sh | sh
-$ apt install npm
+sudo curl -L https://npmjs.com/install.sh | sh
+sudo apt install npm
 ```
 
 #### 2. Install [Yarn](https://yarnpkg.com/getting-started)
@@ -36,7 +36,7 @@ sudo apt install yarn
 Install **Yarn** as a global by **npm**
 
 ```text
-npm install -g yarn
+sudo npm install -g yarn
 ```
 
 #### **3. Install** [**Gulp**](https://gulpjs.com/)
@@ -44,8 +44,8 @@ npm install -g yarn
 Helps in managing tasks when compiling SASS/SCSS to CSS
 
 ```text
-npm install gulp-cli -g
-npm install gulp -D
+sudo npm install gulp-cli -g
+sudo npm install gulp -D
 ```
 
 ### 
