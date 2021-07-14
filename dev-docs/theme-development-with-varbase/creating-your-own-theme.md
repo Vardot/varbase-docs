@@ -31,7 +31,7 @@ bash ./install-needed-tools.sh
 Helps with string replace and re-naming files.
 
 ```text
-sudo apt install -y sed awk;
+sudo apt install -y sed gawk;
 ```
 
 ### **2. Install npm** and [**nodejs**](https://nodejs.org/en/)\*\*\*\*
