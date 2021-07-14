@@ -26,7 +26,7 @@ bash ./install-needed-tools.sh
 
 ## Install Needed Tools Manually
 
-### **1. Install** [**sed**](https://www.gnu.org/software/sed/manual/sed.html) **and** [**awk**](https://www.gnu.org/software/gawk/manual/gawk.html)\*\*\*\*
+### **1. Install** [**sed**](https://www.gnu.org/software/sed/manual/sed.html) **and** [**gawk**](https://www.gnu.org/software/gawk/manual/gawk.html)\*\*\*\*
 
 Helps with string replace and re-naming files.
 
