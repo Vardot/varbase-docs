@@ -6,8 +6,8 @@ A JSON:API implementation with authentication and authorization that allows for 
 
 {% hint style="info" %}
 Varbase API features are bundled through the **Varbase API** module.  
-GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase_core)  
-Drupal.org: [https://www.drupal.org/project/varbase\_core](https://www.drupal.org/project/varbase_core) 
+GitHub: [https://github.com/Vardot/varbase\_api](https://github.com/Vardot/varbase_api)  
+Drupal.org: [https://www.drupal.org/project/varbase\_api](https://www.drupal.org/project/varbase_api)
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase API** module in:
 {% endhint %}
