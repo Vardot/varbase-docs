@@ -12,22 +12,44 @@ Learn more about Bootstrap standard build tools documentation, compile source co
 [https://getbootstrap.com/docs/4.0/getting-started/build-tools/](https://getbootstrap.com/docs/4.0/getting-started/build-tools/)
 {% endhint %}
 
-### Install needed tools
+## Install Needed Tools Command
 
-#### **1. Install npm** and [**nodejs**](https://nodejs.org/en/)\*\*\*\*
+1. Open a terminal window.
+2. Change directory in the terminal to `docroot/themes/contrib/vartheme_bs4/scripts` in the project.
+3. Run the `bash ./install-needed-tools.sh`
+4. Follow with the list of instructions to finish installing all needed tools.
+
+```text
+cd PROJECT_DIR_NAME/docroot/themes/contrib/vartheme_bs4/scripts
+bash ./install-needed-tools.sh
+```
+
+## Install Needed Tools Manually
+
+### **1. Install** [**sed**](https://www.gnu.org/software/sed/manual/sed.html) **and** [**awk**](https://www.gnu.org/software/gawk/manual/gawk.html)\*\*\*\*
+
+Helps with string replace and re-naming files.
+
+```text
+sudo apt install -y sed awk;
+```
+
+### **2. Install npm** and [**nodejs**](https://nodejs.org/en/)\*\*\*\*
 
  Helps getting more development tools and the **Bootstrap** and **popper** packages. 
 
 ```text
-sudo curl -sL https://deb.nodesource.com/setup | sudo bash -
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - ;
+sudo apt update
 sudo apt install nodejs
 sudo apt install build-essential
 
-sudo curl -L https://npmjs.com/install.sh | sh
+curl -L https://npmjs.com/install.sh | sh
+sudo apt update
 sudo apt install npm
 ```
 
-#### 2. Install [Yarn](https://yarnpkg.com/getting-started)
+### 3. Install [Yarn](https://yarnpkg.com/getting-started)
 
 ```text
 sudo apt install yarn
@@ -39,7 +61,7 @@ Install **Yarn** as a global by **npm**
 sudo npm install -g yarn
 ```
 
-#### **3. Install** [**Gulp**](https://gulpjs.com/)
+### **4. Install** [**Gulp**](https://gulpjs.com/)
 
 Helps in managing tasks when compiling SASS/SCSS to CSS
 
@@ -48,21 +70,20 @@ sudo npm install gulp-cli -g
 sudo npm install gulp -D
 ```
 
-### 
+## Create new Vartheme BS4 sub theme
 
-### Create new Vartheme BS4 sub theme
+### Create with Bash script
 
-#### Create with Bash script
-
-1. Change directory in the terminal to `docroot/themes/contrib/vartheme_bs4/scripts`
-2. Run the `create-new-vartheme-bs4.sh "THEME_NAME"`. Change the `THEME_NAME` to the project name or any selected theme name.
+1. Open a terminal to run commands
+2. Change directory in the terminal to `docroot/themes/contrib/vartheme_bs4/scripts`
+3. Run the `create-new-vartheme-bs4.sh "THEME_NAME"`. Change the `THEME_NAME` to the project name or any selected theme name.
 
 ```text
 cd PROJECT_DIR_NAME/docroot/themes/contrib/vartheme_bs4/scripts
 bash ./create-new-vartheme-bs4.sh "THEME_NAME"
 ```
 
-#### Create with **Yarn**
+### Create with **Yarn**
 
 ```text
 cd PROJECT_DIR_NAME/docroot/themes/contrib/vartheme_bs4
@@ -71,7 +92,7 @@ yarn theme:create-sub-theme "THEME_NAME"
 
 ### 
 
-### Example mythem for mysite
+## Example mythem for mysite
 
 If a **Varbase** site named _"mysite"_  was built using the following command:
 
@@ -104,14 +125,16 @@ When the finishes the following message will show up in the terminal
 ---------------------------------------------------------------------------
 ```
 
-### Activate the new theme
+## Activate the new theme
 
 * Go to Appearance in the administration of the **Varbase** site.
 * Search for the name of the newly generated theme
 * Click on Install and set as default.
 * Navigate to the home page to check if the new theme is the default theme.
 
-### Initiation commands
+## Initiation commands
+
+First step to do after creating a new theme.
 
 Change directory to the new theme in the terminal then run only `gulp` without arguments.
 
@@ -139,7 +162,7 @@ or with **Yarn**
 yarn theme:init
 ```
 
-### Compiling SCSS to CSS
+## Compiling SCSS to CSS
 
 * For example change the color value for the primary color in `scss/bootstrap-variables.scss`   file to test compiling SASS files to CSS
 
@@ -159,7 +182,7 @@ or with **Yarn**
 yarn theme:build
 ```
 
-### Watching SCSS changes
+## Watching SCSS changes
 
 Increase maximum watched SASS files by
 
@@ -171,7 +194,7 @@ echo fs.inotify.max_user_watches=524288
 Run `gulp watch` to keep watching for changes. This command will auto compile on each save of changes for SCSS files.
 
 ```text
-d PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
+cd PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
 gulp watch
 [11:25:53] Using gulpfile PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME/gulpfile.js
 [11:25:53] Starting 'watch'...
@@ -182,4 +205,22 @@ or with **Yarn**
 ```text
 yarn theme:watch
 ```
+
+## Cloning a project
+
+On the state of working in a team in a project, the created theme could be don by other member of the team.
+
+When the theme get committed by git for example, the `node_modules` folder will not be committed. As it is listed in the `.gitignore` file.
+
+After cloning a project with a Vartheme Sub theme.
+
+Run the following commands to get all development tools
+
+```text
+cd PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
+yarn install
+gulp
+```
+
+ 
 
