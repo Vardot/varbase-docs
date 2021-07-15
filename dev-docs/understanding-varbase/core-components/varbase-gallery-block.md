@@ -107,6 +107,22 @@ project_directory
       </td>
       <td style="text-align:left">Filters content in preparation for display.</td>
     </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/ctools"><b>Chaos Tools Blocks</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Provides improvements to blocks that will one day be added to Drupal core.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/allowed_formats"><b>Allowed Formats</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Limit which text formats are available for each field instance.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/block_content_permissions"><b>Block Content Permissions</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Adds permissions for administering &apos;block content types&apos; and
+        &apos;block content&apos;.</td>
+    </tr>
   </tbody>
 </table>
 
