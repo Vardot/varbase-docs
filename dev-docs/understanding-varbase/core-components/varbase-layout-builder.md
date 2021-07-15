@@ -138,9 +138,7 @@ Having a **Landing page \(Layout Builder\)** content type and related configurat
 
 {% page-ref page="varbase-landing-page-layout-builder.md" %}
 
-
-
-Utilizing a number of block types to be used in layout builder displays:
+Utilizing a number of block types to be used in layout builder displays**.**
 
 ### **Varbase Heading block** Module
 
@@ -148,11 +146,15 @@ A heading block is used to add headings to your page or sections. Headings help 
 
 {% page-ref page="varbase-heading-block.md" %}
 
+### \*\*\*\*
+
 ### **Varbase Rich text block** Module
 
 A rich text block contains a title and a body with a rich text format.
 
 {% page-ref page="varbase-layout-builder.md" %}
+
+### \*\*\*\*
 
 ### **Varbase HTML code block** Module
 
@@ -160,11 +162,15 @@ An HTML Code block contains a title and a body with an HTML text format.
 
 {% page-ref page="varbase-html-code-block.md" %}
 
+### \*\*\*\*
+
 ### **Varbase Media \(image/video\) block** Module
 
 A media block contains a title and media.
 
 {% page-ref page="varbase-media-image-video-block.md" %}
+
+### \*\*\*\*
 
 ### **Varbase Gallery block** Module
 
@@ -172,9 +178,13 @@ A gallery block contains a title and a gallery of images and videos.
 
 {% page-ref page="varbase-gallery-block.md" %}
 
+## Screenshots for Extra Layout Styling options
 
+### Vertical and Horizontal Alignments
 
 ![Vertical and Horizontal Alignments](../../../.gitbook/assets/edit-layout-for-test-1-alignment-dev-varbase9c1-alignment-2.png)
+
+### Edge to Edit Background option
 
 ![Edit Layout for Homepage](../../../.gitbook/assets/edit-layout-for-homepage-dev-varbase9c1_0.png)
 
