@@ -35,7 +35,7 @@
     * [Varbase Media Hero Slider](dev-docs/understanding-varbase/core-components/varbase-media-hero-slider.md)
     * [Varbase Layout Builder](dev-docs/understanding-varbase/core-components/varbase-layout-builder.md)
     * [Varbase Landing page \(Layout Builder\)](dev-docs/understanding-varbase/core-components/varbase-landing-page-layout-builder.md)
-    * [Varbase Heading block](dev-docs/understanding-varbase/core-components/varbase-heading-block.md)
+    * [Varbase Heading Block](dev-docs/understanding-varbase/core-components/varbase-heading-block.md)
     * [Varbase Rich text block](dev-docs/understanding-varbase/core-components/varbase-rich-text-block.md)
     * [Varbase HTML code block](dev-docs/understanding-varbase/core-components/varbase-html-code-block.md)
     * [Varbase Media \(image/video\) block](dev-docs/understanding-varbase/core-components/varbase-media-image-video-block.md)
