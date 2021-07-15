@@ -26,6 +26,8 @@ bash ./install-needed-tools.sh
 
 ## Install Needed Tools Manually
 
+Recommended doing the installation of needed tools using the bash script command. But if that is not the case. By deciding to manually install custom versions. Please follow with the following steps.
+
 ### **1. Install** [**sed**](https://www.gnu.org/software/sed/manual/sed.html) **and** [**gawk**](https://www.gnu.org/software/gawk/manual/gawk.html)\*\*\*\*
 
 Helps with string replace and re-naming files.
@@ -70,9 +72,9 @@ sudo npm install gulp-cli -g
 sudo npm install gulp -D
 ```
 
-## Create new Vartheme BS4 sub theme
+## Create new Vartheme BS4 Sub Theme
 
-### Create with Bash script
+### Create with Bash Script
 
 1. Open a terminal to run commands
 2. Change directory in the terminal to `docroot/themes/contrib/vartheme_bs4/scripts`
@@ -125,14 +127,14 @@ When the finishes the following message will show up in the terminal
 ---------------------------------------------------------------------------
 ```
 
-## Activate the new theme
+## Activate the New Theme
 
 * Go to Appearance in the administration of the **Varbase** site.
 * Search for the name of the newly generated theme
 * Click on Install and set as default.
 * Navigate to the home page to check if the new theme is the default theme.
 
-## Initiation commands
+## Initiation Commands
 
 First step to do after creating a new theme.
 
@@ -182,7 +184,7 @@ or with **Yarn**
 yarn theme:build
 ```
 
-## Watching SCSS changes
+## Watching SCSS Changes
 
 Increase maximum watched SASS files by
 
@@ -206,7 +208,7 @@ or with **Yarn**
 yarn theme:watch
 ```
 
-## Cloning a project
+## Cloning a Project
 
 On the state of working in a team in a project, the created theme could be don by other member of the team.
 
