@@ -27,6 +27,7 @@
     * [Varbase API](dev-docs/understanding-varbase/core-components/varbase-api.md)
     * [Varbase Editor](dev-docs/understanding-varbase/core-components/varbase-editor.md)
     * [Varbase Media](dev-docs/understanding-varbase/core-components/varbase-media/README.md)
+      * [Entity Browser Generic Embed](dev-docs/understanding-varbase/core-components/varbase-media/entity-browser-generic-embed.md)
       * [Varbase Media Twitter](dev-docs/understanding-varbase/core-components/varbase-media/varbase-media-twitter.md)
       * [Varbase Media Instagram](dev-docs/understanding-varbase/core-components/varbase-media/varbase-media-instagram.md)
     * [Varbase Blog](dev-docs/understanding-varbase/core-components/varbase-blog.md)
