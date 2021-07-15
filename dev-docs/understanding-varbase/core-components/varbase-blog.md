@@ -71,7 +71,9 @@ Varbase Blog brings in the following core and contributed modules to your site:
   </tbody>
 </table>
 
-## Used Varbase Components
+## Required Varbase Modules
+
+This module needs the following Varbase modules in order to function.
 
 ### Varbase Core Module
 
