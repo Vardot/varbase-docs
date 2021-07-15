@@ -36,7 +36,8 @@ Varbase Bootstrap Paragraphs brings in the following core and contributed module
   <tbody>
     <tr>
       <td style="text-align:left">
-        <p>Text</p>
+        <p><b>Text</b>
+        </p>
         <p><em>(in Drupal core)</em>
         </p>
       </td>
@@ -44,7 +45,8 @@ Varbase Bootstrap Paragraphs brings in the following core and contributed module
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>Options</p>
+        <p><b>Options</b>
+        </p>
         <p><em>(in Drupal core)</em>
         </p>
       </td>
@@ -53,7 +55,8 @@ Varbase Bootstrap Paragraphs brings in the following core and contributed module
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>Link</p>
+        <p><b>Link</b>
+        </p>
         <p><em>(in Drupal core)</em>
         </p>
       </td>
@@ -61,7 +64,8 @@ Varbase Bootstrap Paragraphs brings in the following core and contributed module
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>CKEditor</p>
+        <p><b>CKEditor</b>
+        </p>
         <p><em>(in Drupal core)</em>
         </p>
       </td>
@@ -69,7 +73,8 @@ Varbase Bootstrap Paragraphs brings in the following core and contributed module
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>Block</p>
+        <p><b>Block</b>
+        </p>
         <p><em>(in Drupal core)</em>
         </p>
       </td>
