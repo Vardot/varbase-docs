@@ -257,13 +257,19 @@ Varbase Media brings in the following core and contributed modules to your site:
 
 ### Entity Browser Generic Embed Module
 
+A generic/global embed text area for Entity Browsers that allows you to paste any URL to create a media entity based on the URL schema.
+
 {% page-ref page="entity-browser-generic-embed.md" %}
 
 ### Varbase Media Twitter Module
 
+Manages default config for Tweet media type.
+
 {% page-ref page="varbase-media-twitter.md" %}
 
 ### Varbase Media Instagram Module
+
+Manages default config for Instagram media type.
 
 {% page-ref page="varbase-media-instagram.md" %}
 
