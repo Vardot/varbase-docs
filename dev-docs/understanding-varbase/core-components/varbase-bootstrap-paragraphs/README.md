@@ -61,7 +61,7 @@ Varbase Bootstrap Paragraphs brings in the following core and contributed module
 
 ## Required Varbase Modules
 
-This module needs the following Varbase modules in order to function
+This module needs the following Varbase modules in order to function.
 
 ### Varbase Media Module
 

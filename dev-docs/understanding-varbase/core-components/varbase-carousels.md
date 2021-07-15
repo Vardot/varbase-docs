@@ -119,7 +119,9 @@ Varbase Carousels brings in the following core and contributed modules to your s
   </tbody>
 </table>
 
-## Using Varbase Components
+## Required Varbase Modules
+
+This module needs the following Varbase modules in order to function.
 
 ### Varbase Media Module
 

@@ -126,3 +126,19 @@ project_directory
   </tbody>
 </table>
 
+## Required Varbase Modules
+
+This module needs the following Varbase modules in order to function.
+
+### Varbase Media Module
+
+Manages type of media contents and entity browsers in the site.
+
+{% page-ref page="varbase-media/" %}
+
+
+
+
+
+
+

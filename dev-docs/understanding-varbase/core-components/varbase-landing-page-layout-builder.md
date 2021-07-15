@@ -2,10 +2,6 @@
 
 Provides Landing page \(Layout Builder\) content type and related configuration. Use Landing page \(Layout Builder\) to build pages with custom sections and layouts to display content in a modern way.
 
-Built on top of **Varbase Layout Builder** module
-
-{% page-ref page="varbase-layout-builder.md" %}
-
 ## Varbase Landing Page \(Layout Builder\) Module
 
 {% hint style="info" %}
@@ -152,10 +148,22 @@ project_directory
       <td
       style="text-align:left">Adds a Entity Reference field type with revision support.</td>
     </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
   </tbody>
 </table>
+
+## Required Varbase Modules
+
+This module needs the following Varbase modules in order to function.
+
+### Varbase Layout Builder Module
+
+Provides default configuration and enhancements to utilize Drupal core's Layout Builder.
+
+{% page-ref page="varbase-layout-builder.md" %}
+
+
+
+
+
+
 
