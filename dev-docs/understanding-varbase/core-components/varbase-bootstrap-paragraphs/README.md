@@ -36,25 +36,97 @@ Varbase Bootstrap Paragraphs brings in the following core and contributed module
   <tbody>
     <tr>
       <td style="text-align:left">
-        <p><b>Layout Builder</b>
-        </p>
+        <p>Text</p>
         <p><em>(in Drupal core)</em>
         </p>
       </td>
-      <td style="text-align:left">Allows users to add and arrange blocks and content fields directly on
-        the content.</td>
+      <td style="text-align:left">Defines simple text field types.</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>Options</p>
+        <p><em>(in Drupal core)</em>
+        </p>
+      </td>
+      <td style="text-align:left">Defines selection, check box and radio button widgets for text and numeric
+        fields.</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>Link</p>
+        <p><em>(in Drupal core)</em>
+        </p>
+      </td>
+      <td style="text-align:left">Provides a simple link field type.</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>CKEditor</p>
+        <p><em>(in Drupal core)</em>
+        </p>
+      </td>
+      <td style="text-align:left">WYSIWYG editing for rich text fields using CKEditor.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>Block</p>
+        <p><em>(in Drupal core)</em>
+        </p>
+      </td>
+      <td style="text-align:left">Controls the visual building blocks a page is constructed with. Blocks
+        are boxes of content rendered into an area, or region, of a web page.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/advanced_text_formatter"><b>Advanced Text Formatter</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Provides an additional formatter for text field, text area and text format.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/field_group"><b>Field Group</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Provides the ability to group your fields on both form and display.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/maxlength"><b>Maxlength</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Limit the number of characters in textfields and textareas and shows the
+        amount of characters left.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/webform"><b>Webform</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Enables the creation of webforms and questionnaires.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/viewsreference"><b>Views Reference Field</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Defines the viewsreference field type to embed views in an entity reference
+        field.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/entity_reference_revisions"><b>Entity Reference Revisions</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Adds a Entity Reference field type with revision support.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/paragraphs"><b>Paragraphs</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Enables the creation of paragraphs entities.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/paragraphs"><b>Paragraphs Library</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Provides a library for reusing paragraphs.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/paragraphs_previewer"><b>Paragraphs Previewer</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Provides a rendered preview of a paragraphs item while on an entity form.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/paragraphs_edit"><b>Paragraphs Edit</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Allows users to edit paragraphs.</td>
     </tr>
   </tbody>
 </table>
