@@ -26,5 +26,5 @@ project_directory
 
 | Module | Purpose |
 | :--- | :--- |
-| \*\*\*\*[**Media entity Twitter**](https://www.drupal.org/project/media_entity_twitter)\*\*\*\* | Media Entity Twitter provider. |
+| \*\*\*\*[**Media Entity Instagram**](https://www.drupal.org/project/media_entity_instagram)\*\*\*\* | Media Entity Instagram provider. |
 
