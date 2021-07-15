@@ -255,9 +255,15 @@ Varbase Media brings in the following core and contributed modules to your site:
 
 ## Sub Modules
 
+### Entity Browser Generic Embed Module
+
 {% page-ref page="entity-browser-generic-embed.md" %}
 
+### Varbase Media Twitter Module
+
 {% page-ref page="varbase-media-twitter.md" %}
+
+### Varbase Media Instagram Module
 
 {% page-ref page="varbase-media-instagram.md" %}
 

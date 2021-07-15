@@ -120,13 +120,19 @@ Varbase Layout Builder brings in the following core and contributed modules to y
   </tbody>
 </table>
 
-## Using Other Varbase Components
+## Used Varbase Components
+
+### Varbase Media Module
+
+Manages type of media contents and entity browsers in the site.
 
 {% page-ref page="varbase-media/" %}
 
 
 
-## Varbase Landing Page \(Layout Builder\) Module
+## Sub Modules
+
+### Varbase Landing Page \(Layout Builder\) Module
 
 Having a **Landing page \(Layout Builder\)** content type and related configuration. To be used for building pages with custom sections and layouts to display content in a modern way.
 
@@ -136,31 +142,31 @@ Having a **Landing page \(Layout Builder\)** content type and related configurat
 
 Utilizing a number of block types to be used in layout builder displays:
 
-## **Varbase Heading block** Module
+### **Varbase Heading block** Module
 
 A heading block is used to add headings to your page or sections. Headings help structure your page making your content easier to read by humans and search engines.
 
 {% page-ref page="varbase-heading-block.md" %}
 
-## **Varbase Rich text block** Module
+### **Varbase Rich text block** Module
 
 A rich text block contains a title and a body with a rich text format.
 
 {% page-ref page="varbase-layout-builder.md" %}
 
-## **Varbase HTML code block** Module
+### **Varbase HTML code block** Module
 
 An HTML Code block contains a title and a body with an HTML text format.
 
 {% page-ref page="varbase-html-code-block.md" %}
 
-## **Varbase Media \(image/video\) block** Module
+### **Varbase Media \(image/video\) block** Module
 
 A media block contains a title and media.
 
 {% page-ref page="varbase-media-image-video-block.md" %}
 
-## **Varbase Gallery block** Module
+### **Varbase Gallery block** Module
 
 A gallery block contains a title and a gallery of images and videos.
 
