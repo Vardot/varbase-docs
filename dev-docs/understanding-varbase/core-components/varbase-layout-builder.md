@@ -5,11 +5,11 @@ Provides default configuration and enhancements to utilize Drupal core's Layout 
 ## Varbase Layout Builder Module
 
 {% hint style="info" %}
-Varbase blog features are bundled through the **Varbase Blog** module.  
-GitHub: [https://github.com/Vardot/varbase\_blog](https://github.com/Vardot/varbase_blog)  
-Drupal.org: [https://www.drupal.org/project/varbase\_blog](https://www.drupal.org/project/varbase_blog)
+Varbase layout builder features are bundled through the **Varbase Layout Builder** module.  
+GitHub: [https://github.com/Vardot/varbase\_layout\_builder](https://github.com/Vardot/varbase_layout_builder)  
+Drupal.org: [https://www.drupal.org/project/varbase\_layout\_builder](https://www.drupal.org/project/varbase_layout_builder)
 
-After building a project using the `varbase-project` template, you can see the code of the **Varbase Blog** module in:
+After building a project using the `varbase-project` template, you can see the code of the **Varbase Layout Builder** module in:
 {% endhint %}
 
 ```text
@@ -17,10 +17,10 @@ project_directory
 |-- docroot
     |-- modules
         |-- contrib
-            |-- varbase_blog
+            |-- varbase_layout_builder
 ```
 
-Varbase Blog brings in the following core and contributed modules to your site:
+Varbase Layout Builder brings in the following core and contributed modules to your site:
 
 <table>
   <thead>
