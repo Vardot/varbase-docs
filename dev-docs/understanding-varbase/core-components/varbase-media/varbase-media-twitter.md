@@ -22,9 +22,9 @@ project_directory
                     |-- varbase_media_twitter
 ```
 
-**Entity Browser Generic Embed** brings in the following core and contributed modules to your site:
+**Varbase Media Twitter** brings in the following core and contributed modules to your site:
 
 | Module | Purpose |
 | :--- | :--- |
-| \*\*\*\*[**Media entity Twitter**](https://www.drupal.org/project/media_entity_twitter)\*\*\*\* | Media Entity Twitter provider. |
+| \*\*\*\*[**Media Entity Instagram**](https://www.drupal.org/project/media_entity_instagram)\*\*\*\* | Media Entity Instagram provider. |
 
