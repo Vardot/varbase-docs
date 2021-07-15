@@ -20,7 +20,7 @@ project_directory
         |-- contrib
             |-- varbase_layout_builder
                 |-- modules
-                    |-- varbase_gallery_block
+                    |-- varbase_heading_block
 ```
 
 **Varbase Heading Block** brings in the following core and contributed modules to your site:
