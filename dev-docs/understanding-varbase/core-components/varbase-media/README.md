@@ -6,8 +6,8 @@ Manages type of media contents and entity browsers in the site.
 
 {% hint style="info" %}
 Varbase media features are bundled through the **Varbase Media** module.  
-GitHub: [https://github.com/Vardot/varbase\_editor](https://github.com/Vardot/varbase_editor)  
-Drupal.org: [https://www.drupal.org/project/varbase\_editor](https://www.drupal.org/project/varbase_editor) 
+GitHub: [https://github.com/Vardot/varbase\_media](https://github.com/Vardot/varbase_media)  
+Drupal.org: [https://www.drupal.org/project/varbase\_media](https://www.drupal.org/project/varbase_media)
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase Media** module in:
 {% endhint %}
@@ -195,48 +195,60 @@ Varbase Media brings in the following core and contributed modules to your site:
       style="text-align:left">Entity browser inline entity form integration.</td>
     </tr>
     <tr>
-      <td style="text-align:left">entity_embed</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/entity_embed"><b>Entity Embed</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Allows entities to be embedded using a text editor.</td>
     </tr>
     <tr>
-      <td style="text-align:left">focal_point</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/focal_point"><b>Focal Point</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Allows users to specify the focal point of an image for use during cropping.</td>
     </tr>
     <tr>
-      <td style="text-align:left">views_infinite_scroll</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/views_infinite_scroll"><b>Views Infinite Scroll</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">A pager which allows an infinite scroll effect for views.</td>
     </tr>
     <tr>
-      <td style="text-align:left">media_bulk_upload</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/media_bulk_upload"><b>Media Bulk Upload</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Allows uploading files in bulk and converting them to media entities.</td>
     </tr>
     <tr>
-      <td style="text-align:left">media_library_edit</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/media_library_edit"><b>Media Library Edit</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Add an edit button to the Media Library widget when an item is selected.</td>
     </tr>
     <tr>
-      <td style="text-align:left">media_revisions_ui</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/media_revisions_ui"><b>Media Revisions UI</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Adds revisions interface for Media entity</td>
     </tr>
     <tr>
-      <td style="text-align:left">views_bulk_operations</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/views_bulk_operations"><b>Views Bulk Operations (VBO)</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Adds an ability to perform bulk operations on selected entities from view
+        results.</td>
     </tr>
     <tr>
-      <td style="text-align:left">views_bulk_edit</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/views_bulk_edit"><b>Views Bulk Edit</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Allows bulk edition of entity field values.</td>
     </tr>
     <tr>
-      <td style="text-align:left">blazy</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/blazy"><b>Blazy</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Provides basic Blazy integration for lazy loading and multi-serving images.</td>
     </tr>
     <tr>
-      <td style="text-align:left">slick</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/slick"><b>Slick Carousel</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Slick carousel, the last carousel you&apos;ll ever need.</td>
     </tr>
     <tr>
-      <td style="text-align:left">webp</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/webp"><b>WebP</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Generates WebP copies of image style derivatives.</td>
     </tr>
   </tbody>
 </table>
