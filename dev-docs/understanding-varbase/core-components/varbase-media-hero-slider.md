@@ -94,7 +94,11 @@ Varbase Blog brings in the following core and contributed modules to your site:
   </tbody>
 </table>
 
-## Using Other Varbase Components
+## Using Varbase Components
+
+### Varbase Media Module
+
+Manages type of media contents and entity browsers in the site.
 
 {% page-ref page="varbase-media/" %}
 
