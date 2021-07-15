@@ -159,32 +159,40 @@ Varbase Media brings in the following core and contributed modules to your site:
         exposed Views elements.</td>
     </tr>
     <tr>
-      <td style="text-align:left">crop</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/crop"><b>Crop API</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Provides storage and API for image crops.</td>
     </tr>
     <tr>
-      <td style="text-align:left">dropzonejs_eb_widget</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/dropzonejs"><b>DropzoneJS</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">The Drupal integration for DropzoneJS.</td>
     </tr>
     <tr>
-      <td style="text-align:left">embed</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/dropzonejs"><b>DropzoneJS entity browser widget</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">DropzoneJS Entity browser widget.</td>
     </tr>
     <tr>
-      <td style="text-align:left">entity_browser</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/embed"><b>Embed</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Provides a framework for different types of embeds in text editors.</td>
     </tr>
     <tr>
-      <td style="text-align:left">entity_browser_enhanced</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/entity_browser"><b>Entity Browser</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Provide a generic entity browser/picker/selector.</td>
     </tr>
     <tr>
-      <td style="text-align:left">entity_browser_entity_form</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/entity_browser_enhanced"><b>Entity Browser Enhance(d|r)</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Provides some behavior and style enhancements to Entity Browsers, specifically
+        for multiselect and image/media browsers.</td>
     </tr>
     <tr>
-      <td style="text-align:left">entity_browser_generic_embed</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/entity_browser"><b>Entity Browser IEF</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Entity browser inline entity form integration.</td>
     </tr>
     <tr>
       <td style="text-align:left">entity_embed</td>
