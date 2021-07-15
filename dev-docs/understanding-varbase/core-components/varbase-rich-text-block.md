@@ -40,7 +40,54 @@ project_directory
         <p><em>(in Drupal core)</em>
         </p>
       </td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Controls the visual building blocks a page is constructed with. Blocks
+        are boxes of content rendered into an area, or region, of a web page.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><b>Block Content</b>
+        </p>
+        <p><em>(in Drupal core)</em>
+        </p>
+      </td>
+      <td style="text-align:left">Allows the creation of custom blocks and block types.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><b>Text</b>
+        </p>
+        <p><em>(in Drupal core)</em>
+        </p>
+      </td>
+      <td style="text-align:left">Defines simple text field types.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><b>Field</b>
+        </p>
+        <p><em>(in Drupal core)</em>
+        </p>
+      </td>
+      <td style="text-align:left">Field API to add fields to entities like nodes and users.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><b>User</b>
+        </p>
+        <p><em>(in Drupal core)</em>
+        </p>
+      </td>
+      <td style="text-align:left">Manages the user registration and login system.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><b>Options</b>
+        </p>
+        <p><em>(in Drupal core)</em>
+        </p>
+      </td>
+      <td style="text-align:left">Defines selection, check box and radio button widgets for text and numeric
+        fields.</td>
     </tr>
   </tbody>
 </table>
