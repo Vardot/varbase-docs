@@ -1,4 +1,4 @@
-# Varbase Media \(image/video\) block
+# Varbase Media \(Image/Video\) Block
 
 A media block contains a title and media.
 
