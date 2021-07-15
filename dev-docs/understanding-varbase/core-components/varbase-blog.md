@@ -71,19 +71,47 @@ Varbase Blog brings in the following core and contributed modules to your site:
   </tbody>
 </table>
 
-## Using Other Varbase Components
+## Used Varbase Components
+
+### Varbase Core Module
+
+Provides core components required by other features.
 
 {% page-ref page="varbase-core.md" %}
 
+### 
+
+### Varbase Media Module
+
+Manages type of media contents and entity browsers in the site.
+
 {% page-ref page="varbase-media/" %}
+
+### 
+
+### Varbase SEO Module
+
+Provide Search Engine Optimization \(SEO\) Core features and settings.
 
 {% page-ref page="varbase-seo.md" %}
 
+### 
+
+### Varbase Layout Builder Module
+
+Provides default configuration and enhancements to utilize Drupal core's Layout Builder.
+
 {% page-ref page="varbase-layout-builder.md" %}
+
+### 
+
+### Varbase Landing Page \(Layout Builder\) Module
+
+Provides Landing page \(Layout Builder\) content type and related configuration. Use Landing page \(Layout Builder\) to build pages with custom sections and layouts to display content in a modern way.
 
 {% page-ref page="varbase-landing-page-layout-builder.md" %}
 
-
+### 
 
 
 
