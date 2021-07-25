@@ -70,13 +70,13 @@ Brings in the following core and contributed modules to your site:
 
 ## Screenshots
 
-![Google Integration](../../../.gitbook/assets/varbase-login-social-auth-1-network-xl.png)
+![One Social Login Button](../../../.gitbook/assets/varbase-login-social-auth-1-network-xl.png)
 
-![Two Social Buttons](../../../.gitbook/assets/varbase-login-social-auth-2-networks-xl.png)
+![Two Social Login Buttons](../../../.gitbook/assets/varbase-login-social-auth-2-networks-xl.png)
 
-![Three Social Buttons](../../../.gitbook/assets/varbase-login-social-auth-3-networks-xl.png)
+![Three Social Login Buttons](../../../.gitbook/assets/varbase-login-social-auth-3-networks-xl.png)
 
-![Four Social Buttons ](../../../.gitbook/assets/varbase-login-social-auth-4-networks-xl.png)
+![Four Social Login Buttons ](../../../.gitbook/assets/varbase-login-social-auth-4-networks-xl.png)
 
 
 
