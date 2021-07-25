@@ -55,5 +55,25 @@ Brings in the following core and contributed modules to your site:
   </tbody>
 </table>
 
+## Required Varbase Modules
+
+This module needs the following Varbase modules in order to function.
+
+### Varbase Core Module
+
+Provides core components required by other features.
+
+{% page-ref page="../varbase-core.md" %}
+
+### Varbase Workflow Module
+
+Includes a toolkit for robust, quick, and enterprise content moderation features.
+
+{% page-ref page="./" %}
+
+
+
+
+
 
 
