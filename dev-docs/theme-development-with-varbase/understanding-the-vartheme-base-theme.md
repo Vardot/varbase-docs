@@ -33,13 +33,13 @@ All **Varbase** components follows css files structure organized with [SMACSS](h
 
 
 {% hint style="info" %}
-Refere to Drupal.org standards for CSS file organization \(for Drupal 9\)
+Refer to Drupal.org standards for CSS file organization \(for Drupal 9\)
 
 [https://www.drupal.org/docs/develop/standards/css/css-file-organization-for-drupal-9](https://www.drupal.org/docs/develop/standards/css/css-file-organization-for-drupal-9)
 {% endhint %}
 
 {% hint style="info" %}
-Refere to Drupal.org standards for CSS architecture
+Refer to Drupal.org standards for CSS architecture
 
 [https://www.drupal.org/docs/develop/standards/css/css-architecture-for-drupal-9](https://www.drupal.org/docs/develop/standards/css/css-architecture-for-drupal-9)
 {% endhint %}
