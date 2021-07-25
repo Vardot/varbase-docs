@@ -28,7 +28,7 @@ Brings in the following core and contributed modules to your site:
 
 ## Screenshots
 
-![](../../../.gitbook/assets/varbase_email.png)
+![Example Email](../../../.gitbook/assets/varbase_email.png)
 
 
 
