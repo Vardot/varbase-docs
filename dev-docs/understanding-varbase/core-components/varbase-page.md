@@ -25,7 +25,7 @@ project_directory
                         |-- varbase_page
 ```
 
-**Varbase Page** brings in the following core and contributed modules to your site:
+Brings in the following core and contributed modules to your site:
 
 <table>
   <thead>

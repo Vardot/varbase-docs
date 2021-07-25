@@ -20,7 +20,7 @@ project_directory
             |-- varbase_landing
 ```
 
-Varbase Landing Page \(Paragraphs\) brings in the following core and contributed modules to your site:
+Brings in the following core and contributed modules to your site:
 
 | Module                              | Purpose |
 | :--- | :--- |

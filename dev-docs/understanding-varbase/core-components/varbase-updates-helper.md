@@ -22,7 +22,7 @@ project_directory
                     |-- varbase_update_helper
 ```
 
-**Varbase Update Helper** brings in the following core and contributed modules to your site:
+Brings in the following core and contributed modules to your site:
 
 | Module | Purpose |
 | :--- | :--- |

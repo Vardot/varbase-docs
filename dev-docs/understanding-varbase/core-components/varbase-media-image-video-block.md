@@ -23,7 +23,7 @@ project_directory
                     |-- varbase_media_block
 ```
 
-**Varbase Media \(Image/Video\) Block** brings in the following core and contributed modules to your site:
+Brings in the following core and contributed modules to your site:
 
 <table>
   <thead>

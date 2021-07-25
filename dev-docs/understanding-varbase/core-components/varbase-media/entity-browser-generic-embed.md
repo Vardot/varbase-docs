@@ -26,7 +26,7 @@ project_directory
                     |-- entity_browser_generic_embed
 ```
 
-**Entity Browser Generic Embed** brings in the following core and contributed modules to your site:
+Brings in the following core and contributed modules to your site:
 
 | Module | Purpose |
 | :--- | :--- |

@@ -28,7 +28,7 @@ project_directory
             |-- varbase_total_control
 ```
 
-Varbase Total Control Dashboard brings in the following core and contributed modules to your site:
+Brings in the following core and contributed modules to your site:
 
 | Module                              | Purpose |
 | :--- | :--- |

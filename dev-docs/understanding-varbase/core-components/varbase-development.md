@@ -23,7 +23,7 @@ project_directory
                         |-- varbase_development
 ```
 
-Varbase Development brings in the following core and contributed modules to your site:
+Brings in the following core and contributed modules to your site:
 
 <table>
   <thead>

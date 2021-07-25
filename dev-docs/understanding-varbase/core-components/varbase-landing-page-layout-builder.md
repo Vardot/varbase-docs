@@ -23,7 +23,7 @@ project_directory
                     |-- vlplb
 ```
 
-**Varbase Landing Page \(Layout Builder\)** brings in the following core and contributed modules to your site:
+Brings in the following core and contributed modules to your site:
 
 <table>
   <thead>

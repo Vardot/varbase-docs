@@ -20,7 +20,7 @@ project_directory
             |-- varbase_editor
 ```
 
-Varbase Editor brings in the following core and contributed modules to your site:
+Brings in the following core and contributed modules to your site:
 
 <table>
   <thead>

@@ -22,7 +22,7 @@ project_directory
             |-- varbase_blog
 ```
 
-Varbase Blog brings in the following core and contributed modules to your site:
+Brings in the following core and contributed modules to your site:
 
 <table>
   <thead>

@@ -24,7 +24,7 @@ project_directory
             |-- varbase_bootstrap_paragraphs
 ```
 
-Varbase Bootstrap Paragraphs brings in the following core and contributed modules to your site:
+Brings in the following core and contributed modules to your site:
 
 <table>
   <thead>
