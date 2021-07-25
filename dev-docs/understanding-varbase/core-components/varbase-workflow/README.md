@@ -37,7 +37,8 @@ Brings in the following core and contributed modules to your site:
         <p><em>(in Drupal core)</em>
         </p>
       </td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Provides an interface to create workflows with transitions between different
+        states (for example publication or user status) provided by other modules.</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -46,7 +47,7 @@ Brings in the following core and contributed modules to your site:
         <p><em>(in Drupal core)</em>
         </p>
       </td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Provides moderation states for content.</td>
     </tr>
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/moderation_sidebar"><b>Moderation Sidebar</b></a>&lt;b&gt;&lt;/b&gt;</td>
