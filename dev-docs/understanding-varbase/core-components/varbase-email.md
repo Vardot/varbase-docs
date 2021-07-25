@@ -20,11 +20,11 @@ project_directory
             |-- varbase_email
 ```
 
-Varbase Blog brings in the following core and contributed modules to your site:
+Varbase Email brings in the following core and contributed modules to your site:
 
 | Module                              | Purpose |
 | :--- | :--- |
-| \*\*\*\* |  |
+| Swift Mailer | Installs Swift Mailer as a mail system. |
 
 ## Screenshots
 
