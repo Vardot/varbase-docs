@@ -66,7 +66,7 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-social-single-sign-on.md" %}
 
-{% page-ref page="varbase-workflow.md" %}
+{% page-ref page="varbase-workflow/" %}
 
 {% page-ref page="vartheme-claro.md" %}
 
