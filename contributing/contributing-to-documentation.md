@@ -29,7 +29,7 @@ description: >-
 
 * Whenever a module or component name is mentioned, it should be **bold**.  Example: Varbase uses the **Layout Builder** module. 
 * Divide each documentation page with hierarchical titles starting with H1, then H2, then H3. This will reflect in the "CONTENTS" side bar. 
-* When explaining a path to the user, use bold trail of links separated by backslack \(\\) making the last item \(where the user should land\) in italics. Example: Navigate to **Administration** \ **Configuration** \ **Search and metadata** \ _**Metatag.**_ 
+* When explaining a path to the user, use bold trail of links separated by backslash \(\\) making the last item \(where the user should land\) in italics. Example: Navigate to **Administration** \ **Configuration** \ **Search and metadata** \ _**Metatag.**_ 
 * When a line of code or command is needed, highlight the text and use **&lt;&gt;** option from the tooltip.  Example: `cd /path/to/webserver_directory`   
 * To make your documentation nice to read, you can add blocks of hints and notes with nice icons by clicking on it, then change it to the desired one.  Example: 
 
