@@ -30,9 +30,9 @@ Follow the steps below to setup Varbase with Lando.
 
    ```text
    $databases['default']['default'] = [
-     'database' => 'drupal8',
-     'username' => 'drupal8',
-     'password' => 'drupal8',
+     'database' => 'drupal9',
+     'username' => 'drupal9',
+     'password' => 'drupal9',
      'prefix' => '',
      'host' => 'database',
      'port' => '3306',
