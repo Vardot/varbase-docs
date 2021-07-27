@@ -50,7 +50,7 @@
     * [Varbase Bootstrap Paragraphs](dev-docs/understanding-varbase/optional-components/varbase-bootstrap-paragraphs/README.md)
       * [Varbase Bootstrap Paragraphs Text and Image](dev-docs/understanding-varbase/optional-components/varbase-bootstrap-paragraphs/varbase-bootstrap-paragraphs-text-and-image.md)
     * [Varbase Landing Page \(Paragraphs\)](dev-docs/understanding-varbase/optional-components/varbase-landing-page-paragraphs.md)
-  * [External Components](dev-docs/understanding-varbase/external-components/README.md)
+  * [Additional Components](dev-docs/understanding-varbase/external-components/README.md)
     * [Varbase Media Header](dev-docs/understanding-varbase/external-components/varbase-media-header.md)
     * [Varbase FAQs](dev-docs/understanding-varbase/external-components/varbase-faqs.md)
     * [Varbase Reports](dev-docs/understanding-varbase/external-components/varbase-reports.md)
