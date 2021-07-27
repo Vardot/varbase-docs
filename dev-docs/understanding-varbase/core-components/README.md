@@ -16,7 +16,7 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-page.md" %}
 
-{% page-ref page="varbase-default-content.md" %}
+{% page-ref page="varbase-core/varbase-default-content.md" %}
 
 {% page-ref page="../development-components/varbase-development.md" %}
 

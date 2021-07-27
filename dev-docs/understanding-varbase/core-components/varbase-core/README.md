@@ -512,7 +512,7 @@ The following sub modules are packaged in the **Varbase Core** module
 
 {% page-ref page="varbase-admin.md" %}
 
-{% page-ref page="../varbase-default-content.md" %}
+{% page-ref page="varbase-default-content.md" %}
 
 {% page-ref page="../../development-components/varbase-development.md" %}
 
