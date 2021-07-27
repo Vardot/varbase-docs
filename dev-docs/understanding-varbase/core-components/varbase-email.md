@@ -2,6 +2,8 @@
 
 Adds HTML email templates for Drupal.
 
+![Example Email](../../../.gitbook/assets/varbase_email.png)
+
 ## Varbase Email Module
 
 {% hint style="info" %}
@@ -24,11 +26,7 @@ Brings in the following core and contributed modules to your site:
 
 | Module                              | Purpose |
 | :--- | :--- |
-| Swift Mailer | Installs Swift Mailer as a mail system. |
-
-## Screenshots
-
-![Example Email](../../../.gitbook/assets/varbase_email.png)
+| \*\*\*\*[**Swift Mailer**](https://drupal.org/project/swiftmailer)\*\*\*\* | Installs Swift Mailer as a mail system. |
 
 
 
