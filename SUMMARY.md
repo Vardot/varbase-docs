@@ -57,7 +57,7 @@
     * [Varbase Commerce](dev-docs/understanding-varbase/external-components/varbase-commerce.md)
   * [Development Components](dev-docs/understanding-varbase/development-components/README.md)
     * [Varbase Development](dev-docs/understanding-varbase/development-components/varbase-development.md)
-    * [Varbase Styleguide](dev-docs/understanding-varbase/development-components/varbase-styleguide.md)
+    * [Varbase Style Guide](dev-docs/understanding-varbase/development-components/varbase-styleguide.md)
 * [Configuring a Varbase Site](dev-docs/configuring-a-varbase-site/README.md)
   * [Navigation](dev-docs/configuring-a-varbase-site/navigation/README.md)
     * [Defining Active Menu Trail Using Menu Position](dev-docs/configuring-a-varbase-site/navigation/defining-active-menu-trail-using-menu-position.md)

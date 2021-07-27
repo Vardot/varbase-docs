@@ -1,4 +1,4 @@
-# Varbase Styleguide
+# Varbase Style Guide
 
 Provides custom styling guide for components for Varbase.
 
@@ -11,11 +11,11 @@ _Make sure to uninstall this module and its modules when you go in production mo
 ## Varbase Style Guide Module
 
 {% hint style="info" %}
-Varbase style guide features are bundled through the **Varbase Styleguide** module.  
+Varbase style guide features are bundled through the **Varbase Style Guide** module.  
 GitHub: [https://github.com/Vardot/varbase\_styleguide](https://github.com/Vardot/varbase_styleguide)  
 Drupal.org: [https://www.drupal.org/project/varbase\_styleguide](https://www.drupal.org/project/varbase_styleguide)
 
-After building a project using the `varbase-project` template, you can see the code of the **Varbase Email** module in:
+After building a project using the `varbase-project` template, you can see the code of the **Varbase Style Guide** module in:
 {% endhint %}
 
 ```text
