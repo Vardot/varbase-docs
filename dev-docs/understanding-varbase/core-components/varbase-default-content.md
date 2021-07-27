@@ -60,3 +60,36 @@ Brings in the following core and contributed modules to your site:
   </tbody>
 </table>
 
+## Default Content
+
+### Homepage
+
+Having the home page as a content page. Using the Varbase Landing page \(Layout Builder\) content type for that. 
+
+Managing the home page with hero slider or not. When the Varbase Media Hero Slider module was enabled or not on the installation of Varbase.
+
+### Block Content
+
+* Welcome to Varbase block
+* Copyright block
+
+### Menu Link Content
+
+#### Main Menu
+
+* Home
+* About Varbase
+* Contact Us
+
+#### Footer Menu
+
+* Community Support
+* Documentation
+* Get Professional Support
+
+
+
+
+
+
+
