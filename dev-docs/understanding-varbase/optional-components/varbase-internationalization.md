@@ -84,7 +84,7 @@ Varbase gave the option of enabling multiple language options on the multilingua
 
 ![Multilingual Configuration installation Step](../../../.gitbook/assets/multilingual-configuration-varbase.png)
 
-This will enable the necessary modules for a multilingual website. These include: Language, Interface Translation, Content Translation, Configuration Translation, and its recommended configuration.
+This will enable the necessary modules for a multilingual website. 
 
 ![Enable Multiple Languages for This Site](../../../.gitbook/assets/multilingual-configuration-varbase-enable-multiple-languages-for-this-site.png)
 
