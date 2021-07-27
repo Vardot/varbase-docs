@@ -6,11 +6,11 @@ Those components are detailed in the table below:
 
 ![Varbase Components Diagram](../../../.gitbook/assets/varbase-components.png)
 
-{% page-ref page="varbase-core.md" %}
+{% page-ref page="varbase-core/" %}
 
 {% page-ref page="varbase-media.md" %}
 
-{% page-ref page="varbase-admin.md" %}
+{% page-ref page="varbase-core/varbase-admin.md" %}
 
 {% page-ref page="varbase-editor.md" %}
 

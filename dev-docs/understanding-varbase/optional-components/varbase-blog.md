@@ -79,7 +79,7 @@ This module needs the following Varbase modules in order to function.
 
 Provides core components required by other features.
 
-{% page-ref page="../core-components/varbase-core.md" %}
+{% page-ref page="../core-components/varbase-core/" %}
 
 ### 
 
