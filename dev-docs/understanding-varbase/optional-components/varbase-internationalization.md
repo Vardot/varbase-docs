@@ -80,7 +80,7 @@ Choose the language of installation and default website language on the first st
 
 ![Choose Language of installation and Default Language for the Website](../../../.gitbook/assets/choose-language-varbase.png)
 
-Varbase gave the option of enabling a multiple language options on the multilingual configuration installation step.
+Varbase gave the option of enabling multiple language options on the multilingual configuration installation step.
 
 ![Multilingual Configuration installation Step](../../../.gitbook/assets/multilingual-configuration-varbase.png)
 
