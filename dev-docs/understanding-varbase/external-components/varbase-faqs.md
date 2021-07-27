@@ -115,8 +115,9 @@ Brings in the following core and contributed modules to your site:
       style="text-align:left">Provides an additional formatter for text field, text area and text format.</td>
     </tr>
     <tr>
-      <td style="text-align:left">Maxlength</td>
-      <td style="text-align:left">Limit the number of characters in textfields and textareas and shows the
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/maxlength"><b>Maxlength</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Limit the number of characters in textfields and textareas and shows the
         amount of characters left.</td>
     </tr>
   </tbody>
