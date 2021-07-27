@@ -265,13 +265,13 @@ A generic/global embed text area for Entity Browsers that allows you to paste an
 
 Manages default config for Tweet media type.
 
-{% page-ref page="varbase-media-twitter.md" %}
+{% page-ref page="../../optional-components/varbase-media-twitter.md" %}
 
 ### Varbase Media Instagram Module
 
 Manages default config for Instagram media type.
 
-{% page-ref page="varbase-media-instagram.md" %}
+{% page-ref page="../../optional-components/varbase-media-instagram.md" %}
 
 
 

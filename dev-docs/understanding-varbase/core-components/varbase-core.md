@@ -514,9 +514,9 @@ The following sub modules are packaged in the **Varbase Core** module
 
 {% page-ref page="varbase-default-content.md" %}
 
-{% page-ref page="varbase-development.md" %}
+{% page-ref page="../development-components/varbase-development.md" %}
 
-{% page-ref page="varbase-internationalization.md" %}
+{% page-ref page="../optional-components/varbase-internationalization.md" %}
 
 {% page-ref page="varbase-page.md" %}
 

@@ -16,9 +16,9 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-admin.md" %}
 
-{% page-ref page="varbase-development.md" %}
+{% page-ref page="../development-components/varbase-development.md" %}
 
-{% page-ref page="varbase-internationalization.md" %}
+{% page-ref page="../optional-components/varbase-internationalization.md" %}
 
 {% page-ref page="varbase-page.md" %}
 
@@ -30,13 +30,13 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-webform.md" %}
 
-{% page-ref page="varbase-api.md" %}
+{% page-ref page="../optional-components/varbase-api.md" %}
 
 {% page-ref page="varbase-total-control-dashboard.md" %}
 
-{% page-ref page="varbase-blog.md" %}
+{% page-ref page="../optional-components/varbase-blog.md" %}
 
-{% page-ref page="varbase-media-hero-slider.md" %}
+{% page-ref page="../optional-components/varbase-media-hero-slider.md" %}
 
 {% page-ref page="varbase-layout-builder.md" %}
 
@@ -62,11 +62,11 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-seo.md" %}
 
-{% page-ref page="varbase-styleguide.md" %}
+{% page-ref page="../development-components/varbase-styleguide.md" %}
 
 {% page-ref page="../optional-components/varbase-social-single-sign-on.md" %}
 
-{% page-ref page="varbase-workflow/" %}
+{% page-ref page="varbase-workflow.md" %}
 
 {% page-ref page="vartheme-claro.md" %}
 
