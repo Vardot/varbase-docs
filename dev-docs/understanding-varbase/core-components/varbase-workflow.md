@@ -67,7 +67,7 @@ Brings in the following core and contributed modules to your site:
   </tbody>
 </table>
 
-## Offers two workflows
+## Default Workflows
 
 1. **Simple workflow**: Draft, Published, and Archived Useful for any website, and offers the ability make a draft of a live version of content without unpublishing the whole content.
 2. **Editorial workflow**: Draft, Published, In review, and Archived                                                             Useful for website with editorial or moderation staff. You can create as many additional states as you like and define transitions between them to suit your organization's needs.
