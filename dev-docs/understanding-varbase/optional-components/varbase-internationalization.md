@@ -2,6 +2,8 @@
 
 Languages, and translation support.
 
+Enables the necessary modules for a multilingual website. These include: **Language**, **Interface Translation**, **Content Translation**, **Configuration Translation**, and its recommended configuration.
+
 ## Varbase Internationalization Module
 
 {% hint style="info" %}
@@ -71,4 +73,32 @@ Brings in the following core and contributed modules to your site:
     </tr>
   </tbody>
 </table>
+
+## Enable Multiple Languages on Varbase Installation
+
+Choose the language of instillation and default website language on the first step of installing Varbase
+
+![Choose Language of Instillation and Default Language for the Website](../../../.gitbook/assets/choose-language-varbase.png)
+
+Varbase gave the option of enabling a multiple language options on the multilingual configuration installation step.
+
+![Multilingual Configuration Instillation Step](../../../.gitbook/assets/multilingual-configuration-varbase.png)
+
+This will enable the necessary modules for a multilingual website. These include: Language, Interface Translation, Content Translation, Configuration Translation, and its recommended configuration.
+
+![Enable Multiple Languages for This Site](../../../.gitbook/assets/multilingual-configuration-varbase-enable-multiple-languages-for-this-site.png)
+
+{% hint style="success" %}
+Enabling multiple languages for the site right from the installation step is the best option for multilingual websites.
+
+Configurations which are related to languages will take affect on install. And after the install of any extra or external components.
+{% endhint %}
+
+{% hint style="danger" %}
+In case of not selecting the option on install. some issues will start to show up.
+
+**Example:**  The language field at the form display and field display will not be placed in the default Varbase standard order and position.
+{% endhint %}
+
+
 

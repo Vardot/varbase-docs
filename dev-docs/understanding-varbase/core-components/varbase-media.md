@@ -257,6 +257,8 @@ Brings in the following core and contributed modules to your site:
 
 ### Entity Browser Generic Embed Module
 
+Varbase Media is enabling this module by default.
+
 A generic/global embed text area for Entity Browsers that allows you to paste any URL to create a media entity based on the URL schema.
 
 ### Varbase Media Twitter Module
