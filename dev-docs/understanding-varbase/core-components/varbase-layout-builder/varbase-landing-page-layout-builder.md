@@ -159,7 +159,7 @@ This module needs the following Varbase modules in order to function.
 
 Provides default configuration and enhancements to utilize Drupal core's Layout Builder.
 
-{% page-ref page="varbase-layout-builder.md" %}
+{% page-ref page="./" %}
 
 
 

@@ -128,7 +128,7 @@ Brings in the following core and contributed modules to your site:
 
 Manages type of media contents and entity browsers in the site.
 
-{% page-ref page="varbase-media.md" %}
+{% page-ref page="../varbase-media.md" %}
 
 
 
@@ -154,7 +154,7 @@ A heading block is used to add headings to your page or sections. Headings help 
 
 A rich text block contains a title and a body with a rich text format.
 
-{% page-ref page="varbase-layout-builder.md" %}
+{% page-ref page="./" %}
 
 ### \*\*\*\*
 

@@ -137,13 +137,13 @@ This module needs the following Varbase modules in order to function.
 
 Provides default configuration and enhancements to utilize Drupal core's Layout Builder.
 
-{% page-ref page="../core-components/varbase-layout-builder.md" %}
+{% page-ref page="../core-components/varbase-layout-builder/" %}
 
 ### Varbase Landing Page \(Layout Builder\) Module
 
 Provides Landing page \(Layout Builder\) content type and related configuration. Use Landing page \(Layout Builder\) to build pages with custom sections and layouts to display content in a modern way.
 
-{% page-ref page="../core-components/varbase-landing-page-layout-builder.md" %}
+{% page-ref page="../core-components/varbase-layout-builder/varbase-landing-page-layout-builder.md" %}
 
 
 
