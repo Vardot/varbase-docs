@@ -178,19 +178,21 @@ A gallery block contains a title and a gallery of images and videos.
 
 {% page-ref page="varbase-gallery-block.md" %}
 
-## Screenshots for Extra Layout Styling options
+## Extra Layout Styling Options
 
-### Vertical and Horizontal Alignments
+Varbase Layout Builder add more layout settings. And more styling plugins.
 
-![Vertical and Horizontal Alignments](../../../.gitbook/assets/edit-layout-for-test-1-alignment-dev-varbase9c1-alignment-2.png)
+### Block Alignments
 
-### Edge to Edit Background option
+Vertical and horizontal alignments for all blocks in a section.
 
-![Edit Layout for Homepage](../../../.gitbook/assets/edit-layout-for-homepage-dev-varbase9c1_0.png)
+### Edge to Edge Background
 
-![Edit Layout for the Blog Section](../../../.gitbook/assets/edit-layout-for-blog-dev-varbase9c1.png)
+Having an edge to edge background for sections or boxed background.
 
-![Boxed Options \( Wide, Medium, Narrow, Tiny \)](../../../.gitbook/assets/edit-layout-for-boxed-vlb-no-background-align-center-dev-varbase9c1-e1.png)
+### Container Width for Boxed Container Type
+
+Having more options for boxed container type. A number of width options of \( Wide, Medium, Narrow, or Tiny \).
 
 
 
