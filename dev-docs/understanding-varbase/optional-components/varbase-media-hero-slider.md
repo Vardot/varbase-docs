@@ -102,7 +102,7 @@ This module needs the following Varbase modules in order to function.
 
 Manages type of media contents and entity browsers in the site.
 
-{% page-ref page="../core-components/varbase-media/" %}
+{% page-ref page="../core-components/varbase-media.md" %}
 
 ## Features
 

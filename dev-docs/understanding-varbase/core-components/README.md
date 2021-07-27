@@ -10,7 +10,7 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-editor.md" %}
 
-{% page-ref page="varbase-media/" %}
+{% page-ref page="varbase-media.md" %}
 
 {% page-ref page="varbase-default-content.md" %}
 

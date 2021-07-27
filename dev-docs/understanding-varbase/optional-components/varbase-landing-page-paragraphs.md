@@ -44,7 +44,7 @@ A suite of Paragraph bundles to be used for [Varbase](https://www.drupal.org/pro
 
 Manages type of media contents and entity browsers in the site.
 
-{% page-ref page="../core-components/varbase-media/" %}
+{% page-ref page="../core-components/varbase-media.md" %}
 
 ### Varbase SEO Module
 

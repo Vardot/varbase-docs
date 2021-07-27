@@ -126,7 +126,7 @@ Brings in the following core and contributed modules to your site:
 
 Manages type of media contents and entity browsers in the site.
 
-{% page-ref page="varbase-media/" %}
+{% page-ref page="varbase-media.md" %}
 
 
 
