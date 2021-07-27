@@ -2,6 +2,13 @@
 
 Development Environment Modules and Features, make sure to disable this feature in production.
 
+Install the development tools if you're a developer and you're going to use Varbase to build a new project. This will install several modules that help you build your site, such as [**Devel**](https://www.drupal.org/project/devel), [**Database Logging**](https://www.drupal.org/docs/8/core/modules/dblog/overview), and UI modules such as **View UI**, and Configuration Update Reports.  
+
+
+{% hint style="danger" %}
+_Make sure to uninstall this module and its modules when you go in production mode_.
+{% endhint %}
+
 ## Varbase Development Module
 
 {% hint style="info" %}
