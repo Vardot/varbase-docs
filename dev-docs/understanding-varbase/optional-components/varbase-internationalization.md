@@ -91,7 +91,7 @@ This will enable the necessary modules for a multilingual website. These include
 {% hint style="success" %}
 Enabling multiple languages for the site right from the installation step is the best option for multilingual websites.
 
-Configurations which are related to languages will take affect on install. And after the install of any extra or external components.
+Configurations that are related to languages will take effect on install. And after the install of any extra or external components.
 {% endhint %}
 
 {% hint style="danger" %}
