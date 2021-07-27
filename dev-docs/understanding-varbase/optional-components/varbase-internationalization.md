@@ -102,7 +102,7 @@ In case of not selecting the option on install. some issues will start to show u
 
 ## Creating a Multilingual Database for Websites
 
-It is better to use the following **character set** and **collation**, ****If the database was manually created.
+It is better to use the right **character set** and **collation**, ****If the database was manually created.
 
 {% hint style="info" %}
 **Following with Drupal documentation on Step 3: Create a database** [https://www.drupal.org/docs/installing-drupal/step-3-create-a-database](https://www.drupal.org/docs/installing-drupal/step-3-create-a-database)
