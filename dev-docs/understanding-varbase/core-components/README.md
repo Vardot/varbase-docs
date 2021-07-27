@@ -24,11 +24,11 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-security.md" %}
 
-{% page-ref page="varbase-tour.md" %}
+{% page-ref page="varbase-core/varbase-tour.md" %}
 
 {% page-ref page="varbase-updates-helper.md" %}
 
-{% page-ref page="varbase-webform.md" %}
+{% page-ref page="varbase-core/varbase-webform.md" %}
 
 {% page-ref page="../optional-components/varbase-api.md" %}
 
