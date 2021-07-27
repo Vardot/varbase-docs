@@ -8,9 +8,13 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-core.md" %}
 
-{% page-ref page="varbase-admin.md" %}
+{% page-ref page="varbase-editor.md" %}
+
+{% page-ref page="varbase-media/" %}
 
 {% page-ref page="varbase-default-content.md" %}
+
+{% page-ref page="varbase-admin.md" %}
 
 {% page-ref page="varbase-development.md" %}
 
@@ -27,10 +31,6 @@ Those components are detailed in the table below:
 {% page-ref page="varbase-webform.md" %}
 
 {% page-ref page="varbase-api.md" %}
-
-{% page-ref page="varbase-editor.md" %}
-
-{% page-ref page="varbase-media/" %}
 
 {% page-ref page="varbase-total-control-dashboard.md" %}
 
@@ -50,13 +50,13 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-media-image-video-block.md" %}
 
-{% page-ref page="varbase-carousels.md" %}
+{% page-ref page="../optional-components/varbase-carousels.md" %}
 
 {% page-ref page="varbase-gallery-block.md" %}
 
-{% page-ref page="varbase-bootstrap-paragraphs/" %}
+{% page-ref page="../optional-components/varbase-bootstrap-paragraphs/" %}
 
-{% page-ref page="varbase-landing-page-paragraphs.md" %}
+{% page-ref page="../optional-components/varbase-landing-page-paragraphs.md" %}
 
 {% page-ref page="varbase-email.md" %}
 
@@ -64,7 +64,7 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-styleguide.md" %}
 
-{% page-ref page="varbase-social-single-sign-on.md" %}
+{% page-ref page="../optional-components/varbase-social-single-sign-on.md" %}
 
 {% page-ref page="varbase-workflow/" %}
 
