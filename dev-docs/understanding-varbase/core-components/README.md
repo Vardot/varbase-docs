@@ -8,19 +8,19 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-core.md" %}
 
-{% page-ref page="varbase-editor.md" %}
-
 {% page-ref page="varbase-media.md" %}
 
-{% page-ref page="varbase-default-content.md" %}
-
 {% page-ref page="varbase-admin.md" %}
+
+{% page-ref page="varbase-editor.md" %}
+
+{% page-ref page="varbase-page.md" %}
+
+{% page-ref page="varbase-default-content.md" %}
 
 {% page-ref page="../development-components/varbase-development.md" %}
 
 {% page-ref page="../optional-components/varbase-internationalization.md" %}
-
-{% page-ref page="varbase-page.md" %}
 
 {% page-ref page="varbase-security.md" %}
 
