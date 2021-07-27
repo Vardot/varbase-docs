@@ -8,19 +8,19 @@ Recommended to read first:
 {% hint style="success" %}
 **As for** [**Varbase 8.8.8**](https://www.drupal.org/project/varbase/releases/8.x-8.8) **and** [**Varbase 9.0.0-rc1**](https://www.drupal.org/project/varbase/releases/9.0.0-rc1)**, Varbase works with both Composer 1.0 and Composer 2.0** 
 
-You can build your new **Varbase Project** with **Composer 2.0**
+Recommended to build all new **Varbase Projects** with **Composer 2.0**
 {% endhint %}
 
 {% hint style="success" %}
 If your site was built recently with the listed latest releases ****[**Varbase 8.8.8**](https://www.drupal.org/project/varbase/releases/8.x-8.8) ****or ****[**Varbase 9.0.0-rc1**](https://www.drupal.org/project/varbase/releases/9.0.0-rc1), but you used **Composer 1.0** version. you are ready to start using **Composer 2.0**
 
-Only update your **Composer** from **1.0** to **2.0**
+Only update the **Composer** from **1.0** to **2.0**
 
 Do a `composer update`  to update the autoloader.
 {% endhint %}
 
 {% hint style="warning" %}
-If your site was built with **Varbase 8.8.7** and older**,** you ****can follow the following steps:
+If the site was built with **Varbase 8.8.7** and older**,** Follow the following steps:
 {% endhint %}
 
 > **Step \#1:** Update composer to latest composer 1.0 by
@@ -57,7 +57,7 @@ If your site was built with **Varbase 8.8.7** and older**,** you ****can follow 
 > composer update -vvv
 > ```
 >
-> You may repeat this composer update 2 or 3 times to make sure that their are no updates
+> Repeat this composer update 2 or 3 times to make sure that their are no updates
 >
 > **Step \#4:** Update composer to latest **composer 2.0** by
 >
@@ -77,10 +77,10 @@ If your site was built with **Varbase 8.8.7** and older**,** you ****can follow 
 >
 > At this point the autoload and real autoload files + mapping should be changed.
 
-Check the complete changelog if you are interested in reading it all.  
+Check the complete changelog.  
 [https://github.com/composer/composer/releases/tag/2.0.0](https://github.com/composer/composer/releases/tag/2.0.0)
 
-Only if you do have any custom composer plugins or still having issues  
+When having any custom composer plugins or still having issues.  
 Or if modules are using the old way of autoloading
 
 > Custom **Composer** plugins must have  
