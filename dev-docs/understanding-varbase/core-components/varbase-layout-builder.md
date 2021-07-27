@@ -2,6 +2,8 @@
 
 Provides default configuration and enhancements to utilize Drupal core's Layout Builder.
 
+Utilizing the [**Bootstrap Layout Builder**](https://www.drupal.org/project/bootstrap_layout_builder) module. Optimized for Varbase standard layouts and styling configurations. Having custom Layout options, and custom styling plugins.
+
 ## Varbase Layout Builder Module
 
 {% hint style="info" %}
