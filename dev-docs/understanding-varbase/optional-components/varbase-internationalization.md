@@ -97,7 +97,11 @@ Configurations that are related to languages will take effect on install. And af
 {% hint style="danger" %}
 In case of not selecting the option on install. some issues will start to show up.
 
-**Example:**  The language field at the form display and field display will not be placed in the default Varbase standard order and position.
+**Examples:**  
+
+* The language field at the form display and field display will not be placed in the default Varbase standard order and position.
+* Manual fixes are needed for newly activated translatable content types. In order not to face language issues.
+* Manual changes are needed for custom views. In order to manage multilingual filtering of contents.
 {% endhint %}
 
 ## Creating a Multilingual Database for Websites
