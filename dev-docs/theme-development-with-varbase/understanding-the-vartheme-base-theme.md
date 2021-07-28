@@ -8,11 +8,17 @@ Based on the [**Bootstrap Barrio**](https://www.drupal.org/project/bootstrap_bar
 
 ## Varbase and SMACSS
 
-All **Varbase** components follows css files structure organized with [SMACSS](http://smacss.com/book/) in mind.
+All **Varbase** components arrange CSS files and organize them under libraries with full use of [SMACSS](http://smacss.com/book/) in mind.
 
-## [Vartheme BS4](https://www.drupal.org/project/vartheme_bs4) and SMACSS
+> ### [Scalable and Modular Architecture for CSS](http://smacss.com/)
+>
+> #### A flexible guide to developing sites small and large.
+>
+> SMACSS \(pronounced “smacks”\) is more style guide than rigid framework. There is no library within here for you to download or install. SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. It is an attempt to document a consistent approach to site development when using CSS.
 
-**Vartheme BS4** css files structure organized with [SMACSS](http://smacss.com/book/) in mind.
+## Vartheme BS4 and SMACSS
+
+**Vartheme BS4** too arrange CSS files and organize them under libraries with full use of [SMACSS](http://smacss.com/book/) in mind.
 
 ## Drupal SMACSS
 
