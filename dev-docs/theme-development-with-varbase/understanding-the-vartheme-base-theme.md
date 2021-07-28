@@ -88,9 +88,7 @@ Browse the list of all **Bootstrap 4** components
 ## Vartheme BS4 Theme Custom Layouts CSS Classes
 
 * \*\*\*\*[**.bg-edge2edge**](https://git.drupalcode.org/project/vartheme_bs4/-/blob/9.0.x/scss/layout/edge2edge.layout.scss) : Edge to Edge layout for content.
-* \*\*\*\*[**.equal-height**](https://git.drupalcode.org/project/vartheme_bs4/-/blob/9.0.x/scss/layout/equal-height.layout.scss) ****: ****Equal height layout for bootstrap rows.
-
-
+* \*\*\*\*[**.equal-height**](https://git.drupalcode.org/project/vartheme_bs4/-/blob/9.0.x/scss/layout/equal-height.layout.scss) ****: ****Equal height layout for bootstrap rows. \( variations with _**`-sm`**_, **`-md`**, **`-lg`**, and **`-xl`** \) will work within the Bootstrap default breakpoints for the theme.
 
 
 
