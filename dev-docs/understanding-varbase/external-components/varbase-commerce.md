@@ -14,7 +14,7 @@ After building a project using the `varbase-project` template.
 **Install with Composer:** `$ composer require 'drupal/varbase_commerce:1.0.x-dev@dev'`  
 [Using Composer to manage Drupal site dependencies](https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies)
 
-The code of the **Varbase FAQs** module will be located in:
+The code of the **Varbase Commerce** module will be located in:
 {% endhint %}
 
 ```text
@@ -22,7 +22,7 @@ project_directory
 |-- docroot
     |-- modules
         |-- contrib
-            |-- varbase_faqs
+            |-- varbase_commerce
 ```
 
 Brings in the following core and contributed modules to your site:
