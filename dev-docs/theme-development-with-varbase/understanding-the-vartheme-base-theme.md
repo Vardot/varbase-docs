@@ -38,8 +38,6 @@ Refer to Drupal.org standards for CSS architecture
 [https://www.drupal.org/docs/develop/standards/css/css-architecture-for-drupal-9](https://www.drupal.org/docs/develop/standards/css/css-architecture-for-drupal-9)
 {% endhint %}
 
-#### 
-
 ## Bootstrap
 
 Build fast, responsive sites with Bootstrap
