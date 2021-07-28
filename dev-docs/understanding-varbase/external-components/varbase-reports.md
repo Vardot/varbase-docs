@@ -2,6 +2,10 @@
 
 Provides a list of statistical reports. Targeted about users, content, blocks. And be able to export data.
 
+Varbase KPIs Users Reports - Registered users report
+
+Varbase KPIs Content Reports - Created content report
+
 ## Varbase Reports Module
 
 {% hint style="info" %}
