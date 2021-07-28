@@ -27,7 +27,7 @@ All **Varbase** components organize CSS files under libraries with full use of [
 > SMACSS \(pronounced “smacks”\) is more style guide than rigid framework. There is no library within here for you to download or install. SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. It is an attempt to document a consistent approach to site development when using CSS.
 
 {% hint style="info" %}
-Inspected for Varbase components with basic or no styling to look better when Vartheme BS4 or a sub theme is the default theme for the site.
+Inspected for Varbase components with basic or no styling to look better when Vartheme BS4 or a sub theme of it was the default theme for the site.
 {% endhint %}
 
 ## Vartheme BS4 theme and SMACSS
