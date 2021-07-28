@@ -18,7 +18,7 @@ This way a guaranteed full integration between **Varbase components** and **Varb
 
 ## Varbase Components and SMACSS
 
-All **Varbase** components arrange CSS files and organize them under libraries with full use of [SMACSS](http://smacss.com/book/) in mind.
+All **Varbase** components organize CSS files under libraries with full use of [SMACSS](http://smacss.com/book/) in mind.
 
 > ### [Scalable and Modular Architecture for CSS](http://smacss.com/)
 >
@@ -32,7 +32,7 @@ Inspected for Varbase components with basic or no styling to look better when Va
 
 ## Vartheme BS4 theme and SMACSS
 
-**Vartheme BS4** too arrange CSS files and organize them under libraries with full use of [SMACSS](http://smacss.com/book/) in mind.
+**Vartheme BS4** too organize CSS files under libraries with full use of [SMACSS](http://smacss.com/book/) in mind.
 
 ## Drupal SMACSS
 
@@ -75,7 +75,7 @@ Browse the list of all **Bootstrap 4** components
 * `.bs-callout` : Bootstrap callouts. Have the Bootstrap styling for call outs component.
 * `.vb-tags` : Styles a list of tags, which much looks like the pager with rounded borders.
 
-## More from Varbase custom components
+## Example Varbase Custom Components
 
 * `.varbase-heroslider-media` : [**Varbase Hero slider media**](https://www.drupal.org/project/varbase_heroslider_media) style.
 * \*\*\*\*[**View Modes Inventory - Bootstrap Ready**](https://www.drupal.org/project/vmi) **:** Number of view mode components, layouts, and themes, which you can copy from the module and custom for each content type. \( Have a look at [Using the VMI ](../configuring-a-varbase-site/using-view-modes-inventory.md)\)
