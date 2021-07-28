@@ -34,6 +34,16 @@ Inspected for Varbase components with basic or no styling to look better when Va
 
 **Vartheme BS4** too organize CSS files under libraries with full use of [SMACSS](http://smacss.com/book/) in mind.
 
+{% hint style="info" %}
+Have a look **SCSS** and **CSS** folders
+
+**SCSS:** [https://git.drupalcode.org/project/vartheme\_bs4/-/tree/9.0.x/scss](https://git.drupalcode.org/project/vartheme_bs4/-/tree/9.0.x/scss)
+
+**CSS:** [https://git.drupalcode.org/project/vartheme\_bs4/-/tree/9.0.x/css](https://git.drupalcode.org/project/vartheme_bs4/-/tree/9.0.x/css)
+{% endhint %}
+
+
+
 ## Drupal SMACSS
 
 **Drupal 9** follows a **SMACSS-style** categorization of its CSS rules:
@@ -70,10 +80,19 @@ Browse the list of all **Bootstrap 4** components
 [https://getbootstrap.com/docs/4.6/components](https://getbootstrap.com/docs/4.6/components)
 {% endhint %}
 
-## Vartheme BS4 theme custom components
+## Vartheme BS4 Theme Custom Components CSS Classes
 
-* `.bs-callout` : Bootstrap callouts. Have the Bootstrap styling for call outs component.
-* `.vb-tags` : Styles a list of tags, which much looks like the pager with rounded borders.
+* \`\`[**.bs-callout**](https://git.drupalcode.org/project/vartheme_bs4/-/blob/9.0.x/scss/components/bs-callouts.component.scss) : Bootstrap callouts. Have the Bootstrap styling for call outs component.
+* \`\`[**.vb-tags**](https://git.drupalcode.org/project/vartheme_bs4/-/blob/9.0.x/scss/components/vb-tags.component.scss) : Styles a list of tags, which much looks like the pager with rounded borders.
+
+## Vartheme BS4 Theme Custom Layouts CSS Classes
+
+* \*\*\*\*[**.bg-edge2edge**](https://git.drupalcode.org/project/vartheme_bs4/-/blob/9.0.x/scss/layout/edge2edge.layout.scss) : Edge to Edge layout for content.
+* \*\*\*\*[**.equal-height**](https://git.drupalcode.org/project/vartheme_bs4/-/blob/9.0.x/scss/layout/equal-height.layout.scss) ****: ****Equal height layout for bootstrap rows.
+
+
+
+
 
 ## Example Varbase Custom Components
 
