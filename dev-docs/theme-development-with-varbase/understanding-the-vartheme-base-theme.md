@@ -1,26 +1,20 @@
 # Understanding The Vartheme Base Theme
 
-### Vartheme BS4: Varbase Theme \(Bootstrap 4 - SASS\)
+## Vartheme BS4: Varbase Theme \(Bootstrap 4 - SASS\)
 
 A base theme for [**Varbase**](https://www.drupal.org/project/varbase) standard websites.
 
 Based on the [**Bootstrap Barrio**](https://www.drupal.org/project/bootstrap_barrio) theme \(**Bootstrap 4** - SASS\).
 
-### 
-
-### Varbase and SMACSS
+## Varbase and SMACSS
 
 All **Varbase** components follows css files structure organized with [SMACSS](http://smacss.com/book/) in mind.
 
-### 
-
-### [Vartheme BS4](https://www.drupal.org/project/vartheme_bs4) and SMACSS
+## [Vartheme BS4](https://www.drupal.org/project/vartheme_bs4) and SMACSS
 
 **Vartheme BS4** css files structure organized with [SMACSS](http://smacss.com/book/) in mind.
 
-### 
-
-### Drupal SMACSS
+## Drupal SMACSS
 
 **Drupal 9** follows a **SMACSS-style** categorization of its CSS rules:
 
@@ -46,7 +40,7 @@ Refer to Drupal.org standards for CSS architecture
 
 #### 
 
-### Bootstrap
+## Bootstrap
 
 Build fast, responsive sites with Bootstrap
 
@@ -60,12 +54,12 @@ Browse the list of all **Bootstrap 4** components
 
 #### 
 
-### Vartheme BS4 custom components
+## Vartheme BS4 custom components
 
 * `.bs-callout` : Bootstrap callouts. Have the Bootstrap styling for call outs component.
 * `.vb-tags` : Styles a list of tags, which much looks like the pager with rounded borders.
 
-### More from Varbase custom components
+## More from Varbase custom components
 
 * `.varbase-heroslider-media` : [**Varbase Hero slider media**](https://www.drupal.org/project/varbase_heroslider_media) style.
 * \*\*\*\*[**View Modes Inventory - Bootstrap Ready**](https://www.drupal.org/project/vmi) **:** Number of view mode components, layouts, and themes, which you can copy from the module and custom for each content type. \( Have a look at [Using the VMI ](../configuring-a-varbase-site/using-view-modes-inventory.md)\)
