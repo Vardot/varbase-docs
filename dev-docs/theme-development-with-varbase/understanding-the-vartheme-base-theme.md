@@ -6,7 +6,15 @@ A base theme for [**Varbase**](https://www.drupal.org/project/varbase) standard 
 
 Based on the [**Bootstrap Barrio**](https://www.drupal.org/project/bootstrap_barrio) theme \(**Bootstrap 4** - SASS\).
 
-## Varbase and SMACSS
+Mostly the base layouts and styling components are managed in **Vartheme BS4** base theme.
+
+Customizing for a project? keep using the umbrella of **Vartheme BS4** base theme by:
+
+{% page-ref page="creating-your-own-theme.md" %}
+
+This way a guaranteed full integration between **Varbase components** and **Varbase themes**.
+
+## Varbase Components and SMACSS
 
 All **Varbase** components arrange CSS files and organize them under libraries with full use of [SMACSS](http://smacss.com/book/) in mind.
 
@@ -16,7 +24,7 @@ All **Varbase** components arrange CSS files and organize them under libraries w
 >
 > SMACSS \(pronounced “smacks”\) is more style guide than rigid framework. There is no library within here for you to download or install. SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. It is an attempt to document a consistent approach to site development when using CSS.
 
-## Vartheme BS4 and SMACSS
+## Vartheme BS4 theme and SMACSS
 
 **Vartheme BS4** too arrange CSS files and organize them under libraries with full use of [SMACSS](http://smacss.com/book/) in mind.
 
@@ -58,7 +66,7 @@ Browse the list of all **Bootstrap 4** components
 
 #### 
 
-## Vartheme BS4 custom components
+## Vartheme BS4 theme custom components
 
 * `.bs-callout` : Bootstrap callouts. Have the Bootstrap styling for call outs component.
 * `.vb-tags` : Styles a list of tags, which much looks like the pager with rounded borders.
