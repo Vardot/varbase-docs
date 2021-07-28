@@ -24,6 +24,10 @@ All **Varbase** components arrange CSS files and organize them under libraries w
 >
 > SMACSS \(pronounced “smacks”\) is more style guide than rigid framework. There is no library within here for you to download or install. SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. It is an attempt to document a consistent approach to site development when using CSS.
 
+{% hint style="info" %}
+Inspected for Varbase components with basic or no styling to look better when Vartheme BS4 or a sub theme is the default theme for the site.
+{% endhint %}
+
 ## Vartheme BS4 theme and SMACSS
 
 **Vartheme BS4** too arrange CSS files and organize them under libraries with full use of [SMACSS](http://smacss.com/book/) in mind.
@@ -52,9 +56,9 @@ Refer to Drupal.org standards for CSS architecture
 [https://www.drupal.org/docs/develop/standards/css/css-architecture-for-drupal-9](https://www.drupal.org/docs/develop/standards/css/css-architecture-for-drupal-9)
 {% endhint %}
 
-## Bootstrap
+## Bootstrap Framework
 
-Build fast, responsive sites with Bootstrap
+Build fast, responsive sites with Bootstrap.
 
 Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
 
@@ -63,8 +67,6 @@ Browse the list of all **Bootstrap 4** components
 
 [https://getbootstrap.com/docs/4.6/components](https://getbootstrap.com/docs/4.6/components)
 {% endhint %}
-
-#### 
 
 ## Vartheme BS4 theme custom components
 
