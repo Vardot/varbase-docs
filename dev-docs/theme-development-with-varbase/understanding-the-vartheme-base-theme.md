@@ -6,11 +6,13 @@ A base theme for [**Varbase**](https://www.drupal.org/project/varbase) standard 
 
 Based on the [**Bootstrap Barrio**](https://www.drupal.org/project/bootstrap_barrio) theme \(**Bootstrap 4** - SASS\).
 
-Mostly the base layouts and styling components are managed in **Vartheme BS4** base theme.
+Mostly base Varbase layouts and styling of components are managed in the **Vartheme BS4** base theme.
 
-Customizing for a project? keep using the umbrella of **Vartheme BS4** base theme by:
+Customizing for a project? keep using the **Vartheme BS4** base theme by:
 
 {% page-ref page="creating-your-own-theme.md" %}
+
+A sub theme could be generated automatically to start with. Installed and set as default theme for a website. Changes over coloring, theming, having custom web components, adding more libraries would be managed under the new sub theme, without changing the base theme.
 
 This way a guaranteed full integration between **Varbase components** and **Varbase themes**.
 
