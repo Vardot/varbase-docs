@@ -9,7 +9,7 @@ Admins will be able to create carousels on the spot and place it anywhere on the
 {% hint style="info" %}
 Varbase carousels features are bundled through the **Varbase Carousels** module.  
 GitHub: [https://github.com/Vardot/varbase\_carousels](https://github.com/Vardot/varbase_carousels)  
-Drupal.org: [https://www.drupal.org/varbase\_carousels](https://www.drupal.org/varbase_carousels)
+Drupal.org: [https://www.drupal.org/project/varbase\_carousels](https://www.drupal.org/project/varbase_carousels)
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase Carousels Slider** module in:
 {% endhint %}
