@@ -9,7 +9,7 @@ A rich hero slider that allows you to display video and/or image slides. It impl
 {% hint style="info" %}
 Varbase media hero slider features are bundled through the **Varbase Media Hero Slider** module.  
 GitHub: [https://github.com/Vardot/varbase\_heroslider\_media](https://github.com/Vardot/varbase_heroslider_media)  
-Drupal.org: [https://www.drupal.org/varbase\_heroslider\_media](https://www.drupal.org/varbase_heroslider_media)
+Drupal.org: [https://www.drupal.org/project/varbase\_heroslider\_media](https://www.drupal.org/project/varbase_heroslider_media)
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase Media Hero Slider** module in:
 {% endhint %}
