@@ -26,7 +26,7 @@ Those components are detailed in the table below:
 
 {% page-ref page="varbase-core/varbase-tour.md" %}
 
-{% page-ref page="varbase-updates-helper.md" %}
+{% page-ref page="varbase-core/varbase-updates-helper.md" %}
 
 {% page-ref page="varbase-core/varbase-webform.md" %}
 

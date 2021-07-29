@@ -526,7 +526,7 @@ The following sub modules are packaged in the **Varbase Core** module
 
 {% page-ref page="varbase-webform.md" %}
 
-{% page-ref page="../varbase-updates-helper.md" %}
+{% page-ref page="varbase-updates-helper.md" %}
 
 
 
