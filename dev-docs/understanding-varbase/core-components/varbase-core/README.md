@@ -520,7 +520,7 @@ The following sub modules are packaged in the **Varbase Core** module
 
 {% page-ref page="../varbase-page.md" %}
 
-{% page-ref page="../varbase-security.md" %}
+{% page-ref page="varbase-security.md" %}
 
 {% page-ref page="varbase-tour.md" %}
 

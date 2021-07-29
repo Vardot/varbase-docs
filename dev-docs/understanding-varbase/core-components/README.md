@@ -22,7 +22,7 @@ Those components are detailed in the table below:
 
 {% page-ref page="../optional-components/varbase-internationalization.md" %}
 
-{% page-ref page="varbase-security.md" %}
+{% page-ref page="varbase-core/varbase-security.md" %}
 
 {% page-ref page="varbase-core/varbase-tour.md" %}
 

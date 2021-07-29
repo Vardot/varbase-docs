@@ -37,7 +37,7 @@ Brings in the following core and contributed modules to your site:
 | \*\*\*\*[**Security Kit**](https://www.drupal.org/project/seckit)\*\*\*\* | Enhance security of your Drupal website. |
 | \*\*\*\*[**Username Enumeration Prevention**](https://www.drupal.org/project/username_enumeration_prevention)\*\*\*\* | Removes the error message produced by the forgot password form,when an invalid user has been supplied. |
 
-{% page-ref page="../../configuring-a-varbase-site/security-features.md" %}
+{% page-ref page="../../../configuring-a-varbase-site/security-features.md" %}
 
 
 
