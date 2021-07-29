@@ -2,8 +2,6 @@
 
 Adds HTML email templates for Drupal.
 
-![Example Email](../../../.gitbook/assets/varbase_email.png)
-
 ## Varbase Email Module
 
 {% hint style="info" %}
