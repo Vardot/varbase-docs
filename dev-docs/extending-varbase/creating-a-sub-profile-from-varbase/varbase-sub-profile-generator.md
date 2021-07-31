@@ -6,7 +6,7 @@ Having a generator for new Varbase sub profiles, which helps in extending Varbas
 
 Download the Varbase Sub profile generator from [https://bitbucket.org/Vardot/varbase-subprofile-generator](https://github.com/Vardot/varbase-subprofile-generator) and get ready to generate profiles.
 
-**For Example:** if /var/www/html/products is your products working directory you could do the following
+**Example:** If /var/www/html/products is the default products workspace directory follow the listed steps:
 
 ```text
 mkdir /var/www/html/products
@@ -19,7 +19,7 @@ cd /var/www/html/products/varbase-subprofile-generator
 
 Set the version of the generator
 
-**For Example:** In case of wanting to generate a sub profile of **Varbase 9.0.0** run the following commands:
+**For Example:** In case of wanting to generate a sub profile of **Varbase 9.0.x** run the following commands:
 
 ```text
 cd /var/www/html/products/varbase-subprofile-generator
@@ -30,30 +30,33 @@ git checkout 9.0.0
 
 Run the generate command:
 
-**For Example:** If we want to create a new Varbase sub profile named **cv** , we could run the following commands in your local terminal:
+**Example:** In a case of creating a Varbase sub profile named "cv". Run the following commands in your local terminal:
+
+`$ bash generate-varbase-subprofile.sh "cv" "/var/www/html/MYPROFILE" -vvv`  
+You should see the following directories as your newly created sub profile.
 
 ```text
-cd /var/www/html/products/varbase-subprofile-generator
-bash generate-varbase-subprofile.sh cv /var/www/html/products -vvv
+$ cd /var/www/html/MYPROFILE
+$ ls -l
+
+MYPROFILE/
+ - cv/
+ - cv-project/
 ```
 
-After that you will have a new **cv** sub **profile cv-project** as you can see in the following:
+## Step \#4 Private or Public Repositories
 
-```text
-cd /var/www/html/products/cv
-cd /var/www/html/products/cv-project
+### Private
 
-```
+Create two new private repositories for the generated sub profile.
 
-## Step \#4 Private Repositories
+**Example:**
 
-Create two new **PRIVATE** repositories for the generated sub profile.
+{% embed url="https://bitbucket.org/Vardot/cv" %}
 
-**For Example:**
+{% embed url="https://bitbucket.org/Vardot/cv-project" %}
 
-[https://bitbucket.org/Vardot/cv](https://bitbucket.org/Vardot/cv)
 
-[https://bitbucket.org/Vardot/cv-project](https://bitbucket.org/Vardot/cv-project)
 
 Then add the remote repositories to the local working directories.
 
@@ -79,11 +82,31 @@ git commit -m "Initial commit" .
 git push origin master
 ```
 
+### Public
+
+Push the generated profile and project template to [https://github.com](https://github.com/) for example and submit them to [https://packagist.org](https://packagist.org/).
+
+Commit to a new project in [https://drupal.org](https://drupal.org/)
+
+#### **CV at Github.com**
+
+* [https://github.com/Vardot/cv](https://github.com/Vardot/cv)
+* [https://github.com/Vardot/cv-project](https://github.com/Vardot/cv-project)
+
+#### **CV at Packagist.org**
+
+* [https://packagist.org/packages/vardot/cv](https://packagist.org/packages/vardot/cv)
+* [https://packagist.org/packages/vardot/cv-project](https://packagist.org/packages/vardot/cv-project)
+
+#### CV at Drupal.org
+
+* [https://www.drupal.org/project/cv](https://www.drupal.org/project/cv)
+
 ## Step \#5 Changing 
 
 Have a development working directory to work on changing on generated sub profile.
 
-**For Example:** 
+**Example:** 
 
 Adding new features, modules, default content, demo content, and custom theme to the **cv** sub profile. Download the **cv-project** from [https://bitbucket.org/Vardot/cv-project/downloads/](https://bitbucket.org/Vardot/cv-project/downloads/) or clone it.
 
@@ -137,4 +160,8 @@ target:
 ```
 
 Change the **dev\_version** to mach with the target **dev\_branch** name and alias.
+
+{% embed url="https://www.drupal.org/project/cv/releases/3.0.0" %}
+
+
 
