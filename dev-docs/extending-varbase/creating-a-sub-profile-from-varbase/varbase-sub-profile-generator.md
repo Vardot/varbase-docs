@@ -37,32 +37,15 @@ cd /var/www/html/products/varbase-subprofile-generator
 bash generate-varbase-subprofile.sh cv /var/www/html/products -vvv
 ```
 
-After that you will have a new **cv** sub p**rofile cv-project** as you can see in the following:
+After that you will have a new **cv** sub **profile cv-project** as you can see in the following:
 
 ```text
-cd /var/www/html/products/varbase-subprofile-generator
-ll
-generate-varbase-subprofile.sh
-cv-project/
-.git/
-README.md
-settings.yml
-varbase_subprofile_basic/
-varbase-subprofile-basic-project/
+cd /var/www/html/products/cv
+cd /var/www/html/products/cv-project
+
 ```
 
-## Step \#4 Copy to Working Directory
-
-Copy the generated Varbase sub profile to a working directory.
-
-**For Example:** Copy **cv** and **cv-project** to a local products development working directory:
-
-```text
-mv /var/www/html/products/varbase-subprofile-generator/cv /var/www/html/products/cv
-mv /var/www/html/products/varbase-subprofile-generator/cv-project /var/www/html/products/cv-project
-```
-
-## Step \#5 Private Repositories
+## Step \#4 Private Repositories
 
 Create two new **PRIVATE** repositories for the generated sub profile.
 
@@ -96,7 +79,7 @@ git commit -m "Initial commit" .
 git push origin master
 ```
 
-## Step \#6 Changing 
+## Step \#5 Changing 
 
 Have a development working directory to work on changing on generated sub profile.
 
