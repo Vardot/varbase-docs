@@ -8,7 +8,7 @@ Managing the custom ConfigBits:
 
 **default.components.varbase\_subprofile\_basic.bit.yml**
 
-Which it could be a copy of [Varbase default components](https://github.com/Vardot/varbase/blob/8.x-4.x/configbit/default.components.varbase.bit.yml)
+Which it could be a copy of [Varbase default components](https://github.com/Vardot/varbase/blob/9.0.x/configbit/default.components.varbase.bit.yml)
 
 ```text
 # ==============================================================================
@@ -46,7 +46,7 @@ config_bit:
 
 Which it could be a copy of
 
-[extra varbase components](https://github.com/Vardot/varbase/blob/8.x-4.x/configbit/extra.components.varbase.bit.yml)
+[extra varbase components](https://github.com/Vardot/varbase/blob/9.0.x/configbit/extra.components.varbase.bit.yml)
 
 ```text
 # ==============================================================================
@@ -72,7 +72,7 @@ config_bit:
 
 Which it could be a copy of
 
-[varbase demo components](https://github.com/Vardot/varbase/blob/8.x-4.x/configbit/demo.content.varbase.bit.yml)
+[varbase demo components](https://github.com/Vardot/varbase/blob/9.0.x/configbit/demo.content.varbase.bit.yml)
 
 ```text
 # ==============================================================================
