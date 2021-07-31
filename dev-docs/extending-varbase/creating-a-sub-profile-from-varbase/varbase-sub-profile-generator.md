@@ -125,20 +125,34 @@ Head to [http://localhost/dev/cv-project/docroot](http://localhost/dev/cv-projec
 
 ## Generator Settings
 
-Notice the **settings.yml** file which will set the default settings for Varbase Sub Profile Generator.
+Notice the [**settings.yml**](https://github.com/Vardot/varbase-subprofile-generator/blob/9.0.x/settings.yml) file which will set the default settings for Varbase Sub Profile Generator.
 
 ```text
-version: "8.4.08"
-dev_version: "dev-master"
-default:
-  subprofile_name: "varbase_subprofile_basic"
-processor:
-  private_bitbucket: true
-  public_bitbucket: false
-  private_github: false
-  public_github: false
-  public_drupal: false
+source:
+  profile:
+    git_repository: git@github.com:Vardot/varbase_subprofile_basic.git
+    dev_branch:
+      name: 9.0.x
+      alias: 9.0.x-dev
+      label: 9.0.x
+  project:
+    git_repository: git@github.com:Vardot/varbase-subprofile-basic-project.git
+    dev_branch:
+      name: 9.0.x
+      alias: 9.0.x-dev
+      label: 9.0.x
+target:
+  profile:
+    dev_branch:
+      name: 1.0.x
+      alias: 1.0.x-dev
+      label: 1.0.x
+  project:
+    dev_branch:
+      name: 1.0.x
+      alias: 1.0.x-dev
+      label: 1.0.x
 ```
 
-For Development you may need to change the **dev\_version** to and set it to **dev-master**.
+Change the **dev\_version** to mach with the target **dev\_branch** name and alias.
 
