@@ -34,7 +34,7 @@ Run the generate command:
 
 ```text
 cd /var/www/html/products/varbase-subprofile-generator
-bash create-new-varbase-subprofile.sh "cv" -vvv
+bash generate-varbase-subprofile.sh cv /var/www/html/products -vvv
 ```
 
 After that you will have a new **cv** sub p**rofile cv-project** as you can see in the following:
@@ -42,8 +42,7 @@ After that you will have a new **cv** sub p**rofile cv-project** as you can see 
 ```text
 cd /var/www/html/products/varbase-subprofile-generator
 ll
-create-new-varbase-subprofile.sh
-cv/
+generate-varbase-subprofile.sh
 cv-project/
 .git/
 README.md
