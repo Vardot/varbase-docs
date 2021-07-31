@@ -82,9 +82,9 @@
   * [Overriding Varbase](dev-docs/extending-varbase/overriding-varbase.md)
   * [Creating Your Own Feature](dev-docs/extending-varbase/creating-your-own-feature.md)
   * [Creating A Sub Profile From Varbase](dev-docs/extending-varbase/creating-a-sub-profile-from-varbase/README.md)
+    * [Varbase Sub Profile Generator](dev-docs/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-generator.md)
     * [Varbase Sub Profile Basic Template](dev-docs/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-basic-template.md)
     * [Varbase Sub Profile Basic Project Template](dev-docs/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-basic-project-template.md)
-    * [Varbase Sub Profile Generator](dev-docs/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-generator.md)
 
 ## User Guide
 
