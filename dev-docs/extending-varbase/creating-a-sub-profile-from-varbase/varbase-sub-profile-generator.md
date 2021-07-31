@@ -1,32 +1,32 @@
 # Varbase Sub Profile Generator
 
-We do have a generator for new Varbase sub profiles, which could help you in a quick way.
+Having a generator for new Varbase sub profiles, which helps in extending Varbase profile using the sub profile method.
 
-## Step \#1
+## Step \#1 Download
 
-Download the Varbase Sub profile generator from [https://bitbucket.org/Vardot/varbase-subprofile-generator](https://bitbucket.org/Vardot/varbase-subprofile-generator) and get ready to generate profiles.
+Download the Varbase Sub profile generator from [https://bitbucket.org/Vardot/varbase-subprofile-generator](https://github.com/Vardot/varbase-subprofile-generator) and get ready to generate profiles.
 
 **For Example:** if /var/www/html/products is your products working directory you could do the following
 
 ```text
 mkdir /var/www/html/products
 cd /var/www/html/products
-git clone git@bitbucket.org:Vardot/varbase-subprofile-generator.git
+git clone git@github.com:Vardot/varbase-subprofile-generator.git
 cd /var/www/html/products/varbase-subprofile-generator
 ```
 
-## Step \#2
+## Step \#2 Set the Version
 
 Set the version of the generator
 
-**For Example:** if you want to generate a sub profile to use Varbase 8.4.08 you could do the following:
+**For Example:** In case of wanting to generate a sub profile of **Varbase 9.0.0** run the following commands:
 
 ```text
 cd /var/www/html/products/varbase-subprofile-generator
-git checkout 8.4.10
+git checkout 9.0.0
 ```
 
-## Step \#3
+## Step \#3 Generate
 
 Run the generate command:
 
@@ -52,26 +52,28 @@ varbase_subprofile_basic/
 varbase-subprofile-basic-project/
 ```
 
-## Step \#4
+## Step \#4 Copy to Working Directory
 
-Copy your Varbase sub profile to your working directory.
+Copy the generated Varbase sub profile to a working directory.
 
-**For Example:** You could copy **cv** and **cv-project** to your local products development working directory:
+**For Example:** Copy **cv** and **cv-project** to a local products development working directory:
 
 ```text
 mv /var/www/html/products/varbase-subprofile-generator/cv /var/www/html/products/cv
 mv /var/www/html/products/varbase-subprofile-generator/cv-project /var/www/html/products/cv-project
 ```
 
-## Step \#5
+## Step \#5 Private Repositories
 
-You will need to create 2 new **PRIVATE** repositories for your sub profile
+Create two new **PRIVATE** repositories for the generated sub profile.
 
 **For Example:**
 
-[https://bitbucket.org/Vardot/cv](https://bitbucket.org/Vardot/cv) [https://bitbucket.org/Vardot/cv-project](https://bitbucket.org/Vardot/cv-project)
+[https://bitbucket.org/Vardot/cv](https://bitbucket.org/Vardot/cv)
 
-Then we could add the remote repositories
+[https://bitbucket.org/Vardot/cv-project](https://bitbucket.org/Vardot/cv-project)
+
+Then add the remote repositories to the local working directories.
 
 ```text
 cd /var/www/html/products/cv
@@ -82,9 +84,9 @@ git commit -m "Initial commit" .
 git push origin master
 ```
 
-Now we do have our cv sub profile as drupal-profile
+The **cv** sub profile works as a _**drupal-profile.**_
 
-And for the cv-project templates
+The **cv-project** works as a project template.
 
 ```text
 cd /var/www/html/products/cv-project
@@ -95,11 +97,13 @@ git commit -m "Initial commit" .
 git push origin master
 ```
 
-## Step \#6
+## Step \#6 Changing 
 
-You will need to have a development working directory to work on changing on your sub profile
+Have a development working directory to work on changing on generated sub profile.
 
-**For Example:** If we want to add new features, modules, default content, demo content, and custom theme to our **cv** sub profile we could download the cv-project from [https://bitbucket.org/Vardot/cv-project/downloads/](https://bitbucket.org/Vardot/cv-project/downloads/) or clone it.
+**For Example:** 
+
+Adding new features, modules, default content, demo content, and custom theme to the **cv** sub profile. Download the **cv-project** from [https://bitbucket.org/Vardot/cv-project/downloads/](https://bitbucket.org/Vardot/cv-project/downloads/) or clone it.
 
 ```text
  mkdir /var/www/html/dev
@@ -108,7 +112,7 @@ You will need to have a development working directory to work on changing on you
  cd /var/www/html/dev/cv-project
 ```
 
-You will need set your needed branches, for example 8.x-1.x, or 8.x-4.x for your cv and cv-project to call then needed branch for development.
+Set your needed branches, for example 8.x-1.x, or 2.0.x for your **cv** and **cv-project** to call then needed branch for development.
 
 After that you could run the composer install command
 
@@ -117,11 +121,11 @@ cd /var/www/html/dev/cv-project
 composer install -vvv
 ```
 
-Now you could head to [http://localhost/dev/cv-project/docroot](http://localhost/dev/cv-project/docroot) and install your sub profile for development.
+Head to [http://localhost/dev/cv-project/docroot](http://localhost/dev/cv-project/docroot) and install your sub profile for development.
 
 ## Generator Settings
 
-You will notice a **settings.yml** file which will set the default settings for Varbase Sub Profile Generator.
+Notice the **settings.yml** file which will set the default settings for Varbase Sub Profile Generator.
 
 ```text
 version: "8.4.08"

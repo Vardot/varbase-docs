@@ -1,10 +1,10 @@
 # Varbase Sub Profile Basic Template
 
-Download it from: [https://bitbucket.org/Vardot/varbase\_subprofile\_basic](https://bitbucket.org/Vardot/varbase_subprofile_basic)
+Download it from: [https://github.com/Vardot/varbase\_subprofile\_basic](https://github.com/Vardot/varbase_subprofile_basic)
 
 ## Managing Installation Steps for Varbase sub profiles
 
-By managing your custom ConfigBits:
+Managing the custom ConfigBits:
 
 **default.components.varbase\_subprofile\_basic.bit.yml**
 
