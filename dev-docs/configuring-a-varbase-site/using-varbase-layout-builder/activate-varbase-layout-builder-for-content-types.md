@@ -1,6 +1,6 @@
 # Activating Varbase Layout Builder for Content Types
 
-The logical use for Varbase Layout Builder configs is with the **"Full Content"** display mode of most content types. If the Content type has an access permission for users to open a page with a URL to see the full content. It's better to activate the Layout Builder for the default layout for that full content.
+The logical use for Varbase Layout Builder configs is with the **"Full Content"** display mode for most planed content types. If the Content type has an access permission for users to open a page with a URL to see the full content. It's better to activate the Layout Builder for the default layout for that full content.
 
 ## Steps to Activate
 
@@ -59,6 +59,18 @@ The logical use for Varbase Layout Builder configs is with the **"Full Content"*
 * On choosing the "Bootstrap 2 Cols" section layout. Another styling settings tray options will show up to configure the section
 
 ![Configure Bootstrap 2 Cols Section](../../../.gitbook/assets/manage-display-dev-varbase9c1-post-10.png)
+
+* Set the desired Layout options, Styling options then click on the "Add Section" button in the setting try
+
+![Add Section After Configuring Section Styling options](../../../.gitbook/assets/manage-display-dev-varbase9c1-post-11.png)
+
+* Important to manage to have only the supported Varbase Layout Builder layouts. having the "Moderation control" field in a section with Bootstrap 1 Col layout, and the Body and other fields or needed blocks in other sections.
+
+![ Placeholder for the &quot;Moderation control&quot; Field in a Section with Bootstrap 1 Col Layout](../../../.gitbook/assets/manage-display-dev-varbase9c1-post-12.png)
+
+
+
+
 
 
 
