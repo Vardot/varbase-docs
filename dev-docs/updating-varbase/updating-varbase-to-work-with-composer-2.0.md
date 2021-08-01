@@ -1,6 +1,6 @@
 # Updating Varbase to work with Composer 2.0
 
-Recommended to read first:
+Recommended to read:
 
 * [Composer 2.0 is now available!](https://blog.packagist.com/composer-2-0-is-now-available/)
 * [Upgrade guides for Composer 1.x to 2.0](https://github.com/composer/composer/blob/2.0.0/UPGRADE-2.0.md)
@@ -12,7 +12,7 @@ Recommended to build all new **Varbase Projects** with **Composer 2.0**
 {% endhint %}
 
 {% hint style="success" %}
-If your site was built recently with the listed latest releases ****[**Varbase 8.8.8**](https://www.drupal.org/project/varbase/releases/8.x-8.8) ****or ****[**Varbase 9.0.0-rc1**](https://www.drupal.org/project/varbase/releases/9.0.0-rc1), but you used **Composer 1.0** version. you are ready to start using **Composer 2.0**
+If the site was built recently with the listed latest releases ****[**Varbase 8.8.8**](https://www.drupal.org/project/varbase/releases/8.x-8.8) ****or ****[**Varbase 9.0.0-rc1**](https://www.drupal.org/project/varbase/releases/9.0.0-rc1), but you used **Composer 1.0** version. you are ready to start using **Composer 2.0**
 
 Only update the **Composer** from **1.0** to **2.0**
 
@@ -53,7 +53,7 @@ If the site was built with **Varbase 8.8.7** and older**,** Follow the following
 > **Step \#3:** Update **Varbase** to **8.8.8**  or **9.0.0-rc1** with **Composer 1.0**
 >
 > ```text
-> cd /PATH_TO_YOUR_PROJECT
+> cd /PATH_TO_THE_PROJECT
 > composer update -vvv
 > ```
 >
@@ -68,7 +68,7 @@ If the site was built with **Varbase 8.8.7** and older**,** Follow the following
 > **Step \#5:** Rebuild the autoloader for map of classes and namespaces
 >
 > ```text
-> cd /PATH_TO_YOUR_PROJECT
+> cd /PATH_TO_THE_PROJECT
 > rm -rf composer.lock bin/ vendor/ docroot/modules/contrib/ docroot/themes/contrib/ docroot/profiles/varbase/ docroot/libraries/
 > composer install -vvv
 > cd docroot/
@@ -86,7 +86,7 @@ Or if modules are using the old way of autoloading
 > Custom **Composer** plugins must have  
 > `"composer-plugin-api": "^1.1 || ^2"`
 
-> Make sure that you do not have Invalid **`PSR-0`** / **`PSR-4`** . class configurations will not autoload anymore in `optimized-autoloader` mode, as per the warnings introduced in 1.10
+> Make sure that the root `composer.json` file do not have invalid **`PSR-0`** / **`PSR-4`** . And the class configurations will not autoload anymore in `optimized-autoloader` mode, as per the warnings introduced in 1.10
 
 **Known issues:**
 
