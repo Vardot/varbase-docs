@@ -77,20 +77,26 @@ Use the learn by example method. In case of wanting to create a custom Varbase c
 {% endhint %}
 
 {% hint style="success" %}
-Have a look at the code for _**varbase\_blog**_
+Have a look at the code and default configs for **Varbase Blog**
 
 [https://git.drupalcode.org/project/varbase\_blog](https://git.drupalcode.org/project/varbase_blog/-/tree/9.0.x)
 {% endhint %}
 
+![Edit Blog Site Section Layout](../../../.gitbook/assets/edit-layout-for-blog-dev-varbase9c1%20%281%29.png)
+
+![Edit Layout for Blog Post Content Items](../../../.gitbook/assets/edit-layout-for-blog-post-content-items-dev-varbase9c1.png)
+
 {% hint style="success" %}
+
+
 Install **Varbase Blog** in a **Varbase site.** 
 
 Have a look at the default **Varbase Blog** configs. Manage custom content types using the same configs.
 
-\*\*\*\*[**Issue \#3163199: Switch Blog section, Blog post, Blog categories, and Tags to use Varbase Layout Builder**](https://www.drupal.org/project/varbase_blog/issues/3163199)\*\*\*\*
+\*\*\*\*[**Issue \#3163199: Switch Blog section, Blog post, Blog categories, and Tags to use Varbase Layout Builder**](https://www.drupal.org/project/varbase_blog/issues/3163199)
 {% endhint %}
 
-![](../../../.gitbook/assets/edit-layout-for-blog-post-content-items-dev-varbase9c1.png)
+
 
 
 
