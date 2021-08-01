@@ -1,6 +1,6 @@
 # Varbase Sub Profile Generator
 
-Having a generator for new Varbase sub profiles. Helps in extending Varbase profile using the sub profile method.
+Having a generator tool helper. Which helps in extending Varbase profile using the sub profile method.
 
 ## Step \#1 Download
 
