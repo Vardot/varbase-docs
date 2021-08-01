@@ -67,7 +67,7 @@
   * [Managing Date and Time Formats to Display Across the Site](dev-docs/configuring-a-varbase-site/managing-date-and-time-formats-to-display-across-the-site.md)
   * [Using Varbase Layout Builder](dev-docs/configuring-a-varbase-site/using-varbase-layout-builder/README.md)
     * [Creating a Landing Page With Layout Builder](dev-docs/configuring-a-varbase-site/using-varbase-layout-builder/creating-a-landing-page-with-layout-builder.md)
-    * [Activate Varbase Layout Builder for Content Types](dev-docs/configuring-a-varbase-site/using-varbase-layout-builder/activate-varbase-layout-builder-for-content-types.md)
+    * [Activating Varbase Layout Builder for Content Types](dev-docs/configuring-a-varbase-site/using-varbase-layout-builder/activate-varbase-layout-builder-for-content-types.md)
   * [Configuring Pathologic When Going Live](dev-docs/configuring-a-varbase-site/configuring-pathologic-when-going-live.md)
   * [Configuring SEO Features](dev-docs/configuring-a-varbase-site/configuring-seo-features.md)
   * [Configuring Security Features](dev-docs/configuring-a-varbase-site/security-features.md)
