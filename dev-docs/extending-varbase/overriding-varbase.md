@@ -23,7 +23,7 @@ In case of capturing a bug. Search if it was filed in an issue.  Look if the a p
 {% hint style="info" %}
 Apply the patch using the **Composer patching method** using:
 
- ****[cweagans/composer-patches](https://github.com/cweagans/composer-patches)
+ ****[**cweagans/composer-patches**](https://github.com/cweagans/composer-patches)\*\*\*\*
 
 Do not use the manual patching method in projects.
 
