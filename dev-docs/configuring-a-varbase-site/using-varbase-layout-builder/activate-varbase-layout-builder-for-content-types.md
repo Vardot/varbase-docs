@@ -68,6 +68,26 @@ The logical use for Varbase Layout Builder configs is with the **"Full Content"*
 
 ![ Placeholder for the &quot;Moderation control&quot; Field in a Section with Bootstrap 1 Col Layout](../../../.gitbook/assets/manage-display-dev-varbase9c1-post-12.png)
 
+## Full Example with Code and Configs
+
+{% hint style="success" %}
+[**Varbase Blog**](https://www.drupal.org/project/varbase_blog) is the standard example for how a content type could be configured, then packaged to work with **Varbase.** Using Varbase Layout Builder default configs.
+
+Use the learn by example method. In case of wanting to create a custom Varbase compatible features.
+{% endhint %}
+
+{% hint style="success" %}
+Have a look at the code for _**varbase\_blog**_
+
+[https://git.drupalcode.org/project/varbase\_blog](https://git.drupalcode.org/project/varbase_blog/-/tree/9.0.x)
+{% endhint %}
+
+{% hint style="success" %}
+Install **Varbase Blog** in a **Varbase site.** 
+
+Have a look at the default **Varbase Blog** configs. Manage custom content types using the same configs.
+{% endhint %}
+
 
 
 
