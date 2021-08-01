@@ -35,7 +35,7 @@ The logical use for Varbase Layout Builder configs is with the **"Full Content"*
 
 ![After Activating the Use Layout Builder](../../../.gitbook/assets/manage-display-dev-varbase9c1-post-5.png)
 
-* Select the following layouts from "Layout available for sections" 
+* Select the following layouts from "Layout available for sections" and press save
   * _**Bootstrap 1 Col**_
   * _**Bootstrap 2 Cols**_
   * _**Bootstrap 3 Cols**_
@@ -43,6 +43,34 @@ The logical use for Varbase Layout Builder configs is with the **"Full Content"*
   * _**Bootstrap 6 Cols**_
 
 ![Select the Default Supported Varbase Layout Builder Layouts](../../../.gitbook/assets/manage-display-dev-varbase9c1-post-6.png)
+
+* Click on the "Manage layout" button to change the default layout for the "Full content" display
+
+![Manage layout for the Full Content Display Mode](../../../.gitbook/assets/manage-display-dev-varbase9c1-post-7.png)
+
+* The default set of fields as a block are placed in a default section will show up
+
+![Edit Layout for Post Content Items](../../../.gitbook/assets/manage-display-dev-varbase9c1-post-8.png)
+
+* Add Section to choose a layout for new sections
+
+![Choose a Layout for New Sections](../../../.gitbook/assets/manage-display-dev-varbase9c1-post-9.png)
+
+* On choosing the "Bootstrap 2 Cols" section layout. Another styling settings tray options will show up to configure the section
+
+![Configure Bootstrap 2 Cols Section](../../../.gitbook/assets/manage-display-dev-varbase9c1-post-10.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
