@@ -35,7 +35,7 @@ Inspected for Varbase components with basic or no styling to look better when Va
 **Vartheme BS4** too organize CSS files under libraries with full use of [SMACSS](http://smacss.com/book/) in mind.
 
 {% hint style="info" %}
-Have a look **SCSS** and **CSS** folders
+Have a look at the **SCSS** and **CSS** folders
 
 **SCSS:** [https://git.drupalcode.org/project/vartheme\_bs4/-/tree/9.0.x/scss](https://git.drupalcode.org/project/vartheme_bs4/-/tree/9.0.x/scss)
 
@@ -46,7 +46,7 @@ Have a look **SCSS** and **CSS** folders
 
 ## Drupal SMACSS
 
-**Drupal 9** follows a **SMACSS-style** categorization of its CSS rules:
+**Drupal** follows a **SMACSS-style** categorization of its CSS rules:
 
 1. **Base** — CSS reset/normalize plus HTML element styling.
 2. **Layout** — macro arrangement of a web page, including any grid systems.
