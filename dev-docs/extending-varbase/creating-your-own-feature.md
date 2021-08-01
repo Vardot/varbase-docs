@@ -6,10 +6,10 @@
 Use the learn by example method. In case of wanting to create a custom Varbase compatible features.
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="success" %}
 Please have a look at the code for _**varbase\_blog**_
 
-[https://git.drupalcode.org/project/varbase\_blog](https://git.drupalcode.org/project/varbase_blog)
+[https://git.drupalcode.org/project/varbase\_blog](https://git.drupalcode.org/project/varbase_blog/-/tree/9.0.x)
 {% endhint %}
 
 
