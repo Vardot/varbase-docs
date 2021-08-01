@@ -16,8 +16,6 @@ Create custom modules and have your override in them.
 * Use [Event Subscribers](https://www.drupal.org/docs/creating-custom-modules/subscribe-to-and-dispatch-events) and dispatches.
 * [Switching a Class for a service](https://www.drupal.org/docs/drupal-apis/services-and-dependency-injection/altering-existing-services-providing-dynamic) with a custom or extended Class.
 
-
-
 ## Patching bugs
 
 In case of capturing a bug. Search if it was filed in an issue.  Look if the a patch fix for the issue was uploaded.
