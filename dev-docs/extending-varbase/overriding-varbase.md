@@ -5,7 +5,7 @@
 {% hint style="info" %}
 Do not change the original code of **Drupal Core**, **Varbase**, **Vartheme** or any other **Varbase components**. In another words "Do not hack the original code without a trace for the change"
 
-Use the [standard Drupal overriding methods](https://www.drupal.org/forum/support/module-development-and-code-questions/2019-08-23/proper-way-to-override-a-method-in-a).
+Use the standard Drupal overriding methods.
 {% endhint %}
 
 ## Custom Tweak Modules
