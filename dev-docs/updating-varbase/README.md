@@ -1,10 +1,12 @@
 # Updating a Varbase Site
 
-## Before You Update
+## Before Updating
 
-Updating Varbase is best done through Composer. We will assume that you have [installed Varbase the recommended way](../installing-varbase/) through the Composer-based project template [varbase-project](https://github.com/Vardot/varbase-project) by running the command: `composer create-project Vardot/varbase-project YOUR_PROJECT --no-dev --no-interaction`
+Updating Varbase is best done through Composer. Assuming that [Varbase had been installed with the recommended way](../installing-varbase/). Through the Composer-based project template [varbase-project](https://github.com/Vardot/varbase-project) by running the command: 
 
-This will create the Varbase project directory that will look like this: `/path/to/YOUR_PROJECT` with the Drupal 8 codebase installed via Varbase installation profile in `/path/to/YOUR_PROJECT/docroot`.
+`composer create-project Vardot/varbase-project YOUR_PROJECT --no-dev --no-interaction`
+
+This will create the Varbase project directory that will look like this: `/path/to/YOUR_PROJECT` with the Drupal 9 codebase installed via Varbase installation profile in `/path/to/YOUR_PROJECT/docroot`.
 
 {% hint style="warning" %}
 Updating Varbase should always be done in a **local or development environment**. Once the update process is properly done and tested you can push your code and build to your production site.  
