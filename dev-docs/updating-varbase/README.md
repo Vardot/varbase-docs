@@ -14,7 +14,7 @@ DO NOT update Varbase directly when in production.
 {% endhint %}
 
 {% hint style="warning" %}
-The Varbase Updater tools requires write permissions to your directory. Please make sure you have write permissions in order for the updater to work.
+The Varbase Updater tools requires write permissions to the project directory. Please make sure that the write permissions are active in order for the updater to work.
 {% endhint %}
 
 ## The Update Process
@@ -52,15 +52,15 @@ At the end of the update process, two log files are useful to troubleshoot your 
 
 ### OPTION 2: Manual Process — Do it Yourself
 
-1. From a command prompt window, navigate to your project:  `cd /path/to/YOUR_PROJECT`  
+1. From a command prompt window, navigate to the project directory:  `cd /path/to/YOUR_PROJECT`  
 2. Edit your _composer.json_ file to be ready for updates. You have two choices.
    1. **The hard way:** Edit your _composer.json_ to include all the new updates made in [varbase-project](https://github.com/Vardot/varbase-project/blob/8.6.x/composer.json). This includes the new components required and its versions _"require"_, _"repositories"_, _"extra"_, and any other important config. You can use a diff tool such as [Meld](http://meldmerge.org/) or [DiffMerge](https://sourcegear.com/diffmerge/) to help you diff between your old _composer.json_ and the new one from [varbase-project](https://github.com/Vardot/varbase-project/blob/8.6.x/composer.json). 
    2. **The easy way:** 
       1. If you're using Varbase 8.6.2 or older, install [varbase-updater](https://github.com/Vardot/varbase-updater) through Composer. `composer require vardot/varbase-updater`   If you're using Varbase 8.6.3 or newer, skip this step; [varbase-updater](https://github.com/Vardot/varbase-updater) comes pre-installed with your Varbase project. 
       2. Then run: `composer varbase-refactor-composer composer.new.json docroot`  where _docroot_ is your Drupal project codebase. 
       3. Move your new Composer file _composer.new.json_ in place of the old one. `mv composer.json composer.json.b; \ mv composer.new.json composer.json` 
-3. Back up your code and database 
+3. Back up the code and database 
 4. Execute Composer update to download updates to modules and libraries. `composer update`  
-5. Run your database updates. `drush updatedb`  or by navigating to [http://my.varbase-site.local/update.php](http://my.varbase-site.local/update.php) \(where _my.varbase-site.local_ is the URL for your website\) and follow the on-screen instructions. 
-6. After the update finishes and you get a success message, navigate to [http://my.varbase-site.local/\*\*admin/config/development/update-helper\*\*](http://my.varbase-site.local/**admin/config/development/update-helper**) \(where _my.varbase-site.local_ is the URL for your website\) to learn about the new changes and updates introduced in your Varbase site.
+5. Run database updates. `drush updatedb`  or by navigating to [http://my.varbase-site.local/update.php](http://my.varbase-site.local/update.php) \(where _my.varbase-site.local_ is the URL for your website\) and follow the on-screen instructions. 
+6. After the update finishes with a success message, navigate to [http://my.varbase-site.local/\*\*admin/config/development/update-helper\*\*](http://my.varbase-site.local/**admin/config/development/update-helper**) \(where _my.varbase-site.local_ is the URL for your website\) to learn about the new changes and updates introduced in the Varbase site.
 
