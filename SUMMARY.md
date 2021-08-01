@@ -36,6 +36,7 @@
       * [Varbase Gallery Block](dev-docs/understanding-varbase/core-components/varbase-layout-builder/varbase-gallery-block.md)
     * [Varbase Total Control Dashboard](dev-docs/understanding-varbase/core-components/varbase-total-control-dashboard.md)
     * [Vartheme Claro](dev-docs/understanding-varbase/core-components/vartheme-claro.md)
+    * [Vartheme BS4](dev-docs/understanding-varbase/core-components/vartheme-bs4.md)
   * [Optional Components](dev-docs/understanding-varbase/optional-components/README.md)
     * [Varbase API](dev-docs/understanding-varbase/optional-components/varbase-api.md)
     * [Varbase Internationalization](dev-docs/understanding-varbase/optional-components/varbase-internationalization.md)
