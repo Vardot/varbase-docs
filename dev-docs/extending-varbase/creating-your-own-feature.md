@@ -7,7 +7,7 @@ Use the learn by example method. In case of wanting to create a custom Varbase c
 {% endhint %}
 
 {% hint style="success" %}
-Please have a look at the default configs and code for _**Varbase Blog**_
+Please have a look at the default configs and code for **Varbase Blog**
 
 [https://git.drupalcode.org/project/varbase\_blog](https://git.drupalcode.org/project/varbase_blog/-/tree/9.0.x)
 {% endhint %}
