@@ -22,5 +22,11 @@ To build a project using Varbase, we have provided a Varbase Composer project te
 
 See [https://github.com/Vardot/varbase-project](https://github.com/Vardot/varbase-project)
 
+**Packagist:** [https://packagist.org/packages/vardot/varbase-project](https://packagist.org/packages/vardot/varbase-project)
 
+To install the most recent stable release of **Varbase 9.0.x** run this command:
+
+```text
+composer create-project Vardot/varbase-project:~9 PROJECT_DIR_NAME --no-dev --no-interaction
+```
 
