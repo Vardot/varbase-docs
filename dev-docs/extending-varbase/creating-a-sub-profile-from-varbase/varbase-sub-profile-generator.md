@@ -151,7 +151,7 @@ To install the latest version of CV 3.0.x run this command:
 composer create-project vardot/cv-project:~3 PROJECT_DIR_NAME --stability dev --no-interaction
 ```
 
-Commits or changes to the **cv** and **cv-project** on the public repositories will reflect on `composer create-project`, `composer install` or `composer update`. 
+Commits changes to the **cv** and **cv-project** on the public repositories will reflect on `composer create-project`, `composer install` or `composer update`. 
 
 #### **CV on Github.com**
 
