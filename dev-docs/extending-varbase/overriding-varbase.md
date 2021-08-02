@@ -167,7 +167,7 @@ Ignore the patch being used as in the following example method:
 }
 ```
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 Do not keep **patches** or **patches-ignore** for long in projects.
 
 Keep track of them, and clean not needed patches.
