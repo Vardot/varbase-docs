@@ -111,54 +111,11 @@ products/
  - cv-project/
 ```
 
-## Step \#5 Private or Public Repositories
+## Step \#5 Public Repositories
 
 Saving the code in a repository is important. To let Composer build the project or manage the workflow of update.  over code and config changes.
 
-### Private
-
-Create two new private repositories for the generated sub profile.
-
-**Private Example:**
-
-**CV on Bitbucket.org**
-
-* \*\*\*\*[**https://bitbucket.org/Vardot/cv**](https://bitbucket.org/Vardot/cv)\*\*\*\*
-* \*\*\*\*[**https://bitbucket.org/Vardot/cv-project**](https://bitbucket.org/Vardot/cv-project)\*\*\*\*
-
-{% hint style="info" %}
-The private repositories are **private**!
-
-They are only accessible if the account had a permission to access them.
-
-_look for the **public example** links on github.com_
-{% endhint %}
-
-Add the remote repositories to the local working directories.
-
-```text
-cd /var/www/html/products/cv
-git init
-git remote add origin git@bitbucket.org:Vardot/cv.git
-git add .
-git commit -m "Initial commit" .
-git push origin master
-```
-
-The **cv** sub profile works as a _**drupal-profile.**_
-
-The **cv-project** works as a _**project template**_.
-
-```text
-cd /var/www/html/products/cv-project
-git init
-git remote add origin git@bitbucket.org:Vardot/cv-project.git
-git add .
-git commit -m "Initial commit" .
-git push origin master
-```
-
-### Public Example:
+### Example:
 
 Push the generated profile and project template to [https://github.com](https://github.com/) or [https://gitlab.com](https://gitlab.com) for example.
 
@@ -186,31 +143,7 @@ Commit to a new project in [https://drupal.org](https://drupal.org/) if you like
 
 Have a development working directory to work on changing on generated sub profile.
 
-### **Private Example:** 
-
-Adding new features, modules, default content, demo content, and custom theme to the **CV** sub profile. Download the **cv-project** from [https://bitbucket.org/Vardot/cv-project/downloads/](https://bitbucket.org/Vardot/cv-project/downloads/) or clone it.
-
-```text
- mkdir /var/www/html/dev
- cd /var/www/html/dev
- git clone git@bitbucket.org:Vardot/cv-project.git
- cd /var/www/html/dev/cv-project
-```
-
-Set your needed branches, for example _1.0.x_, _2.0.x_, or  **3.0.x** for your **cv** and **cv-project** 
-
-Then clone needed branch for the development process.
-
-After that run the composer install command
-
-```text
-cd /var/www/html/dev/cv-project
-composer install -vvv
-```
-
-Head to `http://localhost/dev/cv-project/docroot` and install your sub profile for development.
-
-### Public Example:
+### Example:
 
 To install the latest version of CV 3.0.x run this command:
 
