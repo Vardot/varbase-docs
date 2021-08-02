@@ -115,8 +115,6 @@ products/
 
 Saving the code in a repository is important. To let Composer build the project or manage the workflow of update.  over code and config changes.
 
-**Example:**
-
 Push the generated profile and project template to [https://github.com](https://github.com/) or [https://gitlab.com](https://gitlab.com) for example.
 
 Submit them to [https://packagist.org](https://packagist.org/) to be able to create projects or manage projects using the composer.
@@ -143,7 +141,7 @@ Commit to a new project in [https://drupal.org](https://drupal.org/) if you like
 
 Have a development working directory to work on changing on generated sub profile.
 
-**Example:**
+**Example:** The [**CV**](https://www.drupal.org/project/cv) profile
 
 To install the latest version of CV 3.0.x run this command:
 
@@ -151,19 +149,29 @@ To install the latest version of CV 3.0.x run this command:
 composer create-project vardot/cv-project:~3 PROJECT_DIR_NAME --stability dev --no-interaction
 ```
 
-Commits changes to the **cv** and **cv-project** on the public repositories will reflect on `composer create-project`, `composer install` or `composer update`. 
+Commits changes over the code or configs to the **cv** and **cv-project** to the public repositories
+
+That will reflect on `composer create-project`, `composer install` or `composer update`. 
 
 #### **CV on Github.com**
+
+Make sure that changes are updated in github.com ****
 
 * [https://github.com/Vardot/cv](https://github.com/Vardot/cv)
 * [https://github.com/Vardot/cv-project](https://github.com/Vardot/cv-project)
 
+Do more `composer create-project` after committing changes and a new install for the site. To make sure that your changes are working on install.
+
 #### **CV on Packagist.org**
+
+Make sure that changes are updated in the packagest.org site too.
 
 * [https://packagist.org/packages/vardot/cv](https://packagist.org/packages/vardot/cv)
 * [https://packagist.org/packages/vardot/cv-project](https://packagist.org/packages/vardot/cv-project)
 
 #### CV on Drupal.org
+
+Make sure that the code is synced with the project in Drupal.org
 
 * [https://www.drupal.org/project/cv](https://www.drupal.org/project/cv)
 
