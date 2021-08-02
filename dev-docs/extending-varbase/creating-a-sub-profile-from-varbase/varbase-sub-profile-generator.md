@@ -73,7 +73,7 @@ Change the **dev\_version** to mach with the target **dev\_branch** name and ali
 
 **Example:** The [**CV**](https://www.drupal.org/project/cv) profile
 
-Change target dev\_branch for profile and project to **3.0.x** for the [**CV**](https://www.drupal.org/project/cv) example profile
+Change target _`dev_branch`_ for the _`profile`_ and _`project`_ to **3.0.x** for the [**CV**](https://www.drupal.org/project/cv) example profile
 
 {% embed url="https://www.drupal.org/project/cv/releases/3.0.0" %}
 
