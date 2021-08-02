@@ -115,7 +115,7 @@ products/
 
 Saving the code in a repository is important. To let Composer build the project or manage the workflow of update.  over code and config changes.
 
-### Example:
+**Example:**
 
 Push the generated profile and project template to [https://github.com](https://github.com/) or [https://gitlab.com](https://gitlab.com) for example.
 
@@ -143,7 +143,7 @@ Commit to a new project in [https://drupal.org](https://drupal.org/) if you like
 
 Have a development working directory to work on changing on generated sub profile.
 
-### Example:
+**Example:**
 
 To install the latest version of CV 3.0.x run this command:
 
