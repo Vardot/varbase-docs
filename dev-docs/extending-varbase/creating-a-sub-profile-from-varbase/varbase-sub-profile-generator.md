@@ -93,14 +93,14 @@ target:
 
 Run the generate command:
 
-**Example:** In a case of creating a Varbase sub profile named "cv". Run the following commands in your local terminal:
+**Example:** In a case of creating a Varbase sub profile named "cv". Run the following commands in the  local terminal:
 
 ```text
 $ bash generate-varbase-subprofile.sh "cv" "/var/www/html/products" -vvv
 ```
 
   
-You should see the following directories as your newly created sub profile.
+The following directories will be created for the new sub profile.
 
 ```text
 $ cd /var/www/html/products
@@ -119,7 +119,7 @@ Push the generated profile and project template to [https://github.com](https://
 
 Submit them to [https://packagist.org](https://packagist.org/) to be able to create projects or manage projects using the composer.
 
-Commit to a new project in [https://drupal.org](https://drupal.org/) if you like to list your profile in the list of projects in Drupal.org
+Commit to a new project in [https://drupal.org](https://drupal.org/) to list the profile in the projects catalog in Drupal.org
 
 **Example:** The [**CV**](https://www.drupal.org/project/cv) profile
 
@@ -160,7 +160,7 @@ Make sure that changes are updated in github.com ****
 * [https://github.com/Vardot/cv](https://github.com/Vardot/cv)
 * [https://github.com/Vardot/cv-project](https://github.com/Vardot/cv-project)
 
-Do more `composer create-project` after committing changes and a new install for the site. To make sure that your changes are working on install.
+Do more `composer create-project` after committing changes and a new install for the site. To make sure that changes are working on install.
 
 #### **CV on Packagist.org**
 
