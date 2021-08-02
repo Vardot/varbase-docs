@@ -147,7 +147,7 @@ Have a development working directory to work on changing on generated sub profil
 
 **Example:** The [**CV**](https://www.drupal.org/project/cv) profile
 
-To install the latest version of CV 3.0.x run this command:
+To install the development version of CV 3.0.x run this command:
 
 ```text
 composer create-project vardot/cv-project:3.0.x-dev PROJECT_DIR_NAME --stability dev --no-interaction
@@ -159,7 +159,7 @@ That will reflect on `composer create-project`, `composer install` or `composer 
 
 #### **CV on Github.com**
 
-Make sure that changes are updated in github.com ****
+Make sure that changes are updated in **github.com** site.
 
 * [https://github.com/Vardot/cv](https://github.com/Vardot/cv)
 * [https://github.com/Vardot/cv-project](https://github.com/Vardot/cv-project)
@@ -168,14 +168,14 @@ Do more `composer create-project` after committing changes and a new install for
 
 #### **CV on Packagist.org**
 
-Make sure that changes are updated in the packagest.org site too.
+Make sure that changes are updated in the **packagest.org** site too.
 
 * [https://packagist.org/packages/vardot/cv](https://packagist.org/packages/vardot/cv)
 * [https://packagist.org/packages/vardot/cv-project](https://packagist.org/packages/vardot/cv-project)
 
 #### CV on Drupal.org
 
-Make sure that the code is synced with the project in Drupal.org
+Make sure that the code is synced with the project in **Drupal.org** site.
 
 * [https://www.drupal.org/project/cv](https://www.drupal.org/project/cv)
 
