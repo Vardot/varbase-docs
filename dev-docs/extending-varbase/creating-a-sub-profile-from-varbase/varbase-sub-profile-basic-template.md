@@ -6,7 +6,9 @@ Download it from: [https://github.com/Vardot/varbase\_subprofile\_basic](https:/
 
 Managing the custom ConfigBits:
 
-**default.components.varbase\_subprofile\_basic.bit.yml**
+## **Default Components**
+
+Change the **default.components.varbase\_subprofile\_basic.bit.yml** file.
 
 Which it could be a copy of [Varbase default components](https://github.com/Vardot/varbase/blob/9.0.x/configbit/default.components.varbase.bit.yml)
 
@@ -42,37 +44,17 @@ config_bit:
 
 ```
 
-**extra.components.varbase\_subprofile\_basic.bit.yml**
+{% hint style="info" %}
+**Example:** The [**CV**](https://www.drupal.org/project/cv) profile
 
-Which it could be a copy of
+[default.components.cv.bit.yml](https://github.com/Vardot/cv/blob/3.0.0/configbit/default.components.cv.bit.yml)
+{% endhint %}
 
-[extra varbase components](https://github.com/Vardot/varbase/blob/9.0.x/configbit/extra.components.varbase.bit.yml)
+## **Extra Components**
 
-```text
-# ==============================================================================
-# List of VARBASE_SUBPROFILE_BASIC demo components, which they will be listed under the 
-# Extra components installation step, in the Demo content section.
-# ==============================================================================
-config_bit:
-  type: list
-  for: varbase_subprofile_basic.info.yml
-  when:
-    show_demo: true
-    list:
-      dependencies:
-        varbase_subprofile_basic_demo:
-          title: "Install Varbase Subprofile Demo Content"
-          description: "If you're evaluating Varbase Subprofile, installing demo content will help you get an idea of how Varbase Subprofile works, and what features are included."
-          selected: false
-          config_form: false
+Change the **extra.components.varbase\_subprofile\_basic.bit.yml** file.
 
-```
-
-**demo.content.varbase\_subprofile\_basic.bit.yml**
-
-Which it could be a copy of
-
-[varbase demo components](https://github.com/Vardot/varbase/blob/9.0.x/configbit/demo.content.varbase.bit.yml)
+Which it could be a copy of [extra varbase components](https://github.com/Vardot/varbase/blob/9.0.x/configbit/extra.components.varbase.bit.yml)
 
 ```text
 # ==============================================================================
@@ -97,4 +79,41 @@ config_bit:
           selected: false
           config_form: false
 ```
+
+{% hint style="info" %}
+**Example:** The [**CV**](https://www.drupal.org/project/cv) profile
+
+[extra.components.cv.bit.yml](https://github.com/Vardot/cv/blob/3.0.x/configbit/demo.content.cv.bit.yml)
+{% endhint %}
+
+## **Demo Content**
+
+Change the **demo.content.varbase\_subprofile\_basic.bit.yml** file.
+
+Which it could be a copy of [varbase demo components](https://github.com/Vardot/varbase/blob/9.0.x/configbit/demo.content.varbase.bit.yml)
+
+```text
+# ==============================================================================
+# List of VARBASE_SUBPROFILE_BASIC demo components, which they will be listed under the 
+# Extra components installation step, in the Demo content section.
+# ==============================================================================
+config_bit:
+  type: list
+  for: varbase_subprofile_basic.info.yml
+  when:
+    show_demo: true
+    list:
+      dependencies:
+        varbase_subprofile_basic_demo:
+          title: "Install Varbase Subprofile Demo Content"
+          description: "If you're evaluating Varbase Subprofile, installing demo content will help you get an idea of how Varbase Subprofile works, and what features are included."
+          selected: false
+          config_form: false
+```
+
+{% hint style="info" %}
+**Example:** The [**CV**](https://www.drupal.org/project/cv) profile
+
+[demo.content.cv.bit.yml](https://github.com/Vardot/cv/blob/3.0.x/configbit/demo.content.cv.bit.yml)
+{% endhint %}
 
