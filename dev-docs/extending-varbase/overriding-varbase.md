@@ -16,7 +16,7 @@ Create custom modules and have your override in them.
 * Use [Event Subscribers](https://www.drupal.org/docs/creating-custom-modules/subscribe-to-and-dispatch-events) and dispatches.
 * [Switching a Class for a service](https://www.drupal.org/docs/drupal-apis/services-and-dependency-injection/altering-existing-services-providing-dynamic) with a custom or extended Class.
 
-## Patching bugs
+## Patching Bugs
 
 In case of capturing a bug. Search if it was filed in an issue.  Look if the a patch fix for the issue was uploaded.
 
@@ -72,7 +72,7 @@ This action will guarantee the direction of keeping track of changes over the co
 
 Please add the "Issue Number"  and the URL for the used patch 
 
-## Patch for a new enhancements
+## Patch for a New Enhancements
 
  An introductory patch for an enhancement over a Varbase component or any Drupal project is welcomed. 
 
@@ -82,7 +82,7 @@ A patch may not be committed on the spot. It will need review, and testing for w
 A patch will work. But although a custom module is the better logic.
 {% endhint %}
 
-## Ignoring patches
+## Ignoring Patches
 
 Using the [cweagans/composer-patches](https://github.com/cweagans/composer-patches#ignoring-patches) composer plugin with [patches-ignore](https://github.com/cweagans/composer-patches#ignoring-patches)
 
