@@ -146,7 +146,7 @@ Have a development working directory to work on changing on generated sub profil
 To install the latest version of CV 3.0.x run this command:
 
 ```text
-composer create-project vardot/cv-project:~3 PROJECT_DIR_NAME --stability dev --no-interaction
+composer create-project vardot/cv-project:3.0.x-dev PROJECT_DIR_NAME --stability dev --no-interaction
 ```
 
 Commits changes over the code or configs to the **cv** and **cv-project** to the public repositories
