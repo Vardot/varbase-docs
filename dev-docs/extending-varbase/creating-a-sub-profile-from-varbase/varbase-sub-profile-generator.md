@@ -117,7 +117,7 @@ products/
 
 ## Step \#5 Public Repositories
 
-Saving the code in a repository is important. To let Composer build the project or manage the workflow of update.  over code and config changes.
+Saving the code in a repository is important. To let Composer build the project or manage the workflow of updates over code and config changes.
 
 Push the generated profile and project template to [https://github.com](https://github.com/) or [https://gitlab.com](https://gitlab.com) for example.
 
@@ -153,7 +153,7 @@ To install the development version of CV 3.0.x run this command:
 composer create-project vardot/cv-project:3.0.x-dev PROJECT_DIR_NAME --stability dev --no-interaction
 ```
 
-Commits changes over the code or configs to the **cv** and **cv-project** to the public repositories
+Commits changes over the code or configs to the **cv** and **cv-project** to the public repositories.
 
 That will reflect on `composer create-project`, `composer install` or `composer update`. 
 
