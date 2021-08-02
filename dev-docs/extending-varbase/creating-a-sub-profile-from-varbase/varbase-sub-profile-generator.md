@@ -71,7 +71,9 @@ target:
 
 Change the **dev\_version** to mach with the target **dev\_branch** name and alias.
 
-**Example:** Change target dev\_branch for profile and project to **3.0.x** for the [**CV**](https://www.drupal.org/project/cv) example profile
+**Example:** The [**CV**](https://www.drupal.org/project/cv) profile
+
+Change target dev\_branch for profile and project to **3.0.x** for the [**CV**](https://www.drupal.org/project/cv) example profile
 
 {% embed url="https://www.drupal.org/project/cv/releases/3.0.0" %}
 
@@ -91,9 +93,11 @@ target:
 
 ## Step \#4 Generate
 
-Run the generate command:
+Run the generate command.
 
-**Example:** In a case of creating a Varbase sub profile named "cv". Run the following commands in the  local terminal:
+**Example:** The [**CV**](https://www.drupal.org/project/cv) profile
+
+In a case of creating a Varbase sub profile named "cv". Run the following commands in the local terminal:
 
 ```text
 $ bash generate-varbase-subprofile.sh "cv" "/var/www/html/products" -vvv
