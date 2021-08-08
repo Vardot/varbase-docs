@@ -6,6 +6,12 @@
 
 {% page-ref page="../understanding-varbase-updater-package.md" %}
 
+{% hint style="info" %}
+Check the **Upgrading a Drupal 8 site to Drupal 9**
+
+ [https://www.drupal.org/docs/upgrading-drupal/how-to-prepare-your-drupal-7-or-8-site-for-drupal-9/upgrading-a-drupal-8-site](https://www.drupal.org/docs/upgrading-drupal/how-to-prepare-your-drupal-7-or-8-site-for-drupal-9/upgrading-a-drupal-8-site)
+{% endhint %}
+
 ## 1. Change Composer Version Before Updating
 
 ### Varbase 8.8.7 and Older
@@ -45,13 +51,13 @@ composer require drush/drush:~10
 {% hint style="info" %}
 Check that all used modules in the project are **Drupal 9 Compatible!**
 
-* Check contributed modules.
-* Check custom in-house developed modules.
+* [Check contributed modules.](https://www.drupal.org/docs/updating-drupal/how-to-prepare-your-drupal-7-or-8-site-for-drupal-9/deprecation-checking-and)
+* [Check custom in-house developed modules.](https://www.drupal.org/docs/updating-drupal/how-to-prepare-your-drupal-7-or-8-site-for-drupal-9/deprecation-checking-and)
 {% endhint %}
 
 ### Modules had been Removed 
 
-{% hint style="warning" %}
+{% hint style="info" %}
 ### **Uninstall the** [**Libraries API**](https://www.drupal.org/project/libraries) **module**
 
 `drush pm-uninstall libraries`
@@ -101,7 +107,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 * Issue [\#3176580](https://www.drupal.org/i/3176580): Removed **Tour Builder** module from **Varbase Core**
 {% endhint %}
 
-{% hint style="warning" %}
+{% hint style="info" %}
 ### Uninstall the ****[**Adminimal Admin Toolbar**](https://www.drupal.org/project/adminimal_admin_toolbar) module
 
 `drush pm-uninstall adminimal_admin_toolbar`
@@ -118,7 +124,7 @@ Add the following to the composer.json file In case of choosing to keep the [**A
 `"drupal/adminimal_admin_toolbar": "~1.0"`
 {% endhint %}
 
-{% hint style="warning" %}
+{% hint style="info" %}
 ### Uninstall the [**SMTP Authentication Support**](https://www.drupal.org/project/smtp) module.
 
 `drush pm-uninstall smtp`
@@ -139,7 +145,7 @@ Add the following to the composer.json file In case of choosing to keep the [**A
 * Issue [\#3174423](https://www.drupal.org/i/3174423): Removed **Media Library Theme Reset** module
 {% endhint %}
 
-{% hint style="warning" %}
+{% hint style="info" %}
 ### Uninstall the [**Color Field**](https://www.drupal.org/project/color_field) module.
 
   `drush pm-uninstall color_field`
@@ -149,7 +155,7 @@ Add the following to the composer.json file In case of choosing to keep the [**A
 * Issue [\#3145737](https://www.drupal.org/i/3145737): Removed **Color Field** module
 {% endhint %}
 
-{% hint style="warning" %}
+{% hint style="info" %}
 ### Uninstall the [**Features**](https://www.drupal.org/project/features) module.
 
  `drush pm-uninstall features`
