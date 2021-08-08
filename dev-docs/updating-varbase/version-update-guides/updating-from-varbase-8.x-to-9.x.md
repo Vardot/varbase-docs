@@ -6,7 +6,7 @@
 
 {% page-ref page="../understanding-varbase-updater-package.md" %}
 
-## 1. Change Composer Version to ~2 Before Updating
+## 1. Change Composer Version Before Updating
 
 ### Varbase 8.8.7 and older
 
