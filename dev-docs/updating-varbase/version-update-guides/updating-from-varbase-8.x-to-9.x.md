@@ -8,9 +8,9 @@
 
 ## 1. Change Composer Version Before Updating
 
-### Varbase 8.8.7 and older
+### Varbase 8.8.7 and Older
 
-Make sure that **Composer** version **~1** is in use in the development environment
+Make sure that **Composer** version **~1** is in use in the development environment.
 
 ```text
 sudo composer self-update --1
@@ -30,7 +30,7 @@ Remove the not needed `"drupal/drupal-library-installer-plugin": "^0.3",`  from 
 
 ### Varbase 8.8.8 and Newer
 
-Make sure that **Composer** version **~2** is in use in the development environment
+Make sure that **Composer** version **~2** is in use in the development environment.
 
 ```text
 sudo composer self-update --2
@@ -105,7 +105,7 @@ drush pm-uninstall libraries libraries_ui mail_edit webform_analysis tour_builde
 bash ./bin/update-varbase.sh
 ```
 
-Facing issues?. do the more steps to do after the commands. next step.
+Facing issues?. Do the steps to do after the commands. next step.
 
 ## 5. **S**teps to do After the Command
 
