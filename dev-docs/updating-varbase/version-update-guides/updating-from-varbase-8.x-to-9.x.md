@@ -207,7 +207,7 @@ drush cr
 ## 6. Remove Drush Before Deployment to Production
 
 {% hint style="danger" %}
-Remember to remove Drush from the composer before deployment to the live site.
+Remember to remove Drush from the composer before deploying to the live site.
 {% endhint %}
 
 ```text
