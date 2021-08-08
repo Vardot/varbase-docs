@@ -16,11 +16,9 @@ Make sure that **Composer** version **~1** is in use in the development environm
 sudo composer self-update --1
 ```
 
-{% hint style="info" %}
-Later in the steps of upgrade, when the **Varbase** version reaches **8.8.8** or newer.
-{% endhint %}
-
 {% hint style="warning" %}
+Later in the steps of upgrade, when the **Varbase** version reaches **8.8.8** or newer.
+
 Be sure to switch the `composer.json` file to work with **Composer ~2**
 {% endhint %}
 
