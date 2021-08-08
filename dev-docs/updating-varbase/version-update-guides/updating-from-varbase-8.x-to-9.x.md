@@ -49,47 +49,117 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 * Check custom in-house developed modules.
 {% endhint %}
 
-### In Varbase 9 the Following Modules had been Removed 
+### Modules had been Removed 
 
-Uninstall the **Libraries** module
+{% hint style="warning" %}
+### **Uninstall the** [**Libraries API**](https://www.drupal.org/project/libraries) **module**
 
-`drush pm-uninstall libraries;`
+`drush pm-uninstall libraries`
 
-Uninstall the **Libraries UI** module
+**Drupal 9 Compatible** but no longer in **Varbase Core** 
 
- `drush pm-uninstall libraries_ui;`
+* Issue [\#3170653](https://www.drupal.org/i/3170653): Removed **Libraries API** module as much of its functionality had been moved to **Drupal 9 core**
+{% endhint %}
 
-Uninstall the **Mail Edit** module
+{% hint style="danger" %}
+### **Uninstall the** [**Libraries UI**](https://www.drupal.org/project/libraries_ui) **module**
 
- `drush pm-uninstall mail_edit;`
+ `drush pm-uninstall libraries_ui`
 
-Uninstall the **Webform Analysis** module
+**Not** **Compatible** with **Drupal 9** yet
 
- `drush pm-uninstall webform_analysis;`
+* Issue [\#3168664](https://www.drupal.org/i/3168664): Removed **Libraries UI** module from **Varbase Development**
+{% endhint %}
 
-Uninstall the **Tour Builder** module
+{% hint style="danger" %}
+Uninstall the [**Mail Editor**](https://www.drupal.org/project/mail_edit) module
 
- `drush pm-uninstall tour_builder;`
+ `drush pm-uninstall mail_edit`
 
-Uninstall the **Adminimal Admin Toolbar** module
+**Not** **Compatible** with **Drupal 9** yet
 
-`drush pm-uninstall adminimal_admin_toolbar;`
+* Issue [\#3168674](https://www.drupal.org/i/3168674): Removed **Mail Editor** module from **Varbase Core**
+{% endhint %}
 
-Uninstall the **SMTP** module
+{% hint style="danger" %}
+### Uninstall the [**Webform Analysis**](https://www.drupal.org/project/webform_analysis) module
 
-`drush pm-uninstall smtp;`
+ `drush pm-uninstall webform_analysis`
 
-Uninstall the **Media Library Theme Reset** module
+**Not** **Compatible** with **Drupal 9** yet
 
-`drush pm-uninstall media_library_theme_reset;`
+* Issue [\#3175839](https://www.drupal.org/i/3175839): Removed **Webform Analysis** module from **Varbase Core**
+{% endhint %}
 
-Uninstall the **Color Field** module
+{% hint style="danger" %}
+### Uninstall the [**Tour Builder**](https://www.drupal.org/project/tour_builder) module
 
- `drush pm-uninstall color_field;`
+ `drush pm-uninstall tour_builder`
 
-Uninstall the **Features** module
+**Not** **Compatible** with **Drupal 9** yet
 
- `drush pm-uninstall features;`
+* Issue [\#3176580](https://www.drupal.org/i/3176580): Removed **Tour Builder** module from **Varbase Core**
+{% endhint %}
+
+{% hint style="warning" %}
+### Uninstall the ****[**Adminimal Admin Toolbar**](https://www.drupal.org/project/adminimal_admin_toolbar) module
+
+`drush pm-uninstall adminimal_admin_toolbar`
+
+**Drupal 9 Compatible** but no longer in **Varbase Core** 
+
+* Issue [\#3145709](https://www.drupal.org/i/3145709): Removed **Adminimal Admin Toolbar** module
+* Issue [\#3145720](https://www.drupal.org/i/3145720): Removed **Vartheme Admin** theme
+
+Add the following to the composer.json file In case of choosing to keep the [**Adminimal - Responsive Administration Theme**](https://www.drupal.org/project/adminimal_theme)  as the default back-end theme.
+
+`"drupal/vartheme_admin" : "~6.0"`
+
+`"drupal/adminimal_admin_toolbar": "~1.0"`
+{% endhint %}
+
+{% hint style="warning" %}
+### Uninstall the [**SMTP Authentication Support**](https://www.drupal.org/project/smtp) module.
+
+`drush pm-uninstall smtp`
+
+**Drupal 9 Compatible** but no longer in **Varbase Mail** 
+
+* Issue [\#3143148](https://www.drupal.org/i/3143148): Removed **Smtp** module 
+* Issue [\#3047359](https://www.drupal.org/node/3047359): Removed enabling the **smtp** module as we have switched to use **swiftmailer** ~1.0 and Varbase emailing configs switched to **Varbase Email** module.
+{% endhint %}
+
+{% hint style="danger" %}
+### Uninstall the [**Media Library Theme Reset**](https://www.drupal.org/project/media_library_theme_reset) module
+
+`drush pm-uninstall media_library_theme_reset`
+
+**Not** **Compatible** with **Drupal 9** yet
+
+* Issue [\#3174423](https://www.drupal.org/i/3174423): Removed **Media Library Theme Reset** module
+{% endhint %}
+
+{% hint style="warning" %}
+### Uninstall the [**Color Field**](https://www.drupal.org/project/color_field) module.
+
+  `drush pm-uninstall color_field`
+
+**Drupal 9 Compatible** but no longer in **Varbase Core**
+
+* Issue [\#3145737](https://www.drupal.org/i/3145737): Removed **Color Field** module
+{% endhint %}
+
+{% hint style="warning" %}
+### Uninstall the [**Features**](https://www.drupal.org/project/features) module.
+
+ `drush pm-uninstall features`
+
+ **Drupal 9 Compatible** but no longer in **Varbase Core**
+
+* Issue [\#3145744](https://www.drupal.org/i/3145744): Removed **Features** module
+{% endhint %}
+
+### 
 
 ### All removed in One Uninstall Command
 
