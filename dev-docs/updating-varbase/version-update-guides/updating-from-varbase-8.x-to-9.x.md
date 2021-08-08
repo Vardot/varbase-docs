@@ -72,7 +72,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-Uninstall the [**Mail Editor**](https://www.drupal.org/project/mail_edit) module
+### Uninstall the [**Mail Editor**](https://www.drupal.org/project/mail_edit) module
 
  `drush pm-uninstall mail_edit`
 
