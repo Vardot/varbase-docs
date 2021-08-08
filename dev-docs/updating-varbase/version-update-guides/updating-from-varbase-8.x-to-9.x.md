@@ -40,6 +40,15 @@ composer require drush/drush:~10
 
 ## 3. Uninstall All Removed Modules
 
+{% hint style="info" %}
+Check that all used modules in the project are **Drupal 9 Compatible!**
+
+* Check contributed modules.
+* Check custom in-house developed modules.
+{% endhint %}
+
+### In Varbase 9 the Following Modules had been Removed 
+
 Uninstall the **Libraries** module
 
 `drush pm-uninstall libraries;`
