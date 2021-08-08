@@ -122,6 +122,6 @@ drush cr
 ## 6. Remove Drush Before Deployment to Production
 
 ```text
-composer require drush/drush:~10
+composer remove drush/drush:~10
 ```
 
