@@ -96,13 +96,17 @@ Facing issues?. do the more steps to do after the commands. next step.
 
 ## 5. **S**teps to do After the Command
 
-On the step of updating  from **Drupal ~8** to **Drupal ~9** , a number of missing services like "services" or Yaml parser.
+{% hint style="danger" %}
+Do not abort the update process.
+{% endhint %}
+
+ On the step of updating  from **Drupal ~8** to **Drupal ~9** , a number of duplicate key "services" detected in  `YamlSymfony.php` and `Parser.php`.
 
 **Drupal 8** is using **Symfony 3** and **Drupal 9** is using **Symfony 4**
 
 [What changes are there for third-party dependencies?](https://www.drupal.org/docs/understanding-drupal/how-drupal-9-is-made-and-what-is-included/what-changes-are-there-for-third)
 
-It is better to remove the `composer.lock` and `vendor/` folder. And do a composer install
+It is better to remove the `composer.lock` and `vendor/` folder. Then do a composer install
 
 ```text
 sudo rm -rf bin/ composer.lock vendor/ docroot/modules/contrib docroot/themes/contrib  docroot/profiles/varbase docroot/core ;
@@ -120,6 +124,10 @@ drush cr
 ```
 
 ## 6. Remove Drush Before Deployment to Production
+
+{% hint style="danger" %}
+Remember to remove Drush from the composer before deployment to the live site.
+{% endhint %}
 
 ```text
 composer remove drush/drush:~10
