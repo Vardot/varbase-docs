@@ -117,7 +117,9 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 * Issue [\#3145709](https://www.drupal.org/i/3145709): Removed **Adminimal Admin Toolbar** module
 * Issue [\#3145720](https://www.drupal.org/i/3145720): Removed **Vartheme Admin** theme
 
-Add the following to the composer.json file In case of choosing to keep the [**Adminimal - Responsive Administration Theme**](https://www.drupal.org/project/adminimal_theme)  as the default back-end theme.
+**Varbase** switched to use [**Vartheme Claro**](https://www.drupal.org/project/vartheme_claro) and **Claro** from **Drupal Core.**
+
+**Keeping** **Admininimal**? Add the following to the composer.json file In case of choosing to keep the [**Adminimal - Responsive Administration Theme**](https://www.drupal.org/project/adminimal_theme)  as the default back-end theme.
 
 `"drupal/vartheme_admin" : "~6.0"`
 
