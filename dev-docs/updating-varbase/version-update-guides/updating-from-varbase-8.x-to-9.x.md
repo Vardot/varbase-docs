@@ -57,7 +57,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 
 ### Modules had been Removed 
 
-{% hint style="info" %}
+{% hint style="success" %}
 ### **Uninstall the** [**Libraries API**](https://www.drupal.org/project/libraries) **module**
 
 `drush pm-uninstall libraries`
@@ -107,7 +107,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 * Issue [\#3176580](https://www.drupal.org/i/3176580): Removed **Tour Builder** module from **Varbase Core**
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="success" %}
 ### Uninstall the ****[**Adminimal Admin Toolbar**](https://www.drupal.org/project/adminimal_admin_toolbar) module
 
 `drush pm-uninstall adminimal_admin_toolbar`
@@ -124,7 +124,7 @@ Add the following to the composer.json file In case of choosing to keep the [**A
 `"drupal/adminimal_admin_toolbar": "~1.0"`
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="success" %}
 ### Uninstall the [**SMTP Authentication Support**](https://www.drupal.org/project/smtp) module.
 
 `drush pm-uninstall smtp`
@@ -145,7 +145,7 @@ Add the following to the composer.json file In case of choosing to keep the [**A
 * Issue [\#3174423](https://www.drupal.org/i/3174423): Removed **Media Library Theme Reset** module
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="success" %}
 ### Uninstall the [**Color Field**](https://www.drupal.org/project/color_field) module.
 
   `drush pm-uninstall color_field`
@@ -155,7 +155,7 @@ Add the following to the composer.json file In case of choosing to keep the [**A
 * Issue [\#3145737](https://www.drupal.org/i/3145737): Removed **Color Field** module
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="success" %}
 ### Uninstall the [**Features**](https://www.drupal.org/project/features) module.
 
  `drush pm-uninstall features`
@@ -167,7 +167,7 @@ Add the following to the composer.json file In case of choosing to keep the [**A
 
 ### 
 
-### All removed in One Uninstall Command
+### One Uninstall Command to Uninstall All Removed Modules
 
 ```text
 drush pm-uninstall libraries libraries_ui mail_edit webform_analysis tour_builder  adminimal_admin_toolbar smtp media_library_theme_reset color_field features;
