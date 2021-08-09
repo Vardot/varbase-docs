@@ -179,12 +179,14 @@ drush pm-uninstall libraries libraries_ui mail_edit webform_analysis tour_builde
 bash ./bin/update-varbase.sh
 ```
 
-Facing issues?. Do the steps to do after the commands. next step.
+Facing issues, Errors?. Do the steps to do after the commands. next step.
 
 ## 5. **S**teps to do After the Command
 
 {% hint style="danger" %}
-Do not abort the update process.
+#### Do not abort the update process. 
+
+For sure the update will face errors when switching from **Symfony 3** to **Symfony 4**
 {% endhint %}
 
  On the step of updating  from **Drupal ~8** to **Drupal ~9** , a number of duplicate key "services" detected in  `YamlSymfony.php` and `Parser.php`.
