@@ -132,7 +132,7 @@ Add the following to the composer.json file In case of choosing to keep the [**A
 **Drupal 9 Compatible** but no longer in **Varbase Mail** 
 
 * Issue [\#3143148](https://www.drupal.org/i/3143148): Removed **Smtp** module 
-* Issue [\#3047359](https://www.drupal.org/node/3047359): Removed enabling the **smtp** module as we have switched to use **swiftmailer** ~1.0 and Varbase emailing configs switched to **Varbase Email** module.
+* Issue [\#3047359](https://www.drupal.org/node/3047359): Removed enabling the **smtp** module as we have switched to use **swiftmailer** ~1.0 and **Varbase** emailing configs switched to **Varbase Email** module.
 {% endhint %}
 
 {% hint style="danger" %}
