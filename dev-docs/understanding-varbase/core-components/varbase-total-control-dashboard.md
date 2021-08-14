@@ -14,8 +14,8 @@ This dashboard is built on top of [Total Control Admin Dashboard](https://www.dr
 
 {% hint style="info" %}
 Varbase dashboard features are bundled through the **Varbase Total Control Dashboard** module.  
-GitHub: [**https://github.com/Vardot/varbase\_total\_control**](https://github.com/Vardot/varbase_total_control)  
-Drupal.org: [**https://www.drupal.org/project/varbase\_total\_control**](https://www.drupal.org/project/varbase_total_control)\*\*\*\*
+GitHub: [https://github.com/Vardot/varbase\_total\_control](https://github.com/Vardot/varbase_total_control)  
+Drupal.org: [https://www.drupal.org/project/varbase\_total\_control](https://www.drupal.org/project/varbase_total_control)
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase Total Control Dashboard** module in:
 {% endhint %}
