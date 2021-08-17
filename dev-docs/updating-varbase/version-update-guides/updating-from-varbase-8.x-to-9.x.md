@@ -55,10 +55,10 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 * [Check custom in-house developed modules.](https://www.drupal.org/docs/updating-drupal/how-to-prepare-your-drupal-7-or-8-site-for-drupal-9/deprecation-checking-and)
 {% endhint %}
 
-### Modules had been Removed 
+### Modules Had Been Removed 
 
 {% hint style="success" %}
-### **Uninstall the** [**Libraries API**](https://www.drupal.org/project/libraries) **module**
+### **Uninstall the** [**Libraries API**](https://www.drupal.org/project/libraries) **Module**
 
 `drush pm-uninstall libraries`
 
@@ -68,7 +68,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-### **Uninstall the** [**Libraries UI**](https://www.drupal.org/project/libraries_ui) **module**
+### **Uninstall the** [**Libraries UI**](https://www.drupal.org/project/libraries_ui) **Module**
 
  `drush pm-uninstall libraries_ui`
 
@@ -78,7 +78,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-### Uninstall the [**Mail Editor**](https://www.drupal.org/project/mail_edit) module
+### Uninstall the [**Mail Editor**](https://www.drupal.org/project/mail_edit) Module
 
  `drush pm-uninstall mail_edit`
 
@@ -88,7 +88,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-### Uninstall the [**Webform Analysis**](https://www.drupal.org/project/webform_analysis) module
+### Uninstall the [**Webform Analysis**](https://www.drupal.org/project/webform_analysis) Module
 
  `drush pm-uninstall webform_analysis`
 
@@ -98,7 +98,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-### Uninstall the [**Tour Builder**](https://www.drupal.org/project/tour_builder) module
+### Uninstall the [**Tour Builder**](https://www.drupal.org/project/tour_builder) Module
 
  `drush pm-uninstall tour_builder`
 
@@ -108,7 +108,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="success" %}
-### Uninstall the [**SMTP Authentication Support**](https://www.drupal.org/project/smtp) module.
+### Uninstall the [**SMTP Authentication Support**](https://www.drupal.org/project/smtp) Module.
 
 `drush pm-uninstall smtp`
 
@@ -119,7 +119,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-### Uninstall the [**Media Library Theme Reset**](https://www.drupal.org/project/media_library_theme_reset) module
+### Uninstall the [**Media Library Theme Reset**](https://www.drupal.org/project/media_library_theme_reset) Module
 
 `drush pm-uninstall media_library_theme_reset`
 
@@ -129,7 +129,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="success" %}
-### Uninstall the [**Color Field**](https://www.drupal.org/project/color_field) module.
+### Uninstall the [**Color Field**](https://www.drupal.org/project/color_field) Module.
 
   `drush pm-uninstall color_field`
 
@@ -139,7 +139,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="success" %}
-### Uninstall the [**Features**](https://www.drupal.org/project/features) module.
+### Uninstall the [**Features**](https://www.drupal.org/project/features) Module.
 
  `drush pm-uninstall features`
 
@@ -151,7 +151,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 ### 
 
 {% hint style="success" %}
-### Uninstall the ****[**Adminimal Admin Toolbar**](https://www.drupal.org/project/adminimal_admin_toolbar) module
+### Uninstall the ****[**Adminimal Admin Toolbar**](https://www.drupal.org/project/adminimal_admin_toolbar) Module
 
 `drush pm-uninstall adminimal_admin_toolbar`
 
@@ -169,7 +169,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 `"drupal/adminimal_admin_toolbar": "~1.0"`
 {% endhint %}
 
-### Themes had been Removed 
+### Themes Had Been Removed
 
 {% hint style="success" %}
 ### **Uninstall the Vartheme Admin Theme and the** Adminimal - Responsive Administration Theme
@@ -238,7 +238,7 @@ Facing issues, Errors?. Do the steps to do after the commands. next step.
 {% hint style="danger" %}
 #### Do not abort the update process. 
 
-For sure the update will face errors when switching from **Symfony 3** to **Symfony 4**
+For sure the update will face errors while switching from **Symfony 3** to **Symfony 4**
 {% endhint %}
 
  On the step of updating  from **Drupal ~8** to **Drupal ~9** , a number of duplicate key "services" detected in  `YamlSymfony.php` and `Parser.php`.
