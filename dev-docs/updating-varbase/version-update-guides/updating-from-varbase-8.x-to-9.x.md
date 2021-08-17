@@ -46,7 +46,7 @@ sudo composer self-update --2
 composer require drush/drush:~10
 ```
 
-## 3. Uninstall All Removed Modules
+## 3. Uninstall All Removed Components
 
 {% hint style="info" %}
 Check that all used modules in the project are **Drupal 9 Compatible!**
@@ -108,25 +108,6 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="success" %}
-### Uninstall the ****[**Adminimal Admin Toolbar**](https://www.drupal.org/project/adminimal_admin_toolbar) module
-
-`drush pm-uninstall adminimal_admin_toolbar`
-
-**Drupal 9 Compatible** but no longer in **Varbase Core** 
-
-* Issue [\#3145709](https://www.drupal.org/i/3145709): Removed **Adminimal Admin Toolbar** module
-* Issue [\#3145720](https://www.drupal.org/i/3145720): Removed **Vartheme Admin** theme
-
-**Varbase** switched to use [**Vartheme Claro**](https://www.drupal.org/project/vartheme_claro) and **Claro** from **Drupal Core.**
-
-**Keeping** **Admininimal**? Add the following to the composer.json file In case of choosing to keep the [**Adminimal - Responsive Administration Theme**](https://www.drupal.org/project/adminimal_theme)  as the default back-end theme.
-
-`"drupal/vartheme_admin" : "~6.0"`
-
-`"drupal/adminimal_admin_toolbar": "~1.0"`
-{% endhint %}
-
-{% hint style="success" %}
 ### Uninstall the [**SMTP Authentication Support**](https://www.drupal.org/project/smtp) module.
 
 `drush pm-uninstall smtp`
@@ -169,11 +150,50 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 
 ### 
 
-### One Uninstall Command to Uninstall All Removed Modules
+{% hint style="success" %}
+### Uninstall the ****[**Adminimal Admin Toolbar**](https://www.drupal.org/project/adminimal_admin_toolbar) module
 
-```text
-drush pm-uninstall libraries libraries_ui mail_edit webform_analysis tour_builder  adminimal_admin_toolbar smtp media_library_theme_reset color_field features;
-```
+`drush pm-uninstall adminimal_admin_toolbar`
+
+**Drupal 9 Compatible** but no longer in **Varbase Core** 
+
+* Issue [\#3145709](https://www.drupal.org/i/3145709): Removed **Adminimal Admin Toolbar** module
+* Issue [\#3145720](https://www.drupal.org/i/3145720): Removed **Vartheme Admin** theme
+
+**Varbase** switched to use [**Vartheme Claro**](https://www.drupal.org/project/vartheme_claro) and **Claro** from **Drupal Core.**
+
+**Keeping** **Admininimal**? Add the following to the composer.json file In case of choosing to keep the **Adminimal - Responsive Administration Theme**  as the default back-end theme.
+
+`"drupal/vartheme_admin" : "~6.0"`
+
+`"drupal/adminimal_admin_toolbar": "~1.0"`
+{% endhint %}
+
+### Themes had been Removed 
+
+{% hint style="success" %}
+### **Uninstall the Vartheme Admin Theme and the** Adminimal - Responsive Administration Theme
+
+* First change the default admin them to [**Vartheme Claro**](https://www.drupal.org/project/vartheme_claro)\*\*\*\*
+
+             drush theme:enable vartheme\_claro
+
+              drush config:set system.theme admin vartheme\_claro
+
+* Uninstall the old admin themes.
+
+            drush theme:uninstall vartheme\_admin
+
+            drush theme:uninstall adminimal\_theme
+
+**Drupal 9 Compatible** but no longer use by  **Varbase** 
+
+* Issue [\#3145720](https://www.drupal.org/i/3145720): Removed **Vartheme Admin** theme
+
+**Keeping** **Admininimal**? Add the following to the composer.json file In case of choosing to keep the **Adminimal - Responsive Administration Theme**  as the default back-end theme.
+
+`"drupal/vartheme_admin" : "~6.0"`
+{% endhint %}
 
 ## 4. Run the Update Varbase Command
 
