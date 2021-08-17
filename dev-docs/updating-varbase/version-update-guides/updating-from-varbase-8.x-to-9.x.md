@@ -48,6 +48,8 @@ composer require drush/drush:~10
 
 ## 3. Uninstall All Removed Components
 
+A number of modules, themes, and libraries was removed from Varbase 9. That for Drupal 9 compatibility, or for change of selection to use better tools, and newer and better UI/UX themes.
+
 {% hint style="info" %}
 Check that all used modules in the project are **Drupal 9 Compatible!**
 
@@ -148,8 +150,6 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 * Issue [\#3145744](https://www.drupal.org/i/3145744): Removed **Features** module
 {% endhint %}
 
-### 
-
 {% hint style="success" %}
 ### Uninstall the ****[**Adminimal Admin Toolbar**](https://www.drupal.org/project/adminimal_admin_toolbar) Module
 
@@ -172,7 +172,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 ### Themes Had Been Removed
 
 {% hint style="success" %}
-### **Uninstall the Vartheme Admin Theme and the** Adminimal - Responsive Administration Theme
+#### **Uninstall the Vartheme Admin Theme and the** Adminimal - Responsive Administration Theme
 
 * First change the default admin them to [**Vartheme Claro**](https://www.drupal.org/project/vartheme_claro)\*\*\*\*
 
@@ -193,6 +193,15 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 **Keeping** **Admininimal**? Add the following to the composer.json file In case of choosing to keep the **Adminimal - Responsive Administration Theme**  as the default back-end theme.
 
 `"drupal/vartheme_admin" : "~6.0"`
+{% endhint %}
+
+{% hint style="danger" %}
+In case of not uninstalling the following issue will show up in the update process
+
+`[1]` [`https://www.drupal.org/docs/8/update/troubleshooting-database-updates`](https://www.drupal.org/docs/8/update/troubleshooting-database-updates) `) [error] (Currently using Missing or invalid themes The following themes are marked as installed in the core.extension configuration, but they are missing:`
+
+* `adminimal_theme`
+* `vartheme_admin`
 {% endhint %}
 
 ## 4. Check All Required Contrib Modules in the Project 
