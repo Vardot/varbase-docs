@@ -195,7 +195,37 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 `"drupal/vartheme_admin" : "~6.0"`
 {% endhint %}
 
-## 4. Run the Update Varbase Command
+## 4. Check All Required Contrib Modules in the Project 
+
+{% hint style="warning" %}
+Check the **Drupal 9 Compatibility** for all used module.
+
+Search for the **"**[**Drupal 9**](https://www.drupal.org/about/9) **is here!"** notice in the Drupal project page for each required module in the root `composer.json` file for the project. Look for **"Requires Drupal:"** In the project page for the module in Drupal.org.
+{% endhint %}
+
+**Example Module:** [**Webform Mautic**](https://www.drupal.org/project/webform_mautic)\*\*\*\*
+
+Projects may or may not use this module. If it was required and used, check the following in the project page.
+
+![](../../../.gitbook/assets/webform-mautic-drupal-org.png)
+
+In case the module was not compatible with Drupal 9 yet, Follow with issues and the maintainer to make the module have a Drupal 9 Compatibility.
+
+## 5. Check All Custom Modules in the Project 
+
+{% hint style="warning" %}
+Check deprecation on all custom in-house modules.
+
+[https://www.drupal.org/docs/updating-drupal/how-to-prepare-your-drupal-7-or-8-site-for-drupal-9/deprecation-checking-and](https://www.drupal.org/docs/updating-drupal/how-to-prepare-your-drupal-7-or-8-site-for-drupal-9/deprecation-checking-and)
+{% endhint %}
+
+## 6. Check All Required Libraries
+
+{% hint style="warning" %}
+Make sure that any used library has no conflict with any **Drupal 9** core asset libraries.
+{% endhint %}
+
+## 7. Run the Update Varbase Command
 
 ```text
 bash ./bin/update-varbase.sh
@@ -203,7 +233,7 @@ bash ./bin/update-varbase.sh
 
 Facing issues, Errors?. Do the steps to do after the commands. next step.
 
-## 5. **S**teps to do After the Command
+## 8. **S**teps to do After the Command
 
 {% hint style="danger" %}
 #### Do not abort the update process. 
@@ -234,7 +264,7 @@ drush updb
 drush cr
 ```
 
-## 6. Remove Drush Before Deployment to Production
+## 9. Remove Drush Before Deployment to Production
 
 {% hint style="danger" %}
 Remember to remove Drush from the composer before deploying to the live site.
