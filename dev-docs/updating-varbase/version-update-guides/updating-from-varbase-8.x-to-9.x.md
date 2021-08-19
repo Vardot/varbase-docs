@@ -294,6 +294,10 @@ Enable patching and composer should exit on patch failure. Not to miss any funct
 "enable-patching": true,
 "composer-exit-on-patch-failure": true,
 ```
+
+The root _composer.json_ file should look like the Varbase 9.0.x project template composer.json file at the following link. Plus all added modules, themes, libraries, and needed patches for the project.
+
+[https://github.com/Vardot/varbase-project/blob/9.0.1/composer.json](https://github.com/Vardot/varbase-project/blob/9.0.1/composer.json)
 {% endhint %}
 
 It is better to remove the `composer.lock` and `vendor/` folder. Then do a composer install
