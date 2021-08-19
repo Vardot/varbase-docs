@@ -12,6 +12,18 @@ Check the **Upgrading a Drupal 8 site to Drupal 9**
  [https://www.drupal.org/docs/upgrading-drupal/how-to-prepare-your-drupal-7-or-8-site-for-drupal-9/upgrading-a-drupal-8-site](https://www.drupal.org/docs/upgrading-drupal/how-to-prepare-your-drupal-7-or-8-site-for-drupal-9/upgrading-a-drupal-8-site)
 {% endhint %}
 
+{% hint style="info" %}
+Check the **How and why we deprecated code on the way to Drupal 9**
+
+[https://www.drupal.org/docs/understanding-drupal/how-drupal-9-was-made-and-what-is-included/how-and-why-we-deprecated-code](https://www.drupal.org/docs/understanding-drupal/how-drupal-9-was-made-and-what-is-included/how-and-why-we-deprecated-code)
+{% endhint %}
+
+{% hint style="info" %}
+Check the **What changes are there for third-party dependencies?**
+
+[https://www.drupal.org/docs/understanding-drupal/how-drupal-9-is-made-and-what-is-included/what-changes-are-there-for-third](https://www.drupal.org/docs/understanding-drupal/how-drupal-9-is-made-and-what-is-included/what-changes-are-there-for-third)
+{% endhint %}
+
 ## 1. Change Composer Version Before Updating
 
 ### Varbase 8.8.7 and Older
