@@ -273,7 +273,22 @@ For sure the update will face errors while switching from **Symfony 3** to **Sym
 [What changes are there for third-party dependencies?](https://www.drupal.org/docs/understanding-drupal/how-drupal-9-is-made-and-what-is-included/what-changes-are-there-for-third)
 
 {% hint style="warning" %}
-Make sure to have the following in the composer.json file.
+Make sure to have the following in the _**composer.json**_ file.
+
+```text
+  "config": {
+    "bin-dir": "bin/",
+    "secure-http": false,
+    "preferred-install": {
+      "drupal/core": "dist"
+    }
+  },
+  
+```
+
+And the following in the _**extra**,_ as having patches is a critical to have the right logic and complete working site.
+
+Enable patching and composer should exit on patch failure. Not to miss any functionality or fixes after the update.
 
 ```text
 "enable-patching": true,
