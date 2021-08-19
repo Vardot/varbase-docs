@@ -208,7 +208,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-In case of not uninstalling the following issue will show up in the update process
+In case of not uninstalling, the following issue will show up in the update process
 
 `[1]` [`https://www.drupal.org/docs/8/update/troubleshooting-database-updates`](https://www.drupal.org/docs/8/update/troubleshooting-database-updates) `) [error] (Currently using Missing or invalid themes The following themes are marked as installed in the core.extension configuration, but they are missing:`
 
@@ -254,7 +254,7 @@ bash ./bin/update-varbase.sh
 
 Facing issues, Errors?. Do the steps to do after the commands. next step.
 
-## 8. **S**teps to do After the Command
+## 8. Steps to Do After the Command
 
 {% hint style="danger" %}
 #### Do not abort the update process. 
