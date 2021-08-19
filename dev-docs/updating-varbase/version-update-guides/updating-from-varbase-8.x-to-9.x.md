@@ -186,21 +186,25 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% hint style="success" %}
 #### **Uninstall the Vartheme Admin Theme and the** Adminimal - Responsive Administration Theme
 
-* First change the default admin them to [**Vartheme Claro**](https://www.drupal.org/project/vartheme_claro)\*\*\*\*
+**Drupal 9 Compatible** but no longer used by  **Varbase** 
+
+* Issue [\#3145720](https://www.drupal.org/i/3145720): Removed **Vartheme Admin** theme
+
+
+
+* [x] First change the default admin them to [**Vartheme Claro**](https://www.drupal.org/project/vartheme_claro)\*\*\*\*
 
              drush theme:enable vartheme\_claro
 
               drush config:set system.theme admin vartheme\_claro
 
-* Uninstall the old admin themes.
+* [x] Uninstall the old admin themes.
 
             drush theme:uninstall vartheme\_admin
 
             drush theme:uninstall adminimal\_theme
 
-**Drupal 9 Compatible** but no longer use by  **Varbase** 
-
-* Issue [\#3145720](https://www.drupal.org/i/3145720): Removed **Vartheme Admin** theme
+\*\*\*\*
 
 **Keeping** **Admininimal**? Add the following to the composer.json file In case of choosing to keep the **Adminimal - Responsive Administration Theme**  as the default back-end theme.
 
@@ -208,7 +212,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-In case of not uninstalling, the following issue will show up in the update process
+In case of not uninstalling them starting the update, the following issue will show up in the  database update process.
 
 `[1]` [`https://www.drupal.org/docs/8/update/troubleshooting-database-updates`](https://www.drupal.org/docs/8/update/troubleshooting-database-updates) `) [error] (Currently using Missing or invalid themes The following themes are marked as installed in the core.extension configuration, but they are missing:`
 
