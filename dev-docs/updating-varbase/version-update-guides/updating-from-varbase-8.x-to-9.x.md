@@ -260,7 +260,7 @@ Facing issues, Errors?. Do the steps to do after the commands. next step.
 
 ## 8. Steps to Do After the Command
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 #### Do not abort the update process. 
 
 For sure the update will face errors while switching from **Symfony 3** to **Symfony 4**
@@ -271,6 +271,15 @@ For sure the update will face errors while switching from **Symfony 3** to **Sym
 **Drupal 8** is using **Symfony 3** and **Drupal 9** is using **Symfony 4**
 
 [What changes are there for third-party dependencies?](https://www.drupal.org/docs/understanding-drupal/how-drupal-9-is-made-and-what-is-included/what-changes-are-there-for-third)
+
+{% hint style="warning" %}
+Make sure to have the following in the composer.json file.
+
+```text
+"enable-patching": true,
+"composer-exit-on-patch-failure": true,
+```
+{% endhint %}
 
 It is better to remove the `composer.lock` and `vendor/` folder. Then do a composer install
 
