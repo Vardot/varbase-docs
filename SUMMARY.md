@@ -76,7 +76,6 @@
   * [Creating Your Own Theme](dev-docs/theme-development-with-varbase/creating-your-own-theme.md)
   * [Local Tasks and Moderation Sidebar](dev-docs/theme-development-with-varbase/local-tasks-and-moderation-sidebar.md)
 * [Updating a Varbase Site](dev-docs/updating-varbase/README.md)
-  * [Untitled](dev-docs/updating-varbase/untitled.md)
   * [Understanding Varbase Updater Package](dev-docs/updating-varbase/understanding-varbase-updater-package.md)
   * [Handling Patches When Updating](dev-docs/updating-varbase/handling-patches-when-updating.md)
   * [Handling Configuration Updates](dev-docs/updating-varbase/handling-configuration-updates.md)
