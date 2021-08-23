@@ -212,7 +212,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-In case of not uninstalling them starting the update, the following issue will show up in the  database update process.
+In case of not uninstalling them and starting the update, the following issue will show up in the  database update process.
 
 `[1]` [`https://www.drupal.org/docs/8/update/troubleshooting-database-updates`](https://www.drupal.org/docs/8/update/troubleshooting-database-updates) `) [error] (Currently using Missing or invalid themes The following themes are marked as installed in the core.extension configuration, but they are missing:`
 
