@@ -30,9 +30,9 @@ Having the following in **Vartheme BS4** and **VARTHEM\_BS4\_SUBTHEME**. And the
 ```
 
   
-Themes should be able to add their preloaded assets as they like.
+Custom Vartheme Sub Themes are able to add their preloaded assets on demand.
 
-## Steps to Add New Web Font
+## Steps to Add a New Web Font
 
 ### 1. Add Web Font Files in the Fonts Folder
 
@@ -46,8 +46,6 @@ Download directly from [fonts.google.com](https://fonts.google.com/specimen/Lora
 [https://github.com/cyrealtype/Lora-Cyrillic](https://github.com/cyrealtype/Lora-Cyrillic)
 {% endhint %}
 
-
-
 * Check the license before using the web font
 
 > These fonts are licensed under the [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
@@ -57,9 +55,9 @@ Download directly from [fonts.google.com](https://fonts.google.com/specimen/Lora
 > This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
 
 {% hint style="danger" %}
-Not recommended to use not licensed font.
+**Not recommended to use not licensed font!**
 
-Buy a license if that was available.
+Buy a license if it was possible and budget for a unique branded font.
 
 Or hire a typography font designer.
 {% endhint %}
