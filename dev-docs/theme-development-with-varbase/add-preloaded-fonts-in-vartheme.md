@@ -1,15 +1,17 @@
 # Add Preloaded Fonts in Vartheme
 
+
+
 {% hint style="info" %}
 * [Preload critical assets to improve loading speed](https://web.dev/preload-critical-assets/)
 * [Preload W3C Candidate Recommendation 26 June 2019](https://www.w3.org/TR/preload/)
 {% endhint %}
 
-Following the new way in the new **Drupal** default front end theme **Olivero**  
+Following the new way in the new **Drupal** default front end theme [**Olivero**](https://www.drupal.org/project/olivero)  
 `{% include '@olivero/includes/preload.twig' with { olivero_path: olivero_path } only %}`
 
 {% hint style="info" %}
-Check the code on Olivero 
+Check the code on [**Olivero**](https://www.drupal.org/project/olivero) 
 
 The **html.html.twig** file [https://git.drupalcode.org/project/drupal/-/blob/9.2.x/core/themes/olivero/templates/layout/html.html.twig\#L43](https://git.drupalcode.org/project/drupal/-/blob/9.2.x/core/themes/olivero/templates/layout/html.html.twig#L43)
 
