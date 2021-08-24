@@ -133,8 +133,8 @@ Change the logic in this file in the generated theme for the project. To match t
 
 ### Available Variables
 
-* **vartheme\_bs4\_path**: Returns the path to the Vartheme BS4 theme.
-* **html\_dir:** contains the language direction. It will either be 'ltr' or 'rtl'.
+* **`vartheme_bs4_path`**: Returns the path to the Vartheme BS4 theme. In the Vartheme Sub theme, the variable could be `mythemename_path`
+* **`html_dir`:** contains the language direction. It will either be 'ltr' or 'rtl'.
 
 {% hint style="info" %}
 ### **Example of logic:**
