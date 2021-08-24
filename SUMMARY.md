@@ -75,6 +75,7 @@
   * [Understanding The Vartheme Base Theme](dev-docs/theme-development-with-varbase/understanding-the-vartheme-base-theme.md)
   * [Creating Your Own Theme](dev-docs/theme-development-with-varbase/creating-your-own-theme.md)
   * [Local Tasks and Moderation Sidebar](dev-docs/theme-development-with-varbase/local-tasks-and-moderation-sidebar.md)
+  * [Add Preloaded Fonts in Vartheme](dev-docs/theme-development-with-varbase/add-preloaded-fonts-in-vartheme.md)
 * [Updating a Varbase Site](dev-docs/updating-varbase/README.md)
   * [Understanding Varbase Updater Package](dev-docs/updating-varbase/understanding-varbase-updater-package.md)
   * [Handling Patches When Updating](dev-docs/updating-varbase/handling-patches-when-updating.md)
