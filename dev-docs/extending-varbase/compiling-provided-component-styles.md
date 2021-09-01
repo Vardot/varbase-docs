@@ -1,6 +1,12 @@
 # Compiling Provided Component Styles
 
-## Get The Needed YARN Tools
+{% page-ref page="install-needed-tools.md" %}
+
+{% hint style="info" %}
+In case of wanting to add a new feature or fix a bug in styling for a selected Varbase component.
+{% endhint %}
+
+## Get Needed Yarn Development Dependencies
 
 ```text
 yarn install
@@ -24,25 +30,13 @@ yarn theme:build
 yarn theme:watch
 ```
 
-## Check Coding Standards and Linting
+## 
 
-#### yarn phpcs
+{% hint style="warning" %}
+After any change of code please check the standards before uploading a patch or creating a MR.
+{% endhint %}
 
-Check Drupal standard and practice coding.
+{% page-ref page="check-standards-practice-coding-and-linting.md" %}
 
-#### yarn phpcbf
 
-Fix basic Drupal standard coding.
-
-#### yarn lint:yaml
-
-Check all .yml files with Drupal standard yaml format.
-
-#### yarn lint:js
-
-Check all JavaScript .js files with Drupal standard scripting format.
-
-#### yarn lint:css
-
-Check all styling .css files with Drupal standard styling format and order.
 

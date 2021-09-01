@@ -85,15 +85,15 @@
     * [Updating from Varbase 8.x to 9.x](dev-docs/updating-varbase/version-update-guides/updating-from-varbase-8.x-to-9.x.md)
 * [Frequently Asked Questions \(FAQs\)](dev-docs/faqs.md)
 * [Extending Varbase](dev-docs/extending-varbase/README.md)
-  * [Check Standards/Practice Coding And Linting](dev-docs/extending-varbase/check-standards-practice-coding-and-linting.md)
   * [Overriding Varbase](dev-docs/extending-varbase/overriding-varbase.md)
   * [Creating Your Own Feature](dev-docs/extending-varbase/creating-your-own-feature.md)
   * [Creating A Sub Profile From Varbase](dev-docs/extending-varbase/creating-a-sub-profile-from-varbase/README.md)
     * [Varbase Sub Profile Generator](dev-docs/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-generator.md)
     * [Varbase Sub Profile Basic Template](dev-docs/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-basic-template.md)
     * [Varbase Sub Profile Basic Project Template](dev-docs/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-basic-project-template.md)
-  * [Install Needed Tools](dev-docs/extending-varbase/install-needed-tools.md)
+  * [Install Needed YARN and Gulp Tools](dev-docs/extending-varbase/install-needed-tools.md)
   * [Compiling Provided Component Styles](dev-docs/extending-varbase/compiling-provided-component-styles.md)
+  * [Check Standards/Practice Coding And Linting](dev-docs/extending-varbase/check-standards-practice-coding-and-linting.md)
 
 ## User Guide
 
