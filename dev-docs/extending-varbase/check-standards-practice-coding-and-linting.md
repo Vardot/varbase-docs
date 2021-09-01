@@ -38,7 +38,7 @@ yarn lint:yaml
 
 ## Linting  JavaScript files
 
-Check all JavaScript `.js` files with Drupal standard scripting format.
+Check all JavaScript `.js, .json` files with Drupal standard scripting format.
 
 ```text
 yarn lint:js
