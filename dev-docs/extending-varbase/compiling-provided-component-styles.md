@@ -14,7 +14,7 @@ yarn install
 
 ## Initialize
 
- the gulp SASS files styling method
+ Initialize the gulp SASS files styling method. Run this only ones for each newly cloned project.
 
 ```text
 yarn theme:init
