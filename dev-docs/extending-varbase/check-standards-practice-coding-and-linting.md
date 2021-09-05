@@ -7,7 +7,7 @@ Following with the Drupal core Coding standards
 {% endhint %}
 
 {% hint style="success" %}
-All **Varbase components** do have a list of ready tools and script commands. That is to help contributors on the step of checking standards. 
+All **Varbase components** have a list of ready tools and script commands. That is to help contributors on the step of checking standards. 
 
 Please make sure to run the check and linting commands while contributing a new feature or a fix patch/MR.
 {% endhint %}
