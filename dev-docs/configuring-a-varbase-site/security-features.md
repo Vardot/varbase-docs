@@ -6,92 +6,16 @@ description: Varbase Security is part of Varbase Core.
 
 Varbase bundles several security-related enhancements for compliant and secure websites.
 
-{% hint style="info" %}
-Varbase security features are bundled through the **Varbase Security** module as part of the **Varbase Core** module.  
-GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase_core)  
-Drupal.org: [https://www.drupal.org/project/varbase\_core](https://www.drupal.org/project/varbase_core)
+**Varbase Security** module assembles general security configurations, with password policy, username enumeration prevention, security kit and review.
 
-After building a project using the `varbase-project` template, you can see the code of the Varbase Security module in:
-{% endhint %}
-
-```text
-project_directory
-|-- docroot
-    |-- modules
-        |-- contrib
-            |-- varbase_core
-                |-- modules
-                    |-- varbase_security
-```
-
-These modules include:
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Module</th>
-      <th style="text-align:left">Purpose</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/captcha"><b>CAPTCHA</b></a><b> and </b>
-        <a
-        href="https://www.drupal.org/project/recaptcha"><b>reCAPTCHA</b>
-          </a><b> modules</b>
-      </td>
-      <td style="text-align:left">Prevent spam submissions on forms</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="https://www.drupal.org/project/honeypot"><b>Honeypot</b></a><b> module</b>
-      </td>
-      <td style="text-align:left">Prevent spam submissions on forms</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="https://www.drupal.org/project/password_policy"><b>Password Policy</b></a><b> module and its submodules</b>
-      </td>
-      <td style="text-align:left">
-        <p>Enforce a configurable password policy for site users. This includes:</p>
-        <ul>
-          <li>Character types</li>
-          <li>Passwords history</li>
-          <li>Password length</li>
-          <li>Prevent usernames in passwords</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/seckit"><b>Security Kit</b></a><b> module</b>
-      </td>
-      <td style="text-align:left">
-        <p>Provides various options to mitigate risks of common web application vulnerabilities
-          like:</p>
-        <ul>
-          <li>Cross-site Scripting</li>
-          <li>Cross-site Request Forgery</li>
-          <li>Clickjacking</li>
-          <li>SSL/TLS security</li>
-          <li>Expect-CT</li>
-          <li>Feature Policy</li>
-          <li>and other miscellaneous security enhancements</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/username_enumeration_prevention"><b>Username Enumeration Prevention</b></a><b> module</b>
-      </td>
-      <td style="text-align:left">Mitigates common ways of anonymous users identifying valid usernames on
-        your site.</td>
-    </tr>
-  </tbody>
-</table>
+{% page-ref page="../understanding-varbase/core-components/varbase-core/varbase-security.md" %}
 
 ## CAPTCHA and reCAPTCHA on Forms
 
 To configure the CAPTCHA methods in your site, navigate to:  
 **Administration** \ **Configuration** \ **People** \ _**CAPTCHA module settings**_
 
-_\[insert screenshot of configuration page here\]_
+![CAPTCHA Settings](../../.gitbook/assets/captcha-settings-varbase_security.png)
 
 A CAPTCHA can be added to virtually each form in your website. The configuration page allows you to configure settings such as:
 
@@ -132,9 +56,11 @@ The module currently supports enabling for all forms on the site, or particular 
 To configure the Honeypot in your site, navigate to:  
 **Administration** \ **Configuration** \ **Content authoring** \ _**Honeypot configuration**_
 
-_\[insert screenshot of configuration page here\]_
+\_\_
 
 The configuration page allows you to configure settings such as:
+
+![Honeypot Configuration](../../.gitbook/assets/honeypot-configuration-varbase_security.png)
 
 * Protect all forms with Honeypot
 * Log blocked form submissions
@@ -153,7 +79,7 @@ You can also enable Honeypot spam deterring mechanism on Webforms individually f
 To configure the Password Policies in your site, navigate to:  
 **Administration** \ **Configuration** \ **Security** \ _**Password Policy**_
 
-_\[insert screenshot of configuration page here\]_
+![Password Policies](../../.gitbook/assets/password-policies-varbase_security.png)
 
 Varbase ships with a default password policy to provide a way to enforce restrictions on user passwords by defining password policies.
 
@@ -163,14 +89,14 @@ A password policy can be defined with a set of constraints which must be met bef
 
 > Example: an uppercase constraint \(with a parameter of 2\) and a digit constraint \(with a parameter of 4\) means that a user password must have at least 2 uppercase letters and at least 4 digits for it to be accepted.
 
-
+![Configure Constraints - Policy Constraints](../../.gitbook/assets/configure-constraints-policy-constraints-varbase_security.png)
 
 ## Security Kit for XSS, CSRF, SSL/TLS, Expect-CT, and More
 
 To configure the Security Kit module in your site, navigate to:  
 **Administration** \ **Configuration** \ **System** \ _**Security Kit settings**_
 
-_\[insert screenshot of configuration page here\]_
+![Security Kit](../../.gitbook/assets/security-kit-varbase_security.png)
 
 The configuration page allows you to configure settings to tighten your website's security regarding:
 
