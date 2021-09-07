@@ -20,7 +20,7 @@ Check the expose a **"View JSON"** or **"View API Documentation"** link in entit
 
 ### Auto Enabled JSON:API Endpoints for Entity Types
 
-Select the desired Auto Enabled JSON:API Endpoints for Entity Types. Checked entity types will dynamically be re-configured on creation of new entity types or entity config types.
+Select the desired Auto Enabled JSON:API Endpoints for Entity Types. Checked entity types will dynamically re-configured on creation of new entity types or entity config types.
 
 Other not checked entity types will not have a new JSON:API endpoints by default.
 
