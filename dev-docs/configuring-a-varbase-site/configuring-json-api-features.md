@@ -66,10 +66,11 @@ Navigate to `"/admin/config/services/openapi/swagger/jsonapi"` in the site to br
 
 ## Example API Endpoint After Installation
 
-* Let have a Varbase website with a local domain `http://varbase.local`
-* After install of the website and the **Varbase API** module was enabled.
-* Navigate to `http://varbase.local/api` URL in a browser. Or use any API testing platforms.
-* The API link should show empty list of endpoints. except allowed.
+* Build a Varbase project website with a local domain `http://varbase.local` pointing at the path of the project.
+* Install all Varbase components, with Extra components and optional components too.
+* Make sure that the **Varbase API** module was enabled.
+* Navigate to `http://varbase.local/api` URL in a any browser. Or use any API testing platforms.
+* The API link should show empty list of endpoints. except allowed and default configured by Varbase API.
 
 ```text
 {
@@ -147,8 +148,4 @@ Navigate to `"/admin/config/services/openapi/swagger/jsonapi"` in the site to br
    }
 }
 ```
-
-
-
-
 
