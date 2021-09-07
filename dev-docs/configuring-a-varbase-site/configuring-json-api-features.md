@@ -1,18 +1,18 @@
 # Configuring JSON:API Features
 
-JSON:API in Drupal core which exposes entities as a JSON:API-specification-compliant web API.
+**JSON:API** in Drupal core which exposes entities as a **JSON:API-specification-compliant** web API.
 
-Varbase has the Varbase API module a JSON:API implementation with authentication and authorization that allows for easy ingestion of content by other applications.
+**Varbase** has the **Varbase API** module. Assembles a better JSON:API implementation with authentication and authorization that allows for easy ingestion of content by other applications.
 
 {% page-ref page="../understanding-varbase/optional-components/varbase-api.md" %}
 
 ## Varbase API Settings
 
 {% hint style="success" %}
- On top of JSON:API settings and configs. Varbase brings more configs for easier accessibility. Extra JSON:API specifications and better API documentation for developers.
+ On top of **JSON:API** settings and configs. Varbase brings more configs for easier accessibility. Extra JSON:API specifications and better API documentation for developers.
 {% endhint %}
 
-Navigate to `"/admin/config/system/varbase/api"`  to select the Auto Enabled JSON:API Endpoints for Entity Types
+Navigate to `"/admin/config/system/varbase/api"`  to select the Auto Enabled JSON:API Endpoints for Entity Types.
 
 ![Varbase API Settings](../../.gitbook/assets/varbase-api-settings-small.png)
 
@@ -27,6 +27,8 @@ Other not checked entity types will not have a new JSON:API endpoints by default
 ![Auto Enabled JSON:API Endpoints For Entity Types](../../.gitbook/assets/varbase-api-settings-auto_enabled_entity_types.png)
 
 ### Generate keys
+
+Having an advanced authentication and authorization with private and public ssh keys.
 
 Navigate to `"/admin/config/system/varbase/api/keys"` to generate keys configurations.
 
