@@ -16,7 +16,7 @@ Navigate to `"/admin/config/system/varbase/api"`  to change the default Varbase 
 
 ![Varbase API Settings](../../.gitbook/assets/varbase-api-settings-small.png)
 
-Check the expose a "View JSON" or "View API Documentation" link in entity operations check boxes to list them in entity operation actions in the content page.
+Check the expose a **"View JSON"** or **"View API Documentation"** link in entity operations check boxes to list them in entity operation actions in the content page.
 
 ### Auto Enabled JSON:API Endpoints for Entity Types
 
