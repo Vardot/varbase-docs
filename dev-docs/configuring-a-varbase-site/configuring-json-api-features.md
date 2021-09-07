@@ -60,15 +60,15 @@ An OpenAPI definition can then be used by documentation generation tools to disp
 * Media
 * Taxonomy
 
-Navigating to `"/admin/config/services/openapi/swagger/jsonapi"` in the site to brows the OpenAPI Documentation.
+Navigate to `"/admin/config/services/openapi/swagger/jsonapi"` in the site to browse the **OpenAPI Documentation**.
 
 ![OpenAPI Documentation - Varbase - JSON API](../../.gitbook/assets/openapi-documentation-varbase-json-api-small.png)
 
 ## Example API Endpoint After Installation
 
-* Lets have a Varbase website with a local domain `http://varbase.local`
-* After install of the website and the **Varbase API** module was enabled
-* On navigating to `http://varbase.local/api` URL in a browser
+* Let have a Varbase website with a local domain `http://varbase.local`
+* After install of the website and the **Varbase API** module was enabled.
+* Navigate to `http://varbase.local/api` URL in a browser. Or use any API testing platforms.
 * The API link should show empty list of endpoints. except allowed.
 
 ```text
