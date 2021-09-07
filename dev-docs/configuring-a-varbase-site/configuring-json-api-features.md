@@ -1,6 +1,6 @@
 # Configuring JSON:API Features
 
-The **JSON:API** is shipped with Drupal core out of the box. It's exposes entities as a **JSON:API-specification-compliant** web API.
+The **JSON:API** module was shipped with Drupal core out of the box. It's exposes entities as a **JSON:API-specification-compliant** web API.
 
 **Varbase API** module assembles a better **JSON:API** starter kit implementation. With authentication and authorization. Allows for easy ingestion of content by other applications.
 
@@ -12,7 +12,7 @@ The **JSON:API** is shipped with Drupal core out of the box. It's exposes entiti
  On top of **JSON:API** settings and configs. Varbase brings more configs for easier accessibility. Extra JSON:API specifications and better API documentation for developers.
 {% endhint %}
 
-Navigate to `"/admin/config/system/varbase/api"`  to select the Auto Enabled JSON:API Endpoints for Entity Types.
+Navigate to `"/admin/config/system/varbase/api"`  to change the default Varbase API settings
 
 ![Varbase API Settings](../../.gitbook/assets/varbase-api-settings-small.png)
 
