@@ -10,7 +10,9 @@ Varbase bundles several SEO-related enhancements for top-notch search engine opt
 
 When you install Varbase, [Google Analytics](https://www.drupal.org/project/google_analytics) and/or [Google Tag Manager](https://www.drupal.org/project/google_tag) modules can be optionally installed.
 
-_\[insert screenshot of install optional components\]_
+![Varbase Installation Step - Extra Components](../../.gitbook/assets/extra-components-varbase9-install.png)
+
+
 
 ### Google Analytics
 
