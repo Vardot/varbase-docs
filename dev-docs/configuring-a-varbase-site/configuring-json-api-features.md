@@ -1,8 +1,8 @@
 # Configuring JSON:API Features
 
-**JSON:API** in Drupal core which exposes entities as a **JSON:API-specification-compliant** web API.
+The **JSON:API** is shipped with Drupal core out of the box. It's exposes entities as a **JSON:API-specification-compliant** web API.
 
-**Varbase** has the **Varbase API** module. Assembles a better JSON:API implementation with authentication and authorization that allows for easy ingestion of content by other applications.
+**Varbase API** module assembles a better **JSON:API** starter kit implementation with authentication and authorization that allows for easy ingestion of content by other applications.
 
 {% page-ref page="../understanding-varbase/optional-components/varbase-api.md" %}
 
