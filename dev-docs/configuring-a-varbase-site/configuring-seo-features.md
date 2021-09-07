@@ -2,7 +2,7 @@
 
 Varbase bundles several SEO-related enhancements for top-notch search engine optimization.
 
-**Varbase SEO** module assembles Search Engine Optimization \(SEO\) Core features and settings. with Resource Description Framework \(RDF\), meta tags, automatically generated aliases, redirected old links to new links, Schema.org JSON-LD structured data definitions, and Real-time SEO page analysis.
+**Varbase SEO** module assembles Search Engine Optimization \(SEO\) Core features and settings. such as Resource Description Framework \(RDF\), meta tags, automatically generated aliases, redirected old links to new links, Schema.org JSON-LD structured data definitions, and Real-time SEO page analysis.
 
 {% page-ref page="../understanding-varbase/core-components/varbase-seo.md" %}
 
