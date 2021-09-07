@@ -87,7 +87,7 @@ You can add multiple policies __each policy is assigned to a specific role __, o
 
 A password policy can be defined with a set of constraints which must be met before a user password change will be accepted. Each constraint has a parameter allowing for the minimum number of valid conditions which must be met before the constraint is satisfied.
 
-> Example: an uppercase constraint \(with a parameter of 2\) and a digit constraint \(with a parameter of 4\) means that a user password must have at least 2 uppercase letters and at least 4 digits for it to be accepted.
+> **Example:** an uppercase constraint \(with a parameter of 2\) and a digit constraint \(with a parameter of 4\) means that a user password must have at least 2 uppercase letters and at least 4 digits for it to be accepted.
 
 ![Configure Constraints - Policy Constraints](../../.gitbook/assets/configure-constraints-policy-constraints-varbase_security.png)
 
