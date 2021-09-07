@@ -71,6 +71,7 @@
   * [Configuring Pathologic When Going Live](dev-docs/configuring-a-varbase-site/configuring-pathologic-when-going-live.md)
   * [Configuring SEO Features](dev-docs/configuring-a-varbase-site/configuring-seo-features.md)
   * [Configuring Security Features](dev-docs/configuring-a-varbase-site/security-features.md)
+  * [Configuring JSON:API Features](dev-docs/configuring-a-varbase-site/configuring-json-api-features.md)
 * [Theme Development with Varbase](dev-docs/theme-development-with-varbase/README.md)
   * [Understanding The Vartheme Base Theme](dev-docs/theme-development-with-varbase/understanding-the-vartheme-base-theme.md)
   * [Creating Your Own Theme](dev-docs/theme-development-with-varbase/creating-your-own-theme.md)
