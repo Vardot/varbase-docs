@@ -2,7 +2,7 @@
 
 The **JSON:API** is shipped with Drupal core out of the box. It's exposes entities as a **JSON:API-specification-compliant** web API.
 
-**Varbase API** module assembles a better **JSON:API** starter kit implementation with authentication and authorization that allows for easy ingestion of content by other applications.
+**Varbase API** module assembles a better **JSON:API** starter kit implementation. With authentication and authorization. Allows for easy ingestion of content by other applications.
 
 {% page-ref page="../understanding-varbase/optional-components/varbase-api.md" %}
 
@@ -48,11 +48,11 @@ Navigate to `"/admin/config/services/jsonapi/resource_types"` for overwriting a 
 
 A document \(or set of documents\) that defines or describes an API. An OpenAPI definition uses and conforms to the OpenAPI Specification.
 
-Path templating refers to the usage of template expressions, delimited by curly braces \({}\), to mark a section of a URL path as replaceable using path parameters.
+Path templating refers to the usage of template expressions, delimited by curly braces \(`{}`\), to mark a section of a URL path as replaceable using path parameters.
 
-The OpenAPI Specification \(OAS\) defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. When properly defined, a consumer can understand and interact with the remote service with a minimal amount of implementation logic.
+The **OpenAPI Specification** \(OAS\) defines a standard, language-agnostic interface to **RESTful APIs** which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. When properly defined, a consumer can understand and interact with the remote service with a minimal amount of implementation logic.
 
-An OpenAPI definition can then be used by documentation generation tools to display the API, code generation tools to generate servers and clients in various programming languages, testing tools, and many other use cases.
+An **OpenAPI** definition can then be used by documentation generation tools to display the API, code generation tools to generate servers and clients in various programming languages, testing tools, and many other use cases.
 
 ### Varbase API list the the following entity types by default: 
 
