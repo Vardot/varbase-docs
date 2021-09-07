@@ -30,6 +30,8 @@ Other not checked entity types will not have a new JSON:API endpoints by default
 
 Having an advanced authentication and authorization with private and public ssh keys.
 
+The key generation form provided by **Simple OAuth** doesn't generate unique key names \(or allow the user to override the names\) and doesn't allow the user to specify the location of the **OpenSSL** config file. Specifically, the fact that the names are always the same could cause problems on systems where the home directory stores keys for more than one application. So hide the link to that form and users can continue to use the one provided by Varbase API.
+
 Navigate to `"/admin/config/system/varbase/api/keys"` to generate keys configurations.
 
 ![Varbase API Settings - Generate Keys](../../.gitbook/assets/varbase-api-settings-generate-keys.png)
