@@ -145,3 +145,5 @@ Brings in the following core and contributed modules to your site:
   </tbody>
 </table>
 
+{% page-ref page="../../configuring-a-varbase-site/configuring-seo-features.md" %}
+
