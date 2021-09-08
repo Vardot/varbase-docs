@@ -93,5 +93,9 @@ Can be installed in the extra components installation step with Varbase.
 
 ![Varbase API in the List of Varbase Extra Components Installation Step](../../../.gitbook/assets/extra-components-varbase-varbase_api.png)
 
+{% page-ref page="../../configuring-a-varbase-site/configuring-json-api-features.md" %}
+
+
+
 
 
