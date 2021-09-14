@@ -24,9 +24,9 @@ Customized class for the entity definition update manager.
 $ composer require vardot/entity-definition-update-manager:~1.0
 ```
 
-### 2. Add Needed Namespace
+### 2. Add Needed The Namespaces
 
-Add the following name space at in custom modules or custom installation profiles.
+Add the following namespace in custom modules or custom installation profiles.
 
 ```text
 use Vardot\Entity\EntityDefinitionUpdateManager;
@@ -36,7 +36,7 @@ use Vardot\Entity\EntityDefinitionUpdateManager;
 
 Import or update configs in hook install or hook update, or any post install or post update.
 
-### 4. Run the Class Resolver for the Instance From the Definition Class
+### 4. Run the Drupal Class Resolver for the Instance From the Definition Class
 
 ```text
   // Entity updates to clear up any mismatched entity and/or field definitions
@@ -46,7 +46,7 @@ Import or update configs in hook install or hook update, or any post install or 
     ->applyUpdates();
 ```
 
-## Example Use On Installs
+## Example Use On Installations
 
 **Varbase Core** is important number of managed configurations on install. It needed to update entity definitions after that.
 
