@@ -77,14 +77,10 @@ If all configs are in the **`config/install`** and no issues on install.
 {% hint style="success" %}
 **Use** when custom managed configs are been imported or updated in a custom order, And custom actions or changes in between imports are being involved.
 
-If the module or profile has number of optional or managed configs. Which located in **`config/optional`** or **`config/managed`** or any other physical locations. Then they are imported or updated with custom Drupal Config Factory or Drupal Install Factory.
+If the module or profile has number of optional or managed configs. Which located in **`config/optional`** or **`config/managed`** or any other custom physical locations. When importing or updating with custom Drupal Config Factory or Drupal Install Factory.
 {% endhint %}
 
 {% hint style="info" %}
 **Must run at least ones** at the end of each installation steps for installation profiles like  [**Varbase**](https://www.drupal.org/project/varbase), [**Vardoc**](https://www.drupal.org/project/vardoc), [**Uber Publisher**](https://www.drupal.org/project/uber_publisher).
 {% endhint %}
-
-
-
-
 
