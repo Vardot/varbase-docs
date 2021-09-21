@@ -9,9 +9,12 @@ description: >-
 ## Screenshots Guidelines
 
 * Take screenshots from the latest version of Varbase.
-* For consistency use this screen resolution when taking a screenshot: 1366 x 768
+* For consistency use this screen resolution when taking a screenshot: 1366 x 768.
 * Use [Awesomescreenshot](https://www.awesomescreenshot.com/) to help you out.
   * Only use the visible part option, no need to take the whole page, and crop it.
+  * Use annotations \(Arrows, Steps numbers, Highlights, Rectangles ...etc.\) to annotate the screenshot. Always use the red color.
+
+    ![](../.gitbook/assets/annotations%20%281%29.png)
 * Make sure screenshots are displayed in a good resolution, not pixilated.
 * Always add a caption to screenshots or images in the documentation page. Captions must be following APA title case style. Use [capitalizemytitle.com](https://capitalizemytitle.com/) for help.
 * Take screenshots from real content on Varbase website and not from other sites.
