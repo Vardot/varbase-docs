@@ -75,9 +75,11 @@ If all configs are in the **`config/install`** and no issues on install.
 {% endhint %}
 
 {% hint style="success" %}
-**Use** when custom managed configs are been imported or updated in a custom order, And custom actions or changes in between imports are being involved.
+**Use** when custom managed configs just have been imported or updated in a custom order, And custom actions or changes in between imports are being involved.
 
-If the module or profile has number of optional or managed configs. Which located in **`config/optional`** or **`config/managed`** or any other custom physical locations. When importing or updating with custom Drupal Config Factory or Drupal Install Factory.
+If the module or profile has number of optional or managed configs. Which located in **`config/optional`** or **`config/managed`** or any other custom physical locations.
+
+ When importing or updating with custom Drupal Config Factory or Drupal Install Factory.
 {% endhint %}
 
 {% hint style="info" %}
