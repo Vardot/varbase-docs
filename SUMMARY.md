@@ -72,6 +72,7 @@
   * [Configuring SEO Features](dev-docs/configuring-a-varbase-site/configuring-seo-features.md)
   * [Configuring Security Features](dev-docs/configuring-a-varbase-site/security-features.md)
   * [Configuring JSON:API Features](dev-docs/configuring-a-varbase-site/configuring-json-api-features.md)
+  * [Configuring Varbase Media Header](dev-docs/configuring-a-varbase-site/configuring-varbase-media-header.md)
   * [Entity Definition Update Manager Class](dev-docs/configuring-a-varbase-site/entity-definition-update-manager-class.md)
 * [Theme Development with Varbase](dev-docs/theme-development-with-varbase/README.md)
   * [Understanding The Vartheme Base Theme](dev-docs/theme-development-with-varbase/understanding-the-vartheme-base-theme.md)

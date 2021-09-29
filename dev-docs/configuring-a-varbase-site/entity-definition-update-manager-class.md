@@ -66,6 +66,18 @@ Have a look at the **`varbase_api_update_8702`** hook function
 [https://git.drupalcode.org/project/varbase\_api/-/blob/9.0.x/varbase\_api.install\#L159](https://git.drupalcode.org/project/varbase_api/-/blob/9.0.x/varbase_api.install#L159)
 {% endhint %}
 
+## Example Use On Custom Template Config Imports
+
+* Having custom and managed config templates. Which on import to the active config for selected entity types or fields.
+* **Entity definitions** need to be auto updated
+* **Field definitions** need to be auto updated.
+
+{% hint style="info" %}
+Have a look at the following commit to use in Custom Config Import Classes
+
+[https://git.drupalcode.org/project/varbase\_media\_header/-/commit/8ae8d4c](https://git.drupalcode.org/project/varbase_media_header/-/commit/8ae8d4c)
+{% endhint %}
+
 ## When to Use and When Not to Use?
 
 {% hint style="danger" %}
