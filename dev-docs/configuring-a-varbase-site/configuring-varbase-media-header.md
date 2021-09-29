@@ -149,7 +149,7 @@ Having more than one will have a duplicate header and duplicate processing.
 One will work. Varbase Media Header block handle all needed restrictions and access process.
 {% endhint %}
 
-After Saving the block configs, the block will be placed in the content region, but not in the right order.
+After saving the block configs, the block will be placed in the content region, but not in the right order.
 
 ![Initial Order for the Varbase Media Header Block](../../.gitbook/assets/varbase-media-header-place-block-content2.png)
 
@@ -168,7 +168,7 @@ If the Main media field was removed. But kept the "Media Header" option selected
 
 ## Change The Default Height and Background Color
 
-Override the `varbase_media_header/media_header_styling` library the custom default theme
+Override the `varbase_media_header/media_header_styling` library in the custom default theme
 
 ```text
 media_header_styles:
