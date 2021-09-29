@@ -34,7 +34,7 @@ This will add two new fields to each selected content type:
 * **Standard** \(standard\)
 * **Media Header** \(media\_header\)
 
-For sure more custom page header styles could be added to the filed. But that will need a custom template logic to follow with that.
+For sure more custom page header styles could be added to the field. But that will need a custom template logic to follow with that.
 {% endhint %}
 
 
