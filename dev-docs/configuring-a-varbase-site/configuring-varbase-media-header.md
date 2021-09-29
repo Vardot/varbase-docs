@@ -56,5 +56,62 @@ For sure more custom page header styles could be added to the filed. But that wi
 
   of the display settings. 
 
-##   Example: Basic Page With Media Header
+## Example
+
+###  Basic Page With Media Header
+
+Activate the **Varbase Media Header** for the **Basic page** content type. By navigating to _**"/admin/config/varbase/varbase-media-header".**_ And checking the Basic page check box and press "Save configuration".
+
+![Checked Basic Page Content Type Under Varbase Media Header Settings](../../.gitbook/assets/varbase-media-header-settings-exmaple-basic-page-1.png)
+
+After saving the configuration the system will process the selected content types, and import new configs for them.
+
+On the case of a successful activation the following message will show up 
+
+{% hint style="success" %}
+**Status Message:**
+
+The configuration options have been saved.
+{% endhint %}
+
+![Status Message: The Configuration Options Have Been Saved](../../.gitbook/assets/varbase-media-header-settings-exmaple-basic-page-2.png)
+
+### Check Manage Fields For Basic Page Content Type
+
+Navigate to "/admin/structure/types/manage/page/fields"
+
+{% hint style="info" %}
+Notice two new fields:
+
+* **Main media** \(field\_media\)
+* **Page header style** \(field\_page\_header\_style\):
+{% endhint %}
+
+![Manage Fields For Basic Page Content Type](../../.gitbook/assets/varbase-media-header-exmaple-basic-page-manage-fields.png)
+
+{% hint style="warning" %}
+In case that the \(field\_media, and field\_page\_header\_style\) fields are not listed in the page. That is indication that the activation process did not work in the right way.
+{% endhint %}
+
+### Check Manage Form Display For Basic Page Content Type
+
+Navigate to "/admin/structure/types/manage/page/form-display"
+
+The **Page header style** field should have the _**"Check boxes/radio buttons"**_ widget.
+
+The **Main media** field should have the _**"Media Library"**_ widget. And **Tab order:** Image, Remote video, Video.
+
+![Manage Form Display For Basic Page Content Type](../../.gitbook/assets/varbase-media-header-exmaple-basic-page-manage-form-display.png)
+
+
+
+### Create Basic Page Form
+
+Navigate to **Content \ Add content \** _**Basic page .**_ Then the new two fields should show up in the form. Under the Media Header sidebar form region.
+
+![Create Basic Page After the Activation for Varbase Media Header](../../.gitbook/assets/varbase-media-header-exmaple-basic-page-create-basic-page.png)
+
+
+
+
 
