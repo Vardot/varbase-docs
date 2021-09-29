@@ -35,6 +35,10 @@ Manages type of media contents and entity browsers in the site.
 
 {% page-ref page="../core-components/varbase-media.md" %}
 
+## Configuring Varbase Media Header
+
+{% page-ref page="../../configuring-a-varbase-site/configuring-varbase-media-header.md" %}
+
 
 
 
