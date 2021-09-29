@@ -8,28 +8,40 @@ Site builders can activate that for content types.
 
 ## Activate Media Header Content Types
 
-* Navigate to _**"/admin/config/varbase/varbase-media-header"**_
-* Select the content types which wanted to use the Media Header.
-* Press save to activate new configs for the selected content types.
-* * This will add two new fields to each selected content type:
+* Navigate to **Configuration**  \ **Varbase** **settings**  \ _**Varbase Media Header settings**_ 
 
-    `field_media` to store the media for the header
+![Admin Menu link to Varbase Media Header Settings](../../.gitbook/assets/navigate-to-configuration-varbase-settings-varbase-media-header-settings.png)
 
-    `field_page_header_style` which stores the choice of header, ie **standard** or **Media Header**
-* Navigate to **Block layout** _**"/admin/structure/block"**_ ****and place the **Varbase Media Header block**
 
-  \(usually at the top of the top bar\) For each content type choose 'main media'.
 
-  For the Media view mode choose `'Media header'` unless you want a particular view mode, but `'Media header'` will ensure the module iframe template will be used and give you control
+* After landing on the following _"/admin/config/varbase/varbase-media-header"_  admin link. The list of content types listed.
 
-  of the display settings. Turn off 'display title'.
+![Varbase Media Header Settings Page](../../.gitbook/assets/varbase-media-header-settings-page.png)
 
-* Chose `'Media header'` for the display mode then you can go to
+* Select entity types which are going to use the varbase media header. To enable varbase media header for these selected entity types and bundles.
+* Check **Hide breadcrumbs** to prevent the breadcrumbs from appearing in the Media Header automatically. To control where the breadcrumbs appear using the normal block placement from **Block layout** page.
+* Press the **Save Configuration** submit button to activate new configs for the selected content types.
 
-  _**"/admin/structure/media/manage/video/display/varbase\_media\_header"**_ and have more control over the video display such as
+{% hint style="info" %}
+This will add two new fields to each selected content type:
 
-  autoplay, loop and style settings \(click on the gear to the far right of Video file\).
+* **Main media** \(field\_media\): to store the media for the header
+* **Page header style** \(field\_page\_header\_style\):
 
-* Check the 'Main media' \(field\_media\) field options for each.
-* Check that Remote video is enabled if you wish to use remote video. Image and Video should already be enabled.
+  Which stores the choice of header as :
+
+* Standard \(standard\)
+* Media Header \(media\_header\)
+
+For sure more custom page header styles could be added to the filed. But that will need a custom template logic to follow with that.
+{% endhint %}
+
+* Navigate to **Structure** \ **Block layout** and place the **Varbase Media Header block**
+
+  \(usually at the top of the top bar\) 
+
+* For each content type choose `'main media'`.
+* For the Media view mode choose `'Media header'` unless you want a particular view mode, but `'Media header'` will ensure the module template will be used and give you control
+
+  of the display settings. 
 
