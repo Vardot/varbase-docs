@@ -6,7 +6,7 @@ Site builders can activate that for content types.
 
 {% page-ref page="../understanding-varbase/external-components/varbase-media-header.md" %}
 
-## Activate Media Header Content Types
+## Activate Media Header For Content Types
 
 ### **Varbase Media Header Settings**
 
