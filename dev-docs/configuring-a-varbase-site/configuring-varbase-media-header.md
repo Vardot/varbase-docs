@@ -58,6 +58,8 @@ For sure more custom page header styles could be added to the field. But that wi
 
 ## Example Basic Page With Media Header
 
+### Activate Media Header
+
 Activate the **Varbase Media Header** for the **Basic page** content type. By navigating to _**"/admin/config/varbase/varbase-media-header".**_ And checking the Basic page check box and press "Save configuration".
 
 ![Checked Basic Page Content Type Under Varbase Media Header Settings](../../.gitbook/assets/varbase-media-header-settings-exmaple-basic-page-1.png)
