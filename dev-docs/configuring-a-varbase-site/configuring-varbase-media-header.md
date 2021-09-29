@@ -16,7 +16,7 @@ Site builders can activate that for content types.
 
 
 
-* Landing on the _"/admin/config/varbase/varbase-media-header"_  admin link. List of content types are listed with activated or not activated media header.
+* Landing on the _"/admin/config/varbase/varbase-media-header"_  admin link. A list of content types are listed with activated or not activated media header.
 
 ![Varbase Media Header Settings Page](../../.gitbook/assets/varbase-media-header-settings-page.png)
 
