@@ -24,6 +24,14 @@ Customized class for the entity definition update manager.
 $ composer require vardot/entity-definition-update-manager:~1.0
 ```
 
+Or add the package to your `composer.json` file
+
+```text
+    "vardot/entity-definition-update-manager": "~1.0",
+```
+
+
+
 ### 2. Add The Needed Namespaces
 
 Add the following namespace in custom modules or custom installation profiles.
