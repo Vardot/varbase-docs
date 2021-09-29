@@ -21,7 +21,6 @@ Site builders can activate that for content types.
 ![Varbase Media Header Settings Page](../../.gitbook/assets/varbase-media-header-settings-page.png)
 
 * Select entity types which are going to use the varbase media header. To enable varbase media header for these selected entity types and bundles.
-* Check **Hide breadcrumbs** to prevent the breadcrumbs from appearing in the Media Header automatically. To control where the breadcrumbs appear using the normal block placement from **Block layout** page.
 * Press the **Save Configuration** submit button to activate new configs for the selected content types.
 
 {% hint style="info" %}
@@ -32,18 +31,30 @@ This will add two new fields to each selected content type:
 
   Which stores the choice of header as :
 
-* Standard \(standard\)
-* Media Header \(media\_header\)
+* **Standard** \(standard\)
+* **Media Header** \(media\_header\)
 
 For sure more custom page header styles could be added to the filed. But that will need a custom template logic to follow with that.
 {% endhint %}
+
+
+
+### **Hide breadcrumbs**
+
+* Check **Hide breadcrumbs** to prevent the breadcrumbs from appearing in the Media Header automatically. To control where the breadcrumbs appear using the normal block placement from **Block layout** page.
+
+
+
+### Place The **Varbase Media Header Block**
 
 * Navigate to **Structure** \ **Block layout** and place the **Varbase Media Header block**
 
   \(usually at the top of the top bar\) 
 
-* For each content type choose `'main media'`.
-* For the Media view mode choose `'Media header'` unless you want a particular view mode, but `'Media header'` will ensure the module template will be used and give you control
+* Configure the block by choosing `'main media'`for each activated content type. Or other media field which are selected to work as the background image for the media header.
+* Choose `'Media header'` for the media view mode. Unless you want a particular view mode, but `'Media header'` will ensure the module template will be used and give you control
 
   of the display settings. 
+
+##   Example: Basic Page With Media Header
 
