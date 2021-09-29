@@ -8,13 +8,15 @@ Site builders can activate that for content types.
 
 ## Activate Media Header Content Types
 
+### **Varbase Media Header Settings**
+
 * Navigate to **Configuration**  \ **Varbase** **settings**  \ _**Varbase Media Header settings**_ 
 
 ![Admin Menu link to Varbase Media Header Settings](../../.gitbook/assets/navigate-to-configuration-varbase-settings-varbase-media-header-settings.png)
 
 
 
-* After landing on the following _"/admin/config/varbase/varbase-media-header"_  admin link. The list of content types listed.
+* Landing on the _"/admin/config/varbase/varbase-media-header"_  admin link. List of content types are listed with activated or not activated media header.
 
 ![Varbase Media Header Settings Page](../../.gitbook/assets/varbase-media-header-settings-page.png)
 
