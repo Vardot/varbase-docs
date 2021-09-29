@@ -109,6 +109,75 @@ Navigate to **Content \ Add content \** _**Basic page .**_ Then the new two fiel
 
 ![Create Basic Page After the Activation for Varbase Media Header](../../.gitbook/assets/varbase-media-header-exmaple-basic-page-create-basic-page.png)
 
+### Filling Data and Adding Media then Saving
+
+* Fill in the "About Us" for the Title filed.
+* Fill in the Body field with needed content.
+* Add a media image file  for example to the Main media field.
+* Select "Media Header" for the Page header style.
+
+![Filled Data in the Create Basic Page Form with Varbase Media Header](../../.gitbook/assets/varbase-media-header-exmaple-basic-page-create-basic-page-2.png)
+
+After saving the "Basic page _About Us_ has been created." and the page will look with no media header yet.
+
+![No Media Header Yet](../../.gitbook/assets/varbase-media-header-exmaple-basic-page-create-basic-page-3.png)
+
+### Configuring the Block
+
+* Navigate to **Structure** \ **Block layout** for your default theme
+* Click on the "Place Block" button for the "Content" region \( or any custom region the theme could have for a project \).
+
+![Place Block Next to Content Region for the Current Default Theme](../../.gitbook/assets/varbase-media-header-place-block-content.png)
+
+* Select the Varbase Media Header block and click on the "Place block" button next to the name.
+
+![Varbase Media Header - Place Block](../../.gitbook/assets/varbase-media-header-place-block.png)
+
+* Un-check the "Display title" check box
+* Select "Main media" field name for the "Basic page" content type. To use this field as the source for the media background for the header.
+* Select "Media Header" for the "Media view mode" config option to size the background media. media header is the default view mode. But it can be changed to any other custom media view mode.
+
+![Varbase Media Header - Place Block - Configurations](../../.gitbook/assets/varbase-media-header-place-block-content4.png)
+
+{% hint style="warning" %}
+Only Place one Varbase Media Header block. which will work for all activated content types.
+
+Having more than one will have a duplicate header and duplicate processing.
+
+One will work. Varbase Media Header block handle all needed restrictions and access process.
+{% endhint %}
+
+After Saving the block configs, the block will be placed in the content region, but not in the right order.
+
+![Initial Order for the Varbase Media Header Block](../../.gitbook/assets/varbase-media-header-place-block-content2.png)
+
+At lest it should be re-ordered on top of  the "Main page content" block
+
+![Re-ordered the Location on Top of the Main Page Content](../../.gitbook/assets/varbase-media-header-place-block-content3.png)
+
+* Save Blocks in the Block layout admin page
+* Open the example about us Basic page
+
+![Basic Page - Example With Media Header](../../.gitbook/assets/varbase-media-header-about-us-with-media.png)
+
+If the Main media field was removed. But kept the "Media Header" option selected for the Page header style field. The page will show the header with a default background color.
+
+![Basic Page - Example With Media Header but no Media](../../.gitbook/assets/varbase-media-header-about-us-no-media.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
