@@ -164,6 +164,70 @@ If the Main media field was removed. But kept the "Media Header" option selected
 
 ![Basic Page - Example With Media Header but no Media](../../.gitbook/assets/varbase-media-header-about-us-no-media.png)
 
+## Change The Default Height and Background Color
+
+Override the `varbase_media_header/media_header_styling` library the custom default theme
+
+```text
+media_header_styles:
+  css:
+    component:
+      css/components/media-header.component.css: {}
+
+```
+
+Copy the [**SCSS**](https://git.drupalcode.org/project/varbase_media_header/-/tree/9.0.x/scss) files if you are working with **SASS**, and change values in the [_**variables.scss**_](https://git.drupalcode.org/project/varbase_media_header/-/blob/9.0.x/scss/variables.scss) file.
+
+Varbase Media Header default variables are:
+
+```text
+// -----------------------------------------------------------------------------
+// Varbase Media Header.
+// -----------------------------------------------------------------------------
+
+// Varbase Media Header container height.
+
+$vmh-container-v-padding: 3.75rem;
+$vmh-container-h-padding: 1rem;
+
+$vmh-container-min-height: 300px;
+$vmh-container-max-height: 300px;
+
+$vmh-container-min-height-lg: 300px;
+$vmh-container-max-height-lg: 300px;
+
+$vmh-container-top-margin: 0;
+$vmh-container-bottom-margin: 0.6875rem;
+
+// Varbase Media Header fallback container background color.
+$vmh-fullback-container-background-color: #338ec7;
+
+// Varbase Media Header content text general style.
+$vmh-content-text-color: #fff;
+
+// Varbase Media Header title style.
+$vmh-title-color: #fff;
+$vmh-title-font-size: 1.875rem;
+$vmh-title-font-size-lg: 3.625rem;
+
+// Varbase Media Header breadcrumb style.
+$vmh-breadcrumb-color: #fff;
+$vmh-breadcrumb-font-size: 0.75rem;
+$vmh-breadcrumb-font-size-lg: 0.875rem;
+
+```
+
+After compiling **SCSS** files to **CSS** files and having the custom styling library.
+
+Use the **`libraries-override`** method to replace the library in custom themes.
+
+```text
+libraries-override:
+  varbase_media_header/media_header_styling: custom_theme/custom_header_styling
+```
+
+
+
 
 
 
