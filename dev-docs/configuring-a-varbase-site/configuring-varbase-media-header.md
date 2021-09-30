@@ -115,7 +115,7 @@ Navigate to **Content \ Add content \** _**Basic page .**_ Then the new two fiel
 
 * Fill in the "About Us" for the Title filed.
 * Fill in the Body field with needed content.
-* Add a media image file  for example to the Main media field.
+* Add a media image file for example to the Main media field. Make sure that the width and height are good to fit for wide screens. At lest 1600px width and 800px height.
 * Select "Media Header" for the Page header style.
 
 ![Filled Data in the Create Basic Page Form with Varbase Media Header](../../.gitbook/assets/varbase-media-header-exmaple-basic-page-create-basic-page-2.png)
@@ -161,7 +161,8 @@ At lest it should be re-ordered on top of  the "Main page content" block
 
 ### 7. Check the Front End Page
 
-* Open the example "about us" Basic page
+* Open the example "about us" Basic page.
+* Check if the text is visible on top the image.
 
 ![Basic Page - Example With Media Header](../../.gitbook/assets/varbase-media-header-about-us-with-media.png)
 
