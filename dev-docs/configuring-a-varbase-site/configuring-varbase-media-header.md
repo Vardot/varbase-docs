@@ -58,7 +58,7 @@ For sure more custom page header styles could be added to the field. But that wi
 
 ## Example Basic Page With Media Header
 
-### Activate Media Header
+### 1. Activate Media Header
 
 Activate the **Varbase Media Header** for the **Basic page** content type. By navigating to _**"/admin/config/varbase/varbase-media-header".**_ And checking the Basic page check box and press "Save configuration".
 
@@ -76,7 +76,7 @@ The configuration options have been saved.
 
 ![Status Message: The Configuration Options Have Been Saved](../../.gitbook/assets/varbase-media-header-settings-exmaple-basic-page-2.png)
 
-### Check Manage Fields For Basic Page Content Type
+### 2. Check Manage Fields For Basic Page Content Type
 
 Navigate to "/admin/structure/types/manage/page/fields"
 
@@ -93,7 +93,7 @@ Notice two new fields:
 In case that the \(field\_media, and field\_page\_header\_style\) fields are not listed in the page. That is indication that the activation process did not work in the right way.
 {% endhint %}
 
-### Check Manage Form Display For Basic Page Content Type
+### 3. Check Manage Form Display For Basic Page Content Type
 
 Navigate to "/admin/structure/types/manage/page/form-display"
 
@@ -105,13 +105,13 @@ The **Main media** field should have the _**"Media Library"**_ widget. And **Tab
 
 
 
-### Create Basic Page Form
+### 4. Create Basic Page Form
 
 Navigate to **Content \ Add content \** _**Basic page .**_ Then the new two fields should show up in the form. Under the Media Header sidebar form region.
 
 ![Create Basic Page After the Activation for Varbase Media Header](../../.gitbook/assets/varbase-media-header-exmaple-basic-page-create-basic-page.png)
 
-### Filling Data and Adding Media then Saving
+### 5. Filling Data and Adding Media then Saving
 
 * Fill in the "About Us" for the Title filed.
 * Fill in the Body field with needed content.
@@ -124,7 +124,7 @@ After saving the "Basic page _About Us_ has been created." and the page will loo
 
 ![No Media Header Yet](../../.gitbook/assets/varbase-media-header-exmaple-basic-page-create-basic-page-3.png)
 
-### Configuring the Block
+### 6. Configuring the Block
 
 * Navigate to **Structure** \ **Block layout** for your default theme
 * Click on the "Place Block" button for the "Content" region \( or any custom region the theme could have for a project \).
@@ -158,11 +158,16 @@ At lest it should be re-ordered on top of  the "Main page content" block
 ![Re-ordered the Location on Top of the Main Page Content](../../.gitbook/assets/varbase-media-header-place-block-content3.png)
 
 * Save Blocks in the Block layout admin page
-* Open the example about us Basic page
+
+### 7. Check the Front End Page
+
+* Open the example "about us" Basic page
 
 ![Basic Page - Example With Media Header](../../.gitbook/assets/varbase-media-header-about-us-with-media.png)
 
-If the Main media field was removed. But kept the "Media Header" option selected for the Page header style field. The page will show the header with a default background color.
+### 8. Check Reflection on Change of Options
+
+If the Main media field was removed on editing the page. But kept the "Media Header" option selected for the Page header style field. The page will show the header with a default background color.
 
 ![Basic Page - Example With Media Header but no Media](../../.gitbook/assets/varbase-media-header-about-us-no-media.png)
 
