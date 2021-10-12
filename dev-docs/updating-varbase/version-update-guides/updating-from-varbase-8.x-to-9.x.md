@@ -283,9 +283,8 @@ Facing issues, Errors?. Do the steps to do after the commands. next step.
 {% hint style="warning" %}
 #### Do not abort the update process. 
 
-The only thing needed to do at this point is to type `no` then press the enter key.\
-In order not to abort and restore backups.\
-and to keep all work up to that point.
+Type `no` then press the enter key.\
+In order not to abort and restore backups. To keep all work up to that point.
 
 
 
@@ -323,7 +322,7 @@ Enable patching and composer should exit on patch failure. Not to miss any funct
 
 The root `composer.json` file should look like the Varbase 9.0.x project template `composer.json` file at the following link. Plus all added modules, themes, libraries, and needed patches for the project.
 
-<mark style="background-color:orange;">**  **</mark><mark style="background-color:red;"><mark style="background-color:orange;">**   **<mark style="background-color:orange;"></mark><mark style="background-color:orange;">**                It should look like the composer.json file .. not the same exact copy of it                      **</mark>
+<mark style="background-color:orange;">**  It should look like the composer.json file .. not the same exact copy of it  **</mark>
 
 [https://github.com/Vardot/varbase-project/blob/9.0.1/composer.json](https://github.com/Vardot/varbase-project/blob/9.0.1/composer.json)
 
