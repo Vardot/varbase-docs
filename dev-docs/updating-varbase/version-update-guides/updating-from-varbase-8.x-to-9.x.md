@@ -13,7 +13,7 @@
 {% hint style="info" %}
 Check the **Upgrading a Drupal 8 site to Drupal 9**
 
- [https://www.drupal.org/docs/upgrading-drupal/how-to-prepare-your-drupal-7-or-8-site-for-drupal-9/upgrading-a-drupal-8-site](https://www.drupal.org/docs/upgrading-drupal/how-to-prepare-your-drupal-7-or-8-site-for-drupal-9/upgrading-a-drupal-8-site)
+&#x20;[https://www.drupal.org/docs/upgrading-drupal/how-to-prepare-your-drupal-7-or-8-site-for-drupal-9/upgrading-a-drupal-8-site](https://www.drupal.org/docs/upgrading-drupal/how-to-prepare-your-drupal-7-or-8-site-for-drupal-9/upgrading-a-drupal-8-site)
 {% endhint %}
 
 {% hint style="info" %}
@@ -77,10 +77,10 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 * [Check custom in-house developed modules.](https://www.drupal.org/docs/updating-drupal/how-to-prepare-your-drupal-7-or-8-site-for-drupal-9/deprecation-checking-and)
 {% endhint %}
 
-### Modules Had Been Removed 
+### Modules Had Been Removed&#x20;
 
 {% hint style="success" %}
-### **Uninstall the **[**Libraries API**](https://www.drupal.org/project/libraries)** Module**
+**Uninstall the **[**Libraries API**](https://www.drupal.org/project/libraries)** Module**
 
 `drush pm-uninstall libraries`
 
@@ -90,9 +90,9 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-### **Uninstall the **[**Libraries UI**](https://www.drupal.org/project/libraries_ui)** Module**
+**Uninstall the **[**Libraries UI**](https://www.drupal.org/project/libraries\_ui)** Module**
 
- `drush pm-uninstall libraries_ui`
+&#x20;`drush pm-uninstall libraries_ui`
 
 **Not** **Compatible **with **Drupal 9** yet
 
@@ -100,9 +100,9 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-### Uninstall the [**Mail Editor**](https://www.drupal.org/project/mail_edit) Module
+**Uninstall the **[**Mail Editor**](https://www.drupal.org/project/mail\_edit)** Module**
 
- `drush pm-uninstall mail_edit`
+&#x20;`drush pm-uninstall mail_edit`
 
 **Not** **Compatible **with **Drupal 9** yet
 
@@ -110,7 +110,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-### Uninstall the [**Webform Analysis**](https://www.drupal.org/project/webform_analysis) Module
+**Uninstall the **[**Webform Analysis**](https://www.drupal.org/project/webform\_analysis)** Module**
 
 ` drush pm-uninstall webform_analysis`
 
@@ -120,7 +120,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-### Uninstall the [**Tour Builder**](https://www.drupal.org/project/tour_builder) Module
+**Uninstall the **[**Tour Builder**](https://www.drupal.org/project/tour\_builder)** Module**
 
 ` drush pm-uninstall tour_builder`
 
@@ -130,18 +130,18 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="success" %}
-### Uninstall the [**SMTP Authentication Support**](https://www.drupal.org/project/smtp) Module.
+**Uninstall the **[**SMTP Authentication Support**](https://www.drupal.org/project/smtp)** Module.**
 
 `drush pm-uninstall smtp`
 
 **Drupal 9 Compatible **but no longer in **Varbase Mail **
 
-* Issue [#3143148](https://www.drupal.org/i/3143148): Removed **Smtp** module 
+* Issue [#3143148](https://www.drupal.org/i/3143148): Removed **Smtp** module&#x20;
 * Issue [#3047359](https://www.drupal.org/node/3047359): Removed enabling the **smtp** module as we have switched to use **swiftmailer** \~1.0 and **Varbase** emailing configs switched to **Varbase Email** module.
 {% endhint %}
 
 {% hint style="danger" %}
-### Uninstall the [**Media Library Theme Reset**](https://www.drupal.org/project/media_library_theme_reset) Module
+**Uninstall the **[**Media Library Theme Reset**](https://www.drupal.org/project/media\_library\_theme\_reset)** Module**
 
 `drush pm-uninstall media_library_theme_reset`
 
@@ -151,9 +151,9 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="success" %}
-### Uninstall the [**Color Field**](https://www.drupal.org/project/color_field) Module.
+**Uninstall the **[**Color Field**](https://www.drupal.org/project/color\_field)** Module.**
 
-  `drush pm-uninstall color_field`
+&#x20; `drush pm-uninstall color_field`
 
 **Drupal 9 Compatible **but no longer in **Varbase Core**
 
@@ -161,17 +161,17 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="success" %}
-### Uninstall the [**Features**](https://www.drupal.org/project/features) Module.
+**Uninstall the **[**Features**](https://www.drupal.org/project/features)** Module.**
 
- `drush pm-uninstall features`
+&#x20;`drush pm-uninstall features`
 
- **Drupal 9 Compatible **but no longer in **Varbase Core**
+&#x20;**Drupal 9 Compatible **but no longer in **Varbase Core**
 
 * Issue [#3145744](https://www.drupal.org/i/3145744): Removed **Features** module
 {% endhint %}
 
 {% hint style="success" %}
-### Uninstall the** **[**Adminimal Admin Toolbar**](https://www.drupal.org/project/adminimal_admin_toolbar) Module
+**Uninstall the **[**Adminimal Admin Toolbar**](https://www.drupal.org/project/adminimal\_admin\_toolbar)** Module**
 
 `drush pm-uninstall adminimal_admin_toolbar`
 
@@ -180,7 +180,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 * Issue [#3145709](https://www.drupal.org/i/3145709): Removed **Adminimal Admin Toolbar** module
 * Issue [#3145720](https://www.drupal.org/i/3145720): Removed **Vartheme Admin **theme
 
-**Varbase** switched to use [**Vartheme Claro**](https://www.drupal.org/project/vartheme_claro) and **Claro** from **Drupal Core.**
+**Varbase** switched to use [**Vartheme Claro**](https://www.drupal.org/project/vartheme\_claro) and **Claro** from **Drupal Core.**
 
 **Keeping** **Admininimal**? Add the following to the composer.json file In case of choosing to keep the **Adminimal - Responsive Administration Theme**  as the default back-end theme.
 
@@ -189,7 +189,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 `"drupal/adminimal_admin_toolbar": "~1.0"`
 {% endhint %}
 
-{% hint style="danger" %}
+{% hint style="info" %}
 **Make sure to clear cache and all functional behaviors are working well**
 
 `drush cr`
@@ -206,17 +206,17 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 
 
 
-* [x] First change the default admin them to [**Vartheme Claro**](https://www.drupal.org/project/vartheme_claro)****
+* [x] First change the default admin them to [**Vartheme Claro**](https://www.drupal.org/project/vartheme\_claro)****
 
-             drush theme:enable vartheme_claro
+&#x20;            drush theme:enable vartheme\_claro
 
-              drush config:set system.theme admin vartheme_claro
+&#x20;             drush config:set system.theme admin vartheme\_claro
 
 * [x] Uninstall the old admin themes.
 
-            drush theme:uninstall vartheme_admin
+&#x20;           drush theme:uninstall vartheme\_admin
 
-            drush theme:uninstall adminimal_theme
+&#x20;           drush theme:uninstall adminimal\_theme
 
 ****
 
@@ -234,13 +234,13 @@ In case of not uninstalling them and starting the update, the following issue wi
 * `vartheme_admin`
 {% endhint %}
 
-{% hint style="danger" %}
+{% hint style="info" %}
 **Make sure to clear the cache and all functional behaviors are working well**
 
 `drush cr`
 {% endhint %}
 
-## 4. Check All Required Contrib Modules in the Project 
+## 4. Check All Required Contrib Modules in the Project&#x20;
 
 {% hint style="warning" %}
 Check the **Drupal 9 Compatibility** for all used module.
@@ -248,7 +248,7 @@ Check the **Drupal 9 Compatibility** for all used module.
 Search for the **"**[**Drupal 9**](https://www.drupal.org/about/9)** is here!"** notice in the Drupal project page for each required module in the root `composer.json` file for the project. Look for **"Requires Drupal:" **In the project page for the module in Drupal.org.
 {% endhint %}
 
-**Example Module:** [**Webform Mautic**](https://www.drupal.org/project/webform_mautic)****
+**Example Module:** [**Webform Mautic**](https://www.drupal.org/project/webform\_mautic)****
 
 Projects may or may not use this module. If it was required and used, check the following in the project page.
 
@@ -256,7 +256,7 @@ Projects may or may not use this module. If it was required and used, check the 
 
 In case the module was not compatible with Drupal 9 yet, Follow with issues and the maintainer to make the module have a Drupal 9 Compatibility.
 
-## 5. Check All Custom Modules in the Project 
+## 5. Check All Custom Modules in the Project&#x20;
 
 {% hint style="warning" %}
 Check deprecation on all custom in-house modules.
@@ -276,12 +276,12 @@ Make sure that any used library has no conflict with any **Drupal 9** core asset
 bash ./bin/update-varbase.sh
 ```
 
-Facing issues, Errors?. Do the steps to do after the commands. next step.
+Facing issues? Do the steps to do after the commands. next step.
 
 ## 8. Steps to Do After the Command
 
 {% hint style="warning" %}
-#### Do not abort the update process. 
+#### Do not abort the update process.&#x20;
 
 Type `no` then press the enter key.\
 In order not to abort and restore backups. To keep all work up to that point.
@@ -291,7 +291,7 @@ In order not to abort and restore backups. To keep all work up to that point.
 For sure the update will face errors while switching from **Symfony 3** to **Symfony 4**
 {% endhint %}
 
- On the step of updating  from **Drupal \~8** to **Drupal \~9** , a number of duplicate key "services" detected in  `YamlSymfony.php` and `Parser.php`.
+On the step of updating from **Drupal \~8** to **Drupal \~9**, a number of duplicate key "services" detected in `YamlSymfony.php` and `Parser.php`.
 
 **Drupal 8** is using **Symfony 3** and **Drupal 9** is using **Symfony 4**
 
@@ -348,7 +348,7 @@ drush cr
 
 ## 9. Remove Drush Before Deployment to Production
 
-{% hint style="danger" %}
+{% hint style="info" %}
 Remember to remove Drush from the composer before deploying to the live site.
 {% endhint %}
 
