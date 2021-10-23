@@ -5,7 +5,7 @@
   * [Release Cycle and Supported Versions](roadmap/release-cycle-and-supported-versions.md)
 * [How to Get Support](update.md)
 
-## Developer and Site Builder Docs <a id="dev-docs"></a>
+## Developer and Site Builder Docs <a href="dev-docs" id="dev-docs"></a>
 
 * [Getting Started](dev-docs/getting-started.md)
 * [Installing Varbase](dev-docs/installing-varbase/README.md)
@@ -28,11 +28,11 @@
     * [Varbase SEO](dev-docs/understanding-varbase/core-components/varbase-seo.md)
     * [Varbase Workflow](dev-docs/understanding-varbase/core-components/varbase-workflow.md)
     * [Varbase Layout Builder](dev-docs/understanding-varbase/core-components/varbase-layout-builder/README.md)
-      * [Varbase Landing page \(Layout Builder\)](dev-docs/understanding-varbase/core-components/varbase-layout-builder/varbase-landing-page-layout-builder.md)
+      * [Varbase Landing page (Layout Builder)](dev-docs/understanding-varbase/core-components/varbase-layout-builder/varbase-landing-page-layout-builder.md)
       * [Varbase Heading Block](dev-docs/understanding-varbase/core-components/varbase-layout-builder/varbase-heading-block.md)
       * [Varbase Rich Text Block](dev-docs/understanding-varbase/core-components/varbase-layout-builder/varbase-rich-text-block.md)
       * [Varbase HTML Code Block](dev-docs/understanding-varbase/core-components/varbase-layout-builder/varbase-html-code-block.md)
-      * [Varbase Media \(Image/Video\) Block](dev-docs/understanding-varbase/core-components/varbase-layout-builder/varbase-media-image-video-block.md)
+      * [Varbase Media (Image/Video) Block](dev-docs/understanding-varbase/core-components/varbase-layout-builder/varbase-media-image-video-block.md)
       * [Varbase Gallery Block](dev-docs/understanding-varbase/core-components/varbase-layout-builder/varbase-gallery-block.md)
     * [Varbase Total Control Dashboard](dev-docs/understanding-varbase/core-components/varbase-total-control-dashboard.md)
     * [Vartheme Claro](dev-docs/understanding-varbase/core-components/vartheme-claro.md)
@@ -50,7 +50,7 @@
     * [Varbase Content Planner](dev-docs/understanding-varbase/optional-components/varbase-content-planner.md)
     * [Varbase Bootstrap Paragraphs](dev-docs/understanding-varbase/optional-components/varbase-bootstrap-paragraphs/README.md)
       * [Varbase Bootstrap Paragraphs Text and Image](dev-docs/understanding-varbase/optional-components/varbase-bootstrap-paragraphs/varbase-bootstrap-paragraphs-text-and-image.md)
-    * [Varbase Landing Page \(Paragraphs\)](dev-docs/understanding-varbase/optional-components/varbase-landing-page-paragraphs.md)
+    * [Varbase Landing Page (Paragraphs)](dev-docs/understanding-varbase/optional-components/varbase-landing-page-paragraphs.md)
   * [Additional Components](dev-docs/understanding-varbase/external-components/README.md)
     * [Varbase Media Header](dev-docs/understanding-varbase/external-components/varbase-media-header.md)
     * [Varbase FAQs](dev-docs/understanding-varbase/external-components/varbase-faqs.md)
@@ -72,6 +72,7 @@
   * [Configuring SEO Features](dev-docs/configuring-a-varbase-site/configuring-seo-features.md)
   * [Configuring Security Features](dev-docs/configuring-a-varbase-site/security-features.md)
   * [Configuring JSON:API Features](dev-docs/configuring-a-varbase-site/configuring-json-api-features.md)
+  * [Configure Varbase Media Hero Slider](dev-docs/configuring-a-varbase-site/configure-varbase-media-hero-slider.md)
   * [Configuring Varbase Media Header](dev-docs/configuring-a-varbase-site/configuring-varbase-media-header.md)
   * [Entity Definition Update Manager Class](dev-docs/configuring-a-varbase-site/entity-definition-update-manager-class.md)
 * [Theme Development with Varbase](dev-docs/theme-development-with-varbase/README.md)
@@ -86,7 +87,7 @@
   * [Updating Varbase to work with Composer 2.0](dev-docs/updating-varbase/updating-varbase-to-work-with-composer-2.0.md)
   * [Version Update Guides](dev-docs/updating-varbase/version-update-guides/README.md)
     * [Updating from Varbase 8.x to 9.x](dev-docs/updating-varbase/version-update-guides/updating-from-varbase-8.x-to-9.x.md)
-* [Frequently Asked Questions \(FAQs\)](dev-docs/faqs.md)
+* [Frequently Asked Questions (FAQs)](dev-docs/faqs.md)
 * [Extending Varbase](dev-docs/extending-varbase/README.md)
   * [Overriding Varbase](dev-docs/extending-varbase/overriding-varbase.md)
   * [Creating Your Own Feature](dev-docs/extending-varbase/creating-your-own-feature.md)
@@ -160,8 +161,7 @@
   * [Varbase settings](user-guide/site-configuration/varbase-settings.md)
   * [Web services](user-guide/site-configuration/web-services.md)
 
-## Contributing to Varbase <a id="contributing"></a>
+## Contributing to Varbase <a href="contributing" id="contributing"></a>
 
 * [Contributing](contributing/contributing.md)
 * [Contributing to Documentation](contributing/contributing-to-documentation.md)
-
