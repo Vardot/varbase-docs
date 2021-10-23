@@ -2,7 +2,7 @@
 
 Populates the universal implementation of a "Hero Slider" to be used on the homepage in most cases.
 
-A rich hero slider that allows Content Admins to display video and/or image slides. It implements the universal "Hero Slider" to be used in your homepage.
+A rich hero slider that allow Content Admins to display video and/or image slides. It implements the universal "Hero Slider" to be used in your homepage.
 
 ## Varbase Media Hero Slider Module
 
@@ -54,6 +54,10 @@ Manages type of media contents and entity browsers in the site.
 * A full-width responsive **Media Hero Slider**.
 * Easy to customize slides to act as a promotional feature typically displayed in the site's homepage.
 * **Queued** Media Hero Sliders.
+
+{% content-ref url="../../configuring-a-varbase-site/configure-varbase-media-hero-slider.md" %}
+[configure-varbase-media-hero-slider.md](../../configuring-a-varbase-site/configure-varbase-media-hero-slider.md)
+{% endcontent-ref %}
 
 
 
