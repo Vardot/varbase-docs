@@ -55,6 +55,8 @@ Manages type of media contents and entity browsers in the site.
 * Easy to customize slides to act as a promotional feature typically displayed in the site's homepage.
 * **Queued** Media Hero Sliders.
 
+## Configure Varbase Media Hero Slider
+
 {% content-ref url="../../configuring-a-varbase-site/configure-varbase-media-hero-slider.md" %}
 [configure-varbase-media-hero-slider.md](../../configuring-a-varbase-site/configure-varbase-media-hero-slider.md)
 {% endcontent-ref %}
