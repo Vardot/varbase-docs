@@ -1,6 +1,6 @@
 # Varbase YouTube Import
 
-Feed type that imports from YouTube channels and playlists.
+Provide feed type that imports from YouTube channels and playlists.
 
 ## Varbase YouTube Import Module
 
