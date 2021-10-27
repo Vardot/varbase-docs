@@ -1,69 +1,25 @@
 # Handling Configuration Updates
 
-Varbase utilizes [Drupal 8's configuration management](https://www.drupal.org/docs/8/configuration-management) which made it extremely resilient to manage update paths for configuration changes in Varbase versions.
+Varbase utilizes [Drupal's configuration management](https://www.drupal.org/docs/8/configuration-management) which made it extremely resilient to manage update paths for configuration changes in Varbase versions.
 
 ## Change or Update Types
 
 In Varbase, we categorize configuration changes and updates into 4 types:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Update Type</th>
-      <th style="text-align:left">Description</th>
-      <th style="text-align:left">Examples</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>Forced Update</b>
-      </td>
-      <td style="text-align:left">
-        <p>We have a new module that became a dependency, a configuration &quot;fix&quot;,
-          or a database table alter.</p>
-        <p>This is forced and will always be executed through <em>hook_update</em>.</p>
-      </td>
-      <td style="text-align:left">
-        <p>Increasing the &quot;Maximum length&quot; of a field of type &quot;Text&quot;</p>
-        <p>Enabling a low-risk module that will become a standard in Varbase</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Forced Update if Unchanged</b>
-      </td>
-      <td style="text-align:left">Mostly a configuration change. In the <em>hook_update</em> we check if this
-        setting remained the same before we do it so we don&apos;t override user&apos;s
-        setting.</td>
-      <td style="text-align:left">Changed a checkbox default value.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Optional Update</b>
-      </td>
-      <td style="text-align:left">
-        <p>A nice enhancement that we recommend you to use. We usually communicate
-          this in Release notes.</p>
-        <p>There&apos;s no <em>hook_update</em> for this.</p>
-      </td>
-      <td style="text-align:left">Introduced an updated view with more exposed filters for admins to manage
-        content.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>No Update</b>
-      </td>
-      <td style="text-align:left">Only new installs would get this change.</td>
-      <td style="text-align:left">A new theme has been introduced.</td>
-    </tr>
-  </tbody>
-</table>
+| **Update Type**                | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | **Examples**                                                                                                                             |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **Forced Update**              | <p>We have a new module that became a dependency, a configuration "fix", or a database table alter.</p><p>This is forced and will always be executed through <em>hook_update</em>.</p>                                                                                                                                                                                                                                                                                                                                                                            | <p>Increasing the "Maximum length" of a field of type "Text"</p><p>Enabling a low-risk module that will become a standard in Varbase</p> |
+| **Forced Update if Unchanged** | Mostly a configuration change. Using[ Update Helper](https://www.drupal.org/project/update\_helper) module config, in the _hook\_update_ we check if this setting remained the same before we do the update, so we don’t override user’s setting. If the user has overridden it, it becomes an “Optional Update” - see below.                                                                                                                                                                                                                                     | <p>Changed a checkbox default value.</p><p></p><p>Added a new CKEditor button to the a text format toolbar configuration.</p>            |
+| **Optional Update**            | A nice enhancement that we recommend users to use or an update that failed to apply - see "Forced Update if Unchanged" above. There’s no _hook\_update_ for this. Instead it is communicated through [ Update Helper](https://www.drupal.org/project/update\_helper) module checklist integration in Drupal UI. The UI would give instructions to the users on how to apply this update (mostly using a Drush command that reads [Update Helper](https://www.drupal.org/project/update\_helper)  config) or manually by liking to release notes or help articles. | Introduced an updated view with more exposed filters for admins to manage content.                                                       |
+| **No Update**                  | Only new installs would get this change.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | A new theme has been introduced.                                                                                                         |
 
 ## Varbase Update Changelog UI
 
-Varbase uses the [Update Helper](https://www.drupal.org/project/update_helper) module \(a module made by Thunder team\) which provides a UI using the [Checklist API](https://www.drupal.org/project/checklistapi). This is a good tool as it shows the site admin, developer, or maintainer what new updates are available from inside the site itself.
+Varbase uses the [Update Helper](https://www.drupal.org/project/update\_helper) module (a module made by Thunder team) which provides a UI using the [Checklist API](https://www.drupal.org/project/checklistapi). This is a good tool as it shows the site admin, developer, or maintainer what new updates are available from inside the site itself.
 
 {% hint style="info" %}
 ### How to Access Varbase Updates Changelog UI
 
-You can navigate to [http://my.varbase-site.local/**admin/config/development/update-helper**](http://my.varbase-site.local/admin**/config/development/update-helper**) ****_\(where my.varbase-site.local is the URL for your website\)_  
+You can navigate to [http://my.varbase-site.local/**admin/config/development/update-helper**](http://my.varbase-site.local/admin\*\*/config/development/update-helper\*\*)** **_(where my.varbase-site.local is the URL for your website)_\
 or go to **Administration** \ **Reports** \ **Checklists** \ _**Varbase Updates**_ to learn about the new changes and updates introduced in your Varbase site.
 {% endhint %}
-
