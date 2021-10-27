@@ -82,7 +82,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% hint style="success" %}
 **Uninstall the **[**Libraries API**](https://www.drupal.org/project/libraries)** Module**
 
-`drush pm-uninstall libraries`
+`drush pm:uninstall libraries`
 
 **Drupal 9 Compatible **but no longer in **Varbase Core **
 
@@ -92,7 +92,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% hint style="danger" %}
 **Uninstall the **[**Libraries UI**](https://www.drupal.org/project/libraries\_ui)** Module**
 
-&#x20;`drush pm-uninstall libraries_ui`
+&#x20;`drush pm:uninstall libraries_ui`
 
 **Not** **Compatible **with **Drupal 9** yet
 
@@ -102,7 +102,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% hint style="danger" %}
 **Uninstall the **[**Mail Editor**](https://www.drupal.org/project/mail\_edit)** Module**
 
-&#x20;`drush pm-uninstall mail_edit`
+&#x20;`drush pm:uninstall mail_edit`
 
 **Not** **Compatible **with **Drupal 9** yet
 
@@ -112,7 +112,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% hint style="danger" %}
 **Uninstall the **[**Webform Analysis**](https://www.drupal.org/project/webform\_analysis)** Module**
 
-` drush pm-uninstall webform_analysis`
+` drush pm:uninstall webform_analysis`
 
 **Not** **Compatible **with **Drupal 9** yet
 
@@ -122,7 +122,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% hint style="danger" %}
 **Uninstall the **[**Tour Builder**](https://www.drupal.org/project/tour\_builder)** Module**
 
-` drush pm-uninstall tour_builder`
+` drush pm:uninstall tour_builder`
 
 **Not** **Compatible **with **Drupal 9** yet
 
@@ -132,7 +132,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% hint style="success" %}
 **Uninstall the **[**SMTP Authentication Support**](https://www.drupal.org/project/smtp)** Module.**
 
-`drush pm-uninstall smtp`
+`drush pm:uninstall smtp`
 
 **Drupal 9 Compatible **but no longer in **Varbase Mail **
 
@@ -143,7 +143,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% hint style="danger" %}
 **Uninstall the **[**Media Library Theme Reset**](https://www.drupal.org/project/media\_library\_theme\_reset)** Module**
 
-`drush pm-uninstall media_library_theme_reset`
+`drush pm:uninstall media_library_theme_reset`
 
 **Not** **Compatible **with **Drupal 9** yet
 
@@ -153,7 +153,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% hint style="success" %}
 **Uninstall the **[**Color Field**](https://www.drupal.org/project/color\_field)** Module.**
 
-&#x20; `drush pm-uninstall color_field`
+&#x20; `drush pm:uninstall color_field`
 
 **Drupal 9 Compatible **but no longer in **Varbase Core**
 
@@ -163,7 +163,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% hint style="success" %}
 **Uninstall the **[**Features**](https://www.drupal.org/project/features)** Module.**
 
-&#x20;`drush pm-uninstall features`
+&#x20;`drush pm:uninstall features`
 
 &#x20;**Drupal 9 Compatible **but no longer in **Varbase Core**
 
@@ -173,7 +173,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% hint style="success" %}
 **Uninstall the **[**Adminimal Admin Toolbar**](https://www.drupal.org/project/adminimal\_admin\_toolbar)** Module**
 
-`drush pm-uninstall adminimal_admin_toolbar`
+`drush pm:uninstall adminimal_admin_toolbar`
 
 **Drupal 9 Compatible **but no longer in **Varbase Core **
 
@@ -355,3 +355,39 @@ Remember to remove Drush from the composer before deploying to the live site.
 ```
 composer remove drush/drush:~10
 ```
+
+## 10. Set Composer Exit on Patch Failure to True
+
+Please, DO NOT set the following in the `composer.json` for projects
+
+```
+    "composer-exit-on-patch-failure": false,
+```
+
+It should be
+
+```
+    "composer-exit-on-patch-failure": true,
+```
+
+On wanting to ignore any patch, please use `patches-ignore`
+
+Have a look at **Ignoring Patches **a link for how to do this in the right way
+
+{% content-ref url="../../extending-varbase/" %}
+[extending-varbase](../../extending-varbase/)
+{% endcontent-ref %}
+
+\
+If it was changed in any way or the **Varbase Updater changed it.**\
+Please change it back to
+
+```
+    "composer-exit-on-patch-failure": true,
+```
+
+It was sat true in the [**Vardot/varbase-project/composer.json**](https://github.com/Vardot/varbase-project/blob/9.0.2/composer.json) for the following rezone.
+
+{% hint style="danger" %}
+A module could have a **security patch** or a **functional feature patch.** If the patch did not apply. that means we have a **security issue, **Or some expected **behaviors will be lost** or a bug will show up in projects.
+{% endhint %}
