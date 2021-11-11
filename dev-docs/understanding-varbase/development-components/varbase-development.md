@@ -6,7 +6,7 @@ Install the development tools if you're a developer and you're going to use Varb
 
 
 {% hint style="danger" %}
-_Make sure to uninstall this module and its modules when you go in production mode_.
+_Make sure to uninstall this module before deployment to production sites_.
 {% endhint %}
 
 ## Varbase Development Module

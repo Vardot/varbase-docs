@@ -6,6 +6,10 @@ Intercepts all outgoing emails from a Drupal site and reroutes them to a predefi
 
 If a live production site was copied to a testing server for the purpose of development. The copied site should not send any emails to real users of the original production site.&#x20;
 
+{% hint style="danger" %}
+_Make sure to uninstall this module before deployment to production sites._
+{% endhint %}
+
 ## Configuring the Reroute Email Settings for a Development Environment
 
 Navigate to:  **Administration \ Configuration \ Development \ **_**Reroute Email**_
