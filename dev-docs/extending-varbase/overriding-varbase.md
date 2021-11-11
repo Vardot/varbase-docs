@@ -23,16 +23,16 @@ In case of capturing a bug. Search if it was filed in an issue.  Look if the a p
 {% hint style="info" %}
 Apply the patch using the **Composer patching method** using:
 
- ****[**cweagans/composer-patches**](https://github.com/cweagans/composer-patches)\*\*\*\*
+** **[**cweagans/composer-patches**](https://github.com/cweagans/composer-patches)****
 
 Do not use the manual patching method in projects.
 
 This action will guarantee the direction of keeping track of changes over the code.
 {% endhint %}
 
-**Example:** In the `composer.json` file for the project:
+**Example: **In the `composer.json` file for the project:
 
-```text
+```
 {
   "name": "vardot/varbase-project",
   "description": "Project template for Varbase distribution.",
@@ -70,11 +70,11 @@ This action will guarantee the direction of keeping track of changes over the co
 }
 ```
 
-Please add the "Issue Number"  and the URL for the used patch 
+Please add the "Issue Number"  and the URL for the used patch&#x20;
 
 ## Patch for a New Enhancements
 
- An introductory patch for an enhancement over a Varbase component or any Drupal project is welcomed. 
+&#x20;An introductory patch for an enhancement over a Varbase component or any Drupal project is welcomed.&#x20;
 
 A patch may not be committed on the spot. It will need review, and testing for what affect it may do for websites.
 
@@ -93,35 +93,35 @@ There may be situations in which you want to ignore a patch supplied by a depend
 * A dependency's patch adds a feature to a project that you don't need.
 * Your patches conflict with a dependency's patches.
 
-**Example:** 
+**Example: **
 
-The [**Varbase Core**](https://www.drupal.org/project/varbase_core) ****module ****is requiring **Drupal Core** with ****`"drupal/core": "~9.0",` ****. Having number of patches to fix issues or overriding Drupal core.
+The [**Varbase Core**](https://www.drupal.org/project/varbase\_core)** **module** **is requiring** Drupal Core **with** **`"drupal/core": "~9.0",`** **. Having number of patches to fix issues or overriding Drupal core.
 
 {% hint style="info" %}
 **Varbase Core**'s `composer.json` file for the 9.0.7 version
 
-\*\*\*\*[**https://github.com/Vardot/varbase\_core/blob/9.0.7/composer.json\#L138**](https://github.com/Vardot/varbase_core/blob/9.0.7/composer.json#L138)\*\*\*\*
+****[**https://github.com/Vardot/varbase\_core/blob/9.0.7/composer.json#L138**](https://github.com/Vardot/varbase\_core/blob/9.0.7/composer.json#L138)****
 {% endhint %}
 
 Let imagine that the **Drupal core release** **team** had a new release, But they had committed the following issue:
 
 {% hint style="success" %}
-Issue [\#3165435](https://www.drupal.org/project/drupal/issues/3165435): Fix tour  route as route name when a selected node had been set as the front
+Issue [#3165435](https://www.drupal.org/project/drupal/issues/3165435): Fix tour  route as route name when a selected node had been set as the front
 {% endhint %}
 
 The patch fix for the core issue was added when a fix was needed for the following issue:
 
 {% hint style="success" %}
-Issue [**\#3164237**](https://www.drupal.org/project/varbase_core/issues/3164237): Fix Varbase Welcome message not showing up after install compilation after adding and enabling moderation sidebar on the homepage
+Issue [**#3164237**](https://www.drupal.org/project/varbase\_core/issues/3164237): Fix Varbase Welcome message not showing up after install compilation after adding and enabling moderation sidebar on the homepage
 {% endhint %}
 
 At the point of a new release for Drupal core and in case the patch was committed.
 
- The [**cweagans/compsoer-patches**](https://github.com/cweagans/composer-patches) composer plugin will not allow to apply it if it was committed.
+&#x20;The [**cweagans/compsoer-patches**](https://github.com/cweagans/composer-patches) composer plugin will not allow to apply it if it was committed.
 
 Ignore the patch being used as in the following example method:
 
-```text
+```
 {
   "name": "vardot/varbase-project",
   "description": "Project template for Varbase distribution.",
@@ -168,7 +168,7 @@ Ignore the patch being used as in the following example method:
 ```
 
 {% hint style="danger" %}
-Do not keep **patches** or **patches-ignore** for long in projects.
+Do not keep **patches** or **patches-ignore **for long in projects.
 
 Keep track of them, and clean not needed patches.
 {% endhint %}
@@ -177,6 +177,4 @@ Keep track of them, and clean not needed patches.
 * Report back if you'd spotted and committed patch.  So it will be removed from the module.
 * Report back if you'd spotted a better patch logic and standard. So it will be used instead of the old patch.
 {% endhint %}
-
-
 

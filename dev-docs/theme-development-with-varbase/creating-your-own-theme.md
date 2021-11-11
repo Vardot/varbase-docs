@@ -1,10 +1,12 @@
 # Creating Your Own Theme
 
-After building and installing the project with the [**Varbase Project**](https://github.com/Vardot/varbase-project) template, use the create new Vartheme sub theme command. 
+After building and installing the project with the [**Varbase Project**](https://github.com/Vardot/varbase-project) template, use the create new Vartheme sub theme command.&#x20;
 
 Before that have a look at:
 
-{% page-ref page="understanding-the-vartheme-base-theme.md" %}
+{% content-ref url="understanding-the-vartheme-base-theme.md" %}
+[understanding-the-vartheme-base-theme.md](understanding-the-vartheme-base-theme.md)
+{% endcontent-ref %}
 
 {% hint style="info" %}
 Learn more about Bootstrap standard build tools documentation, compile source code, run tests, and more.
@@ -19,7 +21,7 @@ Learn more about Bootstrap standard build tools documentation, compile source co
 3. Run the `bash ./install-needed-tools.sh`
 4. Follow with the list of instructions.
 
-```text
+```
 cd PROJECT_DIR_NAME/docroot/themes/contrib/vartheme_bs4/scripts
 bash ./install-needed-tools.sh
 ```
@@ -28,19 +30,19 @@ bash ./install-needed-tools.sh
 
 Recommended doing the installation of needed tools using the bash script command. But if that is not the case. By deciding to manually install custom versions. Please follow with the following steps.
 
-### **1. Install** [**sed**](https://www.gnu.org/software/sed/manual/sed.html) **and** [**gawk**](https://www.gnu.org/software/gawk/manual/gawk.html)\*\*\*\*
+### **1. Install **[**sed**](https://www.gnu.org/software/sed/manual/sed.html)** and **[**gawk**](https://www.gnu.org/software/gawk/manual/gawk.html)****
 
 Helps with string replace and re-naming files.
 
-```text
+```
 sudo apt install -y sed gawk;
 ```
 
-### **2. Install npm** and [**nodejs**](https://nodejs.org/en/)\*\*\*\*
+### **2. Install npm** and [**nodejs**](https://nodejs.org/en/)****
 
- Helps getting more development tools and the **Bootstrap** and **popper** packages. 
+&#x20;Helps getting more development tools and the **Bootstrap **and **popper** packages.&#x20;
 
-```text
+```
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - 
 sudo apt update
 sudo apt install nodejs
@@ -53,21 +55,21 @@ sudo apt install npm
 
 ### 3. Install [Yarn](https://yarnpkg.com/getting-started)
 
-```text
+```
 sudo apt install yarn
 ```
 
 Install **Yarn** as a global by **npm**
 
-```text
+```
 sudo npm install -g yarn
 ```
 
-### **4. Install** [**Gulp**](https://gulpjs.com/)
+### **4. Install **[**Gulp**](https://gulpjs.com)
 
 Helps in managing tasks when compiling SASS/SCSS to CSS
 
-```text
+```
 sudo npm install gulp-cli -g
 sudo npm install gulp -D
 ```
@@ -80,25 +82,25 @@ sudo npm install gulp -D
 2. Change directory in the terminal to `docroot/themes/contrib/vartheme_bs4/scripts`
 3. Run the `create-new-vartheme-bs4.sh "THEME_NAME"`. Change the `THEME_NAME` to the project name or any selected theme name.
 
-```text
+```
 cd PROJECT_DIR_NAME/docroot/themes/contrib/vartheme_bs4/scripts
 bash ./create-new-vartheme-bs4.sh "THEME_NAME"
 ```
 
 ### Create with **Yarn**
 
-```text
+```
 cd PROJECT_DIR_NAME/docroot/themes/contrib/vartheme_bs4
 yarn theme:create-sub-theme "THEME_NAME"
 ```
 
-### 
+###
 
 ## Example mythem for mysite
 
 If a **Varbase** site named _"mysite"_  was built using the following command:
 
-```text
+```
 cd /var/www/html
 composer create-project Vardot/varbase-project:~9 mysite --no-dev --no-interaction
 ```
@@ -107,13 +109,13 @@ The folder _mysite_  for the project is located at _"/var/www/html/mysite"_
 
 Change directory to `docroot/themes/contrib/vartheme_bs4/scripts`
 
-```text
+```
 cd /var/www/html/mysite/docroot/themes/contrib/vartheme_bs4/scripts
 ```
 
-Run the following `bash`command to create a custom theme named "_mytheme"_ 
+Run the following `bash`command to create a custom theme named "_mytheme" _
 
-```text
+```
 bash ./create-new-vartheme-bs4.sh "mytheme"
 ```
 
@@ -121,7 +123,7 @@ The new theme will be located at _"/var/www/html/mysite/docroot/themes/custom/my
 
 When the finishes the following message will show up in the terminal
 
-```text
+```
 ---------------------------------------------------------------------------
    The new Vartheme BS4 Sub-Theme were created at "/var/www/html/mysite/docroot/themes/custom/mytheme :)" 
 ---------------------------------------------------------------------------
@@ -144,7 +146,7 @@ Run this command ones after creating a new sub theme
 
 Run it again ones after updating the **Bootstrap 4** library with `yarn install`
 
-```text
+```
 cd PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
 gulp
 [10:55:40] Using gulpfile PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME/gulpfile.js
@@ -160,7 +162,7 @@ gulp
 
 or with **Yarn**
 
-```text
+```
 yarn theme:init
 ```
 
@@ -170,7 +172,7 @@ yarn theme:init
 
 Then run `gulp compile` ones to compile every time the SCSS source changes.
 
-```text
+```
 cd PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
 gulp compile
 [11:22:30] Using gulpfile PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME/gulpfile.js
@@ -180,7 +182,7 @@ gulp compile
 
 or with **Yarn**
 
-```text
+```
 yarn theme:build
 ```
 
@@ -188,14 +190,14 @@ yarn theme:build
 
 Increase maximum watched SASS files by
 
-```text
+```
 echo fs.inotify.max_user_watches=524288
  | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 ```
 
 Run `gulp watch` to keep watching for changes. This command will auto compile on each save of changes for SCSS files.
 
-```text
+```
 cd PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
 gulp watch
 [11:25:53] Using gulpfile PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME/gulpfile.js
@@ -204,7 +206,7 @@ gulp watch
 
 or with **Yarn**
 
-```text
+```
 yarn theme:watch
 ```
 
@@ -218,11 +220,10 @@ After cloning a project with a Vartheme Sub theme.
 
 Run the following commands to get all development tools
 
-```text
+```
 cd PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
 yarn install
 gulp
 ```
 
- 
-
+&#x20;

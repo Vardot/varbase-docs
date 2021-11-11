@@ -7,14 +7,14 @@ Enables the necessary modules for a multilingual website. These include: **Langu
 ## Varbase Internationalization Module
 
 {% hint style="info" %}
-Varbase internationalization features are bundled through the **Varbase Internationalization** module as part of the **Varbase Core** module.  
-GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase_core)  
-Drupal.org: [https://www.drupal.org/project/varbase\_core](https://www.drupal.org/project/varbase_core) 
+Varbase internationalization features are bundled through the **Varbase Internationalization **module as part of the **Varbase Core** module.\
+GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase\_core)\
+Drupal.org: [https://www.drupal.org/project/varbase\_core](https://www.drupal.org/project/varbase\_core)&#x20;
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase Internationalization** module in:
 {% endhint %}
 
-```text
+```
 project_directory
 |-- docroot
     |-- modules
@@ -27,52 +27,12 @@ project_directory
 
 Brings in the following core and contributed modules to your site:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Module</th>
-      <th style="text-align:left">Purpose</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p><b>Language</b>
-        </p>
-        <p><em>(in Drupal core)</em>
-        </p>
-      </td>
-      <td style="text-align:left">Allows users to configure available languages.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p><b>Interface Translation</b>
-        </p>
-        <p><em>(in Drupal core)</em>
-        </p>
-      </td>
-      <td style="text-align:left">Translates the built-in user interface.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p><b>Configuration Translation</b>
-        </p>
-        <p><em>(in Drupal core)</em>
-        </p>
-      </td>
-      <td style="text-align:left">Allows users to translate configuration text.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p><b>Content Translation</b>
-        </p>
-        <p><em>(in Drupal core)</em>
-        </p>
-      </td>
-      <td style="text-align:left">Allows users to translate content.</td>
-    </tr>
-  </tbody>
-</table>
+| Module                                                                            | Purpose                                        |
+| --------------------------------------------------------------------------------- | ---------------------------------------------- |
+| <p><strong>Language</strong></p><p><em>(in Drupal core)</em></p>                  | Allows users to configure available languages. |
+| <p><strong>Interface Translation</strong></p><p><em>(in Drupal core)</em></p>     | Translates the built-in user interface.        |
+| <p><strong>Configuration Translation</strong></p><p><em>(in Drupal core)</em></p> | Allows users to translate configuration text.  |
+| <p><strong>Content Translation</strong></p><p><em>(in Drupal core)</em></p>       | Allows users to translate content.             |
 
 ## Enable Multiple Languages on Varbase Installation
 
@@ -84,7 +44,7 @@ Varbase gave the option of enabling multiple language options on the multilingua
 
 ![Multilingual Configuration installation Step](../../../.gitbook/assets/multilingual-configuration-varbase.png)
 
-This will enable the necessary modules for a multilingual website. 
+This will enable the necessary modules for a multilingual website.&#x20;
 
 ![Enable Multiple Languages for This Site](../../../.gitbook/assets/multilingual-configuration-varbase-enable-multiple-languages-for-this-site.png)
 
@@ -97,7 +57,7 @@ Configurations that are related to languages will take effect on install. And af
 {% hint style="danger" %}
 In case of not selecting the option on install. some issues will start to show up.
 
-**Examples:**  
+**Examples:** &#x20;
 
 * The language field at the form display and field display will not be placed in the default Varbase standard order and position.
 * Manual fixes are needed for newly activated translatable content types. In order not to face language issues.
@@ -106,9 +66,8 @@ In case of not selecting the option on install. some issues will start to show u
 
 ## Creating a Multilingual Database for Websites
 
-It is better to use the right **character set** and **collation**, ****If the database was manually created.
+It is better to use the right **character set** and **collation**,** **If the database was manually created.
 
 {% hint style="info" %}
 **Following with Drupal documentation on Step 3: Create a database** [https://www.drupal.org/docs/installing-drupal/step-3-create-a-database](https://www.drupal.org/docs/installing-drupal/step-3-create-a-database)
 {% endhint %}
-

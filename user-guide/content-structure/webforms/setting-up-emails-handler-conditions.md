@@ -11,11 +11,10 @@ Please follow these instructions:
 
 ![](../../../.gitbook/assets/pasted-image-0.png)
 
- 5. The page will redirect you to the Settings section of the webform, click Emails/Handlers  
- 6. Go to “Edit”  
- 7. A section will appear on the right side, click on “Conditions”
+&#x20;5\. The page will redirect you to the Settings section of the webform, click Emails/Handlers\
+&#x20;6\. Go to “Edit”\
+&#x20;7\. A section will appear on the right side, click on “Conditions”
 
 ![](../../../.gitbook/assets/pasted-image-0-1-.png)
 
-8. From this section, you can set up the triggers
-
+8\. From this section, you can set up the triggers

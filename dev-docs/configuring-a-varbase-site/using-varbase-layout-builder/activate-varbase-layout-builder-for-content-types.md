@@ -10,14 +10,14 @@ The logical use for Varbase Layout Builder configs is with the **"Full Content"*
 
 * Go to _`"/admin/structure/types/add"`_ link to add a new content type
 * Fill in _`"Post"`_ in the _"Name"_ field
-* Fill in _**"**Use the Post to add posts to the website. So that they will show up under the posts site section." ****_in the _`"Description"`_ field
+* Fill in _**"**Use the Post to add posts to the website. So that they will show up under the posts site section."** **_in the _`"Description"`_ field
 * Press the _`"Save and manage fields"`_ submit button to create the content type
 * Then the website will be directed to the _**"Manage fields"**_ page
 * Add more fields as needed for the project
 
 ### Enable the Full Content display mode
 
-* Go to "/admin/structure/types/manage/post/display" page 
+* Go to "/admin/structure/types/manage/post/display" page&#x20;
 
 ![Manage Display for the Post Content Type](../../../.gitbook/assets/manage-display-dev-varbase9c1-post-1.png)
 
@@ -66,12 +66,12 @@ The logical use for Varbase Layout Builder configs is with the **"Full Content"*
 
 * Important to manage to have only the supported Varbase Layout Builder layouts. having the "Moderation control" field in a section with Bootstrap 1 Col layout, and the Body and other fields or needed blocks in other sections.
 
-![ Placeholder for the &quot;Moderation control&quot; Field in a Section with Bootstrap 1 Col Layout](../../../.gitbook/assets/manage-display-dev-varbase9c1-post-12.png)
+![ Placeholder for the "Moderation control" Field in a Section with Bootstrap 1 Col Layout](../../../.gitbook/assets/manage-display-dev-varbase9c1-post-12.png)
 
 ## Full Example with Code and Configs
 
 {% hint style="success" %}
-[**Varbase Blog**](https://www.drupal.org/project/varbase_blog) is the standard example for how a content type could be configured, then packaged to work with **Varbase.** Using Varbase Layout Builder default configs.
+[**Varbase Blog**](https://www.drupal.org/project/varbase\_blog) is the standard example for how a content type could be configured, then packaged to work with **Varbase. **Using Varbase Layout Builder default configs.
 
 Use the learn by example method. In case of wanting to create a custom Varbase compatible features.
 {% endhint %}
@@ -79,26 +79,24 @@ Use the learn by example method. In case of wanting to create a custom Varbase c
 {% hint style="success" %}
 Have a look at the default configs and code for **Varbase Blog**
 
-[https://git.drupalcode.org/project/varbase\_blog](https://git.drupalcode.org/project/varbase_blog/-/tree/9.0.x)
+[https://git.drupalcode.org/project/varbase\_blog](https://git.drupalcode.org/project/varbase\_blog/-/tree/9.0.x)
 {% endhint %}
 
-![Edit Blog Site Section Layout](../../../.gitbook/assets/edit-layout-for-blog-dev-varbase9c1%20%281%29.png)
+![Edit Blog Site Section Layout](<../../../.gitbook/assets/edit-layout-for-blog-dev-varbase9c1 (1).png>)
 
 ![Edit Layout for Blog Post Content Items](../../../.gitbook/assets/edit-layout-for-blog-post-content-items-dev-varbase9c1.png)
 
 {% hint style="success" %}
-Install **Varbase Blog** in a **Varbase site.** It comes with Varbase by default.
+Install **Varbase Blog** in a **Varbase site. **It comes with Varbase by default.
 
-Have a look at the default **Varbase Blog** configs. Manage custom content types using the same configs.
+Have a look at the default **Varbase Blog **configs. Manage custom content types using the same configs.
 {% endhint %}
 
 {% hint style="info" %}
 Have a quick look at the following link. More enlightenment on how to use Varbase Layout Builder.
 
-\*\*\*\*[**Issue \#3163199: Switch Blog section, Blog post, Blog categories, and Tags to use Varbase Layout Builder**](https://www.drupal.org/project/varbase_blog/issues/3163199)
+****[**Issue #3163199: Switch Blog section, Blog post, Blog categories, and Tags to use Varbase Layout Builder**](https://www.drupal.org/project/varbase\_blog/issues/3163199)
 {% endhint %}
-
-
 
 
 

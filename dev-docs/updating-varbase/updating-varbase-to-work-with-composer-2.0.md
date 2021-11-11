@@ -6,13 +6,13 @@ Recommended to read:
 * [Upgrade guides for Composer 1.x to 2.0](https://github.com/composer/composer/blob/2.0.0/UPGRADE-2.0.md)
 
 {% hint style="success" %}
-**As for** [**Varbase 8.8.8**](https://www.drupal.org/project/varbase/releases/8.x-8.8) **and** [**Varbase 9.0.0-rc1**](https://www.drupal.org/project/varbase/releases/9.0.0-rc1)**, Varbase works with both Composer 1.0 and Composer 2.0** 
+**As for **[**Varbase 8.8.8**](https://www.drupal.org/project/varbase/releases/8.x-8.8)** and **[**Varbase 9.0.0-rc1**](https://www.drupal.org/project/varbase/releases/9.0.0-rc1)**, Varbase works with both Composer 1.0 and Composer 2.0 **
 
 Recommended to build all new **Varbase Projects** with **Composer 2.0**
 {% endhint %}
 
 {% hint style="success" %}
-If the site was built recently with the listed latest releases ****[**Varbase 8.8.8**](https://www.drupal.org/project/varbase/releases/8.x-8.8) ****or ****[**Varbase 9.0.0-rc1**](https://www.drupal.org/project/varbase/releases/9.0.0-rc1), but the project was built using the **Composer 1.0** version. The site is ready to start using **Composer 2.0**
+If the site was built recently with the listed latest releases** **[**Varbase 8.8.8**](https://www.drupal.org/project/varbase/releases/8.x-8.8)** **or** **[**Varbase 9.0.0-rc1**](https://www.drupal.org/project/varbase/releases/9.0.0-rc1), but the project was built using the **Composer 1.0 **version. The site is ready to start using **Composer 2.0**
 
 Only update the **Composer** from **1.0** to **2.0**
 
@@ -20,20 +20,20 @@ Do a`composer update`to update the autoloaders, namespaces map, and classes map.
 {% endhint %}
 
 {% hint style="warning" %}
-If the site was built with **Varbase 8.8.7** and older**,** Follow the following steps:
+If the site was built with** Varbase 8.8.7** and older**, **Follow the following steps:
 {% endhint %}
 
-> **Step \#1:** Update composer to latest composer 1.0 by
+> **Step #1:** Update composer to latest composer 1.0 by
 >
-> ```text
+> ```
 > composer self-update --1
 > ```
 >
-> **Step \#2:** Update **Varbase project**`composer.josn` file
+> **Step #2:** Update **Varbase project**`composer.josn` file
 >
 > Change the following:
 >
-> ```text
+> ```
 >     "composer/installers": "~1.0",
 >     "oomphinc/composer-installers-extender": "~1.0",
 >     "cweagans/composer-patches": "~1.0",
@@ -42,7 +42,7 @@ If the site was built with **Varbase 8.8.7** and older**,** Follow the following
 >
 > To:
 >
-> ```text
+> ```
 >     "composer/installers": "~1.0 || ~2.0",
 >     "oomphinc/composer-installers-extender": "~1.0 || ~2.0",
 >     "cweagans/composer-patches": "~1.0",
@@ -50,24 +50,24 @@ If the site was built with **Varbase 8.8.7** and older**,** Follow the following
 >
 > Remove **drupal/drupal-library-installer-plugin**
 >
-> **Step \#3:** Update **Varbase** to **8.8.8**  or **9.0.0-rc1** with **Composer 1.0**
+> **Step #3:** Update **Varbase **to **8.8.8**  or **9.0.0-rc1** with **Composer 1.0**
 >
-> ```text
+> ```
 > cd /PATH_TO_THE_PROJECT
 > composer update -vvv
 > ```
 >
 > Repeat this composer update 2 or 3 times to make sure that their are no updates
 >
-> **Step \#4:** Update composer to latest **composer 2.0** by
+> **Step #4:** Update composer to latest **composer 2.0** by
 >
-> ```text
+> ```
 > composer self-update --2
 > ```
 >
-> **Step \#5:** Rebuild the autoloader for map of classes and namespaces
+> **Step #5:** Rebuild the autoloader for map of classes and namespaces
 >
-> ```text
+> ```
 > cd /PATH_TO_THE_PROJECT
 > rm -rf composer.lock bin/ vendor/ docroot/modules/contrib/ docroot/themes/contrib/ docroot/profiles/varbase/ docroot/libraries/
 > composer install -vvv
@@ -77,13 +77,13 @@ If the site was built with **Varbase 8.8.7** and older**,** Follow the following
 >
 > At this point the autoload and real autoload files + mapping should be changed.
 
-Check the complete changelog.  
+Check the complete changelog.\
 [https://github.com/composer/composer/releases/tag/2.0.0](https://github.com/composer/composer/releases/tag/2.0.0)
 
-When having any custom composer plugins or still having issues.  
+When having any custom composer plugins or still having issues.\
 Or if modules are using the old way of autoloading
 
-> Custom **Composer** plugins must have  
+> Custom **Composer** plugins must have\
 > `"composer-plugin-api": "^1.1 || ^2"`
 
 > Make sure that the root `composer.json` file do not have invalid **`PSR-0`** / **`PSR-4`** . And the class configurations will not autoload anymore in `optimized-autoloader` mode, as per the warnings introduced in 1.10
@@ -91,4 +91,3 @@ Or if modules are using the old way of autoloading
 **Known issues:**
 
 [**Composer 2.0** issue for **bower-asset/jqueryui-touch-punch** library default branch](https://www.drupal.org/project/varbase/issues/3190703)
-

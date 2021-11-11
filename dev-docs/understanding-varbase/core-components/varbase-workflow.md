@@ -5,14 +5,14 @@ Includes a toolkit for robust, quick, and enterprise content moderation features
 ## Varbase Workflow Module
 
 {% hint style="info" %}
-Varbase workflow features are bundled through the **Varbase Workflow** module.  
-GitHub: [https://github.com/Vardot/varbase\_workflow](https://github.com/Vardot/varbase_workflow)  
-Drupal.org: [https://www.drupal.org/project/varbase\_workflow](https://www.drupal.org/project/varbase_workflow)
+Varbase workflow features are bundled through the **Varbase Workflow** module.\
+GitHub: [https://github.com/Vardot/varbase\_workflow](https://github.com/Vardot/varbase\_workflow)\
+Drupal.org: [https://www.drupal.org/project/varbase\_workflow](https://www.drupal.org/project/varbase\_workflow)
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase Workflow** module in:
 {% endhint %}
 
-```text
+```
 project_directory
 |-- docroot
     |-- modules
@@ -22,54 +22,18 @@ project_directory
 
 Brings in the following core and contributed modules to your site:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Module</th>
-      <th style="text-align:left">Purpose</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p><b>Workflows</b>
-        </p>
-        <p><em>(in Drupal core)</em>
-        </p>
-      </td>
-      <td style="text-align:left">Provides an interface to create workflows with transitions between different
-        states (for example publication or user status) provided by other modules.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p><b>Content Moderation</b>
-        </p>
-        <p><em>(in Drupal core)</em>
-        </p>
-      </td>
-      <td style="text-align:left">Provides moderation states for content.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/moderation_sidebar"><b>Moderation Sidebar</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left">Provides a frontend sidebar for Content Moderation</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/scheduler_content_moderation_integration"><b>Scheduler content moderation integration</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left">Scheduler sub-module providing content moderation functionality for publishing/unpublishing.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/admin_audit_trail"><b>Admin Audit Trail Workflows</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left">Logs workflows events performed by the user.</td>
-    </tr>
-  </tbody>
-</table>
+| Module                                                                                                                             | Purpose                                                                                                                                                 |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>Workflows</strong></p><p><em>(in Drupal core)</em></p>                                                                  | Provides an interface to create workflows with transitions between different states (for example publication or user status) provided by other modules. |
+| <p><strong>Content Moderation</strong></p><p><em>(in Drupal core)</em></p>                                                         | Provides moderation states for content.                                                                                                                 |
+| ****[**Moderation Sidebar**](https://www.drupal.org/project/moderation\_sidebar)****                                               | Provides a frontend sidebar for Content Moderation                                                                                                      |
+| ****[**Scheduler content moderation integration**](https://www.drupal.org/project/scheduler\_content\_moderation\_integration)**** | Scheduler sub-module providing content moderation functionality for publishing/unpublishing.                                                            |
+| ****[**Admin Audit Trail Workflows**](https://www.drupal.org/project/admin\_audit\_trail)****                                      | Logs workflows events performed by the user.                                                                                                            |
 
 ## Default Workflows
 
-1. **Simple workflow**: Draft, Published, and Archived Useful for any website, and offers the ability make a draft of a live version of content without unpublishing the whole content.
+1. **Simple workflow**: Draft, Published, and Archived\
+   Useful for any website, and offers the ability make a draft of a live version of content without unpublishing the whole content.
 2. **Editorial workflow**: Draft, Published, In review, and Archived                                                             Useful for website with editorial or moderation staff. You can create as many additional states as you like and define transitions between them to suit your organization's needs.
 
 ## Sub Modules
@@ -82,9 +46,9 @@ Offering customizable Content Planner dashboard. Drag and drop calendar for addi
 * Drag-n-drop calendar for adding, scheduling, and rescheduling content
 * Drag-n-drop Kanban for any workflow
 
-{% page-ref page="../optional-components/varbase-content-planner.md" %}
-
-
+{% content-ref url="../optional-components/varbase-content-planner.md" %}
+[varbase-content-planner.md](../optional-components/varbase-content-planner.md)
+{% endcontent-ref %}
 
 
 

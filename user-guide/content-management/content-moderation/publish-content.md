@@ -6,6 +6,5 @@ Varbase gives you the ability to publish your content in a simple way, you can f
 
 
 
-1. Moderation sidebar: ****The status of the node will be shown. just update to publish.
+1. Moderation sidebar:** **The status of the node will be shown. just update to publish.
 2. Under each node, there is a button to change the content status, by default all new content will be as a draft you have to change it to publish later.
-

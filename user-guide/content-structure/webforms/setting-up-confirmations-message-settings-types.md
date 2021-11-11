@@ -11,8 +11,7 @@ Please follow these instructions:
 
 ![](../../../.gitbook/assets/pasted-image-0-2-.png)
 
- 5. Click on “Confirmation” tab  
- 6. You will find “Confirmation types”, select which one you need to do the following actions but we recommend to use: Page, Message, URL or URL with message
+&#x20;5\. Click on “Confirmation” tab\
+&#x20;6\. You will find “Confirmation types”, select which one you need to do the following actions but we recommend to use: Page, Message, URL or URL with message
 
 ![](../../../.gitbook/assets/pasted-image-0-3-.png)
-
