@@ -2,7 +2,7 @@
 
 Development Environment Modules and Features, make sure to disable this feature in production.
 
-Install the development tools if you're a developer and you're going to use Varbase to build a new project. This will install several modules that help you build your site, such as [**Devel**](https://www.drupal.org/project/devel), [**Database Logging**](https://www.drupal.org/docs/8/core/modules/dblog/overview), and UI modules such as **View UI**, and Configuration Update Reports.  
+Install the development tools if you're a developer and you're going to use Varbase to build a new project. This will install several modules that help you build your site, such as [**Devel**](https://www.drupal.org/project/devel), [**Database Logging**](https://www.drupal.org/docs/8/core/modules/dblog/overview), and UI modules such as **View UI**, and Configuration Update Reports.\
 
 
 {% hint style="danger" %}
@@ -12,14 +12,14 @@ _Make sure to uninstall this module and its modules when you go in production mo
 ## Varbase Development Module
 
 {% hint style="info" %}
-Varbase development features are bundled through the **Varbase Development** module as part of the **Varbase Core** module.  
-GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase_core)  
-Drupal.org: [https://www.drupal.org/project/varbase\_core](https://www.drupal.org/project/varbase_core) 
+Varbase development features are bundled through the **Varbase Development** module as part of the **Varbase Core** module.\
+GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase\_core)\
+Drupal.org: [https://www.drupal.org/project/varbase\_core](https://www.drupal.org/project/varbase\_core)&#x20;
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase Development** module in:
 {% endhint %}
 
-```text
+```
 project_directory
 |-- docroot
     |-- modules
@@ -32,47 +32,11 @@ project_directory
 
 Brings in the following core and contributed modules to your site:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Module</th>
-      <th style="text-align:left">Purpose</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p><b>Database Logging</b>
-        </p>
-        <p><em>(in Drupal core)</em>
-        </p>
-      </td>
-      <td style="text-align:left">Logs system events in the database.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p><b>Views UI</b>
-        </p>
-        <p><em>(in Drupal core)</em>
-        </p>
-      </td>
-      <td style="text-align:left">Provides a user interface for creating and managing views.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/config_update"><b>Configuration Update Reports</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left">Adds an updates report and revert functionality to configuration management</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/devel"><b>Devel</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left">Various blocks, pages, and functions for developers.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.drupal.org/project/tour_ui"><b>Tour UI</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left">Provides a UI to manage guided tours.</td>
-    </tr>
-  </tbody>
-</table>
-
+| Module                                                                                    | Purpose                                                                          |
+| ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| <p><strong>Database Logging</strong></p><p><em>(in Drupal core)</em></p>                  | Logs system events in the database.                                              |
+| <p><strong>Views UI</strong></p><p><em>(in Drupal core)</em></p>                          | Provides a user interface for creating and managing views.                       |
+| ****[**Configuration Update Reports**](https://www.drupal.org/project/config\_update)**** | Adds an updates report and revert functionality to configuration management      |
+| ****[**Devel**](https://www.drupal.org/project/devel)****                                 | Various blocks, pages, and functions for developers.                             |
+| ****[**Tour UI**](https://www.drupal.org/project/tour\_ui)****                            | Provides a UI to manage guided tours.                                            |
+| ****[**Reroute Email**](https://www.drupal.org/project/reroute\_email)****                | Reroutes emails send from the site to a predefined email. Useful for test sites. |
