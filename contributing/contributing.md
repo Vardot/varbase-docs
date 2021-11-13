@@ -18,9 +18,9 @@ You can also join our Varbase Slack team for feedback and support
 
 ## Contributing New Features or Components
 
-We're very excited to have you interested in contributing features Varbase. Contributing to Varbase new modules, features, or components should be an easy process if you are familiar with Drupal. We just require the following guidelines to be taken into consideration when contributing new modules, features, or components:
+We're very excited to have you interested in contributing features to Varbase. Contributing to Varbase new modules, features, or components should be an easy process if you are familiar with Drupal. We just require the following guidelines to be taken into consideration when contributing new modules, features, or components:
 
-1. The feature idea should be validated with Varbase maintainer. Please submit a new issue on [https://www.drupal.org/node/add/project-issue/varbase](https://www.drupal.org/node/add/project-issue/varbase) as a "Feature request" to confirm its validity before starting to work on it. This is of course if you would like this feature to be included in Varbase roadmap
+1. The feature idea should be validated with Varbase maintainers. Please submit a new issue on [https://www.drupal.org/node/add/project-issue/varbase](https://www.drupal.org/node/add/project-issue/varbase) as a "Feature request" to confirm its validity before starting to work on it. This is of course if you would like this feature to be included in Varbase roadmap
 2.  The feature must follow the friendly User Experience guidelines according to Vardot's standards.
 
     See [https://www.drupal.org/docs/develop/user-interface-standards](https://www.drupal.org/docs/develop/user-interface-standards)
@@ -28,7 +28,17 @@ We're very excited to have you interested in contributing features Varbase. Cont
 4. Considers all the Site Building config such as: Permissions, Config, View modes, Form modes, Integrations
 5. Tested frontend utilizing Bootstrap 4 and/or 5
 
+{% content-ref url="../dev-docs/extending-varbase/install-needed-tools.md" %}
+[install-needed-tools.md](../dev-docs/extending-varbase/install-needed-tools.md)
+{% endcontent-ref %}
 
+{% content-ref url="../dev-docs/extending-varbase/compiling-provided-component-styles.md" %}
+[compiling-provided-component-styles.md](../dev-docs/extending-varbase/compiling-provided-component-styles.md)
+{% endcontent-ref %}
+
+{% content-ref url="../dev-docs/extending-varbase/check-standards-practice-coding-and-linting.md" %}
+[check-standards-practice-coding-and-linting.md](../dev-docs/extending-varbase/check-standards-practice-coding-and-linting.md)
+{% endcontent-ref %}
 
 ## Help in Development
 
