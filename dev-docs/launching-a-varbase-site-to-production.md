@@ -1,11 +1,15 @@
-# Uninstall Development Modules
+# Launching a Varbase Site to Production
 
-## Varbase Development Module
+It is important to follow with the pre-lunch or pre-deployment checklist on the event of deployment for a project to the live production site.
+
+## Checklist to Check Before Going Live
+
+### Varbase Development Module
 
 Varbase Development enables number of needed development tools, But they should not be enabled on production sites.
 
-{% content-ref url="../understanding-varbase/development-components/varbase-development.md" %}
-[varbase-development.md](../understanding-varbase/development-components/varbase-development.md)
+{% content-ref url="understanding-varbase/development-components/varbase-development.md" %}
+[varbase-development.md](understanding-varbase/development-components/varbase-development.md)
 {% endcontent-ref %}
 
 * [ ] **Varbase Development **
@@ -40,12 +44,12 @@ drush pm:uninstall blazy_ui
 drush pm:uninstall slick_ui
 ```
 
-## **Varbase Style Guide Module**
+### **Varbase Style Guide Module**
 
 Varbase Style Guide module enables a styling and theming tools. But they should not be enabled on production sites.
 
-{% content-ref url="../understanding-varbase/development-components/varbase-styleguide.md" %}
-[varbase-styleguide.md](../understanding-varbase/development-components/varbase-styleguide.md)
+{% content-ref url="understanding-varbase/development-components/varbase-styleguide.md" %}
+[varbase-styleguide.md](understanding-varbase/development-components/varbase-styleguide.md)
 {% endcontent-ref %}
 
 * [ ] **Varbase Style Guide**
