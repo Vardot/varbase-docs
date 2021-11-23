@@ -2,7 +2,7 @@
 
 The default Varbase configuration for Vartheme and its sub-themes is to hide the "**Local Tasks **or** Tabs**" available in content pages in the front-end theme, assuming that the **Moderation Sidebar** is the alternative method to edit, view, translate, or manage content.
 
-![Moderation Sidebar Without Tabs](<../../.gitbook/assets/moderation-sidebar (1).png>)
+![Moderation Sidebar Without Tabs](<../../.gitbook/assets/Moderation SIdebar (1).png>)
 
 This is simply done by implementing a visibility rule to the "**Tabs**" block.
 
@@ -13,8 +13,8 @@ To change this behavior, simply remove or edit the visibility settings for "**Ta
 3. Go to "**Pages**" under Visibility, and either remove the `/node/*` entry or add your own rules.\
    Removing the entry will make the **Tabs** appear again.
 
-![Tabs Block in Block Layout](../../.gitbook/assets/block-layout-for-tabs.png)
+![Tabs Block in Block Layout](<../../.gitbook/assets/Block Layout for Tabs.png>)
 
-![Configure Tabs Visibility on Pages](../../.gitbook/assets/configure-tabs-block.png)
+![Configure Tabs Visibility on Pages](<../../.gitbook/assets/Configure Tabs Block.png>)
 
-![Moderation Sidebar With Tabs](../../.gitbook/assets/moderation-sidebar-with-tabs.png)
+![Moderation Sidebar With Tabs](<../../.gitbook/assets/Moderation Sidebar With Tabs (1).png>)

@@ -28,7 +28,7 @@ Follow the steps below to install Varbase distribution for Drupal 9 on a local s
 2\. Point your browser to your localhost folder where you installed ran the command. \
 You can then install Varbase as you install Drupal normally.
 
-![Varbase Installation Screen](../../.gitbook/assets/varbase-installation-screen.png)
+![Varbase Installation Screen](../../.gitbook/assets/Varbase-Installation-Screen.png)
 
 ## Installing Varbase with Lando
 

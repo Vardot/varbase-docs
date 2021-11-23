@@ -4,9 +4,9 @@ This section will be explaining how to apply the active menu trail using the Men
 
 Let us visit the Blogs landing page section on the site, you will notice the "Blogs" on the main menu is active but once you visit one of the Blog posts, you will notice the "Blogs" is no longer active.
 
-![Blogs menu item is active](<../../../.gitbook/assets/image (36).png>)
+![Blogs menu item is active](<../../../.gitbook/assets/image (37).png>)
 
-![Blogs menu item is no longer active after visiting the Blog post item](<../../../.gitbook/assets/image (34).png>)
+![Blogs menu item is no longer active after visiting the Blog post item](<../../../.gitbook/assets/image (38).png>)
 
 This is a problem for the users because they will get lost and get confused if they are still in the blogs section or they were in another section of the site.
 
@@ -31,4 +31,4 @@ You can add rules to Content type, Language, Pages, and Roles.
 
 Now if you go back to the blog post content, you will notice the "Blogs" menu item is active.
 
-![](<../../../.gitbook/assets/image (33).png>)
+![](<../../../.gitbook/assets/image (42).png>)

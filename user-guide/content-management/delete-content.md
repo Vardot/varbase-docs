@@ -8,9 +8,8 @@ Any user who has "**Delete**" permissions can view _Delete_ link.
 
 If you have permission you can see "Delete" link in the edit menu
 
-![](../../.gitbook/assets/content-test-qa-varbase-8-8-x-development-13-07-2020.png)
+![](../../.gitbook/assets/Content-test-qa-varbase-8-8-x-development-13-07-2020.png)
 
 {% hint style="danger" %}
-Be careful when you delete a page as you can't retrieve it back unless you have back up for the content. 
+Be careful when you delete a page as you can't retrieve it back unless you have back up for the content.&#x20;
 {% endhint %}
-

@@ -10,4 +10,4 @@ Follow these steps to create a new _Landing page_ in your website:
 4. Click Save.&#x20;
 5. You should now see your post.
 
-![](../../../.gitbook/assets/create\_landing\_page\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)
+![](../../../.gitbook/assets/Create\_Landing\_page\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)

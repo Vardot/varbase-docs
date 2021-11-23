@@ -32,7 +32,7 @@ To prevent/fix this warning from happening, you'll need to exclude this page fro
 2. Edit a the content you want to exclude from XML sitemap
 3. Look for “**Simple XML Sitemap**” and click the item that can be located in the sidebar
 
-![XML sitemap section when adding/editing content](../../.gitbook/assets/create-basic-page-test-qa-varbase-8-8-x-development-13-07-2020.png)
+![XML sitemap section when adding/editing content](../../.gitbook/assets/Create-Basic-page-test-qa-varbase-8-8-x-development-13-07-2020.png)
 
 &#x20;4\. You will be seeing two options, “Do not index this basic page” or by default, it is selected “Index this”
 

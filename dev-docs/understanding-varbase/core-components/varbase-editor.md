@@ -66,5 +66,5 @@ Brings in the following core and contributed modules to your site:
 
 ### HTML code
 
-![](../../../.gitbook/assets/varbase\_editor-text-format--code\_html.png)
+![](<../../../.gitbook/assets/varbase\_editor-text-format--code\_html (1).png>)
 

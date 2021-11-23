@@ -39,7 +39,7 @@ Brings in the following core and contributed modules to your site:
 
 Can be installed in the extra components installation step with Varbase.
 
-![Varbase API in the List of Varbase Extra Components Installation Step](../../../.gitbook/assets/extra-components-varbase-varbase\_api.png)
+![Varbase API in the List of Varbase Extra Components Installation Step](<../../../.gitbook/assets/Extra-components-Varbase--varbase\_api (1).png>)
 
 {% content-ref url="../../configuring-a-varbase-site/configuring-json-api-features.md" %}
 [configuring-json-api-features.md](../../configuring-a-varbase-site/configuring-json-api-features.md)

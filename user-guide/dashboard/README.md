@@ -19,15 +19,15 @@ To edit the current Dashboard follow these steps:
 
 1. In the _Manage_ administrative menu, navigate to _Structure>Pages._
 
-![](../../.gitbook/assets/dashboard\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)
+![](../../.gitbook/assets/Dashboard\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)
 
 2\. Click _edit_ under _Total Control dashboard._
 
-![](../../.gitbook/assets/pages\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)
+![](<../../.gitbook/assets/Pages\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020 (1).png>)
 
 3\. Click on _Varbase Dashboard>Content_
 
-![](../../.gitbook/assets/content\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)
+![](../../.gitbook/assets/Content\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)
 
 4\. Try to update the dashboard by:
 
@@ -36,7 +36,7 @@ To edit the current Dashboard follow these steps:
 * _Delete Page._
 * Add _new block_
 
-![](../../.gitbook/assets/content\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020-1-.png)
+![](<../../.gitbook/assets/Content\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020 (1).png>)
 
 5\. Click _Update and save_\
 
@@ -45,7 +45,7 @@ To edit the current Dashboard follow these steps:
 
 On the Dashboard page, user is able to edit his account information directly from the edit button on the top section.&#x20;
 
-![](<../../.gitbook/assets/dashboard\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020 (1).png>)
+![](<../../.gitbook/assets/Dashboard\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020 (1).png>)
 
 {% hint style="info" %}
 To edit the user information check _User Management_ section > [Edit user](../user-management/edit-user.md)

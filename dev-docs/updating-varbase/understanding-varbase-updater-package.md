@@ -1,6 +1,6 @@
 # Understanding Varbase Updater Package
 
-The Varbase Updater \([varbase-updater](https://github.com/Vardot/varbase-updater)\) package was made to make updating Varbase as easy as possible. It's a set of scripts and tools that will help you to update to the newer versions of Varbase.
+The Varbase Updater ([varbase-updater](https://github.com/Vardot/varbase-updater)) package was made to make updating Varbase as easy as possible. It's a set of scripts and tools that will help you to update to the newer versions of Varbase.
 
 ## Installing Varbase Updater
 
@@ -12,7 +12,7 @@ However, if you're using Varbase 8.6.2 and older, you will have to manually add 
 
 Varbase Updater process is outlined in the rudimentary flowchart below:
 
-![](../../.gitbook/assets/varbase-updater-flowchart.png)
+![](<../../.gitbook/assets/Varbase Updater Flowchart.png>)
 
 The process relies on a configuration file that is used as rules for updating from one version to another. The configuration file can be found in `config/update-config.json` and is described as below:
 
@@ -27,7 +27,7 @@ The process relies on a configuration file that is used as rules for updating fr
 
 **Example:**
 
-```text
+```
 {
   "profile": "varbase",
   "package": "vardot/varbase",
@@ -91,4 +91,3 @@ At the end of the update process, two log files are useful to troubleshoot your 
 * `varbase_update_error.log`: a log of all errors that occurred during the update process.
 * `varbase_failed_patches.log`: a log of all patches that failed to apply during the update process.
 {% endhint %}
-

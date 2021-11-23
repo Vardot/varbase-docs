@@ -252,7 +252,7 @@ Search for the **"**[**Drupal 9**](https://www.drupal.org/about/9)** is here!"**
 
 Projects may or may not use this module. If it was required and used, check the following in the project page.
 
-![](../../../.gitbook/assets/webform-mautic-drupal-org.png)
+![](../../../.gitbook/assets/Webform-Mautic-Drupal-org.png)
 
 In case the module was not compatible with Drupal 9 yet, Follow with issues and the maintainer to make the module have a Drupal 9 Compatibility.
 

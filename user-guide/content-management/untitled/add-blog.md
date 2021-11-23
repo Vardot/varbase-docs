@@ -10,4 +10,4 @@ Follow these steps to create a new _Blog page_ in your website:
 4. Click Save.&#x20;
 5. You should now see your post.
 
-![](../../../.gitbook/assets/create\_blog\_post\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)
+![](../../../.gitbook/assets/Create\_Blog\_post\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)

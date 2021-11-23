@@ -38,15 +38,15 @@ Brings in the following core and contributed modules to your site:
 
 Choose the language of installation and default website language on the first step of installing Varbase
 
-![Choose Language of installation and Default Language for the Website](../../../.gitbook/assets/choose-language-varbase.png)
+![Choose Language of installation and Default Language for the Website](../../../.gitbook/assets/Choose-language-Varbase.png)
 
 Varbase gave the option of enabling multiple language options on the multilingual configuration installation step.
 
-![Multilingual Configuration installation Step](../../../.gitbook/assets/multilingual-configuration-varbase.png)
+![Multilingual Configuration installation Step](../../../.gitbook/assets/Multilingual-configuration-Varbase.png)
 
 This will enable the necessary modules for a multilingual website.&#x20;
 
-![Enable Multiple Languages for This Site](../../../.gitbook/assets/multilingual-configuration-varbase-enable-multiple-languages-for-this-site.png)
+![Enable Multiple Languages for This Site](../../../.gitbook/assets/Multilingual-configuration-Varbase----Enable-multiple-languages-for-this-site.png)
 
 {% hint style="success" %}
 Enabling multiple languages for the site right from the installation step is the best option for multilingual websites.
