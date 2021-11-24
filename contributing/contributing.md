@@ -28,16 +28,16 @@ We're very excited to have you interested in contributing features to Varbase. C
 4. Considers all the Site Building config such as: Permissions, Config, View modes, Form modes, Integrations
 5. Tested frontend utilizing Bootstrap 4 and/or 5
 
-{% content-ref url="../dev-docs/extending-varbase/install-needed-tools.md" %}
-[install-needed-tools.md](../dev-docs/extending-varbase/install-needed-tools.md)
+{% content-ref url="../developers/extending-varbase/install-needed-tools.md" %}
+[install-needed-tools.md](../developers/extending-varbase/install-needed-tools.md)
 {% endcontent-ref %}
 
-{% content-ref url="../dev-docs/extending-varbase/compiling-provided-component-styles.md" %}
-[compiling-provided-component-styles.md](../dev-docs/extending-varbase/compiling-provided-component-styles.md)
+{% content-ref url="../developers/extending-varbase/compiling-provided-component-styles.md" %}
+[compiling-provided-component-styles.md](../developers/extending-varbase/compiling-provided-component-styles.md)
 {% endcontent-ref %}
 
-{% content-ref url="../dev-docs/extending-varbase/check-standards-practice-coding-and-linting.md" %}
-[check-standards-practice-coding-and-linting.md](../dev-docs/extending-varbase/check-standards-practice-coding-and-linting.md)
+{% content-ref url="../developers/extending-varbase/check-standards-practice-coding-and-linting.md" %}
+[check-standards-practice-coding-and-linting.md](../developers/extending-varbase/check-standards-practice-coding-and-linting.md)
 {% endcontent-ref %}
 
 ## Help in Development
