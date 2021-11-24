@@ -1,9 +1,10 @@
 # Table of contents
 
-* [About Varbase](README.md)
-* [Roadmap](roadmap/README.md)
-  * [Release Cycle and Supported Versions](roadmap/release-cycle-and-supported-versions.md)
-* [How to Get Support](update.md)
+* [Overview](README.md)
+  * [About Varbase](overview/undefined.md)
+  * [Roadmap](overview/roadmap/README.md)
+    * [Release Cycle and Supported Versions](overview/roadmap/release-cycle-and-supported-versions.md)
+  * [How to Get Support](overview/update.md)
 
 ## Developer and Site Builder Docs <a href="dev-docs" id="dev-docs"></a>
 

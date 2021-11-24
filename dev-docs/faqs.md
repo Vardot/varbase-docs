@@ -1,4 +1,4 @@
-# Frequently Asked Questions \(FAQs\)
+# Frequently Asked Questions (FAQs)
 
 ## How can I update Varbase to the most recent version?
 
@@ -17,10 +17,9 @@ Alternatively, you can update your site in two steps.
 
 Varbase follows Drupal 8/9 release cycle. Therefore, a version of Varbase that is named 8.x-5.x uses the same **major** version of Drupal 8.x-5.x.
 
-Read the [Release Cycle and Supported Versions](../roadmap/release-cycle-and-supported-versions.md#varbase-supported-versions) to understand more.
+Read the [Release Cycle and Supported Versions](../overview/roadmap/release-cycle-and-supported-versions.md#varbase-supported-versions) to understand more.
 
 ## What will happen if a patch that was added in the composer.json file got applied in the version of a module/package?
 
-We have developed a mechanism to handle and detect this scenario. [Read how](updating-varbase/handling-patches-when-updating.md) the new `composer-patches` package developed by Vardot will handle these cases.  
+We have developed a mechanism to handle and detect this scenario. [Read how](updating-varbase/handling-patches-when-updating.md) the new `composer-patches` package developed by Vardot will handle these cases.\
 Note, you'll need to have Varbase 8.6.3 to make use of this plugin.
-

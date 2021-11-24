@@ -14,4 +14,4 @@ Upgrade paths will always be provided to guarantee a smooth move between Varbase
 
 See the below image for illustration of supported versions and major release cycle:
 
-![](../.gitbook/assets/Drupal-Feature-Versions-Release-Cycle-and-How-Varbase-Follows-It.png)
+![](../../.gitbook/assets/Drupal-Feature-Versions-Release-Cycle-and-How-Varbase-Follows-It.png)
