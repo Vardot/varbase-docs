@@ -167,5 +167,5 @@
 
 ## Contributing to Varbase <a href="contributing" id="contributing"></a>
 
-* [Contributing](contributing/contributing.md)
-* [Contributing to Documentation](contributing/contributing-to-documentation.md)
+* [Contributing](contributing/contributing/README.md)
+  * [Contributing to Documentation](contributing/contributing/contributing-to-documentation.md)
