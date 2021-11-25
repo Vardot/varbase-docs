@@ -165,7 +165,7 @@
   * [Varbase settings](user-guide/site-configuration/varbase-settings.md)
   * [Web services](user-guide/site-configuration/web-services.md)
 
-## Contributing to Varbase <a href="contributing" id="contributing"></a>
+***
 
-* [Contributing](contributing/contributing/README.md)
-  * [Contributing to Documentation](contributing/contributing/contributing-to-documentation.md)
+* [Contributing](contributing/README.md)
+  * [Contributing to Documentation](contributing/contributing-to-documentation.md)
