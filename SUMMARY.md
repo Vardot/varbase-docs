@@ -101,8 +101,6 @@
     * [Compiling Provided Component Styles](developers/extending-varbase/compiling-provided-component-styles.md)
     * [Check Standards/Practice Coding And Linting](developers/extending-varbase/check-standards-practice-coding-and-linting.md)
 
-## Developer and Site Builder Docs <a href="dev-docs" id="dev-docs"></a>
-
 ## User Guide
 
 * [Default Roles and Site Personas](user-guide/default-roles-and-site-persons/README.md)
