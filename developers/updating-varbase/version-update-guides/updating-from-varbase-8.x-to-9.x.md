@@ -324,7 +324,7 @@ The root `composer.json` file should look like the Varbase 9.0.x project templat
 
 &#x20; <mark style="background-color:orange;">**It should look like the composer.json file .. not the same exact copy of it**</mark> &#x20;
 
-[https://github.com/Vardot/varbase-project/blob/9.0.2/composer.json](https://github.com/Vardot/varbase-project/blob/9.0.1/composer.json)
+[https://github.com/Vardot/varbase-project/blob/9.0.3/composer.json](https://github.com/Vardot/varbase-project/blob/9.0.3/composer.json)
 
 keep the work of the automated updater. Do not do any manual copy and replacing for the outcome composer.json file. Only edit the the same file.
 {% endhint %}
