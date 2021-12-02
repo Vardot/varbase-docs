@@ -22,8 +22,8 @@ Follow these steps on how to manage the domain redirects:
 
 1. Fill in the _From domain_ field
 2. Fill in the _sub path_ fields - _add "/\*" that means any path_
-3. Fill in the _Destination _field
-4. Click the _Save _button
+3. Fill in the _Destination_ field
+4. Click the _Save_ button
 
 When filling in the _From domain_ field, you are just simply saying from where the users will be redirected to the _Destination._
 

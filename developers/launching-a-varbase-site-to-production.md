@@ -12,7 +12,7 @@ Varbase Development enables number of needed development tools, But they should 
 [varbase-development.md](understanding-varbase/development-components/varbase-development.md)
 {% endcontent-ref %}
 
-* [ ] **Varbase Development **
+* [ ] **Varbase Development**&#x20;
 * [ ] Reroute Email
 * [ ] Migrate Drupal UI
 * [ ] Database Log

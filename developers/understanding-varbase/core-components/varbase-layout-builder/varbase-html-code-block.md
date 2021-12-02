@@ -5,7 +5,7 @@ An HTML Code block contains a title and a body with an HTML text format.
 ## Varbase HTML Code Block Module
 
 {% hint style="info" %}
-Varbase HTML code block features are bundled through the **Varbase HTML Code Block **module as part of the **Varbase Layout Builder** module.
+Varbase HTML code block features are bundled through the **Varbase HTML Code Block** module as part of the **Varbase Layout Builder** module.
 
 GitHub: [https://github.com/Vardot/varbase\_layout\_builder](https://github.com/Vardot/varbase\_layout\_builder)\
 Drupal.org: [https://www.drupal.org/project/varbase\_layout\_builder](https://www.drupal.org/project/varbase\_layout\_builder)

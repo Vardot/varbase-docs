@@ -5,7 +5,7 @@ Manages default config for Instagram media type.
 ## Varbase Media Instagram Module
 
 {% hint style="info" %}
-Varbase media Instagram features are bundled through the **Varbase Media Instagram **module as part of the **Varbase Media** module.\
+Varbase media Instagram features are bundled through the **Varbase Media Instagram** module as part of the **Varbase Media** module.\
 GitHub: [https://github.com/Vardot/varbase\_media](https://github.com/Vardot/varbase\_media)\
 Drupal.org: [https://www.drupal.org/project/varbase\_media](https://www.drupal.org/project/varbase\_media)
 

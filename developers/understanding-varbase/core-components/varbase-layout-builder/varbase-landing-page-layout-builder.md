@@ -5,7 +5,7 @@ Provides Landing page (Layout Builder) content type and related configuration. U
 ## Varbase Landing Page (Layout Builder) Module
 
 {% hint style="info" %}
-Varbase landing page features are bundled through the **Varbase Landing Page (Layout Builder) **module as part of the **Varbase Layout Builder** module.
+Varbase landing page features are bundled through the **Varbase Landing Page (Layout Builder)** module as part of the **Varbase Layout Builder** module.
 
 GitHub: [https://github.com/Vardot/varbase\_layout\_builder](https://github.com/Vardot/varbase\_layout\_builder)\
 Drupal.org: [https://www.drupal.org/project/varbase\_layout\_builder](https://www.drupal.org/project/varbase\_layout\_builder)

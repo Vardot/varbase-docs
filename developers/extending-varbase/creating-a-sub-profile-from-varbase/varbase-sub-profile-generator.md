@@ -69,9 +69,9 @@ target:
       label: 1.0.x
 ```
 
-Change the **dev\_version **to mach with the target **dev\_branch** name and alias.
+Change the **dev\_version** to mach with the target **dev\_branch** name and alias.
 
-**Example: **The [**CV**](https://www.drupal.org/project/cv) profile
+**Example:** The [**CV**](https://www.drupal.org/project/cv) profile
 
 Change target _`dev_branch`_ for the _`profile`_ and _`project`_ to **3.0.x** for the [**CV**](https://www.drupal.org/project/cv) example profile
 
@@ -95,7 +95,7 @@ target:
 
 Run the generate command.
 
-**Example: **The [**CV**](https://www.drupal.org/project/cv) profile
+**Example:** The [**CV**](https://www.drupal.org/project/cv) profile
 
 In a case of creating a Varbase sub profile named "cv". Run the following commands in the local terminal:
 
@@ -125,7 +125,7 @@ Submit them to [https://packagist.org](https://packagist.org) to be able to crea
 
 Commit to a new project in [https://drupal.org](https://drupal.org) to list the profile in the projects catalog in Drupal.org
 
-**Example: **The [**CV**](https://www.drupal.org/project/cv) profile
+**Example:** The [**CV**](https://www.drupal.org/project/cv) profile
 
 #### **CV at Github.com**
 
@@ -145,7 +145,7 @@ Commit to a new project in [https://drupal.org](https://drupal.org) to list the 
 
 Have a development working directory to work on changing on generated sub profile.
 
-**Example: **The [**CV**](https://www.drupal.org/project/cv) profile
+**Example:** The [**CV**](https://www.drupal.org/project/cv) profile
 
 To install the development version of CV 3.0.x run this command:
 
@@ -153,13 +153,13 @@ To install the development version of CV 3.0.x run this command:
 composer create-project vardot/cv-project:3.0.x-dev PROJECT_DIR_NAME --stability dev --no-interaction
 ```
 
-Commits changes over the code or configs to the **cv** and **cv-project **to the public repositories.
+Commits changes over the code or configs to the **cv** and **cv-project** to the public repositories.
 
 That will reflect on `composer create-project`, `composer install` or `composer update`.&#x20;
 
 #### **CV on Github.com**
 
-Make sure that changes are updated in **github.com **site.
+Make sure that changes are updated in **github.com** site.
 
 * [https://github.com/Vardot/cv](https://github.com/Vardot/cv)
 * [https://github.com/Vardot/cv-project](https://github.com/Vardot/cv-project)

@@ -66,7 +66,7 @@ SEO admin roles nor Site admin role can't include the XML sitemap to a specific 
 
 ![Content types are not indexed in the XML sitemap](<../../.gitbook/assets/image (18).png>)
 
-Let us take a Super admin role, remember this role can manage everything on the site. Now let us include the content-type to the XML sitemap, navigate to:  **Administration \ Structure \ **_**Content-type. **_After navigating to the content types page, click the drop-down arrow on any content-type for example "Blog post" then click "Edit".
+Let us take a Super admin role, remember this role can manage everything on the site. Now let us include the content-type to the XML sitemap, navigate to:  **Administration \ Structure \ **_**Content-type.**_ After navigating to the content types page, click the drop-down arrow on any content-type for example "Blog post" then click "Edit".
 
 In the content-type "Blog post" editorial page:
 

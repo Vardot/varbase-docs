@@ -5,7 +5,7 @@ Base theme for Varbase standard websites. Based on Bootstrap 4 framework using S
 ## Vartheme (Bootstrap 4 - SASS) Theme
 
 {% hint style="info" %}
-Varbase front-end theme are bundled through the **Vartheme BS4 **theme.\
+Varbase front-end theme are bundled through the **Vartheme BS4** theme.\
 GitHub: [https://github.com/Vardot/vartheme\_bs4](https://github.com/Vardot/vartheme\_bs4)\
 Drupal.org: [https://www.drupal.org/project/vartheme\_bs4](https://www.drupal.org/project/vartheme\_bs4)
 

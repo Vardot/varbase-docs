@@ -6,13 +6,13 @@ Recommended to read:
 * [Upgrade guides for Composer 1.x to 2.0](https://github.com/composer/composer/blob/2.0.0/UPGRADE-2.0.md)
 
 {% hint style="success" %}
-**As for **[**Varbase 8.8.8**](https://www.drupal.org/project/varbase/releases/8.x-8.8)** and **[**Varbase 9.0.0-rc1**](https://www.drupal.org/project/varbase/releases/9.0.0-rc1)**, Varbase works with both Composer 1.0 and Composer 2.0 **
+**As for** [**Varbase 8.8.8**](https://www.drupal.org/project/varbase/releases/8.x-8.8) **and** [**Varbase 9.0.0-rc1**](https://www.drupal.org/project/varbase/releases/9.0.0-rc1)**, Varbase works with both Composer 1.0 and Composer 2.0**&#x20;
 
 Recommended to build all new **Varbase Projects** with **Composer 2.0**
 {% endhint %}
 
 {% hint style="success" %}
-If the site was built recently with the listed latest releases** **[**Varbase 8.8.8**](https://www.drupal.org/project/varbase/releases/8.x-8.8)** **or** **[**Varbase 9.0.0-rc1**](https://www.drupal.org/project/varbase/releases/9.0.0-rc1), but the project was built using the **Composer 1.0 **version. The site is ready to start using **Composer 2.0**
+If the site was built recently with the listed latest releases **** [**Varbase 8.8.8**](https://www.drupal.org/project/varbase/releases/8.x-8.8) **** or **** [**Varbase 9.0.0-rc1**](https://www.drupal.org/project/varbase/releases/9.0.0-rc1), but the project was built using the **Composer 1.0** version. The site is ready to start using **Composer 2.0**
 
 Only update the **Composer** from **1.0** to **2.0**
 
@@ -20,7 +20,7 @@ Do a`composer update`to update the autoloaders, namespaces map, and classes map.
 {% endhint %}
 
 {% hint style="warning" %}
-If the site was built with** Varbase 8.8.7** and older**, **Follow the following steps:
+If the site was built with **Varbase 8.8.7** and older**,** Follow the following steps:
 {% endhint %}
 
 > **Step #1:** Update composer to latest composer 1.0 by
@@ -50,7 +50,7 @@ If the site was built with** Varbase 8.8.7** and older**, **Follow the following
 >
 > Remove **drupal/drupal-library-installer-plugin**
 >
-> **Step #3:** Update **Varbase **to **8.8.8**  or **9.0.0-rc1** with **Composer 1.0**
+> **Step #3:** Update **Varbase** to **8.8.8**  or **9.0.0-rc1** with **Composer 1.0**
 >
 > ```
 > cd /PATH_TO_THE_PROJECT

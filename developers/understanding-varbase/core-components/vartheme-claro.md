@@ -12,7 +12,7 @@ Following up with [Drupal Design system](https://www.figma.com/file/OqWgzAluHtsO
 ## Varbase Claro Admin Theme
 
 {% hint style="info" %}
-Varbase administration theme are bundled through the **Vartheme Claro **theme.\
+Varbase administration theme are bundled through the **Vartheme Claro** theme.\
 GitHub: [https://github.com/Vardot/vartheme\_claro](https://github.com/Vardot/vartheme\_claro)\
 Drupal.org: [https://www.drupal.org/project/vartheme\_claro](https://www.drupal.org/project/vartheme\_claro)
 

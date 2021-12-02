@@ -7,7 +7,7 @@ Enables the necessary modules for a multilingual website. These include: **Langu
 ## Varbase Internationalization Module
 
 {% hint style="info" %}
-Varbase internationalization features are bundled through the **Varbase Internationalization **module as part of the **Varbase Core** module.\
+Varbase internationalization features are bundled through the **Varbase Internationalization** module as part of the **Varbase Core** module.\
 GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase\_core)\
 Drupal.org: [https://www.drupal.org/project/varbase\_core](https://www.drupal.org/project/varbase\_core)&#x20;
 
@@ -66,7 +66,7 @@ In case of not selecting the option on install. some issues will start to show u
 
 ## Creating a Multilingual Database for Websites
 
-It is better to use the right **character set** and **collation**,** **If the database was manually created.
+It is better to use the right **character set** and **collation**, **** If the database was manually created.
 
 {% hint style="info" %}
 **Following with Drupal documentation on Step 3: Create a database** [https://www.drupal.org/docs/installing-drupal/step-3-create-a-database](https://www.drupal.org/docs/installing-drupal/step-3-create-a-database)

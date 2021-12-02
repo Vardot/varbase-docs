@@ -23,14 +23,14 @@ In case of capturing a bug. Search if it was filed in an issue.  Look if the a p
 {% hint style="info" %}
 Apply the patch using the **Composer patching method** using:
 
-** **[**cweagans/composer-patches**](https://github.com/cweagans/composer-patches)****
+&#x20;**** [**cweagans/composer-patches**](https://github.com/cweagans/composer-patches)****
 
 Do not use the manual patching method in projects.
 
 This action will guarantee the direction of keeping track of changes over the code.
 {% endhint %}
 
-**Example: **In the `composer.json` file for the project:
+**Example:** In the `composer.json` file for the project:
 
 ```
 {
@@ -93,9 +93,9 @@ There may be situations in which you want to ignore a patch supplied by a depend
 * A dependency's patch adds a feature to a project that you don't need.
 * Your patches conflict with a dependency's patches.
 
-**Example: **
+**Example:**&#x20;
 
-The [**Varbase Core**](https://www.drupal.org/project/varbase\_core)** **module** **is requiring** Drupal Core **with** **`"drupal/core": "~9.0",`** **. Having number of patches to fix issues or overriding Drupal core.
+The [**Varbase Core**](https://www.drupal.org/project/varbase\_core) **** module **** is requiring **Drupal Core** with **** `"drupal/core": "~9.0",` **** . Having number of patches to fix issues or overriding Drupal core.
 
 {% hint style="info" %}
 **Varbase Core**'s `composer.json` file for the 9.0.7 version
@@ -168,7 +168,7 @@ Ignore the patch being used as in the following example method:
 ```
 
 {% hint style="danger" %}
-Do not keep **patches** or **patches-ignore **for long in projects.
+Do not keep **patches** or **patches-ignore** for long in projects.
 
 Keep track of them, and clean not needed patches.
 {% endhint %}

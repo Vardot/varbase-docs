@@ -30,7 +30,7 @@ bash ./install-needed-tools.sh
 
 Recommended doing the installation of needed tools using the bash script command. But if that is not the case. By deciding to manually install custom versions. Please follow with the following steps.
 
-### **1. Install **[**sed**](https://www.gnu.org/software/sed/manual/sed.html)** and **[**gawk**](https://www.gnu.org/software/gawk/manual/gawk.html)****
+### **1. Install** [**sed**](https://www.gnu.org/software/sed/manual/sed.html) **and** [**gawk**](https://www.gnu.org/software/gawk/manual/gawk.html)****
 
 Helps with string replace and re-naming files.
 
@@ -40,7 +40,7 @@ sudo apt install -y sed gawk;
 
 ### **2. Install npm** and [**nodejs**](https://nodejs.org/en/)****
 
-&#x20;Helps getting more development tools and the **Bootstrap **and **popper** packages.&#x20;
+&#x20;Helps getting more development tools and the **Bootstrap** and **popper** packages.&#x20;
 
 ```
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - 
@@ -65,7 +65,7 @@ Install **Yarn** as a global by **npm**
 sudo npm install -g yarn
 ```
 
-### **4. Install **[**Gulp**](https://gulpjs.com)
+### **4. Install** [**Gulp**](https://gulpjs.com)
 
 Helps in managing tasks when compiling SASS/SCSS to CSS
 
@@ -113,7 +113,7 @@ Change directory to `docroot/themes/contrib/vartheme_bs4/scripts`
 cd /var/www/html/mysite/docroot/themes/contrib/vartheme_bs4/scripts
 ```
 
-Run the following `bash`command to create a custom theme named "_mytheme" _
+Run the following `bash`command to create a custom theme named "_mytheme"_&#x20;
 
 ```
 bash ./create-new-vartheme-bs4.sh "mytheme"

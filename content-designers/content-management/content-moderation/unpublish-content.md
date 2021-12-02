@@ -6,5 +6,5 @@ As mentioned in the [**Publish**](publish-content.md) section you can switch the
 
 You can find the option to unpublish from:
 
-1. Moderation sidebar:** **The status of the node will be shown. just update to unpublish.
+1. Moderation sidebar: **** The status of the node will be shown. just update to unpublish.
 2. Under each node, at the bottom of the page you can change the page workflow.

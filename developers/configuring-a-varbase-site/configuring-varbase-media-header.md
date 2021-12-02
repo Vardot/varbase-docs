@@ -18,7 +18,7 @@ Site builders can activate that for content types.
 
 
 
-* Landing on the_ "/admin/config/varbase/varbase-media-header"  _admin link. A list of content types are listed with activated or not activated media header.
+* Landing on the _"/admin/config/varbase/varbase-media-header"_  admin link. A list of content types are listed with activated or not activated media header.
 
 ![Varbase Media Header Settings Page](../../.gitbook/assets/Varbase-Media-Header-settings-page.png)
 
@@ -28,7 +28,7 @@ Site builders can activate that for content types.
 {% hint style="info" %}
 This will add two new fields to each selected content type:
 
-* **Main media **(field\_media): to store the media for the header
+* **Main media** (field\_media): to store the media for the header
 * **Page header style** (field\_page\_header\_style):
 
 &#x20; Which stores the choice of header as :
@@ -49,7 +49,7 @@ For sure more custom page header styles could be added to the field. But that wi
 
 ### Place The **Varbase Media Header Block**
 
-*   Navigate to **Structure** \ **Block layout **and place the **Varbase Media Header block**
+*   Navigate to **Structure** \ **Block layout** and place the **Varbase Media Header block**
 
     (usually at the top of the top bar)&#x20;
 * Configure the block by choosing `'main media'`for each activated content type. Or other media field which are selected to work as the background image for the media header.
@@ -61,7 +61,7 @@ For sure more custom page header styles could be added to the field. But that wi
 
 ### 1. Activate Media Header
 
-Activate the **Varbase Media Header** for the **Basic page** content type. By navigating to _**"/admin/config/varbase/varbase-media-header". **_And checking the Basic page check box and press "Save configuration".
+Activate the **Varbase Media Header** for the **Basic page** content type. By navigating to _**"/admin/config/varbase/varbase-media-header".**_ And checking the Basic page check box and press "Save configuration".
 
 ![Checked Basic Page Content Type Under Varbase Media Header Settings](../../.gitbook/assets/Varbase-Media-Header-settings---exmaple-basic-page-1.png)
 
@@ -84,7 +84,7 @@ Navigate to "/admin/structure/types/manage/page/fields"
 {% hint style="info" %}
 Notice two new fields:
 
-* **Main media **(field\_media)
+* **Main media** (field\_media)
 * **Page header style** (field\_page\_header\_style):
 {% endhint %}
 
@@ -98,9 +98,9 @@ In case that the (field\_media, and field\_page\_header\_style) fields are not l
 
 Navigate to "/admin/structure/types/manage/page/form-display"
 
-The **Page header style** field should have the _**"Check boxes/radio buttons" **_widget.
+The **Page header style** field should have the _**"Check boxes/radio buttons"**_ widget.
 
-The **Main media **field should have the _**"Media Library"**_ widget. And **Tab order:** Image, Remote video, Video.
+The **Main media** field should have the _**"Media Library"**_ widget. And **Tab order:** Image, Remote video, Video.
 
 ![Manage Form Display For Basic Page Content Type](../../.gitbook/assets/Varbase-Media-Header---exmaple-basic-page---Manage-form-display.png)
 
@@ -127,7 +127,7 @@ After saving the "Basic page _About Us_ has been created." and the page will loo
 
 ### 6. Configuring the Block
 
-* Navigate to **Structure** \ **Block layout **for your default theme
+* Navigate to **Structure** \ **Block layout** for your default theme
 * Click on the "Place Block" button for the "Content" region ( or any custom region the theme could have for a project ).
 
 ![Place Block Next to Content Region for the Current Default Theme](../../.gitbook/assets/Varbase-Media-Header---place-block--content.png)

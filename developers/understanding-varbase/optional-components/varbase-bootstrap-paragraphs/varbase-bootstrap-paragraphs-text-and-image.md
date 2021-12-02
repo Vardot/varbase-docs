@@ -5,7 +5,7 @@ Text and image paragraph type.
 ## Varbase Bootstrap Paragraphs Text and Image Module
 
 {% hint style="info" %}
-Varbase Bootstrap paragraphs text and image features are bundled through the **Varbase Bootstrap Paragraphs Text and Image **module as part of the **Varbase Bootstrap Paragraphs** module.
+Varbase Bootstrap paragraphs text and image features are bundled through the **Varbase Bootstrap Paragraphs Text and Image** module as part of the **Varbase Bootstrap Paragraphs** module.
 
 GitHub: [https://github.com/Vardot/varbase\_bootstrap\_paragraphs](https://github.com/Vardot/varbase\_bootstrap\_paragraphs)\
 Drupal.org: [https://www.drupal.org/project/varbase\_bootstrap\_paragraphs](https://www.drupal.org/project/varbase\_bootstrap\_paragraphs)

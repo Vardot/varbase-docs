@@ -77,7 +77,7 @@ Have a look at the **`varbase_api_update_8702`** hook function
 ## Example Use On Custom Template Config Imports
 
 * Having custom and managed config templates. Which on import to the active config for selected entity types or fields.
-* **Entity definitions **need to be auto updated
+* **Entity definitions** need to be auto updated
 * **Field definitions** need to be auto updated.
 
 {% hint style="info" %}
@@ -89,13 +89,13 @@ Have a look at the following commit to use in Custom Config Import Classes
 ## When to Use and When Not to Use?
 
 {% hint style="danger" %}
-**Do not use **when the import/update of configs works in the normal way.
+**Do not use** when the import/update of configs works in the normal way.
 
 If all configs are in the **`config/install`** and no issues on install.
 {% endhint %}
 
 {% hint style="success" %}
-**Use **when custom managed configs just have been imported or updated in a custom order, And custom actions or changes in between imports are being involved.
+**Use** when custom managed configs just have been imported or updated in a custom order, And custom actions or changes in between imports are being involved.
 
 If the module or profile has number of optional or managed configs. Which located in **`config/optional`** or **`config/managed`** or any other custom physical locations.
 

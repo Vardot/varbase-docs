@@ -5,7 +5,7 @@ A gallery block contains a title and a gallery of images and videos.
 ## Varbase Gallery Block Module
 
 {% hint style="info" %}
-Varbase gallery features are bundled through the **Varbase Gallery Block **module as part of the **Varbase Layout Builder** module.
+Varbase gallery features are bundled through the **Varbase Gallery Block** module as part of the **Varbase Layout Builder** module.
 
 GitHub: [https://github.com/Vardot/varbase\_layout\_builder](https://github.com/Vardot/varbase\_layout\_builder)\
 Drupal.org: [https://www.drupal.org/project/varbase\_layout\_builder](https://www.drupal.org/project/varbase\_layout\_builder)

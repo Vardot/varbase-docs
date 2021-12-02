@@ -20,6 +20,6 @@ Varbase uses the [Update Helper](https://www.drupal.org/project/update\_helper) 
 {% hint style="info" %}
 ### How to Access Varbase Updates Changelog UI
 
-You can navigate to [http://my.varbase-site.local/**admin/config/development/update-helper**](http://my.varbase-site.local/admin\*\*/config/development/update-helper\*\*)** **_(where my.varbase-site.local is the URL for your website)_\
+You can navigate to [http://my.varbase-site.local/**admin/config/development/update-helper**](http://my.varbase-site.local/admin\*\*/config/development/update-helper\*\*) **** _(where my.varbase-site.local is the URL for your website)_\
 or go to **Administration** \ **Reports** \ **Checklists** \ _**Varbase Updates**_ to learn about the new changes and updates introduced in your Varbase site.
 {% endhint %}

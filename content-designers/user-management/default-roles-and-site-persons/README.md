@@ -22,7 +22,7 @@ The default roles that come preinstalled with Varbase are:
    ****Can edit everything in content and configurations for the site.
 
 {% hint style="info" %}
-You'll also notice that there are 2 more roles when managing roles and permissions. The **Anonymous user **role and the **Authenticated user **role. These roles are provided by default from Drupal and cannot be edited/deleted. These roles help identify the users such as:
+You'll also notice that there are 2 more roles when managing roles and permissions. The **Anonymous user** role and the **Authenticated user** role. These roles are provided by default from Drupal and cannot be edited/deleted. These roles help identify the users such as:
 
 **Anonymous user**: Any visitor/user who can access the website without providing a username or password.
 

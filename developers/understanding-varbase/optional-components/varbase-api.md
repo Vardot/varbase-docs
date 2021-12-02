@@ -27,7 +27,7 @@ Brings in the following core and contributed modules to your site:
 | <p><strong>JSON:API</strong></p><p><em>(in Drupal core)</em></p>                                   | Exposes entities as a JSON:API-specification-compliant web API. |
 | ****[**OpenAPI**](https://www.drupal.org/project/openapi)****                                      | Connects Drupal to the OpenAPI Javascript Library.              |
 | ****[**OpenAPI for JSON:API**](https://www.drupal.org/project/openapi\_jsonapi)****                | OpenAPI support for the JSON:API module.                        |
-| ****[**OpenAPI for REST**](https://www.drupal.org/project/openapi\_rest)** **                      | OpenAPI support for the REST module.                            |
+| ****[**OpenAPI for REST**](https://www.drupal.org/project/openapi\_rest) ****                      | OpenAPI support for the REST module.                            |
 | ****[**ReDoc for OpenAPI UI**](https://www.drupal.org/project/openapi\_ui\_redoc)****              | Provides display of OpenAPI docs using the ReDoc library.       |
 | ****[**Swagger UI for OpenAPI UI**](https://www.drupal.org/project/openapi\_ui\_swagger)****       | Provides display of OpenAPI docs using the Swagger UI plugin.   |
 | ****[**Simple OAuth (OAuth2) & OpenID Connect**](https://www.drupal.org/project/simple\_oauth)**** | The OAuth 2.0 Authorization Framework                           |

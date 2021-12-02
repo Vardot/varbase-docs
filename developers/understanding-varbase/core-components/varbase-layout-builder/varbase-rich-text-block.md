@@ -5,7 +5,7 @@ A rich text block contains a title and a body with a rich text format.
 ## Varbase Rich Text Block Module
 
 {% hint style="info" %}
-Varbase rich text block features are bundled through the **Varbase Rich Text Block **module as part of the **Varbase Layout Builder** module.
+Varbase rich text block features are bundled through the **Varbase Rich Text Block** module as part of the **Varbase Layout Builder** module.
 
 GitHub: [https://github.com/Vardot/varbase\_layout\_builder](https://github.com/Vardot/varbase\_layout\_builder)\
 Drupal.org: [https://www.drupal.org/project/varbase\_layout\_builder](https://www.drupal.org/project/varbase\_layout\_builder)

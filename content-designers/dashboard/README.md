@@ -31,8 +31,8 @@ To edit the current Dashboard follow these steps:
 
 4\. Try to update the dashboard by:
 
-* Reorder the default _blocks under the dashboard. _
-* _Add Variant _
+* Reorder the default _blocks under the dashboard._&#x20;
+* _Add Variant_&#x20;
 * _Delete Page._
 * Add _new block_
 

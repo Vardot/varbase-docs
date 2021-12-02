@@ -34,7 +34,7 @@ Check the **What changes are there for third-party dependencies?**
 
 ### Varbase 8.8.7 and Older
 
-Make sure that **Composer** version **\~1 **is in use in the development environment.
+Make sure that **Composer** version **\~1** is in use in the development environment.
 
 ```
 sudo composer self-update --1
@@ -54,7 +54,7 @@ Remove the not needed `"drupal/drupal-library-installer-plugin": "^0.3",`  from 
 
 ### Varbase 8.8.8 and Newer
 
-Make sure that **Composer** version **\~2 **is in use in the development environment.
+Make sure that **Composer** version **\~2** is in use in the development environment.
 
 ```
 sudo composer self-update --2
@@ -80,105 +80,105 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 ### Modules Had Been Removed&#x20;
 
 {% hint style="success" %}
-**Uninstall the **[**Libraries API**](https://www.drupal.org/project/libraries)** Module**
+**Uninstall the** [**Libraries API**](https://www.drupal.org/project/libraries) **Module**
 
 `drush pm:uninstall libraries`
 
-**Drupal 9 Compatible **but no longer in **Varbase Core **
+**Drupal 9 Compatible** but no longer in **Varbase Core**&#x20;
 
 * Issue [#3170653](https://www.drupal.org/i/3170653): Removed **Libraries API** module as much of its functionality had been moved to **Drupal 9 core**
 {% endhint %}
 
 {% hint style="danger" %}
-**Uninstall the **[**Libraries UI**](https://www.drupal.org/project/libraries\_ui)** Module**
+**Uninstall the** [**Libraries UI**](https://www.drupal.org/project/libraries\_ui) **Module**
 
 &#x20;`drush pm:uninstall libraries_ui`
 
-**Not** **Compatible **with **Drupal 9** yet
+**Not** **Compatible** with **Drupal 9** yet
 
 * Issue [#3168664](https://www.drupal.org/i/3168664): Removed **Libraries UI** module from **Varbase Development**
 {% endhint %}
 
 {% hint style="danger" %}
-**Uninstall the **[**Mail Editor**](https://www.drupal.org/project/mail\_edit)** Module**
+**Uninstall the** [**Mail Editor**](https://www.drupal.org/project/mail\_edit) **Module**
 
 &#x20;`drush pm:uninstall mail_edit`
 
-**Not** **Compatible **with **Drupal 9** yet
+**Not** **Compatible** with **Drupal 9** yet
 
 * Issue [#3168674](https://www.drupal.org/i/3168674): Removed **Mail Editor** module from **Varbase Core**
 {% endhint %}
 
 {% hint style="danger" %}
-**Uninstall the **[**Webform Analysis**](https://www.drupal.org/project/webform\_analysis)** Module**
+**Uninstall the** [**Webform Analysis**](https://www.drupal.org/project/webform\_analysis) **Module**
 
-` drush pm:uninstall webform_analysis`
+&#x20;`drush pm:uninstall webform_analysis`
 
-**Not** **Compatible **with **Drupal 9** yet
+**Not** **Compatible** with **Drupal 9** yet
 
 * Issue [#3175839](https://www.drupal.org/i/3175839): Removed **Webform Analysis** module from **Varbase Core**
 {% endhint %}
 
 {% hint style="danger" %}
-**Uninstall the **[**Tour Builder**](https://www.drupal.org/project/tour\_builder)** Module**
+**Uninstall the** [**Tour Builder**](https://www.drupal.org/project/tour\_builder) **Module**
 
-` drush pm:uninstall tour_builder`
+&#x20;`drush pm:uninstall tour_builder`
 
-**Not** **Compatible **with **Drupal 9** yet
+**Not** **Compatible** with **Drupal 9** yet
 
-* Issue [#3176580](https://www.drupal.org/i/3176580): Removed **Tour Builder **module from **Varbase Core**
+* Issue [#3176580](https://www.drupal.org/i/3176580): Removed **Tour Builder** module from **Varbase Core**
 {% endhint %}
 
 {% hint style="success" %}
-**Uninstall the **[**SMTP Authentication Support**](https://www.drupal.org/project/smtp)** Module.**
+**Uninstall the** [**SMTP Authentication Support**](https://www.drupal.org/project/smtp) **Module.**
 
 `drush pm:uninstall smtp`
 
-**Drupal 9 Compatible **but no longer in **Varbase Mail **
+**Drupal 9 Compatible** but no longer in **Varbase Mail**&#x20;
 
 * Issue [#3143148](https://www.drupal.org/i/3143148): Removed **Smtp** module&#x20;
 * Issue [#3047359](https://www.drupal.org/node/3047359): Removed enabling the **smtp** module as we have switched to use **swiftmailer** \~1.0 and **Varbase** emailing configs switched to **Varbase Email** module.
 {% endhint %}
 
 {% hint style="danger" %}
-**Uninstall the **[**Media Library Theme Reset**](https://www.drupal.org/project/media\_library\_theme\_reset)** Module**
+**Uninstall the** [**Media Library Theme Reset**](https://www.drupal.org/project/media\_library\_theme\_reset) **Module**
 
 `drush pm:uninstall media_library_theme_reset`
 
-**Not** **Compatible **with **Drupal 9** yet
+**Not** **Compatible** with **Drupal 9** yet
 
-* Issue [#3174423](https://www.drupal.org/i/3174423): Removed **Media Library Theme Reset **module
+* Issue [#3174423](https://www.drupal.org/i/3174423): Removed **Media Library Theme Reset** module
 {% endhint %}
 
 {% hint style="success" %}
-**Uninstall the **[**Color Field**](https://www.drupal.org/project/color\_field)** Module.**
+**Uninstall the** [**Color Field**](https://www.drupal.org/project/color\_field) **Module.**
 
 &#x20; `drush pm:uninstall color_field`
 
-**Drupal 9 Compatible **but no longer in **Varbase Core**
+**Drupal 9 Compatible** but no longer in **Varbase Core**
 
 * Issue [#3145737](https://www.drupal.org/i/3145737): Removed **Color Field** module
 {% endhint %}
 
 {% hint style="success" %}
-**Uninstall the **[**Features**](https://www.drupal.org/project/features)** Module.**
+**Uninstall the** [**Features**](https://www.drupal.org/project/features) **Module.**
 
 &#x20;`drush pm:uninstall features`
 
-&#x20;**Drupal 9 Compatible **but no longer in **Varbase Core**
+&#x20;**Drupal 9 Compatible** but no longer in **Varbase Core**
 
 * Issue [#3145744](https://www.drupal.org/i/3145744): Removed **Features** module
 {% endhint %}
 
 {% hint style="success" %}
-**Uninstall the **[**Adminimal Admin Toolbar**](https://www.drupal.org/project/adminimal\_admin\_toolbar)** Module**
+**Uninstall the** [**Adminimal Admin Toolbar**](https://www.drupal.org/project/adminimal\_admin\_toolbar) **Module**
 
 `drush pm:uninstall adminimal_admin_toolbar`
 
-**Drupal 9 Compatible **but no longer in **Varbase Core **
+**Drupal 9 Compatible** but no longer in **Varbase Core**&#x20;
 
 * Issue [#3145709](https://www.drupal.org/i/3145709): Removed **Adminimal Admin Toolbar** module
-* Issue [#3145720](https://www.drupal.org/i/3145720): Removed **Vartheme Admin **theme
+* Issue [#3145720](https://www.drupal.org/i/3145720): Removed **Vartheme Admin** theme
 
 **Varbase** switched to use [**Vartheme Claro**](https://www.drupal.org/project/vartheme\_claro) and **Claro** from **Drupal Core.**
 
@@ -198,11 +198,11 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 ### Themes Had Been Removed
 
 {% hint style="success" %}
-#### **Uninstall the Vartheme Admin Theme and the **Adminimal - Responsive Administration Theme
+#### **Uninstall the Vartheme Admin Theme and the** Adminimal - Responsive Administration Theme
 
-**Drupal 9 Compatible **but no longer used by  **Varbase **
+**Drupal 9 Compatible** but no longer used by  **Varbase**&#x20;
 
-* Issue [#3145720](https://www.drupal.org/i/3145720): Removed **Vartheme Admin **theme
+* Issue [#3145720](https://www.drupal.org/i/3145720): Removed **Vartheme Admin** theme
 
 
 
@@ -228,7 +228,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% hint style="danger" %}
 In case of not uninstalling them and starting the update, the following issue will show up in the  database update process.
 
-`[1] `[`https://www.drupal.org/docs/8/update/troubleshooting-database-updates`](https://www.drupal.org/docs/8/update/troubleshooting-database-updates)` ) [error] (Currently using Missing or invalid themes The following themes are marked as installed in the core.extension configuration, but they are missing:`
+`[1]` [`https://www.drupal.org/docs/8/update/troubleshooting-database-updates`](https://www.drupal.org/docs/8/update/troubleshooting-database-updates) `) [error] (Currently using Missing or invalid themes The following themes are marked as installed in the core.extension configuration, but they are missing:`
 
 * `adminimal_theme`
 * `vartheme_admin`
@@ -245,7 +245,7 @@ In case of not uninstalling them and starting the update, the following issue wi
 {% hint style="warning" %}
 Check the **Drupal 9 Compatibility** for all used module.
 
-Search for the **"**[**Drupal 9**](https://www.drupal.org/about/9)** is here!"** notice in the Drupal project page for each required module in the root `composer.json` file for the project. Look for **"Requires Drupal:" **In the project page for the module in Drupal.org.
+Search for the **"**[**Drupal 9**](https://www.drupal.org/about/9) **is here!"** notice in the Drupal project page for each required module in the root `composer.json` file for the project. Look for **"Requires Drupal:"** In the project page for the module in Drupal.org.
 {% endhint %}
 
 **Example Module:** [**Webform Mautic**](https://www.drupal.org/project/webform\_mautic)****
@@ -311,7 +311,7 @@ Make sure to have the following in the _**composer.json**_ file.
   
 ```
 
-And the following in the _**extra**, _as having patches is a critical to have the right logic and complete working site.
+And the following in the _**extra**,_ as having patches is a critical to have the right logic and complete working site.
 
 Enable patching and composer should exit on patch failure. Not to miss any functionality or fixes after the update.
 
@@ -322,7 +322,7 @@ Enable patching and composer should exit on patch failure. Not to miss any funct
 
 The root `composer.json` file should look like the Varbase 9.0.x project template `composer.json` file at the following link. Plus all added modules, themes, libraries, and needed patches for the project.
 
-<mark style="background-color:orange;">**  It should look like the composer.json file .. not the same exact copy of it  **</mark>
+&#x20; <mark style="background-color:orange;">**It should look like the composer.json file .. not the same exact copy of it**</mark> &#x20;
 
 [https://github.com/Vardot/varbase-project/blob/9.0.2/composer.json](https://github.com/Vardot/varbase-project/blob/9.0.1/composer.json)
 
@@ -372,7 +372,7 @@ It should be
 
 On wanting to ignore any patch, please use `patches-ignore`
 
-Have a look at **Ignoring Patches **a link for how to do this in the right way
+Have a look at **Ignoring Patches** a link for how to do this in the right way
 
 {% content-ref url="../../extending-varbase/" %}
 [extending-varbase](../../extending-varbase/)
@@ -389,5 +389,5 @@ Please change it back to
 It was sat true in the [**Vardot/varbase-project/composer.json**](https://github.com/Vardot/varbase-project/blob/9.0.2/composer.json) for the following rezone.
 
 {% hint style="danger" %}
-A module could have a **security patch** or a **functional feature patch.** If the patch did not apply. That means the project has a **security issue, **or some expected **behaviors will be lost** or a bug will show up in projects.
+A module could have a **security patch** or a **functional feature patch.** If the patch did not apply. That means the project has a **security issue,** or some expected **behaviors will be lost** or a bug will show up in projects.
 {% endhint %}

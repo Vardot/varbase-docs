@@ -26,12 +26,12 @@ Varbase Workflow brings in the following core and contributed modules to your si
 | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <p><strong>Workflows module</strong></p><p><em>(in Drupal core)</em></p>                                                                  | Provides an interface to create workflows with transitions between different states (for example publication or user status) provided by other modules.          |
 | <p><strong>Content Moderation module</strong></p><p><em>(in Drupal core)</em></p>                                                         | Provides moderation states for content.                                                                                                                          |
-| ****[**Moderation Sidebar**](https://www.drupal.org/project/moderation\_sidebar)** module**                                               | Provides a frontend sidebar for Content Moderation.                                                                                                              |
-| ****[**Scheduler**](https://www.drupal.org/project/scheduler)** module**                                                                  | Publish and unpublish content automatically on specified dates and times.                                                                                        |
+| ****[**Moderation Sidebar**](https://www.drupal.org/project/moderation\_sidebar) **module**                                               | Provides a frontend sidebar for Content Moderation.                                                                                                              |
+| ****[**Scheduler**](https://www.drupal.org/project/scheduler) **module**                                                                  | Publish and unpublish content automatically on specified dates and times.                                                                                        |
 | ****[**Content Moderation Notifications**](https://www.drupal.org/project/content\_moderation\_notifications) **module**                  | Allows emails to be sent on state transitions.                                                                                                                   |
-| ****[**Scheduler Content Moderation Integration**](https://www.drupal.org/project/scheduler\_content\_moderation\_integration)** module** | Scheduler sub-module providing content moderation functionality for publishing/unpublishing.                                                                     |
-| ****[**Admin Audit Trail Workflows**](https://www.drupal.org/project/admin\_audit\_trail)** module**                                      | Logs workflows events performed by the user.                                                                                                                     |
-| ****[**Content Planner**](https://www.drupal.org/project/content\_planner)** module and its submodules**                                  | <p>Plan your content using a Dashboard, the Content Calendar and Content Kanban.</p><p></p><p><em>Content Planner is not enabled by default in Varbase.</em></p> |
+| ****[**Scheduler Content Moderation Integration**](https://www.drupal.org/project/scheduler\_content\_moderation\_integration) **module** | Scheduler sub-module providing content moderation functionality for publishing/unpublishing.                                                                     |
+| ****[**Admin Audit Trail Workflows**](https://www.drupal.org/project/admin\_audit\_trail) **module**                                      | Logs workflows events performed by the user.                                                                                                                     |
+| ****[**Content Planner**](https://www.drupal.org/project/content\_planner) **module and its submodules**                                  | <p>Plan your content using a Dashboard, the Content Calendar and Content Kanban.</p><p></p><p><em>Content Planner is not enabled by default in Varbase.</em></p> |
 
 ## Content Moderation Workflows
 
@@ -77,7 +77,7 @@ You'll see that option under the "Publishing options" when creating a new Conten
 
 You can also assign an existing Content Type to a Workflow if it wasn't assigned one yet. To do so"
 
-1. Navigate to: **Administration** \ **Configuration** \ **Workflow** \ _**Workflows **_
+1. Navigate to: **Administration** \ **Configuration** \ **Workflow** \ _**Workflows**_&#x20;
 2. Click "**Edit**" under Operations for the desired Workflow
 3. Scroll down to "**This workflow applies to**" section
 4. Click "**Select**" next to "Content types"
@@ -92,7 +92,7 @@ You can also assign an existing Content Type to a Workflow if it wasn't assigned
 
 ### Adding or Editing Workflows
 
-To add a new Workflow or edit an existing one, navigate to: **Administration** \ **Configuration** \ **Workflow** \ **Workflows **then click on "+Add workflow" for a new Workflow, or "Edit" under Operations for the desired Workflow.
+To add a new Workflow or edit an existing one, navigate to: **Administration** \ **Configuration** \ **Workflow** \ **Workflows** then click on "+Add workflow" for a new Workflow, or "Edit" under Operations for the desired Workflow.
 
 {% hint style="info" %}
 Refer to Drupal.org documentation for more about the terminology and usage of the Workflows in Drupal.\
@@ -119,6 +119,6 @@ Read more on how to re-enable the "Local Tasks" to appear again.
 
 Varbase Workflow adds a simple administration view to show the available drafts and their moderation state. This view is available for all roles who can edit content.
 
-To see the available drafts, navigate to: **Administration** \ **Content** \ _**Moderated content**_** **
+To see the available drafts, navigate to: **Administration** \ **Content** \ _**Moderated content**_** **&#x20;
 
 ![Moderated Content Admin View](../../.gitbook/assets/Moderated-content-test-qa-varbase-8-8-x-development-13-07-2020.png)

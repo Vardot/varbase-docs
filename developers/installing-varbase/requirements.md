@@ -15,7 +15,7 @@
 The below requirements outline the minimum needed requirements. If you need help sizing your server, please contact us at [https://www.vardot.com/contact-us](https://www.vardot.com/contact-us) for consultation.
 
 * **Disk space**: Minimum 300MB for codebase, 5GB for files, and 1GB for the database _(Will greatly depend on your application data and usage)_.
-* **Memory**: Minimum of 2GB (for 1 host). Minimum PHP memory of 196MB_ (might need to increase this as your Varbase site's functionalities increase)._
+* **Memory**: Minimum of 2GB (for 1 host). Minimum PHP memory of 196MB _(might need to increase this as your Varbase site's functionalities increase)._
 * **CPU**: Minimum of 2 CPUs is recommended (for 1 host).
 
 | **Component**   | **Description**                                                                                                                                                                                                                                                    |

@@ -15,7 +15,7 @@ Check the code on [**Olivero**](https://www.drupal.org/project/olivero)&#x20;
 
 The **html.html.twig** file [https://git.drupalcode.org/project/drupal/-/blob/9.2.x/core/themes/olivero/templates/layout/html.html.twig#L43](https://git.drupalcode.org/project/drupal/-/blob/9.2.x/core/themes/olivero/templates/layout/html.html.twig#L43)
 
-The** preload.twig **file [https://git.drupalcode.org/project/drupal/-/blob/9.2.x/core/themes/olivero/templates/includes/preload.twig](https://git.drupalcode.org/project/drupal/-/blob/9.2.x/core/themes/olivero/templates/includes/preload.twig)
+The **preload.twig** file [https://git.drupalcode.org/project/drupal/-/blob/9.2.x/core/themes/olivero/templates/includes/preload.twig](https://git.drupalcode.org/project/drupal/-/blob/9.2.x/core/themes/olivero/templates/includes/preload.twig)
 {% endhint %}
 
 Having the following in **Vartheme BS4** and **VARTHEM\_BS4\_SUBTHEME**. And the include.
@@ -155,5 +155,5 @@ Vartheme **Fonts** folder:
 
 **Vartheme html.html.twig file:** [https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/templates/includes/preload.twig](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/templates/includes/preload.twig)
 
-**Vartheme  preload.twig file: **[https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/templates/includes/preload.twig](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/templates/includes/preload.twig)
+**Vartheme  preload.twig file:** [https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/templates/includes/preload.twig](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/templates/includes/preload.twig)
 {% endhint %}

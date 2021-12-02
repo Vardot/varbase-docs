@@ -5,7 +5,7 @@ A heading block is used to add headings to your page or sections. Headings help 
 ## Varbase Heading Block Module
 
 {% hint style="info" %}
-Varbase heading features are bundled through the **Varbase Heading Block **module as part of the **Varbase Layout Builder** module.
+Varbase heading features are bundled through the **Varbase Heading Block** module as part of the **Varbase Layout Builder** module.
 
 GitHub: [https://github.com/Vardot/varbase\_layout\_builder](https://github.com/Vardot/varbase\_layout\_builder)\
 Drupal.org: [https://www.drupal.org/project/varbase\_layout\_builder](https://www.drupal.org/project/varbase\_layout\_builder)

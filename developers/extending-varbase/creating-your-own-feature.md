@@ -1,7 +1,7 @@
 # Creating Your Own Feature
 
 {% hint style="info" %}
-****[**Varbase Blog**](https://www.drupal.org/project/varbase\_blog) is the standard example for how a feature could be configured, developed, managed, then packaged to work with **Varbase. **Using most latest Varbase ready tools and configs.
+****[**Varbase Blog**](https://www.drupal.org/project/varbase\_blog) is the standard example for how a feature could be configured, developed, managed, then packaged to work with **Varbase.** Using most latest Varbase ready tools and configs.
 
 Use the learn by example method. In case of wanting to create a custom Varbase compatible features.
 {% endhint %}

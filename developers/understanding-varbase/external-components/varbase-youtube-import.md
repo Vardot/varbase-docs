@@ -5,7 +5,7 @@ Provide feed type that imports from YouTube channels and playlists.
 ## Varbase YouTube Import Module
 
 {% hint style="info" %}
-Varbase YouTube Import features are bundled through the **Varbase YouTube Import ** module.\
+Varbase YouTube Import features are bundled through the **Varbase YouTube Import** module.\
 GitHub: [https://github.com/Vardot/varbase\_youtube\_import](https://github.com/Vardot/varbase\_youtube\_import)\
 Drupal.org: [https://www.drupal.org/project/varbase\_youtube\_import](https://www.drupal.org/project/varbase\_youtube\_import)
 

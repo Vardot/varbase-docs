@@ -14,7 +14,7 @@ description: >-
   * Only use the visible part option, no need to take the whole page, and crop it.
   *   Use annotations (Arrows, Steps numbers, Highlights, Rectangles ...etc.) to annotate the screenshot. Always use the red color.
 
-      ![](<../../.gitbook/assets/annotations (1).png>)
+      ![](<../.gitbook/assets/annotations (1).png>)
 * Make sure screenshots are displayed in a good resolution, not pixilated.
 * Always add a caption to screenshots or images in the documentation page. Captions must be following APA title case style. Use [capitalizemytitle.com](https://capitalizemytitle.com) for help.
 * Take screenshots from real content on Varbase website and not from other sites.
@@ -39,7 +39,7 @@ description: >-
 * When explaining a path to the user, use bold trail of links separated by backslash (\\) making the last item (where the user should land) in italics.\
   Example: Navigate to **Administration** \ **Configuration** \ **Search and metadata** \ _**Metatag.**_\
   _****_
-* When a line of code or command is needed, highlight the text and use **<> **option from the tooltip. \
+* When a line of code or command is needed, highlight the text and use **<>** option from the tooltip. \
   Example: `cd /path/to/webserver_directory`  \
 
 * To make your documentation nice to read, you can add blocks of hints and notes with nice icons by clicking on it, then change it to the desired one. \

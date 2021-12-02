@@ -66,7 +66,7 @@ You can identify which meta tag groups (i.e. Simple, Advanced, Open Graph, Faceb
 
 To enable meta tag groups, navigate to:
 
-1. Navigate to **Administration** \ **Configuration** \ **Search and metadata** \ **Metatag **\ _**Settings**_
+1. Navigate to **Administration** \ **Configuration** \ **Search and metadata** \ **Metatag** \ _**Settings**_
 2. Under each desired content type or entity type, select the designed meta tag groups to be available on edit or add forms
 
 ![Metatag settings per entity type](../../.gitbook/assets/Configure-the-Metatag-module-test-varbase-property-1.png)
