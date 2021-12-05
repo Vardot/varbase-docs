@@ -18,7 +18,7 @@ We could also add styling to each section by assigning the section to different 
 8. When you finish all the needed updates click on _**“Add Section”**_ button
 9. Click on "_**Save Layout"**_ to save the added section.
 
-![](<../../.gitbook/assets/image (55).png>)
+![](<../../.gitbook/assets/image (49).png>)
 
 &#x20;
 
