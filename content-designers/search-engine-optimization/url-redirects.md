@@ -24,7 +24,7 @@ This page will view all the site's URL redirects that are already applied.
 
 This section will explain how to add users Varbase, please navigate to **Administration \ Configurations \ Search and metadata \ Redirect \ Add URL redirect.**
 
-![Adding URL redirects](<../../.gitbook/assets/image (43).png>)
+![Adding URL redirects](<../../.gitbook/assets/image (43) (1).png>)
 
 Follow these steps to add a URL redirect:
 
