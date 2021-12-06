@@ -108,7 +108,6 @@
       * [Edit Roles' Permissions](content-designers/user-management/default-roles-and-site-persons/edit-roles-permissions.md)
       * [Managing Roles](content-designers/user-management/default-roles-and-site-persons/managing-roles.md)
     * [Add User](content-designers/user-management/add-user.md)
-    * [Masquerade user](content-designers/user-management/masquerade-user.md)
     * [Edit user](content-designers/user-management/edit-user.md)
   * [Dashboard](content-designers/dashboard/README.md)
     * [Reports](content-designers/dashboard/reports.md)

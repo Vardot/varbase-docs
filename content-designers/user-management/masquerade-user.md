@@ -1,2 +1,0 @@
-# Masquerade user
-
