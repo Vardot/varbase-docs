@@ -41,7 +41,7 @@ In order to edit a section to a specific page on the site, follow these steps:
 1. Click on “Configure section” icon.
 2. Update the "_**Configure Bootstrap Column**_" section
 
-![Add Configure Section Screenshot](<../../.gitbook/assets/image (46).png>)
+![Add Configure Section Screenshot](<../../.gitbook/assets/image (46) (1).png>)
 
 In order to delete a section to a specific page on the site, follow these steps:&#x20;
 
@@ -49,4 +49,4 @@ In order to delete a section to a specific page on the site, follow these steps:
 
 2\. Confirm to delete the section by clicking “_**Remove**_” button
 
-![Add Remove Section Screenshot](<../../.gitbook/assets/image (46).png>)
+![Add Remove Section Screenshot](<../../.gitbook/assets/image (46) (1).png>)
