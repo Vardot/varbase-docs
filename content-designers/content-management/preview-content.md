@@ -10,4 +10,4 @@ Varbase allows you to see and review your content what it looks like after editi
 
 There is an option to preview the content on a mobile view, this will give you how your page or the content will look on mobile screens or tablets. &#x20;
 
-![](<../../.gitbook/assets/test-varbase-property-1- (1).png>)
+![Preview on mobile view](<../../.gitbook/assets/test-varbase-property-1- (1).png>)

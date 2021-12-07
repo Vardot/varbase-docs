@@ -12,6 +12,5 @@ You can add any image file in the Media library, image field, and WYSIWYG.\
 * jpg&#x20;
 * jpeg
 
-![](../../../../.gitbook/assets/test.png)
+![Allowed image types](<../../../../.gitbook/assets/Add Image \_ varbase9003d1.png>)
 
-![](../../../../.gitbook/assets/ttt.png)

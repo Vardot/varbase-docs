@@ -1,6 +1,6 @@
 # Add User
 
-## How to add users?
+## How to Add Users?
 
 This section will explain how to add users Varbase, please navigate to **Administration \ People \ **_**Add user**_
 
@@ -15,4 +15,4 @@ Fill in all the required details and necessary fields:&#x20;
 5. Confirm password&#x20;
 6. Status
 
-Then click the _"Create new account"_ button.
+Then click the **Create new account** button.

@@ -3,12 +3,12 @@
 Varbase can let you delete your content, users, blocks, views, etc. So be careful when you delete a section you might mess up your page.
 
 {% hint style="info" %}
-Any user who has "**Delete**" permissions can view _Delete_ link.
+Any user who has **Delete** permission can see Delete option in the menu.
 {% endhint %}
 
-If you have permission you can see "Delete" link in the edit menu
+If you have permission you can see **Delete** link in the **Edit** menu
 
-![](../../.gitbook/assets/Content-test-qa-varbase-8-8-x-development-13-07-2020.png)
+![Delete option](<../../.gitbook/assets/Content \_ varbase9003d1 (1).png>)
 
 {% hint style="danger" %}
 Be careful when you delete a page as you can't retrieve it back unless you have back up for the content.&#x20;

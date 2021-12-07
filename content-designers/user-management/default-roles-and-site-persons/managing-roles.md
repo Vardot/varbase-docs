@@ -21,10 +21,10 @@ Note: By default and as a best practice, only the **Super admin role** can add o
 
 To create a new role follow these steps:
 
-1. In the _Manage_ administrative menu, navigate to _People>Roles._
-2. Click _Add role_ to add a custom role.
-3. Enter the _Role_ name __ that you want and _save_.
-4. Check the new role under the _Roles_ tab.
+1. In the **Manage** administrative menu, navigate to **People\\**_**Roles.**_
+2. Click **Add role** to add a custom role.
+3. Enter the **Role** __ name __ that you want and _save_.
+4. Check the new role under the **Roles** tab.
 
 You can now edit the permissions for this new Role.
 
@@ -35,5 +35,5 @@ Pay attention for the following when creating a new role:\
 3- Naming convention: Use sentence case for first letters and add spacing between the words.
 {% endhint %}
 
-## Manage Existing Roles
+
 
