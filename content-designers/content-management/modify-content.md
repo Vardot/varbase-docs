@@ -4,13 +4,13 @@ description: Editing existing content in Varbase.
 
 # Modify Content
 
-## How to edit pages in Varbase
+## How to Edit Pages in Varbase
 
 To edit pages in Varbase you do not need to be technical if you have some experience with a text editor you will find it simple.
 
 On other hand, almost everything can be editable from text, images to menu header, and footer section.&#x20;
 
-## Edit pages
+## Edit Pages
 
 There are several places you can edit the nodes from it. Here are examples where you can edit the content:\
 \

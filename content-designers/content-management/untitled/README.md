@@ -20,7 +20,7 @@ Users can add content to the site with predefined content types throughout the s
 
 The rich text editor or the WYSIWYG (What You See Is What You Get) allows you to format the text inside the site as needed. Admins can also upload images, add links, and much more. The table below displays the tools along with the action it provides.&#x20;
 
-![ WYSIWYG in rish editor ](../../../.gitbook/assets/content.png)
+![ WYSIWYG in rich editor ](../../../.gitbook/assets/content.png)
 
 ## In This Section:
 

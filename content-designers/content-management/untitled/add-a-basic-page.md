@@ -13,5 +13,5 @@ Follow these steps to create a new **Basic page** in your website:
 3. Fill in with all required data that is needed.
 4. Click **Save.**&#x20;
 
-![Create Basic page](../../../.gitbook/assets/Create\_Basic\_page\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)
+![Create Basic Page](../../../.gitbook/assets/Create\_Basic\_page\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)
 
