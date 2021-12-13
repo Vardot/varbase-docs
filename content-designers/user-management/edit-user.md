@@ -8,6 +8,6 @@ This section will explain how to edit users _****_ in Varbase.&#x20;
 4. Edit the required fields in the user form
 5. Click on **Save** button
 
-![](<../../.gitbook/assets/image (47).png>)
+![](<../../.gitbook/assets/image (47) (1).png>)
 
 ![](<../../.gitbook/assets/image (46).png>)

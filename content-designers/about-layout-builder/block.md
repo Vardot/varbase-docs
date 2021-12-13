@@ -32,7 +32,7 @@ To manage and arrange blocks&#x20;
 4. Drag and drop blocks to reach the desired arrangement.
 5. Click **"**_**Save Layout**_**" a**t the top of the page when you are done with your changes
 
-![](<../../.gitbook/assets/image (49).png>)
+![](<../../.gitbook/assets/image (49) (1).png>)
 
 ![Add "Drag and Drop" block screenshot](<../../.gitbook/assets/Image1 (2).jpg>)
 

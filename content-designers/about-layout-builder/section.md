@@ -8,21 +8,21 @@ Section Layouts like “Content Area - Two columns” helps users to divide the 
 
 We could also add styling to each section by assigning the section to different CSS Class. In order to add a section to a specific page on the site, follow these steps:
 
-1. Open the desired page e.g.(**Landing Page/Layout builder**)
-2. &#x20;Click on the "_**Layout"**_ tab at the top of the page
-3. Click on "_**Tasks / Layout**_**"**
-4. Click on **“+ **_**ADD SECTION**_**”**
+1. Open the desired page e.g.(**Landing Page\Layout builder**)
+2. &#x20;Click on the **Layout** tab at the top of the page
+3. Click on **Tasks \ Layout**
+4. Click on **ADD SECTION**
 5. Choose a layout for this section _**( Bootstrap One column or Two column or Three column)**_
 6. Choose from the "_**Container Types"** options **(Full, Edge to Edge or Boxed)**_
 7. _Choose from the **"Gutters"**_ options _**(No Gutters or With Gutters)**_
 8. When you finish all the needed updates click on _**“Add Section”**_ button
 9. Click on "_**Save Layout"**_ to save the added section.
 
-![](<../../.gitbook/assets/image (49).png>)
+![](<../../.gitbook/assets/image (49) (1).png>)
 
 &#x20;
 
-![](<../../.gitbook/assets/image (43).png>)
+![](<../../.gitbook/assets/image (43) (1).png>)
 
 !["Add a Section" Screenshot](<../../.gitbook/assets/Image1 (2).jpg>)
 

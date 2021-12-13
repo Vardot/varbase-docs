@@ -16,7 +16,7 @@ By default on Varbase, there are default roles that can manage URL Redirects and
 
 As a Super Admin, Site Admin, or SEO Admin, please navigate to **Administration \ Configurations \ Search and metadata \ Redirect \ **_**Domain Redirects**_.
 
-![Managing URL redirects](<../../.gitbook/assets/image (51).png>)
+![Managing URL redirects](<../../.gitbook/assets/image (51) (1).png>)
 
 Follow these steps on how to manage the domain redirects:
 

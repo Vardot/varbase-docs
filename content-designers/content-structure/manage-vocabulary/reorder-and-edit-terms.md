@@ -1,2 +1,0 @@
-# Reorder and Edit Terms
-
