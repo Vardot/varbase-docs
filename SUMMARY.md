@@ -127,7 +127,7 @@
     * [Content Moderation](content-designers/content-management/content-moderation.md)
     * [Publish Content](content-designers/content-management/publish-content.md)
   * [Content Structure](content-designers/content-structure/README.md)
-    * [Block layout](content-designers/content-structure/block-layout.md)
+    * [Custom Blocks](content-designers/content-structure/block-layout.md)
     * [EntityQueues](content-designers/content-structure/entityqueues.md)
     * [Pages](content-designers/content-structure/pages.md)
     * [Menu Management](content-designers/content-structure/menu-management/README.md)
