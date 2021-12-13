@@ -2,4 +2,4 @@
 
 ## Menus
 
-Menus are used to navigate a website. Menus are primarily displayed as a hierarchical list of links. Admins on the site can add, remove, and rename menus and sub-menu items/tabs. Note that Admins are advised not to delete any parent links on the site. This will cause all the sub links to not have a parent and become main menu items.
+Drupal's menu system allows users to create as many separate menus as they need throughout their site. Links can be created to both external sites and internal pieces of content. The site administration interface gives users the ability to organize and sort these links within their respective menus.
