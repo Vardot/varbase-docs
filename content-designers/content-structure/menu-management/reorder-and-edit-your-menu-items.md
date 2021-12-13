@@ -24,7 +24,7 @@ To reorder the links for one of the menus, follow these steps:&#x20;
 
 4\. You can drag and drop using the below icon to reorder the items in the menu.
 
-![Reorder Items in Main Navigation Menu](<../../../.gitbook/assets/image (52).png>)
+![Reorder Items in Main Navigation Menu](<../../../.gitbook/assets/image (52) (1).png>)
 
 ### Edit Menu Items
 
