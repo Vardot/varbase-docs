@@ -132,7 +132,7 @@
     * [Pages](content-designers/content-structure/pages.md)
     * [Menu Management](content-designers/content-structure/menu-management/README.md)
       * [Add Menu Items](content-designers/content-structure/menu-management/add-menu-items.md)
-      * [Reorder and Edit Your Menu Items](content-designers/content-structure/menu-management/reorder-and-edit-your-menu-items.md)
+      * [Reorder, Edit and Delete Your Menu Items](content-designers/content-structure/menu-management/reorder-and-edit-your-menu-items.md)
     * [Taxonomies](content-designers/content-structure/taxonomies.md)
     * [Manage Vocabulary](content-designers/content-structure/manage-vocabulary/README.md)
       * [Edit Vocabulary](content-designers/content-structure/manage-vocabulary/edit-vocabulary.md)
