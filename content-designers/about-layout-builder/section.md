@@ -30,7 +30,7 @@ We could also add styling to each section by assigning the section to different 
 
 ![Add Configure Column Screenshot](../../.gitbook/assets/Image1.jpg)
 
-![Add Save Layout Screenshot](<../../.gitbook/assets/image (44).png>)
+![Add Save Layout Screenshot](<../../.gitbook/assets/image (44) (1).png>)
 
 ## How To Edit/Delete Section
 

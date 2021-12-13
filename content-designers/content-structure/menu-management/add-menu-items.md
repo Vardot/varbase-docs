@@ -4,7 +4,7 @@ description: Add new item into the menu.
 
 # Add Menu Items
 
-## **Adding Links to Menu**
+### **Adding Link to Menu**
 
 In order to add a new link to one of the menus, follow these steps:&#x20;
 
