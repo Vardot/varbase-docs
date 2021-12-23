@@ -91,3 +91,40 @@ Or if modules are using the old way of autoloading
 **Known issues:**
 
 [**Composer 2.0** issue for **bower-asset/jqueryui-touch-punch** library default branch](https://www.drupal.org/project/varbase/issues/3190703)
+
+
+
+After [**Composer 2.2.1**](https://github.com/composer/composer/releases/tag/2.2.1) was released **2021-12-22**
+
+* Fixed plugin autoloading including files autoload rules from the root package ([#10382](https://github.com/composer/composer/issues/10382))
+
+Update the root `composer.json` file with the following composer config
+
+```
+  "config": {
+    "bin-dir": "bin/",
+    "secure-http": false,
+    "optimize-autoloader": true,
+    "preferred-install": {
+      "drupal/core": "dist"
+    },
+    "allow-plugins": {
+      "composer/installers": true,
+      "cweagans/composer-patches": true,
+      "oomphinc/composer-installers-extender": true,
+      "drupal/core-composer-scaffold": true,
+      "drupal/core-project-message": true,
+      "vardot/varbase-updater": true
+    }
+  },
+```
+
+Rebuild the autoloader for map of classes and namespaces
+
+```
+cd /PATH_TO_YOUR_PROJECT
+rm -rf composer.lock bin/ vendor/ docroot/modules/contrib/ docroot/themes/contrib/ docroot/profiles/varbase/ docroot/libraries/
+composer install -vvv
+cd docroot/
+drush cr
+```
