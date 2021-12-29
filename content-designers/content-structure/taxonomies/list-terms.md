@@ -17,6 +17,6 @@ In order to list all the terms inside the taxonomy follow these steps:&#x20;
 
 5\. Click on **List terms** for the taxonomy that you want to view it, For example **Blog Categories**
 
-![List Terms of Blog Categories Taxonomy](<../../../.gitbook/assets/image (47).png>)
+![List Terms of Blog Categories Taxonomy](<../../../.gitbook/assets/image (47) (1).png>)
 
 6\. A separate page will load with all the list terms of the **Blog Categories** taxonomy.
