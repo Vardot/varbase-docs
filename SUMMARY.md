@@ -147,6 +147,7 @@
     * [Section](content-designers/about-layout-builder/section.md)
     * [Custom Blocks](content-designers/about-layout-builder/block-layout/README.md)
       * [Heading Block](content-designers/about-layout-builder/block-layout/heading-block.md)
+      * [Basic Block](content-designers/about-layout-builder/block-layout/basic-block.md)
       * [Media Block(Image/Video)](content-designers/about-layout-builder/block-layout/media-block-image-video.md)
       * [Rich-Text Editor “WYSIWYG”](content-designers/about-layout-builder/block-layout/rich-text-editor-wysiwyg.md)
     * [Managing Blocks](content-designers/about-layout-builder/block.md)

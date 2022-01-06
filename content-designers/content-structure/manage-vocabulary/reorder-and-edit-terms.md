@@ -18,7 +18,7 @@ To reorder the terms inside the taxonomy follow these steps:&#x20;
 
 6\. You can drag and drop using the below icon to reorder the terms in the taxonomy.
 
-![Reorder Terms in Taxonomy](<../../../.gitbook/assets/image (54).png>)
+![Reorder Terms in Taxonomy](<../../../.gitbook/assets/image (54) (1).png>)
 
 ## Edit Terms
 
