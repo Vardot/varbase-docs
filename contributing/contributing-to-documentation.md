@@ -31,7 +31,15 @@ description: >-
 * Always capitalize the word Varbase when mentioning it.
 * Use [Grammarly](https://www.grammarly.com) to check on proper grammar and punctuation.&#x20;
 * All titles (H1, H2, H3) must use APA title case style. Use [capitalizemytitle.com](https://capitalizemytitle.com) for help.
-* All modules and component names must use APA title case style.\
+* All modules and component names must use APA title case style.
+
+
+
+### Headings
+
+* All titles (H1, H2, H3) must use APA title case style. Use [capitalizemytitle.com](https://capitalizemytitle.com) for help.
+* Use descriptive headings and titles because they help a user navigate their browser and the page. It's easier to jump between pages and sections of a page if the headings and titles are unique.
+* When possible, use -ing verb form in title to indicate present participle or gerund. Example: "Managing Menu Items"\
 
 
 ### Text Styling
