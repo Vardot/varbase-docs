@@ -304,8 +304,17 @@ Make sure to have the following in the _**composer.json**_ file.
   "config": {
     "bin-dir": "bin/",
     "secure-http": false,
+    "optimize-autoloader": true,
     "preferred-install": {
       "drupal/core": "dist"
+    },
+    "allow-plugins": {
+      "composer/installers": true,
+      "cweagans/composer-patches": true,
+      "oomphinc/composer-installers-extender": true,
+      "drupal/core-composer-scaffold": true,
+      "drupal/core-project-message": true,
+      "vardot/varbase-updater": true
     }
   },
   
@@ -324,7 +333,7 @@ The root `composer.json` file should look like the Varbase 9.0.x project templat
 
 &#x20; <mark style="background-color:orange;">**It should look like the composer.json file .. not the same exact copy of it**</mark> &#x20;
 
-[https://github.com/Vardot/varbase-project/blob/9.0.3/composer.json](https://github.com/Vardot/varbase-project/blob/9.0.3/composer.json)
+[https://github.com/Vardot/varbase-project/blob/9.0.4/composer.json](updating-from-varbase-8.x-to-9.x.md#read-first-before-updating)
 
 keep the work of the automated updater. Do not do any manual copy and replacing for the outcome composer.json file. Only edit the the same file.
 {% endhint %}
