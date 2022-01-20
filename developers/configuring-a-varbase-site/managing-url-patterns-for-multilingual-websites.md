@@ -61,11 +61,12 @@ First, we need to extend the needed multilingual modules - In Varbase we have th
    * **Content Translation**
    * **Interface Translation**
    * **Language**
-
-![](https://lh3.googleusercontent.com/zGlJmnBciRm18ga7lNfT4M-csQojR9vXENIPiKtD46aG6jE8ESPlvd60AtkI0OH9dhXHWy5k3k0rq4ZXh6Pw92XlJa4pCXKoZNetQ95F8uFs9MoF9J1DRYtjIndJVNRvec5PRex\_)
-
-1. Along with that, we need to enable the following module - filter for “language” for faster results:
+4. Along with that, we need to enable the following module - filter for “language” for faster results:
    * **Varbase Internationalization**
+
+![Multilingual Modules](https://lh3.googleusercontent.com/zGlJmnBciRm18ga7lNfT4M-csQojR9vXENIPiKtD46aG6jE8ESPlvd60AtkI0OH9dhXHWy5k3k0rq4ZXh6Pw92XlJa4pCXKoZNetQ95F8uFs9MoF9J1DRYtjIndJVNRvec5PRex\_)
+
+![Varbase Internationalization Module](https://lh3.googleusercontent.com/WZi-9eiZoypJSM0sTMzy\_g-T0zobm6sBABv\_k7RqWMLngN\_sUrfiYd4oOnFRN3tBQSw2uNMwalltvjcOG9VqQAnY1ScaFsamEyyZxkW9vt-8scrdBmUCu09E\_k3GcCxT5Xm\_cwm8)
 
 Hint: Typically developers will enable those modules during installation. For further information click [here](https://app.gitbook.com/o/-LMp\_OqmP\_iFzHYa2X5d/s/-LMp\_PWjEdZQrVE520s3/developers/understanding-varbase/optional-components/varbase-internationalization).
 
@@ -173,8 +174,57 @@ Tokens for landing pages URL alias patterns are using the translated language to
 
 Save the configurations and check the URL for any landing page in order to check that it was applied correctly.
 
+![Base-Language Only URL Pattern Example Result](https://lh6.googleusercontent.com/5rKhD8B11qBYA0Rjr7uFylKiFdUM9Ba0KZuNtaA-Ty\_jFlBBwCVGCiFp-LtVGB\_fvCCA\_TYbXyPVFarACKVqhfi4ECIUIBWLnZ7PmPdIrEERId7cUjyB-VlGNF63n91oe\_IVB2n\_)
 
+Example:
 
-#### **Pros & Cons**
+[https://www.vardot.com/](https://www.vardot.com) website is using “Base-Language Only URL Patterns” for URL aliases, so when we navigate to any page then change the language, the URL alias will stay the same as the source language - which is English in this case- and only the language identifier will change, so as an example we can check “About Us” page:
+
+* [https://www.vardot.com/en/about-us](https://www.vardot.com/en/about-us) is the English version.
+* [https://www.vardot.com/ar-jo/about-us](https://www.vardot.com/ar-jo/about-us) is the Arabic version.
+
+![Vardot's Website - English Language URL](https://lh4.googleusercontent.com/guF2gsLj4bf8TGMjQYSPMyfZaJ4UX1rI2eN9TDoBEpWo4cDeYGCBPcwW\_MVlRd9PHGIGuHUB-LPDWIreTIdKPpy86YIRrAzRF7JZB4eSdgUSCrccGC6qKnmSmMZT9X3SIOU\_KnMO)
+
+![Vardot's Website - Arabic Language URL](https://lh5.googleusercontent.com/6sasjdvvfSDB2UduEawknxsLxI3WHMxroNNBvnVIzVxAejtsRMQvRe7oaN9aBsDGWq9eRZFlFxAV2FYSHD6e00nOCQ\_AnveqnsV4fVxj2n87StGV7e3zXBUp2tnp965ikkZI\_Pza)
+
+**Pros & Cons**
+
+**Pros:**
+
+1. Maintains one URL structure, the only difference is the language code/prefix in the URL**.**
+2. English-language (or Latin characters) URLs are neatly shared, with no encoding.
+3. Fully automated - but only if your base language (original language) is always the same.
+
+**Cons:**
+
+1. You always need a base language (original translation).
+2. You will have to manually write the URL pattern - in case a page did not have a base language that matches your pattern.
+
+Example:
+
+|                  | English Version                                              | French Version                |
+| ---------------- | ------------------------------------------------------------ | ----------------------------- |
+| English (source) | example.com/en/about-us                                      | example.com/fr/about-us       |
+| French (source)  | Needs to be manually edited to get example.com/fr/contact-us | example.com/fr/nous-contacter |
 
 ### **Transliterated URL Patterns**
+
+This option will convert the translated non-Latin characters to US ASCII characters, so the URL, in this case, will not contain non-English letters.
+
+Transliterated URL alias is a global option for all patterns, which can be configured by selecting the option from settings.
+
+1. Navigate to **Administration \ configuration \ Search and Metadata \ URL aliases \ **_**Settings**_.
+2. Select **Transliterate prior to creating aliases** option.
+
+![Transliterate prior to creating aliases Option](https://lh6.googleusercontent.com/jwfI1pZXg32WjIAXdBWAi5dX5pF3iB\_cb9x2eK4danhNzMz-nYvKuCvvjU8dLVyRwaN96ogVCclgRzWojWZST0KGOh3iWDD3txW446G4u5r9XyJwlDL62\_5Tez3nsDxZtonPWqQT)
+
+Example:&#x20;
+
+If a landing page with the title of “About Us” was created then translated to “من نحن” in Arabic, the URL alias for both pages will be as below:&#x20;
+
+* /en/about-us for the English version.&#x20;
+* /ar/mn-nhn for the Arabic version.
+
+![Arabic Example of a Transliterated URL](https://lh6.googleusercontent.com/52JuosHTXsEmi5OcsTJNmcnl\_q8-MSKzR0nAyHD8zoLvuu0OwT0Mh2zmnj9nIg3C6ZEu1fXFYhNrChbeG\_DHqF21T5A2wqm\_qTmcQiJ4nL9A9x8Pc0M0YyjIk1lzOpo0kTAGZxaK)
+
+![English URL of a Transliterated URL](https://lh3.googleusercontent.com/4OZYRb9Sq5uo7AYz7FLDZP9N9jHll8u0gUbzR8Wx0F4M1jqC8waiCYXv\_2OAZ3NkCSjt4lmCjHrw-qzNsdKsIhdYYYvdPAiQMr9bmjguGS26ex6y9no8MqneNzviLTRDUnhYKnAB)
