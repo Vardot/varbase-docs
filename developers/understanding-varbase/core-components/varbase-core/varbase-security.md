@@ -40,7 +40,7 @@ Brings in the following core and contributed modules to your site:
 | ****[**Username Enumeration Prevention**](https://www.drupal.org/project/username\_enumeration\_prevention)**** | Removes the error message produced by the forgot password form,when an invalid user has been supplied.                                           |
 | ****[**Flood control**](https://www.drupal.org/project/flood\_control)****                                      | Allows configuring hidden flood control options and unblocking IP addresses and user ID's that are blocked after multiple failed login attempts. |
 
-{% content-ref url="../../../configuring-a-varbase-site/security-features.md" %}
-[security-features.md](../../../configuring-a-varbase-site/security-features.md)
+{% content-ref url="../../../configuring-a-varbase-site/security-features/" %}
+[security-features](../../../configuring-a-varbase-site/security-features/)
 {% endcontent-ref %}
 

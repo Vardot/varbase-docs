@@ -8,8 +8,8 @@ Varbase bundles several security-related enhancements for compliant and secure w
 
 **Varbase Security** module assembles general security configurations, with password policy, username enumeration prevention, security kit and review.
 
-{% content-ref url="../understanding-varbase/core-components/varbase-core/varbase-security.md" %}
-[varbase-security.md](../understanding-varbase/core-components/varbase-core/varbase-security.md)
+{% content-ref url="../../understanding-varbase/core-components/varbase-core/varbase-security.md" %}
+[varbase-security.md](../../understanding-varbase/core-components/varbase-core/varbase-security.md)
 {% endcontent-ref %}
 
 ## CAPTCHA and reCAPTCHA on Forms
@@ -17,7 +17,7 @@ Varbase bundles several security-related enhancements for compliant and secure w
 To configure the CAPTCHA methods in your site, navigate to:\
 **Administration** \ **Configuration** \ **People** \ _**CAPTCHA module settings**_
 
-![CAPTCHA Settings](../../.gitbook/assets/CAPTCHA-settings-varbase\_security.png)
+![CAPTCHA Settings](../../../.gitbook/assets/CAPTCHA-settings-varbase\_security.png)
 
 A CAPTCHA can be added to virtually each form in your website. The configuration page allows you to configure settings such as:
 
@@ -62,7 +62,7 @@ __
 
 The configuration page allows you to configure settings such as:
 
-![Honeypot Configuration](../../.gitbook/assets/Honeypot-configuration--varbase\_security.png)
+![Honeypot Configuration](../../../.gitbook/assets/Honeypot-configuration--varbase\_security.png)
 
 * Protect all forms with Honeypot
 * Log blocked form submissions
@@ -81,7 +81,7 @@ You can also enable Honeypot spam deterring mechanism on Webforms individually f
 To configure the Password Policies in your site, navigate to:\
 **Administration** \ **Configuration** \ **Security** \ _**Password Policy**_
 
-![Password Policies](../../.gitbook/assets/Password-Policies--varbase\_security.png)
+![Password Policies](../../../.gitbook/assets/Password-Policies--varbase\_security.png)
 
 Varbase ships with a default password policy to provide a way to enforce restrictions on user passwords by defining password policies.
 
@@ -91,14 +91,14 @@ A password policy can be defined with a set of constraints which must be met bef
 
 > **Example:** an uppercase constraint (with a parameter of 2) and a digit constraint (with a parameter of 4) means that a user password must have at least 2 uppercase letters and at least 4 digits for it to be accepted.
 
-![Configure Constraints - Policy Constraints](../../.gitbook/assets/Configure-Constraints---Policy-Constraints--varbase\_security.png)
+![Configure Constraints - Policy Constraints](../../../.gitbook/assets/Configure-Constraints---Policy-Constraints--varbase\_security.png)
 
 ## Security Kit for XSS, CSRF, SSL/TLS, Expect-CT, and More
 
 To configure the Security Kit module in your site, navigate to:\
 **Administration** \ **Configuration** \ **System** \ _**Security Kit settings**_
 
-![Security Kit](../../.gitbook/assets/Security-Kit--varbase\_security.png)
+![Security Kit](../../../.gitbook/assets/Security-Kit--varbase\_security.png)
 
 The configuration page allows you to configure settings to tighten your website's security regarding:
 
