@@ -114,6 +114,7 @@
       * [Managing Roles](content-designers/user-management/default-roles-and-site-persons/managing-roles.md)
     * [Add User](content-designers/user-management/add-user.md)
     * [Edit User](content-designers/user-management/edit-user.md)
+    * [Masquerading as another user](content-designers/user-management/masquerading-as-another-user.md)
   * [Dashboard](content-designers/dashboard/README.md)
     * [Reports](content-designers/dashboard/reports.md)
   * [Content Structure](content-designers/content-structure/README.md)
