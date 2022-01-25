@@ -112,6 +112,7 @@
   * [Accessing the Administration Area](content-designers/accessing-the-administration-area/README.md)
     * [Website Environments](content-designers/accessing-the-administration-area/website-environments.md)
   * [User Management](content-designers/user-management/README.md)
+    * [Allow Email/Username Login & Registration](content-designers/user-management/allow-email-username-login-and-registration.md)
     * [Default Roles and Site Personas](content-designers/user-management/default-roles-and-site-persons/README.md)
       * [Edit Roles' Permissions](content-designers/user-management/default-roles-and-site-persons/edit-roles-permissions.md)
       * [Managing Roles](content-designers/user-management/default-roles-and-site-persons/managing-roles.md)
