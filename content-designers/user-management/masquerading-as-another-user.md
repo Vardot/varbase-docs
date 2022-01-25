@@ -35,4 +35,12 @@ There are two methods to masquerade a user.
 
 ![Masquerade as \[User\] Link](https://lh5.googleusercontent.com/DLp63uXZAzDQZfoLQcrvS-Zj83AaQ\_wtxP7KmAc1sy3KNdYCPcHj9tHN5L7ooYgv4UfuHVUljpUvHlmYUVrqbR1g0KrCV-nHL31QYFNaIntJUVAisFv7Gw96\_V95JCXFA5eC5veR)
 
+When masquerading a user, a confirmation message will appear, and the username will be changed to reflect changes, in addition to a button to unmasquerade.
+
+![Masquerading a User Confirmation Message and Changes](https://lh4.googleusercontent.com/y4Iz-TYI1MVHw6KFrDBTApHeGWMUAQSGj5YBeSV3mEH9D6Ll0KLB2rltUYzgheeZ1rxHQe2W5dfUK2FMzFyNdTcznKhV8d9gvJ-W2K6K0QIUOUeu8iUEnjjbUWfI97Rid6-SrjER)
+
+Clicking on unmasquerade will revert the user to its original state.
+
+![Unmasquerading a User Confirmation Message and Changes](https://lh5.googleusercontent.com/zssguB7zo2B7waMmceNUXdjw1EP3GddS5JwfuXI-vSdNSdfXuhvTGAPM43nXaFlQnGgbsnvmopOIbD52l5wOVQE2YTztHZGBKRQZX0z\_refBTETjA05Omaa86MukzE6jfzovZV\_H)
+
 <mark style="color:red;">**NOTE: Masquerading users should be only used to test and view other users permitted actions and functions, be careful while using this feature.**</mark>
