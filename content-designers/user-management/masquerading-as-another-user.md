@@ -6,7 +6,7 @@ description: >-
 
 # Masquerading as another user
 
-view the site as a lower-level user in terms of permissions and functionality.
+Masquerading users is one of the very helpful and useful features that allows top-level users to view the site as a lower-level user in terms of permissions and functionality.
 
 Typically masquerading users is permitted to the webmaster user that has the super admin role assigned to it, while the site admin can only masquerade other lower-level users.
 
@@ -20,14 +20,14 @@ There are two methods to masquerade a user.
 
 **First method:**
 
-1. Navigate to **People** under the **Manage** administrative menu.
+1. Navigate to **Manage/**_**People**_ .
 2. Click on **Masquerade as** option under the **Operations** menu next to the user.
 
 ![Masquerade As - Operation Menu](https://lh3.googleusercontent.com/bkIfO8uurqBctnCkyqKhK1dJF60E6QWqPyoXJf0d3j-0c9Oj\_9TdK7y10hgQ18d7AnhjWDjzEYQypE53CilwQ8M6FXZaAKoZbs9ccIB9XBc5o-gp\_n0wQsYoGmZEjXYVHc1sPJ\_\_)
 
 **Second method:**
 
-1. Navigate to **People** under the **Manage** administrative menu.
+1. Navigate to **Manage/**_**People**_ .
 2. Click on the user to be masqueraded to view the user profile, Content admin for example.
 3. Click on the **Masquerade as \[user]** link.
 
@@ -41,6 +41,8 @@ When masquerading a user, a confirmation message will appear, and the username w
 
 Clicking on unmasquerade will revert the user to its original state.
 
-![Unmasquerading a User Confirmation Message and Changes](https://lh5.googleusercontent.com/zssguB7zo2B7waMmceNUXdjw1EP3GddS5JwfuXI-vSdNSdfXuhvTGAPM43nXaFlQnGgbsnvmopOIbD52l5wOVQE2YTztHZGBKRQZX0z\_refBTETjA05Omaa86MukzE6jfzovZV\_H)
+![Un-masquerading a User Confirmation Message and Changes](https://lh5.googleusercontent.com/zssguB7zo2B7waMmceNUXdjw1EP3GddS5JwfuXI-vSdNSdfXuhvTGAPM43nXaFlQnGgbsnvmopOIbD52l5wOVQE2YTztHZGBKRQZX0z\_refBTETjA05Omaa86MukzE6jfzovZV\_H)
 
-<mark style="color:red;">**NOTE: Masquerading users should be only used to test and view other users permitted actions and functions, be careful while using this feature.**</mark>
+{% hint style="danger" %}
+<mark style="color:red;">Masquerading users should be only used to test and view other users permitted actions and functions, be careful while using this feature.</mark>
+{% endhint %}

@@ -6,7 +6,7 @@ description: >-
 
 # Allow Email/Username Login & Registration
 
-&#x20;thanks to the Email Registration module.
+In Varbase, by default. Users can log in to the site using either their username or Email address, thanks to the Email Registration module.
 
 ![Login Form Using Email or Username](https://lh4.googleusercontent.com/0xv0-AiLRF5LXkNlMzCBQMP2gPSh5DRWqOdNDX0vrk5hG2E2e1caENTVxZzCE\_ZU\_1TxDTk0L5w\_CAPqFTiNYuNdlZNmJU8dAJ-1YI-th\_Mlxc39aLcRcdn29uPy0mspL-oQ5UWj)
 
