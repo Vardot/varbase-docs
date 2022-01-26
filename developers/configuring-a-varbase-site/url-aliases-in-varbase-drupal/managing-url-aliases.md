@@ -9,7 +9,9 @@ Editing an existing alias is possible by clicking on the **Edit** button next to
 * **System path** which should point to an existing path on the site.
 * **URL alias** which will contain the alias for the system path specified, both of these fields should start with a forward slash (/).
 
+{% hint style="info" %}
 **Hint**: If the site is enabled to be multilingual, a language dropdown will show up to pick the language of which language the alias will be applied to.
+{% endhint %}
 
 ![Editing URL Alias](https://lh6.googleusercontent.com/Qqpl4r4GphLviq\_53Ldd116seKe05RRqb\_FFDSprg85fnYPt3zSMfR4GAUjyUMsRAOdVtUfWNItIyYQgMw-PdyN4mAivq\_WHl4tkh296Lfx6yQzDAwZIk8HQFkD9nKG-FifljO6U)
 
@@ -33,6 +35,8 @@ Bulk generation can be done in the **Bulk generate** to apply the following:
 * Generate URL aliases for items that currently have no aliases
 * Re-generate URL aliases for items that have an old alias and for which the Pathauto pattern has been changed.
 
+{% hint style="warning" %}
 **Warning**: This will only affect items that are configured to have their URL alias automatically set. Items whose URL alias is manually set are not affected.
+{% endhint %}
 
 ![URL Aliases Bulk Generate Options](https://lh4.googleusercontent.com/lTskNfVUEC7tfPjMRDl9cc48t2AHFM718epZZO8zqY5pMjVYku3EInmzeQ1IRRN\_NfRhTnoT9CmX8ZPR3CXq7Q7m\_7GkOopSlF7Lv-RU6kInzBslXXaE-4YDdtelrn29quKUzu0t)
