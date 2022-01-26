@@ -1,6 +1,6 @@
 # Managing URL Patterns for Multilingual Websites
 
-&#x20;and apply languages to the project entities. Managing URL patterns is one of the main features that will be provided to be controlled and updated by Administrators.
+Multilingual modules allow users to configure languages and how page languages are chosen **** and apply languages to the project entities. Managing URL patterns is one of the main features that will be provided to be controlled and updated by Administrators.
 
 ### **Multilingual Websites URL Patterns Options**
 
@@ -22,7 +22,7 @@ To test that follow the steps below:
 
 ![Title Field in Content Creation Page](https://lh5.googleusercontent.com/3d\_1rxd1s7NH0Aji\_IAaEo4P3YqHvdp\_iQZ4BJhc2vS7I19UmPK0XwjTle8DOnx94bRiTkNFL1SfUgztRC\_I9-U3wND\_Yp5EQ6ZTXGOZRA9VW3VEniZN1Z3D-waIrl5uYUd5a7GU)
 
-Result: URL aliases are checked to be automatically generated using a token, and in this case, the node title is the token. So the URL alias for the page will be /node-title, ex: /about-us.
+**Result:** URL aliases are checked to be automatically generated using a token, and in this case, the node title is the token. So the URL alias for the page will be /node-title, ex: /about-us.
 
 ![Automatically Generated URL Alias](https://lh3.googleusercontent.com/050\_zUFFZvtTELuFnLz4crB2hefpDFFt2hD6d147HQQG3kykOXmanRpnyJ0yQ5AfXhj79lmM9SCGZ7yuJ3xhjDTgIiR0h13mZOXJUmA9KneZvpe3pgQpjopmeyVzzTio5oNciRhy)
 
@@ -40,11 +40,13 @@ To show another example with hierarchy, we will create a landing page and add it
 
 ![Menu Settings Options ](https://lh6.googleusercontent.com/LVaWoFpRNbNnv\_x5RSE2kOb\_1A7SCUwNtsVQSKThNqIn54Mnmg5oUY65q5h812Dw3ptmZGBE8IJKlo\_hRLwWWCupU29LVrAjEPJ3HA3Y16m\_CFkaHxwHF8bXblh0xCUCW-CCWuuB)
 
-Result: URL alias will be /parent-name/node-title, ex: /about-us/our-team.
+**Result**: URL alias will be /parent-name/node-title, ex: /about-us/our-team.
 
 ![Automatically Generated Hierarchical URL Alias](https://lh6.googleusercontent.com/xjSsaWgNssF4gy8RJ2zok4HhqnmhhnX6uuGl2Jd9q4U8qu7dv33pOjQp-HV4afgUAKfUKwQwEZ9ceSEW9zvFVY8goYUn-PuyxQSUKTC3GvXCV9JAl11AEJjvx8srxJIDIpI0yDEC)
 
-Hint: Patterns can be added/updated by clicking on **Configure URL alias patterns** or by navigating to **Administration \ Configuration \ Search and Metadata \ URL aliases \ **_**Patterns**_. To learn more about configuring URL aliases, check the following [documentation](url-aliases-in-varbase-drupal/).
+{% hint style="info" %}
+**Hint:** Patterns can be added/updated by clicking on **Configure URL alias patterns** or by navigating to **Administration \ Configuration \ Search and Metadata \ URL aliases \ **_**Patterns**_. To learn more about configuring URL aliases, check the following [documentation](url-aliases-in-varbase-drupal/).
+{% endhint %}
 
 
 
@@ -68,7 +70,9 @@ First, we need to extend the needed multilingual modules - In Varbase we have th
 
 ![Varbase Internationalization Module](https://lh3.googleusercontent.com/WZi-9eiZoypJSM0sTMzy\_g-T0zobm6sBABv\_k7RqWMLngN\_sUrfiYd4oOnFRN3tBQSw2uNMwalltvjcOG9VqQAnY1ScaFsamEyyZxkW9vt-8scrdBmUCu09E\_k3GcCxT5Xm\_cwm8)
 
+{% hint style="info" %}
 Hint: Typically developers will enable those modules during installation. For further information click [here](https://app.gitbook.com/o/-LMp\_OqmP\_iFzHYa2X5d/s/-LMp\_PWjEdZQrVE520s3/developers/understanding-varbase/optional-components/varbase-internationalization).
+{% endhint %}
 
 #### **Checking the Available Languages**
 
@@ -91,7 +95,9 @@ When the option of “Domain” is selected, you will be able to add different d
 
 ![URL Domain Configuration](https://lh3.googleusercontent.com/VPNI7g2LKBiaIeApJ1KkzVWzEwzewTk2ptck4KiP6L\_SVbGLlJrURHDt6kavbbQfxr8Gbr\_Lr5hMdfc1cQsWAJC7p6g7VRSwS\_ERDzoqVshUR1plUhLrYcLUYKmPLUbWS4pYEu2X)
 
-Hint: “URL prefix” option is selected by default in Varbase.
+{% hint style="info" %}
+**Hint**: “URL prefix” option is selected by default in Varbase.
+{% endhint %}
 
 #### **Translating Entities**
 
@@ -111,7 +117,9 @@ We can select a content entity to translate to check the URL alias for the trans
 
 URL aliases for the translated pages can be applied in different ways as mentioned before, and we will go through them in detail.
 
-Hint: All created entities should have specific language (not neutral), so the **translate** option could be displayed for those entities.
+{% hint style="info" %}
+**Hint**: All created entities should have specific language (not neutral), so the **translate** option could be displayed for those entities.
+{% endhint %}
 
 ### **Native Language URL Patterns**
 
@@ -127,7 +135,9 @@ To have the native language URL pattern enabled, the **Transliterate prior to cr
 
 When creating/translating content, the URL to that content will include the characters of the language of that content title.
 
-Hint: In Varbase, this is the default option for multilingual URL patterns. So no need to update anything there.
+{% hint style="info" %}
+**Hint**: In Varbase, this is the default option for multilingual URL patterns. So no need to update anything there.
+{% endhint %}
 
 Example:
 
