@@ -2,7 +2,7 @@
 
 ![The Ultimate Drupal CMS Starter Kit (Bootstrap Ready)](<../.gitbook/assets/Large-Logo Color with padding.png>)
 
-## **Introduction - test edit**
+## **Introduction**
 
 Varbase is an enhanced Drupal distribution packed with adaptive functionalities and essential modules, that speed up your development, and provides you with standardized configurations, making your life easier.
 
