@@ -8,9 +8,9 @@ Multilingual websites have further options for URL/path aliases. This section sh
 
 There are three ways to implement that:
 
-1. Native Language URL Patterns.
-2. Base-Language Only URL Patterns.
-3. Transliterated URL Patterns.
+1. [Native Language URL Patterns.](managing-url-patterns-for-multilingual-websites.md#native-language-url-patterns)
+2. [Base-Language Only URL Patterns.](managing-url-patterns-for-multilingual-websites.md#base-language-only-url-patterns)
+3. [Transliterated URL Patterns](managing-url-patterns-for-multilingual-websites.md#transliterated-url-patterns).
 
 In Varbase, URL aliases will be automatically generated regarding specified tokens, ex: \[node:title] for landing pages.
 
