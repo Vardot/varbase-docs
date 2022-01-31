@@ -121,7 +121,7 @@ URL aliases for the translated pages can be applied in different ways as mention
 **Hint**: All created entities should have specific language (not neutral), so the **translate** option could be displayed for those entities.
 {% endhint %}
 
-### **Native Language URL Patterns**
+### **1. Native Language URL Patterns**
 
 This option will make the URL have the text of the native language of the page, this will allow the URL to have non-ASCII characters, it can include characters from any language.
 
@@ -161,7 +161,7 @@ Example:
 
 * Copying/pasting or sharing non-ASCII characters makes it encoded and not easy to share.
 
-### **Base-Language Only URL Patterns**
+### **2. Base-Language Only URL Patterns**
 
 This option will force the source (default) language URL aliases to be applied to all languages, so if you want the English version then the default language should be English, however, if the default language was not the English language then the URL alias patterns will follow the source language. The only thing that will be changed is the language identifier that can be either a prefix or a domain as explained earlier.
 
@@ -217,7 +217,7 @@ Example:
 | English (source) | example.com/en/about-us                                      | example.com/fr/about-us       |
 | French (source)  | Needs to be manually edited to get example.com/fr/contact-us | example.com/fr/nous-contacter |
 
-### **Transliterated URL Patterns**
+### **3. Transliterated URL Patterns**
 
 This option will convert the translated non-Latin characters to US ASCII characters, so the URL, in this case, will not contain non-English letters.
 
