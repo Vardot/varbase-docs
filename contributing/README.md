@@ -42,17 +42,26 @@ We're very excited to have you interested in contributing features to Varbase. C
 
 ## Help in Development
 
-@todo: document.
+* ✅ File an issue about any Varbase components
+* ✅ Addition/Change/Update/Fix to Varbase components
+* ✅ Testing to ensure no regression
+* ✅ Automated unit/functional testing coverage
+* ✅ Developer Documentation support on feature change/addition
+* ✅ User Guide Documentation support on feature change/addition
+* ✅ Update Release Notes and Update Helper on new feature change/addition
+* ✅ Code review from One Varbase core team member
+* ✅ Full testing and approval
+* ✅ Credit contributors
+* ✅ Review with the product owner
+* ✅ Pre-release and post-release testing
 
 ### Create Patches or Pull Requests
 
-Recommended to use the issue fork contribution workflow.
-
-&#x20;[**Creating issue forks and merge requests**](https://www.drupal.org/docs/develop/git/using-git-to-contribute-to-drupal/creating-issue-forks-and-merge-requests)
+* Recommended to use the issue fork contribution workflow. [**Creating issue forks and merge requests**](https://www.drupal.org/docs/develop/git/using-git-to-contribute-to-drupal/creating-issue-forks-and-merge-requests)
 
 ### Keep Conventions in Mind
 
-Recommended to follow with [Drupal coding standard](https://www.drupal.org/docs/develop/standards/coding-standards) and [naming conventions](https://www.drupal.org/docs/develop/standards/coding-standards#naming).
+* Recommended to follow with [Drupal coding standard](https://www.drupal.org/docs/develop/standards/coding-standards) and [naming conventions](https://www.drupal.org/docs/develop/standards/coding-standards#naming).
 
 ### Keep Your Branch Up to Date
 
@@ -60,4 +69,4 @@ Recommended to follow with [Drupal coding standard](https://www.drupal.org/docs/
 
 ## Create Functional Behat Tests
 
-[Varbase Automated Functional Testing](https://github.com/Vardot/varbase/tree/9.0.x/tests)
+* [Varbase Automated Functional Testing](https://github.com/Vardot/varbase/tree/9.0.x/tests)
