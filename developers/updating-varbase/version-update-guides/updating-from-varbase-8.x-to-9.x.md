@@ -314,6 +314,7 @@ Make sure to have the following in the _**composer.json**_ file.
       "oomphinc/composer-installers-extender": true,
       "drupal/core-composer-scaffold": true,
       "drupal/core-project-message": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
       "vardot/varbase-updater": true
     }
   },
