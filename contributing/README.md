@@ -52,7 +52,7 @@ Recommended to use the issue fork contribution workflow.
 
 ### Keep Conventions in Mind
 
-@todo: document.
+Recommended to follow with [Drupal coding standard](https://www.drupal.org/docs/develop/standards/coding-standards) and [naming conventions](https://www.drupal.org/docs/develop/standards/coding-standards#naming)
 
 ### Keep Your Branch Up to Date
 
