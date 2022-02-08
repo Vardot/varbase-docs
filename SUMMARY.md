@@ -94,6 +94,7 @@
     * [Handling Patches When Updating](developers/updating-varbase/handling-patches-when-updating.md)
     * [Handling Configuration Updates](developers/updating-varbase/handling-configuration-updates.md)
     * [Updating Varbase to work with Composer 2.0](developers/updating-varbase/updating-varbase-to-work-with-composer-2.0.md)
+    * [Updating Drush to the Latest Stable Version](developers/updating-varbase/updating-drush-to-the-latest-stable-version.md)
     * [Version Update Guides](developers/updating-varbase/version-update-guides/README.md)
       * [Updating from Varbase 8.x to 9.x](developers/updating-varbase/version-update-guides/updating-from-varbase-8.x-to-9.x.md)
   * [Frequently Asked Questions (FAQs)](developers/faqs.md)
