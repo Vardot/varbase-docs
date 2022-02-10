@@ -30,7 +30,7 @@ Use any text editor and change to "drush/drush" to the following
     "drush/drush": "~10.0 || ~11.0",
 ```
 
-### 2. Run the A Composer Command
+### 2. Run a Composer Command
 
 ```php
 composer require "drush/drush:~10.0 || ~11.0" --dev
