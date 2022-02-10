@@ -16,6 +16,26 @@ Many options to change to
 
 The root `composer.json` file for the default [**Varbase Project**](https://github.com/Vardot/varbase-project/blob/9.0.x/composer.json#L43) template was changed **`"drush/drush": "~10.0 || ~11.0",`** for easier support, update, and upgrade process in development and production servers. It can be changed to  \~11.0 in next releases. as this an upgrade step for the use of Drush.
 
+
+
+## Basic Ways to **U**pdate **Drush**
+
+&#x20;Updating drush in the **root composer.json file** for a project.
+
+### 1. Edit the composer.json file
+
+Use any text editor and change to "drush/drush" to the following
+
+```php
+    "drush/drush": "~10.0 || ~11.0",
+```
+
+### 2. Run the A Composer Command
+
+```php
+composer require "drush/drush:~10.0 || ~11.0" --dev
+```
+
 ## Varbase Versions and Drush Versions
 
 * ****[**Varbase 9.0.4**](https://www.drupal.org/project/varbase/releases/9.0.4) and older works only with **Drush \~10.0**
