@@ -50,7 +50,9 @@ Be sure to switch the `composer.json` file to work with **Composer \~2**
 [updating-varbase-to-work-with-composer-2.0.md](../updating-varbase-to-work-with-composer-2.0.md)
 {% endcontent-ref %}
 
-Remove the not needed `"drupal/drupal-library-installer-plugin": "^0.3",`  from the `composer.json` file.
+### Remove the not Needed Drupal Library Installer Plugin
+
+Remove  `"drupal/drupal-library-installer-plugin": "^0.3",`  from the `composer.json` file.
 
 ### Varbase 8.8.8 and Newer
 
@@ -60,10 +62,10 @@ Make sure that **Composer** version **\~2** is in use in the development environ
 sudo composer self-update --2
 ```
 
-## 2. Add Drush \~10
+## 2. Add Drush
 
 ```
-composer require drush/drush:~10
+composer require "drush/drush:~10.0 || ~11.0"
 ```
 
 ## 3. Uninstall All Removed Components
@@ -334,7 +336,7 @@ The root `composer.json` file should look like the Varbase 9.0.x project templat
 
 &#x20; <mark style="background-color:orange;">**It should look like the composer.json file .. not the same exact copy of it**</mark> &#x20;
 
-[https://github.com/Vardot/varbase-project/blob/9.0.4/composer.json](updating-from-varbase-8.x-to-9.x.md#read-first-before-updating)
+[https://github.com/Vardot/varbase-project/blob/9.0.5/composer.json](https://github.com/Vardot/varbase-project/blob/9.0.5/composer.json)
 
 keep the work of the automated updater. Do not do any manual copy and replacing for the outcome composer.json file. Only edit the the same file.
 {% endhint %}
@@ -363,7 +365,7 @@ Remember to remove Drush from the composer before deploying to the live site.
 {% endhint %}
 
 ```
-composer remove drush/drush:~10
+composer remove drush/drush
 ```
 
 ## 10. Set Composer Exit on Patch Failure to True
