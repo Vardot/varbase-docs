@@ -40,6 +40,7 @@ Brings in the following core and contributed modules to your site:
 | ****[**Pathologic**](https://www.drupal.org/project/pathologic)****                              | Helps avoid broken links and incorrect paths in content.                                                                   |
 | ****[**Token**](https://www.drupal.org/project/token)****                                        | Provides a user interface for the Token API and some missing core tokens.                                                  |
 | ****[**Token Filter**](https://www.drupal.org/project/token\_filter)****                         | Allows token values to be used as filters.                                                                                 |
+| ****[**CKEditor Paste Filter**](https://www.drupal.org/project/ckeditor\_paste\_filter)****      | This module implements extra filtering of text pasted from Word.                                                           |
 
 
 
