@@ -79,6 +79,10 @@ Some other options that can be configured are:
 
 When selecting the “Create a new alias. Delete the old alias.” option, the URL alias isn’t deleted, but gets added as a previous redirect to ensure that the old URL alias will still function.
 
-Punctuation - Will contains some punctuation marks and the action to do when having them in a URL alias, by default they are removed but another option is to replace them with the separator defined beforehand, selecting the option “No action(do not replace)” might cause problems with some URLs.
+* Safe Tokens - Will have the list of tokens/words that are safe to use in an alias pattern and need no cleaning&#x20;
+
+![Safe Tokens Option](<../../../.gitbook/assets/Settings \_ dev pathauto.png>)
+
+* Punctuation - Will contains some punctuation marks and the action to do when having them in a URL alias, by default they are removed but another option is to replace them with the separator defined beforehand, selecting the option “No action(do not replace)” might cause problems with some URLs.
 
 ![Punctuation Option](https://lh5.googleusercontent.com/8tdQZF0xU6Qjg8FpXLTs7F\_w3i6SJzbUGBiaA1yfJai5ffTjmFHUKGufwWF29EDJCwzfJ6KkZdAv3MIoA0Otp0vG6VBnpT1levexG\_nvc42c15a8z9Ew7WDORwi7vzVzxzFS7hQw)

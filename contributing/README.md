@@ -42,18 +42,18 @@ We're very excited to have you interested in contributing features to Varbase. C
 
 ## Help in Development
 
-* ✅ File an issue about any Varbase components
-* ✅ Addition/Change/Update/Fix to Varbase components
-* ✅ Testing to ensure no regression
-* ✅ Automated unit/functional testing coverage
-* ✅ Developer Documentation support on feature change/addition
-* ✅ User Guide Documentation support on feature change/addition
-* ✅ Update Release Notes and Update Helper on new feature change/addition
-* ✅ Code review from One Varbase core team member
-* ✅ Full testing and approval
-* ✅ Credit contributors
-* ✅ Review with the product owner
-* ✅ Pre-release and post-release testing
+* ✅ File an issue about Varbase components.
+* ✅ Manage to have Addition/Change/Update/Fix to Varbase components.
+* ✅ Help with testing to ensure no regression.
+* ✅ Help with Automated unit/functional testing coverage.
+* ✅ Help with developer documentation support on feature change/addition.
+* ✅ Help with user guide documentation support on feature change/addition.
+* ✅ Help with update Release Notes and Update Helper on new feature change/addition.
+* ✅ Help in code review wih Varbase core team members.
+* ✅ Help with full testing and approval.
+* ✅ Help credit contributors.
+* ✅ Help review with the product owner.
+* ✅ Help with pre-release and post-release testing.
 
 ### Create Patches or Pull Requests
 

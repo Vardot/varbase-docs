@@ -21,12 +21,16 @@ The **preload.twig** file [https://git.drupalcode.org/project/drupal/-/blob/9.2.
 Having the following in **Vartheme BS4** and **VARTHEM\_BS4\_SUBTHEME**. And the include.
 
 ```
+{% raw %}
 {%- include '@vartheme_bs4/includes/preload.twig' with { vartheme_bs4_path: vartheme_bs4_path, html_dir: html_attributes['dir'] } only -%}
+{% endraw %}
 
 ```
 
 ```
+{% raw %}
 {%- include '@VARTHEME_BS4_SUBTHEME/includes/preload.twig' with { VARTHEME_BS4_SUBTHEME_path: VARTHEME_BS4_SUBTHEME_path, html_dir: html_attributes['dir'] } only -%}
+{% endraw %}
 ```
 
 \
