@@ -46,7 +46,7 @@ Brings in the following core and contributed modules to your site:
 
 ## Features
 
-* Full media integration with CKEditor including caption and much more.
+* Full media integration with CKEditor including captions and much more like the CKEditor paste filter which provides extra filtering for text pasted from word.
 * LinkIt Integration for easy internal linking of content.
 * Image enhancements and optimizations.
 * Embeddable media and entities.
@@ -69,3 +69,14 @@ Brings in the following core and contributed modules to your site:
 
 ![](<../../../.gitbook/assets/varbase\_editor-text-format--code\_html (1).png>)
 
+## CKEditor Paste Filter in Action
+
+The CKEditor paste filter module provides extra filtering for text pasted from word or general text preprocessor applications, Text pasted with formatting will be processed to be displayed with no formatting to it.
+
+The following image shows how a pasted formatted text will look like on the site without using the CKEditor paste filter.
+
+![Pasted Formatted Text Without CKEditor Paste Filter](<../../../.gitbook/assets/Test Landing page (Layout Builder) \_ dev VLBautomation (2).png>)
+
+The following image will show how the text will be displayed when using CKEditor paste filter.
+
+![Pasted Formatted Text When Using CKEditor paste filter](<../../../.gitbook/assets/paste filter \_ dev pathauto (2).png>)
