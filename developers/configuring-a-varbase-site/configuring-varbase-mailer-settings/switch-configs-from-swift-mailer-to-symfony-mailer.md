@@ -14,12 +14,12 @@ Backup the site before any update or change
 [updating-varbase](../../updating-varbase/)
 {% endcontent-ref %}
 
-### Update **Varbase Email** to **9.0.2**&#x20;
+### Update **Varbase Email** to **9.0.2 or later**
 
-The 9.0.2 version requieres the Symfony Mailer Drupal module.&#x20;
+The 9.0.2 version and later requieres the Symfony Mailer Drupal module.&#x20;
 
-* Keeping the [**Swift Mailer**](https://www.drupal.org/project/swiftmailer) in the **9.0.x** branch of **Varbase Email**, But switch the default config to use the **Symfony Mailer** module
-* Adding the [**Symfony Mailer**](https://www.drupal.org/project/symfony\_mailer) **module.**
+* Keeping the [**Swift Mailer**](https://www.drupal.org/project/swiftmailer) in the **9.0.x** branch of **Varbase Email**, But switched the default config to use the **Symfony Mailer** module
+* Adding the [**Symfony Mailer**](https://www.drupal.org/project/symfony\_mailer) **** module, with all needed switching in code.
 
 ### Copy the Old Swift Mailer Keys and Configs
 
