@@ -31,4 +31,4 @@ A message of _"The transport configuration has been saved."_ will show up and th
 
 Set the STMP transport as the default transport sender for emails, by clicking on "Set as Default" from the operations list for the SMTP transport.
 
-![](<../../../.gitbook/assets/Set-SMTP-transport--as-the-default--Screenshot from 2022-04-11 14-23-57.png>)
+![Set a Transport as Default](<../../../.gitbook/assets/Set-SMTP-transport--as-the-default--Screenshot from 2022-04-11 14-23-57.png>)
