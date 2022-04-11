@@ -22,7 +22,8 @@ project_directory
 
 Brings in the following core and contributed modules to your site:
 
-| Module                                                             | Purpose                                 |
-| ------------------------------------------------------------------ | --------------------------------------- |
-| ****[**Swift Mailer**](https://drupal.org/project/swiftmailer)**** | Installs Swift Mailer as a mail system. |
+| Module                                                                       | Purpose                                 |
+| ---------------------------------------------------------------------------- | --------------------------------------- |
+| ****[**Symfony Mailer**](https://www.drupal.org/project/symfony\_mailer)**** | Integrate Symfony Mailer into Drupal.   |
+| ****[**Swift Mailer**](https://drupal.org/project/swiftmailer)****           | Installs Swift Mailer as a mail system. |
 
