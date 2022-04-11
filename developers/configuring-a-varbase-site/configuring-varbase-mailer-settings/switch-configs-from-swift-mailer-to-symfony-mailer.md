@@ -51,3 +51,55 @@ Use the saved backup copy of Swift Mailer mail system configs&#x20;
 {% content-ref url="configure-symfony-mailer.md" %}
 [configure-symfony-mailer.md](configure-symfony-mailer.md)
 {% endcontent-ref %}
+
+## Change Custom Templates In Themes
+
+If the custom theme for a project did not have any changes. No extra work is needed at this point.
+
+
+
+Change the following steps when having any changes over the custom theme in the project.
+
+### Symfony Mailer Cleas All Raw Styling CSS Elements in the Template
+
+Inline or style elements are cleared out in the `email.twig` or `varbase_email.twig` template file.
+
+Clear them from your custom changes in your custom theme.
+
+And create a new library to attach the needed styles to it&#x20;
+
+**Example:** `custom_subtheme.libraries.yml` file
+
+```
+default.email-style.ltr:
+  css:
+    theme:
+      css/theme/email-style.theme.ltr.css: {}
+
+default.email-style.rtl:
+  css:
+    theme:
+      css/theme/email-style.theme.rtl.css: {}
+
+```
+
+Have all your custom LTR and RTL styling in seprate files and libraries, to overrid the default Varbase Email libraries
+
+### Symfony Mailer Only Allows Attaching the Custom Style to the Template Using the Default Drupal Library System
+
+The **Varbase Email** module has two libraries which can be extended or overridden
+
+**Example:** `custom_subtheme.info.yml` file
+
+```
+libraries-override:
+  varbase_email/default.email-style.ltr: custom_subtheme/default.email-style.ltr
+  varbase_email/default.email-style.rtl: custom_subtheme/default.email-style.rtl
+```
+
+### Symfony Mailer Allows Each Module to have Custom Email Templates and Other Sending Transport
+
+The default transport service will be used when no custom transport was configured for the module. When a custom or contrib module is trying to send emails.
+
+If the old project had any custom code or custom multiple mailers in the same system. The code should be migrated to configs. Using the Symfony Mailer plugin system.
+
