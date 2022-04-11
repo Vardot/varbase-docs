@@ -14,7 +14,21 @@ To see the list of mailer transports.
 
 ![Mailer Transports Configuration Page](../../../.gitbook/assets/mailer-transports-varbase90x1.png)
 
-Select _SMTP_ from the list of Transport types, and click o the Add transport button
+* Select _SMTP_ from the list of Transport types, and click o the Add transport button
+* Fill in the Lebel for this SMTP service
+* Fill in the User name for the  SMTP service. It could be the same email sender created in the SMTP service provider
+* Provide the password to log in with it
+* Provide the Hostname public SMTP domain provider
+* Use the right SMTP port, which the provider recommends to use
 
 ![Example Add SMTP Transport](../../../.gitbook/assets/Add-transport-varbase90x1.png)
 
+Press the Save submit button to save the SMTP transport
+
+![The Transport Configuration Has Been Saved](../../../.gitbook/assets/Semfony-Mailer--The-transport-configuration-has-been-saved-varbase90x1.png)
+
+A message of _"The transport configuration has been saved."_ will show up and the page will be redirected back to the Mailer transports configuration page.
+
+Set the STMP transport as the default transport sender for emails, by clicking on "Set as Default" from the operations list for the SMTP transport.
+
+![](<../../../.gitbook/assets/Set-SMTP-transport--as-the-default--Screenshot from 2022-04-11 14-23-57.png>)
