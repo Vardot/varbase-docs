@@ -1,9 +1,3 @@
----
-description: >-
-  Masquerading users is one of the very helpful and useful features that allows
-  top-level users to
----
-
 # Masquerading as another user
 
 Masquerading users is one of the very helpful and useful features that allows top-level users to view the site as a lower-level user in terms of permissions and functionality.

@@ -1,7 +1,3 @@
----
-description: Spam is sending bulks of emails or submissions at low volume per IP
----
-
 # Spam Protection
 
 Spam is sending bulks of emails or submissions at low volume per IP this can cause issues as it could be harmful and annoying. One of the ways spammers can damage a website is by using forms found on that website; forms are great and helpful however they are still vulnerable to attackers and spambots that are trying to crack into websites found on the web.

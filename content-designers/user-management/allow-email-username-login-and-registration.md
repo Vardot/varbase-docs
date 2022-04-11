@@ -1,9 +1,3 @@
----
-description: >-
-  In Varbase, by default. Users can log in to the site using either their
-  username or Email address,
----
-
 # Allow Email/Username Login & Registration
 
 In Varbase, by default. Users can log in to the site using either their username or Email address, thanks to the Email Registration module.
