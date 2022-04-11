@@ -32,3 +32,17 @@ A message of _"The transport configuration has been saved."_ will show up and th
 Set the STMP transport as the default transport sender for emails, by clicking on "Set as Default" from the operations list for the SMTP transport.
 
 ![Set a Transport as Default](<../../../.gitbook/assets/Set-SMTP-transport--as-the-default--Screenshot from 2022-04-11 14-23-57.png>)
+
+## Set the Email Logo for Symfony Mailer Template
+
+&#x20;[**Vartheme BS4**](https://www.drupal.org/project/vartheme\_bs4), and [**Vartheme BS5**](https://www.drupal.org/project/vartheme\_bs5) provide theme settings for emails
+
+[creating-your-own-theme.md](../../theme-development-with-varbase/creating-your-own-theme.md "mention")
+
+Navigate to **Administration \ Appearance \ Appearance settings \ **_**a Custom Sub Theme of Vartheme**_
+
+The Email Logo custom theme settings can be filled as desired
+
+![Email Logo Settings in Vartheme and Vartheme Sub Themes](<../../../.gitbook/assets/Email Logo - Vartheme (Bootstrap 4 - SASS) \_ varbase90x1.png>)
+
+The provided Email Logo will feed the Symfony Mailer template with the selected logo, which it will be linked in the email.
