@@ -4,7 +4,7 @@ The [**Varbase Email** ](https://www.drupal.org/project/varbase\_email)**9.0.x**
 
 Using the same Varbase Email template file which works with both of them.
 
-Only it's a matter of copying the old SMTP keys and configs to the Swift Mailer way.
+Only it's a matter of copying the old SMTP keys and configs to the Symfony Mailer way.
 
 ## Steps to Switch to Symfony Mailer
 
