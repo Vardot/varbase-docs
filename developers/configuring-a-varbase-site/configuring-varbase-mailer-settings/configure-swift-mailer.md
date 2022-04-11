@@ -31,3 +31,17 @@ To access the Configure the Mail System on the site settings page
 * Press the Add button to add the Swift Mailer module
 
 ![The Swfit Mailer Module in the Mail System](../../../.gitbook/assets/Configure-the-Mail-System-3-varbase9005d2.png)
+
+## Set the Email Logo for Swift Mailer Template
+
+&#x20;[**Vartheme BS4**](https://www.drupal.org/project/vartheme\_bs4), and [**Vartheme BS5**](https://www.drupal.org/project/vartheme\_bs5) provide theme settings for emails
+
+[creating-your-own-theme.md](../../theme-development-with-varbase/creating-your-own-theme.md "mention")
+
+Navigate to **Administration \ Appearance \ Appearance settings \ **_**a Custom Sub Theme of Vartheme**_
+
+The Email Logo custom theme settings can be filled as desired
+
+![Email Logo Settings in Vartheme and Vartheme Sub Themes](<../../../.gitbook/assets/Email Logo - Vartheme (Bootstrap 4 - SASS) \_ varbase90x1.png>)
+
+The provided Email Logo will feed the Swift Mailer template with the selected logo, which it will be linked in the email.
