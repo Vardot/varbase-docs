@@ -1,4 +1,4 @@
-# Switch Configs From Swift Mailer to Symfony Mailer
+# Switch From Swift Mailer to Symfony Mailer
 
 The [**Varbase Email** ](https://www.drupal.org/project/varbase\_email)**9.0.x** is managing a smooth switch from Swift Mailer to Symfony Mailer.
 

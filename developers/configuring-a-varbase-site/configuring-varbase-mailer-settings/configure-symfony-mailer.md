@@ -12,7 +12,7 @@ Navigate to **Administration \ Configuration \ System \ **_**Mailer**_
 
 To see the list of mailer transports.
 
-![Mailer Transports Configuration Page](../../../.gitbook/assets/mailer-transports-varbase90x1.png)
+![Mailer Transports Configuration Page](<../../../.gitbook/assets/Symfony Mailer - alpah7 \_ varbase90x4.png>)
 
 * Select _SMTP_ from the list of Transport types, and click o the Add transport button
 * Fill in the Lebel for this SMTP service
