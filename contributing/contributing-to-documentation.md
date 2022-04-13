@@ -15,11 +15,11 @@ description: >-
   * Only use the visible part option, no need to take the whole page, and crop it.
   *   Use annotations (Arrows, Steps numbers, Highlights, Rectangles ...etc.) to annotate the screenshot. Always use the red color.
 
-      ![](<../.gitbook/assets/annotations (1).png>)\
+      <img src="../.gitbook/assets/annotations (1).png" alt="" data-size="original">\
       \
       Example annotated screenshot:
 
-      ![](<../.gitbook/assets/Sample Screenshot>)
+      <img src="../.gitbook/assets/Sample Screenshot" alt="" data-size="original">
 * Make sure screenshots are displayed in a good resolution, not pixilated.
 * Always add a caption to screenshots or images in the documentation page. Captions must be following APA title case style. Use [capitalizemytitle.com](https://capitalizemytitle.com) for help.
 * Take screenshots from real content on Varbase website and not from other sites.
