@@ -2,6 +2,8 @@
 
 Provides developers with a class for modules installer factory.
 
+{% embed url="https://github.com/Vardot/module-installer-factory" %}
+
 This class is working with `module_name.info.yml` file with any modules key.
 
 Let us have the `module_name.info.yml` with the following items under `install` key for example:
