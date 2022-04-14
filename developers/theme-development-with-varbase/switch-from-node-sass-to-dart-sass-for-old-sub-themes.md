@@ -11,15 +11,23 @@
 * The maintainers are no longer planning to add any new features to LibSass, including compatibility with new CSS features.
 * LibSass and Node Sass will continue to be maintained indefinitely on a best-effort basis, including fixing major bugs and security issues and maintaining compatibility with the latest Node versions.
 
-## When to do this change
+## When to Switch to Dart Sass
 
-If you would like to use the latest Dart Sass in old projects, Projects which had generated a new sub-theme using the [**`Vartheme BS4 9.0.13`**](https://www.drupal.org/project/vartheme\_bs4/releases/9.0.13) and later do not need to do anything. they are using Dart Sass already.
+The optional direction is to use the latest **Dart Sass** in old projects.
 
-* Issue [#3269723](https://www.drupal.org/i/3269723): Switched from deprecated [**Node Sass**](https://www.npmjs.com/package/node-sass) to [**Dart Sass**](https://sass-lang.com/dart-sass) compiler using [**Gulp**](https://www.npmjs.com/package/gulp)
+{% hint style="success" %}
+Projects which had generated a new sub-theme using the [**`Vartheme BS4 9.0.13`**](https://www.drupal.org/project/vartheme\_bs4/releases/9.0.13) and later do not need to do anything. They are using Dart Sass already.
 
-If the old sub-theme was generated from an older Vartheme BS4 version can follow with steps to do the switch.
 
-## **Update npm** and [**nodejs**](https://nodejs.org/en/) to \~16
+
+Issue [#3269723](https://www.drupal.org/i/3269723): Switched from deprecated [**Node Sass**](https://www.npmjs.com/package/node-sass) to [**Dart Sass**](https://sass-lang.com/dart-sass) compiler using [**Gulp**](https://www.npmjs.com/package/gulp)
+{% endhint %}
+
+
+
+If an old sub-theme was generated from an older Vartheme BS4 version. Older than 9.0.13 can follow the following steps to switch&#x20;
+
+## **Update npm** and [**nodejs**](https://nodejs.org/en/) to \~16 LTS Version
 
 ```
 curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash - 
@@ -72,6 +80,8 @@ Follow the latest changes from the following links for the complete list of chan
 * Add the new [.prettierignore](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.13/VARTHEME\_BS4\_SUBTHEME/.prettierignore) file
 * Change the [.csscomb.json ](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.13/VARTHEME\_BS4\_SUBTHEME/.csscomb.json)file
 
+This includes an all-new update for coding stanadards and linting with the Drupal Core
+
 ## Re-Compile your SCSS files to CSS using the new Dart Sass
 
 After changing all needed files
@@ -88,7 +98,11 @@ and use **math.div**
 
 ## Known Issues After the Switch
 
-Forgot to add the `@use 'sass:math';` in SCSS files with the old format for [**sass:math**](https://sass-lang.com/documentation/modules/math)****
+In case forgotten to add the `@use 'sass:math';`
+
+Custom SCSS files with old node-sass math divisions should be changed to use the [**sass:math**](https://sass-lang.com/documentation/modules/math) **module.**
+
+If not the `yarn theme:build` or `gulp compile` will face issues like:
 
 ```php
 Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
