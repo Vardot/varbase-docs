@@ -2,8 +2,10 @@
 
 Provides developers with a class to perform automatic entity updates.
 
+{% embed url="https://github.com/Vardot/entity-definition-update-manager" %}
+
 {% hint style="warning" %}
-**Use only in development environment. Not to use on production websites.**
+**Use only in the development environment. Not to use on production websites.**
 {% endhint %}
 
 {% hint style="danger" %}

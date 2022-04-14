@@ -52,23 +52,23 @@ Use the saved backup copy of Swift Mailer mail system configs&#x20;
 [configure-symfony-mailer.md](configure-symfony-mailer.md)
 {% endcontent-ref %}
 
-## Migrate Custom Templates In Custom Themes
+## Change Custom Templates In Themes
 
-When custom themes in projects do not have any changes. No extra work is needed at this point.
+If the custom theme for a project did not have any changes. No extra work is needed at this point.
 
-Following steps when having any changes over the custom theme in the project.
 
-### Switch from inline Styling to Libraries
 
-**Symfony Mailer** clears all raw styling CSS Elements in the Template.
+Change the following steps when having any changes over the custom theme in the project.
 
-Inline or style elements are cleared out in the `email.twig` ,`varbase_email.twig` template file.
+### Symfony Mailer Cleas All Raw Styling CSS Elements in the Template
+
+Inline or style elements are cleared out in the `email.twig` or `varbase_email.twig` template file.
 
 Clear them from your custom changes in your custom theme.
 
 And create a new library to attach the needed styles to it&#x20;
 
-**Example:** `custom_subtheme.libraries.yml` file in your custom Vartheme Sub-theme
+**Example:** `custom_subtheme.libraries.yml` file
 
 ```
 default.email-style.ltr:
@@ -83,13 +83,13 @@ default.email-style.rtl:
 
 ```
 
-Having a custom LTR ( Left to right ) and RTL (Rught to left ) styling in seprate files and libraries, to overrid the default **Varbase Email** libraries.
+Have all your custom LTR and RTL styling in seprate files and libraries, to overrid the default Varbase Email libraries
 
-**Symfony Mailer** only allows attaching the custom style to the template using the default Drupal library system.
+### Symfony Mailer Only Allows Attaching the Custom Style to the Template Using the Default Drupal Library System
 
-The **Varbase Email** module has two libraries that can be extended or overridden.
+The **Varbase Email** module has two libraries which can be extended or overridden
 
-**Example:** `custom_subtheme.info.yml` file in your custom Vartheme Sub-theme
+**Example:** `custom_subtheme.info.yml` file
 
 ```
 libraries-override:
@@ -97,11 +97,9 @@ libraries-override:
   varbase_email/default.email-style.rtl: custom_subtheme/default.email-style.rtl
 ```
 
-### Migrate Custom Code or Custom Multiple Mailers
+### Symfony Mailer Allows Each Module to have Custom Email Templates and Other Sending Transport
 
-**Symfony Mailer** allows each module to have custom email templates and other sending transport.
-
-The default transport service will be used when no custom transport was configured for the module. When a custom or contrib module is trying to send emails it will use the default. Unliess a custom **Symfony Mailer** plugin was developed to support the contrib module with more options.
+The default transport service will be used when no custom transport was configured for the module. When a custom or contrib module is trying to send emails.
 
 If the old project had any custom code or custom multiple mailers in the same system. The code should be migrated to configs. Using the Symfony Mailer plugin system.
 
