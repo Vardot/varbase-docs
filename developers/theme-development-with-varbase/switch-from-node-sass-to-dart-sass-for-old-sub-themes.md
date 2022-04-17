@@ -25,7 +25,7 @@ Issue [#3269723](https://www.drupal.org/i/3269723): Switched from deprecated [**
 
 Old sub-themes which had been generated from an older **Vartheme BS4** version. **9.0.11** and older should follow the following steps to have the full switch:
 
-## **Update NPM** and [N**odejs**](https://nodejs.org/en/) to \~16 LTS Version
+## Update Npm and Nodejs to \~16 Lts Version
 
 ```
 curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash - 
@@ -38,9 +38,9 @@ sudo apt update
 sudo apt install npm
 ```
 
-## Switch from **Node Sas**s to **Dart Sass** Compiler
+## Switch From Node Sass to Dart Sass Compiler
 
-* Change the **package.json** file with the following main important changes. Then update local packages by running `yarn install` in the folder of the theme.
+* Change the **package.json** file with the following main important changes. Update local packages by running `yarn install` in the folder of the theme.
 
 ```php
     ...
@@ -84,7 +84,7 @@ Follow the latest changes from the following links for the complete list of chan
 
 This includes an all-new update for coding standards and linting with the **Drupal Core**.
 
-## Re-Compile your SCSS files to CSS using the new Dart Sass
+## Re-Compile Your Scss Files to CSS Using the New Dart Sass
 
 After changing all needed files
 
