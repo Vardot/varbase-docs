@@ -103,5 +103,5 @@ libraries-override:
 
 The default transport service will be used when no custom transport was configured for the module. When a custom or contrib module is trying to send emails it will use the default. Unless a custom **Symfony Mailer** plugin was developed to support the contrib module with more options.
 
-If the old project had any custom code or custom multiple mailers in the same system. The code should be migrated to configs. Using the Symfony Mailer plugin system.
+If the old project had any custom code or custom multiple mailers in the same system. The code should be migrated to configs. Using the **Symfony Mailer** plugin system.
 
