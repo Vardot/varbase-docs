@@ -18,7 +18,7 @@ Backup the site before any updates or changes.
 
 The **9.0.2** version later requires the **Symfony Mailer** module.&#x20;
 
-* Kept the [**Swift Mailer**](https://www.drupal.org/project/swiftmailer) in the **9.0.x** branch of **Varbase Email**, But switched the default config to use the **Symfony Mailer** module.
+* Kept the [**Swift Mailer**](https://www.drupal.org/project/swiftmailer) in the **9.0.x** branch of **Varbase Email**, But switched the default config to use the **Symfony Mailer** module on the default installation.
 * Added the [**Symfony Mailer**](https://www.drupal.org/project/symfony\_mailer) **** module, with all needed switching in code.
 
 ### Copy the Old Swift Mailer Keys and Configs
@@ -89,7 +89,7 @@ Having a custom LTR ( Left to right ) and RTL (Right to left ) styling in separa
 
 The **Varbase Email** module has two libraries that can be extended or overridden.
 
-**Example:** `custom_subtheme.info.yml` file in your custom Vartheme Sub-theme
+**Example:** `custom_subtheme.info.yml` file in your custom **Vartheme** sub-theme
 
 ```
 libraries-override:
