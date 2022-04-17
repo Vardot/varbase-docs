@@ -44,4 +44,4 @@ The Email Logo custom theme settings can be filled as desired
 
 ![Email Logo Settings in Vartheme and Vartheme Sub Themes](<../../../.gitbook/assets/Email Logo - Vartheme (Bootstrap 4 - SASS) \_ varbase90x1.png>)
 
-The provided Email Logo will feed the Swift Mailer template with the selected logo, which will be linked in the email.
+The provided Email Logo will feed the Swift Mailer template with the selected logo, which it will be linked in the email.
