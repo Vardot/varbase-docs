@@ -33,6 +33,12 @@ Save any old configs for **Swift Mailer** or **Mail System.** Which had been sat
 
 The **Symfony Mailer** module can not be enabled along with the **Mail System** module in the same system.
 
+In case of trying to enable the **Symfony Mailer Back-compatibility** module. The following message will show up under install extensions.
+
+![Symfony Mailer Back-Compatibility Module Cannot Be Installed With the Mail System Module](<../../../.gitbook/assets/Extend \_ varbase90x1.png>)
+
+Uninstall **Swift Mailer** and **Mail System** modules
+
 ```
 drush pm:uninstall swiftmailer
 drush pm:uninstall mailsystem
@@ -42,6 +48,7 @@ drush pm:uninstall mailsystem
 
 ```
 drush pm:enable symfony_mailer
+drush pm:enable symfony_mailer_bc
 ```
 
 ### Follow with the Configure Symfony Mailer Steps
