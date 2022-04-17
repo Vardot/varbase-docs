@@ -54,9 +54,9 @@ Use the saved backup copy of **Swift Mailer** mail system configs.
 
 ## Migrate Custom Templates In Custom Themes
 
-When custom themes in projects do not have any changes. No extra work is needed at this point.
+No extra work is needed when no custom changes in themes in projects.
 
-Following steps when having any changes over the custom theme in the project.
+Follow the following steps when having any custom changes over styling.
 
 ### Switch from inline Styling to Libraries
 
@@ -64,9 +64,9 @@ Following steps when having any changes over the custom theme in the project.
 
 Inline or style elements are cleared out in the `email.twig` ,`varbase_email.twig` template file.
 
-Clear them from your custom changes in your custom theme.
+Remove custom CSS styling from your custom changes in your custom theme.
 
-And create a new library to attach the needed styles to it&#x20;
+Create a new library to attach the needed styles to the template.
 
 **Example:** `custom_subtheme.libraries.yml` file in your custom **Vartheme** sub-theme
 
