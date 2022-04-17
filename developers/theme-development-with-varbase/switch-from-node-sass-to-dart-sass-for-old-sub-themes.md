@@ -1,22 +1,20 @@
-# Switch From Node SASS to Dart SASS for old Sub-Themes
-
-
+# Switch From Node SASS to Dart SASS for Old Sub-Themes
 
 > **Warning:** [**LibSass and Node Sass are deprecated**](https://sass-lang.com/blog/libsass-is-deprecated). While they will continue to receive maintenance releases indefinitely, there are no plans to add additional features or compatibility with any new CSS or Sass features. Projects that still use it should move onto [Dart Sass](https://sass-lang.com/dart-sass).
 
 [https://www.npmjs.com/package/node-sass](https://www.npmjs.com/package/node-sass)
 
-* The maintainers no longer recommend LibSass for new Sass projects. Use [Dart Sass](https://sass-lang.com/dart-sass) instead.
+* The maintainers no longer recommend LibSass for new Sass projects. Use [**Dart Sass**](https://sass-lang.com/dart-sass) instead.
 * The maintainers recommend all existing LibSass users make plans to eventually move onto Dart Sass, and that all Sass libraries make plans to eventually drop support for LibSass.
 * The maintainers are no longer planning to add any new features to LibSass, including compatibility with new CSS features.
-* LibSass and Node Sass will continue to be maintained indefinitely on a best-effort basis, including fixing major bugs and security issues and maintaining compatibility with the latest Node versions.
+* LibSass and **Node Sass** will continue to be maintained indefinitely on a best-effort basis, including fixing major bugs and security issues and maintaining compatibility with the latest Node versions.
 
 ## When to Switch to Dart Sass
 
-The optional direction is to use the latest **Dart Sass** in old projects.
+It is an optional direction to use the latest **Dart Sass** in old projects. An old project can stay using the old **Node Sass** package compiler. But the NPM or Yarn may face issues with old packages which are related to old not updated or no longer maintained.
 
 {% hint style="success" %}
-Projects which had generated a new sub-theme using the [**`Vartheme BS4 9.0.13`**](https://www.drupal.org/project/vartheme\_bs4/releases/9.0.13) and later do not need to do anything. They are using Dart Sass already.
+Projects which had generated a new sub-theme using the [**`Vartheme BS4 9.0.13`**](https://www.drupal.org/project/vartheme\_bs4/releases/9.0.13) and later do not need to do anything. They are using **Dart Sass** already.
 
 
 
@@ -25,9 +23,9 @@ Issue [#3269723](https://www.drupal.org/i/3269723): Switched from deprecated [**
 
 
 
-If an old sub-theme was generated from an older Vartheme BS4 version. Older than 9.0.13 can follow the following steps to switch&#x20;
+Old sub-themes which had been generated from an older **Vartheme BS4** version. **9.0.11** and older should follow the following steps to have the full switch:
 
-## **Update npm** and [**nodejs**](https://nodejs.org/en/) to \~16 LTS Version
+## **Update NPM** and [N**odejs**](https://nodejs.org/en/) to \~16 LTS Version
 
 ```
 curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash - 
@@ -42,7 +40,7 @@ sudo apt install npm
 
 ## Switch from **Node Sas**s to **Dart Sass** Compiler
 
-* Have the following changes in the `package.json` file. Then update the `yarn.lock` file by `yarn install`
+* Change the **package.json** file with the following main important changes. Then update local packages by running `yarn install` in the folder of the theme.
 
 ```php
     ...
@@ -65,7 +63,11 @@ sudo apt install npm
     ...
 ```
 
-* Change from `sass = require("gulp-sass"),` to `sass = require("gulp-sass")(require('sass')),` in the **gulpfile.js** file
+* Change the **gulpfile.js** file from having the following required statements for the SASS object:  ``&#x20;
+
+From `sass = require("gulp-sass"),`
+
+To     `sass = require("gulp-sass")(require('sass')),`&#x20;
 
 Follow the latest changes from the following links for the complete list of changes that can be copied from them the  [`VARTHEME BS4 SUBTHEME`](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.13/VARTHEME\_BS4\_SUBTHEME)`:`&#x20;
 
@@ -80,7 +82,7 @@ Follow the latest changes from the following links for the complete list of chan
 * Add the new [.prettierignore](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.13/VARTHEME\_BS4\_SUBTHEME/.prettierignore) file
 * Change the [.csscomb.json ](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.13/VARTHEME\_BS4\_SUBTHEME/.csscomb.json)file
 
-This includes an all-new update for coding stanadards and linting with the Drupal Core
+This includes an all-new update for coding standards and linting with the **Drupal Core**.
 
 ## Re-Compile your SCSS files to CSS using the new Dart Sass
 

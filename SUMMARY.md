@@ -94,7 +94,7 @@
     * [Creating Your Own Theme](developers/theme-development-with-varbase/creating-your-own-theme.md)
     * [Local Tasks and Moderation Sidebar](developers/theme-development-with-varbase/local-tasks-and-moderation-sidebar.md)
     * [Add Preloaded Fonts in Vartheme](developers/theme-development-with-varbase/add-preloaded-fonts-in-vartheme.md)
-    * [Switch From Node SASS to Dart SASS for old Sub-Themes](developers/theme-development-with-varbase/switch-from-node-sass-to-dart-sass-for-old-sub-themes.md)
+    * [Switch From Node SASS to Dart SASS for Old Sub-Themes](developers/theme-development-with-varbase/switch-from-node-sass-to-dart-sass-for-old-sub-themes.md)
   * [Launching a Varbase Site to Production](developers/launching-a-varbase-site-to-production.md)
   * [Updating a Varbase Site](developers/updating-varbase/README.md)
     * [Understanding Varbase Updater Package](developers/updating-varbase/understanding-varbase-updater-package.md)
