@@ -8,7 +8,7 @@ Only it's a matter of copying the old **SMTP** keys and configs to the **Symfony
 
 ## Steps to Switch to Symfony Mailer
 
-Backup the site before any update or change
+Backup the site before any updates or changes.
 
 {% content-ref url="../../updating-varbase/" %}
 [updating-varbase](../../updating-varbase/)
@@ -60,7 +60,7 @@ Follow the following steps when having any custom changes over styling.
 
 ### Switch from inline Styling to Libraries
 
-**Symfony Mailer** clears all raw styling CSS Elements in the Template.
+**Symfony Mailer** clears all raw styling CSS elements in the template.
 
 Inline or style elements are cleared out in the `email.twig` ,`varbase_email.twig` template file.
 
