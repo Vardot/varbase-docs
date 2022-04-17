@@ -46,7 +46,7 @@ drush pm:enable symfony_mailer
 
 ### Follow with the Configure Symfony Mailer Steps
 
-Use the saved backup copy of Swift Mailer mail system configs&#x20;
+Use the saved backup copy of **Swift Mailer** mail system configs.
 
 {% content-ref url="configure-symfony-mailer.md" %}
 [configure-symfony-mailer.md](configure-symfony-mailer.md)
@@ -68,7 +68,7 @@ Clear them from your custom changes in your custom theme.
 
 And create a new library to attach the needed styles to it&#x20;
 
-**Example:** `custom_subtheme.libraries.yml` file in your custom Vartheme Sub-theme
+**Example:** `custom_subtheme.libraries.yml` file in your custom **Vartheme** sub-theme
 
 ```
 default.email-style.ltr:
