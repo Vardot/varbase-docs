@@ -3,7 +3,7 @@
 To configure the Password Policies in your site, navigate to:\
 **Administration** \ **Configuration** \ **Security** \ _**Password Policy**_
 
-![Password Policies](../../../.gitbook/assets/Password-Policies--varbase\_security.png)
+![Password Policies](<../../../.gitbook/assets/Password Policies \_ dev slider.png>)
 
 Varbase ships with a default password policy to provide a way to enforce restrictions on user passwords by defining password policies.
 
@@ -15,3 +15,6 @@ A password policy can be defined with a set of constraints that must be met befo
 
 ![Configure Constraints - Policy Constraints](../../../.gitbook/assets/Configure-Constraints---Policy-Constraints--varbase\_security.png)
 
+Changing policy constraints won't affect the markup or wordings found in the "Recommendations to make your password stronger" box in the user profile page, to reflect changes to the end-user when creating or editing their password you should edit the password suggestions settings form found at **Administration** \ **Configuration** \ **Varbase settings \ Varbase Security settings \ **_**Password Suggestions settings.**_
+
+![Varbase Security - Password Suggestions settings](<../../../.gitbook/assets/Password Suggestions settings \_ dev slider.png>)
