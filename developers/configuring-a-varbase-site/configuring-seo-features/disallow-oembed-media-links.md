@@ -18,7 +18,7 @@ Search engines are indexing the `media/oembed` links in websites. And the search
 >
 
 {% hint style="danger" %}
-This is a repetitive issue that the support team faces when starting the handover process
+This is a repetitive issue that the support team faces when starting the handover process to push a site to production before launching a project.
 {% endhint %}
 
 **Drupal** core [robots.txt](https://git.drupalcode.org/project/drupal/-/blob/9.3.x/robots.txt) file does not have the `Disallow: /media/oembed`\
