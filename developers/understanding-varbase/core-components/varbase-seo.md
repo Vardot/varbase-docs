@@ -45,6 +45,6 @@ Brings in the following core and contributed modules to your site:
 | ****[**Real-time SEO**](https://www.drupal.org/project/yoast\_seo)****                       | Adds Real-time SEO page analysis and configuration                                                                                                             |
 | ****[**Script Manager**](https://www.drupal.org/project/script\_manager)****                 | Manage JavaScript snippets included in your website.                                                                                                           |
 
-{% content-ref url="../../configuring-a-varbase-site/configuring-seo-features/" %}
-[configuring-seo-features](../../configuring-a-varbase-site/configuring-seo-features/)
+{% content-ref url="../../configuring-a-varbase-site/configuring-seo-features.md" %}
+[configuring-seo-features.md](../../configuring-a-varbase-site/configuring-seo-features.md)
 {% endcontent-ref %}

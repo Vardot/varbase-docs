@@ -4,15 +4,15 @@ Varbase bundles several SEO-related enhancements for top-notch search engine opt
 
 **Varbase SEO** module assembles Search Engine Optimization (SEO) Core features and settings. such as Resource Description Framework (RDF), meta tags, automatically generated aliases, redirected old links to new links, Schema.org JSON-LD structured data definitions, and Real-time SEO page analysis.
 
-{% content-ref url="../../understanding-varbase/core-components/varbase-seo.md" %}
-[varbase-seo.md](../../understanding-varbase/core-components/varbase-seo.md)
+{% content-ref url="../understanding-varbase/core-components/varbase-seo.md" %}
+[varbase-seo.md](../understanding-varbase/core-components/varbase-seo.md)
 {% endcontent-ref %}
 
 ## Google Analytics and Google Tag Manager
 
 When you install Varbase, [Google Analytics](https://www.drupal.org/project/google\_analytics) and/or [Google Tag Manager](https://www.drupal.org/project/google\_tag) modules can be optionally installed.
 
-![Varbase Installation Step - Extra Components](../../../.gitbook/assets/Extra-components--Varbase9-install.png)
+![Varbase Installation Step - Extra Components](../../.gitbook/assets/Extra-components--Varbase9-install.png)
 
 
 
