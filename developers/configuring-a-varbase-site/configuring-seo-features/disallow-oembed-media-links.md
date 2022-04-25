@@ -24,9 +24,9 @@ Waiting on the Drupal core issue [#3271222: Include Disallow Oembed media links 
 
 ## Adding Disallow Media Oembed in Old Projects
 
-As of **Varbase 9.0.6** and later not need to do any work on this part.
+As of **Varbase 9.0.6** and later do not need to do any work on this part.
 
-If the project was built from **Varbase 9.0.5** and older versions needs to do the following stpes:
+If the project was built from **Varbase 9.0.5** and older versions need to do the following steps:
 
 > Add line “`Disallow: /media/oembed`“ to be configured from Varbase to be always included in `robots.txt`\
 > Regarding the other languages will be dealt with by the delivery team to add the variation according to the available languages on the website
@@ -51,7 +51,7 @@ Disallow: /*/media/oembed
       }
 ```
 
-{% hint style="info" %}
+{% hint style="success" %}
 **Projects may change the "append": `"docroot/profiles/varbase/src/assets/varbase-robots-additions.txt"` to their custom robots-additions.txt file.**
 {% endhint %}
 
