@@ -20,7 +20,7 @@ and only following with [http://www.robotstxt.org/robotstxt.html](http://www.rob
 
 
 
-Waiting on the Drupal core [#3271222: Include Disallow Oembed media links in the robots.txt file for better Drupal SEO](https://www.drupal.org/project/drupal/issues/3271222) to be committed.
+Waiting on the Drupal core issue [#3271222: Include Disallow Oembed media links in the robots.txt file for better Drupal SEO](https://www.drupal.org/project/drupal/issues/3271222) to be committed.
 
 ## Adding Disallow Media Oembed in Old Projects
 
