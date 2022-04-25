@@ -2,6 +2,8 @@
 
 Search engines are indexing the `media/oembed` links in websites. And the search results for the Oembed remote media can be viewed in search results. Then a landing page will open with only the content of the remote media in it.
 
+> ### Current Status In Every Project&#x20;
+>
 > Developers add the following Oembed media link in the `robots.txt` to be disallowed
 >
 > ```php
@@ -13,14 +15,18 @@ Search engines are indexing the `media/oembed` links in websites. And the search
 > Disallow: /ar/media/oembed
 > ```
 >
-> This is a repetitive issue that the support team faces when starting the handover process
+>
+
+{% hint style="danger" %}
+This is a repetitive issue that the support team faces when starting the handover process
+{% endhint %}
 
 **Drupal** core [robots.txt](https://git.drupalcode.org/project/drupal/-/blob/9.3.x/robots.txt) file does not have the `Disallow: /media/oembed`\
 and only following with [http://www.robotstxt.org/robotstxt.html](http://www.robotstxt.org/robotstxt.html)
 
-
-
+{% hint style="warning" %}
 Waiting on the Drupal core issue [#3271222: Include Disallow Oembed media links in the robots.txt file for better Drupal SEO](https://www.drupal.org/project/drupal/issues/3271222) to be committed.
+{% endhint %}
 
 ## Adding Disallow Media Oembed in Old Projects
 
@@ -57,4 +63,6 @@ Disallow: /*/media/oembed
 
 Updated the default Varbase Project with the [Include Disallow Oembed media link in the robots.txt for Varbase Project template #136](https://github.com/Vardot/varbase-project/issues/136) issue.
 
-* File an issue to Drupal core to add `Disallow: /media/oembed` in the [robots.txt](https://git.drupalcode.org/project/drupal/-/blob/9.3.x/robots.txt) file
+{% hint style="info" %}
+When the Drupal core issue [#3271222: Include Disallow Oembed media links in the robots.txt file for better Drupal SEO](https://www.drupal.org/project/drupal/issues/3271222) is committed. The old setup could be changed to follow the new Drupal core standard rogots.txt&#x20;
+{% endhint %}
