@@ -20,14 +20,14 @@ The below requirements outline the minimum needed requirements. If you need help
 
 | **Component**   | **Description**                                                                                                                                                                                                                                                    |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| PHP             | <p>PHP 7.3 or higher. PHP 7.4 is recommended.</p><p>PHP extensions: mysqli (for MySQL), pgsql (for PostgreSQL), xml, gd, openssl, json, curl, mbstring, date, dom, filter, hash, pcre, pdo, session, SimpleXML, SPL, tokenizer, mcrypt</p>                         |
+| PHP             | <p>PHP 7.4 or higher. PHP 8.0 is recommended.</p><p>PHP extensions: mysqli (for MySQL), pgsql (for PostgreSQL), yaml, gd, openssl, json, curl, mbstring, date, dom, filter, hash, pcre, pdo, session, SimpleXML, SPL, tokenizer, mcrypt</p>                        |
 | Applications    | <p>Composer</p><p>Drush 10 or higher</p><p>Git</p>                                                                                                                                                                                                                 |
 | Web Server      | <p></p><p>Varbase works on any web server with PHP version of 7 or higher. <code>mod_rewrite</code> is required if you use Apache.</p><p><code>ngx_http_rewrite_module</code> if you use Nginx.</p>                                                                |
 | Database Engine | <p>Varbase works on any multiple database engines. MySQL, MariaDB or Percona Server (Recommended)</p><ul><li>MySQL 8 is supported only on Varbase 8.6.x or higher</li><li>Required MySQL 5.5.3/MariaDB 5.5.20/Percona Server 5.5.8 or higher with InnoDB</li></ul> |
 
 To deploy and run Varbase your web server must meet certain minimum requirements. We recommend sizing your application and considering your database size, files data, and expected traffic.
 
-Your servers' requirements will greatly be impacted by the usage of your application. For example, if you have more logged-in users that anonymous users, you will need to consider higher requirements to serve non-cached requests.
+Your servers' requirements will greatly be impacted by the usage of your application. For example, if you have more logged-in users that are anonymous users, you will need to consider higher requirements to serve non-cached requests.
 
 
 
