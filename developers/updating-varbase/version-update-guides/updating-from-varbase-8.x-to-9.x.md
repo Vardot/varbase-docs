@@ -336,7 +336,7 @@ The root `composer.json` file should look like the Varbase 9.0.x project templat
 
 &#x20; <mark style="background-color:orange;">**It should look like the composer.json file .. not the same exact copy of it**</mark> &#x20;
 
-[https://github.com/Vardot/varbase-project/blob/9.0.5/composer.json](https://github.com/Vardot/varbase-project/blob/9.0.5/composer.json)
+[https://github.com/Vardot/varbase-project/blob/9.0.6/composer.json](https://github.com/Vardot/varbase-project/blob/9.0.6/composer.json)
 
 keep the work of the automated updater. Do not do any manual copy and replacing for the outcome composer.json file. Only edit the the same file.
 {% endhint %}
@@ -398,8 +398,16 @@ Please change it back to
     "composer-exit-on-patch-failure": true,
 ```
 
-It was sat true in the [**Vardot/varbase-project/composer.json**](https://github.com/Vardot/varbase-project/blob/9.0.2/composer.json) for the following rezone.
+It was sat true in the [**Vardot/varbase-project/composer.json**](https://github.com/Vardot/varbase-project/blob/9.0.6/composer.json) for the following rezone.
 
 {% hint style="danger" %}
-A module could have a **security patch** or a **functional feature patch.** If the patch did not apply. That means the project has a **security issue,** or some expected **behaviors will be lost** or a bug will show up in projects.
+A module could have a **security patch** or a **functional feature patch.** If the patch did not apply. That means the project has a **security issue,** some expected **behaviors will be lost** or a bug will show up in the project.
 {% endhint %}
+
+
+
+## If **Varbase Layout Builder \~8.0** or **\~9.0** were not Enabled in Old sites
+
+* Only remove it from the **root composer.json** file for the project and do a `composer update`
+* The **Varbase Layout Builder \~10.0** and all needed modules will be required in the default **Varbase \~9.0** profile
+* Enable **Varbase Layout Builder** and **Varbase Landing (Layout Builder)** modules.
