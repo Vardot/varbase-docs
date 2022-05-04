@@ -406,7 +406,7 @@ A module could have a **security patch** or a **functional feature patch.** If t
 
 
 
-## If **Varbase Layout Builder \~8.0** or **\~9.0** were not Enabled in Old sites
+## If **Varbase Layout Builder \~8.0** or **\~9.0** were not Enabled in Old Sites
 
 * Only remove it from the **root composer.json** file for the project and do a `composer update`
 * The **Varbase Layout Builder \~10.0** and all needed modules will be required in the default **Varbase \~9.0** profile
