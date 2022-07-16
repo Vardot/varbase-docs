@@ -19,16 +19,16 @@ Varbase can bring ease to you if you are:
 
 ## Join Varbase Slack Team for Feedback and Support
 
-[![](https://www.drupal.org/files/varbase-slack-cta\_0.png)](http://slack.varbase.vardot.com)Visit [http://slack.varbase.vardot.com/](http://slack.varbase.vardot.com) to join now.
+[![](https://www.drupal.org/files/varbase-slack-cta\_0.png)](http://slack.varbase.vardot.com/)Visit [http://slack.varbase.vardot.com/](http://slack.varbase.vardot.com/) to join now.
 
 ## Give It a Spin and Try It
 
 We simplify and organize all the work for you! So you can enjoy building your website in less time.
 
-Try out Varbase on [**accounts.vardot.com**](https://accounts.vardot.com)**.**
+Try out Varbase on [**accounts.vardot.com**](https://accounts.vardot.com/)**.**
 
 
 
 ## Credits
 
-[Varbase](https://www.drupal.org/project/varbase) is a product of [Vardot](https://www.vardot.com), the enterprise Drupal solutions provider.
+[Varbase](https://www.drupal.org/project/varbase) is a product of [Vardot](https://www.vardot.com/), the enterprise Drupal solutions provider.

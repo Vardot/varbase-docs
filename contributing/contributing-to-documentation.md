@@ -11,7 +11,7 @@ description: >-
 * Take screenshots from the latest version of Varbase.
 * For consistency use this screen resolution when taking a screenshot: 1366 x 768.\
   You can use the [Window Resizer Chrome Extension](https://chrome.google.com/webstore/detail/window-resizer/hgjfanlllikpfpaadggdbchdpcbiaeei/related?hl=en) to help you set the window size.
-* Use [Awesomescreenshot](https://www.awesomescreenshot.com) to help you out.
+* Use [Awesomescreenshot](https://www.awesomescreenshot.com/) to help you out.
   * Only use the visible part option, no need to take the whole page, and crop it.
   *   Use annotations (Arrows, Steps numbers, Highlights, Rectangles ...etc.) to annotate the screenshot. Always use the red color.
 
@@ -21,7 +21,7 @@ description: >-
 
       <img src="../.gitbook/assets/Sample Screenshot" alt="" data-size="original">
 * Make sure screenshots are displayed in a good resolution, not pixilated.
-* Always add a caption to screenshots or images in the documentation page. Captions must be following APA title case style. Use [capitalizemytitle.com](https://capitalizemytitle.com) for help.
+* Always add a caption to screenshots or images in the documentation page. Captions must be following APA title case style. Use [capitalizemytitle.com](https://capitalizemytitle.com/) for help.
 * Take screenshots from real content on Varbase website and not from other sites.
 
 ## Writing Style
@@ -29,13 +29,13 @@ description: >-
 ### Naming Standards and Capitalization
 
 * Always capitalize the word Varbase when mentioning it.
-* Use [Grammarly](https://www.grammarly.com) to check on proper grammar and punctuation.&#x20;
-* All titles (H1, H2, H3) must use APA title case style. Use [capitalizemytitle.com](https://capitalizemytitle.com) for help.
+* Use [Grammarly](https://www.grammarly.com/) to check on proper grammar and punctuation.&#x20;
+* All titles (H1, H2, H3) must use APA title case style. Use [capitalizemytitle.com](https://capitalizemytitle.com/) for help.
 * All modules and component names must use APA title case style.
 
 ### Headings
 
-* All titles (H1, H2, H3) must use APA title case style. Use [capitalizemytitle.com](https://capitalizemytitle.com) for help.
+* All titles (H1, H2, H3) must use APA title case style. Use [capitalizemytitle.com](https://capitalizemytitle.com/) for help.
 * Use descriptive headings and titles because they help a user navigate their browser and the page. It's easier to jump between pages and sections of a page if the headings and titles are unique.
 * When possible, use -ing verb form in title to indicate present participle or gerund. Example: "Managing Menu Items"
 

@@ -16,7 +16,7 @@ If you're new to Drupal, we recommend you also familiarize yourself with the Dru
 
 ## Packaging Method (Composer)
 
-Varbase uses [Composer](https://getcomposer.org) to package dependencies and components.&#x20;
+Varbase uses [Composer](https://getcomposer.org/) to package dependencies and components.&#x20;
 
 To build a project using Varbase, we have provided a Varbase Composer project template.
 

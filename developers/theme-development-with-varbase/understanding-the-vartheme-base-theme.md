@@ -22,7 +22,7 @@ This way a guaranteed full integration between **Varbase components** and **Varb
 
 All **Varbase** components organize CSS files under libraries with full use of [SMACSS](http://smacss.com/book/) in mind.
 
-> ### [Scalable and Modular Architecture for CSS](http://smacss.com)
+> ### [Scalable and Modular Architecture for CSS](http://smacss.com/)
 >
 > #### A flexible guide to developing sites small and large.
 >

@@ -119,11 +119,11 @@ products/
 
 Saving the code in a repository is important. To let Composer build the project or manage the workflow of updates over code and config changes.
 
-Push the generated profile and project template to [https://github.com](https://github.com) or [https://gitlab.com](https://gitlab.com) for example.
+Push the generated profile and project template to [https://github.com](https://github.com/) or [https://gitlab.com](https://gitlab.com) for example.
 
-Submit them to [https://packagist.org](https://packagist.org) to be able to create projects or manage projects using the composer.
+Submit them to [https://packagist.org](https://packagist.org/) to be able to create projects or manage projects using the composer.
 
-Commit to a new project in [https://drupal.org](https://drupal.org) to list the profile in the projects catalog in Drupal.org
+Commit to a new project in [https://drupal.org](https://drupal.org/) to list the profile in the projects catalog in Drupal.org
 
 **Example:** The [**CV**](https://www.drupal.org/project/cv) profile
 

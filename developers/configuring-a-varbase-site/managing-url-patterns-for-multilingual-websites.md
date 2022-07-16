@@ -141,7 +141,7 @@ When creating/translating content, the URL to that content will include the char
 
 Example:
 
-[https://www.unicef.org/](https://www.unicef.org) website is using “Native Language URL Patterns” so the URL alias will change regarding the selected language for the same page. So for “What to Do” page as an example, the URL aliases would be:
+[https://www.unicef.org/](https://www.unicef.org/) website is using “Native Language URL Patterns” so the URL alias will change regarding the selected language for the same page. So for “What to Do” page as an example, the URL aliases would be:
 
 * [https://www.unicef.org/what-we-do](https://www.unicef.org/what-we-do) for the English version
 * [https://www.unicef.org/fr/ce-que-nous-faisons](https://www.unicef.org/fr/ce-que-nous-faisons)  for the French version
@@ -188,7 +188,7 @@ Save the configurations and check the URL for any landing page in order to check
 
 Example:
 
-[https://www.vardot.com/](https://www.vardot.com) website is using “Base-Language Only URL Patterns” for URL aliases, so when we navigate to any page then change the language, the URL alias will stay the same as the source language - which is English in this case- and only the language identifier will change, so as an example we can check “About Us” page:
+[https://www.vardot.com/](https://www.vardot.com/) website is using “Base-Language Only URL Patterns” for URL aliases, so when we navigate to any page then change the language, the URL alias will stay the same as the source language - which is English in this case- and only the language identifier will change, so as an example we can check “About Us” page:
 
 * [https://www.vardot.com/en/about-us](https://www.vardot.com/en/about-us) is the English version.
 * [https://www.vardot.com/ar-jo/about-us](https://www.vardot.com/ar-jo/about-us) is the Arabic version.

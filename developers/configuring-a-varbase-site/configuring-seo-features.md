@@ -49,7 +49,7 @@ Custom integrations can also be provided to send custom events and dimensions vi
 
 ### Google Tag Manager
 
-The [Google Tag Manager](https://www.drupal.org/project/google\_tag) module allows your site to integrate with [Google Tag Manager (GTM)](https://tagmanager.google.com) application, which allows you to deploy analytics and measurement tag configurations from a web-based user interface (hosted by Google) instead of requiring administrative access to your website.
+The [Google Tag Manager](https://www.drupal.org/project/google\_tag) module allows your site to integrate with [Google Tag Manager (GTM)](https://tagmanager.google.com/) application, which allows you to deploy analytics and measurement tag configurations from a web-based user interface (hosted by Google) instead of requiring administrative access to your website.
 
 To use the module, sign up for GTM and obtain a "container ID" for your website. For development purposes, create a GTM environment for your website.
 

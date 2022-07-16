@@ -9,7 +9,7 @@ Follow the steps below to install Varbase distribution for Drupal 9 on a local s
 ### Requirements
 
 1. [Composer](https://getcomposer.org/doc/00-intro.md) package manager
-2. [NPM](https://www.npmjs.com) package manager
+2. [NPM](https://www.npmjs.com/) package manager
 
 ### Procedure
 
@@ -34,7 +34,7 @@ You can then install Varbase as you install Drupal normally.
 
 We recommend you install Varbase with Lando to start a new project.
 
-[Lando](https://lando.dev) is a great local development environment for Drupal and other applications that vastly simplifies local development and DevOps so you can focus on the application, rather than the environment.
+[Lando](https://lando.dev/) is a great local development environment for Drupal and other applications that vastly simplifies local development and DevOps so you can focus on the application, rather than the environment.
 
 {% content-ref url="installing-varbase-with-lando.md" %}
 [installing-varbase-with-lando.md](installing-varbase-with-lando.md)
@@ -44,7 +44,7 @@ We recommend you install Varbase with Lando to start a new project.
 
 ## Deploy Varbase on Platform.sh
 
-You can install Varbase on [Platform.sh](https://platform.sh) and enjoy 30 days free trial for new users!
+You can install Varbase on [Platform.sh](https://platform.sh/) and enjoy 30 days free trial for new users!
 
 Follow this link to provision your Varbase instance on Platform.sh: [**Deploy Varbase on Platform.sh**](https://console.platform.sh/projects/create-project?template=https://raw.githubusercontent.com/Vardot/templates-external/master/templates/varbase.template.yaml)!
 

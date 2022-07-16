@@ -14,7 +14,7 @@ We would love for you to join us in the effort of building Varbase. We are welco
 
 You can also join our Varbase Slack team for feedback and support
 
-[![](https://www.drupal.org/files/varbase-slack-cta\_0.png)](http://slack.varbase.vardot.com)Visit [http://slack.varbase.vardot.com/](http://slack.varbase.vardot.com) to join now.
+[![](https://www.drupal.org/files/varbase-slack-cta\_0.png)](http://slack.varbase.vardot.com/)Visit [http://slack.varbase.vardot.com/](http://slack.varbase.vardot.com/) to join now.
 
 ## Contributing New Features or Components
 

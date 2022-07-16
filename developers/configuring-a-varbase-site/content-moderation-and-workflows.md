@@ -44,10 +44,14 @@ Refere to Drupal.org documentation for more about the terminology and usage of t
 Out of the box, Varbase Workflow offers two workflows for content moderation:
 
 1. **Simple workflow**: Draft, Published, and Archived / Unpublished\
-   Useful for any website, and offers the ability make a draft of a live version of content without unpublishing the whole content.\
+   Useful for any website, and offers the ability make a draft of a live version of content without unpublishing the whole content.
 
-2. **Editorial workflow**: Draft, In review, Published, and Archived / Unpublished\
-   Useful for website with editorial or moderation staff. You can create as many additional states as you like and define transitions between them to suit your organization's needs.
+![Varbase Simple Workflow Diagram](<../../.gitbook/assets/Simple-workflow-varbase9x1workflows\_diagram (1).png>)
+
+2\. **Editorial workflow**: Draft, In review, Published, and Archived / Unpublished\
+Useful for websites with editorial or moderation staff. You can create as many additional states as you like and define transitions between them to suit your organization's needs.
+
+![Varbase Editorial Workflow Diagram](../../.gitbook/assets/Editorial-workflow-varbase9x1workflows\_diagram.png)
 
 To view or manage these workflows, navigate to: **Administration** \ **Configuration** \ **Workflow** \ _**Workflows**_
 

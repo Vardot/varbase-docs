@@ -65,7 +65,7 @@ Install **Yarn** as a global by **npm**
 sudo npm install -g yarn
 ```
 
-### **4. Install** [**Gulp**](https://gulpjs.com)
+### **4. Install** [**Gulp**](https://gulpjs.com/)
 
 Helps in managing tasks when compiling SASS/SCSS to CSS
 

@@ -17,7 +17,7 @@ The configuration page allows you to configure settings to tighten your website'
 * **Cross-site Request Forgery (CSRF):** Configure levels and various techniques of protection from cross-site request forgery attacks.
 * **Clickjacking**
   * **X-Frame-Options header:** Configure the `X-Frame-Options` HTTP header.
-  * **JavaScript-based protection:** Warning: With this enabled, the site will not work at all for users who have JavaScript disabled (e.g. users running the popular [NoScript](https://noscript.net) browser extension, if they haven't whitelisted your site).
+  * **JavaScript-based protection:** Warning: With this enabled, the site will not work at all for users who have JavaScript disabled (e.g. users running the popular [NoScript](https://noscript.net/) browser extension, if they haven't whitelisted your site).
 * **SSL/TLS:** Configure various techniques to improve security of SSL/TLS
 * **Expect-CT:** Configure the `Expect-CT` header which allows sites to opt in to reporting and/or enforcement of Certificate Transparency requirements. See [Mozilla's developer documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT).
 * **Feature policy:** Allows configuration of the `Feature-Policy` header to selectively enable, disable, and modify the behavior of certain APIs and web features in the browser. See [Google's developer documentation](https://developers.google.com/web/updates/2018/06/feature-policy).
