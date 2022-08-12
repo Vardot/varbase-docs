@@ -2,7 +2,7 @@
 
 ## Latest Drush Version Default in Use
 
-**Drush 11.0.0** stable was released **2022-01-11**\
+**Drush 11.0** the stable was released **2022-01-11**\
 [https://github.com/drush-ops/drush/releases/tag/11.0.0](https://github.com/drush-ops/drush/releases/tag/11.0.0)
 
 More [Drush releases](https://github.com/drush-ops/drush/releases) followed after that date.
@@ -14,7 +14,7 @@ Many options to change to
 3. `"drush/drush": "^10.0",`
 4. `"drush/drush": "@stable",`
 
-The root `composer.json` file for the default [**Varbase Project**](https://github.com/Vardot/varbase-project/blob/9.0.x/composer.json#L43) template was changed **`"drush/drush": "~10.0 || ~11.0",`** for easier support, update, and upgrade process in development and production servers. It can be changed to  \~11.0 in next releases. as this an upgrade step for the use of Drush.
+The root `composer.json` file for the default [**Varbase Project**](https://github.com/Vardot/varbase-project/blob/9.0.x/composer.json#L43) template was changed **`"drush/drush": "~11.0",`** for easier support, update, and upgrade processes in development and production servers. It can be changed to  \~11.0 in the next releases. as this is an upgrade step for the use of Drush.
 
 
 
@@ -27,13 +27,13 @@ The root `composer.json` file for the default [**Varbase Project**](https://gith
 Use any text editor and change to "drush/drush" to the following
 
 ```php
-    "drush/drush": "~10.0 || ~11.0",
+    "drush/drush": "~11.0",
 ```
 
 ### 2. Run a Composer Command
 
 ```php
-composer require "drush/drush:~10.0 || ~11.0" --dev
+composer require "drush/drush:~11.0" --dev
 ```
 
 ## Varbase Versions and Drush Versions
@@ -51,14 +51,14 @@ In `require-dev` of the module
 
 {% embed url="https://git.drupalcode.org/project/update_helper/-/blob/3.0.x/composer.json#L31" %}
 
-This module has Drush command. In order to execute it properly, you have to use Drush installed with your project.\
-In case of composer build, it's: `[project directory]/vendor/bin/drush`
+This module has the Drush command. In order to execute it properly, you have to use Drush installed with your project.\
+In the case of composer build, it's: `[project directory]/vendor/bin/drush`
 
 They started to ask developers to use the drush command. not the one in the global, the one in the vendor.
 
 ## Drush Use in Varbase
 
-### Use the Direct Drush from Vender
+### Use the Direct Drush from Vendor
 
 `[project directory]/vendor/drush/drush/drush`
 
