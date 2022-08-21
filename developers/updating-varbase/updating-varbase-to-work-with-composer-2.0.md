@@ -43,8 +43,8 @@ If the site was built with **Varbase 8.8.7** and older**,** Follow the following
 > To:
 >
 > ```
->     "composer/installers": "~1.0 || ~2.0",
->     "oomphinc/composer-installers-extender": "~1.0 || ~2.0",
+>     "composer/installers": "~2.0",
+>     "oomphinc/composer-installers-extender": "~2.0",
 >     "cweagans/composer-patches": "~1.0",
 > ```
 >
