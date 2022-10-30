@@ -81,6 +81,7 @@
       * [Password Policies](developers/configuring-a-varbase-site/security-features/password-policies.md)
       * [Other Security Kits](developers/configuring-a-varbase-site/security-features/other-security-kits.md)
       * [Flood Contorl](developers/configuring-a-varbase-site/security-features/flood-contorl.md)
+      * [Enable HTTP Password Authentication](developers/configuring-a-varbase-site/security-features/enable-http-password-authentication.md)
     * [Configuring JSON:API Features](developers/configuring-a-varbase-site/configuring-json-api-features.md)
     * [Configure Varbase Media Hero Slider](developers/configuring-a-varbase-site/configure-varbase-media-hero-slider.md)
     * [Configuring Varbase Media Header](developers/configuring-a-varbase-site/configuring-varbase-media-header.md)
