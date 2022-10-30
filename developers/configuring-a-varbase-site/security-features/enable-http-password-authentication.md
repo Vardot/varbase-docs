@@ -24,9 +24,9 @@ Provide the desired **User** and **Password** in the credential part of the sett
 
 <figure><img src="../../../.gitbook/assets/Shield-varbase9009d1-2.jpg" alt=""><figcaption><p>Authentication Message, User and Password Example</p></figcaption></figure>
 
-Press the Save Configuration button to save the change configurations.
+Press the Save Configuration button to save the changed configurations.
 
-The  site will start asking for the user and password on every session.
+The site will start asking to fill in a user and password on every opened new session.
 
 
 
@@ -36,4 +36,8 @@ Adding HTTP authentication for a specific route/pattern instead of the whole sit
 
 <figure><img src="../../../.gitbook/assets/Shield-varbase9009d1-3.jpg" alt=""><figcaption><p>Paths and Path Methods</p></figcaption></figure>
 
-According to the Shield path method, the list of paths will be either excluded from, or included in Shield protection. Leave this blank and select "exclude" to protect all paths. Include a leading slash.
+The list of paths will be either excluded from, or included in Shield protection.
+
+Select "Include" to protect only the listed paths.
+
+Include a leading slash to listed internal links
