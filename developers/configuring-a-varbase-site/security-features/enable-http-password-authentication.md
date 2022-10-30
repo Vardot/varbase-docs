@@ -38,6 +38,6 @@ Adding HTTP authentication for a specific route/pattern instead of the whole sit
 
 The list of paths will be either excluded from, or included in Shield protection.
 
-Select "Include" to protect only the listed paths.
+Select `"Include"` to protect only the listed paths.
 
-Include a leading slash to listed internal links
+Include a leading slash to listed internal links.
