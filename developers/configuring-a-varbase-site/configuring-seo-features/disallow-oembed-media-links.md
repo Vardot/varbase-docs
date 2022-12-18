@@ -1,5 +1,25 @@
 # Disallow Oembed Media Links
 
+As of  [**Drupal 9.5.0**](https://www.drupal.org/project/drupal/releases/9.5.0) stable and [**Varbase 9.0.10**](https://www.drupal.org/project/varbase/releases/9.0.10)****
+
+{% hint style="info" %}
+The Drupal core issue [#3271222: Include Disallow Oembed media links in the robots.txt file for better Drupal SEO](https://www.drupal.org/project/drupal/issues/3271222) was committed. The old setup could be changed to follow the new Drupal core standard `robots.txt`&#x20;
+{% endhint %}
+
+{% hint style="success" %}
+[Dropped the use of the `varbase-robots-additions.txt` as its content were committed to `drupal-scaffold` asset templates in **Drupal 9.5.0** #158](https://github.com/Vardot/varbase-project/issues/158)
+{% endhint %}
+
+Remove the following from the **root** `composer.json` file for the project.
+
+```
+        "[web-root]/robots.txt": {
+          "append": "docroot/profiles/varbase/src/assets/varbase-robots-additions.txt"
+        }
+```
+
+## Old Information About The Issue
+
 Search engines are indexing the `media/oembed` links in websites. And the search results for the Oembed remote media can be viewed in search results. Then a landing page will open with only the content of the remote media in it.
 
 > ### Current Status In Every Project&#x20;
@@ -63,6 +83,20 @@ Disallow: /*/media/oembed
 
 Updated the default Varbase Project with the [Include Disallow Oembed media link in the robots.txt for Varbase Project template #136](https://github.com/Vardot/varbase-project/issues/136) issue.
 
+## Actions After the Fix in Drupal 9.5.0
+
 {% hint style="info" %}
-When the Drupal core issue [#3271222: Include Disallow Oembed media links in the robots.txt file for better Drupal SEO](https://www.drupal.org/project/drupal/issues/3271222) is committed. The old setup could be changed to follow the new Drupal core standard rogots.txt&#x20;
+The Drupal core issue [#3271222: Include Disallow Oembed media links in the robots.txt file for better Drupal SEO](https://www.drupal.org/project/drupal/issues/3271222) was committed. The old setup could be changed to follow the new Drupal core standard `robots.txt`&#x20;
 {% endhint %}
+
+{% hint style="success" %}
+[Dropped the use of the `varbase-robots-additions.txt` as its content were committed to `drupal-scaffold` asset templates in **Drupal 9.5.0** #158](https://github.com/Vardot/varbase-project/issues/158)
+{% endhint %}
+
+Remove the following from the **root** `composer.json` file.
+
+```
+        "[web-root]/robots.txt": {
+          "append": "docroot/profiles/varbase/src/assets/varbase-robots-additions.txt"
+        }
+```
