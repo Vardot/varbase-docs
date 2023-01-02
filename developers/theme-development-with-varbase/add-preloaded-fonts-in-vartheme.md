@@ -13,9 +13,9 @@ Following the new way in the new **Drupal** default front end theme [**Olivero**
 {% hint style="info" %}
 Check the code on [**Olivero**](https://www.drupal.org/project/olivero)&#x20;
 
-The **html.html.twig** file [https://git.drupalcode.org/project/drupal/-/blob/9.2.x/core/themes/olivero/templates/layout/html.html.twig#L43](https://git.drupalcode.org/project/drupal/-/blob/9.2.x/core/themes/olivero/templates/layout/html.html.twig#L43)
+The **html.html.twig** file [https://git.drupalcode.org/project/drupal/-/blob/10.1.x/core/themes/olivero/templates/layout/html.html.twig#L43](https://git.drupalcode.org/project/drupal/-/blob/10.1.x/core/themes/olivero/templates/layout/html.html.twig#L43)
 
-The **preload.twig** file [https://git.drupalcode.org/project/drupal/-/blob/9.2.x/core/themes/olivero/templates/includes/preload.twig](https://git.drupalcode.org/project/drupal/-/blob/9.2.x/core/themes/olivero/templates/includes/preload.twig)
+The **preload.twig** file [https://git.drupalcode.org/project/drupal/-/blob/10.1.x/core/themes/olivero/templates/includes/preload.twig](https://git.drupalcode.org/project/drupal/-/blob/10.1.x/core/themes/olivero/templates/includes/preload.twig)
 {% endhint %}
 
 Having the following in **Vartheme BS4** and **VARTHEM\_BS4\_SUBTHEME**. And the include.
@@ -157,7 +157,7 @@ Vartheme **Fonts** folder:
 
 [https://git.drupalcode.org/project/vartheme\_bs4/-/tree/9.0.x/fonts](https://git.drupalcode.org/project/vartheme\_bs4/-/tree/9.0.x/fonts)
 
-**Vartheme html.html.twig file:** [https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/templates/includes/preload.twig](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/templates/includes/preload.twig)
+**Vartheme html.html.twig file:** [https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/templates/system/html.html.twig#L69](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/templates/system/html.html.twig#L69)
 
 **Vartheme  preload.twig file:** [https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/templates/includes/preload.twig](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/templates/includes/preload.twig)
 {% endhint %}
