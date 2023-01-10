@@ -59,7 +59,7 @@ They started to ask developers to use the drush command. not the one in the glob
 ## Drush Use in Varbase
 
 {% hint style="danger" %}
-**Not recommended** to use your local global drush or the server global drush
+**Not recommended** to use the local global drush or the server global drush
 {% endhint %}
 
 ### Use the Direct Drush from Vendor
