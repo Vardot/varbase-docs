@@ -60,11 +60,33 @@ They started to ask developers to use the drush command. not the one in the glob
 
 ### Use the Direct Drush from Vendor
 
-`[project directory]/vendor/drush/drush/drush`
+Change the directory in the terminal to the project directory.
+
+`cd [project directory]`
+
+Run the following command for exmaple
+
+`./vendor/drush/drush/drush cr`
+
+It will use the local drush command directly from `vender`
+
+in case the following composer config was not in the **root** `composer.json` file for the project
+
+```json
+    "bin-dir": "bin/",
+```
 
 ### Use the Aliased Drush Command From the Bin folder
 
-If the current working directory was the docroot\
-`../bin/drush`
+The default [Varbase Project](https://github.com/Vardot/varbase-project/blob/9.0.x/composer.json#L42) template has the  `"bin-dir": "bin/",`
+
+composer config in the **root** `composer.json` file
+
+When the current working directory was the `docroot` in the terminal
+
+`cd [project directory]/docroot`
+
+Run the following command for example \
+`../bin/drush cr`
 
 \
