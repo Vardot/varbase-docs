@@ -50,7 +50,7 @@ The [**Update Helper**](https://www.drupal.org/project/update\_helper) `~3.0` is
 In `require-dev` of the module
 
 {% embed url="https://git.drupalcode.org/project/update_helper/-/blob/3.0.x/composer.json#L32" %}
-Update Hlper composer.json file has `"`[`drush/drush`](https://packagist.org/packages/drush/drush)`": "`[`~11.0`](https://packagist.org/packages/drush/drush)`"`
+Update Helper `composer.json` file has `"`[`drush/drush`](https://packagist.org/packages/drush/drush)`": "`[`~11.0`](https://packagist.org/packages/drush/drush)`"`
 {% endembed %}
 
 This module has the Drush command. In order to execute it properly, you have to use Drush installed with your project.\
