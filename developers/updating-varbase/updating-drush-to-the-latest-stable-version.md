@@ -58,6 +58,10 @@ They started to ask developers to use the drush command. not the one in the glob
 
 ## Drush Use in Varbase
 
+{% hint style="danger" %}
+**Not recommended** to use your local global drush or the server global drush
+{% endhint %}
+
 ### Use the Direct Drush from Vendor
 
 Change the directory in the terminal to the project directory.
