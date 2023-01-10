@@ -66,11 +66,15 @@ They started to ask developers to use the drush command. not the one in the glob
 
 Change the directory in the terminal to the project directory.
 
-`cd [project directory]`
+```
+cd [project directory]
+```
 
-Run the following command for exmaple
+Run the following command for example
 
-`./vendor/drush/drush/drush cr`
+```
+./vendor/drush/drush/drush cr
+```
 
 It will use the local drush command directly from `vender`
 
@@ -82,15 +86,20 @@ in case the following composer config was not in the **root** `composer.json` fi
 
 ### Use the Aliased Drush Command From the Bin folder
 
-The default [Varbase Project](https://github.com/Vardot/varbase-project/blob/9.0.x/composer.json#L42) template has the  `"bin-dir": "bin/",`
+The default [Varbase Project](https://github.com/Vardot/varbase-project/blob/9.0.x/composer.json#L42) **** template has the  `"bin-dir": "bin/",`
 
 composer config in the **root** `composer.json` file
 
-When the current working directory was the `docroot` in the terminal
+If the current working directory was the `docroot` in the terminal
 
-`cd [project directory]/docroot`
+```
+cd [project directory]/docroot
+```
 
-Run the following command for example \
-`../bin/drush cr`
+Run the following command for example&#x20;
+
+```
+../bin/drush cr
+```
 
 \
