@@ -216,7 +216,13 @@ Ignore the patch being used as in the following example method:
     }
 ```
 
+{% hint style="warning" %}
+**WARNING:** The URL for a Merge Request patch file will be named after the MR and will not change as more and more commits are being added to the MR. **The contents of the patch file will change**, however.
 
+This effectively means that you will get the latest version of the code from an issue, but you can't lock the patch file to a previous state, ignoring newer commits, until [this issue ](https://www.drupal.org/project/drupalorg/issues/3204538)is fixed. So, it brings a **security risk** because any new commit to the issue's branch will be automatically deployed to your repo via the next "composer install" launch and can harm your project!
+
+Therefore, it's **strongly recommended to lock the patch file versions on production sites**. To do so you **must** download the patch file and use it in composer from a local directory, or upload it to the same issue as a file. If you use the URL to the Gitlab MR directly, your codebase will change without warning, as people work on the merge request.
+{% endhint %}
 
 {% hint style="danger" %}
 Do not keep **patches** or **patches-ignore** for long in projects.
