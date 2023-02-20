@@ -167,6 +167,57 @@ Ignore the patch being used as in the following example method:
 }
 ```
 
+## Recommended Patching Method with Gitlab Issue Forks
+
+> If you use the URL to the Gitlab MR directly, your code base will change without warning, as people work on the merge request.
+
+[https://www.drupal.org/docs/develop/git/using-git-to-contribute-to-drupal/creating-issue-forks-and-merge-requests#s-patch-files-f\[…\]se-with-composer](https://www.drupal.org/docs/develop/git/using-git-to-contribute-to-drupal/creating-issue-forks-and-merge-requests#s-patch-files-for-use-with-composer) \
+
+
+{% hint style="success" %}
+**Recommended to use the local patch method in this case.**
+{% endhint %}
+
+* Download the `.diff` or `.patch` file in a `patches` folder in the project.
+* Add the module name, issue number, and date for the MR changes to the name of the file.
+* Add the patch local patch to patches.
+
+**Example** ( **NOT** Recommended ): &#x20;
+
+```
+    "patches": {
+      "drupal/gin_login": {
+        "Issue #3342318: Fix Gin Login Wallpaper images with the Origin URL (scheme and HTTP host) of the site":
+        "https://git.drupalcode.org/project/gin_login/-/merge_requests/19.diff"
+      }
+    }
+```
+
+**Example** ( Recommended remote patch file ): &#x20;
+
+```
+    "patches": {
+      "drupal/gin_login": {
+        "Issue #3342318: Fix Gin Login Wallpaper images with the Origin URL (scheme and HTTP host) of the site":
+        "https://www.drupal.org/files/issues/2023-02-16/3342318-3.patch"
+      }
+    }
+
+```
+
+**Example** ( Recommended local patch/diff file ): &#x20;
+
+```
+    "patches": {
+      "drupal/gin_login": {
+        "Issue #3342318: Fix Gin Login Wallpaper images with the Origin URL (scheme and HTTP host) of the site":
+        "patches/gin_login-2023-02-16--3342318-19.diff"
+      }
+    }
+```
+
+
+
 {% hint style="danger" %}
 Do not keep **patches** or **patches-ignore** for long in projects.
 
