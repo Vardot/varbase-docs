@@ -19,7 +19,7 @@ Backup the site before any updates or changes.
 The **9.0.2** version later requires the **Symfony Mailer** module.&#x20;
 
 * Kept the [**Swift Mailer**](https://www.drupal.org/project/swiftmailer) in the **9.0.x** branch of **Varbase Email**, But switched the default config to use the **Symfony Mailer** module on the default installation.
-* Added the [**Symfony Mailer**](https://www.drupal.org/project/symfony\_mailer) **** module, with all needed switching in code.
+* Added the [**Symfony Mailer**](https://www.drupal.org/project/symfony\_mailer) module, with all needed switching in code.
 
 ### Copy the Old Swift Mailer Keys and Configs
 
@@ -69,7 +69,7 @@ Follow the following steps when having any custom changes over styling.
 
 **Symfony Mailer** clears all raw styling CSS elements in the template.
 
-Inline or style elements are cleared out in the `email.twig` ,`varbase_email.twig` template file.
+Inline or style elements are cleared out in the `email.html.twig` ,`varbase_email.html.twig` template file.
 
 Remove custom CSS styling from your custom changes in your custom theme.
 
