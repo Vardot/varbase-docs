@@ -48,7 +48,7 @@ description: >-
 
 * When explaining a path to the user, use bold trail of links separated by backslash (\\) making the last item (where the user should land) in italics.\
   Example: Navigate to **Administration** \ **Configuration** \ **Search and metadata** \ _**Metatag.**_\
-  _****_
+
 * When a line of code or command is needed, highlight the text and use **<>** option from the tooltip. \
   Example: `cd /path/to/webserver_directory`  \
 

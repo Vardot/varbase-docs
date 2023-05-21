@@ -38,8 +38,8 @@ composer require "drush/drush:~11.0" --dev
 
 ## Varbase Versions and Drush Versions
 
-* ****[**Varbase 9.0.4**](https://www.drupal.org/project/varbase/releases/9.0.4) and older works only with **Drush \~10.0**
-* ****[**Varbase 9.0.5**](https://www.drupal.org/project/varbase/releases/9.0.5) and newer works only with **Drush \~11.0**
+* [**Varbase 9.0.4**](https://www.drupal.org/project/varbase/releases/9.0.4) and older works only with **Drush \~10.0**
+* [**Varbase 9.0.5**](https://www.drupal.org/project/varbase/releases/9.0.5) and newer works only with **Drush \~11.0**
 
 ## **Drush and the Update Helper**
 
@@ -86,7 +86,7 @@ Then command will use the local drush command directly from `vender` in case the
 
 ### Use the Aliased Drush Command From the Bin folder
 
-The default [Varbase Project](https://github.com/Vardot/varbase-project/blob/9.0.x/composer.json#L42) **** template has the  `"bin-dir": "bin/",`composer config in the **root** `composer.json` file.
+The default [Varbase Project](https://github.com/Vardot/varbase-project/blob/9.0.x/composer.json#L42) template has the  `"bin-dir": "bin/",`composer config in the **root** `composer.json` file.
 
 If the current working directory was the `docroot` folder in the opened terminal
 

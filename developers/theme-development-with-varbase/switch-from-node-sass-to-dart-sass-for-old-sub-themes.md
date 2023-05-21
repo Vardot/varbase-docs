@@ -63,7 +63,7 @@ sudo apt install npm
     ...
 ```
 
-* Change the **gulpfile.js** file from having the following required statements for the SASS object:  ``&#x20;
+* Change the **gulpfile.js** file from having the following required statements for the SASS object:  &#x20;
 
 From `sass = require("gulp-sass"),`
 

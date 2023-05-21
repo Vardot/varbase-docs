@@ -208,7 +208,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 
 
 
-* [x] First change the default admin them to [**Vartheme Claro**](https://www.drupal.org/project/vartheme\_claro)****
+* [x] First change the default admin them to [**Vartheme Claro**](https://www.drupal.org/project/vartheme\_claro)
 
 &#x20;            drush theme:enable vartheme\_claro
 
@@ -220,7 +220,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 
 &#x20;           drush theme:uninstall adminimal\_theme
 
-****
+
 
 **Keeping** **Admininimal**? Add the following to the composer.json file In case of choosing to keep the **Adminimal - Responsive Administration Theme**  as the default back-end theme.
 
@@ -250,7 +250,7 @@ Check the **Drupal 9 Compatibility** for all used module.
 Search for the **"**[**Drupal 9**](https://www.drupal.org/about/9) **is here!"** notice in the Drupal project page for each required module in the root `composer.json` file for the project. Look for **"Requires Drupal:"** In the project page for the module in Drupal.org.
 {% endhint %}
 
-**Example Module:** [**Webform Mautic**](https://www.drupal.org/project/webform\_mautic)****
+**Example Module:** [**Webform Mautic**](https://www.drupal.org/project/webform\_mautic)
 
 Projects may or may not use this module. If it was required and used, check the following in the project page.
 

@@ -1,6 +1,6 @@
 # Configure Swift Mailer
 
-> **Replaced by:** [**Symfony Mailer**](https://www.drupal.org/project/symfony\_mailer)****
+> **Replaced by:** [**Symfony Mailer**](https://www.drupal.org/project/symfony\_mailer)
 >
 > A new mail-system based on the popular Symfony Mailer giving full support of HTML mails, file attachments, embedded images, 3rd-party delivery integrations, load-balancing/failover, signing/encryption, async sending and more. Other libraries add capability for CSS inlining and HTML to text conversion.
 >

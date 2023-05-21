@@ -30,7 +30,7 @@ bash ./install-needed-tools.sh
 
 Recommended doing the installation of needed tools using the bash script command. But if that is not the case. By deciding to manually install custom versions. Please follow with the following steps.
 
-### **1. Install** [**sed**](https://www.gnu.org/software/sed/manual/sed.html) **and** [**gawk**](https://www.gnu.org/software/gawk/manual/gawk.html)****
+### **1. Install** [**sed**](https://www.gnu.org/software/sed/manual/sed.html) **and** [**gawk**](https://www.gnu.org/software/gawk/manual/gawk.html)
 
 Helps with string replace and re-naming files.
 
@@ -38,7 +38,7 @@ Helps with string replace and re-naming files.
 sudo apt install -y sed gawk;
 ```
 
-### **2. Install npm** and [**nodejs**](https://nodejs.org/en/)****
+### **2. Install npm** and [**nodejs**](https://nodejs.org/en/)
 
 &#x20;Helps getting more development tools and the **Bootstrap** and **popper** packages.&#x20;
 

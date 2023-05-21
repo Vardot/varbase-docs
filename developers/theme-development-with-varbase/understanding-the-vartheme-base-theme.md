@@ -84,17 +84,17 @@ Browse the list of all **Bootstrap 4** components
 
 ## Vartheme BS4 Theme Custom Components CSS Classes
 
-* ``[**.bs-callout**](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/scss/components/bs-callouts.component.scss) : Bootstrap callouts. Have the Bootstrap styling for call outs component.
-* ``[**.vb-tags**](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/scss/components/vb-tags.component.scss) : Styles a list of tags, which much looks like the pager with rounded borders.
+* [**.bs-callout**](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/scss/components/bs-callouts.component.scss) : Bootstrap callouts. Have the Bootstrap styling for call outs component.
+* [**.vb-tags**](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/scss/components/vb-tags.component.scss) : Styles a list of tags, which much looks like the pager with rounded borders.
 
 ## Vartheme BS4 Theme Custom Layouts CSS Classes
 
-* ****[**.bg-edge2edge**](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/scss/layout/edge2edge.layout.scss) : Edge to Edge layout for content.
-* ****[**.equal-height**](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/scss/layout/equal-height.layout.scss) **** : **** Equal height layout for bootstrap rows. ( variations with _**`-sm`**_, **`-md`**, **`-lg`**, and **`-xl`** ) will work within the Bootstrap default breakpoints for the theme.
+* [**.bg-edge2edge**](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/scss/layout/edge2edge.layout.scss) : Edge to Edge layout for content.
+* [**.equal-height**](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/scss/layout/equal-height.layout.scss) : Equal height layout for bootstrap rows. ( variations with _**`-sm`**_, **`-md`**, **`-lg`**, and **`-xl`** ) will work within the Bootstrap default breakpoints for the theme.
 
 
 
 ## Example Varbase Custom Components
 
 * `.varbase-heroslider-media` : [**Varbase Hero slider media**](https://www.drupal.org/project/varbase\_heroslider\_media) style.
-* ****[**View Modes Inventory - Bootstrap Ready**](https://www.drupal.org/project/vmi) **:** Number of view mode components, layouts, and themes, which you can copy from the module and custom for each content type. ( Have a look at [Using the VMI ](../configuring-a-varbase-site/using-view-modes-inventory.md))
+* [**View Modes Inventory - Bootstrap Ready**](https://www.drupal.org/project/vmi) **:** Number of view mode components, layouts, and themes, which you can copy from the module and custom for each content type. ( Have a look at [Using the VMI ](../configuring-a-varbase-site/using-view-modes-inventory.md))

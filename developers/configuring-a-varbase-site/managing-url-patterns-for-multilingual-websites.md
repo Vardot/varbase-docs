@@ -1,6 +1,6 @@
 # Managing URL Patterns for Multilingual Websites
 
-Multilingual modules allow users to configure languages and how page languages are chosen **** and apply languages to the project entities. Managing URL patterns is one of the main features that will be provided to be controlled and updated by Administrators.
+Multilingual modules allow users to configure languages and how page languages are chosen and apply languages to the project entities. Managing URL patterns is one of the main features that will be provided to be controlled and updated by Administrators.
 
 ### **Multilingual Websites URL Patterns Options**
 
@@ -85,7 +85,7 @@ Hint: Typically developers will enable those modules during installation. For fu
 
 **Option1 - URL prefix**
 
-When the option of “URL prefix” is selected you will find that the language prefixes are following the domain name, ex: [https://{domain}/en](about:blank) for the **** English language, and [https://{domain}/ar](about:blank) for the Arabic language.
+When the option of “URL prefix” is selected you will find that the language prefixes are following the domain name, ex: [https://{domain}/en](about:blank) for the English language, and [https://{domain}/ar](about:blank) for the Arabic language.
 
 ![URL Prefix Configuration](https://lh5.googleusercontent.com/K5NHIXmnbFEhEIfiei9pVL2B\_AEKU9ywHWAG8M5d7OPwJ3DiHt3CLV4066saL4WtzDaVmyYMYFoK4luYSSdoe\_7shirFDrwLIViJ0uDuKlac-pwttAHV\_kt4xT0hViGxOti\_e2O-)
 

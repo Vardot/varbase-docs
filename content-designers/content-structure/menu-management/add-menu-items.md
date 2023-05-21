@@ -14,7 +14,7 @@ In order to add a new link to one of the menus, follow these steps:&#x20;
 
 2\. Select the menu you want to add to. For example, **Main navigation.**
 
-3\. **** Click **Edit menu.**
+3\. Click **Edit menu.**
 
 ![Edit Menu](<../../../.gitbook/assets/Menus \_ varbase9003d1 (2).png>)
 
@@ -22,7 +22,7 @@ In order to add a new link to one of the menus, follow these steps:&#x20;
 
 ![Add a Link to the Menu](<../../../.gitbook/assets/Edit menu Main navigation \_ varbase9003d1.png>)
 
-5\. A separate page will load with fields. Users should insert the menu link title (the title you want to appear to the user) and the path **** (the url you want the link to send to).
+5\. A separate page will load with fields. Users should insert the menu link title (the title you want to appear to the user) and the path (the url you want the link to send to).
 
 ![Add Menu Title and Link](<../../../.gitbook/assets/Add menu link \_ varbase9003d1 (1) (1).png>)
 

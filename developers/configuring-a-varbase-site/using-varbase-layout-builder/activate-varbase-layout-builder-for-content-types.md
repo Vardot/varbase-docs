@@ -10,7 +10,7 @@ The logical use for Varbase Layout Builder configs is with the **"Full Content"*
 
 * Go to _`"/admin/structure/types/add"`_ link to add a new content type
 * Fill in _`"Post"`_ in the _"Name"_ field
-* Fill in _**"**Use the Post to add posts to the website. So that they will show up under the posts site section." ****_ in the _`"Description"`_ field
+* Fill in _**"**Use the Post to add posts to the website. So that they will show up under the posts site section."_ in the _`"Description"`_ field
 * Press the _`"Save and manage fields"`_ submit button to create the content type
 * Then the website will be directed to the _**"Manage fields"**_ page
 * Add more fields as needed for the project
@@ -84,7 +84,11 @@ Have a look at the default configs and code for **Varbase Blog**
 
 ![Edit Blog Site Section Layout](<../../../.gitbook/assets/Edit-layout-for-Blog-dev-varbase9c1 (1).png>)
 
-![Edit Layout for Blog Post Content Items](<../../../.gitbook/assets/Edit-layout-for-Blog-post-content-items-dev-varbase9c1 (1).png>)
+<div align="center">
+
+<img src="../../../.gitbook/assets/Edit-layout-for-Blog-post-content-items-dev-varbase9c1 (1).png" alt="Edit Layout for Blog Post Content Items">
+
+</div>
 
 {% hint style="success" %}
 Install **Varbase Blog** in a **Varbase site.** It comes with Varbase by default.
@@ -95,7 +99,7 @@ Have a look at the default **Varbase Blog** configs. Manage custom content types
 {% hint style="info" %}
 Have a quick look at the following link. More enlightenment on how to use Varbase Layout Builder.
 
-****[**Issue #3163199: Switch Blog section, Blog post, Blog categories, and Tags to use Varbase Layout Builder**](https://www.drupal.org/project/varbase\_blog/issues/3163199)
+[**Issue #3163199: Switch Blog section, Blog post, Blog categories, and Tags to use Varbase Layout Builder**](https://www.drupal.org/project/varbase\_blog/issues/3163199)
 {% endhint %}
 
 

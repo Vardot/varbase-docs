@@ -25,7 +25,7 @@ This section will show you how to add items to the EntityQueues as example:
 
 ![Edit Items for EntityQueue](<../../.gitbook/assets/Entityqueues \_ varbase9003d1 (1).png>)
 
-4\. Click on **Add existing item,** then choose your specific item to add it into this **** EntityQueue
+4\. Click on **Add existing item,** then choose your specific item to add it into this EntityQueue
 
 ![Add Existing Item to EntityQueues](<../../.gitbook/assets/Edit subqueue Media Hero Slider \_ varbase9003d1.png>)
 

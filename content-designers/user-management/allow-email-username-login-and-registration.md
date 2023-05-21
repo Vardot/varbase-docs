@@ -46,4 +46,3 @@ To have username only login, the Email registration module should be uninstalled
 2. Search for the module name
 3. Uninstall it
 
-****

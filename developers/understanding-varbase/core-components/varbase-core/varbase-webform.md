@@ -2,7 +2,7 @@
 
 Provide webforms features and settings.
 
-## Varbase Webform Module <a href="varbase-tour-module" id="varbase-tour-module"></a>
+## Varbase Webform Module <a href="#varbase-tour-module" id="varbase-tour-module"></a>
 
 {% hint style="info" %}
 Varbase webform features are bundled through the **Varbase Webform** module as part of the **Varbase Core** module.\
@@ -24,10 +24,10 @@ project_directory
 
 Brings in the following core and contributed modules to your site:
 
-| Module                                                                                 | Purpose                                                             |
-| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| [**Webform**](https://www.drupal.org/project/webform)****                              | Enables the creation of webforms and questionnaires.                |
-| ****[**Webform Bootstrap**](https://www.drupal.org/project/webform)****                | Helps support Webform to Bootstrap integration.                     |
-| ****[**Webform Templates**](https://www.drupal.org/project/webform)****                | Provides starter templates that can be used to create new webforms. |
-| ****[**Webform UI**](https://www.drupal.org/project/webform)****                       | Provides a user interface for building and maintaining webforms.    |
-| ****[**Webform Views Integration**](https://www.drupal.org/project/webform\_views)**** | Webform integration with views.                                     |
+| Module                                                                         | Purpose                                                             |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------- |
+| [**Webform**](https://www.drupal.org/project/webform)                          | Enables the creation of webforms and questionnaires.                |
+| [**Webform Bootstrap**](https://www.drupal.org/project/webform)                | Helps support Webform to Bootstrap integration.                     |
+| [**Webform Templates**](https://www.drupal.org/project/webform)                | Provides starter templates that can be used to create new webforms. |
+| [**Webform UI**](https://www.drupal.org/project/webform)                       | Provides a user interface for building and maintaining webforms.    |
+| [**Webform Views Integration**](https://www.drupal.org/project/webform\_views) | Webform integration with views.                                     |

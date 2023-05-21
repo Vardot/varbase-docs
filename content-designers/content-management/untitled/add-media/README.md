@@ -9,7 +9,7 @@ Varbase Media fields are different, you can easily add images, Gallery, video, f
 ### 1. Media node page
 
 1. Select **Media** from the **Manage** administrative menu**.**
-2. Select __ **Add media**_._
+2. Select **Add media**_._
 3. Select type of the Media that you need to add.
 
 ![Add new media as a node item](../../../../.gitbook/assets/Add\_media\_item\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)

@@ -12,7 +12,7 @@ Meta tags are configured by default for the available pages in a Varbase site. Y
 
 ![Metatag global configuration](../../.gitbook/assets/Metatag-test-varbase-property-1.png)
 
-__
+
 
 ## Available Meta Tags in Varbase
 

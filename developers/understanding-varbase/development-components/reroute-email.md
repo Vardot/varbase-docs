@@ -33,7 +33,7 @@ While installing a fresh Varbase for a project. It is available to setup the rer
 
 Check the "Install Development Tools" check box to expend out the mini development setting.
 
-Change the default emails for "Rerouting email addresses" **** and **"**Whitelisted email addresses" ****&#x20;
+Change the default emails for "Rerouting email addresses" and **"**Whitelisted email addresses"&#x20;
 
 ![Configure Rerouting Emails When installing Development Tools While Installing Varbase ](../../../.gitbook/assets/varbase-9-install--with-rerout-emails--in-development-tools.png)
 

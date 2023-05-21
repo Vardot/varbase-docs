@@ -5,7 +5,7 @@
 Learn more about Lando on the official website: [lando.dev](https://lando.dev/)
 
 {% hint style="danger" %}
-****[**Lando**](https://lando.dev/) **is a development tool!**
+[**Lando**](https://lando.dev/) **is a development tool!**
 
 Note that while you can run Lando in production, it is highly discouraged, not recommended, and 100% not supported! DON'T DO IT!
 {% endhint %}

@@ -31,7 +31,7 @@ To edit the current Dashboard follow these steps:
 
 4\. Try to update the dashboard by:
 
-* Reorder the default blocks __ under __ **the dashboard.** __&#x20;
+* Reorder the default blocks under **the dashboard.**&#x20;
 * Add Variant&#x20;
 * Delete Page.
 * Add new block
@@ -48,5 +48,5 @@ On the Dashboard page, user is able to edit his account information directly fro
 ![Varbase edit Account](<../../.gitbook/assets/Dashboard\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020 (1).png>)
 
 {% hint style="info" %}
-To edit the user information check **User Management** section > [**Edit user**](../user-management/edit-user.md)****
+To edit the user information check **User Management** section > [**Edit user**](../user-management/edit-user.md)
 {% endhint %}

@@ -2,10 +2,10 @@
 
 ## Create a Blog Page:
 
-Follow these steps to create a new **Blog** __ page in your website:
+Follow these steps to create a new **Blog** page in your website:
 
 1. Select **Add Content** from the **Manag**_**e**_ administrative menu**.**
-2. Select __ **Blog page**_._
+2. Select **Blog page**_._
 3. Fill in with all required data that is needed.
 4. Click **Save**.&#x20;
 

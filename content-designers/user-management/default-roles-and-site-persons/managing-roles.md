@@ -23,7 +23,7 @@ To create a new role follow these steps:
 
 1. In the **Manage** administrative menu, navigate to **People\\**_**Roles.**_
 2. Click **Add role** to add a custom role.
-3. Enter the **Role** __ name __ that you want and _save_.
+3. Enter the **Role** name that you want and _save_.
 4. Check the new role under the **Roles** tab.
 
 You can now edit the permissions for this new Role.

@@ -9,7 +9,7 @@ description: Basic pages recommended for your static content.
 Follow these steps to create a new **Basic page** in your website:
 
 1. Select **Add Content** from the **Manage** administrative menu**.**
-2. Select __ **Basic page.**
+2. Select **Basic page.**
 3. Fill in with all required data that is needed.
 4. Click **Save.**&#x20;
 

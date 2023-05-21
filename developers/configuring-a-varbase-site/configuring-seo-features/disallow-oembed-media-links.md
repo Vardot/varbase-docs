@@ -1,6 +1,6 @@
 # Disallow Oembed Media Links
 
-As of  [**Drupal 9.5.0**](https://www.drupal.org/project/drupal/releases/9.5.0) stable and [**Varbase 9.0.10**](https://www.drupal.org/project/varbase/releases/9.0.10)****
+As of  [**Drupal 9.5.0**](https://www.drupal.org/project/drupal/releases/9.5.0) stable and [**Varbase 9.0.10**](https://www.drupal.org/project/varbase/releases/9.0.10)
 
 {% hint style="info" %}
 The Drupal core issue [#3271222: Include Disallow Oembed media links in the robots.txt file for better Drupal SEO](https://www.drupal.org/project/drupal/issues/3271222) was committed. The old setup could be changed to follow the new Drupal core standard `robots.txt`&#x20;

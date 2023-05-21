@@ -31,7 +31,7 @@ We could also add styling to each section by assigning the section to different 
 
 6- Choose from the **Container Types** options e.g. (Full).
 
-7_-_ Choose from the **Gutters** options **** e.g. (No Gutters).
+7_-_ Choose from the **Gutters** options e.g. (No Gutters).
 
 8- When you finish all the needed updates click on **Add Section** button.
 

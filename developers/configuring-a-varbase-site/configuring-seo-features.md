@@ -53,9 +53,9 @@ The [Google Tag Manager](https://www.drupal.org/project/google\_tag) module allo
 
 To use the module, sign up for GTM and obtain a "container ID" for your website. For development purposes, create a GTM environment for your website.
 
-_****_
 
-_****_
+
+
 
 
 

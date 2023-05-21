@@ -15,7 +15,7 @@ _Make sure to uninstall this module and its enabled modules when you go in produ
 
 ## Varbase Style Guide Module
 
-Install Varbase custom styling guide if you want to have a full look for Varbase components, Bootstrap elements, and view mode style for content types. This will install several modules that help you on themeing and styling your site, such as **** [**Style Guide**](https://www.drupal.org/project/styleguide).
+Install Varbase custom styling guide if you want to have a full look for Varbase components, Bootstrap elements, and view mode style for content types. This will install several modules that help you on themeing and styling your site, such as [**Style Guide**](https://www.drupal.org/project/styleguide).
 
 {% hint style="danger" %}
 _Make sure to uninstall this module and its enabled modules when you go in production mode_.

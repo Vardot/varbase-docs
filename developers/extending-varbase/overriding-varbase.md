@@ -23,7 +23,7 @@ In case of capturing a bug. Search if it was filed in an issue.  Look if the a p
 {% hint style="info" %}
 Apply the patch using the **Composer patching method** using:
 
-&#x20;**** [**cweagans/composer-patches**](https://github.com/cweagans/composer-patches)****
+&#x20;[**cweagans/composer-patches**](https://github.com/cweagans/composer-patches)
 
 Do not use the manual patching method in projects.
 
@@ -95,12 +95,12 @@ There may be situations in which you want to ignore a patch supplied by a depend
 
 **Example:**&#x20;
 
-The [**Varbase Core**](https://www.drupal.org/project/varbase\_core) **** module **** is requiring **Drupal Core** with **** `"drupal/core": "~9.0",` **** . Having number of patches to fix issues or overriding Drupal core.
+The [**Varbase Core**](https://www.drupal.org/project/varbase\_core) module is requiring **Drupal Core** with `"drupal/core": "~9.0",` . Having number of patches to fix issues or overriding Drupal core.
 
 {% hint style="info" %}
 **Varbase Core**'s `composer.json` file for the 9.0.7 version
 
-****[**https://github.com/Vardot/varbase\_core/blob/9.0.7/composer.json#L138**](https://github.com/Vardot/varbase\_core/blob/9.0.7/composer.json#L138)****
+[**https://github.com/Vardot/varbase\_core/blob/9.0.7/composer.json#L138**](https://github.com/Vardot/varbase\_core/blob/9.0.7/composer.json#L138)
 {% endhint %}
 
 Let imagine that the **Drupal core release** **team** had a new release, But they had committed the following issue:

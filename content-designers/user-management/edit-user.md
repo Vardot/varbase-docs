@@ -1,6 +1,6 @@
 # Edit User
 
-This section will explain how to edit users _****_ in Varbase.&#x20;
+This section will explain how to edit users in Varbase.&#x20;
 
 1. &#x20;In the **Manage** administrative menu, navigate to **People** tab.
 2. Go to the desired user you want to edit.

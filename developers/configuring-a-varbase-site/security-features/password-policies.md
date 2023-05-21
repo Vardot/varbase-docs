@@ -7,7 +7,7 @@ To configure the Password Policies on your site, navigate to:\
 
 Varbase ships with a default password policy to provide a way to enforce restrictions on user passwords by defining password policies.
 
-You can add multiple policies __ each policy is assigned to a specific role, or edit the default provided policy&#x20;
+You can add multiple policies each policy is assigned to a specific role, or edit the default provided policy&#x20;
 
 A password policy can be defined with a set of constraints that must be met before a user password change will be accepted. Each constraint has a parameter allowing for the minimum number of valid conditions which must be met before the constraint is satisfied.
 

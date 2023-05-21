@@ -29,7 +29,7 @@ If the **Symfony Mailer** module was enabled on the site for the first time. The
 {% hint style="danger" %}
 ### Error message <a href="#message-error-title" id="message-error-title"></a>
 
-There are Mailer configuration import operations pending: [import](https://app.gitbook.com/o/-LMp\_OqmP\_iFzHYa2X5d/s/xI9sgOSvv1DPBLqUwcTU/).
+There are Mailer configuration import operations pending: [import](http://localhost:5000/o/-LMp\_OqmP\_iFzHYa2X5d/s/xI9sgOSvv1DPBLqUwcTU/).
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/Contact-varbase9c1--import-symfony-mailer--back-end--claro--part.png" alt=""><figcaption><p>Error Message to Import Configuration at the Back-end</p></figcaption></figure>
@@ -76,7 +76,7 @@ Set the **STMP** transport as the default transport sender for emails, by clicki
 
 ## Set the Email Logo for Symfony Mailer Template
 
-&#x20;[**Vartheme BS4**](https://www.drupal.org/project/vartheme\_bs4) **** and [**Vartheme BS5**](https://www.drupal.org/project/vartheme\_bs5) provide theme settings for emails too. **Vartheme** sub-themes followed with that too.
+&#x20;[**Vartheme BS4**](https://www.drupal.org/project/vartheme\_bs4) and [**Vartheme BS5**](https://www.drupal.org/project/vartheme\_bs5) provide theme settings for emails too. **Vartheme** sub-themes followed with that too.
 
 * Generate a new sub-theme following with [creating-your-own-theme.md](../../theme-development-with-varbase/creating-your-own-theme.md "mention")
 * Enable the new custom sub-theme for example and set it as the default theme on the site.

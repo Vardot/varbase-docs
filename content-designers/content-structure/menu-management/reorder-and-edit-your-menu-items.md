@@ -52,7 +52,7 @@ In order to delete a link for one of the menus, follow these steps:&#x20;
 2. Select the menu you want to delete the link inside it. For example, **Main Navigation.**
 3. Click **Edit menu.**
 4. Choose the link that you want to delete it**.**  For example, **Home.**
-5. Click **** on the arrow, then click on **Delete.**
+5. Click on the arrow, then click on **Delete.**
 
 ![Delete the Home Link from the Main Navigation Menu](../../../.gitbook/assets/2021-12-13\_11-44-24.png)
 

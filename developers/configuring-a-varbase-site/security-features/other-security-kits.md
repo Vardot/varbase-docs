@@ -25,4 +25,4 @@ The configuration page allows you to configure settings to tighten your website'
   * `From-Origin` HTTP response header
   * `Referrer-Policy` HTTP response header
 
-All necessary documentation and examples of usage are on the __ settings page.
+All necessary documentation and examples of usage are on the settings page.

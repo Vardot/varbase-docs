@@ -12,7 +12,7 @@ Enable the **PHP Authentication Shield** module to be able to have general shiel
 drush pm:enable shield
 ```
 
-Navigate to **Configurations \ System \ **_**Shield**_** ** from the administration toolbar menu.
+Navigate to **Configurations \ System \ **_**Shield**_ from the administration toolbar menu.
 
 <figure><img src="../../../.gitbook/assets/Shield-varbase9009d1.jpg" alt=""><figcaption><p>Navigate to Shield Settings Page</p></figcaption></figure>
 
