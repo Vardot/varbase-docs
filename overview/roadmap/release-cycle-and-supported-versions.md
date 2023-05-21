@@ -14,4 +14,4 @@ Upgrade paths will always be provided to guarantee a smooth move between Varbase
 
 See the below image for an illustration of supported versions and major release cycle:
 
-<figure><img src="../../.gitbook/assets/Varbase Release Tracker_Planner - new Releas Cycle table.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Varbase-Release-Tracker--Planner-new-Releas-Cycle-table.png" alt=""><figcaption></figcaption></figure>
