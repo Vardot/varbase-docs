@@ -64,5 +64,14 @@ Check all styling `.css` files with Drupal standard styling format and order.
 yarn lint:css
 ```
 
-####
+## PHPStan
 
+If you are using Lando, a local development environment, you can easily integrate PHPStan into your workflow. Follow these steps:
+
+a. Open your terminal or command prompt and navigate to the root directory of your Drupal project.
+
+b. Run the command `lando phpstan` to execute PHPStan analysis within your Lando environment.
+
+c. PHPStan will analyze your codebase and provide a detailed report, highlighting any potential issues found.
+
+d. Review the analysis results and follow the recommendations provided by PHPStan to address any identified issue
