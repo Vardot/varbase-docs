@@ -71,7 +71,13 @@ sudo npm install -g yarn
 
 ### How to use the Vartheme BS5 Starterkit
 
-To generate a new theme from Vartheme BS5 using the starterkit/theme-generation script, run the following from Drupal's installation root:
+To generate a new theme from **Vartheme BS5** using the `starterkit/theme-generation` script, run the following from **Drupal's** installation root:
+
+```
+cd PROJECT_DIR_NAME/docroot
+```
+
+Run the following Drupal Generate Theme script:
 
 ```
 php core/scripts/drupal generate-theme new_theme_name --starterkit vartheme_bs5
@@ -90,9 +96,9 @@ This script will copy over all the files from the **Vartheme BS5** theme, and re
 
 ### Customizing CSS
 
-Your new theme should look and function identically to **Vartheme BS5** out of the box, but you may wish to change the styles to suit your needs. **Vartheme BS5**'s styles are written using **Bootstrap 5**, `SASS`, `PostCSS`, which is installed and configured **Varbase**, and allows `CSS` authors to write modern `CSS` while still supporting browsers that have not fully implemented the newest methodologies.
+The new theme should look and function identically to **Vartheme BS5** out of the box, but the styles could be changed to suit the project's needs. **Vartheme BS5**'s styles are written using **Bootstrap 5**, `SASS`, `PostCSS`, which is installed and configured **Varbase**, and allows `CSS` authors to write modern `CSS` while still supporting browsers that have not fully implemented the newest methodologies.
 
-As part of the `generate-theme` command, the necessary `package.json` dependencies and scripts files are copied over for you. Simply install the dependencies and then run `yarn theme:init` once, and then either the `yarn theme:full-build` command to compile the assets once or the `yarn theme:watch` command to re-compile the assets every time a .scss file is changed.
+As part of the `generate-theme` command, the necessary `package.json` dependencies and scripts files are copied over for the project. Simply install the dependencies and then run `yarn theme:init` once, and then either the `yarn theme:full-build` command to compile the assets once or the `yarn theme:watch` command to re-compile the assets every time a `.scss` file is changed.
 
 ```
 yarn install # Install the dependencies
