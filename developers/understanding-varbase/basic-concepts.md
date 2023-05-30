@@ -24,8 +24,8 @@ See [https://github.com/Vardot/varbase-project](https://github.com/Vardot/varbas
 
 **Packagist:** [https://packagist.org/packages/vardot/varbase-project](https://packagist.org/packages/vardot/varbase-project)
 
-To install the most recent stable release of **Varbase 9.0.x** run this command:
+To install the most recent stable release of **Varbase 10.0.x** run this command:
 
 ```
-composer create-project Vardot/varbase-project:~9 PROJECT_DIR_NAME --no-dev --no-interaction
+composer create-project Vardot/varbase-project:10.0.0-alpha1 PROJECT_DIR_NAME --no-dev --no-interaction
 ```
