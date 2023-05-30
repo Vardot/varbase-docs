@@ -87,8 +87,6 @@
     * [Configuring Varbase Media Header](developers/configuring-a-varbase-site/configuring-varbase-media-header.md)
     * [Configuring Varbase Mailer Settings](developers/configuring-a-varbase-site/configuring-varbase-mailer-settings/README.md)
       * [Configure Symfony Mailer](developers/configuring-a-varbase-site/configuring-varbase-mailer-settings/configure-symfony-mailer.md)
-      * [Configure Swift Mailer](developers/configuring-a-varbase-site/configuring-varbase-mailer-settings/configure-swift-mailer.md)
-      * [Switch From Swift Mailer to Symfony Mailer](developers/configuring-a-varbase-site/configuring-varbase-mailer-settings/switch-from-swift-mailer-to-symfony-mailer.md)
     * [Entity Definition Update Manager Class](developers/configuring-a-varbase-site/entity-definition-update-manager-class.md)
     * [Module Installer Factory Class](developers/configuring-a-varbase-site/module-installer-factory-class.md)
   * [Theme Development with Varbase](developers/theme-development-with-varbase/README.md)
