@@ -35,5 +35,5 @@ Check the "Install Development Tools" check box to expend out the mini developme
 
 Change the default emails for "Rerouting email addresses" and **"**Whitelisted email addresses"&#x20;
 
-![Configure Rerouting Emails When installing Development Tools While Installing Varbase ](../../../.gitbook/assets/varbase-9-install--with-rerout-emails--in-development-tools.png)
+<figure><img src="../../../.gitbook/assets/Configure-Rerouting-Emails-When-installing-Development-Tools-While-Installing-Varbase.png" alt=""><figcaption><p>Configure Rerouting Emails When installing Development Tools While Installing Varbase</p></figcaption></figure>
 
