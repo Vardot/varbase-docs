@@ -2,7 +2,7 @@
 description: Want to contribute to Varbase? Here are ways you can help!
 ---
 
-# Contributing
+# 🔟 Contributing
 
 ## How You Can Help
 
