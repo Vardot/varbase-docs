@@ -30,22 +30,3 @@ Brings in the following core and contributed modules to your site:
 | [**Social Auth Twitter**](https://www.drupal.org/project/social\_auth\_twitter)    | Social Auth integration for Twitter.                                                                                                         |
 | [**Social Auth LinkedIn**](https://www.drupal.org/project/social\_auth\_linkedin/) | Social Auth integration for LinkedIn.                                                                                                        |
 | [**Social Auth Google**](https://www.drupal.org/project/social\_auth\_google/)     | Social Auth integration for Google.                                                                                                          |
-
-## Screenshots
-
-![One Social Login Button](../../../.gitbook/assets/varbase-login-social-auth-1-network-xl.png)
-
-![Two Social Login Buttons](../../../.gitbook/assets/varbase-login-social-auth-2-networks-xl.png)
-
-![Three Social Login Buttons](../../../.gitbook/assets/varbase-login-social-auth-3-networks-xl.png)
-
-![Four Social Login Buttons ](../../../.gitbook/assets/varbase-login-social-auth-4-networks-xl.png)
-
-
-
-
-
-
-
-
-
