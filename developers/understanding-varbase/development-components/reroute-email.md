@@ -21,7 +21,7 @@ On enabling the **Varbase Development** module in a development environment, a d
 * **Rerouting email addresses:** `dev-catchall@vardot.com`
 * **Whitelisted email addresses:** `*@vardot.com`
 
-![Reroute Email Default Settings with Varbase Development](../../../.gitbook/assets/Reroute-Email-settings.png)
+<figure><img src="../../../.gitbook/assets/Navigate-to---Administration---Configuration---Development---Reroute-Email----Reroute-Email-Default-Settings-with-Varbase-Development.png" alt=""><figcaption><p>Reroute Email Default Settings with Varbase Development</p></figcaption></figure>
 
 Having an empty field with no provided values for rerouted email addresses will results on having all outgoing emails been aborted and recorded in the recent log entries, with a full dump of the email variables, which could provide an additional debugging method.
 
