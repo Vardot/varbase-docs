@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Overview](README.md)
-  * [About Varbase 9](overview/undefined.md)
+  * [About Varbase](overview/undefined.md)
   * [Roadmap](overview/roadmap/README.md)
     * [Release Cycle and Supported Versions](overview/roadmap/release-cycle-and-supported-versions.md)
   * [How to Get Support](overview/update.md)
