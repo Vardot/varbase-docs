@@ -1,4 +1,4 @@
-# About Varbase 10
+# 🔟 About Varbase
 
 ![The Ultimate Drupal CMS Starter Kit (Bootstrap Ready)](<../.gitbook/assets/Large-Logo Color with padding.png>)
 
