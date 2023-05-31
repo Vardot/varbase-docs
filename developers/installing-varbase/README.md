@@ -10,6 +10,7 @@ Follow the steps below to install Varbase distribution for Drupal 9 on a local s
 
 1. [Composer](https://getcomposer.org/doc/00-intro.md) package manager
 2. [NPM](https://www.npmjs.com/) package manager
+3. [Yarn](https://yarnpkg.com/) package manager
 
 ### Procedure
 

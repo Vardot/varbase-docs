@@ -6,7 +6,7 @@ Drupal is the #1 platform for web content management among global enterprises, g
 
 Visit Drupal.org for more information: [http://www.drupal.org](http://www.drupal.org/)
 
-Read here about how Drupal 9's installation profile feature works: [https://www.drupal.org/docs/distributions/creating-distributions](https://www.drupal.org/docs/distributions/creating-distributions)
+Read here about how **Drupal 10**'s installation profile feature works: [https://www.drupal.org/docs/distributions/creating-distributions](https://www.drupal.org/docs/distributions/creating-distributions)
 
 ## Varbase Components
 
