@@ -51,16 +51,14 @@ Brings in the following core and contributed modules to your site:
 
 ## List of Text Formats
 
-### Rich editor
+### Rich Editor
 
-![Rich Editor](../../../.gitbook/assets/varbase-editor--rich-editor.png)
+<figure><img src="../../../.gitbook/assets/varbase-10--varbase_editor--text-fromats--Rich-editor.png" alt=""><figcaption><p>Rich Editor</p></figcaption></figure>
 
-### Simple editor
+### Simple Editor
 
-![](../../../.gitbook/assets/varbase-editor--sample-editor.png)
+<figure><img src="../../../.gitbook/assets/varbase-10--varbase_editor--text-fromats--Simple-editor.png" alt=""><figcaption><p>Simple Editor</p></figcaption></figure>
 
-####
+### HTML Code
 
-### HTML code
-
-![](<../../../.gitbook/assets/varbase\_editor-text-format--code\_html (1).png>)
+<figure><img src="../../../.gitbook/assets/varbase-10--varbase_editor--text-fromats--html-editor.png" alt=""><figcaption><p>HTML Code</p></figcaption></figure>
