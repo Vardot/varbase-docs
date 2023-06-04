@@ -90,6 +90,7 @@ Brings in the following core and contributed modules to your site:
 | [**Login Destination**](https://www.drupal.org/project/login\_destination)                    | Customizes the destination the user is redirected to after login/logout/registration/one-time login.                                              |
 | [**Email Registration**](https://www.drupal.org/project/email\_registration)                  | Allows users to register with an email address as their username.                                                                                 |
 | [**jQuery UI Accordion**](https://www.drupal.org/project/jquery\_ui\_accordion)               | Provides jQuery UI Accordion library.                                                                                                             |
+| [**Fast 404**](https://www.drupal.org/project/fast\_404)                                      | Speed up the generation of 404 pages with this module. Route 404 display to a static page.                                                        |
 
 ## Sub modules&#x20;
 
