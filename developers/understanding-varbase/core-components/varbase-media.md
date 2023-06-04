@@ -57,6 +57,7 @@ Brings in the following core and contributed modules to your site:
 | [**Blazy**](https://www.drupal.org/project/blazy)                                            | Provides basic Blazy integration for lazy loading and multi-serving images.                                                                  |
 | [**Slick Carousel**](https://www.drupal.org/project/slick)                                   | Slick carousel, the last carousel you'll ever need.                                                                                          |
 | [**WebP**](https://www.drupal.org/project/webp)                                              | Generates WebP copies of image style derivatives.                                                                                            |
+| [**ImageAPI Optimize WebP**](https://www.drupal.org/project/imageapi\_optimize\_webp)        | Provides a WebP processor to derive webp images from other file formats.                                                                     |
 
 ## Sub Modules
 
