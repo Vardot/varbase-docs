@@ -88,7 +88,6 @@ Brings in the following core and contributed modules to your site:
 | [**Rabbit Hole nodes**](https://www.drupal.org/project/rabbit\_hole)                          | Adds Rabbit Hole functionality for nodes.                                                                                                         |
 | [**Rabbit Hole taxonomy**](https://www.drupal.org/project/rabbit\_hole)                       | Adds Rabbit Hole functionality for taxonomy.                                                                                                      |
 | [**Login Destination**](https://www.drupal.org/project/login\_destination)                    | Customizes the destination the user is redirected to after login/logout/registration/one-time login.                                              |
-| [**Better Login**](https://www.drupal.org/project/betterlogin)                                | Make the login screens better                                                                                                                     |
 | [**Email Registration**](https://www.drupal.org/project/email\_registration)                  | Allows users to register with an email address as their username.                                                                                 |
 | [**jQuery UI Accordion**](https://www.drupal.org/project/jquery\_ui\_accordion)               | Provides jQuery UI Accordion library.                                                                                                             |
 
