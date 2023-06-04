@@ -12,40 +12,7 @@ Navigate to **Administration \ Configuration \ System \ Mailer**
 
 To configure Mailer Policy to customize outgoing emails in many different ways. There are many possible policies to apply including: subject; body; addresses (from, to, ...); theme; transport; convert to plain text. Each policy can be set globally or for emails of a specific type.
 
-<figure><img src="../../../.gitbook/assets/Mailer-policy-varbase9c1.png" alt=""><figcaption><p>Mailer Policy</p></figcaption></figure>
-
-
-
-## Import Configuration
-
-You can import configuration from existing modules to create an equivalent Mailer Policy. It is recommended to run the import at the beginning, before you start editing policy.
-
-{% hint style="warning" %}
-**Warning** importing overwrites existing policy. If you have already created working policy then you should skip the import.
-{% endhint %}
-
-If the **Symfony Mailer** module was enabled on the site for the first time. The site will keep prompting the following error message.
-
-{% hint style="danger" %}
-### Error message <a href="#message-error-title" id="message-error-title"></a>
-
-There are Mailer configuration import operations pending: [import](http://localhost:5000/o/-LMp\_OqmP\_iFzHYa2X5d/s/xI9sgOSvv1DPBLqUwcTU/).
-{% endhint %}
-
-<figure><img src="../../../.gitbook/assets/Contact-varbase9c1--import-symfony-mailer--back-end--claro--part.png" alt=""><figcaption><p>Error Message to Import Configuration at the Back-end</p></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/Contact-varbase9c1--import-symfony-mailer--front-end.png" alt=""><figcaption><p>Error Message to Import Configuration at the Front-end</p></figcaption></figure>
-
-Click on import from the alert message or navigate to **Administration \ Configuration \ System \ Mailer policy \ **_**Import configuration**_
-
-<figure><img src="../../../.gitbook/assets/Contact-varbase9c1--import-symfony-mailer--import-all.png" alt=""><figcaption><p>Import Configuration with Import All option</p></figcaption></figure>
-
-**Import All** or only Import needed changes for:
-
-* **Update notification addresses (update)**
-* **User email settings (user)**: This overrides the default HTML messages with imported plain text versions.
-
-<figure><img src="../../../.gitbook/assets/Contact-varbase9c1--import-symfony-mailer--import-all--Imported-all-configuration.png" alt=""><figcaption><p>Imported All Configurations</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/varbase-10--varbase_email--mailer-policy.png" alt=""><figcaption><p>Mailer Policy</p></figcaption></figure>
 
 ## Add SMTP Transport Service
 
@@ -53,7 +20,7 @@ Navigate to **Administration \ Configuration \ System \ Mailer policy \ **_**Tra
 
 To see the list of mailer transports.
 
-<figure><img src="../../../.gitbook/assets/Mailer-transport-varbase9c1.png" alt=""><figcaption><p>Mailer Transports Configuration Page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/varbase-10--varbase_email--transport-service.png" alt=""><figcaption><p>Mailer Transports Configuration Page</p></figcaption></figure>
 
 * Select _SMTP_ from the list of transport types, and click on the Add transport button
 * Fill in the Label for the SMTP service
@@ -62,25 +29,25 @@ To see the list of mailer transports.
 * Provide the Hostname public SMTP domain provider
 * Use the right SMTP port, which the provider recommends to use
 
-![Example Add SMTP Transport](../../../.gitbook/assets/Add-transport-varbase90x1.png)
+<figure><img src="../../../.gitbook/assets/varbase-10--varbase_email--add-smtp--transport-service.png" alt=""><figcaption><p>Example Add SMTP Transport</p></figcaption></figure>
 
 Press the Save submit button to save the SMTP transport
 
 A message of _"The transport configuration has been saved."_ will show up and the page will be redirected back to the Mailer transports configuration page.
 
-![The Transport Configuration Has Been Saved](<../../../.gitbook/assets/The Transport Configuration Has Been Saved.png>)
+<figure><img src="../../../.gitbook/assets/varbase-10--varbase_email--transport-service--after-adding-smpt.png" alt=""><figcaption><p>The Transport Configuration Has Been Saved</p></figcaption></figure>
 
 Set the **STMP** transport as the default transport sender for emails, by clicking on "Set as Default" from the operations list for the **SMTP** transport.
 
-![Set a Transport as Default](<../../../.gitbook/assets/Set a Transport as Default.png>)
+<figure><img src="../../../.gitbook/assets/varbase-10--varbase_email--transport-service--set-as-default--smpt.png" alt=""><figcaption><p>Set a Transport as Default</p></figcaption></figure>
 
 ## Set the Email Logo for Symfony Mailer Template
 
-&#x20;[**Vartheme BS4**](https://www.drupal.org/project/vartheme\_bs4) and [**Vartheme BS5**](https://www.drupal.org/project/vartheme\_bs5) provide theme settings for emails too. **Vartheme** sub-themes followed with that too.
+[**Vartheme BS5**](https://www.drupal.org/project/vartheme\_bs5) provide theme settings for emails too. **Vartheme** sub-themes followed with that too.
 
 * Generate a new sub-theme following with [creating-your-own-theme.md](../../theme-development-with-varbase/creating-your-own-theme.md "mention")
-* Enable the new custom sub-theme for example and set it as the default theme on the site.
-* Navigate to **Administration \ Appearance \ Appearance settings \ **_**A Custom Sub Theme of Vartheme**_
+* Enable the new custom generated theme for example and set it as the default theme on the site.
+* Navigate to **Administration \ Appearance \ Appearance settings \ **_**A Custom Generated Theme of Vartheme**_
 
 The email logo custom theme settings can be filled as desired
 
