@@ -24,6 +24,6 @@ project_directory
 
 Brings in the following core and contributed modules to your site:
 
-| Module                                                                                | Purpose                          |
-| ------------------------------------------------------------------------------------- | -------------------------------- |
-| [**Media Entity Instagram**](https://www.drupal.org/project/media\_entity\_instagram) | Media Entity Instagram provider. |
+| Module                                                                            | Purpose                        |
+| --------------------------------------------------------------------------------- | ------------------------------ |
+| [**Media Entity Twitter**](https://www.drupal.org/project/media\_entity\_twitter) | Media Entity Twitter provider. |
