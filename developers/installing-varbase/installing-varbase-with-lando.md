@@ -48,7 +48,7 @@ Follow the steps below to setup Varbase with Lando.
 
 
 
-For more information on the Lando file configuration, read more on [https://docs.lando.dev/config/drupal9.html#getting-started](https://docs.lando.dev/config/drupal9.html#getting-started)
+For more information on the Lando file configuration, read more on [https://docs.lando.dev/drupal/getting-started.html](https://docs.lando.dev/drupal/getting-started.html)
 
 {% hint style="info" %}
 You can type `lando info` to know the MySQL database hostname, username,  password, and all environment config you'll need.
