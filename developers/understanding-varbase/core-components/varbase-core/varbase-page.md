@@ -31,9 +31,8 @@ Brings in the following core and contributed modules to your site:
 | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | <p><strong>Text</strong></p><p><em>(in Drupal core)</em></p>                            | Defines simple text field types.                                                                    |
 | <p><strong>Text Editor</strong></p><p><em>(in Drupal core)</em></p>                     | Provides a means to associate text formats with text editor libraries such as WYSIWYGs or toolbars. |
-| <p><strong>CKEditor</strong></p><p><em>(in Drupal core)</em></p>                        | WYSIWYG editing for rich text fields using CKEditor.                                                |
+| <p><strong>CKEditor 5</strong></p><p><em>(in Drupal core)</em></p>                      | Provides the CKEditor 5 rich text editor.                                                           |
 | <p><strong>Menu UI</strong></p><p><em>(in Drupal core)</em></p>                         | Allows administrators to customize the site navigation menu.                                        |
-| [**Page Manager**](https://www.drupal.org/project/page\_manager)                        | Provides a way to place blocks on a custom page.                                                    |
 | [**Rabbit Hole**](https://www.drupal.org/project/rabbit\_hole)                          | Basic functionality that is shared among the different Rabbit Hole modules.                         |
 | [**Real-time SEO**](https://www.drupal.org/project/yoast\_seo)                          | Adds Real-time SEO page analysis and configuration                                                  |
 | [**Metatag**](https://www.drupal.org/project/metatag)                                   | Manage meta tags for all entities.                                                                  |
