@@ -31,7 +31,6 @@ Brings in the following core and contributed modules to your site:
 | [**Ace Code Editor**](https://www.drupal.org/project/ace\_editor)                   | Provides integration with [Ace code editor](https://ace.c9.io/).                                                           |
 | [**CKEditor BiDi Buttons**](https://www.drupal.org/project/ckeditor\_bidi)          | Enables CKEditor 2 bi directional Buttons. One for Right To Left text direction (RTL) and another for Left To Right (LTR). |
 | [**Entity Embed**](https://www.drupal.org/project/entity\_embed)                    | Allows entities to be embedded using a text editor.                                                                        |
-| [**Image Resize Filter**](https://www.drupal.org/project/image\_resize\_filter)     | Resizes images based on width and height attributes and optionally link to the original image.                             |
 | [**External Links**](https://www.drupal.org/project/extlink)                        | Modify behavior and appearance of external links.                                                                          |
 | [**Linkit**](https://www.drupal.org/project/linkit)                                 | Provides an easy interface for internal and external linking with wysiwyg editors.                                         |
 | [**Editor Advanced link**](https://www.drupal.org/project/editor\_advanced\_link)   | Add title, target etc. attributes to Text Editor''s link dialog if the text format allows them.                            |
