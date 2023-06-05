@@ -34,7 +34,6 @@ Brings in the following core and contributed modules to your site:
 | [**Bootstrap Layouts**](https://www.drupal.org/project/bootstrap\_layouts)                                       | This module is going to generate layouts with Bootstrap grid system.                     |
 | [**Layout Builder Blocks**](https://www.drupal.org/project/layout\_builder\_blocks)                              | Add UI styles support to blocks from Layout Builder module.                              |
 | [**Layout Builder Modal**](https://www.drupal.org/project/layout\_builder\_modal)                                | Open blocks in a modal in the Layout Builder UI.                                         |
-| [**Layout Builder Block Sanitizer**](https://www.drupal.org/project/layout\_builder\_block\_sanitizer)           | Clean up Layout Builder layouts of non-existent blocks.                                  |
 | [**Layout Builder Asymmetric Translation**](https://www.drupal.org/project/layout\_builder\_at)                  | Allows to have separate layout overrides per translation.                                |
 | [**Layout Builder Component Attributes**](https://www.drupal.org/project/layout\_builder\_component\_attributes) | Allows editors to add HTML attributes to Layout Builder components (blocks)              |
 | [**Layout Builder Library**](https://www.drupal.org/project/layout\_library)                                     | Provides a library of layouts for content-editors to select from                         |
