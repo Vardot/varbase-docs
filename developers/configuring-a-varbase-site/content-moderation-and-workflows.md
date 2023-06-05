@@ -55,7 +55,7 @@ Useful for websites with editorial or moderation staff. You can create as many a
 
 To view or manage these workflows, navigate to: **Administration** \ **Configuration** \ **Workflow** \ _**Workflows**_
 
-<figure><img src="../../.gitbook/assets/varbase10--Workflows-Management.png" alt=""><figcaption><p>Workflows Management</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/varbase10--Workflows-Management (2).png" alt=""><figcaption><p>Workflows Management</p></figcaption></figure>
 
 ### Assigning a Workflow to Content Types
 
@@ -73,7 +73,7 @@ By default, Varbase let's you choose the Content Moderation Workflow when creati
 
 You'll see that option under the "Publishing options" when creating a new Content Type.
 
-<figure><img src="../../.gitbook/assets/varbase10--Choosing-a-Workflow-when-creating-new-content-type.png" alt=""><figcaption><p>Choosing a Workflow when creating new content type</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/varbase10--Choosing-a-Workflow-when-creating-new-content-type (1).png" alt=""><figcaption><p>Choosing a Workflow when creating new content type</p></figcaption></figure>
 
 #### Assign a Workflow to an Existing Content Type
 
@@ -86,7 +86,7 @@ You can also assign an existing Content Type to a Workflow if it wasn't assigned
 5. Choose your desired Content Type from the list and click on "**Save**".\
    Note that Content Types assigned to another Workflow will not appear on this list.
 
-<figure><img src="../../.gitbook/assets/varbase10--workflow-Content-Types.png" alt=""><figcaption><p>Edit Simple Workflow Content Types</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/varbase10--workflow-Content-Types (1).png" alt=""><figcaption><p>Edit Simple Workflow Content Types</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/varbase10--workflow-List-of-content-types-under-Workflow.png" alt=""><figcaption><p>List of content types under Workflow</p></figcaption></figure>
 
@@ -105,7 +105,7 @@ Refer to Drupal.org documentation for more about the terminology and usage of th
 
 Moderation Sidebar provides an off-canvas menu to moderate the current content. To use the sidebar, visit any content with an enabled Workflow. You'll see the "**Tasks**" button in the Administration Toolbar. This will open an off-canvas menu that contains contextual actions related to the assigned Workflow.
 
-![Moderation Sidebar](<../../.gitbook/assets/Moderation SIdebar.png>)
+<figure><img src="../../.gitbook/assets/varbase10--workflow-Moderation-Sidebar.png" alt=""><figcaption><p>Moderation Sidebar</p></figcaption></figure>
 
 {% hint style="info" %}
 The default Varbase configuration now hides the "Local Tasks" available in content pages in the front-end theme, assuming that the Moderation Sidebar is the alternative method to edit, view, translate, or manage content.
@@ -121,4 +121,4 @@ Varbase Workflow adds a simple administration view to show the available drafts 
 
 To see the available drafts, navigate to: **Administration** \ **Content** \ _**Moderated content**_&#x20;
 
-![Moderated Content Admin View](../../.gitbook/assets/Moderated-content-test-qa-varbase-8-8-x-development-13-07-2020.png)
+<figure><img src="../../.gitbook/assets/varbase10--Moderated-Content-Admin-View.png" alt=""><figcaption><p>Moderated Content Admin View</p></figcaption></figure>
