@@ -37,7 +37,6 @@ Brings in the following core and contributed modules to your site:
 | [**Layout Builder Block Sanitizer**](https://www.drupal.org/project/layout\_builder\_block\_sanitizer)           | Clean up Layout Builder layouts of non-existent blocks.                                  |
 | [**Layout Builder Asymmetric Translation**](https://www.drupal.org/project/layout\_builder\_at)                  | Allows to have separate layout overrides per translation.                                |
 | [**Layout Builder Component Attributes**](https://www.drupal.org/project/layout\_builder\_component\_attributes) | Allows editors to add HTML attributes to Layout Builder components (blocks)              |
-| [**Layout Builder UX**](https://www.drupal.org/project/lb\_ux)                                                   | Alters the Layout Builder UI for better usability                                        |
 | [**Layout Builder Library**](https://www.drupal.org/project/layout\_library)                                     | Provides a library of layouts for content-editors to select from                         |
 | [**Section Library**](https://www.drupal.org/project/section\_library)                                           | Create reusable templates for single or multiple sections at the layout builder.         |
 | [**Bootstrap Styles**](https://www.drupal.org/project/bootstrap\_styles)                                         | Add a plugins builder and a collection of reusable plugins to the Layout Builder module. |
