@@ -40,6 +40,8 @@ Brings in the following core and contributed modules to your site:
 | [**Section Library**](https://www.drupal.org/project/section\_library)                                           | Create reusable templates for single or multiple sections at the layout builder.         |
 | [**Bootstrap Styles**](https://www.drupal.org/project/bootstrap\_styles)                                         | Add a plugins builder and a collection of reusable plugins to the Layout Builder module. |
 | [**Bootstrap Layout Builder**](https://www.drupal.org/project/bootstrap\_layout\_builder)                        | Add Bootstrap Grid support to Layout Builder module.                                     |
+| [**Block Library**](https://www.drupal.org/project/block\_library)                                               | Adds additional functionality to the core block library.                                 |
+| [**Allowed Formats**](https://www.drupal.org/project/allowed\_formats)                                           | Limit which text formats are available for each field instance.                          |
 
 ## Used Varbase Components
 
