@@ -55,7 +55,7 @@ Useful for websites with editorial or moderation staff. You can create as many a
 
 To view or manage these workflows, navigate to: **Administration** \ **Configuration** \ **Workflow** \ _**Workflows**_
 
-![Workflows Management](../../.gitbook/assets/Workflows.png)
+<figure><img src="../../.gitbook/assets/varbase10--Workflows-Management.png" alt=""><figcaption><p>Workflows Management</p></figcaption></figure>
 
 ### Assigning a Workflow to Content Types
 
@@ -73,9 +73,7 @@ By default, Varbase let's you choose the Content Moderation Workflow when creati
 
 You'll see that option under the "Publishing options" when creating a new Content Type.
 
-![Choosing a Workflow when creating new content type](<../../.gitbook/assets/Add Content Type Workflows.png>)
-
-
+<figure><img src="../../.gitbook/assets/varbase10--Choosing-a-Workflow-when-creating-new-content-type.png" alt=""><figcaption><p>Choosing a Workflow when creating new content type</p></figcaption></figure>
 
 #### Assign a Workflow to an Existing Content Type
 
@@ -88,11 +86,9 @@ You can also assign an existing Content Type to a Workflow if it wasn't assigned
 5. Choose your desired Content Type from the list and click on "**Save**".\
    Note that Content Types assigned to another Workflow will not appear on this list.
 
-![](../../.gitbook/assets/Edit-Simple-workflow-sandboxes-varbase8c80806t2.png)
+<figure><img src="../../.gitbook/assets/varbase10--workflow-Content-Types.png" alt=""><figcaption><p>Edit Simple Workflow Content Types</p></figcaption></figure>
 
-![List of content types under Workflow](../../.gitbook/assets/yyy.png)
-
-
+<figure><img src="../../.gitbook/assets/varbase10--workflow-List-of-content-types-under-Workflow.png" alt=""><figcaption><p>List of content types under Workflow</p></figcaption></figure>
 
 ### Adding or Editing Workflows
 
