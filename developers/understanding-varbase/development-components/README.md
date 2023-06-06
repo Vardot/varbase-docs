@@ -21,8 +21,8 @@ Install Varbase custom styling guide if you want to have a full look for Varbase
 _Make sure to uninstall this module and its enabled modules when you go in production mode_.
 {% endhint %}
 
-{% content-ref url="varbase-styleguide.md" %}
-[varbase-styleguide.md](varbase-styleguide.md)
+{% content-ref url="../deprecated-components/varbase-styleguide.md" %}
+[varbase-styleguide.md](../deprecated-components/varbase-styleguide.md)
 {% endcontent-ref %}
 
 ## Reroute Email Module
