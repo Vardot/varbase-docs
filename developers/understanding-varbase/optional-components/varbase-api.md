@@ -25,6 +25,7 @@ Brings in the following core and contributed modules to your site:
 | Module                                                                                     | Purpose                                                         |
 | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------- |
 | <p><strong>JSON:API</strong></p><p><em>(in Drupal core)</em></p>                           | Exposes entities as a JSON:API-specification-compliant web API. |
+| [**Consumers**](https://www.drupal.org/project/consumers)                                  | Declare all the consumers of your API.                          |
 | [**OpenAPI**](https://www.drupal.org/project/openapi)                                      | Connects Drupal to the OpenAPI Javascript Library.              |
 | [**OpenAPI for JSON:API**](https://www.drupal.org/project/openapi\_jsonapi)                | OpenAPI support for the JSON:API module.                        |
 | [**OpenAPI for REST**](https://www.drupal.org/project/openapi\_rest)                       | OpenAPI support for the REST module.                            |
@@ -39,7 +40,7 @@ Brings in the following core and contributed modules to your site:
 
 Can be installed in the extra components installation step with Varbase.
 
-![Varbase API in the List of Varbase Extra Components Installation Step](../../../.gitbook/assets/Extra-components-Varbase--varbase\_api.png)
+<figure><img src="../../../.gitbook/assets/varbase10--Extra-components-Varbase_api.png" alt=""><figcaption><p>Varbase API in the List of Varbase Extra Components Installation Step</p></figcaption></figure>
 
 {% content-ref url="../../configuring-a-varbase-site/configuring-json-api-features.md" %}
 [configuring-json-api-features.md](../../configuring-a-varbase-site/configuring-json-api-features.md)
