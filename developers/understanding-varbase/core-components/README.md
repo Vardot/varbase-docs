@@ -58,8 +58,8 @@ Those components are detailed in the table below:
 [varbase-api.md](../optional-components/varbase-api.md)
 {% endcontent-ref %}
 
-{% content-ref url="varbase-total-control-dashboard.md" %}
-[varbase-total-control-dashboard.md](varbase-total-control-dashboard.md)
+{% content-ref url="../deprecated-components/varbase-total-control-dashboard.md" %}
+[varbase-total-control-dashboard.md](../deprecated-components/varbase-total-control-dashboard.md)
 {% endcontent-ref %}
 
 {% content-ref url="../optional-components/varbase-blog.md" %}
