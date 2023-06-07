@@ -48,8 +48,8 @@ drush pm:uninstall slick_ui
 
 Varbase Style Guide module enables a styling and theming tools. But they should not be enabled on production sites.
 
-{% content-ref url="understanding-varbase/deprecated-components/varbase-styleguide.md" %}
-[varbase-styleguide.md](understanding-varbase/deprecated-components/varbase-styleguide.md)
+{% content-ref url="understanding-varbase/development-components/varbase-styleguide.md" %}
+[varbase-styleguide.md](understanding-varbase/development-components/varbase-styleguide.md)
 {% endcontent-ref %}
 
 * [ ] **Varbase Style Guide**

@@ -118,8 +118,8 @@ Those components are detailed in the table below:
 [varbase-seo.md](varbase-seo.md)
 {% endcontent-ref %}
 
-{% content-ref url="../deprecated-components/varbase-styleguide.md" %}
-[varbase-styleguide.md](../deprecated-components/varbase-styleguide.md)
+{% content-ref url="../development-components/varbase-styleguide.md" %}
+[varbase-styleguide.md](../development-components/varbase-styleguide.md)
 {% endcontent-ref %}
 
 {% content-ref url="../optional-components/varbase-social-single-sign-on.md" %}

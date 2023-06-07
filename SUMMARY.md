@@ -58,7 +58,7 @@
       * [Reroute Email](developers/understanding-varbase/development-components/reroute-email.md)
       * [Varbase Updates Helper](developers/understanding-varbase/development-components/varbase-updates-helper.md)
     * [Deprecated Components](developers/understanding-varbase/deprecated-components/README.md)
-      * [Varbase Style Guide](developers/understanding-varbase/deprecated-components/varbase-styleguide.md)
+      * [Varbase Style Guide](developers/understanding-varbase/development-components/varbase-styleguide.md)
       * [Vartheme BS4](developers/understanding-varbase/deprecated-components/vartheme-bs4.md)
       * [Varbase Total Control Dashboard](developers/understanding-varbase/deprecated-components/varbase-total-control-dashboard.md)
   * [Configuring a Varbase Site](developers/configuring-a-varbase-site/README.md)
