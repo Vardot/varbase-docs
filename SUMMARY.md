@@ -33,6 +33,7 @@
         * [Varbase Media (Image/Video) Block](developers/understanding-varbase/core-components/varbase-layout-builder/varbase-media-image-video-block.md)
         * [Varbase Gallery Block](developers/understanding-varbase/core-components/varbase-layout-builder/varbase-gallery-block.md)
       * [Vartheme Claro](developers/understanding-varbase/core-components/vartheme-claro.md)
+      * [Varbase Components](developers/understanding-varbase/core-components/varbase-components.md)
     * [Optional Components](developers/understanding-varbase/optional-components/README.md)
       * [Varbase API](developers/understanding-varbase/optional-components/varbase-api.md)
       * [Varbase Internationalization](developers/understanding-varbase/optional-components/varbase-internationalization.md)
