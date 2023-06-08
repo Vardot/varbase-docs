@@ -37,6 +37,7 @@ Brings in the following core and contributed modules to your site:
 | <p><strong>Database Logging</strong></p><p><em>(in Drupal core)</em></p>          | Logs system events in the database.                                              |
 | <p><strong>Views UI</strong></p><p><em>(in Drupal core)</em></p>                  | Provides a user interface for creating and managing views.                       |
 | [**Configuration Update Reports**](https://www.drupal.org/project/config\_update) | Adds an updates report and revert functionality to configuration management      |
+| [**Configuration Inspector**](https://www.drupal.org/project/config\_inspector)   | Provides a configuration data and structure inspector tool.                      |
 | [**Devel**](https://www.drupal.org/project/devel)                                 | Various blocks, pages, and functions for developers.                             |
 | [**Tour UI**](https://www.drupal.org/project/tour\_ui)                            | Provides a UI to manage guided tours.                                            |
 | [**Reroute Email**](https://www.drupal.org/project/reroute\_email)                | Reroutes emails send from the site to a predefined email. Useful for test sites. |
