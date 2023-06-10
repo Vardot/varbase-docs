@@ -30,8 +30,8 @@ Those components are detailed in the table below:
 [varbase-default-content.md](varbase-core/varbase-default-content.md)
 {% endcontent-ref %}
 
-{% content-ref url="../development-components/varbase-development.md" %}
-[varbase-development.md](../development-components/varbase-development.md)
+{% content-ref url="../../development-components/varbase-development.md" %}
+[varbase-development.md](../../development-components/varbase-development.md)
 {% endcontent-ref %}
 
 {% content-ref url="../optional-components/varbase-internationalization.md" %}
@@ -46,8 +46,8 @@ Those components are detailed in the table below:
 [varbase-tour.md](varbase-core/varbase-tour.md)
 {% endcontent-ref %}
 
-{% content-ref url="../development-components/varbase-updates-helper.md" %}
-[varbase-updates-helper.md](../development-components/varbase-updates-helper.md)
+{% content-ref url="../../development-components/varbase-updates-helper.md" %}
+[varbase-updates-helper.md](../../development-components/varbase-updates-helper.md)
 {% endcontent-ref %}
 
 {% content-ref url="varbase-core/varbase-webform.md" %}
@@ -58,8 +58,8 @@ Those components are detailed in the table below:
 [varbase-api.md](../optional-components/varbase-api.md)
 {% endcontent-ref %}
 
-{% content-ref url="../deprecated-components/varbase-total-control-dashboard.md" %}
-[varbase-total-control-dashboard.md](../deprecated-components/varbase-total-control-dashboard.md)
+{% content-ref url="varbase-total-control-dashboard.md" %}
+[varbase-total-control-dashboard.md](varbase-total-control-dashboard.md)
 {% endcontent-ref %}
 
 {% content-ref url="../optional-components/varbase-blog.md" %}

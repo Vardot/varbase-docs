@@ -31,8 +31,8 @@ Platform-as-a-service tuned for security, scalability, and resilience
 [external-components](external-components/)
 {% endcontent-ref %}
 
-{% content-ref url="development-components/" %}
-[development-components](development-components/)
+{% content-ref url="../development-components/" %}
+[development-components](../development-components/)
 {% endcontent-ref %}
 
 

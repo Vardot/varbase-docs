@@ -104,8 +104,8 @@ The following sub modules are packaged in the **Varbase Core** module
 [varbase-default-content.md](varbase-default-content.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../development-components/varbase-development.md" %}
-[varbase-development.md](../../development-components/varbase-development.md)
+{% content-ref url="../../../development-components/varbase-development.md" %}
+[varbase-development.md](../../../development-components/varbase-development.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../optional-components/varbase-internationalization.md" %}
@@ -128,8 +128,8 @@ The following sub modules are packaged in the **Varbase Core** module
 [varbase-webform.md](varbase-webform.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../development-components/varbase-updates-helper.md" %}
-[varbase-updates-helper.md](../../development-components/varbase-updates-helper.md)
+{% content-ref url="../../../development-components/varbase-updates-helper.md" %}
+[varbase-updates-helper.md](../../../development-components/varbase-updates-helper.md)
 {% endcontent-ref %}
 
 
