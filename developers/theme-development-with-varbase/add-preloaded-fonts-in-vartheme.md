@@ -18,19 +18,13 @@ The **html.html.twig** file [https://git.drupalcode.org/project/drupal/-/blob/10
 The **preload.twig** file [https://git.drupalcode.org/project/drupal/-/blob/10.1.x/core/themes/olivero/templates/includes/preload.twig](https://git.drupalcode.org/project/drupal/-/blob/10.1.x/core/themes/olivero/templates/includes/preload.twig)
 {% endhint %}
 
-Having the following in **Vartheme BS4** and **VARTHEM\_BS4\_SUBTHEME**. And the include.
+Having the following in **Vartheme BS5**. And the include.
 
 ```
 {% raw %}
-{%- include '@vartheme_bs4/includes/preload.twig' with { vartheme_bs4_path: vartheme_bs4_path, html_dir: html_attributes['dir'] } only -%}
+{%- include '@vartheme_bs5/includes/preload.twig' with { vartheme_bs5_path: vartheme_bs5_path, html_dir: html_attributes['dir'] } only -%}
 {% endraw %}
 
-```
-
-```
-{% raw %}
-{%- include '@VARTHEME_BS4_SUBTHEME/includes/preload.twig' with { VARTHEME_BS4_SUBTHEME_path: VARTHEME_BS4_SUBTHEME_path, html_dir: html_attributes['dir'] } only -%}
-{% endraw %}
 ```
 
 \
@@ -124,7 +118,7 @@ Recommended to add for faster loading of font in pages
 * Edit the `"PROJECT_PATH/themes/custom/MYTHEME/templates/includes/preload.twig"` file. Add the link rel preload and the patch to the font file with `as="font"` and `type`
 
 ```
-<link rel="preload" href="/{{ vartheme_bs4_path }}/fonts/lora/Lora-Regular.ttf" as="font" type="font/tff" crossorigin="anonymous">
+<link rel="preload" href="/{{ vartheme_bs5_path }}/fonts/lora/Lora-Regular.ttf" as="font" type="font/tff" crossorigin="anonymous">
 ```
 
 ### 4. Clear Cache And Test The Font
@@ -137,7 +131,7 @@ Change the logic in this file in the generated theme for the project. To match t
 
 ### Available Variables
 
-* **`vartheme_bs4_path`**: Returns the path to the Vartheme BS4 theme. In the Vartheme Sub theme, the variable could be `mythemename_path`
+* **`vartheme_bs5_path`**: Returns the path to the Vartheme BS5 theme. In the generated cloned Vartheme theme, the variable could be `mythemename_path`
 * **`html_dir`:** contains the language direction. It will either be 'ltr' or 'rtl'.
 
 {% hint style="info" %}
@@ -155,9 +149,9 @@ Check the following links:&#x20;
 
 Vartheme **Fonts** folder:
 
-[https://git.drupalcode.org/project/vartheme\_bs4/-/tree/9.0.x/fonts](https://git.drupalcode.org/project/vartheme\_bs4/-/tree/9.0.x/fonts)
+[https://git.drupalcode.org/project/vartheme\_bs5/-/tree/3.0.x/fonts](https://git.drupalcode.org/project/vartheme\_bs5/-/tree/3.0.x/fonts)
 
-**Vartheme html.html.twig file:** [https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/templates/system/html.html.twig#L69](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/templates/system/html.html.twig#L69)
+**Vartheme html.html.twig file:** [https://git.drupalcode.org/project/vartheme\_bs5/-/blob/3.0.x/templates/system/html.html.twig#L50](https://git.drupalcode.org/project/vartheme\_bs5/-/blob/3.0.x/templates/system/html.html.twig#L50)
 
-**Vartheme  preload.twig file:** [https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/templates/includes/preload.twig](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/templates/includes/preload.twig)
+**Vartheme  preload.twig file:** [https://git.drupalcode.org/project/vartheme\_bs5/-/blob/3.0.x/templates/includes/preload.twig](https://git.drupalcode.org/project/vartheme\_bs5/-/blob/3.0.x/templates/includes/preload.twig)
 {% endhint %}
