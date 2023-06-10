@@ -16,8 +16,8 @@
 [add-preloaded-fonts-in-vartheme.md](add-preloaded-fonts-in-vartheme.md)
 {% endcontent-ref %}
 
-{% content-ref url="switch-from-node-sass-to-dart-sass-for-old-sub-themes.md" %}
-[switch-from-node-sass-to-dart-sass-for-old-sub-themes.md](switch-from-node-sass-to-dart-sass-for-old-sub-themes.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 
