@@ -8,7 +8,7 @@ A new generation of theming (base theme) based on [**Bootstrap 5**](https://getb
 
 Having [**Varbase Components**](https://www.drupal.org/project/varbase\_components) to provides component management system for Varbase and **Vartheme BS5**.
 
-Customizing for a project? keep using the **Vartheme BS4** base theme by:
+Customizing for a project? keep using the **Vartheme BS5** base theme by:
 
 {% content-ref url="creating-your-own-theme.md" %}
 [creating-your-own-theme.md](creating-your-own-theme.md)
