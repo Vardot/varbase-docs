@@ -43,15 +43,15 @@ Set the **STMP** transport as the default transport sender for emails, by clicki
 
 ## Set the Email Logo for Symfony Mailer Template
 
-[**Vartheme BS5**](https://www.drupal.org/project/vartheme\_bs5) provide theme settings for emails too. **Vartheme** sub-themes followed with that too.
+[**Vartheme BS5**](https://www.drupal.org/project/vartheme\_bs5) provide theme settings for emails too. **Vartheme** generated themes followed with that too.
 
-* Generate a new sub-theme following with [creating-your-own-theme.md](../../theme-development-with-varbase/creating-your-own-theme.md "mention")
+* Generate a new custom theme following with [creating-your-own-theme.md](../../theme-development-with-varbase/creating-your-own-theme.md "mention")
 * Enable the new custom generated theme for example and set it as the default theme on the site.
 * Navigate to **Administration \ Appearance \ Appearance settings \ **_**A Custom Generated Theme of Vartheme**_
 
 The email logo custom theme settings can be filled as desired
 
-![Email Logo Settings in Vartheme and Vartheme Sub Themes](<../../../.gitbook/assets/Email Logo - Vartheme (Bootstrap 4 - SASS) \_ varbase90x1.png>)
+<figure><img src="../../../.gitbook/assets/Varbase10--Email-Logo-Settings-in-Vartheme-and-Generated-Themes.png" alt=""><figcaption><p>Email Logo Settings in Vartheme and Custom Generated Themes</p></figcaption></figure>
 
 The provided Email Logo will feed the Symfony Mailer template with the selected logo, which it will be linked in the email.
 
@@ -65,7 +65,7 @@ Inline or style elements are cleared out in the `email.twig` , `varbase_email.tw
 
 Create a new library to attach the needed styles to it
 
-**Example:** `custom_subtheme.libraries.yml` file
+**Example:** `custom_theme.libraries.yml` file
 
 ```
 default.email-style.ltr:
@@ -86,12 +86,12 @@ Have all custom LTR ( left to right) and RTL ( right to left ) styling in separa
 
 The **Varbase Email** module has two libraries which are attached to the **Symfony** email template. They can be extended or overridden.
 
-**Example:** `custom_subtheme.info.yml` file in your custom **Vartheme** sub-theme
+**Example:** `custom_theme.info.yml` file in your custom **Vartheme** generated theme
 
 ```
 libraries-override:
-  varbase_email/default.email-style.ltr: custom_subtheme/default.email-style.ltr
-  varbase_email/default.email-style.rtl: custom_subtheme/default.email-style.rtl
+  varbase_email/default.email-style.ltr: custom_theme/default.email-style.ltr
+  varbase_email/default.email-style.rtl: custom_theme/default.email-style.rtl
 ```
 
 **Symfony Mailer** allows each module to have custom email templates and other sending transport.
