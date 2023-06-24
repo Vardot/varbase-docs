@@ -1,7 +1,7 @@
-# Install Needed YARN and Gulp Tools
+# Install Needed YARN and Webpack Tools
 
 {% hint style="success" %}
-All **Varbase components** are using [**Yarn**](https://yarnpkg.com/), and [**Gulp**](https://gulpjs.com/) to bring in number of development dependencies.
+All **Varbase Components** are using [**Yarn**](https://yarnpkg.com/), and [**Webpack**](https://webpack.js.org/) to bring in number of development dependencies.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -21,7 +21,7 @@ sudo apt install -y sed gawk;
 Helps getting more development tools.
 
 ```
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt update
 sudo apt install nodejs
 sudo apt install build-essential
@@ -43,11 +43,3 @@ Install **Yarn** as a global by **npm**
 sudo npm install -g yarn
 ```
 
-## **Install** [**Gulp**](https://gulpjs.com/)
-
-Helps in managing tasks when compiling SASS/SCSS to CSS
-
-```
-sudo npm install gulp-cli -g
-sudo npm install gulp -D
-```
