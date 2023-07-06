@@ -60,6 +60,17 @@ Enabling Twig debugging is not recommended in production environments.
 Disabling the Twig cache is not recommended in production environments.
 {% endhint %}
 
+{% hint style="info" %}
+**Set up Storybook for your Drupal site.**
+
+Please see the [@lullabot/storybook-drupal-addon](https://www.github.com/lullabot/storybook-drupal-addon#readme), which will make your Storybook aware of Drupal by connecting it to this module.
+
+
+{% endhint %}
+
+| [📋 Step-by-step tutorial 📋](https://git.drupalcode.org/project/cl\_server/-/blob/2.x/docs/storybook.md) |
+| --------------------------------------------------------------------------------------------------------- |
+
 * Change `varbase.local` in the **`package.json`** file to the appropriate local or development domain name.
 * Replace `http://varbase.local` in the **`preview.js`** file with the base URL of your project or an environment variable representing the local or development domain.
 * Open a command terminal window and navigate to your project's directory.
@@ -111,7 +122,12 @@ In the `` main.js` `` file:\
 * Add the attribute `data-bs-theme='dark'` to the body tag of the inner iframe in the canvas only when necessary. The default value is `data-bs-theme='light'`.
 * Bootstrap now supports color modes, or themes, starting from version **5.3.0.** You can explore the default light color mode and the new dark mode, or create your own theme using Bootstrap's styles as a template.\
   [https://getbootstrap.com/docs/5.3/customize/color-modes/](https://getbootstrap.com/docs/5.3/customize/color-modes/)
+*
 {% endhint %}
+
+<figure><img src="../../.gitbook/assets/Varbase-Components-Atoms-Progress-Bar-Progress-Bar-⋅-Storybook--light.png" alt=""><figcaption><p><strong>Varbase Components</strong> in <strong>Storybook</strong> with <strong>Bootstrap 5.3.0</strong> <code>"light"</code> theme color mode</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Varbase-Components-Atoms-Progress-Bar-Progress-Bar-⋅-Storybook--dark.png" alt=""><figcaption><p><strong>Varbase Components</strong> in <strong>Storybook</strong> with <strong>Bootstrap 5.3.0</strong> <code>"dark"</code> theme color mode</p></figcaption></figure>
 
 ## Related Integration Issues
 
