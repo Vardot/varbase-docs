@@ -5,6 +5,61 @@
 ## Steps to Set up a Working Storybook for Varbase
 
 * Enable the **`cl_server`** module on the site either through the site's interface or by running the command `./bin/drush en cl_server` with Drush. Note that the CL Server module should not be kept running on a production site.
+* Navigate to **`"/admin/people/permissions/module/cl_server"`**  to give the `Use the CL Server endpoint` permission to all user roles. Check the  `Anonymous user` and `Authenticated user` checkbox and press **`Save permission`** submit button
+
+<figure><img src="../../.gitbook/assets/varbase10--Module-Permissions-dev-varbase10c1storybook.png" alt=""><figcaption><p>Use the CL Server endpoint Module Permissions</p></figcaption></figure>
+
+{% hint style="warning" %}
+**Use the CL Server endpoint**
+
+_**Warning:** Give to trusted roles only; this permission has security implications._
+
+&#x20;Allows a user to access the Component Library: Server endpoint
+{% endhint %}
+
+* Add the following exclude of modules to the `settings.php` or `settings.local.php` only to the development environment:
+
+```php
+# Disable caches during development. This allows finding new components without clearing caches.
+// $settings['cache']['bins']['component_registry'] = 'cache.backend.null';
+# Then disallow exporting config for 'cl_server'. Instructions are at the bottom of the file.
+$settings['config_exclude_modules'] = ['devel', 'stage_file_proxy', 'cl_server'];
+```
+
+* Change the following Cross-Site HTTP requests (CORS) in the `services.yml` or `development.services.yml` file.
+
+{% hint style="info" %}
+```yaml
+  cors.config:
+    enabled: true
+    # Specify allowed headers, like 'x-allowed-header'.
+    allowedHeaders: ['*']
+    # Specify allowed request methods, specify ['*'] to allow all possible ones.
+    allowedMethods: []
+    # Configure requests allowed from specific origins. Do not include trailing
+    # slashes with URLs.
+    allowedOrigins: ['*']
+    # Sets the Access-Control-Expose-Headers header.
+    exposedHeaders: false
+    # Sets the Access-Control-Max-Age header.
+    maxAge: false
+    # Sets the Access-Control-Allow-Credentials header.
+    supportsCredentials: true
+```
+{% endhint %}
+
+* Enable Twig debugging by `debug: true`  in the `services.yml` or `development.services.yml` file.
+
+{% hint style="danger" %}
+Enabling Twig debugging is not recommended in production environments.
+{% endhint %}
+
+* Disable the Twig cache by `cache: false`  in the `services.yml` or `development.services.yml` file.
+
+{% hint style="danger" %}
+Disabling the Twig cache is not recommended in production environments.
+{% endhint %}
+
 * Change `varbase.local` in the **`package.json`** file to the appropriate local or development domain name.
 * Replace `http://varbase.local` in the **`preview.js`** file with the base URL of your project or an environment variable representing the local or development domain.
 * Open a command terminal window and navigate to your project's directory.
