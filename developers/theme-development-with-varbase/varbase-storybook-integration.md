@@ -2,8 +2,9 @@
 
 **Varbase** was integrated to list stories for **Single Directory Components (SDC)** components, from [**Varbase Components**](https://www.drupal.org/project/varbase\_components)**,** [**Vartheme BS5**](https://www.drupal.org/project/vartheme\_bs5) in a [**Storybook**](https://storybook.js.org)**.**
 
-## Steps to have a working Storybook for Varbase
+## Steps to have a Working Storybook for Varbase
 
+* Enable the [**Component Libraries: Theme Server**](https://www.drupal.org/project/cl\_server) module from the site or with drush by running `./bin/drush en cl_server` . Make sure not keep the CL Server module running on a production site.
 * Change `varbase.local` in the `package.json` file to the working local or development domain name.
 * Replace `http://varbase.local` in the `preview.js` file with the project's base URL, or an environment variable to the local or development domain.
 * Open a command terminal window.
