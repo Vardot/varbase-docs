@@ -97,7 +97,7 @@
     * [Creating Your Own Theme](developers/theme-development-with-varbase/creating-your-own-theme.md)
     * [Local Tasks and Moderation Sidebar](developers/theme-development-with-varbase/local-tasks-and-moderation-sidebar.md)
     * [Add Preloaded Fonts in Vartheme](developers/theme-development-with-varbase/add-preloaded-fonts-in-vartheme.md)
-    * [Varbase Storybook Integration](developers/theme-development-with-varbase/varbase-storybook-integration.md)
+    * [Integration of Varbase with Storybook](developers/theme-development-with-varbase/integration-of-varbase-with-storybook.md)
   * [Launching a Varbase Site to Production](developers/launching-a-varbase-site-to-production.md)
   * [Updating a Varbase Site](developers/updating-varbase/README.md)
     * [Understanding Varbase Updater Package](developers/updating-varbase/understanding-varbase-updater-package.md)
