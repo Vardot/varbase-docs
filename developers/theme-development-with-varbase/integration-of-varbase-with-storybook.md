@@ -82,6 +82,12 @@ To include components from **Vartheme BS5 Starterkit**, uncomment and modify the
 
 ### Show Custom Theme**'s Components**
 
+In case of having a custom theme for a project by
+
+{% content-ref url="creating-your-own-theme.md" %}
+[creating-your-own-theme.md](creating-your-own-theme.md)
+{% endcontent-ref %}
+
 To include components from a custom cloned generated theme, uncomment and modify the following line in the `.storybook/main.js` file:
 
 `"../docroot/themes/custom/mytheme/components/**/*.stories.@(json|yml)",`&#x20;
