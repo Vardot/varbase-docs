@@ -65,34 +65,68 @@ These steps will allow you to incorporate your custom style for the **Alert comp
 ## More Info and FAQ about SDC
 
 {% hint style="info" %}
-**Read: Using Single Directory Components**
+### **Read: Using Single Directory Components**
 
 [https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components)
 
 
 
-**Read: F.A.Q. (Frequently Asked Questions) about SDC**
+### **Read: F.A.Q. (Frequently Asked Questions) about SDC**
 
 [https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components/faq-frequently-asked-questions](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components/faq-frequently-asked-questions)
 
 
 
-**Read: Creating Your First Single Directory Component within Drupal**
+### **Read: Creating Your First Single Directory Component within Drupal**
 
 [https://herchel.com/articles/creating-your-first-single-directory-component-within-drupal](https://herchel.com/articles/creating-your-first-single-directory-component-within-drupal)
 
 
 
-**Read: Single Directory Components in Drupal Core**
+### **Read: Single Directory Components in Drupal Core**
 
 [https://www.lullabot.com/articles/getting-single-directory-components-drupal-core](https://www.lullabot.com/articles/getting-single-directory-components-drupal-core)
 
 
 
-**Watch: Single Directory Components in Core: Pittsburgh 2023**
+### **Watch: Single Directory Components in Core: Pittsburgh 2023**
 
 [https://www.youtube.com/watch?v=gDd7pCK9KsA](https://www.youtube.com/watch?v=gDd7pCK9KsA)&#x20;
 {% endhint %}
+
+## SDC Examples <a href="#page-subtitle" id="page-subtitle"></a>
+
+{% hint style="info" %}
+### [SDC Examples](https://git.drupalcode.org/project/sdc\_examples/-/tree/1.x/components) module
+
+`Component Libraries: Components Examples`
+{% endhint %}
+
+{% hint style="info" %}
+### [**Varbase Components**](https://github.com/Vardot/varbase\_components/tree/2.0.x/components) **module**
+
+**Varbase Components :** [Button](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/atoms/button) , [Close Button](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/atoms/close-button)
+
+**Varbase Components :** [Badge](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/atoms/badge)
+
+**Varbase Components :** [Alert](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/molecules/alert)
+
+**Varbase Components :** [Progress Bar](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/atoms/progress-bar)
+
+***
+
+**Varbase Components :** [Featured Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-featured)
+
+**Varbase Components :** [Impressed Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-impressed)
+
+**Varbase Components :** [Overlay Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-overlay)
+
+**Varbase Components :** [Hero Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-hero)
+
+**Varbase Components :** [Text Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-text)
+{% endhint %}
+
+
 
 
 
