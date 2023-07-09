@@ -8,14 +8,20 @@ To replace any component from the **Varbase Components** module, follow the exam
 
 Suppose we have a custom style for the Alert component on our site, which differs from the default style. Here are the steps to implement the custom style:
 
-1. Copy the alert folder from **Varbase Components** to your project's theme folder:
+## Copy the Varbase Component to the Custom theme
+
+Copy the alert folder from **Varbase Components** to your project's theme folder:
 
 ```
 cd PATH_TO_THE_PROJECT/docroot
 cp -r modules/contrib/varbase_components/components/molecules/alert themes/custom/PROJECT_THEME/components/molecules/alert
 ```
 
-2. Edit the `alert.component.yml` file in your `PROJECT_THEME` folder. Add the following line after `name: Alert` in the YAML file:
+## Add replaces to the Copied Component
+
+Edit the `alert.component.yml` file in your `PROJECT_THEME` folder.&#x20;
+
+Add the following line after `name: Alert` in the YAML file:
 
 ```
 replaces: 'varbase_components:alert'
@@ -28,18 +34,65 @@ name: Alert
 replaces: 'varbase_components:alert'
 ```
 
-3. Uncomment the following line in the `PROJECT_THEME/webpack.config.components.js` file:
+## Add the Custom SCSS files to the Webpack Config for Components
+
+Uncomment the following line in the `PROJECT_THEME/webpack.config.components.js` file:
 
 ```
     './components/molecules/alert/alert': ['./components/molecules/alert/alert.scss'],
 ```
 
-**Note:** As a theme, you have the authority to modify any part of the `status-messages.html.twig` template file, which is the default system template in Drupal. You can also make changes to the **SASS**, **TWIG**, and **JavaScript** files in the `components/molecules/alert` folder.
+{% hint style="info" %}
+**Note:** As a custom theme, Developers and themers have the authority to modify any part of the <mark style="color:green;">"</mark><mark style="color:green;">`status-messages.html.twig"`</mark> template file, which is the default system template in Drupal.&#x20;
 
-4. Compile `SASS` to `CSS` files for components:
+You can also make changes to the **SASS**, **TWIG**, and **JavaScript** files in the <mark style="color:green;">`components/molecules/alert`</mark> folder.
+{% endhint %}
+
+## Compile `SASS` to `CSS` files for components
 
 ```
 yarn components:build
 ```
 
 These steps will allow you to incorporate your custom style for the **Alert component**, using the **Varbase Components** module as a base.
+
+## Change the SDC Component to Customize
+
+* Add JS file, or more JS files to dependencies
+* Add more SCSS/CSS files
+* Change the custom component twig template
+
+## More Info and FAQ about SDC
+
+{% hint style="info" %}
+**Read: Using Single Directory Components**
+
+[https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components)
+
+
+
+**Read: F.A.Q. (Frequently Asked Questions) about SDC**
+
+[https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components/faq-frequently-asked-questions](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components/faq-frequently-asked-questions)
+
+
+
+**Read: Creating Your First Single Directory Component within Drupal**
+
+[https://herchel.com/articles/creating-your-first-single-directory-component-within-drupal](https://herchel.com/articles/creating-your-first-single-directory-component-within-drupal)
+
+
+
+**Read: Single Directory Components in Drupal Core**
+
+[https://www.lullabot.com/articles/getting-single-directory-components-drupal-core](https://www.lullabot.com/articles/getting-single-directory-components-drupal-core)
+
+
+
+**Watch: Single Directory Components in Core: Pittsburgh 2023**
+
+[https://www.youtube.com/watch?v=gDd7pCK9KsA](https://www.youtube.com/watch?v=gDd7pCK9KsA)&#x20;
+{% endhint %}
+
+
+
