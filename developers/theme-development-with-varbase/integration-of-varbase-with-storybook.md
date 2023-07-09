@@ -26,10 +26,19 @@ _**Warning:** Give to trusted roles only; this permission has security implicati
 $settings['config_exclude_modules'] = ['devel', 'stage_file_proxy', 'cl_server'];
 ```
 
-* Change the following Cross-Site HTTP requests (CORS) in the `services.yml` or `development.services.yml` file.
+* Change the following **Cross-Site HTTP requests (CORS)** in the **`development.services.yml`** file.
 
 {% hint style="info" %}
 ```yaml
+# Local development services.
+#
+# To activate this feature, follow the instructions at the top of the
+# 'example.settings.local.php' file, which sits next to this file.
+parameters:
+  twig.config:
+    debug: true
+    cache: false
+  http.response.debug_cacheability_headers: true
   cors.config:
     enabled: true
     # Specify allowed headers, like 'x-allowed-header'.
@@ -45,16 +54,19 @@ $settings['config_exclude_modules'] = ['devel', 'stage_file_proxy', 'cl_server']
     maxAge: false
     # Sets the Access-Control-Allow-Credentials header.
     supportsCredentials: true
+services:
+  cache.backend.null:
+    class: Drupal\Core\Cache\NullBackendFactory
 ```
 {% endhint %}
 
-* Enable Twig debugging by `debug: true`  in the `services.yml` or `development.services.yml` file.
+* Enable Twig debugging by `debug: true`  in the `development.services.yml` file.
 
 {% hint style="danger" %}
 Enabling Twig debugging is not recommended in production environments.
 {% endhint %}
 
-* Disable the Twig cache by `cache: false`  in the `services.yml` or `development.services.yml` file.
+* Disable the Twig cache by `cache: false`  in the `development.services.yml` file.
 
 {% hint style="danger" %}
 Disabling the Twig cache is not recommended in production environments.
@@ -70,6 +82,8 @@ Please see the [@lullabot/storybook-drupal-addon](https://www.github.com/lullabo
 
 | [📋 Step-by-step tutorial 📋](https://git.drupalcode.org/project/cl\_server/-/blob/2.x/docs/storybook.md) |
 | --------------------------------------------------------------------------------------------------------- |
+
+#### Change the Local Development Domain
 
 * Change `varbase.local` in the **`package.json`** file to the appropriate local or development domain name.
 * Replace `http://varbase.local` in the **`preview.js`** file with the base URL of your project or an environment variable representing the local or development domain.
