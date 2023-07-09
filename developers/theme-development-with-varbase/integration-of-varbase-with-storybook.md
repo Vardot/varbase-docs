@@ -60,6 +60,12 @@ services:
 ```
 {% endhint %}
 
+{% hint style="warning" %}
+Not recommended to keep **`"cors.config"`** with **`"enabled: true"`** in production environments.
+
+#### **Better to keep all changes in the `"development.services.yml"` file**
+{% endhint %}
+
 * Enable Twig debugging by `debug: true`  in the `development.services.yml` file.
 
 {% hint style="danger" %}
