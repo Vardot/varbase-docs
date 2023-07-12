@@ -93,7 +93,7 @@
     * [Entity Definition Update Manager Class](developers/configuring-a-varbase-site/entity-definition-update-manager-class.md)
     * [Module Installer Factory Class](developers/configuring-a-varbase-site/module-installer-factory-class.md)
   * [Theme Development with Varbase](developers/theme-development-with-varbase/README.md)
-    * [Understanding The Vartheme Base Theme](developers/theme-development-with-varbase/understanding-the-vartheme-base-theme.md)
+    * [Understanding The Vartheme Starterkit Theme](developers/theme-development-with-varbase/understanding-the-vartheme-base-theme.md)
     * [Creating Your Own Theme](developers/theme-development-with-varbase/creating-your-own-theme.md)
     * [Customize a Varbase SDC Component In a Custom Theme](developers/theme-development-with-varbase/customize-a-varbase-sdc-component-in-a-custom-theme.md)
     * [Local Tasks and Moderation Sidebar](developers/theme-development-with-varbase/local-tasks-and-moderation-sidebar.md)
