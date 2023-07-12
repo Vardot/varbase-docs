@@ -149,6 +149,8 @@ In the `` main.js` `` file:\
 
 <figure><img src="../../.gitbook/assets/Varbase-Components-Atoms-Progress-Bar-Progress-Bar-⋅-Storybook--dark.png" alt=""><figcaption><p><strong>Varbase Components</strong> in <strong>Storybook</strong> with <strong>Bootstrap 5.3.0</strong> <code>"dark"</code> theme color mode</p></figcaption></figure>
 
+<figure><img src="../../.gitbook/assets/Varbase-Components-Organisms-Featured-Card-Featured-Card-⋅-Storybook.png" alt=""><figcaption><p>Example Featured Card SDC Component and UI Pattern as a Story </p></figcaption></figure>
+
 ## Related Integration Issues
 
 * [Integrate Varbase Project with Storybook using Component Libraries: Theme Server for Varbase Components and Vartheme BS5 with and Bootstrap 5.3.0 #182](https://github.com/Vardot/varbase-project/issues/182)
