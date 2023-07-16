@@ -16,50 +16,19 @@ Learn more about Bootstrap standard build tools documentation, compile source co
 
 ## Install Needed Tools Command
 
-{% content-ref url="install-needed-tools-command.md" %}
-[install-needed-tools-command.md](install-needed-tools-command.md)
+Utilize the command provided in the following link to automatically configure all necessary Node.js or theme processing requirements:
+
+{% content-ref url="command-to-install-needed-theming-tools.md" %}
+[command-to-install-needed-theming-tools.md](command-to-install-needed-theming-tools.md)
 {% endcontent-ref %}
 
 ## Install Needed Tools Manually
 
-Recommended doing the installation of needed tools using the bash script command. But if that is not the case. By deciding to manually install custom versions. Please follow with the following steps.
+Please refer to the following link for a comprehensive set of instructions or an external resource to guide you through the setup process:
 
-### **1. Install** [**sed**](https://www.gnu.org/software/sed/manual/sed.html) **and** [**gawk**](https://www.gnu.org/software/gawk/manual/gawk.html)
-
-Helps with string replace and re-naming files.
-
-```
-sudo apt install -y sed gawk;
-```
-
-### **2. Install npm** and [**nodejs**](https://nodejs.org/en/)
-
-&#x20;Helps getting more development tools and the **Bootstrap** and **popper** packages.&#x20;
-
-```
-curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash - 
-sudo apt update
-sudo apt install nodejs
-sudo apt install build-essential
-
-curl -L https://npmjs.com/install.sh | sudo -E bash -
-sudo apt update
-sudo apt install npm
-```
-
-### 3. Install [Yarn](https://yarnpkg.com/getting-started)
-
-```
-sudo apt install yarn
-```
-
-Install **Yarn** as a global by **npm**
-
-```
-sudo npm install -g yarn
-```
-
-
+{% content-ref url="manually-install-needed-theming-tools.md" %}
+[manually-install-needed-theming-tools.md](manually-install-needed-theming-tools.md)
+{% endcontent-ref %}
 
 ## Create new Vartheme BS5 Cloned Generated Theme
 
@@ -94,17 +63,87 @@ The new theme should look and function identically to **Vartheme BS5** out of th
 
 As part of the `generate-theme` command, the necessary `package.json` dependencies and scripts files are copied over for the project. Simply install the dependencies and then run `yarn theme:init` once, and then either the `yarn theme:full-build` command to compile the assets once or the `yarn theme:watch` command to re-compile the assets every time a `.scss` file is changed.
 
-```
-yarn install # Install the dependencies
+## Install the Dependencies for Needed Packages
 
-yarn theme:init # Initialize the theme once
-
-yarn theme:full-build # Compile SASS once
-
-yarn theme:watch # Compile SASS per save
+```bash
+yarn install
 ```
 
-### Reporting Starterkit Bugs
+{% hint style="warning" %}
+Recommended to use **Yarn**, Please do not use `npm install`
+
+you may fun into issue while installing
+
+the list of packages in the `package.json was optimized for better use with Yarn`
+{% endhint %}
+
+## Initialize the Theme Once
+
+```bash
+yarn theme:init
+```
+
+{% hint style="info" %}
+Ensure that you perform this step immediately after generating and installing packages, or after updating Bootstrap, Font Awesome, or any other necessary extensions.
+{% endhint %}
+
+The `theme:init` script alias will trigger the execution of `webpack --progress --config webpack.config.init.js`. This command is responsible for copying the specified files and folders from the [`webpack.config.init.js`](https://github.com/Vardot/vartheme\_bs5/blob/3.0.x/webpack.config.init.js) configuration file to their respective locations.
+
+Additionally, any additional external libraries from the `node_modules` folder can be managed by copying them to a designated target libraries folder.
+
+{% hint style="success" %}
+It is essential to include comprehensive **"install once"** or **"configure once"** options that can be utilized by new development team members when they join the project for custom theme development or theming. **This approach ensures a smooth onboarding process and facilitates seamless setup for new team members**.
+{% endhint %}
+
+## Compile Once
+
+With webpack, project can compile may type of files and integrate with more nodejs processing tools.
+
+### Compile all
+
+Use the following alias script command to compile all SCSS, JS, or SVG icons.
+
+```
+yarn theme:full-build
+```
+
+### Compile SDC Components Only
+
+In case of working on a custom SDC component, an alias script command can help with the.
+
+```
+yarn components:build
+```
+
+The `components:build` script alias will trigger the execution of `webpack --progress --config webpack.config.components.js`. This command is responsible only for compiling custom SDC components in the them. The [webpack.config.components.js](https://github.com/Vardot/vartheme\_bs5/blob/3.0.x/webpack.config.components.js) file has the list of entry, and output for compiled css/js/svg script to the right public path.
+
+Have a look at the following link for more info:
+
+{% content-ref url="customize-a-varbase-sdc-component-in-a-custom-theme.md" %}
+[customize-a-varbase-sdc-component-in-a-custom-theme.md](customize-a-varbase-sdc-component-in-a-custom-theme.md)
+{% endcontent-ref %}
+
+### Compile Custom Theme Styling Only
+
+In case of working on small custom theme styling, which no need to compile components. The following alias script command can help compile in a quick way.
+
+```
+yarn theme:build
+```
+
+## Watching and Syncing
+
+Use to only while working to auto compile custom theme styling
+
+```bash
+yarn theme:watch
+```
+
+{% hint style="warning" %}
+`theme:watch` is targeted for the theme only, but it can be customized in custom theme
+{% endhint %}
+
+## Reporting Starterkit Bugs
 
 Should you encounter a bug while generating a new theme, please [create a new issue](https://www.drupal.org/node/add/project-issue/vartheme\_bs5)
 
@@ -127,6 +166,7 @@ Run the following commands to get all development tools
 ```
 cd PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
 yarn install
+yarn theme:init
 yarn theme:full-build
 ```
 

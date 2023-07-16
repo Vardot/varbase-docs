@@ -1,4 +1,4 @@
-# Install Needed Tools Command
+# Command to Install Needed Theming Tools
 
 1. Open a terminal window.
 2. Change directory in the terminal to `docroot/themes/contrib/vartheme_bs5/scripts` in the project.
