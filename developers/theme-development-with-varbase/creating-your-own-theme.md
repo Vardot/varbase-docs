@@ -1,6 +1,6 @@
 # Creating Your Own Theme
 
-After building and installing the project with the [**Varbase Project**](https://github.com/Vardot/varbase-project) template, use the create new Vartheme sub theme command.&#x20;
+After building and installing the project with the [**Varbase Project**](https://github.com/Vardot/varbase-project) template, use the [**Drupal Generate Theme**](https://www.drupal.org/docs/core-modules-and-themes/core-themes/starterkit-theme) using the **Vartheme starterkit**  command.&#x20;
 
 Before that have a look at:
 
@@ -16,15 +16,9 @@ Learn more about Bootstrap standard build tools documentation, compile source co
 
 ## Install Needed Tools Command
 
-1. Open a terminal window.
-2. Change directory in the terminal to `docroot/themes/contrib/vartheme_bs5/scripts` in the project.
-3. Run the `bash ./install-needed-tools.sh`
-4. Follow with the list of instructions.
-
-```
-cd PROJECT_DIR_NAME/docroot/themes/contrib/vartheme_bs5/scripts
-bash ./install-needed-tools.sh
-```
+{% content-ref url="install-needed-tools-command.md" %}
+[install-needed-tools-command.md](install-needed-tools-command.md)
+{% endcontent-ref %}
 
 ## Install Needed Tools Manually
 
