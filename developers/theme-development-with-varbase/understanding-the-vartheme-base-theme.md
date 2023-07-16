@@ -2,13 +2,13 @@
 
 ## Vartheme BS5: Varbase Theme (Bootstrap 5 - SASS)
 
-A base theme for [**Varbase**](https://www.drupal.org/project/varbase) standard websites.
+A starterkit theme for [**Varbase**](https://www.drupal.org/project/varbase) standard websites.
 
-A new generation of theming (base theme) based on [**Bootstrap 5**](https://getbootstrap.com/), **Single Directory Components (SDC)** with [**Drupal `~10.1.0`**](https://www.drupal.org/project/drupal/releases/10.1.0-alpha1), and [**UI Patterns**](https://www.drupal.org/project/ui\_patterns) **`2.0.x-dev`**.
+A new generation of theming based on [**Bootstrap \~5.3.0**](https://getbootstrap.com/), [**Single Directory Components (SDC)**](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components) with [**Drupal `~10.1.0`**](https://www.drupal.org/project/drupal/releases/10.1.0-alpha1), and [**UI Patterns**](https://www.drupal.org/project/ui\_patterns) **`2.0.x-dev`**.
 
-Having [**Varbase Components**](https://www.drupal.org/project/varbase\_components) to provides component management system for Varbase and **Vartheme BS5**.
+[**Varbase Components**](https://www.drupal.org/project/varbase\_components) provides component management system for **Varbase** and **Vartheme BS5**.
 
-Customizing for a project? keep using the **Vartheme BS5** base theme by:
+Customizing for a project? keep generate a clone of the **Vartheme BS5 starterkit** theme by:
 
 {% content-ref url="creating-your-own-theme.md" %}
 [creating-your-own-theme.md](creating-your-own-theme.md)
@@ -18,7 +18,7 @@ A generated cloned theme could be generated automatically to start with. Install
 
 This way a guaranteed full integration between **Varbase Components** and **Varbase Themes**.
 
-## Varbase Components and SMACSS
+## Varbase Components module, SDC and SMACSS
 
 All **Varbase** components organize CSS files under libraries with full use of [SMACSS](http://smacss.com/book/) in mind.
 
@@ -32,7 +32,7 @@ All **Varbase** components organize CSS files under libraries with full use of [
 Inspected for **Varbase Components** with basic or no styling to look better when **Vartheme BS5** or a generated clone theme of it was the default theme for the site.
 {% endhint %}
 
-## Vartheme BS5 theme and SMACSS
+## Vartheme BS5 starterkit theme, SDC and SMACSS
 
 **Vartheme BS5** too organize CSS files under libraries with full use of [SMACSS](http://smacss.com/book/) in mind.
 
