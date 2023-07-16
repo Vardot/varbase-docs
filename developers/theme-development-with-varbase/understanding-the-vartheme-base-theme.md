@@ -1,4 +1,4 @@
-# Understanding The Vartheme Base Theme
+# Understanding The Vartheme Starterkit Theme
 
 ## Vartheme BS5: Varbase Theme (Bootstrap 5 - SASS)
 
@@ -85,9 +85,9 @@ Build fast, responsive sites with Bootstrap.
 Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
 
 {% hint style="info" %}
-Browse the list of all **Bootstrap 5** components
+Browse the list of all **Bootstrap \~5.3.0** components
 
-[https://getbootstrap.com/docs/5.1/components](https://getbootstrap.com/docs/5.1/components)
+[https://getbootstrap.com/docs/5.3/components](https://getbootstrap.com/docs/5.3/components)
 {% endhint %}
 
 
