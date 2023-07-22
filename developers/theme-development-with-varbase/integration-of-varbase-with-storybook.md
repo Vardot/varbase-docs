@@ -149,7 +149,9 @@ In the `` main.js` `` file:\
 
 <figure><img src="../../.gitbook/assets/Varbase-Components-Atoms-Progress-Bar-Progress-Bar-⋅-Storybook--dark.png" alt=""><figcaption><p><strong>Varbase Components</strong> in <strong>Storybook</strong> with <strong>Bootstrap 5.3.0</strong> <code>"dark"</code> theme color mode</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Varbase-Components-Organisms-Featured-Card-Featured-Card-⋅-Storybook.png" alt=""><figcaption><p>Example Featured Card SDC Component and UI Pattern as a Story </p></figcaption></figure>
+
+
+<figure><img src="../../.gitbook/assets/Varbase-Components-Organisms-Impressed-Card-Impressed-Card-⋅-Storybook.png" alt=""><figcaption><p>Example <strong>Impressed</strong> <strong>Card SDC Component</strong> and <strong>UI Pattern</strong> as a Story in <strong>Varbase Storybook</strong></p></figcaption></figure>
 
 ## Related Integration Issues
 
