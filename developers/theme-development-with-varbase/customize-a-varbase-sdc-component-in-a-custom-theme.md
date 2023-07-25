@@ -62,6 +62,61 @@ These steps will allow you to incorporate your custom style for the **Alert comp
 * Add more SCSS/CSS files
 * Change the custom component twig template
 
+
+
+## Defining Schemas for SDC Component Metadata
+
+Following with [**Draft 4**](http://json-schema.org/draft-04/schema) of **JSON Schema,** which is a declarative language that allows you to **annotate** and **validate** JSON documents.
+
+This draft version was integrated with `yaml` in SDC Components in Drupal core, which used by all front-end component and web components.
+
+{% hint style="success" %}
+* **Required in modules**
+* **Optional in themes** (file presence needed)
+{% endhint %}
+
+{% hint style="info" %}
+Add the Schema Metadata
+
+```php
+$schema: https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json
+```
+
+In all SDC components in **Varbase Components** or custom **`myproject_components`** module.
+
+To follow with **metadata.schema.json** selected by Drupal Core team [https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json](https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json)
+{% endhint %}
+
+Following with [**Draft 4**](http://json-schema.org/draft-04/schema) of&#x20;
+
+{% hint style="success" %}
+The [**IDE**](#user-content-fn-1)[^1] will read the schema file to understand the syntax for fixes and enable autocomplete.
+{% endhint %}
+
+### Drafts of JSON Schema
+
+{% embed url="https://json-schema.org" %}
+JSON Schema Enables the Confident and Reliable use of the JSON Data Format
+{% endembed %}
+
+{% hint style="info" %}
+Front End frameworks are using a selected draft to create their custom schema metadata for components.
+
+[http://json-schema.org/draft-01/schema#](http://json-schema.org/draft-01/schema)\
+[http://json-schema.org/draft-02/schema#](http://json-schema.org/draft-02/schema)\
+[http://json-schema.org/draft-03/schema#](http://json-schema.org/draft-03/schema)\
+[http://json-schema.org/draft-04/schema#](http://json-schema.org/draft-04/schema) **( Drupal Core SDC Component is using this )**\
+[http://json-schema.org/draft-05/schema#](http://json-schema.org/draft-05/schema)\
+[http://json-schema.org/draft-06/schema#](http://json-schema.org/draft-06/schema)\
+[http://json-schema.org/draft-07/schema#](http://json-schema.org/draft-07/schema)
+{% endhint %}
+
+[Storybook JSON Schema Addon](https://storybook.js.org/addons/@kickstartds/storybook-addon-jsonschema/) to integrate with that
+
+{% content-ref url="integration-of-varbase-with-storybook.md" %}
+[integration-of-varbase-with-storybook.md](integration-of-varbase-with-storybook.md)
+{% endcontent-ref %}
+
 ## More Info and FAQ about SDC
 
 {% hint style="info" %}
@@ -129,4 +184,8 @@ These steps will allow you to incorporate your custom style for the **Alert comp
 
 
 
+
+
+
+[^1]: Integrated Development Environment
 
