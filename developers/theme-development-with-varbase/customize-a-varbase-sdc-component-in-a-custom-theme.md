@@ -100,13 +100,13 @@ JSON Schema Enables the Confident and Reliable use of the JSON Data Format
 {% hint style="info" %}
 Front End frameworks are using a selected draft to create their custom schema metadata for components.
 
-[http://json-schema.org/draft-01/schema#](http://json-schema.org/draft-01/schema)\
-[http://json-schema.org/draft-02/schema#](http://json-schema.org/draft-02/schema)\
-[http://json-schema.org/draft-03/schema#](http://json-schema.org/draft-03/schema)\
-[http://json-schema.org/draft-04/schema#](http://json-schema.org/draft-04/schema) **( Drupal Core SDC Component is using this )**\
-[http://json-schema.org/draft-05/schema#](http://json-schema.org/draft-05/schema)\
-[http://json-schema.org/draft-06/schema#](http://json-schema.org/draft-06/schema)\
-[http://json-schema.org/draft-07/schema#](http://json-schema.org/draft-07/schema)
+`http://json-schema.org/draft-01/schema#`\
+`http://json-schema.org/draft-02/schema#`\
+`http://json-schema.org/draft-03/schema#`\
+`http://json-schema.org/draft-04/schema#` **( Used by Drupal  core SDC module)**\
+`http://json-schema.org/draft-05/schema#`\
+`http://json-schema.org/draft-06/schema#`\
+`http://json-schema.org/draft-07/schema#`
 {% endhint %}
 
 [Storybook JSON Schema Addon](https://storybook.js.org/addons/@kickstartds/storybook-addon-jsonschema/) to integrate with that
