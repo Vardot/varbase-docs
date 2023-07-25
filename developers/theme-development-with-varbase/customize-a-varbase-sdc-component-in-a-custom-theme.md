@@ -68,7 +68,7 @@ These steps will allow you to incorporate your custom style for the **Alert comp
 
 Following with [**Draft 4**](http://json-schema.org/draft-04/schema) of **JSON Schema,** which is a declarative language that allows you to **annotate** and **validate** JSON documents.
 
-This draft version was integrated with `yaml` in SDC Components in Drupal core, which used by all front-end component and web components.
+The draft has been seamlessly integrated with YAML in SDC Components within the Drupal core. This integration now serves as the backbone for all front-end and web components, providing a unified and efficient system.
 
 {% hint style="success" %}
 * **Required in modules**
@@ -86,8 +86,6 @@ In all SDC components in **Varbase Components** or custom **`myproject_component
 
 To follow with **metadata.schema.json** selected by Drupal Core team [https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json](https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json)
 {% endhint %}
-
-Following with [**Draft 4**](http://json-schema.org/draft-04/schema) of&#x20;
 
 {% hint style="success" %}
 The [**IDE**](#user-content-fn-1)[^1] will read the schema file to understand the syntax for fixes and enable autocomplete.
