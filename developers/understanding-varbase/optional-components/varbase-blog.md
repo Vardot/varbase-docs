@@ -4,6 +4,10 @@ Provides Blog post content type and related configuration.
 
 Use Blog to publish a blog post by different authors in the Blog section of the site.
 
+{% hint style="success" %}
+[**Varbase Blog**](https://www.drupal.org/project/varbase\_blog) serves as an exemplary model for understanding how to effectively manage various elements such as **Content types**, **View modes**, **Layout Libraries**, **Views**, **site section pages**, **categories**, and **tags** using the comprehensive range of _**`"assembled"`**_ [**Varbase Components**](https://www.drupal.org/project/varbase\_components), **modules**, and _**`"Starterkit/Recipes"`**_ configs.
+{% endhint %}
+
 ## Varbase Blog Module
 
 {% hint style="info" %}

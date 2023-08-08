@@ -115,6 +115,89 @@ Front End frameworks are using a selected draft to create their custom schema me
 [integration-of-varbase-with-storybook.md](integration-of-varbase-with-storybook.md)
 {% endcontent-ref %}
 
+
+
+## Options to custom
+
+* Clone the custom card component, which is targeted for a selected content type, and have the custom changes for with styles(`css`) and scripts(`js`), or even with custom props and slots.
+* Switch to use the `starterkit/recipes` for the provided **Varbase Cards** from **Varbase Components** directly from the display mode for an entity.
+* Clone the **Varbase Card** component and customize it in a custom theme
+
+## **Proof of Concept: Custom Varbase Blog Card Components**
+
+{% hint style="info" %}
+While **Varbase Blog** will retain the use of the standard **Varbase Card Components**, This is an proof of concept example with a selection of custom components.&#x20;
+{% endhint %}
+
+{% hint style="success" %}
+[**Varbase Blog**](https://www.drupal.org/project/varbase\_blog) serves as an exemplary model for understanding how to effectively manage various elements such as **Content types**, **View modes**, **Layout Libraries**, **Views**, **site section pages**, **categories**, and **tags** using the comprehensive range of _**`"assembled"`**_ [**Varbase Components**](https://www.drupal.org/project/varbase\_components), **modules**, and _**`"Starterkit/Recipes"`**_ configs.
+{% endhint %}
+
+### Offering an Example Avenue
+
+Explore customizing card components for specific content types. Our present example revolves around the **Varbase Blog** content type.
+
+> * [varbase-blog-card-impressed-medium.zip](https://www.drupal.org/files/issues/2023-08-02/varbase-blog-card-impressed-medium.zip)
+> * [varbase-blog-card-featured-small.zip](https://www.drupal.org/files/issues/2023-08-02/varbase-blog-card-featured-small.zip)
+> * [varbase-blog-card-featured-xsmall.zip](https://www.drupal.org/files/issues/2023-08-02/varbase-blog-card-featured-xsmall.zip)
+> * [varbase-blog-card-text-small.zip](https://www.drupal.org/files/issues/2023-08-02/varbase-blog-card-text-small.zip)
+
+{% hint style="success" %}
+You're welcome to download the components and tailor them according to your chosen view mode and content type's requirements.
+{% endhint %}
+
+Make the transition from the `inline CSS class placement` method for **UI patterns** to using custom **Card components**. Additionally, enhance organization and readability by integrating **Custom Cards** as stories within **Varbase Storybook**.
+
+### **Example:** Use the **General Cards/Teasers**
+
+&#x20;view modes for your site, and if necessary, you can utilize or clone the **Varbase Cards** `Starterkit/Recipe`.
+
+* Incorporate custom Card components when working with specific Content types like the Varbase Blog
+* This approach streamlines the development workflow, enabling smooth collaboration between Design, Storybook, Front-End development with SDC components and stories, and the mapping process in the theme. The Back-end team can also effortlessly integrate components into the site structure.
+* The **Site builder** gains the flexibility to associate **SDC** components with both **UI Pattern** and **SDC Display**, ensuring a cohesive and efficient implementation.
+
+### Field mapping with Components
+
+Can be managed in number of approaches
+
+**Example first approach:** Use the [**SDC Display**](https://www.drupal.org/project/sdc\_display) module. Select a component for a field display from the UI, and map values to props and slots.\
+**Example second approach:** Create a `card-text-body-field` component and use the component with the twig template in **Vartheme BS5** suggestion for the field body.
+
+> ( Building the list of components for fields can be now in projects or products ) Then later SDC Display can map them from the UI.
+
+## **Example:** Impressed Card as a View Mode for a Content Type
+
+> **Example:** Impressed Card with **`style size`** of `medium`, **`card border`**, **`Equal height`**, **`Anchoring all`** the card, **`media position`** to the `top`, and passing an extra **Bootstrap \~5.3.0** **`utility classes`** for `light background` and `large shadow` over the used card
+>
+> The component files are in ( [varbase-blog-card-impressed-medium.zip](https://www.drupal.org/files/issues/2023-08-02/varbase-blog-card-impressed-medium.zip) )
+>
+> Which only has the following in  `varbase-blog-card-impressed-medium.twig` file:
+>
+> ```php
+> {% include 'varbase_components:card-impressed' with {
+>   style_size: 'medium',
+>   card_border: true,
+>   equal_height: true,
+>   anchor_all: true,
+>   media_position: 'top',
+>   utility_classes: ['bg-light', 'shadow-lg'],
+>   media_utility_classes: [],
+>   content_utility_classes: [],
+>   media: media,
+>   content: content,
+> } only %}
+> ```
+
+<figure><img src="../../.gitbook/assets/Blog-varbase10c1storybook--Varbase-Blog--Impressed-Card--medium.png" alt=""><figcaption><p>View of the Impressed Card size of medium with custom in Varbase ~10.0.0</p></figcaption></figure>
+
+The equivalent in Storybook using the custom Varbase Impressed Card -medium
+
+<figure><img src="../../.gitbook/assets/Varbase-Components-Organisms-Varbase-Blog-Cards-Varbase-Blog-Impressed-Card-medium-Varbase-Blog-Impressed-Card-medium-⋅-Storybook.png" alt=""><figcaption><p>View of the Impressed Card size of medium with custom in Varbase Storybook</p></figcaption></figure>
+
+Which is the equivalent of using the default **`Impressed Card - medium - with Read more`** story with the default standard Impressed Card in the storybook - but without the light background and no shadows.
+
+<figure><img src="../../.gitbook/assets/Varbase-Components-Organisms-Impressed-Card-Impressed-Card-medium-with-Read-more-⋅-Storybook.png" alt=""><figcaption><p>Impressed Card - medium - with Read more</p></figcaption></figure>
+
 ## More Info and FAQ about SDC
 
 {% hint style="info" %}
@@ -155,6 +238,8 @@ Front End frameworks are using a selected draft to create their custom schema me
 `Component Libraries: Components Examples`
 {% endhint %}
 
+Have a look at the code and `README.md` for list of `props`, `slots`, and example how to use.&#x20;
+
 {% hint style="info" %}
 ### [**Varbase Components**](https://github.com/Vardot/varbase\_components/tree/2.0.x/components) **module**
 
@@ -178,81 +263,6 @@ Front End frameworks are using a selected draft to create their custom schema me
 
 **Varbase Components :** [Text Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-text)
 {% endhint %}
-
-## Options to custom
-
-* Clone the custom card component, which is targeted for a selected content type, and have the custom changes for with styles(`css`) and scripts(`js`), or even with custom props and slots.
-* Switch to use the `starterkit/recipes` for the provided **Varbase Cards** from **Varbase Components** directly from the display mode for an entity.
-* Clone the **Varbase Card** component and customize it in a custom theme
-
-## **Proof of Concept: Custom Varbase Blog Card Components**
-
-{% hint style="info" %}
-While **Varbase Blog** will retain the use of the standard **Varbase Card Components**, This is an proof of concept example with a selection of custom components.&#x20;
-{% endhint %}
-
-This offers an avenue to customize card components for specific content types. Our present example revolves around the **Varbase Blog** content type.
-
-> * [varbase-blog-card-impressed-medium.zip](https://www.drupal.org/files/issues/2023-08-02/varbase-blog-card-impressed-medium.zip)
-> * [varbase-blog-card-featured-small.zip](https://www.drupal.org/files/issues/2023-08-02/varbase-blog-card-featured-small.zip)
-> * [varbase-blog-card-featured-xsmall.zip](https://www.drupal.org/files/issues/2023-08-02/varbase-blog-card-featured-xsmall.zip)
-> * [varbase-blog-card-text-small.zip](https://www.drupal.org/files/issues/2023-08-02/varbase-blog-card-text-small.zip)
-
-{% hint style="success" %}
-You're welcome to download the component and tailor it according to your chosen view mode and content type's requirements.
-{% endhint %}
-
-Make the transition from the `inline CSS class placement` method for **UI patterns** to using custom **Card components**. Additionally, enhance organization and readability by integrating **Varbase Blog Cards** as stories within **Varbase Storybook**.
-
-**Example:** Use the **General Cards/Teasers** view modes for your site, and if necessary, you can utilize or clone the **Varbase Cards** `Starterkit/Recipe`.
-
-* Incorporate custom Card components when working with specific Content types like the Varbase Blog
-* This approach streamlines the development workflow, enabling smooth collaboration between Design, Storybook, Front-End development with SDC components and stories, and the mapping process in the theme. The Back-end team can also effortlessly integrate components into the site structure.
-* The **Site builder** gains the flexibility to associate **SDC** components with both **UI Pattern** and **SDC Display**, ensuring a cohesive and efficient implementation.
-
-Field mapping with components can be managed\
-**Example:** Create a `card-text-body-field` component and use the component with the twig template in Vartheme BS5 suggestion for the field body.
-
-> ( Building the list of components for fields can be now in projects or products ) Then later SDC Display can map them from the UI.
-
-## **Example:** Impressed Card as a View Mode for a Content Type
-
-> **Example:** Impressed Card with **`style size`** of `medium`, **`card border`**, **`Equal height`**, **`Anchoring all`** the card, **`media position`** to the `top`, and passing an extra **Bootstrap \~5.3.0** **`utility classes`** for `light background` and `large shadow` over the used card
->
-> The component files are in ( [varbase-blog-card-impressed-medium.zip](https://www.drupal.org/files/issues/2023-08-02/varbase-blog-card-impressed-medium.zip) )
->
-> Which only has the following in  `varbase-blog-card-impressed-medium.twig` file:
->
-> ```php
-> {% include 'varbase_components:card-impressed' with {
->   style_size: 'medium',
->   card_border: true,
->   equal_height: true,
->   anchor_all: true,
->   media_position: 'top',
->   utility_classes: ['bg-light', 'shadow-lg'],
->   media_utility_classes: [],
->   content_utility_classes: [],
->   media: media,
->   content: content,
-> } only %}
-> ```
-
-<figure><img src="../../.gitbook/assets/Blog-varbase10c1storybook--Varbase-Blog--Impressed-Card--medium.png" alt=""><figcaption><p>View of the Impressed Card size of medium with custom in Varbase ~10.0.0</p></figcaption></figure>
-
-The equivalent in Storybook using the custom Varbase Impressed Card -medium
-
-<figure><img src="../../.gitbook/assets/Varbase-Components-Organisms-Varbase-Blog-Cards-Varbase-Blog-Impressed-Card-medium-Varbase-Blog-Impressed-Card-medium-⋅-Storybook.png" alt=""><figcaption><p>View of the Impressed Card size of medium with custom in Varbase Storybook</p></figcaption></figure>
-
-Which is the equivalent of using the default **`Impressed Card - medium - with Read more`** story with the default standard Impressed Card in the storybook - but without the light background and no shadows.
-
-<figure><img src="../../.gitbook/assets/Varbase-Components-Organisms-Impressed-Card-Impressed-Card-medium-with-Read-more-⋅-Storybook.png" alt=""><figcaption><p>Impressed Card - medium - with Read more</p></figcaption></figure>
-
-##
-
-
-
-
 
 [^1]: Integrated Development Environment
 
