@@ -243,26 +243,20 @@ Have a look at the code and `README.md` for list of `props`, `slots`, and exampl
 {% hint style="info" %}
 ### [**Varbase Components**](https://github.com/Vardot/varbase\_components/tree/2.0.x/components) **module**
 
-**Varbase Components :** [Button](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/atoms/button) , [Close Button](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/atoms/close-button)
+***
 
-**Varbase Components :** [Badge](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/atoms/badge)
-
-**Varbase Components :** [Alert](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/molecules/alert)
-
-**Varbase Components :** [Progress Bar](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/atoms/progress-bar)
+* [Featured Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-featured)
+* [Impressed Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-impressed)
+* [Overlay Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-overlay)
+* [Hero Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-hero)
+* [Text Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-text)
 
 ***
 
-**Varbase Components :** [Featured Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-featured)
-
-**Varbase Components :** [Impressed Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-impressed)
-
-**Varbase Components :** [Overlay Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-overlay)
-
-**Varbase Components :** [Hero Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-hero)
-
-**Varbase Components :** [Text Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-text)
+[Button](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/atoms/button) , [Close Button](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/atoms/close-button), [Badge](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/atoms/badge), [Alert](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/molecules/alert), [Progress Bar](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/atoms/progress-bar) ...
 {% endhint %}
+
+
 
 [^1]: Integrated Development Environment
 
