@@ -2,6 +2,10 @@
 
 **Varbase** has been integrated with [**Storybook**](https://storybook.js.org/) to provide a listing of stories for [**Single Directory Components (SDC)**](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components) components. This integration allows for easier development and testing of [**Varbase Components**](https://www.drupal.org/project/varbase\_components).
 
+{% hint style="info" %}
+#### Not for production!!, only for development or staging.
+{% endhint %}
+
 ## Steps to Set up a Working Storybook for Varbase
 
 * Enable the **`cl_server`** module on the site either through the site's interface or by running the command `./bin/drush en cl_server` with Drush. Note that the CL Server module should not be kept running on a production site.
@@ -94,9 +98,26 @@ Please see the [@lullabot/storybook-drupal-addon](https://www.github.com/lullabo
 * Change `varbase.local` in the **`package.json`** file to the appropriate local or development domain name.
 * Replace `http://varbase.local` in the **`preview.js`** file with the base URL of your project or an environment variable representing the local or development domain.
 * Open a command terminal window and navigate to your project's directory.
-* Run the command **`yarn install`** in the terminal to install the necessary dependencies.
-* Run the command **`yarn storybook`** to build the **Storybook**.
+* Run the **`yarn install`** command in the terminal to install the necessary dependencies.
+* Run the **`yarn storybook:dev`** command to start the development site for the **Storybook**.
 * The default browser will open, displaying the list of Default Varbase Components in the Storybook.
+
+### Storybook Build
+
+Building the storybook ones for the project, only for demos, staging, or hosted  development, when the other ports are not allowed.
+
+Run the **`yarn storybook:build`** command to build the story, in the local or in at the dev, test, staging, or demo server.
+
+{% hint style="danger" %}
+#### Not for production!!, only for development or staging.
+{% endhint %}
+
+A domain name could point at the storybook folder.
+
+**Example:**
+
+1. An example development, staging or demo  `my-staging-varbase-site.com` domain name can point at the  `docroot` directory, which will bootstrap from **Varbase**
+2. A sub domain `storybook.my-staging-varbase-site.com` domain name can point at the `storybook` directory, which will load the **Varbase Storybook**, and the **Component Library Server** will have requests from the `my-staging-varbase-site.com`
 
 ## Customizing Varbase Storybook for a Project:
 
