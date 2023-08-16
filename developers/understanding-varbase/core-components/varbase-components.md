@@ -43,3 +43,13 @@ Brings in the following core and contributed modules to your site:
 | [**UI Patterns Library**](https://www.drupal.org/project/ui\_patterns)                        | Exposed patterns in you modules and themes and display them in a pattern library page.                                          |
 | [**UI Patterns Settings**](https://www.drupal.org/project/ui\_patterns\_settings)             | Configure patterns with settings.                                                                                               |
 | [**UI Patterns Views**](https://www.drupal.org/project/ui\_patterns)                          | Use patterns as Views templates.                                                                                                |
+
+
+
+{% content-ref url="../../theme-development-with-varbase/integration-of-varbase-with-storybook.md" %}
+[integration-of-varbase-with-storybook.md](../../theme-development-with-varbase/integration-of-varbase-with-storybook.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../theme-development-with-varbase/customize-a-varbase-sdc-component-in-a-custom-theme.md" %}
+[customize-a-varbase-sdc-component-in-a-custom-theme.md](../../theme-development-with-varbase/customize-a-varbase-sdc-component-in-a-custom-theme.md)
+{% endcontent-ref %}
