@@ -8,8 +8,8 @@
 [creating-your-own-theme.md](creating-your-own-theme.md)
 {% endcontent-ref %}
 
-{% content-ref url="customize-a-varbase-sdc-component-in-a-custom-theme.md" %}
-[customize-a-varbase-sdc-component-in-a-custom-theme.md](customize-a-varbase-sdc-component-in-a-custom-theme.md)
+{% content-ref url="customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md" %}
+[customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md](customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md)
 {% endcontent-ref %}
 
 {% content-ref url="local-tasks-and-moderation-sidebar.md" %}

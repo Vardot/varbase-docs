@@ -1,6 +1,6 @@
-# Customize a Varbase SDC Component In a Custom Theme
+# Customize a Varbase Single Directory Components (SDC) In a Custom Theme
 
-The **Single Directory Components (SDC)** folder contains various components. To enhance the default components, Projects are using the components provided by [**Varbase Components**](https://www.drupal.org/project/varbase\_components) module.
+The components folder contains various **Single Directory Components (SDC)**. To enhance the default components, Projects are using the components provided by [**Varbase Components**](https://www.drupal.org/project/varbase\_components) module.
 
 To replace any component from the **Varbase Components** module, follow the example below:
 

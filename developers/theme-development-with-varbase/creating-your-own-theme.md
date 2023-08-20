@@ -119,8 +119,8 @@ The `components:build` script alias will trigger the execution of `webpack --pro
 
 Have a look at the following link for more info:
 
-{% content-ref url="customize-a-varbase-sdc-component-in-a-custom-theme.md" %}
-[customize-a-varbase-sdc-component-in-a-custom-theme.md](customize-a-varbase-sdc-component-in-a-custom-theme.md)
+{% content-ref url="customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md" %}
+[customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md](customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md)
 {% endcontent-ref %}
 
 ### Compile Custom Theme Styling Only

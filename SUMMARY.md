@@ -95,7 +95,7 @@
   * [Theme Development with Varbase](developers/theme-development-with-varbase/README.md)
     * [Understanding The Vartheme Starterkit Theme](developers/theme-development-with-varbase/understanding-the-vartheme-base-theme.md)
     * [Creating Your Own Theme](developers/theme-development-with-varbase/creating-your-own-theme.md)
-    * [Customize a Varbase SDC Component In a Custom Theme](developers/theme-development-with-varbase/customize-a-varbase-sdc-component-in-a-custom-theme.md)
+    * [Customize a Varbase Single Directory Components (SDC) In a Custom Theme](developers/theme-development-with-varbase/customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md)
     * [Local Tasks and Moderation Sidebar](developers/theme-development-with-varbase/local-tasks-and-moderation-sidebar.md)
     * [Add Preloaded Fonts in Vartheme](developers/theme-development-with-varbase/add-preloaded-fonts-in-vartheme.md)
     * [Command to Install Needed Theming Tools](developers/theme-development-with-varbase/command-to-install-needed-theming-tools.md)

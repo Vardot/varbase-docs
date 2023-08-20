@@ -50,6 +50,6 @@ Brings in the following core and contributed modules to your site:
 [integration-of-varbase-with-storybook.md](../../theme-development-with-varbase/integration-of-varbase-with-storybook.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../theme-development-with-varbase/customize-a-varbase-sdc-component-in-a-custom-theme.md" %}
-[customize-a-varbase-sdc-component-in-a-custom-theme.md](../../theme-development-with-varbase/customize-a-varbase-sdc-component-in-a-custom-theme.md)
+{% content-ref url="../../theme-development-with-varbase/customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md" %}
+[customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md](../../theme-development-with-varbase/customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md)
 {% endcontent-ref %}
