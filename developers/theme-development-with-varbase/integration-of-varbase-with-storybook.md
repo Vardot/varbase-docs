@@ -129,8 +129,12 @@ To showcase a custom cloned generated theme, uncomment and modify the following 
 
 ### **Show Custom Vartheme BS5's Components**
 
-To include components from **Vartheme BS5 Starterkit**, uncomment and modify the following line in the `.storybook/main.js` file:\
-`"../docroot/themes/contrib/vartheme_ba5/components/**/*.stories.@(json|yml)",`
+To include components from **Vartheme BS5 Starterkit**, uncomment and modify the following line in the `.storybook/main.js` file:
+
+```
+"../docroot/themes/contrib/vartheme_ba5/components/**/*.mdx",
+"../docroot/themes/contrib/vartheme_ba5/components/**/*.stories.@(json|yml)",
+```
 
 ### Show Custom Theme**'s Components**
 
@@ -142,7 +146,10 @@ In case of having a custom theme for a project by
 
 To include components from a custom cloned generated theme, uncomment and modify the following line in the `.storybook/main.js` file:
 
-`"../docroot/themes/custom/mytheme/components/**/*.stories.@(json|yml)",`&#x20;
+```
+"../docroot/themes/custom/mytheme/components/**/*.mdx",
+"../docroot/themes/custom/mytheme/components/**/*.stories.@(json|yml)",
+```
 
 {% hint style="warning" %}
 Please ensure that the path to the custom theme is correct. It should be located either in `"../docroot/themes"` or `"../docroot/themes/custom"`&#x20;
@@ -152,18 +159,20 @@ Please ensure that the path to the custom theme is correct. It should be located
 
 To include components from a custom module, uncomment and modify the following line in the `.storybook/main.js` file:
 
-`"../docroot/modules/custom/my_custom_module/components/**/*.stories.@(json|yml)",`&#x20;
+```
+"../docroot/modules/custom/my_custom_module/components/**/*.mdx",
+"../docroot/modules/custom/my_custom_module/components/**/*.stories.@(json|yml)",
+```
 
-## More Information About Bootstrap 5.3.0 Theme Color Modes
+## More Information About Bootstrap \~5.3.0 Theme Color Modes
 
 {% hint style="info" %}
 In the `` main.js` `` file:\
 
 
 * Add the attribute `data-bs-theme='dark'` to the body tag of the inner iframe in the canvas only when necessary. The default value is `data-bs-theme='light'`.
-* Bootstrap now supports color modes, or themes, starting from version **5.3.0.** You can explore the default light color mode and the new dark mode, or create your own theme using Bootstrap's styles as a template.\
+* Bootstrap now supports color modes, or themes, starting from version **\~5.3.0.** You can explore the default light color mode and the new dark mode, or create your own theme using Bootstrap's styles as a template.\
   [https://getbootstrap.com/docs/5.3/customize/color-modes/](https://getbootstrap.com/docs/5.3/customize/color-modes/)
-*
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/Varbase-Components-Atoms-Progress-Bar-Progress-Bar-⋅-Storybook--light.png" alt=""><figcaption><p><strong>Varbase Components</strong> in <strong>Storybook</strong> with <strong>Bootstrap 5.3.0</strong> <code>"light"</code> theme color mode</p></figcaption></figure>
