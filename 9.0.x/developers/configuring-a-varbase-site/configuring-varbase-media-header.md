@@ -20,7 +20,9 @@ Site builders can activate that for content types.
 
 * Landing on the _"/admin/config/varbase/varbase-media-header"_  admin link. A list of content types are listed with activated or not activated media header.
 
-![Varbase Media Header Settings Page](../../.gitbook/assets/Varbase-Media-Header-settings-page.png)
+
+
+<figure><img src="../../.gitbook/assets/Varbase-Media-Header-Settings-varbase9c1.png" alt=""><figcaption><p>Varbase Media Header Settings Page</p></figcaption></figure>
 
 * Select entity types which are going to use the varbase media header. To enable varbase media header for these selected entity types and bundles.
 * Press the **Save Configuration** submit button to activate new configs for the selected content types.
@@ -63,7 +65,9 @@ For sure more custom page header styles could be added to the field. But that wi
 
 Activate the **Varbase Media Header** for the **Basic page** content type. By navigating to _**"/admin/config/varbase/varbase-media-header".**_ And checking the Basic page check box and press "Save configuration".
 
-![Checked Basic Page Content Type Under Varbase Media Header Settings](../../.gitbook/assets/Varbase-Media-Header-settings---exmaple-basic-page-1.png)
+
+
+<figure><img src="../../.gitbook/assets/Varbase-Media-Header-Settings-varbase9c1--Checked-Basic-Page-Content-Type-Under-Varbase-Media-Header-Settings.png" alt=""><figcaption><p>Checked Basic Page Content Type Under Varbase Media Header Settings</p></figcaption></figure>
 
 After saving the configuration the system will process the selected content types, and import new configs for them.
 
@@ -75,7 +79,9 @@ On the case of a successful activation the following message will show up&#x20;
 The configuration options have been saved.
 {% endhint %}
 
-![Status Message: The Configuration Options Have Been Saved](../../.gitbook/assets/Varbase-Media-Header-settings---exmaple-basic-page-2.png)
+###
+
+<figure><img src="../../.gitbook/assets/Varbase-Media-Header-Settings-varbase9c1--Status-Message--The-Configuration-Options-Have-Been-Saved.png" alt=""><figcaption><p>Status Message: The Configuration Options Have Been Saved</p></figcaption></figure>
 
 ### 2. Check Manage Fields For Basic Page Content Type
 
@@ -130,7 +136,7 @@ After saving the "Basic page _About Us_ has been created." and the page will loo
 * Navigate to **Structure** \ **Block layout** for your default theme
 * Click on the "Place Block" button for the "Content" region ( or any custom region the theme could have for a project ).
 
-![Place Block Next to Content Region for the Current Default Theme](../../.gitbook/assets/Varbase-Media-Header---place-block--content.png)
+<figure><img src="../../.gitbook/assets/Block-layout-varbase9c1--add-varbase-media-header.png" alt=""><figcaption><p>Place Block Next to Content Region for the Current Default Theme</p></figcaption></figure>
 
 * Select the Varbase Media Header block and click on the "Place block" button next to the name.
 
@@ -152,11 +158,15 @@ One will work. Varbase Media Header block handle all needed restrictions and acc
 
 After saving the block configs, the block will be placed in the content region, but not in the right order.
 
-![Initial Order for the Varbase Media Header Block](../../.gitbook/assets/Varbase-Media-Header---place-block--content2.png)
+
+
+<figure><img src="../../.gitbook/assets/Block-layout-varbase9c1--Initial-Order-for-the-Varbase-Media-Header-Block.png" alt=""><figcaption><p>Initial Order for the Varbase Media Header Block</p></figcaption></figure>
 
 At lest it should be re-ordered on top of  the "Main page content" block
 
-![Re-ordered the Location on Top of the Main Page Content](../../.gitbook/assets/Varbase-Media-Header---place-block--content3.png)
+
+
+<figure><img src="../../.gitbook/assets/Block-layout-varbase9c1--Re-ordered-the-Location-on-Top-of-the-Main-Page-Content.png" alt=""><figcaption><p>Re-ordered the Location on Top of the Main Page Content</p></figcaption></figure>
 
 * Save Blocks in the Block layout admin page
 
@@ -173,7 +183,76 @@ If the Main media field was removed on editing the page. But kept the "Media Hea
 
 ![Basic Page - Example With Media Header but no Media](../../.gitbook/assets/Varbase-Media-Header---about-us--no-media.png)
 
+## Activate Media Header For Taxonomy Terms
+
+## Example Blog Categories Teams With Media Header
+
+Activate the **Varbase Media Header** for the **Blog Categories** term. By navigating to _**"/admin/config/varbase/varbase-media-header".**_ And checking the Blog Categories check box under Taxonomy terms and press "Save configuration".
+
+
+
+<figure><img src="../../.gitbook/assets/Varbase-Media-Header-Settings-varbase9c1--terms.png" alt=""><figcaption><p>Checked Blog Categories Taxonomy Terms Under Varbase Media Header Settings</p></figcaption></figure>
+
+After saving the configuration the system will process the selected taxonomy terms, and import new configs for them.
+
+On the case of a successful activation the following message will show up&#x20;
+
+{% hint style="success" %}
+**Status Message:**
+
+The configuration options have been saved.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/Varbase-Media-Header-Settings-varbase9c1--terms--after--save-config.png" alt=""><figcaption><p>Status Message: The Configuration Options Have Been Saved</p></figcaption></figure>
+
+* Navigate to **Structure** \ **Block layout** for your default theme
+* Click on the "Place Block" button for the "Content" region ( or any custom region the theme could have for a project ).
+
+<figure><img src="../../.gitbook/assets/Block-layout-varbase9c1--add-varbase-media-header.png" alt=""><figcaption><p>Place Block Next to Content Region for the Current Default Theme</p></figcaption></figure>
+
+* Select the Varbase Media Header block and click on the "Place block" button next to the name.
+
+![Varbase Media Header - Place Block](../../.gitbook/assets/Varbase-Media-Header---place-block.png)
+
+* Un-check the "Display title" check box
+* Select "Main media" field name for the "Blog Categories" Taxonomy term. To use this field as the source for the media background for the header.
+* Select "Media Header" for the "Media view mode" config option to size the background media. media header is the default view mode. But it can be changed to any other custom media view mode.
+
+<figure><img src="../../.gitbook/assets/Block-layout-varbase9c1--Varbase-Media-Header-Place-Block-Configurations.png" alt=""><figcaption><p>Place Block Next to Content Region for the Current Default Theme</p></figcaption></figure>
+
+{% hint style="warning" %}
+Only Place one Varbase Media Header block. which will work for all activated taxonomy terms and content types.
+
+Having more than one will have a duplicate header and duplicate processing.
+
+One will work. Varbase Media Header block handle all needed restrictions and access process.
+{% endhint %}
+
+After saving the block configs, the block will be placed in the content region, but not in the right order.
+
+<figure><img src="../../.gitbook/assets/Block-layout-varbase9c1--Initial-Order-for-the-Varbase-Media-Header-Block.png" alt=""><figcaption><p>Initial Order for the Varbase Media Header Block</p></figcaption></figure>
+
+At lest it should be re-ordered on top of  the "Main page content" block
+
+
+
+<figure><img src="../../.gitbook/assets/Block-layout-varbase9c1--Re-ordered-the-Location-on-Top-of-the-Main-Page-Content.png" alt=""><figcaption><p>Re-ordered the Location on Top of the Main Page Content</p></figcaption></figure>
+
+* Save Blocks in the Block layout admin page
+* Create a new term "Sport" in the Blog Categories taxonomy
+
+<figure><img src="../../.gitbook/assets/Add-term-varbase9c1--media-header--sport-example.png" alt=""><figcaption><p>Add Media Header for Taxonomy Term</p></figcaption></figure>
+
+* Open the example "Sport" term page.
+
+<figure><img src="../../.gitbook/assets/Sport-varbase9c1--blog-category--with-varbase-media-header.png" alt=""><figcaption><p>Blog Category Sport Term with a Media Header</p></figcaption></figure>
+
+* Check if the text is visible on top the image.
+* Change the Image to fit needed term with images, or videos.
+
 ## Change The Default Height and Background Color
+
+* Check if the text is visible on top the image.
 
 Override the `varbase_media_header/media_header_styling` library in the custom default theme
 
@@ -223,7 +302,6 @@ $vmh-title-font-size-lg: 3.625rem;
 $vmh-breadcrumb-color: #fff;
 $vmh-breadcrumb-font-size: 0.75rem;
 $vmh-breadcrumb-font-size-lg: 0.875rem;
-
 ```
 
 After compiling **SCSS** files to **CSS** files and having the custom styling library.
@@ -234,22 +312,4 @@ Use the **`libraries-override`** method to replace the library in custom themes.
 libraries-override:
   varbase_media_header/media_header_styling: custom_theme/custom_header_styling
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
