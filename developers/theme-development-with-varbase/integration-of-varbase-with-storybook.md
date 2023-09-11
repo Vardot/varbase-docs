@@ -193,7 +193,7 @@ In the `` main.js` `` file:\
 
 ## Run Varbase Storybook in Platform.sh
 
-Having a working Storybook for development or staging, and storybook.
+Having a working Storybook for development, testing or staging.
 
 {% hint style="danger" %}
 **NOT** for production environments.
@@ -213,9 +213,7 @@ Select **Varbase** as the template, by default a **Varbase 10** will be built
 
 After creating the project and installing Varbase 10
 
-### Do the following changes in the development, testing, or staging branch:
-
-* Edit the **`applications.yaml`**  file in `.platform` folder
+### Edit the **`applications.yaml`**  File in the `.platform` Folder
 
 ```yaml
 # -------------------------------------------------------------
@@ -291,11 +289,7 @@ After creating the project and installing Varbase 10
 
 ```
 
-```yaml
-This will allow for a start of a storybook:http upstream
-```
-
-* Edit the **`routes.yaml`** file in `.platform` folder
+### Edit the **`routes.yaml`** File in the `.platform` Folder
 
 ```yaml
 # ---------------------------------------------------------------------------
@@ -340,7 +334,7 @@ if (!$platformsh->onProduction() || !$platformsh->onDedicated()) {
 
 Both files are in the  [**Vardot/platformsh-varbase**](https://github.com/Vardot/platformsh-varbase) project template.
 
-After committing and starting the development environment for the development branch
+After committing and starting the development environment for the development branch,
 
 The Storybook link will work as follow
 
