@@ -323,12 +323,10 @@ Edit the **`preview.js`** file in the **`.storybook`** folder
 Have the following in the `settings.platformsh.php` file
 
 ```php
-/*
- *   Use the 'development.local.services.yml' file for development or staging, and storybook.
- *        NOT for production environments.
- */
-if (!$platformsh->onProduction() || !$platformsh->onDedicated()) {
-  $settings['container_yamls'][] = $app_root . '/' . $site_path . '/development.local.services.yml';
+if (isset($platformsh->branch)) {
+  if (!$platformsh->onProduction() || !$platformsh->onDedicated()) {
+    $settings['container_yamls'][] = $app_root . '/' . $site_path . '/development.local.services.yml';
+  }
 }
 ```
 
