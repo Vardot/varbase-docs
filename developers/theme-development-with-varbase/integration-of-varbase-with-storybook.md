@@ -191,6 +191,163 @@ In the `` main.js` `` file:\
 
 <figure><img src="../../.gitbook/assets/Varbase-Components-Organisms-Impressed-Card-Impressed-Card-⋅-Storybook.png" alt=""><figcaption><p>Example <strong>Impressed</strong> <strong>Card SDC Component</strong> and <strong>UI Pattern</strong> as a Story in <strong>Varbase Storybook</strong></p></figcaption></figure>
 
+## Run Varbase Storybook in Platform.sh
+
+Having a working Storybook for development or staging, and storybook.
+
+{% hint style="danger" %}
+**NOT** for production environments.
+{% endhint %}
+
+### Select The Varbase Template as The Project Type
+
+Choose [**Vardot/platformsh-varbase**](https://github.com/Vardot/platformsh-varbase) from the pre-existing code base template to start a project with.
+
+<figure><img src="../../.gitbook/assets/Select-project-type-Platform-sh.png" alt=""><figcaption><p>Click on Use a Template</p></figcaption></figure>
+
+
+
+Select **Varbase** as the template, by default a **Varbase 10** will be built
+
+<figure><img src="../../.gitbook/assets/Select-your-template-Platform-sh--select-Varbase.png" alt=""><figcaption><p>Select Varbase as the Template</p></figcaption></figure>
+
+After creating the project and installing Varbase 10
+
+### Do the following changes in the development, testing, or staging branch:
+
+* Edit the **`applications.yaml`**  file in `.platform` folder
+
+```yaml
+# -------------------------------------------------------------
+#   Uncomment the following when start a storybook in development or staging
+#         NOT for production environments.
+#
+#    Follow with Integration of Varbase with Storybook
+#    https://docs.varbase.vardot.com/v/10.0.x/developers/theme-development-with-varbase/integration-of-varbase-with-storybook
+#
+#         This will allow for a start of a storybook:http upstream
+# -------------------------------------------------------------
+# -   name: storybook
+#     type: 'nodejs:18'
+#     source:
+#         root: "/"
+#     dependencies:
+#         php:
+#             "composer/composer": "~2.0"
+#         nodejs:
+#             npm: "^6.10"
+#             node: "^18.17"
+#             yarn: "^1.22"
+#     disk: 512
+#     build:
+#         flavor: none
+#     variables:
+#         env:
+#             NODE_OPTIONS: --max-old-space-size=4096
+#             STORYBOOK_CL_SERVER_DOMAIN: 'varbase.local'
+#     hooks:
+#         build: |
+#             set -e
+#             cd $PLATFORM_APP_DIR
+#             composer install --ignore-platform-reqs --no-scripts
+#             yarn install --frozen-lockfile
+#             yarn storybook:build
+#         post_deploy: |
+#             cd $PLATFORM_APP_DIR/.storybook/
+#             export STORYBOOK_CL_SERVER_DOMAIN=$(node setup-storybook.js)
+#             echo "STORYBOOK_CL_SERVER_DOMAIN: $STORYBOOK_CL_SERVER_DOMAIN"
+#     web:
+#         locations:
+#             '/':
+#                 root: 'storybook'
+#                 passthru: true
+#                 index: ["index.html"]
+#                 allow: true
+#                 headers:
+#                     Access-Control-Allow-Origin: "*"
+#                     Access-Control-Expose-Headers: "true"
+#                     Access-Control-Max-Age: "false"
+#                     Access-Control-Allow-Credentials: "true"
+#         commands:
+#             start: |
+#                 sleep infinity
+```
+
+```yaml
+# -------------------------------------------------------------
+#   Uncomment the following when start a storybook in development or staging
+#         NOT for production environments.
+#
+#    Follow with Integration of Varbase with Storybook
+#    https://docs.varbase.vardot.com/v/10.0.x/developers/theme-development-with-varbase/integration-of-varbase-with-storybook
+#
+#         This will allow for origin
+# -------------------------------------------------------------
+#    headers:
+#        Access-Control-Allow-Origin: "*"
+#        Access-Control-Expose-Headers: "true"
+#        Access-Control-Max-Age: "false"
+#        Access-Control-Allow-Credentials: "true"
+
+```
+
+```yaml
+This will allow for a start of a storybook:http upstream
+```
+
+* Edit the **`routes.yaml`** file in `.platform` folder
+
+```yaml
+# ---------------------------------------------------------------------------
+#   Uncomment the following when start a storybook in development or staging
+#         NOT for production environments.
+#
+#    Follow with Integration of Varbase with Storybook
+#    https://docs.varbase.vardot.com/v/10.0.x/developers/theme-development-with-varbase/integration-of-varbase-with-storybook
+#
+#         This will allow for a storybook sub domain to point
+#         at the storybook:http upstream
+# ---------------------------------------------------------------------------
+# "https://storybook.{default}":
+#     type: upstream
+#     upstream: "storybook:http"
+```
+
+### Replace Site URL with an Environment URL
+
+Edit the **`preview.js`** file in the **`.storybook`** folder
+
+```json
+    server: {
+      // Replace this with your Drupal site URL, or an environment variable.
+      url: process.env.STORYBOOK_CL_SERVER_DOMAIN,
+    },
+```
+
+### Use 'development.local.services.yml' File
+
+Have the following in the `settings.platformsh.php` file
+
+```php
+/*
+ *   Use the 'development.local.services.yml' file for development or staging, and storybook.
+ *        NOT for production environments.
+ */
+if (!$platformsh->onProduction() || !$platformsh->onDedicated()) {
+  $settings['container_yamls'][] = $app_root . '/' . $site_path . '/development.local.services.yml';
+}
+```
+
+Both files are in the  [**Vardot/platformsh-varbase**](https://github.com/Vardot/platformsh-varbase) project template.
+
+After committing and starting the development environment for the development branch
+
+The Storybook link will work as follow
+
+```yaml
+https://storybook.{default}
+```
+
 ## Related Integration Issues
 
 * [Integrate Varbase Project with Storybook using Component Libraries: Theme Server for Varbase Components and Vartheme BS5 with and Bootstrap 5.3.0 #182](https://github.com/Vardot/varbase-project/issues/182)
