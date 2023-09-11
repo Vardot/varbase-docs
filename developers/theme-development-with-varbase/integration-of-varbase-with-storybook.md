@@ -191,7 +191,7 @@ In the `` main.js` `` file:\
 
 <figure><img src="../../.gitbook/assets/Varbase-Components-Organisms-Impressed-Card-Impressed-Card-⋅-Storybook.png" alt=""><figcaption><p>Example <strong>Impressed</strong> <strong>Card SDC Component</strong> and <strong>UI Pattern</strong> as a Story in <strong>Varbase Storybook</strong></p></figcaption></figure>
 
-## Run Varbase Storybook in Platform.sh
+## Run Varbase Storybook in Platformsh
 
 Having a working Storybook for development, testing or staging.
 
