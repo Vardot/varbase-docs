@@ -8,6 +8,10 @@
 
 More [Drush releases](https://github.com/drush-ops/drush/releases) followed after that date.
 
+{% hint style="info" %}
+#### [Drush 11 support will end in November 2023](https://www.drush.org/12.x/install/#drupal-compatibility)
+{% endhint %}
+
 Many options to change to
 
 1. `"drush/drush": "~12.0",`
