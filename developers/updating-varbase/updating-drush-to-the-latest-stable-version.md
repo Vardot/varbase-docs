@@ -2,19 +2,25 @@
 
 ## Latest Drush Version Default in Use
 
-**Drush 11.0** the stable was released **2022-01-11**\
-[https://github.com/drush-ops/drush/releases/tag/11.0.0](https://github.com/drush-ops/drush/releases/tag/11.0.0)
+**Drush 12.3.0** the stable was released 12 Oct 2023\
+
+
+{% embed url="https://github.com/drush-ops/drush/releases/tag/12.3.0" %}
 
 More [Drush releases](https://github.com/drush-ops/drush/releases) followed after that date.
 
+{% hint style="info" %}
+#### [Drush 11 support will end in November 2023](https://www.drush.org/12.x/install/#drupal-compatibility)
+{% endhint %}
+
 Many options to change to
 
-1. `"drush/drush": "~11.0",`
-2. `"drush/drush": "~10.0 || ~11.0",`
-3. `"drush/drush": "^10.0",`
+1. `"drush/drush": "~12.0",`
+2. `"drush/drush": "~11.0 || ~12.0",`
+3. `"drush/drush": "^11.0",`
 4. `"drush/drush": "@stable",`
 
-The root `composer.json` file for the default [**Varbase Project**](https://github.com/Vardot/varbase-project/blob/9.0.x/composer.json#L43) template was changed **`"drush/drush": "~11.0",`** for easier support, update, and upgrade processes in development and production servers. In Varbase 9.0.8 release drush was changed to  \~11.0.
+The root `composer.json` file for the default [**Varbase Project**](https://github.com/Vardot/varbase-project/blob/9.0.x/composer.json#L43) template was changed **`"drush/drush": "~12.0",`** for easier support, update, and upgrade processes in development and production servers. In Varbase 9.0.8 release drush was changed to  \~11.0.
 
 
 
@@ -27,30 +33,32 @@ The root `composer.json` file for the default [**Varbase Project**](https://gith
 Use any text editor and change to "drush/drush" to the following
 
 ```php
-    "drush/drush": "~11.0",
+    "drush/drush": "~12.0",
 ```
 
 ### 2. Run a Composer Command
 
 ```php
-composer require "drush/drush:~11.0" --dev
+composer require "drush/drush:~12.0" --dev
 ```
 
 ## Varbase Versions and Drush Versions
 
 * [**Varbase 9.0.4**](https://www.drupal.org/project/varbase/releases/9.0.4) and older works only with **Drush \~10.0**
 * [**Varbase 9.0.5**](https://www.drupal.org/project/varbase/releases/9.0.5) and newer works only with **Drush \~11.0**
+* [**Varbase 9.0.16**](https://www.drupal.org/project/varbase/releases/9.0.16) **, Varbase 10.0.0-rc1** and newer works only with **Drush \~12.0**
 
 ## **Drush and the Update Helper**
 
-The [**Update Helper**](https://www.drupal.org/project/update\_helper) `~3.0` is using `"drush/drush": "~11.0"` and the [**Drupal Core Generator** ](https://github.com/Chi-teck/drupal-code-generator) package is using `"chi-teck/drupal-code-generator": "^2.4"`
+The [**Update Helper**](https://www.drupal.org/project/update\_helper) `~4.0` is using `"drush/drush": "~12.0"` and the [**Drupal Core Generator** ](https://github.com/Chi-teck/drupal-code-generator) package is using `"chi-teck/drupal-code-generator": "^3.0"`
 
-[#3260567: Updated the Update Helper module from \~2.0 to \~3.0](https://www.drupal.org/project/varbase\_core/issues/3260567)
+* Issue [#3393654](https://www.drupal.org/i/3393654): Updated the **Update Helper** module from `3.0.4` to `3.0.4 || 4.0.0` to support **Drush `~12.0`** and kept needed patches
+* Issue [#3393644](https://www.drupal.org/i/3393644): Updated **Checklist API** module from `2.1.1` to `~2.1.0` and removed committed patches
 
-In `require-dev` of the module
+In `require` of the module
 
-{% embed url="https://git.drupalcode.org/project/update_helper/-/blob/3.0.x/composer.json#L32" %}
-Update Helper `composer.json` file has `"`[`drush/drush`](https://packagist.org/packages/drush/drush)`": "`[`~11.0`](https://packagist.org/packages/drush/drush)`"`
+{% embed url="https://git.drupalcode.org/project/update_helper/-/blob/4.0.x/composer.json" %}
+Update Helper composer.json file has "drush/drush": "\~12.0"
 {% endembed %}
 
 This module has the Drush command. In order to execute it properly, you have to use Drush installed with your project.\
