@@ -1,3 +1,7 @@
+---
+description: Paving the way for a smoother upgrade process to Drupal 10
+---
+
 # Updating Varbase \~9.0 to Drupal 10
 
 {% hint style="warning" %}
@@ -29,7 +33,7 @@ Issue [#3394196](https://www.drupal.org/i/3394196): Updated default used **Drush
 [updating-drush-to-the-latest-stable-version.md](../updating-drush-to-the-latest-stable-version.md)
 {% endcontent-ref %}
 
-## Quick steps to update old Varbase \~9.0 to Drupal 10
+## Quick steps to update old Varbase \~9.0 sites to Drupal 10
 
 {% hint style="success" %}
 [**Released Varbase 9.0.16**](https://www.drupal.org/project/varbase/releases/9.0.16)
