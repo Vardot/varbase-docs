@@ -20,7 +20,7 @@ Many options to change to
 3. `"drush/drush": "^11.0",`
 4. `"drush/drush": "@stable",`
 
-The root `composer.json` file for the default [**Varbase Project**](https://github.com/Vardot/varbase-project/blob/9.0.x/composer.json#L43) template was changed **`"drush/drush": "~12.0",`** for easier support, update, and upgrade processes in development and production servers. In Varbase 9.0.8 release drush was changed to  \~11.0.
+The root `composer.json` file for the default [**Varbase Project**](https://github.com/Vardot/varbase-project/blob/10.0.x/composer.json#L38) template was changed **`"drush/drush": "~12.0",`** for easier support, update, and upgrade processes in development and production servers. In Varbase 9.0.8 release drush was changed to  \~11.0.
 
 
 
