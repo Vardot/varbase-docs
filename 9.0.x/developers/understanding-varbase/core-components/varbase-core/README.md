@@ -95,6 +95,7 @@ Brings in the following core and contributed modules to your site:
 | [**Better Login**](https://www.drupal.org/project/betterlogin)                                | Make the login screens better                                                                                                                     |
 | [**Email Registration**](https://www.drupal.org/project/email\_registration)                  | Allows users to register with an email address as their username.                                                                                 |
 | [**jQuery UI Accordion**](https://www.drupal.org/project/jquery\_ui\_accordion)               | Provides jQuery UI Accordion library.                                                                                                             |
+| [**Editoria11y Accessibility Checker**](https://www.drupal.org/project/editoria11y)           | Checks for accessibility in page content.                                                                                                         |
 
 ## Sub modules&#x20;
 
