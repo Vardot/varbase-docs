@@ -1,11 +1,11 @@
 ---
-description: Paving the way for a smoother upgrade process to Drupal 10
+description: Paved the way for a smoother upgrade process to Drupal 10
 ---
 
 # Updating Varbase \~9.0 to Drupal 10
 
 {% hint style="warning" %}
-#### [Drupal 9 support will end in November 2023](https://www.drupal.org/docs/understanding-drupal/drupal-9-release-date-and-what-it-means/how-long-will-drupal-9-be-supported#s-drupal-9-support-will-end-in-november-2023)
+[**Drupal 9 is end of life - PSA-2023-11-01**](https://www.drupal.org/psa-2023-11-01)
 
 November 1, 2023 (UTC) Drupal 9 reaches end-of-life due to its dependency on Symfony 4.\
 Reference: Symfony 4.4 release checker.\
