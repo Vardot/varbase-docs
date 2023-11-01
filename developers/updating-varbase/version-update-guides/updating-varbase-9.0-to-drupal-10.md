@@ -52,3 +52,74 @@ Absolutely, additional checks and status updates are required for extra used con
 In numerous projects, contrib modules frequently contain outdated PHP code, including deprecated classes, functions, or libraries. Moreover, many of these projects make use of deprecated JavaScript components, such as JQuery UI libraries, or employ outdated Drupal 9 methods.
 {% endhint %}
 
+
+
+## Fix Non-existent Permissions Issues
+
+Have the system faced an issue with missing **static** or **dynamic** permissions while updating/upgrading?\
+or after disabling/uninstalling a module?
+
+```
+RuntimeException: Adding non-existent permissions to a role is not allowed. The incorrect permissions are "~~~~~~~". in Drupal\user\Entity\Role->calculateDependencies() (line 207 of core/modules/user/src/Entity/Role.php).
+```
+
+### Drush Command to Fix Non-existent Permissions in Varbase
+
+1. Update the **Varbase Core** module to [9.1.7](https://www.drupal.org/project/varbase\_core/releases/9.1.7) or later.
+2. Run **`./bin/drush varbase:remove-non-existent-permissions`**
+
+{% hint style="success" %}
+**drush varbase:remove-non-existent-permissions**
+
+Remove non-existent permissions, to be used for upgrades with missing static and dynamic permissions
+{% endhint %}
+
+{% hint style="info" %}
+### More Info on the Adding non-existent Permissions to a Role is not Allowed.
+
+
+
+[**Permissions must exist**](https://www.drupal.org/node/3193348)
+
+[Invalid permissions will trigger runtime exceptions in Drupal 10](https://www.drupal.org/node/3193348). Permissions should be defined in a `permissions.yml` file or a **permission callback**.
+
+The `skip_missing_permission_deprecation` flag that was added in **Drupal 9** to the Role entity in [#2571235: \[regression\] Roles should depend on objects that are building the granted permissions](https://www.drupal.org/project/drupal/issues/2571235).
+
+[Modules cannot be in a disabled state anymore, only installed and uninstalled](https://www.drupal.org/node/2193013)\
+[#1199946: Disabled modules are broken beyond repair so the "disable" functionality needs to be removed](https://www.drupal.org/project/drupal/issues/1199946)
+
+```php
+  # A special flag so we can migrate permissions that do not exist yet.
+  # @todo Remove in https://www.drupal.org/project/drupal/issues/2953111.
+  skip_missing_permission_deprecation:
+    plugin: default_value
+    default_value: true
+```
+
+It was removed from the `10.0.x` and `10.1.x` branch.
+
+[#2953111: Only migrate role permissions that exist on the destination](https://www.drupal.org/project/drupal/issues/2953111)
+{% endhint %}
+
+## Fix Mismatched Entity or Field Definitions Issues
+
+Have the systems faced issues with mismatched entity or field definitions while updating/upgrading?
+
+### Drush Command to Fix Mismatched Entities in Varbase
+
+1. Update the **Varbase Core** module to [9.1.7](https://www.drupal.org/project/varbase\_core/releases/9.1.7) or later.
+2. Run **`./bin/drush varbase:entity-update`**
+
+{% hint style="success" %}
+**drush varbase:entity-update**
+
+Entity updates to clear up any mismatched entity and/or field definitions. Fix changes were detected in the entity type and field definitions.
+{% endhint %}
+
+
+
+## Links for Important Issues
+
+* Issue [#3397695](https://www.drupal.org/i/3397695): Added **Varbase Drush commands** to address `non-existent permissions` and resolve any inconsistencies in **entity** and **field definitions**
+* [Added Remove non-existent permissions function to be used for upgrades with missing static and dynamic permissions #10](https://github.com/Vardot/module-installer-factory/issues/10)
+* ✅ Released [**Vardot/module-installer-factory 1.0.3**](https://github.com/Vardot/module-installer-factory/releases/tag/1.0.3)
