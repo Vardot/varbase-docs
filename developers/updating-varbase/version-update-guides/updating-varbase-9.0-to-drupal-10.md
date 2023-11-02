@@ -122,4 +122,11 @@ Entity updates to clear up any mismatched entity and/or field definitions. Fix c
 
 * Issue [#3397695](https://www.drupal.org/i/3397695): Added **Varbase Drush commands** to address `non-existent permissions` and resolve any inconsistencies in **entity** and **field definitions**
 * [Added Remove non-existent permissions function to be used for upgrades with missing static and dynamic permissions #10](https://github.com/Vardot/module-installer-factory/issues/10)
-* ✅ Released [**Vardot/module-installer-factory 1.0.3**](https://github.com/Vardot/module-installer-factory/releases/tag/1.0.3)
+*   Issue [#3383538](https://www.drupal.org/i/3383538): Removed **Allowed Formats** module, as it was added in **Drupal `~10.1.0`** core\
+
+
+    > **Since Drupal 10.1.0**, limiting the text formats per field instance is a feature provided by Drupal core. Read [https://www.drupal.org/node/3318572](https://www.drupal.org/node/3318572) for details.
+    >
+    > In the `3.x` branch of this module this feature has been removed as obsolete, but the module provide an update path from existing sites to move the allowed formats, as they were stored by the previous versions of the module, to Drupal `>=10.1.0` way, in field settings.
+    >
+    > The module provides also a feature that allows site builders to hide the formatted text format help and guidelines. Even this feature is still preserved in the **`3.x`** module branch, there is an issue that aims to move it in **Drupal core in the future**. See [https://www.drupal.org/i/3323007](https://www.drupal.org/i/3323007).
