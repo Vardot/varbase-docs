@@ -17,6 +17,7 @@ November 1, 2023 (UTC) Drupal 9 reaches end-of-life due to its dependency on Sym
 {% hint style="success" %}
 * Issue [#3392444](https://www.drupal.org/i/3392444): Revamped the `9.1.x` branch for **Varbase Core** module to work with **Drupal \~10.1.0** and custom needed changes for a smoother upgrade process
 * Issue [#3392577](https://www.drupal.org/i/3392577): Revamped the `9.1.x` branch for **Varbase Editor** to work with **Drupal `~10.1.0`** and custom needed changes for a smoother upgrade process
+* Issue [#3395943](https://www.drupal.org/i/3395943): Revamped the `9.1.x` branch for **Varbase Bootstrap Paragraphs** to work with **Drupal `~10.1.0`** and custom needed changes for a smoother upgrade process
 {% endhint %}
 
 {% hint style="danger" %}
