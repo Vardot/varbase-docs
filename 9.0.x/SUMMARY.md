@@ -105,7 +105,7 @@
     * [Updating Varbase to work with Composer 2.0](developers/updating-varbase/updating-varbase-to-work-with-composer-2.0.md)
     * [Updating Drush to the Latest Stable Version](developers/updating-varbase/updating-drush-to-the-latest-stable-version.md)
     * [Version Update Guides](developers/updating-varbase/version-update-guides/README.md)
-      * [9⃣ Updating Varbase \~9.0 to Drupal 10](developers/updating-varbase/version-update-guides/updating-varbase-9.0-to-drupal-10.md)
+      * [Updating Varbase \~9.0 to Drupal 10](developers/updating-varbase/version-update-guides/updating-varbase-9.0-to-drupal-10.md)
       * [Updating from Varbase 8.x to 9.x](developers/updating-varbase/version-update-guides/updating-from-varbase-8.x-to-9.x.md)
   * [Frequently Asked Questions (FAQs)](developers/faqs.md)
   * [Extending Varbase](developers/extending-varbase/README.md)
