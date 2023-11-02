@@ -4,7 +4,7 @@ description: Paved the way for a smoother upgrade process to Drupal 10
 
 # Updating Varbase \~9.0 to Drupal 10
 
-## Read First Before Updating
+## 1. Read First Before Updating
 
 {% hint style="success" %}
 **Issue** [**#3392564**](https://www.drupal.org/i/3392564)**: Updated the Varbase `9.0.x` branch to use Drupal `~10.1.0`**
@@ -28,10 +28,10 @@ Issue [#3394196](https://www.drupal.org/i/3394196): Updated default used **Drush
 [updating-drush-to-the-latest-stable-version.md](../updating-drush-to-the-latest-stable-version.md)
 {% endcontent-ref %}
 
-## Uninstall Removed Modules
+## 2. Uninstall Removed Modules
 
 {% hint style="success" %}
-**Uninstall the** [**Better Normalizers**](https://www.drupal.org/project/better\_normalizers) **module**
+1. **Uninstall the** [**Better Normalizers**](https://www.drupal.org/project/better\_normalizers) **module**
 
 This module is no longer needed
 
@@ -51,9 +51,9 @@ Obsolete Use of this project is deprecated.
 {% endhint %}
 
 {% hint style="success" %}
-**Uninstall the** [**Allowed Formats**](https://www.drupal.org/project/allowed\_formats) **module**
+2. **Uninstall the** [**Allowed Formats**](https://www.drupal.org/project/allowed\_formats) **module**
 
-Update the module from \~2.0 to \~3.0  to run the migrate update process to switch allowed formatted fields to the Drupal \~10 processer.
+Update the module first from `~2.0` to `~3.0`  to run the migrate update process to switch allowed formatted fields to the Drupal \~10 processor.
 
 
 
@@ -79,7 +79,7 @@ The module provides also a feature that allows site builders to hide the formatt
 {% endhint %}
 
 {% hint style="success" %}
-**Upgrade the** [**Rabbit Hole**](https://www.drupal.org/project/rabbit\_hole) **module**
+3. **Upgrade the** [**Rabbit Hole**](https://www.drupal.org/project/rabbit\_hole) **module**
 
 Better to upgrade the Rabbit Hole module from `~1.0` to `~2.0` before the upgrade.
 
@@ -90,7 +90,7 @@ Better to upgrade the Rabbit Hole module from `~1.0` to `~2.0` before the upgrad
 `drush updb`
 {% endhint %}
 
-## Check for **Drupal 10 Compatibility**
+## 3. Check for **Drupal 10 Compatibility**
 
 {% hint style="warning" %}
 Use the [Upgrade Status](https://www.drupal.org/project/upgrade\_status) module to check on extra used contrib or custom modules and themes in projects.
@@ -119,7 +119,7 @@ Only \~ _**3%**_ of modules are not compatible.
 Paved the way for a smoother upgrade process to Drupal 10
 {% endhint %}
 
-## Update old Varbase \~9.0 projects to Drupal 10 <a href="#quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10" id="quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10"></a>
+## 4. Update old Varbase \~9.0 projects to Drupal 10 <a href="#quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10" id="quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10"></a>
 
 1. Update the project to latest version of **Varbase `~9.0`**
 2. Add `"drupal/core": "~10.1.0",` in the **root `composer.json`** file.
