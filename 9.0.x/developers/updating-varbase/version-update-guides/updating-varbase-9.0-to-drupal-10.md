@@ -75,11 +75,27 @@ RuntimeException: Adding non-existent permissions to a role is not allowed. The 
 Remove non-existent permissions, to be used for upgrades with missing static and dynamic permissions
 {% endhint %}
 
+## Fix Mismatched Entity or Field Definitions Issues
+
+Have the systems faced issues with mismatched entity or field definitions while updating/upgrading?
+
+### Drush Command to Fix Mismatched Entities in Varbase
+
+1. Update the **Varbase Core** module to [9.1.7](https://www.drupal.org/project/varbase\_core/releases/9.1.7) or later.
+2. Run **`./bin/drush varbase:entity-update`**
+
+{% hint style="success" %}
+**drush varbase:entity-update**
+
+Entity updates to clear up any mismatched entity and/or field definitions. Fix changes were detected in the entity type and field definitions.
+{% endhint %}
+
+## Important Issues
+
+* Issue [#3397695](https://www.drupal.org/i/3397695): Added **Varbase Drush commands** to address `non-existent permissions` and resolve any inconsistencies in **entity** and **field definitions**
+* [Added Remove non-existent permissions function to be used for upgrades with missing static and dynamic permissions #10](https://github.com/Vardot/module-installer-factory/issues/10)
+
 {% hint style="info" %}
-### More Info on the Adding non-existent Permissions to a Role is not Allowed.
-
-
-
 [**Permissions must exist**](https://www.drupal.org/node/3193348)
 
 [Invalid permissions will trigger runtime exceptions in Drupal 10](https://www.drupal.org/node/3193348). Permissions should be defined in a `permissions.yml` file or a **permission callback**.
@@ -102,32 +118,14 @@ It was removed from the `10.0.x` and `10.1.x` branch.
 [#2953111: Only migrate role permissions that exist on the destination](https://www.drupal.org/project/drupal/issues/2953111)
 {% endhint %}
 
-## Fix Mismatched Entity or Field Definitions Issues
+* Issue [#3383538](https://www.drupal.org/i/3383538): Removed **Allowed Formats** module, as it was added in **Drupal `~10.1.0`** core  ( Uninstall first )
 
-Have the systems faced issues with mismatched entity or field definitions while updating/upgrading?
+{% hint style="info" %}
+**Since Drupal 10.1.0**, limiting the text formats per field instance is a feature provided by Drupal core. Read [https://www.drupal.org/node/3318572](https://www.drupal.org/node/3318572) for details.
 
-### Drush Command to Fix Mismatched Entities in Varbase
+In the `3.x` branch of this module this feature has been removed as obsolete, but the module provide an update path from existing sites to move the allowed formats, as they were stored by the previous versions of the module, to Drupal `>=10.1.0` way, in field settings.
 
-1. Update the **Varbase Core** module to [9.1.7](https://www.drupal.org/project/varbase\_core/releases/9.1.7) or later.
-2. Run **`./bin/drush varbase:entity-update`**
-
-{% hint style="success" %}
-**drush varbase:entity-update**
-
-Entity updates to clear up any mismatched entity and/or field definitions. Fix changes were detected in the entity type and field definitions.
+The module provides also a feature that allows site builders to hide the formatted text format help and guidelines. Even this feature is still preserved in the **`3.x`** module branch, there is an issue that aims to move it in **Drupal core in the future**. See [https://www.drupal.org/i/3323007](https://www.drupal.org/i/3323007).
 {% endhint %}
 
-
-
-## Links for Important Issues
-
-* Issue [#3397695](https://www.drupal.org/i/3397695): Added **Varbase Drush commands** to address `non-existent permissions` and resolve any inconsistencies in **entity** and **field definitions**
-* [Added Remove non-existent permissions function to be used for upgrades with missing static and dynamic permissions #10](https://github.com/Vardot/module-installer-factory/issues/10)
-*   Issue [#3383538](https://www.drupal.org/i/3383538): Removed **Allowed Formats** module, as it was added in **Drupal `~10.1.0`** core\
-
-
-    > **Since Drupal 10.1.0**, limiting the text formats per field instance is a feature provided by Drupal core. Read [https://www.drupal.org/node/3318572](https://www.drupal.org/node/3318572) for details.
-    >
-    > In the `3.x` branch of this module this feature has been removed as obsolete, but the module provide an update path from existing sites to move the allowed formats, as they were stored by the previous versions of the module, to Drupal `>=10.1.0` way, in field settings.
-    >
-    > The module provides also a feature that allows site builders to hide the formatted text format help and guidelines. Even this feature is still preserved in the **`3.x`** module branch, there is an issue that aims to move it in **Drupal core in the future**. See [https://www.drupal.org/i/3323007](https://www.drupal.org/i/3323007).
+* Issue [#3392945](https://www.drupal.org/i/3392945): Removed the **Better Normalizers** module from **Varbase Core** ( Uninstall first )
