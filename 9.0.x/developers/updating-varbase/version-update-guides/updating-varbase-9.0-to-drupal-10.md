@@ -163,7 +163,7 @@ Remove non-existent permissions, to be used for upgrades with missing static and
 
 ## Fix Mismatched Entity or Field Definitions Issues
 
-Have the systems faced issues with mismatched entity or field definitions while updating/upgrading?
+Have the system faced issues with mismatched entity or field definitions while updating/upgrading?
 
 ### Drush Command to Fix Mismatched Entities in Varbase
 
