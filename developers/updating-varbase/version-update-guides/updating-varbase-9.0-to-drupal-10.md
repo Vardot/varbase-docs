@@ -1,5 +1,5 @@
 ---
-description: Paving the way for a smoother upgrade process to Drupal 10
+description: Paved the way for a smoother upgrade process to Drupal 10
 ---
 
 # Updating Varbase \~9.0 to Drupal 10
@@ -8,6 +8,13 @@ description: Paving the way for a smoother upgrade process to Drupal 10
 **​**[**Drupal 9 is end of life - PSA-2023-11-01**](https://www.drupal.org/psa-2023-11-01)**​**
 
 November 1, 2023 (UTC) Drupal 9 reaches end-of-life due to its dependency on Symfony 4. Reference: Symfony 4.4 release checker. [What to do about Drupal 9's end of life in November 2023](https://dev.acquia.com/blog/what-do-about-drupal-9s-end-life-november-2023)
+{% endhint %}
+
+## 1. Read First Before Updating
+
+{% hint style="warning" %}
+Updating Varbase should always be done in a **local or development environment**. Once the update process is properly done and tested you can push your code and build to your production site.\
+DO NOT update Varbase directly when in production.
 {% endhint %}
 
 {% hint style="success" %}
@@ -25,18 +32,105 @@ November 1, 2023 (UTC) Drupal 9 reaches end-of-life due to its dependency on Sym
 {% endhint %}
 
 {% hint style="success" %}
-Issue [#3394196](https://www.drupal.org/i/3394196): Updated default used **Drush** from `~11.0` to `~12.0`[Updating Drush to the Latest Stable Version](https://docs.varbase.vardot.com/developers/updating-varbase/updating-drush-to-the-latest-stable-version)
+Issue [#3394196](https://www.drupal.org/i/3394196): Updated default used **Drush** from `~11.0` to `~12.0`
 {% endhint %}
 
 {% content-ref url="../updating-drush-to-the-latest-stable-version.md" %}
 [updating-drush-to-the-latest-stable-version.md](../updating-drush-to-the-latest-stable-version.md)
 {% endcontent-ref %}
 
-### Quick steps to update old Varbase \~9.0 sites to Drupal 10 <a href="#quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10" id="quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10"></a>
+## 2. Uninstall Removed Modules
 
 {% hint style="success" %}
-[**Released Varbase 9.0.16**](https://www.drupal.org/project/varbase/releases/9.0.16)
+**Uninstall the** [**Better Normalizers**](https://www.drupal.org/project/better\_normalizers) **module**
+
+This module is no longer needed
+
+
+
+`drush pm:uninstall` better\_normalizers
 {% endhint %}
+
+{% hint style="info" %}
+* Issue [#3392945](https://www.drupal.org/i/3392945): Removed the **Better Normalizers** module from **Varbase Core**
+
+
+
+Obsolete Use of this project is deprecated.
+
+[Note](https://www.drupal.org/project/better\_normalizers/issues/3286221#comment-15289622) that there will not be a version that works on D9 and D10, that's not possible because of the return type hint change for normalizers between Symfony 4 and 6.
+{% endhint %}
+
+{% hint style="success" %}
+**Uninstall the** [**Allowed Formats**](https://www.drupal.org/project/allowed\_formats) **module**
+
+Update the module from `~2.0` to `~3.0`  to run the migrate update process to switch allowed formatted fields to the Drupal \~10 processor.
+
+
+
+`composer update drupal/allowed_formats`
+
+`drush updb`
+
+`drush pm:uninstall allowed_formats`
+{% endhint %}
+
+{% hint style="info" %}
+* Issue [#3383538](https://www.drupal.org/i/3383538): Removed **Allowed Formats** module, as it was added in **Drupal `~10.1.0`** core
+* [#784672: Allow text field to enforce a specific text format](https://www.drupal.org/project/drupal/issues/784672)
+* [#3324446: Allowed formats are in Drupal 10.1 now, add an upgrade path](https://www.drupal.org/project/allowed\_formats/issues/3324446)
+
+
+
+**Since Drupal 10.1.0**, limiting the text formats per field instance is a feature provided by Drupal core. Read [https://www.drupal.org/node/3318572](https://www.drupal.org/node/3318572) for details.
+
+In the `3.x` branch of this module this feature has been removed as obsolete, but the module provide an update path from existing sites to move the allowed formats, as they were stored by the previous versions of the module, to Drupal `>=10.1.0` way, in field settings.
+
+The module provides also a feature that allows site builders to hide the formatted text format help and guidelines. Even this feature is still preserved in the **`3.x`** module branch, there is an issue that aims to move it in **Drupal core in the future**. See [https://www.drupal.org/i/3323007](https://www.drupal.org/i/3323007).
+{% endhint %}
+
+{% hint style="success" %}
+**Upgrade the** [**Rabbit Hole**](https://www.drupal.org/project/rabbit\_hole) **module**
+
+Better to upgrade the Rabbit Hole module from `~1.0` to `~2.0` before the upgrade.
+
+
+
+`composer update`drupal/rabbit\_hole
+
+`drush updb`
+{% endhint %}
+
+## 3. Check for **Drupal 10 Compatibility**
+
+{% hint style="warning" %}
+Use the [Upgrade Status](https://www.drupal.org/project/upgrade\_status) module to check on extra used contrib or custom modules and themes in projects.
+
+
+
+In numerous projects, contrib modules frequently contain outdated PHP code, including deprecated classes, functions, or libraries. Moreover, many of these projects make use of deprecated JavaScript components, such as JQuery UI libraries, or employ outdated Drupal 9 methods.
+
+
+
+**97% of  all Modules are Drupal 10 Compatible**\
+[https://www.youtube.com/live/08FaXNSVDrA?si=z-MhnnCfS9bUtnGj\&t=7455](https://www.youtube.com/live/08FaXNSVDrA?si=z-MhnnCfS9bUtnGj\&t=7455)\
+Only \~ _**3%**_ of modules are not compatible.
+
+* Push for maintainers ( by issues, Contact, ask them to commit and release )
+* Ask maintainers to give you a co-maintainer role so that you can commit and release
+* If the above did not work. Fork not compatible modules ( because they are not well maintained )
+* If we can drop the use of not well maintained module, do that by having the code in the project as a local custom module and remove it from the composer.json file
+{% endhint %}
+
+{% hint style="success" %}
+**All default used modules in Varbase 9  have Drupal 10 Compatibility**
+
+[**Varbase 9.0.16**](https://www.drupal.org/project/varbase/releases/9.0.16) was released on **15 Oct 2023**
+
+Paved the way for a smoother upgrade process to Drupal 10
+{% endhint %}
+
+## 4. Update old Varbase \~9.0 projects to Drupal 10 <a href="#quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10" id="quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10"></a>
 
 1. Update the project to latest version of **Varbase `~9.0`**
 2. Add `"drupal/core": "~10.1.0",` in the **root `composer.json`** file.
@@ -46,14 +140,6 @@ Issue [#3394196](https://www.drupal.org/i/3394196): Updated default used **Drush
 6. Have the composer as in [https://github.com/Vardot/varbase-project/blob/9.0.16/composer.json](https://github.com/Vardot/varbase-project/blob/9.0.16/composer.json)​
 7. Run `composer update` number of times ( do that 3 times min )
 8. Run `drush updb` number of times ( do that 3 times min)
-
-{% hint style="warning" %}
-Absolutely, additional checks and status updates are required for extra used contrib modules and themes in the projects.
-
-In numerous projects, contrib modules frequently contain outdated PHP code, including deprecated classes, functions, or libraries. Moreover, many of these projects make use of deprecated JavaScript components, such as JQuery UI libraries, or employ outdated Drupal 9 methods.
-{% endhint %}
-
-
 
 ## Fix Non-existent Permissions Issues
 
@@ -90,14 +176,14 @@ Have the systems faced issues with mismatched entity or field definitions while 
 Entity updates to clear up any mismatched entity and/or field definitions. Fix changes were detected in the entity type and field definitions.
 {% endhint %}
 
+## Important Issues
 
-
-## Links for Important Issues
-
+{% hint style="info" %}
 * Issue [#3397695](https://www.drupal.org/i/3397695): Added **Varbase Drush commands** to address `non-existent permissions` and resolve any inconsistencies in **entity** and **field definitions**
 * [Added Remove non-existent permissions function to be used for upgrades with missing static and dynamic permissions #10](https://github.com/Vardot/module-installer-factory/issues/10)
 
-{% hint style="info" %}
+
+
 [**Permissions must exist**](https://www.drupal.org/node/3193348)
 
 [Invalid permissions will trigger runtime exceptions in Drupal 10](https://www.drupal.org/node/3193348). Permissions should be defined in a `permissions.yml` file or a **permission callback**.
@@ -119,15 +205,3 @@ It was removed from the `10.0.x` and `10.1.x` branch.
 
 [#2953111: Only migrate role permissions that exist on the destination](https://www.drupal.org/project/drupal/issues/2953111)
 {% endhint %}
-
-* Issue [#3383538](https://www.drupal.org/i/3383538): Removed **Allowed Formats** module, as it was added in **Drupal `~10.1.0`** core  ( Uninstall first )
-
-{% hint style="info" %}
-**Since Drupal 10.1.0**, limiting the text formats per field instance is a feature provided by Drupal core. Read [https://www.drupal.org/node/3318572](https://www.drupal.org/node/3318572) for details.
-
-In the `3.x` branch of this module this feature has been removed as obsolete, but the module provide an update path from existing sites to move the allowed formats, as they were stored by the previous versions of the module, to Drupal `>=10.1.0` way, in field settings.
-
-The module provides also a feature that allows site builders to hide the formatted text format help and guidelines. Even this feature is still preserved in the **`3.x`** module branch, there is an issue that aims to move it in **Drupal core in the future**. See [https://www.drupal.org/i/3323007](https://www.drupal.org/i/3323007).
-{% endhint %}
-
-* Issue [#3392945](https://www.drupal.org/i/3392945): Removed the **Better Normalizers** module from **Varbase Core** ( Uninstall first )
