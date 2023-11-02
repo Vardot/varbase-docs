@@ -4,12 +4,6 @@ description: Paved the way for a smoother upgrade process to Drupal 10
 
 # Updating Varbase \~9.0 to Drupal 10
 
-{% hint style="warning" %}
-**​**[**Drupal 9 is end of life - PSA-2023-11-01**](https://www.drupal.org/psa-2023-11-01)**​**
-
-November 1, 2023 (UTC) Drupal 9 reaches end-of-life due to its dependency on Symfony 4. Reference: Symfony 4.4 release checker. [What to do about Drupal 9's end of life in November 2023](https://dev.acquia.com/blog/what-do-about-drupal-9s-end-life-november-2023)
-{% endhint %}
-
 ## 1. Read First Before Updating
 
 {% hint style="warning" %}
@@ -19,6 +13,12 @@ DO NOT update Varbase directly when in production.
 
 {% hint style="success" %}
 **Issue** [**#3392564**](https://www.drupal.org/i/3392564)**: Updated the Varbase `9.0.x` branch to use Drupal `~10.1.0`**
+{% endhint %}
+
+{% hint style="warning" %}
+**​**[**Drupal 9 is end of life - PSA-2023-11-01**](https://www.drupal.org/psa-2023-11-01)**​**
+
+November 1, 2023 (UTC) Drupal 9 reaches end-of-life due to its dependency on Symfony 4. Reference: Symfony 4.4 release checker.&#x20;
 {% endhint %}
 
 {% hint style="success" %}
