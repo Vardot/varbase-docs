@@ -6,6 +6,11 @@ description: Paved the way for a smoother upgrade process to Drupal 10
 
 ## 1. Read First Before Updating
 
+{% hint style="warning" %}
+Updating Varbase should always be done in a **local or development environment**. Once the update process is properly done and tested you can push your code and build to your production site.\
+DO NOT update Varbase directly when in production.
+{% endhint %}
+
 {% hint style="success" %}
 **Issue** [**#3392564**](https://www.drupal.org/i/3392564)**: Updated the Varbase `9.0.x` branch to use Drupal `~10.1.0`**
 {% endhint %}
