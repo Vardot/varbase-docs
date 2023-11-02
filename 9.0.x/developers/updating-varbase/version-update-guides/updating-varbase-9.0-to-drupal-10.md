@@ -15,6 +15,12 @@ DO NOT update Varbase directly when in production.
 **Issue** [**#3392564**](https://www.drupal.org/i/3392564)**: Updated the Varbase `9.0.x` branch to use Drupal `~10.1.0`**
 {% endhint %}
 
+{% hint style="warning" %}
+**​**[**Drupal 9 is end of life - PSA-2023-11-01**](https://www.drupal.org/psa-2023-11-01)**​**
+
+November 1, 2023 (UTC) Drupal 9 reaches end-of-life due to its dependency on Symfony 4. Reference: Symfony 4.4 release checker.&#x20;
+{% endhint %}
+
 {% hint style="success" %}
 * Issue [#3392444](https://www.drupal.org/i/3392444): Revamped the `9.1.x` branch for **Varbase Core** module to work with **Drupal \~10.1.0** and custom needed changes for a smoother upgrade process
 * Issue [#3392577](https://www.drupal.org/i/3392577): Revamped the `9.1.x` branch for **Varbase Editor** to work with **Drupal `~10.1.0`** and custom needed changes for a smoother upgrade process
