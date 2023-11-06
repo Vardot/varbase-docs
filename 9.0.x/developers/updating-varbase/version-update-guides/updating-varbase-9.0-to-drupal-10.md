@@ -216,6 +216,44 @@ Run the following drush commands to remove **'access admin audit trail'** for th
 
 This method can be used before or after uninstalling a module.
 
+{% hint style="success" %}
+List all user roles which have the permission, using the [display roles and their permissions](https://www.drush.org/12.4.2/commands/role\_list/).
+
+
+
+`./bin/drush role:list --filter='access admin audit trail' --format='list'`
+
+
+
+The out put will be in a list:
+
+
+
+&#x20;`editor`
+
+&#x20;`content_admin`
+
+&#x20;`seo_admin`
+
+&#x20;`site_admin`
+
+
+
+`So that in this case the following is needed to remove:`
+
+
+
+`./bin/drush role:perm:remove editor 'access admin audit trail'`
+
+`./bin/drush role:perm:remove content_admin 'access admin audit trail'`
+
+`./bin/drush role:perm:remove seo_admin 'access admin audit trail'`
+
+`./bin/drush role:perm:remove site_admin 'access admin audit trail'`
+{% endhint %}
+
+
+
 Some modules use the **dynamic permissions** option for custom plugins, entity types, blocks, terms. To grant extra limited permissions for user roles.
 
 Run the following command to do the bulk remove for non existent permissions, in case not wanting to do that one by one.
