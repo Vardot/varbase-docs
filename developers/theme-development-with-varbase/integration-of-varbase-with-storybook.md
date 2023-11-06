@@ -13,12 +13,30 @@
 
 <figure><img src="../../.gitbook/assets/varbase10--Module-Permissions-dev-varbase10c1storybook.png" alt=""><figcaption><p>Use the CL Server endpoint Module Permissions</p></figcaption></figure>
 
+
+
+{% hint style="success" %}
+**Use Drush to** [**grant specified permission(s) to a role**](https://www.drush.org/12.4.2/commands/role\_perm\_add/)**.**
+
+`./bin/drush role:perm:add anonymous 'use cl server'`
+
+`./bin/drush role:perm:add authenticated 'use cl server'`
+{% endhint %}
+
 {% hint style="warning" %}
 **Use the CL Server endpoint**
 
 _**Warning:** Give to trusted roles only; this permission has security implications._
 
 &#x20;Allows a user to access the Component Library: Server endpoint
+{% endhint %}
+
+{% hint style="success" %}
+**Use Drush to** [**remove specified permission(s) from a role**](https://www.drush.org/12.4.2/commands/role\_perm\_remove/)**.**
+
+`./bin/drush role:perm:remove anonymous 'use cl server'`
+
+`./bin/drush role:perm:remove authenticated 'use cl server'`
 {% endhint %}
 
 * Add the following exclude of modules to the `settings.php` or `settings.local.php` only to the development environment:
