@@ -153,13 +153,76 @@ RuntimeException: Adding non-existent permissions to a role is not allowed. The 
 ### Drush Command to Fix Non-existent Permissions in Varbase
 
 1. Update the **Varbase Core** module to [9.1.7](https://www.drupal.org/project/varbase\_core/releases/9.1.7) or later.
-2. Run **`./bin/drush varbase:remove-non-existent-permissions`**
+2. Run the following drush command
+
+<pre><code><strong>./bin/drush varbase:remove-non-existent-permissions
+</strong></code></pre>
 
 {% hint style="success" %}
 **drush varbase:remove-non-existent-permissions**
 
 Remove non-existent permissions, to be used for upgrades with missing static and dynamic permissions
 {% endhint %}
+
+### Before or After Uninstalling a Module
+
+**Better to remove all permissions first** for all user roles for the module before the uninstall. That can be from the Drupal UI page for permissions. Or:
+
+{% hint style="warning" %}
+#### Use Drush to remove specified permission(s) from a role
+{% endhint %}
+
+Have the system faced errors when uninstalling a module?&#x20;
+
+```php
+Adding non-existent permissions to a role is not allowed.
+```
+
+{% hint style="info" %}
+Permissions could be removed one by one and from user roles with Drush.
+
+
+
+**Use the** [**remove specified permission(s) from a role**](https://www.drush.org/12.4.2/commands/role\_perm\_remove/) **method**
+
+
+
+**Example:**
+
+If for some reason the **Admin Audit Trail** module wanted to be uninstalled under **Drupal \~10.1.0** in a project.
+
+
+
+In case of uninstalling without removing permissions first, the system may face issues with non-existent permissions to a role is not allowed.
+
+
+
+Run the following drush commands to remove **'access admin audit trail'** for the default user roles, or other custom user roles in the project:
+
+
+
+`./bin/drush role:perm:remove anonymous 'access admin audit trail'`
+
+`./bin/drush role:perm:remove authenticated 'access admin audit trail'`
+
+`./bin/drush role:perm:remove editor 'access admin audit trail'`
+
+`./bin/drush role:perm:remove content_admin 'access admin audit trail'`
+
+`./bin/drush role:perm:remove seo_admin 'access admin audit trail'`
+
+`./bin/drush role:perm:remove site_admin 'access admin audit trail'`
+{% endhint %}
+
+This method can be used before or after uninstalling a module.
+
+Some modules use the **dynamic permissions** option for custom plugins, entity types, blocks, terms. To grant extra limited permissions for user roles.
+
+Run the following command to do the bulk remove for non existent permissions, in case not wanting to do that one by one.
+
+```bash
+./bin/drush varbase:remove-non-existent-permissions
+```
 
 ## Fix Mismatched Entity or Field Definitions Issues
 
