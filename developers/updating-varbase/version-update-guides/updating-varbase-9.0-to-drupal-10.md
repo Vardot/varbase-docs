@@ -39,7 +39,7 @@ Issue [#3394196](https://www.drupal.org/i/3394196): Updated default used **Drush
 [updating-drush-to-the-latest-stable-version.md](../updating-drush-to-the-latest-stable-version.md)
 {% endcontent-ref %}
 
-## 2. Uninstall Removed Modules
+## 2. Uninstall Removed Modules and Themes
 
 {% hint style="success" %}
 **Uninstall the** [**Better Normalizers**](https://www.drupal.org/project/better\_normalizers) **module**
@@ -99,6 +99,23 @@ Better to upgrade the Rabbit Hole module from `~1.0` to `~2.0` before the upgrad
 `composer update`drupal/rabbit\_hole
 
 `drush updb`
+{% endhint %}
+
+{% hint style="success" %}
+4. **Uninstall the** [**Seven**](https://www.drupal.org/project/seven) **Admin theme**
+
+Seven was the default administrative theme for Drupal 7, 8, and 9.\
+In Drupal 10, it was replaced by Claro.
+
+
+
+Some Drupal 10 sites may still require or prefer Seven, so it's available as a contrib theme.
+
+
+
+`./bin/drush theme:uninstall seven`
+
+
 {% endhint %}
 
 ## 3. Check for **Drupal 10 Compatibility**
