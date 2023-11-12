@@ -48,7 +48,7 @@ This module is no longer needed
 
 
 
-`drush pm:uninstall` better\_normalizers
+`./bin/drush pm:uninstall` better\_normalizers
 {% endhint %}
 
 {% hint style="info" %}
@@ -70,9 +70,9 @@ Update the module first from `~2.0` to `~3.0`  to run the migrate update process
 
 `composer update drupal/allowed_formats`
 
-`drush updb`
+`./bin/drush updb`
 
-`drush pm:uninstall allowed_formats`
+`./bin/drush pm:uninstall allowed_formats`
 {% endhint %}
 
 {% hint style="info" %}
@@ -98,16 +98,20 @@ Better to upgrade the Rabbit Hole module from `~1.0` to `~2.0` before the upgrad
 
 `composer update drupal/rabbit_hole`
 
-`drush updb`
+`./bin/drush updb`
 {% endhint %}
 
-{% hint style="success" %}
+{% hint style="warning" %}
 4. **Uninstall the** [**Seven**](https://www.drupal.org/project/seven) **Admin theme**
 
 Seven was the default administrative theme for Drupal 7, 8, and 9.\
 In Drupal 10, it was replaced by Claro.
 
 Some Drupal 10 sites may still require or prefer Seven, so it's available here as a contrib theme.
+
+
+
+Run the following to uninstall it only if it was not disabled before the upgrade
 
 
 
@@ -145,7 +149,7 @@ Only \~ _**3%**_ of modules are not compatible.
 Paved the way for a smoother upgrade process to Drupal 10
 {% endhint %}
 
-## 4. Update old Varbase \~9.0 projects to Drupal 10 <a href="#quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10" id="quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10"></a>
+## 4. Update old Varbase \~9.0 composer.josn to Drupal 10 <a href="#quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10" id="quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10"></a>
 
 1. Update the project to latest version of **Varbase `~9.0`**
 2. Add `"drupal/core": "~10.1.0",` in the **root `composer.json`** file.
@@ -154,7 +158,7 @@ Paved the way for a smoother upgrade process to Drupal 10
 5. Change `"drupal/core-dev": "~10.0",` in the **root `composer.json`** file.
 6. Have the composer as in [https://github.com/Vardot/varbase-project/blob/9.0.16/composer.json](https://github.com/Vardot/varbase-project/blob/9.0.16/composer.json)​
 7. Run `composer update` number of times ( do that 3 times min )
-8. Run `drush updb` number of times ( do that 3 times min)
+8. Run `./bin/drush updb` number of times ( do that 3 times min)
 
 ## Fix Non-existent Permissions Issues
 
