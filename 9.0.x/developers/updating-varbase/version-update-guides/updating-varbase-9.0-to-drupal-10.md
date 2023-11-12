@@ -96,7 +96,7 @@ Better to upgrade the Rabbit Hole module from `~1.0` to `~2.0` before the upgrad
 
 
 
-`composer updatedrupal/rabbit_hole`
+`composer update drupal/rabbit_hole`
 
 `drush updb`
 {% endhint %}
