@@ -8,8 +8,8 @@ It is important to follow with the pre-lunch or pre-deployment checklist on the 
 
 Varbase Development enables number of needed development tools, But they should not be enabled on production sites.
 
-{% content-ref url="development-components/varbase-development.md" %}
-[varbase-development.md](development-components/varbase-development.md)
+{% content-ref url="understanding-varbase/development-components/varbase-development.md" %}
+[varbase-development.md](understanding-varbase/development-components/varbase-development.md)
 {% endcontent-ref %}
 
 * [ ] **Varbase Development**&#x20;
