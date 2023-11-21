@@ -118,7 +118,6 @@
     * [Install Needed YARN and Gulp Tools](developers/extending-varbase/install-needed-tools.md)
     * [Compiling Provided Component Styles](developers/extending-varbase/compiling-provided-component-styles.md)
     * [Check Standards/Practice Coding And Linting](developers/extending-varbase/check-standards-practice-coding-and-linting.md)
-  * [Development Tools](developers/development-tools.md)
 * [9⃣ Content Designers](content-designers/README.md)
   * [Terminology](content-designers/terminology.md)
   * [Accessing the Administration Area](content-designers/accessing-the-administration-area/README.md)
