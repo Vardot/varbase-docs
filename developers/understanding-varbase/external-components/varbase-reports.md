@@ -15,7 +15,7 @@ Drupal.org: [https://www.drupal.org/project/varbase\_reports](https://www.drupal
 
 After building a project using the `varbase-project` template.
 
-**Install with Composer:** `$ composer require 'drupal/varbase_reports:9.0.x-dev@dev'`\
+**Install with Composer:** `$ composer require 'drupal/varbase_reports:~10'`\
 [Using Composer to manage Drupal site dependencies](https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies)
 
 The code of the **Varbase Reports** module will be located in:
