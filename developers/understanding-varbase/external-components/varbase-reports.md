@@ -40,3 +40,21 @@ Brings in the following core and contributed modules to your site:
 | [**Views Date Format SQL**](https://www.drupal.org/project/views\_date\_format\_sql)   | Allows to format date fields using SQL. This enables group aggregation. (Needs 'Date Views' to work with Date-module fields.) |
 | [**CSV Serialization**](https://www.drupal.org/project/csv\_serialization)             | Provides CSV as a serialization format.                                                                                       |
 | [**Views data export**](https://www.drupal.org/project/views\_data\_export)            | Plugin to export views data into various file formats.                                                                        |
+
+
+
+
+
+<figure><img src="../../../.gitbook/assets/varbase_reports--navigate-to-reports--varbase-reports-menu-link.png" alt=""><figcaption><p>Navigate to <strong>Reports \ Varbase Reports</strong></p></figcaption></figure>
+
+
+
+<figure><img src="../../../.gitbook/assets/varbase_reports--navigate-to-reports--varbase-reports-page.png" alt=""><figcaption><p><strong>The Varbase Reports Page</strong></p></figcaption></figure>
+
+
+
+<figure><img src="../../../.gitbook/assets/varbase_reports--Registered-Users-Report.png" alt=""><figcaption><p><strong>The Registered Users Report Page</strong></p></figcaption></figure>
+
+
+
+<figure><img src="../../../.gitbook/assets/varbase_reports--Created-Content-Report.png" alt=""><figcaption><p><strong>The Created Content Report Page</strong></p></figcaption></figure>
