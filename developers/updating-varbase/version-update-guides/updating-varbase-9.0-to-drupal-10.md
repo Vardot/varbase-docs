@@ -75,7 +75,7 @@ Update the module from `~2.0` to `~3.0`  to run the migrate update process to sw
 ./bin/drush `pm:uninstall allowed_formats`
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="warning" %}
 * Issue [#3383538](https://www.drupal.org/i/3383538): Removed **Allowed Formats** module, as it was added in **Drupal `~10.1.0`** core
 * [#784672: Allow text field to enforce a specific text format](https://www.drupal.org/project/drupal/issues/784672)
 * [#3324446: Allowed formats are in Drupal 10.1 now, add an upgrade path](https://www.drupal.org/project/allowed\_formats/issues/3324446)
@@ -89,7 +89,7 @@ In the `3.x` branch of this module this feature has been removed as obsolete, bu
 The module provides also a feature that allows site builders to hide the formatted text format help and guidelines. Even this feature is still preserved in the **`3.x`** module branch, there is an issue that aims to move it in **Drupal core in the future**. See [https://www.drupal.org/i/3323007](https://www.drupal.org/i/3323007).
 {% endhint %}
 
-{% hint style="success" %}
+{% hint style="warning" %}
 **Upgrade the** [**Rabbit Hole**](https://www.drupal.org/project/rabbit\_hole) **module**
 
 Better to upgrade the Rabbit Hole module from `~1.0` to `~2.0` before the upgrade.
@@ -101,8 +101,8 @@ Better to upgrade the Rabbit Hole module from `~1.0` to `~2.0` before the upgrad
 `./bin/drush updb`
 {% endhint %}
 
-{% hint style="success" %}
-4. **Uninstall the** [**Seven**](https://www.drupal.org/project/seven) **Admin theme**
+{% hint style="warning" %}
+* [ ] **Uninstall the** [**Seven**](https://www.drupal.org/project/seven) **Admin theme**
 
 Seven was the default administrative theme for Drupal 7, 8, and 9.\
 In Drupal 10, it was replaced by Claro.
@@ -116,8 +116,19 @@ Run the following to uninstall it only if it was not disabled before the upgrade
 
 
 `./bin/drush theme:uninstall seven`
+{% endhint %}
 
+{% hint style="warning" %}
+* [ ] **Uninstall the** [**Quick Edit**](https://www.drupal.org/project/drupal/issues/3227033) **module**
 
+When upgrading an old **Varbase \~8** site which was upgraded to **Varbase \~9**, but the quick edit module was not disabled yet, ( It was only deprecated, but removed form **Drupal \~10** ).
+
+Make sure to uninstall the module before upgrading to Drupal 10
+
+* [#3236754: Removed the Quick Edit module from Varbase install](https://www.drupal.org/project/varbase\_core/issues/3236754)
+* [#3227033: Removed Quick Edit from core](https://www.drupal.org/project/drupal/issues/3227033)
+
+Changed [Varbase Admin](https://docs.varbase.vardot.com/dev-docs/understanding-varbase/core-components/varbase-core/varbase-admin) - Removed **QuickEdit** from Varbase Core too
 {% endhint %}
 
 ## 3. Check for **Drupal 10 Compatibility**
