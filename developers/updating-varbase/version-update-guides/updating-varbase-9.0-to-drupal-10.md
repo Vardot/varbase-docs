@@ -121,7 +121,7 @@ Run the following to uninstall it only if it was not disabled before the upgrade
 {% hint style="warning" %}
 * [ ] **Uninstall the** [**Quick Edit**](https://www.drupal.org/project/drupal/issues/3227033) **module**
 
-When upgrading an old **Varbase \~8** site which was upgraded to **Varbase \~9**, but the quick edit module was not disabled yet, ( It was only deprecated, but removed form **Drupal \~10** ).
+When upgrading an old **Varbase \~8** site which was upgraded to **Varbase \~9**, but the quick edit module was not disabled yet, ( It was only deprecated, but removed from **Drupal \~10** ).
 
 Make sure to uninstall the module before upgrading to Drupal 10
 
