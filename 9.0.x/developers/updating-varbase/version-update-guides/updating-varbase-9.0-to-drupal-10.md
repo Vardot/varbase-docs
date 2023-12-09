@@ -168,7 +168,7 @@ Paved the way for a smoother upgrade process to Drupal 10
 4. Change `drupal/core-composer-scaffold` to `~10` in the **root `composer.json`** file.
 5. Change `drupal/core-project-message` to `~10` in the **root `composer.json`** file.
 6. Change `"drupal/core-dev": "~10",` in the **root `composer.json`** file.
-7. Have the composer as in [https://github.com/Vardot/varbase-project/blob/9.1.0/composer.json​](https://github.com/Vardot/varbase-project/blob/9.1.0/composer.json%E2%80%8B)
+7. Have the composer as in [https://github.com/Vardot/varbase-project/blob/9.1.0/composer.json](https://github.com/Vardot/varbase-project/blob/9.1.0/composer.json)​
 8. Run `composer update` number of times ( do that 3 times min )
 9. Run `./bin/drush updb` number of times ( do that 3 times min)
 
