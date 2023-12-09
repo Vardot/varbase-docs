@@ -11,20 +11,10 @@ Updating Varbase should always be done in a **local or development environment**
 DO NOT update Varbase directly when in production.
 {% endhint %}
 
-{% hint style="success" %}
-**Issue** [**#3392564**](https://www.drupal.org/i/3392564)**: Updated the Varbase `9.0.x` branch to use Drupal `~10.1.0`**
-{% endhint %}
-
 {% hint style="warning" %}
 **​**[**Drupal 9 is end of life - PSA-2023-11-01**](https://www.drupal.org/psa-2023-11-01)**​**
 
 November 1, 2023 (UTC) Drupal 9 reaches end-of-life due to its dependency on Symfony 4. Reference: Symfony 4.4 release checker.&#x20;
-{% endhint %}
-
-{% hint style="success" %}
-* Issue [#3392444](https://www.drupal.org/i/3392444): Revamped the `9.1.x` branch for **Varbase Core** module to work with **Drupal \~10.1.0** and custom needed changes for a smoother upgrade process
-* Issue [#3392577](https://www.drupal.org/i/3392577): Revamped the `9.1.x` branch for **Varbase Editor** to work with **Drupal `~10.1.0`** and custom needed changes for a smoother upgrade process
-* Issue [#3395943](https://www.drupal.org/i/3395943): Revamped the `9.1.x` branch for **Varbase Bootstrap Paragraphs** to work with **Drupal `~10.1.0`** and custom needed changes for a smoother upgrade process
 {% endhint %}
 
 {% hint style="danger" %}
@@ -152,15 +142,7 @@ Only \~ _**3%**_ of modules are not compatible.
 * If we can drop the use of not well maintained module, do that by having the code in the project as a local custom module and remove it from the composer.json file
 {% endhint %}
 
-{% hint style="success" %}
-**All default used modules in Varbase 9  have Drupal 10 Compatibility**
-
-[**Varbase 9.0.16**](https://www.drupal.org/project/varbase/releases/9.0.16) was released on **15 Oct 2023**
-
-Paved the way for a smoother upgrade process to Drupal 10
-{% endhint %}
-
-## 4. Update old Varbase \~9.0 composer.josn to Drupal 10 <a href="#quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10" id="quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10"></a>
+## 4. Update old Varbase \~9.0.0 to \~9.1.0 composer.josn to Drupal 10 <a href="#quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10" id="quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10"></a>
 
 1. Update the project to latest version of **Varbase `~9`**
 2. Change  `"vardot/varbase": "~9.1.0",` in the **`root composer.json`** file.
@@ -168,7 +150,7 @@ Paved the way for a smoother upgrade process to Drupal 10
 4. Change `drupal/core-composer-scaffold` to `~10` in the **root `composer.json`** file.
 5. Change `drupal/core-project-message` to `~10` in the **root `composer.json`** file.
 6. Change `"drupal/core-dev": "~10",` in the **root `composer.json`** file.
-7. Have the composer as in [https://github.com/Vardot/varbase-project/blob/9.1.0/composer.json​](https://github.com/Vardot/varbase-project/blob/9.1.0/composer.json%E2%80%8B)
+7. Have the composer as in [https://github.com/Vardot/varbase-project/blob/9.1.0/composer.json](https://github.com/Vardot/varbase-project/blob/9.1.0/composer.json)
 8. Run `composer update` number of times ( do that 3 times min )
 9. Run `./bin/drush updb` number of times ( do that 3 times min)
 
