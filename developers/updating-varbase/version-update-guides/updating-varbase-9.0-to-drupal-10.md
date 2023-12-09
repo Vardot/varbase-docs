@@ -21,10 +21,6 @@ November 1, 2023 (UTC) Drupal 9 reaches end-of-life due to its dependency on Sym
 **​**[**Drush 11 support will end in November 2023**](https://www.drush.org/12.x/install/#drupal-compatibility)
 {% endhint %}
 
-{% hint style="success" %}
-Issue [#3394196](https://www.drupal.org/i/3394196): Updated default used **Drush** from `~11.0` to `~12.0`
-{% endhint %}
-
 {% content-ref url="../updating-drush-to-the-latest-stable-version.md" %}
 [updating-drush-to-the-latest-stable-version.md](../updating-drush-to-the-latest-stable-version.md)
 {% endcontent-ref %}
