@@ -140,15 +140,33 @@ Only \~ _**3%**_ of modules are not compatible.
 
 ## 4. Update old Varbase \~9.0.0 to \~9.1.0 composer.josn to Drupal 10 <a href="#quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10" id="quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10"></a>
 
-1. Update the project to latest version of **Varbase `~9`**
-2. Change  `"vardot/varbase": "~9.1.0",` in the **`root composer.json`** file.
+{% hint style="danger" %}
+**Important to read and follow with all steps from the beginning of this page.**
+{% endhint %}
+
+1. Update the project to latest version of **Varbase `~9.0.0`**
+2. Change `"vardot/varbase": "~9.0.0",` to  `"vardot/varbase": "~9.1.0",` in the **`root composer.json`** file.
 3. Add `"drupal/core": "~10",` in the **`root composer.json`** file.
 4. Change `drupal/core-composer-scaffold` to `~10` in the **root `composer.json`** file.
 5. Change `drupal/core-project-message` to `~10` in the **root `composer.json`** file.
 6. Change `"drupal/core-dev": "~10",` in the **root `composer.json`** file.
-7. Have the composer as in [https://github.com/Vardot/varbase-project/blob/9.1.0/composer.json](https://github.com/Vardot/varbase-project/blob/9.1.0/composer.json)
+7. Have the composer as in [https://github.com/Vardot/varbase-project/blob/9.1.0/composer.json](https://github.com/Vardot/varbase-project/blob/9.1.0/composer.json)​
 8. Run `composer update` number of times ( do that 3 times min )
 9. Run `./bin/drush updb` number of times ( do that 3 times min)
+
+{% hint style="success" %}
+✅ Released [**Varbase 9.0.17**](https://www.drupal.org/project/varbase/releases/9.0.17) ( **`Drupal ~9`** **old way** )\
+✅ Released [**Varbase 9.1.0**](https://www.drupal.org/project/varbase/releases/9.1.0) ( **`Drupal ~10`** **old way** ) for upgrades\
+✅ Released [**Varbase 10.0.0-rc1**](https://www.drupal.org/project/varbase/releases/10.0.0-rc1) ( **`Drupal ~10` new way** - it's a migration track not an update)&#x20;
+{% endhint %}
+
+{% hint style="danger" %}
+Dropping support for **Drupal \~9**
+{% endhint %}
+
+{% hint style="success" %}
+### [Sailing Smoothly with Drupal 10: A Blueprint for Long-Term Success](https://www.vardot.com/en/ideas/blog/sailing-smoothly-drupal-10-blueprint-long-term-success)
+{% endhint %}
 
 ## Fix Non-existent Permissions Issues
 
