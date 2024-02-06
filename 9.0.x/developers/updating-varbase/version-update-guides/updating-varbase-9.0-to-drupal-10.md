@@ -138,7 +138,7 @@ Only \~ _**3%**_ of modules are not compatible.
 * If we can drop the use of not well maintained module, do that by having the code in the project as a local custom module and remove it from the composer.json file
 {% endhint %}
 
-## 4. Update old Varbase \~9.0.0 to \~9.1.0 in composer.json for Drupal 10 <a href="#quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10" id="quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10"></a>
+## 4. Update old Varbase \~9.0.0 to \~9.1.0 in composer.json File <a href="#quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10" id="quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10"></a>
 
 {% hint style="danger" %}
 **Important to read and follow with all steps from the beginning of this page.**
