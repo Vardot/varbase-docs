@@ -138,7 +138,7 @@ Only \~ _**3%**_ of modules are not compatible.
 * If we can drop the use of not well maintained module, do that by having the code in the project as a local custom module and remove it from the composer.json file
 {% endhint %}
 
-## 4. Update old Varbase \~9.0.0 to \~9.1.0 composer.josn to Drupal 10 <a href="#quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10" id="quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10"></a>
+## 4. Update old Varbase \~9.0.0 to \~9.1.0 in composer.json for Drupal 10 <a href="#quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10" id="quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10"></a>
 
 {% hint style="danger" %}
 **Important to read and follow with all steps from the beginning of this page.**
@@ -155,7 +155,7 @@ Only \~ _**3%**_ of modules are not compatible.
 9. Run `./bin/drush updb` number of times ( do that 3 times min)
 
 {% hint style="success" %}
-✅ Released [**Varbase 9.0.17**](https://www.drupal.org/project/varbase/releases/9.0.17) ( **`Drupal ~9`** **old way** )\
+✅ Released [**Varbase 9.0.18**](https://www.drupal.org/project/varbase/releases/9.0.18) ( **`Drupal ~9`** **old way** )\
 ✅ Released [**Varbase 9.1.0**](https://www.drupal.org/project/varbase/releases/9.1.0) ( **`Drupal ~10`** **old way** ) for upgrades\
 ✅ Released [**Varbase 10.0.0-rc1**](https://www.drupal.org/project/varbase/releases/10.0.0-rc1) ( **`Drupal ~10` new way** - it's a migration track not an update)&#x20;
 {% endhint %}
