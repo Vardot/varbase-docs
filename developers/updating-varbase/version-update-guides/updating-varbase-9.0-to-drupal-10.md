@@ -118,7 +118,11 @@ Changed [Varbase Admin](https://docs.varbase.vardot.com/dev-docs/understanding-v
 {% endhint %}
 
 {% hint style="danger" %}
-Swiftmailer no longer supported and it's marked as a security issue.
+### Switch From Swift Mailer to Symfony Mailer
+
+
+
+Swiftmailer is no longer supported and it's marked as a security issue.
 
 > Bringing a security issue with the composer\
 > No longer supported in Drupal
@@ -129,11 +133,11 @@ Swiftmailer no longer supported and it's marked as a security issue.
 Project not supported: This project is no longer supported, and is no longer available for download. Disabling everything included by this project is strongly recommended!\
 \---\
 Uninstall this module immediately. The swiftmailer library has been unsupported for a year, and this module is now also unsupported.\
-Switch to Symfony Mailer in systems
+Switch to Symfony Mailer in systems.
 
 
 
-### [Switch From Swift Mailer to Symfony Mailer](https://docs.varbase.vardot.com/developers/configuring-a-varbase-site/configuring-varbase-mailer-settings/switch-from-swift-mailer-to-symfony-mailer)
+## &#x20;[   <mark style="background-color:red;">**Switch From Swift Mailer to Symfony Mailer**</mark>   ](https://docs.varbase.vardot.com/developers/configuring-a-varbase-site/configuring-varbase-mailer-settings/switch-from-swift-mailer-to-symfony-mailer)
 {% endhint %}
 
 ## 3. Check for **Drupal 10 Compatibility**
