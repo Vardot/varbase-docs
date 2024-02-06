@@ -118,6 +118,21 @@ Changed [Varbase Admin](https://docs.varbase.vardot.com/dev-docs/understanding-v
 {% endhint %}
 
 {% hint style="danger" %}
+Swiftmailer no longer supported and it's marked as a security issue.
+
+> Bringing a security issue with the composer\
+> No longer supported in Drupal
+
+**Not supported!**
+
+[Swift Mailer - Moderately critical - Access bypass - SA-CONTRIB-2024-006](https://www.drupal.org/sa-contrib-2024-006)\
+Project not supported: This project is no longer supported, and is no longer available for download. Disabling everything included by this project is strongly recommended!\
+\---\
+Uninstall this module immediately. The swiftmailer library has been unsupported for a year, and this module is now also unsupported.\
+Switch to Symfony Mailer in systems
+
+
+
 ### [Switch From Swift Mailer to Symfony Mailer](https://docs.varbase.vardot.com/developers/configuring-a-varbase-site/configuring-varbase-mailer-settings/switch-from-swift-mailer-to-symfony-mailer)
 {% endhint %}
 
@@ -142,7 +157,7 @@ Only \~ _**3%**_ of modules are not compatible.
 * If we can drop the use of not well maintained module, do that by having the code in the project as a local custom module and remove it from the composer.json file
 {% endhint %}
 
-## 4. Update old Varbase \~9.0.0 to \~9.1.0 in composer.json for Drupal 10 <a href="#quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10" id="quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10"></a>
+## 4. Update old Varbase \~9.0.0 to \~9.1.0 in composer.json File <a href="#quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10" id="quick-steps-to-update-old-varbase-9.0-sites-to-drupal-10"></a>
 
 {% hint style="danger" %}
 **Important to read and follow with all steps from the beginning of this page.**
