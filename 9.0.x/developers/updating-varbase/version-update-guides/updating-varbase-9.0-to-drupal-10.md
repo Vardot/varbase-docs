@@ -117,6 +117,31 @@ Make sure to uninstall the module before upgrading to Drupal 10
 Changed [Varbase Admin](https://docs.varbase.vardot.com/dev-docs/understanding-varbase/core-components/varbase-core/varbase-admin) - Removed **QuickEdit** from Varbase Core too
 {% endhint %}
 
+
+
+{% hint style="danger" %}
+### Switch From Swift Mailer to Symfony Mailer
+
+
+
+Swiftmailer is no longer supported and it's marked as a security issue.
+
+> Bringing a security issue with the composer\
+> No longer supported in Drupal
+
+**Not supported!**
+
+[Swift Mailer - Moderately critical - Access bypass - SA-CONTRIB-2024-006](https://www.drupal.org/sa-contrib-2024-006)\
+Project not supported: This project is no longer supported, and is no longer available for download. Disabling everything included by this project is strongly recommended!\
+\---\
+Uninstall this module immediately. The swiftmailer library has been unsupported for a year, and this module is now also unsupported.\
+Switch to Symfony Mailer in systems.
+{% endhint %}
+
+{% content-ref url="../../configuring-a-varbase-site/configuring-varbase-mailer-settings/switch-from-swift-mailer-to-symfony-mailer.md" %}
+[switch-from-swift-mailer-to-symfony-mailer.md](../../configuring-a-varbase-site/configuring-varbase-mailer-settings/switch-from-swift-mailer-to-symfony-mailer.md)
+{% endcontent-ref %}
+
 ## 3. Check for **Drupal 10 Compatibility**
 
 {% hint style="warning" %}
