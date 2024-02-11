@@ -50,12 +50,11 @@ $settings['config_exclude_modules'] = ['devel', 'stage_file_proxy', 'cl_server']
 
 * Change the following **Cross-Site HTTP requests (CORS)** in the **`development.services.yml`** file.
 
-{% hint style="info" %}
 ```yaml
 # Local development services.
 #
 # To activate this feature, follow the instructions at the top of the
-# 'example.settings.local.php' file, which sits next to this file.
+# 'settings.platformsh.php' or 'settings.local.php' file, which sits next to this file.
 parameters:
   twig.config:
     debug: true
@@ -66,10 +65,12 @@ parameters:
     # Specify allowed headers, like 'x-allowed-header'.
     allowedHeaders: ['*']
     # Specify allowed request methods, specify ['*'] to allow all possible ones.
-    allowedMethods: []
+    allowedMethods: ['*']
     # Configure requests allowed from specific origins. Do not include trailing
     # slashes with URLs.
     allowedOrigins: ['*']
+    # Configure requests allowed from origins, matching against regex patterns.
+    allowedOriginsPatterns: ['*']
     # Sets the Access-Control-Expose-Headers header.
     exposedHeaders: false
     # Sets the Access-Control-Max-Age header.
@@ -79,8 +80,9 @@ parameters:
 services:
   cache.backend.null:
     class: Drupal\Core\Cache\NullBackendFactory
+
+
 ```
-{% endhint %}
 
 {% hint style="warning" %}
 Not recommended to keep **`"cors.config"`** with **`"enabled: true"`** in production environments.
