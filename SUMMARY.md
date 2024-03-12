@@ -37,6 +37,7 @@
       * [Vartheme BS5](developers/understanding-varbase/core-components/vartheme-bs5.md)
     * [Optional Components](developers/understanding-varbase/optional-components/README.md)
       * [Varbase API](developers/understanding-varbase/optional-components/varbase-api.md)
+      * [Varbase AI](developers/understanding-varbase/optional-components/varbase-ai.md)
       * [Varbase Internationalization](developers/understanding-varbase/optional-components/varbase-internationalization.md)
       * [Varbase Media Hero Slider](developers/understanding-varbase/optional-components/varbase-media-hero-slider.md)
       * [Varbase Carousels](developers/understanding-varbase/optional-components/varbase-carousels.md)
