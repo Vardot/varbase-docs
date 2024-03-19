@@ -1,6 +1,6 @@
 # Varbase AI
 
-Collection of provided and configured recipes for AI tools, to empower Varbase editorial teams with more advanced Artificial Intelligence (AI) options.
+Provides a collection of recipes for AI tools. Enhances editorial team's capabilities with a range of advanced Artificial Intelligence (AI) options.
 
 ## Varbase API Module
 
