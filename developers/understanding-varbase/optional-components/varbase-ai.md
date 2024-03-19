@@ -34,3 +34,14 @@ Brings in the following core and contributed modules to your site:
 Can be installed in the extra components installation step with Varbase.
 
 <figure><img src="../../../.gitbook/assets/Extra-components-Varbase10--varbase_ai.png" alt=""><figcaption><p>Extra Components with Varbase AI</p></figcaption></figure>
+
+## **Optional Varbase AI Recipes**
+
+By installing the Varbase AI module, the site will only, but developers can apply optional recipes
+
+* [Add OpenAI to Simple Editor text format](https://git.drupalcode.org/project/varbase\_ai/-/tree/1.0.x/recipes/add-openai-to-basic\_html-text-format?ref\_type=heads)
+* [Add OpenAI to Rich Editor text format](https://git.drupalcode.org/project/varbase\_ai/-/tree/1.0.x/recipes/add-openai-to-basic\_html-text-format?ref\_type=heads)
+
+{% hint style="success" %}
+#### Planned to add more **Varbase AI Recipes**
+{% endhint %}
