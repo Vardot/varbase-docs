@@ -32,3 +32,5 @@ Brings in the following core and contributed modules to your site:
 ## Listed in the extra components
 
 Can be installed in the extra components installation step with Varbase.
+
+<figure><img src="../../../.gitbook/assets/Extra-components-Varbase10--varbase_ai.png" alt=""><figcaption><p>Extra Components with Varbase AI</p></figcaption></figure>
