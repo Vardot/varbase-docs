@@ -37,7 +37,7 @@ Can be installed in the extra components installation step with Varbase.
 
 ## **Optional Varbase AI Recipes**
 
-By installing the Varbase AI module, the site will only, but developers can apply optional recipes
+By installing the **Varbase AI** module, the site will only have the [**Default Varbase AI Recipe**](https://git.drupalcode.org/project/varbase\_ai/-/blob/1.0.x/recipes/default/recipe.yml?ref\_type=heads), but developers can apply optional recipes.
 
 * [Add OpenAI to Simple Editor text format](https://git.drupalcode.org/project/varbase\_ai/-/tree/1.0.x/recipes/add-openai-to-basic\_html-text-format?ref\_type=heads)
 * [Add OpenAI to Rich Editor text format](https://git.drupalcode.org/project/varbase\_ai/-/tree/1.0.x/recipes/add-openai-to-basic\_html-text-format?ref\_type=heads)
