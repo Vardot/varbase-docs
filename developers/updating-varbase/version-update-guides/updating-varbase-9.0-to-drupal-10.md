@@ -356,3 +356,19 @@ It was removed from the `10.0.x` and `10.1.x` branch.
 
 [#2953111: Only migrate role permissions that exist on the destination](https://www.drupal.org/project/drupal/issues/2953111)
 {% endhint %}
+
+{% hint style="warning" %}
+**Not able to connect to the Database after upgrading from Drupal 9 to 10**
+
+In case of using MySQL database
+
+Edit the **`$databases['default']['default']`** in `settings.php or local.settings.php file`
+
+1. **Remove the old namespace**
+
+`'namespace' => 'Drupal\Core\Database\Driver\mysql',`
+
+1. **Add the following in the database settings**
+
+`'namespace' => 'Drupal\mysql\Driver\Database\mysql', 'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',`
+{% endhint %}
