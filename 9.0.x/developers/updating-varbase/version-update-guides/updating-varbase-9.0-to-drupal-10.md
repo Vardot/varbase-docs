@@ -372,5 +372,8 @@ Edit the **`$databases['default']['default']`** in  `settings.php` or `local.set
 
 2. **Add the following in the database settings**
 
-`'namespace' => 'Drupal\mysql\Driver\Database\mysql', 'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',`
+`'namespace' => 'Drupal\mysql\Driver\Database\mysql',`
+
+`'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',`
 {% endhint %}
+
