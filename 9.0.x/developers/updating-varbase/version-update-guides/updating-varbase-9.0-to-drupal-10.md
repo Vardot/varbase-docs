@@ -364,7 +364,7 @@ It was removed from the `10.0.x` and `10.1.x` branch.
 
 In case of using MySQL database
 
-Edit the **`$databases['default']['default']`** in  `settings.php or local.settings.php file`
+Edit the **`$databases['default']['default']`** in  `settings.php` or `local.settings.php` file.
 
 1. **Remove the old namespace**&#x20;
 
