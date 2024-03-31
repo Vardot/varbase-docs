@@ -8,9 +8,9 @@ Includes a toolkit for robust, quick, and enterprise content moderation features
 Varbase workflow features are bundled through the **Varbase Workflow** module.\
 GitHub: [https://github.com/Vardot/varbase\_workflow](https://github.com/Vardot/varbase\_workflow)\
 Drupal.org: [https://www.drupal.org/project/varbase\_workflow](https://www.drupal.org/project/varbase\_workflow)
+{% endhint %}
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase Workflow** module in:
-{% endhint %}
 
 ```
 project_directory

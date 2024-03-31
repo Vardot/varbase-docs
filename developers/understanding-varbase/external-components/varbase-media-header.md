@@ -11,7 +11,7 @@ Drupal.org: [https://www.drupal.org/project/varbase\_media\_header](https://www.
 
 After building a project using the `varbase-project` template.
 
-**Install with Composer:** `$ composer require 'drupal/varbase_media_header:^9.0'`\
+**Install with Composer:** `$ composer require 'drupal/varbase_media_header:~10'`\
 [Using Composer to manage Drupal site dependencies](https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies)
 
 The code of the **Varbase Media Header** module will be located in:

@@ -15,7 +15,7 @@ Drupal.org: [https://www.drupal.org/project/varbase\_faqs](https://www.drupal.or
 
 After building a project using the `varbase-project` template.
 
-**Install with Composer:** `$ composer require 'drupal/varbase_faqs:^9.0'`\
+**Install with Composer:** `$ composer require 'drupal/varbase_faqs:~10'`\
 [Using Composer to manage Drupal site dependencies](https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies)
 
 The code of the **Varbase FAQs** module will be located in:

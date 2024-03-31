@@ -11,7 +11,7 @@ Drupal.org: [https://www.drupal.org/project/varbase\_youtube\_import](https://ww
 
 After building a project using the `varbase-project` template.
 
-**Install with Composer:** `$ composer require 'drupal/`varbase\_youtube\_import`:^1.0'`\
+**Install with Composer:** `$ composer require 'drupal/`varbase\_youtube\_import`:~1'`\
 [Using Composer to manage Drupal site dependencies](https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies)
 
 The code of the **Varbase YouTube Import** module will be located in:

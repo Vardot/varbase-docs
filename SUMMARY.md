@@ -25,6 +25,7 @@
       * [Varbase Email](developers/understanding-varbase/core-components/varbase-email.md)
       * [Varbase SEO](developers/understanding-varbase/core-components/varbase-seo.md)
       * [Varbase Workflow](developers/understanding-varbase/core-components/varbase-workflow.md)
+      * [Varbase Dashboards](developers/understanding-varbase/core-components/varbase-dashboards.md)
       * [Varbase Layout Builder](developers/understanding-varbase/core-components/varbase-layout-builder/README.md)
         * [Varbase Landing page (Layout Builder)](developers/understanding-varbase/core-components/varbase-layout-builder/varbase-landing-page-layout-builder.md)
         * [Varbase Heading Block](developers/understanding-varbase/core-components/varbase-layout-builder/varbase-heading-block.md)
