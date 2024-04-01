@@ -57,9 +57,29 @@ php core/scripts/drupal generate-theme new_theme_name
 
 This script will copy over all the files from the **Vartheme BS5** theme, and replace instances of **Vartheme BS5**'s machine name and label with the strings you provide.
 
+### Copy All Varbase Components to the New Custom Theme
+
+```
+cd PATH_TO_THE_PROJECT/docroot
+cp -r modules/contrib/varbase_components/components themes/custom/PROJECT_THEME/components
+```
+
+Add `replaces:` to all copied Varbase Components within all `.component.yml` files.
+
+Follow up with the following link
+
+{% content-ref url="customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md" %}
+[customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md](customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md)
+{% endcontent-ref %}
+
 ### Customizing CSS
 
 The new theme should look and function identically to **Vartheme BS5** out of the box, but the styles could be changed to suit the project's needs. **Vartheme BS5**'s styles are written using **Bootstrap 5**, `SASS`, `PostCSS`, which is installed and configured **Varbase**, and allows `CSS` authors to write modern `CSS` while still supporting browsers that have not fully implemented the newest methodologies.
+
+### Customizing Bootstrap's JavaScripts
+
+* Issue [#3423178](https://www.drupal.org/i/3423178): Moved all **Bootstrap** **`~5.3.0`** **JavaScript** libraries to **Single Directory Components (SDC)** in **Varbase Components**
+* Issue [#3423174](https://www.drupal.org/i/3423174): Added **Bootstrap** **\~5.3.0** **JavaScript** libraries in **Varbase Components** and only attache them with needed SDC components
 
 As part of the `generate-theme` command, the necessary `package.json` dependencies and scripts files are copied over for the project. Simply install the dependencies and then run `yarn theme:init` once, and then either the `yarn theme:full-build` command to compile the assets once or the `yarn theme:watch` command to re-compile the assets every time a `.scss` file is changed.
 
