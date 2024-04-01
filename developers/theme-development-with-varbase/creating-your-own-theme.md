@@ -57,6 +57,16 @@ php core/scripts/drupal generate-theme new_theme_name
 
 This script will copy over all the files from the **Vartheme BS5** theme, and replace instances of **Vartheme BS5**'s machine name and label with the strings you provide.
 
+
+
+{% hint style="warning" %}
+**After Installing the New Custom Theme**
+
+**Uninstall Vartheme BS5 after creating a new theme**
+
+At this point the new generated theme will not need the Vartheme BS5 to be installed Please,&#x20;
+{% endhint %}
+
 ### Copy All Varbase Components to the New Custom Theme
 
 ```
