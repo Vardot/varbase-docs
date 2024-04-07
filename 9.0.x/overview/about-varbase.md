@@ -1,4 +1,4 @@
-# About Varbase 9
+# 9️⃣ About Varbase
 
 ![The Ultimate Drupal CMS Starter Kit (Bootstrap Ready)](<../.gitbook/assets/Large-Logo Color with padding.png>)
 
@@ -24,8 +24,6 @@ Varbase can bring ease to you if you are:
 ## Give It a Spin and Try It
 
 We simplify and organize all the work for you! So you can enjoy building your website in less time.
-
-Try out Varbase on [**accounts.vardot.com**](https://accounts.vardot.com/)**.**
 
 
 
