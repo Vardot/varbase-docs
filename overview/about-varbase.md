@@ -1,6 +1,6 @@
 # 🔟 About Varbase
 
-![The Ultimate Drupal CMS Starter Kit (Bootstrap Ready)](<../.gitbook/assets/Large-Logo Color with padding.png>)
+<figure><img src="../.gitbook/assets/varbase-medium-logo-color-with-padding.png" alt="The Ultimate Drupal CMS Starter Kit (Bootstrap Ready)"><figcaption><p>The Ultimate Drupal CMS Starter Kit (Bootstrap Ready)</p></figcaption></figure>
 
 ## **Introduction**
 
