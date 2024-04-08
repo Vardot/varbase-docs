@@ -1,12 +1,10 @@
 # Varbase Patches
 
-When working with Drupal, it's common to patch core or contrib modules to fix bugs or review code changes before they're officially released. While applying patches via patch files is straightforward, using GitLab's merge request (MR) feature presents a challenge due to unstable diff URLs.
+When working with **Drupal**, it's common to patch core or contrib modules to fix bugs or review code changes before they're officially released. While applying patches via patch files is straightforward, using **GitLab**'s merge request (**MR**) feature presents a challenge due to unstable diff URLs.
 
-As multiple commits are added to an MR, generating a stable patch file becomes complex. To create a static patch file for an MR at a specific point in time, simply set up a 'patches' folder next to your global composer.json. Download the diff into this folder and utilize composer-patches to apply it seamlessly.
+As multiple commits are added to an MR, generating a stable patch file becomes complex. To create a static patch file for an MR at a specific point in time, simply set up a **`'patches'`** folder next to your **root** **`composer.json`**. Download the **`.diff`** or **`.patch`** into this folder and utilize [**`composer-patches`**](https://github.com/cweagans/composer-patches) to apply it seamlessly.
 
-To address this, a solution involves creating a static patch file for an MR at a specific point in time. This can be achieved by establishing a 'patches' folder within your project, situated alongside your global composer.json file. Within this folder, the diff can be downloaded, and subsequently, the composer-patches tool can be employed to apply it effectively.
-
-**Varbase Patches** has the list of needed patches for Varbase used packages with Composer Patches.
+[**`Varbase Patches`**](https://github.com/Vardot/varbase-patches) has the list of needed patches for **Varbase** used packages with **Composer Patches.**
 
 ***
 
@@ -66,31 +64,30 @@ This will be a copy of Merge Request (MR), as it is important not to add `.diff`
 
 ### Examples of Names for Local Patch files:
 
-`drupal-core--2024-01-09--3049332-85.patch`
-
-`drupal-core--10-2-x--3046152-49.patch`
-
-`rabbit_hole--2024-02-04--3419073-3.patch`
-
-`ui_patterns_settings--2023-12-17--3409221-3--mr-21--39e896da.patch`
+* `drupal-core--2024-01-09--3049332-85.patch`
+* `drupal-core--10-2-x--3046152-49.patch`
+* `rabbit_hole--2024-02-04--3419073-3.patch`
+* `ui_patterns_settings--2023-12-17--3409221-3--mr-21--39e896da.patch`
 
 ## Why Direct Links for Merge Requests Aren't Preferred
 
 To understand the process better, consult the [Drupal Contributor Guide](https://www.drupal.org/community/contributor-guide/find-a-task) , and [Creating merge requests](https://www.drupal.org/docs/develop/git/using-gitlab-to-contribute-to-drupal/creating-merge-requests) for detailed instructions on handling issues.
 
-When creating merge requests, it's better to use composer-patches' solution for dealing with merge request URLs from drupal.org. This solution adds support for patch checksums, preventing issues where the new patch wouldn't apply due to checksum mismatches. Such issues can disrupt builds, compromising stability and security. Note that this solution is included in version 2, which hasn't been officially released at the time of writing.
+When creating merge requests, it's better to use **composer-patches**' solution for dealing with merge request URLs from **drupal.org**. This solution adds support for patch checksums, preventing issues where the new patch wouldn't apply due to checksum mismatches.
 
-Choosing direct merge requests over patching isn't the best option for maintaining stability, especially considering Drupal's shift from patching to merge requests.
+Such issues can disrupt builds, compromising stability and security. Note that this solution is included in version 2, which hasn't been officially released at the time of writing.
+
+{% hint style="danger" %}
+**Choosing direct merge requests over patching isn't the best option for maintaining stability, especially considering Drupal's shift from patching to merge requests.**
+{% endhint %}
 
 As you implement these changes, it's recommended to convert existing patches into merge requests. Merge requests are preferred over patches in the Drupal community.
 
 Therefore, necessary patches originating from merge requests will be stored in this designated storage branch.
 
-[Patches from drupal.org merge request URLs are dangerous?](https://github.com/cweagans/composer-patches/issues/347)
-
-&#x20;[Add support for patch checksums](https://github.com/cweagans/composer-patches/pull/388).
-
-[**composer-patches 2.0.0** hasn't been released yet](https://github.com/cweagans/composer-patches/issues/451)
+* [Patches from drupal.org merge request URLs are dangerous?](https://github.com/cweagans/composer-patches/issues/347)
+* [Add support for patch checksums](https://github.com/cweagans/composer-patches/pull/388).
+* [**`composer-patches 2.0.0`** hasn't been released yet](https://github.com/cweagans/composer-patches/issues/451)
 
 ***
 
