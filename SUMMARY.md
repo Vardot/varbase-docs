@@ -106,6 +106,7 @@
     * [Manually Install Needed Theming Tools](developers/theme-development-with-varbase/manually-install-needed-theming-tools.md)
   * [Launching a Varbase Site to Production](developers/launching-a-varbase-site-to-production.md)
   * [Updating a Varbase Site](developers/updating-varbase/README.md)
+    * [Varbase Patches](developers/updating-varbase/varbase-patches.md)
     * [Understanding Varbase Updater Package](developers/updating-varbase/understanding-varbase-updater-package.md)
     * [Handling Patches When Updating](developers/updating-varbase/handling-patches-when-updating.md)
     * [Handling Configuration Updates](developers/updating-varbase/handling-configuration-updates.md)
