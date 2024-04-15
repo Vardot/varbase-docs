@@ -66,8 +66,8 @@ Those components are detailed in the table below:
 [varbase-blog.md](../optional-components/varbase-blog.md)
 {% endcontent-ref %}
 
-{% content-ref url="../optional-components/varbase-media-hero-slider.md" %}
-[varbase-media-hero-slider.md](../optional-components/varbase-media-hero-slider.md)
+{% content-ref url="../deprecated-components/varbase-media-hero-slider.md" %}
+[varbase-media-hero-slider.md](../deprecated-components/varbase-media-hero-slider.md)
 {% endcontent-ref %}
 
 {% content-ref url="varbase-layout-builder/" %}

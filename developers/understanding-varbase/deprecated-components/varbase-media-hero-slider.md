@@ -1,17 +1,17 @@
-# Varbase Hero Slider
+# Varbase Media Hero Slider
 
 Populates the universal implementation of a "Hero Slider" to be used on the homepage in most cases.
 
 A rich hero slider that allow Content Admins to display video and/or image slides. It implements the universal "Hero Slider" to be used in your homepage.
 
-## Varbase Hero Slider Module
+## Varbase Media Hero Slider Module
 
 {% hint style="info" %}
-Varbase media hero slider features are bundled through the **Varbase Hero Slider** module.\
-GitHub: [https://github.com/Vardot/varbase\_heroslider](https://github.com/Vardot/varbase\_heroslider)\
-Drupal.org: [https://www.drupal.org/project/varbase\_heroslider](https://www.drupal.org/project/varbase\_heroslider)
+Varbase media hero slider features are bundled through the **Varbase Media Hero Slider** module.\
+GitHub: [https://github.com/Vardot/varbase\_heroslider\_media](https://github.com/Vardot/varbase\_heroslider\_media)\
+Drupal.org: [https://www.drupal.org/project/varbase\_heroslider\_media](https://www.drupal.org/project/varbase\_heroslider\_media)
 
-After building a project using the `varbase-project` template, you can see the code of the **Varbase Hero Slider** module in:
+After building a project using the `varbase-project` template, you can see the code of the **Varbase Media Hero Slider** module in:
 {% endhint %}
 
 ```
@@ -19,13 +19,15 @@ project_directory
 |-- docroot
     |-- modules
         |-- contrib
-            |-- varbase_heroslider
+            |-- varbase_heroslider_media
 ```
 
 Brings in the following core and contributed modules to your site:
 
 | Module                                                                                  | Purpose                                                                                             |
 | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| [**Slick Carousel**](https://www.drupal.org/project/slick)                              | Slick carousel, the last carousel you'll ever need.                                                 |
+| [**Slick Views**](https://www.drupal.org/project/slick\_views)                          | Provides Slick carousel integration with Views.                                                     |
 | <p><strong>Link</strong></p><p><em>(in Drupal core)</em></p>                            | Provides a simple link field type.                                                                  |
 | <p><strong>Menu UI</strong></p><p><em>(in Drupal core)</em></p>                         | Allows administrators to customize the site navigation menu.                                        |
 | [**Entityqueue**](https://www.drupal.org/project/entityqueue)                           | Allows users to collect entities in arbitrarily ordered lists.                                      |
@@ -35,28 +37,29 @@ Brings in the following core and contributed modules to your site:
 | [**Advanced Text Formatter**](https://www.drupal.org/project/advanced\_text\_formatter) | Provides an additional formatter for text field, text area and text format.                         |
 | [**Maxlength**](https://www.drupal.org/project/maxlength)                               | Limit the number of characters in textfields and textareas and shows the amount of characters left. |
 
-## Features
-
-* A full-width responsive **Hero Slider**.
-* Easy to customize slides to act as a promotional feature typically displayed in the site's homepage.
-* **Queued** Hero Sliders.
-
-### Required Varbase Modules <a href="#required-varbase-modules" id="required-varbase-modules"></a>
+## Required Varbase Modules
 
 This module needs the following Varbase modules in order to function.
 
-#### Varbase Component Module
-
-Provides a components for hero sliders, slides, carousel, and needed hero card patterns.
-
-{% content-ref url="../core-components/varbase-components.md" %}
-[varbase-components.md](../core-components/varbase-components.md)
-{% endcontent-ref %}
-
-#### Varbase Media Module <a href="#varbase-media-module" id="varbase-media-module"></a>
+### Varbase Media Module
 
 Manages type of media contents and entity browsers in the site.
 
 {% content-ref url="../core-components/varbase-media.md" %}
 [varbase-media.md](../core-components/varbase-media.md)
 {% endcontent-ref %}
+
+## Features
+
+* A full-width responsive **Media Hero Slider**.
+* Easy to customize slides to act as a promotional feature typically displayed in the site's homepage.
+* **Queued** Media Hero Sliders.
+
+## Configure Varbase Media Hero Slider
+
+{% content-ref url="../../configuring-a-varbase-site/configure-varbase-media-hero-slider.md" %}
+[configure-varbase-media-hero-slider.md](../../configuring-a-varbase-site/configure-varbase-media-hero-slider.md)
+{% endcontent-ref %}
+
+
+
