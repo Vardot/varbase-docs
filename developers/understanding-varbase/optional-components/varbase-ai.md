@@ -37,9 +37,9 @@ Can be installed in the extra components installation step with Varbase.
 
 ## **Optional Varbase AI Recipes**
 
-By installing the **Varbase AI** module, the site will only have the [**Default Varbase AI Recipe**](https://git.drupalcode.org/project/varbase\_ai/-/blob/1.0.x/recipes/default/recipe.yml?ref\_type=heads), but developers can apply optional recipes.
+By installing the **Varbase AI** module, the site will only have the [**Default Varbase AI Recipe**](https://git.drupalcode.org/project/varbase\_ai/-/blob/1.0.x/recipes/default/recipe.yml), but developers can apply optional recipes.
 
-When the **Varbase AI** module is installed, the site is initially equipped with the <img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> **Default Varbase AI Recipe**. However, developers can extend its capabilities by integrating optional recipes.
+When the **Varbase AI** module is installed, the site is initially equipped with the[ <img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> **Default Varbase AI Recipe**](https://git.drupalcode.org/project/varbase\_ai/-/blob/1.0.x/recipes/default/recipe.yml). However, developers can extend its capabilities by integrating optional recipes.
 
 Below are the recipes designed to integrate Varbase AI with optional functionalities:
 
@@ -48,7 +48,7 @@ Below are the recipes designed to integrate Varbase AI with optional functionali
 * [<img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> Add OpenAI to Rich Editor](https://github.com/Vardot/add-openai-to-rich-editor)
 
 {% hint style="info" %}
-**NOTE:** [<img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> Setup Varbase AI](https://github.com/vardot/setup-varbase-ai) recipe is the same as [<img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> Default Varbase AI Recipe](https://git.drupalcode.org/project/varbase/\_ai/-/blob/1.0.x/recipes/default/recipe.yml?ref\\\_type=heads), But dose not need to enable the **Varbase AI** module.
+**NOTE:** [<img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> Setup Varbase AI](https://github.com/vardot/setup-varbase-ai) recipe is the same as <img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> [Default Varbase AI Recipe](https://git.drupalcode.org/project/varbase\_ai/-/blob/1.0.x/recipes/default/recipe.yml), But dose not need to enable the **Varbase AI** module.
 
 Run this recipe to activate Varbase AI, But without the need to enable the Varbase AI module.
 {% endhint %}
