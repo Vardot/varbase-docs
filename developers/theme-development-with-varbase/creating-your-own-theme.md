@@ -102,10 +102,14 @@ yarn install
 {% hint style="warning" %}
 Recommended to use **Yarn**, Please do not use `npm install`
 
-you may fun into issue while installing
+you may run into issue while installing
 
 the list of packages in the `package.json was optimized for better use with Yarn`
 {% endhint %}
+
+{% content-ref url="../extending-varbase/install-needed-tools.md" %}
+[install-needed-tools.md](../extending-varbase/install-needed-tools.md)
+{% endcontent-ref %}
 
 ## Initialize the Theme Once
 
