@@ -124,7 +124,7 @@ Please see the [@lullabot/storybook-drupal-addon](https://www.github.com/lullabo
 #### Change the Local Development Domain
 
 * Change `varbase.local` in the **`package.json`** file to the appropriate local or development domain name.
-* Replace `http://varbase.local` in the **`preview.js`** file with the base URL of your project or an environment variable representing the local or development domain.
+* Replace `process.env.STORYBOOK_CL_SERVER_DOMAIN` in the **`preview.js`** file with the base URL of your project or an environment variable representing the local or development domain.
 * Open a command terminal window and navigate to your project's directory.
 * Run the **`yarn install`** command in the terminal to install the necessary dependencies.
 * Run the **`yarn storybook:dev`** command to start the development site for the **Storybook**.
