@@ -35,10 +35,11 @@ Follow the steps below to setup Varbase with Lando.
       'prefix' => '',
       'host' => 'database',
       'port' => '3306',
-      'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+      'isolation_level' => 'READ COMMITTED',
       'driver' => 'mysql',
+      'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
+      'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/'
     ];
-
     ```
 5.  Start the **Lando** project and enjoy.
 
