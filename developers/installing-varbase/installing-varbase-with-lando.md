@@ -29,9 +29,9 @@ Follow the steps below to setup Varbase with Lando.
 
     ```
     $databases['default']['default'] = [
-      'database' => 'drupal9',
-      'username' => 'drupal9',
-      'password' => 'drupal9',
+      'database' => 'drupal10',
+      'username' => 'drupal10',
+      'password' => 'drupal10',
       'prefix' => '',
       'host' => 'database',
       'port' => '3306',
@@ -40,7 +40,6 @@ Follow the steps below to setup Varbase with Lando.
       'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
       'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/'
     ];
-
     ```
 5.  Start the **Lando** project and enjoy.
 
