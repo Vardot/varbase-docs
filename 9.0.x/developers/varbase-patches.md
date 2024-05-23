@@ -111,3 +111,45 @@ Copy
 ```
 
 By integrating this set, you effectively instruct Composer to overlook the specified patch within Varbase Patches. This empowers you to manage patches more efficiently, whether by improving them or opting out of certain patches altogether.
+
+## Drush Command to Clean up Any Merge Request Patches
+
+### **Clean up the Root \`composer.json\` File**
+
+{% hint style="success" %}
+**Name:** `varbase:composer:cleanup:patches`\
+**Aliases:** `var-ccup`\
+**Description:** This command detects any merge request patches, downloads them to the local patches folder with a timestamp, and updates the **root** `` `composer.json` `` file to use the timestamped local patch file.
+{% endhint %}
+
+**Example:**
+
+```php
+./bin/drush varbase:composer:cleanup:patches
+```
+
+or
+
+```php
+./bin/drush var-ccup
+```
+
+### **Clean up the External \`patches-file\` JSON File**
+
+{% hint style="success" %}
+**Name:** `varbase:composer:cleanup:patches-file`\
+**Aliases:** `var-ccupf`\
+**Description:** This command detects any merge request patches, downloads them to the local patches folder with a timestamp, and updates the `` `patches-file JSON` `` file to use the timestamped local patch file.
+{% endhint %}
+
+**Example:**
+
+```php
+./bin/drush varbase:composer:cleanup:patches-file
+```
+
+or
+
+```php
+./bin/drush var-ccupf
+```
