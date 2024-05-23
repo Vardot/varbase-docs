@@ -25,7 +25,7 @@ Follow the steps below to setup Varbase with Lando.
     cd MY_VARBASE_PROJECT
     vim .lando.yml
     ```
-4.  Edit the _settings.php_ file and add the following code to setup the database connection.
+4.  Edit the _settings.php_ file and add the following code to setup the database connection and the config sync directory.
 
     ```
     $databases['default']['default'] = [
@@ -40,6 +40,9 @@ Follow the steps below to setup Varbase with Lando.
       'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
       'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/'
     ];
+
+    $settings['config_sync_directory'] = '../config/sync';
+
     ```
 5.  Build the **Lando** project&#x20;
 
@@ -64,5 +67,5 @@ You can type `lando info` to know the MySQL database hostname, username,  passwo
 
 ### Adding Lando to an existing Varbase project
 
-1. Download _.lando.yml_ from the Varbase project repo [https://github.com/Vardot/varbase-project](https://github.com/Vardot/varbase-project) .
-2. Proceed with steps 3, 4, and 6 mentioned above.
+1. Download `.lando.yml` file and `.lando` folder from the Varbase project repository [https://github.com/Vardot/varbase-project](https://github.com/Vardot/varbase-project) .
+2. Proceed with steps 3, 4, 5, and 6 mentioned above.
