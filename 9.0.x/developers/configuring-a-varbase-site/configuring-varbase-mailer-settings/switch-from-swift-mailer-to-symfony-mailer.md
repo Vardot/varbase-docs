@@ -59,6 +59,12 @@ Use the saved backup copy of **Swift Mailer** mail system configs.
 [configure-symfony-mailer.md](configure-symfony-mailer.md)
 {% endcontent-ref %}
 
+Or import the Varbase email module configuration partially using Drush:
+
+```bash
+drush cim --partial --source=/app/docroot/modules/contrib/varbase_email/config/optional
+```
+
 ## Migrate Custom Templates In Custom Themes
 
 No extra work is needed when no custom changes in themes in projects.
