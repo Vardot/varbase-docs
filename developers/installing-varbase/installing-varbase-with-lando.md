@@ -17,7 +17,7 @@ Follow the steps below to setup Varbase with Lando.
 2.  Create a new Varbase project using Composer, this will include a template file for _.lando.yml_, for information on how to integrate Lando on an existing project scroll to the bottom of this page.
 
     ```
-    composer create-project Vardot/varbase-project:^10.0@alpha MY_VARBASE_PROJECT --no-dev --no-interaction
+    composer create-project vardot/varbase-project:^10@rc MY_VARBASE_PROJECT --no-dev --no-interaction
     ```
 3.  Edit the _.lando.yml_ file and change the `name` value to your project's name.
 
@@ -35,8 +35,10 @@ Follow the steps below to setup Varbase with Lando.
       'prefix' => '',
       'host' => 'database',
       'port' => '3306',
-      'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+      'isolation_level' => 'READ COMMITTED',
       'driver' => 'mysql',
+      'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
+      'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/'
     ];
 
     ```
