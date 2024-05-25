@@ -10,7 +10,7 @@
   * [Installing Varbase](developers/installing-varbase/README.md)
     * [Requirements](developers/installing-varbase/requirements.md)
     * [Installing Varbase with Lando](developers/installing-varbase/installing-varbase-with-lando.md)
-    * [Installing Varbase with DDEV](developers/installing-varbase/installing-varbase-with-lando-1.md)
+    * [Installing Varbase with DDEV](developers/installing-varbase/installing-varbase-with-ddev.md)
   * [Understanding Varbase](developers/understanding-varbase/README.md)
     * [Basic Concepts](developers/understanding-varbase/basic-concepts.md)
     * [Core Components](developers/understanding-varbase/core-components/README.md)

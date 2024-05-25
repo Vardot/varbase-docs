@@ -47,8 +47,8 @@ We recommend you install Varbase with Lando to start a new project.
 
 [DDEV](https://github.com/ddev/ddev) is an open source tool for launching local web development environments in minutes. It supports PHP and other languages.
 
-{% content-ref url="installing-varbase-with-lando-1.md" %}
-[installing-varbase-with-lando-1.md](installing-varbase-with-lando-1.md)
+{% content-ref url="installing-varbase-with-ddev.md" %}
+[installing-varbase-with-ddev.md](installing-varbase-with-ddev.md)
 {% endcontent-ref %}
 
 ## Deploy Varbase on Platform.sh
