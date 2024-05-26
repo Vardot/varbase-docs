@@ -25,10 +25,10 @@ Issue [#3269723](https://www.drupal.org/i/3269723): Switched from deprecated [**
 
 Old sub-themes which had been generated from an older **Vartheme BS4** version. **9.0.11** and older should follow the following steps to have the full switch:
 
-## Update Npm and Nodejs to \~16 Lts Version
+## Update Npm and Nodejs to 18 Lts Version
 
 ```
-curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash - 
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash - 
 sudo apt update
 sudo apt install nodejs
 sudo apt install build-essential
