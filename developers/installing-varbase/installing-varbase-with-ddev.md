@@ -17,7 +17,7 @@ Follow the steps below to setup Varbase with DDEV.
 2.  Create a new Varbase project using Composer, this will include a template file for .ddev/config.yaml, for information on how to integrate DDEV on an existing project scroll to the bottom of this page.
 
     ```
-    composer create-project vardot/varbase-project:^10@rc MY_VARBASE_PROJECT --no-dev --no-interaction
+    composer create-project vardot/varbase-project:~10 MY_VARBASE_PROJECT --no-dev --no-interaction
     ```
 3.  Edit the .ddev/config.yaml file and change the `name` value to your project's name.
 
