@@ -44,12 +44,7 @@ Follow the steps below to setup Varbase with Lando.
     $settings['config_sync_directory'] = '../config/sync';
 
     ```
-5.  Build the **Lando** project&#x20;
-
-    ```
-    lando rebuild
-    ```
-6.  Start the **Lando** project and enjoy.
+5.  Start the **Lando** project and enjoy.
 
     ```
     lando start
@@ -68,4 +63,4 @@ You can type `lando info` to know the MySQL database hostname, username,  passwo
 ### Adding Lando to an existing Varbase project
 
 1. Download `.lando.yml` file and `.lando` folder from the Varbase project repository [https://github.com/Vardot/varbase-project](https://github.com/Vardot/varbase-project) .
-2. Proceed with steps 3, 4, 5, and 6 mentioned above.
+2. Proceed with steps 3, 4, 4, and 5 mentioned above.
