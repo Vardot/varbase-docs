@@ -19,13 +19,29 @@ Use `"Vardot/varbase-patches": "~9.1.0"` in the **root** `composer.json` file.
 
 > with **Varbase `~9.1.0`** **CKEditor `4`** and **Drupal `10`**
 
+{% hint style="info" %}
+**To keep using CKEditor 4** you need the following in the **root** `composer.json` file
+
+`"vardot/varbase-patches": "~9.1.0"`
+
+`"drupal/varbase_editor": "~9.1.0"`
+{% endhint %}
+
 ## Switch Varbase Patches from \~9.1.0 to \~9.2.0
 
 Use `"Vardot/varbase-patches": "~9.2.0"` in the **root** `composer.json` file.
 
 > with **Varbase `~9.1.0`** **CKEditor `5`** and **Drupal `10`**
 
+{% hint style="info" %}
+Make sure to have the following in your system:
 
+`"vardot/varbase-patches": "~9.2.0"`
+
+&#x20;`"drupal/varbase_editor": "~9.2.0"`
+{% endhint %}
+
+Default **Varbase `9.1.x`** is using **Varbase `9.2.x`** with **CKEditor 5**
 
 {% hint style="success" %}
 ✅ Released [**varbase\_editor-9.2.0**](https://www.drupal.org/project/varbase\_editor/releases/9.2.0)
