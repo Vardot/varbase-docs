@@ -93,6 +93,7 @@ Brings in the following core and contributed modules to your site:
 | [**jQuery UI Accordion**](https://www.drupal.org/project/jquery\_ui\_accordion)               | Provides jQuery UI Accordion library.                                                                                                             |
 | [**Fast 404**](https://www.drupal.org/project/fast\_404)                                      | Speed up the generation of 404 pages with this module. Route 404 display to a static page.                                                        |
 | [**Editoria11y Accessibility Checker**](https://www.drupal.org/project/editoria11y)           | Checks for accessibility in page content.                                                                                                         |
+| [**Sitewide Alert**](https://www.drupal.org/project/sitewide\_alert)                          | Provides ability to display an alert message at the top of all pages.                                                                             |
 
 ## Sub modules&#x20;
 
