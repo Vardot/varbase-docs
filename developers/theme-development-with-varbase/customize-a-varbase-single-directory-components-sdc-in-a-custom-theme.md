@@ -79,12 +79,12 @@ The draft has been seamlessly integrated with YAML in SDC Components within the 
 Add the Schema Metadata
 
 ```yaml
-$schema: https://git.drupalcode.org/project/drupal/-/raw/10.2.x/core/modules/sdc/src/metadata.schema.json
+$schema: https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json 
 ```
 
 In all SDC components in **Varbase Components** or custom **`myproject_components`** module.
 
-To follow with **metadata.schema.json** selected by Drupal Core team [https://git.drupalcode.org/project/drupal/-/raw/10.2.x/core/modules/sdc/src/metadata.schema.json](https://git.drupalcode.org/project/drupal/-/raw/10.2.x/core/modules/sdc/src/metadata.schema.json)
+To follow with **metadata.schema.json** selected by Drupal Core team [https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json ](https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json)
 {% endhint %}
 
 {% hint style="success" %}
