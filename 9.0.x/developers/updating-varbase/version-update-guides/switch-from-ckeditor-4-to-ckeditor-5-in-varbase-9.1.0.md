@@ -5,7 +5,7 @@
 Project not supported: This project is no longer supported, and is no longer available for download. Disabling everything included by this project is strongly recommended!
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Available-updates-test-varbase91t1.png" alt=""><figcaption><p>Not Supported Message in Old Sites, whih Still Using CKEditor 4</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Available-updates-test-varbase91t1.png" alt=""><figcaption><p>Not Supported Message in Old Sites, Which Still Using CKEditor 4</p></figcaption></figure>
 
 ## Follow with steps to update to Varbase \~9.1.0
 
