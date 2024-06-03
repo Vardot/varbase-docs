@@ -24,24 +24,25 @@ project_directory
 
 Brings in the following core and contributed modules to your site:
 
-| Module                                                                                                           | Purpose                                                                                  |
-| ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| <p><strong>Layout Builder</strong></p><p><em>(in Drupal core)</em></p>                                           | Allows users to add and arrange blocks and content fields directly on the content.       |
-| [**Layout Builder Restrictions**](https://www.drupal.org/project/layout\_builder\_restrictions)                  | Manage which fields & layouts are available in Layout Builder                            |
-| [**Entity Blocks**](https://www.drupal.org/project/entity\_block)                                                | Let site administrators place content entities as blocks.                                |
-| [**Block Form Alter**](https://www.drupal.org/project/block\_form\_alter)                                        | Provides block form alter functions                                                      |
-| [**Media Library Form API Element**](https://www.drupal.org/project/media\_library\_form\_element)               | A Form API element to select / add new media item.                                       |
-| [**Bootstrap Layouts**](https://www.drupal.org/project/bootstrap\_layouts)                                       | This module is going to generate layouts with Bootstrap grid system.                     |
-| [**Layout Builder Blocks**](https://www.drupal.org/project/layout\_builder\_blocks)                              | Add UI styles support to blocks from Layout Builder module.                              |
-| [**Layout Builder Modal**](https://www.drupal.org/project/layout\_builder\_modal)                                | Open blocks in a modal in the Layout Builder UI.                                         |
-| [**Layout Builder Asymmetric Translation**](https://www.drupal.org/project/layout\_builder\_at)                  | Allows to have separate layout overrides per translation.                                |
-| [**Layout Builder Component Attributes**](https://www.drupal.org/project/layout\_builder\_component\_attributes) | Allows editors to add HTML attributes to Layout Builder components (blocks)              |
-| [**Layout Builder Library**](https://www.drupal.org/project/layout\_library)                                     | Provides a library of layouts for content-editors to select from                         |
-| [**Section Library**](https://www.drupal.org/project/section\_library)                                           | Create reusable templates for single or multiple sections at the layout builder.         |
-| [**Bootstrap Styles**](https://www.drupal.org/project/bootstrap\_styles)                                         | Add a plugins builder and a collection of reusable plugins to the Layout Builder module. |
-| [**Bootstrap Layout Builder**](https://www.drupal.org/project/bootstrap\_layout\_builder)                        | Add Bootstrap Grid support to Layout Builder module.                                     |
-| [**Block Library**](https://www.drupal.org/project/block\_library)                                               | Adds additional functionality to the core block library.                                 |
-| [**Allowed Formats**](https://www.drupal.org/project/allowed\_formats)                                           | Limit which text formats are available for each field instance.                          |
+| Module                                                                                                           | Purpose                                                                                      |
+| ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| <p><strong>Layout Builder</strong></p><p><em>(in Drupal core)</em></p>                                           | Allows users to add and arrange blocks and content fields directly on the content.           |
+| [**Layout Builder Restrictions**](https://www.drupal.org/project/layout\_builder\_restrictions)                  | Manage which fields & layouts are available in Layout Builder                                |
+| [**Entity Blocks**](https://www.drupal.org/project/entity\_block)                                                | Let site administrators place content entities as blocks.                                    |
+| [**Block Form Alter**](https://www.drupal.org/project/block\_form\_alter)                                        | Provides block form alter functions                                                          |
+| [**Media Library Form API Element**](https://www.drupal.org/project/media\_library\_form\_element)               | A Form API element to select / add new media item.                                           |
+| [**Bootstrap Layouts**](https://www.drupal.org/project/bootstrap\_layouts)                                       | This module is going to generate layouts with Bootstrap grid system.                         |
+| [**Layout Builder Blocks**](https://www.drupal.org/project/layout\_builder\_blocks)                              | Add UI styles support to blocks from Layout Builder module.                                  |
+| [**Layout Builder Modal**](https://www.drupal.org/project/layout\_builder\_modal)                                | Open blocks in a modal in the Layout Builder UI.                                             |
+| [**Layout Builder Asymmetric Translation**](https://www.drupal.org/project/layout\_builder\_at)                  | Allows to have separate layout overrides per translation.                                    |
+| [**Layout Builder Component Attributes**](https://www.drupal.org/project/layout\_builder\_component\_attributes) | Allows editors to add HTML attributes to Layout Builder components (blocks)                  |
+| [**Layout Builder Advanced Permissions**](https://www.drupal.org/project/layout\_builder\_perms)                 | Allows for more granular access control to Layout Builder by providing a set of permissions. |
+| [**Layout Builder Library**](https://www.drupal.org/project/layout\_library)                                     | Provides a library of layouts for content-editors to select from                             |
+| [**Section Library**](https://www.drupal.org/project/section\_library)                                           | Create reusable templates for single or multiple sections at the layout builder.             |
+| [**Bootstrap Styles**](https://www.drupal.org/project/bootstrap\_styles)                                         | Add a plugins builder and a collection of reusable plugins to the Layout Builder module.     |
+| [**Bootstrap Layout Builder**](https://www.drupal.org/project/bootstrap\_layout\_builder)                        | Add Bootstrap Grid support to Layout Builder module.                                         |
+| [**Block Library**](https://www.drupal.org/project/block\_library)                                               | Adds additional functionality to the core block library.                                     |
+| [**Allowed Formats**](https://www.drupal.org/project/allowed\_formats)                                           | Limit which text formats are available for each field instance.                              |
 
 ## Used Varbase Components
 
