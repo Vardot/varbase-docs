@@ -13,7 +13,7 @@ Project not supported: This project is no longer supported, and is no longer ava
 [updating-varbase-9.0-to-drupal-10.md](updating-varbase-9.0-to-drupal-10.md)
 {% endcontent-ref %}
 
-## Complete update to Drupal 10 with CKEditor 4
+## Complete the Update to Drupal 10 with CKEditor 4
 
 Use `"Vardot/varbase-patches": "~9.1.0"` in the **root** `composer.json` file.
 
