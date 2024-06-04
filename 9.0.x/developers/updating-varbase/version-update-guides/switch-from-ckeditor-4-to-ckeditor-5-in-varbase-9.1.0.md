@@ -67,8 +67,8 @@ Remove the _"Image Resize Filter: Resize images based on their given height and 
 ```
 {% endcode %}
 
-{% code fullWidth="true" %}
-```
+{% code fullWidth="false" %}
+```json
 "docroot/libraries/ace": ["npm-asset/ace-builds"],
 "docroot/libraries/ckeditor5-anchor-drupal": ["npm-asset/northernco--ckeditor5-anchor-drupal"],
 "docroot/libraries/ckeditor5/plugins/media-embed": ["npm-asset/ckeditor--ckeditor5-media-embed"],
@@ -83,7 +83,7 @@ Remove the _"Image Resize Filter: Resize images based on their given height and 
 ```
 {% endcode %}
 
-{% code fullWidth="true" %}
+{% code fullWidth="false" %}
 ```json
 {"name": "ace", "package": "npm-asset/ace-builds"},
 {"name": "ckeditor5-anchor-drupal", "package": "npm-asset/northernco--ckeditor5-anchor-drupal"},
@@ -123,16 +123,16 @@ Filter content pasted into the CKEditor 5 visual editor by searching and replaci
 This is a CKEditor 5 version of [CKEditor Paste Filter](https://www.drupal.org/project/ckeditor\_paste\_filter) with additional features, most notably that the filters are fully configurable via a form interface and the filters can be configured individually for each text format. This module has been created as a separate project so that sites that are transitioning over to CKEditor 5 can have both modules installed easily, and to allow this project to evolve without needing to maintain compatibility with both CKEditor 4 and 5.
 {% endhint %}
 
-## Switch Rich Editor Text Format From CKEditor 4 to CKEditor 5
+## Switch Rich Editor Text Format to CKEditor 5
 
 * Navigate to "/admin/config/content/formats/manage/full\_html"
-* Select "CKEditor 5" from "Text editor" dropdown.
+* Select _"CKEditor 5"_ from _"Text editor"_ dropdown.
 * Follow up with the needed changes then save configuration
 
-## Switch Simple Editor Text Format From CKEditor 4 to CKEditor 5
+## Switch Simple Editor Text Format to CKEditor 5
 
 * Navigate to "/admin/config/content/formats/manage/basic\_html"
-* Select "CKEditor 5" from "Text editor" dropdown.
+* Select _"CKEditor 5"_ from _"Text editor"_ dropdown.
 * Follow up with the needed changes then save configuration
 
 ## Disable the CKEditor 4 Module
@@ -143,8 +143,20 @@ At Some point you will need to remove `drupal/ckeditor` module from the project,
 ./bin/drush pm:uninstall ckeditor
 ```
 
-## Remove All CKEditor 4 not Supported CKEditor 5 Plugins
+## Remove All Not Supported CKEditor 5 Plugins and Modules
 
 In case of having extra CKEditor plugins, further than the ones in Varbase Editor, follow with each plugin command button, action, filter. With the new update version
 
-This will for sure&#x20;
+This will for sure, manage to have the full switch from CKEditor 4 to CKEditor 5
+
+## Known Issues When Switching to CKEditor 5
+
+### CKEditor 5 Stylesheets
+
+Manage the stylesheets for the editor in project's sub theme
+
+```php
+ckeditor5_stylesheets: false
+```
+
+* Issue [#3346060](https://www.drupal.org/i/3346060): Changed `ckeditor5-stylesheets` to `false` in **Vartheme BS5** not to load with the admin theme
