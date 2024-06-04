@@ -35,7 +35,7 @@ Use `"Vardot/varbase-patches": "~9.1.0"` in the **root** `composer.json` file.
 `"drupal/varbase_editor": "~9.1.0"`
 {% endhint %}
 
-## Uninstall the Following Modules
+## Uninstall no Longer CKEditor 5 Supported Modules
 
 ### Uninstall CKEditor Past  Filter
 
@@ -50,7 +50,7 @@ This module is for CKEditor 4 only. For CKEditor 5 need to use [CKEditor 5 Paste
 ### Uninstall Image Resize Filter
 
 {% hint style="danger" %}
-This module is for CKEditor 4 only. No support for CKEditor 5.
+No support for CKEditor 5. No plan for that.
 {% endhint %}
 
 Remove the _"Image Resize Filter: Resize images based on their given height and width attributes"_ check in **Rich editor**, and **Simple Editor,** then uninstall it
