@@ -13,7 +13,7 @@ Project not supported: This project is no longer supported, and is no longer ava
 [updating-varbase-9.0-to-drupal-10.md](updating-varbase-9.0-to-drupal-10.md)
 {% endcontent-ref %}
 
-Default **Varbase `9.1.x`** is using **Varbase `9.2.x`** with **CKEditor 5**
+Default **Varbase `9.1.x`** is using **Varbase Editor `9.2.x`** with **CKEditor 5**
 
 {% hint style="success" %}
 ✅ Released [**varbase\_editor-9.2.0**](https://www.drupal.org/project/varbase\_editor/releases/9.2.0)
