@@ -13,6 +13,14 @@ Project not supported: This project is no longer supported, and is no longer ava
 [updating-varbase-9.0-to-drupal-10.md](updating-varbase-9.0-to-drupal-10.md)
 {% endcontent-ref %}
 
+Default **Varbase `9.1.x`** is using **Varbase `9.2.x`** with **CKEditor 5**
+
+{% hint style="success" %}
+✅ Released [**varbase\_editor-9.2.0**](https://www.drupal.org/project/varbase\_editor/releases/9.2.0)
+
+* Issue [#3442752](https://www.drupal.org/i/3442752): Started a new `9.2.x` branch for **Varbase Editor** to support **CKEditor 5** and drop support for CKEditor 4
+{% endhint %}
+
 ## Complete the Update to Drupal 10 with CKEditor 4
 
 Use `"Vardot/varbase-patches": "~9.1.0"` in the **root** `composer.json` file.
@@ -27,7 +35,69 @@ Use `"Vardot/varbase-patches": "~9.1.0"` in the **root** `composer.json` file.
 `"drupal/varbase_editor": "~9.1.0"`
 {% endhint %}
 
-## Switch Varbase Patches from \~9.1.0 to \~9.2.0
+## Uninstall the Following Modules
+
+### Uninstall CKEditor Past  Filter
+
+{% hint style="danger" %}
+This module is for CKEditor 4 only. For CKEditor 5 need to use [CKEditor 5 Paste Filter](https://www.drupal.org/project/ckeditor5\_paste\_filter)
+{% endhint %}
+
+```bash
+./bin/drush pm:uninstall ckeditor_paste_filter
+```
+
+### Uninstall Image Resize Filter
+
+{% hint style="danger" %}
+This module is for CKEditor 4 only. No support for CKEditor 5.
+{% endhint %}
+
+Remove the _"Image Resize Filter: Resize images based on their given height and width attributes"_ check in **Rich editor**, and **Simple Editor,** then uninstall it
+
+```
+./bin/drush pm:uninstall image_resize_filter
+```
+
+## Add the Following Under Installer Patches
+
+{% code title="In the root composer.json file for the project" %}
+```
+"installer-paths": {
+```
+{% endcode %}
+
+{% code fullWidth="true" %}
+```
+"docroot/libraries/ace": ["npm-asset/ace-builds"],
+"docroot/libraries/ckeditor5-anchor-drupal": ["npm-asset/northernco--ckeditor5-anchor-drupal"],
+"docroot/libraries/ckeditor5/plugins/media-embed": ["npm-asset/ckeditor--ckeditor5-media-embed"],
+```
+{% endcode %}
+
+## Add the Following Under Drupal Libraries
+
+{% code title="In the root composer.json file for the project" fullWidth="false" %}
+```
+ "drupal-libraries": {
+```
+{% endcode %}
+
+{% code fullWidth="true" %}
+```json
+{"name": "ace", "package": "npm-asset/ace-builds"},
+{"name": "ckeditor5-anchor-drupal", "package": "npm-asset/northernco--ckeditor5-anchor-drupal"},
+{"name": "ckeditor5-media-embed", "package": "npm-asset/ckeditor--ckeditor5-media-embed"}
+```
+{% endcode %}
+
+## Enabled the CKEditor 5 Module
+
+```
+./bin/drush en ckeditor5
+```
+
+## Switch Varbase Editor from \~9.1.0 to \~9.2.0
 
 Use `"Vardot/varbase-patches": "~9.2.0"` in the **root** `composer.json` file.
 
@@ -41,61 +111,40 @@ Make sure to have the following in your system:
 &#x20;`"drupal/varbase_editor": "~9.2.0"`
 {% endhint %}
 
-Default **Varbase `9.1.x`** is using **Varbase `9.2.x`** with **CKEditor 5**
+## Enable the **CKEditor 5 Paste Filter Module**
 
-{% hint style="success" %}
-✅ Released [**varbase\_editor-9.2.0**](https://www.drupal.org/project/varbase\_editor/releases/9.2.0)
+```
+./bin/drush en ckeditor5_paste_filter
+```
 
+Filter content pasted into the CKEditor 5 visual editor by searching and replacing with the power of regular expressions.
 
-
-* Issue [#3442752](https://www.drupal.org/i/3442752): Started a new `9.2.x` branch for **Varbase Editor** to support **CKEditor 5** and drop support for CKEditor 4
-* having the following
-  * <mark style="color:blue;">Started a new</mark> <mark style="color:blue;"></mark><mark style="color:blue;">`9.2.x`</mark> <mark style="color:blue;"></mark><mark style="color:blue;">branch for</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Varbase Editor**</mark>
-  * <mark style="color:blue;">Switched to</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**CKEditor 5**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">and drop support for</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**CKEditor 4**</mark>
-  * <mark style="color:blue;">Enabled the</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**CKEditor 5**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">module</mark> <mark style="color:blue;"></mark> <mark style="color:blue;"></mark><mark style="color:blue;">`- drupal:ckeditor5`</mark>
-  * <mark style="color:blue;">Removed</mark> <mark style="color:blue;"></mark><mark style="color:blue;">`"drupal/ckeditor": "~1",`</mark> <mark style="color:blue;"></mark><mark style="color:blue;">from the</mark> <mark style="color:blue;"></mark><mark style="color:blue;">`composer.json`</mark> <mark style="color:blue;"></mark><mark style="color:blue;">file.</mark>
-  * <mark style="color:blue;">Changed to</mark> <mark style="color:blue;"></mark><mark style="color:blue;">`"vardot/varbase-patches": "~9.2.0",`</mark>
-  * <mark style="color:blue;">Changed to</mark> <mark style="color:blue;"></mark><mark style="color:blue;">`"drupal/anchor_link": "~3",`</mark>
-  * <mark style="color:blue;">Changed to</mark> <mark style="color:blue;"></mark><mark style="color:blue;">`"drupal/ckeditor_media_embed": "~2",`</mark>
-* Issue [#3414834](https://www.drupal.org/i/3414834): Switched default config for **Rich editor** and **Simple editor** from **CKEditor 4** to **CKEditor 5**
-*   Issue [#3442854](https://www.drupal.org/i/3442854): Added **CKEditor 5 Paste Filter** module to Varbase Editor&#x20;
-
-    > Filter content pasted into the CKEditor 5 visual editor by searching and replacing with the power of regular expressions.
-
-    This is a CKEditor 5 version of [CKEditor Paste Filter](https://www.drupal.org/project/ckeditor\_paste\_filter) with additional features, most notably that the filters are fully configurable via a form interface and the filters can be configured individually for each text format. This module has been created as a separate project so that sites that are transitioning over to CKEditor 5 can have both modules installed easily, and to allow this project to evolve without needing to maintain compatibility with both CKEditor 4 and 5.
-* Issue [#3445309](https://www.drupal.org/i/3445309): Removed **CKEditor 4** `dependencies`/`install` for full switch to **CKEditor 5** in **Varbase Editor**
-  * Removed CKEditor 4 dependencies or any install
-  * Removed `"drupal/ckeditor_paste_filter": "~1",` from the `composer.json` file.
-  * Removed`"drupal/image_resize_filter": "~1",` from the `composer.json` file.
-*   Issue [#3445408](https://www.drupal.org/i/3445408): Added **CKEditor 5** and **ACE** libraries using [asset-packagist.org](https://asset-packagist.org/) in **Varbase Editor**
-
-    <pre class="language-php"><code class="lang-php">"npm-asset/ace-builds": "~1",
-    "npm-asset/northernco--ckeditor5-anchor-drupal": "^0.4.0",
-    "npm-asset/ckeditor--ckeditor5-media-embed": "*"
-
-    <a data-footnote-ref href="#user-content-fn-1">Old projects needs to add the following under</a>
-    <a data-footnote-ref href="#user-content-fn-2"> "installer-paths": { </a>
-    <a data-footnote-ref href="#user-content-fn-3"> in the root composer.json file for the project</a>
-
-    "docroot/libraries/ace": ["npm-asset/ace-builds"],
-    "docroot/libraries/ckeditor5-anchor-drupal": ["npm-asset/northernco--ckeditor5-anchor-drupal"],
-    "docroot/libraries/ckeditor5/plugins/media-embed": ["npm-asset/ckeditor--ckeditor5-media-embed"],
-
-    <a data-footnote-ref href="#user-content-fn-4">Also needs to add the following under</a>
-    <a data-footnote-ref href="#user-content-fn-5"> "drupal-libraries": {</a>
-
-    {"name": "ace", "package": "npm-asset/ace-builds"},
-    {"name": "ckeditor5-anchor-drupal", "package": "npm-asset/northernco--ckeditor5-anchor-drupal"},
-    {"name": "ckeditor5-media-embed", "package": "npm-asset/ckeditor--ckeditor5-media-embed"}
-    </code></pre>
+{% hint style="info" %}
+This is a CKEditor 5 version of [CKEditor Paste Filter](https://www.drupal.org/project/ckeditor\_paste\_filter) with additional features, most notably that the filters are fully configurable via a form interface and the filters can be configured individually for each text format. This module has been created as a separate project so that sites that are transitioning over to CKEditor 5 can have both modules installed easily, and to allow this project to evolve without needing to maintain compatibility with both CKEditor 4 and 5.
 {% endhint %}
 
-[^1]: 
+## Switch Rich Editor Text Format From CKEditor 4 to CKEditor 5
 
-[^2]: 
+* Navigate to "/admin/config/content/formats/manage/full\_html"
+* Select "CKEditor 5" from "Text editor" dropdown.
+* Follow up with the needed changes then save configuration
 
-[^3]: 
+## Switch Simple Editor Text Format From CKEditor 4 to CKEditor 5
 
-[^4]: 
+* Navigate to "/admin/config/content/formats/manage/basic\_html"
+* Select "CKEditor 5" from "Text editor" dropdown.
+* Follow up with the needed changes then save configuration
 
-[^5]: 
+## Disable the CKEditor 4 Module
+
+At Some point you will need to remove `drupal/ckeditor` module from the project, and make sure that it is no longer installed.
+
+```
+./bin/drush pm:uninstall ckeditor
+```
+
+## Remove All CKEditor 4 not Supported CKEditor 5 Plugins
+
+In case of having extra CKEditor plugins, further than the ones in Varbase Editor, follow with each plugin command button, action, filter. With the new update version
+
+This will for sure&#x20;
