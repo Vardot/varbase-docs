@@ -7,7 +7,7 @@ Project not supported: This project is no longer supported, and is no longer ava
 
 <figure><img src="../../../.gitbook/assets/Available-updates-test-varbase91t1.png" alt=""><figcaption><p>Not Supported Message in Old Sites, Which Still Using CKEditor 4</p></figcaption></figure>
 
-## Follow with steps to update to Varbase \~9.1.0
+## Follow With Steps to Update Varbase to \~9.1.0 With Drupal 10
 
 {% content-ref url="updating-varbase-9.0-to-drupal-10.md" %}
 [updating-varbase-9.0-to-drupal-10.md](updating-varbase-9.0-to-drupal-10.md)
