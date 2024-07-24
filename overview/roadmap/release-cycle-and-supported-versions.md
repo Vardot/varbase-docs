@@ -18,4 +18,8 @@ See the below image for an illustration of supported versions and major release 
 
 ***
 
+[Drupal 11's stable release is coming early the week of 29 July 2024.](https://x.com/drupal/status/1816112116060901683)
+
+Which changes Varbase's old release cycle
+
 <figure><img src="../../.gitbook/assets/Varbase-Release-Tracker--Planner-new-Releas-Cycle-table.png" alt=""><figcaption><p>From 2021 to 2024</p></figcaption></figure>
