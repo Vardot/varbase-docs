@@ -55,6 +55,10 @@ No support for CKEditor 5. No plan for that.
 
 Remove the _"Image Resize Filter: Resize images based on their given height and width attributes"_ check in **Rich editor**, and **Simple Editor,** then uninstall it
 
+{% hint style="danger" %}
+Disable this plugin inside the Simple editor and Rich editor before uninstalling the module to avoid issue: image\_resize\_filter: Provides a filter plugin that is in use in the following filter formats: Simple editor, Rich editor
+{% endhint %}
+
 ```
 ./bin/drush pm:uninstall image_resize_filter
 ```
