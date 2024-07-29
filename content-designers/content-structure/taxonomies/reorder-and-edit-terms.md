@@ -4,7 +4,7 @@ description: Reorder and edit the terms inside a specific vocabulary
 
 # Reorder and Edit Terms
 
-## Reorder Terms
+Reorder Terms
 
 To reorder the terms inside the taxonomy follow these steps:&#x20;
 
@@ -14,11 +14,11 @@ To reorder the terms inside the taxonomy follow these steps:&#x20;
 4. A separate page will load with all the list of vocabularies.
 5. Choose the taxonomy that you want to reorder there terms, Click on List terms.
 
-![List Terms of the Taxonomy](<../../../.gitbook/assets/image (39).png>)
+<figure><img src="../../../.gitbook/assets/image (117).png" alt=""><figcaption><p>List Terms of the Taxonomy</p></figcaption></figure>
 
-6\. You can drag and drop using the below icon to reorder the terms in the taxonomy.
+6. You can drag and drop using the below icon to reorder the terms in the taxonomy.
 
-![Reorder Terms in Taxonomy](<../../../.gitbook/assets/image (55).png>)
+<figure><img src="../../../.gitbook/assets/image (118).png" alt=""><figcaption><p>Reorder Terms in Taxonomy</p></figcaption></figure>
 
 ## Edit Terms
 
@@ -29,15 +29,11 @@ In order to edit the terms inside the taxonomy follow these steps:&#x20;
 3. Click **Taxonomy.**
 4. A separate page will load with all the list of vocabularies.
 5. Choose the taxonomy that you want to edit it terms, Click on List terms.
+6. Chose the term that you want to edit it then click on **Edit**
 
-![List Terms of Blog Categories Taxonomy](<../../../.gitbook/assets/image (22).png>)
+<figure><img src="../../../.gitbook/assets/image (119).png" alt=""><figcaption><p>Edit Terms</p></figcaption></figure>
 
-6\. Chose the term that you want to edit it then click on **Edit**
+7. A separate page will load, the user can edit the terms of the vocabulary.
+8. Click the **Save** button.
 
-![Edit Terms](<../../../.gitbook/assets/image (15).png>)
-
-7\. A separate page will load, the user can edit the terms of the vocabulary.
-
-![Edit the Blog Term](<../../../.gitbook/assets/image (36).png>)
-
-8\. Click the **Save** button, located at the bottom of the page.
+<figure><img src="../../../.gitbook/assets/image (120).png" alt=""><figcaption><p>Edit the Blog Term</p></figcaption></figure>

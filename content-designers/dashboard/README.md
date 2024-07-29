@@ -6,46 +6,40 @@ description: >-
 
 # Dashboard
 
-This dashboard is built on top of [Total Control Admin Dashboard](https://www.drupal.org/project/total\_control) module, utilizing Panels, [Google Analytics Reports](https://www.drupal.org/project/google\_analytics\_reports), and several enhanced blocks and widgets for an intuitive and flexible administration experience.\
-
+This dashboard is built on top of [Total Control Admin Dashboard](https://www.drupal.org/project/total\_control) module, utilizing Panels, [Google Analytics Reports](https://www.drupal.org/project/google\_analytics\_reports), and several enhanced blocks and widgets for an intuitive and flexible administration experience.
 
 > The idea is made to provide the site admins with an appealing and concise dashboard to become the home of any Drupal site's administration task.
 
-![Varbase Total Control Admin Dashboard](<../../.gitbook/assets/varbase-total-control-admin-dashboard-imac\_0 (1).png>)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Drupal Total Control Admin Dashboard</p></figcaption></figure>
 
 ## How to Edit a Dashboard
 
 To edit the current Dashboard follow these steps:
 
-1. In the **Manage** administrative menu, navigate to **Structure**_>_**Pages**_._
+1. In the Dashboard, click on _**Default Dashboard.**_
 
-![Varbase administration menu](../../.gitbook/assets/Dashboard\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Dashboard Page</p></figcaption></figure>
 
-2\. Click **edit** under **Total Control dashboard**_._
+2. In the **Default Dashboard** page you can manage the parts you need to update.
 
-![Varbse Pages administration](../../.gitbook/assets/Pages\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Default Dashboard Page</p></figcaption></figure>
 
-3\. Click on **Varbase Dashboard**_>_**Content**
-
-![ Editing Dashboard content in Varbase](../../.gitbook/assets/Content\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)
-
-4\. Try to update the dashboard by:
+3. Try to update the dashboard by:
 
 * Reorder the default blocks under **the dashboard.**&#x20;
-* Add Variant&#x20;
+* Add Section
 * Delete Page.
-* Add new block
+* Add New Block
 
-![Varbase Dashboard blocks](<../../.gitbook/assets/Content\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020 (1).png>)
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Drupal Dashboard Blocks</p></figcaption></figure>
 
-5\. Click **Update and save**\
-
+5. Click **Save layout.**
 
 ## Edit Current User Account from Dashboard
 
 On the Dashboard page, user is able to edit his account information directly from the edit button on the top section.&#x20;
 
-![Varbase edit Account](<../../.gitbook/assets/Dashboard\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020 (1).png>)
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Drupal Edit Account</p></figcaption></figure>
 
 {% hint style="info" %}
 To edit the user information check **User Management** section > [**Edit user**](../user-management/edit-user.md)

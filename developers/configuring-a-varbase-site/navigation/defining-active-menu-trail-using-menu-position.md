@@ -12,7 +12,7 @@ This is a problem for the users because they will get lost and get confused if t
 
 To solve this issue, we can simply by adding a position rule to the Blog post content type. Navigate to: **Administration \ Structure \ **_**Menu Position Configuration**_
 
-![Menu Position Configuration section page with empty rules list](<../../../.gitbook/assets/image (8).png>)
+![Menu Position Configuration section page with empty rules list](<../../../.gitbook/assets/image (8) (1).png>)
 
 As you have noticed there are no rules yet, please follow the instruction on how to add a Menu Position Rule:
 
@@ -31,4 +31,4 @@ You can add rules to Content type, Language, Pages, and Roles.
 
 Now if you go back to the blog post content, you will notice the "Blogs" menu item is active.
 
-![](../../../.gitbook/assets/image.png)
+![](<../../../.gitbook/assets/image (35).png>)

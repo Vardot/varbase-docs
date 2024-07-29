@@ -10,11 +10,11 @@ The media block allows you to add a block containing a title and an image or vid
 
 2\. Select **Media** block.
 
-![Add a New Custom Block - Media Block](<../../../.gitbook/assets/image (28).png>)
+![Add a New Custom Block - Media Block](<../../../.gitbook/assets/image (28) (1).png>)
 
 3\. Add the media and desired information e.g.(title, link), then click on **Add Block.**
 
-![Media Block - Configure Block](<../../../.gitbook/assets/image (12).png>)
+![Media Block - Configure Block](<../../../.gitbook/assets/image (12) (1).png>)
 
 4\. Click on **Save Layout** at the top of the page when you are done with your changes.
 

@@ -18,7 +18,7 @@ Allows the admin to format the text inside the site as needed. Admins can also u
 
 2\. Select **Basic Text** block.
 
-![Add a New Custom Block - Basic Block](<../../../.gitbook/assets/image (17).png>)
+![Add a New Custom Block - Basic Block](<../../../.gitbook/assets/image (17) (1).png>)
 
 3\. Add the text and update the desired fields, then click on **Add Block.**
 

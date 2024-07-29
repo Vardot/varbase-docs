@@ -4,25 +4,24 @@ When creating a new page within the website and the page should appear within th
 
 To add a new page to a menu through the page node edit:
 
-1- Click on **Edit** for the page that you want to add to the menu. Or as you are creating a new page.
+1. Click on **Edit** for the page that you want to add to the menu. Or as you are creating a new page.
 
-![Edit Landing Page](<../../../.gitbook/assets/Edit Landing Page.png>)
+<figure><img src="../../../.gitbook/assets/image (109).png" alt=""><figcaption><p>Edit Landing Page</p></figcaption></figure>
 
-2- Click on the **Menu Settings** tab in the content type settings area.
+2. Click on the **Menu Settings** tab in the content type settings area.
 
-![Menu Settings](<../../../.gitbook/assets/Landing Page - Menu Settings.png>)
+<figure><img src="../../../.gitbook/assets/image (110).png" alt=""><figcaption><p>Menu Settings</p></figcaption></figure>
 
-3- Check **Provide a menu link**.
+3. Check **Provide a menu link**.
 
-![Provide a Menu Link](<../../../.gitbook/assets/Provide a Menu Link Checkbox .png>)
+<figure><img src="../../../.gitbook/assets/image (111).png" alt=""><figcaption><p>Provide a Menu Link</p></figcaption></figure>
 
-4- Fill **Menu link title** and select the **Parent item.**
+4. Fill **Menu link title** and select the **Parent item.**
 
-![Menu Link Title and Parent Item](<../../../.gitbook/assets/Menu Link Title and Parent Item.png>)
+<figure><img src="../../../.gitbook/assets/image (112).png" alt=""><figcaption><p>Menu Link Title and Parent Item</p></figcaption></figure>
 
-5- Click **Save** at the bottom of the page.
-
-6- The page will now appear in the **Main Menu.**
+5. Click **Save** at the bottom of the page.
+6. The page will now appear in the **Main Menu.**
 
 {% hint style="success" %}
 Adding a new page to a menu using the aforementioned steps; will automatically create a link between the new page and the menu.

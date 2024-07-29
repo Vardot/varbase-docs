@@ -10,4 +10,4 @@ This section will explain how to edit users in Varbase.&#x20;
 
 ![Editing Users in Drupal](<../../.gitbook/assets/image (37).png>)
 
-![Save User Changes in Drupal](<../../.gitbook/assets/image (29).png>)
+![Save User Changes in Drupal](<../../.gitbook/assets/image (29) (1).png>)

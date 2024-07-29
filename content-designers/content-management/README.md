@@ -2,12 +2,6 @@
 
 This section is what content designers and admins are looking for, as all the data will be stored here.
 
-Varbase comes with pre-defined content types:
+All content on a Drupal website is stored and treated as "nodes". A node is any piece of individual content, such as a page, poll, article, forum topic, or a blog entry. Comments are not stored as nodes but are always connected to one. Treating all content as nodes allow the flexibility to create new types of content. It also allows you to painlessly apply new features or changes to all content of one type.
 
-1. **Landing page**: Use _Landing pages_ to build multi-component pages with custom layouts to display content in a modern way.
-2. **Basic page:** Use _Basic pages_ for static content, such as an 'About us' page.
-3. **Hero slider**: A rich _Hero slider_ that allows you to display video and/or image slides.
-4. **Blog:** Use _Blog_ to publish blog post by different authors on the Blog section on the site.
-
-
-
+This section describes how to manage content types, step-by-step. Use the same processes for each content type on the site.

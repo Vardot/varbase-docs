@@ -14,7 +14,7 @@ The pre-defined date and time formats are already configured for the backend, fo
 
 You will find the date under the created date /  updated date column and it is using the default short date format.
 
-![Content page using default short date format](<../../.gitbook/assets/image (31).png>)
+![Content page using default short date format](<../../.gitbook/assets/image (31) (1).png>)
 
 ### How to Add New Date Formats?
 
@@ -45,7 +45,7 @@ Please follow these steps to clone a date and time format:
 
 ![Clone date format page](<../../.gitbook/assets/image (83).png>)
 
-![Locating the cloned date format](<../../.gitbook/assets/image (33).png>)
+![Locating the cloned date format](<../../.gitbook/assets/image (33) (1).png>)
 
 ![Editing the new cloned date format](<../../.gitbook/assets/image (66).png>)
 
@@ -65,6 +65,6 @@ You can translate any date and time format to any languages that are available o
 
 ![Translate the date format](<../../.gitbook/assets/image (82).png>)
 
-![Adding new translation to the date format](<../../.gitbook/assets/image (30).png>)
+![Adding new translation to the date format](<../../.gitbook/assets/image (30) (1).png>)
 
 ![Saving the new translation](<../../.gitbook/assets/image (72).png>)
