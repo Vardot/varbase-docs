@@ -13,7 +13,7 @@ In order to list all the terms inside the taxonomy follow these steps:&#x20;
 3. Click **Taxonomy.**
 4. A separate page will load with all the list of vocabularies.
 
-![All the taxonomies](<../../../.gitbook/assets/image (14) (1).png>)
+![All the taxonomies](<../../../.gitbook/assets/image (14) (1) (1).png>)
 
 5. Click on **List terms** for the taxonomy that you want to view it, For example **Blog Categories**
 

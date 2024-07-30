@@ -35,6 +35,6 @@ We will test this for example let us create new Basic page content and insert te
 
 After we created the Basic page content, let us know how the links are showing on the frontend by using the inspect element (DevTool)
 
-![](<../../.gitbook/assets/image (2) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1).png>)
 
 As you can see from the screenshot above, notice "Link2" how it is linked and the rest links are being stripped out from the base URL, this is because "https://www.example2.com/" is not listed within the "All base paths for this site" field.

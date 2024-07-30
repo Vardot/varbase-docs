@@ -12,7 +12,7 @@ By default on Varbase, there are default roles who can manage XML Sitemap and th
 * SEO Admin
 * Site Admin
 
-![Creating users and assigning roles](<../../.gitbook/assets/image (13) (1).png>)
+![Creating users and assigning roles](<../../.gitbook/assets/image (13) (1) (1).png>)
 
 {% hint style="info" %}
 To make sure that SEO and Site Admin have XML sitemap administration please visit this section [Default Roles and Site Personas](https://docs.varbase.vardot.com/user-guide/default-roles-and-site-persons/edit-roles-permissions).
