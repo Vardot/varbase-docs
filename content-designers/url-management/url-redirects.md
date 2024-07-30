@@ -16,15 +16,17 @@ By default on Varbase, there are default roles that can manage URL Redirects and
 
 As a Super Admin, Site Admin, or SEO Admin, please navigate to **Administration \ Configurations \ Search and metadata \ **_**Redirect**_.
 
-![Managing URL Redirects](../../.gitbook/assets/2021-11-20\_18-29-35.jpg)
+<figure><img src="../../.gitbook/assets/image (127).png" alt=""><figcaption><p>Navigating URL Redirects</p></figcaption></figure>
 
 This page will view all the site's URL redirects that are already applied.
 
 ### How to Add URL Redirects?
 
-This section will explain how to add users Varbase, please navigate to **Administration \ Configurations \ Search and metadata \ Redirect \ Add URL redirect.**
+This section will explain how to add users Drupal, please navigate to **Administration \ Configurations \ Search and metadata \ Redirect \ **_**Add URL redirect**_**.**
 
-![Adding URL redirects](<../../.gitbook/assets/image (54).png>)
+<figure><img src="../../.gitbook/assets/image (128).png" alt=""><figcaption><p>Navigating Add URL Redirects</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (129).png" alt=""><figcaption><p>Adding URL Redirects</p></figcaption></figure>
 
 Follow these steps to add a URL redirect:
 
@@ -33,7 +35,7 @@ Follow these steps to add a URL redirect:
 3. Choose the Redirect status
    * 300 - Multiple choices
    * 301 - Moved Permanently
-   * 302 - FOund
+   * 302 - Found
    * 303 - See other
    * 304 - Not Modified
    * 305 - Use Proxy

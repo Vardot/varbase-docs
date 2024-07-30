@@ -6,7 +6,7 @@ The domain redirect is accessed through Domain Redirects. The user can add the d
 
 ### Who Can Manage the URL Redirects?
 
-By default on Varbase, there are default roles that can manage URL Redirects and they are:
+By default on Drupal, there are default roles that can manage URL Redirects and they are:
 
 * Super Admin
 * SEO Admin
@@ -16,7 +16,7 @@ By default on Varbase, there are default roles that can manage URL Redirects and
 
 As a Super Admin, Site Admin, or SEO Admin, please navigate to **Administration \ Configurations \ Search and metadata \ Redirect \ **_**Domain Redirects**_.
 
-![Managing URL redirects](<../../.gitbook/assets/image (7) (1) (1) (1) (1).png>)
+<figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption><p>Managing URL Redirects</p></figcaption></figure>
 
 Follow these steps on how to manage the domain redirects:
 
@@ -25,7 +25,7 @@ Follow these steps on how to manage the domain redirects:
 3. Fill in the _Destination_ field
 4. Click the _Save_ button
 
-When filling in the _From domain_ field, you are just simply saying from where the users will be redirected to the _Destination._
+When filling in the _From domain_ field, you are simply saying from where the users will be redirected to the _Destination._
 
 Example:&#x20;
 

@@ -185,7 +185,7 @@
   * [URL Management](content-designers/url-management/README.md)
     * [URL Aliases](content-designers/url-management/url-aliases.md)
     * [Generating URL Alias](content-designers/url-management/generating-url-alias.md)
-    * [URL Redirects--](content-designers/url-management/url-redirects.md)
+    * [URL Redirects](content-designers/url-management/url-redirects.md)
     * [Domain Redirects](content-designers/url-management/domain-redirects.md)
   * [SEO Management](content-designers/search-engine-optimization/README.md)
     * [XML Sitemap](content-designers/search-engine-optimization/xml-sitemap.md)
