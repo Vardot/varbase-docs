@@ -12,7 +12,7 @@ By default on Varbase, there are default roles who can manage XML Sitemap and th
 * SEO Admin
 * Site Admin
 
-![Creating users and assigning roles](<../../.gitbook/assets/image (13) (1) (1).png>)
+![Creating users and assigning roles](<../../.gitbook/assets/image (13) (1) (1) (1).png>)
 
 {% hint style="info" %}
 To make sure that SEO and Site Admin have XML sitemap administration please visit this section [Default Roles and Site Personas](https://docs.varbase.vardot.com/user-guide/default-roles-and-site-persons/edit-roles-permissions).
@@ -52,7 +52,7 @@ This is the most important section, to navigate to the XML settings page: **Admi
 
 In "Advanced settings", there is a field "Default base URL" where users can insert the final domain production link to avoid the sitemap from displaying the development links. Also, there is a field "Maximum links in sitemap" where users can set the numbers of links to be displayed in the sitemap.
 
-![XML sitemap advanced settings](<../../.gitbook/assets/image (18) (1).png>)
+![XML sitemap advanced settings](<../../.gitbook/assets/image (18) (1) (1).png>)
 
 ### XML Sitemap Inclusion
 
@@ -64,7 +64,7 @@ Users can include or exclude any entity on the site in the sitemap for example: 
 
 SEO admin roles nor Site admin role can't include the XML sitemap to a specific content-type unless if the user has a Super admin role then the user can include the content-type to be indexed in the XML sitemap.
 
-![Content types are not indexed in the XML sitemap](<../../.gitbook/assets/image (32) (1).png>)
+![Content types are not indexed in the XML sitemap](<../../.gitbook/assets/image (32) (1) (1).png>)
 
 Let us take a Super admin role, remember this role can manage everything on the site. Now let us include the content-type to the XML sitemap, navigate to:  **Administration \ Structure \ **_**Content-type.**_ After navigating to the content types page, click the drop-down arrow on any content-type for example "Blog post" then click "Edit".
 

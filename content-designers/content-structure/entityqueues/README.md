@@ -17,4 +17,4 @@ To manage the EntityQueues follow these steps:
 1. Navigate to  **Manage \ Structure \ **_**EntityQueues**_**.**
 2. A separate page will load with all the EntityQueues.
 
-<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption><p>All the EntityQueues</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption><p>All the EntityQueues</p></figcaption></figure>

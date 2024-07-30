@@ -9,7 +9,7 @@ To edit any translation you have to follow one of the following ways:
 3. Update the fields that need editing.
 4. Click on _**Save (this translation)**_ button_**.**_
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Editing the Translation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Editing the Translation</p></figcaption></figure>
 
 ### From the Task side menu
 
@@ -18,7 +18,7 @@ To edit any translation you have to follow one of the following ways:
 3. Update the fields that need editing.
 4. Click on _**Save (this translation)**_ button_**.**_
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Edit Content Option</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p>Edit Content Option</p></figcaption></figure>
 
 ### From the content page
 
@@ -30,4 +30,4 @@ To edit any translation you have to follow one of the following ways:
 6. Update the fields that need editing.
 7. Click on _**Save (this translation)**_ button_**.**_
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Editing the Translated Node Page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Editing the Translated Node Page</p></figcaption></figure>

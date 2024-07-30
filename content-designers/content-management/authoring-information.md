@@ -7,4 +7,4 @@ Each piece of **content** within Drupal has a designated **Author**. To change t
 3. Edit the **Author** and the **Authoring Date**
 4. Click **Save.**
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption><p><strong>Authoring Information</strong> Tab</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33) (1).png" alt=""><figcaption><p><strong>Authoring Information</strong> Tab</p></figcaption></figure>

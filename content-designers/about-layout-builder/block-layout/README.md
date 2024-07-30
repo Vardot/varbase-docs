@@ -2,25 +2,33 @@
 description: Blocks in Layout builder
 ---
 
-# Custom Blocks
+# Block Management
 
 Custom Blocks are pre-built design blocks that help the user to design content faster by reusing existing blocks.
 
 ### **How to Add a Custom Block**
 
 1. Open the desired page e.g.(Homepage).&#x20;
-2. Click on **Tasks\\**_**Layout**_.
+2. Click on **Tasks \ **_**Layout**_.
+3. Click on **Add Section \ **_**Choose a layout for this section**_ e.g.(1 column).&#x20;
+4. Click on **Add Block \ **_**Create Content Block**_.
 
-![Homepage-Layout](<../../../.gitbook/assets/Homepage-Layout (1).png>)
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Adding Custom Block</p></figcaption></figure>
 
-3\. Click on **Add Section\\**_**Choose a layout for this section**_ e.g.(Bootstrap 1 Col).&#x20;
+5. Select the desired block.
 
-![Edit layout for Homepage- Choose a Layout for this Section](<../../../.gitbook/assets/Edit layout for Homepage \_ Add Section (1).png>)
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Adding Block</p></figcaption></figure>
 
-4\. Click on **Add Block\\**_**Create Custom Block**_.
+### How to edit a custom block
 
-![Edit layout for Homepage - Add Block - Create Custom Block](<../../../.gitbook/assets/Edit layout for Homepage \_ Add Block - Create Custom Block.png>)
+1. Open the desired page e.g.(Homepage).&#x20;
+2. Click on **Tasks \ **_**Layout**_.
+3. Navigate to the desired block.
+4. Click on the **Block Configure** **icon**.
+5. Click on _**Configure**_ button.
 
-5\. Select the desired block.
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Configure Block</p></figcaption></figure>
 
-![Add a New Custom Block](<../../../.gitbook/assets/Edit layout for Homepage \_ Add a New Custom Block (1).png>)
+6. Edit the block fields.
+7. Click on **Update** button.
+8. Click on **Save layout.**

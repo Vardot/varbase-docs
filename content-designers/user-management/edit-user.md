@@ -1,13 +1,13 @@
 # Edit User
 
-This section will explain how to edit users in Varbase.&#x20;
+This section will explain how to edit users in Drupal.&#x20;
 
-1. &#x20;In the **Manage** administrative menu, navigate to **People** tab.
+1. &#x20;In the **Manage** administrative menu, navigate to the **People** tab.
 2. Go to the desired user you want to edit.
 3. Click on **Edit** button.
 4. Edit the required fields in the user form.
 5. Click on **Save** button.
 
-![Editing Users in Drupal](<../../.gitbook/assets/image (37).png>)
+<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption><p>Editing Users in Drupal</p></figcaption></figure>
 
-![Save User Changes in Drupal](<../../.gitbook/assets/image (29) (1).png>)
+<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption><p>Save User Changes in Drupal</p></figcaption></figure>

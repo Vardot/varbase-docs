@@ -23,11 +23,11 @@ There are two ways to create a new Node page in your website:
    4. Fill in with all required data that is needed.
    5. Click **Save**.
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Content Backend Page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>Content Backend Page</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Add Content Page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>Add Content Page</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Content Backend Page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p>Content Backend Page</p></figcaption></figure>
 
 2. From the **Manage** administrative menu:
    1. Select **Add Content** from the **Manage** administrative menu**.**
@@ -35,4 +35,4 @@ There are two ways to create a new Node page in your website:
    3. Fill in with all required data that is needed.
    4. Click **Save.**
 
-<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Add Content From <strong>Manage</strong> Administrative Menu</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption><p>Add Content From <strong>Manage</strong> Administrative Menu</p></figcaption></figure>

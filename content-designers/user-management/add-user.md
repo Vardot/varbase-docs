@@ -2,17 +2,17 @@
 
 ## How to Add Users?
 
-This section will explain how to add users Varbase, please navigate to **Administration \ People \ **_**Add user.**_
+This section will explain how to add users to Drupal, please navigate to **Administration \ People \ **_**Add user.**_
 
-![Adding users in Varbase](<../../.gitbook/assets/image (74).png>)
+<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p>Adding Users in Drupal</p></figcaption></figure>
 
 Fill in all the required details and necessary fields:&#x20;
 
-1. Select a role.&#x20;
-2. Email address.&#x20;
-3. Username.&#x20;
-4. Password.&#x20;
-5. Confirm password.&#x20;
-6. Status.
+1. Select a **role**
+2. **Email address**<mark style="color:red;">**\***</mark>
+3. **Username**<mark style="color:red;">**\***</mark>
+4. **Password**<mark style="color:red;">**\***</mark>&#x20;
+5. **Confirm password**<mark style="color:red;">**\***</mark>&#x20;
+6. **Status**
 
 Then click the **Create new account** button.

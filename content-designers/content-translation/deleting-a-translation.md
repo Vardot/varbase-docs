@@ -8,7 +8,7 @@ To delete any translation you have to follow one of the following ways:
 2. From the operations drop-down list click on _**Delete.**_
 3. Confirm the deletion.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Delete Option</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Delete Option</p></figcaption></figure>
 
 ### From the Task side menu
 
@@ -16,7 +16,7 @@ To delete any translation you have to follow one of the following ways:
 2. From the task side menu click on the _**Delete content**_ button.
 3. Confirm the deletion.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Delete from Task Side Menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Delete from Task Side Menu</p></figcaption></figure>
 
 ### From the node edit page
 
@@ -24,7 +24,7 @@ To delete any translation you have to follow one of the following ways:
 2. From the task side menu click on the _**Edit content**_ button.
 3. Click on the _**Delete translation**_ button.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Delete Translation Button</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>Delete Translation Button</p></figcaption></figure>
 
 ### From the content page
 
@@ -35,6 +35,6 @@ To delete any translation you have to follow one of the following ways:
 5. From the operations drop-down list click on _**Delete.**_
 6. Confirm the deletion.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Navigate the Translation Node Page from the Filters</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>Navigate the Translation Node Page from the Filters</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Delete Option</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p>Delete Option</p></figcaption></figure>
