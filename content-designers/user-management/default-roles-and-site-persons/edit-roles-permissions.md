@@ -12,5 +12,4 @@ To edit the permissions of any role, follow these steps:
 **Note:** Some permissions may have security implications. Be cautious while assigning permissions to roles
 {% endhint %}
 
-![Editing permissions in Drupal](../../../.gitbook/assets/Permissions\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)
-
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Editing permissions in Drupal</p></figcaption></figure>

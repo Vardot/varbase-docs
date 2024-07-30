@@ -10,19 +10,19 @@ Users may add the block background as:
 2. Image.
 3. Video
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt="" width="514"><figcaption><p>Block Background Style</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17) (1).png" alt="" width="514"><figcaption><p>Block Background Style</p></figcaption></figure>
 
 ### Typography:
 
 Users can control the text color and alignment in the block.
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt="" width="513"><figcaption><p>Block Typography Style</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (1).png" alt="" width="513"><figcaption><p>Block Typography Style</p></figcaption></figure>
 
 ### Spacing:
 
 Users can control the block padding (inner space of the block) and margin (whitespace available surrounding the block)
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt="" width="497"><figcaption><p>Block Spacing Style</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19) (1).png" alt="" width="497"><figcaption><p>Block Spacing Style</p></figcaption></figure>
 
 ### Border:
 

@@ -17,6 +17,6 @@ There are several places you can edit the nodes from it. Here are examples where
 1. In frontend, for every page you can use the **admin menu (Tasks)** to edit its content.
 2. In backend, there is an **edit menu** under the content page for each node.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p>A<strong>dmin Menu (Tasks) - Edit</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption><p>A<strong>dmin Menu (Tasks) - Edit</strong></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption><p>Backend Edit Menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption><p>Backend Edit Menu</p></figcaption></figure>
