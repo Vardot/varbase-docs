@@ -62,7 +62,7 @@ Brings in the following core and contributed modules to your site:
 
 ### Rich Editor
 
-<figure><img src="../../../.gitbook/assets/varbase-10--varbase_editor--text-fromats--Rich-editor.png" alt=""><figcaption><p>Rich Editor</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/varbase10x1--varbase_editor--rich-text.png" alt=""><figcaption><p>Rich Editor</p></figcaption></figure>
 
 ### Simple Editor
 
