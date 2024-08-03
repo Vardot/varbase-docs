@@ -22,23 +22,29 @@ project_directory
 
 Brings in the following core and contributed modules to your site:
 
-| Module                                                                              | Purpose                                                                                                                    |
-| ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| <p><strong>Node</strong></p><p><em>(in Drupal core)</em></p>                        | Allows content to be submitted to the site and displayed on pages.                                                         |
-| <p><strong>Text Editor</strong></p><p><em>(in Drupal core)</em></p>                 | Provides a means to associate text formats with text editor libraries such as WYSIWYGs or toolbars.                        |
-| <p><strong>CKEditor</strong></p><p><em>(in Drupal core)</em></p>                    | WYSIWYG editing for rich text fields using CKEditor.                                                                       |
-| <p><strong>Filter</strong></p><p><em>(in Drupal core)</em></p>                      | Filters content in preparation for display.                                                                                |
-| [**Ace Code Editor**](https://www.drupal.org/project/ace\_editor)                   | Provides integration with [Ace code editor](https://ace.c9.io/).                                                           |
-| [**CKEditor BiDi Buttons**](https://www.drupal.org/project/ckeditor\_bidi)          | Enables CKEditor 2 bi directional Buttons. One for Right To Left text direction (RTL) and another for Left To Right (LTR). |
-| [**Entity Embed**](https://www.drupal.org/project/entity\_embed)                    | Allows entities to be embedded using a text editor.                                                                        |
-| [**External Links**](https://www.drupal.org/project/extlink)                        | Modify behavior and appearance of external links.                                                                          |
-| [**Linkit**](https://www.drupal.org/project/linkit)                                 | Provides an easy interface for internal and external linking with wysiwyg editors.                                         |
-| [**CKEditor Anchor Link**](https://www.drupal.org/project/anchor\_link)             | This plugin module adds the better link dialog and anchor related features to CKEditor 5 in Drupal 10                      |
-| [**Editor Advanced link**](https://www.drupal.org/project/editor\_advanced\_link)   | Add title, target etc. attributes to Text Editor''s link dialog if the text format allows them.                            |
-| [**Pathologic**](https://www.drupal.org/project/pathologic)                         | Helps avoid broken links and incorrect paths in content.                                                                   |
-| [**Token**](https://www.drupal.org/project/token)                                   | Provides a user interface for the Token API and some missing core tokens.                                                  |
-| [**Token Filter**](https://www.drupal.org/project/token\_filter)                    | Allows token values to be used as filters.                                                                                 |
-| [**CKEditor Paste Filter**](https://www.drupal.org/project/ckeditor\_paste\_filter) | This module implements extra filtering of text pasted from Word.                                                           |
+| Module                                                                                         | Purpose                                                                                                                    |
+| ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>Node</strong></p><p><em>(in Drupal core)</em></p>                                   | Allows content to be submitted to the site and displayed on pages.                                                         |
+| <p><strong>Text Editor</strong></p><p><em>(in Drupal core)</em></p>                            | Provides a means to associate text formats with text editor libraries such as WYSIWYGs or toolbars.                        |
+| <p><strong>CKEditor</strong></p><p><em>(in Drupal core)</em></p>                               | WYSIWYG editing for rich text fields using CKEditor.                                                                       |
+| <p><strong>Filter</strong></p><p><em>(in Drupal core)</em></p>                                 | Filters content in preparation for display.                                                                                |
+| [**Ace Code Editor**](https://www.drupal.org/project/ace\_editor)                              | Provides integration with [Ace code editor](https://ace.c9.io/).                                                           |
+| [**CKEditor BiDi Buttons**](https://www.drupal.org/project/ckeditor\_bidi)                     | Enables CKEditor 2 bi directional Buttons. One for Right To Left text direction (RTL) and another for Left To Right (LTR). |
+| [**Entity Embed**](https://www.drupal.org/project/entity\_embed)                               | Allows entities to be embedded using a text editor.                                                                        |
+| [**External Links**](https://www.drupal.org/project/extlink)                                   | Modify behavior and appearance of external links.                                                                          |
+| [**Linkit**](https://www.drupal.org/project/linkit)                                            | Provides an easy interface for internal and external linking with wysiwyg editors.                                         |
+| [**CKEditor Anchor Link**](https://www.drupal.org/project/anchor\_link)                        | This plugin module adds the better link dialog and anchor related features to CKEditor 5 in Drupal 10                      |
+| [**Editor Advanced link**](https://www.drupal.org/project/editor\_advanced\_link)              | Add title, target etc. attributes to Text Editor''s link dialog if the text format allows them.                            |
+| [**Pathologic**](https://www.drupal.org/project/pathologic)                                    | Helps avoid broken links and incorrect paths in content.                                                                   |
+| [**Token**](https://www.drupal.org/project/token)                                              | Provides a user interface for the Token API and some missing core tokens.                                                  |
+| [**Token Filter**](https://www.drupal.org/project/token\_filter)                               | Allows token values to be used as filters.                                                                                 |
+| [**CKEditor Paste Filter**](https://www.drupal.org/project/ckeditor\_paste\_filter)            | This module implements extra filtering of text pasted from Word.                                                           |
+| [**CKEditor 5 Plugin Pack**](https://www.drupal.org/project/ckeditor5\_plugin\_pack)           | Provides common functions for other modules in the Plugin Pack.                                                            |
+| [**CKEditor 5 Full-screen Mode**](https://www.drupal.org/project/ckeditor5\_plugin\_pack)      | Provides a plugin to maximize the editor window.                                                                           |
+| [**CKEditor 5 Find And Replace**](https://www.drupal.org/project/ckeditor5\_plugin\_pack)      | Provides the CKEditor 5 Find and Replace plugin.                                                                           |
+| [**CKEditor 5 WProofreader**](https://www.drupal.org/project/ckeditor5\_plugin\_pack)          | Provides free access to the CKEditor 5 WProofreader plugin. Requires the CKEditor 5 Premium Features module to work.       |
+| [**CKEditor 5 Premium Features**](https://www.drupal.org/project/ckeditor5\_premium\_features) | Provides general configuration and authentication used by all CKEditor 5 Premium Features.                                 |
+| [**CKEditor 5 Premium Features WProofreader**](../../../)                                      | Provides WProofreader features.                                                                                            |
 
 
 
