@@ -45,6 +45,7 @@ Brings in the following core and contributed modules to your site:
 | [**CKEditor 5 WProofreader**](https://www.drupal.org/project/ckeditor5\_plugin\_pack)          | Provides free access to the CKEditor 5 WProofreader plugin. Requires the CKEditor 5 Premium Features module to work.       |
 | [**CKEditor 5 Premium Features**](https://www.drupal.org/project/ckeditor5\_premium\_features) | Provides general configuration and authentication used by all CKEditor 5 Premium Features.                                 |
 | [**CKEditor 5 Premium Features WProofreader**](../../../)                                      | Provides WProofreader features.                                                                                            |
+| [**CKEditor(5) Emoji**](https://www.drupal.org/project/ckeditor\_emoji)                        | Provides Emoji CKEditor Plugin for CKEditor5.                                                                              |
 
 
 
