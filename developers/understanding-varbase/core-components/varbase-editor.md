@@ -66,8 +66,8 @@ Brings in the following core and contributed modules to your site:
 
 ### Simple Editor
 
-<figure><img src="../../../.gitbook/assets/varbase-10--varbase_editor--text-fromats--Simple-editor.png" alt=""><figcaption><p>Simple Editor</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/varbase10x1--varbase_editor--simple-text.png" alt=""><figcaption><p>Simple Editor</p></figcaption></figure>
 
 ### HTML Code
 
-<figure><img src="../../../.gitbook/assets/varbase-10--varbase_editor--text-fromats--html-editor.png" alt=""><figcaption><p>HTML Code</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/varbase10x1--varbase_editor--html_code.png" alt=""><figcaption><p>HTML Code</p></figcaption></figure>
