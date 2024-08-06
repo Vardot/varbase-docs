@@ -71,3 +71,9 @@ Brings in the following core and contributed modules to your site:
 ### HTML Code
 
 <figure><img src="../../../.gitbook/assets/varbase10x1--varbase_editor--html_code.png" alt=""><figcaption><p>HTML Code</p></figcaption></figure>
+
+
+
+{% content-ref url="../../configuring-a-varbase-site/configure-ckeditor-5-media-embed.md" %}
+[configure-ckeditor-5-media-embed.md](../../configuring-a-varbase-site/configure-ckeditor-5-media-embed.md)
+{% endcontent-ref %}
