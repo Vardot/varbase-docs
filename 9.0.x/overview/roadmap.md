@@ -6,7 +6,11 @@ Varbase is released every 2 to 3 weeks. Minor releases will be tagged when new f
 
 Varbase releases are being communicated, coordinated and discussed on Drupal.org project's page at: [https://www.drupal.org/project/varbase](https://www.drupal.org/project/varbase)
 
-## Feature Roadmap and Change Log
+## Feature Roadmap
+
+\[Roadmap will be updated here for future improvements and planned releases].
+
+## Change Log
 
 These epics still need to be further research and refined. Please [contact us](http://varbase.vardot.com/contact) if you have ideas about realization or contribution.
 

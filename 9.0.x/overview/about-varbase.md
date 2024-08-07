@@ -11,7 +11,7 @@ The essence of Varbase, lies within the basic concept that initiated it; [DRY (D
 Varbase can bring ease to you if you are:
 
 * Confused about choosing the appropriate module needed for a specific functionality.
-* Trying to bridge the gap between the users experience and editors experience.
+* Trying to bridge the gap between the users' experience and editors' experience.
 * Being overwhelmed by the complexity of making a fully-fledged Drupal CMS website.
 * Wasting so much time on choosing the suitable functionalities.
 

@@ -14,7 +14,7 @@ Upgrade paths will always be provided to guarantee a smooth move between Varbase
 
 See the below image for an illustration of supported versions and major release cycle:
 
-<figure><img src="../../.gitbook/assets/Varbase-Release-Tracker-Planner.png" alt=""><figcaption><p>From 2023 to 2026</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Varbase-Release-Tracker-Planner.png" alt=""><figcaption><p>From 2023 to 2026</p></figcaption></figure>
 
 ***
 
@@ -22,4 +22,4 @@ See the below image for an illustration of supported versions and major release 
 
 Which changes Varbase's old release cycle
 
-<figure><img src="../../.gitbook/assets/Varbase-Release-Tracker--Planner-new-Releas-Cycle-table.png" alt=""><figcaption><p>From 2021 to 2024</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Varbase-Release-Tracker--Planner-new-Releas-Cycle-table.png" alt=""><figcaption><p>From 2021 to 2024</p></figcaption></figure>
