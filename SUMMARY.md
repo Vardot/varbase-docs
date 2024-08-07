@@ -97,7 +97,7 @@
     * [Configure Level of Logging and Errors](developers/configuring-a-varbase-site/configure-level-of-logging-and-errors.md)
     * [Entity Definition Update Manager Class](developers/configuring-a-varbase-site/entity-definition-update-manager-class.md)
     * [Module Installer Factory Class](developers/configuring-a-varbase-site/module-installer-factory-class.md)
-    * [Configure CKEditor 5 Media Embed](developers/configuring-a-varbase-site/configure-ckeditor-5-media-embed.md)
+    * [Configure Ckeditor 5 Media Embed](developers/configuring-a-varbase-site/configure-ckeditor-5-media-embed.md)
   * [Theme Development with Varbase](developers/theme-development-with-varbase/README.md)
     * [Understanding The Vartheme Starterkit Theme](developers/theme-development-with-varbase/understanding-the-vartheme-base-theme.md)
     * [Creating Your Own Theme](developers/theme-development-with-varbase/creating-your-own-theme.md)

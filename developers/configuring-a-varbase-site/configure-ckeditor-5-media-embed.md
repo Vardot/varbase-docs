@@ -1,10 +1,10 @@
-# Configure CKEditor 5 Media Embed
+# Configure Ckeditor 5 Media Embed
 
-The **Varbase Editor module** comes with the **CKEditor Media Embed Plugin** enabled by default. This feature allows you to directly incorporate resources—such as videos, images, tweets, and more—from external services (known as "content providers") into your content using CKEditor.
+The **Varbase Editor Module** comes with the **CKEditor Media Embed Plugin** enabled by default. This feature allows you to directly incorporate resources—such as videos, images, tweets, and more—from external services (known as "content providers") into your content using CKEditor.
 
 <figure><img src="../../.gitbook/assets/Media-Embed-plugin.png" alt=""><figcaption><p>Body - CKEditor Field Formatter</p></figcaption></figure>
 
-To enable embedding from various sources like Spotify, YouTube, and Instagram, you need to generate an API key from Iframely and add it to the configuration at `/admin/config/media/ckeditor-media-embed/settings`. In the settings page, enter the following in the Provider URL field:
+To enable embedding from various sources like Spotify, YouTube, and Instagram, generate an API key from Iframely and add it to the configuration navigate to **Administration \ Configuration \\** **Media \ CKEditor Media Embed**. In the settings page, enter the following in the Provider URL field:
 
 ```
 http://ckeditor.iframe.ly/api/oembed?url={url}&callback={callback}&api_key=YOUR_API_KEY
@@ -14,6 +14,10 @@ http://ckeditor.iframe.ly/api/oembed?url={url}&callback={callback}&api_key=YOUR_
 Then save the configuration.
 
 <figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption><p>CKEditor Media Embed Configuration</p></figcaption></figure>
+
+
+
+### CKEditor Media Embed Providers
 
 The following providers are enabled by default with the URL patterns:
 
@@ -64,12 +68,6 @@ The following providers are enabled by default with the URL patterns:
 * URL pattern:
   * `facebook.com`
 
-**Dailymotion**
-
-* URL patterns:
-  * `dailymotion.com/video/{id}`
-  * `dai.ly/{id}`
-
 **Spotify**
 
 * URL patterns:
@@ -77,17 +75,21 @@ The following providers are enabled by default with the URL patterns:
   * `open.spotify.com/album/{id}`
   * `open.spotify.com/track/{id}`
 
+**Dailymotion**
+
+* URL patterns:
+  * `dailymotion.com/video/{id}`
+  * `dai.ly/{id}`
 
 
-**Create a New API Key From Iframely**
+
+### Create a New API Key From Iframely
 
 To generate a new API key from Iframely:
 
-1. Visit [Iframely's login page](https://iframely.com/login) and log in or create a new account.
+1. Visit [Iframely's login page](https://iframely.com/login) and login or create a new account.
 2. Go to [Iframely's API keys page](https://iframely.com/keys).
 3. Generate a new API key.
-
-
 
 <figure><img src="../../.gitbook/assets/Manage-your-API-keys.png" alt=""><figcaption><p>Iframely API Keys Page</p></figcaption></figure>
 
