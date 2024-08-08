@@ -2,7 +2,7 @@
 
 ## Understanding Version Numbers
 
-Varbase follows the Drupal 9/10/11 release cycle. Therefore, a version of Varbase is named 10.0.x uses the same **major** version of Drupal 10.0.x.
+Varbase follows the Drupal 9/10/11 release cycle. Therefore, a version of Varbase is named 10.0.x uses the same **major** version of Drupal 10.
 
 ## Varbase Supported Versions
 
@@ -24,11 +24,11 @@ See the below image for an illustration of supported versions and major release 
 Many new methods from Drupal Core and contributed modules
 {% endhint %}
 
-**Varbase 10.0.0** uses **Drupal 10**, [**Bootstrap \~5.3.3**](https://blog.getbootstrap.com/2024/02/20/bootstrap-5-3-3/), **CKEditor 5**, [**Singile Directory Components (SDC)**](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components), [**Improved Dynamic Responsive Image Styles (Drimage)**](https://www.drupal.org/project/drimage\_improved) - also It is using [**Drupal Recipes**](https://www.drupal.org/docs/extending-drupal/drupal-recipes)
+**Varbase \~10.0.0** uses **Drupal 10**, [**Bootstrap \~5.3.3**](https://blog.getbootstrap.com/2024/02/20/bootstrap-5-3-3/), **CKEditor 5**, [ **Single Directory Components (SDC)**](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components), [**Improved Dynamic Responsive Image Styles (Drimage)**](https://www.drupal.org/project/drimage\_improved) - also using [**Drupal Recipes**](https://www.drupal.org/docs/extending-drupal/drupal-recipes)
 
 ***
 
-**Varbase 9.1.4** uses **Drupal 10**, **Bootstrap 4**, CKEditor 4/5, **Default Drupal Responsive Image Styles**. Smoothing up upgrades to **Drupal 10/11**
+**Varbase \~9.1.0** uses **Drupal 10**, **Bootstrap 4**, **CKEditor 4/5**, **Default Drupal Responsive Image Styles**. Smoothing up upgrades to **Drupal 10/11**
 
 {% hint style="warning" %}
 **No upgrade path from Varbase 9 to Varbase 10**
@@ -41,3 +41,7 @@ Many new methods from Drupal Core and contributed modules
 ***
 
 If a project started with **Varbase 9.0.x** branch and then upgraded to **9.1.x**, the project should keep using **Varbase 9** as it will have support for **Drupal 11** in the **9.2.x** branch.
+
+{% hint style="success" %}
+Recommended to start new projects with latest version of **Varbase \~10.0.0**
+{% endhint %}
