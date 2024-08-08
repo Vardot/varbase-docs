@@ -45,3 +45,6 @@ If a project started with **Varbase 9.0.x** branch and then upgraded to **9.1.x*
 {% hint style="success" %}
 Recommended to start new projects with latest version of **Varbase \~10.0.0**
 {% endhint %}
+
+* [**Drupal core release schedule**](https://www.drupal.org/about/core/policies/core-release-cycles/schedule)
+* [**Drupal Release types and schedules**](https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-release-types-and-schedules)
