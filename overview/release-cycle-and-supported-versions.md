@@ -12,7 +12,7 @@ Upgrade paths will always be provided to guarantee a smooth move between support
 
 See the below image for an illustration of supported versions and major release cycle:
 
-<figure><img src="../../.gitbook/assets/Varbase-Release-Tracker-Planner.png" alt=""><figcaption><p>From 2023 to 2026</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Varbase-Release-Tracker-Planner.png" alt=""><figcaption><p>From 2023 to 2026</p></figcaption></figure>
 
 ***
 
@@ -34,7 +34,7 @@ Many new methods from Drupal Core and contributed modules
 **No upgrade path from Varbase 9 to Varbase 10**
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Varbase-The-Ultimate-Drupal-CMS-Starter-Kit-Bootstrap-Ready-Drupal-org--releases.png" alt=""><figcaption><p>Varbase Releases</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Varbase-The-Ultimate-Drupal-CMS-Starter-Kit-Bootstrap-Ready-Drupal-org--releases.png" alt=""><figcaption><p>Varbase Releases</p></figcaption></figure>
 
 [View all Releases](https://www.drupal.org/project/varbase/releases)
 
@@ -46,5 +46,8 @@ If a project started with **Varbase 9.0.x** branch and then upgraded to **9.1.x*
 Recommended to start new projects with latest version of **Varbase \~10.0.0**
 {% endhint %}
 
+{% hint style="info" %}
 * [**Drupal core release schedule**](https://www.drupal.org/about/core/policies/core-release-cycles/schedule)
 * [**Drupal Release types and schedules**](https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-release-types-and-schedules)
+* [**Continuous upgrades between major versions**](https://www.drupal.org/about/core/policies/core-change-policies/continuous-upgrades-between-major-versions)
+{% endhint %}
