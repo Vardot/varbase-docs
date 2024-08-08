@@ -52,4 +52,5 @@ Recommended to start new projects with latest version of **Varbase \~10.0.0**
 * [**Drupal core release schedule**](https://www.drupal.org/about/core/policies/core-release-cycles/schedule)
 * [**Drupal Release types and schedules**](https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-release-types-and-schedules)
 * [**Continuous upgrades between major versions**](https://www.drupal.org/about/core/policies/core-change-policies/continuous-upgrades-between-major-versions)
+* [**Drupal 10 will be supported until the release of Drupal 12 in mid-late 2026**](https://www.drupal.org/blog/drupal-10-will-be-supported-until-the-release-of-drupal-12-in-mid-late-2026)
 {% endhint %}
