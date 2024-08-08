@@ -40,11 +40,16 @@ Many new methods from Drupal Core and contributed modules
 
 ***
 
-If a project started with **Varbase 9.0.x** branch and then upgraded to **9.1.x**, the project should keep using **Varbase 9** as it will have support for **Drupal 11** in the **9.2.x** branch.
+{% hint style="info" %}
+If a project started with the **Varbase 9.0.x** branch and was then upgraded to **9.1.x** to work with **Drupal 10**, it is better to keep the project using the **Varbase 9** structure, as it will have support for **Drupal 11** in the **9.2.x** branch.
+{% endhint %}
 
 {% hint style="success" %}
 Recommended to start new projects with latest version of **Varbase \~10.0.0**
 {% endhint %}
 
+{% hint style="info" %}
 * [**Drupal core release schedule**](https://www.drupal.org/about/core/policies/core-release-cycles/schedule)
 * [**Drupal Release types and schedules**](https://www.drupal.org/about/core/policies/core-release-cycles/release-process-overview#s-release-types-and-schedules)
+* [**Continuous upgrades between major versions**](https://www.drupal.org/about/core/policies/core-change-policies/continuous-upgrades-between-major-versions)
+{% endhint %}
