@@ -2,8 +2,8 @@
 
 * [🔟 Overview](README.md)
   * [🔟 About Varbase](overview/about-varbase.md)
-  * [Roadmap](overview/roadmap/README.md)
-    * [Release Cycle and Supported Versions](overview/roadmap/release-cycle-and-supported-versions.md)
+  * [Roadmap](overview/roadmap.md)
+  * [Release Cycle and Supported Versions](overview/release-cycle-and-supported-versions.md)
   * [How to Get Support](overview/update.md)
 * [🔟 Developers](developers/README.md)
   * [Getting Started](developers/getting-started.md)
