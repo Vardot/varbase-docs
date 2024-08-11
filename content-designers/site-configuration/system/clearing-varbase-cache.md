@@ -8,7 +8,7 @@ description: This section will teach you how to clear Varbase cache.
 
 There are two approaches where to clear the caches:
 
-**The first approach** which is the easiest way, hover the Varbase icon and you will notice _Flush all caches_ then click it. The Varbase will now clear all your caches, this might take a couple of seconds then a message will appear indicating your caches are cleared.
+**The first approach** which is the easiest way, hover the Varbase icon and you will notice **Flush all caches** then click it. The Varbase will now clear all your caches, this might take a couple of seconds then a message will appear indicating your caches are cleared.
 
 ![Flush all caches from Varbase icon](<../../../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
 

@@ -29,11 +29,9 @@ To create a new role follow these steps:
 You can now edit the permissions for this new Role.
 
 {% hint style="danger" %}
-Pay attention for the following when creating a new role:\
-1- Permissions\
-2- Assignable roles as it needs some configurations\
-3- Naming convention: Use sentence case for first letters and add spacing between the words.
+Pay attention for the following when creating a new role:
+
+1. Permissions
+2. Assignable roles as it needs some configurations
+3. Naming convention: Use sentence case for first letters and add spacing between the words.
 {% endhint %}
-
-
-
