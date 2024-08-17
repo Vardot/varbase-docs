@@ -43,16 +43,17 @@ cd PROJECT_DIR_NAME/docroot
 Run the following Drupal Generate Theme script:
 
 ```
-php core/scripts/drupal generate-theme new_theme_name --starterkit vartheme_bs5
+php core/scripts/drupal generate-theme new_theme_name --starterkit vartheme_bs5 --path themes/custom
 ```
 
 Additionally, you can create the theme's human-readable name and it description with two optional arguments:
 
 ```
-php core/scripts/drupal generate-theme new_theme_name
-  --starterkit vartheme_bs5
-  --name "New Theme Name"
-  --description "Custom theme generated from Vartheme BS5 theme"
+php core/scripts/drupal generate-theme new_theme_name \
+  --starterkit vartheme_bs5 \
+  --path themes/custom \
+  --name "New Theme Name" \
+  --description "Custom theme generated from Vartheme BS5 theme" 
 ```
 
 This script will copy over all the files from the **Vartheme BS5** theme, and replace instances of **Vartheme BS5**'s machine name and label with the strings you provide.
