@@ -26,7 +26,7 @@ As a Super admin, Site admin, or SEO admin, navigate to **Administration \ Confi
 To masquerade a user please visit this section [Masquerade User](../user-management/simulating-another-user.md).
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>XML Sitemap Masqueraded as SEO Admin</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>XML Sitemap Masqueraded as SEO Admin</p></figcaption></figure>
 
 After navigating to the XML sitemap section, there are three main sub-section:
 
@@ -42,7 +42,7 @@ After navigating to the XML sitemap section, there are three main sub-section:
 
 This is the most important section, to navigate to the XML settings page: **Administration \ Configurations \ Search and metadata \ Simple XML Sitemap \ **_**Settings**_
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>XML Sitemap Settings Page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>XML Sitemap Settings Page</p></figcaption></figure>
 
 * The user can set the sitemap to be generated after cron runs.
 * The Sitemap can be styled by displaying it as tables with sortable entries and thus become much friendlier towards human visitors.
@@ -50,7 +50,7 @@ This is the most important section, to navigate to the XML settings page: **Admi
 
 In "Advanced settings", there is a field "Default base URL" where users can insert the final domain production link to avoid the sitemap from displaying the development links. Also, there is a field "Maximum links in sitemap" where users can set the numbers of links to be displayed in the sitemap.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>XML Sitemap Advanced Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>XML Sitemap Advanced Settings</p></figcaption></figure>
 
 ### XML Sitemap Inclusion
 

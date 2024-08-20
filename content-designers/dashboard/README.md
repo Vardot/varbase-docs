@@ -18,11 +18,11 @@ To edit the current Dashboard follow these steps:
 
 1. In the Dashboard, click on _**Default Dashboard.**_
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Dashboard Page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Dashboard Page</p></figcaption></figure>
 
 2. In the **Default Dashboard** page you can manage the parts you need to update.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Default Dashboard Page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>Default Dashboard Page</p></figcaption></figure>
 
 3. Try to update the dashboard by:
 

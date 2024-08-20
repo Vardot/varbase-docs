@@ -12,7 +12,7 @@ There are several places you can translate the nodes from it. Here are examples 
 
 2. In backend there is an edit menu under the content page for each node you can select **Translate** from it and click on the "**Add**" button next to the desired language you want to translate the content into.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Content Backend Page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Content Backend Page</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p>Translate Page</p></figcaption></figure>
 
