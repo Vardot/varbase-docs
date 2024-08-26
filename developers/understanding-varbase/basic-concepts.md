@@ -27,5 +27,5 @@ See [https://github.com/Vardot/varbase-project](https://github.com/Vardot/varbas
 To install the most recent stable release of **Varbase 10.0.x** run this command:
 
 ```
-composer create-project Vardot/varbase-project:10.0.0-alpha1 PROJECT_DIR_NAME --no-dev --no-interaction
+composer create-project Vardot/varbase-project:~10 PROJECT_DIR_NAME --no-dev --no-interaction
 ```
