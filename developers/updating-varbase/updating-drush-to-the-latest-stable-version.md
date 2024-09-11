@@ -47,7 +47,6 @@ composer require "drush/drush:~13" --dev
 ## Varbase Versions and Drush Versions
 
 * [**Varbase 9.0.4**](https://www.drupal.org/project/varbase/releases/9.0.4) and older works only with **Drush \~10.0**
-* [**Varbase 9.0.4**](https://www.drupal.org/project/varbase/releases/9.0.4) and older works only with **Drush \~10.0**
 * [**Varbase 9.0.5**](https://www.drupal.org/project/varbase/releases/9.0.5) and newer works only with **Drush \~11.0**
 * [**Varbase 9.0.16**](https://www.drupal.org/project/varbase/releases/9.0.16) **, Varbase 10.0.0-rc1** and newer works only with **Drush \~12.0**
 * [**Varbase 9.1.5**](https://www.drupal.org/project/varbase/releases/9.1.5) and older works only with **Drush \~12 || \~13**
