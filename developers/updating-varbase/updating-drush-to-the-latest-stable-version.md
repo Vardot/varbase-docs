@@ -20,7 +20,8 @@ Many options to change to
 
 1. `"drush/drush": "~13",`
 2. `"drush/drush": "~12 || ~13",`
-3. `"drush/drush": "@stable",`
+3. `"drush/drush": "~12",`
+4. `"drush/drush": "@stable",`
 
 The root `composer.json` file for the default [**Varbase Project**](https://github.com/Vardot/varbase-project/blob/10.0.x/composer.json#L38) template was changed **`"drush/drush": "~13",`** for easier support, update, and upgrade processes in development and production servers.&#x20;
 
