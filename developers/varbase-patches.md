@@ -30,19 +30,19 @@ Use `"vardot/varbase-patches": "~9.2.0"`
 
 When there's a need to handle local patches for a project without relying on Varbase Patches.
 
-### No patches **for Varbase `~10.0.0`**
+### Remove Varbase Patches in Varbase \~10.0.0
 
 > With **CKEditor 5** and **Drupal 10** : Use the `"Vardot/varbase-patches": "10.0.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/10.0.x/composer.json](https://github.com/Vardot/varbase-patches/blob/10.0.x/composer.json)
 
 ***
 
-### No patches **For Varbase `~9.1.0`**
+### Remove Varbase Patches in Varbase \~9.1.0 for CKEditor 4 Compatibility
 
 > With **CKEditor 4** and **Drupal 10** : Use the `"Vardot/varbase-patches": "9.1.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/9.1.x/composer.json](https://github.com/Vardot/varbase-patches/blob/9.1.x/composer.json)
 
 ***
 
-### No patches **For Varbase `~9.1.0`**
+### Remove Varbase Patches in Varbase \~9.1.0 for CKEditor 5 Compatibility
 
 > With **CKEditor 5** and **Drupal 10** : Use the `"Vardot/varbase-patches": "9.2.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/9.2.x/composer.json](https://github.com/Vardot/varbase-patches/blob/9.2.x/composer.json)
 
