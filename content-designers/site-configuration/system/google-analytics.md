@@ -14,16 +14,16 @@ After installing Varbase, the developers had a step to install **Google Analytic
       1. From [Google Analytics](https://marketingplatform.google.com/about/analytics/), Add your business plan to access the Google Councol
       2. Copy your ID and add it to the **Web Property ID(s)** field.
    2. Fill the information in the following tabs:
-      1. **Domains:** The domain you want to track.
-      2. **Pages:** To extract specific pages from tracking.
-      3. **Roles:** Add tracking for specific roles.
-      4. **Users:** Allow users to customize tracking on their account page.
-      5. **Links and downloads:** Outbound links, Mailto links, Downloads, Colorbox enabled.
-      6. **Messages:** Track messages of type \[Warning, Error, Status].
-      7. **Search and Advertising:** Tracking search and advertising.
-      8. **Privacy:** Anonymize IP enabled.
-      9. **Dimensions and Metrics:** Custom dimensions and metrics.
-      10. **Advanced:** Some additional settings such as caching and Custom JavaScript code.
+      * **Domains:** The domain you want to track.
+      * **Pages:** To extract specific pages from tracking.
+      * **Roles:** Add tracking for specific roles.
+      * **Users:** Allow users to customize tracking on their account page.
+      * **Links and downloads:** Outbound links, Mailto links, Downloads, Colorbox enabled.
+      * **Messages:** Track messages of type \[Warning, Error, Status].
+      * **Search and Advertising:** Tracking search and advertising.
+      * **Privacy:** Anonymize IP enabled.
+      * **Dimensions and Metrics:** Custom dimensions and metrics.
+      * **Advanced:** Some additional settings such as caching and Custom JavaScript code.
 3. Click on **Save Configuration (disabled).**
 
 <figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Navigate Google Analytics</p></figcaption></figure>
