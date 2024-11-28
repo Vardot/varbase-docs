@@ -19,5 +19,5 @@ Avoid editing tokens (e.g., \[site:name]) in the email template unless you've co
 {% endhint %}
 
 {% hint style="info" %}
-For additional information see: [Varbase Email](../../../developers/understanding-varbase/core-components/varbase-email.md) page
+For additional information see: [Varbase Email](../../../developers/understanding-varbase/core-components/varbase-email.md) page and [Configuring Varbase Mailer Settings](../../../developers/configuring-a-varbase-site/configuring-varbase-mailer-settings/) page
 {% endhint %}
