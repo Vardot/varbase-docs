@@ -16,7 +16,7 @@ To configure Mailer Policy to customize outgoing emails in many different ways. 
 
 ## Add SMTP Transport Service
 
-Navigate to **Administration \ Configuration \ System \ Mailer policy \ **_**Transports**_
+Navigate to **Administration \ Configuration \ System \ Mailer policy \&#x20;**_**Transports**_
 
 To see the list of mailer transports.
 
@@ -43,11 +43,11 @@ Set the **STMP** transport as the default transport sender for emails, by clicki
 
 ## Set the Email Logo for Symfony Mailer Template
 
-[**Vartheme BS5**](https://www.drupal.org/project/vartheme\_bs5) provide theme settings for emails too. **Vartheme** generated themes followed with that too.
+[**Vartheme BS5**](https://www.drupal.org/project/vartheme_bs5) provide theme settings for emails too. **Vartheme** generated themes followed with that too.
 
 * Generate a new custom theme following with [creating-your-own-theme.md](../../theme-development-with-varbase/creating-your-own-theme.md "mention")
 * Enable the new custom generated theme for example and set it as the default theme on the site.
-* Navigate to **Administration \ Appearance \ Appearance settings \ **_**A Custom Generated Theme of Vartheme**_
+* Navigate to **Administration \ Appearance \ Appearance settings \&#x20;**_**A Custom Generated Theme of Vartheme**_
 
 The email logo custom theme settings can be filled as desired
 

@@ -4,7 +4,7 @@ This section will explain how to set up confirmation settings types.
 
 Please follow these instructions:
 
-1. Go to **Manage \ Structure \ **_**Webforms.**_
+1. Go to **Manage \ Structure \&#x20;**_**Webforms.**_
 2. Go to **Settings** on the desired webform.
 
 <figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption><p>Navigate the Settings</p></figcaption></figure>

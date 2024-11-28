@@ -20,7 +20,7 @@ Password retrieval will also require the user to fill in their Email address rat
 
 Email-only login means that users will not be allowed to login using usernames anymore. To configure that follow the steps below:
 
-1. Navigate to accounts setting page, **Administration \ Configuration \ People \ **_**Account settings**_
+1. Navigate to accounts setting page, **Administration \ Configuration \ People \&#x20;**_**Account settings**_
 2. In **Email Registration** section select the **Allow log in with email address or username** check box
 
 <figure><img src="../../.gitbook/assets/image (94).png" alt=""><figcaption><p>Navigating the Account Settings Page</p></figcaption></figure>
@@ -41,7 +41,7 @@ Welcome Emails might need updates regarding the needed token or for updating the
 
 To have username only login, the Email registration module should be uninstalled from the site.
 
-1. Navigate to **Extend \ **_**Uninstall module**_
+1. Navigate to **Extend \&#x20;**_**Uninstall module**_
 2. Search for the module name
 3. Uninstall it
 

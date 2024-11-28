@@ -8,7 +8,7 @@ Drupal Media fields are different, you can easily add images, Gallery, video, fi
 
 ### 1. Media node page
 
-1. Select **Media** from the **Manage** administrative menu**.**
+1. Select **Media** from the **Manage** administrative men&#x75;**.**
 2. Select **Add media**_._
 3. Select type of the Media that you need to add.
 

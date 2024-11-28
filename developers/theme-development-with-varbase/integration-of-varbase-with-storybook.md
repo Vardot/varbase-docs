@@ -1,6 +1,6 @@
 # Integration of Varbase with Storybook
 
-**Varbase** has been integrated with [**Storybook**](https://storybook.js.org/) to provide a listing of stories for [**Single Directory Components (SDC)**](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components) components. This integration allows for easier development and testing of [**Varbase Components**](https://www.drupal.org/project/varbase\_components).
+**Varbase** has been integrated with [**Storybook**](https://storybook.js.org/) to provide a listing of stories for [**Single Directory Components (SDC)**](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components) components. This integration allows for easier development and testing of [**Varbase Components**](https://www.drupal.org/project/varbase_components).
 
 {% hint style="info" %}
 #### Not for production!!, only for development or staging.
@@ -16,7 +16,7 @@
 
 
 {% hint style="success" %}
-**Use Drush to** [**grant specified permission(s) to a role**](https://www.drush.org/12.4.2/commands/role\_perm\_add/)**.**
+**Use Drush to** [**grant specified permission(s) to a role**](https://www.drush.org/12.4.2/commands/role_perm_add/)**.**
 
 `./bin/drush role:perm:add anonymous 'use cl server'`
 
@@ -32,7 +32,7 @@ _**Warning:** Give to trusted roles only; this permission has security implicati
 {% endhint %}
 
 {% hint style="success" %}
-**Use Drush to** [**remove specified permission(s) from a role**](https://www.drush.org/12.4.2/commands/role\_perm\_remove/)**.**
+**Use Drush to** [**remove specified permission(s) from a role**](https://www.drush.org/12.4.2/commands/role_perm_remove/)**.**
 
 `./bin/drush role:perm:remove anonymous 'use cl server'`
 
@@ -118,8 +118,8 @@ Please see the [@lullabot/storybook-drupal-addon](https://www.github.com/lullabo
 
 {% endhint %}
 
-| [📋 Step-by-step tutorial 📋](https://git.drupalcode.org/project/cl\_server/-/blob/2.x/docs/storybook.md) |
-| --------------------------------------------------------------------------------------------------------- |
+| [📋 Step-by-step tutorial 📋](https://git.drupalcode.org/project/cl_server/-/blob/2.x/docs/storybook.md) |
+| -------------------------------------------------------------------------------------------------------- |
 
 #### Change the Local Development Domain
 
@@ -164,7 +164,7 @@ To include components from **Vartheme BS5 Starterkit**, uncomment and modify the
 "../docroot/themes/contrib/vartheme_ba5/components/**/*.stories.@(json|yml)",
 ```
 
-### Show Custom Theme**'s Components**
+### Show Custom Them&#x65;**'s Components**
 
 In case of having a custom theme for a project by
 
@@ -183,7 +183,7 @@ To include components from a custom cloned generated theme, uncomment and modify
 Please ensure that the path to the custom theme is correct. It should be located either in `"../docroot/themes"` or `"../docroot/themes/custom"`&#x20;
 {% endhint %}
 
-### Show Custom Module**'s Components**
+### Show Custom Modul&#x65;**'s Components**
 
 To include components from a custom module, uncomment and modify the following line in the `.storybook/main.js` file:
 
@@ -363,5 +363,5 @@ https://storybook.{default}
 ## Related Integration Issues
 
 * [Integrate Varbase Project with Storybook using Component Libraries: Theme Server for Varbase Components and Vartheme BS5 with and Bootstrap 5.3.0 #182](https://github.com/Vardot/varbase-project/issues/182)
-* [#3372551: Integrate Varbase Components with Storybook using Component Libraries: Theme Server and Bootstrap 5.3.0](https://www.drupal.org/project/varbase\_components/issues/3372551)
-* [#3372546: Integrate Vartheme BS5 with Storybook using Component Libraries: Theme Server for Varbase Components](https://www.drupal.org/project/vartheme\_bs5/issues/3372546)
+* [#3372551: Integrate Varbase Components with Storybook using Component Libraries: Theme Server and Bootstrap 5.3.0](https://www.drupal.org/project/varbase_components/issues/3372551)
+* [#3372546: Integrate Vartheme BS5 with Storybook using Component Libraries: Theme Server for Varbase Components](https://www.drupal.org/project/vartheme_bs5/issues/3372546)

@@ -6,7 +6,7 @@ To translate a node on your website, the original node must already exist in the
 2. Select the language you want to translate the node to.
 3. Click on **Add** button.
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>Add Translation Page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption><p>Add Translation Page</p></figcaption></figure>
 
 4. A copy with all the information from the original language will be created.
 5. Edit the fields that you want to be shown on the new language page.

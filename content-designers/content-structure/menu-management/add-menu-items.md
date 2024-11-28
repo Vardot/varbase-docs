@@ -26,4 +26,4 @@ In order to add a new link to one of the menus, follow these steps:&#x20;
 <figure><img src="../../../.gitbook/assets/image (104).png" alt=""><figcaption><p>Add Menu Title and Link</p></figcaption></figure>
 
 6. Click **Save** to add this item to the menu.
-7. After Saving, navigate back to the menu to check the order of the items**.**
+7. After Saving, navigate back to the menu to check the order of the item&#x73;**.**

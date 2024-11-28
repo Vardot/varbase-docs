@@ -4,7 +4,7 @@ Masquerading users is one of the very helpful and useful features that allows to
 
 Typically masquerading users is permitted to the webmaster user that has the super admin role assigned to it, while the site admin can only masquerade other lower-level users.
 
-The permissions to masquerade users can be viewed by navigating to **People / **_**Permissions**_ under the **Manage** administrative menu.
+The permissions to masquerade users can be viewed by navigating to **People /&#x20;**_**Permissions**_ under the **Manage** administrative menu.
 
 Note that the masquerading permission will have some security issues as any changes, edits, and content uploading on the site will appear as being authored by the masqueraded user.
 
@@ -12,14 +12,14 @@ There are two methods to masquerade a user.
 
 **First method:**
 
-1. Navigate to **Manage / **_**People**_ .
+1. Navigate to **Manage /&#x20;**_**People**_ .
 2. Click on **Masquerade as** option under the **Operations** menu next to the user.
 
 <figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption><p><strong>Operations</strong> Menu</p></figcaption></figure>
 
 **Second method:**
 
-1. Navigate to **Manage / **_**People**_.
+1. Navigate to **Manage /&#x20;**_**People**_.
 2. Click on the user to be masqueraded to view the user profile, Content admin for example.
 3. Click on the **Masquerade as \[user]** link.
 

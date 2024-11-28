@@ -20,7 +20,7 @@ Do a`composer update`to update the autoloaders, namespaces map, and classes map.
 {% endhint %}
 
 {% hint style="warning" %}
-If the site was built with **Varbase 8.8.7** and older**,** Follow the following steps:
+If the site was built with **Varbase 8.8.7** and olde&#x72;**,** Follow the following steps:
 {% endhint %}
 
 > **Step #1:** Update composer to latest composer 1.0 by

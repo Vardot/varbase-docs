@@ -7,7 +7,7 @@ To edit any translation you have to follow one of the following ways:
 1. Navigate the translations page.
 2. From the operations drop-down list click on _**Edit.**_
 3. Update the fields that need editing.
-4. Click on _**Save (this translation)**_ button_**.**_
+4. Click on _**Save (this translation)**_ butto&#x6E;_**.**_
 
 <figure><img src="../../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption><p>Editing the Translation</p></figcaption></figure>
 
@@ -16,7 +16,7 @@ To edit any translation you have to follow one of the following ways:
 1. Navigate the translated node page you want to delete.
 2. From the task side menu click on the _**Edit content**_ button.
 3. Update the fields that need editing.
-4. Click on _**Save (this translation)**_ button_**.**_
+4. Click on _**Save (this translation)**_ butto&#x6E;_**.**_
 
 <figure><img src="../../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption><p>Edit Content Option</p></figcaption></figure>
 
@@ -28,6 +28,6 @@ To edit any translation you have to follow one of the following ways:
 4. Click on **Filter** button.
 5. From the operations drop-down list click on _**Edit.**_
 6. Update the fields that need editing.
-7. Click on _**Save (this translation)**_ button_**.**_
+7. Click on _**Save (this translation)**_ butto&#x6E;_**.**_
 
 <figure><img src="../../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption><p>Editing the Translated Node Page</p></figcaption></figure>

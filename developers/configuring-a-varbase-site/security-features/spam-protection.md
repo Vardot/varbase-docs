@@ -7,7 +7,7 @@ Spam is sending bulks of emails or submissions at low volume per IP this can cau
 To configure the CAPTCHA methods in your site, navigate to:\
 **Administration** \ **Configuration** \ **People** \ _**CAPTCHA module settings**_
 
-![CAPTCHA Settings](../../../.gitbook/assets/CAPTCHA-settings-varbase\_security.png)
+![CAPTCHA Settings](../../../.gitbook/assets/CAPTCHA-settings-varbase_security.png)
 
 A CAPTCHA can be added to virtually each form in your website. The configuration page allows you to configure settings such as:
 
@@ -21,13 +21,13 @@ A CAPTCHA can be added to virtually each form in your website. The configuration
 
 To enable reCAPTCHA, you'll need a Site key and Secret key for your site. These are provided from Google's reCAPTCHA administration page.
 
-1. Navigate to the **reCAPTCHA** tab in your site (**Administration** \ **Configuration** \ **People** \ **CAPTCHA module settings **_**\ reCAPTCHA**_
+1. Navigate to the **reCAPTCHA** tab in your site (**Administration** \ **Configuration** \ **People** \ **CAPTCHA module settings&#x20;**_**\ reCAPTCHA**_
 2. Obtain a `Site key` and and a `Secret key` from [https://www.google.com/recaptcha/admin](https://www.google.com/recaptcha/admin), and enter it the reCAPTCHA configuration page
 3. Change the **Widget settings** to match your site's theme
 
 ### Adding CAPTCHA Challenge to a Specific Form
 
-1. Navigate to **Form settings** tab in your site (**Administration** \ **Configuration** \ **People** \ **CAPTCHA module settings **_**\ Form settings**_
+1. Navigate to **Form settings** tab in your site (**Administration** \ **Configuration** \ **People** \ **CAPTCHA module settings&#x20;**_**\ Form settings**_
 2. Click on "**+ Add captcha point**" to add a new form to the list
 3. Enter the form ID (e.g. `user_register_form`) and choose the enabled CAPTCHA type on it, or keep it as the default challenge configured for the site
 
@@ -43,11 +43,11 @@ Adding a CAPTCHA challenge to a Webform this way will not list the form in the F
 
 ### Enabling Honeypot
 
-1. Navigate to **Administration \ Structure \ Webform \ **_**Configuration**_&#x20;
+1. Navigate to **Administration \ Structure \ Webform \&#x20;**_**Configuration**_&#x20;
 2. Scroll down to **Third party settings**
 3. Check the **Protect all webforms with Honeypot** checkbox
 
-![Webforms - Third Party Settings - Honeypot](https://lh6.googleusercontent.com/SS\_67iiOFcAw0Smzci4bPQw0HSqYYyZM7FFZaNbuwkh5BghGTaKh25vVOiqhS3mo9okB06vBNK\_b9p08a8fh7y7loBSxMOlmkKpjfz7fc7302G3xg7Skdt7lJWZUTJxo1pGfOH5V)
+![Webforms - Third Party Settings - Honeypot](https://lh6.googleusercontent.com/SS_67iiOFcAw0Smzci4bPQw0HSqYYyZM7FFZaNbuwkh5BghGTaKh25vVOiqhS3mo9okB06vBNK_b9p08a8fh7y7loBSxMOlmkKpjfz7fc7302G3xg7Skdt7lJWZUTJxo1pGfOH5V)
 
 ### **Configuring Honeypot**
 
@@ -56,7 +56,7 @@ Navigating to **Administration \ Configuration \ Content authoring \ Honeypot co
 1. The time limit which will control the timestamp after which a form can be submitted (2 seconds by default),&#x20;
 2. The element name field which will have the name of the hidden field provided by Honeypot
 
-![Honeypot Configurations](https://lh5.googleusercontent.com/NOie2BjnWln31UJK1TTZQhpjGtBpqNOqdhRiCYb47OsZ0wwkWL8QwK8DyM8vgI-YyE-v7thlAmfWkMJLDKUVm2DBceGt\_7AfB2-H7XfW466\_d6w1RlltwNJ-2LuemPNNbqKjWTZd)
+![Honeypot Configurations](https://lh5.googleusercontent.com/NOie2BjnWln31UJK1TTZQhpjGtBpqNOqdhRiCYb47OsZ0wwkWL8QwK8DyM8vgI-YyE-v7thlAmfWkMJLDKUVm2DBceGt_7AfB2-H7XfW466_d6w1RlltwNJ-2LuemPNNbqKjWTZd)
 
 ## Antibot
 
@@ -66,7 +66,7 @@ Navigating to **Administration \ Configuration \ Content authoring \ Honeypot co
 
 In Varbase, **Antibot** is enabled to protect all webforms by default, this can be seen in the **Webforms** configurations page.
 
-* Navigate to **Adminstration \ Structure \ Webform \ **_**Configuration**_&#x20;
+* Navigate to **Adminstration \ Structure \ Webform \&#x20;**_**Configuration**_&#x20;
 * Check **Third party settings** section&#x20;
 * The checkbox is selected by default.
 
@@ -76,11 +76,11 @@ In Varbase, **Antibot** is enabled to protect all webforms by default, this can 
 
 * Navigate to **Administration** \ **Configuration** \ **User interface** \ _**Antibot**_ that shows the forms that are protected and which can be edited.
 
-![Antibot Settings](https://lh3.googleusercontent.com/Ag3munPI1f-jVvK-xCdzPoUaHZk2fy7gMZuxMej5k5VXfAuR9aVhvx8Ej2DHzcMQ75Yy-uVXx4PMLZnmSXLmFLQu5aPVD1rDikqxiDnboDMBu1mywdo\_BxTG0qn-fBp5ZzP8hB5Z)
+![Antibot Settings](https://lh3.googleusercontent.com/Ag3munPI1f-jVvK-xCdzPoUaHZk2fy7gMZuxMej5k5VXfAuR9aVhvx8Ej2DHzcMQ75Yy-uVXx4PMLZnmSXLmFLQu5aPVD1rDikqxiDnboDMBu1mywdo_BxTG0qn-fBp5ZzP8hB5Z)
 
 * **Display forms IDs** when enabled will show the form ID on any page that contains a form and whether that form is protected by **Antibot** or not.
 
-![Contact Form With ID Displayed by Antibot ](https://lh3.googleusercontent.com/Lid6-MYcldveCD4BEAFqYWU9X8DB3y9fh4cxGFqV\_d7wgAVf\_MAVTlv9swkMu\_LHNFF-wOeCptL2ljNFWgzu0zJWorFNP3EgljLN609yHpLFttw0jkaBpxalP7UUKdYBohe8xx\_0)
+![Contact Form With ID Displayed by Antibot ](https://lh3.googleusercontent.com/Lid6-MYcldveCD4BEAFqYWU9X8DB3y9fh4cxGFqV_d7wgAVf_MAVTlv9swkMu_LHNFF-wOeCptL2ljNFWgzu0zJWorFNP3EgljLN609yHpLFttw0jkaBpxalP7UUKdYBohe8xx_0)
 
 In case **Antibot** is enabled and the user trying to see the form has Javascript disabled, a warning message will show up stating that Javascript must be enabled to use the form.
 

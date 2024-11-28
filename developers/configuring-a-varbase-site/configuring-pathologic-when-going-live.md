@@ -2,7 +2,7 @@
 
 This module [Pathologic](https://www.drupal.org/project/pathologic) is already installed and configured within Varbase. The main purpose of this module is to fix all URLs that should redirect to the production site if it was redirected to the internal contents.
 
-To navigate to the Pathologic configuration page: **Administration \ Configuration \ Content authoring \ **_**Pathologic configuration**_
+To navigate to the Pathologic configuration page: **Administration \ Configuration \ Content authoring \&#x20;**_**Pathologic configuration**_
 
 There are three type of URL formats:
 
@@ -35,6 +35,6 @@ We will test this for example let us create new Basic page content and insert te
 
 After we created the Basic page content, let us know how the links are showing on the frontend by using the inspect element (DevTool)
 
-![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png>)
 
 As you can see from the screenshot above, notice "Link2" how it is linked and the rest links are being stripped out from the base URL, this is because "https://www.example2.com/" is not listed within the "All base paths for this site" field.

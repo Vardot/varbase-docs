@@ -9,9 +9,9 @@ Custom Blocks are pre-built design blocks that help the user to design content f
 ### **How to Add a Custom Block**
 
 1. Open the desired page e.g.(Homepage).&#x20;
-2. Click on **Tasks \ **_**Layout**_.
-3. Click on **Add Section \ **_**Choose a layout for this section**_ e.g.(1 column).&#x20;
-4. Click on **Add Block \ **_**Create Content Block**_.
+2. Click on **Tasks \&#x20;**_**Layout**_.
+3. Click on **Add Section \&#x20;**_**Choose a layout for this section**_ e.g.(1 column).&#x20;
+4. Click on **Add Block \&#x20;**_**Create Content Block**_.
 
 <figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Adding Custom Block</p></figcaption></figure>
 
@@ -22,7 +22,7 @@ Custom Blocks are pre-built design blocks that help the user to design content f
 ### How to edit a custom block
 
 1. Open the desired page e.g.(Homepage).&#x20;
-2. Click on **Tasks \ **_**Layout**_.
+2. Click on **Tasks \&#x20;**_**Layout**_.
 3. Navigate to the desired block.
 4. Click on the **Block Configure** **icon**.
 5. Click on _**Configure**_ button.

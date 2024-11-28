@@ -2,7 +2,7 @@
 
 ## How to Add Users?
 
-This section will explain how to add users to Drupal, please navigate to **Administration \ People \ **_**Add user.**_
+This section will explain how to add users to Drupal, please navigate to **Administration \ People \&#x20;**_**Add user.**_
 
 <figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p>Adding Users in Drupal</p></figcaption></figure>
 

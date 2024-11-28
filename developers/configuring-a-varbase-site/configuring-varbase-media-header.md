@@ -108,7 +108,7 @@ The **Main media** field should have the _**"Media Library"**_ widget. And **Tab
 
 ### 4. Create Basic Page Form
 
-Navigate to **Content \ Add content \ **_**Basic page .**_ Then the new two fields should show up in the form. Under the Media Header sidebar form region.
+Navigate to **Content \ Add content \&#x20;**_**Basic page .**_ Then the new two fields should show up in the form. Under the Media Header sidebar form region.
 
 <figure><img src="../../.gitbook/assets/Create-Basic-page-varbase10x1--Create-Basic-Page-After-the-Activation-for-Varbase-Media-Header.png" alt=""><figcaption><p>Create Basic Page After the Activation for Varbase Media Header</p></figcaption></figure>
 
@@ -242,7 +242,7 @@ Open the example "Sport" term page.
 
 ## Change The Default Height and Background Color
 
-[**Varbase Components**](https://www.drupal.org/project/varbase\_components) has a [**Media Header**](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/media-header) component with all custom styling and variables.
+[**Varbase Components**](https://www.drupal.org/project/varbase_components) has a [**Media Header**](https://github.com/Vardot/varbase_components/tree/2.0.x/components/organisms/media-header) component with all custom styling and variables.
 
 Follow with:
 

@@ -14,7 +14,7 @@ By default on Drupal, there are default roles that can manage URL Redirects and 
 
 ### How to Manage the Domain Redirects?
 
-As a Super Admin, Site Admin, or SEO Admin, please navigate to **Administration \ Configurations \ Search and metadata \ Redirect \ **_**Domain Redirects**_.
+As a Super Admin, Site Admin, or SEO Admin, please navigate to **Administration \ Configurations \ Search and metadata \ Redirect \&#x20;**_**Domain Redirects**_.
 
 <figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption><p>Managing URL Redirects</p></figcaption></figure>
 

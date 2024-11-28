@@ -31,7 +31,7 @@ In order to edit a link for one of the menus, follow these steps:&#x20;
 1. Go to **Menu** page.
 2. Select the menu you want to edit the link inside it. For example, **Main Navigation.**
 3. Click **Edit menu.**
-4. Choose the link that you want to edit it**.**  For example: **Home.**
+4. Choose the link that you want to edit i&#x74;**.**  For example: **Home.**
 5. Click **Edit.**
 6. Then the **Menu edit Link** page will open, you can change the title of the link or the link itself from this page.
 7. Click the **Save** button.
@@ -45,9 +45,9 @@ In order to delete a link for one of the menus, follow these steps:&#x20;
 1. Go to **Menu** page.
 2. Select the menu you want to delete the link inside it. For example, **Main Navigation.**
 3. Click **Edit menu.**
-4. Choose the link that you want to delete it**.**  For example, **Home.**
+4. Choose the link that you want to delete i&#x74;**.**  For example, **Home.**
 5. Click on the arrow, then click on **Delete.**
 
 <figure><img src="../../../.gitbook/assets/image (108).png" alt=""><figcaption><p>Delete Link from the Main Navigation Menu</p></figcaption></figure>
 
-6. You can go back to the menu to check that the selected item has been deleted**.**
+6. You can go back to the menu to check that the selected item has been delete&#x64;**.**

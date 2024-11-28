@@ -8,7 +8,7 @@ To delete any translation you have to follow one of the following ways:
 2. From the operations drop-down list click on _**Delete.**_
 3. Confirm the deletion.
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>Delete Option</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption><p>Delete Option</p></figcaption></figure>
 
 ### From the Task side menu
 
@@ -16,7 +16,7 @@ To delete any translation you have to follow one of the following ways:
 2. From the task side menu click on the _**Delete content**_ button.
 3. Confirm the deletion.
 
-<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption><p>Delete from Task Side Menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption><p>Delete from Task Side Menu</p></figcaption></figure>
 
 ### From the node edit page
 

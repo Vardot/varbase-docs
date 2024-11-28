@@ -16,15 +16,15 @@ In Varbase, URL aliases will be automatically generated regarding specified toke
 
 To test that follow the steps below:
 
-1. Navigate to **Manage \ Add content \ **_**Landing page (with layout builder)**_.
+1. Navigate to **Manage \ Add content \&#x20;**_**Landing page (with layout builder)**_.
 2. Fill in the **Title** field, ex: About Us.
 3. Check the **URL alias** option in the settings.
 
-![Title Field in Content Creation Page](https://lh5.googleusercontent.com/3d\_1rxd1s7NH0Aji\_IAaEo4P3YqHvdp\_iQZ4BJhc2vS7I19UmPK0XwjTle8DOnx94bRiTkNFL1SfUgztRC\_I9-U3wND\_Yp5EQ6ZTXGOZRA9VW3VEniZN1Z3D-waIrl5uYUd5a7GU)
+![Title Field in Content Creation Page](https://lh5.googleusercontent.com/3d_1rxd1s7NH0Aji_IAaEo4P3YqHvdp_iQZ4BJhc2vS7I19UmPK0XwjTle8DOnx94bRiTkNFL1SfUgztRC_I9-U3wND_Yp5EQ6ZTXGOZRA9VW3VEniZN1Z3D-waIrl5uYUd5a7GU)
 
 **Result:** URL aliases are checked to be automatically generated using a token, and in this case, the node title is the token. So the URL alias for the page will be /node-title, ex: /about-us.
 
-![Automatically Generated URL Alias](https://lh3.googleusercontent.com/050\_zUFFZvtTELuFnLz4crB2hefpDFFt2hD6d147HQQG3kykOXmanRpnyJ0yQ5AfXhj79lmM9SCGZ7yuJ3xhjDTgIiR0h13mZOXJUmA9KneZvpe3pgQpjopmeyVzzTio5oNciRhy)
+![Automatically Generated URL Alias](https://lh3.googleusercontent.com/050_zUFFZvtTELuFnLz4crB2hefpDFFt2hD6d147HQQG3kykOXmanRpnyJ0yQ5AfXhj79lmM9SCGZ7yuJ3xhjDTgIiR0h13mZOXJUmA9KneZvpe3pgQpjopmeyVzzTio5oNciRhy)
 
 Patterns for each entity/content type on the site can be seen here, for example, the Hierarchical paths for **Landing pages (Layout Builder)** label is responsible for the URL pattern for the **Landing page (Layout Builder)** content type, the default pattern for this content type consists of two tokens \[node:menu-link:parents:join-path]/\[node:title]. The first token will grab the parent item for the page specified when providing a menu link, the second token will grab the title of the page being edited.
 
@@ -32,20 +32,20 @@ In case no parent item is provided, the first token will be ignored.
 
 To show another example with hierarchy, we will create a landing page and add it as a child for a parent in the menu.
 
-1. Navigate to **Manage \ Add content \ **_**Landing page (with layout builder)**_.
+1. Navigate to **Manage \ Add content \&#x20;**_**Landing page (with layout builder)**_.
 2. Fill the **Title** field, ex: Our Team.
 3. Check the **Menu settings** option.
 4. Fill in a menu link title and select a parent for this landing page.
 5. Now, check the URL alias value.
 
-![Menu Settings Options ](https://lh6.googleusercontent.com/LVaWoFpRNbNnv\_x5RSE2kOb\_1A7SCUwNtsVQSKThNqIn54Mnmg5oUY65q5h812Dw3ptmZGBE8IJKlo\_hRLwWWCupU29LVrAjEPJ3HA3Y16m\_CFkaHxwHF8bXblh0xCUCW-CCWuuB)
+![Menu Settings Options ](https://lh6.googleusercontent.com/LVaWoFpRNbNnv_x5RSE2kOb_1A7SCUwNtsVQSKThNqIn54Mnmg5oUY65q5h812Dw3ptmZGBE8IJKlo_hRLwWWCupU29LVrAjEPJ3HA3Y16m_CFkaHxwHF8bXblh0xCUCW-CCWuuB)
 
 **Result**: URL alias will be /parent-name/node-title, ex: /about-us/our-team.
 
 ![Automatically Generated Hierarchical URL Alias](https://lh6.googleusercontent.com/xjSsaWgNssF4gy8RJ2zok4HhqnmhhnX6uuGl2Jd9q4U8qu7dv33pOjQp-HV4afgUAKfUKwQwEZ9ceSEW9zvFVY8goYUn-PuyxQSUKTC3GvXCV9JAl11AEJjvx8srxJIDIpI0yDEC)
 
 {% hint style="info" %}
-**Hint:** Patterns can be added/updated by clicking on **Configure URL alias patterns** or by navigating to **Administration \ Configuration \ Search and Metadata \ URL aliases \ **_**Patterns**_. To learn more about configuring URL aliases, check the following [documentation](url-aliases-in-varbase-drupal/).
+**Hint:** Patterns can be added/updated by clicking on **Configure URL alias patterns** or by navigating to **Administration \ Configuration \ Search and Metadata \ URL aliases \&#x20;**_**Patterns**_. To learn more about configuring URL aliases, check the following [documentation](url-aliases-in-varbase-drupal/).
 {% endhint %}
 
 
@@ -66,12 +66,12 @@ First, we need to extend the needed multilingual modules - In Varbase we have th
 4. Along with that, we need to enable the following module - filter for “language” for faster results:
    * **Varbase Internationalization**
 
-![Multilingual Modules](https://lh3.googleusercontent.com/zGlJmnBciRm18ga7lNfT4M-csQojR9vXENIPiKtD46aG6jE8ESPlvd60AtkI0OH9dhXHWy5k3k0rq4ZXh6Pw92XlJa4pCXKoZNetQ95F8uFs9MoF9J1DRYtjIndJVNRvec5PRex\_)
+![Multilingual Modules](https://lh3.googleusercontent.com/zGlJmnBciRm18ga7lNfT4M-csQojR9vXENIPiKtD46aG6jE8ESPlvd60AtkI0OH9dhXHWy5k3k0rq4ZXh6Pw92XlJa4pCXKoZNetQ95F8uFs9MoF9J1DRYtjIndJVNRvec5PRex_)
 
-![Varbase Internationalization Module](https://lh3.googleusercontent.com/WZi-9eiZoypJSM0sTMzy\_g-T0zobm6sBABv\_k7RqWMLngN\_sUrfiYd4oOnFRN3tBQSw2uNMwalltvjcOG9VqQAnY1ScaFsamEyyZxkW9vt-8scrdBmUCu09E\_k3GcCxT5Xm\_cwm8)
+![Varbase Internationalization Module](https://lh3.googleusercontent.com/WZi-9eiZoypJSM0sTMzy_g-T0zobm6sBABv_k7RqWMLngN_sUrfiYd4oOnFRN3tBQSw2uNMwalltvjcOG9VqQAnY1ScaFsamEyyZxkW9vt-8scrdBmUCu09E_k3GcCxT5Xm_cwm8)
 
 {% hint style="info" %}
-Hint: Typically developers will enable those modules during installation. For further information click [here](https://app.gitbook.com/o/-LMp\_OqmP\_iFzHYa2X5d/s/-LMp\_PWjEdZQrVE520s3/developers/understanding-varbase/optional-components/varbase-internationalization).
+Hint: Typically developers will enable those modules during installation. For further information click [here](https://app.gitbook.com/o/-LMp_OqmP_iFzHYa2X5d/s/-LMp_PWjEdZQrVE520s3/developers/understanding-varbase/optional-components/varbase-internationalization).
 {% endhint %}
 
 #### **Checking the Available Languages**
@@ -81,19 +81,19 @@ Hint: Typically developers will enable those modules during installation. For fu
 3. The **Detection and selection** tab has URL settings to configure the language URL pattern to be a prefix or a domain.
 4. Click on **Configure** next to URL under the **Detection and selection** tab.
 
-![List of Available Languages](https://lh5.googleusercontent.com/A7RzUe9N43N6yPWx8F4QiHkv8Z0GpcXNf7nY3D29Is71sqYNQbeWa4ePZuGbgiPFeY7IzGB0XUaV4VKoa4bD12rVqY2RGYuKNIbWHLpALBaeEGz\_f0bEMJgeGj9Q3hLgA3zDkRpM)
+![List of Available Languages](https://lh5.googleusercontent.com/A7RzUe9N43N6yPWx8F4QiHkv8Z0GpcXNf7nY3D29Is71sqYNQbeWa4ePZuGbgiPFeY7IzGB0XUaV4VKoa4bD12rVqY2RGYuKNIbWHLpALBaeEGz_f0bEMJgeGj9Q3hLgA3zDkRpM)
 
 **Option1 - URL prefix**
 
 When the option of “URL prefix” is selected you will find that the language prefixes are following the domain name, ex: [https://{domain}/en](about:blank) for the English language, and [https://{domain}/ar](about:blank) for the Arabic language.
 
-![URL Prefix Configuration](https://lh5.googleusercontent.com/K5NHIXmnbFEhEIfiei9pVL2B\_AEKU9ywHWAG8M5d7OPwJ3DiHt3CLV4066saL4WtzDaVmyYMYFoK4luYSSdoe\_7shirFDrwLIViJ0uDuKlac-pwttAHV\_kt4xT0hViGxOti\_e2O-)
+![URL Prefix Configuration](https://lh5.googleusercontent.com/K5NHIXmnbFEhEIfiei9pVL2B_AEKU9ywHWAG8M5d7OPwJ3DiHt3CLV4066saL4WtzDaVmyYMYFoK4luYSSdoe_7shirFDrwLIViJ0uDuKlac-pwttAHV_kt4xT0hViGxOti_e2O-)
 
 **Option2 - Domain**
 
 When the option of “Domain” is selected, you will be able to add different domain names for different languages with no language prefix, ex: [https://english-version.com](https://english-version.com)**.**
 
-![URL Domain Configuration](https://lh3.googleusercontent.com/VPNI7g2LKBiaIeApJ1KkzVWzEwzewTk2ptck4KiP6L\_SVbGLlJrURHDt6kavbbQfxr8Gbr\_Lr5hMdfc1cQsWAJC7p6g7VRSwS\_ERDzoqVshUR1plUhLrYcLUYKmPLUbWS4pYEu2X)
+![URL Domain Configuration](https://lh3.googleusercontent.com/VPNI7g2LKBiaIeApJ1KkzVWzEwzewTk2ptck4KiP6L_SVbGLlJrURHDt6kavbbQfxr8Gbr_Lr5hMdfc1cQsWAJC7p6g7VRSwS_ERDzoqVshUR1plUhLrYcLUYKmPLUbWS4pYEu2X)
 
 {% hint style="info" %}
 **Hint**: “URL prefix” option is selected by default in Varbase.
@@ -111,9 +111,9 @@ We can select a content entity to translate to check the URL alias for the trans
 4. **Add** a translation for the selected page.
 5. Click on **Save**.
 
-![Checking Available Translations of an Entity](https://lh3.googleusercontent.com/z1XbFgJm5742cckwpmC6-nqt5\_pycVtUmBEWu2xHJAAHLx9gDJL\_wg-KbmBnvcQWjaa46c4yzN0sARQ\_lAFHpW9FfX-5CUjLCa\_kVDzSkAUe283FBZw1wJvn6gIzZkaUS2KzFy1L)
+![Checking Available Translations of an Entity](https://lh3.googleusercontent.com/z1XbFgJm5742cckwpmC6-nqt5_pycVtUmBEWu2xHJAAHLx9gDJL_wg-KbmBnvcQWjaa46c4yzN0sARQ_lAFHpW9FfX-5CUjLCa_kVDzSkAUe283FBZw1wJvn6gIzZkaUS2KzFy1L)
 
-![Creating a Translation of an Entity](https://lh3.googleusercontent.com/64qbEI0TXk3Xle6renYFL9JFqVzr95fyR1UctzkU7eqLeezR3sjD8Et2F6jb7uelt4pVtmrux7ddA0wDunoC3R\_mG0tlw0sHDsxmJySoiATH8WKMa0UxGHGdHjChfjLYEgbmtIa\_)
+![Creating a Translation of an Entity](https://lh3.googleusercontent.com/64qbEI0TXk3Xle6renYFL9JFqVzr95fyR1UctzkU7eqLeezR3sjD8Et2F6jb7uelt4pVtmrux7ddA0wDunoC3R_mG0tlw0sHDsxmJySoiATH8WKMa0UxGHGdHjChfjLYEgbmtIa_)
 
 URL aliases for the translated pages can be applied in different ways as mentioned before, and we will go through them in detail.
 
@@ -127,11 +127,11 @@ This option will make the URL have the text of the native language of the page, 
 
 To have the native language URL pattern enabled, the **Transliterate prior to creating aliases** option should be disabled, this can be done by following the steps below:
 
-1. Navigate to **Administration \ Configuration \ Search and Metadata \ URL aliases \ **_**Settings**_.
+1. Navigate to **Administration \ Configuration \ Search and Metadata \ URL aliases \&#x20;**_**Settings**_.
 2. Uncheck the option **Transliterate prior to creating aliases**.
 3. Save the configurations for the URL aliases setting.
 
-![URL Aliases Settings - Transliterate prior to creating aliases](https://lh4.googleusercontent.com/Bwgc44JZTNqDeZKqO-e8eMCAqW4mIxsVQTGJy6EwdDB32JjE2bG9KRk-ed94cdKmfzcr9TMcIIOSd2xCQP7QnLedRCoLiAFYkvgrTqubJGonqVNqosKflOy\_0J\_ivtaseCRcO5Lr)
+![URL Aliases Settings - Transliterate prior to creating aliases](https://lh4.googleusercontent.com/Bwgc44JZTNqDeZKqO-e8eMCAqW4mIxsVQTGJy6EwdDB32JjE2bG9KRk-ed94cdKmfzcr9TMcIIOSd2xCQP7QnLedRCoLiAFYkvgrTqubJGonqVNqosKflOy_0J_ivtaseCRcO5Lr)
 
 When creating/translating content, the URL to that content will include the characters of the language of that content title.
 
@@ -146,7 +146,7 @@ Example:
 * [https://www.unicef.org/what-we-do](https://www.unicef.org/what-we-do) for the English version
 * [https://www.unicef.org/fr/ce-que-nous-faisons](https://www.unicef.org/fr/ce-que-nous-faisons)  for the French version
 
-![UUICEF Website - English Version](https://lh6.googleusercontent.com/Kc1WsMtrRKZmydT9KodfIIFb1Y1RTE0US-\_ArZpaZdW5vMe2aqfuWM4n61Sj5Rj9LkFWY2nvhDRyyKgeV0NJEHtBqsGH8MHxwyHRYOkQ6ssMPDakZan8Y4MHJix3b4BCKgbwBret)
+![UUICEF Website - English Version](https://lh6.googleusercontent.com/Kc1WsMtrRKZmydT9KodfIIFb1Y1RTE0US-_ArZpaZdW5vMe2aqfuWM4n61Sj5Rj9LkFWY2nvhDRyyKgeV0NJEHtBqsGH8MHxwyHRYOkQ6ssMPDakZan8Y4MHJix3b4BCKgbwBret)
 
 ![UNICEF Website - French Version](https://lh5.googleusercontent.com/VG23Hach8IzkNbKVbSkj3mW-OWLXiVnQgQkrqevABvjbkNbgV7RGphEkQ0oLrb1zGYcU7YtRLCU9Tj44xMoFm9aZeyD1AnlbW3At8qOk51Y9Qg7f4lZaBgR8SGQwJ23uAycaHB2v)
 
@@ -167,7 +167,7 @@ This option will force the source (default) language URL aliases to be applied t
 
 To configure Base-Language only URL patterns, we need to change the tokens that were used in the added URL aliases by following the steps below:
 
-1. Navigate to **Administration \ configuration \ Search and Metadata \ URL aliases \ **_**Patterns**_**.**
+1. Navigate to **Administration \ configuration \ Search and Metadata \ URL aliases \&#x20;**_**Patterns**_**.**
 2. Select an existing pattern to edit, or you can add a new one.
 3. Click on **Browse available tokens**.
 4. Search for **Translation source node** section.
@@ -177,11 +177,11 @@ Tokens for landing pages URL alias patterns are using the translated language to
 
 <table><thead><tr><th width="164.69167968291177">Token</th><th>Native language URL pattern</th><th>Base-language only pattern</th></tr></thead><tbody><tr><td>Menu token</td><td>[node:menu-link:parents:join-path]</td><td>[node:source:menu-link:parents:join-path]</td></tr><tr><td>Node title token</td><td>[node:title]</td><td>[node:source:title]</td></tr></tbody></table>
 
-![Landing Page Base-Language Only URL Pattern](https://lh3.googleusercontent.com/Vj0rTIXnvJx9BFkXYROg83AfADFomdU0XG5GMNtiPNEBB\_B\_rYixPoqXMCzuEysh4ACx7bVPUa17Nja-Du9mzM8wnOnxKtKkLLhbL2z\_IQGcL09gn5wbYJSK2bgUKoZ8Efvh6Gbk)
+![Landing Page Base-Language Only URL Pattern](https://lh3.googleusercontent.com/Vj0rTIXnvJx9BFkXYROg83AfADFomdU0XG5GMNtiPNEBB_B_rYixPoqXMCzuEysh4ACx7bVPUa17Nja-Du9mzM8wnOnxKtKkLLhbL2z_IQGcL09gn5wbYJSK2bgUKoZ8Efvh6Gbk)
 
 Save the configurations and check the URL for any landing page in order to check that it was applied correctly.
 
-![Base-Language Only URL Pattern Example Result](https://lh6.googleusercontent.com/5rKhD8B11qBYA0Rjr7uFylKiFdUM9Ba0KZuNtaA-Ty\_jFlBBwCVGCiFp-LtVGB\_fvCCA\_TYbXyPVFarACKVqhfi4ECIUIBWLnZ7PmPdIrEERId7cUjyB-VlGNF63n91oe\_IVB2n\_)
+![Base-Language Only URL Pattern Example Result](https://lh6.googleusercontent.com/5rKhD8B11qBYA0Rjr7uFylKiFdUM9Ba0KZuNtaA-Ty_jFlBBwCVGCiFp-LtVGB_fvCCA_TYbXyPVFarACKVqhfi4ECIUIBWLnZ7PmPdIrEERId7cUjyB-VlGNF63n91oe_IVB2n_)
 
 Example:
 
@@ -190,15 +190,15 @@ Example:
 * [https://www.vardot.com/en/about-us](https://www.vardot.com/en/about-us) is the English version.
 * [https://www.vardot.com/ar-jo/about-us](https://www.vardot.com/ar-jo/about-us) is the Arabic version.
 
-![Vardot's Website - English Language URL](https://lh4.googleusercontent.com/guF2gsLj4bf8TGMjQYSPMyfZaJ4UX1rI2eN9TDoBEpWo4cDeYGCBPcwW\_MVlRd9PHGIGuHUB-LPDWIreTIdKPpy86YIRrAzRF7JZB4eSdgUSCrccGC6qKnmSmMZT9X3SIOU\_KnMO)
+![Vardot's Website - English Language URL](https://lh4.googleusercontent.com/guF2gsLj4bf8TGMjQYSPMyfZaJ4UX1rI2eN9TDoBEpWo4cDeYGCBPcwW_MVlRd9PHGIGuHUB-LPDWIreTIdKPpy86YIRrAzRF7JZB4eSdgUSCrccGC6qKnmSmMZT9X3SIOU_KnMO)
 
-![Vardot's Website - Arabic Language URL](https://lh5.googleusercontent.com/6sasjdvvfSDB2UduEawknxsLxI3WHMxroNNBvnVIzVxAejtsRMQvRe7oaN9aBsDGWq9eRZFlFxAV2FYSHD6e00nOCQ\_AnveqnsV4fVxj2n87StGV7e3zXBUp2tnp965ikkZI\_Pza)
+![Vardot's Website - Arabic Language URL](https://lh5.googleusercontent.com/6sasjdvvfSDB2UduEawknxsLxI3WHMxroNNBvnVIzVxAejtsRMQvRe7oaN9aBsDGWq9eRZFlFxAV2FYSHD6e00nOCQ_AnveqnsV4fVxj2n87StGV7e3zXBUp2tnp965ikkZI_Pza)
 
 **Pros & Cons**
 
 **Pros:**
 
-1. Maintains one URL structure, the only difference is the language code/prefix in the URL**.**
+1. Maintains one URL structure, the only difference is the language code/prefix in the UR&#x4C;**.**
 2. English-language (or Latin characters) URLs are neatly shared, with no encoding.
 3. Fully automated - but only if your base language (original language) is always the same.
 
@@ -220,10 +220,10 @@ This option will convert the translated non-Latin characters to US ASCII charact
 
 Transliterated URL alias is a global option for all patterns, which can be configured by selecting the option from settings.
 
-1. Navigate to **Administration \ configuration \ Search and Metadata \ URL aliases \ **_**Settings**_.
+1. Navigate to **Administration \ configuration \ Search and Metadata \ URL aliases \&#x20;**_**Settings**_.
 2. Select **Transliterate prior to creating aliases** option.
 
-![Transliterate prior to creating aliases Option](https://lh6.googleusercontent.com/jwfI1pZXg32WjIAXdBWAi5dX5pF3iB\_cb9x2eK4danhNzMz-nYvKuCvvjU8dLVyRwaN96ogVCclgRzWojWZST0KGOh3iWDD3txW446G4u5r9XyJwlDL62\_5Tez3nsDxZtonPWqQT)
+![Transliterate prior to creating aliases Option](https://lh6.googleusercontent.com/jwfI1pZXg32WjIAXdBWAi5dX5pF3iB_cb9x2eK4danhNzMz-nYvKuCvvjU8dLVyRwaN96ogVCclgRzWojWZST0KGOh3iWDD3txW446G4u5r9XyJwlDL62_5Tez3nsDxZtonPWqQT)
 
 Example:&#x20;
 
@@ -232,6 +232,6 @@ If a landing page with the title of “About Us” was created then translated t
 * /en/about-us for the English version.&#x20;
 * /ar/mn-nhn for the Arabic version.
 
-![Arabic Example of a Transliterated URL](https://lh6.googleusercontent.com/52JuosHTXsEmi5OcsTJNmcnl\_q8-MSKzR0nAyHD8zoLvuu0OwT0Mh2zmnj9nIg3C6ZEu1fXFYhNrChbeG\_DHqF21T5A2wqm\_qTmcQiJ4nL9A9x8Pc0M0YyjIk1lzOpo0kTAGZxaK)
+![Arabic Example of a Transliterated URL](https://lh6.googleusercontent.com/52JuosHTXsEmi5OcsTJNmcnl_q8-MSKzR0nAyHD8zoLvuu0OwT0Mh2zmnj9nIg3C6ZEu1fXFYhNrChbeG_DHqF21T5A2wqm_qTmcQiJ4nL9A9x8Pc0M0YyjIk1lzOpo0kTAGZxaK)
 
-![English URL of a Transliterated URL](https://lh3.googleusercontent.com/4OZYRb9Sq5uo7AYz7FLDZP9N9jHll8u0gUbzR8Wx0F4M1jqC8waiCYXv\_2OAZ3NkCSjt4lmCjHrw-qzNsdKsIhdYYYvdPAiQMr9bmjguGS26ex6y9no8MqneNzviLTRDUnhYKnAB)
+![English URL of a Transliterated URL](https://lh3.googleusercontent.com/4OZYRb9Sq5uo7AYz7FLDZP9N9jHll8u0gUbzR8Wx0F4M1jqC8waiCYXv_2OAZ3NkCSjt4lmCjHrw-qzNsdKsIhdYYYvdPAiQMr9bmjguGS26ex6y9no8MqneNzviLTRDUnhYKnAB)

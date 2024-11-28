@@ -14,7 +14,7 @@ Entity Queues are used throughout the site to order and promote content.
 
 To manage the EntityQueues follow these steps:
 
-1. Navigate to  **Manage \ Structure \ **_**EntityQueues**_**.**
+1. Navigate to  **Manage \ Structure \&#x20;**_**EntityQueues**_**.**
 2. A separate page will load with all the EntityQueues.
 
 <figure><img src="../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption><p>All the EntityQueues</p></figcaption></figure>

@@ -10,9 +10,9 @@ Let us visit the Blogs landing page section on the site, you will notice the "Bl
 
 This is a problem for the users because they will get lost and get confused if they are still in the blogs section or they were in another section of the site.
 
-To solve this issue, we can simply by adding a position rule to the Blog post content type. Navigate to: **Administration \ Structure \ **_**Menu Position Configuration**_
+To solve this issue, we can simply by adding a position rule to the Blog post content type. Navigate to: **Administration \ Structure \&#x20;**_**Menu Position Configuration**_
 
-![Menu Position Configuration section page with empty rules list](<../../../.gitbook/assets/image (8) (1) (1) (1) (1).png>)
+![Menu Position Configuration section page with empty rules list](<../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png>)
 
 As you have noticed there are no rules yet, please follow the instruction on how to add a Menu Position Rule:
 

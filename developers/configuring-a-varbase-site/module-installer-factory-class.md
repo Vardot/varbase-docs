@@ -60,7 +60,7 @@ Install the list of module in the varbase\_core.info.yml
   ModuleInstallerFactory::installList('varbase_core');
 ```
 
-### **Arguments for** installList method**:**
+### **Arguments for** installList metho&#x64;**:**
 
 * `String` **$moduleName:** The machine name for the module.
 * `String` **$modulesListKey:** Optional list key which to get the list of modules from. Default 'install'. It can be changed on managed cases like (managed, when\_module\_name\_enabled)
@@ -80,7 +80,7 @@ To make sure that any hook or event subscriber works after all used modules.
   ModuleInstallerFactory::setModuleWeightAfterInstallation('varbase_core', 'install');
 ```
 
-### **Arguments for** setModuleWeightAfterInstallation**:**
+### **Arguments for** setModuleWeightAfterInstallatio&#x6E;**:**
 
 * `String` **$moduleName:** The machine name for the module.
 * `String` **$modulesListKey:** Optional list key which to get the list of modules from. Default
@@ -136,7 +136,7 @@ At this point any hook or event subscriber will be processed after the listed mo
   'config/managed');
 ```
 
-### **Arguments for** importConfigsFromList method**:**
+### **Arguments for** importConfigsFromList metho&#x64;**:**
 
 * `String` **$moduleName:** The machine name for the module.
 * `Array` **$listOfConfigFiles:** The list of config files.
