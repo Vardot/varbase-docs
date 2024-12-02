@@ -6,8 +6,8 @@ Provide Search Engine Optimization (SEO) Core features and settings.
 
 {% hint style="info" %}
 Varbase SEO features are bundled through the **Varbase SEO** module.\
-GitHub: [https://github.com/Vardot/varbase\_seo](https://github.com/Vardot/varbase\_seo)\
-Drupal.org: [https://www.drupal.org/project/varbase\_seo](https://www.drupal.org/project/varbase\_seo)
+GitHub: [https://github.com/Vardot/varbase\_seo](https://github.com/Vardot/varbase_seo)\
+Drupal.org: [https://www.drupal.org/project/varbase\_seo](https://www.drupal.org/project/varbase_seo)
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase SEO** module in:
 {% endhint %}
@@ -37,14 +37,18 @@ Brings in the following core and contributed modules to your site:
 | [**Redirect**](https://www.drupal.org/project/redirect)                                      | Allows users to redirect from old URLs to new URLs.                                                                                                            |
 | [**Redirect 404**](https://www.drupal.org/project/redirect)                                  | Logs 404 errors and allows users to create redirects for often requested but missing pages.                                                                    |
 | [**Redirect Domain**](https://www.drupal.org/project/redirect)                               | Allows users to redirect between domains.                                                                                                                      |
-| [**Schema.org Metatag**](https://www.drupal.org/project/schema\_metatag)                     | Base module for creating Schema.org JSON-LD structured data defined with Metatag module.                                                                       |
-| [**Schema.org Article**](https://www.drupal.org/project/schema\_metatag)                     | Adds Schema.org/Article to the JSON LD array. Creates Article, BlogPosting, SocialMediaPosting, Report, ScholarlyArticle, TechArticle or APIReference.         |
-| [**Schema.org ItemList**](https://www.drupal.org/project/schema\_metatag)                    | Adds Schema.org/ItemList to the JSON LD array.                                                                                                                 |
-| [**Schema.org WebPage**](https://www.drupal.org/project/schema\_metatag)                     | Adds Schema.org/WebPage to the JSON LD array. Creates WebPage, ItemPage, AboutPage, CheckoutPage, ContactPage, CollectionPage, ProfilePage, SearchResultsPage. |
-| [**Schema.org WebSite**](https://www.drupal.org/project/schema\_metatag)                     | Adds Schema.org/WebSite to the JSON LD array.                                                                                                                  |
-| [**Real-time SEO**](https://www.drupal.org/project/yoast\_seo)                               | Adds Real-time SEO page analysis and configuration                                                                                                             |
-| [**Script Manager**](https://www.drupal.org/project/script\_manager)                         | Manage JavaScript snippets included in your website.                                                                                                           |
+| [**Schema.org Metatag**](https://www.drupal.org/project/schema_metatag)                      | Base module for creating Schema.org JSON-LD structured data defined with Metatag module.                                                                       |
+| [**Schema.org Article**](https://www.drupal.org/project/schema_metatag)                      | Adds Schema.org/Article to the JSON LD array. Creates Article, BlogPosting, SocialMediaPosting, Report, ScholarlyArticle, TechArticle or APIReference.         |
+| [**Schema.org ItemList**](https://www.drupal.org/project/schema_metatag)                     | Adds Schema.org/ItemList to the JSON LD array.                                                                                                                 |
+| [**Schema.org WebPage**](https://www.drupal.org/project/schema_metatag)                      | Adds Schema.org/WebPage to the JSON LD array. Creates WebPage, ItemPage, AboutPage, CheckoutPage, ContactPage, CollectionPage, ProfilePage, SearchResultsPage. |
+| [**Schema.org WebSite**](https://www.drupal.org/project/schema_metatag)                      | Adds Schema.org/WebSite to the JSON LD array.                                                                                                                  |
+| [**Real-time SEO**](https://www.drupal.org/project/yoast_seo)                                | Adds Real-time SEO page analysis and configuration                                                                                                             |
+| [**Script Manager**](https://www.drupal.org/project/script_manager)                          | Manage JavaScript snippets included in your website.                                                                                                           |
 
 {% content-ref url="../../configuring-a-varbase-site/configuring-seo-features/" %}
 [configuring-seo-features](../../configuring-a-varbase-site/configuring-seo-features/)
 {% endcontent-ref %}
+
+{% hint style="info" %}
+For additional information see: [Google Analytics](../../../content-designers/site-configuration/system/google-analytics.md)
+{% endhint %}
