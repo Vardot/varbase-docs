@@ -48,6 +48,6 @@ You can upload media directly from the blocks that require adding media in the l
 
 ## In this section:
 
-1. [Image](broken-reference)
-2. [Remote video ](broken-reference)
-3. [Video](broken-reference)
+1. [Image](image.md)
+2. [Remote video ](remote-video.md)
+3. [Video](video.md)
