@@ -18,6 +18,6 @@ There are two approaches where to clear the caches:
 In this section, only the super admin has access to the _Performance_ section.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Clear All Caches From Performance Page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Clear All Caches From Performance Page</p></figcaption></figure>
 
 You will notice the _Clear all caches_ button, click it. The Varbase will now clear all your caches, this might take a couple of seconds then a message will appear indicating your caches are cleared.

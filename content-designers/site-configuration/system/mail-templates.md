@@ -8,9 +8,9 @@
    1. User can edit the Body of the template and the Subject.
 4. Update the Email and click on **Save.**
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Navigate the Mailer</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Navigate the Mailer</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Mailer Policy Page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Mailer Policy Page</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Edit Account Activation Email Template</p></figcaption></figure>
 

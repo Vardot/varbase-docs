@@ -30,7 +30,7 @@ To add a section to a specific page on the site, follow these steps:
 
 3. Or you can navigate the layout builder by clicking on **Tasks/**_**Layout.**_
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Navigate the Layout from the Task Bar</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Navigate the Layout from the Task Bar</p></figcaption></figure>
 
 4. Click on **+ ADD SECTION.**
 5. Choose a layout for this section e.g.( Bootstrap 1 Col).

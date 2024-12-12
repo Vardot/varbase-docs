@@ -42,7 +42,7 @@ After navigating to the XML sitemap section, there are three main sub-section:
 
 This is the most important section, to navigate to the XML settings page: **Administration \ Configurations \ Search and metadata \ Simple XML Sitemap \&#x20;**_**Settings**_
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>XML Sitemap Settings Page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>XML Sitemap Settings Page</p></figcaption></figure>
 
 * The user can set the sitemap to be generated after cron runs.
 * The Sitemap can be styled by displaying it as tables with sortable entries and thus become much friendlier towards human visitors.
