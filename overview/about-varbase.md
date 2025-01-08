@@ -1,4 +1,4 @@
-# 🔟 About Varbase
+# About Varbase
 
 <figure><img src="../.gitbook/assets/varbase-medium-logo-color-with-padding.png" alt="The Ultimate Drupal CMS Starter Kit (Bootstrap Ready)"><figcaption><p>The Ultimate Drupal CMS Starter Kit (Bootstrap Ready)</p></figcaption></figure>
 
@@ -6,7 +6,7 @@
 
 Varbase is an enhanced Drupal distribution packed with adaptive functionalities and essential modules, that speed up your development, and provides you with standardized configurations, making your life easier.
 
-The essence of Varbase, lies within the basic concept that initiated it; [DRY (Don’t Repeat Yourself)](https://en.wikipedia.org/wiki/Don't\_repeat\_yourself). Varbase handles that for you, relieving you from repeating all the modules, features, configurations that are included in every Drupal project.
+The essence of Varbase, lies within the basic concept that initiated it; [DRY (Don’t Repeat Yourself)](https://en.wikipedia.org/wiki/Don't_repeat_yourself). Varbase handles that for you, relieving you from repeating all the modules, features, configurations that are included in every Drupal project.
 
 Varbase can bring ease to you if you are:
 
@@ -19,7 +19,7 @@ Varbase can bring ease to you if you are:
 
 ## Join Varbase Slack Team for Feedback and Support
 
-[![](https://www.drupal.org/files/varbase-slack-cta\_0.png)](http://slack.varbase.vardot.com/)Visit [http://slack.varbase.vardot.com/](http://slack.varbase.vardot.com/) to join now.
+[![](https://www.drupal.org/files/varbase-slack-cta_0.png)](http://slack.varbase.vardot.com/)Visit [http://slack.varbase.vardot.com/](http://slack.varbase.vardot.com/) to join now.
 
 ## Give It a Spin and Try It
 

@@ -1,4 +1,4 @@
-# 🔟 Overview
+# Overview
 
 A brief overview of Varbase Docs Drupal and its features.
 

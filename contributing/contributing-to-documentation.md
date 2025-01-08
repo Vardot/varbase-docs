@@ -4,7 +4,7 @@ description: >-
   as well as some writing tips and guidelines.
 ---
 
-# 🔟 Contributing to Documentation
+# Contributing to Documentation
 
 ## Screenshots Guidelines
 
