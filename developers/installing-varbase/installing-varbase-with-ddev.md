@@ -10,6 +10,8 @@ Learn more about DDEV on the official website: [https://ddev.com](https://ddev.c
 Note that while you can run DDEV in production, it is highly discouraged, not recommended, and 100% not supported! DON'T DO IT!
 {% endhint %}
 
+## Steps to Set Up Varbase with DDEV
+
 1. **Install DDEV**
    * Install DDEV on your machine. Whether you’re using Linux, Mac, or Windows, there’s a package for you. Follow [this guide](https://ddev.readthedocs.io/en/stable/) to install DDEV.
 2. **Download Varbase**
@@ -22,8 +24,20 @@ Note that while you can run DDEV in production, it is highly discouraged, not re
        ```bash
        ddev start
        ```
+5. **Install Dependencies**
+   *   Run the following command to install all the required dependencies:
 
-Enjoy working with Varbase and DDEV!
+       ```bash
+       ddev composer install
+       ```
+6. **Check DDEV Status**
+   *   Verify the status of your DDEV project by running:
+
+       ```bash
+       ddev status
+       ```
+
+You’re all set! Enjoy working with Varbase and DDEV!
 
 {% hint style="success" %}
 Change the `name` value to your project's name.
@@ -35,7 +49,7 @@ For more information on the DDEV file configuration, read more on&#x20;
 
 {% embed url="https://ddev.readthedocs.io/en/stable/users/configuration/config/" %}
 
-### Adding DDEV to an existing Varbase project
+## Adding DDEV to an existing Varbase project
 
 1. Download `config.yaml` file and `.ddev` folder from the Varbase project repository [https://github.com/Vardot/varbase-project](https://github.com/Vardot/varbase-project) .
 2. Proceed with steps 1, 2, 3, and 4 mentioned above.
