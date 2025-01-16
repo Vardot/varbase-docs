@@ -31,19 +31,7 @@ You can then install Varbase as you install Drupal normally.
 
 ![Varbase Installation Screen](../../.gitbook/assets/Varbase-Installation-Screen.png)
 
-## Installing Varbase with Lando
-
-We recommend you install Varbase with Lando to start a new project.
-
-[Lando](https://lando.dev/) is a great local development environment for Drupal and other applications that vastly simplifies local development and DevOps so you can focus on the application, rather than the environment.
-
-{% content-ref url="installing-varbase-with-lando.md" %}
-[installing-varbase-with-lando.md](installing-varbase-with-lando.md)
-{% endcontent-ref %}
-
-
-
-## Installing Varbase with DDEV <a href="#installing-varbase-with-ddev" id="installing-varbase-with-ddev"></a>
+## Installing Varbase locally with DDEV <a href="#installing-varbase-with-ddev" id="installing-varbase-with-ddev"></a>
 
 [DDEV](https://github.com/ddev/ddev) is an open source tool for launching local web development environments in minutes. It supports PHP and other languages.
 
@@ -51,7 +39,13 @@ We recommend you install Varbase with Lando to start a new project.
 [installing-varbase-with-ddev.md](installing-varbase-with-ddev.md)
 {% endcontent-ref %}
 
+## Installing Varbase locally with Lando
 
+[Lando](https://lando.dev/) is a great local development environment for Drupal and other applications that vastly simplifies local development and DevOps so you can focus on the application, rather than the environment.
+
+{% content-ref url="installing-varbase-with-lando.md" %}
+[installing-varbase-with-lando.md](installing-varbase-with-lando.md)
+{% endcontent-ref %}
 
 ## Deploy Varbase on Platform.sh
 
@@ -65,3 +59,8 @@ Or deploy it using the baseline [Varbase Platform.sh template project](https://g
 Follow Platform.sh documentation on developing with Drupal and Varbase.\
 See [https://docs.platform.sh/guides/drupal9/deploy.html](https://docs.platform.sh/guides/drupal9/deploy.html)
 {% endhint %}
+
+## Remote Development Environment <a href="#remote-development-environment" id="remote-development-environment"></a>
+
+* [**Gitpod**](https://gitpod.io/#https://github.com/vardot/varbase-project)
+* [**Tugboat.qa**](https://www.tugboatqa.com/)
