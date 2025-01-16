@@ -60,7 +60,7 @@ Follow Platform.sh documentation on developing with Drupal and Varbase.\
 See [https://docs.platform.sh/guides/drupal9/deploy.html](https://docs.platform.sh/guides/drupal9/deploy.html)
 {% endhint %}
 
-### Remote Development Environment
+## Remote Development Environment
 
 * [**Gitpod**](https://gitpod.io/#https://github.com/vardot/varbase-project)
 * [**Tugboat.qa**](https://www.tugboatqa.com/)
