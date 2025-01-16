@@ -1,4 +1,4 @@
-# Installing Varbase with DDEV
+# Installing Varbase locally with DDEV
 
 [DDEV](https://github.com/ddev/ddev) is an open source tool for launching local web development environments in minutes. It supports PHP and other languages.
 
@@ -10,30 +10,32 @@ Learn more about DDEV on the official website: [https://ddev.com](https://ddev.c
 Note that while you can run DDEV in production, it is highly discouraged, not recommended, and 100% not supported! DON'T DO IT!
 {% endhint %}
 
-Follow the steps below to setup Varbase with DDEV.
+**Steps to Set Up Varbase with DDEV:**
 
-1. Install DDEV on your machine. Whether you use Linux, Mac, Windows, there's a package for you. [Follow this guide to install DDEV on your machine.](https://ddev.readthedocs.io/en/stable/)\
+1. **Install DDEV**
+   * Install DDEV on your machine. Whether you’re using Linux, Mac, or Windows, there’s a package for you. Follow [this guide](https://ddev.readthedocs.io/en/stable/) to install DDEV.
+2. **Download Varbase**
+   * [Download the Varbase zip file](https://github.com/Vardot/varbase-project/archive/refs/tags/10.0.3.1.zip), such as the source code (zip) for version [10.0.3.1](https://github.com/Vardot/varbase-project/releases/tag/10.0.3.1). Make sure to check for the [latest released version](https://github.com/Vardot/varbase-project/releases).
+3. **Unzip and Set Up**
+   * Unzip the downloaded file, rename it if needed, and move it to your local development directory.
+4. **Start the DDEV Project**
+   *   Navigate to the project directory and run:
 
-2.  Create a new Varbase project using Composer, this will include a template file for .ddev/config.yaml, for information on how to integrate DDEV on an existing project scroll to the bottom of this page.
+       ```bash
+       ddev start
+       ```
 
-    ```
-    composer create-project vardot/varbase-project:~10 MY_VARBASE_PROJECT --no-dev --no-interaction
-    ```
-3.  Edit the .ddev/config.yaml file and change the `name` value to your project's name.
+Enjoy working with Varbase and DDEV!
 
-    ```
-    cd MY_VARBASE_PROJECT
-    vim .ddev/config.yaml
-    ```
-4.  Start the **DDEV** project and enjoy.
+{% hint style="success" %}
+Change the `name` value to your project's name.
 
-    ```
-    ddev start
-    ```
+Edit the .ddev/config.yaml file&#x20;
+{% endhint %}
 
 For more information on the DDEV file configuration, read more on&#x20;
 
-[https://ddev.readthedocs.io/en/stable/users/configuration/config/](https://ddev.readthedocs.io/en/stable/users/configuration/config/)
+{% embed url="https://ddev.readthedocs.io/en/stable/users/configuration/config/" %}
 
 ### Adding DDEV to an existing Varbase project
 

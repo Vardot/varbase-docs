@@ -31,6 +31,14 @@ You can then install Varbase as you install Drupal normally.
 
 <figure><img src="../../.gitbook/assets/Varbase-10-00-00-install.png" alt=""><figcaption><p>Varbase Installation Screen</p></figcaption></figure>
 
+## Installing Varbase with DDEV
+
+[DDEV](https://github.com/ddev/ddev) is an open source tool for launching local web development environments in minutes. It supports PHP and other languages.
+
+{% content-ref url="installing-varbase-with-ddev.md" %}
+[installing-varbase-with-ddev.md](installing-varbase-with-ddev.md)
+{% endcontent-ref %}
+
 ## Installing Varbase with Lando
 
 We recommend you install Varbase with Lando to start a new project.
@@ -39,16 +47,6 @@ We recommend you install Varbase with Lando to start a new project.
 
 {% content-ref url="installing-varbase-with-lando.md" %}
 [installing-varbase-with-lando.md](installing-varbase-with-lando.md)
-{% endcontent-ref %}
-
-
-
-## Installing Varbase with DDEV
-
-[DDEV](https://github.com/ddev/ddev) is an open source tool for launching local web development environments in minutes. It supports PHP and other languages.
-
-{% content-ref url="installing-varbase-with-ddev.md" %}
-[installing-varbase-with-ddev.md](installing-varbase-with-ddev.md)
 {% endcontent-ref %}
 
 ## Deploy Varbase on Platform.sh
