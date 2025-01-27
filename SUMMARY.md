@@ -42,6 +42,7 @@
         * [Varbase AI Default recipe](developers/understanding-varbase/optional-components/varbase-ai/varbase-ai-default-recipe.md)
         * [Varbase AI Editor Assistant recipe](developers/understanding-varbase/optional-components/varbase-ai/varbase-ai-editor-assistant-recipe.md)
         * [Varbase AI Image Alt recipe](developers/understanding-varbase/optional-components/varbase-ai/varbase-ai-image-alt-recipe.md)
+        * [Varbase AI Taxonomy Tagging recipe](developers/understanding-varbase/optional-components/varbase-ai/varbase-ai-taxonomy-tagging-recipe.md)
       * [Varbase API](developers/understanding-varbase/optional-components/varbase-api.md)
       * [Varbase Internationalization](developers/understanding-varbase/optional-components/varbase-internationalization.md)
       * [Varbase Hero Slider](developers/understanding-varbase/optional-components/varbase-media-hero-slider.md)
