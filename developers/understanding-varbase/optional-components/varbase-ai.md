@@ -4,7 +4,7 @@ Provides a collection of recipes for AI tools, empowering editorial teams with a
 
 Enables seamless management of custom AI integrations for Varbase and supports updatable AI workflows.
 
-## Varbase API Module
+## Varbase AI Module
 
 {% hint style="info" %}
 Varbase AI features are bundled through the **Varbase AI** module.\
@@ -37,8 +37,6 @@ Brings in the following core and contributed modules to your site:
 ## Listed in Recipes
 
 Can be installed in the recipes installation step with Varbase.
-
-
 
 <figure><img src="../../../.gitbook/assets/Recipes-varbase_ai-Varbase-01-27-2025_11_32_AM.png" alt=""><figcaption><p>Activate the Default Varbase AI recipe</p></figcaption></figure>
 
