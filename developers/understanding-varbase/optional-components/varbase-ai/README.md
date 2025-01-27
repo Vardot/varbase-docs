@@ -38,7 +38,7 @@ Brings in the following core and contributed modules to your site:
 
 Can be installed in the recipes installation step with Varbase.
 
-<figure><img src="../../../.gitbook/assets/Recipes-varbase_ai-Varbase-01-27-2025_11_32_AM.png" alt=""><figcaption><p>Activate the Default Varbase AI recipe</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Recipes-varbase_ai-Varbase-01-27-2025_11_32_AM.png" alt=""><figcaption><p>Activate the Default Varbase AI recipe</p></figcaption></figure>
 
 ## **Varbase AI Recipes**
 
