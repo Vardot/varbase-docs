@@ -34,21 +34,23 @@ Brings in the following core and contributed modules to your site:
 | [**AI Image Alt Text**](https://www.drupal.org/project/ai_image_alt_text)      | Provided the possibility to fill out the alt text of an image field using AI.                      |
 | [**AI Image Bulk Alt Text**](https://www.drupal.org/project/ai_image_alt_text) | Adds the possibility to bulk change the alt text.                                                  |
 
-## Listed in the extra components
+## Listed in Recipes
 
-Can be installed in the extra components installation step with Varbase.
+Can be installed in the recipes installation step with Varbase.
 
 
 
 <figure><img src="../../../.gitbook/assets/Recipes-varbase_ai-Varbase-01-27-2025_11_32_AM.png" alt=""><figcaption><p>Activate the Default Varbase AI recipe</p></figcaption></figure>
 
-## **Optional Varbase AI Recipes**
-
-By installing the **Varbase AI** module, the site will only have the **Default Varbase AI Recipe**, but developers can apply optional recipes.
+## **Varbase AI Recipes**
 
 When the **Varbase AI** module is installed, the site is initially equipped with the <img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> **Default Varbase AI Recipe**. However, developers can extend its capabilities by integrating optional recipes.
 
-Below are the recipes designed to integrate Varbase AI with optional functionalities:
+{% hint style="success" %}
+By installing the **Varbase AI** module, the site will applay the **Default Varbase AI Recipe**, but developers can apply optional recipes too.
+{% endhint %}
+
+Below are the recipes designed to integrate AI in Varbase:
 
 |  <img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> [**Varbase AI Default recipe**](https://www.drupal.org/project/varbase_ai_default)                  | A recipe to configure default AI modules, settings, and permissions in Varbase, enabling OpenAI integrations for alt-text generation, CKEditor enhancements, and various AI-powered features. |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
