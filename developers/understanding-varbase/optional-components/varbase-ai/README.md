@@ -50,9 +50,28 @@ By installing the **Varbase AI** module, the site will applay the **Default Varb
 
 Below are the recipes designed to integrate AI in Varbase:
 
-|  <img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> [**Varbase AI Default recipe**](https://www.drupal.org/project/varbase_ai_default)                  | A recipe to configure default AI modules, settings, and permissions in Varbase, enabling OpenAI integrations for alt-text generation, CKEditor enhancements, and various AI-powered features. |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> [**Varbase AI Editor Assistant recipe**](https://www.drupal.org/project/varbase_ai_editor_assistant) | A recipe to add AI-powered features and an assistant button to a CKEditor 5 text editor.                                                                                                      |
-| <img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> [**Varbase AI Image Alt recipe**](https://www.drupal.org/project/varbase_ai_image_alt)               | Provides a recipe to automatically generate and fill the alt text of an image field using AI.                                                                                                 |
-| <img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> [**Varbase AI Taxonomy Tagging recipe**](https://www.drupal.org/project/varbase_ai_taxonomy_tagging) | Provides a recipe to automatically tag selected referenced taxonomy terms based on the content entity's body field.                                                                           |
-| <img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> [**Varbase AI Agents recipe**](https://www.drupal.org/project/varbase_ai_agents)                     | Provides an AI-powered chatbot for streamlined administration and allows managing multiple agents with distinct functionalities.                                                              |
+<table data-header-hidden><thead><tr><th width="374">Recipe                             </th><th>Purpose</th></tr></thead><tbody><tr><td> <img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> <a href="https://www.drupal.org/project/varbase_ai_default"><strong>Varbase AI Default recipe</strong></a> </td><td>A recipe to configure default AI modules, settings, and permissions in Varbase, enabling OpenAI integrations for alt-text generation, CKEditor enhancements, and various AI-powered features.</td></tr><tr><td><img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> <a href="https://www.drupal.org/project/varbase_ai_editor_assistant"><strong>Varbase AI Editor Assistant recipe</strong></a></td><td>A recipe to add AI-powered features and an assistant button to a CKEditor 5 text editor.</td></tr><tr><td><img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> <a href="https://www.drupal.org/project/varbase_ai_image_alt"><strong>Varbase AI Image Alt recipe</strong></a></td><td>Provides a recipe to automatically generate and fill the alt text of an image field using AI.</td></tr><tr><td><img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> <a href="https://www.drupal.org/project/varbase_ai_taxonomy_tagging"><strong>Varbase AI Taxonomy Tagging recipe</strong></a></td><td>Provides a recipe to automatically tag selected referenced taxonomy terms based on the content entity's body field.</td></tr><tr><td><img src="https://www.drupal.org/files/Distributions-Recipes-logo.png" alt="Drupal Recipe logo" data-size="line"> <a href="https://www.drupal.org/project/varbase_ai_agents"><strong>Varbase AI Agents recipe</strong></a></td><td>Provides an AI-powered chatbot for streamlined administration and allows managing multiple agents with distinct functionalities.</td></tr></tbody></table>
+
+
+
+## Other AI Providers
+
+&#x20;[**OpenAI Provider**](https://www.drupal.org/project/ai_provider_openai) **(Already packaged with Varbase AI)**
+
+To power your Drupal site with an alternative AI service provider, you'll need an AI provider module. Here are some frequently used AI provider modules:
+
+* [**Anthropic**](https://www.drupal.org/project/ai_provider_anthropic)
+* [**Auphonic**](https://www.drupal.org/project/auphonic)
+* [**AWS Bedrock**](https://www.drupal.org/project/ai_provider_aws_bedrock)
+* [**Azure**](https://www.drupal.org/project/ai_provider_azure)
+* [**Deepseek**](https://www.drupal.org/project/ai_provider_deepseek)
+* [**Deepgram**](https://www.drupal.org/project/deepgram)
+* [**DeepL Translate**](https://www.drupal.org/project/ai_provider_deepl)
+* [**ElevenLabs**](https://www.drupal.org/project/elevenlabs)
+* [**Fireworks AI**](https://www.drupal.org/project/fireworksai)
+* [**Google Gemini**](https://www.drupal.org/project/gemini_provider)
+* [**Groq**](https://www.drupal.org/project/ai_provider_groq)
+* [**Huggingface**](https://www.drupal.org/project/ai_provider_huggingface)
+* [**lmstudio**](https://www.drupal.org/project/ai_provider_lmstudio)
+* [**Mistral**](https://www.drupal.org/project/ai_provider_mistral)
+* [**Ollama**](https://www.drupal.org/project/ai_provider_ollama)
