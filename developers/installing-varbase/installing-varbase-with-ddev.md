@@ -15,7 +15,7 @@ Note that while you can run DDEV in production, it is highly discouraged, not re
 1. **Install DDEV**
    * Install DDEV on your machine. Whether you’re using Linux, Mac, or Windows, there’s a package for you. Follow [this guide](https://ddev.readthedocs.io/en/stable/) to install DDEV.
 2. **Download Varbase**
-   * [Download the Varbase zip file](https://github.com/Vardot/varbase-project/archive/refs/tags/10.0.3.1.zip), such as the source code (zip) for version [10.0.3.1](https://github.com/Vardot/varbase-project/releases/tag/10.0.3.1). Make sure to check for the [latest released version](https://github.com/Vardot/varbase-project/releases).
+   * [Download the Varbase zip file](https://github.com/Vardot/varbase-project/releases/tag/10.0.4), such as the source code (zip) for version [10.0.4](https://github.com/Vardot/varbase-project/releases/tag/10.0.4) . Make sure to check for the [latest released version](https://github.com/Vardot/varbase-project/releases).
 3. **Unzip and Setup**
    * Unzip the downloaded file, rename it if needed, and move it to your local development directory.
 4. **Start the DDEV Project**
