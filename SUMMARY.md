@@ -206,6 +206,7 @@
     * [Development](content-designers/site-configuration/development.md)
     * [Varbase Settings](content-designers/site-configuration/varbase-settings.md)
     * [Web Services](content-designers/site-configuration/web-services.md)
+      * [OpenAPI](content-designers/site-configuration/web-services/openapi.md)
   * [Additional Tips](content-designers/additional-tips/README.md)
     * [Content Uploading Standards](content-designers/additional-tips/content-uploading-standards.md)
     * [Common Error Handling Tips](content-designers/additional-tips/common-error-handling-tips.md)
