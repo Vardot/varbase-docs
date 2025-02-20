@@ -18,9 +18,9 @@ This approach streamlines the development process by ensuring that your API is w
 
 Go to **Configuration/ Web Services/&#x20;**_**OpenAPI.**_
 
-<figure><img src="../../../.gitbook/assets/image (139).png" alt=""><figcaption><p>Navigate OpenAPI</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (144).png" alt=""><figcaption><p>Navigate OpenAPI</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (140).png" alt=""><figcaption><p>OpenAPI Page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (145).png" alt=""><figcaption><p>OpenAPI Page</p></figcaption></figure>
 
 ### OpenAPI Documentation:
 
@@ -28,11 +28,11 @@ Go to **Configuration/ Web Services/&#x20;**_**OpenAPI.**_
 2. Click on _**Explore with ReDoc**_ or _**Explore with Swagger UI.**_
 3. You'll be redirected to the OpenAPI Documentation page.
 
-<figure><img src="../../../.gitbook/assets/image (143).png" alt=""><figcaption><p>Explore with ReDoc &#x26; Explore with Swagger UI Buttons</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (146).png" alt=""><figcaption><p>Explore with ReDoc &#x26; Explore with Swagger UI Buttons</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (141).png" alt=""><figcaption><p>OpenAPI Documentation - Explore with ReDoc</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (147).png" alt=""><figcaption><p>OpenAPI Documentation - Explore with ReDoc</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (142).png" alt=""><figcaption><p>OpenAPI Documentation - Explore with Swagger UI</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (148).png" alt=""><figcaption><p>OpenAPI Documentation - Explore with Swagger UI</p></figcaption></figure>
 
 {% hint style="info" %}
 For further information about OpenAPI Documentation visit: [**Browsing OpenAPI Documentation For JSON API**](../../../developers/configuring-a-varbase-site/configuring-json-api-features.md#browsing-openapi-documentation-for-json-api)

@@ -203,6 +203,7 @@
       * [Google Analytics](content-designers/site-configuration/system/google-analytics.md)
       * [Mail Templates](content-designers/site-configuration/system/mail-templates.md)
     * [User Interface](content-designers/site-configuration/user-interface.md)
+      * [Admin Toolbar Tools](content-designers/site-configuration/user-interface/admin-toolbar-tools.md)
     * [Development](content-designers/site-configuration/development.md)
     * [Varbase Settings](content-designers/site-configuration/varbase-settings.md)
     * [Web Services](content-designers/site-configuration/web-services.md)
