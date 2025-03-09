@@ -146,6 +146,12 @@ ddev status
 └──────────────┴──────┴─────────────────────────────────────────────────────────────────────────┴────────────────────┘
 ```
 
+## When Adding or Changing Stories
+
+{% hint style="danger" %}
+Important to run the `ddev yarn storybook:gen`  command for all new or changed stories.
+{% endhint %}
+
 ## Manual Steps by step to Set up a Working Storybook for Varbase
 
 * Enable the **`storybook`** module on the site either through the site's interface or by running the command `drush en storybook` with Drush. Note that the CL Server module should not be kept running on a production site.
