@@ -1,6 +1,6 @@
 # Customize a Varbase Single Directory Components (SDC) In a Custom Theme
 
-The components folder contains various **Single Directory Components (SDC)**. To enhance the default components, Projects are using the components provided by [**Varbase Components**](https://www.drupal.org/project/varbase\_components) module.
+The components folder contains various **Single Directory Components (SDC)**. To enhance the default components, Projects are using the components provided by [**Varbase Components**](https://www.drupal.org/project/varbase_components) module.
 
 To replace any component from the **Varbase Components** module, follow the example below:
 
@@ -111,8 +111,8 @@ Front End frameworks are using a selected draft to create their custom schema me
 
 [Storybook JSON Schema Addon](https://storybook.js.org/addons/@kickstartds/storybook-addon-jsonschema/) to integrate with that
 
-{% content-ref url="integration-of-varbase-with-storybook.md" %}
-[integration-of-varbase-with-storybook.md](integration-of-varbase-with-storybook.md)
+{% content-ref url="integration-of-varbase-with-storybook-1.0-cl-server.md" %}
+[integration-of-varbase-with-storybook-1.0-cl-server.md](integration-of-varbase-with-storybook-1.0-cl-server.md)
 {% endcontent-ref %}
 
 
@@ -130,7 +130,7 @@ While **Varbase Blog** will retain the use of the standard **Varbase Card Compon
 {% endhint %}
 
 {% hint style="success" %}
-[**Varbase Blog**](https://www.drupal.org/project/varbase\_blog) serves as an exemplary model for understanding how to effectively manage various elements such as **Content types**, **View modes**, **Layout Libraries**, **Views**, **site section pages**, **categories**, and **tags** using the comprehensive range of _**`"assembled"`**_ [**Varbase Components**](https://www.drupal.org/project/varbase\_components), **modules**, and _**`"Starterkit/Recipes"`**_ configs.
+[**Varbase Blog**](https://www.drupal.org/project/varbase_blog) serves as an exemplary model for understanding how to effectively manage various elements such as **Content types**, **View modes**, **Layout Libraries**, **Views**, **site section pages**, **categories**, and **tags** using the comprehensive range of _**`"assembled"`**_ [**Varbase Components**](https://www.drupal.org/project/varbase_components), **modules**, and _**`"Starterkit/Recipes"`**_ configs.
 {% endhint %}
 
 ### Offering an Example Avenue
@@ -160,7 +160,7 @@ Make the transition from the `inline CSS class placement` method for **UI patter
 
 Can be managed in number of approaches
 
-**Example first approach:** Use the [**SDC Display**](https://www.drupal.org/project/sdc\_display) module. Select a component for a field display from the UI, and map values to props and slots.\
+**Example first approach:** Use the [**SDC Display**](https://www.drupal.org/project/sdc_display) module. Select a component for a field display from the UI, and map values to props and slots.\
 **Example second approach:** Create a `card-text-body-field` component and use the component with the twig template in **Vartheme BS5** suggestion for the field body.
 
 > ( Building the list of components for fields can be now in projects or products ) Then later SDC Display can map them from the UI.
@@ -233,7 +233,7 @@ Which is the equivalent of using the default **`Impressed Card - medium - with R
 ## SDC Examples <a href="#page-subtitle" id="page-subtitle"></a>
 
 {% hint style="info" %}
-### [SDC Examples](https://git.drupalcode.org/project/sdc\_examples/-/tree/1.x/components) module
+### [SDC Examples](https://git.drupalcode.org/project/sdc_examples/-/tree/1.x/components) module
 
 `Component Libraries: Components Examples`
 {% endhint %}
@@ -241,19 +241,19 @@ Which is the equivalent of using the default **`Impressed Card - medium - with R
 Have a look at the code and `README.md` for list of `props`, `slots`, and example how to use.&#x20;
 
 {% hint style="info" %}
-### [**Varbase Components**](https://github.com/Vardot/varbase\_components/tree/2.0.x/components) **module**
+### [**Varbase Components**](https://github.com/Vardot/varbase_components/tree/2.0.x/components) **module**
 
 ***
 
-* [Featured Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-featured)
-* [Impressed Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-impressed)
-* [Overlay Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-overlay)
-* [Hero Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-hero)
-* [Text Card](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/organisms/card-text)
+* [Featured Card](https://github.com/Vardot/varbase_components/tree/2.0.x/components/organisms/card-featured)
+* [Impressed Card](https://github.com/Vardot/varbase_components/tree/2.0.x/components/organisms/card-impressed)
+* [Overlay Card](https://github.com/Vardot/varbase_components/tree/2.0.x/components/organisms/card-overlay)
+* [Hero Card](https://github.com/Vardot/varbase_components/tree/2.0.x/components/organisms/card-hero)
+* [Text Card](https://github.com/Vardot/varbase_components/tree/2.0.x/components/organisms/card-text)
 
 ***
 
-[Button](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/atoms/button) , [Close Button](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/atoms/close-button), [Badge](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/atoms/badge), [Alert](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/molecules/alert), [Progress Bar](https://github.com/Vardot/varbase\_components/tree/2.0.x/components/atoms/progress-bar) ...
+[Button](https://github.com/Vardot/varbase_components/tree/2.0.x/components/atoms/button) , [Close Button](https://github.com/Vardot/varbase_components/tree/2.0.x/components/atoms/close-button), [Badge](https://github.com/Vardot/varbase_components/tree/2.0.x/components/atoms/badge), [Alert](https://github.com/Vardot/varbase_components/tree/2.0.x/components/molecules/alert), [Progress Bar](https://github.com/Vardot/varbase_components/tree/2.0.x/components/atoms/progress-bar) ...
 {% endhint %}
 
 
