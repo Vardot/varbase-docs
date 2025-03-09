@@ -14,13 +14,15 @@ Follow with the following link to install Varbase 10.0.x with DDEV
 [installing-varbase-with-ddev.md](../installing-varbase/installing-varbase-with-ddev.md)
 {% endcontent-ref %}
 
-### TEMP for Varbase 10.1.x Branch
+#### TEMP for Varbase 10.1.x Branch
 
 &#x20;Follow these steps to set up a development environment for Varbase 10.1.x.
 
 #### 1. Download and Extract Varbase 10.1.x
 
-```
+Get the code of the Varbase 10.1.x branch.
+
+```bash
 wget https://github.com/Vardot/varbase-project/archive/refs/heads/10.1.x.zip
 unzip 10.1.x.zip
 cd varbase-project-10.1.x
@@ -28,16 +30,42 @@ cd varbase-project-10.1.x
 
 #### 2. Start DDEV and Install Dependencies
 
-```
+Start DDEV and build inside it
+
+```bash
 ddev start
 ddev composer install -vvv
 ```
 
-#### 3. Install Varbase Using Drush
+#### 3. Install Varbase Using the Custom DDEV Container Command&#x20;
 
-```
-ddev varbase:install demo
-```
+{% hint style="info" %}
+Install Varbase using drush. (shell web container command)
+
+**Usage:** ddev install-varbase minimal|full|demo \[flags]
+
+**Aliases:** install-varbase, varbase:install
+{% endhint %}
+
+**Examples:**
+
+{% hint style="success" %}
+**Minimal Varbase installation**
+
+`ddev install-varbase minimal`
+
+**Full Varbase installation**&#x20;
+
+`ddev install-varbase full`
+
+**Quick Varbase Demo installation**
+
+`ddev install-varbase demo`
+{% endhint %}
+
+{% hint style="warning" %}
+A password for the webmaster user will be provided after the installation is complete.
+{% endhint %}
 
 #### 4. Initialize Storybook for Varbase
 
@@ -45,14 +73,25 @@ ddev varbase:install demo
 ddev init-storybook
 ```
 
-#### 5. Generate Stories and Start Storybook
+#### 5. Generate Stories
+
+Generate all stories
 
 ```
 ddev yarn storybook:gen
+```
+
+#### 6. Start Varbase Storybook 2.0
+
+```
 ddev yarn storybook:dev
 ```
 
-#### 6. Verify Installation & Links
+#### 7. Verify Installation and Links
+
+```
+ddev status
+```
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
@@ -85,10 +124,7 @@ ddev yarn storybook:dev
 └──────────────┴──────┴─────────────────────────────────────────────────────────────────────────┴────────────────────┘
 ```
 
-\
-
-
-## Manual Steps to Set up a Working Storybook for Varbase
+## Manual Steps by step to Set up a Working Storybook for Varbase
 
 * Enable the **`storybook`** module on the site either through the site's interface or by running the command `drush en storybook` with Drush. Note that the CL Server module should not be kept running on a production site.
 * Navigate to **`"/admin/people/permissions/module/storybook"`**  to give the `Render storybook stories` permission to all user roles. Check the  `Anonymous user` and `Authenticated user` checkbox and press **`Save permission`** submit button.
