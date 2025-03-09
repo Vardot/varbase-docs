@@ -216,6 +216,7 @@
       * [CL Components](content-designers/site-configuration/user-interface/cl-components.md)
       * [Antibot](content-designers/site-configuration/user-interface/antibot.md)
       * [Responsive Preview](content-designers/site-configuration/user-interface/responsive-preview.md)
+      * [Navigation Settings](content-designers/site-configuration/user-interface/navigation-settings.md)
     * [Development](content-designers/site-configuration/development.md)
     * [Varbase Settings](content-designers/site-configuration/varbase-settings.md)
     * [Web Services](content-designers/site-configuration/web-services.md)
