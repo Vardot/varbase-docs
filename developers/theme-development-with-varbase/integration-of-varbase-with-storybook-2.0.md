@@ -14,9 +14,13 @@ Follow with the following link to install Varbase 10.0.x with DDEV
 [installing-varbase-with-ddev.md](../installing-varbase/installing-varbase-with-ddev.md)
 {% endcontent-ref %}
 
-#### TEMP for Varbase 10.1.x Branch
+{% hint style="warning" %}
+#### TEMP for the Varbase 10.1.x Branch
 
-&#x20;Follow these steps to set up a development environment for Varbase 10.1.x.
+Varbase 10.1.0 stable is not released yet.
+
+Follow the following steps to set up a development environment for Varbase 10.1.x.
+{% endhint %}
 
 #### 1. Download and Extract Varbase 10.1.x
 
@@ -30,7 +34,7 @@ cd varbase-project-10.1.x
 
 #### 2. Start DDEV and Install Dependencies
 
-Start DDEV and build inside it
+Start DDEV and build inside it.
 
 ```bash
 ddev start
@@ -42,29 +46,35 @@ ddev composer install -vvv
 {% hint style="info" %}
 Install Varbase using drush. (shell web container command)
 
-**Usage:** ddev install-varbase minimal|full|demo \[flags]
+**Usage:** `ddev install-varbase` `minimal`|`full`|`demo` \[flags]
 
-**Aliases:** install-varbase, varbase:install
+**Aliases:** `install-varbase`, `varbase:install`
 {% endhint %}
 
+{% hint style="success" %}
 **Examples:**
 
-{% hint style="success" %}
-**Minimal Varbase installation**
+&#x20; **Minimal Varbase installation**
 
 `ddev install-varbase minimal`
 
-**Full Varbase installation**&#x20;
+&#x20;  **Full Varbase installation**&#x20;
 
 `ddev install-varbase full`
 
-**Quick Varbase Demo installation**
+&#x20; **Quick Varbase Demo installation**
 
 `ddev install-varbase demo`
 {% endhint %}
 
 {% hint style="warning" %}
 A password for the webmaster user will be provided after the installation is complete.
+{% endhint %}
+
+{% hint style="info" %}
+The `ddev install-varbase` command in Varbase is a custom DDEV command designed to quick auto install Varbase for the DDEV project.
+
+Have a look at the content of the [install-varbase](https://github.com/Vardot/varbase-project/blob/10.1.x/.ddev/commands/web/install-varbase) command.
 {% endhint %}
 
 #### 4. Initialize Storybook for Varbase
