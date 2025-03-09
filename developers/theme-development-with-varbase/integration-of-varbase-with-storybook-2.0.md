@@ -88,7 +88,7 @@ ddev yarn storybook:dev
 \
 
 
-## Steps to Set up a Working Storybook for Varbase
+## Manual Steps to Set up a Working Storybook for Varbase
 
 * Enable the **`storybook`** module on the site either through the site's interface or by running the command `drush en storybook` with Drush. Note that the CL Server module should not be kept running on a production site.
 * Navigate to **`"/admin/people/permissions/module/storybook"`**  to give the `Render storybook stories` permission to all user roles. Check the  `Anonymous user` and `Authenticated user` checkbox and press **`Save permission`** submit button.
