@@ -69,27 +69,39 @@ A password for the webmaster user will be provided after the installation is com
 
 #### 4. Initialize Storybook for Varbase
 
-```
+```bash
 ddev init-storybook
 ```
 
+{% hint style="info" %}
+The `ddev init-storybook` command in Varbase is a custom DDEV command designed to initialize Storybook for the DDEV project.
+
+Have a look at the content of the [init-storybook](https://github.com/Vardot/varbase-project/blob/10.1.x/.ddev/commands/web/init-storybook) command.
+{% endhint %}
+
 #### 5. Generate Stories
 
-Generate all stories
+Generate all stories using the following alias script&#x20;
 
-```
+```bash
 ddev yarn storybook:gen
 ```
 
+{% hint style="success" %}
+It will run the following drush command
+
+`drush storybook:generate-all-stories --force`
+{% endhint %}
+
 #### 6. Start Varbase Storybook 2.0
 
-```
+```bash
 ddev yarn storybook:dev
 ```
 
 #### 7. Verify Installation and Links
 
-```
+```bash
 ddev status
 ```
 
