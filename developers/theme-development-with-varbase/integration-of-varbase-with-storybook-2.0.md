@@ -353,23 +353,22 @@ After creating the project and installing Varbase 10
 #         This will allow for a start of a storybook:http upstream
 # -------------------------------------------------------------
 # -   name: storybook
-#     type: 'nodejs:18'
+#     type: 'nodejs:20'
 #     source:
 #         root: "/"
 #     dependencies:
 #         php:
 #             "composer/composer": "~2.0"
 #         nodejs:
-#             npm: "^6.10"
 #             node: "^18.17"
-#             yarn: "^1.22"
+#             yarn: "^4.6.0"
 #     disk: 512
 #     build:
 #         flavor: none
 #     variables:
 #         env:
 #             NODE_OPTIONS: --max-old-space-size=4096
-#             STORYBOOK_CL_SERVER_DOMAIN: 'varbase.local'
+#             STORYBOOK_SERVER_RENDER_URL: 'varbase.local'
 #     hooks:
 #         build: |
 #             set -e
@@ -379,8 +378,8 @@ After creating the project and installing Varbase 10
 #             yarn storybook:build
 #         post_deploy: |
 #             cd $PLATFORM_APP_DIR/.storybook/
-#             export STORYBOOK_CL_SERVER_DOMAIN=$(node setup-storybook.js)
-#             echo "STORYBOOK_CL_SERVER_DOMAIN: $STORYBOOK_CL_SERVER_DOMAIN"
+#             export STORYBOOK_SERVER_RENDER_URL=$(node setup-storybook.js)
+#             echo "STORYBOOK_SERVER_RENDER_URL: $STORYBOOK_SERVER_RENDER_URL"
 #     web:
 #         locations:
 #             '/':
@@ -404,7 +403,7 @@ After creating the project and installing Varbase 10
 #         NOT for production environments.
 #
 #    Follow with Integration of Varbase with Storybook
-#    https://docs.varbase.vardot.com/v/10.0.x/developers/theme-development-with-varbase/integration-of-varbase-with-storybook
+#    https://docs.varbase.vardot.com/developers/theme-development-with-varbase/integration-of-varbase-with-storybook-2.0#run-varbase-storybook-in-platformsh
 #
 #         This will allow for origin
 # -------------------------------------------------------------
@@ -424,7 +423,7 @@ After creating the project and installing Varbase 10
 #         NOT for production environments.
 #
 #    Follow with Integration of Varbase with Storybook
-#    https://docs.varbase.vardot.com/v/10.0.x/developers/theme-development-with-varbase/integration-of-varbase-with-storybook
+#    https://docs.varbase.vardot.com/developers/theme-development-with-varbase/integration-of-varbase-with-storybook-2.0#run-varbase-storybook-in-platformsh
 #
 #         This will allow for a storybook sub domain to point
 #         at the storybook:http upstream
