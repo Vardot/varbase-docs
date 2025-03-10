@@ -316,8 +316,6 @@ To include components from a custom module, uncomment and modify the following l
 "../docroot/modules/custom/my_custom_module/components/**/*.stories.@(json)",
 ```
 
-
-
 ## Run Varbase Storybook in Platformsh
 
 Having a working Storybook for development, testing or staging.
@@ -340,102 +338,9 @@ Select **Varbase** as the template, by default a **Varbase 10.1** will be built
 
 After creating the project and installing Varbase 10
 
-### Edit the **`applications.yaml`**  File in the `.platform` Folder
-
-```yaml
-# -------------------------------------------------------------
-#   Uncomment the following when start a storybook in development or staging
-#         NOT for production environments.
-#
-#    Follow with Integration of Varbase with Storybook
-#    https://docs.varbase.vardot.com/v/10.0.x/developers/theme-development-with-varbase/integration-of-varbase-with-storybook
-#
-#         This will allow for a start of a storybook:http upstream
-# -------------------------------------------------------------
-# -   name: storybook
-#     type: 'nodejs:20'
-#     source:
-#         root: "/"
-#     dependencies:
-#         php:
-#             "composer/composer": "~2.0"
-#         nodejs:
-#             node: "^18.17"
-#             yarn: "^4.6.0"
-#     disk: 512
-#     build:
-#         flavor: none
-#     variables:
-#         env:
-#             NODE_OPTIONS: --max-old-space-size=4096
-#             STORYBOOK_SERVER_RENDER_URL: 'varbase.local'
-#     hooks:
-#         build: |
-#             set -e
-#             cd $PLATFORM_APP_DIR
-#             composer install --ignore-platform-reqs --no-scripts
-#             yarn install --frozen-lockfile
-#             yarn storybook:build
-#         post_deploy: |
-#             cd $PLATFORM_APP_DIR/.storybook/
-#             export STORYBOOK_SERVER_RENDER_URL=$(node setup-storybook.js)
-#             echo "STORYBOOK_SERVER_RENDER_URL: $STORYBOOK_SERVER_RENDER_URL"
-#     web:
-#         locations:
-#             '/':
-#                 root: 'storybook'
-#                 passthru: true
-#                 index: ["index.html"]
-#                 allow: true
-#                 headers:
-#                     Access-Control-Allow-Origin: "*"
-#                     Access-Control-Expose-Headers: "true"
-#                     Access-Control-Max-Age: "false"
-#                     Access-Control-Allow-Credentials: "true"
-#         commands:
-#             start: |
-#                 sleep infinity
-```
-
-```yaml
-# -------------------------------------------------------------
-#   Uncomment the following when start a storybook in development or staging
-#         NOT for production environments.
-#
-#    Follow with Integration of Varbase with Storybook
-#    https://docs.varbase.vardot.com/developers/theme-development-with-varbase/integration-of-varbase-with-storybook-2.0#run-varbase-storybook-in-platformsh
-#
-#         This will allow for origin
-# -------------------------------------------------------------
-#    headers:
-#        Access-Control-Allow-Origin: "*"
-#        Access-Control-Expose-Headers: "true"
-#        Access-Control-Max-Age: "false"
-#        Access-Control-Allow-Credentials: "true"
-
-```
-
-### Edit the **`routes.yaml`** File in the `.platform` Folder
-
-```yaml
-# ---------------------------------------------------------------------------
-#   Uncomment the following when start a storybook in development or staging
-#         NOT for production environments.
-#
-#    Follow with Integration of Varbase with Storybook
-#    https://docs.varbase.vardot.com/developers/theme-development-with-varbase/integration-of-varbase-with-storybook-2.0#run-varbase-storybook-in-platformsh
-#
-#         This will allow for a storybook sub domain to point
-#         at the storybook:http upstream
-# ---------------------------------------------------------------------------
-# "https://storybook.{default}":
-#     type: upstream
-#     upstream: "storybook:http"
-```
-
 ### Replace Site URL with an Environment URL
 
-Edit the **`preview.js`** file in the **`.storybook`** folder
+Edit the **`preview.ts`** file in the **`.storybook`** folder, replace this with your Drupal site URL, or an environment variable.
 
 ```json
     server: {
