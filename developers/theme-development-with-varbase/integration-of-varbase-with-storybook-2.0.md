@@ -10,10 +10,6 @@
 
 Follow with the following link to install Varbase 10.0.x with DDEV
 
-{% content-ref url="../installing-varbase/installing-varbase-with-ddev.md" %}
-[installing-varbase-with-ddev.md](../installing-varbase/installing-varbase-with-ddev.md)
-{% endcontent-ref %}
-
 {% hint style="warning" %}
 #### TEMP for the Varbase 10.1.x Branch
 
