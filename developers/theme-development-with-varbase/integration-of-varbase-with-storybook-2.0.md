@@ -22,9 +22,27 @@ Varbase 10.1.0 stable is not released yet.
 Follow the following steps to set up a development environment for Varbase 10.1.x.
 {% endhint %}
 
+{% hint style="info" %}
+Before proceeding, ensure that you have the required tools installed on your local development environment:
+
+Make sure you have the following installed:
+
+* **DDEV** → For local development
+* **wget** → To download files from the web
+* **zip/unzip** → To extract compressed files
+{% endhint %}
+
+Learn more about DDEV on the official website: [https://ddev.com](https://ddev.com/)
+
+{% hint style="danger" %}
+[**DDEV**](https://github.com/ddev/ddev) **is a development tool!**
+
+Note that while you can run DDEV in production, it is highly discouraged, not recommended, and 100% not supported! DON'T DO IT!
+{% endhint %}
+
 #### 1. Download and Extract Varbase 10.1.x
 
-Get the code of the Varbase 10.1.x branch.
+To get the code for the **Varbase 10.1.x** branch and extract it to your chosen location with a custom folder name, follow these steps:
 
 ```bash
 wget https://github.com/Vardot/varbase-project/archive/refs/heads/10.1.x.zip
