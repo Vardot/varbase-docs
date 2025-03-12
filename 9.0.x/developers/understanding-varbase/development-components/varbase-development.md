@@ -13,8 +13,8 @@ _Make sure to uninstall this module before deployment to production sites_.
 
 {% hint style="info" %}
 Varbase development features are bundled through the **Varbase Development** module as part of the **Varbase Core** module.\
-GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase\_core)\
-Drupal.org: [https://www.drupal.org/project/varbase\_core](https://www.drupal.org/project/varbase\_core)&#x20;
+GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase_core)\
+Drupal.org: [https://www.drupal.org/project/varbase\_core](https://www.drupal.org/project/varbase_core)&#x20;
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase Development** module in:
 {% endhint %}
@@ -32,11 +32,10 @@ project_directory
 
 Brings in the following core and contributed modules to your site:
 
-| Module                                                                            | Purpose                                                                          |
-| --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| <p><strong>Database Logging</strong></p><p><em>(in Drupal core)</em></p>          | Logs system events in the database.                                              |
-| <p><strong>Views UI</strong></p><p><em>(in Drupal core)</em></p>                  | Provides a user interface for creating and managing views.                       |
-| [**Configuration Update Reports**](https://www.drupal.org/project/config\_update) | Adds an updates report and revert functionality to configuration management      |
-| [**Devel**](https://www.drupal.org/project/devel)                                 | Various blocks, pages, and functions for developers.                             |
-| [**Tour UI**](https://www.drupal.org/project/tour\_ui)                            | Provides a UI to manage guided tours.                                            |
-| [**Reroute Email**](https://www.drupal.org/project/reroute\_email)                | Reroutes emails send from the site to a predefined email. Useful for test sites. |
+| Module                                                                           | Purpose                                                                          |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| <p><strong>Database Logging</strong></p><p><em>(in Drupal core)</em></p>         | Logs system events in the database.                                              |
+| <p><strong>Views UI</strong></p><p><em>(in Drupal core)</em></p>                 | Provides a user interface for creating and managing views.                       |
+| [**Configuration Update Reports**](https://www.drupal.org/project/config_update) | Adds an updates report and revert functionality to configuration management      |
+| [**Devel**](https://www.drupal.org/project/devel)                                | Various blocks, pages, and functions for developers.                             |
+| [**Reroute Email**](https://www.drupal.org/project/reroute_email)                | Reroutes emails send from the site to a predefined email. Useful for test sites. |
