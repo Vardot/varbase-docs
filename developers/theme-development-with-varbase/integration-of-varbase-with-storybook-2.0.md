@@ -18,15 +18,12 @@ Varbase 10.1.0 stable is not released yet.
 Follow the following steps to set up a development environment for Varbase 10.1.x.
 {% endhint %}
 
-{% hint style="info" %}
-Before proceeding, ensure that you have the required tools installed on your local development environment:
-
+Before proceeding, ensure that you have the required tools installed on your local development environment:\
 Make sure you have the following installed:
 
-* **DDEV** → For local development
-* **wget** → To download files from the web
-* **zip/unzip** → To extract compressed files
-{% endhint %}
+* DDEV → For local development
+* wget → To download files from the web
+* zip/unzip → To extract compressed files
 
 Learn more about DDEV on the official website: [https://ddev.com](https://ddev.com/)
 
@@ -55,41 +52,31 @@ ddev start
 ddev composer install -vvv
 ```
 
-#### 3. Install Varbase Using the Custom DDEV Container Command&#x20;
+#### 3. Install Varbase Using the Custom DDEV Container Command
 
-{% hint style="info" %}
-Install Varbase using drush. (shell web container command)
+Install Varbase using drush. (shell web container command)\
+**Usage:** ddev install-varbase minimal|full|demo \[flags]\
+**Aliases:** install-varbase, varbase:install
 
-**Usage:** `ddev install-varbase` `minimal`|`full`|`demo` \[flags]
 
-**Aliases:** `install-varbase`, `varbase:install`
-{% endhint %}
 
-{% hint style="success" %}
-**Examples:**
+**Examples:**\
+Quick Varbase Demo installation\
+`ddev install-varbase demo`
 
-&#x20; **Minimal Varbase installation**
-
-`ddev install-varbase minimal`
-
-&#x20;  **Full Varbase installation**&#x20;
-
+Full Varbase installation\
 `ddev install-varbase full`
 
-&#x20; **Quick Varbase Demo installation**
-
-`ddev install-varbase demo`
-{% endhint %}
+Minimal Varbase installation\
+`ddev install-varbase minimal`
 
 {% hint style="warning" %}
 A password for the webmaster user will be provided after the installation is complete.
 {% endhint %}
 
-{% hint style="info" %}
-The `ddev install-varbase` command in Varbase is a custom DDEV command designed to quick auto install Varbase for the DDEV project.
+nstall Varbase for the DDEV project.
 
 Have a look at the content of the [install-varbase](https://github.com/Vardot/varbase-project/blob/10.1.x/.ddev/commands/web/install-varbase) command.
-{% endhint %}
 
 #### 4. Initialize Storybook for Varbase
 
@@ -97,11 +84,9 @@ Have a look at the content of the [install-varbase](https://github.com/Vardot/va
 ddev init-storybook
 ```
 
-{% hint style="info" %}
 The `ddev init-storybook` command in Varbase is a custom DDEV command designed to initialize Storybook for the DDEV project.
 
 Have a look at the content of the [init-storybook](https://github.com/Vardot/varbase-project/blob/10.1.x/.ddev/commands/web/init-storybook) command.
-{% endhint %}
 
 #### 5. Generate Stories
 
@@ -111,11 +96,9 @@ Generate all stories using the following alias script&#x20;
 ddev yarn storybook:gen
 ```
 
-{% hint style="success" %}
 It will run the following drush command
 
 `drush storybook:generate-all-stories --force`
-{% endhint %}
 
 #### 6. Start Varbase Storybook 2.0
 
@@ -162,9 +145,7 @@ ddev status
 
 ## When Adding or Changing Stories
 
-{% hint style="danger" %}
 Important to run the `ddev yarn storybook:gen`  command for all new or changed stories.
-{% endhint %}
 
 ## Manual Steps by step to Set up a Working Storybook for Varbase
 
@@ -173,13 +154,13 @@ Important to run the `ddev yarn storybook:gen`  command for all new or changed s
 
 <figure><img src="../../.gitbook/assets/Storybook-Permissions--Render-storybook-stories.png" alt=""><figcaption><p>Use the Storybook endpoint Module Permissions</p></figcaption></figure>
 
-{% hint style="success" %}
 **Use Drush to** [**grant specified permission(s) to a role**](https://www.drush.org/12.4.2/commands/role_perm_add/)**.**
 
 `./bin/drush role:perm:add anonymous 'render storybook stories'`
 
-`./bin/drush role:perm:add authenticated 'render storybook stories'`
-{% endhint %}
+`./bin/drush role:perm:add authenticated 'render storybook stories'`&#x20;
+
+**Use the** Render Storybook stories
 
 {% hint style="warning" %}
 **Use the** Render Storybook stories
@@ -187,13 +168,11 @@ Important to run the `ddev yarn storybook:gen`  command for all new or changed s
 _**Warning:** Give to trusted roles only; this permission has security implications._ Allows a user to access the Twig Storybook endpoint to render a template with stories.
 {% endhint %}
 
-{% hint style="success" %}
 **Use Drush to** [**remove specified permission(s) from a role**](https://www.drush.org/12.4.2/commands/role_perm_remove/)**.**
 
 `./bin/drush role:perm:remove anonymous 'use cl server'`
 
 `./bin/drush role:perm:remove authenticated 'use cl server'`
-{% endhint %}
 
 * Add the following exclude of modules to the `settings.php` or `settings.local.php` only to the development environment:
 * Change the following **Cross-Site HTTP requests (CORS)** in the **`development.services.yml`** file.
@@ -248,15 +227,11 @@ $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/default/development.local
 
 Having a local settings `settings.local.php` file. When used in a local development environment, or in Development, Staging, or Demo hosts.
 
-{% hint style="danger" %}
 Enabling Twig debugging is not recommended in production environments.
-{% endhint %}
 
 * Disable the Twig cache by `cache: false`  in the `development.services.yml` file.
 
-{% hint style="danger" %}
 Disabling the Twig cache is not recommended in production environments.
-{% endhint %}
 
 #### Change the Local Development Domain
 
@@ -317,9 +292,7 @@ To include components from a custom cloned generated theme, uncomment and modify
 "../docroot/themes/custom/mytheme/components/**/*.stories.@(json)",
 ```
 
-{% hint style="warning" %}
 Please ensure that the path to the custom theme is correct. It should be located either in `"../docroot/themes"` or `"../docroot/themes/custom"`&#x20;
-{% endhint %}
 
 ### Show Custom Modul&#x65;**'s Components**
 
