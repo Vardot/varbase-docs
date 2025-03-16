@@ -2,9 +2,7 @@
 
 **Varbase** has been integrated with [**Storybook**](https://storybook.js.org/) to provide a listing of stories for [**Single Directory Components (SDC)**](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components) components. This integration allows for easier development and testing of [**Varbase Components**](https://www.drupal.org/project/varbase_components).
 
-{% hint style="info" %}
-#### Not for production!!, only for development or staging.
-{% endhint %}
+Not for production!!, only for development or staging.
 
 ## Initialize Storybook for DDEV
 
@@ -54,29 +52,25 @@ ddev composer install -vvv
 
 #### 3. Install Varbase Using the Custom DDEV Container Command
 
-Install Varbase using drush. (shell web container command)\
-**Usage:** ddev install-varbase minimal|full|demo \[flags]\
-**Aliases:** install-varbase, varbase:install
+<kbd>Install Varbase using drush. (shell web container command)</kbd>\
+<kbd>**Usage:**</kbd> <kbd></kbd><kbd>ddev install-varbase minimal|full|demo \[flags]</kbd>\
+<kbd>**Aliases:**</kbd> <kbd></kbd><kbd>install-varbase, varbase:install</kbd>
 
+Install Varbase for the DDEV project.
 
-
-**Examples:**\
-Quick Varbase Demo installation\
-`ddev install-varbase demo`
-
-Full Varbase installation\
-`ddev install-varbase full`
-
-Minimal Varbase installation\
-`ddev install-varbase minimal`
-
-{% hint style="warning" %}
 A password for the webmaster user will be provided after the installation is complete.
-{% endhint %}
-
-nstall Varbase for the DDEV project.
 
 Have a look at the content of the [install-varbase](https://github.com/Vardot/varbase-project/blob/10.1.x/.ddev/commands/web/install-varbase) command.
+
+**Examples:**\
+**Quick Varbase Demo installation**\
+`ddev install-varbase demo`
+
+**Full Varbase installation**\
+`ddev install-varbase full`
+
+**Minimal Varbase installation**\
+`ddev install-varbase minimal`
 
 #### 4. Initialize Storybook for Varbase
 
