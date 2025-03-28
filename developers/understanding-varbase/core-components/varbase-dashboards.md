@@ -15,9 +15,9 @@ Provides default set of dashboards with configuration and enhancements for dynam
 {% hint style="info" %}
 Varbase workflow features are bundled through the **Varbase Dashboards** module.
 
-&#x20;GitHub: [https://github.com/Vardot/varbase\_dashboards](https://github.com/Vardot/varbase\_dashboards)
+&#x20;GitHub: [https://github.com/Vardot/varbase\_dashboards](https://github.com/Vardot/varbase_dashboards)
 
-&#x20;Drupal.org: [https://www.drupal.org/project/varbase\_dashboards](https://www.drupal.org/project/varbase\_dashboards)
+&#x20;Drupal.org: [https://www.drupal.org/project/varbase\_dashboards](https://www.drupal.org/project/varbase_dashboards)
 {% endhint %}
 
 
@@ -40,7 +40,6 @@ Brings in the following core and contributed modules to your site:
 | <p><strong>Content Moderation</strong></p><p><em>(in Drupal core)</em></p> | Provides additional publication states that can be used by other modules to moderate content. |
 | [**Dashboards**](https://www.drupal.org/project/dashboards)                | Dashboards based on layout builder.                                                           |
 | [**Dashboards views**](https://www.drupal.org/project/dashboards)          | Setup some views for dashboard.                                                               |
-| [**Dashboards statistics**](https://www.drupal.org/project/dashboards)     | Components for core statistics.                                                               |
 
 
 
