@@ -16,21 +16,21 @@ Use `"vardot/varbase-patches": "~9.2.0"`
 
 Use `"vardot/varbase-patches": "~9.1.0"`
 
-> &#x20; <mark style="color:green;background-color:green;">with</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Varbase \~9.1.0**</mark> <mark style="color:green;background-color:green;">**CKEditor 4**</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">and</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Drupal \~10**</mark> &#x20;
+> &#x20; <mark style="color:green;background-color:yellow;">with</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">**Varbase \~9.1.0**</mark> <mark style="color:green;background-color:yellow;">**CKEditor 4**</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">and</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">**Drupal \~10**</mark> &#x20;
 
 ### Managing Only Local Patches for Projects <a href="#managing-only-local-patches-for-projects" id="managing-only-local-patches-for-projects"></a>
 
 When there's a need to handle local patches for a project without relying on Varbase Patches.
 
-#### Remove Varbase Patches in Varbase \~9.1.0 for CKEditor 5 Compatibility <a href="#remove-varbase-patches-in-varbase-9.1.0-for-ckeditor-5-compatibility" id="remove-varbase-patches-in-varbase-9.1.0-for-ckeditor-5-compatibility"></a>
+#### Remove Varbase Patches in Varbase \~9.1.0 for <mark style="background-color:green;">CKEditor 5</mark> Compatibility <a href="#remove-varbase-patches-in-varbase-9.1.0-for-ckeditor-5-compatibility" id="remove-varbase-patches-in-varbase-9.1.0-for-ckeditor-5-compatibility"></a>
 
 > &#x20; <mark style="color:green;background-color:green;">With</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**CKEditor 5**</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">and</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Drupal \~10**</mark>**&#x20;&#x20;**&#x20;: Use the `"Vardot/varbase-patches": "9.2.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/9.2.x/composer.json](https://github.com/Vardot/varbase-patches/blob/9.2.x/composer.json)
 
 ***
 
-#### Remove Varbase Patches in Varbase \~9.1.0 for CKEditor 4 Compatibility <a href="#remove-varbase-patches-in-varbase-9.1.0-for-ckeditor-4-compatibility" id="remove-varbase-patches-in-varbase-9.1.0-for-ckeditor-4-compatibility"></a>
+#### Remove Varbase Patches in Varbase \~9.1.0 for <mark style="background-color:yellow;">CKEditor 4</mark> Compatibility <a href="#remove-varbase-patches-in-varbase-9.1.0-for-ckeditor-4-compatibility" id="remove-varbase-patches-in-varbase-9.1.0-for-ckeditor-4-compatibility"></a>
 
-> &#x20; <mark style="color:green;background-color:green;">With</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**CKEditor 4**</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">and</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Drupal \~10**</mark>**&#x20;&#x20;**&#x20;: Use the `"Vardot/varbase-patches": "9.1.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/9.1.x/composer.json](https://github.com/Vardot/varbase-patches/blob/9.1.x/composer.json)
+> &#x20; <mark style="color:green;background-color:yellow;">With</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">**CKEditor 4**</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">and</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">**Drupal \~10**</mark>   : Use the `"Vardot/varbase-patches": "9.1.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/9.1.x/composer.json](https://github.com/Vardot/varbase-patches/blob/9.1.x/composer.json)
 
 ### Storage of Local Patches Branch <a href="#storage-of-local-patches-branch" id="storage-of-local-patches-branch"></a>
 
