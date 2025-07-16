@@ -53,10 +53,10 @@ NO libraries **for Varbase \~10.0.0**
 
 NO libraries **For Varbase \~9.1.0**
 
-> With **CKEditor 4** and **Drupal 10** : Use the `"vardot/varbase-libraries": "9.1.0.0"` static version to have no libraries and manage local libraries in the project with a copy of libraries from [https://github.com/Vardot/varbase-libraries/blob/9.1.x/composer.json](https://github.com/Vardot/varbase-libraries/blob/9.1.x/composer.json) or NPM/YARN
-
-***
+> With **CKEditor 5** and **Drupal 10** : Use the `"vardot/varbase-libraries": "9.2.0.0"` static version to have no libraries and manage local libraries in the project with a copy of libraries from [https://github.com/Vardot/varbase-libraries/blob/9.2.x/composer.json](https://github.com/Vardot/varbase-libraries/blob/9.2.x/composer.json) or NPM/YARN
 
 NO libraries **For Varbase \~9.1.0**
 
-> With **CKEditor 5** and **Drupal 10** : Use the `"vardot/varbase-libraries": "9.2.0.0"` static version to have no libraries and manage local libraries in the project with a copy of libraries from [https://github.com/Vardot/varbase-libraries/blob/9.2.x/composer.json](https://github.com/Vardot/varbase-libraries/blob/9.2.x/composer.json) or NPM/YARN
+> With **CKEditor 4** and **Drupal 10** : Use the `"vardot/varbase-libraries": "9.1.0.0"` static version to have no libraries and manage local libraries in the project with a copy of libraries from [https://github.com/Vardot/varbase-libraries/blob/9.1.x/composer.json](https://github.com/Vardot/varbase-libraries/blob/9.1.x/composer.json) or NPM/YARN
+
+***
