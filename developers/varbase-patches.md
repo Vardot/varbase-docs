@@ -137,13 +137,13 @@ By integrating this set, you effectively instruct Composer to overlook the speci
 **Example:**
 
 ```php
-./bin/drush varbase:composer:cleanup:patches
+drush varbase:composer:cleanup:patches
 ```
 
 or
 
 ```php
-./bin/drush var-ccup
+drush var-ccup
 ```
 
 ### **Clean up the External \`patches-file\` JSON File**
@@ -157,13 +157,13 @@ or
 **Example:**
 
 ```php
-./bin/drush varbase:composer:cleanup:patches-file
+drush varbase:composer:cleanup:patches-file
 ```
 
 or
 
 ```php
-./bin/drush var-ccupf
+drush var-ccupf
 ```
 
 [^1]: 
