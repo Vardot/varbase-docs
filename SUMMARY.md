@@ -125,6 +125,7 @@
       * [Updating from Varbase 8.x to 9.x](developers/updating-varbase/version-update-guides/updating-from-varbase-8.x-to-9.x.md)
   * [Varbase Patches](developers/varbase-patches.md)
   * [Varbase Libraries](developers/varbase-libraries.md)
+  * [Varbase Replaces](developers/varbase-replaces.md)
   * [Frequently Asked Questions (FAQs)](developers/faqs.md)
   * [Extending Varbase](developers/extending-varbase/README.md)
     * [Overriding Varbase](developers/extending-varbase/overriding-varbase.md)
