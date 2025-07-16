@@ -60,3 +60,30 @@ NO libraries **For Varbase \~9.1.0**
 > With **CKEditor 4** and **Drupal 10** : Use the `"vardot/varbase-libraries": "9.1.0.0"` static version to have no libraries and manage local libraries in the project with a copy of libraries from [https://github.com/Vardot/varbase-libraries/blob/9.1.x/composer.json](https://github.com/Vardot/varbase-libraries/blob/9.1.x/composer.json) or NPM/YARN
 
 ***
+
+## Advanced: Merge `composer.libraries.json` from `vardot/varbase-libraries` in `vendor/`&#x20;
+
+For projects that want full control over which libraries are included, without relying on `asset-packagist.org`, you can merge the libraries directly from the `vardot/varbase-libraries` package using [`wikimedia/composer-merge-plugin`](https://github.com/wikimedia/composer-merge-plugin).
+
+**Setup Steps**
+
+1. **Install the merge plugin:**
+
+```bash
+bashCopyEditcomposer require wikimedia/composer-merge-plugin
+```
+
+2. **Add merge configuration to your root `composer.json`:**
+
+```json
+jsonCopyEdit"extra": {
+  "merge-plugin": {
+    "include": [
+      "vendor/vardot/varbase-libraries/composer.libraries.json"
+    ],
+    "recurse": true,
+    "replace": false,
+    "merge-dev": false
+  }
+}
+```
