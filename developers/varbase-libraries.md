@@ -70,13 +70,13 @@ For projects that want full control over which libraries are included, without r
 1. **Install the merge plugin:**
 
 ```bash
-bashCopyEditcomposer require wikimedia/composer-merge-plugin
+composer require wikimedia/composer-merge-plugin:~2
 ```
 
 2. **Add merge configuration to your root `composer.json`:**
 
 ```json
-jsonCopyEdit"extra": {
+"extra": {
   "merge-plugin": {
     "include": [
       "vendor/vardot/varbase-libraries/composer.libraries.json"
