@@ -8,21 +8,27 @@ As multiple commits are added to an MR, generating a stable patch file becomes c
 
 ***
 
+Use `"vardot/varbase-patches": "~10.1.0"`
+
+> &#x20; <mark style="color:green;background-color:green;">with</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Varbase \~10.1.0, CKEditor 5, UI Patterns \~2.0**</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">and</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Drupal \~11.2.0**</mark>&#x20;
+
+***
+
 Use `"vardot/varbase-patches": "~10.0.0"`
 
-> <mark style="color:green;background-color:green;">with</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Varbase**</mark><mark style="color:green;background-color:green;">**&#x20;**</mark><mark style="color:green;background-color:green;">**`~10.0.0`**</mark> <mark style="color:green;background-color:green;">**CKEditor**</mark><mark style="color:green;background-color:green;">**&#x20;**</mark><mark style="color:green;background-color:green;">**`5`**</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">and</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Drupal**</mark><mark style="color:green;background-color:green;">**&#x20;**</mark><mark style="color:green;background-color:green;">**`10`**</mark>
+> &#x20; <mark style="color:green;background-color:green;">with</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Varbase \~10.0.0**</mark> <mark style="color:green;background-color:green;">**CKEditor 5, UI Patterns \~1.0**</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">and</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Drupal \~10.5.0**</mark> &#x20;
 
 ***
 
 Use `"vardot/varbase-patches": "~9.2.0"`
 
-> <mark style="color:green;background-color:green;">with</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Varbase**</mark><mark style="color:green;background-color:green;">**&#x20;**</mark><mark style="color:green;background-color:green;">**`~9.1.0`**</mark> <mark style="color:green;background-color:green;">**CKEditor**</mark><mark style="color:green;background-color:green;">**&#x20;**</mark><mark style="color:green;background-color:green;">**`5`**</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">and</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Drupal**</mark><mark style="color:green;background-color:green;">**&#x20;**</mark><mark style="color:green;background-color:green;">**`10`**</mark>
+> &#x20; <mark style="color:green;background-color:green;">with</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Varbase \~9.1.0**</mark> <mark style="color:green;background-color:green;">**CKEditor 5**</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">and</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Drupal \~10**</mark> &#x20;
 
 ***
 
 Use `"vardot/varbase-patches": "~9.1.0"`
 
-> <mark style="color:green;background-color:yellow;">with</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">**Varbase**</mark><mark style="color:green;background-color:yellow;">**&#x20;**</mark><mark style="color:green;background-color:yellow;">**`~9.1.0`**</mark> <mark style="color:green;background-color:yellow;">**CKEditor**</mark><mark style="color:green;background-color:yellow;">**&#x20;**</mark><mark style="color:green;background-color:yellow;">**`4`**</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">and</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">**Drupal**</mark><mark style="color:green;background-color:yellow;">**&#x20;**</mark><mark style="color:green;background-color:yellow;">**`10`**</mark>
+> &#x20; <mark style="color:green;background-color:yellow;">with</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">**Varbase \~9.1.0**</mark> <mark style="color:green;background-color:yellow;">**CKEditor 4**</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">and</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">**Drupal 10**</mark> &#x20;
 
 ***
 
@@ -30,21 +36,27 @@ Use `"vardot/varbase-patches": "~9.1.0"`
 
 When there's a need to handle local patches for a project without relying on Varbase Patches.
 
+### Remove Varbase Patches in Varbase \~10.1.0
+
+> &#x20;<mark style="color:green;background-color:green;">With</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**CKEditor 5**</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">and</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Drupal \~11**</mark> : Use the `"Vardot/varbase-patches": "10.1.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/10.0.x/composer.json](https://github.com/Vardot/varbase-patches/blob/10.0.x/composer.json)
+
+***
+
 ### Remove Varbase Patches in Varbase \~10.0.0
 
-> <mark style="color:green;background-color:green;">With</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**CKEditor 5**</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">and</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Drupal 10**</mark> : Use the `"Vardot/varbase-patches": "10.0.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/10.0.x/composer.json](https://github.com/Vardot/varbase-patches/blob/10.0.x/composer.json)
+> &#x20;<mark style="color:green;background-color:green;">With</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**CKEditor 5**</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">and</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Drupal \~10**</mark> : Use the `"Vardot/varbase-patches": "10.0.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/10.0.x/composer.json](https://github.com/Vardot/varbase-patches/blob/10.0.x/composer.json)
 
 ***
 
 ### Remove Varbase Patches in Varbase \~9.1.0 for <mark style="background-color:green;">CKEditor 5</mark> Compatibility
 
-> <mark style="color:green;background-color:green;">With</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**CKEditor 5**</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">and</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Drupal 10**</mark> : Use the `"Vardot/varbase-patches": "9.2.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/9.2.x/composer.json](https://github.com/Vardot/varbase-patches/blob/9.2.x/composer.json)
+> &#x20;<mark style="color:green;background-color:green;">With</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**CKEditor 5**</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">and</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Drupal \~10**</mark> : Use the `"Vardot/varbase-patches": "9.2.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/9.2.x/composer.json](https://github.com/Vardot/varbase-patches/blob/9.2.x/composer.json)
 
 ***
 
 ### Remove Varbase Patches in Varbase \~9.1.0 for <mark style="background-color:yellow;">CKEditor 4</mark> Compatibility
 
-> <mark style="color:green;background-color:yellow;">With</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">**CKEditor 4**</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">and</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">**Drupal 10**</mark> : Use the `"Vardot/varbase-patches": "9.1.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/9.1.x/composer.json](https://github.com/Vardot/varbase-patches/blob/9.1.x/composer.json)
+> &#x20;<mark style="color:green;background-color:yellow;">With</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">**CKEditor 4**</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">and</mark> <mark style="color:green;background-color:yellow;"></mark><mark style="color:green;background-color:yellow;">**Drupal \~10**</mark> : Use the `"Vardot/varbase-patches": "9.1.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/9.1.x/composer.json](https://github.com/Vardot/varbase-patches/blob/9.1.x/composer.json)
 
 ## Storage of Local Patches Branch
 
