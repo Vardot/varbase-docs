@@ -12,41 +12,53 @@ Note that while you can run DDEV in production, it is highly discouraged, not re
 
 ## Steps to Setup Varbase with DDEV
 
-1. **Install DDEV**
-   * Install DDEV on your machine. Whether you’re using Linux, Mac, or Windows, there’s a package for you. Follow [this guide](https://ddev.readthedocs.io/en/stable/) to install DDEV.
-2. **Download Varbase**
-   * [Download the Varbase zip file](https://github.com/Vardot/varbase-project/archive/refs/tags/10.0.4.1.zip), such as the source code (zip) for version [10.0.4.1](https://github.com/Vardot/varbase-project/releases/tag/10.0.4.1) . Make sure to check for the [latest released version](https://github.com/Vardot/varbase-project/releases).
-3. **Unzip and Setup**
-   * Unzip the downloaded file, rename it if needed, and move it to your local development directory.
-4. **Start the DDEV Project**
-   *   Navigate to the project directory and run:
+Install DDEV on your machine. Whether you’re using Linux, Mac, or Windows, there’s a package for you. Follow [this guide](https://ddev.readthedocs.io/en/stable/) to install DDEV.
 
-       ```bash
-       ddev start
-       ```
-5. **Install Dependencies**
-   *   Run the following command to install all the required dependencies:
+1- Create a folder for a local Varbase project
 
-       ```bash
-       ddev composer install
-       ```
-6. **Check DDEV Status**
-   *   Verify the status of your DDEV project by running:
+```bash
+mkdir my-varbase-project
+cd my-varbase-project
+```
 
-       ```bash
-       ddev status
-       ```
-7.  **Launch the DDEV url in the Default Browser**
+2- Configure and Start DDEV in the folder
 
-    * Install Varbase from the browser:
+* ```bash
+  ddev config --project-type=drupal11 --docroot=docroot
+  ddev start
+  ```
 
-    ```bash
-    ddev launch
-    ```
+3- Create a Varbase Project in DDEV
 
+```bash
+ddev composer create-project vardot/varbase-project:10.1.0-alpha1
+```
 
+Launch the DDEV url in the Default Browser
+
+```bash
+ddev launch
+```
 
 You’re all set! Enjoy working with Varbase and DDEV!
+
+## Check DDEV Status
+
+*   Verify the status of your DDEV project by running:
+
+    ```bash
+    ddev status
+    ```
+
+## Quick Install Varbase with DDEV
+
+**Example:**
+
+```
+ ddev install-varbase demo
+```
+
+## Extra DDEV Configs
 
 {% hint style="success" %}
 Change the `name` value to your project's name.
