@@ -18,7 +18,7 @@ A generated cloned theme could be generated automatically to start with. Install
 
 This way a guaranteed full integration between **Varbase Components** and **Varbase Themes**.
 
-## Varbase Components module, SDC and SMACSS
+## Components, SDC and SMACSS
 
 All **Varbase** components organize CSS files under libraries with full use of [SMACSS](http://smacss.com/book/) in mind.
 
@@ -28,10 +28,6 @@ All **Varbase** components organize CSS files under libraries with full use of [
 >
 > SMACSS (pronounced “smacks”) is more style guide than rigid framework. There is no library within here for you to download or install. SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. It is an attempt to document a consistent approach to site development when using CSS.
 
-{% hint style="info" %}
-Inspected for **Varbase Components** with basic or no styling to look better when **Vartheme BS5** or a generated clone theme of it was the default theme for the site.
-{% endhint %}
-
 ## Vartheme BS5 starterkit theme, SDC and SMACSS
 
 **Vartheme BS5** too organize CSS files under libraries with full use of [SMACSS](http://smacss.com/book/) in mind.
@@ -39,20 +35,10 @@ Inspected for **Varbase Components** with basic or no styling to look better whe
 {% hint style="info" %}
 Have a look at the **SCSS** and **CSS** folders
 
-**SCSS:** [https://git.drupalcode.org/project/vartheme\_bs5/-/tree/3.0.x/scss](https://git.drupalcode.org/project/vartheme_bs5/-/tree/3.0.x/scss)
+**SCSS:** [https://git.drupalcode.org/project/vartheme\_bs5/-/tree/4.0.x/scss](https://git.drupalcode.org/project/vartheme_bs5/-/tree/4.0.x/scss)
 
-**CSS:** [https://git.drupalcode.org/project/vartheme\_bs5/-/tree/3.0.x/css](https://git.drupalcode.org/project/vartheme_bs5/-/tree/3.0.x/css)
+**CSS:** [https://git.drupalcode.org/project/vartheme\_bs5/-/tree/4.0.x/css](https://git.drupalcode.org/project/vartheme_bs5/-/tree/4.0.x/css)
 {% endhint %}
-
-{% hint style="info" %}
-NOTE: **Components** was moved to be included with **Single Directory Components (SDC)** components folder.
-
-Using the default components from [**Varbase Components**](https://www.drupal.org/project/varbase_components).
-
-Copy components from Varbase Components to have a custom change over the template, style, or script.
-{% endhint %}
-
-
 
 ## Drupal SMACSS
 
