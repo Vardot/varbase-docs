@@ -1,2 +1,0 @@
-# Theme Development with Varbase
-

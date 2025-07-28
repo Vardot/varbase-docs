@@ -1,2 +1,0 @@
-# Configuring Varbase Mailer Settings
-
