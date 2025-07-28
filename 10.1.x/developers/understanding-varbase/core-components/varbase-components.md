@@ -50,6 +50,6 @@ Brings in the following core and contributed modules to your site:
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="../../theme-development-with-varbase/customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md" %}
-[customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md](../../theme-development-with-varbase/customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

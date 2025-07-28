@@ -246,8 +246,8 @@ Open the example "Sport" term page.
 
 Follow with:
 
-{% content-ref url="../theme-development-with-varbase/customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md" %}
-[customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md](../theme-development-with-varbase/customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## The Media Header Component
