@@ -1,4 +1,4 @@
-# Integration of Varbase with Storybook 2.0
+# Integration of Varbase with Storybook
 
 **Varbase** has been integrated with [**Storybook**](https://storybook.js.org/) to provide a listing of stories for [**Single Directory Components (SDC)**](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components) components. This integration allows for easier development and testing of [**Varbase Components**](https://www.drupal.org/project/varbase_components).
 
