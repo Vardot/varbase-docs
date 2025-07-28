@@ -111,8 +111,8 @@ Front End frameworks are using a selected draft to create their custom schema me
 
 [Storybook JSON Schema Addon](https://storybook.js.org/addons/@kickstartds/storybook-addon-jsonschema/) to integrate with that
 
-{% content-ref url="integration-of-varbase-with-storybook-1.0-cl-server.md" %}
-[integration-of-varbase-with-storybook-1.0-cl-server.md](integration-of-varbase-with-storybook-1.0-cl-server.md)
+{% content-ref url="integration-of-varbase-with-storybook.md" %}
+[integration-of-varbase-with-storybook.md](integration-of-varbase-with-storybook.md)
 {% endcontent-ref %}
 
 

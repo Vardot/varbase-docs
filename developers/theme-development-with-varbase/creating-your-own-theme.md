@@ -43,16 +43,16 @@ cd PROJECT_DIR_NAME/docroot
 Run the following Drupal Generate Theme script:
 
 ```
-php core/scripts/drupal generate-theme new_theme_name --starterkit vartheme_bs5 --path themes/custom
+php core/scripts/drupal generate-theme mytheme --starterkit vartheme_bs5 --path themes/custom
 ```
 
 Additionally, you can create the theme's human-readable name and it description with two optional arguments:
 
 ```
-php core/scripts/drupal generate-theme new_theme_name \
+php core/scripts/drupal generate-theme mytheme \
   --starterkit vartheme_bs5 \
   --path themes/custom \
-  --name "New Theme Name" \
+  --name "MyTheme" \
   --description "Custom theme generated from Vartheme BS5 theme" 
 ```
 
@@ -122,7 +122,7 @@ yarn theme:init
 Ensure that you perform this step immediately after generating and installing packages, or after updating Bootstrap, Font Awesome, or any other necessary extensions.
 {% endhint %}
 
-The `theme:init` script alias will trigger the execution of `webpack --progress --config webpack.config.init.js`. This command is responsible for copying the specified files and folders from the [`webpack.config.init.js`](https://github.com/Vardot/vartheme\_bs5/blob/3.0.x/webpack.config.init.js) configuration file to their respective locations.
+The `theme:init` script alias will trigger the execution of `webpack --progress --config webpack.config.init.js`. This command is responsible for copying the specified files and folders from the [`webpack.config.init.js`](https://github.com/Vardot/vartheme_bs5/blob/3.0.x/webpack.config.init.js) configuration file to their respective locations.
 
 Additionally, any additional external libraries from the `node_modules` folder can be managed by copying them to a designated target libraries folder.
 
@@ -150,7 +150,7 @@ In case of working on a custom SDC component, an alias script command can help w
 yarn components:build
 ```
 
-The `components:build` script alias will trigger the execution of `webpack --progress --config webpack.config.components.js`. This command is responsible only for compiling custom SDC components in the them. The [webpack.config.components.js](https://github.com/Vardot/vartheme\_bs5/blob/3.0.x/webpack.config.components.js) file has the list of entry, and output for compiled css/js/svg script to the right public path.
+The `components:build` script alias will trigger the execution of `webpack --progress --config webpack.config.components.js`. This command is responsible only for compiling custom SDC components in the them. The [webpack.config.components.js](https://github.com/Vardot/vartheme_bs5/blob/3.0.x/webpack.config.components.js) file has the list of entry, and output for compiled css/js/svg script to the right public path.
 
 Have a look at the following link for more info:
 
@@ -180,7 +180,7 @@ yarn theme:watch
 
 ## Reporting Starterkit Bugs
 
-Should you encounter a bug while generating a new theme, please [create a new issue](https://www.drupal.org/node/add/project-issue/vartheme\_bs5)
+Should you encounter a bug while generating a new theme, please [create a new issue](https://www.drupal.org/node/add/project-issue/vartheme_bs5)
 
 ### Additional Information
 

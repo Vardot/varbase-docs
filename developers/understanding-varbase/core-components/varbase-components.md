@@ -46,8 +46,8 @@ Brings in the following core and contributed modules to your site:
 
 
 
-{% content-ref url="../../theme-development-with-varbase/integration-of-varbase-with-storybook-1.0-cl-server.md" %}
-[integration-of-varbase-with-storybook-1.0-cl-server.md](../../theme-development-with-varbase/integration-of-varbase-with-storybook-1.0-cl-server.md)
+{% content-ref url="../../theme-development-with-varbase/integration-of-varbase-with-storybook.md" %}
+[integration-of-varbase-with-storybook.md](../../theme-development-with-varbase/integration-of-varbase-with-storybook.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../theme-development-with-varbase/customize-a-varbase-single-directory-components-sdc-in-a-custom-theme.md" %}

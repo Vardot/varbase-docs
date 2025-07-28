@@ -21,9 +21,7 @@ The **preload.twig** file [https://git.drupalcode.org/project/drupal/-/blob/10.1
 Having the following in **Vartheme BS5**. And the include.
 
 ```
-{% raw %}
 {%- include '@vartheme_bs5/includes/preload.twig' with { vartheme_bs5_path: vartheme_bs5_path, html_dir: html_attributes['dir'] } only -%}
-{% endraw %}
 
 ```
 
@@ -46,7 +44,7 @@ Download directly from [fonts.google.com](https://fonts.google.com/specimen/Lora
 
 * Check the license before using the web font
 
-> These fonts are licensed under the [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site\_id=nrsi\&id=OFL).
+> These fonts are licensed under the [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi\&id=OFL).
 >
 > You can use them freely in your products & projects - print or digital, commercial or otherwise.
 >
@@ -82,7 +80,7 @@ Or hire a typography font designer.
 }
 ```
 
-Having more file formats if that was available by [web font conversion tools](https://www.google.com/search?q=webfont+converter+tools\&newwindow=1\&client=ubuntu\&biw=1864\&bih=851\&sxsrf=ALeKk01rUKpiornNNqbuM8ibJ2Rhr7aaIw%3A1629794566305\&ei=BrEkYd74Eb2C9u8Puc6ouAM\&oq=webfont+converter+tools\&gs\_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsANKBAhBGABQpUpYpUpgoV1oAXACeACAAZEBiAGKApIBAzAuMpgBAKABAcgBCMABAQ\&sclient=gws-wiz\&ved=0ahUKEwjek7nxocnyAhU9gf0HHTknCjcQ4dUDCA8\&uact=5)
+Having more file formats if that was available by [web font conversion tools](https://www.google.com/search?q=webfont+converter+tools\&newwindow=1\&client=ubuntu\&biw=1864\&bih=851\&sxsrf=ALeKk01rUKpiornNNqbuM8ibJ2Rhr7aaIw%3A1629794566305\&ei=BrEkYd74Eb2C9u8Puc6ouAM\&oq=webfont+converter+tools\&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsANKBAhBGABQpUpYpUpgoV1oAXACeACAAZEBiAGKApIBAzAuMpgBAKABAcgBCMABAQ\&sclient=gws-wiz\&ved=0ahUKEwjek7nxocnyAhU9gf0HHTknCjcQ4dUDCA8\&uact=5)
 
 ```
   src: url(../webfonts/Lora-Regular.eot);
@@ -149,9 +147,9 @@ Check the following links:&#x20;
 
 Vartheme **Fonts** folder:
 
-[https://git.drupalcode.org/project/vartheme\_bs5/-/tree/3.0.x/fonts](https://git.drupalcode.org/project/vartheme\_bs5/-/tree/3.0.x/fonts)
+[https://git.drupalcode.org/project/vartheme\_bs5/-/tree/3.0.x/fonts](https://git.drupalcode.org/project/vartheme_bs5/-/tree/3.0.x/fonts)
 
-**Vartheme html.html.twig file:** [https://git.drupalcode.org/project/vartheme\_bs5/-/blob/3.0.x/templates/system/html.html.twig#L50](https://git.drupalcode.org/project/vartheme\_bs5/-/blob/3.0.x/templates/system/html.html.twig#L50)
+**Vartheme html.html.twig file:** [https://git.drupalcode.org/project/vartheme\_bs5/-/blob/3.0.x/templates/system/html.html.twig#L50](https://git.drupalcode.org/project/vartheme_bs5/-/blob/3.0.x/templates/system/html.html.twig#L50)
 
-**Vartheme  preload.twig file:** [https://git.drupalcode.org/project/vartheme\_bs5/-/blob/3.0.x/templates/includes/preload.twig](https://git.drupalcode.org/project/vartheme\_bs5/-/blob/3.0.x/templates/includes/preload.twig)
+**Vartheme  preload.twig file:** [https://git.drupalcode.org/project/vartheme\_bs5/-/blob/3.0.x/templates/includes/preload.twig](https://git.drupalcode.org/project/vartheme_bs5/-/blob/3.0.x/templates/includes/preload.twig)
 {% endhint %}
