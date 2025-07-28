@@ -43,7 +43,7 @@ cd PROJECT_DIR_NAME/docroot
 Run the following Drupal Generate Theme script:
 
 ```
-php core/scripts/drupal generate-theme new_theme_name --starterkit vartheme_bs5 --path themes/custom
+php core/scripts/drupal generate-theme mytheme --starterkit vartheme_bs5 --path themes/custom
 ```
 
 Additionally, you can create the theme's human-readable name and it description with two optional arguments:

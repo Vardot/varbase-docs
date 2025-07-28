@@ -4,7 +4,7 @@
 
 A starterkit theme for [**Varbase**](https://www.drupal.org/project/varbase) standard websites.
 
-A new generation of theming based on [**Bootstrap \~5.3.0**](https://getbootstrap.com/), [**Single Directory Components (SDC)**](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components) with [**Drupal `~10.1.0`**](https://www.drupal.org/project/drupal/releases/10.1.0-alpha1), and [**UI Patterns**](https://www.drupal.org/project/ui_patterns) **`2.0.x-dev`**.
+A new generation of theming based on [**Bootstrap \~5.3.0**](https://getbootstrap.com/), [**Single Directory Components (SDC)**](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components) with [**Drupal `~10.1.0`**](https://www.drupal.org/project/drupal/releases/10.1.0-alpha1), and [**UI Patterns**](https://www.drupal.org/project/ui_patterns) **`~2.0`**.
 
 [**Varbase Components**](https://www.drupal.org/project/varbase_components) provides component management system for **Varbase** and **Vartheme BS5**.
 
