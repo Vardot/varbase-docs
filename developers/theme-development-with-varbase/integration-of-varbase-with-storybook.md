@@ -92,9 +92,11 @@ ddev yarn storybook:gen
 
 It will run the following drush command
 
-`drush storybook:generate-all-stories --force`
+```
+ddev drush storybook:generate-all-stories --force
+```
 
-#### 6. Start Varbase Storybook 2.0
+#### 6. Start Varbase Storybook
 
 ```bash
 ddev yarn storybook:dev
@@ -150,9 +152,9 @@ Important to run the `ddev yarn storybook:gen`  command for all new or changed s
 
 **Use Drush to** [**grant specified permission(s) to a role**](https://www.drush.org/12.4.2/commands/role_perm_add/)**.**
 
-`./bin/drush role:perm:add anonymous 'render storybook stories'`
+`drush role:perm:add anonymous 'render storybook stories'`
 
-`./bin/drush role:perm:add authenticated 'render storybook stories'`&#x20;
+`drush role:perm:add authenticated 'render storybook stories'`&#x20;
 
 **Use the** Render Storybook stories
 
@@ -164,9 +166,9 @@ _**Warning:** Give to trusted roles only; this permission has security implicati
 
 **Use Drush to** [**remove specified permission(s) from a role**](https://www.drush.org/12.4.2/commands/role_perm_remove/)**.**
 
-`./bin/drush role:perm:remove anonymous 'use cl server'`
+`drush role:perm:remove anonymous 'render storybook stories'`
 
-`./bin/drush role:perm:remove authenticated 'use cl server'`
+`drush role:perm:remove authenticated 'render storybook stories'`
 
 * Add the following exclude of modules to the `settings.php` or `settings.local.php` only to the development environment:
 * Change the following **Cross-Site HTTP requests (CORS)** in the **`development.services.yml`** file.
