@@ -23,10 +23,10 @@ cd my-varbase-project
 
 2- Configure and Start DDEV in the folder
 
-* ```bash
-  ddev config --project-type=drupal10 --docroot=docroot
-  ddev start
-  ```
+```
+ddev config --project-type=drupal10 --docroot=docroot
+ddev start
+```
 
 3- Create a Varbase Project in DDEV
 
@@ -44,18 +44,18 @@ You’re all set! Enjoy working with Varbase and DDEV!
 
 ## Check DDEV Status
 
-*   Verify the status of your DDEV project by running:
+Verify the status of your DDEV project by running:
 
-    ```bash
-    ddev status
-    ```
+```bash
+ddev status
+```
 
 ## Quick Install Varbase with DDEV
 
 **Example:**
 
 ```
- ddev install-varbase demo
+ddev install-varbase demo
 ```
 
 ## Extra DDEV Configs
