@@ -23,15 +23,15 @@ cd my-varbase-project
 
 2- Configure and Start DDEV in the folder
 
-* ```bash
-  ddev config --project-type=drupal11 --docroot=docroot
-  ddev start
-  ```
+```
+ddev config --project-type=drupal11 --docroot=docroot
+ddev start
+```
 
 3- Create a Varbase Project in DDEV
 
 ```bash
-ddev composer create-project vardot/varbase-project:10.1.0-alpha1
+ddev composer create-project vardot/varbase-project:10.1.0-alpha2
 ```
 
 Launch the DDEV url in the Default Browser
@@ -44,11 +44,11 @@ You’re all set! Enjoy working with Varbase and DDEV!
 
 ## Check DDEV Status
 
-*   Verify the status of your DDEV project by running:
+Verify the status of your DDEV project by running:
 
-    ```bash
-    ddev status
-    ```
+```bash
+ddev status
+```
 
 ## Quick Install Varbase with DDEV
 
