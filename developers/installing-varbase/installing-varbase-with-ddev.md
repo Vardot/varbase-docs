@@ -24,7 +24,7 @@ cd my-varbase-project
 2- Configure and Start DDEV in the folder
 
 ```
-ddev config --project-type=drupal11 --docroot=docroot
+ddev config --project-type=drupal10 --docroot=docroot
 ddev start
 ```
 
