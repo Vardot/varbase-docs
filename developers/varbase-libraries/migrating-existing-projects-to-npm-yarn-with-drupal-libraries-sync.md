@@ -1,27 +1,51 @@
 # Migrating Existing Projects to NPM/YARN with drupal-libraries-sync
 
-Switched Varbase libraries managements from Asset Packagist to **NPM/Yarn** with `drupal-libraries-sync` because the previous approach had significant limitations in speed, security, maintainability, and ecosystem compatibility. [Asset-packagist.org](https://asset-packagist.org/) created bottlenecks and potential vulnerabilities that hindered development workflows.
+Switched Varbase libraries managements from Asset Packagist to **NPM/Yarn** with `drupal-libraries-sync` .
+
+## **Why Changed**
+
+Because the previous approach had significant limitations in speed, security, maintainability, and ecosystem compatibility. [Asset-packagist.org](https://asset-packagist.org/) created bottlenecks and potential vulnerabilities that hindered development workflows.
 
 The new NPM/Yarn approach provides modern package management that aligns with industry standards. By declaring dependencies in `package.json` and using the sync script to copy files from `node_modules` to `docroot/libraries`, developers gain better control over library versions, faster dependency resolution, and improved security through direct access to official repositories.
 
+Moving with [Automatic Updates](https://www.drupal.org/project/automatic_updates), [Package Manager](https://www.drupal.org/docs/develop/core-modules-and-themes/core-modules/package-manager-module), [**The Update Framework (TUF)**](https://theupdateframework.io/)**,** [PHP-TUF](https://github.com/php-tuf/php-tuf), and [PHP-TUF Composer integration](https://github.com/php-tuf/composer-integration)
+
+## Benefits of the New System <a href="#benefits-of-the-new-system" id="benefits-of-the-new-system"></a>
+
+* **Performance**: Faster dependency resolution with modern package managers
+* **Security**: Better vulnerability management through NPM/Yarn security auditing
+* **Maintainability**: Standard front-end tooling that developers are familiar with
+* **Ecosystem**: Access to the entire NPM ecosystem for front-end libraries
+* **Version Control**: More granular control over library versions and updates
+
+## **What Changed**
+
 This change improves developer experience with multiple sync options (`composer drupal-libraries-sync`, `yarn drupal-libraries-sync`, `npm drupal-libraries-sync`) while ensuring **Varbase** follows modern web development practices and maintains better long-term sustainability.
 
-## What Changed
-
-### Before (Asset Packagist)
+### **Before (Asset Packagist)**
 
 * Libraries were managed through `asset-packagist.org`
 * Dependencies were declared in `composer.json`
 * Libraries were automatically installed via Composer
 
-### After (NPM/Yarn + drupal-libraries-sync)
+### **After (NPM/Yarn + drupal-libraries-sync)**
 
 * Front-end libraries are managed via NPM/Yarn
 * Dependencies are declared in `package.json`
 * A sync script copies required files from `node_modules` to `docroot/libraries`
 * Yarn is the recommended package manager
 
-## Step 1: Remove Asset Packagist Dependencies
+## Step 0: Update The Varbase Project to 10.1.0-alpha3
+
+* This change is available starting with **Varbase 10.1.0-alpha3**
+* Projects using **Varbase 10.1.alpha2** and earlier should stop using Asset Packagist
+* The migration is backward compatible but requires manual intervention for existing projects
+
+```
+composer update vardot/varbase
+```
+
+## **Step 1: Remove Asset Packagist Dependencies**
 
 Remove any asset-packagist repositories and dependencies from your `composer.json`. The old composer.json configuration included asset-packagist.org repositories for managing npm assets like dropzone, blazy, slick-carousel, ace-builds, swagger-ui-dist, and CKEditor components:
 
@@ -31,9 +55,9 @@ Remove the asset-packagist repository configuration:
 composer config --unset repositories.assets
 ```
 
-Also remove any `npm-asset/*` dependencies from the `require` section, `"installer-paths"` , `"installer-types"` from the  `composer.json` file.
+Also remove any `npm-asset/*` dependencies from the `require` section, `"installer-paths"` , `"installer-types"` from the `composer.json` file.
 
-## Step 2: Change the package.json in the Varbase Project
+## **Step 2: Change the package.json in the Varbase Project**
 
 Change the `package.json` file in the Varbase project root with the following structure:
 
@@ -60,22 +84,22 @@ Change the `package.json` file in the Varbase project root with the following st
   "drupal-libraries": {
     "library-directory": "docroot/libraries",
     "libraries": [
-      { "name": "dropzone", "package": "dropzone" },
-      { "name": "blazy", "package": "blazy" },
-      { "name": "slick", "package": "slick-carousel/slick" },
-      { "name": "ace", "package": "ace-builds/src-min" },
-      { "name": "swagger-ui/dist", "package": "swagger-ui-dist" },
-      { "name": "ckeditor5/plugins/media-embed", "package": "@ckeditor/ckeditor5-media-embed" },
-      { "name": "aos", "package": "aos" },
-      { "name": "jquery.fancytree", "package": "jquery.fancytree/dist" }
+      {"name": "ckeditor5/plugins/media-embed", "package": "@ckeditor/ckeditor5-media-embed"},
+      {"name": "ace", "package": "ace-builds"},
+      {"name": "aos", "package": "aos"},
+      {"name": "blazy", "package": "blazy"},
+      {"name": "dropzone", "package": "dropzone"},
+      {"name": "jquery.fancytree", "package": "jquery.fancytree"},
+      {"name": "slick", "package": "slick-carousel/slick"},
+      {"name": "swagger-ui/dist", "package": "swagger-ui-dist"}
     ]
-  }
+  },
   ...
   ...
 }
 ```
 
-## Step 3: Change the composer.json file in the Varbase Project
+## **Step 3: Change the composer.json file in the Varbase Project**
 
 Add the new library sync commands to your `composer.json`:
 
@@ -100,26 +124,40 @@ Add the new library sync commands to your `composer.json`:
 }
 ```
 
-## Step 4: Install Dependencies and Sync Libraries
+## **Step 4: Install Dependencies and Sync Libraries**
 
 Run the following commands to install your front-end dependencies:
 
+<pre class="language-bash" data-title="Using Yarn (recommended)"><code class="lang-bash"><strong>yarn install
+</strong></code></pre>
+
+{% code title="Or using NPM" %}
 ```bash
-# Using Yarn (recommended)
-yarn install
-
-# Or using NPM
 npm install
+```
+{% endcode %}
 
-# Sync libraries to docroot/libraries
+***
+
+{% code title="Sync libraries to docroot/libraries" %}
+```bash
 yarn drupal-libraries-sync
-# or
+```
+{% endcode %}
+
+{% code title="or" %}
+```bash
 npm run drupal-libraries-sync
-# or
+```
+{% endcode %}
+
+{% code title="or" %}
+```bash
 composer drupal-libraries-sync
 ```
+{% endcode %}
 
-## Step 5: Verify Installation
+## **Step 5: Verify Installation**
 
 Check that libraries have been copied to the correct location:
 
@@ -129,23 +167,7 @@ ls -la docroot/libraries/
 
 You should see directories for each library defined in your `package.json` configuration.
 
-### Important Notes and Considerations
-
-#### Compatibility
-
-* This change is available starting with **Varbase 10.1.0-alpha3**
-* Projects using **Varbase 10.1.0-alpha2** and earlier should stop using using Asset Packagist
-* The migration is backward compatible but requires manual intervention for existing projects
-
-### Benefits of the New System
-
-* **Performance**: Faster dependency resolution with modern package managers
-* **Security**: Better vulnerability management through NPM/Yarn security auditing
-* **Maintainability**: Standard front-end tooling that developers are familiar with
-* **Ecosystem**: Access to the entire NPM ecosystem for front-end libraries
-* **Version Control**: More granular control over library versions and updates
-
-### Additional Resources
+## Additional Resources <a href="#additional-resources" id="additional-resources"></a>
 
 * [NPM Documentation](https://docs.npmjs.com/)
 * [Yarn Documentation](https://yarnpkg.com/getting-started)
