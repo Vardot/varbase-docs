@@ -6,22 +6,22 @@ The new NPM/Yarn approach provides modern package management that aligns with in
 
 This change improves developer experience with multiple sync options (`composer drupal-libraries-sync`, `yarn drupal-libraries-sync`, `npm drupal-libraries-sync`) while ensuring **Varbase** follows modern web development practices and maintains better long-term sustainability.
 
-#### What Changed
+## What Changed
 
-#### Before (Asset Packagist)
+### Before (Asset Packagist)
 
 * Libraries were managed through `asset-packagist.org`
 * Dependencies were declared in `composer.json`
 * Libraries were automatically installed via Composer
 
-#### After (NPM/Yarn + drupal-libraries-sync)
+### After (NPM/Yarn + drupal-libraries-sync)
 
 * Front-end libraries are managed via NPM/Yarn
 * Dependencies are declared in `package.json`
 * A sync script copies required files from `node_modules` to `docroot/libraries`
 * Yarn is the recommended package manager
 
-#### Step 1: Remove Asset Packagist Dependencies
+## Step 1: Remove Asset Packagist Dependencies
 
 Remove any asset-packagist repositories and dependencies from your `composer.json`. The old composer.json configuration included asset-packagist.org repositories for managing npm assets like dropzone, blazy, slick-carousel, ace-builds, swagger-ui-dist, and CKEditor components:
 
@@ -33,7 +33,7 @@ composer config --unset repositories.assets
 
 Also remove any `npm-asset/*` dependencies from the `require` section, `"installer-paths"` , `"installer-types"` from the  `composer.json` file.
 
-#### Step 2: Change the package.json in the Varbase Project
+## Step 2: Change the package.json in the Varbase Project
 
 Change the `package.json` file in the Varbase project root with the following structure:
 
@@ -75,7 +75,7 @@ Change the `package.json` file in the Varbase project root with the following st
 }
 ```
 
-#### Step 3: Change the composer.json file in the Varbase Project
+## Step 3: Change the composer.json file in the Varbase Project
 
 Add the new library sync commands to your `composer.json`:
 
@@ -100,7 +100,7 @@ Add the new library sync commands to your `composer.json`:
 }
 ```
 
-#### Step 5: Install Dependencies and Sync Libraries
+## Step 5: Install Dependencies and Sync Libraries
 
 Run the following commands to install your front-end dependencies:
 
@@ -119,7 +119,7 @@ npm run drupal-libraries-sync
 composer drupal-libraries-sync
 ```
 
-#### Step 6: Verify Installation
+## Step 6: Verify Installation
 
 Check that libraries have been copied to the correct location:
 
