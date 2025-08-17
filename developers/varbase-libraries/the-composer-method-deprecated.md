@@ -1,20 +1,8 @@
-# Varbase Libraries
+# The Composer Method (Deprecated)
 
 List of needed libraries for Varbase used packages with Composer.
 
 Moving to have a better and more dynamic way of managing `drupal-library` packages as libraries.
-
-***
-
-Use `"vardot/varbase-libraries": "~10.1.0"`
-
-> with **Varbase `~10.1.0`** and **Drupal `~11`**
-
-***
-
-Use `"vardot/varbase-libraries": "~10.0.0"`
-
-> with **Varbase `~10.0.0`** **CKEditor `5`** and **Drupal `~10`**
 
 ***
 
@@ -30,24 +18,12 @@ Use `"vardot/varbase-libraries": "~9.1.0"`
 
 ***
 
-## Managing Only Local Libraries in Projects
+#### Managing Only Local Libraries in Projects <a href="#managing-only-local-libraries-in-projects" id="managing-only-local-libraries-in-projects"></a>
 
 In case of needing to manage project's local libraries only.
 
 * Moving to a better drupal libraries management with Varbase
 * As a step to remove the use of **asset-packagist.org** in Varbase
-
-
-
-NO libraries **for Varbase \~10.1.0**
-
-> With **Drupal 10/11** : Use the `"vardot/varbase-libraries": "10.1.0.0"` static version to have no libraries and manage local libraries in the project with a copy of libraries from [https://github.com/Vardot/varbase-libraries/blob/10.1.x/composer.json](https://github.com/Vardot/varbase-libraries/blob/10.1.x/composer.json) or NPM/YARN
-
-***
-
-NO libraries **for Varbase \~10.0.0**
-
-> With **CKEditor 5** and **Drupal 10** : Use the `"vardot/varbase-libraries": "10.0.0.0"` static version to have no libraries and manage local libraries in the project with a copy of libraries from [https://github.com/Vardot/varbase-libraries/blob/10.0.x/composer.json](https://github.com/Vardot/varbase-libraries/blob/10.0.x/composer.json) or NPM/YARN
 
 ***
 
@@ -61,7 +37,7 @@ NO libraries **For Varbase \~9.1.0**
 
 ***
 
-## Advanced: Merge `composer.libraries.json` from `vardot/varbase-libraries` in `vendor/`&#x20;
+#### Advanced: Merge `composer.libraries.json` from `vardot/varbase-libraries` in `vendor/` <a href="#advanced-merge-composer.libraries.json-from-vardot-varbase-libraries-in-vendor" id="advanced-merge-composer.libraries.json-from-vardot-varbase-libraries-in-vendor"></a>
 
 For projects that want full control over which libraries are included, without relying on `asset-packagist.org`, you can merge the libraries directly from the `vardot/varbase-libraries` package using [`wikimedia/composer-merge-plugin`](https://github.com/wikimedia/composer-merge-plugin).
 
@@ -73,11 +49,10 @@ For projects that want full control over which libraries are included, without r
 composer require wikimedia/composer-merge-plugin:~2
 ```
 
-2. **Add merge configuration to your root `composer.json`:**
+2. **Add merge configuration to your root `composer.json`**
 
-```json
-"extra": {
-  "merge-plugin": {
+<pre class="language-json"><code class="lang-json"><strong>"extra": {
+</strong>  "merge-plugin": {
     "include": [
       "vendor/vardot/varbase-libraries/composer.libraries.json"
     ],
@@ -86,4 +61,4 @@ composer require wikimedia/composer-merge-plugin:~2
     "merge-dev": false
   }
 }
-```
+</code></pre>
