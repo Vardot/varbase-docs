@@ -45,6 +45,8 @@ This change improves developer experience with multiple sync options (`composer 
 composer update vardot/varbase
 ```
 
+Check that you do have the `docroot/profiles/contrib/varbase/scripts/drupal-libraries-sync.js` file in the system.
+
 ## **Step 1: Remove Asset Packagist Dependencies**
 
 Remove any asset-packagist repositories and dependencies from your `composer.json`. The old composer.json configuration included asset-packagist.org repositories for managing npm assets like dropzone, blazy, slick-carousel, ace-builds, swagger-ui-dist, and CKEditor components:
