@@ -20,14 +20,16 @@ NPM/Yarn dynamic way of managing packages as libraries.
 | `composer drupal-libraries-yarn-sync` | Sync libraries via Composer using Yarn.             |
 | `composer drupal-libraries-npm-sync`  | Sync libraries via Composer using NPM.              |
 
-### Adding New Libraries
+## Adding New Libraries
+
+Search for packages in [https://www.npmjs.com](https://www.npmjs.com/)
 
 #### 1. Add to package.json Dependencies
 
 ```json
 {
   "dependencies": {
-    "new-library": "^1.0.0"
+    "npm-package-to-start-using": "^1.0.0"
   }
 }
 ```
@@ -44,6 +46,13 @@ Add the library mapping to the `drupal-libraries` section:
     ]
   }
 }
+```
+
+#### 3. Install and Sync
+
+```bash
+yarn install
+yarn drupal-libraries-sync
 ```
 
 > #### Example:
@@ -68,7 +77,7 @@ Add the library mapping to the `drupal-libraries` section:
 >   {"name": "d3", "package": "d3"},
 > ```
 >
-> 4- Run the follwoing to sync drupal libraries.
+> 4- Run the following script to sync selected drupal libraries from node\_module to docroot/libraries.
 >
 > ```
 > yarn drupal-libraries-sync
@@ -86,14 +95,9 @@ Add the library mapping to the `drupal-libraries` section:
 Make sure that you commit the libraries with git. It is **no longer ignored** in the `.gitignore` file
 {% endhint %}
 
-#### 3. Install and Sync
+For more examples have a look at `"dependencies"` and `"drupal-libraries"` in the [package.json](https://github.com/Vardot/varbase-project/blob/10.1.x/package.json)
 
-```bash
-yarn install
-yarn drupal-libraries-sync
-```
-
-### Removing No Longer Needed Libraries
+## Removing No Longer Needed Libraries
 
 #### 1. Remove from the package.json file.
 
@@ -102,8 +106,8 @@ Remove the library from both `dependencies` and `drupal-libraries.libraries` sec
 #### 2. Clean Up Files
 
 ```bash
-# Remove the library directory
-rm -rf docroot/libraries/obsolete-library
+# Remove the library directory from libraries
+rm -rf docroot/libraries/used-npm-package
 
 # Reinstall to ensure clean state
 yarn install
