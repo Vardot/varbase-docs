@@ -6,15 +6,15 @@ Moving to have a better and more dynamic way of managing `drupal-library` packag
 
 ***
 
-Use `"vardot/varbase-libraries": "~9.2.0"`
+Use `"vardot/varbase-libraries": "~10.1.0"`
 
-> with **Varbase `~9.1.0`** **CKEditor `5`** and **Drupal `~10`**
+> with **Varbase `~10.1.0`** and **Drupal `~11`**
 
 ***
 
-Use `"vardot/varbase-libraries": "~9.1.0"`
+NO libraries **for Varbase \~10.1.0**
 
-> with **Varbase `~9.1.0`** **CKEditor `4`** and **Drupal `~10`**
+> With **Drupal 10/11** : Use the `"vardot/varbase-libraries": "10.1.0.0"` static version to have no libraries and manage local libraries in the project with a copy of libraries from [https://github.com/Vardot/varbase-libraries/blob/10.1.x/composer.json](https://github.com/Vardot/varbase-libraries/blob/10.1.x/composer.json) or NPM/YARN
 
 ***
 
