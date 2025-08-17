@@ -22,7 +22,7 @@ To create a user please visit this section [Add User](https://docs.varbase.vardo
 
 ### How to Manage the XML Sitemap?
 
-As a Super admin, Site admin, or SEO admin, navigate to **Administration \ Configurations \ Search and metadata \ **_**Simple XML Sitemap**_.
+As a Super admin, Site admin, or SEO admin, navigate to **Administration \ Configurations \ Search and metadata \&#x20;**_**Simple XML Sitemap**_.
 
 {% hint style="info" %}
 To masquerade a user please visit this section [Masquerade User](https://docs.varbase.vardot.com/user-guide/user-management/masquerade-user).
@@ -42,7 +42,7 @@ After navigating to the XML sitemap section, there are three main sub-section:
 
 ### XML Sitemap Settings
 
-This is the most important section, to navigate to the XML settings page: **Administration \ Configurations \ Search and metadata \ Simple XML Sitemap \ **_**Settings**_
+This is the most important section, to navigate to the XML settings page: **Administration \ Configurations \ Search and metadata \ Simple XML Sitemap \&#x20;**_**Settings**_
 
 ![XML sitemap settings page](<../../.gitbook/assets/image (8).png>)
 
@@ -56,7 +56,7 @@ In "Advanced settings", there is a field "Default base URL" where users can inse
 
 ### XML Sitemap Inclusion
 
-Users can include or exclude any entity on the site in the sitemap for example: Content-types, custom block, menus, entityqueues, taxonomy term, and user profiles to be indexed in the sitemap. To navigate to the XML sitemap inclusion page: **Administration \ Configurations \ Search and metadata \ Simple XML Sitemap \ **_**XML Sitemap Inclusion**_
+Users can include or exclude any entity on the site in the sitemap for example: Content-types, custom block, menus, entityqueues, taxonomy term, and user profiles to be indexed in the sitemap. To navigate to the XML sitemap inclusion page: **Administration \ Configurations \ Search and metadata \ Simple XML Sitemap \&#x20;**_**XML Sitemap Inclusion**_
 
 ![XML sitemap inclusion Page](<../../.gitbook/assets/image (89).png>)
 
@@ -66,7 +66,7 @@ SEO admin roles nor Site admin role can't include the XML sitemap to a specific 
 
 ![Content types are not indexed in the XML sitemap](<../../.gitbook/assets/image (58).png>)
 
-Let us take a Super admin role, remember this role can manage everything on the site. Now let us include the content-type to the XML sitemap, navigate to:  **Administration \ Structure \ **_**Content-type.**_ After navigating to the content types page, click the drop-down arrow on any content-type for example "Blog post" then click "Edit".
+Let us take a Super admin role, remember this role can manage everything on the site. Now let us include the content-type to the XML sitemap, navigate to:  **Administration \ Structure \&#x20;**_**Content-type.**_ After navigating to the content types page, click the drop-down arrow on any content-type for example "Blog post" then click "Edit".
 
 In the content-type "Blog post" editorial page:
 

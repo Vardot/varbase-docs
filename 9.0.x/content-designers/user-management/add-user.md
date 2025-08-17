@@ -2,7 +2,7 @@
 
 ## How to Add Users?
 
-This section will explain how to add users Varbase, please navigate to **Administration \ People \ **_**Add user.**_
+This section will explain how to add users Varbase, please navigate to **Administration \ People \&#x20;**_**Add user.**_
 
 ![Adding users in Varbase](<../../.gitbook/assets/image (84).png>)
 

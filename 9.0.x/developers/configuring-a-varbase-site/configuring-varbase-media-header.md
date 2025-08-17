@@ -114,7 +114,7 @@ The **Main media** field should have the _**"Media Library"**_ widget. And **Tab
 
 ### 4. Create Basic Page Form
 
-Navigate to **Content \ Add content \ **_**Basic page .**_ Then the new two fields should show up in the form. Under the Media Header sidebar form region.
+Navigate to **Content \ Add content \&#x20;**_**Basic page .**_ Then the new two fields should show up in the form. Under the Media Header sidebar form region.
 
 ![Create Basic Page After the Activation for Varbase Media Header](../../.gitbook/assets/Varbase-Media-Header---exmaple-basic-page--Create-Basic-page.png)
 
@@ -264,7 +264,7 @@ media_header_styles:
 
 ```
 
-Copy the [**SCSS**](https://git.drupalcode.org/project/varbase\_media\_header/-/tree/9.0.x/scss) files if you are working with **SASS**, and change values in the [_**variables.scss**_](https://git.drupalcode.org/project/varbase\_media\_header/-/blob/9.0.x/scss/variables.scss) file.
+Copy the [**SCSS**](https://git.drupalcode.org/project/varbase_media_header/-/tree/9.0.x/scss) files if you are working with **SASS**, and change values in the [_**variables.scss**_](https://git.drupalcode.org/project/varbase_media_header/-/blob/9.0.x/scss/variables.scss) file.
 
 Varbase Media Header default variables are:
 

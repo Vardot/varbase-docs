@@ -2,7 +2,7 @@
 
 This module [Pathologic](https://www.drupal.org/project/pathologic) is already installed and configured within Varbase. The main purpose of this module is to fix all URLs that should redirect to the production site if it was redirected to the internal contents.
 
-To navigate to the Pathologic configuration page: **Administration \ Configuration \ Content authoring \ **_**Pathologic configuration**_
+To navigate to the Pathologic configuration page: **Administration \ Configuration \ Content authoring \&#x20;**_**Pathologic configuration**_
 
 There are three type of URL formats:
 

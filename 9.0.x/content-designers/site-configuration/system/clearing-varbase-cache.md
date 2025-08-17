@@ -12,7 +12,7 @@ There are two approaches where to clear the caches:
 
 ![Flush all caches from Varbase icon](<../../../.gitbook/assets/image (27).png>)
 
-**The second approach** which you need to navigate through **Administration \ Configurations \ Configuration \ Development \ **_**Performance.**_
+**The second approach** which you need to navigate through **Administration \ Configurations \ Configuration \ Development \&#x20;**_**Performance.**_
 
 {% hint style="info" %}
 In this section, only the super admin has access to the _Performance_ section.
