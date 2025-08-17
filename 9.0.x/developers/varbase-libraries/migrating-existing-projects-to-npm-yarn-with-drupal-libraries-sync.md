@@ -156,7 +156,7 @@ You should see directories for each library defined in your `package.json` confi
 * **Ecosystem**: Access to the entire NPM ecosystem for front-end libraries
 * **Version Control**: More granular control over library versions and updates
 
-### Additional Resources <a href="#additional-resources" id="additional-resources"></a>
+## Additional Resources <a href="#additional-resources" id="additional-resources"></a>
 
 * [NPM Documentation](https://docs.npmjs.com/)
 * [Yarn Documentation](https://yarnpkg.com/getting-started)
