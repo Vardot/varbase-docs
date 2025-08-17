@@ -54,21 +54,24 @@ Add the library mapping to the `drupal-libraries` section:
 
 ```bash
 yarn install
-yarn drupal-libraries-sync
 ```
+
+{% hint style="success" %}
+The `yarn install` will do the equivalent of running `yarn drupal-libraries-sync` in the `postinstall` event, when the installation of packages in `node_modules` finishes.
+{% endhint %}
 
 > #### Example:
 >
-> 1- Let us imagine that we need the [**chart.js**](https://www.npmjs.com/package/chart.js) npm library in a project, to be used with the [**Chart module**](https://www.drupal.org/project/charts) along with the [**C3**](https://www.npmjs.com/package/c3) and [**D3**](https://www.npmjs.com/package/d3) npm libraries. (Search for packages in [https://www.npmjs.com](https://www.npmjs.com/))
+> 1- Let us imagine that we need the [**chart.js**](https://www.npmjs.com/package/chart.js) npm library in a project, to be used with the [**Chart**](https://www.drupal.org/project/charts)  **module** along with the [**C3**](https://www.npmjs.com/package/c3) and [**D3**](https://www.npmjs.com/package/d3) npm libraries. (Search for packages in [https://www.npmjs.com](https://www.npmjs.com/))
 >
 >
 >
-> 2- Run the following commands
+> 2- Add the following in `"dependencies"`
 >
 > ```bash
-> yarn add chart.js
-> yarn add c3
-> yarn add d3
+>     "chart.js": "~4",
+>     "d3": "~5",
+>     "c3": "0.7.*",
 > ```
 >
 > 3- Add the following in `drupal-libraries.libraries`
@@ -81,16 +84,12 @@ yarn drupal-libraries-sync
 >
 > 4- Run the following script to sync selected drupal libraries from node\_module to docroot/libraries.
 >
-> <pre class="language-bash"><code class="lang-bash"><strong>yarn drupal-libraries-sync
+> <pre class="language-bash"><code class="lang-bash"><strong>yarn install
 > </strong></code></pre>
 >
-> or
->
-> ```bash
-> composer drupal-libraries-sync
-> ```
->
 > 5- Check that you do have the new libraries in your `docroot/libraries` folder.
+>
+> 6- Notice that the package `chart.js` was copied from `node_modules` and when the `chartjs` name, as the [**Chart**](https://www.drupal.org/project/charts) **module** was developed to locate the `chartjs` folder in libraries.
 
 {% hint style="warning" %}
 Make sure that you commit the libraries with git. It is **no longer ignored** in the `.gitignore` file
@@ -106,14 +105,8 @@ Remove the library from both `dependencies` and `drupal-libraries.libraries` sec
 
 ### 2. Clean Up Files
 
-```bash
-# Remove the library directory from libraries
-rm -rf docroot/libraries/used-npm-package
-
-# Reinstall to ensure clean state
-yarn install
-yarn drupal-libraries-sync
-```
+<pre class="language-bash" data-title="Remove the library directory from libraries"><code class="lang-bash"><strong>rm -rf docroot/libraries/used-npm-package
+</strong></code></pre>
 
 ## Troubleshooting
 
