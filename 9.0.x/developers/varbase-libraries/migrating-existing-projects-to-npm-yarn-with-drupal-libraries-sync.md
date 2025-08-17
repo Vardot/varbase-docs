@@ -20,7 +20,7 @@ Moving with [Automatic Updates](https://www.drupal.org/project/automatic_updates
 
 ## **What Changed**
 
-This change improves developer experience with multiple sync options (`composer drupal-libraries-sync`, `yarn drupal-libraries-sync`, `npm drupal-libraries-sync`) while ensuring **Varbase** follows modern web development practices and maintains better long-term sustainability.
+This change improves developer experience with multiple `drupal-libraries-sync` options, while ensuring **Varbase** follows modern web development practices and maintains better long-term sustainability.
 
 ### **Before (Asset Packagist)**
 
@@ -34,6 +34,14 @@ This change improves developer experience with multiple sync options (`composer 
 * Dependencies are declared in `package.json`
 * A sync script copies required files from `node_modules` to `docroot/libraries`
 * Yarn is the recommended package manager
+
+| Command                               | Description                                         |
+| ------------------------------------- | --------------------------------------------------- |
+| `yarn drupal-libraries-sync`          | Sync libraries using Yarn.                          |
+| `npm run drupal-libraries-sync`       | Sync libraries using NPM.                           |
+| `composer drupal-libraries-sync`      | Sync libraries via Composer (uses Yarn by default). |
+| `composer drupal-libraries-yarn-sync` | Sync libraries via Composer using Yarn.             |
+| `composer drupal-libraries-npm-sync`  | Sync libraries via Composer using NPM.              |
 
 ## Step 0: Update The Varbase Project to 9.1.11
 
