@@ -10,7 +10,7 @@ List of needed libraries for Varbase Projects which uses packages with NPM/YARN.
 
 NPM/Yarn dynamic way of managing packages as libraries.
 
-By adding all needed libraries in `"dependencies"` and `"drupal-libraries"` in the [package.json](https://github.com/Vardot/varbase-project/blob/9.1.x/package.json) file in projects.
+By adding all needed libraries in `"dependencies"` and `"drupal-libraries"` in the [package.json](https://github.com/Vardot/varbase-project/blob/10.0.x/package.json) file in projects.
 
 ## Available Drupal Libraries Sync Commands <a href="#available-drupal-libraries-sync-commands" id="available-drupal-libraries-sync-commands"></a>
 
