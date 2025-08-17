@@ -100,7 +100,7 @@ Add the new library sync commands to your `composer.json`:
 }
 ```
 
-## Step 5: Install Dependencies and Sync Libraries
+## Step 4: Install Dependencies and Sync Libraries
 
 Run the following commands to install your front-end dependencies:
 
@@ -119,7 +119,7 @@ npm run drupal-libraries-sync
 composer drupal-libraries-sync
 ```
 
-## Step 6: Verify Installation
+## Step 5: Verify Installation
 
 Check that libraries have been copied to the correct location:
 
