@@ -6,22 +6,22 @@ The new NPM/Yarn approach provides modern package management that aligns with in
 
 This change improves developer experience with multiple sync options (`composer drupal-libraries-sync`, `yarn drupal-libraries-sync`, `npm drupal-libraries-sync`) while ensuring **Varbase** follows modern web development practices and maintains better long-term sustainability.
 
-**What Changed**
+## **What Changed**
 
-**Before (Asset Packagist)**
+### **Before (Asset Packagist)**
 
 * Libraries were managed through `asset-packagist.org`
 * Dependencies were declared in `composer.json`
 * Libraries were automatically installed via Composer
 
-**After (NPM/Yarn + drupal-libraries-sync)**
+### **After (NPM/Yarn + drupal-libraries-sync)**
 
 * Front-end libraries are managed via NPM/Yarn
 * Dependencies are declared in `package.json`
 * A sync script copies required files from `node_modules` to `docroot/libraries`
 * Yarn is the recommended package manager
 
-**Step 1: Remove Asset Packagist Dependencies**
+## **Step 1: Remove Asset Packagist Dependencies**
 
 Remove any asset-packagist repositories and dependencies from your `composer.json`. The old composer.json configuration included asset-packagist.org repositories for managing npm assets like dropzone, blazy, slick-carousel, ace-builds, swagger-ui-dist, and CKEditor components:
 
@@ -33,7 +33,7 @@ composer config --unset repositories.assets
 
 Also remove any `npm-asset/*` dependencies from the `require` section, `"installer-paths"` , `"installer-types"` from the `composer.json` file.
 
-**Step 2: Change the package.json in the Varbase Project**
+## **Step 2: Change the package.json in the Varbase Project**
 
 Change the `package.json` file in the Varbase project root with the following structure:
 
@@ -75,7 +75,7 @@ Change the `package.json` file in the Varbase project root with the following st
 }
 ```
 
-**Step 3: Change the composer.json file in the Varbase Project**
+## **Step 3: Change the composer.json file in the Varbase Project**
 
 Add the new library sync commands to your `composer.json`:
 
@@ -100,7 +100,7 @@ Add the new library sync commands to your `composer.json`:
 }
 ```
 
-**Step 5: Install Dependencies and Sync Libraries**
+## **Step 4: Install Dependencies and Sync Libraries**
 
 Run the following commands to install your front-end dependencies:
 
@@ -119,7 +119,7 @@ npm run drupal-libraries-sync
 composer drupal-libraries-sync
 ```
 
-**Step 6: Verify Installation**
+## **Step 5: Verify Installation**
 
 Check that libraries have been copied to the correct location:
 
@@ -129,15 +129,15 @@ ls -la docroot/libraries/
 
 You should see directories for each library defined in your `package.json` configuration.
 
-#### Important Notes and Considerations <a href="#important-notes-and-considerations" id="important-notes-and-considerations"></a>
+## Important Notes and Considerations <a href="#important-notes-and-considerations" id="important-notes-and-considerations"></a>
 
-**Compatibility**
+### **Compatibility**
 
 * This change is available starting with **Varbase 10.0.7**
 * Projects using **Varbase 10.0.6** and earlier should stop using Asset Packagist
 * The migration is backward compatible but requires manual intervention for existing projects
 
-#### Benefits of the New System <a href="#benefits-of-the-new-system" id="benefits-of-the-new-system"></a>
+### Benefits of the New System <a href="#benefits-of-the-new-system" id="benefits-of-the-new-system"></a>
 
 * **Performance**: Faster dependency resolution with modern package managers
 * **Security**: Better vulnerability management through NPM/Yarn security auditing
@@ -145,7 +145,7 @@ You should see directories for each library defined in your `package.json` confi
 * **Ecosystem**: Access to the entire NPM ecosystem for front-end libraries
 * **Version Control**: More granular control over library versions and updates
 
-#### Additional Resources <a href="#additional-resources" id="additional-resources"></a>
+## Additional Resources <a href="#additional-resources" id="additional-resources"></a>
 
 * [NPM Documentation](https://docs.npmjs.com/)
 * [Yarn Documentation](https://yarnpkg.com/getting-started)
