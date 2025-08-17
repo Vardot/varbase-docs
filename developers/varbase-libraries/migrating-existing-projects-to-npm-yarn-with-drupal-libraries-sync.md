@@ -38,12 +38,14 @@ This change improves developer experience with multiple sync options (`composer 
 ## Step 0: Update The Varbase Project to 10.1.0-alpha3
 
 * This change is available starting with **Varbase 10.1.0-alpha3**
-* Projects using **Varbase 10.1.alpha2** and earlier should stop using Asset Packagist
+* Projects using **Varbase 10.1.0-alpha2** and earlier should stop using Asset Packagist
 * The migration is backward compatible but requires manual intervention for existing projects
 
 ```
 composer update vardot/varbase
 ```
+
+Check that you do have the `docroot/profiles/contrib/varbase/scripts/drupal-libraries-sync.js` file in the system.
 
 ## **Step 1: Remove Asset Packagist Dependencies**
 
