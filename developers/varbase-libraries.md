@@ -20,22 +20,6 @@ NPM/Yarn dynamic way of managing packages as libraries.
 | `composer drupal-libraries-yarn-sync` | Sync libraries via Composer using Yarn.             |
 | `composer drupal-libraries-npm-sync`  | Sync libraries via Composer using NPM.              |
 
-### Troubleshooting
-
-#### Libraries Not Appearing
-
-1. Verify `package.json` syntax is valid
-2. Check that the library mapping in `drupal-libraries.libraries` is correct
-3. Ensure the sync script exists at `./docroot/profiles/contrib/varbase/scripts/drupal-libraries-sync.js`
-4. Run sync command manually: `yarn drupal-libraries-sync`
-
-#### Permission Issues
-
-```bash
-# Fix permissions if needed
-chmod +x ./docroot/profiles/contrib/varbase/scripts/drupal-libraries-sync.js
-```
-
 ### Adding New Libraries
 
 #### 1. Add to package.json Dependencies
@@ -124,6 +108,22 @@ rm -rf docroot/libraries/obsolete-library
 # Reinstall to ensure clean state
 yarn install
 yarn drupal-libraries-sync
+```
+
+### Troubleshooting
+
+#### Libraries Not Appearing
+
+1. Verify `package.json` syntax is valid
+2. Check that the library mapping in `drupal-libraries.libraries` is correct
+3. Ensure the sync script exists at `./docroot/profiles/contrib/varbase/scripts/drupal-libraries-sync.js`
+4. Run sync command manually: `yarn drupal-libraries-sync`
+
+#### Permission Issues
+
+```bash
+# Fix permissions if needed
+chmod +x ./docroot/profiles/contrib/varbase/scripts/drupal-libraries-sync.js
 ```
 
 ### **Migrating Existing Projects to NPM/YARN with** drupal-libraries-sync
