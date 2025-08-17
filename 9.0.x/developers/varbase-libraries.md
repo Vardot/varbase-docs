@@ -4,29 +4,29 @@ description: Drupal Libraries Management
 
 # Varbase Libraries
 
-### The NPM/Yarn Method <a href="#the-npm-yarn-method" id="the-npm-yarn-method"></a>
+## The NPM/Yarn Method
 
 List of needed libraries for Varbase Projects which uses packages with NPM/YARN.
 
 NPM/Yarn dynamic way of managing packages as libraries.
 
-By adding all needed libraries in `"dependencies"` and `"drupal-libraries"` in the [package.json](https://github.com/Vardot/varbase-project/blob/10.0.x/package.json) file in projects.
+By adding all needed libraries in `"dependencies"` and `"drupal-libraries"` in the [package.json](https://github.com/Vardot/varbase-project/blob/9.1.x/package.json) file in projects.
 
-### Available Drupal Libraries Sync Commands <a href="#available-drupal-libraries-sync-commands" id="available-drupal-libraries-sync-commands"></a>
+## Available Drupal Libraries Sync Commands
 
 | Command                               | Description                                         |
 | ------------------------------------- | --------------------------------------------------- |
-| `yarn drupal-libraries-sync`          | Sync libraries using Yarn.                          |
-| `npm run drupal-libraries-sync`       | Sync libraries using NPM.                           |
+| `yarn drupal-libraries-sync`          | Sync libraries using Yarn  NPM/Yarn.                |
+| `npm run drupal-libraries-sync`       | Sync libraries using.                               |
 | `composer drupal-libraries-sync`      | Sync libraries via Composer (uses Yarn by default). |
 | `composer drupal-libraries-yarn-sync` | Sync libraries via Composer using Yarn.             |
 | `composer drupal-libraries-npm-sync`  | Sync libraries via Composer using NPM.              |
 
-## Adding New Libraries <a href="#adding-new-libraries" id="adding-new-libraries"></a>
+## Adding New Libraries
 
 Search for packages in [https://www.npmjs.com](https://www.npmjs.com/)
 
-### 1. Add to package.json Dependencies <a href="#id-1.-add-to-package.json-dependencies" id="id-1.-add-to-package.json-dependencies"></a>
+### 1. Add to package.json Dependencies
 
 ```json
 {
@@ -36,7 +36,7 @@ Search for packages in [https://www.npmjs.com](https://www.npmjs.com/)
 }
 ```
 
-### 2. Configure Library Mapping <a href="#id-2.-configure-library-mapping" id="id-2.-configure-library-mapping"></a>
+### 2. Configure Library Mapping
 
 Add the library mapping to the `drupal-libraries` section:
 
@@ -44,33 +44,35 @@ Add the library mapping to the `drupal-libraries` section:
 {
   "drupal-libraries": {
     "libraries": [
-      ...
-      ...
-      ...
-      ...
       { "name": "new-library", "package": "new-library" }
     ]
   }
 }
 ```
 
-### 3. Install and Sync <a href="#id-3.-install-and-sync" id="id-3.-install-and-sync"></a>
+### 3. Install and Sync
 
 ```bash
 yarn install
-yarn drupal-libraries-sync
 ```
 
-> **Example:**
+{% hint style="success" %}
+The `yarn install` will do the equivalent of running `yarn drupal-libraries-sync` in the `postinstall` event, when the installation of packages in `node_modules` finishes.
+{% endhint %}
+
+> #### Example:
 >
-> 1- Let us imagine that we need the [**chart.js**](https://www.npmjs.com/package/chart.js) npm library in a project, to be used with the [**Chart module**](https://www.drupal.org/project/charts) along with the [**C3**](https://www.npmjs.com/package/c3) and [**D3**](https://www.npmjs.com/package/d3) npm libraries. (Search for packages in [https://www.npmjs.com](https://www.npmjs.com/))
+> 1- Let us imagine that we need the [**chart.js**](https://www.npmjs.com/package/chart.js) npm library in a project, to be used with the [**Chart**](https://www.drupal.org/project/charts)  **module** along with the [**C3**](https://www.npmjs.com/package/c3) and [**D3**](https://www.npmjs.com/package/d3) npm libraries. (Search for packages in [https://www.npmjs.com](https://www.npmjs.com/))
 >
-> 2- Run the following commands
 >
-> <pre class="language-bash"><code class="lang-bash"><strong>yarn add chart.js
-> </strong><strong>yarn add c3
-> </strong>yarn add d3
-> </code></pre>
+>
+> 2- Add the following in `"dependencies"`
+>
+> ```bash
+>     "chart.js": "~4",
+>     "d3": "~5",
+>     "c3": "0.7.*",
+> ```
 >
 > 3- Add the following in `drupal-libraries.libraries`
 >
@@ -82,56 +84,48 @@ yarn drupal-libraries-sync
 >
 > 4- Run the following script to sync selected drupal libraries from node\_module to docroot/libraries.
 >
-> <pre class="language-bash"><code class="lang-bash"><strong>yarn drupal-libraries-sync
+> <pre class="language-bash"><code class="lang-bash"><strong>yarn install
 > </strong></code></pre>
 >
-> or
->
-> ```bash
-> composer drupal-libraries-sync
-> ```
->
 > 5- Check that you do have the new libraries in your `docroot/libraries` folder.
+>
+> 6- Notice that the package `chart.js` was copied from `node_modules` and when the `chartjs` name, as the [**Chart**](https://www.drupal.org/project/charts) **module** was developed to locate the `chartjs` folder in libraries.
 
+{% hint style="warning" %}
 Make sure that you commit the libraries with git. It is **no longer ignored** in the `.gitignore` file
+{% endhint %}
 
 For more examples have a look at `"dependencies"` and `"drupal-libraries"` in the [package.json](https://github.com/Vardot/varbase-project/blob/9.1.x/package.json)
 
-## Removing No Longer Needed Libraries <a href="#removing-no-longer-needed-libraries" id="removing-no-longer-needed-libraries"></a>
+## Removing No Longer Needed Libraries
 
-### 1. Remove from the package.json file. <a href="#id-1.-remove-from-the-package.json-file" id="id-1.-remove-from-the-package.json-file"></a>
+### 1. Remove from the package.json file.
 
 Remove the library from both `dependencies` and `drupal-libraries.libraries` sections.
 
-### 2. Clean Up Files <a href="#id-2.-clean-up-files" id="id-2.-clean-up-files"></a>
+### 2. Clean Up Files
 
-```bash
-# Remove the library directory from libraries
-rm -rf docroot/libraries/used-npm-package
+<pre class="language-bash" data-title="Remove the library directory from libraries"><code class="lang-bash"><strong>rm -rf docroot/libraries/used-npm-package
+</strong></code></pre>
 
-# Reinstall to ensure clean state
-yarn install
-yarn drupal-libraries-sync
-```
+## Troubleshooting
 
-## Troubleshooting <a href="#troubleshooting" id="troubleshooting"></a>
-
-### Libraries Not Appearing <a href="#libraries-not-appearing" id="libraries-not-appearing"></a>
+### Libraries Not Appearing
 
 1. Verify `package.json` syntax is valid
 2. Check that the library mapping in `drupal-libraries.libraries` is correct
 3. Ensure the sync script exists at `./docroot/profiles/contrib/varbase/scripts/drupal-libraries-sync.js`
 4. Run sync command manually: `yarn drupal-libraries-sync`
 
-### Permission Issues <a href="#permission-issues" id="permission-issues"></a>
+### Permission Issues
 
-{% code title="Fix permissions if needed" %}
+{% code title="Fix permissions if needed" overflow="wrap" %}
 ```bash
 chmod +x ./docroot/profiles/contrib/varbase/scripts/drupal-libraries-sync.js
 ```
 {% endcode %}
 
-## Switch from Asset Packagist to NPM/Yarn <a href="#switch-from-asset-packagist-to-npm-yarn" id="switch-from-asset-packagist-to-npm-yarn"></a>
+## Switch from Asset Packagist to NPM/Yarn
 
 {% content-ref url="varbase-libraries/migrating-existing-projects-to-npm-yarn-with-drupal-libraries-sync.md" %}
 [migrating-existing-projects-to-npm-yarn-with-drupal-libraries-sync.md](varbase-libraries/migrating-existing-projects-to-npm-yarn-with-drupal-libraries-sync.md)
