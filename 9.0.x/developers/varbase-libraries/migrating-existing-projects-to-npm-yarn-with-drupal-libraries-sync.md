@@ -45,6 +45,8 @@ This change improves developer experience with multiple sync options (`composer 
 composer update vardot/varbase
 ```
 
+Check that you do have the `docroot/profiles/varbase/scripts/drupal-libraries-sync.js` file in the system.
+
 ## **Step 1: Remove Asset Packagist Dependencies**
 
 Remove any asset-packagist repositories and dependencies from your `composer.json`. The old composer.json configuration included asset-packagist.org repositories for managing npm assets like dropzone, blazy, slick-carousel, ace-builds, swagger-ui-dist, and CKEditor components:
@@ -68,16 +70,22 @@ Change the `package.json` file in the Varbase project root with the following st
   "scripts": {
     ...
     ...
-    "drupal-libraries-sync": "node ./docroot/profiles/contrib/varbase/scripts/drupal-libraries-sync.js",
-    "postinstall": "node ./docroot/profiles/contrib/varbase/scripts/drupal-libraries-sync.js"
+    "drupal-libraries-sync": "node ./docroot/profiles/varbase/scripts/drupal-libraries-sync.js",
+    "postinstall": "node ./docroot/profiles/varbase/scripts/drupal-libraries-sync.js"
   },
   "dependencies": {
     "@ckeditor/ckeditor5-media-embed": "~45.2.0",
     "ace-builds": "~1",
     "aos": "~2",
     "blazy": "~1",
+    "c3": "0.7.*",
+    "chart.js": "~4",
+    "d3": "~5",
     "dropzone": "~5",
+    "imagesloaded": "~4",
     "jquery.fancytree": "~2",
+    "masonry-layout": "~4",
+    "objectFitPolyfill": "~2",
     "slick-carousel": "~1",
     "swagger-ui-dist": "~3"
   },
@@ -88,8 +96,13 @@ Change the `package.json` file in the Varbase project root with the following st
       {"name": "ace", "package": "ace-builds"},
       {"name": "aos", "package": "aos"},
       {"name": "blazy", "package": "blazy"},
+      {"name": "chartjs", "package": "chart.js"},
+      {"name": "c3", "package": "c3"},
+      {"name": "d3", "package": "d3"},
       {"name": "dropzone", "package": "dropzone"},
+      {"name": "imagesloaded", "package": "imagesloaded"},
       {"name": "jquery.fancytree", "package": "jquery.fancytree"},
+      {"name": "objectfitpolyfill", "package": "objectFitPolyfill"},
       {"name": "slick", "package": "slick-carousel/slick"},
       {"name": "swagger-ui/dist", "package": "swagger-ui-dist"}
     ]
@@ -111,11 +124,11 @@ Add the new library sync commands to your `composer.json`:
     ],
     "drupal-libraries-yarn-sync": [
       "yarn install",
-      "node ./docroot/profiles/contrib/varbase/scripts/drupal-libraries-sync.js"
+      "node ./docroot/profiles/varbase/scripts/drupal-libraries-sync.js"
     ],
     "drupal-libraries-npm-sync": [
       "npm install",
-      "node ./docroot/profiles/contrib/varbase/scripts/drupal-libraries-sync.js"
+      "node ./docroot/profiles/varbase/scripts/drupal-libraries-sync.js"
     ],
     "post-create-project-cmd": [
       "@drupal-libraries-sync"
