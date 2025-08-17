@@ -1,12 +1,26 @@
 # Migrating Existing Projects to NPM/YARN with drupal-libraries-sync
 
-Switched Varbase libraries managements from Asset Packagist to **NPM/Yarn** with `drupal-libraries-sync` because the previous approach had significant limitations in speed, security, maintainability, and ecosystem compatibility. [Asset-packagist.org](https://asset-packagist.org/) created bottlenecks and potential vulnerabilities that hindered development workflows.
+Switched Varbase libraries managements from Asset Packagist to **NPM/Yarn** with `drupal-libraries-sync` .
+
+## **Why Changed**
+
+Because the previous approach had significant limitations in speed, security, maintainability, and ecosystem compatibility. [Asset-packagist.org](https://asset-packagist.org/) created bottlenecks and potential vulnerabilities that hindered development workflows.
 
 The new NPM/Yarn approach provides modern package management that aligns with industry standards. By declaring dependencies in `package.json` and using the sync script to copy files from `node_modules` to `docroot/libraries`, developers gain better control over library versions, faster dependency resolution, and improved security through direct access to official repositories.
 
-This change improves developer experience with multiple sync options (`composer drupal-libraries-sync`, `yarn drupal-libraries-sync`, `npm drupal-libraries-sync`) while ensuring **Varbase** follows modern web development practices and maintains better long-term sustainability.
+Moving with [Automatic Updates](https://www.drupal.org/project/automatic_updates), [Package Manager](https://www.drupal.org/docs/develop/core-modules-and-themes/core-modules/package-manager-module), [**The Update Framework (TUF)**](https://theupdateframework.io/)**,** [PHP-TUF](https://github.com/php-tuf/php-tuf), and [PHP-TUF Composer integration](https://github.com/php-tuf/composer-integration)
+
+## Benefits of the New System <a href="#benefits-of-the-new-system" id="benefits-of-the-new-system"></a>
+
+* **Performance**: Faster dependency resolution with modern package managers
+* **Security**: Better vulnerability management through NPM/Yarn security auditing
+* **Maintainability**: Standard front-end tooling that developers are familiar with
+* **Ecosystem**: Access to the entire NPM ecosystem for front-end libraries
+* **Version Control**: More granular control over library versions and updates
 
 ## **What Changed**
+
+This change improves developer experience with multiple sync options (`composer drupal-libraries-sync`, `yarn drupal-libraries-sync`, `npm drupal-libraries-sync`) while ensuring **Varbase** follows modern web development practices and maintains better long-term sustainability.
 
 ### **Before (Asset Packagist)**
 
@@ -20,6 +34,16 @@ This change improves developer experience with multiple sync options (`composer 
 * Dependencies are declared in `package.json`
 * A sync script copies required files from `node_modules` to `docroot/libraries`
 * Yarn is the recommended package manager
+
+## Step 0: Update The Varbase Project to 10.0.7
+
+* This change is available starting with **Varbase 10.0.7**
+* Projects using **Varbase 10.0.6** and earlier should stop using Asset Packagist
+* The migration is backward compatible but requires manual intervention for existing projects
+
+```
+composer update vardot/varbase
+```
 
 ## **Step 1: Remove Asset Packagist Dependencies**
 
@@ -104,20 +128,34 @@ Add the new library sync commands to your `composer.json`:
 
 Run the following commands to install your front-end dependencies:
 
+<pre class="language-bash" data-title="Using Yarn (recommended)"><code class="lang-bash"><strong>yarn install
+</strong></code></pre>
+
+{% code title="Or using NPM" %}
 ```bash
-# Using Yarn (recommended)
-yarn install
-
-# Or using NPM
 npm install
+```
+{% endcode %}
 
-# Sync libraries to docroot/libraries
+***
+
+{% code title="Sync libraries to docroot/libraries" %}
+```bash
 yarn drupal-libraries-sync
-# or
+```
+{% endcode %}
+
+{% code title="or" %}
+```bash
 npm run drupal-libraries-sync
-# or
+```
+{% endcode %}
+
+{% code title="or" %}
+```bash
 composer drupal-libraries-sync
 ```
+{% endcode %}
 
 ## **Step 5: Verify Installation**
 
@@ -128,22 +166,6 @@ ls -la docroot/libraries/
 ```
 
 You should see directories for each library defined in your `package.json` configuration.
-
-## Important Notes and Considerations <a href="#important-notes-and-considerations" id="important-notes-and-considerations"></a>
-
-### **Compatibility**
-
-* This change is available starting with **Varbase 10.0.7**
-* Projects using **Varbase 10.0.6** and earlier should stop using Asset Packagist
-* The migration is backward compatible but requires manual intervention for existing projects
-
-### Benefits of the New System <a href="#benefits-of-the-new-system" id="benefits-of-the-new-system"></a>
-
-* **Performance**: Faster dependency resolution with modern package managers
-* **Security**: Better vulnerability management through NPM/Yarn security auditing
-* **Maintainability**: Standard front-end tooling that developers are familiar with
-* **Ecosystem**: Access to the entire NPM ecosystem for front-end libraries
-* **Version Control**: More granular control over library versions and updates
 
 ## Additional Resources <a href="#additional-resources" id="additional-resources"></a>
 
