@@ -62,6 +62,46 @@ Add the library mapping to the `drupal-libraries` section:
 }
 ```
 
+> #### Example:
+>
+> 1- Let us imagine that we need the [**chart.js**](https://www.npmjs.com/package/chart.js) npm library in a project, to be used with the [**Chart module**](https://www.drupal.org/project/charts) along with the [**C3**](https://www.npmjs.com/package/c3) and [**D3**](https://www.npmjs.com/package/d3) npm libraries. (Search for packages in [https://www.npmjs.com](https://www.npmjs.com/))
+>
+>
+>
+> 2- Run the following commands
+>
+> ```
+> yarn add chart.js
+> yarn add c3
+> yarn add d3
+> ```
+>
+> 3- Add the following in `drupal-libraries.libraries`
+>
+> ```
+>   {"name": "chartjs", "package": "chart.js"},
+>   {"name": "c3", "package": "c3"},
+>   {"name": "d3", "package": "d3"},
+> ```
+>
+> 4- Run the follwoing to sync drupal libraries.
+>
+> ```
+> yarn drupal-libraries-sync
+> ```
+>
+> or
+>
+> ```
+> composer drupal-libraries-sync
+> ```
+>
+> 5- Check that you do have the new libraries in your `docroot/libraries` folder.
+
+{% hint style="warning" %}
+Make sure that you commit the libraries with git. It is **no longer ignored** in the `.gitignore` file
+{% endhint %}
+
 #### 3. Install and Sync
 
 ```bash
@@ -69,7 +109,7 @@ yarn install
 yarn drupal-libraries-sync
 ```
 
-### Removing Obsolete Libraries
+### Removing No Longer Needed Libraries
 
 #### 1. Remove from the package.json file.
 
@@ -224,6 +264,20 @@ You should see directories for each library defined in your `package.json` confi
 * This change is available starting with **Varbase 10.1.0-alpha3**
 * Projects using **Varbase 10.1.0-alpha2** and earlier should stop using using Asset Packagist
 * The migration is backward compatible but requires manual intervention for existing projects
+
+### Benefits of the New System
+
+* **Performance**: Faster dependency resolution with modern package managers
+* **Security**: Better vulnerability management through NPM/Yarn security auditing
+* **Maintainability**: Standard front-end tooling that developers are familiar with
+* **Ecosystem**: Access to the entire NPM ecosystem for front-end libraries
+* **Version Control**: More granular control over library versions and updates
+
+### Additional Resources
+
+* [NPM Documentation](https://docs.npmjs.com/)
+* [Yarn Documentation](https://yarnpkg.com/getting-started)
+* [Drupal Libraries API](https://www.drupal.org/docs/develop/creating-modules/adding-assets-css-js-to-a-drupal-module-via-librariesyml)
 
 
 
