@@ -6,8 +6,8 @@
 [..](../)
 {% endcontent-ref %}
 
-{% content-ref url="../understanding-varbase-updater-package.md" %}
-[understanding-varbase-updater-package.md](../understanding-varbase-updater-package.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% hint style="info" %}
