@@ -34,9 +34,9 @@ If you previously used our Composer-based project template to install Varbase [v
 3. Run the Varbase update tool. `./bin/update-varbase.sh` &#x20;
 4.  Follow the wizard.
 
-    _Curious?_ [_Learn more_ ](understanding-varbase-updater-package.md)_about what's going on in the Varbase Updater wizard._
+    _Curious?_ [_Learn more_ ](broken-reference)_about what's going on in the Varbase Updater wizard._
 5. Buy yourself a drink! You're done.
-6. After the update finishes and you get a success message, navigate to [http://my.varbase-site.local/\*\*admin/config/development/update-helper\*\*](http://my.varbase-site.local/\*\*admin/config/development/update-helper\*\*) (where my.varbase-site.local is the URL for your website) to learn about the new changes and updates introduced in your Varbase site.
+6. After the update finishes and you get a success message, navigate to [http://my.varbase-site.local/\*\*admin/config/development/update-helper\*\*](http://my.varbase-site.local/**admin/config/development/update-helper**) (where my.varbase-site.local is the URL for your website) to learn about the new changes and updates introduced in your Varbase site.
 
 {% hint style="info" %}
 Did you face a problem after the wizard has run? Please report your problem through the [Varbase issue queue](https://www.drupal.org/node/add/project-issue/varbase?component=Updater).
@@ -61,4 +61,4 @@ At the end of the update process, two log files are useful to troubleshoot your 
 3. Back up the code and database&#x20;
 4. Execute Composer update to download updates to modules and libraries. `composer update` &#x20;
 5. Run database updates. `drush updatedb`  or by navigating to [http://my.varbase-site.local/update.php](http://my.varbase-site.local/update.php) (where _my.varbase-site.local_ is the URL for your website) and follow the on-screen instructions.&#x20;
-6. After the update finishes with a success message, navigate to [http://my.varbase-site.local/\*\*admin/config/development/update-helper\*\*](http://my.varbase-site.local/\*\*admin/config/development/update-helper\*\*) (where _my.varbase-site.local_ is the URL for your website) to learn about the new changes and updates introduced in the Varbase site.
+6. After the update finishes with a success message, navigate to [http://my.varbase-site.local/\*\*admin/config/development/update-helper\*\*](http://my.varbase-site.local/**admin/config/development/update-helper**) (where _my.varbase-site.local_ is the URL for your website) to learn about the new changes and updates introduced in the Varbase site.
