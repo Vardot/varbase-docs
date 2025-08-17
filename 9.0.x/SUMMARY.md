@@ -112,6 +112,7 @@
   * [Varbase Patches](developers/varbase-patches.md)
   * [Varbase Libraries](developers/varbase-libraries.md)
     * [Migrating Existing Projects to NPM/YARN with drupal-libraries-sync](developers/varbase-libraries/migrating-existing-projects-to-npm-yarn-with-drupal-libraries-sync.md)
+    * [The Composer Method (Deprecated)](developers/varbase-libraries/the-composer-method-deprecated.md)
     * [Varbase Replaces](developers/varbase-replaces.md)
   * [Frequently Asked Questions (FAQs)](developers/faqs.md)
   * [Extending Varbase](developers/extending-varbase/README.md)
