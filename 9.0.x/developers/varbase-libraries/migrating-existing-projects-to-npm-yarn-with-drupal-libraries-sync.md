@@ -188,6 +188,10 @@ ls -la docroot/libraries/
 
 You should see directories for each library defined in your `package.json` configuration.
 
+{% hint style="warning" %}
+**Convert all extra libraries used in the project with the same method. Use NPM/Yarn to manage their versions and updates.**
+{% endhint %}
+
 ## Additional Resources <a href="#additional-resources" id="additional-resources"></a>
 
 * [NPM Documentation](https://docs.npmjs.com/)
