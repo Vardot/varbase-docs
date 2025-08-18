@@ -109,13 +109,16 @@ Change the `package.json` file in the Varbase project root with the following st
 }
 ```
 
+{% hint style="info" %}
+Have a look at the [**package.json**](https://github.com/Vardot/varbase-project/blob/10.0.x/package.json) for **Varbase 10.0.x** default project template.
+{% endhint %}
+
 ## **Step 3: Change the composer.json file in the Varbase Project**
 
 Add the new library sync commands to your `composer.json`:
 
-```json
-{
-  "scripts": {
+<pre class="language-json"><code class="lang-json"><strong>{
+</strong>  "scripts": {
     "drupal-libraries-sync": [
       "@drupal-libraries-yarn-sync"
     ],
@@ -132,7 +135,11 @@ Add the new library sync commands to your `composer.json`:
     ]
   }
 }
-```
+</code></pre>
+
+{% hint style="info" %}
+Have a look at the [**composer.json**](https://github.com/Vardot/varbase-project/blob/10.0.x/composer.json) for **Varbase 10.0.x** default project template.
+{% endhint %}
 
 ## **Step 4: Install Dependencies and Sync Libraries**
 
