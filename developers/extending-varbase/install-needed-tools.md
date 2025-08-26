@@ -21,7 +21,7 @@ sudo apt install -y sed gawk;
 Helps getting more development tools.
 
 ```
-curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt update
 sudo apt install nodejs
 sudo apt install build-essential
@@ -33,13 +33,36 @@ sudo apt install npm
 
 ## Install [Yarn](https://yarnpkg.com/getting-started)
 
-```
-sudo apt install yarn
-```
-
 Install **Yarn** as a global by **npm**
 
 ```
 sudo npm install -g yarn
 ```
 
+### Step 1: Clean the Slate
+
+```plaintext
+rm -rf ~/.yarn
+mkdir -p ~/.yarn/releases
+```
+
+### Step 2: Direct Download
+
+```plaintext
+curl -L https://repo.yarnpkg.com/4.9.3/packages/yarnpkg-cli/bin/yarn.js -o ~/.yarn/releases/yarn-4.9.3.cjs
+chmod +x ~/.yarn/releases/yarn-4.9.3.cjs
+```
+
+### Step 3: Configuration
+
+Create or update `~/.yarnrc.yml`:
+
+```plaintext
+yarnPath: .yarn/releases/yarn-4.9.3.cjs
+```
+
+### Step 4: Verification
+
+```plaintext
+yarn --version  # Should return 4.9.3
+```
