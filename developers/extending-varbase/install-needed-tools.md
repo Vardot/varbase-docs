@@ -58,12 +58,12 @@ chmod +x ~/.yarn/releases/yarn-4.9.3.cjs
 Create or update `~/.yarnrc.yml`:
 
 ```plaintext
-yarnPath: .yarn/releases/yarn-4.9.3.cjs
+echo "yarnPath: /home/$USER/.yarn/releases/yarn-4.9.3.cjs" > ~/.yarnrc.yml
 ```
 
 ### Step 4: Verification
 
 ```plaintext
-yarn --version  # Should return 4.9.3
+yarn --version
 ```
 
