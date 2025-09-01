@@ -29,6 +29,7 @@ Brings in the following core and contributed modules to your site:
 | [**Moderation Sidebar**](https://www.drupal.org/project/moderation_sidebar)                                             | Provides a frontend sidebar for Content Moderation                                                                                                      |
 | [**Scheduler content moderation integration**](https://www.drupal.org/project/scheduler_content_moderation_integration) | Scheduler sub-module providing content moderation functionality for publishing/unpublishing.                                                            |
 | [**Admin Audit Trail Workflows**](https://www.drupal.org/project/admin_audit_trail)                                     | Logs workflows events performed by the user.                                                                                                            |
+| [**ECA Workflow**](https://www.drupal.org/project/eca)                                                                  | Events, conditions and actions for content moderation workflow.                                                                                         |
 
 ## Default Workflows
 
