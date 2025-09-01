@@ -44,6 +44,7 @@ Brings in the following core and contributed modules to your site:
 | [**Schema.org WebSite**](https://www.drupal.org/project/schema_metatag)                      | Adds Schema.org/WebSite to the JSON LD array.                                                                                                                  |
 | [**Real-time SEO**](https://www.drupal.org/project/yoast_seo)                                | Adds Real-time SEO page analysis and configuration                                                                                                             |
 | [**Script Manager**](https://www.drupal.org/project/script_manager)                          | Manage JavaScript snippets included in your website.                                                                                                           |
+| [**ECA Metatag**](https://www.drupal.org/project/eca_metatag)                                | Integrate ECA with the Metatag module and its plugins.                                                                                                         |
 
 {% content-ref url="../../configuring-a-varbase-site/configuring-seo-features/" %}
 [configuring-seo-features](../../configuring-a-varbase-site/configuring-seo-features/)

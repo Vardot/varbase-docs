@@ -33,6 +33,7 @@ Brings in the following core and contributed modules to your site:
 | <p><strong>Interface Translation</strong></p><p><em>(in Drupal core)</em></p>     | Translates the built-in user interface.        |
 | <p><strong>Configuration Translation</strong></p><p><em>(in Drupal core)</em></p> | Allows users to translate configuration text.  |
 | <p><strong>Content Translation</strong></p><p><em>(in Drupal core)</em></p>       | Allows users to translate content.             |
+| [**ECA Language**](https://www.drupal.org/project/eca)                            | Advanced language handling within ECA.         |
 
 ## Enable Multiple Languages on Varbase Installation
 
