@@ -20,7 +20,7 @@ When there's a need to handle local patches for a project without relying on Var
 
 ### Remove Varbase Patches in Varbase \~10.1.0
 
-> &#x20;<mark style="color:green;background-color:green;">With</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**CKEditor 5**</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">and</mark> <mark style="color:green;background-color:green;"></mark><mark style="color:green;background-color:green;">**Drupal \~11**</mark> : Use the `"Vardot/varbase-patches": "10.1.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/10.0.x/composer.json](https://github.com/Vardot/varbase-patches/blob/10.0.x/composer.json)
+> &#x20;With **CKEditor 5** and **Drupal \~11** : Use the `"Vardot/varbase-patches": "10.1.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/10.0.x/composer.json](https://github.com/Vardot/varbase-patches/blob/10.0.x/composer.json)
 
 ## Storage of Local Patches Branch
 
