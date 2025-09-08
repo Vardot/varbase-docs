@@ -141,7 +141,7 @@ The full change in the `package.json` file could look like the following:
       {"name": "blazy", "package": "blazy"},
       {"name": "dropzone", "package": "dropzone"},
       {"name": "jquery.fancytree", "package": "jquery.fancytree"},
-      {"name": "slick", "package": "slick-carousel/slick"},
+      {"name": "slick/slick", "package": "slick-carousel/slick"},
       {"name": "swagger-ui/dist", "package": "swagger-ui-dist"}
     ]
   },
