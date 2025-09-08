@@ -89,7 +89,7 @@ Change the `package.json` file in the Varbase project root with the following st
     "jquery.fancytree": "~2",
     "slick-carousel": "~1",
     "swagger-ui-dist": "~3"
-  },
+  }
 ```
 
 **2.3** Add the `"drupal-libraries":`
@@ -107,7 +107,7 @@ Change the `package.json` file in the Varbase project root with the following st
       {"name": "slick/slick", "package": "slick-carousel/slick"},
       {"name": "swagger-ui/dist", "package": "swagger-ui-dist"}
     ]
-  },
+  }
 ```
 
 The full change in the `package.json` file could look like the following:
