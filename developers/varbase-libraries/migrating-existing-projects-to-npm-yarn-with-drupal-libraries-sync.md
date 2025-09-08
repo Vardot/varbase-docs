@@ -65,11 +65,52 @@ Remove the asset-packagist repository configuration:
 composer config --unset repositories.assets
 ```
 
-Also remove any `npm-asset/*` dependencies from the `require` section, `"installer-paths"` , `"installer-types"` from the `composer.json` file.
+Also remove any `npm-asset/*` , `bower-asset/*` dependencies from the `require` section, `"installer-paths"` , `"installer-types"` from the `composer.json` file.
 
 ## **Step 2: Change the package.json in the Varbase Project**
 
 Change the `package.json` file in the Varbase project root with the following structure:
+
+**2.1** Add the following in `"scripts":`
+
+<pre class="language-json"><code class="lang-json"><strong>"drupal-libraries-sync": "node ./docroot/profiles/contrib/varbase/scripts/drupal-libraries-sync.js",
+</strong>"postinstall": "node ./docroot/profiles/contrib/varbase/scripts/drupal-libraries-sync.js"
+</code></pre>
+
+**2.2** Add the libraries under `"dependencies":`
+
+```json
+  "dependencies": {
+    "@ckeditor/ckeditor5-media-embed": "~45.2.0",
+    "ace-builds": "~1",
+    "aos": "~2",
+    "blazy": "~1",
+    "dropzone": "~5",
+    "jquery.fancytree": "~2",
+    "slick-carousel": "~1",
+    "swagger-ui-dist": "~3"
+  },
+```
+
+**2.3** Add the `"drupal-libraries":`
+
+```json
+  "drupal-libraries": {
+    "library-directory": "docroot/libraries",
+    "libraries": [
+      {"name": "ckeditor5/plugins/media-embed", "package": "@ckeditor/ckeditor5-media-embed"},
+      {"name": "ace", "package": "ace-builds"},
+      {"name": "aos", "package": "aos"},
+      {"name": "blazy", "package": "blazy"},
+      {"name": "dropzone", "package": "dropzone"},
+      {"name": "jquery.fancytree", "package": "jquery.fancytree"},
+      {"name": "slick/slick", "package": "slick-carousel/slick"},
+      {"name": "swagger-ui/dist", "package": "swagger-ui-dist"}
+    ]
+  },
+```
+
+The full change in the `package.json` file could look like the following:
 
 ```json
 {
@@ -100,7 +141,7 @@ Change the `package.json` file in the Varbase project root with the following st
       {"name": "blazy", "package": "blazy"},
       {"name": "dropzone", "package": "dropzone"},
       {"name": "jquery.fancytree", "package": "jquery.fancytree"},
-      {"name": "slick", "package": "slick-carousel/slick"},
+      {"name": "slick/slick", "package": "slick-carousel/slick"},
       {"name": "swagger-ui/dist", "package": "swagger-ui-dist"}
     ]
   },
