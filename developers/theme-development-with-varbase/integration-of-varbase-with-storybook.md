@@ -6,73 +6,13 @@ Not for production!!, only for development or staging.
 
 ## Initialize Storybook for DDEV
 
-Follow with the following link to install Varbase 10.0.x with DDEV
+Follow with the following to build and install Varbase with DDEV before going into intilizing Storybook.
 
-{% hint style="warning" %}
-#### TEMP for the Varbase 10.1.x Branch
+{% content-ref url="../installing-varbase/installing-varbase-with-ddev.md" %}
+[installing-varbase-with-ddev.md](../installing-varbase/installing-varbase-with-ddev.md)
+{% endcontent-ref %}
 
-Varbase 10.1.0 stable is not released yet.
-
-Follow the following steps to set up a development environment for Varbase 10.1.x.
-{% endhint %}
-
-Before proceeding, ensure that you have the required tools installed on your local development environment:\
-Make sure you have the following installed:
-
-* DDEV → For local development
-* wget → To download files from the web
-* zip/unzip → To extract compressed files
-
-Learn more about DDEV on the official website: [https://ddev.com](https://ddev.com/)
-
-{% hint style="danger" %}
-[**DDEV**](https://github.com/ddev/ddev) **is a development tool!**
-
-Note that while you can run DDEV in production, it is highly discouraged, not recommended, and 100% not supported! DON'T DO IT!
-{% endhint %}
-
-#### 1. Download and Extract Varbase 10.1.x
-
-To get the code for the **Varbase 10.1.x** branch and extract it to your chosen location with a custom folder name, follow these steps:
-
-```bash
-wget https://github.com/Vardot/varbase-project/archive/refs/heads/10.1.x.zip
-unzip 10.1.x.zip
-cd varbase-project-10.1.x
-```
-
-#### 2. Start DDEV and Install Dependencies
-
-Start DDEV and build inside it.
-
-```bash
-ddev start
-ddev composer install -vvv
-```
-
-#### 3. Install Varbase Using the Custom DDEV Container Command
-
-<kbd>Install Varbase using drush. (shell web container command)</kbd>\
-<kbd>**Usage:**</kbd> <kbd></kbd><kbd>ddev install-varbase minimal|full|demo \[flags]</kbd>\
-<kbd>**Aliases:**</kbd> <kbd></kbd><kbd>install-varbase, varbase:install</kbd>
-
-Install Varbase for the DDEV project.
-
-A password for the webmaster user will be provided after the installation is complete.
-
-Have a look at the content of the [install-varbase](https://github.com/Vardot/varbase-project/blob/10.1.x/.ddev/commands/web/install-varbase) command.
-
-**Examples:**\
-**Quick Varbase Demo installation**\
-`ddev install-varbase demo`
-
-**Full Varbase installation**\
-`ddev install-varbase full`
-
-**Minimal Varbase installation**\
-`ddev install-varbase minimal`
-
-#### 4. Initialize Storybook for Varbase
+#### 1. Initialize Storybook for Varbase
 
 ```bash
 ddev init-storybook
@@ -82,7 +22,7 @@ The `ddev init-storybook` command in Varbase is a custom DDEV command designed t
 
 Have a look at the content of the [init-storybook](https://github.com/Vardot/varbase-project/blob/10.1.x/.ddev/commands/web/init-storybook) command.
 
-#### 5. Generate Stories
+#### 2. Generate Stories
 
 Generate all stories using the following alias script&#x20;
 
@@ -96,47 +36,16 @@ It will run the following drush command
 ddev drush storybook:generate-all-stories --force
 ```
 
-#### 6. Start Varbase Storybook
+#### 3. Start Varbase Storybook
 
 ```bash
 ddev yarn storybook:dev
 ```
 
-#### 7. Verify Installation and Links
+#### 4. Verify Installation and Links
 
 ```bash
 ddev status
-```
-
-```
-┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ Project: varbase-project-10.1.x /var/www/html/dev/varbase-project-10.1.x https://varbase-project-10.1.x.ddev.site: │
-│ 8443                                                                                                               │
-│ Docker platform: linux-docker                                                                                      │
-│ Router: traefik                                                                                                    │
-├──────────────┬──────┬─────────────────────────────────────────────────────────────────────────┬────────────────────┤
-│ SERVICE      │ STAT │ URL/PORT                                                                │ INFO               │
-├──────────────┼──────┼─────────────────────────────────────────────────────────────────────────┼────────────────────┤
-│ web          │ OK   │ https://varbase-project-10.1.x.ddev.site:8443                           │ drupal11 PHP 8.3   │
-│              │      │ InDocker -> Host:                                                       │ Server: apache-fpm │
-│              │      │  - web:80 -> 127.0.0.1:32897                                            │ Docroot: 'docroot' │
-│              │      │  - web:443 -> 127.0.0.1:32898                                           │ Perf mode: none    │
-│              │      │  - web:6006 -> 127.0.0.1:32899                                          │ Node.js: 20        │
-│              │      │  - web:8025 -> 127.0.0.1:32900                                          │                    │
-├──────────────┼──────┼─────────────────────────────────────────────────────────────────────────┼────────────────────┤
-│ db           │ OK   │ InDocker -> Host:                                                       │ mariadb:10.11      │
-│              │      │  - db:3306 -> 127.0.0.1:32901                                           │ User/Pass: 'db/db' │
-│              │      │                                                                         │ or 'root/root'     │
-├──────────────┼──────┼─────────────────────────────────────────────────────────────────────────┼────────────────────┤
-│ Mailpit      │      │ Mailpit: https://varbase-project-10.1.x.ddev.site:8026                  │                    │
-│              │      │ Launch: ddev mailpit                                                    │                    │
-├──────────────┼──────┼─────────────────────────────────────────────────────────────────────────┼────────────────────┤
-│ storybook    │      │ https://varbase-project-10.1.x.ddev.site:6006                           │                    │
-│              │      │ InDocker: web:6006                                                      │                    │
-├──────────────┼──────┼─────────────────────────────────────────────────────────────────────────┼────────────────────┤
-│ Project URLs │      │ https://varbase-project-10.1.x.ddev.site:8443, https://127.0.0.1:32898, │                    │
-│              │      │ http://varbase-project-10.1.x.ddev.site:8080, http://127.0.0.1:32897    │                    │
-└──────────────┴──────┴─────────────────────────────────────────────────────────────────────────┴────────────────────┘
 ```
 
 ## When Adding or Changing Stories
@@ -148,7 +57,7 @@ Important to run the `ddev yarn storybook:gen`  command for all new or changed s
 * Enable the **`storybook`** module on the site either through the site's interface or by running the command `drush en storybook` with Drush. Note that the CL Server module should not be kept running on a production site.
 * Navigate to **`"/admin/people/permissions/module/storybook"`**  to give the `Render storybook stories` permission to all user roles. Check the  `Anonymous user` and `Authenticated user` checkbox and press **`Save permission`** submit button.
 
-<figure><img src="../../.gitbook/assets/Storybook-Permissions--Render-storybook-stories.png" alt=""><figcaption><p>Use the Storybook endpoint Module Permissions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Storybook-Module-Permissions.png" alt=""><figcaption></figcaption></figure>
 
 **Use Drush to** [**grant specified permission(s) to a role**](https://www.drush.org/12.4.2/commands/role_perm_add/)**.**
 
