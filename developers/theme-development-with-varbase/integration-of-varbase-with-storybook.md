@@ -237,7 +237,7 @@ Edit the **`preview.ts`** file in the **`.storybook`** folder, replace this with
 ```json
     server: {
       // Replace this with your Drupal site URL, or an environment variable.
-      url: process.env.STORYBOOK_SERVER_RENDER_URL,
+      url: process.env.STORYBOOK_SERVER_RENDER_URL + '/storybook/stories/render',
     },
 ```
 
