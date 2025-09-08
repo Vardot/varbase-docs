@@ -71,6 +71,48 @@ Also remove any `npm-asset/*` dependencies from the `require` section, `"install
 
 Change the `package.json` file in the Varbase project root with the following structure:
 
+**2.1** Add the following in `"scripts":`
+
+```json
+"drupal-libraries-sync": "node ./docroot/profiles/contrib/varbase/scripts/drupal-libraries-sync.js",
+"postinstall": "node ./docroot/profiles/contrib/varbase/scripts/drupal-libraries-sync.js"
+```
+
+**2.2** Add the libraries under `"dependencies":`
+
+```json
+  "dependencies": {
+    "@ckeditor/ckeditor5-media-embed": "~45.2.0",
+    "ace-builds": "~1",
+    "aos": "~2",
+    "blazy": "~1",
+    "dropzone": "~5",
+    "jquery.fancytree": "~2",
+    "slick-carousel": "~1",
+    "swagger-ui-dist": "~3"
+  },
+```
+
+**2.3** Add the `"drupal-libraries":`
+
+```json
+  "drupal-libraries": {
+    "library-directory": "docroot/libraries",
+    "libraries": [
+      {"name": "ckeditor5/plugins/media-embed", "package": "@ckeditor/ckeditor5-media-embed"},
+      {"name": "ace", "package": "ace-builds"},
+      {"name": "aos", "package": "aos"},
+      {"name": "blazy", "package": "blazy"},
+      {"name": "dropzone", "package": "dropzone"},
+      {"name": "jquery.fancytree", "package": "jquery.fancytree"},
+      {"name": "slick/slick", "package": "slick-carousel/slick"},
+      {"name": "swagger-ui/dist", "package": "swagger-ui-dist"}
+    ]
+  },
+```
+
+The full change in the `package.json` file could look like the following:
+
 <pre class="language-json"><code class="lang-json">{
 ...
 ...
