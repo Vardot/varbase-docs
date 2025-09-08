@@ -67,6 +67,10 @@ composer config --unset repositories.assets
 
 Also remove any `npm-asset/*` , `bower-asset/*` dependencies from the `require` section, `"installer-paths"` , `"installer-types"` from the `composer.json` file.
 
+{% hint style="warning" %}
+**Make sure that you commit the libraries with git. It is no longer ignored in the `.gitignore` file.**
+{% endhint %}
+
 ## **Step 2: Change the package.json in the Varbase Project**
 
 Change the `package.json` file in the Varbase project root with the following structure:
