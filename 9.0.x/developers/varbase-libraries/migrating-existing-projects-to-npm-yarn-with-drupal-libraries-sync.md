@@ -65,20 +65,20 @@ Remove the asset-packagist repository configuration:
 composer config --unset repositories.assets
 ```
 
-Also remove any `npm-asset/*` dependencies from the `require` section, `"installer-paths"` , `"installer-types"` from the `composer.json` file.
+Also remove any `npm-asset/*` , `bower-asset/*` dependencies from the `require` section, `"installer-paths"` , `"installer-types"` from the `composer.json` file.
 
 ## **Step 2: Change the package.json in the Varbase Project**
 
 Change the `package.json` file in the Varbase project root with the following structure:
 
-2.1 Add the following in `"scripts":`
+**2.1** Add the following in `"scripts":`
 
 ```json
 "drupal-libraries-sync": "node ./docroot/profiles/varbase/scripts/drupal-libraries-sync.js",
 "postinstall": "node ./docroot/profiles/varbase/scripts/drupal-libraries-sync.js"
 ```
 
-2.2 Add the libraries under `"dependencies":`
+**2.2** Add the libraries under `"dependencies":`
 
 ```json
   "dependencies": {
@@ -99,7 +99,7 @@ Change the `package.json` file in the Varbase project root with the following st
   },
 ```
 
-2.3 Add the `"drupal-libraries":`&#x20;
+**2.3** Add the `"drupal-libraries":`&#x20;
 
 ```json
   "drupal-libraries": {
