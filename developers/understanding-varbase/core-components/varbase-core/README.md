@@ -99,6 +99,7 @@ Brings in the following core and contributed modules to your site:
 | **Package Manager**                                                                          | Provides functionality to stage package installs and updates with Composer. which is part of the [**Automatic Updates**](https://www.drupal.org/project/automatic_updates) module. |
 | [**ECA: Event - Condition - Action**](https://www.drupal.org/project/eca)                    | ECA is a powerful, versatile, and user-friendly rules engine for Drupal. The core module is a processor that validates and executes event-condition-action plugins.                |
 | [**BPMN.iO**](https://www.drupal.org/project/bpmn_io)                                        | BPMN.iO is a BPMN modeller for [ECA](https://www.drupal.org/project/eca) and is fully integrated into Drupal's admin UI. BPMN modeler, integrated into Drupal's admin UI.          |
+| [**ECA Tamper Integration**](https://www.drupal.org/project/eca_tamper)                      | Integrate ECA with the tamper module and its plugins available as actions.                                                                                                         |
 
 ## Sub modules&#x20;
 
