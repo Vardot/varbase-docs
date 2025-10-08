@@ -22,9 +22,10 @@ project_directory
 
 Brings in the following core and contributed modules to your site:
 
-| Module                                                              | Purpose                               |
-| ------------------------------------------------------------------- | ------------------------------------- |
-| [**Symfony Mailer**](https://www.drupal.org/project/symfony_mailer) | Integrate Symfony Mailer into Drupal. |
+| Module                                                              | Purpose                                           |
+| ------------------------------------------------------------------- | ------------------------------------------------- |
+| [**Symfony Mailer**](https://www.drupal.org/project/symfony_mailer) | Integrate Symfony Mailer into Drupal.             |
+| [**Easy Email**](https://www.drupal.org/project/easy_email)         | A simple system for sending HTML-formatted emails |
 
 {% content-ref url="../../configuring-a-varbase-site/configuring-varbase-mailer-settings/configure-symfony-mailer.md" %}
 [configure-symfony-mailer.md](../../configuring-a-varbase-site/configuring-varbase-mailer-settings/configure-symfony-mailer.md)
