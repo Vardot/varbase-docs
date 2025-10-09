@@ -28,7 +28,7 @@ When a user's roles are modified, the model:
 
 ## Inactive User Monitoring
 
-Workflow sequence yo trigger inactive user list notification to admins after 3 months ( +90 days ) of inactivity.
+Workflow sequence to trigger inactive user list notification to admins after 3 months ( +90 days ) of inactivity.
 
 Identifies users who haven't logged in for **90+ days** and:
 
