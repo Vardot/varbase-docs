@@ -2,13 +2,13 @@
 
 The User Login Notification model is an automated workflow that sends email notifications to users when they log into the system. It captures relevant login information including the user's IP address, geolocation, and browser details, then sends this information via email for security monitoring purposes.
 
-### Features
 
-* Automatically triggers on user login events
-* Captures user IP address and geolocation data
-* Retrieves browser and device information from User-Agent headers
-* Sends formatted email notifications with login details
-* Includes fallback handling for geolocation service failures
+
+* Automatically triggers on user login events.
+* Captures user IP address and geolocation data.
+* Retrieves browser and device information from User-Agent headers.
+* Sends formatted email notifications with login details.
+* Includes fallback handling for geolocation service failures.
 
 <figure><img src="../../.gitbook/assets/ECA-Model-User-login-notification--10-09-2025_01_38_PM.png" alt="User Login Notification Workflow Sequence"><figcaption><p>Workflow sequence - User Login Notification</p></figcaption></figure>
 
