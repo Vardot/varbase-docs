@@ -10,7 +10,7 @@ The User Login Notification model is an automated workflow that sends email noti
 * Sends formatted email notifications with login details
 * Includes fallback handling for geolocation service failures
 
-<figure><img src="../../.gitbook/assets/ECA-Model-User-login-notification--10-09-2025_01_38_PM.png" alt="User Login Notification Workflow Sequence"><figcaption><p>User Login Notification Workflow Sequence</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ECA-Model-User-login-notification--10-09-2025_01_38_PM.png" alt="User Login Notification Workflow Sequence"><figcaption><p>Workflow sequence - User Login Notification</p></figcaption></figure>
 
 
 
