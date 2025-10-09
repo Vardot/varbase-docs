@@ -1,2 +1,0 @@
-# ECA Model: Draft Reminder
-

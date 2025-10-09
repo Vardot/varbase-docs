@@ -1,4 +1,4 @@
-# ECA Model: User Recertification
+# User Recertification
 
 The User Recertification ECA model provides automated security monitoring and user account management for Drupal sites. It tracks user activity, sends notifications about role changes, and automatically manages inactive user accounts to maintain security compliance.
 

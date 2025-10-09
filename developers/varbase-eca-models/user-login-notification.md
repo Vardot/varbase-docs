@@ -1,4 +1,4 @@
-# ECA Model: User Login Notification
+# User Login Notification
 
 The User Login Notification model is an automated workflow that sends email notifications to users when they log into the system. It captures relevant login information including the user's IP address, geolocation, and browser details, then sends this information via email for security monitoring purposes.
 
