@@ -4,6 +4,8 @@ Varbase has adopted ECA (Event - Condition - Action) as its core workflow automa
 
 ECA models in Varbase are pre-configured workflow automations that respond to specific events on your site, evaluate conditions, and execute actions—all without requiring custom code.
 
+
+
 ## What is ECA?
 
 [**ECA**](https://www.drupal.org/project/eca) (Event - Condition - Action) is a powerful rules engine for Drupal that enables automated workflows through three core components:
@@ -13,6 +15,8 @@ ECA models in Varbase are pre-configured workflow automations that respond to sp
 * **Action**: Tasks performed when events occur and conditions are met (send emails, display messages, modify data, etc.)
 
 ECA leverages existing Drupal core components and extends them through a flexible plugin system, making workflows visual, maintainable, and accessible to non-developers through the integrated BPMN.iO modeler.
+
+<figure><img src="../../.gitbook/assets/Create-new-ECA-model-MyWebsite-10-09-2025_03_44_PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Why Varbase Uses ECA
 
