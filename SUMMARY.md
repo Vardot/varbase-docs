@@ -126,6 +126,7 @@
     * [Varbase Replaces](developers/varbase-libraries/varbase-replaces.md)
   * [Varbase ECA (Visual Workflow Builder)](developers/varbase-eca-visual-workflow-builder/README.md)
     * [User Login Notification](developers/varbase-eca-visual-workflow-builder/user-login-notification.md)
+    * [Admin Change Role Notification](developers/varbase-eca-visual-workflow-builder/admin-change-role-notification.md)
     * [User Recertification](developers/varbase-eca-visual-workflow-builder/user-recertification.md)
     * [Redirect 403 to Login](developers/varbase-eca-visual-workflow-builder/redirect-403-to-login.md)
     * [Draft Reminder](developers/varbase-eca-visual-workflow-builder/draft-reminder.md)
