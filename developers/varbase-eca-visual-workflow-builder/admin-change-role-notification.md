@@ -7,7 +7,6 @@ Provides automated security workflow that monitors user role changes and sends r
 * Detecting when user roles are added, removed, or modified.
 * Immediately notifying administrators of role changes for high-privilege accounts.
 * Providing visibility into permission escalations or de-escalations.
-* Creating an audit trail for compliance and security monitoring.
 * Helping prevent unauthorized privilege changes.
 
 
