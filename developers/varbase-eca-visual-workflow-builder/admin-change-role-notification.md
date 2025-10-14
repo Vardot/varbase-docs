@@ -13,9 +13,7 @@ Provides automated security workflow that monitors user role changes and sends r
 
 <figure><img src="../../.gitbook/assets/ECA-Model-Admin-Change-Role-Notification-Drush-Site-Install-10-14-2025_11_36_AM.png" alt="Workflow sequence - Admin Change Role Notification"><figcaption><p>Workflow sequence - Admin Change Role Notification</p></figcaption></figure>
 
-### How It Works
 
-#### Trigger
 
 The workflow is triggered by the **Update User** event, which fires whenever a user entity is updated in the system.
 
