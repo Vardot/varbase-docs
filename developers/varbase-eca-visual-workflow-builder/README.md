@@ -2,7 +2,7 @@
 
 Varbase has adopted ECA (Event - Condition - Action) as its core visual workflow builder automation framework, replacing hard-coded event subscribers and custom hooks with configurable, maintainable ECA models. This transition improves modularity, simplifies maintenance, and enables future AI integrations while providing a no-code solution for orchestrating automated workflows throughout your Drupal site.
 
-ECA models in Varbase are pre-configured workflow automations that respond to specific events on your site, evaluate conditions, and execute actions—all without requiring custom code.
+ECA models in Varbase are pre-configured workflow automatons that respond to specific events on your site, evaluate conditions, and execute actions—all without requiring custom code.
 
 
 
@@ -50,6 +50,10 @@ Each model appears with its name, description, status (enabled/disabled), and mo
 
 {% content-ref url="user-recertification.md" %}
 [user-recertification.md](user-recertification.md)
+{% endcontent-ref %}
+
+{% content-ref url="admin-change-role-notification.md" %}
+[admin-change-role-notification.md](admin-change-role-notification.md)
 {% endcontent-ref %}
 
 {% content-ref url="redirect-403-to-login.md" %}
