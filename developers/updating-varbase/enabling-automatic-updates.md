@@ -19,7 +19,7 @@ Before you begin, ensure you have:
 
 * Varbase 10.1.x installed
 * Drupal 11.0 or higher
-* PHP 8.1 or higher
+* PHP 8.3 or higher
 * Composer 2.8 or higher
 * DDEV or equivalent development environment
 * Write access to `settings.php` and `composer.json`
@@ -83,15 +83,11 @@ Since **Package Manager** is experimental, it requires explicit configuration be
 
 Edit your settings file:
 
-bash
-
 ```bash
 vim docroot/sites/default/settings.php
 ```
 
 Add the following line at the end of the file:
-
-php
 
 ```php
 /**
@@ -103,8 +99,6 @@ $settings['testing_package_manager'] = TRUE;
 This setting allows the experimental Package Manager module to be enabled on your site.
 
 **Step 2: Enable the Module**
-
-bash
 
 ```bash
 ddev drush en package_manager -y
@@ -122,15 +116,11 @@ You should see:
 
 Edit the **Package Manager** configuration:
 
-bash
-
 ```bash
 ddev drush config:edit package_manager.settings
 ```
 
 Add the following configuration:
-
-yaml
 
 ```yaml
 additional_trusted_composer_plugins:
@@ -158,15 +148,11 @@ Drupal scaffold files (such as `.htaccess`, `index.php`, `robots.txt`) need spec
 
 Open your project's `composer.json` file:
 
-bash
-
 ```bash
 vim composer.json
 ```
 
 Locate the `"drupal-scaffold"` section and update it to match:
-
-json
 
 ```json
 "drupal-scaffold": {
@@ -192,8 +178,6 @@ json
 
 **Step 1: Create TUF Cache Directory**
 
-bash
-
 ```bash
 mkdir -p tuf
 ```
@@ -203,8 +187,6 @@ This directory will store TUF metadata (repository signing keys and timestamps).
 **Step 2: Download Initial Root Metadata**
 
 Download the root metadata files containing public keys for package verification:
-
-bash
 
 ```bash
 curl -o tuf/packages.drupal.org.json \
@@ -218,15 +200,11 @@ You should see two `.json` files created in the `tuf/` directory.
 
 **Step 3: Allow TUF Composer Plugin**
 
-bash
-
 ```bash
 ddev composer config allow-plugins.php-tuf/composer-integration true
 ```
 
 **Step 4: Install TUF Integration**
-
-bash
 
 ```bash
 ddev composer require php-tuf/composer-integration
@@ -237,8 +215,6 @@ ddev composer require php-tuf/composer-integration
 **Step 5: Configure Repositories with TUF**
 
 Open your project's `composer.json` file and update the `"repositories"` section to enable TUF verification:
-
-json
 
 ```json
 "repositories": {
@@ -251,10 +227,6 @@ json
     "type": "composer",
     "url": "https://packages.drupal.org/8",
     "tuf": true
-  },
-  "assets": {
-    "type": "composer",
-    "url": "https://asset-packagist.org"
   }
 }
 ```
@@ -269,16 +241,12 @@ json
 
 Ensure TLS and secure HTTP are properly configured:
 
-bash
-
 ```bash
 ddev composer config --unset disable-tls
 ddev composer config --unset secure-http
 ```
 
 Validate your Composer configuration:
-
-bash
 
 ```bash
 ddev composer validate
@@ -294,8 +262,6 @@ You should see:
 
 Regenerate your `composer.lock` file with TUF-verified package signatures:
 
-bash
-
 ```bash
 ddev composer update --lock
 ```
@@ -308,8 +274,6 @@ ddev composer update --lock
 
 Enable the module:
 
-bash
-
 ```bash
 ddev drush en automatic_updates -y
 ```
@@ -318,44 +282,17 @@ ddev drush en automatic_updates -y
 
 This module provides support for updating contributed modules:
 
-bash
-
 ```bash
 ddev drush en automatic_updates_extensions -y
 ```
 
 **Step 3: Rebuild Cache**
 
-bash
-
 ```bash
 ddev drush cr
 ```
 
 #### Phase 5: Verification and Testing
-
-**Step 1: Configure User Permissions**
-
-Grant administrator users the required permissions:
-
-bash
-
-```bash
-ddev drush role:perm:add administrator "administer software updates"
-ddev drush cr
-```
-
-**Step 2: Access Update Pages**
-
-Generate a one-time login link:
-
-bash
-
-```bash
-ddev drush user:login webmaster
-```
-
-Copy the generated URL and open it in your browser.
 
 Navigate to the following pages to verify everything is working:
 
@@ -385,8 +322,6 @@ If updates are available, test the staging process:
 #### Complete composer.json Structure
 
 After completing the setup, your `composer.json` should include these key sections:
-
-json
 
 ```json
 {
@@ -431,12 +366,9 @@ json
 
 The Package Manager configuration should include all trusted Composer plugins used in your Varbase project:
 
-yaml
-
 ```yaml
 additional_trusted_composer_plugins:
   - vardot/varbase
-  - vardot/varbase-updater
   - cweagans/composer-patches
   - oomphinc/composer-installers-extender
   - tbachert/spi
@@ -457,15 +389,11 @@ include_unknown_files_in_project_root: false
 
 Update the lock file:
 
-bash
-
 ```bash
 ddev composer update --lock
 ```
 
 Verify the issue is resolved:
-
-bash
 
 ```bash
 ddev composer validate --check-lock
@@ -480,8 +408,6 @@ ddev composer validate --check-lock
 **Solution:**
 
 Grant the necessary permissions:
-
-bash
 
 ```bash
 ddev drush role:perm:add administrator "administer software updates"
@@ -501,16 +427,12 @@ ddev drush cr
 
 Clear all TUF caches:
 
-bash
-
 ```bash
 rm -rf tuf/* vendor/composer/tuf/*
 ddev exec bash -c "rm -rf ~/.cache/composer-tuf"
 ```
 
 Re-download root metadata:
-
-bash
 
 ```bash
 curl -o tuf/packages.drupal.org.json \
@@ -520,8 +442,6 @@ curl -o tuf/packagist-signed.drupalcode.org.json \
 ```
 
 Run the update again:
-
-bash
 
 ```bash
 ddev composer update --lock
@@ -539,15 +459,11 @@ ddev composer update --lock
 
 Check which plugins are causing issues:
 
-bash
-
 ```bash
 ddev drush automatic-updates:check
 ```
 
 Add any untrusted plugins to the Package Manager configuration:
-
-bash
 
 ```bash
 ddev drush config:edit package_manager.settings
@@ -570,8 +486,6 @@ ddev exec sudo chown -R $(whoami):$(whoami) /var/www/html
 ```
 
 Verify the vendor directory is writable:
-
-bash
 
 ```bash
 ls -la vendor/
@@ -618,8 +532,6 @@ bash
 
 3. **Commit changes to version control**
 
-bash
-
 ```bash
    git add composer.json composer.lock config/
    git commit -m "Update Drupal core and contributed modules"
@@ -660,15 +572,11 @@ Use these commands to verify your automatic updates setup:
 
 **Check module status:**
 
-bash
-
 ```bash
 ddev drush pm:list | grep -E "(package_manager|automatic_updates)"
 ```
 
 **Validate Composer configuration:**
-
-bash
 
 ```bash
 ddev composer validate --strict
@@ -676,15 +584,11 @@ ddev composer validate --strict
 
 **Check for available updates:**
 
-bash
-
 ```bash
 ddev drush pm:security
 ```
 
 **View Package Manager status:**
-
-bash
 
 ```bash
 ddev drush automatic-updates:check
@@ -692,15 +596,11 @@ ddev drush automatic-updates:check
 
 **Test TUF functionality:**
 
-bash
-
 ```bash
 ddev composer update --dry-run
 ```
 
 **Verify file permissions:**
-
-bash
 
 ```bash
 ddev exec ls -la vendor/ | head -n 5
@@ -712,15 +612,11 @@ When starting a new Varbase 10.1.x project, you can set up automatic updates wit
 
 **Step 1: Add Package Manager testing flag**
 
-bash
-
 ```bash
 echo "\$settings['testing_package_manager'] = TRUE;" >> docroot/sites/default/settings.php
 ```
 
 **Step 2: Create TUF cache directory and download metadata**
-
-bash
 
 ```bash
 mkdir -p tuf
@@ -730,8 +626,6 @@ curl -o tuf/packagist-signed.drupalcode.org.json https://packagist-signed.drupal
 
 **Step 3: Configure Composer for TUF**
 
-bash
-
 ```bash
 ddev composer config allow-plugins.php-tuf/composer-integration true
 ddev composer require php-tuf/composer-integration
@@ -739,15 +633,11 @@ ddev composer require php-tuf/composer-integration
 
 **Step 4: Enable required modules**
 
-bash
-
 ```bash
 ddev drush en package_manager automatic_updates automatic_updates_extensions -y
 ```
 
 **Step 5: Set administrator permissions**
-
-bash
 
 ```bash
 ddev drush role:perm:add administrator "administer software updates"
@@ -767,15 +657,11 @@ After completing these steps, your Varbase 10.1.x site will be configured for se
 
 * Verify TUF metadata is updating correctly:
 
-bash
-
 ```bash
   ls -lt tuf/
 ```
 
 * Run validation checks:
-
-bash
 
 ```bash
   ddev drush automatic-updates:check
@@ -805,7 +691,7 @@ bash
 
 * [Drupal Slack](https://drupal.slack.com) - #automatic-updates channel for community support
 * [Varbase Issue Queue](https://www.drupal.org/project/issues/varbase) - Report Varbase-specific issues
-* [Drupal Automatic Updates Documentation](https://www.drupal.org/docs/drupal-apis/update-api/automatic-updates) - Additional technical documentation
+* [Drupal Automatic Updates Documentation](https://www.drupal.org/docs/8/update/automatic-updates) - Additional technical documentation
 
 ### Post-Setup Checklist
 
@@ -823,12 +709,3 @@ After completing the setup, verify the following:
 * [ ] `composer.lock` file synchronized with `composer.json`
 * [ ] No validation errors from `ddev drush automatic-updates:check`
 * [ ] Successfully tested staging and applying an update (if available)
-
-***
-
-**Related Topics:**
-
-* Installing Varbase
-* Updating a Varbase Site
-* Configuring a Varbase Site
-* Launching a Varbase Site to Production
