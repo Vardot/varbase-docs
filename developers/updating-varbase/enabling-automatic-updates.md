@@ -682,7 +682,8 @@ After completing these steps, your Varbase 10.1.x site will be configured for se
 * [Automatic Updates Project](https://www.drupal.org/project/automatic_updates) - Contributed module page
 * [The Update Framework](https://theupdateframework.io/) - TUF specification and security details
 * [PHP-TUF Composer Integration Plugin](https://github.com/php-tuf/composer-integration)
-* [PHP-TUF](https://github.com/php-tuf/php-tuf)
+* [PHP-TUF](https://github.com/php-tuf/php-tuf)  is a PHP implementation of [The Update Framework (TUF)](https://theupdateframework.io/)&#x20;
+* [PHP-TUF Composer Stager](https://github.com/php-tuf/composer-stager) makes long-running Composer commands safe to run on a codebase in production by "staging" them--performing them on a non-live copy of the codebase and syncing back the result for the least possible downtime. ( required in Drupal Core 11.2 )
 
 #### Community Support
 
