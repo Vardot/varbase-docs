@@ -681,11 +681,10 @@ After completing these steps, your Varbase 10.1.x site will be configured for se
 
 #### Official Documentation
 
-* [Drupal 11 Package Manager](https://git.drupalcode.org/project/drupal/-/tree/11.x/core/modules/package_manager) - Drupal 11 core module documentation
 * [Automatic Updates Project](https://www.drupal.org/project/automatic_updates) - Contributed module page
 * [The Update Framework](https://theupdateframework.io/) - TUF specification and security details
-* [PHP-TUF Library](https://github.com/theupdateframework/php-tuf) - PHP implementation documentation
-* [Varbase Documentation](https://docs.varbase.vardot.com/) - Complete Varbase documentation
+* [PHP-TUF Composer Integration Plugin](https://github.com/php-tuf/composer-integration)
+* [PHP-TUF](https://github.com/php-tuf/php-tuf)
 
 #### Community Support
 
@@ -703,7 +702,7 @@ After completing the setup, verify the following:
 * [ ] `composer.json` repositories have `"tuf": true` configuration
 * [ ] Trusted plugins configured in **Package Manager** settings
 * [ ] Drupal scaffold limited to `drupal/core` only
-* [ ] `$settings['testing_package_manager'] = TRUE;` in settings.php
+* [ ] `$settings['testing_package_manager'] = TRUE;` in the **`settings.php`** file ( or other local `settings.ddev.php` )
 * [ ] Administrator role has "administer software updates" permission
 * [ ] Update pages accessible at `/admin/reports/updates/update`
 * [ ] `composer.lock` file synchronized with `composer.json`
