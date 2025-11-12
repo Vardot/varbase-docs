@@ -114,8 +114,6 @@ You should see:
 
 Edit the **Package Manager** configuration:
 
-bash
-
 ```bash
 ddev drush config:edit package_manager.settings
 ```
