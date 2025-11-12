@@ -109,7 +109,7 @@
       * [Updating Varbase \~9.0 to Drupal 10](developers/updating-varbase/version-update-guides/updating-varbase-9.0-to-drupal-10.md)
       * [Switch from CKEditor 4 to CKEditor 5 in Varbase \~9.1.0](developers/updating-varbase/version-update-guides/switch-from-ckeditor-4-to-ckeditor-5-in-varbase-9.1.0.md)
       * [Updating from Varbase 8.x to 9.x](developers/updating-varbase/version-update-guides/updating-from-varbase-8.x-to-9.x.md)
-    * [Enabling Automatic Updates](developers/updating-varbase/enabling-automatic-updates.md)
+      * [Enabling Automatic Updates](developers/updating-varbase/version-update-guides/enabling-automatic-updates.md)
   * [Varbase Patches](developers/varbase-patches.md)
   * [Varbase Libraries](developers/varbase-libraries.md)
     * [Migrating Existing Projects to NPM/YARN with drupal-libraries-sync](developers/varbase-libraries/migrating-existing-projects-to-npm-yarn-with-drupal-libraries-sync.md)
