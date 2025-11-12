@@ -19,12 +19,14 @@ Before you begin, ensure you have:
 
 * Varbase 9.1.x installed
 * Drupal 10.5 or higher
-* PHP 8.1 or higher
+* PHP 8.3 or higher
 * Composer 2.7 or higher
 * DDEV or equivalent development environment
 * Write access to (`settings.php` or `settings.ddev.php`)and `composer.json`
 
+{% hint style="warning" %}
 **Important:** Automatic updates should always be configured and tested in a local or development environment first. DO NOT enable automatic updates directly on a production site.
+{% endhint %}
 
 ### Understanding the Components
 
@@ -699,7 +701,7 @@ After completing these steps, your Varbase 9.1.x site will be configured for sec
 
 #### Community Support
 
-* [Drupal Slack](https://drupal.slack.com) - #automatic-updates channel for community support
+* [Drupal Slack](https://drupal.slack.com) - `#automatic-updates` channel for community support
 * [Varbase Issue Queue](https://www.drupal.org/project/issues/varbase) - Report Varbase-specific issues
 * [Drupal Automatic Updates Documentation](https://www.drupal.org/docs/drupal-apis/update-api/automatic-updates) - Additional technical documentation
 
