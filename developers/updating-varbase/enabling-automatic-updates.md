@@ -2,9 +2,9 @@
 
 Enabling and configuring secure automatic updates in **Varbase 10.1.x** using **Drupal 11, Automatic Updates**, **Package Manager** module and **The Update Framework (TUF)**.
 
-### Overview
 
-This guide walks you through integrating Drupal 11's experimental automatic updates functionality into your Varbase 10.1.x projects. With automatic updates enabled, your site will be able to:
+
+Integrating Drupal 11's experimental automatic updates functionality into your Varbase 10.1.x projects. With automatic updates enabled, your site will be able to:
 
 * Stage and apply Drupal core updates through the admin interface
 * Update contributed modules securely with cryptographic verification
@@ -24,13 +24,15 @@ Before you begin, ensure you have:
 * DDEV or equivalent development environment
 * Write access to (`settings.php` or `settings.ddev.php`)and `composer.json`
 
+{% hint style="warning" %}
 **Important:** Automatic updates should always be configured and tested in a local or development environment first. DO NOT enable automatic updates directly on a production site.
+{% endhint %}
 
 ### Understanding the Components
 
 #### Package Manager Module
 
-**Package Manager** is an experimental module bundled with Drupal 11 that provides the API functionality for staging package installations and updates using Composer.
+An experimental module bundled with Drupal 11 that provides the API functionality for staging package installations and updates using Composer.
 
 **Location:** `docroot/core/modules/package_manager`
 
@@ -45,7 +47,7 @@ Package Manager acts as the "engine" that powers automatic updates by:
 
 #### Automatic Updates Module
 
-**Automatic Updates** is a contributed module that builds on top of Package Manager to provide user interface and automation for managing updates.
+A contributed module that builds on top of Package Manager to provide user interface and automation for managing updates.
 
 **Repository:** [https://www.drupal.org/project/automatic\_updates](https://www.drupal.org/project/automatic_updates)
 
