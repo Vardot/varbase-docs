@@ -691,11 +691,11 @@ After completing these steps, your Varbase 9.1.x site will be configured for sec
 
 #### Official Documentation
 
-* [Drupal 10 Package Manager](https://git.drupalcode.org/project/drupal/-/tree/10.3.x/core/modules/package_manager) - Drupal 10.3+ core module documentation
 * [Automatic Updates Project](https://www.drupal.org/project/automatic_updates) - Contributed module page
 * [The Update Framework](https://theupdateframework.io/) - TUF specification and security details
-* [PHP-TUF Library](https://github.com/theupdateframework/php-tuf) - PHP implementation documentation
-* [Varbase Documentation](https://docs.varbase.vardot.com/) - Complete Varbase documentation
+* [PHP-TUF Composer Integration Plugin](https://github.com/php-tuf/composer-integration)
+* [PHP-TUF](https://github.com/php-tuf/php-tuf)  is a PHP implementation of [The Update Framework (TUF)](https://theupdateframework.io/)&#x20;
+* [PHP-TUF Composer Stager](https://github.com/php-tuf/composer-stager) makes long-running Composer commands safe to run on a codebase in production by "staging" them--performing them on a non-live copy of the codebase and syncing back the result for the least possible downtime. ( required in Drupal Core 11.2+ )
 
 #### Community Support
 
