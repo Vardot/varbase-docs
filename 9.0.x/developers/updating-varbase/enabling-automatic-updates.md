@@ -26,10 +26,6 @@ Before you begin, ensure you have:
 
 **Important:** Automatic updates should always be configured and tested in a local or development environment first. DO NOT enable automatic updates directly on a production site.
 
-
-
-**Important:** Automatic updates should always be configured and tested in a local or development environment first. DO NOT enable au
-
 ### Understanding the Components
 
 #### Package Manager Module
