@@ -1,6 +1,6 @@
 # Enabling Automatic Updates
 
-Enabling and configuring secure automatic updates in **Varbase 10.0.x** using Drupal 10.5's **Automatic Updates**, **Package Manager** module and **The Update Framework (TUF)**.
+Enabling and configuring secure automatic updates in **Varbase 10.0.x** using **Drupal \~10.5**, **Automatic Updates**, **Package Manager** module and **The Update Framework (TUF)**.
 
 ### Overview
 
@@ -22,11 +22,9 @@ Before you begin, ensure you have:
 * PHP 8.3 or higher
 * Composer 2.8 or higher
 * DDEV or equivalent development environment
-* Write access to `settings.php` and `composer.json`
+* Write access to (`settings.php` or `settings.ddev.php`)and `composer.json`
 
-**Estimated setup time:** 20-30 minutes
-
-**Important:** Automatic updates should always be configured and tested in a local or development environment first. DO NOT enable automatic updates directly on a production site without thorough testing.
+**Important:** Automatic updates should always be configured and tested in a local or development environment first. DO NOT enable automatic updates directly on a production site.
 
 ### Understanding the Components
 
