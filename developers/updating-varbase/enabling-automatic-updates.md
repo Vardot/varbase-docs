@@ -24,7 +24,9 @@ Before you begin, ensure you have:
 * DDEV or equivalent development environment
 * Write access to (`settings.php` or `settings.ddev.php`)and `composer.json`
 
+{% hint style="warning" %}
 **Important:** Automatic updates should always be configured and tested in a local or development environment first. DO NOT enable automatic updates directly on a production site.
+{% endhint %}
 
 ### Understanding the Components
 
