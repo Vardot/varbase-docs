@@ -1,6 +1,6 @@
 # Enabling Automatic Updates
 
-enabling and configuring secure automatic updates in Varbase 10.1.x using Drupal 11's **Package Manager** module and **The Update Framework (TUF)**.
+Enabling and configuring secure automatic updates in **Varbase 10.1.x** using **Drupal 11, Automatic Updates**, **Package Manager** module and **The Update Framework (TUF)**.
 
 ### Overview
 
