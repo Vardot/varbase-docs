@@ -121,7 +121,7 @@
     * [Version Update Guides](developers/updating-varbase/version-update-guides/README.md)
       * [Updating Varbase \~9.0 to Drupal 10](developers/updating-varbase/version-update-guides/updating-varbase-9.0-to-drupal-10.md)
       * [Updating from Varbase 8.x to 9.x](developers/updating-varbase/version-update-guides/updating-from-varbase-8.x-to-9.x.md)
-    * [Enabling Automatic Updates](developers/updating-varbase/enabling-automatic-updates.md)
+      * [Enabling Automatic Updates](developers/updating-varbase/version-update-guides/enabling-automatic-updates.md)
   * [Varbase Patches](developers/varbase-patches.md)
   * [Varbase Libraries](developers/varbase-libraries/README.md)
     * [Migrating Existing Projects to NPM/YARN with drupal-libraries-sync](developers/varbase-libraries/migrating-existing-projects-to-npm-yarn-with-drupal-libraries-sync.md)
