@@ -22,11 +22,9 @@ Before you begin, ensure you have:
 * PHP 8.3 or higher
 * Composer 2.8 or higher
 * DDEV or equivalent development environment
-* Write access to `settings.php` and `composer.json`
+* Write access to (`settings.php` or `settings.ddev.php`)and `composer.json`
 
-**Estimated setup time:** 20-30 minutes
-
-**Important:** Automatic updates should always be configured and tested in a local or development environment first. DO NOT enable automatic updates directly on a production site without thorough testing.
+**Important:** Automatic updates should always be configured and tested in a local or development environment first. DO NOT enable automatic updates directly on a production site.
 
 ### Understanding the Components
 
