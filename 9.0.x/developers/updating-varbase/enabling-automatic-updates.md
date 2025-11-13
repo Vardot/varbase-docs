@@ -2,7 +2,7 @@
 
 enabling and configuring secure automatic updates in Varbase 9.1.x using Drupal 10.5's **Package Manager** module and **The Update Framework (TUF)**.
 
-### Overview
+## Overview
 
 This guide walks you through integrating Drupal 10.5's experimental automatic updates functionality into your Varbase 9.1.x projects. With automatic updates enabled, your site will be able to:
 
@@ -13,7 +13,7 @@ This guide walks you through integrating Drupal 10.5's experimental automatic up
 
 The automatic updates system consists of three main components working together to provide secure, reliable updates for your Varbase site.
 
-### Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have:
 
@@ -28,9 +28,9 @@ Before you begin, ensure you have:
 **Important:** Automatic updates should always be configured and tested in a local or development environment first. DO NOT enable automatic updates directly on a production site.
 {% endhint %}
 
-### Understanding the Components
+## Understanding the Components
 
-#### Package Manager Module
+### Package Manager Module
 
 **Package Manager** \~3.0 is an experimental sub module in Automatic Update module that provides the API functionality for staging package installations and updates using Composer.
 
@@ -43,7 +43,7 @@ Package Manager acts as the "engine" that powers automatic updates by:
 * Checking for file system compatibility
 * Ensuring composer.lock and composer.json are synchronized
 
-#### Automatic Updates Module
+### Automatic Updates Module
 
 **Automatic Updates** is a contributed module that builds on top of Package Manager to provide user interface and automation for managing updates.
 
@@ -56,7 +56,7 @@ This module is included by default in Varbase 9.1.x. It provides:
 * Staging and rollback capabilities
 * Integration with Drupal's update status system
 
-#### The Update Framework (TUF)
+### The Update Framework (TUF)
 
 **The Update Framework** provides cryptographic verification of package metadata to ensure packages haven't been tampered with during download.
 
@@ -69,15 +69,15 @@ TUF protects your site by:
 * Detecting malicious package substitution
 * Ensuring timestamp validation for timely updates
 
-### Setup Process
+## Setup Process
 
 Follow these steps in order to enable automatic updates on your Varbase 9.1.x project.
 
-#### Phase 1: Enable Package Manager
+### Phase 1: Enable Package Manager
 
 Since **Package Manager** is experimental, it requires explicit configuration before it can be enabled.
 
-**Step 1: Configure Settings**
+#### **Step 1: Configure Settings**
 
 Edit your settings file:
 
@@ -96,7 +96,7 @@ $settings['testing_package_manager'] = TRUE;
 
 This setting allows the experimental Package Manager module to be enabled on your site.
 
-**Step 2: Enable the Module**
+#### **Step 2: Enable the Module**
 
 ```bash
 ddev drush en package_manager -y
@@ -110,7 +110,7 @@ You should see:
 
 **Troubleshooting:** If you receive an "unmet requirements" error, verify the `testing_package_manager` setting was saved correctly, then clear cache with `ddev drush cr`
 
-**Step 3: Configure Package Manager Settings**
+#### **Step 3: Configure Package Manager Settings**
 
 Edit the **Package Manager** configuration:
 
@@ -148,7 +148,7 @@ Save and exit the editor.
 
 **Tip:** If your project uses additional custom Composer plugins, add them to the `additional_trusted_composer_plugins` list.
 
-#### Phase 2: Configure Drupal Scaffold
+### Phase 2: Configure Drupal Scaffold
 
 Drupal scaffold files (such as `.htaccess`, `index.php`, `robots.txt`) need special handling during automatic updates.
 
@@ -176,11 +176,11 @@ Locate the `"drupal-scaffold"` section and update it to match:
 * Prevents conflicts with Varbase-specific customizations
 * Most scaffold files should only originate from Drupal core
 
-#### Phase 3: Set Up The Update Framework (TUF)
+### Phase 3: Set Up The Update Framework (TUF)
 
 **The Update Framework** provides cryptographic verification to ensure downloaded packages are authentic and haven't been tampered with.
 
-**Step 1: Create TUF Cache Directory**
+#### **Step 1: Create TUF Cache Directory**
 
 ```bash
 mkdir -p tuf
@@ -188,7 +188,7 @@ mkdir -p tuf
 
 This directory will store TUF metadata (repository signing keys and timestamps).
 
-**Step 2: Download Initial Root Metadata**
+#### **Step 2: Download Initial Root Metadata**
 
 Download the root metadata files containing public keys for package verification:
 
@@ -202,13 +202,13 @@ curl -o tuf/packagist-signed.drupalcode.org.json \
 
 You should see two `.json` files created in the `tuf/` directory.
 
-**Step 3: Allow TUF Composer Plugin**
+#### **Step 3: Allow TUF Composer Plugin**
 
 ```bash
 ddev composer config allow-plugins.php-tuf/composer-integration true
 ```
 
-**Step 4: Install TUF Integration**
+#### **Step 4: Install TUF Integration**
 
 ```bash
 ddev composer require php-tuf/composer-integration
@@ -216,7 +216,7 @@ ddev composer require php-tuf/composer-integration
 
 **Note:** This step may take 2-3 minutes as it downloads and verifies the initial metadata.
 
-**Step 5: Configure Repositories with TUF**
+#### **Step 5: Configure Repositories with TUF**
 
 Open your project's `composer.json` file and update the `"repositories"` section to enable TUF verification:
 
@@ -241,7 +241,7 @@ Open your project's `composer.json` file and update the `"repositories"` section
 * TUF is only enabled for Drupal repositories (they support it)
 * Asset repositories don't support TUF yet
 
-**Step 6: Verify Security Configuration**
+#### **Step 6: Verify Security Configuration**
 
 Ensure TLS and secure HTTP are properly configured:
 
@@ -262,7 +262,7 @@ You should see:
 ./composer.json is valid
 ```
 
-**Step 7: Update Composer Lock File**
+#### **Step 7: Update Composer Lock File**
 
 Regenerate your `composer.lock` file with TUF-verified package signatures:
 
@@ -270,9 +270,9 @@ Regenerate your `composer.lock` file with TUF-verified package signatures:
 ddev composer update --lock
 ```
 
-#### Phase 4: Enable Automatic Updates Modules
+### Phase 4: Enable Automatic Updates Modules
 
-**Step 1: Enable Automatic Updates**
+#### **Step 1: Enable Automatic Updates**
 
 **Automatic Updates** is included by default in Varbase 9.1.x.
 
@@ -282,7 +282,7 @@ Enable the module:
 ddev drush en automatic_updates -y
 ```
 
-**Step 2: Enable Automatic Updates Extensions**
+#### **Step 2: Enable Automatic Updates Extensions**
 
 This module provides support for updating contributed modules:
 
@@ -290,15 +290,15 @@ This module provides support for updating contributed modules:
 ddev drush en automatic_updates_extensions -y
 ```
 
-**Step 3: Rebuild Cache**
+#### **Step 3: Rebuild Cache**
 
 ```bash
 ddev drush cr
 ```
 
-#### Phase 5: Verification and Testing
+### Phase 5: Verification and Testing
 
-**Step 1: Configure User Permissions**
+#### **Step 1: Configure User Permissions**
 
 Grant administrator users the required permissions:
 
@@ -307,7 +307,7 @@ ddev drush role:perm:add administrator "administer software updates"
 ddev drush cr
 ```
 
-**Step 2: Access Update Pages**
+#### **Step 2: Access Update Pages**
 
 Generate a one-time login link:
 
@@ -328,7 +328,7 @@ Navigate to the following pages to verify everything is working:
 * You see available updates or "All projects are up to date"
 * "Stage update" or "Apply update" buttons appear for available updates
 
-**Step 3: Test Staging an Update (Optional)**
+#### **Step 3: Test Staging an Update (Optional)**
 
 If updates are available, test the staging process:
 
@@ -340,9 +340,9 @@ If updates are available, test the staging process:
 
 **Best Practice:** Always test updates on a development environment before applying them to staging or production sites.
 
-### Configuration Reference
+## Configuration Reference
 
-#### Complete composer.json Structure
+### Complete composer.json Structure
 
 After completing the setup, your `composer.json` should include these key sections:
 
@@ -385,7 +385,7 @@ After completing the setup, your `composer.json` should include these key sectio
 }
 ```
 
-#### Package Manager Configuration
+### Package Manager Configuration
 
 The Package Manager configuration should include all trusted Composer plugins used in your Varbase project:
 
@@ -401,9 +401,9 @@ additional_trusted_composer_plugins:
 include_unknown_files_in_project_root: false
 ```
 
-### Troubleshooting
+## Troubleshooting
 
-#### Issue: Lock File Is Not Up to Date
+### Issue: Lock File Is Not Up to Date
 
 **Symptoms:** Automatic updates fail with a Composer lock file validation error.
 
@@ -423,7 +423,7 @@ Verify the issue is resolved:
 ddev composer validate --check-lock
 ```
 
-#### Issue: 403 Forbidden on Update Pages
+### Issue: 403 Forbidden on Update Pages
 
 **Symptoms:** Cannot access the updates pages at `/admin/reports/updates/update`.
 
@@ -439,7 +439,7 @@ ddev drush role:perm:add administrator "administer site configuration"
 ddev drush cr
 ```
 
-#### Issue: TUF Rate Limit (1024 Root Files Error)
+### Issue: TUF Rate Limit (1024 Root Files Error)
 
 **Symptoms:** Running `composer update` fails with "DoS protection triggered" error.
 
@@ -473,7 +473,7 @@ ddev composer update --lock
 
 **Prevention:** Minimize manual `composer update` commands during active development.
 
-#### Issue: Package Manager Validation Errors
+### Issue: Package Manager Validation Errors
 
 **Symptoms:** Updates fail with "unsupported plugin" or "scaffold configuration" errors.
 
@@ -493,7 +493,7 @@ Add any untrusted plugins to the Package Manager configuration:
 ddev drush config:edit package_manager.settings
 ```
 
-#### Issue: Codebase Not Writable Error
+### Issue: Codebase Not Writable Error
 
 **Symptoms:** Cannot stage updates due to file permission errors.
 
@@ -513,9 +513,9 @@ Verify the vendor directory is writable:
 ls -la vendor/
 ```
 
-### Security Considerations
+## Security Considerations
 
-#### TUF Protection Benefits
+### TUF Protection Benefits
 
 **The Update Framework** provides multiple layers of security:
 
@@ -524,7 +524,7 @@ ls -la vendor/
 * **Metadata validation:** Ensures repository integrity and detects tampering
 * **Man-in-the-middle protection:** Cryptographic verification detects modified packages during download
 
-#### Package Manager Safeguards
+### Package Manager Safeguards
 
 Before allowing any update, **Package Manager** validates:
 
@@ -535,37 +535,6 @@ Before allowing any update, **Package Manager** validates:
 * No unknown files exist in the project root
 
 **Safety Feature:** If any validation check fails, the update is blocked automatically. This prevents potentially breaking changes from being applied.
-
-#### Recommended Update Workflow for Production Sites
-
-Follow this workflow when updating production sites:
-
-1. **Test on development environment first**
-   * Navigate to **Administration \ Reports \ Available updates \ Update**
-   * Stage and apply updates
-   * Test all functionality thoroughly
-2. **Export configuration**
-
-```bash
-   ddev drush config:export -y
-```
-
-3. **Commit changes to version control**
-
-```bash
-   git add composer.json composer.lock config/
-   git commit -m "Update Drupal core and contributed modules"
-   git push
-```
-
-4. **Deploy to staging environment**
-   * Pull the latest code
-   * Test thoroughly again
-5. **Deploy to production**
-   * Schedule a maintenance window
-   * Apply updates
-   * Monitor for any issues
-   * Keep backups ready for rollback if needed
 
 ### Project File Structure
 
@@ -626,7 +595,7 @@ ddev composer update --dry-run
 ddev exec ls -la vendor/ | head -n 5
 ```
 
-### Integration Into New Varbase 9.1.x Projects
+## Integration Into New Varbase 9.1.x Projects
 
 When starting a new Varbase 9.1.x project, you can set up automatic updates with the following commands:
 
