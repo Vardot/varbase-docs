@@ -143,7 +143,7 @@ include_unknown_files_in_project_root: false
 * `include_unknown_files_in_project_root`: Prevents updates if unexpected files appear in the project root (security measure)
 
 {% hint style="info" %}
-Check all `allow-plugins` in the root `composer.json` file, which they must be added into the list in `additional_trusted_composer_plugins` package\_manager.settings
+Check all `allow-plugins` in the root `composer.json` file, which they must be added into the list in `additional_trusted_composer_plugins`  in the `package_manager.settings` config.
 {% endhint %}
 
 Save and exit the editor.
