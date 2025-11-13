@@ -524,39 +524,6 @@ Before allowing any update, **Package Manager** validates:
 
 **Safety Feature:** If any validation check fails, the update is blocked automatically. This prevents potentially breaking changes from being applied.
 
-#### Recommended Update Workflow for Production Sites
-
-Follow this workflow when updating production sites:
-
-1. **Test on development environment first**
-   * Navigate to **Administration \ Reports \ Available updates \ Update**
-   * Stage and apply updates
-   * Test all functionality thoroughly
-2. **Export configuration**
-
-bash
-
-```bash
-   ddev drush config:export -y
-```
-
-3. **Commit changes to version control**
-
-```bash
-   git add composer.json composer.lock config/
-   git commit -m "Update Drupal core and contributed modules"
-   git push
-```
-
-4. **Deploy to staging environment**
-   * Pull the latest code
-   * Test thoroughly again
-5. **Deploy to production**
-   * Schedule a maintenance window
-   * Apply updates
-   * Monitor for any issues
-   * Keep backups ready for rollback if needed
-
 ### Project File Structure
 
 After completing the setup, your Varbase 10.1.x project should include these files:
