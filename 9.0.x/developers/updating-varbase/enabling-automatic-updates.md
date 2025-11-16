@@ -154,15 +154,14 @@ Drupal scaffold files (such as `.htaccess`, `index.php`, `robots.txt`) need spec
 
 **Update composer.json Scaffold Configuration**
 
-Edit your project's `composer.json` file:
-
-Locate the `"drupal-scaffold"` section and update it to match:
+Edit your project's `composer.json` file, then locate the `"drupal-scaffold"` section and update it to match:
 
 ```json
 "drupal-scaffold": {
   "allowed-packages": [
     "drupal/core"
   ],
+  ...
   ...
 }
 ```
