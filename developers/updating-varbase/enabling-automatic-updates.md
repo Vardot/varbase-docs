@@ -158,10 +158,6 @@ Drupal scaffold files (such as `.htaccess`, `index.php`, `robots.txt`) need spec
 
 Open your project's `composer.json` file:
 
-```bash
-vim composer.json
-```
-
 Locate the `"drupal-scaffold"` section and update it to match:
 
 ```json
@@ -169,10 +165,7 @@ Locate the `"drupal-scaffold"` section and update it to match:
   "allowed-packages": [
     "drupal/core"
   ],
-  "gitignore": true,
-  "locations": {
-    "web-root": "docroot/"
-  }
+  ...
 }
 ```
 
