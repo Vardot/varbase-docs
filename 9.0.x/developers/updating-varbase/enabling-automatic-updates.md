@@ -163,10 +163,7 @@ Locate the `"drupal-scaffold"` section and update it to match:
   "allowed-packages": [
     "drupal/core"
   ],
-  "gitignore": true,
-  "locations": {
-    "web-root": "docroot/"
-  }
+  ...
 }
 ```
 
