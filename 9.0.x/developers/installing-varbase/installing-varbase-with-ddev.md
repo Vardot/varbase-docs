@@ -52,7 +52,7 @@ ddev status
 
 ## Quick Install Varbase with DDEV
 
-#### Full
+#### Full Site
 
 Complete Varbase installation with all components enabled except.&#x20;
 
@@ -60,7 +60,7 @@ Complete Varbase installation with all components enabled except.&#x20;
 ddev install-varbase full
 ```
 
-#### Minimal
+#### Minimal Site
 
 Core Varbase installation with all extra components _**explicitly disabled**_.
 
