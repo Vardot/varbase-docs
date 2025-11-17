@@ -52,10 +52,20 @@ ddev status
 
 ## Quick Install Varbase with DDEV
 
-**Example:**
+#### Full
+
+Complete Varbase installation with all components enabled except.&#x20;
 
 ```
 ddev install-varbase full
+```
+
+#### Minimal
+
+Core Varbase installation with all extra components _**explicitly disabled**_.
+
+```
+ddev install-varbase minimal
 ```
 
 ## Extra DDEV Configs
