@@ -55,7 +55,7 @@ ddev status
 **Example:**
 
 ```
-ddev install-varbase demo
+ddev install-varbase full
 ```
 
 ## Extra DDEV Configs
