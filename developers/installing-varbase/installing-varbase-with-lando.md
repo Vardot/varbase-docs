@@ -1,4 +1,4 @@
-# Installing Varbase with Lando
+# Installing Varbase locally with Lando
 
 [Lando](https://lando.dev/) is a great local development environment for Drupal and other applications that vastly simplifies local development and DevOps so you can focus on the application, rather than the environment.
 
@@ -17,7 +17,7 @@ Follow the steps below to setup Varbase with Lando.
 2.  Create a new Varbase project using Composer, this will include a template file for _.lando.yml_, for information on how to integrate Lando on an existing project scroll to the bottom of this page.
 
     ```
-    composer create-project vardot/varbase-project:~10 MY_VARBASE_PROJECT --no-dev --no-interaction
+    composer create-project vardot/varbase-project:~10.0.0 MY_VARBASE_PROJECT --no-dev --no-interaction
     ```
 3.  Edit the _.lando.yml_ file and change the `name` value to your project's name.
 
