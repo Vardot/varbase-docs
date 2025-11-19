@@ -29,7 +29,7 @@ Follow the steps below to install Varbase distribution for Drupal 9 on a local s
 2\. Point your browser to your localhost folder where you installed ran the command. \
 You can then install Varbase as you install Drupal normally.
 
-<figure><img src="../../.gitbook/assets/Varbase-10-00-00-install.png" alt=""><figcaption><p>Varbase Installation Screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/install-Varbase-10-01-00--11-19-2025_12_23_PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Installing Varbase locally with DDEV
 
