@@ -43,13 +43,9 @@ Brings in the following core and contributed modules to your site:
 | [**UI Patterns Library**](https://www.drupal.org/project/ui_patterns)                       | Exposed patterns in you modules and themes and display them in a pattern library page.                                          |
 | [**UI Patterns Settings**](https://www.drupal.org/project/ui_patterns_settings)             | Configure patterns with settings.                                                                                               |
 | [**UI Patterns Views**](https://www.drupal.org/project/ui_patterns)                         | Use patterns as Views templates.                                                                                                |
+| [**UI Icons**](https://www.drupal.org/project/ui_icons)                                     | Core Icons main form element for Icon autocomplete.                                                                             |
+| [**UI Icons for UI Patterns**](https://www.drupal.org/project/ui_icons)                     | Icons integration with UI Patterns                                                                                              |
+| [**UI Icons Fields**](https://www.drupal.org/project/ui_icons)                              | Field type Icon and field type Link integration.                                                                                |
+| [**UI Icons Picker**](https://www.drupal.org/project/ui_icons)                              | Provide a fancy icon picker for UI Icons selector.                                                                              |
+| [**UI Icons Library**](https://www.drupal.org/project/ui_icons)                             | Overview of all icons available on your site.                                                                                   |
 
-
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
