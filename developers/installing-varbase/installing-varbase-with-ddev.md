@@ -14,21 +14,21 @@ Note that while you can run DDEV in production, it is highly discouraged, not re
 
 Install DDEV on your machine. Whether you’re using Linux, Mac, or Windows, there’s a package for you. Follow [this guide](https://ddev.readthedocs.io/en/stable/) to install DDEV.
 
-1- Create a folder for a local Varbase project
+#### 1- Create a folder for a local Varbase project
 
 ```bash
 mkdir my-varbase-project
 cd my-varbase-project
 ```
 
-2- Configure and Start DDEV in the folder
+#### 2- Configure and Start DDEV in the folder
 
-```
+```bash
 ddev config --project-type=drupal11 --docroot=docroot
 ddev start
 ```
 
-3- Create a Varbase Project in DDEV
+#### 3- Create a Varbase Project in DDEV
 
 ```bash
 ddev composer create-project vardot/varbase-project:~10.1.0
