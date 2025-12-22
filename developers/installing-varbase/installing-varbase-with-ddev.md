@@ -31,7 +31,7 @@ ddev start
 3- Create a Varbase Project in DDEV
 
 ```bash
-ddev composer create-project vardot/varbase-project:10.1.0-rc1
+ddev composer create-project vardot/varbase-project:~10.1.0
 ```
 
 Launch the DDEV url in the Default Browser
