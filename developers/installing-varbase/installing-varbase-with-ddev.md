@@ -56,15 +56,14 @@ ddev status
 
 Full installation including demo content and sample data.
 
-```
-ddev install-varbase demo
-```
+<pre class="language-bash"><code class="lang-bash"><strong>ddev install-varbase demo
+</strong></code></pre>
 
 #### Full Site
 
 Complete Varbase installation with all components enabled except.&#x20;
 
-```
+```bash
 ddev install-varbase full
 ```
 
@@ -72,7 +71,7 @@ ddev install-varbase full
 
 Core Varbase installation with all extra components _**explicitly disabled**_.
 
-```
+```bash
 ddev install-varbase minimal
 ```
 
@@ -81,7 +80,7 @@ ddev install-varbase minimal
 {% hint style="success" %}
 Change the `name` value to your project's name.
 
-Edit the .ddev/config.yaml file&#x20;
+Edit the `.ddev/config.yaml` file&#x20;
 {% endhint %}
 
 For more information on the DDEV file configuration, read more on&#x20;
