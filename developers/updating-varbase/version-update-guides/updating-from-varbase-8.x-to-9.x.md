@@ -6,8 +6,8 @@
 [..](../)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/-MA0MNwQ6lIrVFtRG2MS" %}
+[Broken link](/broken/pages/-MA0MNwQ6lIrVFtRG2MS)
 {% endcontent-ref %}
 
 {% hint style="info" %}

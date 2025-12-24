@@ -5,8 +5,7 @@
 **Drush 13.0.0** was released on Aug 2
 
 * Better Terminal interface
-* Able to run recipes using drush\
-
+* Able to run recipes using drush<br>
 
 {% embed url="https://github.com/drush-ops/drush/releases/tag/13.0.0" %}
 
@@ -116,4 +115,4 @@ Run the following command for example:
 ../bin/drush cr
 ```
 
-\
+<br>
