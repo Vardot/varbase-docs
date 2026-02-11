@@ -8,21 +8,26 @@ The Drupal CMS Authentication recipe provides enhanced authentication features, 
 
 - **core/recipes/user\_picture** -- Core recipe for user profile pictures
 
-## Modules Included
+## Included Modules
 
-- **login\_emailusername** -- Allows login using either email address or username
-- **svg\_image** -- SVG image support for user avatars and profile pictures
-- **token** -- Token system for dynamic text replacement
-- **eca\_base** -- ECA (Event-Condition-Action) base framework
-- **eca\_misc** -- ECA miscellaneous event handlers
-- **eca\_user** -- ECA user-related events and actions
-- **eca\_ui** -- ECA user interface for managing automation rules
-- **bpmn\_io** -- BPMN.io integration for visual workflow modeling
-- **modeler\_api** -- API for workflow modelers
+Brings in the following core and contributed modules to your site:
+
+| Module | Purpose |
+|---|---|
+| [**BPMN.iO Modeler**](https://www.drupal.org/project/bpmn_io) | BPMN modeler, integrated into Drupal's admin UI. |
+| [**Drupal CMS Helper**](https://www.drupal.org/project/drupal_cms_helper) | Provides functionality for Drupal CMS that is not yet in Drupal core or dependencies. |
+| [**ECA Base**](https://www.drupal.org/project/eca) | Base events, conditions and actions. |
+| [**ECA Miscellaneous**](https://www.drupal.org/project/eca) | Miscellaneous events and conditions from Drupal core and the kernel. |
+| [**ECA User**](https://www.drupal.org/project/eca) | User events, conditions and actions. |
+| [**ECA UI**](https://www.drupal.org/project/eca) | Provides a user interface for managing ECA models. |
+| [**Login with Email or Username**](https://www.drupal.org/project/login_emailusername) | Allow users to log in with either their username OR email address using the same input box on the login form. |
+| [**Modeler API**](https://www.drupal.org/project/modeler_api) | Provides an API for modules to use modelers like BPMN.iO. |
+| [**SVG image**](https://www.drupal.org/project/svg_image) | Overrides the standard image formatter and widget to support SVG files. |
+| [**Token**](https://www.drupal.org/project/token) | Provides a user interface for the Token API and some missing core tokens. |
 
 ## Installation
 
-This recipe is typically installed as a dependency of the varbase\_starter recipe. To apply it independently:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/drupal_cms_authentication

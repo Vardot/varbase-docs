@@ -6,41 +6,26 @@ The **Varbase API Base** recipe provides JSON:API with authentication, authoriza
 
 [https://www.drupal.org/project/varbase\_api\_base](https://www.drupal.org/project/varbase_api_base)
 
-## Features
+## Included Modules
 
-- **JSON:API** -- Drupal core's JSON:API implementation for exposing content and configuration as a standards-compliant API
-- **JSON:API Extras** -- Additional configuration options for JSON:API resources, including field aliasing, resource disabling, and response customization
-- **JSON:API Defaults** -- Set default includes and filters for JSON:API endpoints to simplify client-side queries
-- **Simple OAuth** -- OAuth 2.0 authentication provider for secure API access with token-based authentication
-- **REST UI** -- Administrative interface for configuring and managing REST resources
-- **OpenAPI** -- OpenAPI (Swagger) specification generation for documenting the site's API
-- **OpenAPI JSON:API** -- OpenAPI documentation specifically for JSON:API endpoints
-- **OpenAPI REST** -- OpenAPI documentation for REST endpoints
-- **OpenAPI UI ReDoc** -- ReDoc-based interactive API documentation viewer
-- **OpenAPI UI Swagger** -- Swagger UI-based interactive API documentation and testing interface
+Brings in the following core and contributed modules to your site:
 
-## Modules Installed
-
-- `jsonapi`
-- `openapi`
-- `openapi_jsonapi`
-- `openapi_rest`
-- `openapi_ui_redoc`
-- `openapi_ui_swagger`
-- `simple_oauth`
-- `restui`
-- `jsonapi_extras`
-- `jsonapi_defaults`
+| Module | Purpose |
+|---|---|
+| **JSON:API** *(in Drupal core)* | Exposes entities as a JSON:API-specification-compliant web API. |
+| [**OpenAPI**](https://www.drupal.org/project/openapi) | Connects Drupal to the OpenAPI Javascript Library. |
+| [**OpenAPI JSON:API**](https://www.drupal.org/project/openapi_jsonapi) | OpenAPI support for the JSON:API module. |
+| [**OpenAPI REST**](https://www.drupal.org/project/openapi_rest) | OpenAPI support for the REST module. |
+| [**ReDoc for OpenAPI UI**](https://www.drupal.org/project/openapi_ui_redoc) | Provides display of OpenAPI docs using the ReDoc library. |
+| [**Swagger UI for OpenAPI UI**](https://www.drupal.org/project/openapi_ui_swagger) | Provides display of OpenAPI docs using the Swagger UI plugin. |
+| [**Simple OAuth & OpenID Connect**](https://www.drupal.org/project/simple_oauth) | The OAuth 2.0 Authorization Framework. |
+| [**REST UI**](https://www.drupal.org/project/restui) | Provides a user interface to manage REST resources. |
+| [**JSON:API Extras**](https://www.drupal.org/project/jsonapi_extras) | Builds on top of JSON:API to deliver extra functionality. |
+| [**JSON:API Defaults**](https://www.drupal.org/project/jsonapi_extras) | Builds on top of JSON API to deliver extra functionality. |
 
 ## Installation
 
-1. Require the package via Composer:
-
-```bash
-composer require drupal/varbase_api_base:~1.0.0
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/varbase_api_base

@@ -8,25 +8,21 @@ Varbase AI Image Alt provides AI-powered automatic alt text generation for image
 - **Stable Release:** 1.0.1
 - **Security:** Covered by the Drupal security advisory policy
 
-## Features
+## Included Modules
 
-- Automatic alt text generation for uploaded images
-- AI-powered image analysis for accurate descriptions
-- Enhances web accessibility compliance (WCAG)
-- Improves SEO through descriptive image alt attributes
-- Works with Varbase media types and image fields
+Brings in the following core and contributed modules to your site:
+
+| Module | Purpose |
+|---|---|
+| [**AI Core**](https://www.drupal.org/project/ai) | This module provides an abstraction layer for AI services. |
+| [**AI Image Alt Text**](https://www.drupal.org/project/ai_image_alt_text) | Provided the possibility to fill out the alt text of an image field using AI. |
+| [**AI Image Bulk Alt Text**](https://www.drupal.org/project/ai_image_alt_text) | Adds the possibility to bulk change the alt text. |
 
 ## Dependencies
 
 - Varbase AI Base
 
 ## Installation
-
-Install via Composer:
-
-```bash
-composer require drupal/varbase_ai_image_alt:~1.0.0
-```
 
 Apply the recipe using Drush:
 

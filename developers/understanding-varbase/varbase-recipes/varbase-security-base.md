@@ -6,47 +6,29 @@ The **Varbase Security Base** recipe provides a hardened security configuration 
 
 [https://www.drupal.org/project/varbase\_security\_base](https://www.drupal.org/project/varbase_security_base)
 
-## Features
+## Included Modules
 
-- **CAPTCHA** -- Challenge-response tests on forms to prevent automated spam submissions
-- **reCAPTCHA** -- Google reCAPTCHA integration for advanced bot detection
-- **Honeypot** -- Hidden form fields that trap automated spam bots without affecting legitimate users
-- **Antibot** -- JavaScript-based bot detection that blocks submissions from clients that do not execute JavaScript
-- **Password Policy** -- Enforced password strength requirements with configurable constraints:
-  - **Character Types** -- Requires a mix of uppercase, lowercase, numeric, and special characters
-  - **Character Count** -- Minimum and maximum character requirements
-  - **Password History** -- Prevents reuse of previously used passwords
-  - **Password Length** -- Enforces minimum password length
-  - **Username Restriction** -- Prevents use of the username within the password
-- **Security Kit (SecKit)** -- HTTP security headers including Content Security Policy, X-Frame-Options, and other protective headers
-- **Username Enumeration Prevention** -- Blocks attackers from discovering valid usernames through login and password reset forms
-- **Flood Control** -- Configurable rate limiting for login attempts and other form submissions to prevent brute-force attacks
+Brings in the following core and contributed modules to your site:
 
-## Modules Installed
-
-- `captcha`
-- `recaptcha`
-- `honeypot`
-- `antibot`
-- `password_policy`
-- `password_policy_character_types`
-- `password_policy_characters`
-- `password_policy_history`
-- `password_policy_length`
-- `password_policy_username`
-- `seckit`
-- `username_enumeration_prevention`
-- `flood_control`
+| Module | Purpose |
+|---|---|
+| [**CAPTCHA**](https://www.drupal.org/project/captcha) | Provides the CAPTCHA API for adding challenges to arbitrary forms. |
+| [**reCAPTCHA**](https://www.drupal.org/project/recaptcha) | Protect your website from spam and abuse while letting real people pass through with ease. |
+| [**Honeypot**](https://www.drupal.org/project/honeypot) | Mitigates spam form submissions using the honeypot method. |
+| [**Antibot**](https://www.drupal.org/project/antibot) | Prevent forms from being submitted without JavaScript enabled. |
+| [**Password Policy**](https://www.drupal.org/project/password_policy) | Sets up constraints and expiration of passwords. |
+| [**Password Character Types Policy**](https://www.drupal.org/project/password_policy) | Minimum number of different character types the password must contain. |
+| [**Password Characters of Type Policy**](https://www.drupal.org/project/password_policy) | Minimum characters of a particular type the password must contain. |
+| [**Password Policy History**](https://www.drupal.org/project/password_policy) | Sets up a password constraint to limit repeated use of the same password. |
+| [**Password Character Length Policy**](https://www.drupal.org/project/password_policy) | Sets up a character length constraint for passwords. |
+| [**Password Username Policy**](https://www.drupal.org/project/password_policy) | Restrict users from having their username in their password. |
+| [**Security Kit**](https://www.drupal.org/project/seckit) | Enhance security of your Drupal website. |
+| [**Username Enumeration Prevention**](https://www.drupal.org/project/username_enumeration_prevention) | Removes the error message produced by the forgot password form, when an invalid user has been supplied. |
+| [**Flood control**](https://www.drupal.org/project/flood_control) | Allows configuring hidden flood control options and unblocking IP addresses and user ID's that are blocked after multiple failed login attempts. |
 
 ## Installation
 
-1. Require the package via Composer:
-
-```bash
-composer require drupal/varbase_security_base:~1.0.0
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/varbase_security_base

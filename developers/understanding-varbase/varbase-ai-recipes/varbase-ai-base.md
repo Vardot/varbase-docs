@@ -6,27 +6,17 @@ Varbase AI Base installs the core AI modules and applies default Varbase AI conf
 
 - **Drupal.org:** [https://www.drupal.org/project/varbase\_ai\_base](https://www.drupal.org/project/varbase_ai_base)
 
-## Features
+## Included Modules
 
-- Provides OpenAI integration for connecting to OpenAI services
-- Includes the AI dashboard for centralized AI management
-- Configures AI provider settings with sensible defaults
-- Acts as the required base dependency for all other Varbase AI recipes
-- Applies default Varbase AI configurations upon installation
+Brings in the following core and contributed modules to your site:
 
-## Modules Included
-
-- AI core modules
-- OpenAI provider integration
-- AI Dashboard
+| Module | Purpose |
+|---|---|
+| [**AI Core**](https://www.drupal.org/project/ai) | This module provides an abstraction layer for AI services. |
+| [**ECA Core**](https://www.drupal.org/project/eca) | Core module for ECA framework. |
+| [**AI Integration - ECA**](https://www.drupal.org/project/ai_integration_eca) | The bridge between AI and ECA. |
 
 ## Installation
-
-Install via Composer:
-
-```bash
-composer require drupal/varbase_ai_base:~1.0.0
-```
 
 Apply the recipe using Drush:
 

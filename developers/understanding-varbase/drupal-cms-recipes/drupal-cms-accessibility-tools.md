@@ -8,13 +8,18 @@ The Drupal CMS Accessibility Tools recipe provides automated accessibility check
 
 - **drupal\_cms\_content\_type\_base** -- Basic content type tools required for content integration
 
-## Modules Included
+## Included Modules
 
-- **editoria11y** -- Automated accessibility checker that scans page content and highlights potential issues such as missing alt text, improper heading structure, low contrast text, and other WCAG violations. It provides inline alerts and guidance directly on the page for content editors.
+Brings in the following core and contributed modules to your site:
+
+| Module | Purpose |
+|---|---|
+| [**Editoria11y**](https://www.drupal.org/project/editoria11y) | Checks for accessibility in page content. |
+| **Views** *(in Drupal core)* | Provides a framework to fetch information from the database and to display it in different formats. |
 
 ## Installation
 
-This recipe is typically installed as a dependency of the varbase\_starter recipe. To apply it independently:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/drupal_cms_accessibility_tools

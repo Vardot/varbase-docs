@@ -6,33 +6,22 @@ The **Varbase i18n Base** recipe provides internationalization, language managem
 
 [https://www.drupal.org/project/varbase\_i18n\_base](https://www.drupal.org/project/varbase_i18n_base)
 
-## Features
+## Included Modules
 
-- **Language Management** -- Add, configure, and manage multiple languages for your site including right-to-left (RTL) language support
-- **Locale** -- Interface translation system that downloads and applies community-contributed translations for installed modules and themes
-- **Configuration Translation** -- Translate site configuration elements such as views, menus, block titles, field labels, and other administrative strings
-- **Content Translation** -- Translate content entities including nodes, taxonomy terms, media, blocks, and menu links into any enabled language
-- **ECA Integration** -- Event-Condition-Action framework support for language-related events, enabling automated workflows based on language context
-- **ECA Language** -- Language-specific ECA conditions and actions for building multilingual automation rules
+Brings in the following core and contributed modules to your site:
 
-## Modules Installed
-
-- `language`
-- `locale`
-- `config_translation`
-- `content_translation`
-- `eca`
-- `eca_language`
+| Module | Purpose |
+|---|---|
+| **Language** *(in Drupal core)* | Allows users to configure available languages. |
+| **Interface Translation** *(in Drupal core)* | Allows users to translate interface text and to switch between interface languages. |
+| **Configuration Translation** *(in Drupal core)* | Allows users to translate configuration text. |
+| **Content Translation** *(in Drupal core)* | Allows users to translate content. |
+| [**ECA Core**](https://www.drupal.org/project/eca) | Core module for ECA framework. |
+| [**ECA Language**](https://www.drupal.org/project/eca) | Advanced language handling within ECA. |
 
 ## Installation
 
-1. Require the package via Composer:
-
-```bash
-composer require drupal/varbase_i18n_base:~1.0.0
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/varbase_i18n_base

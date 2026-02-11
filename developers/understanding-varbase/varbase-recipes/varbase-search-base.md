@@ -6,23 +6,19 @@ The **Varbase Search Base** recipe provides search functionality for Varbase sit
 
 [https://www.drupal.org/project/varbase\_search\_base](https://www.drupal.org/project/varbase_search_base)
 
-## Features
+## Included Modules
 
-- **Search API** -- Provides a flexible, abstracted search framework that allows indexing and querying site content using various backends
-- **Configurable Search Indexes** -- Define which content types, fields, and entities are indexed for search
-- **Pluggable Backends** -- Search API supports multiple backend engines, allowing you to use the database backend for simpler sites or integrate with dedicated search engines such as Apache Solr or Elasticsearch for larger, more demanding sites
-- **Faceted Search** -- Build filtered search experiences using facets based on content fields, taxonomy terms, and other entity properties
-- **Views Integration** -- Create search result pages and search-driven content listings using the Views module
+Brings in the following core and contributed modules to your site:
+
+| Module | Purpose |
+|---|---|
+| **Search** *(in Drupal core)* | Allows users to create search pages based on plugins provided by other modules. |
+| [**Search API**](https://www.drupal.org/project/search_api) | Provides a generic framework for modules offering search capabilities. |
+| [**Database Search**](https://www.drupal.org/project/search_api) | Offers an implementation of the Search API that uses database tables for indexing content. |
 
 ## Installation
 
-1. Require the package via Composer:
-
-```bash
-composer require drupal/varbase_search_base:~1.0.0
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/varbase_search_base

@@ -10,25 +10,21 @@ Base recipe (foundational)
 
 Easy Email Standard installs and configures the core components needed to send HTML emails from a Drupal site. It sets up the Easy Email module, the Easy Email theme for email rendering, and integrates Symfony Mailer Lite as the mail transport layer. This recipe does not define any specific email templates -- it only provides the infrastructure that other Easy Email recipes use to create and send styled emails.
 
-## Modules Installed
+## Included Modules
 
-The following modules are installed and configured by this recipe:
+Brings in the following core and contributed modules to your site:
 
-- **file** -- Core file handling for email attachments
-- **mailsystem** -- Mail system configuration to route emails through the appropriate mail plugin
-- **symfony_mailer_lite** -- Lightweight Symfony Mailer integration for Drupal, providing modern SMTP and mail transport support
-- **easy_email** -- The core Easy Email module for creating and managing email templates
-- **easy_email_theme** -- Theme layer for rendering HTML emails with consistent styling
+| Module | Purpose |
+|---|---|
+| **File** *(in Drupal core)* | Provides a field type for files and defines a "managed_file" Form API element. |
+| [**Mail System**](https://www.drupal.org/project/mailsystem) | Provides a user interface for per-module and site-wide mail_system selection. |
+| [**Drupal Symfony Mailer Lite**](https://www.drupal.org/project/symfony_mailer_lite) | Send emails with Symfony Mailer library. |
+| [**Easy Email**](https://www.drupal.org/project/easy_email) | A simple system for sending HTML-formatted emails. |
+| [**Easy Email Theme**](https://www.drupal.org/project/easy_email_theme) | A theme for sending HTML emails. |
 
 ## Installation
 
-1. Require the Easy Email Standard package via Composer:
-
-```bash
-composer require drupal/easy_email_standard
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/easy_email_standard

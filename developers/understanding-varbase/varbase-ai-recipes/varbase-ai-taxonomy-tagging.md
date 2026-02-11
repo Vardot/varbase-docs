@@ -8,25 +8,22 @@ Varbase AI Taxonomy Tagging provides AI-powered automatic taxonomy term assignme
 - **Stable Release:** 1.0.1
 - **Security:** Covered by the Drupal security advisory policy
 
-## Features
+## Included Modules
 
-- Automatic taxonomy term assignment based on content analysis
-- AI-driven content body analysis for accurate term matching
-- Improves content organization across the site
-- Enhances content discoverability for site visitors
-- Works with existing Varbase taxonomy vocabularies
+Brings in the following core and contributed modules to your site:
+
+| Module | Purpose |
+|---|---|
+| **Node** *(in Drupal core)* | Manages the creation, configuration, and display of the main site content. |
+| **Taxonomy** *(in Drupal core)* | Enables the categorization of content. |
+| [**AI Core**](https://www.drupal.org/project/ai) | This module provides an abstraction layer for AI services. |
+| [**AI Automators**](https://www.drupal.org/project/ai) | Allows AI and other tools and services to automatically generate field values on content creation. |
 
 ## Dependencies
 
 - Varbase AI Base
 
 ## Installation
-
-Install via Composer:
-
-```bash
-composer require drupal/varbase_ai_taxonomy_tagging:~1.0.0
-```
 
 Apply the recipe using Drush:
 

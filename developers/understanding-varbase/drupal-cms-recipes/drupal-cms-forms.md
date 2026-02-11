@@ -8,15 +8,22 @@ The Drupal CMS Forms recipe provides simple contact form and form building tools
 
 - **drupal\_cms\_anti\_spam** -- Anti-spam and anti-abuse functionality to protect forms from automated submissions
 
-## Modules Included
+## Included Modules
 
-- **webform** -- Comprehensive form builder for creating surveys, contact forms, and other data collection forms
-- **webform\_ui** -- Drag-and-drop user interface for building and managing webforms
-- **captcha** -- CAPTCHA challenge-response integration for form protection (provided via the anti-spam dependency)
+Brings in the following core and contributed modules to your site:
+
+| Module | Purpose |
+|---|---|
+| [**CAPTCHA**](https://www.drupal.org/project/captcha) | Provides the CAPTCHA API for adding challenges to arbitrary forms. |
+| **Text Editor** *(in Drupal core)* | Provides a framework to associate text editors (like WYSIWYGs) and toolbars with text formats. |
+| **Filter** *(in Drupal core)* | Filters text content in preparation for display. |
+| **Views** *(in Drupal core)* | Provides a framework to fetch information from the database and to display it in different formats. |
+| [**Webform**](https://www.drupal.org/project/webform) | Enables the creation of webforms and questionnaires. |
+| [**Webform UI**](https://www.drupal.org/project/webform) | Provides a user interface for building and maintaining webforms. |
 
 ## Installation
 
-This recipe is typically installed as a dependency of the varbase\_starter recipe. To apply it independently:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/drupal_cms_forms

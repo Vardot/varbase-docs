@@ -57,23 +57,19 @@ The Varbase Starter recipe depends on the following recipes:
 - `varbase_performance_base`
 - `varbase_demo_content`
 
-## Additional Modules
+## Included Modules
 
-Beyond the recipes listed above, Varbase Starter also installs the following modules directly:
+Brings in the following core and contributed modules to your site:
 
-- **cva** -- Component Validation Architecture for structured component development
-- **vartheme_bs5** -- The default Bootstrap 5 front-end theme for Varbase
-- **project_browser** -- Provides an in-admin interface for discovering and installing Drupal modules
+| Module | Purpose |
+|---|---|
+| [**CVA (Class Variance Authority)**](https://www.drupal.org/project/cva) | Provides html_cva Twig function for managing component variants using Class Variance Authority pattern. |
+| [**Vartheme BS5**](https://www.drupal.org/project/vartheme_bs5) | Starterkit theme for Varbase standard websites. Based on Bootstrap 5 framework using SASS. |
+| [**Project Browser**](https://www.drupal.org/project/project_browser) | Provides a user interface for browsing available Drupal projects. |
 
 ## Installation
 
-1. Require the Varbase Starter package via Composer:
-
-```bash
-composer require drupal/varbase_starter
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/varbase_starter

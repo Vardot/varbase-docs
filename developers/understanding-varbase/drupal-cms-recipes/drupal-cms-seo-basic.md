@@ -8,17 +8,23 @@ The Drupal CMS SEO Basic recipe applies basic SEO best practices to your Drupal 
 
 - **core/recipes/content\_editor\_role** -- Core recipe that creates the content editor role with appropriate SEO-related permissions
 
-## Modules Included
+## Included Modules
 
-- **easy\_breadcrumb** -- Automatically generates breadcrumb navigation based on URL structure, improving both user experience and SEO
-- **pathauto** -- Automatically generates clean, search-engine-friendly URL path aliases for content based on configurable patterns
-- **redirect** -- Manages URL redirects to prevent broken links and preserve SEO value when content is moved
-- **redirect\_404** -- Tracks 404 (page not found) errors and provides tools to create redirects for missing pages
-- **token** -- Token system used by Pathauto for dynamic URL pattern generation
+Brings in the following core and contributed modules to your site:
+
+| Module | Purpose |
+|---|---|
+| [**Easy Breadcrumb**](https://www.drupal.org/project/easy_breadcrumb) | Provides configurable path based breadcrumbs. |
+| **Node** *(in Drupal core)* | Manages the creation, configuration, and display of the main site content. |
+| [**Pathauto**](https://www.drupal.org/project/pathauto) | Provides a mechanism for modules to automatically generate aliases for the content they manage. |
+| [**Redirect**](https://www.drupal.org/project/redirect) | Allows users to redirect from old URLs to new URLs. |
+| [**Redirect 404**](https://www.drupal.org/project/redirect) | Logs 404 errors and allows users to create redirects for often requested but missing pages. |
+| [**Token**](https://www.drupal.org/project/token) | Provides a user interface for the Token API and some missing core tokens. |
+| **Views** *(in Drupal core)* | Provides a framework to fetch information from the database and to display it in different formats. |
 
 ## Installation
 
-This recipe is typically installed as a dependency of the varbase\_starter recipe. To apply it independently:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/drupal_cms_seo_basic

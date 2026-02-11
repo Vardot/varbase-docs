@@ -8,33 +8,22 @@ The **Varbase Dev Base** recipe provides development modules and configurations 
 
 [https://www.drupal.org/project/varbase\_dev\_base](https://www.drupal.org/project/varbase_dev_base)
 
-## Features
+## Included Modules
 
-- **Database Logging (dblog)** -- Logs system events to the database for review through the admin interface at Reports > Recent log messages
-- **Views UI** -- Administrative interface for creating and editing Views, enabling visual query building for content listings and displays
-- **Config Update UI** -- User interface for reviewing configuration changes between the active configuration and the configuration provided by installed modules and recipes
-- **Devel** -- Developer toolkit providing helper functions, variable inspection, cache management, and debugging utilities
-- **SDC Devel** -- Development tools for Single Directory Components (SDC), aiding in the development and debugging of Drupal's component-based theming system
-- **Reroute Email** -- Intercepts all outgoing emails and reroutes them to a specified address, preventing test emails from reaching real users during development
+Brings in the following core and contributed modules to your site:
 
-## Modules Installed
-
-- `dblog`
-- `views_ui`
-- `config_update_ui`
-- `devel`
-- `sdc_devel`
-- `reroute_email`
+| Module | Purpose |
+|---|---|
+| **Database Logging** *(in Drupal core)* | Logs system events in the database. |
+| **Views UI** *(in Drupal core)* | Provides a user interface for creating and managing views. |
+| [**Configuration Update Reports**](https://www.drupal.org/project/config_update) | Adds an updates report and revert functionality to configuration management. |
+| [**Devel**](https://www.drupal.org/project/devel) | Various blocks, pages, and functions for developers. |
+| [**SDC Devel**](https://www.drupal.org/project/sdc_devel) | Provides development aids to component developers. |
+| [**Reroute Email**](https://www.drupal.org/project/reroute_email) | Reroutes emails send from the site to a predefined email. Useful for test sites. |
 
 ## Installation
 
-1. Require the package via Composer (use `--dev` to keep it out of production dependencies):
-
-```bash
-composer require drupal/varbase_dev_base:~1.0.0 --dev
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/varbase_dev_base

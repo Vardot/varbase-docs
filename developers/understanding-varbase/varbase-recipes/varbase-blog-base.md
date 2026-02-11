@@ -10,14 +10,6 @@ The **Varbase Blog Base** recipe provides a fully configured blog post content t
 
 Varbase Blog Base delivers a ready-to-use blogging experience by building on top of several other Varbase recipes. It creates the blog post content type with all necessary fields, configures display modes, and sets up a blog listing view with exposed filters for browsing and searching blog content.
 
-## Features
-
-- **Blog Post Content Type** -- A pre-configured content type with fields for featured images, body content, tags, and categories
-- **Featured Images** -- Media reference field for associating hero images with blog posts
-- **Tags and Categories** -- Taxonomy-based classification using tags and categories vocabularies for organizing blog content
-- **Optimized Listing Page** -- A Views-based blog listing page with filtered navigation
-- **Selective Better Exposed Filters** -- Enhanced exposed filter widgets on the blog listing for an improved user experience when browsing posts
-
 ## Recipe Dependencies
 
 - `varbase_content_base`
@@ -25,19 +17,17 @@ Varbase Blog Base delivers a ready-to-use blogging experience by building on top
 - `varbase_seo_base`
 - `varbase_workflow_base`
 
-## Modules Installed
+## Included Modules
 
-- `selective_better_exposed_filters`
+Brings in the following core and contributed modules to your site:
+
+| Module | Purpose |
+|---|---|
+| [**Selective Better Exposed Filters**](https://www.drupal.org/project/selective_better_exposed_filters) | Provide extra option for better exposed filters to show only used terms in filter. |
 
 ## Installation
 
-1. Require the package via Composer:
-
-```bash
-composer require drupal/varbase_blog_base:~1.0.0
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/varbase_blog_base

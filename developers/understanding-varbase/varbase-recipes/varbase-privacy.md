@@ -12,22 +12,19 @@ This project is covered by Drupal's security advisory policy, ensuring that any 
 
 **Stable release:** 1.0.0
 
-## Features
+## Included Modules
 
-- **Cookie Consent** -- Configurable cookie consent banner that informs visitors about the site's use of cookies and collects consent before setting non-essential cookies
-- **Privacy Settings** -- Administrative interface for managing privacy-related configurations
-- **Regulatory Compliance** -- Helps sites meet the requirements of GDPR, ePrivacy Directive, and other privacy regulations by providing user consent management
-- **Customizable Consent Banner** -- Configure the appearance, text, and behavior of the cookie consent notification to match your site's branding and legal requirements
+Brings in the following core and contributed modules to your site:
+
+| Module | Purpose |
+|---|---|
+| [**Klaro Cookie & Consent Manager**](https://www.drupal.org/project/klaro) | Implements the Klaro Consent Manager into Drupal. |
+| [**Menu Link Attributes**](https://www.drupal.org/project/menu_link_attributes) | Allows you to add attributes to menu links. |
+| **Custom Menu Links** *(in Drupal core)* | Allows users to create menu links. |
 
 ## Installation
 
-1. Require the package via Composer:
-
-```bash
-composer require drupal/varbase_privacy:~1.0.0
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/varbase_privacy

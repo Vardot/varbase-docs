@@ -12,23 +12,19 @@ When editing Easy Email templates, the body field needs a text format that suppo
 
 This recipe is a dependency of both Easy Email Types Core and Easy Email Types Default, ensuring that any recipe providing email templates also has the proper editing tools available.
 
-## Modules Installed
+## Included Modules
 
-The following modules are installed and configured by this recipe:
+Brings in the following core and contributed modules to your site:
 
-- **filter** -- Core text filtering and formatting system
-- **editor** -- Text editor integration framework
-- **ckeditor5** -- CKEditor 5 rich text editor for Drupal
+| Module | Purpose |
+|---|---|
+| **Filter** *(in Drupal core)* | Filters text content in preparation for display. |
+| **Text Editor** *(in Drupal core)* | Provides a framework to associate text editors (like WYSIWYGs) and toolbars with text formats. |
+| **CKEditor 5** *(in Drupal core)* | Provides the CKEditor 5 rich text editor. |
 
 ## Installation
 
-1. Require the Easy Email Text Format package via Composer:
-
-```bash
-composer require drupal/easy_email_text_format
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/easy_email_text_format
