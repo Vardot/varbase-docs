@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/updating-varbase/version-update-guides/updating-from-varbase-8.x-to-9.x
+---
+
 # Updating from Varbase 8.x to 9.x
 
 ## Read First Before Updating
@@ -92,7 +99,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-**Uninstall the** [**Libraries UI**](https://www.drupal.org/project/libraries\_ui) **Module**
+**Uninstall the** [**Libraries UI**](https://www.drupal.org/project/libraries_ui) **Module**
 
 &#x20;`drush pm:uninstall libraries_ui`
 
@@ -102,7 +109,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-**Uninstall the** [**Mail Editor**](https://www.drupal.org/project/mail\_edit) **Module**
+**Uninstall the** [**Mail Editor**](https://www.drupal.org/project/mail_edit) **Module**
 
 &#x20;`drush pm:uninstall mail_edit`
 
@@ -112,7 +119,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-**Uninstall the** [**Webform Analysis**](https://www.drupal.org/project/webform\_analysis) **Module**
+**Uninstall the** [**Webform Analysis**](https://www.drupal.org/project/webform_analysis) **Module**
 
 &#x20;`drush pm:uninstall webform_analysis`
 
@@ -122,7 +129,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-**Uninstall the** [**Tour Builder**](https://www.drupal.org/project/tour\_builder) **Module**
+**Uninstall the** [**Tour Builder**](https://www.drupal.org/project/tour_builder) **Module**
 
 &#x20;`drush pm:uninstall tour_builder`
 
@@ -143,7 +150,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="danger" %}
-**Uninstall the** [**Media Library Theme Reset**](https://www.drupal.org/project/media\_library\_theme\_reset) **Module**
+**Uninstall the** [**Media Library Theme Reset**](https://www.drupal.org/project/media_library_theme_reset) **Module**
 
 `drush pm:uninstall media_library_theme_reset`
 
@@ -153,7 +160,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="success" %}
-**Uninstall the** [**Color Field**](https://www.drupal.org/project/color\_field) **Module.**
+**Uninstall the** [**Color Field**](https://www.drupal.org/project/color_field) **Module.**
 
 &#x20; `drush pm:uninstall color_field`
 
@@ -173,7 +180,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 {% endhint %}
 
 {% hint style="success" %}
-**Uninstall the** [**Adminimal Admin Toolbar**](https://www.drupal.org/project/adminimal\_admin\_toolbar) **Module**
+**Uninstall the** [**Adminimal Admin Toolbar**](https://www.drupal.org/project/adminimal_admin_toolbar) **Module**
 
 `drush pm:uninstall adminimal_admin_toolbar`
 
@@ -182,7 +189,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 * Issue [#3145709](https://www.drupal.org/i/3145709): Removed **Adminimal Admin Toolbar** module
 * Issue [#3145720](https://www.drupal.org/i/3145720): Removed **Vartheme Admin** theme
 
-**Varbase** switched to use [**Vartheme Claro**](https://www.drupal.org/project/vartheme\_claro) and **Claro** from **Drupal Core.**
+**Varbase** switched to use [**Vartheme Claro**](https://www.drupal.org/project/vartheme_claro) and **Claro** from **Drupal Core.**
 
 **Keeping** **Admininimal**? Add the following to the composer.json file In case of choosing to keep the **Adminimal - Responsive Administration Theme**  as the default back-end theme.
 
@@ -208,7 +215,7 @@ Check that all used modules in the project are **Drupal 9 Compatible!**
 
 
 
-* [x] First change the default admin them to [**Vartheme Claro**](https://www.drupal.org/project/vartheme\_claro)
+* [x] First change the default admin them to [**Vartheme Claro**](https://www.drupal.org/project/vartheme_claro)
 
 &#x20;            drush theme:enable vartheme\_claro
 
@@ -250,7 +257,7 @@ Check the **Drupal 9 Compatibility** for all used module.
 Search for the **"**[**Drupal 9**](https://www.drupal.org/about/9) **is here!"** notice in the Drupal project page for each required module in the root `composer.json` file for the project. Look for **"Requires Drupal:"** In the project page for the module in Drupal.org.
 {% endhint %}
 
-**Example Module:** [**Webform Mautic**](https://www.drupal.org/project/webform\_mautic)
+**Example Module:** [**Webform Mautic**](https://www.drupal.org/project/webform_mautic)
 
 Projects may or may not use this module. If it was required and used, check the following in the project page.
 

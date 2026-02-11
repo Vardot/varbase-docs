@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/theme-development-with-varbase
+---
+
 # Theme Development with Varbase
 
 {% content-ref url="understanding-the-vartheme-base-theme.md" %}

@@ -2,6 +2,10 @@
 description: >-
   URL is an abbreviation of "Uniform Resource Locator" and it is the page's
   address on the web.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/configuring-a-varbase-site/url-aliases-in-varbase-drupal
 ---
 
 # URL Aliases in Varbase/Drupal

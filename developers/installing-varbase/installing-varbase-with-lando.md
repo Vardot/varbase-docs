@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/installing-varbase/installing-varbase-with-lando
+---
+
 # Installing Varbase with Lando
 
 [Lando](https://lando.dev/) is a great local development environment for Drupal and other applications that vastly simplifies local development and DevOps so you can focus on the application, rather than the environment.
@@ -12,8 +19,7 @@ Note that while you can run Lando in production, it is highly discouraged, not r
 
 Follow the steps below to setup Varbase with Lando.
 
-1. Install Lando on your machine. Whether you use Linux, Mac, Windows, there's a package for you. [Follow this guide to install Lando on your machine](https://docs.lando.dev/basics/installation.html#system-requirements).\
-
+1. Install Lando on your machine. Whether you use Linux, Mac, Windows, there's a package for you. [Follow this guide to install Lando on your machine](https://docs.lando.dev/basics/installation.html#system-requirements).<br>
 2.  Create a new Varbase project using Composer, this will include a template file for _.lando.yml_, for information on how to integrate Lando on an existing project scroll to the bottom of this page.
 
     ```
@@ -35,10 +41,11 @@ Follow the steps below to setup Varbase with Lando.
       'prefix' => '',
       'host' => 'database',
       'port' => '3306',
-      'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+      'isolation_level' => 'READ COMMITTED',
       'driver' => 'mysql',
+      'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
+      'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/'
     ];
-
     ```
 5.  Start the **Lando** project and enjoy.
 

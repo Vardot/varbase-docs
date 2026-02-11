@@ -1,6 +1,13 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/configuring-a-varbase-site/using-view-modes-inventory
+---
+
 # Using View Modes Inventory
 
-View Modes inventory \(VMI\) provides a set of template content "View Modes" that are typically used \(some of them\) in each website.
+View Modes inventory (VMI) provides a set of template content "View Modes" that are typically used (some of them) in each website.
 
 #### Available View Modes and Its Layouts:
 
@@ -39,8 +46,6 @@ View Modes inventory \(VMI\) provides a set of template content "View Modes" tha
 For quick tips watch this [YouTube](https://www.youtube.com/watch?v=dh36h9z4LJ8) video.
 
 {% embed url="https://www.youtube.com/watch?v=dh36h9z4LJ8" %}
-
-
 
 
 

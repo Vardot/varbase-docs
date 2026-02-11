@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/getting-started
+---
+
 # Getting Started
 
 Varbase is built on top of [Drupal](https://www.drupal.org/), utilizing the Drupal installation profiles feature.

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/launching-a-varbase-site-to-production
+---
+
 # Launching a Varbase Site to Production
 
 It is important to follow with the pre-lunch or pre-deployment checklist on the event of deployment for a project to the live production site.

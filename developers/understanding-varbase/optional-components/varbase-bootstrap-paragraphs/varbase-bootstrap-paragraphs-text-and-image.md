@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/understanding-varbase/optional-components/varbase-bootstrap-paragraphs/varbase-bootstrap-paragraphs-text-and-image
+---
+
 # Varbase Bootstrap Paragraphs Text and Image
 
 Text and image paragraph type.
@@ -7,8 +14,8 @@ Text and image paragraph type.
 {% hint style="info" %}
 Varbase Bootstrap paragraphs text and image features are bundled through the **Varbase Bootstrap Paragraphs Text and Image** module as part of the **Varbase Bootstrap Paragraphs** module.
 
-GitHub: [https://github.com/Vardot/varbase\_bootstrap\_paragraphs](https://github.com/Vardot/varbase\_bootstrap\_paragraphs)\
-Drupal.org: [https://www.drupal.org/project/varbase\_bootstrap\_paragraphs](https://www.drupal.org/project/varbase\_bootstrap\_paragraphs)
+GitHub: [https://github.com/Vardot/varbase\_bootstrap\_paragraphs](https://github.com/Vardot/varbase_bootstrap_paragraphs)\
+Drupal.org: [https://www.drupal.org/project/varbase\_bootstrap\_paragraphs](https://www.drupal.org/project/varbase_bootstrap_paragraphs)
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase Bootstrap Paragraphs Text and Image** module in:
 {% endhint %}

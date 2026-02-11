@@ -1,6 +1,13 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-basic-template
+---
+
 # Varbase Sub Profile Basic Template
 
-Download it from: [https://github.com/Vardot/varbase\_subprofile\_basic](https://github.com/Vardot/varbase\_subprofile\_basic)
+Download it from: [https://github.com/Vardot/varbase\_subprofile\_basic](https://github.com/Vardot/varbase_subprofile_basic)
 
 ## Managing Installation Steps for Varbase sub profiles
 

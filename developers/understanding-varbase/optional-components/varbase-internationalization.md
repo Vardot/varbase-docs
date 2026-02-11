@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/understanding-varbase/optional-components/varbase-internationalization
+---
+
 # Varbase Internationalization
 
 Languages, and translation support.
@@ -8,8 +15,8 @@ Enables the necessary modules for a multilingual website. These include: **Langu
 
 {% hint style="info" %}
 Varbase internationalization features are bundled through the **Varbase Internationalization** module as part of the **Varbase Core** module.\
-GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase\_core)\
-Drupal.org: [https://www.drupal.org/project/varbase\_core](https://www.drupal.org/project/varbase\_core)&#x20;
+GitHub: [https://github.com/Vardot/varbase\_core](https://github.com/Vardot/varbase_core)\
+Drupal.org: [https://www.drupal.org/project/varbase\_core](https://www.drupal.org/project/varbase_core)&#x20;
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase Internationalization** module in:
 {% endhint %}

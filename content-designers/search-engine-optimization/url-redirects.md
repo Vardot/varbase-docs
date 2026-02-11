@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/search-engine-optimization/url-redirects
+---
+
 # URL Redirects
 
 ### What are URL Redirects?
@@ -14,9 +21,9 @@ By default on Varbase, there are default roles that can manage URL Redirects and
 
 ### How to Manage the URL Redirects?
 
-As a Super Admin, Site Admin, or SEO Admin, please navigate to **Administration \ Configurations \ Search and metadata \ **_**Redirect**_.
+As a Super Admin, Site Admin, or SEO Admin, please navigate to **Administration \ Configurations \ Search and metadata \&#x20;**_**Redirect**_.
 
-![Managing URL Redirects](../../.gitbook/assets/2021-11-20\_18-29-35.jpg)
+![Managing URL Redirects](../../.gitbook/assets/2021-11-20_18-29-35.jpg)
 
 This page will view all the site's URL redirects that are already applied.
 
@@ -24,7 +31,7 @@ This page will view all the site's URL redirects that are already applied.
 
 This section will explain how to add users Varbase, please navigate to **Administration \ Configurations \ Search and metadata \ Redirect \ Add URL redirect.**
 
-![Adding URL redirects](<../../.gitbook/assets/image (43) (1) (1).png>)
+![Adding URL redirects](<../../.gitbook/assets/image (22).png>)
 
 Follow these steps to add a URL redirect:
 

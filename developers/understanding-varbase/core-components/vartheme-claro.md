@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/understanding-varbase/core-components/vartheme-claro
+---
+
 # Vartheme Claro
 
 A modern administration theme for [Varbase](https://www.drupal.org/project/varbase) standard websites.
@@ -13,8 +20,8 @@ Following up with [Drupal Design system](https://www.figma.com/file/OqWgzAluHtsO
 
 {% hint style="info" %}
 Varbase administration theme are bundled through the **Vartheme Claro** theme.\
-GitHub: [https://github.com/Vardot/vartheme\_claro](https://github.com/Vardot/vartheme\_claro)\
-Drupal.org: [https://www.drupal.org/project/vartheme\_claro](https://www.drupal.org/project/vartheme\_claro)
+GitHub: [https://github.com/Vardot/vartheme\_claro](https://github.com/Vardot/vartheme_claro)\
+Drupal.org: [https://www.drupal.org/project/vartheme\_claro](https://www.drupal.org/project/vartheme_claro)
 
 After building a project using the `varbase-project` template, you can see the code of the **Vartheme Claro** theme in:
 {% endhint %}

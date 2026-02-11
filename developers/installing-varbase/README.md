@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/installing-varbase
+---
+
 # Installing Varbase
 
 If you already have a local or hosted environment available for your use that meets [Drupal system requirements](https://www.drupal.org/requirements) and/or [Varbase's system requirements](requirements.md) including working versions of Apache, MySQL, and PHP, you’re ready to install Varbase.
@@ -8,8 +15,9 @@ Follow the steps below to install Varbase distribution for Drupal 9 on a local s
 
 ### Requirements
 
-1. [Composer](https://getcomposer.org/doc/00-intro.md) package manager
-2. [NPM](https://www.npmjs.com/) package manager
+1. [**Composer**](https://getcomposer.org/doc/00-intro.md) package manager
+2. [**NPM**](https://www.npmjs.com/) package manager
+3. [**Yarn**](https://yarnpkg.com/) package manager
 
 ### Procedure
 
@@ -20,7 +28,7 @@ Follow the steps below to install Varbase distribution for Drupal 9 on a local s
 1.  Run the following command:&#x20;
 
     ```
-    composer create-project Vardot/varbase-project:~9 YOUR_PROJECT --no-dev --no-interaction
+    composer create-project Vardot/varbase-project:~9.1.0 YOUR_PROJECT --no-dev --no-interaction
     ```
 
     Composer will create a new directory called `YOUR_PROJECT` containing a `docroot` directory with a full Varbase codebase.&#x20;
@@ -30,17 +38,21 @@ You can then install Varbase as you install Drupal normally.
 
 ![Varbase Installation Screen](../../.gitbook/assets/Varbase-Installation-Screen.png)
 
-## Installing Varbase with Lando
+## Installing Varbase locally with DDEV <a href="#installing-varbase-with-ddev" id="installing-varbase-with-ddev"></a>
 
-We recommend you install Varbase with Lando to start a new project.
+[DDEV](https://github.com/ddev/ddev) is an open source tool for launching local web development environments in minutes. It supports PHP and other languages.
+
+{% content-ref url="installing-varbase-with-ddev.md" %}
+[installing-varbase-with-ddev.md](installing-varbase-with-ddev.md)
+{% endcontent-ref %}
+
+## Installing Varbase locally with Lando
 
 [Lando](https://lando.dev/) is a great local development environment for Drupal and other applications that vastly simplifies local development and DevOps so you can focus on the application, rather than the environment.
 
 {% content-ref url="installing-varbase-with-lando.md" %}
 [installing-varbase-with-lando.md](installing-varbase-with-lando.md)
 {% endcontent-ref %}
-
-
 
 ## Deploy Varbase on Platform.sh
 
@@ -54,3 +66,8 @@ Or deploy it using the baseline [Varbase Platform.sh template project](https://g
 Follow Platform.sh documentation on developing with Drupal and Varbase.\
 See [https://docs.platform.sh/guides/drupal9/deploy.html](https://docs.platform.sh/guides/drupal9/deploy.html)
 {% endhint %}
+
+## Remote Development Environment <a href="#remote-development-environment" id="remote-development-environment"></a>
+
+* [**Gitpod**](https://gitpod.io/#https://github.com/vardot/varbase-project)
+* [**Tugboat.qa**](https://www.tugboatqa.com/)

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/content-structure/webforms/setting-up-emails-handler-conditions
+---
+
 # Setting up Emails Handler Conditions
 
 This section will explain how to trigger the confirmation using the conditions on each email handler.

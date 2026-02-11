@@ -1,10 +1,17 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/theme-development-with-varbase/understanding-the-vartheme-base-theme
+---
+
 # Understanding The Vartheme Base Theme
 
 ## Vartheme BS4: Varbase Theme (Bootstrap 4 - SASS)
 
 A base theme for [**Varbase**](https://www.drupal.org/project/varbase) standard websites.
 
-Based on the [**Bootstrap Barrio**](https://www.drupal.org/project/bootstrap\_barrio) theme (**Bootstrap 4** - SASS).
+Based on the [**Bootstrap Barrio**](https://www.drupal.org/project/bootstrap_barrio) theme (**Bootstrap 4** - SASS).
 
 Mostly base Varbase layouts and styling of components are managed in the **Vartheme BS4** base theme.
 
@@ -39,9 +46,9 @@ Inspected for Varbase components with basic or no styling to look better when Va
 {% hint style="info" %}
 Have a look at the **SCSS** and **CSS** folders
 
-**SCSS:** [https://git.drupalcode.org/project/vartheme\_bs4/-/tree/9.0.x/scss](https://git.drupalcode.org/project/vartheme\_bs4/-/tree/9.0.x/scss)
+**SCSS:** [https://git.drupalcode.org/project/vartheme\_bs4/-/tree/9.0.x/scss](https://git.drupalcode.org/project/vartheme_bs4/-/tree/9.0.x/scss)
 
-**CSS:** [https://git.drupalcode.org/project/vartheme\_bs4/-/tree/9.0.x/css](https://git.drupalcode.org/project/vartheme\_bs4/-/tree/9.0.x/css)
+**CSS:** [https://git.drupalcode.org/project/vartheme\_bs4/-/tree/9.0.x/css](https://git.drupalcode.org/project/vartheme_bs4/-/tree/9.0.x/css)
 {% endhint %}
 
 
@@ -84,17 +91,17 @@ Browse the list of all **Bootstrap 4** components
 
 ## Vartheme BS4 Theme Custom Components CSS Classes
 
-* [**.bs-callout**](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/scss/components/bs-callouts.component.scss) : Bootstrap callouts. Have the Bootstrap styling for call outs component.
-* [**.vb-tags**](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/scss/components/vb-tags.component.scss) : Styles a list of tags, which much looks like the pager with rounded borders.
+* [**.bs-callout**](https://git.drupalcode.org/project/vartheme_bs4/-/blob/9.0.x/scss/components/bs-callouts.component.scss) : Bootstrap callouts. Have the Bootstrap styling for call outs component.
+* [**.vb-tags**](https://git.drupalcode.org/project/vartheme_bs4/-/blob/9.0.x/scss/components/vb-tags.component.scss) : Styles a list of tags, which much looks like the pager with rounded borders.
 
 ## Vartheme BS4 Theme Custom Layouts CSS Classes
 
-* [**.bg-edge2edge**](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/scss/layout/edge2edge.layout.scss) : Edge to Edge layout for content.
-* [**.equal-height**](https://git.drupalcode.org/project/vartheme\_bs4/-/blob/9.0.x/scss/layout/equal-height.layout.scss) : Equal height layout for bootstrap rows. ( variations with _**`-sm`**_, **`-md`**, **`-lg`**, and **`-xl`** ) will work within the Bootstrap default breakpoints for the theme.
+* [**.bg-edge2edge**](https://git.drupalcode.org/project/vartheme_bs4/-/blob/9.0.x/scss/layout/edge2edge.layout.scss) : Edge to Edge layout for content.
+* [**.equal-height**](https://git.drupalcode.org/project/vartheme_bs4/-/blob/9.0.x/scss/layout/equal-height.layout.scss) : Equal height layout for bootstrap rows. ( variations with _**`-sm`**_, **`-md`**, **`-lg`**, and **`-xl`** ) will work within the Bootstrap default breakpoints for the theme.
 
 
 
 ## Example Varbase Custom Components
 
-* `.varbase-heroslider-media` : [**Varbase Hero slider media**](https://www.drupal.org/project/varbase\_heroslider\_media) style.
+* `.varbase-heroslider-media` : [**Varbase Hero slider media**](https://www.drupal.org/project/varbase_heroslider_media) style.
 * [**View Modes Inventory - Bootstrap Ready**](https://www.drupal.org/project/vmi) **:** Number of view mode components, layouts, and themes, which you can copy from the module and custom for each content type. ( Have a look at [Using the VMI ](../configuring-a-varbase-site/using-view-modes-inventory.md))

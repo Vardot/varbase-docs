@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/understanding-varbase/core-components/vartheme-bs4
+---
+
 # Vartheme BS4
 
 Base theme for Varbase standard websites. Based on Bootstrap 4 framework using SASS, and extending Barrio contrib theme.
@@ -6,8 +13,8 @@ Base theme for Varbase standard websites. Based on Bootstrap 4 framework using S
 
 {% hint style="info" %}
 Varbase front-end theme are bundled through the **Vartheme BS4** theme.\
-GitHub: [https://github.com/Vardot/vartheme\_bs4](https://github.com/Vardot/vartheme\_bs4)\
-Drupal.org: [https://www.drupal.org/project/vartheme\_bs4](https://www.drupal.org/project/vartheme\_bs4)
+GitHub: [https://github.com/Vardot/vartheme\_bs4](https://github.com/Vardot/vartheme_bs4)\
+Drupal.org: [https://www.drupal.org/project/vartheme\_bs4](https://www.drupal.org/project/vartheme_bs4)
 
 After building a project using the `varbase-project` template, you can see the code of the **Vartheme BS4** theme in:
 {% endhint %}
@@ -22,9 +29,9 @@ project_directory
 
 Brings in the following core and contributed themes to your site:
 
-| Theme                                                                            | Purpose                                                                                     |
-| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| ****[**Bootstrap Barrio**](https://www.drupal.org/project/bootstrap\_barrio)**** | A flexible Booststrap based theme, with many regions and a responsive, mobile-first layout. |
+| Theme                                                                   | Purpose                                                                                     |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| [**Bootstrap Barrio**](https://www.drupal.org/project/bootstrap_barrio) | A flexible Booststrap based theme, with many regions and a responsive, mobile-first layout. |
 
 
 

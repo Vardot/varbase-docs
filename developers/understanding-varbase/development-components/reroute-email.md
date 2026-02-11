@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/understanding-varbase/development-components/reroute-email
+---
+
 # Reroute Email
 
 Intercepts all outgoing emails from a Drupal site and reroutes them to a predefined configurable email address.
@@ -12,7 +19,7 @@ _Make sure to uninstall this module before deployment to production sites._
 
 ## Configuring the Reroute Email Settings for a Development Environment
 
-Navigate to:  **Administration \ Configuration \ Development \ **_**Reroute Email**_
+Navigate to:  **Administration \ Configuration \ Development \&#x20;**_**Reroute Email**_
 
 Enter a list of email addresses to route all emails to.
 
@@ -33,7 +40,7 @@ While installing a fresh Varbase for a project. It is available to setup the rer
 
 Check the "Install Development Tools" check box to expend out the mini development setting.
 
-Change the default emails for "Rerouting email addresses" and **"**Whitelisted email addresses"&#x20;
+Change the default emails for "Rerouting email addresses" and **"**&#x57;hitelisted email addresses"&#x20;
 
 ![Configure Rerouting Emails When installing Development Tools While Installing Varbase ](../../../.gitbook/assets/varbase-9-install--with-rerout-emails--in-development-tools.png)
 

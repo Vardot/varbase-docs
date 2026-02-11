@@ -1,18 +1,25 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/configuring-a-varbase-site/navigation/defining-active-menu-trail-using-menu-position
+---
+
 # Defining Active Menu Trail Using Menu Position
 
 This section will be explaining how to apply the active menu trail using the Menu Position module which is already installed and configured within Varbase.
 
 Let us visit the Blogs landing page section on the site, you will notice the "Blogs" on the main menu is active but once you visit one of the Blog posts, you will notice the "Blogs" is no longer active.
 
-![Blogs menu item is active](<../../../.gitbook/assets/image (37).png>)
+![Blogs menu item is active](<../../../.gitbook/assets/image (18).png>)
 
-![Blogs menu item is no longer active after visiting the Blog post item](<../../../.gitbook/assets/image (38).png>)
+![Blogs menu item is no longer active after visiting the Blog post item](<../../../.gitbook/assets/image (88).png>)
 
 This is a problem for the users because they will get lost and get confused if they are still in the blogs section or they were in another section of the site.
 
-To solve this issue, we can simply by adding a position rule to the Blog post content type. Navigate to: **Administration \ Structure \ **_**Menu Position Configuration**_
+To solve this issue, we can simply by adding a position rule to the Blog post content type. Navigate to: **Administration \ Structure \&#x20;**_**Menu Position Configuration**_
 
-![Menu Position Configuration section page with empty rules list](<../../../.gitbook/assets/image (39).png>)
+![Menu Position Configuration section page with empty rules list](<../../../.gitbook/assets/image (50).png>)
 
 As you have noticed there are no rules yet, please follow the instruction on how to add a Menu Position Rule:
 
@@ -27,7 +34,7 @@ As you have noticed there are no rules yet, please follow the instruction on how
 You can add rules to Content type, Language, Pages, and Roles.
 {% endhint %}
 
-![Adding new Menu Postion](<../../../.gitbook/assets/image (40).png>)
+![Adding new Menu Postion](<../../../.gitbook/assets/image (82).png>)
 
 Now if you go back to the blog post content, you will notice the "Blogs" menu item is active.
 

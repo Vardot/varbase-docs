@@ -1,5 +1,9 @@
 ---
 description: Reorder, edit and delete items from the menu.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/content-structure/menu-management/reorder-and-edit-your-menu-items
 ---
 
 # Update Menu Items
@@ -20,11 +24,11 @@ To reorder the links for one of the menus, follow these steps:&#x20;
 2. Select the menu you want to reorder the links inside it. For example, **Main navigation.**
 3. Click **Edit menu.**
 
-![Edit the Main Navigation Menu](<../../../.gitbook/assets/image (48) (1).png>)
+![Edit the Main Navigation Menu](<../../../.gitbook/assets/image (84).png>)
 
 4\. You can drag and drop using the below icon to reorder the items in the menu.
 
-![Reorder Items in Main Navigation Menu](<../../../.gitbook/assets/image (52) (1).png>)
+![Reorder Items in Main Navigation Menu](<../../../.gitbook/assets/image (34).png>)
 
 ### Edit Menu Items
 
@@ -33,14 +37,14 @@ In order to edit a link for one of the menus, follow these steps:&#x20;
 1. Go to **Menu** page.
 2. Select the menu you want to edit the link inside it. For example, **Main Navigation.**
 3. Click **Edit menu.**
-4. Choose the link that you want to edit it**.**  For example: **Home.**
+4. Choose the link that you want to edit i&#x74;**.**  For example: **Home.**
 5. Click **Edit.**
 
-![Edit the Main Navigation Menu](<../../../.gitbook/assets/Edit menu Main navigation \_ varbase9003d1 (1).png>)
+![Edit the Main Navigation Menu](<../../../.gitbook/assets/Edit menu Main navigation _ varbase9003d1 (1).png>)
 
 6\. Then the **Menu edit Link** page will open, you can change the title of the link or the link itself from this page.
 
-![Edit Menu Link Page](<../../../.gitbook/assets/Edit menu link \_ varbase9003d1.png>)
+![Edit Menu Link Page](<../../../.gitbook/assets/Edit menu link _ varbase9003d1.png>)
 
 7\. Click the **Save** button, located at the bottom of the page.
 
@@ -51,10 +55,10 @@ In order to delete a link for one of the menus, follow these steps:&#x20;
 1. Go to **Menu** page.
 2. Select the menu you want to delete the link inside it. For example, **Main Navigation.**
 3. Click **Edit menu.**
-4. Choose the link that you want to delete it**.**  For example, **Home.**
+4. Choose the link that you want to delete i&#x74;**.**  For example, **Home.**
 5. Click on the arrow, then click on **Delete.**
 
-![Delete the Home Link from the Main Navigation Menu](../../../.gitbook/assets/2021-12-13\_11-44-24.png)
+![Delete the Home Link from the Main Navigation Menu](../../../.gitbook/assets/2021-12-13_11-44-24.png)
 
-6\. You can go back to the menu to check that the selected item has been deleted**.**
+6\. You can go back to the menu to check that the selected item has been delete&#x64;**.**
 

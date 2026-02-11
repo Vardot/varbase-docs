@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/content-management/delete-content
+---
+
 # Delete Content
 
 Varbase can let you delete your content, users, blocks, views, etc. So be careful when you delete a section you might mess up your page.
@@ -8,7 +15,7 @@ Any user who has **Delete** permission can see Delete option in the menu.
 
 If you have permission you can see **Delete** link in the **Edit** menu
 
-![Delete option](<../../.gitbook/assets/Content \_ varbase9003d1 (1).png>)
+![Delete option](<../../.gitbook/assets/Content _ varbase9003d1 (1).png>)
 
 {% hint style="danger" %}
 Be careful when you delete a page as you can't retrieve it back unless you have back up for the content.&#x20;

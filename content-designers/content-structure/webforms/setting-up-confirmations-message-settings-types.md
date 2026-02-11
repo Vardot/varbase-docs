@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/content-structure/webforms/setting-up-confirmations-message-settings-types
+---
+
 # Setting up Confirmations Message Settings Types
 
 This section will explain how to set up confirmation settings types.

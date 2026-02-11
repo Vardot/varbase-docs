@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/user-management/default-roles-and-site-persons
+---
+
 # Default Roles and Site Personas
 
 ## Roles in Varbase
@@ -7,17 +14,13 @@ Varbase comes with preconfigured default roles tailored for sites with hierarchi
 The default roles that come preinstalled with Varbase are:
 
 1. **Editor**\
-   Has permissions to edit all content on the website but can't publish any content.\
-
+   Has permissions to edit all content on the website but can't publish any content.<br>
 2. **Content admin**\
-   Can edit all content and publish it but can't edit anything else not related to the content roles.\
-
+   Can edit all content and publish it but can't edit anything else not related to the content roles.<br>
 3. **SEO admin**\
-   Can edit items that related to SEO stuff, Meta tags and Google Analytics.\
-
+   Can edit items that related to SEO stuff, Meta tags and Google Analytics.<br>
 4. **Site admin**\
-   Can edit, delete, publish all content int the site.\
-
+   Can edit, delete, publish all content int the site.<br>
 5. **Super admin**\
    Can edit everything in content and configurations for the site.
 

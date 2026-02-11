@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/configuring-a-varbase-site/content-moderation-and-workflows
+---
+
 # Content Moderation and Workflows
 
 Varbase comes with a set of content moderation and editorial workflows out of the box. These features are all provided from the Varbase Workflow module, shipped with Varbase as of version 8.8.6.
@@ -6,8 +13,8 @@ Varbase comes with a set of content moderation and editorial workflows out of th
 
 {% hint style="info" %}
 Content moderation and workflow features are bundled through the **Varbase Workflow** module.\
-GitHub: [https://github.com/Vardot/varbase\_workflow](https://github.com/Vardot/varbase\_workflow)\
-Drupal.org: [https://www.drupal.org/project/varbase\_workflow](https://www.drupal.org/project/varbase\_workflow)&#x20;
+GitHub: [https://github.com/Vardot/varbase\_workflow](https://github.com/Vardot/varbase_workflow)\
+Drupal.org: [https://www.drupal.org/project/varbase\_workflow](https://www.drupal.org/project/varbase_workflow)&#x20;
 
 After building a project using the `varbase-project` template, you can see the code of the Varbase Workflow module in:
 {% endhint %}
@@ -22,16 +29,16 @@ project_directory
 
 Varbase Workflow brings in the following core and contributed modules to your site:
 
-| Module                                                                                                                                | Purpose                                                                                                                                                          |
-| ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><strong>Workflows module</strong></p><p><em>(in Drupal core)</em></p>                                                              | Provides an interface to create workflows with transitions between different states (for example publication or user status) provided by other modules.          |
-| <p><strong>Content Moderation module</strong></p><p><em>(in Drupal core)</em></p>                                                     | Provides moderation states for content.                                                                                                                          |
-| [**Moderation Sidebar**](https://www.drupal.org/project/moderation\_sidebar) **module**                                               | Provides a frontend sidebar for Content Moderation.                                                                                                              |
-| [**Scheduler**](https://www.drupal.org/project/scheduler) **module**                                                                  | Publish and unpublish content automatically on specified dates and times.                                                                                        |
-| [**Content Moderation Notifications**](https://www.drupal.org/project/content\_moderation\_notifications) **module**                  | Allows emails to be sent on state transitions.                                                                                                                   |
-| [**Scheduler Content Moderation Integration**](https://www.drupal.org/project/scheduler\_content\_moderation\_integration) **module** | Scheduler sub-module providing content moderation functionality for publishing/unpublishing.                                                                     |
-| [**Admin Audit Trail Workflows**](https://www.drupal.org/project/admin\_audit\_trail) **module**                                      | Logs workflows events performed by the user.                                                                                                                     |
-| [**Content Planner**](https://www.drupal.org/project/content\_planner) **module and its submodules**                                  | <p>Plan your content using a Dashboard, the Content Calendar and Content Kanban.</p><p></p><p><em>Content Planner is not enabled by default in Varbase.</em></p> |
+| Module                                                                                                                             | Purpose                                                                                                                                                          |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>Workflows module</strong></p><p><em>(in Drupal core)</em></p>                                                           | Provides an interface to create workflows with transitions between different states (for example publication or user status) provided by other modules.          |
+| <p><strong>Content Moderation module</strong></p><p><em>(in Drupal core)</em></p>                                                  | Provides moderation states for content.                                                                                                                          |
+| [**Moderation Sidebar**](https://www.drupal.org/project/moderation_sidebar) **module**                                             | Provides a frontend sidebar for Content Moderation.                                                                                                              |
+| [**Scheduler**](https://www.drupal.org/project/scheduler) **module**                                                               | Publish and unpublish content automatically on specified dates and times.                                                                                        |
+| [**Content Moderation Notifications**](https://www.drupal.org/project/content_moderation_notifications) **module**                 | Allows emails to be sent on state transitions.                                                                                                                   |
+| [**Scheduler Content Moderation Integration**](https://www.drupal.org/project/scheduler_content_moderation_integration) **module** | Scheduler sub-module providing content moderation functionality for publishing/unpublishing.                                                                     |
+| [**Admin Audit Trail Workflows**](https://www.drupal.org/project/admin_audit_trail) **module**                                     | Logs workflows events performed by the user.                                                                                                                     |
+| [**Content Planner**](https://www.drupal.org/project/content_planner) **module and its submodules**                                | <p>Plan your content using a Dashboard, the Content Calendar and Content Kanban.</p><p></p><p><em>Content Planner is not enabled by default in Varbase.</em></p> |
 
 ## Content Moderation Workflows
 
@@ -46,12 +53,12 @@ Out of the box, Varbase Workflow offers two workflows for content moderation:
 1. **Simple workflow**: Draft, Published, and Archived / Unpublished\
    Useful for any website, and offers the ability make a draft of a live version of content without unpublishing the whole content.
 
-![Varbase Simple Workflow Diagram](<../../.gitbook/assets/Simple-workflow-varbase9x1workflows\_diagram (1).png>)
+![Varbase Simple Workflow Diagram](../../.gitbook/assets/Simple-workflow-varbase9x1workflows_diagram.png)
 
 2\. **Editorial workflow**: Draft, In review, Published, and Archived / Unpublished\
 Useful for websites with editorial or moderation staff. You can create as many additional states as you like and define transitions between them to suit your organization's needs.
 
-![Varbase Editorial Workflow Diagram](../../.gitbook/assets/Editorial-workflow-varbase9x1workflows\_diagram.png)
+![Varbase Editorial Workflow Diagram](../../.gitbook/assets/Editorial-workflow-varbase9x1workflows_diagram.png)
 
 To view or manage these workflows, navigate to: **Administration** \ **Configuration** \ **Workflow** \ _**Workflows**_
 
@@ -90,7 +97,7 @@ You can also assign an existing Content Type to a Workflow if it wasn't assigned
 
 ![](../../.gitbook/assets/Edit-Simple-workflow-sandboxes-varbase8c80806t2.png)
 
-![List of content types under Workflow](../../.gitbook/assets/yyy.png)
+![List of content types under Workflow](<../../.gitbook/assets/yyy (1).png>)
 
 
 

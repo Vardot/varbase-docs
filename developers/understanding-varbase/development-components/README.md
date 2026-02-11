@@ -1,9 +1,15 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/understanding-varbase/development-components
+---
+
 # Development Components
 
 ## Varbase Development Module
 
-Install the development tools if you're a developer and you're going to use Varbase to build a new project. This will install several modules that help you build your site, such as [**Devel**](https://www.drupal.org/project/devel), [**Database Logging**](https://www.drupal.org/docs/8/core/modules/dblog/overview), and UI modules such as **View UI**, and Configuration Update Reports.\
-
+Install the development tools if you're a developer and you're going to use Varbase to build a new project. This will install several modules that help you build your site, such as [**Devel**](https://www.drupal.org/project/devel), [**Database Logging**](https://www.drupal.org/docs/8/core/modules/dblog/overview), and UI modules such as **View UI**, and Configuration Update Reports.<br>
 
 {% hint style="danger" %}
 _Make sure to uninstall this module and its enabled modules when you go in production mode_.

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/configuring-a-varbase-site/configuring-seo-features/disallow-oembed-media-links
+---
+
 # Disallow Oembed Media Links
 
 As of  [**Drupal 9.5.0**](https://www.drupal.org/project/drupal/releases/9.5.0) stable and [**Varbase 9.0.10**](https://www.drupal.org/project/varbase/releases/9.0.10)

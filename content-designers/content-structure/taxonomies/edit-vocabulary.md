@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/content-structure/taxonomies/edit-vocabulary
+---
+
 # Edit Vocabulary
 
 ## Edit the Vocabulary
@@ -11,10 +18,10 @@ In order to edit the vocabulary follow these steps:&#x20;
 5. Choose the vocabulary that you want to edit it.
 6. Click on the arrow, then click on **Edit vocabulary.**&#x20;
 
-![Edit Vocabulary](<../../../.gitbook/assets/image (57) (1).png>)
+![Edit Vocabulary](<../../../.gitbook/assets/image (77).png>)
 
 7\. A separate page will load, the user can edit the selected vocabulary.
 
-![Edit Vocabulary](<../../../.gitbook/assets/image (44).png>)
+![Edit Vocabulary](<../../../.gitbook/assets/image (67).png>)
 
 8\. Click the **Save** button, located at the bottom of the page.

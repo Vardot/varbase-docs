@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/configuring-a-varbase-site/security-features/enable-http-password-authentication
+---
+
 # Enable HTTP Password Authentication
 
 ## How to Enable HTTP Password Authentication on The Whole Site
@@ -12,7 +19,7 @@ Enable the **PHP Authentication Shield** module to be able to have general shiel
 drush pm:enable shield
 ```
 
-Navigate to **Configurations \ System \ **_**Shield**_ from the administration toolbar menu.
+Navigate to **Configurations \ System \&#x20;**_**Shield**_ from the administration toolbar menu.
 
 <figure><img src="../../../.gitbook/assets/Shield-varbase9009d1.jpg" alt=""><figcaption><p>Navigate to Shield Settings Page</p></figcaption></figure>
 

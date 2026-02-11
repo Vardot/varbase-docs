@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/about-layout-builder/block
+---
+
 # Managing Blocks
 
 To manage and arrange blocks:&#x20;
@@ -16,7 +23,7 @@ To manage and arrange blocks:&#x20;
 
 5- Click **Save Layout** at the top of the page when you are done with your changes.
 
-![Edit Layout Landing Page - Save Layout](<../../.gitbook/assets/Edit layout for Landing Page \_ Save Layout .png>)
+![Edit Layout Landing Page - Save Layout](<../../.gitbook/assets/Edit layout for Landing Page _ Save Layout .png>)
 
 
 

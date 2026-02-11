@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/user-management
+---
+
 # User Management
 
 All users that can access the site have a defined role. Within each role, there are a set of permissions provided to each role.

@@ -2,6 +2,10 @@
 description: >-
   A guide to creating content in Varbase via the preconfigured content types,
   and any custom content types your system administrator creates.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/content-management/untitled
 ---
 
 # Create Content
@@ -14,7 +18,7 @@ Users can add content to the site with predefined content types throughout the s
 **Before you begin**: Make sure you are logged in as a user who has the right to create content – ask your system administrator if you are not sure; otherwise, some of the fields you need to select will not be visible.
 {% endhint %}
 
-![](../../../.gitbook/assets/Add\_content\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)
+![](../../../.gitbook/assets/Add_content_test_qa_varbase_8_8_x_development_13_07_2020.png)
 
 ## Rich-Text Editor “WYSIWYG”
 

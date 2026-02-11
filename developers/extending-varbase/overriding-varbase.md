@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/extending-varbase/overriding-varbase
+---
+
 # Overriding Varbase
 
 ## First Rule in Overriding
@@ -95,12 +102,12 @@ There may be situations in which you want to ignore a patch supplied by a depend
 
 **Example:**&#x20;
 
-The [**Varbase Core**](https://www.drupal.org/project/varbase\_core) module is requiring **Drupal Core** with `"drupal/core": "~9.0",` . Having number of patches to fix issues or overriding Drupal core.
+The [**Varbase Core**](https://www.drupal.org/project/varbase_core) module is requiring **Drupal Core** with `"drupal/core": "~9.0",` . Having number of patches to fix issues or overriding Drupal core.
 
 {% hint style="info" %}
 **Varbase Core**'s `composer.json` file for the 9.0.7 version
 
-[**https://github.com/Vardot/varbase\_core/blob/9.0.7/composer.json#L138**](https://github.com/Vardot/varbase\_core/blob/9.0.7/composer.json#L138)
+[**https://github.com/Vardot/varbase\_core/blob/9.0.7/composer.json#L138**](https://github.com/Vardot/varbase_core/blob/9.0.7/composer.json#L138)
 {% endhint %}
 
 Let imagine that the **Drupal core release** **team** had a new release, But they had committed the following issue:
@@ -112,7 +119,7 @@ Issue [#3165435](https://www.drupal.org/project/drupal/issues/3165435): Fix tour
 The patch fix for the core issue was added when a fix was needed for the following issue:
 
 {% hint style="success" %}
-Issue [**#3164237**](https://www.drupal.org/project/varbase\_core/issues/3164237): Fix Varbase Welcome message not showing up after install compilation after adding and enabling moderation sidebar on the homepage
+Issue [**#3164237**](https://www.drupal.org/project/varbase_core/issues/3164237): Fix Varbase Welcome message not showing up after install compilation after adding and enabling moderation sidebar on the homepage
 {% endhint %}
 
 At the point of a new release for Drupal core and in case the patch was committed.
@@ -171,8 +178,7 @@ Ignore the patch being used as in the following example method:
 
 > If you use the URL to the Gitlab MR directly, your code base will change without warning, as people work on the merge request.
 
-[https://www.drupal.org/docs/develop/git/using-git-to-contribute-to-drupal/creating-issue-forks-and-merge-requests#s-patch-files-f\[…\]se-with-composer](https://www.drupal.org/docs/develop/git/using-git-to-contribute-to-drupal/creating-issue-forks-and-merge-requests#s-patch-files-for-use-with-composer) \
-
+[https://www.drupal.org/docs/develop/git/using-git-to-contribute-to-drupal/creating-issue-forks-and-merge-requests#s-patch-files-f\[…\]se-with-composer](https://www.drupal.org/docs/develop/git/using-git-to-contribute-to-drupal/creating-issue-forks-and-merge-requests#s-patch-files-for-use-with-composer) <br>
 
 {% hint style="success" %}
 **Recommended to use the local patch method in this case.**

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/extending-varbase/check-standards-practice-coding-and-linting
+---
+
 # Check Standards/Practice Coding And Linting
 
 {% hint style="info" %}

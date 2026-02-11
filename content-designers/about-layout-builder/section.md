@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/about-layout-builder/section
+---
+
 # Section
 
 ## How to Add Section
@@ -19,7 +26,7 @@ We could also add styling to each section by assigning the section to different 
 
 ![Edit Landing Page - Layout Builder](<../../.gitbook/assets/Edit Landing page - Layout Builder.png>)
 
-3- Click on **Tasks **_**/ Layout.**_
+3- Click on **Tasks&#x20;**_**/ Layout.**_
 
 ![Edit Landing Page - Tasks - Layout](<../../.gitbook/assets/Edit layout for Landing Page - Tasks - Layout.png>)
 
@@ -31,7 +38,7 @@ We could also add styling to each section by assigning the section to different 
 
 6- Choose from the **Container Types** options e.g. (Full).
 
-7_-_ Choose from the **Gutters** options e.g. (No Gutters).
+&#x37;_-_ Choose from the **Gutters** options e.g. (No Gutters).
 
 8- When you finish all the needed updates click on **Add Section** button.
 
@@ -39,7 +46,7 @@ We could also add styling to each section by assigning the section to different 
 
 9- Click on **Save Layout** to save the added section.
 
-![Edit Landing Page - Save Layout](<../../.gitbook/assets/Edit layout for Landing Page \_ Save Layout .png>)
+![Edit Landing Page - Save Layout](<../../.gitbook/assets/Edit layout for Landing Page _ Save Layout .png>)
 
 ## How to Edit/Delete Section
 
@@ -49,7 +56,7 @@ In order to edit a section to a specific page on the site, follow these steps:
 
 2- Update the **Configure Bootstrap Column** section.
 
-![Edit Landing Page - Edit Section ](<../../.gitbook/assets/Edit layout for Landing Page \_ Edit Section.png>)
+![Edit Landing Page - Edit Section ](<../../.gitbook/assets/Edit layout for Landing Page _ Edit Section.png>)
 
 In order to delete a section to a specific page on the site, follow these steps:&#x20;
 
@@ -57,4 +64,4 @@ In order to delete a section to a specific page on the site, follow these steps:
 
 2\. Confirm to delete the section by clicking **Remove** button.
 
-![Edit Landing Page - Remove Section ](<../../.gitbook/assets/image (52).png>)
+![Edit Landing Page - Remove Section ](<../../.gitbook/assets/image (89).png>)

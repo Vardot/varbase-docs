@@ -1,5 +1,9 @@
 ---
 description: Add a new terms to the vocabulary.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/content-structure/taxonomies/add-terms
 ---
 
 # Add Terms
@@ -12,14 +16,14 @@ This section will show you how to add terms to the vocabulary as example:
 2. Select the **Taxonomy** list that you want to add a term to (eg. Tags).
 3. Click on the drop down menu **List terms .**
 
-![List of Terms for the Tags taxonomy](<../../../.gitbook/assets/Taxonomy \_ varbase9003d1 (1) (1).png>)
+![List of Terms for the Tags taxonomy](<../../../.gitbook/assets/Taxonomy _ varbase9003d1 (1) (1).png>)
 
 4\. This will load a new page. Select **Add term.**
 
-![Add a New Term for the Taxonomy](<../../../.gitbook/assets/Tags \_ varbase9003d1.png>)
+![Add a New Term for the Taxonomy](<../../../.gitbook/assets/Tags _ varbase9003d1.png>)
 
 5\. A separate page will load, user should fill in the **Name** which is the title of the term.
 
-![Add the Name for the New Taxonomy](<../../../.gitbook/assets/Add term \_ varbase9003d1.png>)
+![Add the Name for the New Taxonomy](<../../../.gitbook/assets/Add term _ varbase9003d1.png>)
 
 6\. Click the **Save** button, located at the bottom of the page.

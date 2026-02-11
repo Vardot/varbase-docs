@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/terminology
+---
+
 # Terminology
 
 The following is a list of terminology used for Drupal sites:

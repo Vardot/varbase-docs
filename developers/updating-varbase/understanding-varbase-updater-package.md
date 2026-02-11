@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/updating-varbase/understanding-varbase-updater-package
+---
+
 # Understanding Varbase Updater Package
 
 The Varbase Updater ([varbase-updater](https://github.com/Vardot/varbase-updater)) package was made to make updating Varbase as easy as possible. It's a set of scripts and tools that will help you to update to the newer versions of Varbase.

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/updating-varbase/handling-patches-when-updating
+---
+
 # Handling Patches When Updating
 
 ## Background

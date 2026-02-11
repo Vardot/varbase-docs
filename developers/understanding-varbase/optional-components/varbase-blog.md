@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/understanding-varbase/optional-components/varbase-blog
+---
+
 # Varbase Blog
 
 Provides Blog post content type and related configuration.
@@ -8,8 +15,8 @@ Use Blog to publish a blog post by different authors in the Blog section of the 
 
 {% hint style="info" %}
 Varbase blog features are bundled through the **Varbase Blog** module.\
-GitHub: [https://github.com/Vardot/varbase\_blog](https://github.com/Vardot/varbase\_blog)\
-Drupal.org: [https://www.drupal.org/project/varbase\_blog](https://www.drupal.org/project/varbase\_blog)
+GitHub: [https://github.com/Vardot/varbase\_blog](https://github.com/Vardot/varbase_blog)\
+Drupal.org: [https://www.drupal.org/project/varbase\_blog](https://www.drupal.org/project/varbase_blog)
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase Blog** module in:
 {% endhint %}
@@ -24,14 +31,14 @@ project_directory
 
 Brings in the following core and contributed modules to your site:
 
-| Module                                                                                          | Purpose                                                                                             |
-| ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ****[**View Modes Inventory - Bootstrap Ready**](https://www.drupal.org/project/vmi)****        | This module has a set of template view modes that we typically use (some of them) in each website.  |
-| ****[**Taxonomy menu**](https://www.drupal.org/project/taxonomy\_menu)****                      | Embed a taxonomy tree into a menu                                                                   |
-| <p><strong>Statistics</strong></p><p><em>(in Drupal core)</em></p>                              | Logs content statistics for your site.                                                              |
-| ****[**Length Indicator**](https://www.drupal.org/project/length\_indicator)****                | Adds an optional length indicator to fields                                                         |
-| ****[**Advanced Text Formatter**](https://www.drupal.org/project/advanced\_text\_formatter)**** | Provides an additional formatter for text field, text area and text format.                         |
-| ****[**Maxlength**](https://www.drupal.org/project/maxlength)****                               | Limit the number of characters in textfields and textareas and shows the amount of characters left. |
+| Module                                                                                | Purpose                                                                                             |
+| ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| [**View Modes Inventory - Bootstrap Ready**](https://www.drupal.org/project/vmi)      | This module has a set of template view modes that we typically use (some of them) in each website.  |
+| [**Taxonomy menu**](https://www.drupal.org/project/taxonomy_menu)                     | Embed a taxonomy tree into a menu                                                                   |
+| <p><strong>Statistics</strong></p><p><em>(in Drupal core)</em></p>                    | Logs content statistics for your site.                                                              |
+| [**Length Indicator**](https://www.drupal.org/project/length_indicator)               | Adds an optional length indicator to fields                                                         |
+| [**Advanced Text Formatter**](https://www.drupal.org/project/advanced_text_formatter) | Provides an additional formatter for text field, text area and text format.                         |
+| [**Maxlength**](https://www.drupal.org/project/maxlength)                             | Limit the number of characters in textfields and textareas and shows the amount of characters left. |
 
 ## Required Varbase Modules
 
@@ -97,4 +104,4 @@ Provides Landing page (Layout Builder) content type and related configuration. U
 
 
 
-\
+<br>

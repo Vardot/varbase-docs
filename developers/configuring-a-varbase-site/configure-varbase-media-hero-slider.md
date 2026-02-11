@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/configuring-a-varbase-site/configure-varbase-media-hero-slider
+---
+
 # Configure Varbase Media Hero Slider
 
 Allows to display video and/or image slides. It implements the universal "Hero Slider" to be used in your homepage.

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/understanding-varbase/optional-components/varbase-search
+---
+
 # Varbase Search
 
 Provides search configuration, and offering search capabilities.
@@ -6,8 +13,8 @@ Provides search configuration, and offering search capabilities.
 
 {% hint style="info" %}
 Varbase searching features are bundled through the **Varbase Search** module.\
-GitHub: [https://github.com/Vardot/varbase\_search](https://github.com/Vardot/varbase\_search)\
-Drupal.org: [https://www.drupal.org/project/varbase\_search](https://www.drupal.org/project/varbase\_search)
+GitHub: [https://github.com/Vardot/varbase\_search](https://github.com/Vardot/varbase_search)\
+Drupal.org: [https://www.drupal.org/project/varbase\_search](https://www.drupal.org/project/varbase_search)
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase Search** module in:
 {% endhint %}
@@ -22,7 +29,7 @@ project_directory
 
 Brings in the following core and contributed modules to your site:
 
-| Module                                                                    | Purpose                                                                                    |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| ****[**Search API**](https://www.drupal.org/project/search\_api)****      | Provides a generic framework for modules offering search capabilities.                     |
-| ****[**Database Search**](https://www.drupal.org/project/search\_api)**** | Offers an implementation of the Search API that uses database tables for indexing content. |
+| Module                                                           | Purpose                                                                                    |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| [**Search API**](https://www.drupal.org/project/search_api)      | Provides a generic framework for modules offering search capabilities.                     |
+| [**Database Search**](https://www.drupal.org/project/search_api) | Offers an implementation of the Search API that uses database tables for indexing content. |

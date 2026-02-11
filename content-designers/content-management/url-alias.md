@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/content-management/url-alias
+---
+
 # URL Alias
 
 Once any node is created, an automatic URL is generated. To keep the website user-friendly, a URL alias is generated to mask the technical/numbered URL. This is referred to as the URL alias. In all content types on the site, a specific URL alias pattern has been determined and used. Site Admins have permission to edit the URL Alias to customize it further.&#x20;

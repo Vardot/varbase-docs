@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/understanding-varbase/core-components/varbase-workflow
+---
+
 # Varbase Workflow
 
 Includes a toolkit for robust, quick, and enterprise content moderation features. It is useful for small sites with simple publishing workflow to enterprise complex publishing workflows, all thanks to leveraging Drupal 8 / Drupal 9 Content Moderation and Workflow modules.
@@ -6,8 +13,8 @@ Includes a toolkit for robust, quick, and enterprise content moderation features
 
 {% hint style="info" %}
 Varbase workflow features are bundled through the **Varbase Workflow** module.\
-GitHub: [https://github.com/Vardot/varbase\_workflow](https://github.com/Vardot/varbase\_workflow)\
-Drupal.org: [https://www.drupal.org/project/varbase\_workflow](https://www.drupal.org/project/varbase\_workflow)
+GitHub: [https://github.com/Vardot/varbase\_workflow](https://github.com/Vardot/varbase_workflow)\
+Drupal.org: [https://www.drupal.org/project/varbase\_workflow](https://www.drupal.org/project/varbase_workflow)
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase Workflow** module in:
 {% endhint %}
@@ -22,13 +29,13 @@ project_directory
 
 Brings in the following core and contributed modules to your site:
 
-| Module                                                                                                                             | Purpose                                                                                                                                                 |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><strong>Workflows</strong></p><p><em>(in Drupal core)</em></p>                                                                  | Provides an interface to create workflows with transitions between different states (for example publication or user status) provided by other modules. |
-| <p><strong>Content Moderation</strong></p><p><em>(in Drupal core)</em></p>                                                         | Provides moderation states for content.                                                                                                                 |
-| ****[**Moderation Sidebar**](https://www.drupal.org/project/moderation\_sidebar)****                                               | Provides a frontend sidebar for Content Moderation                                                                                                      |
-| ****[**Scheduler content moderation integration**](https://www.drupal.org/project/scheduler\_content\_moderation\_integration)**** | Scheduler sub-module providing content moderation functionality for publishing/unpublishing.                                                            |
-| ****[**Admin Audit Trail Workflows**](https://www.drupal.org/project/admin\_audit\_trail)****                                      | Logs workflows events performed by the user.                                                                                                            |
+| Module                                                                                                                  | Purpose                                                                                                                                                 |
+| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>Workflows</strong></p><p><em>(in Drupal core)</em></p>                                                       | Provides an interface to create workflows with transitions between different states (for example publication or user status) provided by other modules. |
+| <p><strong>Content Moderation</strong></p><p><em>(in Drupal core)</em></p>                                              | Provides moderation states for content.                                                                                                                 |
+| [**Moderation Sidebar**](https://www.drupal.org/project/moderation_sidebar)                                             | Provides a frontend sidebar for Content Moderation                                                                                                      |
+| [**Scheduler content moderation integration**](https://www.drupal.org/project/scheduler_content_moderation_integration) | Scheduler sub-module providing content moderation functionality for publishing/unpublishing.                                                            |
+| [**Admin Audit Trail Workflows**](https://www.drupal.org/project/admin_audit_trail)                                     | Logs workflows events performed by the user.                                                                                                            |
 
 ## Default Workflows
 

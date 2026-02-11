@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/understanding-varbase/external-components/varbase-faqs
+---
+
 # Varbase FAQs
 
 Provides Frequently Asked Questions content type and related configuration. A frequently asked question and its answer.
@@ -10,8 +17,8 @@ Provides Frequently Asked Questions content type and related configuration. A fr
 
 {% hint style="info" %}
 Varbase FAQ features are bundled through the **Varbase FAQs** module.\
-GitHub: [https://github.com/Vardot/varbase\_faqs](https://github.com/Vardot/varbase\_faqs)\
-Drupal.org: [https://www.drupal.org/project/varbase\_faqs](https://www.drupal.org/project/varbase\_faqs)
+GitHub: [https://github.com/Vardot/varbase\_faqs](https://github.com/Vardot/varbase_faqs)\
+Drupal.org: [https://www.drupal.org/project/varbase\_faqs](https://www.drupal.org/project/varbase_faqs)
 
 After building a project using the `varbase-project` template.
 
@@ -31,19 +38,19 @@ project_directory
 
 Brings in the following core and contributed modules to your site:
 
-| Module                                                                                          | Purpose                                                                                                                                      |
-| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><strong>User</strong></p><p><em>(in Drupal core)</em></p>                                    | Manages the user registration and login system.                                                                                              |
-| <p><strong>Node</strong></p><p><em>(in Drupal core)</em></p>                                    | Allows content to be submitted to the site and displayed on pages.                                                                           |
-| <p><strong>Text</strong></p><p><em>(in Drupal core)</em></p>                                    | Defines simple text field types.                                                                                                             |
-| <p><strong>Block</strong></p><p><em>(in Drupal core)</em></p>                                   | Controls the visual building blocks a page is constructed with. Blocks are boxes of content rendered into an area, or region, of a web page. |
-| <p><strong>Path</strong></p><p><em>(in Drupal core)</em></p>                                    | Allows users to rename URLs.                                                                                                                 |
-| <p><strong>Menu UI</strong></p><p><em>(in Drupal core)</em></p>                                 | Allows administrators to customize the site navigation menu.                                                                                 |
-| ****[**Frequently Asked Questions**](https://www.drupal.org/project/faq)****                    | Manages configuration of questions for a FAQ page.                                                                                           |
-| ****[**Rabbit Hole nodes**](https://www.drupal.org/project/rabbit\_hole)****                    | Adds Rabbit Hole functionality for nodes.                                                                                                    |
-| ****[**Length Indicator**](https://www.drupal.org/project/length\_indicator)****                | Adds an optional length indicator to fields                                                                                                  |
-| ****[**Advanced Text Formatter**](https://www.drupal.org/project/advanced\_text\_formatter)**** | Provides an additional formatter for text field, text area and text format.                                                                  |
-| ****[**Maxlength**](https://www.drupal.org/project/maxlength)****                               | Limit the number of characters in textfields and textareas and shows the amount of characters left.                                          |
+| Module                                                                                 | Purpose                                                                                                                                      |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>User</strong></p><p><em>(in Drupal core)</em></p>                           | Manages the user registration and login system.                                                                                              |
+| <p><strong>Node</strong></p><p><em>(in Drupal core)</em></p>                           | Allows content to be submitted to the site and displayed on pages.                                                                           |
+| <p><strong>Text</strong></p><p><em>(in Drupal core)</em></p>                           | Defines simple text field types.                                                                                                             |
+| <p><strong>Block</strong></p><p><em>(in Drupal core)</em></p>                          | Controls the visual building blocks a page is constructed with. Blocks are boxes of content rendered into an area, or region, of a web page. |
+| <p><strong>Path</strong></p><p><em>(in Drupal core)</em></p>                           | Allows users to rename URLs.                                                                                                                 |
+| <p><strong>Menu UI</strong></p><p><em>(in Drupal core)</em></p>                        | Allows administrators to customize the site navigation menu.                                                                                 |
+| [**Frequently Asked Questions**](https://www.drupal.org/project/faq)                   | Manages configuration of questions for a FAQ page.                                                                                           |
+| [**Rabbit Hole nodes**](https://www.drupal.org/project/rabbit_hole)                    | Adds Rabbit Hole functionality for nodes.                                                                                                    |
+| [**Length Indicator**](https://www.drupal.org/project/length_indicator)                | Adds an optional length indicator to fields                                                                                                  |
+| [**Advanced Text Formatter**](https://www.drupal.org/project/advanced_text_formatter)  | Provides an additional formatter for text field, text area and text format.                                                                  |
+| [**Maxlength**](https://www.drupal.org/project/maxlength)                              | Limit the number of characters in textfields and textareas and shows the amount of characters left.                                          |
 
 ## Features
 

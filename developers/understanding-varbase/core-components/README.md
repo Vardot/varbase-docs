@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/understanding-varbase/core-components
+---
+
 # Core Components
 
 Varbase packages several modules and themes to make use of its functionality.&#x20;
@@ -46,8 +53,8 @@ Those components are detailed in the table below:
 [varbase-tour.md](varbase-core/varbase-tour.md)
 {% endcontent-ref %}
 
-{% content-ref url="varbase-core/varbase-updates-helper.md" %}
-[varbase-updates-helper.md](varbase-core/varbase-updates-helper.md)
+{% content-ref url="../development-components/varbase-updates-helper.md" %}
+[varbase-updates-helper.md](../development-components/varbase-updates-helper.md)
 {% endcontent-ref %}
 
 {% content-ref url="varbase-core/varbase-webform.md" %}

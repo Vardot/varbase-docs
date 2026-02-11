@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/understanding-varbase/external-components/varbase-youtube-import
+---
+
 # Varbase YouTube Import
 
 Provide feed type that imports from YouTube channels and playlists.
@@ -6,8 +13,8 @@ Provide feed type that imports from YouTube channels and playlists.
 
 {% hint style="info" %}
 Varbase YouTube Import features are bundled through the **Varbase YouTube Import** module.\
-GitHub: [https://github.com/Vardot/varbase\_youtube\_import](https://github.com/Vardot/varbase\_youtube\_import)\
-Drupal.org: [https://www.drupal.org/project/varbase\_youtube\_import](https://www.drupal.org/project/varbase\_youtube\_import)
+GitHub: [https://github.com/Vardot/varbase\_youtube\_import](https://github.com/Vardot/varbase_youtube_import)\
+Drupal.org: [https://www.drupal.org/project/varbase\_youtube\_import](https://www.drupal.org/project/varbase_youtube_import)
 
 After building a project using the `varbase-project` template.
 
@@ -29,8 +36,8 @@ Brings in the following core and contributed modules to your site:
 
 | Module                                                                                 | Purpose                                                    |
 | -------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| ****[**Feeds**](https://www.drupal.org/project/feeds)****                              | Aggregates RSS/Atom/RDF feeds, imports CSV files and more. |
-| ****[**Feeds Extensible**](https://www.drupal.org/project/feeds\_ex)****               | A generic Feeds parser used to create extensible parsers.  |
-| ****[**Feeds Tamper**](https://www.drupal.org/project/feeds\_tamper)****               | Modify feeds data before it gets saved.                    |
+| [**Feeds**](https://www.drupal.org/project/feeds)                                      | Aggregates RSS/Atom/RDF feeds, imports CSV files and more. |
+| [**Feeds Extensible**](https://www.drupal.org/project/feeds_ex)                        | A generic Feeds parser used to create extensible parsers.  |
+| [**Feeds Tamper**](https://www.drupal.org/project/feeds_tamper)                        | Modify feeds data before it gets saved.                    |
 
 ##

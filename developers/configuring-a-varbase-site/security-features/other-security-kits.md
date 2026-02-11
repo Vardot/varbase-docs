@@ -1,5 +1,9 @@
 ---
 description: Security Kit for XSS, CSRF, SSL/TLS, Expect-CT, and More
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/configuring-a-varbase-site/security-features/other-security-kits
 ---
 
 # Other Security Kits
@@ -7,7 +11,7 @@ description: Security Kit for XSS, CSRF, SSL/TLS, Expect-CT, and More
 To configure the Security Kit module in your site, navigate to:\
 **Administration** \ **Configuration** \ **System** \ _**Security Kit settings**_
 
-![Security Kit](../../../.gitbook/assets/Security-Kit--varbase\_security.png)
+![Security Kit](../../../.gitbook/assets/Security-Kit--varbase_security.png)
 
 The configuration page allows you to configure settings to tighten your website's security regarding:
 

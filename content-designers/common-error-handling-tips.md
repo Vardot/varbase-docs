@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/common-error-handling-tips
+---
+
 # Common Error Handling Tips
 
 **Hard Refresh to Clear Browser Cache of Specific Pages**

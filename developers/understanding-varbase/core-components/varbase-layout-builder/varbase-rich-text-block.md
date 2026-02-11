@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/understanding-varbase/core-components/varbase-layout-builder/varbase-rich-text-block
+---
+
 # Varbase Rich Text Block
 
 A rich text block contains a title and a body with a rich text format.
@@ -7,8 +14,8 @@ A rich text block contains a title and a body with a rich text format.
 {% hint style="info" %}
 Varbase rich text block features are bundled through the **Varbase Rich Text Block** module as part of the **Varbase Layout Builder** module.
 
-GitHub: [https://github.com/Vardot/varbase\_layout\_builder](https://github.com/Vardot/varbase\_layout\_builder)\
-Drupal.org: [https://www.drupal.org/project/varbase\_layout\_builder](https://www.drupal.org/project/varbase\_layout\_builder)
+GitHub: [https://github.com/Vardot/varbase\_layout\_builder](https://github.com/Vardot/varbase_layout_builder)\
+Drupal.org: [https://www.drupal.org/project/varbase\_layout\_builder](https://www.drupal.org/project/varbase_layout_builder)
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase Rich Text Block** module in:
 {% endhint %}

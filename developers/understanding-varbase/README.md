@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/understanding-varbase
+---
+
 # Understanding Varbase
 
 An Open Source Drupal distribution. Built to rapidly develop websites and web applications, That empower teams with a focus on enterprise requirements.
@@ -11,19 +18,29 @@ Platform-as-a-service tuned for security, scalability, and resilience
 * Bring new capabilities not yet present in Drupal core
 * Furnish best-in-class standards and selected capabilities from the vast array of Drupal modules
 
-{% page-ref page="basic-concepts.md" %}
+{% content-ref url="basic-concepts.md" %}
+[basic-concepts.md](basic-concepts.md)
+{% endcontent-ref %}
 
-{% page-ref page="core-components/" %}
+{% content-ref url="core-components/" %}
+[core-components](core-components/)
+{% endcontent-ref %}
 
-{% page-ref page="optional-components/" %}
+{% content-ref url="optional-components/" %}
+[optional-components](optional-components/)
+{% endcontent-ref %}
 
-{% page-ref page="optional-components/" %}
+{% content-ref url="optional-components/" %}
+[optional-components](optional-components/)
+{% endcontent-ref %}
 
-{% page-ref page="external-components/" %}
+{% content-ref url="external-components/" %}
+[external-components](external-components/)
+{% endcontent-ref %}
 
-{% page-ref page="development-components/" %}
-
-
+{% content-ref url="development-components/" %}
+[development-components](development-components/)
+{% endcontent-ref %}
 
 
 

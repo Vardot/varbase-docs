@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/extending-varbase/install-needed-tools
+---
+
 # Install Needed YARN and Gulp Tools
 
 {% hint style="success" %}
@@ -12,7 +19,7 @@ Make sure to install the following tools before any development.
 
 Helps with string replace and re-naming files.
 
-```text
+```
 sudo apt install -y sed gawk;
 ```
 
@@ -20,8 +27,8 @@ sudo apt install -y sed gawk;
 
 Helps getting more development tools.
 
-```text
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+```
+curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt update
 sudo apt install nodejs
 sudo apt install build-essential
@@ -33,22 +40,45 @@ sudo apt install npm
 
 ## Install [Yarn](https://yarnpkg.com/getting-started)
 
-```text
-sudo apt install yarn
-```
-
 Install **Yarn** as a global by **npm**
 
-```text
+```
 sudo npm install -g yarn
+```
+
+### Step 1: Clean the Slate
+
+```plaintext
+rm -rf ~/.yarn
+mkdir -p ~/.yarn/releases
+```
+
+### Step 2: Direct Download
+
+```plaintext
+curl -L https://repo.yarnpkg.com/4.9.3/packages/yarnpkg-cli/bin/yarn.js -o ~/.yarn/releases/yarn-4.9.3.cjs
+chmod +x ~/.yarn/releases/yarn-4.9.3.cjs
+```
+
+### Step 3: Configuration
+
+Create or update `~/.yarnrc.yml`:
+
+```plaintext
+echo "yarnPath: /home/$USER/.yarn/releases/yarn-4.9.3.cjs" > ~/.yarnrc.yml
+```
+
+### Step 4: Verification
+
+```plaintext
+yarn --version
 ```
 
 ## **Install** [**Gulp**](https://gulpjs.com/)
 
 Helps in managing tasks when compiling SASS/SCSS to CSS
 
-```text
+```
 sudo npm install gulp-cli -g
 sudo npm install gulp -D
 ```
-

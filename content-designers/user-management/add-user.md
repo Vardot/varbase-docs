@@ -1,10 +1,17 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/user-management/add-user
+---
+
 # Add User
 
 ## How to Add Users?
 
-This section will explain how to add users Varbase, please navigate to **Administration \ People \ **_**Add user.**_
+This section will explain how to add users Varbase, please navigate to **Administration \ People \&#x20;**_**Add user.**_
 
-![Adding users in Varbase](<../../.gitbook/assets/image (13).png>)
+![Adding users in Varbase](<../../.gitbook/assets/image (10).png>)
 
 Fill in all the required details and necessary fields:&#x20;
 

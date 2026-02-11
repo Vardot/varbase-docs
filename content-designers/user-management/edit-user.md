@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/user-management/edit-user
+---
+
 # Edit User
 
 This section will explain how to edit users in Varbase.&#x20;
@@ -8,6 +15,6 @@ This section will explain how to edit users in Varbase.&#x20;
 4. Edit the required fields in the user form.
 5. Click on **Save** button.
 
-![Editing Users in Drupal](<../../.gitbook/assets/image (47) (1) (1).png>)
+![Editing Users in Drupal](<../../.gitbook/assets/image (79).png>)
 
-![Save User Changes in Drupal](<../../.gitbook/assets/image (46) (1).png>)
+![Save User Changes in Drupal](<../../.gitbook/assets/image (71).png>)

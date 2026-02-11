@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/understanding-varbase/optional-components/varbase-content-planner
+---
+
 # Varbase Content Planner
 
 Offering customizable Content Planner dashboard. Drag and drop calendar for adding, scheduling, and rescheduling content. Drag and drop Kanban for any workflow.
@@ -6,8 +13,8 @@ Offering customizable Content Planner dashboard. Drag and drop calendar for addi
 
 {% hint style="info" %}
 Varbase content planning features are bundled through the **Varbase Content Planner** module as part of the **Varbase Workflow** module.\
-GitHub: [https://github.com/Vardot/varbase\_workflow](https://github.com/Vardot/varbase\_workflow)\
-Drupal.org: [https://www.drupal.org/project/varbase\_workflow](https://www.drupal.org/project/varbase\_workflow)
+GitHub: [https://github.com/Vardot/varbase\_workflow](https://github.com/Vardot/varbase_workflow)\
+Drupal.org: [https://www.drupal.org/project/varbase\_workflow](https://www.drupal.org/project/varbase_workflow)
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase Content Planner** module in:
 {% endhint %}
@@ -25,11 +32,11 @@ project_directory
 
 Brings in the following core and contributed modules to your site:
 
-| Module                                                                         | Purpose                                                                   |
-| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
-| <p><strong>Content Moderation</strong></p><p><em>(in Drupal core)</em></p>     | Provides moderation states for content.                                   |
-| ****[**Content Planner**](https://www.drupal.org/project/content\_planner)**** | Provides moderation states for content.                                   |
-| ****[**Scheduler**](https://www.drupal.org/project/scheduler)****              | Publish and unpublish content automatically on specified dates and times. |
+| Module                                                                     | Purpose                                                                   |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| <p><strong>Content Moderation</strong></p><p><em>(in Drupal core)</em></p> | Provides moderation states for content.                                   |
+| [**Content Planner**](https://www.drupal.org/project/content_planner)      | Provides moderation states for content.                                   |
+| [**Scheduler**](https://www.drupal.org/project/scheduler)                  | Publish and unpublish content automatically on specified dates and times. |
 
 ## Required Varbase Modules
 

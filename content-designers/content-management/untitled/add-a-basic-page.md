@@ -1,5 +1,9 @@
 ---
 description: Basic pages recommended for your static content.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/content-management/untitled/add-a-basic-page
 ---
 
 # Add a Basic page
@@ -8,10 +12,10 @@ description: Basic pages recommended for your static content.
 
 Follow these steps to create a new **Basic page** in your website:
 
-1. Select **Add Content** from the **Manage** administrative menu**.**
+1. Select **Add Content** from the **Manage** administrative men&#x75;**.**
 2. Select **Basic page.**
 3. Fill in with all required data that is needed.
 4. Click **Save.**&#x20;
 
-![Create Basic Page](../../../.gitbook/assets/Create\_Basic\_page\_test\_qa\_varbase\_8\_8\_x\_development\_13\_07\_2020.png)
+![Create Basic Page](../../../.gitbook/assets/Create_Basic_page_test_qa_varbase_8_8_x_development_13_07_2020.png)
 

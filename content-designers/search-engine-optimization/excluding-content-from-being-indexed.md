@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/search-engine-optimization/excluding-content-from-being-indexed
+---
+
 # Prevent a Single Content From Being Indexed
 
 This article will walk you through how to exclude a specific piece of content from being indexed in search engines. To achieve this, you'll need to:

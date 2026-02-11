@@ -3,6 +3,10 @@ description: >-
   Varbase utilizes the power of Drupal roles and permissions management. Roles
   are very flexible and can be easily managed and changed to accommodate your
   business scenarios.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/user-management/default-roles-and-site-persons/managing-roles
 ---
 
 # Managing Roles

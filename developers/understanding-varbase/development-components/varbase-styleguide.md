@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/understanding-varbase/development-components/varbase-styleguide
+---
+
 # Varbase Style Guide
 
 Provides custom styling guide for components for Varbase.
@@ -12,8 +19,8 @@ _Make sure to uninstall this module before deployment to production sites._
 
 {% hint style="info" %}
 Varbase style guide features are bundled through the **Varbase Style Guide** module.\
-GitHub: [https://github.com/Vardot/varbase\_styleguide](https://github.com/Vardot/varbase\_styleguide)\
-Drupal.org: [https://www.drupal.org/project/varbase\_styleguide](https://www.drupal.org/project/varbase\_styleguide)
+GitHub: [https://github.com/Vardot/varbase\_styleguide](https://github.com/Vardot/varbase_styleguide)\
+Drupal.org: [https://www.drupal.org/project/varbase\_styleguide](https://www.drupal.org/project/varbase_styleguide)
 
 After building a project using the `varbase-project` template, you can see the code of the **Varbase Style Guide** module in:
 {% endhint %}

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/theme-development-with-varbase/creating-your-own-theme
+---
+
 # Creating Your Own Theme
 
 After building and installing the project with the [**Varbase Project**](https://github.com/Vardot/varbase-project) template, use the create new Vartheme sub theme command.&#x20;
@@ -43,7 +50,7 @@ sudo apt install -y sed gawk;
 &#x20;Helps getting more development tools and the **Bootstrap** and **popper** packages.&#x20;
 
 ```
-curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash - 
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash - 
 sudo apt update
 sudo apt install nodejs
 sudo apt install build-essential

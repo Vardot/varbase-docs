@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/extending-varbase/compiling-provided-component-styles
+---
+
 # Compiling Provided Component Styles
 
 {% content-ref url="install-needed-tools.md" %}
@@ -32,7 +39,7 @@ yarn theme:build
 
 ## Watch
 
-Watch source `.scss` files and compile them on saving to` .css` files. Auto compiling on save of changes for the source.
+Watch source `.scss` files and compile them on saving to `.css` files. Auto compiling on save of changes for the source.
 
 ```
 yarn theme:watch

@@ -1,8 +1,15 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/search-engine-optimization/meta-tags
+---
+
 # Meta Tags in Varbase
 
 ## Site-wide Meta Tags Configuration&#x20;
 
-Varbase utilizes the [Metatag](https://www.drupal.org/project/metatag) Drupal module and other modules such as [Schema.org Metatag](https://www.drupal.org/project/schema\_metatag) to implement best-in-class Search Engine Optimization best practices.&#x20;
+Varbase utilizes the [Metatag](https://www.drupal.org/project/metatag) Drupal module and other modules such as [Schema.org Metatag](https://www.drupal.org/project/schema_metatag) to implement best-in-class Search Engine Optimization best practices.&#x20;
 
 Meta tags are configured by default for the available pages in a Varbase site. You can edit all Meta tags using the **Super admin role** by navigating to:
 
@@ -85,9 +92,9 @@ In Varbase, roles that can add and edit content (such as Editors, Content admins
 
 Overriding meta tags can be done when editing or adding new content from the sidebar.
 
-![Meta tags menu on sidebar for every content type](<../../.gitbook/assets/Create-Landing-page-Paragraphs-test-varbase-property-1 (2).png>)
+![Meta tags menu on sidebar for every content type](<../../.gitbook/assets/Create-Landing-page-Paragraphs-test-varbase-property-1 (3).png>)
 
-![Override meta tags under each section here](<../../.gitbook/assets/Create-Landing-page-Paragraphs-test-varbase-property-1 (3).png>)
+![Override meta tags under each section here](<../../.gitbook/assets/Create-Landing-page-Paragraphs-test-varbase-property-1 (1).png>)
 
 
 

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/configuring-a-varbase-site/entity-definition-update-manager-class
+---
+
 # Entity Definition Update Manager Class
 
 Provides developers with a class to perform automatic entity updates.
@@ -63,7 +70,7 @@ Import or update configs in hook install or hook update, or any post install or 
 {% hint style="info" %}
 Have a look at the **`varbase_core_install`** hook function
 
-[https://git.drupalcode.org/project/varbase\_core/-/blob/9.0.x/varbase\_core.install#L77](https://git.drupalcode.org/project/varbase\_core/-/blob/9.0.x/varbase\_core.install#L77)
+[https://git.drupalcode.org/project/varbase\_core/-/blob/9.0.x/varbase\_core.install#L77](https://git.drupalcode.org/project/varbase_core/-/blob/9.0.x/varbase_core.install#L77)
 {% endhint %}
 
 ## Example Use On Updates
@@ -73,7 +80,7 @@ Have a look at the **`varbase_core_install`** hook function
 {% hint style="info" %}
 Have a look at the **`varbase_api_update_8702`** hook function
 
-[https://git.drupalcode.org/project/varbase\_api/-/blob/9.0.x/varbase\_api.install#L159](https://git.drupalcode.org/project/varbase\_api/-/blob/9.0.x/varbase\_api.install#L159)
+[https://git.drupalcode.org/project/varbase\_api/-/blob/9.0.x/varbase\_api.install#L159](https://git.drupalcode.org/project/varbase_api/-/blob/9.0.x/varbase_api.install#L159)
 {% endhint %}
 
 ## Example Use On Custom Template Config Imports
@@ -85,7 +92,7 @@ Have a look at the **`varbase_api_update_8702`** hook function
 {% hint style="info" %}
 Have a look at the following commit to use in Custom Config Import Classes
 
-[https://git.drupalcode.org/project/varbase\_media\_header/-/commit/8ae8d4c](https://git.drupalcode.org/project/varbase\_media\_header/-/commit/8ae8d4c)
+[https://git.drupalcode.org/project/varbase\_media\_header/-/commit/8ae8d4c](https://git.drupalcode.org/project/varbase_media_header/-/commit/8ae8d4c)
 {% endhint %}
 
 ## When to Use and When Not to Use?
@@ -105,5 +112,5 @@ If the module or profile has number of optional or managed configs. Which locate
 {% endhint %}
 
 {% hint style="info" %}
-**Must run at least ones** at the end of each installation steps for installation profiles like  [**Varbase**](https://www.drupal.org/project/varbase), [**Vardoc**](https://www.drupal.org/project/vardoc), [**Uber Publisher**](https://www.drupal.org/project/uber\_publisher).
+**Must run at least ones** at the end of each installation steps for installation profiles like  [**Varbase**](https://www.drupal.org/project/varbase), [**Vardoc**](https://www.drupal.org/project/vardoc), [**Uber Publisher**](https://www.drupal.org/project/uber_publisher).
 {% endhint %}

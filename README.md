@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/
+---
+
 # Overview
 
 A brief overview of Varbase Docs Drupal and its features.

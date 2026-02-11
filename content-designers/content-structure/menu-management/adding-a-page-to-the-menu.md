@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/content-designers/content-structure/menu-management/adding-a-page-to-the-menu
+---
+
 # Adding a Page to the Menu
 
 When creating a new page within the website and the page should appear within the menu of the site; follow these steps to ensure it is linked within the menu.

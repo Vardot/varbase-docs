@@ -2,6 +2,10 @@
 description: >-
   This page highlights the process for contributing to the Varbase documentation
   as well as some writing tips and guidelines.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/contributing/contributing-to-documentation
 ---
 
 # Contributing to Documentation
@@ -15,11 +19,11 @@ description: >-
   * Only use the visible part option, no need to take the whole page, and crop it.
   *   Use annotations (Arrows, Steps numbers, Highlights, Rectangles ...etc.) to annotate the screenshot. Always use the red color.
 
-      <img src="../.gitbook/assets/annotations (1).png" alt="" data-size="original">\
+      <img src="../.gitbook/assets/annotations.png" alt="" data-size="original">\
       \
       Example annotated screenshot:
 
-      <img src="../.gitbook/assets/Sample Screenshot" alt="" data-size="original">
+      <img src="../.gitbook/assets/Content-varbase90x2.png" alt="" data-size="original">
 * Make sure screenshots are displayed in a good resolution, not pixilated.
 * Always add a caption to screenshots or images in the documentation page. Captions must be following APA title case style. Use [capitalizemytitle.com](https://capitalizemytitle.com/) for help.
 * Take screenshots from real content on Varbase website and not from other sites.
@@ -42,16 +46,12 @@ description: >-
 ### Text Styling
 
 * Whenever a module or component name is mentioned, it should be **bold**. \
-  Example: Varbase uses the **Layout Builder** module.\
-
-* Divide each documentation page with hierarchical titles starting with H1, then H2, then H3. This will reflect in the "CONTENTS" side bar.\
-
+  Example: Varbase uses the **Layout Builder** module.<br>
+* Divide each documentation page with hierarchical titles starting with H1, then H2, then H3. This will reflect in the "CONTENTS" side bar.<br>
 * When explaining a path to the user, use bold trail of links separated by backslash (\\) making the last item (where the user should land) in italics.\
-  Example: Navigate to **Administration** \ **Configuration** \ **Search and metadata** \ _**Metatag.**_\
-
+  Example: Navigate to **Administration** \ **Configuration** \ **Search and metadata** \ _**Metatag.**_<br>
 * When a line of code or command is needed, highlight the text and use **<>** option from the tooltip. \
-  Example: `cd /path/to/webserver_directory`  \
-
+  Example: `cd /path/to/webserver_directory`  <br>
 * To make your documentation nice to read, you can add blocks of hints and notes with nice icons by clicking on it, then change it to the desired one. \
   Example:&#x20;
 

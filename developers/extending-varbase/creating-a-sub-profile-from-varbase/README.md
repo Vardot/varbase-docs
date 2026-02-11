@@ -1,16 +1,28 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/extending-varbase/creating-a-sub-profile-from-varbase
+---
+
 # Creating A Sub Profile From Varbase
 
 Two ways to create sub profiles of Varbase.
 
 ## Automated
 
-{% page-ref page="varbase-sub-profile-generator.md" %}
+{% content-ref url="varbase-sub-profile-generator.md" %}
+[varbase-sub-profile-generator.md](varbase-sub-profile-generator.md)
+{% endcontent-ref %}
 
 ## Manually
 
 Copy, Past, Rename, and replace of text and name of files for:
 
-{% page-ref page="varbase-sub-profile-basic-template.md" %}
+{% content-ref url="varbase-sub-profile-basic-template.md" %}
+[varbase-sub-profile-basic-template.md](varbase-sub-profile-basic-template.md)
+{% endcontent-ref %}
 
-{% page-ref page="varbase-sub-profile-basic-project-template.md" %}
-
+{% content-ref url="varbase-sub-profile-basic-project-template.md" %}
+[varbase-sub-profile-basic-project-template.md](varbase-sub-profile-basic-project-template.md)
+{% endcontent-ref %}

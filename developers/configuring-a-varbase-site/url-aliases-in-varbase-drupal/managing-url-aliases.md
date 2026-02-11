@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/configuring-a-varbase-site/url-aliases-in-varbase-drupal/managing-url-aliases
+---
+
 # Managing URL Aliases
 
 ### **Viewing and Editing Specific Aliases**
@@ -13,7 +20,7 @@ Editing an existing alias is possible by clicking on the **Edit** button next to
 **Hint**: If the site is enabled to be multilingual, a language dropdown will show up to pick the language of which language the alias will be applied to.
 {% endhint %}
 
-![Editing URL Alias](https://lh6.googleusercontent.com/Qqpl4r4GphLviq\_53Ldd116seKe05RRqb\_FFDSprg85fnYPt3zSMfR4GAUjyUMsRAOdVtUfWNItIyYQgMw-PdyN4mAivq\_WHl4tkh296Lfx6yQzDAwZIk8HQFkD9nKG-FifljO6U)
+![Editing URL Alias](https://lh6.googleusercontent.com/Qqpl4r4GphLviq_53Ldd116seKe05RRqb_FFDSprg85fnYPt3zSMfR4GAUjyUMsRAOdVtUfWNItIyYQgMw-PdyN4mAivq_WHl4tkh296Lfx6yQzDAwZIk8HQFkD9nKG-FifljO6U)
 
 The **Add alias** button will allow the user to add a new alias to the site, the add alias page contains two fields which are:
 
@@ -28,7 +35,7 @@ Pattern type aliases can be deleted individually or you can delete all aliases o
 
 Another option available is to only delete automatically generated aliases, this can be helpful in case the URL aliases patterns were changed and there is a need to regenerate them.
 
-![Deleting URL Aliases](https://lh4.googleusercontent.com/Wl96WbfSlMxibTA\_Y25n3s1sgDJ4XvJsQHDlq3fIBQKFGSOC\_OUbEd5ybIDPunLKcn-Sj29r\_EHDBNgkgzw7I32u8L6ZxDznI8Vkhf5xHB-7i\_MgXiY7iPa5H1ywpxrYUv05fccb)
+![Deleting URL Aliases](https://lh4.googleusercontent.com/Wl96WbfSlMxibTA_Y25n3s1sgDJ4XvJsQHDlq3fIBQKFGSOC_OUbEd5ybIDPunLKcn-Sj29r_EHDBNgkgzw7I32u8L6ZxDznI8Vkhf5xHB-7i_MgXiY7iPa5H1ywpxrYUv05fccb)
 
 Bulk generation can be done in the **Bulk generate** to apply the following:
 
@@ -39,4 +46,4 @@ Bulk generation can be done in the **Bulk generate** to apply the following:
 **Warning**: This will only affect items that are configured to have their URL alias automatically set. Items whose URL alias is manually set are not affected.
 {% endhint %}
 
-![URL Aliases Bulk Generate Options](https://lh4.googleusercontent.com/lTskNfVUEC7tfPjMRDl9cc48t2AHFM718epZZO8zqY5pMjVYku3EInmzeQ1IRRN\_NfRhTnoT9CmX8ZPR3CXq7Q7m\_7GkOopSlF7Lv-RU6kInzBslXXaE-4YDdtelrn29quKUzu0t)
+![URL Aliases Bulk Generate Options](https://lh4.googleusercontent.com/lTskNfVUEC7tfPjMRDl9cc48t2AHFM718epZZO8zqY5pMjVYku3EInmzeQ1IRRN_NfRhTnoT9CmX8ZPR3CXq7Q7m_7GkOopSlF7Lv-RU6kInzBslXXaE-4YDdtelrn29quKUzu0t)

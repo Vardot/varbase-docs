@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/u42G9phGWi3WksRxVOC1/developers/extending-varbase/creating-a-sub-profile-from-varbase/varbase-sub-profile-generator
+---
+
 # Varbase Sub Profile Generator
 
 Having a generator tool helper. Which helps in extending Varbase profile using the sub profile method.
