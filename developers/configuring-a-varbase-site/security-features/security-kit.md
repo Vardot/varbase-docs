@@ -23,12 +23,12 @@ To configure CSP:
 1. Navigate to the SecKit settings page.
 2. Under the **Content Security Policy** section, enable CSP.
 3. Configure the directives:
-   - **default-src** -- Default source for all content types.
-   - **script-src** -- Allowed sources for JavaScript.
-   - **style-src** -- Allowed sources for CSS.
-   - **img-src** -- Allowed sources for images.
-   - **font-src** -- Allowed sources for fonts.
-   - **connect-src** -- Allowed sources for AJAX, WebSocket, and similar connections.
+   - **default-src**: Default source for all content types.
+   - **script-src**: Allowed sources for JavaScript.
+   - **style-src**: Allowed sources for CSS.
+   - **img-src**: Allowed sources for images.
+   - **font-src**: Allowed sources for fonts.
+   - **connect-src**: Allowed sources for AJAX, WebSocket, and similar connections.
 4. Save the configuration.
 
 {% hint style="warning" %}
@@ -45,9 +45,9 @@ The **X-Frame-Options** header controls whether the site can be loaded within an
 
 Options:
 
-- **DENY** -- The page cannot be displayed in a frame on any site.
-- **SAMEORIGIN** -- The page can only be displayed in a frame on the same origin.
-- **ALLOW-FROM** -- The page can be displayed in a frame on the specified origin (limited browser support).
+- **DENY**: The page cannot be displayed in a frame on any site.
+- **SAMEORIGIN**: The page can only be displayed in a frame on the same origin.
+- **ALLOW-FROM**: The page can be displayed in a frame on the specified origin (limited browser support).
 
 ### frame-ancestors CSP Directive
 
@@ -69,9 +69,9 @@ Set to `nosniff` to prevent browsers from MIME-type sniffing, which can lead to 
 
 Forces browsers to communicate with the site only over HTTPS. Configure:
 
-- **max-age** -- Duration (in seconds) that the browser should remember to only access the site over HTTPS.
-- **includeSubDomains** -- Apply the HSTS policy to all subdomains.
-- **preload** -- Allow the domain to be included in browser HSTS preload lists.
+- **max-age**: Duration (in seconds) that the browser should remember to only access the site over HTTPS.
+- **includeSubDomains**: Apply the HSTS policy to all subdomains.
+- **preload**: Allow the domain to be included in browser HSTS preload lists.
 
 ### Referrer Policy
 

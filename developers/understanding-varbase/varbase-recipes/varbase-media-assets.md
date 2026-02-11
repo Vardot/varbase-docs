@@ -12,10 +12,10 @@ Varbase Media Assets is a companion recipe to Varbase Demo Content. It supplies 
 
 ## Features
 
-- **Demo Images** -- Sample image files in various aspect ratios and sizes for use across content types and media fields
-- **Demo Videos** -- Video media assets for demonstrating video embedding and playback capabilities
-- **Demo Documents** -- Sample document files for demonstrating document upload and download functionality
-- **Pre-configured Media Entities** -- Media entities are created with proper metadata, alt text, and taxonomy assignments
+- **Demo Images**: Sample image files in various aspect ratios and sizes for use across content types and media fields
+- **Demo Videos**: Video media assets for demonstrating video embedding and playback capabilities
+- **Demo Documents**: Sample document files for demonstrating document upload and download functionality
+- **Pre-configured Media Entities**: Media entities are created with proper metadata, alt text, and taxonomy assignments
 
 ## Installation
 

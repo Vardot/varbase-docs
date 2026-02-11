@@ -12,10 +12,10 @@ Varbase Demo Content creates sample content that showcases the features and cont
 
 ## Features
 
-- **Sample Pages** -- Pre-built pages demonstrating various content layouts and configurations
-- **Demo Blog Posts** -- Example blog posts with featured images, tags, and categories
-- **Media Content** -- Demo media items referenced throughout the sample content
-- **Content Relationships** -- Demonstrates how content types, taxonomy terms, and media work together within Varbase
+- **Sample Pages**: Pre-built pages demonstrating various content layouts and configurations
+- **Demo Blog Posts**: Example blog posts with featured images, tags, and categories
+- **Media Content**: Demo media items referenced throughout the sample content
+- **Content Relationships**: Demonstrates how content types, taxonomy terms, and media work together within Varbase
 
 ## Recipe Dependencies
 

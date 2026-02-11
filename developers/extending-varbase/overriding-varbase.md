@@ -196,8 +196,8 @@ ECA workflows provided by Varbase recipes can be modified through the ECA modele
 
 ## Best Practices
 
-1. **Use the lightest touch possible** -- Start with configuration overrides in `settings.php`. Only create custom modules when configuration overrides are insufficient.
-2. **Never modify contributed code** -- Always use hooks, events, or configuration overrides instead of modifying Varbase recipes, contributed modules, or Drupal core directly.
-3. **Document all overrides** -- Keep clear records of what has been overridden and why, so future developers can understand the project-specific changes.
-4. **Test overrides during updates** -- After updating Varbase or its dependencies, verify that your overrides still work correctly with the new versions.
-5. **Keep custom modules minimal** -- Place only override-specific code in your custom modules. Avoid duplicating functionality that Varbase already provides.
+1. **Use the lightest touch possible**: Start with configuration overrides in `settings.php`. Only create custom modules when configuration overrides are insufficient.
+2. **Never modify contributed code**: Always use hooks, events, or configuration overrides instead of modifying Varbase recipes, contributed modules, or Drupal core directly.
+3. **Document all overrides**: Keep clear records of what has been overridden and why, so future developers can understand the project-specific changes.
+4. **Test overrides during updates**: After updating Varbase or its dependencies, verify that your overrides still work correctly with the new versions.
+5. **Keep custom modules minimal**: Place only override-specific code in your custom modules. Avoid duplicating functionality that Varbase already provides.

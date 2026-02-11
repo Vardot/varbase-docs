@@ -24,12 +24,12 @@ Brings in the following core and contributed modules to your site:
 
 This recipe accepts the following configuration input during installation:
 
-- **property\_id** -- Your Google Tag Manager property ID. Supported formats:
-  - `GT-xxxxxx` -- Google Tag
-  - `G-xxxxxxxx` -- Google Analytics 4 measurement ID
-  - `AW-xxxxxxxxx` -- Google Ads conversion ID
-  - `GTM-xxxxxxxx` -- Google Tag Manager container ID
-  - `DC-xxxxxxxx` -- Floodlight (Campaign Manager) tag
+- **property\_id**: Your Google Tag Manager property ID. Supported formats:
+  - `GT-xxxxxx`: Google Tag
+  - `G-xxxxxxxx`: Google Analytics 4 measurement ID
+  - `AW-xxxxxxxxx`: Google Ads conversion ID
+  - `GTM-xxxxxxxx`: Google Tag Manager container ID
+  - `DC-xxxxxxxx`: Floodlight (Campaign Manager) tag
 
 ## Installation
 

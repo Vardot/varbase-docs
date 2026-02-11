@@ -17,9 +17,9 @@ Depends on the following recipes:
 
 This recipe supports the following AI service providers:
 
-- **amazee.ai** -- Managed AI services by amazee.io
-- **OpenAI** -- GPT models and DALL-E integration
-- **Anthropic** -- Claude AI model integration
+- **amazee.ai**: Managed AI services by amazee.io
+- **OpenAI**: GPT models and DALL-E integration
+- **Anthropic**: Claude AI model integration
 
 ## Included Modules
 
@@ -52,8 +52,8 @@ Brings in the following core and contributed modules to your site:
 
 This recipe accepts the following configuration input during installation:
 
-- **Provider choice** -- Select your preferred AI provider (amazee.ai, OpenAI, or Anthropic)
-- **API keys** -- The API key for your chosen AI provider
+- **Provider choice**: Select your preferred AI provider (amazee.ai, OpenAI, or Anthropic)
+- **API keys**: The API key for your chosen AI provider
 
 ## Installation
 
@@ -67,9 +67,9 @@ ddev drush recipe ../recipes/drupal_cms_ai
 
 After installation, navigate to the AI Dashboard to configure your chosen provider and enter your API credentials. Once configured, AI features become available throughout the site:
 
-- **Alt text generation** -- Automatically suggests alt text when images are uploaded
-- **AI Chatbot** -- Provides an AI-powered chatbot interface for site building guidance and visitor support
-- **AI Agents** -- Enables automated task management and content workflows
-- **Canvas AI** -- Adds AI-assisted content creation within the Canvas page builder
+- **Alt text generation**: Automatically suggests alt text when images are uploaded
+- **AI Chatbot**: Provides an AI-powered chatbot interface for site building guidance and visitor support
+- **AI Agents**: Enables automated task management and content workflows
+- **Canvas AI**: Adds AI-assisted content creation within the Canvas page builder
 
 Content editors with appropriate permissions can access AI features directly from the content editing interface.

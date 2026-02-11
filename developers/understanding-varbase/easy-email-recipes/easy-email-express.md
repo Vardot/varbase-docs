@@ -8,7 +8,7 @@ Composite recipe (bundles multiple Easy Email recipes)
 
 ## Overview
 
-Easy Email Express is the recommended way to enable full HTML email support on a Varbase site. Rather than requiring you to apply multiple individual Easy Email recipes, this recipe composes them all together, ensuring that every email sent from the site -- including user registration, password reset, content notifications, and any other system email -- is delivered as a professionally styled HTML message.
+Easy Email Express is the recommended way to enable full HTML email support on a Varbase site. Rather than requiring you to apply multiple individual Easy Email recipes, this recipe composes them all together, ensuring that every email sent from the site, including user registration, password reset, content notifications, and any other system email, is delivered as a professionally styled HTML message.
 
 This is the Easy Email recipe included in the **Varbase Starter** recipe, so most Varbase sites will have it applied automatically during initial setup.
 

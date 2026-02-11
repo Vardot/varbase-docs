@@ -10,16 +10,16 @@ Content that remains in Draft state for an extended period may indicate a bottle
 
 ### Event
 
-- **Cron** -- The workflow runs on a scheduled basis during Drupal's cron execution.
+- **Cron**: The workflow runs on a scheduled basis during Drupal's cron execution.
 
 ### Conditions
 
-- **Content is in Draft state** -- Only processes content that is currently in the Draft moderation state.
-- **Age threshold** -- Checks whether the content has remained in Draft state longer than the configured threshold (for example, 7 days, 14 days, or 30 days since the last edit).
+- **Content is in Draft state**: Only processes content that is currently in the Draft moderation state.
+- **Age threshold**: Checks whether the content has remained in Draft state longer than the configured threshold (for example, 7 days, 14 days, or 30 days since the last edit).
 
 ### Actions
 
-- **Send reminder email** -- Sends an email to the content author (and optionally to editors or reviewers) with details about the draft content, including:
+- **Send reminder email**: Sends an email to the content author (and optionally to editors or reviewers) with details about the draft content, including:
   - The content title.
   - The date it was last edited.
   - A direct link to edit the content.

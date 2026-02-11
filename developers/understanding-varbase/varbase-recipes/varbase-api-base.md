@@ -23,6 +23,15 @@ Brings in the following core and contributed modules to your site:
 | [**JSON:API Extras**](https://www.drupal.org/project/jsonapi_extras) | Builds on top of JSON:API to deliver extra functionality. |
 | [**JSON:API Defaults**](https://www.drupal.org/project/jsonapi_extras) | Builds on top of JSON API to deliver extra functionality. |
 
+## Available Modules (Not Enabled by Default)
+
+The following modules are downloaded with this recipe but not enabled during installation. You can enable them manually if needed:
+
+| Module | Purpose |
+|---|---|
+| [**Consumers**](https://www.drupal.org/project/consumers) | Declare all the consumers of your API. |
+| [**Schema.org Metatag**](https://www.drupal.org/project/schema_metatag) | Base module for creating Schema.org JSON-LD structured data defined with Metatag module. Requires the [Metatag](https://www.drupal.org/project/metatag) module (provided by the [Varbase SEO Base](varbase-seo-base.md) recipe). |
+
 ## Installation
 
 Apply the recipe using Drush:

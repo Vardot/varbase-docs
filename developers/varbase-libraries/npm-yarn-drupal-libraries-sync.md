@@ -87,9 +87,9 @@ The `drupal-libraries-sync` tool uses a configuration section in `package.json` 
 
 Each entry defines:
 
-- **Library name** -- The name of the directory that will be created under `libraries/`.
-- **package** -- The NPM package name to source files from.
-- **files** -- A mapping of source paths within the package to destination paths within the library directory.
+- **Library name**: The name of the directory that will be created under `libraries/`.
+- **package**: The NPM package name to source files from.
+- **files**: A mapping of source paths within the package to destination paths within the library directory.
 
 ## Adding a New Library
 
@@ -152,7 +152,7 @@ In `composer.json`:
 
 ## Best Practices
 
-1. **Track package.json in version control** -- Always commit your `package.json` and `package-lock.json` (or `yarn.lock`) to ensure reproducible builds.
-2. **Ignore node_modules and libraries in Git** -- Add `node_modules/` and `libraries/` to `.gitignore` since they can be regenerated from `package.json`.
-3. **Pin library versions** -- Use specific version ranges in `package.json` to prevent unexpected updates.
-4. **Automate the sync** -- Integrate the sync into your CI/CD pipeline and Composer scripts to ensure libraries are always up to date.
+1. **Track package.json in version control**: Always commit your `package.json` and `package-lock.json` (or `yarn.lock`) to ensure reproducible builds.
+2. **Ignore node_modules and libraries in Git**: Add `node_modules/` and `libraries/` to `.gitignore` since they can be regenerated from `package.json`.
+3. **Pin library versions**: Use specific version ranges in `package.json` to prevent unexpected updates.
+4. **Automate the sync**: Integrate the sync into your CI/CD pipeline and Composer scripts to ensure libraries are always up to date.

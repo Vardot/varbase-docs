@@ -21,11 +21,11 @@ This page lists all available email templates, including those created by the Ea
 1. Navigate to **Structure > Easy Email > Email Templates**.
 2. Click **Edit** next to the template you want to modify.
 3. Update the template fields:
-   - **Subject** -- The email subject line. Supports tokens for dynamic values.
-   - **Body** -- The HTML body of the email. Uses the Easy Email text format with CKEditor 5 for rich text editing.
-   - **From** -- The sender email address and name.
-   - **Reply-to** -- Optional reply-to address.
-   - **Recipient** -- The default recipient for this email type. Supports tokens.
+   - **Subject**: The email subject line. Supports tokens for dynamic values.
+   - **Body**: The HTML body of the email. Uses the Easy Email text format with CKEditor 5 for rich text editing.
+   - **From**: The sender email address and name.
+   - **Reply-to**: Optional reply-to address.
+   - **Recipient**: The default recipient for this email type. Supports tokens.
 4. Save the template.
 
 ### Using Tokens in Templates
@@ -61,11 +61,11 @@ Navigate to **Configuration > System > Mailer**, or go to:
 1. Navigate to the Symfony Mailer Lite settings page.
 2. Set the **transport** to SMTP.
 3. Configure the SMTP connection details:
-   - **SMTP host** -- The hostname of your SMTP server (for example, `smtp.gmail.com`, `smtp.sendgrid.net`).
-   - **SMTP port** -- The port number (typically 587 for TLS, 465 for SSL, or 25 for unencrypted).
-   - **Encryption** -- Select TLS or SSL based on your SMTP server's requirements.
-   - **Username** -- The SMTP authentication username.
-   - **Password** -- The SMTP authentication password.
+   - **SMTP host**: The hostname of your SMTP server (for example, `smtp.gmail.com`, `smtp.sendgrid.net`).
+   - **SMTP port**: The port number (typically 587 for TLS, 465 for SSL, or 25 for unencrypted).
+   - **Encryption**: Select TLS or SSL based on your SMTP server's requirements.
+   - **Username**: The SMTP authentication username.
+   - **Password**: The SMTP authentication password.
 4. Save the configuration.
 
 ### Using Environment Variables

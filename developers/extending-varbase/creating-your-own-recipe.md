@@ -184,8 +184,8 @@ To make your recipe available to others:
 
 ## Best Practices
 
-1. **Keep recipes focused** -- Each recipe should address a single area of functionality. Compose larger configurations from multiple smaller recipes.
-2. **Declare dependencies explicitly** -- List all recipe dependencies so that applying your recipe automatically satisfies all requirements.
-3. **Use config actions over raw config** -- Prefer `createIfNotExists` and `grantPermissions` config actions over raw configuration files when possible, as they are more resilient to existing site state.
-4. **Test recipe application** -- Test your recipe on a clean Varbase installation to ensure it applies without errors.
-5. **Document your recipe** -- Include a clear description and any special instructions in the `recipe.yml` file.
+1. **Keep recipes focused**: Each recipe should address a single area of functionality. Compose larger configurations from multiple smaller recipes.
+2. **Declare dependencies explicitly**: List all recipe dependencies so that applying your recipe automatically satisfies all requirements.
+3. **Use config actions over raw config**: Prefer `createIfNotExists` and `grantPermissions` config actions over raw configuration files when possible, as they are more resilient to existing site state.
+4. **Test recipe application**: Test your recipe on a clean Varbase installation to ensure it applies without errors.
+5. **Document your recipe**: Include a clear description and any special instructions in the `recipe.yml` file.

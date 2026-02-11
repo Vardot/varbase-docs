@@ -64,7 +64,7 @@ From this page you can:
 
 - Enable or disable Honeypot protection globally for all forms.
 - Select specific forms to protect.
-- Configure the **time limit** -- the minimum number of seconds before a form can be submitted (bots typically submit forms instantly).
+- Configure the **time limit**: the minimum number of seconds before a form can be submitted (bots typically submit forms instantly).
 - Enable or disable logging of blocked submissions.
 
 ## Antibot

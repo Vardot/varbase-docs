@@ -45,6 +45,16 @@ Brings in the following core and contributed modules to your site:
 | [**ECA VBO**](https://www.drupal.org/project/eca_vbo) | Integrates ECA: Event - Condition - Action with Views Bulk Operations (VBO). |
 | [**UI Icons Form element**](https://www.drupal.org/project/ui_icons) | Core Icons main form element for Icon autocomplete. |
 
+## Available Modules (Not Enabled by Default)
+
+The following modules are downloaded with this recipe but not enabled during installation. You can enable them manually if needed:
+
+| Module | Purpose |
+|---|---|
+| [**User Protect**](https://www.drupal.org/project/userprotect) | Allows admins to protect users from being edited or cancelled, on a per-user basis. |
+| [**Prevent Homepage Deletion**](https://www.drupal.org/project/prevent_homepage_deletion) | With this module you can revoke the permission to delete specific nodes. |
+| [**Views Bulk Edit**](https://www.drupal.org/project/views_bulk_edit) | Allows bulk edition of entity field values. |
+
 ## Included Themes
 
 | Theme | Description |

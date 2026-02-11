@@ -103,8 +103,8 @@ When updating packages, patches may fail to apply if the underlying code has cha
 
 ## Best Practices
 
-1. **Always document patches** -- Include a descriptive label and a link to the relevant Drupal.org issue for every patch.
-2. **Monitor upstream issues** -- Check periodically whether patches have been committed upstream so they can be removed from your configuration.
-3. **Use strict mode in CI** -- Enable `composer-exit-on-patch-failure` in your CI/CD pipeline to catch patch failures early.
-4. **Keep patches minimal** -- Only apply patches that are genuinely needed for your project. Unnecessary patches increase maintenance burden during updates.
-5. **Test after changes** -- After adding, removing, or updating patches, thoroughly test the affected functionality.
+1. **Always document patches**: Include a descriptive label and a link to the relevant Drupal.org issue for every patch.
+2. **Monitor upstream issues**: Check periodically whether patches have been committed upstream so they can be removed from your configuration.
+3. **Use strict mode in CI**: Enable `composer-exit-on-patch-failure` in your CI/CD pipeline to catch patch failures early.
+4. **Keep patches minimal**: Only apply patches that are genuinely needed for your project. Unnecessary patches increase maintenance burden during updates.
+5. **Test after changes**: After adding, removing, or updating patches, thoroughly test the affected functionality.

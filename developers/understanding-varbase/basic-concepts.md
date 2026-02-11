@@ -32,7 +32,7 @@ Understanding the distinction between recipes, modules, and installation profile
 
 ### Modules
 
-- Modules are **persistent** -- once enabled, they remain active and can be enabled or disabled.
+- Modules are **persistent**: once enabled, they remain active and can be enabled or disabled.
 - Modules provide **runtime functionality** (code, hooks, plugins, services).
 - Modules are managed through Drupal's module system.
 
@@ -47,7 +47,7 @@ Understanding the distinction between recipes, modules, and installation profile
 - Recipes are **applied once** and are not "enabled" or "disabled" like modules.
 - Recipes **configure** the site by installing modules, importing config, and setting permissions.
 - Multiple recipes can be applied to the same site, in any order (respecting dependencies).
-- Recipes are **composable** -- they can depend on other recipes, building up functionality in layers.
+- Recipes are **composable**: they can depend on other recipes, building up functionality in layers.
 - After a recipe is applied, its effects remain, but the recipe itself does not need to stay "active."
 
 ## Recipe Dependency Hierarchy in Varbase
@@ -77,8 +77,8 @@ Each Varbase recipe declares its dependencies on lower-level recipes. When you a
 The `varbase_starter` recipe is the **top-level entry point** for setting up a Varbase site. It:
 
 1. **Declares dependencies** on all Varbase recipes that make up the distribution.
-2. **Ensures correct ordering** -- recipes are applied in dependency order, so foundational recipes (Drupal Core, Drupal CMS) are applied before Varbase-specific recipes.
-3. **Configures the full feature set** -- after `varbase_starter` finishes, the site has all Varbase features installed and configured.
+2. **Ensures correct ordering**: recipes are applied in dependency order, so foundational recipes (Drupal Core, Drupal CMS) are applied before Varbase-specific recipes.
+3. **Configures the full feature set**: after `varbase_starter` finishes, the site has all Varbase features installed and configured.
 
 
 ## Composer and Recipe Management

@@ -53,9 +53,9 @@ One of the following:
 
 ### Tooling
 
-- **Composer 2.x** -- Required for managing Varbase dependencies and creating the project.
-- **Drush 13+** -- Command-line tool for Drupal site management, recipe application, and maintenance tasks.
-- **Git** -- Version control system, required for development workflows and for Composer to fetch certain dependencies.
+- **Composer 2.x**: Required for managing Varbase dependencies and creating the project.
+- **Drush 13+**: Command-line tool for Drupal site management, recipe application, and maintenance tasks.
+- **Git**: Version control system, required for development workflows and for Composer to fetch certain dependencies.
 
 ## Production Environment Requirements
 

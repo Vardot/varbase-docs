@@ -6,10 +6,10 @@ This guide walks you through installing Varbase 11.0.x on your local machine usi
 
 Before you begin, make sure you have the following installed on your machine:
 
-1. **Docker** -- DDEV requires Docker (or a compatible container runtime such as Colima or OrbStack).
+1. **Docker**: DDEV requires Docker (or a compatible container runtime such as Colima or OrbStack).
    - Install Docker Desktop from [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
 
-2. **DDEV** -- Install DDEV by following the official installation guide:
+2. **DDEV**: Install DDEV by following the official installation guide:
    - [https://ddev.readthedocs.io/en/stable/users/install/](https://ddev.readthedocs.io/en/stable/users/install/)
 
 ## Step 1: Create the Project Directory

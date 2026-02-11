@@ -16,6 +16,15 @@ Brings in the following core and contributed modules to your site:
 | [**Social Auth Google**](https://www.drupal.org/project/social_auth_google) | Social Auth integration for Google. |
 | [**Varbase Social Single Sign-On**](https://www.drupal.org/project/varbase_auth) | Adds single sign-on using existing information from a social networking service. Such as Facebook, Twitter, LinkedIn, or Google. Built using Social API. |
 
+## Available Modules (Not Enabled by Default)
+
+The following modules are downloaded with this recipe but not enabled during installation. You can enable them manually if needed:
+
+| Module | Purpose |
+|---|---|
+| [**Social Auth Facebook**](https://www.drupal.org/project/social_auth_facebook) | Social Auth integration for Facebook. |
+| [**Social Auth LinkedIn**](https://www.drupal.org/project/social_auth_linkedin) | Social Auth integration for LinkedIn. |
+
 ## Installation
 
 Apply the recipe using Drush:

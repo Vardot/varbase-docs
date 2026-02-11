@@ -20,23 +20,23 @@ Password policies are composed of one or more **constraints** that define the re
 
 ### Character Types
 
-- **Uppercase characters** -- Require a minimum number of uppercase letters (A-Z).
-- **Lowercase characters** -- Require a minimum number of lowercase letters (a-z).
-- **Numeric characters** -- Require a minimum number of digits (0-9).
-- **Special characters** -- Require a minimum number of special characters (such as !, @, #, $).
+- **Uppercase characters**: Require a minimum number of uppercase letters (A-Z).
+- **Lowercase characters**: Require a minimum number of lowercase letters (a-z).
+- **Numeric characters**: Require a minimum number of digits (0-9).
+- **Special characters**: Require a minimum number of special characters (such as !, @, #, $).
 
 ### Password Length
 
-- **Minimum length** -- Set the minimum number of characters required for a valid password.
-- **Maximum length** -- Optionally set a maximum password length.
+- **Minimum length**: Set the minimum number of characters required for a valid password.
+- **Maximum length**: Optionally set a maximum password length.
 
 ### Password History
 
-- **Password history** -- Prevent users from reusing a specified number of their most recent passwords. This forces users to create genuinely new passwords when changing their credentials.
+- **Password history**: Prevent users from reusing a specified number of their most recent passwords. This forces users to create genuinely new passwords when changing their credentials.
 
 ### Username Restriction
 
-- **Username in password** -- Prevent users from using their username (or parts of it) within their password.
+- **Username in password**: Prevent users from using their username (or parts of it) within their password.
 
 ## Creating a Password Policy
 
@@ -68,5 +68,5 @@ Each password policy can be assigned to one or more user roles. This allows you 
 
 For example:
 
-- **Authenticated users** -- Minimum 8 characters, at least one uppercase and one digit.
-- **Administrators** -- Minimum 12 characters, at least one uppercase, one lowercase, one digit, and one special character, with 90-day expiration.
+- **Authenticated users**: Minimum 8 characters, at least one uppercase and one digit.
+- **Administrators**: Minimum 12 characters, at least one uppercase, one lowercase, one digit, and one special character, with 90-day expiration.

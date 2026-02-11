@@ -10,17 +10,17 @@ User recertification is a common requirement in enterprise environments where us
 
 ### Event
 
-- **Cron** -- The workflow is triggered on a scheduled basis by Drupal's cron system.
+- **Cron**: The workflow is triggered on a scheduled basis by Drupal's cron system.
 
 ### Conditions
 
-- **Time-based check** -- Determines whether a user's account is due for recertification based on the last recertification date and the configured recertification interval.
-- **Account status** -- Only processes active user accounts.
+- **Time-based check**: Determines whether a user's account is due for recertification based on the last recertification date and the configured recertification interval.
+- **Account status**: Only processes active user accounts.
 
 ### Actions
 
-- **Send recertification reminder** -- Sends an email to the user (or their manager) requesting that they recertify their account.
-- **Flag for review** -- If the recertification period expires without action, the account may be flagged for administrative review.
+- **Send recertification reminder**: Sends an email to the user (or their manager) requesting that they recertify their account.
+- **Flag for review**: If the recertification period expires without action, the account may be flagged for administrative review.
 
 ## Configuration
 

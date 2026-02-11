@@ -2,7 +2,7 @@
 
 ## Overview
 
-Varbase 11.0.x builds on top of **Drupal CMS 2.0** recipes. These recipes provide foundational features -- such as administration UI, SEO, media handling, search, and accessibility -- that Varbase extends with its own specialized recipes.
+Varbase 11.0.x builds on top of **Drupal CMS 2.0** recipes. These recipes provide foundational features, such as administration UI, SEO, media handling, search, and accessibility, that Varbase extends with its own specialized recipes.
 
 The **varbase\_starter** recipe includes these Drupal CMS recipes as dependencies, ensuring that every Varbase installation benefits from the robust baseline functionality provided by the Drupal CMS project.
 

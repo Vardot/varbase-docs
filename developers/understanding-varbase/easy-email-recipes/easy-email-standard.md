@@ -8,7 +8,7 @@ Base recipe (foundational)
 
 ## Overview
 
-Easy Email Standard installs and configures the core components needed to send HTML emails from a Drupal site. It sets up the Easy Email module, the Easy Email theme for email rendering, and integrates Symfony Mailer Lite as the mail transport layer. This recipe does not define any specific email templates -- it only provides the infrastructure that other Easy Email recipes use to create and send styled emails.
+Easy Email Standard installs and configures the core components needed to send HTML emails from a Drupal site. It sets up the Easy Email module, the Easy Email theme for email rendering, and integrates Symfony Mailer Lite as the mail transport layer. This recipe does not define any specific email templates. It only provides the infrastructure that other Easy Email recipes use to create and send styled emails.
 
 ## Included Modules
 
