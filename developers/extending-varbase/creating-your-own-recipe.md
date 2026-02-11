@@ -171,7 +171,7 @@ If your recipe is published as a Composer package:
 
 ```bash
 composer require my-vendor/my_custom_recipe
-drush recipe recipes/contrib/my_custom_recipe
+ddev drush recipe ../recipes/my_custom_recipe
 ```
 
 ## Publishing Your Recipe

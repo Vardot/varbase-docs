@@ -27,7 +27,7 @@ Brings in the following core and contributed modules to your site:
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/easy_email_text_format
+ddev drush recipe ../recipes/easy_email_text_format
 ```
 
 After applying the recipe, a new text format optimized for email content editing will be available when creating or modifying Easy Email templates.

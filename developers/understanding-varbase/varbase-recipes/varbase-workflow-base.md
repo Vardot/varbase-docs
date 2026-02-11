@@ -22,14 +22,10 @@ Brings in the following core and contributed modules to your site:
 | [**Scheduler Content Moderation Integration**](https://www.drupal.org/project/scheduler_content_moderation_integration) | Scheduler sub-module providing content moderation functionality for publishing/unpublishing. |
 | [**Admin Audit Trail Workflows**](https://www.drupal.org/project/admin_audit_trail) | Logs workflows events performed by the user. |
 
-## Permissions
-
-The recipe configures permissions for the `content_editor` role, granting the necessary permissions to manage workflow transitions such as moving content between Draft, Published, and Archived states.
-
 ## Installation
 
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/varbase_workflow_base
+ddev drush recipe ../recipes/varbase_workflow_base
 ```

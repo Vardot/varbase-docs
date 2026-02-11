@@ -14,7 +14,11 @@ This ensures comprehensive HTML email coverage across the entire site, including
 
 ## Recipe Dependencies
 
-- **`easy_email_text_format`** -- Provides the text format and CKEditor 5 configuration for editing email template content
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| [**Easy Email Text Format**](easy-email-text-format.md) | Text format and CKEditor 5 configuration for email template editing. |
 
 ## Included Modules
 
@@ -30,7 +34,7 @@ Brings in the following core and contributed modules to your site:
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/easy_email_types_default
+ddev drush recipe ../recipes/easy_email_types_default
 ```
 
 After applying the recipe, all emails sent from the site that do not have a specific Easy Email template will be wrapped in the default HTML email template.

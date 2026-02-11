@@ -21,7 +21,6 @@ Brings in the following core and contributed modules to your site:
 | [**Drupal CMS Helper**](https://www.drupal.org/project/drupal_cms_helper) | Provides functionality for Drupal CMS that is not yet in Drupal core or dependencies. |
 | [**Drupical**](https://www.drupal.org/project/drupical) | Displays Drupal community events from drupal.org. |
 | **File** *(in Drupal core)* | Provides a field type for files and defines a "managed\_file" Form API element. |
-| [**Gin**](https://www.drupal.org/project/gin) | Admin theme with a strong focus on improving the Editorial Experience. |
 | [**Gin Login**](https://www.drupal.org/project/gin_login) | Custom Drupal Login for Gin theme. |
 | [**Gin Toolbar**](https://www.drupal.org/project/gin_toolbar) | Gin Toolbar for Gin Theme. |
 | **Custom Menu Links** *(in Drupal core)* | Allows users to create menu links. |
@@ -36,10 +35,16 @@ Brings in the following core and contributed modules to your site:
 | **Views UI** *(in Drupal core)* | Provides a user interface for creating and managing views. |
 | [**View Password**](https://www.drupal.org/project/view_password) | Allows the users to see the contents of the password fields on selected forms before submission. |
 
+## Included Themes
+
+| Theme | Description |
+|---|---|
+| [**Gin**](https://www.drupal.org/project/gin) | Admin theme with a strong focus on improving the Editorial Experience. |
+
 ## Installation
 
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/drupal_cms_admin_ui
+ddev drush recipe ../recipes/drupal_cms_admin_ui
 ```

@@ -14,18 +14,20 @@ This is the Easy Email recipe included in the **Varbase Starter** recipe, so mos
 
 ## Recipe Dependencies
 
-Easy Email Express depends on the following recipes:
+Depends on the following recipes:
 
-- **`easy_email_standard`** -- Base Easy Email module, theme, and Symfony Mailer Lite integration
-- **`easy_email_types_core`** -- Email templates that replicate all Drupal core email content in HTML format
-- **`easy_email_types_default`** -- Default email template that overrides all emails sent from the site
+| Recipe | Description |
+|---|---|
+| [**Easy Email Standard**](easy-email-standard.md) | Base Easy Email module, theme, and Symfony Mailer Lite integration. |
+| [**Easy Email Types Core**](easy-email-types-core.md) | Email templates that replicate all Drupal core email content in HTML format. |
+| [**Easy Email Types Default**](easy-email-types-default.md) | Default email template that overrides all emails sent from the site. |
 
 ## Installation
 
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/easy_email_express
+ddev drush recipe ../recipes/easy_email_express
 ```
 
 After applying the recipe, all emails sent from the site will be formatted as HTML emails using the Easy Email templates and theme.

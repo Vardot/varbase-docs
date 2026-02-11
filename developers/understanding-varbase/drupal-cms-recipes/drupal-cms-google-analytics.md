@@ -4,9 +4,13 @@
 
 The Drupal CMS Google Analytics recipe integrates Google Analytics and Google Tag Manager tracking into your Drupal site. It works with the privacy module to ensure that tracking respects visitor consent preferences.
 
-## Dependencies
+## Recipe Dependencies
 
-- **drupal\_cms\_privacy\_basic** -- Basic privacy features for consent management, ensuring tracking scripts are only loaded when visitors have given consent
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| [**Drupal CMS Privacy Basic**](drupal-cms-privacy-basic.md) | Basic privacy features for consent management, ensuring tracking scripts load only with visitor consent. |
 
 ## Included Modules
 
@@ -32,7 +36,7 @@ This recipe accepts the following configuration input during installation:
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/drupal_cms_google_analytics
+ddev drush recipe ../recipes/drupal_cms_google_analytics
 ```
 
 ## Usage

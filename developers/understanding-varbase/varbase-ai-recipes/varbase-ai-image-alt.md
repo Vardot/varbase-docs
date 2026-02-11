@@ -18,16 +18,20 @@ Brings in the following core and contributed modules to your site:
 | [**AI Image Alt Text**](https://www.drupal.org/project/ai_image_alt_text) | Provided the possibility to fill out the alt text of an image field using AI. |
 | [**AI Image Bulk Alt Text**](https://www.drupal.org/project/ai_image_alt_text) | Adds the possibility to bulk change the alt text. |
 
-## Dependencies
+## Recipe Dependencies
 
-- Varbase AI Base
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| [**Varbase AI Base**](varbase-ai-base.md) | Core AI modules and default Varbase AI configurations. |
 
 ## Installation
 
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/varbase_ai_image_alt
+ddev drush recipe ../recipes/varbase_ai_image_alt
 ```
 
 ## Usage

@@ -40,5 +40,5 @@ Brings in the following core and contributed modules to your site:
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/varbase_seo_base
+ddev drush recipe ../recipes/varbase_seo_base
 ```

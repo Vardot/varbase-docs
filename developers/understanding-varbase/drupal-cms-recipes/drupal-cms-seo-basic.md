@@ -4,9 +4,13 @@
 
 The Drupal CMS SEO Basic recipe applies basic SEO best practices to your Drupal site. It configures automatic URL alias generation, breadcrumb navigation, and redirect management to improve search engine visibility and user navigation.
 
-## Dependencies
+## Recipe Dependencies
 
-- **core/recipes/content\_editor\_role** -- Core recipe that creates the content editor role with appropriate SEO-related permissions
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| **content_editor_role** *(Drupal core)* | Creates the content editor role with appropriate SEO-related permissions. |
 
 ## Included Modules
 
@@ -27,7 +31,7 @@ Brings in the following core and contributed modules to your site:
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/drupal_cms_seo_basic
+ddev drush recipe ../recipes/drupal_cms_seo_basic
 ```
 
 ## Usage

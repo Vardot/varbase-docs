@@ -4,9 +4,13 @@
 
 The Drupal CMS Privacy Basic recipe provides basic privacy features including consent management and remote content blocking. It helps sites comply with privacy regulations by giving visitors control over cookies and external content loading.
 
-## Dependencies
+## Recipe Dependencies
 
-- **drupal\_cms\_content\_type\_base** -- Basic content type tools (required for menu and content integration)
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| [**Drupal CMS Content Type Base**](drupal-cms-content-type-base.md) | Basic content type tools for menu and content integration. |
 
 ## Included Modules
 
@@ -30,7 +34,7 @@ Brings in the following core and contributed modules to your site:
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/drupal_cms_privacy_basic
+ddev drush recipe ../recipes/drupal_cms_privacy_basic
 ```
 
 ## Usage

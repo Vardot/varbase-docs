@@ -4,10 +4,14 @@
 
 The Drupal CMS AI recipe integrates AI services into your Drupal site, providing capabilities such as automatic alt text generation for images and an AI chatbot for site building assistance. It supports multiple AI providers and is designed to work seamlessly with the Drupal CMS ecosystem.
 
-## Dependencies
+## Recipe Dependencies
 
-- **drupal\_cms\_privacy\_basic** -- Basic privacy features for managing consent around AI-processed data
-- **core/recipes/content\_editor\_role** -- Core recipe that creates the content editor role with AI-related permissions
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| [**Drupal CMS Privacy Basic**](drupal-cms-privacy-basic.md) | Basic privacy features for managing consent around AI-processed data. |
+| **content_editor_role** *(Drupal core)* | Creates the content editor role with AI-related permissions. |
 
 ## AI Providers
 
@@ -36,8 +40,13 @@ Brings in the following core and contributed modules to your site:
 | [**AI Chatbot**](https://www.drupal.org/project/ai) | Provides a chatbot frontend for the AI Assistant API. |
 | [**AI Agents**](https://www.drupal.org/project/ai_agents) | The Agents module makes Drupal taskable by AI agents. |
 | [**Drupal Canvas AI**](https://www.drupal.org/project/canvas) | AI for the Drupal Canvas. |
-| [**Canvas Stark**](https://www.drupal.org/project/canvas) | A plain theme by Drupal Canvas using the semi-coupled theme engine. |
 | **Custom Menu Links** *(in Drupal core)* | Allows users to create menu links. |
+
+## Included Themes
+
+| Theme | Description |
+|---|---|
+| [**Canvas Stark**](https://www.drupal.org/project/canvas) | A plain theme by Drupal Canvas using the semi-coupled theme engine. |
 
 ## Configuration Input
 
@@ -51,7 +60,7 @@ This recipe accepts the following configuration input during installation:
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/drupal_cms_ai
+ddev drush recipe ../recipes/drupal_cms_ai
 ```
 
 ## Usage

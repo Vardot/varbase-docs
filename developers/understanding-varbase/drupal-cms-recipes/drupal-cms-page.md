@@ -4,9 +4,13 @@
 
 The Drupal CMS Page recipe provides a simple page content type for creating basic site pages such as "About Us," "Contact," or other static informational pages. It builds on the Content Type Base recipe and configures appropriate permissions for content editors.
 
-## Dependencies
+## Recipe Dependencies
 
-- **drupal\_cms\_content\_type\_base** -- Basic content type tools including workflows, pathauto, and editorial features
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| [**Drupal CMS Content Type Base**](drupal-cms-content-type-base.md) | Basic content type tools including workflows, pathauto, and editorial features. |
 
 ## Features
 
@@ -19,7 +23,7 @@ The Drupal CMS Page recipe provides a simple page content type for creating basi
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/drupal_cms_page
+ddev drush recipe ../recipes/drupal_cms_page
 ```
 
 ## Usage

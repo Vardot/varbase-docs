@@ -25,7 +25,7 @@ This recipe accepts the following configuration input during installation:
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/drupal_cms_anti_spam
+ddev drush recipe ../recipes/drupal_cms_anti_spam
 ```
 
 ## Usage

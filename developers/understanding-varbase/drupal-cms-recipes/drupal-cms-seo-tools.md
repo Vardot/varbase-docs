@@ -35,7 +35,7 @@ Brings in the following core and contributed modules to your site:
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/drupal_cms_seo_tools
+ddev drush recipe ../recipes/drupal_cms_seo_tools
 ```
 
 ## Usage

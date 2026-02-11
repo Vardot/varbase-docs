@@ -33,14 +33,14 @@ composer require drupal/recipe_name
 2. Then apply it with Drush:
 
 ```bash
-drush recipe recipes/contrib/recipe_name
+ddev drush recipe ../recipes/recipe_name
 ```
 
 For example, to apply only the Varbase Media Base recipe:
 
 ```bash
 composer require drupal/varbase_media_base
-drush recipe recipes/contrib/varbase_media_base
+ddev drush recipe ../recipes/varbase_media_base
 ```
 
 ---
@@ -57,16 +57,11 @@ Each recipe declares its own dependencies, so applying a recipe will automatical
 
 ## How do I update from Varbase 10.x to 11.x?
 
-Updating from Varbase 10.x to 11.x is a major migration that involves:
+There is currently **no supported update or upgrade path** from Varbase 10.x to Varbase 11.x. The shift from a module-based architecture to a recipe-based architecture is too fundamental to support an in-place migration.
 
-1. Updating `composer.json` to require Varbase 11.x and Drupal 11.
-2. Running `composer update` to update all packages.
-3. Running `drush updatedb` to apply database updates.
-4. Applying Varbase recipes to configure the new recipe-based features.
-5. Uninstalling legacy Varbase modules that have been replaced by recipes.
-6. Testing thoroughly.
+The recommended approach is to start a new Varbase 11.x site and migrate your content using Drupal's Migrate API or other content migration tools.
 
-For detailed step-by-step instructions, see the [Updating from Varbase 10.x to 11.x](updating-varbase/updating-from-10-to-11.md) guide.
+For more details, see the [Updating from Varbase 10.x to 11.x](updating-varbase/updating-from-10-to-11.md) page.
 
 ---
 

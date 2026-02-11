@@ -18,16 +18,20 @@ Brings in the following core and contributed modules to your site:
 | [**AI Chatbot**](https://www.drupal.org/project/ai) | Provides a chatbot frontend for the AI Assistant API. |
 | [**AI Agents**](https://www.drupal.org/project/ai_agents) | The Agents module makes Drupal taskable by AI agents. |
 
-## Dependencies
+## Recipe Dependencies
 
-- Varbase AI Base
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| [**Varbase AI Base**](varbase-ai-base.md) | Core AI modules and default Varbase AI configurations. |
 
 ## Installation
 
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/varbase_ai_agents
+ddev drush recipe ../recipes/varbase_ai_agents
 ```
 
 ## Usage

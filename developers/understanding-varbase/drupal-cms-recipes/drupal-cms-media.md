@@ -4,13 +4,17 @@
 
 The Drupal CMS Media recipe provides basic media types including responsive image styles, focal point cropping, SVG support, video handling, and file upload management. It extends Drupal core media types with additional functionality for a comprehensive media experience.
 
-## Dependencies
+## Recipe Dependencies
 
-- **core/recipes/document\_media\_type** -- Core document media type
-- **core/recipes/image\_media\_type** -- Core image media type
-- **core/recipes/local\_video\_media\_type** -- Core video media type
-- **core/recipes/remote\_video\_media\_type** -- Core remote video media type (e.g., YouTube, Vimeo)
-- **drupal\_cms\_privacy\_basic** -- Basic privacy features for handling remote media content
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| **document_media_type** *(Drupal core)* | Core document media type. |
+| **image_media_type** *(Drupal core)* | Core image media type. |
+| **local_video_media_type** *(Drupal core)* | Core video media type. |
+| **remote_video_media_type** *(Drupal core)* | Core remote video media type (e.g., YouTube, Vimeo). |
+| [**Drupal CMS Privacy Basic**](drupal-cms-privacy-basic.md) | Basic privacy features for handling remote media content. |
 
 ## Included Modules
 
@@ -40,7 +44,7 @@ Brings in the following core and contributed modules to your site:
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/drupal_cms_media
+ddev drush recipe ../recipes/drupal_cms_media
 ```
 
 ## Usage
