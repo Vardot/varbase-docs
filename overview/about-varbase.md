@@ -4,7 +4,7 @@
 
 ## What is Varbase?
 
-Varbase is built on **Drupal 11** using a modern **recipes-based architecture**. It combines [Drupal CMS 2.0](https://www.drupal.org/about/drupal-cms) recipes with Varbase-specific recipes to deliver a feature-rich, standards-compliant web platform out of the box.
+Varbase is built on **Drupal 11** using a modern **recipes-based architecture**. It combines [Drupal CMS 2.0](https://www.drupal.org/project/cms) recipes with Varbase-specific recipes to deliver a feature-rich, standards-compliant web platform out of the box.
 
 Rather than starting from a bare Drupal installation, Varbase gives development teams a pre-configured foundation with sensible defaults, best practices, and a curated set of features that most websites require.
 
@@ -25,13 +25,13 @@ Rather than starting from a bare Drupal installation, Varbase gives development 
 
 Varbase is designed for:
 
-- **Enterprise organizations** that need a robust, scalable CMS with enterprise-grade features.
-- **Development agencies** that want to reduce project setup time and deliver consistent, high-quality Drupal sites.
-- **Government and institutional websites** that require strict security, accessibility, and multilingual support.
-- **Content-heavy platforms** such as media sites, universities, and corporate portals.
+* **Enterprise organizations** that need a robust, scalable CMS with enterprise-grade features.
+* **Development agencies** that want to reduce project setup time and deliver consistent, high-quality Drupal sites.
+* **Government and institutional websites** that require strict security, accessibility, and multilingual support.
+* **Content-heavy platforms** such as media sites, universities, and corporate portals.
 
 ## Project Links
 
-- **Drupal.org project page**: [https://www.drupal.org/project/varbase](https://www.drupal.org/project/varbase)
-- **GitHub organization**: [https://github.com/Vardot](https://github.com/Vardot)
-- **Vardot website**: [https://www.vardot.com/](https://www.vardot.com/)
+* **Drupal.org project page**: [https://www.drupal.org/project/varbase](https://www.drupal.org/project/varbase)
+* **GitHub organization**: [https://github.com/Vardot](https://github.com/Vardot)
+* **Vardot website**: [https://www.vardot.com/](https://www.vardot.com/)
