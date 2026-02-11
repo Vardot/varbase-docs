@@ -1,0 +1,37 @@
+# Easy Email Express
+
+The **Easy Email Express** recipe is the all-in-one recipe that replaces all Drupal core emails with HTML-formatted emails. It bundles together the foundational Easy Email recipes into a single, convenient package that can be applied in one step.
+
+## Recipe Type
+
+Composite recipe (bundles multiple Easy Email recipes)
+
+## Overview
+
+Easy Email Express is the recommended way to enable full HTML email support on a Varbase site. Rather than requiring you to apply multiple individual Easy Email recipes, this recipe composes them all together, ensuring that every email sent from the site -- including user registration, password reset, content notifications, and any other system email -- is delivered as a professionally styled HTML message.
+
+This is the Easy Email recipe included in the **Varbase Starter** recipe, so most Varbase sites will have it applied automatically during initial setup.
+
+## Recipe Dependencies
+
+Easy Email Express depends on the following recipes:
+
+- **`easy_email_standard`** -- Base Easy Email module, theme, and Symfony Mailer Lite integration
+- **`easy_email_types_core`** -- Email templates that replicate all Drupal core email content in HTML format
+- **`easy_email_types_default`** -- Default email template that overrides all emails sent from the site
+
+## Installation
+
+1. Require the Easy Email Express package via Composer:
+
+```bash
+composer require drupal/easy_email_express
+```
+
+2. Apply the recipe using Drush:
+
+```bash
+drush recipe recipes/contrib/easy_email_express
+```
+
+After applying the recipe, all emails sent from the site will be formatted as HTML emails using the Easy Email templates and theme.
