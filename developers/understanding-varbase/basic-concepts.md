@@ -80,18 +80,13 @@ The `varbase_starter` recipe is the **top-level entry point** for setting up a V
 2. **Ensures correct ordering** -- recipes are applied in dependency order, so foundational recipes (Drupal Core, Drupal CMS) are applied before Varbase-specific recipes.
 3. **Configures the full feature set** -- after `varbase_starter` finishes, the site has all Varbase features installed and configured.
 
-To apply the starter recipe on an existing Drupal installation:
-
-```bash
-drush recipe recipes/varbase_starter
-```
 
 ## Composer and Recipe Management
 
 Recipes in Varbase are managed through **Composer**. When you create a Varbase project with:
 
 ```bash
-composer create-project vardot/varbase-project:~11 PROJECT_DIR_NAME --no-dev --no-interaction
+ddev composer create-project "drupal/varbase_project:11.0.x-dev"
 ```
 
 Composer downloads:

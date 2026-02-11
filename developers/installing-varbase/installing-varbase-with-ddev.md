@@ -12,40 +12,32 @@ Before you begin, make sure you have the following installed on your machine:
 2. **DDEV** -- Install DDEV by following the official installation guide:
    - [https://ddev.readthedocs.io/en/stable/users/install/](https://ddev.readthedocs.io/en/stable/users/install/)
 
-3. **Composer** -- Composer 2.x must be available on your host machine (or you can use DDEV's built-in Composer).
-   - Install from [https://getcomposer.org/](https://getcomposer.org/)
+## Step 1: Create the Project Directory
 
-## Step 1: Create the Varbase Project
-
-Use Composer to create a new Varbase project:
+Create a new directory for your Varbase project and navigate into it:
 
 ```bash
-composer create-project vardot/varbase-project:~11 PROJECT_DIR_NAME --no-dev --no-interaction
+mkdir varbase11x00b1
+cd varbase11x00b1
 ```
 
-Replace `PROJECT_DIR_NAME` with your desired project directory name.
+Replace `varbase11x00b1` with your desired project directory name.
 
-## Step 2: Navigate to the Project Directory
+## Step 2: Configure DDEV
+
+Run the DDEV configuration command with the following options:
 
 ```bash
-cd PROJECT_DIR_NAME
+ddev config --project-type=drupal11 --docroot=web --php-version=8.4
 ```
 
-## Step 3: Configure DDEV
+This configures the project as a Drupal 11 site with:
 
-Run the DDEV configuration command:
-
-```bash
-ddev config
-```
-
-DDEV will auto-detect the project type as `drupal` and set appropriate defaults. You can accept the defaults or customize them as needed. Common options include:
-
+- **Docroot**: `web` (the Varbase web root).
+- **PHP version**: `8.4`.
 - **Project name**: Defaults to the directory name.
-- **Docroot**: Should be set to `docroot` (the Varbase web root).
-- **PHP version**: Set to `8.3` or `8.4`.
 
-## Step 4: Start DDEV
+## Step 3: Start DDEV
 
 Start the DDEV environment:
 
@@ -55,35 +47,43 @@ ddev start
 
 This command pulls the required Docker images, creates the containers, and starts the development environment. The first run may take a few minutes.
 
-## Step 5: Install Drupal
+## Step 4: Create the Varbase Project
 
-Install Drupal using Drush through DDEV:
-
-```bash
-ddev drush site:install --account-name=admin --account-pass=admin --yes
-```
-
-This installs a minimal Drupal site with the default settings.
-
-## Step 6: Apply the Varbase Starter Recipe
-
-Apply the `varbase_starter` recipe to configure all Varbase features:
+Use Composer inside DDEV to create the Varbase project:
 
 ```bash
-ddev drush recipe ../recipes/varbase_starter
+ddev composer create-project "drupal/varbase_project:11.0.x-dev"
 ```
 
-This applies the full stack of Varbase recipes, including Drupal CMS recipes and Varbase-specific recipes.
+This downloads Varbase and all of its dependencies (Drupal core, contributed modules, recipes, themes, and libraries) into the project directory.
 
-## Step 7: Access Your Site
+The **Varbase Installer** will handle the Drupal installation and apply all Varbase recipes automatically, configuring the full feature set including:
 
-After the recipe is applied, open your site in a browser:
+- Drupal CMS 2.0 recipes (admin UI, media, SEO, anti-spam, privacy, and more)
+- Varbase recipes (content, admin, media, editor, security, SEO, workflow, blog, and more)
+- Easy Email recipes for HTML email support
+- Vartheme BS5 front-end theme and Gin admin theme
+
+## Step 5: Launch Your Site
+
+After the installation is complete, open your site in a browser:
 
 ```bash
 ddev launch
 ```
 
-You can log in with the credentials you set during installation (default: `admin` / `admin`).
+## Complete Installation Commands
+
+Here are all the commands together for quick reference:
+
+```bash
+mkdir varbase11x00b1
+cd varbase11x00b1
+ddev config --project-type=drupal11 --docroot=web --php-version=8.4
+ddev start
+ddev composer create-project "drupal/varbase_project:11.0.x-dev"
+ddev launch
+```
 
 ## Useful DDEV Commands
 
