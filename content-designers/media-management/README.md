@@ -6,11 +6,11 @@ Varbase provides a comprehensive media management system that allows you to uplo
 
 Varbase supports the following media types out of the box:
 
-- **Image** -- Photographs, graphics, and other image files (JPG, PNG, GIF, SVG, WebP).
-- **Video** -- Locally hosted video files (MP4, WebM).
-- **Remote Video** -- Videos hosted on external platforms (YouTube, Vimeo) embedded via oEmbed.
-- **Document** -- Downloadable files such as PDFs, Word documents, spreadsheets, and presentations.
-- **Audio** -- Audio files for streaming or download.
+- **Image**: Photographs, graphics, and other image files (JPG, PNG, GIF, SVG, WebP).
+- **Video**: Locally hosted video files (MP4, WebM).
+- **Remote Video**: Videos hosted on external platforms (YouTube, Vimeo) embedded via oEmbed.
+- **Document**: Downloadable files such as PDFs, Word documents, spreadsheets, and presentations.
+- **Audio**: Audio files for streaming or download.
 
 ## Media Library
 
@@ -43,8 +43,8 @@ Varbase configures responsive image styles so that images are automatically serv
 
 ## Media Management Tasks
 
-- [Accessing the Media Library](accessing-the-media-library.md) -- How to browse and manage your media.
-- [Uploading Media Files](uploading-media-files/) -- How to upload different types of media.
+- [Accessing the Media Library](accessing-the-media-library.md): How to browse and manage your media.
+- [Uploading Media Files](uploading-media-files/): How to upload different types of media.
 
 ## Permissions
 

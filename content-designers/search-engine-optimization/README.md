@@ -33,10 +33,10 @@ Varbase can integrate **Schema.org** structured data to provide search engines w
 
 ## Accessing SEO Tools
 
-- **Meta tags** -- Configured per content item (in the Meta tags section of the content form) and globally at **Configuration > Search and metadata > Metatag**.
-- **XML Sitemap** -- Configured at **Configuration > Search and metadata > Simple Sitemap**.
-- **Yoast SEO** -- Available in the content editing form when the module is enabled.
-- **Schema.org** -- Configured by the development team through contributed modules.
+- **Meta tags**: Configured per content item (in the Meta tags section of the content form) and globally at **Configuration > Search and metadata > Metatag**.
+- **XML Sitemap**: Configured at **Configuration > Search and metadata > Simple Sitemap**.
+- **Yoast SEO**: Available in the content editing form when the module is enabled.
+- **Schema.org**: Configured by the development team through contributed modules.
 
 ## SEO Best Practices
 

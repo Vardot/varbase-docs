@@ -10,16 +10,16 @@ Rather than starting from a bare Drupal installation, Varbase gives development 
 
 ## Key Features
 
-* **Media Management** -- Rich media handling with support for images, video, audio, remote media, and document files, powered by Drupal core media and enhanced with additional functionality.
-* **SEO** -- Built-in search engine optimization tools including metatags, XML sitemap, redirect management, and structured data support.
-* **Security** -- Hardened security configuration with password policies, login security, CAPTCHA, and anti-spam protection.
-* **Content Workflows** -- Editorial workflows with content moderation, revision control, and publishing states.
-* **AI Integration** -- Artificial intelligence recipes for content generation, AI-powered agents, and intelligent automation.
-* **Multilingual** -- Full multilingual support with translation management and right-to-left (RTL) language capabilities.
-* **Bootstrap 5 Ready** -- Ships with **Vartheme BS5**, a Bootstrap 5-based theme that provides a modern, responsive front-end foundation.
-* **Admin Experience** -- Enhanced administration interface using the Gin admin theme with improved toolbar, login screens, and overall usability.
-* **ECA Integration** -- Event-Condition-Action framework deeply integrated for building automated workflows without custom code.
-* **Accessibility** -- WCAG-compliant accessibility features and tools for building inclusive websites.
+- **Media Management**: Rich media handling with support for images, video, audio, remote media, and document files, powered by Drupal core media and enhanced with additional functionality.
+- **SEO**: Built-in search engine optimization tools including metatags, XML sitemap, redirect management, and structured data support.
+- **Security**: Hardened security configuration with password policies, login security, CAPTCHA, and anti-spam protection.
+- **Content Workflows**: Editorial workflows with content moderation, revision control, and publishing states.
+- **AI Integration**: Artificial intelligence recipes for content generation, AI-powered agents, and intelligent automation.
+- **Multilingual**: Full multilingual support with translation management and right-to-left (RTL) language capabilities.
+- **Bootstrap 5 Ready**: Ships with **Vartheme BS5**, a Bootstrap 5-based theme that provides a modern, responsive front-end foundation.
+- **Admin Experience**: Enhanced administration interface using the Gin admin theme with improved toolbar, login screens, and overall usability.
+- **ECA Integration**: Event-Condition-Action framework deeply integrated for building automated workflows without custom code.
+- **Accessibility**: WCAG-compliant accessibility features and tools for building inclusive websites.
 
 ## Who is Varbase For?
 

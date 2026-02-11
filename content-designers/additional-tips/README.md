@@ -4,8 +4,8 @@ This section provides helpful tips, best practices, and reference material for c
 
 ## In This Section
 
-- [Content Uploading Standards](content-uploading-standards.md) -- Best practices for uploading content, including image optimization, file naming conventions, alt text guidelines, and content structure.
-- [Glossary](glossary.md) -- Definitions of key terms and concepts used throughout Varbase and Drupal.
+- [Content Uploading Standards](content-uploading-standards.md): Best practices for uploading content, including image optimization, file naming conventions, alt text guidelines, and content structure.
+- [Glossary](glossary.md): Definitions of key terms and concepts used throughout Varbase and Drupal.
 
 ## General Best Practices
 

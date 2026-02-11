@@ -29,12 +29,12 @@ These are representative resolutions. The actual devices listed and their resolu
 
 When previewing your content on different devices, verify the following:
 
-- **Text readability** -- Is the text legible without zooming? Are paragraphs well-spaced?
-- **Image sizing** -- Do images scale properly? Are they too large or too small on the previewed device?
-- **Navigation** -- Does the site menu work correctly on smaller screens?
-- **Layout** -- Do multi-column layouts stack properly on mobile devices? Are there any horizontal scrolling issues?
-- **Interactive elements** -- Are buttons, links, and form fields large enough to tap on mobile devices?
-- **Media embeds** -- Do embedded videos and other media resize correctly?
+- **Text readability**: Is the text legible without zooming? Are paragraphs well-spaced?
+- **Image sizing**: Do images scale properly? Are they too large or too small on the previewed device?
+- **Navigation**: Does the site menu work correctly on smaller screens?
+- **Layout**: Do multi-column layouts stack properly on mobile devices? Are there any horizontal scrolling issues?
+- **Interactive elements**: Are buttons, links, and form fields large enough to tap on mobile devices?
+- **Media embeds**: Do embedded videos and other media resize correctly?
 
 ## Exiting Responsive Preview
 

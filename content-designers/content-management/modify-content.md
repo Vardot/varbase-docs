@@ -10,10 +10,10 @@ There are several ways to locate the content you want to edit:
 
 1. Navigate to **Content** in the admin navigation sidebar, or go to `/admin/content`.
 2. Use the filters at the top of the listing to narrow your search:
-   - **Title** -- Search by content title.
-   - **Content type** -- Filter by a specific content type.
-   - **Published status** -- Filter by published or unpublished content.
-   - **Language** -- Filter by language (on multilingual sites).
+   - **Title**: Search by content title.
+   - **Content type**: Filter by a specific content type.
+   - **Published status**: Filter by published or unpublished content.
+   - **Language**: Filter by language (on multilingual sites).
 3. Locate the content item in the list.
 4. Click **Edit** in the operations column for that item.
 
@@ -42,9 +42,9 @@ Once you have opened the edit form:
 
 Varbase automatically creates a new revision every time content is saved. This allows you to:
 
-- **View revision history** -- Click the **Revisions** tab on a content item to see a list of all saved revisions, including the date, author, and log message for each.
-- **Compare revisions** -- Use the revision diff feature to compare two revisions side by side. Select two revisions and click **Compare selected revisions** to see exactly what changed between them.
-- **Revert to a previous revision** -- If a change was made in error, you can revert to any previous revision. Click **Revert** next to the desired revision in the revision history.
+- **View revision history**: Click the **Revisions** tab on a content item to see a list of all saved revisions, including the date, author, and log message for each.
+- **Compare revisions**: Use the revision diff feature to compare two revisions side by side. Select two revisions and click **Compare selected revisions** to see exactly what changed between them.
+- **Revert to a previous revision**: If a change was made in error, you can revert to any previous revision. Click **Revert** next to the desired revision in the revision history.
 
 ## Tips for Modifying Content
 

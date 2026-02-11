@@ -4,8 +4,8 @@ Varbase allows you to embed videos from external platforms such as YouTube and V
 
 ## Supported Platforms
 
-- **YouTube** -- Videos and playlists hosted on youtube.com.
-- **Vimeo** -- Videos hosted on vimeo.com.
+- **YouTube**: Videos and playlists hosted on youtube.com.
+- **Vimeo**: Videos hosted on vimeo.com.
 
 ## Steps to Add a Remote Video
 
@@ -17,7 +17,7 @@ Varbase allows you to embed videos from external platforms such as YouTube and V
      - YouTube (short): `https://youtu.be/XXXXXXXXXXX`
      - Vimeo: `https://vimeo.com/XXXXXXXXX`
 4. Fill in the metadata:
-   - **Name** -- A descriptive name for the video. This is used in the Media Library for identification. Drupal may auto-populate this with the video title from the platform.
+   - **Name**: A descriptive name for the video. This is used in the Media Library for identification. Drupal may auto-populate this with the video title from the platform.
 5. Click **Save** to add the remote video to the Media Library.
 
 ## How oEmbed Works

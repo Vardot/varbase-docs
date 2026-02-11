@@ -14,17 +14,17 @@ Creating content is one of the most frequent tasks for editors on a Varbase site
    - Click on the content type you want to create. Each content type has different fields and layouts tailored to its purpose.
 
 3. **Fill in the content fields.**
-   - **Title** -- Enter a descriptive title for your content. This is typically required.
-   - **Body / Content fields** -- Enter the main content using the rich text editor (CKEditor 5) or other field widgets as appropriate.
-   - **Media fields** -- Add images, videos, or other media using the Media Library widget.
-   - **Taxonomy fields** -- Categorize your content by selecting or adding taxonomy terms (e.g., tags, categories).
-   - **URL alias** -- Optionally set a custom URL path for this content item. If left blank, Pathauto will generate an alias automatically.
-   - **Meta tags** -- Configure SEO meta tags for the content item if applicable.
+   - **Title**: Enter a descriptive title for your content. This is typically required.
+   - **Body / Content fields**: Enter the main content using the rich text editor (CKEditor 5) or other field widgets as appropriate.
+   - **Media fields**: Add images, videos, or other media using the Media Library widget.
+   - **Taxonomy fields**: Categorize your content by selecting or adding taxonomy terms (e.g., tags, categories).
+   - **URL alias**: Optionally set a custom URL path for this content item. If left blank, Pathauto will generate an alias automatically.
+   - **Meta tags**: Configure SEO meta tags for the content item if applicable.
 
 4. **Set the moderation state.**
    - Use the **Save as** dropdown or the moderation sidebar to set the initial state of your content:
-     - **Draft** -- Saves the content without publishing it. Only editors and administrators can see drafts.
-     - **Published** -- Makes the content visible to site visitors immediately.
+     - **Draft**: Saves the content without publishing it. Only editors and administrators can see drafts.
+     - **Published**: Makes the content visible to site visitors immediately.
    - See [Publish Content](../publish-content.md) for more details on the publishing workflow.
 
 5. **Save the content.**

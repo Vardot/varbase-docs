@@ -33,14 +33,14 @@ Alternatively, you can edit permissions for a single role:
 
 Permissions are organized by module. Key categories include:
 
-- **Node (Content)** -- Permissions for creating, editing, and deleting content by content type.
-- **Content Moderation** -- Permissions for transitioning content between moderation states (Draft, Published, Archived).
-- **Media** -- Permissions for creating, editing, and deleting media items.
-- **Taxonomy** -- Permissions for managing taxonomy vocabularies and terms.
-- **Menu** -- Permissions for managing menu items.
-- **User** -- Permissions for managing user accounts and roles.
-- **System** -- Permissions for site configuration and administrative tasks.
-- **Webform** -- Permissions for managing webforms and viewing submissions.
+- **Node (Content)**: Permissions for creating, editing, and deleting content by content type.
+- **Content Moderation**: Permissions for transitioning content between moderation states (Draft, Published, Archived).
+- **Media**: Permissions for creating, editing, and deleting media items.
+- **Taxonomy**: Permissions for managing taxonomy vocabularies and terms.
+- **Menu**: Permissions for managing menu items.
+- **User**: Permissions for managing user accounts and roles.
+- **System**: Permissions for site configuration and administrative tasks.
+- **Webform**: Permissions for managing webforms and viewing submissions.
 
 ## Creating a New Role
 

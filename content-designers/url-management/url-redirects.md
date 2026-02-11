@@ -18,25 +18,25 @@ Navigate to **Configuration > Search and metadata > URL redirects**, or go to `/
 
 The redirect management page lists all configured redirects, showing:
 
-- **From** -- The old URL path that will be redirected.
-- **To** -- The destination URL or path.
-- **Status** -- The HTTP redirect status code (usually 301 for permanent redirects).
-- **Operations** -- Edit or delete the redirect.
+- **From**: The old URL path that will be redirected.
+- **To**: The destination URL or path.
+- **Status**: The HTTP redirect status code (usually 301 for permanent redirects).
+- **Operations**: Edit or delete the redirect.
 
 ### Adding a Redirect
 
 1. Click **Add redirect** on the redirect management page.
 2. Fill in the fields:
-   - **Path** (From) -- Enter the old URL path that should be redirected (without the domain, e.g., `old-page-url`).
-   - **To** -- Enter the destination. You can:
+   - **Path** (From): Enter the old URL path that should be redirected (without the domain, e.g., `old-page-url`).
+   - **To**: Enter the destination. You can:
      - Type a page title for autocomplete suggestions (internal paths).
      - Enter an internal path (e.g., `/new-page-url`).
      - Enter an external URL (e.g., `https://example.com/page`).
-   - **Redirect status** -- Select the HTTP status code:
-     - **301 (Moved Permanently)** -- Use for permanent URL changes. This is the most common choice and is best for SEO.
-     - **302 (Found)** -- Use for temporary redirects.
-     - **307 (Temporary Redirect)** -- Similar to 302 but preserves the request method.
-   - **Language** -- Optionally restrict the redirect to a specific language (on multilingual sites).
+   - **Redirect status**: Select the HTTP status code:
+     - **301 (Moved Permanently)**: Use for permanent URL changes. This is the most common choice and is best for SEO.
+     - **302 (Found)**: Use for temporary redirects.
+     - **307 (Temporary Redirect)**: Similar to 302 but preserves the request method.
+   - **Language**: Optionally restrict the redirect to a specific language (on multilingual sites).
 3. Click **Save** to create the redirect.
 
 ### Editing a Redirect

@@ -26,16 +26,16 @@ The specific style options available depend on your site's theme and configurati
 
 ### Spacing (Padding and Margin)
 
-- **Padding** -- Controls the space between the section border and its content (inner spacing).
-- **Margin** -- Controls the space between the section and adjacent sections (outer spacing).
+- **Padding**: Controls the space between the section border and its content (inner spacing).
+- **Margin**: Controls the space between the section and adjacent sections (outer spacing).
 - Spacing options may be available for top, bottom, left, and right independently.
 - Use consistent spacing to create a balanced page layout.
 
 ### Container Width
 
-- **Full width** -- The section spans the full width of the browser window.
-- **Contained** -- The section content is constrained to a maximum width, centered on the page.
-- **Narrow** -- A narrower content width, suitable for text-heavy sections.
+- **Full width**: The section spans the full width of the browser window.
+- **Contained**: The section content is constrained to a maximum width, centered on the page.
+- **Narrow**: A narrower content width, suitable for text-heavy sections.
 
 Choose the container width based on the content type. Full-width sections work well for media and banners, while contained or narrow sections are better for text-based content.
 

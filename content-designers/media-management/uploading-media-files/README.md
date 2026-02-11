@@ -40,12 +40,12 @@ When uploading images, Varbase provides a **Focal Point** feature:
 
 ## Media Types
 
-- [Image](image.md) -- Upload photographs, graphics, and illustrations.
-- [Remote Video](remote-video.md) -- Add videos from YouTube or Vimeo.
-- [Video](video.md) -- Upload locally hosted video files.
+- [Image](image.md): Upload photographs, graphics, and illustrations.
+- [Remote Video](remote-video.md): Add videos from YouTube or Vimeo.
+- [Video](video.md): Upload locally hosted video files.
 
 ## File Size and Format Considerations
 
-- **File size limits** -- Your site may have maximum file size limits for uploads. If you encounter an error, check with your site administrator for the current limits.
-- **Supported formats** -- Each media type accepts specific file formats. Refer to the type-specific guides for details.
-- **Optimization** -- Optimize files before uploading (compress images, encode videos efficiently) to improve site performance. See [Content Uploading Standards](../../additional-tips/content-uploading-standards.md) for best practices.
+- **File size limits**: Your site may have maximum file size limits for uploads. If you encounter an error, check with your site administrator for the current limits.
+- **Supported formats**: Each media type accepts specific file formats. Refer to the type-specific guides for details.
+- **Optimization**: Optimize files before uploading (compress images, encode videos efficiently) to improve site performance. See [Content Uploading Standards](../../additional-tips/content-uploading-standards.md) for best practices.

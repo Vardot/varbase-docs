@@ -28,8 +28,8 @@ See [Taxonomies](taxonomies/) for details.
 
 All content structure tools are accessible from the **Structure** section of the admin navigation sidebar:
 
-- **EntityQueues** -- Structure > EntityQueues
-- **Menus** -- Structure > Menus
-- **Taxonomy** -- Structure > Taxonomy
+- **EntityQueues**: Structure > EntityQueues
+- **Menus**: Structure > Menus
+- **Taxonomy**: Structure > Taxonomy
 
 Additional structural features (content types, block types, views, etc.) are also available under the Structure section for users with appropriate permissions.

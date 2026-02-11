@@ -1,6 +1,6 @@
 # Webforms
 
-Varbase includes the **Webform** module, a powerful form-building tool that allows you to create and manage a wide variety of forms -- from simple contact forms to complex multi-step surveys.
+Varbase includes the **Webform** module, a powerful form-building tool that allows you to create and manage a wide variety of forms, from simple contact forms to complex multi-step surveys.
 
 ## Overview
 
@@ -32,16 +32,16 @@ You can use this template as-is or customize it to fit your specific needs.
 
 ## Webform Tasks
 
-- [Create New Webform](create-new-webform.md) -- Build a new form from scratch or from a template.
-- [Setting up Email Handlers](setting-up-email-handlers.md) -- Configure email notifications for form submissions.
+- [Create New Webform](create-new-webform.md): Build a new form from scratch or from a template.
+- [Setting up Email Handlers](setting-up-email-handlers.md): Configure email notifications for form submissions.
 
 ## Displaying Webforms
 
 Webforms can be displayed on your site in several ways:
 
-- **Dedicated page** -- Each webform has its own URL (e.g., `/form/contact`) where visitors can access and fill out the form.
-- **Block** -- Place the webform as a block within Layout Builder or the block layout to embed it on specific pages.
-- **Embedded in content** -- Reference the webform from a content item's form field to embed it within the content.
+- **Dedicated page**: Each webform has its own URL (e.g., `/form/contact`) where visitors can access and fill out the form.
+- **Block**: Place the webform as a block within Layout Builder or the block layout to embed it on specific pages.
+- **Embedded in content**: Reference the webform from a content item's form field to embed it within the content.
 
 ## Managing Submissions
 

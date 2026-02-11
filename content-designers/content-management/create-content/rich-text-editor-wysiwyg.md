@@ -55,11 +55,11 @@ Varbase provides seamless media embedding within the editor:
 
 Varbase supports **CKEditor 5 Premium Features** when configured, which can include:
 
-- **Track Changes** -- Track edits made by different editors with accept/reject functionality.
-- **Comments** -- Add inline comments for editorial collaboration.
-- **Revision History** -- View and restore previous versions of content within the editor.
-- **Paste from Office Enhanced** -- Improved paste handling from Microsoft Word and Google Docs.
-- **Export to PDF / Word** -- Export editor content to PDF or Word format.
+- **Track Changes**: Track edits made by different editors with accept/reject functionality.
+- **Comments**: Add inline comments for editorial collaboration.
+- **Revision History**: View and restore previous versions of content within the editor.
+- **Paste from Office Enhanced**: Improved paste handling from Microsoft Word and Google Docs.
+- **Export to PDF / Word**: Export editor content to PDF or Word format.
 
 Contact your site administrator to learn which premium features are available on your site.
 
@@ -75,9 +75,9 @@ Varbase configures CKEditor 5 to clean up pasted content automatically:
 
 Varbase provides pre-configured text format profiles that determine which CKEditor features are available. Common profiles include:
 
-- **Full HTML** -- Provides the complete set of formatting tools. Typically available to content administrators.
-- **Basic HTML** -- A restricted set of tools suitable for simple content entry.
-- **Plain Text** -- No formatting; content is saved as plain text.
+- **Full HTML**: Provides the complete set of formatting tools. Typically available to content administrators.
+- **Basic HTML**: A restricted set of tools suitable for simple content entry.
+- **Plain Text**: No formatting; content is saved as plain text.
 
 The available text format depends on your user role and the specific field you are editing. Your site administrator can configure which formats are available to each role.
 

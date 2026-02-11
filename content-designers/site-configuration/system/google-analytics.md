@@ -18,9 +18,9 @@ Alternatively, you can configure Google Analytics/Tag Manager manually using the
    - For Google Analytics 4: Enter the measurement ID (e.g., `G-XXXXXXXXXX`).
    - For Google Tag Manager: Enter the container ID (e.g., `GTM-XXXXXXX`).
 4. Configure additional settings:
-   - **Status** -- Enable or disable tracking.
-   - **Pages** -- Optionally restrict tracking to specific pages.
-   - **Roles** -- Exclude specific roles from tracking (e.g., exclude administrators to avoid skewing analytics data).
+   - **Status**: Enable or disable tracking.
+   - **Pages**: Optionally restrict tracking to specific pages.
+   - **Roles**: Exclude specific roles from tracking (e.g., exclude administrators to avoid skewing analytics data).
 5. Click **Save** to apply the configuration.
 
 ## Google Analytics 4 vs. Google Tag Manager
@@ -42,12 +42,12 @@ Alternatively, you can configure Google Analytics/Tag Manager manually using the
 
 With analytics configured, you can track:
 
-- **Page views** -- Which pages visitors view and how often.
-- **User sessions** -- How long visitors stay on your site and how many pages they visit.
-- **Traffic sources** -- Where visitors come from (search engines, social media, direct, referral).
-- **User behavior** -- How visitors navigate through your site.
-- **Conversions** -- Actions visitors take (e.g., form submissions, downloads).
-- **Demographics** -- General information about your audience (location, device, browser).
+- **Page views**: Which pages visitors view and how often.
+- **User sessions**: How long visitors stay on your site and how many pages they visit.
+- **Traffic sources**: Where visitors come from (search engines, social media, direct, referral).
+- **User behavior**: How visitors navigate through your site.
+- **Conversions**: Actions visitors take (e.g., form submissions, downloads).
+- **Demographics**: General information about your audience (location, device, browser).
 
 ## Verifying the Configuration
 

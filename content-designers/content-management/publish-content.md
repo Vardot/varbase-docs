@@ -60,9 +60,9 @@ Varbase includes support for **Scheduler** functionality, which allows you to sc
 
 ### Use Cases for Scheduling
 
-- **Timed announcements** -- Prepare content in advance and schedule it to go live at a specific time.
-- **Campaign content** -- Set both publish and unpublish dates for time-limited promotional content.
-- **Coordinated releases** -- Schedule multiple content items to publish simultaneously.
+- **Timed announcements**: Prepare content in advance and schedule it to go live at a specific time.
+- **Campaign content**: Set both publish and unpublish dates for time-limited promotional content.
+- **Coordinated releases**: Schedule multiple content items to publish simultaneously.
 
 ## Editorial Workflow Best Practices
 

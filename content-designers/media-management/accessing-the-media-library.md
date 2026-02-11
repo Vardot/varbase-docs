@@ -11,17 +11,17 @@ The Media Library is the central interface for browsing, managing, and selecting
 
 The Media Library provides two display modes:
 
-- **Grid view** -- Displays media items as thumbnails in a grid layout, making it easy to visually browse images and video thumbnails.
-- **Table view** -- Displays media items in a sortable table with columns for name, type, author, and date.
+- **Grid view**: Displays media items as thumbnails in a grid layout, making it easy to visually browse images and video thumbnails.
+- **Table view**: Displays media items in a sortable table with columns for name, type, author, and date.
 
 ### Filtering and Searching
 
 Use the filter options at the top of the Media Library to find specific media:
 
-- **Name** -- Search by media item name or title.
-- **Type** -- Filter by media type (Image, Video, Remote Video, Document, Audio).
-- **Language** -- Filter by language (on multilingual sites).
-- **Published status** -- Show published or unpublished media items.
+- **Name**: Search by media item name or title.
+- **Type**: Filter by media type (Image, Video, Remote Video, Document, Audio).
+- **Language**: Filter by language (on multilingual sites).
+- **Published status**: Show published or unpublished media items.
 
 ### Managing Media Items
 
@@ -39,8 +39,8 @@ When creating or editing content, you can access the Media Library through media
 1. On the content editing form, find a media field (e.g., "Main Image" or "Media").
 2. Click the **Add media** or **Select media** button.
 3. The Media Library widget opens, allowing you to:
-   - **Browse existing media** -- Search and select from media already uploaded to the site.
-   - **Upload new media** -- Upload a new file directly from the widget.
+   - **Browse existing media**: Search and select from media already uploaded to the site.
+   - **Upload new media**: Upload a new file directly from the widget.
 4. Select the desired media item(s) and click **Insert selected** to add them to the content.
 
 ## Bulk Upload

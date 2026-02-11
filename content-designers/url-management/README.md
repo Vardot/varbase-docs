@@ -22,11 +22,11 @@ See [URL Redirects](url-redirects.md) for details.
 
 ## Why URL Management Matters
 
-- **User experience** -- Clean, descriptive URLs help visitors understand where they are on the site and what to expect from a page.
-- **Search engine optimization** -- Search engines favor descriptive URLs and penalize sites with broken links (404 errors). Proper aliases and redirects improve search rankings.
-- **Link integrity** -- When content URLs change, redirects preserve the value of existing links from external sites, social media, and bookmarks.
+- **User experience**: Clean, descriptive URLs help visitors understand where they are on the site and what to expect from a page.
+- **Search engine optimization**: Search engines favor descriptive URLs and penalize sites with broken links (404 errors). Proper aliases and redirects improve search rankings.
+- **Link integrity**: When content URLs change, redirects preserve the value of existing links from external sites, social media, and bookmarks.
 
 ## Accessing URL Management Tools
 
-- **URL aliases** -- Managed per content item (in the URL alias field on the content form) or globally via **Configuration > URL aliases** (`/admin/config/search/path`).
-- **URL redirects** -- Managed at **Configuration > URL redirects** (`/admin/config/search/redirect`).
+- **URL aliases**: Managed per content item (in the URL alias field on the content form) or globally via **Configuration > URL aliases** (`/admin/config/search/path`).
+- **URL redirects**: Managed at **Configuration > URL redirects** (`/admin/config/search/redirect`).

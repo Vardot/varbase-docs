@@ -18,12 +18,12 @@ Varbase provides **Views Bulk Operations (VBO)** functionality on the content li
 
 From the **Action** dropdown menu above the content listing, select the operation you want to perform. Available actions typically include:
 
-- **Publish content** -- Set selected items to the Published moderation state.
-- **Unpublish content** -- Set selected items to an unpublished state (Draft).
-- **Delete content** -- Move selected items to the trash.
-- **Change content language** -- Update the language assignment for selected items (on multilingual sites).
-- **Make content sticky** -- Promote selected items to the top of listings.
-- **Remove sticky flag** -- Remove the sticky promotion from selected items.
+- **Publish content**: Set selected items to the Published moderation state.
+- **Unpublish content**: Set selected items to an unpublished state (Draft).
+- **Delete content**: Move selected items to the trash.
+- **Change content language**: Update the language assignment for selected items (on multilingual sites).
+- **Make content sticky**: Promote selected items to the top of listings.
+- **Remove sticky flag**: Remove the sticky promotion from selected items.
 
 ### Step 3: Apply the Action
 

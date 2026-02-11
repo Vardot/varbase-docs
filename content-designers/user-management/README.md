@@ -10,23 +10,23 @@ Every person who interacts with your Varbase site has a user account (or accesse
 
 Varbase defines the following default roles, listed from least to most privileged:
 
-- **Anonymous** -- Any visitor who is not logged in. Has view-only access to published content.
-- **Authenticated** -- Any user who has logged in. Has basic permissions such as viewing their own profile.
-- **Content Editor** -- Can create and edit content, manage media, and work with drafts. The primary role for editorial staff.
-- **SEO Admin** -- Manages SEO-related configuration including meta tags, URL aliases, and sitemap settings.
-- **Content Admin** -- Has broader content management capabilities, including publishing, archiving, and managing content structure.
-- **Site Admin** -- Can manage most site configuration, users, and structure. Has nearly full administrative access.
-- **Administrator** -- Unrestricted access to all site functionality. Reserved for technical administrators.
+- **Anonymous**: Any visitor who is not logged in. Has view-only access to published content.
+- **Authenticated**: Any user who has logged in. Has basic permissions such as viewing their own profile.
+- **Content Editor**: Can create and edit content, manage media, and work with drafts. The primary role for editorial staff.
+- **SEO Admin**: Manages SEO-related configuration including meta tags, URL aliases, and sitemap settings.
+- **Content Admin**: Has broader content management capabilities, including publishing, archiving, and managing content structure.
+- **Site Admin**: Can manage most site configuration, users, and structure. Has nearly full administrative access.
+- **Administrator**: Unrestricted access to all site functionality. Reserved for technical administrators.
 
 See [Default Roles and Site Personas](default-roles-and-site-persons/) for detailed descriptions of each role.
 
 ## User Management Tasks
 
-- [Login and Registration](login-and-registration.md) -- How users log in and register for accounts.
-- [Add User](add-user.md) -- How to create new user accounts.
-- [Edit User](edit-user.md) -- How to modify existing user accounts.
-- [Delete User](delete-user.md) -- How to remove user accounts.
-- [Managing Roles](default-roles-and-site-persons/managing-roles.md) -- How to manage roles and permissions.
+- [Login and Registration](login-and-registration.md): How users log in and register for accounts.
+- [Add User](add-user.md): How to create new user accounts.
+- [Edit User](edit-user.md): How to modify existing user accounts.
+- [Delete User](delete-user.md): How to remove user accounts.
+- [Managing Roles](default-roles-and-site-persons/managing-roles.md): How to manage roles and permissions.
 
 ## Accessing User Management
 

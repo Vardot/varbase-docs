@@ -8,10 +8,10 @@ An EntityQueue is a named, ordered collection of content (or other entity) refer
 
 Common use cases include:
 
-- **Featured content** -- A curated list of articles or pages highlighted on the homepage.
-- **Staff directory** -- An ordered list of team members.
-- **Promoted resources** -- A hand-picked selection of resources or downloads.
-- **Slider / Carousel content** -- An ordered set of items for a rotating banner.
+- **Featured content**: A curated list of articles or pages highlighted on the homepage.
+- **Staff directory**: An ordered list of team members.
+- **Promoted resources**: A hand-picked selection of resources or downloads.
+- **Slider / Carousel content**: An ordered set of items for a rotating banner.
 
 ## Accessing EntityQueues
 

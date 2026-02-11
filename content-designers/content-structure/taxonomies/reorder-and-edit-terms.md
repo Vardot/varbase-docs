@@ -27,10 +27,10 @@ To modify the properties of an existing taxonomy term:
 2. Find the term you want to edit.
 3. Click **Edit** in the operations column next to the term.
 4. Update the fields as needed:
-   - **Name** -- Change the term's displayed name.
-   - **Description** -- Update or add a description.
-   - **URL alias** -- Modify the URL path for the term's page.
-   - **Relations** -- Change the parent term to restructure the hierarchy.
+   - **Name**: Change the term's displayed name.
+   - **Description**: Update or add a description.
+   - **URL alias**: Modify the URL path for the term's page.
+   - **Relations**: Change the parent term to restructure the hierarchy.
 5. Click **Save** to apply your changes.
 
 ## Deleting a Term
@@ -48,10 +48,10 @@ To remove a taxonomy term:
 
 If the Taxonomy Manager module is enabled, you have access to an enhanced management interface that provides:
 
-- **Tree view** -- A visual representation of the term hierarchy, making it easier to understand the structure.
-- **Inline editing** -- Edit term names directly in the list without opening a separate form.
-- **Quick reordering** -- Drag and drop terms within the tree view.
-- **Search** -- Search for specific terms within large vocabularies.
+- **Tree view**: A visual representation of the term hierarchy, making it easier to understand the structure.
+- **Inline editing**: Edit term names directly in the list without opening a separate form.
+- **Quick reordering**: Drag and drop terms within the tree view.
+- **Search**: Search for specific terms within large vocabularies.
 
 ## Tips
 

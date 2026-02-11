@@ -21,22 +21,22 @@ Varbase 11.0.x is built on **Drupal 11**, taking full advantage of the latest Dr
 
 Varbase 11 integrates with the **Drupal CMS 2.0 initiative**, incorporating its recipes for common website functionality:
 
-- **Admin UI** -- Improved administrative experience
-- **Anti-spam** -- CAPTCHA and spam prevention
-- **Authentication** -- User login and authentication handling
-- **Forms** -- Enhanced form building and management
-- **Media** -- Core media management capabilities
-- **Privacy** -- GDPR and privacy compliance tools
-- **SEO** -- Search engine optimization configuration
-- **Accessibility** -- WCAG compliance and accessibility tooling
+- **Admin UI**: Improved administrative experience
+- **Anti-spam**: CAPTCHA and spam prevention
+- **Authentication**: User login and authentication handling
+- **Forms**: Enhanced form building and management
+- **Media**: Core media management capabilities
+- **Privacy**: GDPR and privacy compliance tools
+- **SEO**: Search engine optimization configuration
+- **Accessibility**: WCAG compliance and accessibility tooling
 
 ## AI Integration Recipes
 
 Varbase 11 introduces a suite of **AI integration recipes** that bring artificial intelligence capabilities into the CMS:
 
-- `varbase_ai_base` -- Foundation recipe for AI integration
-- `varbase_ai_default` -- Default AI configuration and setup
-- `varbase_ai_agents` -- AI-powered agents for content and workflow automation
+- `varbase_ai_base`: Foundation recipe for AI integration
+- `varbase_ai_default`: Default AI configuration and setup
+- `varbase_ai_agents`: AI-powered agents for content and workflow automation
 - Additional AI recipes for specialized use cases
 
 ## Easy Email Recipes

@@ -41,13 +41,13 @@ The Varbase documentation is written in **GitBook-compatible Markdown**. Follow 
 
 ### Markdown Conventions
 
-- **Headings** -- Use `#` for the page title (H1), `##` for main sections (H2), `###` for subsections (H3), and so on. Each page should have exactly one H1 heading.
-- **Bold text** -- Use `**bold**` for UI element names, field labels, and emphasis.
-- **Inline code** -- Use backticks for paths, URLs, commands, and code (e.g., `/admin/content`, `drush cr`).
-- **Code blocks** -- Use triple backticks for multi-line code or command examples.
-- **Lists** -- Use `-` for unordered lists and `1.` for ordered lists.
-- **Links** -- Use relative links for internal documentation pages (e.g., `[Content Management](../content-management/)`).
-- **Tables** -- Use Markdown table syntax for tabular data.
+- **Headings**: Use `#` for the page title (H1), `##` for main sections (H2), `###` for subsections (H3), and so on. Each page should have exactly one H1 heading.
+- **Bold text**: Use `**bold**` for UI element names, field labels, and emphasis.
+- **Inline code**: Use backticks for paths, URLs, commands, and code (e.g., `/admin/content`, `drush cr`).
+- **Code blocks**: Use triple backticks for multi-line code or command examples.
+- **Lists**: Use `-` for unordered lists and `1.` for ordered lists.
+- **Links**: Use relative links for internal documentation pages (e.g., `[Content Management](../content-management/)`).
+- **Tables**: Use Markdown table syntax for tabular data.
 
 ### Content Guidelines
 
@@ -62,10 +62,10 @@ The Varbase documentation is written in **GitBook-compatible Markdown**. Follow 
 
 Each documentation page should follow this general structure:
 
-1. **Title** (H1) -- The topic name.
-2. **Introduction** -- A brief paragraph explaining what the page covers and why it matters.
-3. **Main content** -- Step-by-step instructions, explanations, or reference information, organized with H2 and H3 headings.
-4. **Tips** -- Optional section with helpful best practices or additional notes.
+1. **Title** (H1): The topic name.
+2. **Introduction**: A brief paragraph explaining what the page covers and why it matters.
+3. **Main content**: Step-by-step instructions, explanations, or reference information, organized with H2 and H3 headings.
+4. **Tips**: Optional section with helpful best practices or additional notes.
 
 ## Review Process
 
@@ -80,11 +80,11 @@ After submitting a pull request:
 
 The following types of contributions are always welcome:
 
-- **Typo and grammar fixes** -- Correct spelling, grammar, or formatting errors.
-- **Clarifications** -- Improve unclear explanations or add missing context.
-- **New content** -- Write documentation for features or topics that are not yet covered.
-- **Updates** -- Update existing documentation to reflect changes in new Varbase releases.
-- **Reorganization** -- Suggest improvements to the documentation structure for better navigation and discoverability.
+- **Typo and grammar fixes**: Correct spelling, grammar, or formatting errors.
+- **Clarifications**: Improve unclear explanations or add missing context.
+- **New content**: Write documentation for features or topics that are not yet covered.
+- **Updates**: Update existing documentation to reflect changes in new Varbase releases.
+- **Reorganization**: Suggest improvements to the documentation structure for better navigation and discoverability.
 
 ## Resources
 
