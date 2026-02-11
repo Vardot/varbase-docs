@@ -91,7 +91,7 @@ drush recipe recipes/varbase_starter
 Recipes in Varbase are managed through **Composer**. When you create a Varbase project with:
 
 ```bash
-composer create-project vardot/varbase-project:~11 PROJECT_DIR_NAME --no-dev --no-interaction
+ddev composer create-project "drupal/varbase_project:11.0.x-dev"
 ```
 
 Composer downloads:

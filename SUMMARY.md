@@ -11,7 +11,6 @@
   * [Installing Varbase](developers/installing-varbase/README.md)
     * [Requirements](developers/installing-varbase/requirements.md)
     * [Installing Varbase locally with DDEV](developers/installing-varbase/installing-varbase-with-ddev.md)
-    * [Installing Varbase locally with Lando](developers/installing-varbase/installing-varbase-with-lando.md)
   * [Understanding Varbase](developers/understanding-varbase/README.md)
     * [Basic Concepts](developers/understanding-varbase/basic-concepts.md)
     * [Varbase Recipes](developers/understanding-varbase/varbase-recipes/README.md)

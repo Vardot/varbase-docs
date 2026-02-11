@@ -89,19 +89,20 @@ When reporting a bug, please include:
 
 ## How do I install Varbase?
 
-The recommended way to install Varbase 11.x is using Composer:
+The recommended way to install Varbase 11.x is using DDEV:
 
 ```bash
-composer create-project vardot/varbase-project my_project --no-dev
+mkdir my_varbase_site
+cd my_varbase_site
+ddev config --project-type=drupal11 --docroot=web --php-version=8.4
+ddev start
+ddev composer create-project "drupal/varbase_project:11.0.x-dev"
+ddev launch
 ```
 
-Then apply the Varbase Starter recipe:
+The **Varbase Installer** handles Drupal installation and recipe application automatically.
 
-```bash
-drush recipe recipes/contrib/varbase_starter
-```
-
-For detailed installation instructions, including local development setup with DDEV and Lando, see the [Installing Varbase](installing-varbase/) section.
+For detailed installation instructions, see the [Installing Varbase](installing-varbase/) section.
 
 ---
 

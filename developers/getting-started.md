@@ -4,19 +4,18 @@ Varbase 11.0.x is a Drupal 11 distribution built with the **Drupal Recipes** arc
 
 ## Quick Install
 
-To create a new Varbase project, run the following Composer command:
+The recommended way to install Varbase is using DDEV. Create a project directory, configure DDEV, then use Composer to create the Varbase project inside the container:
 
 ```bash
-composer create-project vardot/varbase-project:~11 PROJECT_DIR_NAME --no-dev --no-interaction
+mkdir my_varbase_site
+cd my_varbase_site
+ddev config --project-type=drupal11 --docroot=web --php-version=8.4
+ddev start
+ddev composer create-project "drupal/varbase_project:11.0.x-dev"
+ddev launch
 ```
 
-Replace `PROJECT_DIR_NAME` with the desired directory name for your project. This command downloads Varbase and all of its dependencies into the specified directory.
-
-After creating the project, you will need to:
-
-1. Set up a local development environment (see [Installing Varbase](installing-varbase/)).
-2. Install Drupal using the standard installer or Drush.
-3. Apply the `varbase_starter` recipe to configure the full Varbase feature set.
+The **Varbase Installer** will guide you through the site setup, including applying all Varbase recipes and configuring the full feature set.
 
 ## Recipe-Based Architecture
 
@@ -37,6 +36,6 @@ The main entry point is the **`varbase_starter`** recipe, which orchestrates the
 
 ## What to Read Next
 
-- **[Installing Varbase](installing-varbase/)** -- Detailed installation instructions for DDEV and Lando environments.
+- **[Installing Varbase](installing-varbase/)** -- Detailed installation instructions for DDEV.
 - **[Understanding Varbase](understanding-varbase/)** -- A deeper look at the recipe architecture and how Varbase is structured.
 - **[Requirements](installing-varbase/requirements.md)** -- System requirements for running Varbase.
