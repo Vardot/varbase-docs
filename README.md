@@ -1,30 +1,25 @@
----
-icon: hand-wave
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/yE16Xb3IemPxJWydtPOj/
----
+# Overview
 
-# Welcome
+Varbase 11.0.x documentation for the recipe-based Drupal CMS distribution.
 
-Welcome to the GitBook starter template! Here you'll get an overview of all the amazing features GitBook offers to help you build beautiful, interactive documentation.
+[Varbase](https://www.drupal.org/project/varbase) is a product of [Vardot](https://www.vardot.com/), the enterprise Drupal solutions provider.
 
-You'll see some of the best parts of GitBook in action — and find help on how you can turn this template into your own.
+Varbase 11.0.x represents a major architectural shift from Drupal modules to **Drupal Recipes**, aligning with the Drupal CMS 2.0 initiative. Instead of monolithic installation profiles, Varbase now uses composable recipes that can be applied individually or combined through the **Varbase Starter** recipe.
 
-### Jump right in
+This documentation covers:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-bolt">:bolt:</i></h4></td><td><strong>Quickstart</strong></td><td>Create your first site</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><h4><i class="fa-leaf">:leaf:</i></h4></td><td><strong>Editor basics</strong></td><td>Learn the basics of GitBook</td><td></td><td></td><td><a href="https://github.com/GitbookIO/gitbook-templates/blob/main/product-docs/broken-reference/README.md">https://github.com/GitbookIO/gitbook-templates/blob/main/product-docs/broken-reference/README.md</a></td></tr><tr><td><h4><i class="fa-globe-pointer">:globe-pointer:</i></h4></td><td><strong>Publish your docs</strong></td><td>Share your docs online</td><td></td><td></td><td><a href="getting-started/publish-your-docs.md">publish-your-docs.md</a></td></tr></tbody></table>
+* **Varbase Recipes** - The core and optional recipes that make up the Varbase distribution
+* **Drupal CMS Recipes** - The foundational Drupal CMS 2.0 recipes that Varbase builds upon
+* **Configuration Guides** - How to configure and customize your Varbase site
+* **Content Designer Guides** - How to manage content, media, and users
+
+## Quick Links
+
+* [Getting Started](developers/getting-started.md)
+* [Installing Varbase](developers/installing-varbase/)
+* [Understanding Varbase Recipes](developers/understanding-varbase/varbase-recipes/)
+* [Drupal CMS Recipes](developers/understanding-varbase/drupal-cms-recipes/)
+
+## Community
+
+Join the Varbase community on [Slack](http://slack.varbase.vardot.com/) for support and discussions.
