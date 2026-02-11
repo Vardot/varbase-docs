@@ -10,7 +10,7 @@ This workflow is triggered by the user login event and sends a notification (typ
 
 ### Event
 
-- **User login** -- Triggered when a user successfully logs into the site.
+- **User login**: Triggered when a user successfully logs into the site.
 
 ### Conditions
 
@@ -22,7 +22,7 @@ Conditions can be configured to filter which login events trigger the notificati
 
 ### Actions
 
-- **Send email** -- Sends a notification email to the configured recipient with details about the login event.
+- **Send email**: Sends a notification email to the configured recipient with details about the login event.
 
 ## Configuration
 

@@ -1,6 +1,6 @@
 # Managing URL Aliases
 
-After configuring Pathauto patterns, you may need to manage existing URL aliases -- including bulk generating aliases for existing content, deleting outdated aliases, or manually editing individual aliases.
+After configuring Pathauto patterns, you may need to manage existing URL aliases, including bulk generating aliases for existing content, deleting outdated aliases, or manually editing individual aliases.
 
 ## Accessing URL Alias Management
 

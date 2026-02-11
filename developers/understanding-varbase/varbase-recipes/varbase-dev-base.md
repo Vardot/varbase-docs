@@ -21,6 +21,14 @@ Brings in the following core and contributed modules to your site:
 | [**SDC Devel**](https://www.drupal.org/project/sdc_devel) | Provides development aids to component developers. |
 | [**Reroute Email**](https://www.drupal.org/project/reroute_email) | Reroutes emails send from the site to a predefined email. Useful for test sites. |
 
+## Available Modules (Not Enabled by Default)
+
+The following modules are downloaded with this recipe but not enabled during installation. You can enable them manually if needed:
+
+| Module | Purpose |
+|---|---|
+| [**Devel Entity Updates**](https://www.drupal.org/project/devel_entity_updates) | Provides developers an API and drush command to perform automatic entity updates. |
+
 ## Installation
 
 Apply the recipe using Drush:

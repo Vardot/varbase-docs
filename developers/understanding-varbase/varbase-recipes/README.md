@@ -4,14 +4,14 @@
 
 ## What Are Drupal Recipes?
 
-Drupal Recipes allow distributions like Varbase to define discrete bundles of functionality that can be applied individually or composed together. Each recipe declares its dependencies, installs the required modules, applies configuration, and sets up permissions -- all in a single, repeatable operation.
+Drupal Recipes allow distributions like Varbase to define discrete bundles of functionality that can be applied individually or composed together. Each recipe declares its dependencies, installs the required modules, applies configuration, and sets up permissions, all in a single, repeatable operation.
 
 This approach provides several advantages over the previous module-based architecture:
 
-- **Composability** -- Recipes can depend on and build upon other recipes, creating a layered architecture.
-- **Selective installation** -- Sites can apply only the recipes they need rather than installing the entire distribution.
-- **Maintainability** -- Each recipe is an independently versioned Drupal.org project, making updates and patches more straightforward.
-- **Compatibility** -- Varbase recipes build on top of Drupal CMS recipes, ensuring alignment with the broader Drupal ecosystem.
+- **Composability**: Recipes can depend on and build upon other recipes, creating a layered architecture.
+- **Selective installation**: Sites can apply only the recipes they need rather than installing the entire distribution.
+- **Maintainability**: Each recipe is an independently versioned Drupal.org project, making updates and patches more straightforward.
+- **Compatibility**: Varbase recipes build on top of Drupal CMS recipes, ensuring alignment with the broader Drupal ecosystem.
 
 ## The Varbase Starter Recipe
 

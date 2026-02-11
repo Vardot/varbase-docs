@@ -16,7 +16,7 @@ The foundational layer provided by Drupal core itself. These recipes handle basi
 
 ### 2. Drupal CMS 2.0 Recipes
 
-The second layer comes from the [Drupal CMS 2.0](https://www.drupal.org/about/drupal-cms) initiative. These recipes provide common website features that most sites need:
+The second layer comes from the [Drupal CMS 2.0](https://www.drupal.org/project/cms) initiative. These recipes provide common website features that most sites need:
 
 - Admin UI enhancements
 - Anti-spam and CAPTCHA protection

@@ -6,11 +6,11 @@ Varbase 11.0.x provides a fully configured JSON:API interface through the **Varb
 
 The Varbase API Base recipe installs and configures the following components:
 
-- **JSON:API** -- Drupal's built-in JSON:API implementation for exposing entities as RESTful API endpoints.
-- **JSON:API Extras** -- Extends JSON:API with resource configuration, field aliasing, and the ability to enable or disable specific resources.
-- **Simple OAuth (OAuth2)** -- Provides OAuth 2.0 authentication for API consumers, including support for client credentials, authorization code, and password grant types.
-- **OpenAPI** -- Generates API documentation following the OpenAPI (Swagger) specification.
-- **OpenAPI UI** -- Provides an interactive Swagger UI for browsing and testing API endpoints.
+- **JSON:API**: Drupal's built-in JSON:API implementation for exposing entities as RESTful API endpoints.
+- **JSON:API Extras**: Extends JSON:API with resource configuration, field aliasing, and the ability to enable or disable specific resources.
+- **Simple OAuth (OAuth2)**: Provides OAuth 2.0 authentication for API consumers, including support for client credentials, authorization code, and password grant types.
+- **OpenAPI**: Generates API documentation following the OpenAPI (Swagger) specification.
+- **OpenAPI UI**: Provides an interactive Swagger UI for browsing and testing API endpoints.
 
 ## JSON:API Configuration
 
@@ -77,11 +77,11 @@ Simple OAuth provides OAuth 2.0 authentication for API consumers. This is essent
 
 4. Click **Add consumer**.
 5. Configure the consumer:
-   - **Label** -- A descriptive name for the API consumer (for example, "Mobile App", "React Frontend").
-   - **Client ID** -- A unique identifier (auto-generated or custom).
-   - **New Secret** -- A secret key for client authentication.
-   - **Scopes/Roles** -- Assign Drupal roles that determine the permissions granted to this consumer.
-   - **Redirect URI** -- The callback URL for authorization code grants.
+   - **Label**: A descriptive name for the API consumer (for example, "Mobile App", "React Frontend").
+   - **Client ID**: A unique identifier (auto-generated or custom).
+   - **New Secret**: A secret key for client authentication.
+   - **Scopes/Roles**: Assign Drupal roles that determine the permissions granted to this consumer.
+   - **Redirect URI**: The callback URL for authorization code grants.
 6. Save the consumer.
 
 ### Obtaining an Access Token

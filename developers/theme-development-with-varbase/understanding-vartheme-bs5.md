@@ -6,10 +6,10 @@
 
 Vartheme BS5 is built on **Bootstrap 5**, one of the most widely used CSS frameworks. It provides:
 
-- **Responsive grid system** -- A 12-column grid with breakpoints for mobile, tablet, and desktop layouts.
-- **Utility classes** -- A comprehensive set of spacing, typography, color, and layout utilities.
-- **Component library** -- Pre-styled UI components including buttons, cards, modals, navbars, and forms.
-- **JavaScript plugins** -- Interactive components such as dropdowns, carousels, and tooltips.
+- **Responsive grid system**: A 12-column grid with breakpoints for mobile, tablet, and desktop layouts.
+- **Utility classes**: A comprehensive set of spacing, typography, color, and layout utilities.
+- **Component library**: Pre-styled UI components including buttons, cards, modals, navbars, and forms.
+- **JavaScript plugins**: Interactive components such as dropdowns, carousels, and tooltips.
 
 ## SCSS Architecture
 
@@ -19,10 +19,10 @@ Vartheme BS5 uses **SCSS** (Sassy CSS) for stylesheets, providing variables, mix
 
 The theme's SCSS files are organized into a structured directory layout:
 
-- **Variables** -- Bootstrap variable overrides that control colors, fonts, spacing, and other design tokens.
-- **Components** -- SCSS partials for individual UI components.
-- **Layout** -- Styles for page layout regions and structural elements.
-- **Base** -- Base element styles, resets, and typography.
+- **Variables**: Bootstrap variable overrides that control colors, fonts, spacing, and other design tokens.
+- **Components**: SCSS partials for individual UI components.
+- **Layout**: Styles for page layout regions and structural elements.
+- **Base**: Base element styles, resets, and typography.
 
 ### Compilation
 
@@ -84,16 +84,16 @@ Vartheme BS5 provides responsive design out of the box through Bootstrap's break
 
 Vartheme BS5 defines the following theme regions for placing blocks:
 
-- **Header** -- Site branding, navigation, and search.
-- **Content** -- Main page content area.
-- **Sidebar** -- Optional sidebar for supplementary content.
-- **Footer** -- Footer blocks including copyright, links, and contact information.
+- **Header**: Site branding, navigation, and search.
+- **Content**: Main page content area.
+- **Sidebar**: Optional sidebar for supplementary content.
+- **Footer**: Footer blocks including copyright, links, and contact information.
 - Additional regions for banners, highlighted content, and other layout needs.
 
 ## Dependencies
 
 Vartheme BS5 depends on:
 
-- **Bootstrap 5** -- CSS framework (loaded via the theme's library definitions).
-- **CVA module** -- Class Variance Authority integration for Drupal.
-- **Drupal core** -- Twig templating, asset libraries, and SDC support.
+- **Bootstrap 5**: CSS framework (loaded via the theme's library definitions).
+- **CVA module**: Class Variance Authority integration for Drupal.
+- **Drupal core**: Twig templating, asset libraries, and SDC support.

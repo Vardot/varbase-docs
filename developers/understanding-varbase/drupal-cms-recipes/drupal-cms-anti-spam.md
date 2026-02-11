@@ -18,7 +18,7 @@ Brings in the following core and contributed modules to your site:
 
 This recipe accepts the following configuration input during installation:
 
-- **site\_uuid** -- Retrieved from `system.site` configuration. Used to configure anti-spam settings specific to the site instance.
+- **site\_uuid**: Retrieved from `system.site` configuration. Used to configure anti-spam settings specific to the site instance.
 
 ## Installation
 

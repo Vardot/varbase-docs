@@ -18,22 +18,22 @@ Drupal includes built-in flood control for the login form that limits failed log
 
 Limits the total number of failed login attempts from a single IP address, regardless of which username is used.
 
-- **Limit** -- Maximum number of failed attempts allowed within the window (default: 50).
-- **Window** -- Time period in seconds during which the limit applies (default: 3600 seconds / 1 hour).
+- **Limit**: Maximum number of failed attempts allowed within the window (default: 50).
+- **Window**: Time period in seconds during which the limit applies (default: 3600 seconds / 1 hour).
 
 ### User-Based Limiting
 
 Limits the number of failed login attempts for a specific user account, regardless of the IP address.
 
-- **Limit** -- Maximum number of failed attempts allowed within the window (default: 5).
-- **Window** -- Time period in seconds during which the limit applies (default: 21600 seconds / 6 hours).
+- **Limit**: Maximum number of failed attempts allowed within the window (default: 5).
+- **Window**: Time period in seconds during which the limit applies (default: 21600 seconds / 6 hours).
 
 ## Contact Form Flood Control
 
 Flood control can also be applied to the contact form to prevent abuse:
 
-- **Limit** -- Maximum number of contact form submissions from a single user or IP within the window.
-- **Window** -- Time period in seconds during which the limit applies.
+- **Limit**: Maximum number of contact form submissions from a single user or IP within the window.
+- **Window**: Time period in seconds during which the limit applies.
 
 ## Configuring Flood Control Settings
 

@@ -10,16 +10,16 @@ Role changes can have significant security implications, as they modify a user's
 
 ### Event
 
-- **User presave** or **User update** -- Triggered when a user account is saved with changes.
+- **User presave** or **User update**: Triggered when a user account is saved with changes.
 
 ### Conditions
 
-- **Role changed** -- Checks whether the user's roles have been modified compared to the original values before the save.
-- **Changed by admin** -- Optionally verifies that the change was made by an administrator rather than the user themselves.
+- **Role changed**: Checks whether the user's roles have been modified compared to the original values before the save.
+- **Changed by admin**: Optionally verifies that the change was made by an administrator rather than the user themselves.
 
 ### Actions
 
-- **Send notification email** -- Sends an email to the site administrator or security team with details about the role change, including:
+- **Send notification email**: Sends an email to the site administrator or security team with details about the role change, including:
   - The user whose role was changed.
   - Which roles were added or removed.
   - The administrator who made the change.

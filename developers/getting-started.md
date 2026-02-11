@@ -36,6 +36,6 @@ The main entry point is the **`varbase_starter`** recipe, which orchestrates the
 
 ## What to Read Next
 
-- **[Installing Varbase](installing-varbase/)** -- Detailed installation instructions for DDEV.
-- **[Understanding Varbase](understanding-varbase/)** -- A deeper look at the recipe architecture and how Varbase is structured.
-- **[Requirements](installing-varbase/requirements.md)** -- System requirements for running Varbase.
+- **[Installing Varbase](installing-varbase/)**: Detailed installation instructions for DDEV.
+- **[Understanding Varbase](understanding-varbase/)**: A deeper look at the recipe architecture and how Varbase is structured.
+- **[Requirements](installing-varbase/requirements.md)**: System requirements for running Varbase.

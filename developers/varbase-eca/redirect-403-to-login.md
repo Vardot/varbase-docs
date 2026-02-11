@@ -10,15 +10,15 @@ By default, when an anonymous user tries to access a page they do not have permi
 
 ### Event
 
-- **Kernel exception** or **Access denied event** -- Triggered when a 403 response is about to be returned.
+- **Kernel exception** or **Access denied event**: Triggered when a 403 response is about to be returned.
 
 ### Conditions
 
-- **User is anonymous** -- Only redirects anonymous (not logged in) users. Authenticated users who receive a 403 are shown the standard access denied page, as they genuinely lack permission.
+- **User is anonymous**: Only redirects anonymous (not logged in) users. Authenticated users who receive a 403 are shown the standard access denied page, as they genuinely lack permission.
 
 ### Actions
 
-- **Redirect to login** -- Redirects the user to the login page (`/user/login`) with a `destination` query parameter set to the originally requested page, ensuring the user is returned to their intended destination after logging in.
+- **Redirect to login**: Redirects the user to the login page (`/user/login`) with a `destination` query parameter set to the originally requested page, ensuring the user is returned to their intended destination after logging in.
 
 ## Configuration
 

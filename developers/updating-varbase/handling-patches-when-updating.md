@@ -43,9 +43,9 @@ If patches fail to apply, Composer will report errors for each failed patch.
 
 For each failed patch, determine whether:
 
-1. **The patch is no longer needed** -- Check the issue on Drupal.org to see if the fix has been committed to the new version.
-2. **The patch needs to be re-rolled** -- The patch is still needed but must be updated for the new version.
-3. **The patch was moved** -- Varbase may have updated the patch in the `vardot/varbase-patches` repository.
+1. **The patch is no longer needed**: Check the issue on Drupal.org to see if the fix has been committed to the new version.
+2. **The patch needs to be re-rolled**: The patch is still needed but must be updated for the new version.
+3. **The patch was moved**: Varbase may have updated the patch in the `vardot/varbase-patches` repository.
 
 ### Step 3: Update Your Patches Configuration
 
@@ -125,16 +125,16 @@ This keeps your `composer.json` cleaner and makes patch management easier.
 
 ## Best Practices
 
-1. **Review patches before updating** -- Before running `composer update`, review your current patches to understand what they fix and check if any have been committed upstream.
+1. **Review patches before updating**: Before running `composer update`, review your current patches to understand what they fix and check if any have been committed upstream.
 
-2. **Update one package at a time** -- When dealing with patch issues, update packages individually to isolate which patches fail:
+2. **Update one package at a time**: When dealing with patch issues, update packages individually to isolate which patches fail:
 
 ```bash
 composer update drupal/specific_module --with-all-dependencies
 ```
 
-3. **Keep patches documented** -- Always include a descriptive label and a link to the Drupal.org issue for each patch in your `composer.json`.
+3. **Keep patches documented**: Always include a descriptive label and a link to the Drupal.org issue for each patch in your `composer.json`.
 
-4. **Monitor the Varbase patches repository** -- Stay up to date with changes in `vardot/varbase-patches` by reviewing its changelog before updating.
+4. **Monitor the Varbase patches repository**: Stay up to date with changes in `vardot/varbase-patches` by reviewing its changelog before updating.
 
-5. **Test after every update** -- After resolving patch issues and completing the update, thoroughly test the affected functionality to ensure nothing is broken.
+5. **Test after every update**: After resolving patch issues and completing the update, thoroughly test the affected functionality to ensure nothing is broken.

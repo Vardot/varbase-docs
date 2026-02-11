@@ -6,13 +6,13 @@ This guide walks you through installing Varbase 11.0.x on your local machine usi
 
 Before you begin, make sure you have the following installed:
 
-1. **Docker** -- Lando requires Docker (or Docker Desktop).
+1. **Docker**: Lando requires Docker (or Docker Desktop).
    - Install Docker Desktop from [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
 
-2. **Lando** -- Install Lando by following the official installation guide:
+2. **Lando**: Install Lando by following the official installation guide:
    - [https://docs.lando.dev/install/](https://docs.lando.dev/install/)
 
-3. **Composer** -- Composer 2.x must be available on your host machine.
+3. **Composer**: Composer 2.x must be available on your host machine.
    - Install from [https://getcomposer.org/](https://getcomposer.org/)
 
 ## Step 1: Create the Varbase Project

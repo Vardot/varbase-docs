@@ -75,6 +75,14 @@ Brings in the following core and contributed modules to your site:
 | [**Rabbit Hole**](https://www.drupal.org/project/rabbit_hole) | Basic functionality that is shared among the different Rabbit Hole modules. |
 | [**View Modes Inventory**](https://www.drupal.org/project/vmi) | This module has a set of template view modes that we typically use (some of them) in each website. |
 
+## Available Modules (Not Enabled by Default)
+
+The following modules are downloaded with this recipe but not enabled during installation. You can enable them manually if needed:
+
+| Module | Purpose |
+|---|---|
+| [**Entity Clone**](https://www.drupal.org/project/entity_clone) | Add a clone action for all entities. |
+
 ## Installation
 
 Apply the recipe using Drush:

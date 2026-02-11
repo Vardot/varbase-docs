@@ -22,6 +22,14 @@ Brings in the following core and contributed modules to your site:
 | [**Scheduler Content Moderation Integration**](https://www.drupal.org/project/scheduler_content_moderation_integration) | Scheduler sub-module providing content moderation functionality for publishing/unpublishing. |
 | [**Admin Audit Trail Workflows**](https://www.drupal.org/project/admin_audit_trail) | Logs workflows events performed by the user. |
 
+## Available Modules (Not Enabled by Default)
+
+The following modules are downloaded with this recipe but not enabled during installation. You can enable them manually if needed:
+
+| Module | Purpose |
+|---|---|
+| [**Content Moderation Notifications**](https://www.drupal.org/project/content_moderation_notifications) | Allows emails to be sent on state transitions. |
+
 ## Installation
 
 Apply the recipe using Drush:

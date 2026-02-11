@@ -8,11 +8,11 @@ Varbase 11.x represents a fundamental architectural shift from a **module-based*
 
 Key differences that prevent a direct upgrade:
 
-- **Drupal 10 to Drupal 11** -- Major Drupal core version change with removed deprecated APIs.
-- **Modules to Recipes** -- Varbase modules (`varbase_core`, `varbase_media`, `varbase_editor`, etc.) have been replaced by Varbase recipes (`varbase_content_base`, `varbase_media_base`, `varbase_editor_base`, etc.).
-- **Installation Profile to Recipes** -- The Varbase installation profile is no longer used; site setup is handled through recipes.
-- **Easy Email replaces Varbase Email** -- The email system has been completely replaced.
-- **ECA replaces custom workflow code** -- Workflow automation now uses ECA instead of custom module code.
+- **Drupal 10 to Drupal 11**: Major Drupal core version change with removed deprecated APIs.
+- **Modules to Recipes**: Varbase modules (`varbase_core`, `varbase_media`, `varbase_editor`, etc.) have been replaced by Varbase recipes (`varbase_content_base`, `varbase_media_base`, `varbase_editor_base`, etc.).
+- **Installation Profile to Recipes**: The Varbase installation profile is no longer used; site setup is handled through recipes.
+- **Easy Email replaces Varbase Email**: The email system has been completely replaced.
+- **ECA replaces custom workflow code**: Workflow automation now uses ECA instead of custom module code.
 
 ## Recommended Approach
 
