@@ -108,7 +108,7 @@ For detailed installation instructions, see the [Installing Varbase](installing-
 
 ## What PHP version does Varbase 11.x require?
 
-Varbase 11.x requires **PHP 8.3** or later. This is a requirement inherited from Drupal 11.
+Varbase 11.x requires **PHP 8.4** or later. This is a requirement inherited from Drupal 11.
 
 ---
 
