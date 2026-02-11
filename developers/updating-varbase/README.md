@@ -39,7 +39,7 @@ drush cr
 When a Varbase recipe receives updates that include new configuration, you may need to re-apply the recipe to pick up those changes:
 
 ```bash
-drush recipe recipes/contrib/recipe_name
+ddev drush recipe ../recipes/recipe_name
 ```
 
 Check the release notes for each update to determine whether recipe re-application is required.
@@ -48,7 +48,7 @@ Check the release notes for each update to determine whether recipe re-applicati
 
 ### [Updating from Varbase 10.x to 11.x](updating-from-10-to-11.md)
 
-A comprehensive migration guide for upgrading from Varbase 10.x (Drupal 10, module-based) to Varbase 11.x (Drupal 11, recipe-based).
+There is currently no supported update or upgrade path from Varbase 10.x to 11.x. This page explains why and outlines the recommended approach.
 
 ### [Handling Patches When Updating](handling-patches-when-updating.md)
 

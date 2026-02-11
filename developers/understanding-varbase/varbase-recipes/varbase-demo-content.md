@@ -19,14 +19,18 @@ Varbase Demo Content creates sample content that showcases the features and cont
 
 ## Recipe Dependencies
 
-- `varbase_media_assets` -- Provides the default demo media assets (images, videos, documents) used by the demo content
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| [**Varbase Media Assets**](varbase-media-assets.md) | Default demo media assets including images, videos, and documents. |
 
 ## Installation
 
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/varbase_demo_content
+ddev drush recipe ../recipes/varbase_demo_content
 ```
 
 ## Notes

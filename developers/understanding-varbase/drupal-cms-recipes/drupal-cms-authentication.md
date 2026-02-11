@@ -4,9 +4,13 @@
 
 The Drupal CMS Authentication recipe provides enhanced authentication features, including the ability for users to log in with either their email address or username. It also sets up user profile pictures and event-driven automation for authentication workflows.
 
-## Dependencies
+## Recipe Dependencies
 
-- **core/recipes/user\_picture** -- Core recipe for user profile pictures
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| **user_picture** *(Drupal core)* | Core recipe for user profile pictures. |
 
 ## Included Modules
 
@@ -30,7 +34,7 @@ Brings in the following core and contributed modules to your site:
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/drupal_cms_authentication
+ddev drush recipe ../recipes/drupal_cms_authentication
 ```
 
 ## Usage

@@ -28,5 +28,5 @@ Brings in the following core and contributed modules to your site:
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/varbase_api_base
+ddev drush recipe ../recipes/varbase_api_base
 ```

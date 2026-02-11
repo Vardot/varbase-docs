@@ -20,6 +20,11 @@ Brings in the following core and contributed modules to your site:
 | [**Mail System**](https://www.drupal.org/project/mailsystem) | Provides a user interface for per-module and site-wide mail_system selection. |
 | [**Drupal Symfony Mailer Lite**](https://www.drupal.org/project/symfony_mailer_lite) | Send emails with Symfony Mailer library. |
 | [**Easy Email**](https://www.drupal.org/project/easy_email) | A simple system for sending HTML-formatted emails. |
+
+## Included Themes
+
+| Theme | Description |
+|---|---|
 | [**Easy Email Theme**](https://www.drupal.org/project/easy_email_theme) | A theme for sending HTML emails. |
 
 ## Installation
@@ -27,7 +32,7 @@ Brings in the following core and contributed modules to your site:
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/easy_email_standard
+ddev drush recipe ../recipes/easy_email_standard
 ```
 
 After applying the recipe, the site will have the base infrastructure for sending HTML-formatted emails. To define specific email templates, apply additional Easy Email recipes such as Easy Email Types Core or Easy Email Types Default.

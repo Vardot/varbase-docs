@@ -25,12 +25,16 @@ Brings in the following core and contributed modules to your site:
 
 ## Recipe Dependencies
 
-- `core/recipes/core_recommended_maintenance`
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| **core_recommended_maintenance** *(Drupal core)* | Baseline performance and maintenance settings. |
 
 ## Installation
 
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/varbase_performance_base
+ddev drush recipe ../recipes/varbase_performance_base
 ```

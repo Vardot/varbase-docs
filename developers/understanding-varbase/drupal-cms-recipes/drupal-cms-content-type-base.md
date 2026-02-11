@@ -4,10 +4,14 @@
 
 The Drupal CMS Content Type Base recipe provides the basic tools for creating and managing content. It establishes content editing workflows, URL alias patterns, scheduled publishing, and other essential content management features that other content type recipes build upon.
 
-## Dependencies
+## Recipe Dependencies
 
-- **core/recipes/content\_editor\_role** -- Core recipe that creates the content editor role
-- **core/recipes/image\_media\_type** -- Core recipe for the image media type
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| **content_editor_role** *(Drupal core)* | Creates the content editor role. |
+| **image_media_type** *(Drupal core)* | Core recipe for the image media type. |
 
 ## Included Modules
 
@@ -18,7 +22,6 @@ Brings in the following core and contributed modules to your site:
 | [**Autosave Form**](https://www.drupal.org/project/autosave_form) | Adds autosave feature on forms. |
 | [**BPMN.iO Modeler**](https://www.drupal.org/project/bpmn_io) | BPMN modeler, integrated into Drupal's admin UI. |
 | [**Drupal Canvas**](https://www.drupal.org/project/canvas) | Empowers content creators to build experiences by composing components, with as much freedom as site builders allow, all without needing to write code. |
-| [**Canvas Stark**](https://www.drupal.org/project/canvas) | A plain theme by Drupal Canvas using the semi-coupled theme engine. |
 | [**ECA Base**](https://www.drupal.org/project/eca) | Base events, conditions and actions. |
 | [**ECA Config**](https://www.drupal.org/project/eca) | Config events. |
 | [**ECA Content**](https://www.drupal.org/project/eca) | Content entity events, conditions and actions. |
@@ -43,12 +46,18 @@ Brings in the following core and contributed modules to your site:
 | **Views** *(in Drupal core)* | Provides a framework to fetch information from the database and to display it in different formats. |
 | **Workflows** *(in Drupal core)* | Provides an interface to create workflows with transitions between different states (for example publication or user status) provided by other modules. |
 
+## Included Themes
+
+| Theme | Description |
+|---|---|
+| [**Canvas Stark**](https://www.drupal.org/project/canvas) | A plain theme by Drupal Canvas using the semi-coupled theme engine. |
+
 ## Installation
 
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/drupal_cms_content_type_base
+ddev drush recipe ../recipes/drupal_cms_content_type_base
 ```
 
 ## Usage

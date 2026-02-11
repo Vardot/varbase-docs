@@ -12,10 +12,14 @@ Varbase Blog Base delivers a ready-to-use blogging experience by building on top
 
 ## Recipe Dependencies
 
-- `varbase_content_base`
-- `varbase_media_base`
-- `varbase_seo_base`
-- `varbase_workflow_base`
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| [**Varbase Content Base**](varbase-content-base.md) | Core content configuration including node types and taxonomy. |
+| [**Varbase Media Base**](varbase-media-base.md) | Comprehensive media handling with image styles and media library. |
+| [**Varbase SEO Base**](varbase-seo-base.md) | Comprehensive SEO modules and configurations. |
+| [**Varbase Workflow Base**](varbase-workflow-base.md) | Content moderation, scheduled publishing, and workflows. |
 
 ## Included Modules
 
@@ -30,5 +34,5 @@ Brings in the following core and contributed modules to your site:
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/varbase_blog_base
+ddev drush recipe ../recipes/varbase_blog_base
 ```

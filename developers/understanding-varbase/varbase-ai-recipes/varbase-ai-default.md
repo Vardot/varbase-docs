@@ -21,16 +21,20 @@ Brings in the following core and contributed modules to your site:
 | [**AI Automators**](https://www.drupal.org/project/ai) | Allows AI and other tools and services to automatically generate field values on content creation. |
 | [**AI CKEditor integration**](https://www.drupal.org/project/ai) | Adds a plugin for CKEditor 5 to let editors prompt AI for text generation purposes. |
 
-## Dependencies
+## Recipe Dependencies
 
-- Varbase AI Base
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| [**Varbase AI Base**](varbase-ai-base.md) | Core AI modules and default Varbase AI configurations. |
 
 ## Installation
 
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/varbase_ai_default
+ddev drush recipe ../recipes/varbase_ai_default
 ```
 
 ## Usage

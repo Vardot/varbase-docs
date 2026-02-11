@@ -22,7 +22,7 @@ Varbase Media Assets is a companion recipe to Varbase Demo Content. It supplies 
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/varbase_media_assets
+ddev drush recipe ../recipes/varbase_media_assets
 ```
 
 ## Notes

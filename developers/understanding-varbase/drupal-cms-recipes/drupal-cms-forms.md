@@ -4,9 +4,13 @@
 
 The Drupal CMS Forms recipe provides simple contact form and form building tools. It integrates the Webform module with anti-spam protections, giving site builders a powerful yet user-friendly way to create and manage forms.
 
-## Dependencies
+## Recipe Dependencies
 
-- **drupal\_cms\_anti\_spam** -- Anti-spam and anti-abuse functionality to protect forms from automated submissions
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| [**Drupal CMS Anti-Spam**](drupal-cms-anti-spam.md) | Anti-spam and anti-abuse functionality to protect forms from automated submissions. |
 
 ## Included Modules
 
@@ -26,7 +30,7 @@ Brings in the following core and contributed modules to your site:
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/drupal_cms_forms
+ddev drush recipe ../recipes/drupal_cms_forms
 ```
 
 ## Usage

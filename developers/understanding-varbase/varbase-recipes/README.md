@@ -56,7 +56,7 @@ composer require drupal/recipe_name
 2. Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/recipe_name
+ddev drush recipe ../recipes/recipe_name
 ```
 
 Refer to each recipe's documentation page for specific installation commands and details.

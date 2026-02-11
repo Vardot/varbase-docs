@@ -4,9 +4,13 @@
 
 The Drupal CMS Accessibility Tools recipe provides automated accessibility checks using the Editoria11y module. It helps content editors identify and fix accessibility issues directly within the content editing interface, promoting WCAG compliance across the site.
 
-## Dependencies
+## Recipe Dependencies
 
-- **drupal\_cms\_content\_type\_base** -- Basic content type tools required for content integration
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| [**Drupal CMS Content Type Base**](drupal-cms-content-type-base.md) | Basic content type tools required for content integration. |
 
 ## Included Modules
 
@@ -22,7 +26,7 @@ Brings in the following core and contributed modules to your site:
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/drupal_cms_accessibility_tools
+ddev drush recipe ../recipes/drupal_cms_accessibility_tools
 ```
 
 ## Usage

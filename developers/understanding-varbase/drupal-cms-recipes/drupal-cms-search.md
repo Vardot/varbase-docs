@@ -13,7 +13,6 @@ Brings in the following core and contributed modules to your site:
 | **Automated Cron** *(in Drupal core)* | Provides an automated way to run cron jobs, by executing them at the end of a server response. |
 | **Block** *(in Drupal core)* | Allows users to configure blocks (containing content, forms, etc.) and to place them in the regions of a theme. |
 | [**Drupal Canvas**](https://www.drupal.org/project/canvas) | Empowers content creators to build experiences by composing components, with as much freedom as site builders allow, all without needing to write code. |
-| [**Canvas Stark**](https://www.drupal.org/project/canvas) | A plain theme by Drupal Canvas using the semi-coupled theme engine. |
 | [**Drupal CMS Helper**](https://www.drupal.org/project/drupal_cms_helper) | Provides functionality for Drupal CMS that is not yet in Drupal core or dependencies. |
 | [**ECA Config**](https://www.drupal.org/project/eca) | Config events. |
 | [**ECA User**](https://www.drupal.org/project/eca) | User events, conditions and actions. |
@@ -23,12 +22,18 @@ Brings in the following core and contributed modules to your site:
 | [**Search API Exclude**](https://www.drupal.org/project/search_api_exclude) | Allows users to exclude certain nodes from being indexed. |
 | **Views** *(in Drupal core)* | Provides a framework to fetch information from the database and to display it in different formats. |
 
+## Included Themes
+
+| Theme | Description |
+|---|---|
+| [**Canvas Stark**](https://www.drupal.org/project/canvas) | A plain theme by Drupal Canvas using the semi-coupled theme engine. |
+
 ## Installation
 
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/drupal_cms_search
+ddev drush recipe ../recipes/drupal_cms_search
 ```
 
 ## Usage

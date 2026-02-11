@@ -14,7 +14,11 @@ Each template replicates the original Drupal core email content while wrapping i
 
 ## Recipe Dependencies
 
-- **`easy_email_text_format`** -- Provides the text format and CKEditor 5 configuration for editing email template content
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| [**Easy Email Text Format**](easy-email-text-format.md) | Text format and CKEditor 5 configuration for email template editing. |
 
 ## Included Modules
 
@@ -30,7 +34,7 @@ Brings in the following core and contributed modules to your site:
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/easy_email_types_core
+ddev drush recipe ../recipes/easy_email_types_core
 ```
 
 After applying the recipe, all standard Drupal core emails will be sent as HTML-formatted messages using the corresponding Easy Email templates.

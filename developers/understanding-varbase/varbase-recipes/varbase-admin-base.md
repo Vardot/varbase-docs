@@ -13,7 +13,6 @@ Brings in the following core and contributed modules to your site:
 | Module | Purpose |
 |---|---|
 | **Node** *(in Drupal core)* | Manages the creation, configuration, and display of the main site content. |
-| [**Gin**](https://www.drupal.org/project/gin) | Admin theme with a strong focus on improving the Editorial Experience. |
 | [**RoleAssign**](https://www.drupal.org/project/roleassign) | Allows site administrators to further delegate the task of managing user's roles. |
 | [**Custom Permissions**](https://www.drupal.org/project/config_perms) | Allows additional permissions to be created and managed through an administration form. |
 | [**Admin Audit Trail**](https://www.drupal.org/project/admin_audit_trail) | Logs general CUD events performed by the user (using the forms) on the website. |
@@ -46,20 +45,16 @@ Brings in the following core and contributed modules to your site:
 | [**ECA VBO**](https://www.drupal.org/project/eca_vbo) | Integrates ECA: Event - Condition - Action with Views Bulk Operations (VBO). |
 | [**UI Icons Form element**](https://www.drupal.org/project/ui_icons) | Core Icons main form element for Icon autocomplete. |
 
-## Permissions
+## Included Themes
 
-Varbase Admin Base configures role-based permissions for the following roles:
-
-- **Authenticated** -- Basic permissions for logged-in users
-- **Editor** -- Content editing and moderation permissions
-- **SEO Admin** -- SEO-related configuration and content permissions
-- **Content Admin** -- Advanced content management and administrative permissions
-- **Site Admin** -- Full site administration permissions including masquerade, audit trail access, and menu management
+| Theme | Description |
+|---|---|
+| [**Gin**](https://www.drupal.org/project/gin) | Admin theme with a strong focus on improving the Editorial Experience. |
 
 ## Installation
 
 Apply the recipe using Drush:
 
 ```bash
-drush recipe recipes/contrib/varbase_admin_base
+ddev drush recipe ../recipes/varbase_admin_base
 ```
