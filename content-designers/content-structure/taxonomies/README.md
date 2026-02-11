@@ -6,17 +6,17 @@ Taxonomies provide a structured way to categorize and organize content on your V
 
 A **taxonomy** is a classification system made up of:
 
-- **Vocabularies** -- A vocabulary is a group of related terms. For example, "Tags," "Categories," or "Departments" are all vocabularies.
-- **Terms** -- A term is an individual item within a vocabulary. For example, "Technology," "Health," and "Education" might be terms within a "Categories" vocabulary.
+- **Vocabularies**: A vocabulary is a group of related terms. For example, "Tags," "Categories," or "Departments" are all vocabularies.
+- **Terms**: A term is an individual item within a vocabulary. For example, "Technology," "Health," and "Education" might be terms within a "Categories" vocabulary.
 
 Content is categorized by assigning taxonomy terms to content items through taxonomy reference fields.
 
 ## Common Uses
 
-- **Tags** -- Freeform keywords applied to content for flexible categorization.
-- **Categories** -- A predefined set of categories for organizing content into sections.
-- **Content topics** -- Subject areas for filtering and grouping related content.
-- **Departments or teams** -- Organizational units for associating content with specific groups.
+- **Tags**: Freeform keywords applied to content for flexible categorization.
+- **Categories**: A predefined set of categories for organizing content into sections.
+- **Content topics**: Subject areas for filtering and grouping related content.
+- **Departments or teams**: Organizational units for associating content with specific groups.
 
 ## Accessing Taxonomy Management
 
@@ -26,8 +26,8 @@ Content is categorized by assigning taxonomy terms to content items through taxo
 
 ## Taxonomy Tasks
 
-- [Add Terms](add-terms.md) -- Add new terms to a vocabulary.
-- [Reorder and Edit Terms](reorder-and-edit-terms.md) -- Change the order of terms and edit existing ones.
+- [Add Terms](add-terms.md): Add new terms to a vocabulary.
+- [Reorder and Edit Terms](reorder-and-edit-terms.md): Change the order of terms and edit existing ones.
 
 ## How Taxonomies Are Used in Content
 

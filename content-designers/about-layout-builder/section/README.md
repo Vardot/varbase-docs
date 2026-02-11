@@ -44,9 +44,9 @@ When adding a section, you choose from the following column layout options:
 
 After adding a section, you can configure it by clicking on the section's settings:
 
-- **Column widths** -- Adjust the width distribution between columns.
-- **Styles** -- Apply visual styles such as background colors, spacing, and container width.
-- **Administrative label** -- Add a label to help identify the section in the Layout Builder interface (not displayed on the front end).
+- **Column widths**: Adjust the width distribution between columns.
+- **Styles**: Apply visual styles such as background colors, spacing, and container width.
+- **Administrative label**: Add a label to help identify the section in the Layout Builder interface (not displayed on the front end).
 
 ## Removing a Section
 

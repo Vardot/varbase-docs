@@ -28,15 +28,15 @@ See [Web Services](web-services/) for details.
 
 Navigate to **Configuration** in the admin navigation sidebar, or go to `/admin/config`. The Configuration page organizes all settings into categories:
 
-- **People** -- Account settings, registration, and login configuration.
-- **Content authoring** -- Text formats, editor settings, and content creation tools.
-- **Development** -- Logging, error reporting, and maintenance mode.
-- **Search and metadata** -- URL aliases, redirects, meta tags, and sitemaps.
-- **System** -- Site information, cron, performance, and caching.
-- **User interface** -- Navigation settings, shortcuts, and UI tools.
-- **Regional and language** -- Date/time formats, language settings, and translation.
-- **Media** -- File system, image styles, and media configuration.
-- **Web services** -- API configuration and documentation.
+- **People**: Account settings, registration, and login configuration.
+- **Content authoring**: Text formats, editor settings, and content creation tools.
+- **Development**: Logging, error reporting, and maintenance mode.
+- **Search and metadata**: URL aliases, redirects, meta tags, and sitemaps.
+- **System**: Site information, cron, performance, and caching.
+- **User interface**: Navigation settings, shortcuts, and UI tools.
+- **Regional and language**: Date/time formats, language settings, and translation.
+- **Media**: File system, image styles, and media configuration.
+- **Web services**: API configuration and documentation.
 
 ## Permissions
 

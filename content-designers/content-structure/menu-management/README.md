@@ -30,12 +30,12 @@ Your site may include additional custom menus created for specific purposes, suc
 
 ## Menu Management Tasks
 
-- [Add Menu Items](add-menu-items.md) -- Add new links to a menu.
-- [Update Menu Items](update-menu-items.md) -- Reorder and edit existing menu items.
+- [Add Menu Items](add-menu-items.md): Add new links to a menu.
+- [Update Menu Items](update-menu-items.md): Reorder and edit existing menu items.
 
 ## Key Concepts
 
-- **Menu item** -- A single link within a menu. Each menu item has a title, URL, and optional parent item.
-- **Parent item** -- A menu item can be nested under another item to create a hierarchical (dropdown) menu structure.
-- **Weight** -- Determines the order of menu items at the same level. Items with lower weights appear first. Drag-and-drop reordering adjusts weights automatically.
-- **Enabled / Disabled** -- Menu items can be enabled or disabled. Disabled items remain in the menu configuration but are not displayed to site visitors.
+- **Menu item**: A single link within a menu. Each menu item has a title, URL, and optional parent item.
+- **Parent item**: A menu item can be nested under another item to create a hierarchical (dropdown) menu structure.
+- **Weight**: Determines the order of menu items at the same level. Items with lower weights appear first. Drag-and-drop reordering adjusts weights automatically.
+- **Enabled / Disabled**: Menu items can be enabled or disabled. Disabled items remain in the menu configuration but are not displayed to site visitors.

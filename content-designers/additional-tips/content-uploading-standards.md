@@ -9,11 +9,11 @@ Following consistent standards when uploading content ensures a professional, pe
 - **Resize images** to the maximum display size needed. There is no need to upload a 5000x3000 pixel image if it will be displayed at 1200x800 pixels.
 - **Compress images** using tools such as TinyPNG, ImageOptim, or Squoosh to reduce file size without noticeable quality loss.
 - **Choose the right format:**
-  - **JPG** -- Photographs and images with many colors.
-  - **PNG** -- Graphics, logos, and images requiring transparency.
-  - **SVG** -- Icons, logos, and illustrations that need to scale.
-  - **WebP** -- General web use with superior compression (recommended when supported).
-  - **GIF** -- Simple animations only.
+  - **JPG**: Photographs and images with many colors.
+  - **PNG**: Graphics, logos, and images requiring transparency.
+  - **SVG**: Icons, logos, and illustrations that need to scale.
+  - **WebP**: General web use with superior compression (recommended when supported).
+  - **GIF**: Simple animations only.
 
 ### Recommended Image Dimensions
 

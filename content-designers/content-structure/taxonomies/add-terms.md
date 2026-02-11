@@ -9,10 +9,10 @@ This guide explains how to add new taxonomy terms to a vocabulary on your Varbas
 3. Click **List terms** next to the vocabulary.
 4. Click the **Add term** button at the top of the page.
 5. Fill in the term fields:
-   - **Name** -- The name of the term (required). This is the label that will be displayed when the term is used.
-   - **Description** -- An optional description of the term. This may be displayed on the term's listing page depending on your site's configuration.
-   - **URL alias** -- Optionally set a custom URL path for the term's page. If left blank, Pathauto may generate an alias automatically.
-   - **Relations** -- Optionally assign a parent term to create a hierarchical structure within the vocabulary.
+   - **Name**: The name of the term (required). This is the label that will be displayed when the term is used.
+   - **Description**: An optional description of the term. This may be displayed on the term's listing page depending on your site's configuration.
+   - **URL alias**: Optionally set a custom URL path for the term's page. If left blank, Pathauto may generate an alias automatically.
+   - **Relations**: Optionally assign a parent term to create a hierarchical structure within the vocabulary.
 6. Click **Save** to create the term.
 
 ## Adding Terms via Taxonomy Manager

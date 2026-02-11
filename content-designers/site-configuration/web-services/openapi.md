@@ -26,12 +26,12 @@ This documentation is useful for developers who need to integrate with your site
 
 The OpenAPI documentation typically covers the following resource types:
 
-- **Content (Nodes)** -- Create, read, update, and delete content items via the API.
-- **Media** -- Access and manage media entities.
-- **Taxonomy Terms** -- Access and manage taxonomy terms and vocabularies.
-- **Users** -- Access user information (subject to permissions).
-- **Blocks** -- Access block content.
-- **Files** -- Upload and manage files.
+- **Content (Nodes)**: Create, read, update, and delete content items via the API.
+- **Media**: Access and manage media entities.
+- **Taxonomy Terms**: Access and manage taxonomy terms and vocabularies.
+- **Users**: Access user information (subject to permissions).
+- **Blocks**: Access block content.
+- **Files**: Upload and manage files.
 
 The specific resources available depend on the modules enabled and the API configuration on your site.
 

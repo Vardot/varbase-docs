@@ -12,8 +12,8 @@ The login page is accessible at `/user/login`. Varbase uses the **Gin Login** th
 
 1. Navigate to `/user/login` in your browser.
 2. Enter your credentials:
-   - **Username or email address** -- Varbase supports login with either your username or your email address.
-   - **Password** -- Enter your account password.
+   - **Username or email address**: Varbase supports login with either your username or your email address.
+   - **Password**: Enter your account password.
 3. Click **Log in**.
 4. Upon successful login, you will be redirected to the admin dashboard or the page you were previously viewing.
 
@@ -31,16 +31,16 @@ If you have forgotten your password:
 
 User registration settings are configured by the site administrator. Depending on the configuration, new users may:
 
-- **Register freely** -- Anyone can create an account by visiting `/user/register`.
-- **Register with admin approval** -- Anyone can request an account, but it must be approved by an administrator before it becomes active.
-- **Admin-only registration** -- Only administrators can create new user accounts. The registration form is not available to the public.
+- **Register freely**: Anyone can create an account by visiting `/user/register`.
+- **Register with admin approval**: Anyone can request an account, but it must be approved by an administrator before it becomes active.
+- **Admin-only registration**: Only administrators can create new user accounts. The registration form is not available to the public.
 
 ### Self-Registration (When Enabled)
 
 1. Navigate to `/user/register`.
 2. Fill in the required fields:
-   - **Username** -- Choose a unique username.
-   - **Email address** -- Provide a valid email address.
+   - **Username**: Choose a unique username.
+   - **Email address**: Provide a valid email address.
 3. Complete any additional required fields (if configured).
 4. Click **Create new account**.
 5. Depending on the site configuration:
@@ -49,9 +49,9 @@ User registration settings are configured by the site administrator. Depending o
 
 ## Session Management
 
-- **Session timeout** -- Login sessions expire after a period of inactivity (configured by the site administrator).
-- **Logging out** -- Click your username or profile icon in the admin toolbar, then click **Log out**. You can also navigate to `/user/logout`.
-- **Multiple sessions** -- By default, users can be logged in from multiple devices simultaneously.
+- **Session timeout**: Login sessions expire after a period of inactivity (configured by the site administrator).
+- **Logging out**: Click your username or profile icon in the admin toolbar, then click **Log out**. You can also navigate to `/user/logout`.
+- **Multiple sessions**: By default, users can be logged in from multiple devices simultaneously.
 
 ## Tips
 

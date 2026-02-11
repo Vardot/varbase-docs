@@ -21,24 +21,24 @@ The specific style options depend on your site's theme and configuration. Common
 
 ### Spacing
 
-- **Padding** -- Adjust the inner spacing between the block's border and its content.
-- **Margin** -- Adjust the outer spacing between the block and surrounding blocks.
+- **Padding**: Adjust the inner spacing between the block's border and its content.
+- **Margin**: Adjust the outer spacing between the block and surrounding blocks.
 
 ### Text Styles
 
-- **Text alignment** -- Set text alignment to left, center, or right.
-- **Text color** -- Choose a text color (typically from a predefined palette).
+- **Text alignment**: Set text alignment to left, center, or right.
+- **Text color**: Choose a text color (typically from a predefined palette).
 
 ### Border and Shadow
 
-- **Border** -- Add or configure a border around the block.
-- **Border radius** -- Round the corners of the block.
-- **Box shadow** -- Apply a shadow effect for visual depth.
+- **Border**: Add or configure a border around the block.
+- **Border radius**: Round the corners of the block.
+- **Box shadow**: Apply a shadow effect for visual depth.
 
 ### Display Options
 
-- **Visibility** -- Control whether the block title is displayed or hidden.
-- **Animation** -- Some themes offer entrance animations for blocks (e.g., fade-in, slide-up).
+- **Visibility**: Control whether the block title is displayed or hidden.
+- **Animation**: Some themes offer entrance animations for blocks (e.g., fade-in, slide-up).
 
 ## How Block Styles Differ from Section Styles
 

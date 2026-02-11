@@ -4,7 +4,7 @@ Layout Builder is a powerful tool in Drupal that allows content editors and site
 
 ## Overview
 
-Layout Builder works by dividing a page into **sections**, which act as structural containers. Each section can have a defined column layout (one column, two columns, three columns, etc.). Within each section, you place **blocks** that hold the actual content -- text, media, views, custom blocks, and more.
+Layout Builder works by dividing a page into **sections**, which act as structural containers. Each section can have a defined column layout (one column, two columns, three columns, etc.). Within each section, you place **blocks** that hold the actual content, such as text, media, views, custom blocks, and more.
 
 ## Key Concepts
 
@@ -43,12 +43,12 @@ To use Layout Builder on a content item:
 
 In the Layout Builder interface, you can:
 
-- **Add sections** -- Click **Add section** between existing sections or at the end of the layout. Choose a column layout for the new section.
-- **Add blocks** -- Click **Add block** within a section's column to add a new block. Browse or search for the block you want to add.
-- **Move blocks** -- Drag and drop blocks to reorder them within a section or move them between sections. See [Reordering Blocks](reordering-blocks.md).
-- **Configure blocks** -- Click on an existing block to edit its content or settings.
-- **Remove blocks** -- Click the remove option on a block to remove it from the layout.
-- **Remove sections** -- Click the remove option on a section to remove it and all its blocks.
+- **Add sections**: Click **Add section** between existing sections or at the end of the layout. Choose a column layout for the new section.
+- **Add blocks**: Click **Add block** within a section's column to add a new block. Browse or search for the block you want to add.
+- **Move blocks**: Drag and drop blocks to reorder them within a section or move them between sections. See [Reordering Blocks](reordering-blocks.md).
+- **Configure blocks**: Click on an existing block to edit its content or settings.
+- **Remove blocks**: Click the remove option on a block to remove it from the layout.
+- **Remove sections**: Click the remove option on a section to remove it and all its blocks.
 
 ### Saving the Layout
 
@@ -62,8 +62,8 @@ After making changes to the layout:
 
 Layout Builder can operate in two modes:
 
-- **Default layout** -- A layout configured at the content type level that applies to all content of that type. Managed by administrators and developers.
-- **Per-content override** -- A layout customized for a specific content item, overriding the default layout. Available to content editors with appropriate permissions.
+- **Default layout**: A layout configured at the content type level that applies to all content of that type. Managed by administrators and developers.
+- **Per-content override**: A layout customized for a specific content item, overriding the default layout. Available to content editors with appropriate permissions.
 
 ## Tips
 

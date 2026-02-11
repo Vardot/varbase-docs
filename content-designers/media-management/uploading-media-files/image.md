@@ -6,11 +6,11 @@ This guide explains how to upload images to the Varbase Media Library.
 
 Varbase supports the following image formats:
 
-- **JPG / JPEG** -- Best for photographs and images with many colors. Uses lossy compression.
-- **PNG** -- Best for graphics, logos, and images that require transparency. Uses lossless compression.
-- **GIF** -- Supports simple animations and transparency. Limited to 256 colors.
-- **SVG** -- Scalable vector graphics. Ideal for logos, icons, and illustrations that need to scale without quality loss.
-- **WebP** -- A modern format that provides superior compression for both lossy and lossless images. Recommended for web use.
+- **JPG / JPEG**: Best for photographs and images with many colors. Uses lossy compression.
+- **PNG**: Best for graphics, logos, and images that require transparency. Uses lossless compression.
+- **GIF**: Supports simple animations and transparency. Limited to 256 colors.
+- **SVG**: Scalable vector graphics. Ideal for logos, icons, and illustrations that need to scale without quality loss.
+- **WebP**: A modern format that provides superior compression for both lossy and lossless images. Recommended for web use.
 
 ## Steps to Upload an Image
 
@@ -20,9 +20,9 @@ Varbase supports the following image formats:
    - Drag and drop the file into the upload area, or
    - Click the upload area to browse your computer and select the file.
 4. Fill in the image metadata:
-   - **Name** -- A descriptive name for the image. This is used in the Media Library for identification.
-   - **Alternative text (alt text)** -- A text description of the image for accessibility. Screen readers use alt text to describe images to visually impaired users. This field is required.
-   - **Title** -- An optional title attribute that appears as a tooltip when visitors hover over the image.
+   - **Name**: A descriptive name for the image. This is used in the Media Library for identification.
+   - **Alternative text (alt text)**: A text description of the image for accessibility. Screen readers use alt text to describe images to visually impaired users. This field is required.
+   - **Title**: An optional title attribute that appears as a tooltip when visitors hover over the image.
 5. **Set the focal point.**
    - After the image uploads, a focal point indicator appears on the image preview.
    - Click and drag the focal point marker to the most important area of the image.
@@ -34,8 +34,8 @@ Varbase supports the following image formats:
 Alt text is essential for accessibility and SEO. Follow these guidelines:
 
 - **Be descriptive.** Describe what the image shows (e.g., "Team members gathered around a conference table during a planning meeting").
-- **Be concise.** Keep alt text brief but informative -- typically one to two sentences.
-- **Avoid redundancy.** Do not start with "Image of" or "Photo of" -- screen readers already announce that it is an image.
+- **Be concise.** Keep alt text brief but informative, typically one to two sentences.
+- **Avoid redundancy.** Do not start with "Image of" or "Photo of", as screen readers already announce that it is an image.
 - **Convey purpose.** If the image serves a specific function (e.g., a button or link), describe the function rather than the visual appearance.
 - **Decorative images.** If the image is purely decorative and adds no informational value, alt text can be left empty (but this is rare for editorial content).
 

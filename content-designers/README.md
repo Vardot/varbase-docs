@@ -8,20 +8,20 @@ This section is written for non-technical users who manage content and site conf
 
 ## What You Will Find Here
 
-- **Accessing the Administration Area** -- How to log in and navigate the admin interface using the Gin admin theme and the Navigation module.
-- **Dashboard** -- An overview of the admin dashboard and available reports.
-- **Content Management** -- Creating, editing, publishing, and deleting content using Varbase's editorial tools.
-- **Content Structure** -- Managing EntityQueues, menus, and taxonomies to organize your content.
-- **Content Translation** -- Setting up and managing multilingual content.
-- **Content Workflow** -- Understanding the content moderation workflow (Draft, Published, Archived).
-- **Layout Builder** -- Customizing page layouts with sections and blocks.
-- **Webforms** -- Creating and managing forms for user submissions.
-- **Media Management** -- Uploading and organizing images, videos, documents, and audio files.
-- **User Management** -- Managing users, roles, and permissions.
-- **URL Management** -- Configuring URL aliases and redirects.
-- **SEO Management** -- Optimizing your site for search engines.
-- **Site Configuration** -- Adjusting system settings, user interface options, and web services.
-- **Additional Tips** -- Best practices, standards, and a glossary of key terms.
+- **Accessing the Administration Area**: How to log in and navigate the admin interface using the Gin admin theme and the Navigation module.
+- **Dashboard**: An overview of the admin dashboard and available reports.
+- **Content Management**: Creating, editing, publishing, and deleting content using Varbase's editorial tools.
+- **Content Structure**: Managing EntityQueues, menus, and taxonomies to organize your content.
+- **Content Translation**: Setting up and managing multilingual content.
+- **Content Workflow**: Understanding the content moderation workflow (Draft, Published, Archived).
+- **Layout Builder**: Customizing page layouts with sections and blocks.
+- **Webforms**: Creating and managing forms for user submissions.
+- **Media Management**: Uploading and organizing images, videos, documents, and audio files.
+- **User Management**: Managing users, roles, and permissions.
+- **URL Management**: Configuring URL aliases and redirects.
+- **SEO Management**: Optimizing your site for search engines.
+- **Site Configuration**: Adjusting system settings, user interface options, and web services.
+- **Additional Tips**: Best practices, standards, and a glossary of key terms.
 
 ## Varbase 11.0.x Highlights
 

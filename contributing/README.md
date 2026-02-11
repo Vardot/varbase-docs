@@ -8,23 +8,23 @@ Varbase is an open-source project built and maintained by **Vardot** and the Dru
 
 Development contributions to Varbase and its components are managed through the Drupal.org issue queues and GitHub repositories.
 
-- **Drupal.org Issue Queue** -- Report bugs, request features, and submit patches for Varbase and its Drupal.org-hosted modules. Find the issue queues at [https://www.drupal.org/project/varbase](https://www.drupal.org/project/varbase).
-- **GitHub** -- Varbase and related projects are available on GitHub at [https://github.com/Vardot](https://github.com/Vardot). You can fork repositories, submit pull requests, and review code.
+- **Drupal.org Issue Queue**: Report bugs, request features, and submit patches for Varbase and its Drupal.org-hosted modules. Find the issue queues at [https://www.drupal.org/project/varbase](https://www.drupal.org/project/varbase).
+- **GitHub**: Varbase and related projects are available on GitHub at [https://github.com/Vardot](https://github.com/Vardot). You can fork repositories, submit pull requests, and review code.
 
 ### Types of Code Contributions
 
-- **Bug reports** -- Report issues you encounter with detailed steps to reproduce.
-- **Bug fixes** -- Submit patches or pull requests that fix reported issues.
-- **Feature development** -- Propose and develop new features.
-- **Code review** -- Review open pull requests and patches submitted by others.
+- **Bug reports**: Report issues you encounter with detailed steps to reproduce.
+- **Bug fixes**: Submit patches or pull requests that fix reported issues.
+- **Feature development**: Propose and develop new features.
+- **Code review**: Review open pull requests and patches submitted by others.
 
 ### Testing
 
 Testing is one of the most valuable ways to contribute:
 
-- **Manual testing** -- Test new releases, patches, and features in a development environment and report any issues.
-- **Automated testing** -- Write or improve automated tests (PHPUnit, Cypress, Behat) for Varbase components.
-- **Regression testing** -- Verify that existing functionality still works correctly after changes are applied.
+- **Manual testing**: Test new releases, patches, and features in a development environment and report any issues.
+- **Automated testing**: Write or improve automated tests (PHPUnit, Cypress, Behat) for Varbase components.
+- **Regression testing**: Verify that existing functionality still works correctly after changes are applied.
 
 ### Documentation
 
@@ -64,9 +64,9 @@ All contributions are expected to follow the [Drupal Code of Conduct](https://ww
 
 ## Getting Help
 
-- **Drupal.org** -- Use the Varbase issue queue for project-specific questions and issues.
-- **GitHub Discussions** -- Participate in discussions on the GitHub repositories.
-- **Vardot** -- For enterprise support and professional services, visit [https://www.vardot.com/](https://www.vardot.com/).
+- **Drupal.org**: Use the Varbase issue queue for project-specific questions and issues.
+- **GitHub Discussions**: Participate in discussions on the GitHub repositories.
+- **Vardot**: For enterprise support and professional services, visit [https://www.vardot.com/](https://www.vardot.com/).
 
 ## Resources
 

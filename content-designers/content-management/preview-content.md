@@ -23,10 +23,10 @@ Varbase includes the **Responsive Preview** feature, which allows you to test ho
 
 Responsive Preview comes with several pre-configured device profiles, including:
 
-- **iPhone 15** -- Mobile phone (portrait and landscape).
-- **Galaxy S23** -- Mobile phone (portrait and landscape).
-- **iPad Pro** -- Tablet (portrait and landscape).
-- **Desktop** -- Standard desktop resolution.
+- **iPhone 15**: Mobile phone (portrait and landscape).
+- **Galaxy S23**: Mobile phone (portrait and landscape).
+- **iPad Pro**: Tablet (portrait and landscape).
+- **Desktop**: Standard desktop resolution.
 
 These devices give you a representative view of how your content will look across common screen sizes.
 

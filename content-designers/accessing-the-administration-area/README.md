@@ -6,9 +6,9 @@ Varbase 11.0.x uses the **Gin** admin theme to provide a modern, clean, and acce
 
 There are several ways to reach the Varbase administration area:
 
-1. **Direct URL** -- Navigate to `/admin` in your browser (e.g., `https://example.com/admin`). You will be prompted to log in if you are not already authenticated.
-2. **Login Page** -- Navigate to `/user/login` to access the login form. After logging in, you will be redirected to the admin area based on your role.
-3. **Admin Toolbar** -- Once logged in, the admin toolbar appears at the top or side of the page, providing quick access to all admin sections.
+1. **Direct URL**: Navigate to `/admin` in your browser (e.g., `https://example.com/admin`). You will be prompted to log in if you are not already authenticated.
+2. **Login Page**: Navigate to `/user/login` to access the login form. After logging in, you will be redirected to the admin area based on your role.
+3. **Admin Toolbar**: Once logged in, the admin toolbar appears at the top or side of the page, providing quick access to all admin sections.
 
 ## The Gin Admin Theme
 

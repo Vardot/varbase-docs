@@ -39,9 +39,9 @@ Use the filter options to narrow down log entries by type, severity, or date. Th
 
 The Available Updates report shows whether any installed modules, themes, or Drupal core have newer versions available. It categorizes updates as:
 
-- **Security updates** -- Critical updates that address security vulnerabilities. These should be applied as soon as possible.
-- **Recommended updates** -- Non-security updates that include bug fixes and improvements.
-- **Development updates** -- Updates to development releases (if applicable).
+- **Security updates**: Critical updates that address security vulnerabilities. These should be applied as soon as possible.
+- **Recommended updates**: Non-security updates that include bug fixes and improvements.
+- **Development updates**: Updates to development releases (if applicable).
 
 Coordinate with your development team before applying updates, especially on production environments.
 

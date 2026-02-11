@@ -34,10 +34,10 @@ You can browse the source code, fork repositories, and submit pull requests thro
 
 [Vardot](https://www.vardot.com/) is the company behind Varbase and offers professional services including:
 
-- **Technical support** -- Dedicated support for Varbase installations and configurations.
-- **Custom development** -- Tailored development services to extend Varbase for your specific requirements.
-- **Consulting** -- Architecture review, performance optimization, and migration planning.
-- **Training** -- Workshops and training sessions for development teams and content editors.
+- **Technical support**: Dedicated support for Varbase installations and configurations.
+- **Custom development**: Tailored development services to extend Varbase for your specific requirements.
+- **Consulting**: Architecture review, performance optimization, and migration planning.
+- **Training**: Workshops and training sessions for development teams and content editors.
 
 Visit [https://www.vardot.com/](https://www.vardot.com/) to learn more about professional support options.
 

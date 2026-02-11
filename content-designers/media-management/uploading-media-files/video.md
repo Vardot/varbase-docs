@@ -6,8 +6,8 @@ This guide explains how to upload locally hosted video files to the Varbase Medi
 
 Varbase supports the following video formats:
 
-- **MP4** -- The most widely supported video format across browsers and devices. Uses H.264 video codec. Recommended for most use cases.
-- **WebM** -- An open-source video format supported by modern browsers. Uses VP8 or VP9 video codec. Provides good compression.
+- **MP4**: The most widely supported video format across browsers and devices. Uses H.264 video codec. Recommended for most use cases.
+- **WebM**: An open-source video format supported by modern browsers. Uses VP8 or VP9 video codec. Provides good compression.
 
 ## Steps to Upload a Video
 
@@ -18,7 +18,7 @@ Varbase supports the following video formats:
    - Click the upload area to browse your computer and select the file.
 4. Wait for the upload to complete. Video files are typically larger than images, so the upload may take longer.
 5. Fill in the metadata:
-   - **Name** -- A descriptive name for the video. This is used in the Media Library for identification.
+   - **Name**: A descriptive name for the video. This is used in the Media Library for identification.
 6. Click **Save** to add the video to the Media Library.
 
 ## Using Local Videos in Content

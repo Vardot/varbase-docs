@@ -16,17 +16,17 @@ This guide explains how to add new links to a menu on your Varbase site.
 
    Fill in the following fields:
 
-   - **Menu link title** -- The text that will be displayed for the link. Choose a clear, concise title that tells visitors what they will find when they click.
-   - **Link** -- The URL for the link. You can enter:
+   - **Menu link title**: The text that will be displayed for the link. Choose a clear, concise title that tells visitors what they will find when they click.
+   - **Link**: The URL for the link. You can enter:
      - An internal path (e.g., `/about-us` or start typing a page title for autocomplete suggestions).
      - An external URL (e.g., `https://example.com`).
      - `<front>` to link to the homepage.
      - `<nolink>` to create a non-clickable parent item (useful for dropdown menu headings).
-   - **Enabled** -- Check this box to make the menu item visible on the site. Uncheck to hide it without deleting it.
-   - **Description** -- An optional description that appears as a tooltip when visitors hover over the link.
-   - **Show as expanded** -- If checked, the menu item's children will always be displayed (useful for dropdown menus).
-   - **Parent link** -- Select a parent item to nest this link under an existing menu item, creating a hierarchical structure. Leave as the top-level menu to place it at the root level.
-   - **Weight** -- A number that determines the order of the item relative to its siblings. Lower numbers appear first. You can also adjust order later using drag and drop.
+   - **Enabled**: Check this box to make the menu item visible on the site. Uncheck to hide it without deleting it.
+   - **Description**: An optional description that appears as a tooltip when visitors hover over the link.
+   - **Show as expanded**: If checked, the menu item's children will always be displayed (useful for dropdown menus).
+   - **Parent link**: Select a parent item to nest this link under an existing menu item, creating a hierarchical structure. Leave as the top-level menu to place it at the root level.
+   - **Weight**: A number that determines the order of the item relative to its siblings. Lower numbers appear first. You can also adjust order later using drag and drop.
 
 4. **Save the menu item.**
    - Click **Save** to add the link to the menu.

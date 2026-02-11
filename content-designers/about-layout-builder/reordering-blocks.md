@@ -10,9 +10,9 @@ Layout Builder allows you to reorder blocks within sections using drag-and-drop,
 2. Locate the block you want to move.
 3. Click and hold the drag handle on the block (typically represented by a cross-arrow icon or grip dots).
 4. Drag the block to its new position:
-   - **Within the same column** -- Move the block up or down to change its order relative to other blocks in the same column.
-   - **Between columns** -- Drag the block from one column to another within the same section.
-   - **Between sections** -- Drag the block from one section to a different section entirely.
+   - **Within the same column**: Move the block up or down to change its order relative to other blocks in the same column.
+   - **Between columns**: Drag the block from one column to another within the same section.
+   - **Between sections**: Drag the block from one section to a different section entirely.
 5. Release the mouse button to drop the block in its new position.
 6. Click **Save layout** to apply the changes.
 
@@ -31,7 +31,7 @@ This method is useful for precise placement or when drag and drop is difficult (
 ## Reordering Considerations
 
 - **Visual hierarchy.** Place the most important content blocks at the top of the page or section where visitors will see them first.
-- **Logical flow.** Arrange blocks in a logical reading order -- introduction first, details next, calls to action at the end.
+- **Logical flow.** Arrange blocks in a logical reading order, with the introduction first, details next, and calls to action at the end.
 - **Responsive behavior.** Remember that multi-column layouts stack vertically on smaller screens. The order of blocks in each column determines their vertical order on mobile devices.
 - **Save before navigating away.** Layout Builder changes are not persisted until you click **Save layout**. If you navigate away without saving, your changes will be lost.
 

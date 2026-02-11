@@ -77,4 +77,4 @@ Varbase defines a set of default user roles, each designed for a specific person
 
 ## See Also
 
-- [Managing Roles](managing-roles.md) -- How to manage roles and edit permissions.
+- [Managing Roles](managing-roles.md): How to manage roles and edit permissions.

@@ -6,10 +6,10 @@ An XML sitemap is a file that lists the important pages on your site, helping se
 
 An XML sitemap is a structured file (typically accessible at `/sitemap.xml`) that provides search engines with a list of URLs on your site, along with metadata about each URL:
 
-- **URL** -- The address of the page.
-- **Last modified date** -- When the page was last updated.
-- **Change frequency** -- How often the page is expected to change (daily, weekly, monthly, etc.).
-- **Priority** -- The relative importance of the page within your site (0.0 to 1.0).
+- **URL**: The address of the page.
+- **Last modified date**: When the page was last updated.
+- **Change frequency**: How often the page is expected to change (daily, weekly, monthly, etc.).
+- **Priority**: The relative importance of the page within your site (0.0 to 1.0).
 
 Search engines use this information to crawl your site more efficiently, prioritizing pages that have been recently updated or are marked as high priority.
 
@@ -27,9 +27,9 @@ Simple Sitemap allows you to create different sitemap types. The default configu
 
 1. On the Simple Sitemap configuration page, you can specify which entity types and bundles (content types, taxonomy vocabularies, etc.) should be included in the sitemap.
 2. For each entity type, configure:
-   - **Index** -- Whether to include this entity type in the sitemap.
-   - **Priority** -- The default priority for pages of this type.
-   - **Change frequency** -- How often these pages are expected to change.
+   - **Index**: Whether to include this entity type in the sitemap.
+   - **Priority**: The default priority for pages of this type.
+   - **Change frequency**: How often these pages are expected to change.
 3. Click **Save** to apply the configuration.
 
 ### Excluding Specific Pages
@@ -55,9 +55,9 @@ To view your site's XML sitemap, navigate to `/sitemap.xml` in your browser. You
 
 To help search engines find your sitemap:
 
-1. **Google Search Console** -- Submit the sitemap URL (`https://example.com/sitemap.xml`) in the Sitemaps section of Google Search Console.
-2. **Bing Webmaster Tools** -- Submit the sitemap URL in Bing Webmaster Tools.
-3. **Robots.txt** -- Ensure your `robots.txt` file includes a reference to the sitemap: `Sitemap: https://example.com/sitemap.xml`.
+1. **Google Search Console**: Submit the sitemap URL (`https://example.com/sitemap.xml`) in the Sitemaps section of Google Search Console.
+2. **Bing Webmaster Tools**: Submit the sitemap URL in Bing Webmaster Tools.
+3. **Robots.txt**: Ensure your `robots.txt` file includes a reference to the sitemap: `Sitemap: https://example.com/sitemap.xml`.
 
 ## Tips
 

@@ -22,11 +22,11 @@ See [Google Analytics](google-analytics.md) for details.
 
 Basic site information can be configured at **Configuration > System > Basic site settings** (`/admin/config/system/site-information`), including:
 
-- **Site name** -- The name of your site, displayed in the browser title bar and various site locations.
-- **Site slogan** -- An optional tagline or description.
-- **Email address** -- The site-wide email address used for system notifications.
-- **Default front page** -- The URL path used as the site's homepage.
-- **Error pages** -- Custom pages to display for 403 (access denied) and 404 (page not found) errors.
+- **Site name**: The name of your site, displayed in the browser title bar and various site locations.
+- **Site slogan**: An optional tagline or description.
+- **Email address**: The site-wide email address used for system notifications.
+- **Default front page**: The URL path used as the site's homepage.
+- **Error pages**: Custom pages to display for 403 (access denied) and 404 (page not found) errors.
 
 ### Cron
 

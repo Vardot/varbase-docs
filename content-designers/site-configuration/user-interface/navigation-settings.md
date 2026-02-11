@@ -16,8 +16,8 @@ The Navigation module provides:
 
 1. Navigate to **Configuration > User interface > Navigation settings**, or go to `/admin/config/user-interface/navigation`.
 2. Available configuration options may include:
-   - **Logo** -- Upload or change the logo displayed in the navigation sidebar.
-   - **Menu items** -- Customize which items appear in the navigation.
+   - **Logo**: Upload or change the logo displayed in the navigation sidebar.
+   - **Menu items**: Customize which items appear in the navigation.
 3. Click **Save configuration** to apply changes.
 
 ## Using the Navigation Sidebar
@@ -47,8 +47,8 @@ The navigation sidebar includes a user menu section at the bottom, providing qui
 
 Varbase includes **Navigation Extra Tools**, which extends the navigation sidebar with additional utility links:
 
-- **Quick cache flush** -- Clear all caches directly from the navigation sidebar without navigating to the Performance page.
-- **Additional shortcuts** -- Quick links to commonly used admin tasks.
+- **Quick cache flush**: Clear all caches directly from the navigation sidebar without navigating to the Performance page.
+- **Additional shortcuts**: Quick links to commonly used admin tasks.
 
 ## Tips
 

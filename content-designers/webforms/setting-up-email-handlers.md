@@ -21,32 +21,32 @@ Alternatively, navigate directly to the webform's handlers page at `/admin/struc
 
 #### Send To
 
-- **To email** -- The email address(es) that will receive the notification. You can:
+- **To email**: The email address(es) that will receive the notification. You can:
   - Enter a specific email address.
   - Use a token to pull the email from a form field (e.g., `[webform_submission:values:email]`).
   - Enter multiple addresses separated by commas.
-- **CC email** -- Additional recipients who will receive a copy.
-- **BCC email** -- Recipients who will receive a blind copy.
+- **CC email**: Additional recipients who will receive a copy.
+- **BCC email**: Recipients who will receive a blind copy.
 
 #### From
 
-- **From email** -- The sender email address. This should typically be a valid email address from your domain (e.g., `noreply@example.com`).
-- **From name** -- The sender name displayed in the email (e.g., "Website Contact Form").
+- **From email**: The sender email address. This should typically be a valid email address from your domain (e.g., `noreply@example.com`).
+- **From name**: The sender name displayed in the email (e.g., "Website Contact Form").
 
 #### Message
 
-- **Subject** -- The email subject line. You can use tokens to include dynamic data (e.g., `New contact form submission: [webform_submission:values:subject]`).
-- **Body** -- The email body content. You can:
+- **Subject**: The email subject line. You can use tokens to include dynamic data (e.g., `New contact form submission: [webform_submission:values:subject]`).
+- **Body**: The email body content. You can:
   - Use the default body, which includes all submitted values.
   - Customize the body with specific field values using tokens.
   - Use HTML or plain text format.
 
 ### Advanced Settings
 
-- **Reply to** -- Set a reply-to address (e.g., the submitter's email) so that replies go directly to the person who submitted the form.
-- **Return path** -- The address where bounced emails are sent.
-- **Attachments** -- Include file uploads from the form as email attachments.
-- **Excluded elements** -- Exclude specific form fields from the email body.
+- **Reply to**: Set a reply-to address (e.g., the submitter's email) so that replies go directly to the person who submitted the form.
+- **Return path**: The address where bounced emails are sent.
+- **Attachments**: Include file uploads from the form as email attachments.
+- **Excluded elements**: Exclude specific form fields from the email body.
 
 4. Click **Save** to add the email handler.
 
@@ -81,10 +81,10 @@ After configuring email handlers:
 
 ## Troubleshooting
 
-- **Emails not being sent** -- Verify that your site's mail system is configured correctly. Drupal requires a functioning mail server or a mail service module (e.g., SMTP, SendGrid) to send emails.
-- **Emails going to spam** -- Ensure the "From email" address uses your domain and that your domain has proper SPF, DKIM, and DMARC records.
-- **Missing field values** -- Check that the correct tokens are used in the email body and subject.
-- **Multiple handlers** -- You can add multiple email handlers to a single webform (e.g., one for the admin notification and one for the submitter confirmation).
+- **Emails not being sent**: Verify that your site's mail system is configured correctly. Drupal requires a functioning mail server or a mail service module (e.g., SMTP, SendGrid) to send emails.
+- **Emails going to spam**: Ensure the "From email" address uses your domain and that your domain has proper SPF, DKIM, and DMARC records.
+- **Missing field values**: Check that the correct tokens are used in the email body and subject.
+- **Multiple handlers**: You can add multiple email handlers to a single webform (e.g., one for the admin notification and one for the submitter confirmation).
 
 ## Tips
 

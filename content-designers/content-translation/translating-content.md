@@ -16,19 +16,19 @@ This guide explains how to translate content items into other languages on a mul
 2. **Open the Translate tab.**
    - Click the **Translate** tab on the content item. This tab appears alongside View, Edit, and other tabs.
    - You will see a table listing all enabled languages, showing the translation status for each:
-     - **Original language** -- The language in which the content was originally created.
-     - **Not translated** -- No translation exists for this language.
-     - **Translated** -- A translation exists. You can edit it from here.
+     - **Original language**: The language in which the content was originally created.
+     - **Not translated**: No translation exists for this language.
+     - **Translated**: A translation exists. You can edit it from here.
 
 3. **Add a translation.**
    - Click **Add** next to the language you want to translate the content into.
    - You will see the content editing form pre-populated with the original content.
    - Translate the content fields:
-     - **Title** -- Enter the translated title.
-     - **Body / Content fields** -- Replace the original text with the translated text.
-     - **Media fields** -- You can keep the same media or replace it with language-specific media.
-     - **URL alias** -- Set a language-specific URL alias if needed.
-     - **Meta tags** -- Provide translated meta tags for SEO.
+     - **Title**: Enter the translated title.
+     - **Body / Content fields**: Replace the original text with the translated text.
+     - **Media fields**: You can keep the same media or replace it with language-specific media.
+     - **URL alias**: Set a language-specific URL alias if needed.
+     - **Meta tags**: Provide translated meta tags for SEO.
    - Set the appropriate moderation state for the translation (Draft or Published).
 
 4. **Save the translation.**

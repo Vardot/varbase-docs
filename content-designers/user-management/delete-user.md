@@ -18,10 +18,10 @@ This guide explains how to delete user accounts on your Varbase site, including 
 
    When canceling a user account, you are presented with several options for handling the content created by that user:
 
-   - **Disable the account and keep its content.** -- The account is blocked but not removed. All content remains published and attributed to the user. This is the safest option.
-   - **Disable the account and unpublish its content.** -- The account is blocked, and all content authored by the user is unpublished (set to Draft or unpublished state).
-   - **Delete the account and make its content belong to the anonymous user.** -- The account is permanently deleted. Content is preserved but its author is changed to "Anonymous."
-   - **Delete the account and its content.** -- The account and all content created by the user are permanently deleted. Use this option with extreme caution.
+   - **Disable the account and keep its content.**: The account is blocked but not removed. All content remains published and attributed to the user. This is the safest option.
+   - **Disable the account and unpublish its content.**: The account is blocked, and all content authored by the user is unpublished (set to Draft or unpublished state).
+   - **Delete the account and make its content belong to the anonymous user.**: The account is permanently deleted. Content is preserved but its author is changed to "Anonymous."
+   - **Delete the account and its content.**: The account and all content created by the user are permanently deleted. Use this option with extreme caution.
 
 5. **Confirm the deletion.**
    - Select the appropriate option.

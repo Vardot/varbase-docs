@@ -42,11 +42,11 @@ The following transitions are available by default:
 
 Different user roles have different levels of access to moderation transitions:
 
-- **Content Editor** -- Can create and edit content, save drafts, and submit content for review. May or may not be able to publish directly, depending on your site's configuration.
-- **Content Admin** -- Can publish, unpublish, and archive content. Has broader editorial control.
-- **SEO Admin** -- Manages SEO-related fields and meta information. Typically can edit content but may not manage moderation states.
-- **Site Admin** -- Full control over all content moderation states and site configuration.
-- **Administrator** -- Unrestricted access to all site functionality.
+- **Content Editor**: Can create and edit content, save drafts, and submit content for review. May or may not be able to publish directly, depending on your site's configuration.
+- **Content Admin**: Can publish, unpublish, and archive content. Has broader editorial control.
+- **SEO Admin**: Manages SEO-related fields and meta information. Typically can edit content but may not manage moderation states.
+- **Site Admin**: Full control over all content moderation states and site configuration.
+- **Administrator**: Unrestricted access to all site functionality.
 
 See [Default Roles and Site Personas](user-management/default-roles-and-site-persons/) for details on each role.
 
@@ -65,9 +65,9 @@ Varbase supports **scheduled publishing**, allowing you to set specific dates an
 
 ### Common Scheduling Scenarios
 
-- **Advance preparation** -- Write and schedule articles days or weeks before they need to go live.
-- **Time-sensitive campaigns** -- Set both publish and unpublish dates for promotional content that should only be visible during a specific period.
-- **Coordinated launches** -- Schedule multiple content items to publish simultaneously for a product launch or event.
+- **Advance preparation**: Write and schedule articles days or weeks before they need to go live.
+- **Time-sensitive campaigns**: Set both publish and unpublish dates for promotional content that should only be visible during a specific period.
+- **Coordinated launches**: Schedule multiple content items to publish simultaneously for a product launch or event.
 
 ## Best Practices
 

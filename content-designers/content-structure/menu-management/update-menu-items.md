@@ -27,12 +27,12 @@ To modify the properties of an existing menu item:
 2. Find the menu item you want to edit.
 3. Click the **Edit** button (or the operations dropdown) next to the item.
 4. Update the fields as needed:
-   - **Menu link title** -- Change the displayed text.
-   - **Link** -- Update the URL or internal path.
-   - **Enabled** -- Toggle the visibility of the menu item.
-   - **Description** -- Update the hover tooltip text.
-   - **Parent link** -- Change the parent item to restructure the menu hierarchy.
-   - **Weight** -- Adjust the sort order numerically.
+   - **Menu link title**: Change the displayed text.
+   - **Link**: Update the URL or internal path.
+   - **Enabled**: Toggle the visibility of the menu item.
+   - **Description**: Update the hover tooltip text.
+   - **Parent link**: Change the parent item to restructure the menu hierarchy.
+   - **Weight**: Adjust the sort order numerically.
 5. Click **Save** to apply the changes.
 
 ## Disabling a Menu Item
