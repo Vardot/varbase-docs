@@ -8,19 +8,26 @@ The Drupal CMS Privacy Basic recipe provides basic privacy features including co
 
 - **drupal\_cms\_content\_type\_base** -- Basic content type tools (required for menu and content integration)
 
-## Modules Included
+## Included Modules
 
-- **klaro** -- Consent management platform that provides a user-friendly cookie consent dialog, allowing visitors to selectively accept or reject different categories of cookies and tracking
-- **menu\_link\_attributes** -- Adds custom attributes to menu links, used for privacy-related link annotations
-- **eca\_base** -- ECA base framework for event-driven privacy automation
-- **eca\_misc** -- ECA miscellaneous event handlers
-- **eca\_ui** -- ECA user interface for managing privacy-related rules
-- **bpmn\_io** -- BPMN.io integration for workflow visualization
-- **modeler\_api** -- API for workflow modelers
+Brings in the following core and contributed modules to your site:
+
+| Module | Purpose |
+|---|---|
+| [**BPMN.iO Modeler**](https://www.drupal.org/project/bpmn_io) | BPMN modeler, integrated into Drupal's admin UI. |
+| [**ECA Base**](https://www.drupal.org/project/eca) | Base events, conditions and actions. |
+| [**ECA Config**](https://www.drupal.org/project/eca) | Config events. |
+| [**ECA Content**](https://www.drupal.org/project/eca) | Content entity events, conditions and actions. |
+| [**ECA User**](https://www.drupal.org/project/eca) | User events, conditions and actions. |
+| [**ECA UI**](https://www.drupal.org/project/eca) | Provides a user interface for managing ECA models. |
+| [**Klaro Cookie & Consent Manager**](https://www.drupal.org/project/klaro) | Implements the Klaro Consent Manager into Drupal. |
+| [**Menu Link Attributes**](https://www.drupal.org/project/menu_link_attributes) | Allows you to add attributes to menu links. |
+| **Custom Menu Links** *(in Drupal core)* | Allows users to create menu links. |
+| [**Modeler API**](https://www.drupal.org/project/modeler_api) | Provides an API for modules to use modelers like BPMN.iO. |
 
 ## Installation
 
-This recipe is typically installed as a dependency of other Drupal CMS recipes (such as Drupal CMS Media and Drupal CMS Google Analytics). To apply it independently:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/drupal_cms_privacy_basic

@@ -10,23 +10,18 @@ The **Varbase Performance Base** recipe configures page caching, asset aggregati
 
 Varbase Performance Base depends on the `core/recipes/core_recommended_maintenance` recipe from Drupal core, which establishes baseline performance and maintenance settings. On top of that foundation, this recipe adds advanced caching, image optimization, and cron management modules.
 
-## Features
+## Included Modules
 
-- **Page Cache** -- Full-page caching for anonymous visitors, significantly reducing server load and improving response times
-- **Dynamic Page Cache** -- Caches pages for authenticated users by caching page elements that are not personalized
-- **ImageMagick** -- Uses the ImageMagick toolkit for high-quality server-side image processing, offering better results than GD for many image operations
-- **Image API Optimize** -- Optimizes generated image derivatives to reduce file size without sacrificing visual quality
-- **Image API Optimize WebP** -- Automatically generates WebP versions of image derivatives for modern browsers that support the format
-- **Ultimate Cron** -- Advanced cron job management with configurable schedules, parallel execution, and detailed logging for each cron task
+Brings in the following core and contributed modules to your site:
 
-## Modules Installed
-
-- `page_cache`
-- `dynamic_page_cache`
-- `imagemagick`
-- `imageapi_optimize`
-- `imageapi_optimize_webp`
-- `ultimate_cron`
+| Module | Purpose |
+|---|---|
+| **Internal Page Cache** *(in Drupal core)* | Caches pages for anonymous users and can be used when external page cache is not available. |
+| **Internal Dynamic Page Cache** *(in Drupal core)* | Caches pages, including those with dynamic content, for all users. |
+| [**ImageMagick**](https://www.drupal.org/project/imagemagick) | Provides ImageMagick integration. |
+| [**Image Optimize (or ImageAPI Optimize)**](https://www.drupal.org/project/imageapi_optimize) | Define pipelines for image optimization and provide integration with core image styles. |
+| [**ImageAPI Optimize WebP**](https://www.drupal.org/project/imageapi_optimize_webp) | Provides a WebP processor to derive webp images from other file formats. |
+| [**Ultimate Cron**](https://www.drupal.org/project/ultimate_cron) | Runs cron jobs individually in parallel using configurable rules, pool management and load balancing. |
 
 ## Recipe Dependencies
 
@@ -34,13 +29,7 @@ Varbase Performance Base depends on the `core/recipes/core_recommended_maintenan
 
 ## Installation
 
-1. Require the package via Composer:
-
-```bash
-composer require drupal/varbase_performance_base:~1.0.0
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/varbase_performance_base

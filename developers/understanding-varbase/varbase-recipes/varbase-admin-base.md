@@ -6,51 +6,45 @@ The **Varbase Admin Base** recipe manages the default admin experience for Varba
 
 [https://www.drupal.org/project/varbase\_admin\_base](https://www.drupal.org/project/varbase_admin_base)
 
-## Features
+## Included Modules
 
-- **Gin Admin Theme** -- Modern, accessible admin theme with toolbar, login screen, and everywhere integration via Gin Toolbar, Gin Login, Gin Everywhere, and Gin Type Tray
-- **Navigation Module** -- Enhanced navigation with extra tools for improved admin sidebar experience
-- **Coffee** -- Quick navigation module for fast access to admin pages using a keyboard shortcut
-- **Responsive Preview** -- Preview content across popular device sizes including iPhone 15, Galaxy S23, iPad Pro, and more
-- **Entity Clone** -- Clone any entity (nodes, blocks, taxonomy terms, etc.) with a single action
-- **Autosave Form** -- Automatically saves form progress to prevent data loss during content editing
-- **Revision Log Default** -- Enforces revision log messages when saving content
-- **Length Indicator** -- Visual character-count indicator for text fields to guide content length
-- **Trash** -- Soft delete functionality that moves content to a trash bin instead of permanently deleting it
-- **Masquerade** -- Allows administrators to impersonate other user accounts for testing and debugging
-- **Menu Admin Per Menu** -- Grants menu administration permissions on a per-menu basis
-- **Admin Audit Trail** -- Comprehensive audit logging for files, media, users, taxonomy, nodes, menus, and authentication events
-- **Taxonomy Manager** -- Advanced taxonomy term management interface
-- **Taxonomy Access Fix** -- Fixes taxonomy-related access control issues
-- **ECA VBO** -- Event-Condition-Action integration with Views Bulk Operations for automated bulk actions
-- **UI Icons** -- Icon management framework for the admin interface
+Brings in the following core and contributed modules to your site:
 
-## Modules Installed
-
-The recipe installs 31 modules, including:
-
-- `gin`
-- `gin_toolbar`
-- `gin_login`
-- `gin_everywhere`
-- `gin_type_tray`
-- `roleassign`
-- `config_perms`
-- `admin_audit_trail`
-- `masquerade`
-- `menu_admin_per_menu`
-- `revision_log_default`
-- `autosave_form`
-- `entity_clone`
-- `taxonomy_manager`
-- `taxonomy_access_fix`
-- `coffee`
-- `length_indicator`
-- `navigation`
-- `navigation_extra_tools`
-- `trash`
-- `eca_vbo`
-- `ui_icons`
+| Module | Purpose |
+|---|---|
+| **Node** *(in Drupal core)* | Manages the creation, configuration, and display of the main site content. |
+| [**Gin**](https://www.drupal.org/project/gin) | Admin theme with a strong focus on improving the Editorial Experience. |
+| [**RoleAssign**](https://www.drupal.org/project/roleassign) | Allows site administrators to further delegate the task of managing user's roles. |
+| [**Custom Permissions**](https://www.drupal.org/project/config_perms) | Allows additional permissions to be created and managed through an administration form. |
+| [**Admin Audit Trail**](https://www.drupal.org/project/admin_audit_trail) | Logs general CUD events performed by the user (using the forms) on the website. |
+| [**Admin Audit Trail File**](https://www.drupal.org/project/admin_audit_trail) | Logs file CUD events performed by the user. |
+| [**Admin Audit Trail Media**](https://www.drupal.org/project/admin_audit_trail) | Logs node CUD events performed by the user. |
+| [**Admin Audit Trail User**](https://www.drupal.org/project/admin_audit_trail) | Logs user CUD events performed by the user. |
+| [**Admin Audit Trail Taxonomy**](https://www.drupal.org/project/admin_audit_trail) | Logs taxonomy vocabulary and term CUD events performed by the user. |
+| [**Admin Audit Trail Node**](https://www.drupal.org/project/admin_audit_trail) | Logs node CUD events performed by the user. |
+| [**Admin Audit Trail Menu**](https://www.drupal.org/project/admin_audit_trail) | Logs menu CUD events performed by the user. |
+| [**Admin Audit Trail User Authentication**](https://www.drupal.org/project/admin_audit_trail) | Logs user authentication (login logout and request password). |
+| [**Masquerade**](https://www.drupal.org/project/masquerade) | Allows privileged users to masquerade as another user. |
+| [**Menu Admin per Menu**](https://www.drupal.org/project/menu_admin_per_menu) | Allows to give roles per menu admin permissions without giving them full administer menu permission. |
+| [**Revision Log Default**](https://www.drupal.org/project/revision_log_default) | Provides sensible defaults for revision logs, if none are given. |
+| **Syslog** *(in Drupal core)* | Logs events to the web server's system log. |
+| **Update Status** *(in Drupal core)* | Checks for updates and can notify users if there are new releases available. |
+| [**Autosave Form**](https://www.drupal.org/project/autosave_form) | Adds autosave feature on forms. |
+| **Settings Tray** *(in Drupal core)* | Allows users to directly edit the configuration of blocks on the current page. |
+| [**Entity Clone**](https://www.drupal.org/project/entity_clone) | Add a clone action for all entities. |
+| [**Taxonomy Manager**](https://www.drupal.org/project/taxonomy_manager) | Tool for administrating taxonomy terms. |
+| [**Taxonomy Access Fix**](https://www.drupal.org/project/taxonomy_access_fix) | Extends access handling of Drupal Core's Taxonomy module. |
+| [**Coffee**](https://www.drupal.org/project/coffee) | Provides an Alfred like search box to navigate within your site. |
+| [**Length Indicator**](https://www.drupal.org/project/length_indicator) | Adds an optional length indicator to fields. |
+| **Navigation** *(in Drupal core)* | New administration navigation. |
+| [**Navigation Extra Tools**](https://www.drupal.org/project/navigation_extra_tools) | Adds menu links like flush cache, run cron, and run updates to the Drupal core Navigation menu. |
+| [**Gin Toolbar**](https://www.drupal.org/project/gin_toolbar) | Gin Toolbar for Gin Theme. |
+| [**Gin Login**](https://www.drupal.org/project/gin_login) | Custom Drupal Login for Gin theme. |
+| [**Gin everywhere**](https://www.drupal.org/project/gin_everywhere) | Enables Gin's edit form layout for every content entity. |
+| [**Gin Type Tray**](https://www.drupal.org/project/gin_type_tray) | Themes the Type Tray module for the Gin administrative theme. |
+| [**Trash**](https://www.drupal.org/project/trash) | Provides the ability to soft-delete content entities. |
+| [**ECA VBO**](https://www.drupal.org/project/eca_vbo) | Integrates ECA: Event - Condition - Action with Views Bulk Operations (VBO). |
+| [**UI Icons Form element**](https://www.drupal.org/project/ui_icons) | Core Icons main form element for Icon autocomplete. |
 
 ## Permissions
 
@@ -64,13 +58,7 @@ Varbase Admin Base configures role-based permissions for the following roles:
 
 ## Installation
 
-1. Require the package via Composer:
-
-```bash
-composer require drupal/varbase_admin_base:~1.0.0
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/varbase_admin_base

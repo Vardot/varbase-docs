@@ -6,32 +6,21 @@ The **Varbase Webform Base** recipe provides default webform modules, configurat
 
 [https://www.drupal.org/project/varbase\_webform\_base](https://www.drupal.org/project/varbase_webform_base)
 
-## Features
+## Included Modules
 
-- **Webform** -- Comprehensive form builder for creating surveys, contact forms, application forms, and any other type of web form
-- **Webform Templates** -- Pre-built form templates for common use cases, enabling quick form creation
-- **Professional Business Contact Form** -- Ships with a professional business contact webform template ready for immediate use
-- **Webform UI** -- Drag-and-drop user interface for building and configuring webform elements without writing code
-- **Webform Views** -- Integration with Views to display webform submissions in customizable listings and reports
-- **ECA Webform** -- Event-Condition-Action integration for automating workflows triggered by webform submissions
+Brings in the following core and contributed modules to your site:
 
-## Modules Installed
-
-- `webform`
-- `webform_templates`
-- `webform_ui`
-- `webform_views`
-- `eca_webform`
+| Module | Purpose |
+|---|---|
+| [**Webform**](https://www.drupal.org/project/webform) | Enables the creation of webforms and questionnaires. |
+| [**Webform Templates**](https://www.drupal.org/project/webform) | Provides starter templates that can be used to create new webforms. |
+| [**Webform UI**](https://www.drupal.org/project/webform) | Provides a user interface for building and maintaining webforms. |
+| [**Webform Views Integration**](https://www.drupal.org/project/webform_views) | Webform integration with views. |
+| [**ECA Webform**](https://www.drupal.org/project/eca_webform) | Integrate ECA with the Webform module and its plugins. |
 
 ## Installation
 
-1. Require the package via Composer:
-
-```bash
-composer require drupal/varbase_webform_base:~1.0.0
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/varbase_webform_base

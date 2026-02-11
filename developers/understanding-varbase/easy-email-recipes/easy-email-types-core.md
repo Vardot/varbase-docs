@@ -16,22 +16,18 @@ Each template replicates the original Drupal core email content while wrapping i
 
 - **`easy_email_text_format`** -- Provides the text format and CKEditor 5 configuration for editing email template content
 
-## Modules Installed
+## Included Modules
 
-The following modules are installed and configured by this recipe:
+Brings in the following core and contributed modules to your site:
 
-- **easy_email** -- Core Easy Email module for template management
-- **easy_email_override** -- Intercepts Drupal core emails and replaces them with Easy Email HTML templates
+| Module | Purpose |
+|---|---|
+| [**Easy Email**](https://www.drupal.org/project/easy_email) | A simple system for sending HTML-formatted emails. |
+| [**Easy Email Overrides**](https://www.drupal.org/project/easy_email) | Provides a system for overriding emails from core and contrib modules with emails generated from Easy Email templates. |
 
 ## Installation
 
-1. Require the Easy Email Types Core package via Composer:
-
-```bash
-composer require drupal/easy_email_types_core
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/easy_email_types_core

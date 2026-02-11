@@ -19,13 +19,7 @@ Varbase Media Assets is a companion recipe to Varbase Demo Content. It supplies 
 
 ## Installation
 
-1. Require the package via Composer:
-
-```bash
-composer require drupal/varbase_media_assets:~1.0.0
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/varbase_media_assets

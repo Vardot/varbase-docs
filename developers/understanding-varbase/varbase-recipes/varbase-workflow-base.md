@@ -10,21 +10,17 @@ The **Varbase Workflow Base** recipe provides content moderation, scheduled publ
 
 Varbase Workflow Base builds on top of the Drupal CMS basic workflow recipe to deliver a complete editorial workflow system. It integrates Drupal core's content moderation with scheduled publishing capabilities and audit trail logging for workflow transitions.
 
-## Features
+## Included Modules
 
-- **Content Moderation** -- Define workflow states (Draft, Published, Archived) and control transitions between them based on user roles
-- **Workflows** -- Configurable workflow definitions that can be applied to different content types
-- **Scheduled Publishing** -- Schedule content to be published or unpublished at specific dates and times using the Scheduler module
-- **Scheduler Content Moderation Integration** -- Bridges scheduled publishing with content moderation states, allowing scheduled transitions between workflow states
-- **Workflow Audit Trail** -- Tracks all workflow transitions in the admin audit trail for accountability and compliance
+Brings in the following core and contributed modules to your site:
 
-## Modules Installed
-
-- `workflows`
-- `content_moderation`
-- `scheduler`
-- `scheduler_content_moderation_integration`
-- `admin_audit_trail_workflows`
+| Module | Purpose |
+|---|---|
+| **Workflows** *(in Drupal core)* | Provides an interface to create workflows with transitions between different states (for example publication or user status) provided by other modules. |
+| **Content Moderation** *(in Drupal core)* | Provides additional publication states that can be used by other modules to moderate content. |
+| [**Scheduler**](https://www.drupal.org/project/scheduler) | Publish and unpublish content and entities automatically on specified dates and times. |
+| [**Scheduler Content Moderation Integration**](https://www.drupal.org/project/scheduler_content_moderation_integration) | Scheduler sub-module providing content moderation functionality for publishing/unpublishing. |
+| [**Admin Audit Trail Workflows**](https://www.drupal.org/project/admin_audit_trail) | Logs workflows events performed by the user. |
 
 ## Permissions
 
@@ -32,13 +28,7 @@ The recipe configures permissions for the `content_editor` role, granting the ne
 
 ## Installation
 
-1. Require the package via Composer:
-
-```bash
-composer require drupal/varbase_workflow_base:~1.0.0
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/varbase_workflow_base

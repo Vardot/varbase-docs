@@ -8,9 +8,13 @@ The Drupal CMS Google Analytics recipe integrates Google Analytics and Google Ta
 
 - **drupal\_cms\_privacy\_basic** -- Basic privacy features for consent management, ensuring tracking scripts are only loaded when visitors have given consent
 
-## Modules Included
+## Included Modules
 
-- **google\_tag** -- Provides Google Tag Manager integration, supporting multiple tag container types for analytics and marketing
+Brings in the following core and contributed modules to your site:
+
+| Module | Purpose |
+|---|---|
+| [**Google Tag**](https://www.drupal.org/project/google_tag) | Sets up Google Tag. |
 
 ## Configuration Input
 
@@ -25,7 +29,7 @@ This recipe accepts the following configuration input during installation:
 
 ## Installation
 
-This recipe is typically installed as a dependency of the varbase\_starter recipe. To apply it independently:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/drupal_cms_google_analytics

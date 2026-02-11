@@ -23,13 +23,7 @@ Varbase Demo Content creates sample content that showcases the features and cont
 
 ## Installation
 
-1. Require the package via Composer:
-
-```bash
-composer require drupal/varbase_demo_content:~1.0.0
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/varbase_demo_content

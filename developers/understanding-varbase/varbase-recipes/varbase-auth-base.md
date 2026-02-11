@@ -6,27 +6,19 @@ The **Varbase Auth Base** recipe provides Social Single Sign-On with default soc
 
 [https://www.drupal.org/project/varbase\_auth\_base](https://www.drupal.org/project/varbase_auth_base)
 
-## Features
+## Included Modules
 
-- **Social Auth** -- Framework for integrating social authentication providers, enabling users to log in using their existing social media or third-party accounts
-- **Social Auth Google** -- Google authentication provider allowing users to sign in with their Google accounts
-- **Varbase Auth** -- Varbase-specific authentication enhancements and configuration that tie the social authentication system into the broader Varbase user management workflow
+Brings in the following core and contributed modules to your site:
 
-## Modules Installed
-
-- `social_auth`
-- `social_auth_google`
-- `varbase_auth`
+| Module | Purpose |
+|---|---|
+| [**Social Auth**](https://www.drupal.org/project/social_auth) | Allows user authentication with different services. |
+| [**Social Auth Google**](https://www.drupal.org/project/social_auth_google) | Social Auth integration for Google. |
+| [**Varbase Social Single Sign-On**](https://www.drupal.org/project/varbase_auth) | Adds single sign-on using existing information from a social networking service. Such as Facebook, Twitter, LinkedIn, or Google. Built using Social API. |
 
 ## Installation
 
-1. Require the package via Composer:
-
-```bash
-composer require drupal/varbase_auth_base:~1.0.0
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/varbase_auth_base

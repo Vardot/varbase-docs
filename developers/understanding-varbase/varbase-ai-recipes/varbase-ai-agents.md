@@ -6,31 +6,23 @@ Varbase AI Agents brings AI-powered automation to your Varbase site with site ad
 
 - **Drupal.org:** [https://www.drupal.org/project/varbase\_ai\_agents](https://www.drupal.org/project/varbase_ai_agents)
 
-## Features
+## Included Modules
 
-- AI-driven chatbots for site visitor interaction and support
-- Multiple agent management for handling different automation tasks
-- Content moderation and workflow automation powered by AI
-- Site administration assistance through conversational AI interfaces
-- Inspired by and compatible with the Drupal CMS AI recipe approach
+Brings in the following core and contributed modules to your site:
 
-## Modules Included
-
-- AI Agents
-- AI Assistant API
-- AI Chatbot
+| Module | Purpose |
+|---|---|
+| [**Key**](https://www.drupal.org/project/key) | Provides the ability to manage site-wide keys. |
+| [**AI Core**](https://www.drupal.org/project/ai) | This module provides an abstraction layer for AI services. |
+| [**AI Assistant API**](https://www.drupal.org/project/ai) | Adds decoupled AI Assistants for any frontend to work with. |
+| [**AI Chatbot**](https://www.drupal.org/project/ai) | Provides a chatbot frontend for the AI Assistant API. |
+| [**AI Agents**](https://www.drupal.org/project/ai_agents) | The Agents module makes Drupal taskable by AI agents. |
 
 ## Dependencies
 
 - Varbase AI Base
 
 ## Installation
-
-Install via Composer:
-
-```bash
-composer require drupal/varbase_ai_agents:~1.0.0
-```
 
 Apply the recipe using Drush:
 

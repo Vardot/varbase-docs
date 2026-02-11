@@ -22,13 +22,7 @@ Easy Email Express depends on the following recipes:
 
 ## Installation
 
-1. Require the Easy Email Express package via Composer:
-
-```bash
-composer require drupal/easy_email_express
-```
-
-2. Apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/easy_email_express

@@ -16,7 +16,7 @@ The Drupal CMS Page recipe provides a simple page content type for creating basi
 
 ## Installation
 
-This recipe is typically installed as a dependency of the varbase\_starter recipe. To apply it independently:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/drupal_cms_page

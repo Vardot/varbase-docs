@@ -4,11 +4,15 @@
 
 The Drupal CMS Anti-Spam recipe provides anti-spam and anti-abuse functionality for Drupal sites. It combines CAPTCHA challenges with honeypot techniques to protect forms from automated spam submissions.
 
-## Modules Included
+## Included Modules
 
-- **captcha** -- CAPTCHA challenge-response framework for form protection
-- **friendlycaptcha** -- Privacy-friendly CAPTCHA implementation
-- **honeypot** -- Invisible spam prevention using honeypot fields and time restrictions
+Brings in the following core and contributed modules to your site:
+
+| Module | Purpose |
+|---|---|
+| [**CAPTCHA**](https://www.drupal.org/project/captcha) | Provides the CAPTCHA API for adding challenges to arbitrary forms. |
+| [**Friendly Captcha**](https://www.drupal.org/project/friendlycaptcha) | Protect your website from spam and abuse while letting real people pass through with ease. |
+| [**Honeypot**](https://www.drupal.org/project/honeypot) | Mitigates spam form submissions using the honeypot method. |
 
 ## Configuration Input
 
@@ -18,7 +22,7 @@ This recipe accepts the following configuration input during installation:
 
 ## Installation
 
-This recipe is typically installed as a dependency of other Drupal CMS recipes (such as Drupal CMS Forms). To apply it independently:
+Apply the recipe using Drush:
 
 ```bash
 drush recipe recipes/contrib/drupal_cms_anti_spam
