@@ -10,7 +10,7 @@ A quick introduction to Varbase 11.0.x, its recipe-based architecture, and how t
 
 ### [Installing Varbase](installing-varbase/)
 
-Step-by-step installation guides covering system requirements and local development setup using DDEV or Lando.
+Step-by-step installation guides covering system requirements and local development setup using DDEV.
 
 ### [Understanding Varbase](understanding-varbase/)
 
@@ -23,10 +23,6 @@ Guidance on configuring your Varbase site after installation, including content 
 ### [Theme Development with Varbase](theme-development-with-varbase/)
 
 Documentation on working with Vartheme BS5, creating sub-themes, and customizing the front-end appearance of your Varbase site.
-
-### [Updating Varbase](updating-varbase/)
-
-Instructions for keeping your Varbase site up to date, including Composer-based updates, recipe re-application, and database updates.
 
 ### [Extending Varbase](extending-varbase/)
 
