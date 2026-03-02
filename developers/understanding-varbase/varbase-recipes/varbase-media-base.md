@@ -20,6 +20,7 @@ Brings in the following core and contributed modules to your site:
 | **Views** *(in Drupal core)* | Provides a framework to fetch information from the database and to display it in different formats. |
 | [**Better Exposed Filters**](https://www.drupal.org/project/better_exposed_filters) | Provides advanced options (e.g. links, checkboxes, or other widgets) to exposed Views elements. |
 | [**Crop API**](https://www.drupal.org/project/crop) | Provides storage and API for image crops. |
+| [**Drimage Improved**](https://www.drupal.org/project/drimage_improved) | Optimized responsive images using client hints and automatic srcset generation. |
 | [**DropzoneJS entity browser widget**](https://www.drupal.org/project/dropzonejs) | DropzoneJS Entity browser widget. |
 | [**Embed**](https://www.drupal.org/project/embed) | Provides a framework for different types of embeds in text editors. |
 | [**Focal Point**](https://www.drupal.org/project/focal_point) | Allows users to specify the focal point of an image for use during cropping. |
@@ -30,6 +31,7 @@ Brings in the following core and contributed modules to your site:
 | [**Views Infinite Scroll**](https://www.drupal.org/project/views_infinite_scroll) | A pager which allows an infinite scroll effect for views. |
 | [**Views Bulk Edit**](https://www.drupal.org/project/views_bulk_edit) | Allows bulk edition of entity field values. |
 | [**WebP**](https://www.drupal.org/project/webp) | Generates WebP copies of image style derivatives. |
+| [**Varbase Media**](https://www.drupal.org/project/varbase_media) | Provides Varbase media types, view modes, and configurations. |
 
 ## Installation
 

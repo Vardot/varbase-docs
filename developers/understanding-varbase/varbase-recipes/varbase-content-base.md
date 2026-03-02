@@ -74,6 +74,7 @@ Brings in the following core and contributed modules to your site:
 | [**Tagify**](https://www.drupal.org/project/tagify) | Makes entity reference fields more user-friendly using Tagify. |
 | [**Rabbit Hole**](https://www.drupal.org/project/rabbit_hole) | Basic functionality that is shared among the different Rabbit Hole modules. |
 | [**View Modes Inventory**](https://www.drupal.org/project/vmi) | This module has a set of template view modes that we typically use (some of them) in each website. |
+| [**Varbase Components**](https://www.drupal.org/project/varbase_components) | Provides SDC components for Varbase. |
 
 ## Available Modules (Not Enabled by Default)
 
