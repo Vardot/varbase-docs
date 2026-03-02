@@ -47,9 +47,9 @@ composer update vardot/varbase-patches
 
 You can review the patches currently defined by `vardot/varbase-patches` by examining the package's `composer.json` file or visiting the repository on GitHub. Each patch includes:
 
-- A link to the Drupal.org issue it addresses.
-- A description of the fix.
-- The URL of the patch file.
+* A link to the Drupal.org issue it addresses.
+* A description of the fix.
+* The URL of the patch file.
 
 ## Adding Custom Patches
 
@@ -99,7 +99,7 @@ To keep patches in a separate file:
 
 ## Managing Patches During Updates
 
-When updating packages, patches may fail to apply if the underlying code has changed. See [Handling Patches When Updating](updating-varbase/handling-patches-when-updating.md) for detailed instructions on resolving patch-related issues during updates.
+When updating packages, patches may fail to apply if the underlying code has changed. See [Handling Patches When Updating](/broken/pages/udNXSPvZ2fomMKUVOg9P) for detailed instructions on resolving patch-related issues during updates.
 
 ## Best Practices
 

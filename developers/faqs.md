@@ -2,7 +2,7 @@
 
 Common questions and answers about Varbase 11.0.x.
 
----
+***
 
 ## What is the difference between Varbase 10.x and 11.x?
 
@@ -12,13 +12,13 @@ In Varbase 10.x, functionality was provided through custom Varbase modules (such
 
 Other key differences include:
 
-- **Drupal version**: Varbase 10.x is built on Drupal 10; Varbase 11.x is built on Drupal 11.
-- **PHP requirement**: Varbase 11.x requires PHP 8.3 or later.
-- **Email handling**: Varbase Email module has been replaced by Easy Email recipes.
-- **Workflow automation**: ECA (Event-Condition-Action) is now used for workflow automation.
-- **Theme system**: Vartheme BS5 now uses Single Directory Components (SDC) and CVA.
+* **Drupal version**: Varbase 10.x is built on Drupal 10; Varbase 11.x is built on Drupal 11.
+* **PHP requirement**: Varbase 11.x requires PHP 8.3 or later.
+* **Email handling**: Varbase Email module has been replaced by Easy Email recipes.
+* **Workflow automation**: ECA (Event-Condition-Action) is now used for workflow automation.
+* **Theme system**: Vartheme BS5 now uses Single Directory Components (SDC) and CVA.
 
----
+***
 
 ## How do I apply a single Varbase recipe?
 
@@ -43,7 +43,7 @@ composer require drupal/varbase_media_base
 ddev drush recipe ../recipes/varbase_media_base
 ```
 
----
+***
 
 ## Can I use Varbase recipes without the full distribution?
 
@@ -53,7 +53,7 @@ For example, if you only need Varbase's media handling, you can apply just the `
 
 Each recipe declares its own dependencies, so applying a recipe will automatically apply any prerequisite recipes as well.
 
----
+***
 
 ## How do I update from Varbase 10.x to 11.x?
 
@@ -61,26 +61,26 @@ There is currently **no supported update or upgrade path** from Varbase 10.x to 
 
 The recommended approach is to start a new Varbase 11.x site and migrate your content using Drupal's Migrate API or other content migration tools.
 
-For more details, see the [Updating from Varbase 10.x to 11.x](updating-varbase/updating-from-10-to-11.md) page.
+For more details, see the [Updating from Varbase 10.x to 11.x](/broken/pages/qoKt7lPCjR1zNVFhylKv) page.
 
----
+***
 
 ## Where do I report bugs?
 
 Bugs and issues for Varbase should be reported on the **Drupal.org issue queue**:
 
-- **Varbase project**: [https://www.drupal.org/project/issues/varbase](https://www.drupal.org/project/issues/varbase)
-- **Individual Varbase recipes**: Each recipe has its own issue queue on Drupal.org. Navigate to the recipe's project page and use the "Issues" tab.
+* **Varbase project**: [https://www.drupal.org/project/issues/varbase](https://www.drupal.org/project/issues/varbase)
+* **Individual Varbase recipes**: Each recipe has its own issue queue on Drupal.org. Navigate to the recipe's project page and use the "Issues" tab.
 
 When reporting a bug, please include:
 
-- The Varbase version and Drupal version you are using.
-- Steps to reproduce the issue.
-- Expected behavior versus actual behavior.
-- Any error messages from the Drupal log (Reports > Recent log messages).
-- Your PHP version and hosting environment details.
+* The Varbase version and Drupal version you are using.
+* Steps to reproduce the issue.
+* Expected behavior versus actual behavior.
+* Any error messages from the Drupal log (Reports > Recent log messages).
+* Your PHP version and hosting environment details.
 
----
+***
 
 ## How do I install Varbase?
 
@@ -99,25 +99,25 @@ The **Varbase Installer** handles Drupal installation and recipe application aut
 
 For detailed installation instructions, see the [Installing Varbase](installing-varbase/) section.
 
----
+***
 
 ## What PHP version does Varbase 11.x require?
 
 Varbase 11.x requires **PHP 8.4** or later. This is a requirement inherited from Drupal 11.
 
----
+***
 
 ## Can I use a different front-end theme?
 
 Yes. While Vartheme BS5 is the default front-end theme, you can use any Drupal-compatible theme. You can:
 
-- Create a **sub-theme** of Vartheme BS5 to customize it (recommended for most projects).
-- Install a completely different contributed theme.
-- Create a custom theme from scratch.
+* Create a **sub-theme** of Vartheme BS5 to customize it (recommended for most projects).
+* Install a completely different contributed theme.
+* Create a custom theme from scratch.
 
 See the [Theme Development with Varbase](theme-development-with-varbase/) section for more details.
 
----
+***
 
 ## How do I customize emails sent from the site?
 
@@ -130,7 +130,7 @@ Varbase 11.x uses Easy Email for email management. You can customize email templ
 
 For SMTP configuration, see [Configure Easy Email](configuring-a-varbase-site/mailer-settings/configure-easy-email.md).
 
----
+***
 
 ## How do I add a new content type?
 

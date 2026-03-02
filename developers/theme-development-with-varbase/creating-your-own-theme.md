@@ -1,231 +1,162 @@
 # Creating Your Own Theme
 
-This guide explains how to create a custom sub-theme of Vartheme BS5 for your Varbase project. A sub-theme inherits the base functionality and styling of Vartheme BS5 while allowing you to customize the appearance, add new components, and override existing templates.
+After building and installing the project with the [**Varbase Project**](https://github.com/Vardot/varbase-project) template, use the [**Drupal Generate Theme**](https://www.drupal.org/docs/core-modules-and-themes/core-themes/starterkit-theme) using the **Vartheme starterkit** command.
 
-## Why Create a Sub-Theme?
+Before that have a look at:
 
-Creating a sub-theme rather than modifying Vartheme BS5 directly ensures that:
+[Understanding The Vartheme Starterkit Theme](https://docs.varbase.vardot.com/developers/theme-development-with-varbase/understanding-the-vartheme-base-theme)
 
-- Your customizations are preserved when Vartheme BS5 is updated.
-- You benefit from upstream improvements and bug fixes.
-- Your project-specific code is cleanly separated from the base theme.
+Learn more about Bootstrap standard build tools documentation, compile source code, run tests, and more.
 
-## Method 1: Using the Starterkit Command
+[https://getbootstrap.com/docs/5.3/getting-started/contribute/#tooling-setup](https://getbootstrap.com/docs/5.3/getting-started/contribute/#tooling-setup)
 
-Drupal provides a `generate-theme` command that creates a new theme from a starterkit. If Vartheme BS5 provides a starterkit, you can use this approach:
+### Install Needed Tools Command <a href="#install-needed-tools-command" id="install-needed-tools-command"></a>
 
-```bash
-php core/scripts/drupal generate-theme my_custom_theme --starterkit vartheme_bs5
+Utilize the command provided in the following link to automatically configure all necessary Node.js or theme processing requirements:
+
+[Command to Install Needed Theming Tools](https://docs.varbase.vardot.com/developers/theme-development-with-varbase/command-to-install-needed-theming-tools)
+
+### Install Needed Tools Manually <a href="#install-needed-tools-manually" id="install-needed-tools-manually"></a>
+
+Please refer to the following link for a comprehensive set of instructions or an external resource to guide you through the setup process:
+
+[Manually Install Needed Theming Tools](https://docs.varbase.vardot.com/developers/theme-development-with-varbase/manually-install-needed-theming-tools)
+
+### Create new Vartheme BS5 Cloned Generated Theme <a href="#create-new-vartheme-bs5-cloned-generated-theme" id="create-new-vartheme-bs5-cloned-generated-theme"></a>
+
+#### How to use the Vartheme BS5 Starterkit <a href="#how-to-use-the-vartheme-bs5-starterkit" id="how-to-use-the-vartheme-bs5-starterkit"></a>
+
+To generate a new theme from **Vartheme BS5** using the `starterkit/theme-generation` script, run the following from **Drupal's** installation root:
+
+```
+cd PROJECT_DIR_NAME/docroot
 ```
 
-This generates a new theme in the `themes/my_custom_theme` directory with all the necessary files pre-configured.
+Run the following Drupal Generate Theme script:
 
-After generating:
-
-1. Review and update the `my_custom_theme.info.yml` file with your theme's name and description.
-2. Install dependencies and build assets (see below).
-3. Enable the theme at **Appearance** (`/admin/appearance`).
-
-## Method 2: Manual Sub-Theme Creation
-
-If you prefer to create the sub-theme manually, follow these steps:
-
-### Step 1: Create the Theme Directory
-
-Create a new directory for your theme:
-
-```bash
-mkdir -p themes/custom/my_custom_theme
+```
+php core/scripts/drupal generate-theme mytheme --starterkit vartheme_bs5 --path themes/custom
 ```
 
-### Step 2: Create the Info File
+Additionally, you can create the theme's human-readable name and it description with two optional arguments:
 
-Create `my_custom_theme.info.yml`:
-
-```yaml
-name: 'My Custom Theme'
-type: theme
-description: 'A custom sub-theme of Vartheme BS5 for my project.'
-core_version_requirement: ^10.3 || ^11
-base theme: vartheme_bs5
-package: Custom
-
-regions:
-  header: Header
-  primary_menu: 'Primary menu'
-  secondary_menu: 'Secondary menu'
-  hero: Hero
-  highlighted: Highlighted
-  help: Help
-  content: Content
-  sidebar_first: 'First sidebar'
-  sidebar_second: 'Second sidebar'
-  footer: Footer
-  page_top: 'Page top'
-  page_bottom: 'Page bottom'
+```
+php core/scripts/drupal generate-theme mytheme \
+  --starterkit vartheme_bs5 \
+  --path themes/custom \
+  --name "MyTheme" \
+  --description "Custom theme generated from Vartheme BS5 theme" 
 ```
 
-### Step 3: Create the Library File
+This script will copy over all the files from the **Vartheme BS5** theme, and replace instances of **Vartheme BS5**'s machine name and label with the strings you provide.
 
-Create `my_custom_theme.libraries.yml` to define your CSS and JavaScript assets:
+After Installing the New Custom Theme
 
-```yaml
-global-styling:
-  css:
-    theme:
-      css/style.css: {}
-  js:
-    js/script.js: {}
-  dependencies:
-    - vartheme_bs5/global-styling
+**Uninstall Vartheme BS5 after creating a new theme**
+
+At this point the new generated theme will not need the Vartheme BS5 to be installed.
+
+#### Customizing CSS <a href="#customizing-css" id="customizing-css"></a>
+
+The new theme should look and function identically to **Vartheme BS5** out of the box, but the styles could be changed to suit the project's needs. **Vartheme BS5**'s styles are written using **Bootstrap 5**, `SASS`, `PostCSS`, which is installed and configured **Varbase**, and allows `CSS` authors to write modern `CSS` while still supporting browsers that have not fully implemented the newest methodologies.
+
+#### Customizing Bootstrap's JavaScripts <a href="#customizing-bootstraps-javascripts" id="customizing-bootstraps-javascripts"></a>
+
+As part of the `generate-theme` command, the necessary `package.json` dependencies and scripts files are copied over for the project. Simply install the dependencies and then run `yarn theme:init` once, and then either the `yarn theme:full-build` command to compile the assets once or the `yarn theme:watch` command to re-compile the assets every time a `.scss` file is changed.
+
+### Install the Dependencies for Needed Packages <a href="#install-the-dependencies-for-needed-packages" id="install-the-dependencies-for-needed-packages"></a>
+
+```
+yarn install
 ```
 
-### Step 4: Set Up the SCSS Structure
+Recommended to use **Yarn**, Please do not use `npm install`
 
-Create the SCSS directory structure:
+you may run into issue while installing
 
-```bash
-mkdir -p themes/custom/my_custom_theme/scss
-mkdir -p themes/custom/my_custom_theme/css
-mkdir -p themes/custom/my_custom_theme/js
+the list of packages in the `package.json was optimized for better use with Yarn`
+
+[Install Needed YARN and Webpack Tools](https://docs.varbase.vardot.com/developers/extending-varbase/install-needed-tools)
+
+### Initialize the Theme Once <a href="#initialize-the-theme-once" id="initialize-the-theme-once"></a>
+
+```
+yarn theme:init
 ```
 
-Create `scss/style.scss` as the main SCSS entry point:
+Ensure that you perform this step immediately after generating and installing packages, or after updating Bootstrap, Font Awesome, or any other necessary extensions.
 
-```scss
-// Bootstrap variable overrides (must come before Bootstrap import)
-$primary: #0d6efd;
-$secondary: #6c757d;
-$font-family-base: 'Open Sans', sans-serif;
+The `theme:init` script alias will trigger the execution of `webpack --progress --config webpack.config.init.js`. This command is responsible for copying the specified files and folders from the [`webpack.config.init.js`](https://github.com/Vardot/vartheme_bs5/blob/3.0.x/webpack.config.init.js) configuration file to their respective locations.
 
-// Import Vartheme BS5 base styles
-// Add your custom styles below
+Additionally, any additional external libraries from the `node_modules` folder can be managed by copying them to a designated target libraries folder.
 
-// Custom component styles
-// @import 'components/header';
-// @import 'components/footer';
+It is essential to include comprehensive **"install once"** or **"configure once"** options that can be utilized by new development team members when they join the project for custom theme development or theming. **This approach ensures a smooth onboarding process and facilitates seamless setup for new team members**.
+
+### Compile Once <a href="#compile-once" id="compile-once"></a>
+
+With webpack, project can compile may type of files and integrate with more nodejs processing tools.
+
+#### Compile all <a href="#compile-all" id="compile-all"></a>
+
+Use the following alias script command to compile all SCSS, JS, or SVG icons.
+
+```
+yarn theme:full-build
 ```
 
-### Step 5: Configure the Build Tools
+#### Compile SDC Components Only <a href="#compile-sdc-components-only" id="compile-sdc-components-only"></a>
 
-Create a `package.json` file:
+In case of working on a custom SDC component, an alias script command can help with the.
 
-```json
-{
-  "name": "my_custom_theme",
-  "version": "1.0.0",
-  "description": "Custom Varbase sub-theme",
-  "scripts": {
-    "build": "sass scss/style.scss css/style.css --style=compressed",
-    "watch": "sass scss/style.scss css/style.css --watch"
-  },
-  "devDependencies": {
-    "sass": "^1.60.0"
-  }
-}
+```
+yarn components:build
 ```
 
-Install dependencies and build:
+The `components:build` script alias will trigger the execution of `webpack --progress --config webpack.config.components.js`. This command is responsible only for compiling custom SDC components in the them. The [webpack.config.components.js](https://github.com/Vardot/vartheme_bs5/blob/3.0.x/webpack.config.components.js) file has the list of entry, and output for compiled css/js/svg script to the right public path.
 
-```bash
-cd themes/custom/my_custom_theme
-npm install
-npm run build
+Have a look at the following link for more info:
+
+#### Compile Custom Theme Styling Only <a href="#compile-custom-theme-styling-only" id="compile-custom-theme-styling-only"></a>
+
+In case of working on small custom theme styling, which no need to compile components. The following alias script command can help compile in a quick way.
+
+```
+yarn theme:build
 ```
 
-### Step 6: Enable the Theme
+### Watching and Syncing <a href="#watching-and-syncing" id="watching-and-syncing"></a>
 
-Enable your custom theme through the Drupal admin interface:
+Use to only while working to auto compile custom theme styling
 
-1. Navigate to **Appearance** (`/admin/appearance`).
-2. Find your custom theme in the list.
-3. Click **Install and set as default**.
-
-Or use Drush:
-
-```bash
-drush theme:install my_custom_theme
-drush config:set system.theme default my_custom_theme -y
+```
+yarn theme:watch
 ```
 
-## Customizing Bootstrap Variables
+`theme:watch` is targeted for the theme only, but it can be customized in custom theme
 
-Bootstrap 5 uses SCSS variables to control virtually every aspect of the framework's appearance. Override these variables in your sub-theme's SCSS files **before** importing Bootstrap.
+### Reporting Starterkit Bugs <a href="#reporting-starterkit-bugs" id="reporting-starterkit-bugs"></a>
 
-Common variables to customize:
+Should you encounter a bug while generating a new theme, please [create a new issue](https://www.drupal.org/node/add/project-issue/vartheme_bs5)
 
-```scss
-// Colors
-$primary: #1a73e8;
-$secondary: #5f6368;
-$success: #34a853;
-$danger: #ea4335;
+#### Additional Information <a href="#additional-information" id="additional-information"></a>
 
-// Typography
-$font-family-base: 'Roboto', sans-serif;
-$font-size-base: 1rem;
-$headings-font-weight: 700;
+**Starterkit is for generating new themes** that include reasonably un-opinionated templates and styles that eliminate much of the the initial work required to create a theme.
 
-// Spacing
-$spacer: 1rem;
+Starterkit is the recommended approach for creating new themes. For more information, consult the [Starterkit documentation on Drupal.org](https://www.drupal.org/docs/core-modules-and-themes/core-themes/starterkit-theme).
 
-// Border radius
-$border-radius: 0.375rem;
-$border-radius-lg: 0.5rem;
+### Cloning a Project <a href="#cloning-a-project" id="cloning-a-project"></a>
 
-// Container widths
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px,
-  xxl: 1320px
-);
+On the state of working in a team in a project, the created theme could be don by other member of the team.
+
+When the theme get committed by git for example, the `node_modules` folder will not be committed. As it is listed in the `.gitignore` file.
+
+After cloning a project with a Vartheme cloned generated theme.
+
+Run the following commands to get all development tools
+
 ```
-
-## Overriding Templates
-
-To override a Twig template from Vartheme BS5:
-
-1. Copy the template file from `themes/contrib/vartheme_bs5/templates/` to the corresponding location in your sub-theme's `templates/` directory.
-2. Modify the copied template as needed.
-3. Clear the Drupal cache:
-
-```bash
-drush cr
+cd PROJECT_DIR_NAME/docroot/themes/custom/THEME_NAME
+yarn install
+yarn theme:init
+yarn theme:full-build
 ```
-
-Drupal will automatically use your sub-theme's template instead of the base theme's version.
-
-## Adding Custom Components
-
-To add new Single Directory Components to your sub-theme:
-
-1. Create a `components/` directory in your theme.
-2. Create a subdirectory for each component.
-3. Add the required files (`*.twig`, `*.component.yml`, and optionally `*.scss` and `*.js`).
-4. Clear the cache to register the new components.
-
-## Development Workflow
-
-For an efficient development workflow:
-
-1. Run the SCSS watcher to automatically compile changes:
-
-```bash
-npm run watch
-```
-
-2. Enable Twig debugging in `development.services.yml`:
-
-```yaml
-parameters:
-  twig.config:
-    debug: true
-    auto_reload: true
-    cache: false
-```
-
-3. Disable CSS and JavaScript aggregation during development at **Configuration > Development > Performance**.
-
-4. Use `drush cr` to clear cache when adding new templates or components.

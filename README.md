@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/yE16Xb3IemPxJWydtPOj/
+---
+
 # Overview
 
 Varbase 11.0.x documentation for the recipe-based Drupal CMS distribution.
