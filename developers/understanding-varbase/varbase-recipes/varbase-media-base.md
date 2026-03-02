@@ -24,6 +24,7 @@ Brings in the following core and contributed modules to your site:
 | [**DropzoneJS entity browser widget**](https://www.drupal.org/project/dropzonejs) | DropzoneJS Entity browser widget. |
 | [**Embed**](https://www.drupal.org/project/embed) | Provides a framework for different types of embeds in text editors. |
 | [**Focal Point**](https://www.drupal.org/project/focal_point) | Allows users to specify the focal point of an image for use during cropping. |
+| **Field UI** *(in Drupal core)* | Provides a user interface for the Field module. |
 | [**Media Bulk Upload**](https://www.drupal.org/project/media_bulk_upload) | Allows uploading files in bulk and converting them to media entities. |
 | [**Media Bulk Upload: DropzoneJS**](https://www.drupal.org/project/media_bulk_upload) | Allows DropzoneJS integration with media bulk upload. |
 | [**Media Library Edit**](https://www.drupal.org/project/media_library_edit) | Add an edit button to the Media Library widget when an item is selected. |

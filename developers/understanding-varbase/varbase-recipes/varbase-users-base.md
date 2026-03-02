@@ -2,20 +2,13 @@
 
 The **Varbase Users Base** recipe manages default Varbase user roles and user management configurations, including role definitions, account settings, and the modules needed to support user management on the site.
 
-## Recipe Type
+## Drupal.org Project
 
-User roles
+[https://www.drupal.org/project/varbase\_users\_base](https://www.drupal.org/project/varbase_users_base)
 
 ## Overview
 
 Varbase Users Base establishes the foundation for user management in Varbase sites. It configures user account settings, registration policies, and notification preferences to provide a secure and user-friendly experience.
-
-This recipe provides:
-
-- **User account settings** for registration and authentication
-- **Email notification configurations** for account events
-- **Security settings** for password management
-- **Registration policies** for new account creation
 
 ## Configuration
 

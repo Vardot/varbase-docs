@@ -2,21 +2,13 @@
 
 The **Varbase Page Base** recipe provides a Page content type for Varbase with specific features including SEO fields, editorial workflow integration, and menu configuration.
 
-## Recipe Type
+## Drupal.org Project
 
-Varbase Page
+[https://www.drupal.org/project/varbase\_page\_base](https://www.drupal.org/project/varbase_page_base)
 
 ## Overview
 
 Varbase Page Base sets up the standard Page content type that serves as the foundation for basic pages on Varbase sites. It integrates with the editorial workflow, SEO tools, and menu system to provide a complete page management experience.
-
-This recipe brings together:
-
-- **Page content type** from Drupal CMS Content Type Base
-- **SEO fields** via Varbase SEO Base
-- **Editorial workflow** via Varbase Workflow Base
-- **Media handling** via Varbase Media Base
-- **Menu configuration** for main and footer navigation
 
 ## Recipe Dependencies
 

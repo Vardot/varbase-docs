@@ -10,6 +10,7 @@ Depends on the following recipes:
 
 | Recipe | Description |
 |---|---|
+| **content_editor_role** *(Drupal core)* | Creates the content editor role with media-related permissions. |
 | **document_media_type** *(Drupal core)* | Core document media type. |
 | **image_media_type** *(Drupal core)* | Core image media type. |
 | **local_video_media_type** *(Drupal core)* | Core video media type. |
