@@ -24,8 +24,7 @@ Depends on the following recipes:
 
 | Recipe | Description |
 |---|---|
-| **administrator_role** *(Drupal core)* | Creates the administrator role. |
-| **content_editor_role** *(Drupal core)* | Creates the content editor role. |
+| [**Varbase Users Base**](varbase-users-base.md) | Default user roles, account settings, and user management configurations. |
 | [**Drupal CMS Admin UI**](../drupal-cms-recipes/drupal-cms-admin-ui.md) | Administrative theme and navigation for Drupal CMS. |
 | [**Drupal CMS Anti-Spam**](../drupal-cms-recipes/drupal-cms-anti-spam.md) | Anti-spam and anti-abuse functionality. |
 | [**Drupal CMS Authentication**](../drupal-cms-recipes/drupal-cms-authentication.md) | Enhanced authentication features. |
@@ -44,9 +43,10 @@ Depends on the following recipes:
 | [**Varbase Workflow Base**](varbase-workflow-base.md) | Content moderation, scheduled publishing, and workflows. |
 | [**Varbase SEO Base**](varbase-seo-base.md) | Comprehensive SEO modules and configurations. |
 | [**Varbase Webform Base**](varbase-webform-base.md) | Webform modules for building and managing forms. |
+| [**Varbase Page Base**](varbase-page-base.md) | Page content type with SEO fields, editorial workflow, and menu configuration. |
 | [**Varbase Blog Base**](varbase-blog-base.md) | Blog post content type with listing page. |
 | [**Varbase Performance Base**](varbase-performance-base.md) | Page caching, image optimization, and performance settings. |
-| [**Varbase Demo Content**](varbase-demo-content.md) | Demo content for new Varbase sites. |
+| [**Varbase Demo Content**](varbase-demo-content.md) | Demo content for new Varbase sites. | |
 
 ## Included Modules
 

@@ -1,26 +1,29 @@
 # Varbase Privacy
 
-The **Varbase Privacy** recipe provides cookie consent and privacy settings for Varbase sites, helping site owners comply with privacy regulations such as GDPR and ePrivacy.
+The **Varbase Privacy** recipe provides cookie consent and privacy settings for Varbase sites, helping ensure compliance with privacy regulations such as GDPR.
 
 ## Drupal.org Project
 
 [https://www.drupal.org/project/varbase\_privacy](https://www.drupal.org/project/varbase_privacy)
 
-## Security Coverage
+## Overview
 
-This project is covered by Drupal's security advisory policy, ensuring that any security vulnerabilities are handled through the official Drupal security process.
+Varbase Privacy builds on top of the Drupal CMS Privacy Basic recipe to provide a complete privacy management solution. It configures consent management, cookie banners, and privacy policy integration.
 
-**Stable release:** 1.0.0
+## Recipe Dependencies
 
-## Included Modules
+Depends on the following recipes:
 
-Brings in the following core and contributed modules to your site:
-
-| Module | Purpose |
+| Recipe | Description |
 |---|---|
-| [**Klaro Cookie & Consent Manager**](https://www.drupal.org/project/klaro) | Implements the Klaro Consent Manager into Drupal. |
-| [**Menu Link Attributes**](https://www.drupal.org/project/menu_link_attributes) | Allows you to add attributes to menu links. |
-| **Custom Menu Links** *(in Drupal core)* | Allows users to create menu links. |
+| [**Drupal CMS Privacy Basic**](../drupal-cms-recipes/drupal-cms-privacy-basic.md) | Basic privacy features with consent management and remote content blocking. |
+
+## Features
+
+- **Cookie Consent Banner**: Configurable banner for obtaining user consent
+- **Privacy Policy Integration**: Links to privacy policy pages
+- **Consent Management**: Track and manage user consent preferences
+- **GDPR Compliance**: Tools to help meet privacy regulation requirements
 
 ## Installation
 
@@ -30,6 +33,6 @@ Apply the recipe using Drush:
 ddev drush recipe ../recipes/varbase_privacy
 ```
 
-## Configuration
+## Notes
 
-After applying the recipe, configure the cookie consent banner by navigating to the privacy settings in the site administration. Customize the consent message, cookie categories, and banner behavior to match your site's privacy policy and applicable regulations.
+This recipe extends Drupal CMS Privacy Basic with Varbase-specific configurations. For basic privacy needs, the Drupal CMS Privacy Basic recipe included in Varbase Starter may be sufficient.

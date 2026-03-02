@@ -21,7 +21,6 @@ The **varbase\_starter** recipe includes these Drupal CMS recipes as dependencie
 | [Drupal CMS SEO Basic](drupal-cms-seo-basic.md) | Basic SEO best practices including path aliases and redirects. |
 | [Drupal CMS SEO Tools](drupal-cms-seo-tools.md) | Advanced SEO with meta tags, XML sitemap, robots.txt, and Yoast integration. |
 | [Drupal CMS Accessibility Tools](drupal-cms-accessibility-tools.md) | Automated accessibility checks using Editoria11y. |
-| [Drupal CMS Page](drupal-cms-page.md) | Simple page content type for basic site pages. |
 | [Drupal CMS Google Analytics](drupal-cms-google-analytics.md) | Google Analytics and Google Tag Manager tracking integration. |
 | [Drupal CMS AI](drupal-cms-ai.md) | AI services integration for alt text generation and site-building chatbot. |
 
