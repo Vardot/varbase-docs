@@ -40,6 +40,7 @@ Brings in the following core and contributed modules to your site:
 | **Contextual Links** *(in Drupal core)* | Provides contextual links to directly access tasks related to page elements. |
 | [**Diff**](https://www.drupal.org/project/diff) | Shows changes between content revisions. |
 | [**ECA Core**](https://www.drupal.org/project/eca) | Core module for ECA framework. |
+| [**Modeler API**](https://www.drupal.org/project/modeler_api) | Provides an API for modules to use modelers like BPMN.iO. |
 | [**BPMN.iO Modeler**](https://www.drupal.org/project/bpmn_io) | BPMN modeler, integrated into Drupal's admin UI. |
 | [**ECA UI**](https://www.drupal.org/project/eca) | Provides a user interface for managing ECA models. |
 | [**ECA Base**](https://www.drupal.org/project/eca) | Base events, conditions and actions. |

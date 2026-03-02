@@ -28,6 +28,7 @@ The following modules are downloaded with this recipe but not enabled during ins
 | Module | Purpose |
 |---|---|
 | [**Devel Entity Updates**](https://www.drupal.org/project/devel_entity_updates) | Provides developers an API and drush command to perform automatic entity updates. |
+| [**Storybook**](https://www.drupal.org/project/storybook) | Storybook integration for Drupal. |
 
 ## Installation
 

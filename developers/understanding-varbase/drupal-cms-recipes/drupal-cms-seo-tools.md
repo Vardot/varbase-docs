@@ -4,6 +4,14 @@
 
 The Drupal CMS SEO Tools recipe provides advanced SEO capabilities including meta tags, XML sitemap generation, robots.txt management, and real-time SEO analysis with Yoast integration. It builds on basic SEO to give site managers comprehensive control over search engine optimization.
 
+## Recipe Dependencies
+
+Depends on the following recipes:
+
+| Recipe | Description |
+|---|---|
+| **image_media_type** *(Drupal core)* | Core recipe for the image media type, used for SEO image fields. |
+
 ## Included Modules
 
 Brings in the following core and contributed modules to your site:

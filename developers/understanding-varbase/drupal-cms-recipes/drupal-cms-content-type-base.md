@@ -22,6 +22,7 @@ Brings in the following core and contributed modules to your site:
 | [**Autosave Form**](https://www.drupal.org/project/autosave_form) | Adds autosave feature on forms. |
 | [**BPMN.iO Modeler**](https://www.drupal.org/project/bpmn_io) | BPMN modeler, integrated into Drupal's admin UI. |
 | [**Drupal Canvas**](https://www.drupal.org/project/canvas) | Empowers content creators to build experiences by composing components, with as much freedom as site builders allow, all without needing to write code. |
+| [**Drupal CMS Helper**](https://www.drupal.org/project/drupal_cms_helper) | Provides functionality for Drupal CMS that is not yet in Drupal core or dependencies. |
 | [**ECA Base**](https://www.drupal.org/project/eca) | Base events, conditions and actions. |
 | [**ECA Config**](https://www.drupal.org/project/eca) | Config events. |
 | [**ECA Content**](https://www.drupal.org/project/eca) | Content entity events, conditions and actions. |
