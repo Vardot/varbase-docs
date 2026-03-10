@@ -10,33 +10,41 @@ The **Varbase Users Base** recipe manages default Varbase user roles and user ma
 
 Varbase Users Base establishes the foundation for user management in Varbase sites. It configures user account settings, registration policies, and notification preferences to provide a secure and user-friendly experience.
 
-## Configuration
+## Varbase Users Base
 
-The recipe applies the following user settings:
+A recipe to manage default Varbase user roles and user management configurations, including role definitions, account settings, and the modules needed to support user management on the site.
 
-### Account Settings
+### User Roles
 
-| Setting | Value |
-|---|---|
-| Anonymous user name | Anonymous |
-| Email verification | Disabled |
-| Registration | Admin only |
-| Account cancellation method | Block account |
-| Password reset timeout | 86400 seconds (24 hours) |
-| Password strength indicator | Enabled |
+Varbase comes with pre-configured default roles tailored for sites with hierarchical content management permissions.
 
-### Email Notifications
+#### Super Admin (`administrator`)
 
-| Notification | Enabled |
-|---|---|
-| Cancel confirmation | Yes |
-| Password reset | Yes |
-| Status activated | Yes |
-| Status blocked | No |
-| Status canceled | No |
-| Admin created account | Yes |
-| No approval required | Yes |
-| Pending approval | Yes |
+Can edit everything in content and configurations for the site.
+
+#### Site Admin (`site_admin`)
+
+Can edit, delete, and publish all content on the site.
+
+#### SEO Admin (`seo_admin`)
+
+Can edit items related to SEO, Meta tags and Google Analytics.
+
+#### Content Admin (`content_admin`)
+
+Can edit all content and publish it but cannot edit anything else not related to the content roles.
+
+#### Content editor (`content_editor`)
+
+Has permissions to edit all content on the website but cannot publish any content.
+
+#### Authenticated user (`authenticated`)
+
+Any user who can access the website by providing a username or password. This role is provided by default from Drupal and cannot be edited or deleted.
+
+#### Anonymous user (`anonymous`)
+
+Any visitor who can access the website without providing a username or password. This role is provided by default from Drupal and cannot be edited or deleted.
 
 ## Installation
 

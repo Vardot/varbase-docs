@@ -14,19 +14,19 @@ Varbase Blog Base delivers a ready-to-use blogging experience by building on top
 
 Depends on the following recipes:
 
-| Recipe | Description |
-|---|---|
-| [**Varbase Content Base**](varbase-content-base.md) | Core content configuration including node types and taxonomy. |
-| [**Varbase Media Base**](varbase-media-base.md) | Comprehensive media handling with image styles and media library. |
-| [**Varbase SEO Base**](varbase-seo-base.md) | Comprehensive SEO modules and configurations. |
-| [**Varbase Workflow Base**](varbase-workflow-base.md) | Content moderation, scheduled publishing, and workflows. |
+| Recipe                                                | Description                                                       |
+| ----------------------------------------------------- | ----------------------------------------------------------------- |
+| [**Varbase Content Base**](varbase-content-base.md)   | Core content configuration including node types and taxonomy.     |
+| [**Varbase Media Base**](varbase-media-base.md)       | Comprehensive media handling with image styles and media library. |
+| [**Varbase SEO Base**](varbase-seo-base.md)           | Comprehensive SEO modules and configurations.                     |
+| [**Varbase Workflow Base**](varbase-workflow-base.md) | Content moderation, scheduled publishing, and workflows.          |
 
 ## Included Modules
 
 Brings in the following core and contributed modules to your site:
 
-| Module | Purpose |
-|---|---|
+| Module                                                                                                  | Purpose                                                                            |
+| ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | [**Selective Better Exposed Filters**](https://www.drupal.org/project/selective_better_exposed_filters) | Provide extra option for better exposed filters to show only used terms in filter. |
 
 ## Installation
@@ -36,3 +36,6 @@ Apply the recipe using Drush:
 ```bash
 ddev drush recipe ../recipes/varbase_blog_base
 ```
+
+This recipe is automatically applied when using the Varbase Starter recipe.
+
