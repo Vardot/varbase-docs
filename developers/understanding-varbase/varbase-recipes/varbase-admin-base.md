@@ -13,6 +13,8 @@ Brings in the following core and contributed modules to your site:
 | Module                                                                                        | Purpose                                                                                              |
 | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | **Node** _(in Drupal core)_                                                                   | Manages the creation, configuration, and display of the main site content.                           |
+| **Help** _(in Drupal core)_                                                                   | Generates help pages and provides a Help block with page-level help.                                 |
+| **Taxonomy** _(in Drupal core)_                                                               | Enables the categorization of content.                                                               |
 | [**RoleAssign**](https://www.drupal.org/project/roleassign)                                   | Allows site administrators to further delegate the task of managing user's roles.                    |
 | [**Custom Permissions**](https://www.drupal.org/project/config_perms)                         | Allows additional permissions to be created and managed through an administration form.              |
 | [**Admin Audit Trail**](https://www.drupal.org/project/admin_audit_trail)                     | Logs general CUD events performed by the user (using the forms) on the website.                      |
@@ -44,6 +46,7 @@ Brings in the following core and contributed modules to your site:
 | [**Trash**](https://www.drupal.org/project/trash)                                             | Provides the ability to soft-delete content entities.                                                |
 | [**ECA VBO**](https://www.drupal.org/project/eca_vbo)                                         | Integrates ECA: Event - Condition - Action with Views Bulk Operations (VBO).                         |
 | [**UI Icons Form element**](https://www.drupal.org/project/ui_icons)                          | Core Icons main form element for Icon autocomplete.                                                  |
+| [**Varbase Recipes**](https://www.drupal.org/project/varbase_recipes)                         | Provides Varbase recipes as a source for the Project Browser.                                        |
 
 ## Available Modules (Not Enabled by Default)
 

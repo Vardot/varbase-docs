@@ -40,6 +40,7 @@ Brings in the following core and contributed modules to your site:
 | [**AI Chatbot**](https://www.drupal.org/project/ai) | Provides a chatbot frontend for the AI Assistant API. |
 | [**AI Agents**](https://www.drupal.org/project/ai_agents) | The Agents module makes Drupal taskable by AI agents. |
 | [**Drupal Canvas AI**](https://www.drupal.org/project/canvas) | AI for the Drupal Canvas. |
+| [**Easy Encryption Admin**](https://www.drupal.org/project/easy_encryption) | Provides an admin UI for managing encryption keys used by AI providers. |
 | **Custom Menu Links** *(in Drupal core)* | Allows users to create menu links. |
 
 ## Included Themes
