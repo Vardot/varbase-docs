@@ -8,7 +8,7 @@ The **Varbase Page Base** recipe provides a Page content type for Varbase with s
 
 ## Overview
 
-Varbase Page Base sets up the standard Page content type that serves as the foundation for basic pages on Varbase sites. It integrates with the editorial workflow, SEO tools, and menu system to provide a complete page management experience.
+Varbase Page Base sets up the standard Page content type that serves as the foundation for basic pages on Varbase sites. It builds on top of Drupal CMS Content Type Base and several Varbase recipes to provide a complete page management experience with editorial workflow, SEO tools, and menu integration.
 
 ## Recipe Dependencies
 
@@ -33,14 +33,18 @@ The recipe applies the following configurations:
 
 ### Permissions
 
-Grants the following permissions to the **Content Editor** role:
+Grants the following permissions by role:
 
-- Create page content
-- Delete page revisions
-- Delete any page content
-- Edit any page content
-- Revert page revisions
-- View page revisions
+| Permission | Content Editor | Content Admin | SEO Admin | Site Admin |
+|---|---|---|---|---|
+| Create page content | Yes | Yes | Yes | Yes |
+| Edit own page content | Yes | Yes | Yes | Yes |
+| Edit any page content | Yes | Yes | Yes | Yes |
+| Delete own page content | Yes | Yes | Yes | Yes |
+| Delete any page content | Yes | Yes | Yes | Yes |
+| Delete page revisions | Yes | Yes | - | Yes |
+| Revert page revisions | Yes | Yes | - | Yes |
+| View page revisions | Yes | Yes | Yes | Yes |
 
 ### Workflow Integration
 

@@ -40,8 +40,6 @@ The following recipes comprise the Varbase 11.0.x recipe ecosystem:
 | [Varbase Dev Base](varbase-dev-base.md) | Development modules and configurations for local development environments |
 | [Varbase Page Base](varbase-page-base.md) | Page content type with SEO fields, editorial workflow, and menu configuration |
 | [Varbase Users Base](varbase-users-base.md) | Default user roles, account settings, and user management configurations |
-| [Varbase Search Base](varbase-search-base.md) | Search functionality using Search API |
-| [Varbase Privacy](varbase-privacy.md) | Cookie consent and privacy settings |
 | [Varbase Demo Content](varbase-demo-content.md) | Demo content for new Varbase sites |
 | [Varbase Media Assets](varbase-media-assets.md) | Default demo media assets including images, videos, and documents |
 
