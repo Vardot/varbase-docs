@@ -22,11 +22,11 @@ ddev init-storybook
 
 The `ddev init-storybook` command is a custom DDEV command that:
 
-- Installs Node.js dependencies via `yarn install`
-- Enables the `storybook` Drupal module
-- Grants `render storybook stories` permission to anonymous and authenticated users
-- Copies `development.local.services.yml` to `web/sites/default/`
-- Adds the development services configuration to `settings.ddev.php` or `settings.platformsh.php`
+* Installs Node.js dependencies via `yarn install`
+* Enables the `storybook` Drupal module
+* Grants `render storybook stories` permission to anonymous and authenticated users
+* Copies `development.local.services.yml` to `web/sites/default/`
+* Adds the development services configuration to `settings.ddev.php` or `settings.platformsh.php`
 
 Have a look at the content of the [init-storybook](https://github.com/Vardot/varbase-project/blob/11.0.x/.ddev/commands/web/init-storybook) command.
 
@@ -41,7 +41,7 @@ ddev yarn storybook:gen
 This runs the Drush command:
 
 ```bash
-ddev drush storybook:generate-all-stories --force
+ddev drush storybook:generate-all-stories --omit-server-url --force
 ```
 
 To generate only new stories (without overwriting existing ones):
@@ -213,8 +213,8 @@ yarn storybook:build
 
 This outputs the built Storybook to the `storybook` directory. A subdomain can then point to this directory:
 
-- `my-staging-site.com` points at the `web` directory (Varbase site)
-- `storybook.my-staging-site.com` points at the `storybook` directory (Storybook)
+* `my-staging-site.com` points at the `web` directory (Varbase site)
+* `storybook.my-staging-site.com` points at the `storybook` directory (Storybook)
 
 ## Run Varbase Storybook on Platform.sh
 
