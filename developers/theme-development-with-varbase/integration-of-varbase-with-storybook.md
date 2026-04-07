@@ -30,6 +30,17 @@ The `ddev init-storybook` command is a custom DDEV command that:
 
 Have a look at the content of the [init-storybook](https://github.com/Vardot/varbase-project/blob/11.0.x/.ddev/commands/web/init-storybook) command.
 
+{% hint style="info" %}
+Make sure to add `/storybook/stories/render` to the domain in the `.storybook/preview.ts` file for the domain to be something like
+
+```
+    server: {
+      // Replace this with your Drupal site URL, or an environment variable.
+      url: 'https://my-varbase-site.ddev.site/storybook/stories/render',
+    },
+```
+{% endhint %}
+
 ### 2. Generate Stories
 
 Generate all stories using the following command:
