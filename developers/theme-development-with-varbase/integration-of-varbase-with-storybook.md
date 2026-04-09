@@ -30,17 +30,6 @@ The `ddev init-storybook` command is a custom DDEV command that:
 
 Have a look at the content of the [init-storybook](https://github.com/Vardot/varbase-project/blob/11.0.x/.ddev/commands/web/init-storybook) command.
 
-{% hint style="info" %}
-Make sure to add `/storybook/stories/render` to the domain in the `.storybook/preview.ts` file for the domain to be something like
-
-```
-    server: {
-      // Replace this with your Drupal site URL, or an environment variable.
-      url: 'https://my-varbase-site.ddev.site/storybook/stories/render',
-    },
-```
-{% endhint %}
-
 ### 2. Generate Stories
 
 Generate all stories using the following command:
@@ -61,7 +50,7 @@ To generate only new stories (without overwriting existing ones):
 ddev yarn storybook:gen-new
 ```
 
-### 3. Start Varbase Storybook
+### 3. Start Varbase Storybook in DDEV
 
 ```bash
 ddev yarn storybook:dev
@@ -227,7 +216,7 @@ This outputs the built Storybook to the `storybook` directory. A subdomain can t
 * `my-staging-site.com` points at the `web` directory (Varbase site)
 * `storybook.my-staging-site.com` points at the `storybook` directory (Storybook)
 
-## Run Varbase Storybook on Platform.sh
+## Run Varbase Storybook on UPSUN
 
 For development, testing, or staging environments on Platform.sh:
 
@@ -235,17 +224,7 @@ For development, testing, or staging environments on Platform.sh:
 
 ### Select the Varbase Template
 
-Choose [**Vardot/platformsh-varbase**](https://github.com/Vardot/platformsh-varbase) from the pre-existing code base template to start a project.
-
-### Replace Site URL
-
-Edit the `.storybook/preview.ts` file and ensure the server URL uses the environment variable:
-
-```typescript
-server: {
-  url: process.env.STORYBOOK_SERVER_RENDER_URL,
-},
-```
+Use the TEMP development for [**Vardot/upsun-varbase11x00**](https://github.com/Vardot/upsun-varbase11x00) from the pre-existing code base template to start a project.
 
 ### Use Development Services
 
