@@ -97,6 +97,50 @@ ddev launch
 | `ddev ssh`                | SSH into the web container                  |
 | `ddev describe`           | Show project information and URLs           |
 
+### Custom DDEV Commands for Varbase <a href="#ddev-commands" id="ddev-commands"></a>
+
+#### `ddev install-varbase` <a href="#ddev-install-varbase" id="ddev-install-varbase"></a>
+
+Installs Varbase from scratch using `drush site:install varbase` with the Varbase profile and Drupal recipes.
+
+```
+# Minimal install: core Varbase only (no extra recipes)
+ddev install-varbase minimal
+
+# Full install: core + dev, i18n, api, auth recipes + social auth modules
+ddev install-varbase full
+```
+
+#### `ddev init-full-automated-testing` <a href="#ddev-init-full-automated-testing" id="ddev-init-full-automated-testing"></a>
+
+Full initialization for automated testing. Handles everything from a fresh `ddev start`:
+
+1. Installs Varbase if the database is empty
+2. Applies optional Varbase recipes (`varbase_dev_base`, `varbase_i18n_base`, `varbase_api_base`, `varbase_auth_base`, `varbase_ai_base`)
+3. Enables social auth modules (`social_auth_facebook`, `social_auth_linkedin`)
+4. Adds testing users for each Varbase role
+5. Disables the antibot module (required for automated browser testing)
+6. Disables CSS/JS aggregation
+7. Sets verbose error logging
+
+
+
+#### `ddev init-minimal-automated-testing` <a href="#ddev-init-minimal-automated-testing" id="ddev-init-minimal-automated-testing"></a>
+
+Minimal initialization for automated testing on an already installed site. Does not install Varbase or apply recipes:
+
+1. Verifies Drupal is installed (exits with error if not)
+2. Adds testing users for each Varbase role
+3. Disables the antibot module
+4. Disables CSS/JS aggregation
+5. Sets verbose error logging
+
+
+
+#### `ddev add-testing-users` / `ddev delete-testing-users` <a href="#ddev-add-testing-users-ddev-delete-testing-users" id="ddev-add-testing-users-ddev-delete-testing-users"></a>
+
+Manage testing user accounts individually.
+
 ## Troubleshooting
 
 * If `ddev start` fails, ensure Docker is running and that no other services are using the same ports.
