@@ -225,7 +225,7 @@ All test user passwords: `dD.123123ddd`
 
 ## Configuration Files
 
-### [`cucumber.js`](https://cucumber.jshttps/git.drupalcode.org/project/varbase_project/-/blob/11.0.x/cucumber.js?ref_type=heads)
+### [**cucumber.js**](https://git.drupalcode.org/project/varbase_project/-/blob/11.0.x/cucumber.js)
 
 Cucumber-JS configuration file defining:
 
@@ -236,7 +236,9 @@ Cucumber-JS configuration file defining:
 
 The `launchUrl` defaults to the `LAUNCH_URL` environment variable, then `DDEV_PRIMARY_URL`, then `https://localhost`.
 
-### [`playwright.config.js`](https://playwright.config.jshttps/git.drupalcode.org/project/varbase_project/-/blob/11.0.x/playwright.config.js?ref_type=heads)
+
+
+### [**playwright.config.js**](https://git.drupalcode.org/project/varbase_project/-/blob/11.0.x/playwright.config.js)
 
 Playwright browser configuration:
 
