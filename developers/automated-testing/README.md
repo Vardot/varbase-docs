@@ -267,7 +267,9 @@ ddev yarn test:chromium ;
 
 1- Change `headless: true,`  to `headless: false,`  in the `playwright.config.js` file.
 
-2- Run in your local development, not with DDEV&#x20;
+2- Change to `launchUrl: 'https://my-varbase-site3.ddev.site',` in the `cucumber.js` file.
+
+3- Run in your local development, not with DDEV&#x20;
 
 <pre class="language-bash"><code class="lang-bash"><strong>yarn install ;
 </strong>npx playwright install-deps chromium ;
