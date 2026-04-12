@@ -78,6 +78,7 @@
   * [Theme Development with Varbase](developers/theme-development-with-varbase/README.md)
     * [Understanding Vartheme BS5](developers/theme-development-with-varbase/understanding-vartheme-bs5.md)
     * [Creating Your Own Theme](developers/theme-development-with-varbase/creating-your-own-theme.md)
+    * [Troubleshooting Theme Switch Issues](developers/theme-development-with-varbase/troubleshooting-theme-switch-issues.md)
     * [Integration of Varbase with Storybook](developers/theme-development-with-varbase/integration-of-varbase-with-storybook.md)
   * [Varbase Patches](developers/varbase-patches.md)
   * [Varbase Libraries](developers/varbase-libraries/README.md)
