@@ -265,7 +265,7 @@ ddev yarn test:chromium ;
 
 ### To See the Test in Your local Browser
 
-1- Change `headless: true,`  to `headless: flase,`  in the `playwright.config.js` file.
+1- Change `headless: true,`  to `headless: false,`  in the `playwright.config.js` file.
 
 2- Run in your local development, not with DDEV&#x20;
 
