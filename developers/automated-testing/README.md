@@ -225,7 +225,7 @@ All test user passwords: `dD.123123ddd`
 
 ## Configuration Files
 
-### `cucumber.js`
+### [`cucumber.js`](https://cucumber.jshttps/git.drupalcode.org/project/varbase_project/-/blob/11.0.x/cucumber.js?ref_type=heads)
 
 Cucumber-JS configuration file defining:
 
@@ -236,7 +236,7 @@ Cucumber-JS configuration file defining:
 
 The `launchUrl` defaults to the `LAUNCH_URL` environment variable, then `DDEV_PRIMARY_URL`, then `https://localhost`.
 
-### `playwright.config.ts`
+### [`playwright.config.js`](https://playwright.config.jshttps/git.drupalcode.org/project/varbase_project/-/blob/11.0.x/playwright.config.js?ref_type=heads)
 
 Playwright browser configuration:
 
@@ -245,6 +245,35 @@ Playwright browser configuration:
 * HTTPS certificate errors ignored (for DDEV self-signed certs)
 * Chromium launched with sandbox disabled for CI compatibility
 * Browser selected via the `BROWSER` environment variable (defaults to `chromium`)
+
+## Example Local Varbase Automated Testing with DDEV
+
+```bash
+mkdir my-varbase-site ;
+cd my-varbase-site ;
+ddev config --project-type=drupal11 --docroot=web --php-version=8.4 ;
+ddev start ;
+ddev composer create-project "drupal/varbase_project:11.0.x-dev" --no-interaction ;
+ddev init-full-automated-testing ;
+ddev yarn install ;
+ddev npx playwright install-deps chromium ;
+ddev npx playwright install chromium ;
+ddev yarn test:chromium ;
+```
+
+
+
+### To See the Test in Your local Browser
+
+1- Change `headless: true,`  to `headless: flase,`  in the `playwright.config.js` file.
+
+2- Run in your local development, not with DDEV&#x20;
+
+<pre class="language-bash"><code class="lang-bash"><strong>yarn install ;
+</strong>npx playwright install-deps chromium ;
+npx playwright install chromium ;
+yarn test:chromium ;
+</code></pre>
 
 ## Custom Step Definitions
 
