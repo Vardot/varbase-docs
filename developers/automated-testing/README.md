@@ -238,12 +238,12 @@ The `launchUrl` defaults to the `LAUNCH_URL` environment variable, then `DDEV_PR
 
 
 
-### [**playwright.config.js**](https://git.drupalcode.org/project/varbase_project/-/blob/11.0.x/playwright.config.js)
+### [**playwright.config.ts**](https://git.drupalcode.org/project/varbase_project/-/blob/11.0.x/playwright.config.ts)
 
 Playwright browser configuration:
 
 * Headless mode enabled by default
-* SlowMo set to 400ms for stability
+* SlowMo set to 300ms for stability
 * HTTPS certificate errors ignored (for DDEV self-signed certs)
 * Chromium launched with sandbox disabled for CI compatibility
 * Browser selected via the `BROWSER` environment variable (defaults to `chromium`)

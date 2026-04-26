@@ -18,6 +18,7 @@ Brings in the following core modules to your site:
 |---|---|
 | **Node** _(in Drupal core)_ | Manages the creation, configuration, and display of the main site content. |
 | **Block** _(in Drupal core)_ | Allows users to configure blocks (containing content, forms, etc.) and to place them in the regions of a theme. |
+| [**Persistent Login**](https://www.drupal.org/project/persistent_login) | Provides "remember me" functionality for users with secure long-lived login tokens. |
 
 ## User Roles
 

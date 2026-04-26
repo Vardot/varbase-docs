@@ -20,6 +20,7 @@ Brings in the following core and contributed modules to your site:
 | **Content Moderation** _(in Drupal core)_                                                                               | Provides additional publication states that can be used by other modules to moderate content.                                                           |
 | [**Scheduler**](https://www.drupal.org/project/scheduler)                                                               | Publish and unpublish content and entities automatically on specified dates and times.                                                                  |
 | [**Scheduler Content Moderation Integration**](https://www.drupal.org/project/scheduler_content_moderation_integration) | Scheduler sub-module providing content moderation functionality for publishing/unpublishing.                                                            |
+| [**Access Unpublished**](https://www.drupal.org/project/access_unpublished)                                             | Allows access to unpublished content via a token-based URL for previews and external review.                                                            |
 | [**Admin Audit Trail Workflows**](https://www.drupal.org/project/admin_audit_trail)                                     | Logs workflows events performed by the user.                                                                                                            |
 
 ## Available Modules (Not Enabled by Default)

@@ -6,6 +6,17 @@ The **Varbase Media Base** recipe provides comprehensive media handling for Varb
 
 [https://www.drupal.org/project/varbase\_media\_base](https://www.drupal.org/project/varbase_media_base)
 
+## Recipe Dependencies
+
+Depends on the following Drupal core recipes:
+
+| Recipe                                            | Description                                                                          |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **core/recipes/audio\_media\_type** _(Drupal core)_        | Adds the Audio media type for managing audio file content.                  |
+| **core/recipes/image\_media\_type** _(Drupal core)_        | Adds the Image media type with default image-handling configuration.        |
+| **core/recipes/local\_video\_media\_type** _(Drupal core)_ | Adds the local Video media type for self-hosted video files.                |
+| **core/recipes/remote\_video\_media\_type** _(Drupal core)_| Adds the remote Video media type for embedding YouTube and Vimeo content.   |
+
 ## Included Modules
 
 Brings in the following core and contributed modules to your site:

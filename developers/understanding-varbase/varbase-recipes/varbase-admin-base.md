@@ -37,6 +37,7 @@ Brings in the following core and contributed modules to your site:
 | [**Taxonomy Access Fix**](https://www.drupal.org/project/taxonomy_access_fix)                 | Extends access handling of Drupal Core's Taxonomy module.                                            |
 | [**Coffee**](https://www.drupal.org/project/coffee)                                           | Provides an Alfred like search box to navigate within your site.                                     |
 | [**Length Indicator**](https://www.drupal.org/project/length_indicator)                       | Adds an optional length indicator to fields.                                                         |
+| [**Maxlength**](https://www.drupal.org/project/maxlength)                                     | Adds maxlength attributes and a character counter to text fields and rich-text editors.              |
 | **Navigation** _(in Drupal core)_                                                             | New administration navigation.                                                                       |
 | [**Navigation Extra Tools**](https://www.drupal.org/project/navigation_extra_tools)           | Adds menu links like flush cache, run cron, and run updates to the Drupal core Navigation menu.      |
 | [**Gin Toolbar**](https://www.drupal.org/project/gin_toolbar)                                 | Gin Toolbar for Gin Theme.                                                                           |

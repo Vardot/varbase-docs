@@ -10,7 +10,7 @@ The **drupal-libraries-sync** tool bridges the gap between NPM/Yarn package mana
 
 ## Setting Up package.json
 
-Your project's `package.json` file should include the front-end libraries as dependencies and a script entry for running the sync:
+Your project's `package.json` file should include the front-end libraries as dependencies and a script entry for running the sync. In Varbase 11.0.x the sync script is shipped with the `varbase_starter` recipe at `recipes/varbase_starter/scripts/drupal-libraries-sync.js`:
 
 ```json
 {
@@ -18,15 +18,20 @@ Your project's `package.json` file should include the front-end libraries as dep
   "version": "1.0.0",
   "description": "Front-end libraries for my Varbase project",
   "scripts": {
-    "libraries-sync": "drupal-libraries-sync"
+    "drupal-libraries-sync": "node ./recipes/varbase_starter/scripts/drupal-libraries-sync.js",
+    "postinstall": "node ./recipes/varbase_starter/scripts/drupal-libraries-sync.js"
   },
   "dependencies": {
-    "drupal-libraries-sync": "^1.0",
-    "slick-carousel": "^1.8",
-    "ace-builds": "^1.30"
+    "ace-builds": "~1",
+    "aos": "~2",
+    "dropzone": "~5",
+    "jquery.fancytree": "~2",
+    "swagger-ui-dist": "~3"
   }
 }
 ```
+
+The `postinstall` hook makes the sync run automatically after `yarn install` or `npm install`, so libraries are always in sync with the installed packages.
 
 ## Installing Libraries
 
@@ -49,47 +54,60 @@ This downloads all packages to the `node_modules/` directory.
 After installing packages, run the sync command to copy library files to Drupal's `libraries/` directory:
 
 ```bash
-npm run libraries-sync
+yarn drupal-libraries-sync
 ```
 
-Or invoke it directly:
+Or invoke the script directly:
 
 ```bash
-npx drupal-libraries-sync
+node ./recipes/varbase_starter/scripts/drupal-libraries-sync.js
 ```
 
-The sync tool reads the mapping configuration and copies only the necessary files (typically the distributed/minified assets) from each package into the corresponding subdirectory under `libraries/`.
+The sync runs automatically as a `postinstall` hook, so `yarn install` (or `npm install`) already produces an up-to-date `libraries/` directory.
 
 ## Configuration
 
-The `drupal-libraries-sync` tool uses a configuration section in `package.json` to define how packages map to Drupal library directories:
+The sync script reads a `drupal-libraries` section in `package.json` defining the target libraries directory and the list of packages to sync:
 
 ```json
 {
-  "drupalLibraries": {
-    "libraries": {
-      "slick": {
-        "package": "slick-carousel",
-        "files": {
-          "slick/": "."
-        }
+  "drupal-libraries": {
+    "library-directory": "web/libraries",
+    "libraries": [
+      {
+        "name": "ckeditor5/plugins/media-embed",
+        "package": "@ckeditor/ckeditor5-media-embed"
       },
-      "ace": {
-        "package": "ace-builds",
-        "files": {
-          "src-min-noconflict/": "."
-        }
+      {
+        "name": "ace",
+        "package": "ace-builds"
+      },
+      {
+        "name": "dropzone",
+        "package": "dropzone/dist"
+      },
+      {
+        "name": "jquery.fancytree",
+        "package": "jquery.fancytree"
+      },
+      {
+        "name": "swagger-ui/dist",
+        "package": "swagger-ui-dist"
+      },
+      {
+        "name": "aos",
+        "package": "aos/dist"
       }
-    }
+    ]
   }
 }
 ```
 
 Each entry defines:
 
-- **Library name**: The name of the directory that will be created under `libraries/`.
-- **package**: The NPM package name to source files from.
-- **files**: A mapping of source paths within the package to destination paths within the library directory.
+- **library-directory**: The destination directory for synced libraries (relative to the project root).
+- **name**: The directory name created under the library directory (e.g. `web/libraries/ace`). Slashes in the name are honored as nested folders.
+- **package**: The NPM package path under `node_modules/` to copy from. Append a subpath (e.g. `dropzone/dist`) to copy only a specific folder of the package.
 
 ## Adding a New Library
 
@@ -98,15 +116,15 @@ To add a new front-end library to your Varbase project:
 1. Install the NPM package:
 
 ```bash
-npm install library-name --save
+yarn add library-name
 ```
 
-2. Add a mapping entry in the `drupalLibraries` section of `package.json`.
+2. Add an entry to the `drupal-libraries.libraries` array in `package.json` with a `name` and `package`.
 
 3. Run the sync command:
 
 ```bash
-npm run libraries-sync
+yarn drupal-libraries-sync
 ```
 
 4. Verify that the library files appear in the `libraries/` directory.
@@ -124,27 +142,30 @@ npm update library-name
 2. Re-run the sync command:
 
 ```bash
-npm run libraries-sync
+yarn drupal-libraries-sync
 ```
 
 3. Test the functionality that depends on the updated library.
 
 ## Integration with Composer
 
-For Varbase projects, the library sync is typically integrated into the Composer workflow using post-install and post-update scripts. This ensures that libraries are synced automatically whenever Composer operations are performed.
+For Varbase projects, the library sync is integrated into the Composer workflow via dedicated `drupal-libraries-sync`, `drupal-libraries-yarn-sync`, and `drupal-libraries-npm-sync` Composer script entries. These run `yarn install` (or `npm install`) followed by the sync script, so a fresh `composer install` ends with an up-to-date `web/libraries/` directory.
 
 In `composer.json`:
 
 ```json
 {
   "scripts": {
-    "post-install-cmd": [
-      "npm install",
-      "npm run libraries-sync"
+    "drupal-libraries-sync": [
+      "@drupal-libraries-yarn-sync"
     ],
-    "post-update-cmd": [
+    "drupal-libraries-yarn-sync": [
+      "yarn install",
+      "node ./recipes/varbase_starter/scripts/drupal-libraries-sync.js"
+    ],
+    "drupal-libraries-npm-sync": [
       "npm install",
-      "npm run libraries-sync"
+      "node ./recipes/varbase_starter/scripts/drupal-libraries-sync.js"
     ]
   }
 }
