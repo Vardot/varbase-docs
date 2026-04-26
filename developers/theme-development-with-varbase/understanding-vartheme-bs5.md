@@ -82,13 +82,23 @@ Vartheme BS5 provides responsive design out of the box through Bootstrap's break
 
 ## Regions
 
-Vartheme BS5 defines the following theme regions for placing blocks:
+Vartheme BS5 defines the following theme regions for placing blocks (declared in `vartheme_bs5.info.yml`):
 
 - **Header**: Site branding, navigation, and search.
 - **Content**: Main page content area.
-- **Sidebar**: Optional sidebar for supplementary content.
 - **Footer**: Footer blocks including copyright, links, and contact information.
-- Additional regions for banners, highlighted content, and other layout needs.
+
+## Webpack Configurations
+
+Vartheme BS5 ships several webpack configs, each driving a specific compile task. Each is invoked via a `yarn` script alias defined in `package.json`:
+
+| Config | Purpose |
+|---|---|
+| [`webpack.config.init.js`](https://github.com/Vardot/vartheme_bs5/blob/5.0.x/webpack.config.init.js) | Copies vendor files (Bootstrap, Font Awesome, etc.) from `node_modules` into the theme's libraries folder. Run once after install or vendor upgrade via `yarn theme:init`. |
+| [`webpack.config.dev.js`](https://github.com/Vardot/vartheme_bs5/blob/5.0.x/webpack.config.dev.js) | Development build with watch mode and source maps for fast iteration on theme styles. Run via `yarn theme:watch`. |
+| [`webpack.config.build.js`](https://github.com/Vardot/vartheme_bs5/blob/5.0.x/webpack.config.build.js) | Production build for theme styling only (no SDC components). Run via `yarn theme:build`. |
+| [`webpack.config.components.js`](https://github.com/Vardot/vartheme_bs5/blob/5.0.x/webpack.config.components.js) | Compiles custom SDC component CSS/JS/SVG to the correct public paths under each component folder. Run via `yarn components:build`. |
+| [`webpack.config.js`](https://github.com/Vardot/vartheme_bs5/blob/5.0.x/webpack.config.js) | Top-level full build that orchestrates theme styles and SDC components together. Run via `yarn theme:full-build`. |
 
 ## Dependencies
 

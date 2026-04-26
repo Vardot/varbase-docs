@@ -86,7 +86,7 @@ yarn theme:init
 
 Ensure that you perform this step immediately after generating and installing packages, or after updating Bootstrap, Font Awesome, or any other necessary extensions.
 
-The `theme:init` script alias will trigger the execution of `webpack --progress --config webpack.config.init.js`. This command is responsible for copying the specified files and folders from the [`webpack.config.init.js`](https://github.com/Vardot/vartheme_bs5/blob/3.0.x/webpack.config.init.js) configuration file to their respective locations.
+The `theme:init` script alias will trigger the execution of `webpack --progress --config webpack.config.init.js`. This command is responsible for copying the specified files and folders from the [`webpack.config.init.js`](https://github.com/Vardot/vartheme_bs5/blob/5.0.x/webpack.config.init.js) configuration file to their respective locations.
 
 Additionally, any additional external libraries from the `node_modules` folder can be managed by copying them to a designated target libraries folder.
 
@@ -112,7 +112,9 @@ In case of working on a custom SDC component, an alias script command can help w
 yarn components:build
 ```
 
-The `components:build` script alias will trigger the execution of `webpack --progress --config webpack.config.components.js`. This command is responsible only for compiling custom SDC components in the them. The [webpack.config.components.js](https://github.com/Vardot/vartheme_bs5/blob/3.0.x/webpack.config.components.js) file has the list of entry, and output for compiled css/js/svg script to the right public path.
+The `components:build` script alias will trigger the execution of `webpack --progress --config webpack.config.components.js`. This command is responsible only for compiling custom SDC components in the them. The [webpack.config.components.js](https://github.com/Vardot/vartheme_bs5/blob/5.0.x/webpack.config.components.js) file has the list of entry, and output for compiled css/js/svg script to the right public path.
+
+The theme also ships [`webpack.config.dev.js`](https://github.com/Vardot/vartheme_bs5/blob/5.0.x/webpack.config.dev.js) for development builds with watch mode and source maps (used by `yarn theme:watch`), and [`webpack.config.build.js`](https://github.com/Vardot/vartheme_bs5/blob/5.0.x/webpack.config.build.js) for the production styling-only build (used by `yarn theme:build`).
 
 Have a look at the following link for more info:
 

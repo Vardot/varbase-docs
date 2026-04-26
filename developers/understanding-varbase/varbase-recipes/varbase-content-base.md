@@ -77,6 +77,9 @@ Brings in the following core and contributed modules to your site:
 | [**Canvas Override**](https://www.drupal.org/project/canvas_override)                 | Provides overrides and enhancements for the Drupal Canvas page builder.                                                                                             |
 | [**View Modes Inventory**](https://www.drupal.org/project/vmi)                        | This module has a set of template view modes that we typically use (some of them) in each website.                                                                  |
 | [**Varbase Components**](https://www.drupal.org/project/varbase_components)           | Provides SDC components for Varbase.                                                                                                                                |
+| [**Content Lock**](https://www.drupal.org/project/content_lock)                       | Prevents simultaneous edits to a node by locking it for the user who began editing first.                                                                           |
+| [**Content Lock Timeout**](https://www.drupal.org/project/content_lock)               | Releases stale Content Lock holds after a configured idle timeout.                                                                                                  |
+| [**Node Edit Protection**](https://www.drupal.org/project/node_edit_protection)       | Warns editors before navigating away from an unsaved node edit form.                                                                                                |
 
 ## Available Modules (Not Enabled by Default)
 

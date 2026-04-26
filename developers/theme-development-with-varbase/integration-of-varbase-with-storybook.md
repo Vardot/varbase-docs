@@ -27,6 +27,7 @@ The `ddev init-storybook` command is a custom DDEV command that:
 * Grants `render storybook stories` permission to anonymous and authenticated users
 * Copies `development.local.services.yml` to `web/sites/default/`
 * Adds the development services configuration to `settings.ddev.php` or `settings.platformsh.php`
+* Writes `.env.storybook` with `STORYBOOK_SERVER_URL` and `STORYBOOK_SERVER_RENDER_URL` pointing at the active Drupal site URL, used by the Storybook dev server and middleware to reach Drupal
 
 Have a look at the content of the [init-storybook](https://github.com/Vardot/varbase-project/blob/11.0.x/.ddev/commands/web/init-storybook) command.
 
@@ -58,11 +59,39 @@ ddev yarn storybook:dev
 
 This starts Storybook on port **6006**. Open your site domain with `:6006` to access it.
 
+For DDEV remote access (e.g. when accessing Storybook from another device on the network or from the host browser when DDEV runs in a container), use the DDEV-bound variant which binds to `0.0.0.0`:
+
+```bash
+ddev yarn storybook:ddev
+```
+
+To kill a running Storybook process and free port 6006:
+
+```bash
+ddev yarn storybook:kill
+```
+
 ### 4. Verify Installation
 
 ```bash
 ddev status
 ```
+
+## How Storybook Connects to Drupal <a href="#how-storybook-connects-to-drupal" id="how-storybook-connects-to-drupal"></a>
+
+Storybook runs on its own port (`6006`) but renders SDC components by calling the Drupal site. Two pieces glue this together:
+
+### `.storybook/middleware.js` <a href="#storybook-middleware-js" id="storybook-middleware-js"></a>
+
+An Express middleware that proxies Drupal static assets (CSS, JS, fonts, images) through the Storybook dev server. The Storybook iframe runs at `:6006`, but Drupal assets are served from a different origin (e.g. `:8443`); browsers block cross-origin sub-resources loaded via `innerHTML` because static files have no CORS headers. The middleware routes paths under `/themes/`, `/modules/`, `/core/`, `/libraries/`, `/sites/`, and `/storybook/` to the Drupal base URL read from `process.env.STORYBOOK_SERVER_URL` so the browser sees them as same-origin requests.
+
+### `.storybook/preview.ts` `fetchStoryHtml` <a href="#storybook-preview-ts-fetchstoryhtml" id="storybook-preview-ts-fetchstoryhtml"></a>
+
+Custom fetch function for `@storybook/server` that:
+
+* Cleans up Drupal SDC params before sending — strips `undefined`/`null` values and converts bare `#` URI values to empty strings (Drupal SDC validation rejects both)
+* In development, relies on `middleware.js` to proxy assets — no rewriting needed
+* In production (static `storybook:build` export), rewrites relative root-relative `href`/`src`/`action` attributes to absolute Drupal URLs so assets load from the live Drupal server instead of 404-ing on the static host
 
 ## When Adding or Changing Stories
 
