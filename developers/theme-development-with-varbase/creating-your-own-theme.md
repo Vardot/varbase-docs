@@ -136,6 +136,7 @@ yarn theme:watch
 
 `theme:watch` is targeted for the theme only, but it can be customized in custom theme
 
+
 ### Switching Component References to Your New Theme <a href="#switching-component-references-to-your-new-theme" id="switching-component-references-to-your-new-theme"></a>
 
 After generating your custom theme and setting it as the default theme, Varbase Components **automatically** migrates all Canvas component IDs, content templates, and entity field data from the old theme to the new one. This is handled by the **Active Theme Change Subscriber** (`ActiveThemeChangeSubscriber`), which fires whenever the default theme changes in Drupal's system configuration.
@@ -234,7 +235,7 @@ Should you encounter a bug while generating a new theme, please [create a new is
 
 Starterkit is the recommended approach for creating new themes. For more information, consult the [Starterkit documentation on Drupal.org](https://www.drupal.org/docs/core-modules-and-themes/core-themes/starterkit-theme).
 
-### Cloning a Project <a href="#cloning-a-project" id="cloning-a-project"></a>
+## Cloning a Project <a href="#cloning-a-project" id="cloning-a-project"></a>
 
 On the state of working in a team in a project, the created theme could be don by other member of the team.
 
