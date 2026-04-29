@@ -51,7 +51,7 @@ This command pulls the required Docker images, creates the containers, and start
 Use Composer inside DDEV to create the Varbase project:
 
 ```bash
-ddev composer create-project "drupal/varbase_project:11.0.0-alpha1"
+ddev composer create-project "drupal/varbase_project:~11.0.0"
 ```
 
 This downloads Varbase and all of its dependencies (Drupal core, contributed modules, recipes, themes, and libraries) into the project directory.
@@ -80,7 +80,7 @@ mkdir my_varbase_site
 cd my_varbase_site
 ddev config --project-type=drupal11 --docroot=web --php-version=8.4
 ddev start
-ddev composer create-project "drupal/varbase_project:11.0.0-alpha1"
+ddev composer create-project "drupal/varbase_project:~11.0.0"
 ddev launch
 ```
 
