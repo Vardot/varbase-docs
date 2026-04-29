@@ -11,7 +11,7 @@ mkdir my_varbase_site
 cd my_varbase_site
 ddev config --project-type=drupal11 --docroot=web --php-version=8.4
 ddev start
-ddev composer create-project "drupal/varbase_project:11.0.x-dev"
+ddev composer create-project "drupal/varbase_project:~11.0.0"
 ddev launch
 ```
 
@@ -23,19 +23,19 @@ Unlike previous versions of Varbase that used a Drupal installation profile, Var
 
 A recipe is a composable configuration package that can:
 
-- Install and configure Drupal modules
-- Set default configuration values
-- Assign user permissions
-- Configure content types, fields, and display settings
+* Install and configure Drupal modules
+* Set default configuration values
+* Assign user permissions
+* Configure content types, fields, and display settings
 
 The main entry point is the **`varbase_starter`** recipe, which orchestrates the application of all Varbase recipes in the correct order. This recipe pulls in:
 
-- **Drupal Core** recipes for foundational functionality
-- **Drupal CMS 2.0** recipes for common website features (media, SEO, anti-spam, privacy, and more)
-- **Varbase-specific** recipes that provide the enhanced features and configurations that distinguish Varbase from a standard Drupal installation
+* **Drupal Core** recipes for foundational functionality
+* **Drupal CMS 2.0** recipes for common website features (media, SEO, anti-spam, privacy, and more)
+* **Varbase-specific** recipes that provide the enhanced features and configurations that distinguish Varbase from a standard Drupal installation
 
 ## What to Read Next
 
-- **[Installing Varbase](installing-varbase/)**: Detailed installation instructions for DDEV.
-- **[Understanding Varbase](understanding-varbase/)**: A deeper look at the recipe architecture and how Varbase is structured.
-- **[Requirements](installing-varbase/requirements.md)**: System requirements for running Varbase.
+* [**Installing Varbase**](installing-varbase/): Detailed installation instructions for DDEV.
+* [**Understanding Varbase**](understanding-varbase/): A deeper look at the recipe architecture and how Varbase is structured.
+* [**Requirements**](installing-varbase/requirements.md): System requirements for running Varbase.
