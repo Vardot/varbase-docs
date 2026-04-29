@@ -6,9 +6,9 @@ Varbase 11.0.x provides a modern theming system built on established front-end t
 
 **Vartheme BS5** is the default front-end theme for Varbase. It is a Bootstrap 5 based theme that provides responsive design, SCSS compilation, and a component-based architecture using Drupal's Single Directory Components (SDC) system. Vartheme BS5 is installed by the Varbase Starter recipe.
 
-## Admin Theme: Gin
+## [Design System Base Install](https://storybook.demo.varbase.vardot.com/)
 
-**Gin** is the default admin theme for Varbase, installed by the Varbase Admin Base recipe. Gin provides a modern, accessible administration interface with a clean design and improved editorial experience. Gin is a widely adopted Drupal admin theme and requires no additional configuration for most Varbase projects.
+Using Storybook 10.3 with Vartheme BS5 starter kit.
 
 ## Sections
 
