@@ -1,6 +1,6 @@
-# Varbase i18n Base
+# Varbase internationalization Base
 
-The **Varbase i18n Base** recipe provides internationalization, language management, and translation support for building multilingual Varbase sites.
+The **Varbase internationalization Base** recipe provides internationalization, language management, and translation support for building multilingual Varbase sites.
 
 ## Drupal.org Project
 
