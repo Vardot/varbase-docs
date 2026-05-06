@@ -81,6 +81,7 @@
     * [Troubleshooting Theme Switch Issues](developers/theme-development-with-varbase/troubleshooting-theme-switch-issues.md)
     * [Integration of Varbase with Storybook](developers/theme-development-with-varbase/integration-of-varbase-with-storybook.md)
     * [Add Preloaded Fonts in Vartheme](developers/theme-development-with-varbase/add-preloaded-fonts-in-vartheme.md)
+    * [Manually Install Needed Theming Tools](developers/theme-development-with-varbase/manually-install-needed-theming-tools.md)
   * [Varbase Patches](developers/varbase-patches.md)
   * [Varbase Libraries](developers/varbase-libraries/README.md)
     * [NPM/YARN with drupal-libraries-sync](developers/varbase-libraries/npm-yarn-drupal-libraries-sync.md)
