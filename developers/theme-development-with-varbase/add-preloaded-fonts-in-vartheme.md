@@ -149,9 +149,9 @@ Check the following links:&#x20;
 
 Vartheme **Fonts** folder:
 
-[https://git.drupalcode.org/project/vartheme\_bs5/-/tree/3.0.x/fonts](https://git.drupalcode.org/project/vartheme_bs5/-/tree/3.0.x/fonts)
+[https://git.drupalcode.org/project/vartheme\_bs5/-/tree/5.0.x/fonts](https://git.drupalcode.org/project/vartheme_bs5/-/tree/5.0.x/fonts)
 
-**Vartheme html.html.twig file:** [https://git.drupalcode.org/project/vartheme\_bs5/-/blob/3.0.x/templates/system/html.html.twig#L50](https://git.drupalcode.org/project/vartheme_bs5/-/blob/3.0.x/templates/system/html.html.twig#L50)
+**Vartheme html.html.twig file:** [https://git.drupalcode.org/project/vartheme\_bs5/-/blob/5.0.x/templates/system/html.html.twig#L50](https://git.drupalcode.org/project/vartheme_bs5/-/blob/5.0.x/templates/system/html.html.twig#L50)
 
-**Vartheme  preload.twig file:** [https://git.drupalcode.org/project/vartheme\_bs5/-/blob/3.0.x/templates/includes/preload.twig](https://git.drupalcode.org/project/vartheme_bs5/-/blob/3.0.x/templates/includes/preload.twig)
+**Vartheme  preload.twig file:** [https://git.drupalcode.org/project/vartheme\_bs5/-/blob/3.0.x/templates/includes/preload.twig](https://git.drupalcode.org/project/vartheme_bs5/-/blob/5.0.x/templates/includes/preload.twig)
 {% endhint %}
