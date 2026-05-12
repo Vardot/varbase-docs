@@ -69,11 +69,11 @@ Therefore, necessary patches originating from merge requests will be stored in t
 
 Suppose you need to exclude a specific patch while utilizing Varbase Patches in your site. For instance, let's consider the scenario where you wish to either enhance an existing patch or disregard it altogether.
 
-To achieve this, incorporate the following snippet into your **root** `composer.json` file:
 
-## Configuration
 
 All keys live under `extra` in your project's root `composer.json`.
+
+To achieve this, incorporate the following snippet into your **root** `composer.json` file:
 
 ### `composer-patches.allowed-dependency-patches`
 
