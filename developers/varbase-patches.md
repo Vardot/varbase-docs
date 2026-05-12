@@ -1,110 +1,131 @@
 # Varbase Patches
 
-Varbase uses **cweagans/composer-patches** to manage patches applied to Drupal core, contributed modules, and other dependencies. Patches address bugs, add features, or apply fixes that have not yet been committed to the upstream projects.
+When working with **Drupal**, it's common to patch core or contrib modules to fix bugs or review code changes before they're officially released. While applying patches via patch files is straightforward, using **GitLab**'s merge request (**MR**) feature presents a challenge due to unstable diff URLs.
 
-## How Patches Are Applied
+As multiple commits are added to an MR, generating a stable patch file becomes complex. To create a static patch file for an MR at a specific point in time, simply set up a **`'patches'`** folder next to your **root** **`composer.json`**. Download the **`.diff`** or **`.patch`** into this folder and utilize [**`composer-patches`**](https://github.com/cweagans/composer-patches) to apply it seamlessly.
 
-Patches are defined in the `composer.json` file and are automatically applied by the `cweagans/composer-patches` Composer plugin during package installation and updates. Each patch entry includes a description and a URL pointing to the patch file.
+[**`Varbase Patches`**](https://github.com/Vardot/varbase-patches) has the list of needed patches for **Varbase** used packages with **Composer Patches.**
 
-Example patch configuration in `composer.json`:
+***
 
-```json
-{
-  "extra": {
-    "patches": {
-      "drupal/core": {
-        "Fix for issue #1234567 - Description of the fix": "https://www.drupal.org/files/issues/2026-01-15/1234567-fix-description.patch"
-      },
-      "drupal/some_module": {
-        "Fix for issue #7654321 - Another fix description": "https://www.drupal.org/files/issues/2026-02-01/7654321-another-fix.patch"
-      }
+Use `"vardot/varbase-patches": "~11.0.0"`
+
+***
+
+## Managing Only Local Patches for Projects
+
+When there's a need to handle local patches for a project without relying on Varbase Patches.
+
+### Remove Varbase Patches in Varbase \~11.0.0
+
+> &#x20;With **CKEditor 5** and **Drupal \~11** : Use the `"Vardot/varbase-patches": "11.0.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/11.0.x/composer.json](https://github.com/Vardot/varbase-patches/blob/10.0.x/composer.json)
+
+## Storage of Local Patches Branch
+
+This [**Patches**](https://github.com/Vardot/varbase-patches/tree/patches) branch is a storage branch for the list of needed local patches.
+
+&#x20;[<mark style="background-color:orange;">**Ones a patch is added, never to be deleted**</mark>](#user-content-fn-1)[^1]<mark style="background-color:orange;">**!**</mark>
+
+It should be considered a permanent part of the solution and should not be deleted under normal circumstances. Deleting patches can lead to unexpected behavior or loss of functionality, especially if other components of the system depend on them.
+
+New patches should follow the following in the name of the patch file
+
+`[package name]--[Date]--[issue number]-[comment number]--[MR number/commit number].patch`
+
+Branch name for the package could be added too.
+
+This will be a copy of Merge Request (MR), as it is important not to add `.diff` or `.patch` link to an MR as the code could change in anytime.
+
+### Examples of Names for Local Patch files:
+
+* `drupal-core--2024-01-09--3049332-85.patch`
+* `drupal-core--10-2-x--3046152-49.patch`
+* `rabbit_hole--2024-02-04--3419073-3.patch`
+* `ui_patterns_settings--2023-12-17--3409221-3--mr-21--39e896da.patch`
+
+## Why Direct Links for Merge Requests Aren't Preferred
+
+To understand the process better, consult the [Drupal Contributor Guide](https://www.drupal.org/community/contributor-guide/find-a-task) , and [Creating merge requests](https://www.drupal.org/docs/develop/git/using-gitlab-to-contribute-to-drupal/creating-merge-requests) for detailed instructions on handling issues.
+
+When creating merge requests, it's better to use **composer-patches**' solution for dealing with merge request URLs from **drupal.org**. This solution adds support for patch checksums, preventing issues where the new patch wouldn't apply due to checksum mismatches.
+
+Such issues can disrupt builds, compromising stability and security. Note that this solution is included in version 2, which hasn't been officially released at the time of writing.
+
+{% hint style="danger" %}
+**Choosing direct merge requests over patching isn't the best option for maintaining stability, especially considering Drupal's shift from patching to merge requests.**
+{% endhint %}
+
+As you implement these changes, it's recommended to convert existing patches into merge requests. Merge requests are preferred over patches in the Drupal community.
+
+Therefore, necessary patches originating from merge requests will be stored in this designated storage branch.
+
+* [Patches from drupal.org merge request URLs are dangerous?](https://github.com/cweagans/composer-patches/issues/347)
+* [Add support for patch checksums](https://github.com/cweagans/composer-patches/pull/388).
+* [**`composer-patches 2.0.0`** hasn't been released yet](https://github.com/cweagans/composer-patches/issues/451)
+
+***
+
+## Handling Varbase Patches Ignoring
+
+Suppose you need to exclude a specific patch while utilizing Varbase Patches in your site. For instance, let's consider the scenario where you wish to either enhance an existing patch or disregard it altogether.
+
+To achieve this, incorporate the following snippet into your **root** `composer.json` file:
+
+```php
+"patches-ignore": {
+  "vardot/varbase-patches": {
+    "drupal/core": {
+      "Issue #2869592: Disabled update module shouldn't produce a status report warning":
+      "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
     }
   }
 }
 ```
 
-## The vardot/varbase-patches Repository
+By integrating this set, you effectively instruct Composer to overlook the specified patch within Varbase Patches. This empowers you to manage patches more efficiently, whether by improving them or opting out of certain patches altogether.
 
-Vardot maintains a centralized patches repository at **vardot/varbase-patches** that provides a curated set of patches required for Varbase to function correctly. This repository is included as a Composer dependency and supplies patch definitions that are applied automatically.
 
-### GitHub Repository
 
-The patches repository is available at:
+## Composer Command to Clean up Any Merge Request Patches
 
-```
-https://github.com/Vardot/varbase-patches
-```
+### **Clean up the Root \`composer.json\` File**
 
-### Updating Varbase Patches
+{% hint style="success" %}
+**Name:** `varbase-patches:composer:cleanup:patches`\
+**Aliases:** `var-ccup`\
+**Description:** This command detects any merge request patches, downloads them to the local patches folder with a timestamp, and updates the **root** `` `composer.json` `` file to use the timestamped local patch file.
+{% endhint %}
 
-To update to the latest set of Varbase patches:
+**Example:**
 
-```bash
-composer update vardot/varbase-patches
-```
-
-### Reviewing Available Patches
-
-You can review the patches currently defined by `vardot/varbase-patches` by examining the package's `composer.json` file or visiting the repository on GitHub. Each patch includes:
-
-* A link to the Drupal.org issue it addresses.
-* A description of the fix.
-* The URL of the patch file.
-
-## Adding Custom Patches
-
-You can add your own patches alongside the Varbase patches by adding entries to the `patches` section of your project's `composer.json`:
-
-```json
-{
-  "extra": {
-    "patches": {
-      "drupal/custom_module": {
-        "Custom fix for project-specific issue": "patches/custom-fix.patch"
-      }
-    }
-  }
-}
+```php
+composer varbase-patches:composer:cleanup:patches
 ```
 
-Local patch files should be placed in a `patches/` directory in your project root.
+or
 
-## Patch Configuration Options
-
-### Exit on Patch Failure
-
-To make Composer fail the entire operation if any patch cannot be applied:
-
-```json
-{
-  "extra": {
-    "composer-exit-on-patch-failure": true
-  }
-}
+```php
+composer var-ccup
 ```
 
-This is recommended for CI/CD pipelines and production deployments.
+### **Clean up the External \`patches-file\` JSON File**
 
-### External Patches File
+{% hint style="success" %}
+**Name:** `varbase-patches:composer:cleanup:patches-file`\
+**Aliases:** `var-ccupf`\
+**Description:** This command detects any merge request patches, downloads them to the local patches folder with a timestamp, and updates the `` `patches-file JSON` `` file to use the timestamped local patch file.
+{% endhint %}
 
-To keep patches in a separate file:
+**Example:**
 
-```json
-{
-  "extra": {
-    "patches-file": "composer.patches.json"
-  }
-}
+```php
+composer varbase-patches:composer:cleanup:patches-file
 ```
 
-## Managing Patches During Updates
+or
 
-When updating packages, patches may fail to apply if the underlying code has changed. See [Handling Patches When Updating](/broken/pages/udNXSPvZ2fomMKUVOg9P) for detailed instructions on resolving patch-related issues during updates.
+```php
+composer var-ccupf
+```
 
-## Best Practices
-
-1. **Always document patches**: Include a descriptive label and a link to the relevant Drupal.org issue for every patch.
-2. **Monitor upstream issues**: Check periodically whether patches have been committed upstream so they can be removed from your configuration.
-3. **Use strict mode in CI**: Enable `composer-exit-on-patch-failure` in your CI/CD pipeline to catch patch failures early.
-4. **Keep patches minimal**: Only apply patches that are genuinely needed for your project. Unnecessary patches increase maintenance burden during updates.
-5. **Test after changes**: After adding, removing, or updating patches, thoroughly test the affected functionality.
+[^1]: 
