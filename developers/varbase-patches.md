@@ -10,8 +10,6 @@ As multiple commits are added to an MR, generating a stable patch file becomes c
 
 Use `"vardot/varbase-patches": "~10.1.0"`
 
-> &#x20; <mark style="color:$primary;background-color:$primary;">with Varbase \~10.1.0, CKEditor 5, UI Patterns \~2.0 and Drupal \~11.2.0</mark>&#x20;
-
 ***
 
 ## Managing Only Local Patches for Projects
@@ -88,12 +86,12 @@ By integrating this set, you effectively instruct Composer to overlook the speci
 
 
 
-## Drush Command to Clean up Any Merge Request Patches
+## Composer Command to Clean up Any Merge Request Patches
 
 ### **Clean up the Root \`composer.json\` File**
 
 {% hint style="success" %}
-**Name:** `varbase:composer:cleanup:patches`\
+**Name:** `varbase-patches:composer:cleanup:patches`\
 **Aliases:** `var-ccup`\
 **Description:** This command detects any merge request patches, downloads them to the local patches folder with a timestamp, and updates the **root** `` `composer.json` `` file to use the timestamped local patch file.
 {% endhint %}
@@ -101,19 +99,19 @@ By integrating this set, you effectively instruct Composer to overlook the speci
 **Example:**
 
 ```php
-drush varbase:composer:cleanup:patches
+composer varbase-patches:composer:cleanup:patches
 ```
 
 or
 
 ```php
-drush var-ccup
+composer var-ccup
 ```
 
 ### **Clean up the External \`patches-file\` JSON File**
 
 {% hint style="success" %}
-**Name:** `varbase:composer:cleanup:patches-file`\
+**Name:** `varbase-patches:composer:cleanup:patches-file`\
 **Aliases:** `var-ccupf`\
 **Description:** This command detects any merge request patches, downloads them to the local patches folder with a timestamp, and updates the `` `patches-file JSON` `` file to use the timestamped local patch file.
 {% endhint %}
@@ -121,13 +119,13 @@ drush var-ccup
 **Example:**
 
 ```php
-drush varbase:composer:cleanup:patches-file
+composer varbase-patches:composer:cleanup:patches-file
 ```
 
 or
 
 ```php
-drush var-ccupf
+composer var-ccupf
 ```
 
 [^1]: 
