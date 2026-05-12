@@ -20,6 +20,18 @@ When there's a need to handle local patches for a project without relying on Var
 
 > &#x20;With **CKEditor 5** and **Drupal \~10** : Use the `"Vardot/varbase-patches": "10.0.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/10.0.x/composer.json](https://github.com/Vardot/varbase-patches/blob/10.0.x/composer.json)
 
+When working with **Drupal**, it's common to patch core or contrib modules to fix bugs or review code changes before they're officially released. While applying patches via patch files is straightforward, using **GitLab**'s merge request (**MR**) feature presents a challenge due to unstable diff URLs.
+
+As multiple commits are added to an MR, generating a stable patch file becomes complex. To create a static patch file for an MR at a specific point in time, simply set up a **`'patches'`** folder next to your **root** **`composer.json`**. Download the **`.diff`** or **`.patch`** into this folder and utilize [**`composer-patches`**](https://github.com/cweagans/composer-patches) to apply it seamlessly.
+
+[**`Varbase Patches`**](https://github.com/Vardot/varbase-patches) has the list of needed patches for **Varbase** used packages with **Composer Patches.**
+
+***
+
+Use `"vardot/varbase-patches": "~10.0.0"`
+
+***
+
 ## Storage of Local Patches Branch
 
 This [**Patches**](https://github.com/Vardot/varbase-patches/tree/patches) branch is a storage branch for the list of needed local patches.
@@ -86,12 +98,12 @@ By integrating this set, you effectively instruct Composer to overlook the speci
 
 
 
-## Drush Command to Clean up Any Merge Request Patches
+## Composer Command to Clean up Any Merge Request Patches
 
 ### **Clean up the Root \`composer.json\` File**
 
 {% hint style="success" %}
-**Name:** `varbase:composer:cleanup:patches`\
+**Name:** `varbase-patches:composer:cleanup:patches`\
 **Aliases:** `var-ccup`\
 **Description:** This command detects any merge request patches, downloads them to the local patches folder with a timestamp, and updates the **root** `` `composer.json` `` file to use the timestamped local patch file.
 {% endhint %}
@@ -99,19 +111,19 @@ By integrating this set, you effectively instruct Composer to overlook the speci
 **Example:**
 
 ```php
-drush varbase:composer:cleanup:patches
+composer varbase-patches:composer:cleanup:patches
 ```
 
 or
 
 ```php
-drush var-ccup
+composer var-ccup
 ```
 
 ### **Clean up the External \`patches-file\` JSON File**
 
 {% hint style="success" %}
-**Name:** `varbase:composer:cleanup:patches-file`\
+**Name:** `varbase-patches:composer:cleanup:patches-file`\
 **Aliases:** `var-ccupf`\
 **Description:** This command detects any merge request patches, downloads them to the local patches folder with a timestamp, and updates the `` `patches-file JSON` `` file to use the timestamped local patch file.
 {% endhint %}
@@ -119,13 +131,13 @@ drush var-ccup
 **Example:**
 
 ```php
-drush varbase:composer:cleanup:patches-file
+composer varbase-patches:composer:cleanup:patches-file
 ```
 
 or
 
 ```php
-drush var-ccupf
+composer var-ccupf
 ```
 
 [^1]: 
