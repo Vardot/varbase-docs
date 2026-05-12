@@ -32,11 +32,11 @@ When there's a need to handle local patches for a project without relying on Var
 
 > &#x20; With **CKEditor 4** and **Drupal \~10**   : Use the `"Vardot/varbase-patches": "9.1.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/9.1.x/composer.json](https://github.com/Vardot/varbase-patches/blob/9.1.x/composer.json)
 
-### Storage of Local Patches Branch <a href="#storage-of-local-patches-branch" id="storage-of-local-patches-branch"></a>
+## Storage of Local Patches Branch
 
 This [**Patches**](https://github.com/Vardot/varbase-patches/tree/patches) branch is a storage branch for the list of needed local patches.
 
-**Ones a patch is added, never to be deleted!**
+&#x20;[<mark style="background-color:orange;">**Ones a patch is added, never to be deleted**</mark>](#user-content-fn-1)[^1]<mark style="background-color:orange;">**!**</mark>
 
 It should be considered a permanent part of the solution and should not be deleted under normal circumstances. Deleting patches can lead to unexpected behavior or loss of functionality, especially if other components of the system depend on them.
 
@@ -48,14 +48,14 @@ Branch name for the package could be added too.
 
 This will be a copy of Merge Request (MR), as it is important not to add `.diff` or `.patch` link to an MR as the code could change in anytime.
 
-#### Examples of Names for Local Patch files: <a href="#examples-of-names-for-local-patch-files" id="examples-of-names-for-local-patch-files"></a>
+### Examples of Names for Local Patch files:
 
 * `drupal-core--2024-01-09--3049332-85.patch`
 * `drupal-core--10-2-x--3046152-49.patch`
 * `rabbit_hole--2024-02-04--3419073-3.patch`
 * `ui_patterns_settings--2023-12-17--3409221-3--mr-21--39e896da.patch`
 
-### Why Direct Links for Merge Requests Aren't Preferred <a href="#why-direct-links-for-merge-requests-arent-preferred" id="why-direct-links-for-merge-requests-arent-preferred"></a>
+## Why Direct Links for Merge Requests Aren't Preferred
 
 To understand the process better, consult the [Drupal Contributor Guide](https://www.drupal.org/community/contributor-guide/find-a-task) , and [Creating merge requests](https://www.drupal.org/docs/develop/git/using-gitlab-to-contribute-to-drupal/creating-merge-requests) for detailed instructions on handling issues.
 
@@ -77,15 +77,13 @@ Therefore, necessary patches originating from merge requests will be stored in t
 
 ***
 
-### Handling Varbase Patches Ignoring <a href="#handling-varbase-patches-ignoring" id="handling-varbase-patches-ignoring"></a>
+## Handling Varbase Patches Ignoring
 
 Suppose you need to exclude a specific patch while utilizing Varbase Patches in your site. For instance, let's consider the scenario where you wish to either enhance an existing patch or disregard it altogether.
 
 To achieve this, incorporate the following snippet into your **root** `composer.json` file:
 
-Copy
-
-```
+```php
 "patches-ignore": {
   "vardot/varbase-patches": {
     "drupal/core": {
@@ -98,12 +96,14 @@ Copy
 
 By integrating this set, you effectively instruct Composer to overlook the specified patch within Varbase Patches. This empowers you to manage patches more efficiently, whether by improving them or opting out of certain patches altogether.
 
-## Drush Command to Clean up Any Merge Request Patches
+
+
+## Composer Command to Clean up Any Merge Request Patches
 
 ### **Clean up the Root \`composer.json\` File**
 
 {% hint style="success" %}
-**Name:** `varbase:composer:cleanup:patches`\
+**Name:** `varbase-patches:composer:cleanup:patches`\
 **Aliases:** `var-ccup`\
 **Description:** This command detects any merge request patches, downloads them to the local patches folder with a timestamp, and updates the **root** `` `composer.json` `` file to use the timestamped local patch file.
 {% endhint %}
@@ -111,19 +111,19 @@ By integrating this set, you effectively instruct Composer to overlook the speci
 **Example:**
 
 ```php
-drush varbase:composer:cleanup:patches
+composer varbase-patches:composer:cleanup:patches
 ```
 
 or
 
 ```php
-drush var-ccup
+composer var-ccup
 ```
 
 ### **Clean up the External \`patches-file\` JSON File**
 
 {% hint style="success" %}
-**Name:** `varbase:composer:cleanup:patches-file`\
+**Name:** `varbase-patches:composer:cleanup:patches-file`\
 **Aliases:** `var-ccupf`\
 **Description:** This command detects any merge request patches, downloads them to the local patches folder with a timestamp, and updates the `` `patches-file JSON` `` file to use the timestamped local patch file.
 {% endhint %}
@@ -131,11 +131,13 @@ drush var-ccup
 **Example:**
 
 ```php
-drush varbase:composer:cleanup:patches-file
+composer varbase-patches:composer:cleanup:patches-file
 ```
 
 or
 
 ```php
-drush var-ccupf
+composer var-ccupf
 ```
+
+[^1]: 
