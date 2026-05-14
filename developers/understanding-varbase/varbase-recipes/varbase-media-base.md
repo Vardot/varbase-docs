@@ -44,6 +44,7 @@ Brings in the following core and contributed modules to your site:
 | [**Views Bulk Edit**](https://www.drupal.org/project/views_bulk_edit)                 | Allows bulk edition of entity field values.                                                         |
 | [**WebP**](https://www.drupal.org/project/webp)                                       | Generates WebP copies of image style derivatives.                                                   |
 | [**Varbase Media**](https://www.drupal.org/project/varbase_media)                     | Provides Varbase media types, view modes, and configurations.                                       |
+| [**Drupal Canvas**](https://www.drupal.org/project/canvas)                            | Page builder used by Varbase. Enabled here so media references resolve inside Canvas pages.         |
 
 ## Installation
 
