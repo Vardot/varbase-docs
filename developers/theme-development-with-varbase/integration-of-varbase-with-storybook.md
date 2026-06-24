@@ -12,31 +12,56 @@ Follow the Varbase installation guide to build and install Varbase with DDEV bef
 [installing-varbase-with-ddev.md](../installing-varbase/installing-varbase-with-ddev.md)
 {% endcontent-ref %}
 
+## The `ddev storybook` command
+
+Varbase ships a single DDEV command to manage Storybook. Run `ddev storybook help` to see everything it does (alias: `ddev sb`).
+
+```bash
+ddev storybook <command>
+```
+
+| Command | What it does |
+| --- | --- |
+| `init` | Full first-time setup (same as `ddev init-storybook`). |
+| `enable` | Turn **on** the development local services (CORS + Twig debug) so the `storybook.*` subdomain can render stories. |
+| `disable` | Turn them **off** and keep them off across restarts. |
+| `list` | Print the Storybook URLs / domains to open. |
+| `status` | Show module / dev-services / daemon / port / CORS health. |
+| `stats` | Show how many stories are served, grouped by component group. |
+| `doctor` | Diagnose common problems and print the exact command to fix each. |
+| `gen` | Regenerate `*.stories.json` from Twig. |
+| `build` | Build a static Storybook into `./storybook`. |
+
+> **Note:** The Storybook **dev server runs automatically** as a DDEV `web_extra_daemon` (see `web_extra_daemons` in `.ddev/config.yaml`). You do **not** need to start it by hand — after `ddev storybook init` it is already serving on port `6006` and on the Storybook subdomain.
+
 ## Initialize Storybook for DDEV
 
 ### 1. Initialize Storybook for Varbase
 
 ```bash
-ddev init-storybook
+ddev storybook init
 ```
 
-The `ddev init-storybook` command is a custom DDEV command that:
+This is the same as the standalone `ddev init-storybook` command, which:
 
 * Installs Node.js dependencies via `yarn install`
 * Enables the `storybook` Drupal module
 * Grants `render storybook stories` permission to anonymous and authenticated users
 * Copies `development.local.services.yml` to `web/sites/default/`
-* Adds the development services configuration to `settings.ddev.php` or `settings.platformsh.php`
+* Enables the development services include in `settings.ddev.php` / `settings.platformsh.php` (via `ddev storybook enable`)
+* Configures the `storybook.<project>.ddev.site` subdomain (`additional_fqdns` + the Apache proxy)
 * Writes `.env.storybook` with `STORYBOOK_SERVER_URL` and `STORYBOOK_SERVER_RENDER_URL` pointing at the active Drupal site URL, used by the Storybook dev server and middleware to reach Drupal
 
-Have a look at the content of the [init-storybook](https://github.com/Vardot/varbase-project/blob/11.0.x/.ddev/commands/web/init-storybook) command.
+Have a look at the content of the [storybook](https://github.com/Vardot/varbase-project/blob/11.0.x/.ddev/commands/web/storybook) and [init-storybook](https://github.com/Vardot/varbase-project/blob/11.0.x/.ddev/commands/web/init-storybook) commands.
+
+> **Tip:** If `init` changed the subdomain or routing, run `ddev restart` once to apply it.
 
 ### 2. Generate Stories
 
 Generate all stories using the following command:
 
 ```bash
-ddev yarn storybook:gen
+ddev storybook gen
 ```
 
 This runs the Drush command:
@@ -51,30 +76,64 @@ To generate only new stories (without overwriting existing ones):
 ddev yarn storybook:gen-new
 ```
 
-### 3. Start Varbase Storybook in DDEV
+### 3. Open Varbase Storybook
+
+The dev server is already running (as a `web_extra_daemon`). Print the URLs:
 
 ```bash
-ddev yarn storybook:dev
+ddev storybook list
 ```
 
-This starts Storybook on port **6006**. Open your site domain with `:6006` to access it.
+```
+Storybook URLs for this project:
+   • Subdomain:     https://storybook.varbase.ddev.site/
+   • Direct port:   https://varbase.ddev.site:6006/
+   • Drupal render: https://varbase.ddev.site/storybook/stories/render
+   403 stories currently served.
+```
 
-For DDEV remote access (e.g. when accessing Storybook from another device on the network or from the host browser when DDEV runs in a container), use the DDEV-bound variant which binds to `0.0.0.0`:
+Open the **subdomain** URL in your browser. The `:6006` direct URL also works.
+
+To check everything is healthy:
+
+```bash
+ddev storybook status
+```
+
+If a story fails to render (for example a CORS error in the browser console), run the doctor — it tells you exactly what to fix:
+
+```bash
+ddev storybook doctor
+```
+
+### 4. Restarting DDEV
+
+Story rendering keeps working across `ddev stop` / `ddev start` / `ddev restart`. DDEV regenerates `settings.ddev.php` on every start, so a `post-start` hook re-applies the development services (CORS) include automatically by running `ddev storybook enable --boot`.
+
+To turn Storybook's development services off for a while (and keep them off across restarts):
+
+```bash
+ddev storybook disable
+```
+
+Re-enable them with:
+
+```bash
+ddev storybook enable
+```
+
+### Starting the dev server manually
+
+You normally never need this — the daemon already runs it. To run a fresh foreground dev server (for example to watch its log), use the yarn script:
 
 ```bash
 ddev yarn storybook:ddev
 ```
 
-To kill a running Storybook process and free port 6006:
+This binds to `0.0.0.0` so the subdomain proxy can reach it. To free port `6006`:
 
 ```bash
 ddev yarn storybook:kill
-```
-
-### 4. Verify Installation
-
-```bash
-ddev status
 ```
 
 ## How Storybook Connects to Drupal <a href="#how-storybook-connects-to-drupal" id="how-storybook-connects-to-drupal"></a>
@@ -95,11 +154,11 @@ Custom fetch function for `@storybook/server` that:
 
 ## When Adding or Changing Stories
 
-Run the `ddev yarn storybook:gen` command whenever stories are added or changed to regenerate all stories.
+Run the `ddev storybook gen` command whenever stories are added or changed to regenerate all stories.
 
 ## Manual Setup (Without DDEV Commands)
 
-If you prefer to set up Storybook manually instead of using the `ddev init-storybook` command:
+If you prefer to set up Storybook manually instead of using the `ddev storybook init` command:
 
 ### Enable the Storybook Module
 
@@ -177,6 +236,8 @@ Add the following to `settings.local.php` or `settings.ddev.php`:
 $settings['container_yamls'][] = $app_root . '/' . $site_path . '/development.local.services.yml';
 ```
 
+> **Note:** With DDEV, `settings.ddev.php` is regenerated on every start, which would drop this line. The `ddev storybook` command handles that for you by re-adding it from a `post-start` hook — prefer `ddev storybook enable` over editing `settings.ddev.php` by hand.
+
 ### Install Dependencies and Start
 
 1. Run `yarn install` to install dependencies
@@ -235,7 +296,7 @@ Varbase Storybook supports Bootstrap 5.3+ color modes. Use the root attributes a
 Build a static version of Storybook for demos, staging, or hosted development environments:
 
 ```bash
-yarn storybook:build
+ddev storybook build
 ```
 
 > **Danger:** Not for production environments. Only for development, staging, or demo.
