@@ -43,10 +43,11 @@ The `ddev storybook` command is a convenience wrapper. The underlying `yarn` scr
 ### 1. Initialize Storybook for Varbase
 
 ```bash
+ddev init-storybook
 ddev storybook init
 ```
 
-This is the same as the standalone `ddev init-storybook` command, which:
+Either command runs the same full first-time setup, which:
 
 * Installs Node.js dependencies via `yarn install`
 * Enables the `storybook` Drupal module
@@ -62,16 +63,11 @@ Have a look at the content of the [storybook](https://github.com/Vardot/varbase-
 
 ### 2. Generate Stories
 
-Generate all stories using the following command:
-
-```bash
-ddev storybook gen
-```
-
-The `yarn` equivalent (for setups not yet using `ddev storybook`):
+Generate all stories using either command:
 
 ```bash
 ddev yarn storybook:gen
+ddev storybook gen
 ```
 
 Both run the Drush command:
@@ -164,7 +160,7 @@ Custom fetch function for `@storybook/server` that:
 
 ## When Adding or Changing Stories
 
-Run the `ddev storybook gen` command whenever stories are added or changed to regenerate all stories.
+Run `ddev storybook gen` (or `ddev yarn storybook:gen`) whenever stories are added or changed to regenerate all stories.
 
 ## Manual Setup (Without DDEV Commands)
 
@@ -303,16 +299,11 @@ Varbase Storybook supports Bootstrap 5.3+ color modes. Use the root attributes a
 
 ## Storybook Build
 
-Build a static version of Storybook for demos, staging, or hosted development environments:
-
-```bash
-ddev storybook build
-```
-
-The `yarn` equivalent (for setups not yet using `ddev storybook`):
+Build a static version of Storybook for demos, staging, or hosted development environments using either command:
 
 ```bash
 ddev yarn storybook:build
+ddev storybook build
 ```
 
 > **Danger:** Not for production environments. Only for development, staging, or demo.
