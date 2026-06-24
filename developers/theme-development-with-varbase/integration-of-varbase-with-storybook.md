@@ -44,6 +44,11 @@ The `ddev storybook` command is a convenience wrapper. The underlying `yarn` scr
 
 ```bash
 ddev init-storybook
+```
+
+or
+
+```bash
 ddev storybook init
 ```
 
@@ -66,8 +71,13 @@ Have a look at the content of the [storybook](https://github.com/Vardot/varbase-
 Generate all stories using either command:
 
 ```bash
-ddev yarn storybook:gen
 ddev storybook gen
+```
+
+or
+
+```bash
+ddev yarn storybook:gen
 ```
 
 Both run the Drush command:
@@ -302,8 +312,13 @@ Varbase Storybook supports Bootstrap 5.3+ color modes. Use the root attributes a
 Build a static version of Storybook for demos, staging, or hosted development environments using either command:
 
 ```bash
-ddev yarn storybook:build
 ddev storybook build
+```
+
+or
+
+```bash
+ddev yarn storybook:build
 ```
 
 > **Danger:** Not for production environments. Only for development, staging, or demo.
