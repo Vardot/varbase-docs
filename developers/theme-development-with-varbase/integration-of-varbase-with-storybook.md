@@ -34,6 +34,20 @@ ddev storybook <command>
 
 > **Note:** The Storybook **dev server runs automatically** as a DDEV `web_extra_daemon` (see `web_extra_daemons` in `.ddev/config.yaml`). You do **not** need to start it by hand — after `ddev storybook init` it is already serving on port `6006` and on the Storybook subdomain.
 
+### `yarn` equivalents
+
+The `ddev storybook` command is a convenience wrapper. The underlying `yarn` scripts still work, so if you have **not** updated to the new command yet you can keep using them directly:
+
+| `ddev storybook` | `yarn` script |
+| --- | --- |
+| `ddev storybook init` | `ddev init-storybook` |
+| `ddev storybook gen` | `ddev yarn storybook:gen` (or `storybook:gen-new`) |
+| `ddev storybook build` | `ddev yarn storybook:build` |
+| — (manual dev server) | `ddev yarn storybook:dev` / `ddev yarn storybook:ddev` |
+| — (free port 6006) | `ddev yarn storybook:kill` |
+
+All `yarn` scripts are defined in `package.json` and can also be run on the host without DDEV (`yarn storybook:build`, `yarn storybook:dev`, …).
+
 ## Initialize Storybook for DDEV
 
 ### 1. Initialize Storybook for Varbase
@@ -64,7 +78,13 @@ Generate all stories using the following command:
 ddev storybook gen
 ```
 
-This runs the Drush command:
+The `yarn` equivalent (for setups not yet using `ddev storybook`):
+
+```bash
+ddev yarn storybook:gen
+```
+
+Both run the Drush command:
 
 ```bash
 ddev drush storybook:generate-all-stories --omit-server-url --force
@@ -297,6 +317,12 @@ Build a static version of Storybook for demos, staging, or hosted development en
 
 ```bash
 ddev storybook build
+```
+
+The `yarn` equivalent (for setups not yet using `ddev storybook`):
+
+```bash
+ddev yarn storybook:build
 ```
 
 > **Danger:** Not for production environments. Only for development, staging, or demo.
