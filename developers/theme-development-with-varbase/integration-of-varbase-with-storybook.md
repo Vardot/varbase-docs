@@ -20,33 +20,23 @@ Varbase ships a single DDEV command to manage Storybook. Run `ddev storybook hel
 ddev storybook <command>
 ```
 
-| Command | What it does |
-| --- | --- |
-| `init` | Full first-time setup (same as `ddev init-storybook`). |
-| `enable` | Turn **on** the development local services (CORS + Twig debug) so the `storybook.*` subdomain can render stories. |
-| `disable` | Turn them **off** and keep them off across restarts. |
-| `list` | Print the Storybook URLs / domains to open. |
-| `status` | Show module / dev-services / daemon / port / CORS health. |
-| `stats` | Show how many stories are served, grouped by component group. |
-| `doctor` | Diagnose common problems and print the exact command to fix each. |
-| `gen` | Regenerate `*.stories.json` from Twig. |
-| `build` | Build a static Storybook into `./storybook`. |
+The `ddev storybook` command is a convenience wrapper. The underlying `yarn` scripts still work, so if you have **not** updated to the new command yet you can keep using the equivalents in the right column.
 
-> **Note:** The Storybook **dev server runs automatically** as a DDEV `web_extra_daemon` (see `web_extra_daemons` in `.ddev/config.yaml`). You do **not** need to start it by hand — after `ddev storybook init` it is already serving on port `6006` and on the Storybook subdomain.
+| Command | What it does | `yarn` equivalent |
+| --- | --- | --- |
+| `ddev storybook init` | Full first-time setup (same as `ddev init-storybook`). | `ddev init-storybook` |
+| `ddev storybook enable` | Turn **on** the development local services (CORS + Twig debug) so the `storybook.*` subdomain can render stories. | — |
+| `ddev storybook disable` | Turn them **off** and keep them off across restarts. | — |
+| `ddev storybook list` | Print the Storybook URLs / domains to open. | — |
+| `ddev storybook status` | Show module / dev-services / daemon / port / CORS health. | — |
+| `ddev storybook stats` | Show how many stories are served, grouped by component group. | — |
+| `ddev storybook doctor` | Diagnose common problems and print the exact command to fix each. | — |
+| `ddev storybook gen` | Regenerate `*.stories.json` from Twig. | `ddev yarn storybook:gen` (or `storybook:gen-new`) |
+| `ddev storybook build` | Build a static Storybook into `./storybook`. | `ddev yarn storybook:build` |
+| — (manual dev server) | Run a foreground dev server on port `6006`. | `ddev yarn storybook:dev` / `ddev yarn storybook:ddev` |
+| — (free port 6006) | Kill a running Storybook process. | `ddev yarn storybook:kill` |
 
-### `yarn` equivalents
-
-The `ddev storybook` command is a convenience wrapper. The underlying `yarn` scripts still work, so if you have **not** updated to the new command yet you can keep using them directly:
-
-| `ddev storybook` | `yarn` script |
-| --- | --- |
-| `ddev storybook init` | `ddev init-storybook` |
-| `ddev storybook gen` | `ddev yarn storybook:gen` (or `storybook:gen-new`) |
-| `ddev storybook build` | `ddev yarn storybook:build` |
-| — (manual dev server) | `ddev yarn storybook:dev` / `ddev yarn storybook:ddev` |
-| — (free port 6006) | `ddev yarn storybook:kill` |
-
-All `yarn` scripts are defined in `package.json` and can also be run on the host without DDEV (`yarn storybook:build`, `yarn storybook:dev`, …).
+> **Note:** The Storybook **dev server runs automatically** as a DDEV `web_extra_daemon` (see `web_extra_daemons` in `.ddev/config.yaml`). You do **not** need to start it by hand — after `ddev storybook init` it is already serving on port `6006` and on the Storybook subdomain. All `yarn` scripts are defined in `package.json` and can also be run on the host without DDEV (`yarn storybook:build`, `yarn storybook:dev`, …).
 
 ## Initialize Storybook for DDEV
 
