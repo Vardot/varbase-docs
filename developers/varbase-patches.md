@@ -193,9 +193,9 @@ Two equivalent schemas are accepted. The v1-style description-keyed map (matches
   "extra": {
     "patches-ignore": {
       "vardot/varbase-patches": {
-        "drupal/core": {
-          "Issue #2869592: Disabled update module shouldn't produce a status report warning":
-          "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch"
+        "drupal/recaptcha": {
+          "fix: #3588269 Make Drupal8Post::submit() compatible with parent":
+          "https://git.drupalcode.org/project/recaptcha/-/commit/68b0f86d1e930ed78f795a97a2fc207be35b3260.diff"
         }
       }
     }
