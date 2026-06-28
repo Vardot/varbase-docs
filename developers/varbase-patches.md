@@ -261,26 +261,6 @@ Matching is done by URL string. The description (if you use the dict form) is in
 }
 ```
 
-#### Ignore all Drupal core patches from `vardot/drupal-core-patches`
-
-Widen the allowlist as usual, then carve out `vardot/drupal-core-patches` with `ignore-dependency-patches`:
-
-```
-{
-    "extra": {
-        "composer-patches": {
-            "allowed-dependency-patches": [
-                "vardot/varbase-patches",
-                "vardot/drupal-core-patches"
-            ],
-            "ignore-dependency-patches": [
-                "vardot/drupal-core-patches"
-            ]
-        }
-    }
-}
-```
-
 Matching is by URL string, the same as for `vardot/varbase-patches`.
 
 ## Composer Command to Clean up Any Merge Request Patches
