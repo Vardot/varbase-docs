@@ -12,6 +12,47 @@ Use `"vardot/varbase-patches": "~11.0.0"`
 
 ***
 
+## Drupal Core Patches
+
+Drupal **core** patches are managed in a dedicated package, [**`vardot/drupal-core-patches`**](https://github.com/Vardot/drupal-core-patches), so that **Varbase** can always track the latest **Drupal core** release while keeping core patches separate from contrib patches.
+
+[**`vardot/varbase-patches`**](https://github.com/Vardot/varbase-patches) **requires** **`vardot/drupal-core-patches`**. The core-patches package stores the curated **Drupal core** patches with **one git branch per Drupal core `major.minor`** — `10.4.x`, `10.5.x`, `10.6.x`, `11.1.x`, `11.2.x`, `11.3.x`, `11.4.x`, `12.0.x` — plus a flat **`patches`** branch that stores the actual `.patch` files. Each `drupal-core-patches` release `require`s `drupal/core ~<minor>.0`, so **Composer** automatically selects the patch set that matches the **Drupal core** version installed in your project.
+
+On this branch `vardot/varbase-patches` requires:
+
+```
+"require": {
+    "vardot/drupal-core-patches": "~11 || ~12"
+}
+```
+
+{% hint style="warning" %}
+`vardot/drupal-core-patches` is a **metapackage** — a storage for **Drupal core** patches — **not** a **Composer** plugin. The only **Varbase** patch *plugin* is `vardot/varbase-patches`. List `vardot/drupal-core-patches` only under `extra.composer-patches.allowed-dependency-patches`, and **never** under `config.allow-plugins`.
+{% endhint %}
+
+### Allowing the patch packages
+
+The `config.allow-plugins` and `extra.composer-patches.allowed-dependency-patches` keys live in `vardot/varbase-project` (the project template), not in the individual modules. Allow the patch **plugin** and accept patches from both patch packages:
+
+```
+{
+    "config": {
+        "allow-plugins": {
+            "cweagans/composer-patches": true,
+            "vardot/varbase-patches": true
+        }
+    },
+    "extra": {
+        "composer-patches": {
+            "allowed-dependency-patches": [
+                "vardot/varbase-patches",
+                "vardot/drupal-core-patches"
+            ]
+        }
+    }
+}
+```
+
 ## Managing Only Local Patches for Projects
 
 When there's a need to handle local patches for a project without relying on Varbase Patches.
@@ -89,7 +130,10 @@ List of package-name patterns. Only packages matching this list contribute patch
 {
   "extra": {
     "composer-patches": {
-      "allowed-dependency-patches": ["vardot/varbase-patches"]
+      "allowed-dependency-patches": [
+        "vardot/varbase-patches",
+        "vardot/drupal-core-patches"
+      ]
     }
   }
 }
