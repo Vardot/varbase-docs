@@ -24,6 +24,47 @@ Use `"vardot/varbase-patches": "~9.1.0"`
 
 > &#x20; <mark style="color:$primary;background-color:$primary;">with</mark> <mark style="color:$primary;background-color:$primary;"></mark><mark style="color:$primary;background-color:$primary;">**Varbase \~9.1.0**</mark> <mark style="color:$primary;background-color:$primary;">**CKEditor 4**</mark> <mark style="color:$primary;background-color:$primary;"></mark><mark style="color:$primary;background-color:$primary;">and</mark> <mark style="color:$primary;background-color:$primary;"></mark><mark style="color:$primary;background-color:$primary;">**Drupal \~10**</mark> &#x20;
 
+## Drupal Core Patches
+
+Drupal **core** patches are managed in a dedicated package, [**`vardot/drupal-core-patches`**](https://github.com/Vardot/drupal-core-patches), so that **Varbase** can always track the latest **Drupal core** release while keeping core patches separate from contrib patches.
+
+[**`vardot/varbase-patches`**](https://github.com/Vardot/varbase-patches) **requires** **`vardot/drupal-core-patches`**. The core-patches package stores the curated **Drupal core** patches with **one git branch per Drupal core `major.minor`** — `10.4.x`, `10.5.x`, `10.6.x`, `11.1.x`, `11.2.x`, `11.3.x`, `11.4.x`, `12.0.x` — plus a flat **`patches`** branch that stores the actual `.patch` files. Each `drupal-core-patches` release `require`s `drupal/core ~<minor>.0`, so **Composer** automatically selects the patch set that matches the **Drupal core** version installed in your project.
+
+On this branch `vardot/varbase-patches` requires:
+
+```
+"require": {
+    "vardot/drupal-core-patches": "~10 || ~11 || ~12"
+}
+```
+
+{% hint style="warning" %}
+`vardot/drupal-core-patches` is a **metapackage** — a storage for **Drupal core** patches — **not** a **Composer** plugin. The only **Varbase** patch *plugin* is `vardot/varbase-patches`. List `vardot/drupal-core-patches` only under `extra.composer-patches.allowed-dependency-patches`, and **never** under `config.allow-plugins`.
+{% endhint %}
+
+### Allowing the patch packages
+
+The `config.allow-plugins` and `extra.composer-patches.allowed-dependency-patches` keys live in `vardot/varbase-project` (the project template), not in the individual modules. Allow the patch **plugin** and accept patches from both patch packages:
+
+```
+{
+    "config": {
+        "allow-plugins": {
+            "cweagans/composer-patches": true,
+            "vardot/varbase-patches": true
+        }
+    },
+    "extra": {
+        "composer-patches": {
+            "allowed-dependency-patches": [
+                "vardot/varbase-patches",
+                "vardot/drupal-core-patches"
+            ]
+        }
+    }
+}
+```
+
 ### Managing Only Local Patches for Projects <a href="#managing-only-local-patches-for-projects" id="managing-only-local-patches-for-projects"></a>
 
 When there's a need to handle local patches for a project without relying on Varbase Patches.
@@ -107,7 +148,10 @@ List of package-name patterns. Only packages matching this list contribute patch
 {
   "extra": {
     "composer-patches": {
-      "allowed-dependency-patches": ["vardot/varbase-patches"]
+      "allowed-dependency-patches": [
+        "vardot/varbase-patches",
+        "vardot/drupal-core-patches"
+      ]
     }
   }
 }
@@ -167,9 +211,9 @@ Two equivalent schemas are accepted. The v1-style description-keyed map (matches
   "extra": {
     "patches-ignore": {
       "vardot/varbase-patches": {
-        "drupal/core": {
-          "Issue #2869592: Disabled update module shouldn't produce a status report warning":
-          "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch"
+        "drupal/recaptcha": {
+          "fix: #3588269 Make Drupal8Post::submit() compatible with parent":
+          "https://git.drupalcode.org/project/recaptcha/-/commit/68b0f86d1e930ed78f795a97a2fc207be35b3260.diff"
         }
       }
     }
@@ -196,6 +240,28 @@ Or a flat array of URLs:
 Matching is done by URL string. The description (if you use the dict form) is informational only — `vardot/varbase-patches` and the consumer can disagree on the description and the URL still matches.
 
 
+
+### Ignoring Drupal Core Patches
+
+`vardot/drupal-core-patches` is an ordinary dependency that contributes patches through the dependency resolver, so the same `extra` keys control it — use `vardot/drupal-core-patches` as the **source** package and `drupal/core` as the **target**.
+
+#### Ignore a single Drupal core patch
+
+```
+{
+    "extra": {
+        "patches-ignore": {
+            "vardot/drupal-core-patches": {
+                "drupal/core": {
+                    "Issue #3606822: ContainerBuilder synthetic kernel on install": "https://git.drupalcode.org/project/drupal/-/merge_requests/16159.patch"
+                }
+            }
+        }
+    }
+}
+```
+
+Matching is by URL string, the same as for `vardot/varbase-patches`.
 
 ## Composer Command to Clean up Any Merge Request Patches
 
