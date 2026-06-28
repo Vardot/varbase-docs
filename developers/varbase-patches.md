@@ -18,11 +18,56 @@ Use `"vardot/varbase-patches": "~9.2.0"`
 
 > &#x20; <mark style="color:$primary;background-color:$primary;">with</mark> <mark style="color:$primary;background-color:$primary;"></mark><mark style="color:$primary;background-color:$primary;">**Varbase \~9.1.0**</mark> <mark style="color:$primary;background-color:$primary;">**CKEditor 5**</mark> <mark style="color:$primary;background-color:$primary;"></mark><mark style="color:$primary;background-color:$primary;">and</mark> <mark style="color:$primary;background-color:$primary;"></mark><mark style="color:$primary;background-color:$primary;">**Drupal \~10**</mark> &#x20;
 
+{% hint style="info" %}
+**Varbase 9.2.x** supports **Drupal ~11.3** only and **drops Drupal 10**. The modules removed in **Drupal 11** — `action` and `statistics` — and `google_analytics_reports` are dropped on the **9.2.x** line, and the theme and module hooks have moved to **Drupal 11** OOP hooks.
+{% endhint %}
+
 ***
 
 Use `"vardot/varbase-patches": "~9.1.0"`
 
 > &#x20; <mark style="color:$primary;background-color:$primary;">with</mark> <mark style="color:$primary;background-color:$primary;"></mark><mark style="color:$primary;background-color:$primary;">**Varbase \~9.1.0**</mark> <mark style="color:$primary;background-color:$primary;">**CKEditor 4**</mark> <mark style="color:$primary;background-color:$primary;"></mark><mark style="color:$primary;background-color:$primary;">and</mark> <mark style="color:$primary;background-color:$primary;"></mark><mark style="color:$primary;background-color:$primary;">**Drupal \~10**</mark> &#x20;
+
+## Drupal Core Patches
+
+Drupal **core** patches are managed in a dedicated package, [**`vardot/drupal-core-patches`**](https://github.com/Vardot/drupal-core-patches), so that **Varbase** can always track the latest **Drupal core** release while keeping core patches separate from contrib patches.
+
+[**`vardot/varbase-patches`**](https://github.com/Vardot/varbase-patches) **requires** **`vardot/drupal-core-patches`**. The core-patches package stores the curated **Drupal core** patches with **one git branch per Drupal core `major.minor`** — `10.4.x`, `10.5.x`, `10.6.x`, `11.1.x`, `11.2.x`, `11.3.x`, `11.4.x`, `12.0.x` — plus a flat **`patches`** branch that stores the actual `.patch` files. Each `drupal-core-patches` release `require`s `drupal/core ~<minor>.0`, so **Composer** automatically selects the patch set that matches the **Drupal core** version installed in your project.
+
+On this branch `vardot/varbase-patches` requires:
+
+```
+"require": {
+    "vardot/drupal-core-patches": "~10 || ~11 || ~12"
+}
+```
+
+{% hint style="warning" %}
+`vardot/drupal-core-patches` is a **metapackage** — a storage for **Drupal core** patches — **not** a **Composer** plugin. The only **Varbase** patch *plugin* is `vardot/varbase-patches`. List `vardot/drupal-core-patches` only under `extra.composer-patches.allowed-dependency-patches`, and **never** under `config.allow-plugins`.
+{% endhint %}
+
+### Allowing the patch packages
+
+The `config.allow-plugins` and `extra.composer-patches.allowed-dependency-patches` keys live in `vardot/varbase-project` (the project template), not in the individual modules. Allow the patch **plugin** and accept patches from both patch packages:
+
+```
+{
+    "config": {
+        "allow-plugins": {
+            "cweagans/composer-patches": true,
+            "vardot/varbase-patches": true
+        }
+    },
+    "extra": {
+        "composer-patches": {
+            "allowed-dependency-patches": [
+                "vardot/varbase-patches",
+                "vardot/drupal-core-patches"
+            ]
+        }
+    }
+}
+```
 
 ### Managing Only Local Patches for Projects <a href="#managing-only-local-patches-for-projects" id="managing-only-local-patches-for-projects"></a>
 
@@ -107,7 +152,10 @@ List of package-name patterns. Only packages matching this list contribute patch
 {
   "extra": {
     "composer-patches": {
-      "allowed-dependency-patches": ["vardot/varbase-patches"]
+      "allowed-dependency-patches": [
+        "vardot/varbase-patches",
+        "vardot/drupal-core-patches"
+      ]
     }
   }
 }
