@@ -20,6 +20,9 @@ Learn about the architecture of Vartheme BS5, including its Bootstrap 5 foundati
 
 Step-by-step guide to creating a custom sub-theme that extends Vartheme BS5, including setting up SCSS compilation and customizing Bootstrap variables.
 
-### [Editing the Header and Footer With Drupal Canvas](editing-the-header-and-footer-with-drupal-canvas.md)
+### [Drupal Canvas](drupal-canvas/README.md)
 
-Edit the global Header and Footer of a Vartheme BS5 site visually with Drupal Canvas — no code. Covers the Allow Edit Global Regions permission, the region focus editor, dragging components, and changing their props, with worked examples (a Donate button in the header and a Newsletter webform in the footer).
+Build and manage a Vartheme BS5 site visually with **Drupal Canvas** — no code:
+
+* [**Editing the Header and Footer With Drupal Canvas**](drupal-canvas/editing-the-header-and-footer-with-drupal-canvas.md) — the Allow Edit Global Regions permission, the region focus editor, dragging components and changing their props (a Donate button in the header and a Newsletter webform in the footer).
+* [**Managing Multiple Accordions With Drupal Canvas**](drupal-canvas/managing-multiple-accordions-with-drupal-canvas.md) — dragging the Accordion components from the Library, reordering and managing items in the Layers panel, the "Keep multiple items open" setting, and holding any component inside an accordion (Text, a View, a Block or a Webform).
