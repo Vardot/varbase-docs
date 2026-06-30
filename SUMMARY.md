@@ -83,6 +83,7 @@
     * [Understanding Vartheme BS5](developers/theme-development-with-varbase/understanding-vartheme-bs5.md)
     * [Creating Your Own Theme](developers/theme-development-with-varbase/creating-your-own-theme.md)
     * [Editing the Header and Footer With Drupal Canvas](developers/theme-development-with-varbase/editing-the-header-and-footer-with-drupal-canvas.md)
+    * [Managing Multiple Accordions With Drupal Canvas](developers/theme-development-with-varbase/managing-multiple-accordions-with-drupal-canvas.md)
     * [Troubleshooting Theme Switch Issues](developers/theme-development-with-varbase/troubleshooting-theme-switch-issues.md)
     * [Integration of Varbase with Storybook](developers/theme-development-with-varbase/integration-of-varbase-with-storybook.md)
     * [Add Preloaded Fonts in Vartheme](developers/theme-development-with-varbase/add-preloaded-fonts-in-vartheme.md)
