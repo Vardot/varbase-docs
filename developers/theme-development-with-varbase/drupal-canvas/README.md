@@ -21,3 +21,7 @@ components with Drupal Canvas — no code required.
 {% content-ref url="managing-multiple-accordions-with-drupal-canvas.md" %}
 [managing-multiple-accordions-with-drupal-canvas.md](managing-multiple-accordions-with-drupal-canvas.md)
 {% endcontent-ref %}
+
+{% content-ref url="hero-slider-container-and-hero-slide-with-drupal-canvas.md" %}
+[hero-slider-container-and-hero-slide-with-drupal-canvas.md](hero-slider-container-and-hero-slide-with-drupal-canvas.md)
+{% endcontent-ref %}
