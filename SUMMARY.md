@@ -85,6 +85,7 @@
     * [Drupal Canvas](developers/theme-development-with-varbase/drupal-canvas/README.md)
       * [Editing the Header and Footer With Drupal Canvas](developers/theme-development-with-varbase/drupal-canvas/editing-the-header-and-footer-with-drupal-canvas.md)
       * [Managing Multiple Accordions With Drupal Canvas](developers/theme-development-with-varbase/drupal-canvas/managing-multiple-accordions-with-drupal-canvas.md)
+      * [Hero Slider Container and Hero Slide With Drupal Canvas](developers/theme-development-with-varbase/drupal-canvas/hero-slider-container-and-hero-slide-with-drupal-canvas.md)
     * [Troubleshooting Theme Switch Issues](developers/theme-development-with-varbase/troubleshooting-theme-switch-issues.md)
     * [Integration of Varbase with Storybook](developers/theme-development-with-varbase/integration-of-varbase-with-storybook.md)
     * [Add Preloaded Fonts in Vartheme](developers/theme-development-with-varbase/add-preloaded-fonts-in-vartheme.md)
