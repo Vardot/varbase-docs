@@ -53,7 +53,7 @@ permission (machine name `edit canvas global regions`).
 Grant the permission at **Administration** \ **People** \ _**Permissions**_
 (`/admin/people/permissions/module/canvas`), in the **Drupal Canvas** group.
 
-![Allow Edit Global Regions Permission in the Drupal Canvas Group](<../../.gitbook/assets/Canvas Header Footer - Allow Edit Global Regions Permission.png>)
+![Allow Edit Global Regions Permission in the Drupal Canvas Group](<../../../.gitbook/assets/Canvas Header Footer - Allow Edit Global Regions Permission.png>)
 
 {% hint style="warning" %}
 **Allow Edit Global Regions** is a sensitive permission (it is flagged
@@ -75,7 +75,7 @@ allowed to use Drupal Canvas for its page templates.
    unchecked.
 5. Click **Save configuration.**
 
-![Enabling Drupal Canvas Page Templates and Exposing the Header and Footer Regions](<../../.gitbook/assets/Canvas Header Footer - Enable Canvas Page Templates.png>)
+![Enabling Drupal Canvas Page Templates and Exposing the Header and Footer Regions](<../../../.gitbook/assets/Canvas Header Footer - Enable Canvas Page Templates.png>)
 
 {% hint style="warning" %}
 On a standard **Varbase** install these options are already enabled, so in most
@@ -92,7 +92,7 @@ Global regions are edited from inside any page editor.
 2. Wait for the editor to finish loading. The page preview shows the **Header**
    at the top and the **Footer** at the bottom, exactly as visitors see them.
 
-![The Drupal Canvas Editor Showing the Home Page With Its Header](<../../.gitbook/assets/Canvas Header Footer - Page Editor Overview.png>)
+![The Drupal Canvas Editor Showing the Home Page With Its Header](<../../../.gitbook/assets/Canvas Header Footer - Page Editor Overview.png>)
 
 ## Finding the Global Header and Footer Regions
 
@@ -101,7 +101,7 @@ Global regions are edited from inside any page editor.
    separated by a divider, you will find the two global regions: **Header** and
    **Footer**.
 
-![The Global Header and Footer Regions at the Bottom of the Layers Panel](<../../.gitbook/assets/Canvas Header Footer - Layers Global Regions.png>)
+![The Global Header and Footer Regions at the Bottom of the Layers Panel](<../../../.gitbook/assets/Canvas Header Footer - Layers Global Regions.png>)
 
 {% hint style="info" %}
 The items inside the page **Content** tree that may also be named "Header" or
@@ -121,7 +121,7 @@ the two entries below the divider, marked with the region icon.
 4. Drag components in the **Layers** panel to reorder them, or use a component's
    context menu (**…**) to **Duplicate** or **Delete** it.
 
-![Selecting the Global Header Region in the Drupal Canvas Editor](<../../.gitbook/assets/Canvas Header Footer - Edit Header Region.png>)
+![Selecting the Global Header Region in the Drupal Canvas Editor](<../../../.gitbook/assets/Canvas Header Footer - Edit Header Region.png>)
 
 ### Example: Adding a Red Outline Donate Button Before the Header Menu
 
@@ -145,9 +145,9 @@ Double-click a component in a global region to open the **region focus editor**
 its own.
 {% endhint %}
 
-![Changing the Button Props in the Settings Panel](<../../.gitbook/assets/Canvas Header Footer - Button Props.png>)
+![Changing the Button Props in the Settings Panel](<../../../.gitbook/assets/Canvas Header Footer - Button Props.png>)
 
-![The Red Outline Donate Button, Before the Main Menu](<../../.gitbook/assets/Canvas Header Footer - Example Donate Button.png>)
+![The Red Outline Donate Button, Before the Main Menu](<../../../.gitbook/assets/Canvas Header Footer - Example Donate Button.png>)
 
 ## Editing the Footer
 
@@ -158,7 +158,7 @@ its own.
    settings, add new components from the **Library**, reorder them in the
    **Layers** panel, or remove them.
 
-![Selecting the Global Footer Region in the Drupal Canvas Editor](<../../.gitbook/assets/Canvas Header Footer - Edit Footer Region.png>)
+![Selecting the Global Footer Region in the Drupal Canvas Editor](<../../../.gitbook/assets/Canvas Header Footer - Edit Footer Region.png>)
 
 ### Example: Adding a Newsletter Webform Under the Footer Social Menu
 
@@ -174,9 +174,9 @@ the social media links menu, so visitors can sign up from any page.
    Newsletter_).
 4. Click **Publish.**
 
-![The Webform Block Setting — Newsletter Subscribe](<../../.gitbook/assets/Canvas Header Footer - Webform Settings.png>)
+![The Webform Block Setting — Newsletter Subscribe](<../../../.gitbook/assets/Canvas Header Footer - Webform Settings.png>)
 
-![The Newsletter Webform Under the Social Media Links in the Footer](<../../.gitbook/assets/Canvas Header Footer - Example Newsletter Webform.png>)
+![The Newsletter Webform Under the Social Media Links in the Footer](<../../../.gitbook/assets/Canvas Header Footer - Example Newsletter Webform.png>)
 
 ## Publishing Your Changes
 
@@ -194,10 +194,10 @@ before publishing.
 
 ## Related Documentation
 
-{% content-ref url="understanding-vartheme-bs5.md" %}
-[understanding-vartheme-bs5.md](understanding-vartheme-bs5.md)
+{% content-ref url="../understanding-vartheme-bs5.md" %}
+[understanding-vartheme-bs5.md](../understanding-vartheme-bs5.md)
 {% endcontent-ref %}
 
-{% content-ref url="creating-your-own-theme.md" %}
-[creating-your-own-theme.md](creating-your-own-theme.md)
+{% content-ref url="../creating-your-own-theme.md" %}
+[creating-your-own-theme.md](../creating-your-own-theme.md)
 {% endcontent-ref %}

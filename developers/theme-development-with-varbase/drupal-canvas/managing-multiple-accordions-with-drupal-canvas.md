@@ -37,7 +37,7 @@ Accordion items** inside it.
    posts_), a **Block** (for example a menu), or a **Webform** (for example _Newsletter
    Subscribe_).
 
-![The Accordion and Accordion container components in the Library](<../../.gitbook/assets/Canvas Accordion - Library Source.png>)
+![The Accordion and Accordion container components in the Library](<../../../.gitbook/assets/Canvas Accordion - Library Source.png>)
 
 ## Managing Accordions in the Layers Panel
 
@@ -48,7 +48,7 @@ The **Layers** panel is where you reorder and manage the accordions. The tree sh
 * **Duplicate / Delete** — open an item's context menu (the **…**).
 * **Select** — click an item or the container to edit its settings on the right.
 
-![The Layers panel with the accordion fully in view, holding a Webform, a View and a Block](<../../.gitbook/assets/Canvas Accordion - Layers and Container.png>)
+![The Layers panel with the accordion fully in view, holding a Webform, a View and a Block](<../../../.gitbook/assets/Canvas Accordion - Layers and Container.png>)
 
 ## Container Settings: One Open vs Several Open
 
@@ -70,7 +70,7 @@ Select an **Accordion** item to set:
 * **Keep this item independent** — let it stay open regardless of the container.
 * **Header color** — keep the same as the container, or pick a colour for this item.
 
-![The Accordion item settings, with the item holding a View](<../../.gitbook/assets/Canvas Accordion - Item Settings.png>)
+![The Accordion item settings, with the item holding a View](<../../../.gitbook/assets/Canvas Accordion - Item Settings.png>)
 
 ## Worked Example
 
@@ -80,7 +80,7 @@ Select an **Accordion** item to set:
   multiple items open** on, whose items hold a **Webform** (Newsletter Subscribe), a
   **View** (Blog: Latest blog posts) and a **Block** (Main navigation).
 
-![A single-open FAQ accordion and a multiple-open Resources accordion with a Webform, a View and a Block](<../../.gitbook/assets/Canvas Accordion - Result.png>)
+![A single-open FAQ accordion and a multiple-open Resources accordion with a Webform, a View and a Block](<../../../.gitbook/assets/Canvas Accordion - Result.png>)
 
 ## Publishing
 
