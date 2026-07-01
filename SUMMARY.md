@@ -83,6 +83,7 @@
     * [Understanding Vartheme BS5](developers/theme-development-with-varbase/understanding-vartheme-bs5.md)
     * [Creating Your Own Theme](developers/theme-development-with-varbase/creating-your-own-theme.md)
     * [Drupal Canvas](developers/theme-development-with-varbase/drupal-canvas/README.md)
+      * [Introduction to Drupal Canvas in Varbase](developers/theme-development-with-varbase/drupal-canvas/introduction-to-drupal-canvas-in-varbase.md)
       * [Editing the Header and Footer With Drupal Canvas](developers/theme-development-with-varbase/drupal-canvas/editing-the-header-and-footer-with-drupal-canvas.md)
       * [Managing Multiple Accordions With Drupal Canvas](developers/theme-development-with-varbase/drupal-canvas/managing-multiple-accordions-with-drupal-canvas.md)
       * [Hero Slider Container and Hero Slide With Drupal Canvas](developers/theme-development-with-varbase/drupal-canvas/hero-slider-container-and-hero-slide-with-drupal-canvas.md)

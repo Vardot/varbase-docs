@@ -14,6 +14,10 @@ metaLinks:
 **Vartheme BS5** theme. These guides show how to build and manage pages, regions and
 components with Drupal Canvas — no code required.
 
+{% content-ref url="introduction-to-drupal-canvas-in-varbase.md" %}
+[introduction-to-drupal-canvas-in-varbase.md](introduction-to-drupal-canvas-in-varbase.md)
+{% endcontent-ref %}
+
 {% content-ref url="editing-the-header-and-footer-with-drupal-canvas.md" %}
 [editing-the-header-and-footer-with-drupal-canvas.md](editing-the-header-and-footer-with-drupal-canvas.md)
 {% endcontent-ref %}
