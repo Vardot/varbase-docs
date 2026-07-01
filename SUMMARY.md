@@ -87,6 +87,7 @@
       * [Editing the Header and Footer With Drupal Canvas](developers/theme-development-with-varbase/drupal-canvas/editing-the-header-and-footer-with-drupal-canvas.md)
       * [Managing Multiple Accordions With Drupal Canvas](developers/theme-development-with-varbase/drupal-canvas/managing-multiple-accordions-with-drupal-canvas.md)
       * [Hero Slider Container and Hero Slide With Drupal Canvas](developers/theme-development-with-varbase/drupal-canvas/hero-slider-container-and-hero-slide-with-drupal-canvas.md)
+      * [Building Marketing Campaign Pages With the Drupal Canvas AI Agent](developers/theme-development-with-varbase/drupal-canvas/building-marketing-campaign-pages-with-the-drupal-canvas-ai-agent.md)
       * [Building Common Page Types With Drupal Canvas](developers/theme-development-with-varbase/drupal-canvas/building-common-page-types-with-drupal-canvas.md)
     * [Troubleshooting Theme Switch Issues](developers/theme-development-with-varbase/troubleshooting-theme-switch-issues.md)
     * [Integration of Varbase with Storybook](developers/theme-development-with-varbase/integration-of-varbase-with-storybook.md)
