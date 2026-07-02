@@ -34,6 +34,6 @@ components with Drupal Canvas — no code required.
 [building-common-page-types-with-drupal-canvas.md](building-common-page-types-with-drupal-canvas.md)
 {% endcontent-ref %}
 
-{% content-ref url="building-marketing-campaign-pages-with-the-drupal-canvas-ai-agent.md" %}
-[building-marketing-campaign-pages-with-the-drupal-canvas-ai-agent.md](building-marketing-campaign-pages-with-the-drupal-canvas-ai-agent.md)
+{% content-ref url="building-pages-with-the-drupal-canvas-ai-agent.md" %}
+[building-pages-with-the-drupal-canvas-ai-agent.md](building-pages-with-the-drupal-canvas-ai-agent.md)
 {% endcontent-ref %}

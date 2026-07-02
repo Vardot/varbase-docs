@@ -1,16 +1,15 @@
 ---
 description: >-
   Hand the Drupal Canvas AI Agent a picture of a page and get a complete,
-  published marketing campaign page — built from real Vartheme BS5 components,
-  with no code.
+  published page — built from real Vartheme BS5 components, with no code.
 ---
 
-# Building Marketing Campaign Pages With the Drupal Canvas AI Agent
+# Building Pages With the Drupal Canvas AI Agent
 
 The **Drupal Canvas AI Agent** can draft a whole page for you. You describe the page in plain
 words — or hand it a **picture** of the layout you want — and it builds a complete page from real
-**Vartheme BS5** components, right inside the editor. It is ideal for a first draft of a
-**marketing or campaign page** that you then fine-tune by hand.
+**Vartheme BS5** components, right inside the editor. It is ideal for a first draft that you then
+fine-tune by hand.
 
 {% hint style="info" %}
 **Who this is for.** Content designers and marketers who want a fast first draft, and the
@@ -20,11 +19,12 @@ what it produces as a starting point and always review it before publishing. See
 big picture.
 {% endhint %}
 
-## What You Will Build
+## An Example: A Marketing Campaign Page
 
-You will hand the AI a picture of a landing page and get back a complete, published campaign
-page — a hero banner, a row of feature cards, and a call-to-action — built from real components
-and ready to refine.
+This guide follows one worked **example** — building a **marketing campaign page** from a picture.
+You hand the AI a mockup of a landing page and get back a complete, published page — a hero banner,
+a row of feature cards, and a call-to-action — built from real components and ready to refine. The
+same steps work for any page you can show the AI in a picture.
 
 ## What You Need
 
