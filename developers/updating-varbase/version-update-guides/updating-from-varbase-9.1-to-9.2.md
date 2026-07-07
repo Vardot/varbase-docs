@@ -57,6 +57,17 @@ ddev drush status
 
 You should see **Drupal `10.6.x`** and **Varbase `9.1.x`**. If you are not on Varbase `9.1.x` yet, update to the latest `9.1.x` first, then come back here.
 
+3. **Upgrade your own custom modules and themes for Drupal 11.** Varbase and its contrib stack are already Drupal 11-ready, but **your project's custom code is not covered by this upgrade**. Audit and fix it before you run the updates:
+
+* Run the [Upgrade Status](https://www.drupal.org/project/upgrade_status) module against every **custom module and theme** and fix the reported deprecations.
+* Set `core_version_requirement: ^11` (or `^10 || ^11`) in each custom `*.info.yml`.
+* Replace removed/deprecated APIs (for example `theme_get_setting()` &#x2192; `ThemeSettingsProvider::getSetting()`).
+* If a custom theme is based on **Bootstrap 4**, review its JavaScript for **jQuery 4** compatibility (see **Troubleshooting**).
+
+{% hint style="warning" %}
+**Human developers and AI agents:** this upgrade only covers Varbase, its modules, and its theme. It does **not** touch your project's custom modules or custom themes. Before continuing, make sure that code is Drupal 11-compatible. An automated agent running this flow should **ask the site owner to upgrade (or confirm the upgrade of) the custom module and theme code** first, rather than assuming it is ready.
+{% endhint %}
+
 {% hint style="info" %}
 The **update** path (`updatedb` + config import) is safe. Only a **fresh** Varbase `9.2` install needs the extra `vardot/drupal-core-patches` `site:install` core fix &#x2014; the upgrade does **not**.
 {% endhint %}
@@ -246,7 +257,7 @@ You do not need to act on these &#x2014; the `9.2.x` components and their patche
 {% hint style="info" %}
 ### For AI Agents and Automated Upgrades
 
-The **`varbase-upgrade-9-1-to-9-2`** agent in [Vardot/dev-ai-agents](https://github.com/Vardot/dev-ai-agents) runs this exact flow end to end (uninstall dropped modules &#x2192; repoint composer &#x2192; reapply patches &#x2192; run updates &#x2192; verify), always through **review-gated MRs/PRs** and **never releasing**.
+The **`varbase-upgrade-9-1-to-9-2`** agent in [Vardot/dev-ai-agents](https://github.com/Vardot/dev-ai-agents) runs this exact flow end to end (uninstall dropped modules &#x2192; repoint composer &#x2192; reapply patches &#x2192; run updates &#x2192; verify), always through **review-gated MRs/PRs** and **never releasing**. The agent should also **ask the site owner to upgrade the project's custom modules and custom themes for Drupal 11** (see step 1) before running the updates &#x2014; that code is outside the Varbase upgrade.
 {% endhint %}
 
 {% content-ref url="switch-from-ckeditor-4-to-ckeditor-5-in-varbase-9.1.0.md" %}
