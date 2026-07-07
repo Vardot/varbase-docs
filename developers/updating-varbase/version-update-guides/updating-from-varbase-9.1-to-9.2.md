@@ -27,11 +27,16 @@ Read these before you upgrade so you have the full picture.
 * **Release plan / tracking issue:** [Plan: release Varbase 9.2.0 (#3608857)](https://www.drupal.org/project/varbase/issues/3608857)
 * **Vartheme (Bootstrap 4 - SASS) 9.2.0:** [https://www.drupal.org/project/vartheme\_bs4](https://www.drupal.org/project/vartheme_bs4)
 
-**What changed in 9.2.0 — read before upgrading:**
+### What Changed in 9.2.0 — Read Before Upgrading
 
 * Varbase `9.2.0` is **Drupal `~11.4`-only** and **drops Drupal 10**. It is the continuation of the `9.1.x` line (`9.1.13` &#x2192; `9.2.0`).
+
 * Modules removed in Drupal 11 / Varbase `9.2.x`: **Action** and **Statistics** (removed from Drupal 11 core), **Google Analytics Reports** (dropped from **Varbase Total Control**), and **Social Auth Twitter** / the Twitter (X) sign-in option (dropped). This is why you uninstall them first in step 2.
+
+* **LB UX** (`drupal/lb_ux`) had no Drupal 11 release, so it is now **bundled inside Varbase Layout Builder** as the `modules/lb_ux` submodule (with the Drupal 11 fixes from [#3464547](https://www.drupal.org/i/3464547) ported). If your `composer.json` requires `drupal/lb_ux`, **remove that require** during the upgrade — see step 3.
+
 * Hooks were converted to **Drupal 11 OOP hook classes** across the profile and all modules, and permission/config provisioning moved to **Default Varbase recipes** (the old Module Installer Factory class was dropped). These are transparent on the upgrade path.
+
 * Ships **Vartheme (Bootstrap 4 - SASS) 9.2.0**. Remember that Drupal 11 ships **jQuery 4**, which breaks Bootstrap 4 JavaScript unless the jQuery gate is raised to `>=5` (already handled in Vartheme 9.2.0) — see **Troubleshooting**.
 
 {% hint style="warning" %}
@@ -48,6 +53,10 @@ You need **PHP `8.4`** and a working **DDEV** project, and you must stay on **on
 ddev export-db --file=pre-upgrade.sql.gz
 cp -a docroot/sites/default/files ../files-backup
 ```
+
+{% hint style="info" %}
+Keep this backup until the upgrade is verified and live on production. It is your one-command way back if a step goes wrong.
+{% endhint %}
 
 2. **Confirm your starting point.**
 
@@ -85,7 +94,9 @@ ddev drush pm:uninstall action statistics block_content_permissions social_auth_
 * `social_auth_twitter` — dropped in Varbase `9.2.x`.
 * `google_analytics_reports` (+ `google_analytics_reports_api`) — dropped from **Varbase Total Control** on `9.2.x`.
 
-Doing this before you touch Composer means the later `drush updatedb` will not stop with a "module does not exist" error, and you never have to edit `core.extension` or `system.schema` by hand.
+{% hint style="info" %}
+Do this **before** you touch Composer. Then the later `drush updatedb` will not stop with a "module does not exist" error, and you never have to edit `core.extension` or `system.schema` by hand.
+{% endhint %}
 
 ## 3. Repoint the `composer.json` File
 
@@ -156,12 +167,31 @@ Do **not** add `vardot/drupal-core-patches` here. It is a **metapackage** (a sto
 
 **This lets the Varbase and Drupal core patches be applied to their target packages.**
 
+7. Remove any standalone **LB UX** require, if your project has one:
+
+```json
+"drupal/lb_ux": "..."
+```
+
+Delete that line. **LB UX** is now bundled inside **Varbase Layout Builder** as the `modules/lb_ux` submodule.
+
+{% hint style="warning" %}
+**Remove `drupal/lb_ux` from `composer.json`.** It has no Drupal 11 release, so a standalone require will fail to resolve. Varbase Layout Builder now ships it as the `modules/lb_ux` submodule (with the Drupal 11 fixes from [#3464547](https://www.drupal.org/i/3464547) ported), so you get the same functionality without the separate package.
+{% endhint %}
+
 ## 4. Update Composer and Reapply Patches
 
-1. Remove the old lock file and resolve the new dependency tree:
+With `composer.json` repointed, resolve the new dependency tree, then run a full install so every patch is reapplied.
+
+1. Remove the old lock file:
 
 ```bash
 rm -f composer.lock
+```
+
+2. Resolve the new dependency tree:
+
+```bash
 ddev composer update -W
 ```
 
@@ -171,7 +201,7 @@ If Varbase stays on `9.1.x` (Composer kept the old version), pin it explicitly a
 ddev composer require "vardot/varbase:9.2.x-dev" -W
 ```
 
-2. Run a full install:
+3. Run a full install so the patches are reapplied:
 
 ```bash
 ddev composer install
@@ -183,8 +213,13 @@ The second command re-applies the Varbase and Drupal core patches, including on 
 
 ## 5. Run the Database Updates
 
+With the code on the `9.2.x` line, apply the database updates and rebuild the cache:
+
 ```bash
 ddev drush updatedb -y
+```
+
+```bash
 ddev drush cache:rebuild
 ```
 
