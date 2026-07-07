@@ -108,7 +108,7 @@ Open the **root `composer.json`** and change these lines so the site targets the
 "vardot/varbase": "~9.2.0"
 ```
 
-Use `"9.2.x-dev"` until the `9.2.0` tag is released. **This is what pulls in Varbase 9.2 and Drupal 11.**
+**`~9.2.0` resolves to the latest stable Varbase `9.2` release, which is what pulls in Varbase 9.2 and Drupal 11.**
 
 2. Move the Drupal core helpers to Drupal 11:
 
@@ -127,15 +127,7 @@ Use `"9.2.x-dev"` until the `9.2.0` tag is released. **This is what pulls in Var
 
 **This brings in the Varbase `9.2.x` patch set and, through it, `vardot/drupal-core-patches` (the Drupal core patches).**
 
-4. Allow dev releases until the tag exists:
-
-```json
-"minimum-stability": "dev"
-```
-
-**Composer needs this to resolve `9.2.x-dev` before the `9.2.0` tag is published. You can remove it once you are on the stable `~9.2.0`.**
-
-5. Allow the two patch **plugins** to run:
+4. Allow the two patch **plugins** to run:
 
 ```json
 "config": {
@@ -152,7 +144,7 @@ Use `"9.2.x-dev"` until the `9.2.0` tag is released. **This is what pulls in Var
 Do **not** add `vardot/drupal-core-patches` here. It is a **metapackage** (a store of Drupal core patches), **not** a plugin. The only Varbase patch plugin is **`vardot/varbase-patches`**.
 {% endhint %}
 
-6. Allow both patch packages to patch other dependencies:
+5. Allow both patch packages to patch other dependencies:
 
 ```json
 "extra": {
@@ -167,7 +159,7 @@ Do **not** add `vardot/drupal-core-patches` here. It is a **metapackage** (a sto
 
 **This lets the Varbase and Drupal core patches be applied to their target packages.**
 
-7. Remove any standalone **LB UX** require, if your project has one:
+6. Remove any standalone **LB UX** require, if your project has one:
 
 ```json
 "drupal/lb_ux": "..."
@@ -205,7 +197,7 @@ Because the lock file is gone, `ddev composer install` resolves fresh, writes a 
 If `ddev drush status` afterwards still shows **Varbase `9.1.x`**, require the new version explicitly and reinstall:
 
 ```bash
-ddev composer require "vardot/varbase:9.2.x-dev" -W
+ddev composer require "vardot/varbase:~9.2.0" -W
 ```
 {% endhint %}
 
