@@ -19,6 +19,25 @@ DO NOT update Varbase directly on production.
 
 Follow the steps in order. Each step has one action, the exact command to run, and how to confirm it worked.
 
+## Varbase 9.2.0 Release Notes and References
+
+Read these before you upgrade so you have the full picture.
+
+* **Varbase 9.2.0 CHANGELOG:** [https://git.drupalcode.org/project/varbase/-/blob/9.2.x/CHANGELOG.md](https://git.drupalcode.org/project/varbase/-/blob/9.2.x/CHANGELOG.md)
+* **Release plan / tracking issue:** [Plan: release Varbase 9.2.0 (#3608857)](https://www.drupal.org/project/varbase/issues/3608857)
+* **Vartheme (Bootstrap 4 - SASS) 9.2.0:** [https://www.drupal.org/project/vartheme\_bs4](https://www.drupal.org/project/vartheme_bs4)
+
+**What changed in 9.2.0 — read before upgrading:**
+
+* Varbase `9.2.0` is **Drupal `~11.4`-only** and **drops Drupal 10**. It is the continuation of the `9.1.x` line (`9.1.13` &#x2192; `9.2.0`).
+* Modules removed in Drupal 11 / Varbase `9.2.x`: **Action** and **Statistics** (removed from Drupal 11 core), **Google Analytics Reports** (dropped from **Varbase Total Control**), and **Social Auth Twitter** / the Twitter (X) sign-in option (dropped). This is why you uninstall them first in step 2.
+* Hooks were converted to **Drupal 11 OOP hook classes** across the profile and all modules, and permission/config provisioning moved to **Default Varbase recipes** (the old Module Installer Factory class was dropped). These are transparent on the upgrade path.
+* Ships **Vartheme (Bootstrap 4 - SASS) 9.2.0**. Remember that Drupal 11 ships **jQuery 4**, which breaks Bootstrap 4 JavaScript unless the jQuery gate is raised to `>=5` (already handled in Vartheme 9.2.0) — see **Troubleshooting**.
+
+{% hint style="warning" %}
+Only use `9.2.0` to update an **existing Varbase `9.1.x` site**. It is not a fresh-start or migration track.
+{% endhint %}
+
 ## 1. Before You Begin
 
 You need **PHP `8.4`** and a working **DDEV** project, and you must stay on **one consistent database engine** for the whole upgrade (do not change the database server or its version mid-upgrade).
