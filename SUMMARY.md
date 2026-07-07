@@ -107,6 +107,7 @@
     * [Updating Drush to the Latest Stable Version](developers/updating-varbase/updating-drush-to-the-latest-stable-version.md)
     * [Version Update Guides](developers/updating-varbase/version-update-guides/README.md)
       * [Updating Varbase \~9.0 to Drupal 10](developers/updating-varbase/version-update-guides/updating-varbase-9.0-to-drupal-10.md)
+      * [Updating from Varbase 9.1 to 9.2](developers/updating-varbase/version-update-guides/updating-from-varbase-9.1-to-9.2.md)
       * [Switch from CKEditor 4 to CKEditor 5 in Varbase \~9.1.0](developers/updating-varbase/version-update-guides/switch-from-ckeditor-4-to-ckeditor-5-in-varbase-9.1.0.md)
       * [Updating from Varbase 8.x to 9.x](developers/updating-varbase/version-update-guides/updating-from-varbase-8.x-to-9.x.md)
     * [Enabling Automatic Updates](developers/updating-varbase/enabling-automatic-updates.md)
