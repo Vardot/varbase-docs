@@ -181,34 +181,32 @@ Delete that line. **LB UX** is now bundled inside **Varbase Layout Builder** as 
 
 ## 4. Update Composer and Reapply Patches
 
-With `composer.json` repointed, resolve the new dependency tree, then run a full install so every patch is reapplied.
+With `composer.json` repointed, do a **full clean rebuild** so Composer resolves everything from scratch and reapplies every patch in one pass.
 
-1. Remove the old lock file:
-
-```bash
-rm -f composer.lock
-```
-
-2. Resolve the new dependency tree:
+1. Delete the lock files and the vendor tree:
 
 ```bash
-ddev composer update -W
+rm -rf composer.lock patches.lock.json vendor/
 ```
 
-If Varbase stays on `9.1.x` (Composer kept the old version), pin it explicitly and update again:
-
-```bash
-ddev composer require "vardot/varbase:9.2.x-dev" -W
-```
-
-3. Run a full install so the patches are reapplied:
+2. Reinstall from scratch:
 
 ```bash
 ddev composer install
 ```
 
 {% hint style="info" %}
-The second command re-applies the Varbase and Drupal core patches, including on packages **whose version did not change** during the update. Run it so no patch is silently skipped.
+Deleting `composer.lock`, `patches.lock.json` and `vendor/` lets `ddev composer install` resolve everything fresh in a single pass. It switches the patch system to `cweagans/composer-patches ~2.0`, brings in the new Drupal `~11.4` vendor tree, and pulls the Drupal core patches from `vardot/drupal-core-patches ~11.4.0` (through `vardot/varbase-patches`).
+
+Because the lock file is gone, `ddev composer install` resolves fresh, writes a **new** `composer.lock`, and applies all patches. So you do **not** need a separate `composer update -W` followed by `composer install` &#x2014; this one command does it all.
+{% endhint %}
+
+{% hint style="warning" %}
+If `ddev drush status` afterwards still shows **Varbase `9.1.x`**, require the new version explicitly and reinstall:
+
+```bash
+ddev composer require "vardot/varbase:9.2.x-dev" -W
+```
 {% endhint %}
 
 ## 5. Run the Database Updates
