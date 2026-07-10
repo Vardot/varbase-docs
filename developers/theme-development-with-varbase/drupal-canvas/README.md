@@ -37,3 +37,7 @@ components with Drupal Canvas — no code required.
 {% content-ref url="building-pages-with-the-drupal-canvas-ai-agent.md" %}
 [building-pages-with-the-drupal-canvas-ai-agent.md](building-pages-with-the-drupal-canvas-ai-agent.md)
 {% endcontent-ref %}
+
+{% content-ref url="default-canvas-patterns.md" %}
+[default-canvas-patterns.md](default-canvas-patterns.md)
+{% endcontent-ref %}
