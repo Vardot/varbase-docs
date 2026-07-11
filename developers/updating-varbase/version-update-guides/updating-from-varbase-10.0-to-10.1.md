@@ -158,18 +158,17 @@ Confirm `docroot/libraries/aos/dist/aos.js` now exists.
 
 ## 5. Repoint the `composer.json` File
 
-Open the **root `composer.json`** and set the `10.1.x` line (use `"10.1.x-dev"` until the `10.1.0`
-tag; switch to `"~10.1.0"` after it is released):
+Open the **root `composer.json`** and set the `10.1.x` line:
 
 ```json
-"vardot/varbase": "10.1.x-dev",
-"vardot/varbase-patches": "10.1.x-dev",
+"vardot/varbase": "~10.1.0",
+"vardot/varbase-patches": "~10.1.0",
 "drupal/core-composer-scaffold": "~11.4.0",
 "drupal/core-project-message": "~11.4.0",
 "cweagans/composer-patches": "~2.0"
 ```
 
-Keep `"minimum-stability": "dev"` while on the dev branch. In `config.allow-plugins`, allow
+In `config.allow-plugins`, allow
 `vardot/varbase-patches`, **`symfony/runtime`** and **`php-tuf/composer-stager`** (the last two are new
 on the `10.1.x` Package Manager / Automatic Updates stack). Do **not** add `vardot/drupal-core-patches`
 to `allow-plugins` — it is a metapackage, not a plugin. In
