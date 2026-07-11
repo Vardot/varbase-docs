@@ -182,7 +182,7 @@ rm -f composer.lock
 ddev composer update -W
 ```
 
-You should end on **`vardot/varbase 10.1.x-dev`** and **`drupal/core ~11.4`**.
+You should end on **`vardot/varbase ~10.1.0`** and **`drupal/core ~11.4`**.
 
 ## 6. Reapply the Patches with a Full Clean Install
 
