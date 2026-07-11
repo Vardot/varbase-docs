@@ -246,7 +246,11 @@ displays correctly. Finally confirm Composer is stable:
 ddev composer update --dry-run   # "Nothing to install, update or remove"
 ```
 
-## Troubleshooting
+{% hint style="info" %}
+### For AI Agents and Automated Upgrades
+
+The **`varbase-upgrade-10-0-to-10-1`** agent in [Vardot/dev-ai-agents](https://github.com/Vardot/dev-ai-agents) runs this exact flow end to end (front-end libraries &#x2192; repoint composer &#x2192; reapply patches &#x2192; enable Modeler API for ECA &#x2192; remove the dropped modules &#x2192; run the database updates &#x2192; migrate UI Patterns 1 &#x2192; 2 &#x2192; verify), always through **review-gated MRs/PRs** and **never releasing**. The agent should also **ask the site owner to upgrade the project's custom modules and custom themes for Drupal 11 &#x2014; and to map their own UI Patterns 1 patterns to the theme's SDC ids** (see steps 1 and 7) before running the updates; that code is outside the Varbase upgrade.
+{% endhint %}## Troubleshooting
 
 * **`AOS is not defined` / missing front-end libraries** — run `ddev exec "corepack enable && yarn install"` (step 2). Yarn 4 needs Corepack; DDEV's global Yarn 1 will not run the sync.
 * **A patched module (e.g. recaptcha) disappears** — you ran an incremental `composer reinstall`. Reapply with a **full clean `composer install`** (step 4); do not add a duplicate local patch for a line that `varbase-patches` already patches.
