@@ -232,48 +232,73 @@ to dashes and gained the theme namespace:
 | `card_overlay`        | `vartheme_bs5:card-overlay`   |
 | `card_text`           | `vartheme_bs5:card-text`      |
 
-The UI Patterns 2 migration cannot map the renamed ids automatically, so update the stored display
-configuration first. Save this helper as `scripts/varbase-migrate-uip1-cards.php` in your project and
-run it with Drush (Drush's own `php:script` runner — no manual database edits):
+The UI Patterns 2 migration cannot map the renamed ids automatically, so update each stored display's
+pattern id **one by one** with `drush config:set` before you run the migration. Varbase stores the
+pattern on each entity view display at `third_party_settings.ds.layout.id` (Display Suite layouts) —
+change `pattern_<old_id>` to `pattern_<theme>:<sdc-id>`.
 
-```php
-<?php
+Run one command per display. These are the default Varbase displays:
 
-// Remap the Varbase UI Patterns 1 card patterns to the Vartheme (Bootstrap 5)
-// SDC ids on every entity view display, so the UI Patterns 2 migration resolves.
-// For a custom theme, add your own patterns and their SDC ids to this map.
-$map = [
-  'pattern_card_featured'  => 'pattern_vartheme_bs5:card-featured',
-  'pattern_card_hero'      => 'pattern_vartheme_bs5:card-hero',
-  'pattern_card_impressed' => 'pattern_vartheme_bs5:card-impressed',
-  'pattern_card_overlay'   => 'pattern_vartheme_bs5:card-overlay',
-  'pattern_card_text'      => 'pattern_vartheme_bs5:card-text',
-];
-
-$config_factory = \Drupal::configFactory();
-foreach ($config_factory->listAll('core.entity_view_display.') as $name) {
-  $display = $config_factory->getEditable($name);
-  // Varbase stores the pattern under Display Suite (ds); core Field Layout uses field_layout.
-  foreach (['ds.layout.id', 'field_layout.id'] as $key) {
-    $id = $display->get("third_party_settings.$key");
-    if ($id && isset($map[$id])) {
-      $display->set("third_party_settings.$key", $map[$id])->save(TRUE);
-      print "Updated $name: $id -> {$map[$id]}\n";
-    }
-  }
-}
-```
+**Blog "Featured card" view modes → `vartheme_bs5:card-featured`**
 
 ```bash
-ddev drush php:script scripts/varbase-migrate-uip1-cards.php
+ddev drush config:set core.entity_view_display.node.varbase_blog.featured_card_large  third_party_settings.ds.layout.id pattern_vartheme_bs5:card-featured -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.featured_card_medium third_party_settings.ds.layout.id pattern_vartheme_bs5:card-featured -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.featured_card_small  third_party_settings.ds.layout.id pattern_vartheme_bs5:card-featured -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.featured_card_xlarge third_party_settings.ds.layout.id pattern_vartheme_bs5:card-featured -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.featured_card_xsmall third_party_settings.ds.layout.id pattern_vartheme_bs5:card-featured -y
+ddev drush config:set core.entity_view_display.block_content.varbase_featured_card_block.default third_party_settings.ds.layout.id pattern_vartheme_bs5:card-featured -y
+```
+
+**Blog "Impressed card" view modes → `vartheme_bs5:card-impressed`**
+
+```bash
+ddev drush config:set core.entity_view_display.node.varbase_blog.impressed_card_large  third_party_settings.ds.layout.id pattern_vartheme_bs5:card-impressed -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.impressed_card_medium third_party_settings.ds.layout.id pattern_vartheme_bs5:card-impressed -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.impressed_card_small  third_party_settings.ds.layout.id pattern_vartheme_bs5:card-impressed -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.impressed_card_xlarge third_party_settings.ds.layout.id pattern_vartheme_bs5:card-impressed -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.impressed_card_xsmall third_party_settings.ds.layout.id pattern_vartheme_bs5:card-impressed -y
+ddev drush config:set core.entity_view_display.block_content.varbase_impressed_card_block.default third_party_settings.ds.layout.id pattern_vartheme_bs5:card-impressed -y
+```
+
+**Blog "Overlay card" view modes → `vartheme_bs5:card-overlay`**
+
+```bash
+ddev drush config:set core.entity_view_display.node.varbase_blog.overlay_card_large  third_party_settings.ds.layout.id pattern_vartheme_bs5:card-overlay -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.overlay_card_medium third_party_settings.ds.layout.id pattern_vartheme_bs5:card-overlay -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.overlay_card_xlarge third_party_settings.ds.layout.id pattern_vartheme_bs5:card-overlay -y
+ddev drush config:set core.entity_view_display.block_content.varbase_overlay_card_block.default third_party_settings.ds.layout.id pattern_vartheme_bs5:card-overlay -y
+```
+
+**Blog "Text card" view modes → `vartheme_bs5:card-text`**
+
+```bash
+ddev drush config:set core.entity_view_display.node.varbase_blog.text_card_large  third_party_settings.ds.layout.id pattern_vartheme_bs5:card-text -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.text_card_medium third_party_settings.ds.layout.id pattern_vartheme_bs5:card-text -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.text_card_small  third_party_settings.ds.layout.id pattern_vartheme_bs5:card-text -y
+```
+
+**Hero Slider node displays → `vartheme_bs5:card-hero`**
+
+```bash
+ddev drush config:set core.entity_view_display.node.varbase_heroslider.default third_party_settings.ds.layout.id pattern_vartheme_bs5:card-hero -y
+ddev drush config:set core.entity_view_display.node.varbase_heroslider.full    third_party_settings.ds.layout.id pattern_vartheme_bs5:card-hero -y
+```
+
+Then run the migration and the updates again:
+
+```bash
 ddev drush updatedb -y
 ddev drush cache:rebuild
 ```
 
 {% hint style="info" %}
-**Custom themes:** if your project ships its own UI Patterns 1 patterns, add them to the `$map` in the
-script — map each `pattern_<old_id>` to `pattern_<your_theme>:<its-sdc-id>` (find the new id under your
-theme's `components/` directory). Then run the script and `updatedb` again.
+**Find any you may have missed** (and your own project's displays): each affected display keeps the
+old id at `third_party_settings.ds.layout.id`. Open **Structure → Content types → _(type)_ → Manage
+display** (and the block types' Manage display) and confirm the layout no longer shows a
+`pattern_card_*` value. **Custom themes:** for your own UI Patterns 1 patterns, run the same
+`ddev drush config:set … third_party_settings.ds.layout.id pattern_<your_theme>:<its-sdc-id> -y` on
+each of your displays (find the new id under your theme's `components/` directory), then run `updatedb`.
 {% endhint %}
 
 ## 9. Confirm the Themes
