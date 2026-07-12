@@ -232,51 +232,204 @@ to dashes and gained the theme namespace:
 | `card_overlay`        | `vartheme_bs5:card-overlay`   |
 | `card_text`           | `vartheme_bs5:card-text`      |
 
-The UI Patterns 2 migration cannot map the renamed ids automatically, so update the stored display
-configuration first. Save this helper as `scripts/varbase-migrate-uip1-cards.php` in your project and
-run it with Drush (Drush's own `php:script` runner — no manual database edits):
+The UI Patterns 2 migration cannot map the renamed ids automatically, so update each stored display's
+pattern id **one by one** with `drush config:set` before you run the migration. Varbase stores the
+pattern on each entity view display at `third_party_settings.ds.layout.id` (Display Suite layouts) —
+change `pattern_<old_id>` to `pattern_<theme>:<sdc-id>`.
 
-```php
-<?php
+Run one command per display. These are the default Varbase displays:
 
-// Remap the Varbase UI Patterns 1 card patterns to the Vartheme (Bootstrap 5)
-// SDC ids on every entity view display, so the UI Patterns 2 migration resolves.
-// For a custom theme, add your own patterns and their SDC ids to this map.
-$map = [
-  'pattern_card_featured'  => 'pattern_vartheme_bs5:card-featured',
-  'pattern_card_hero'      => 'pattern_vartheme_bs5:card-hero',
-  'pattern_card_impressed' => 'pattern_vartheme_bs5:card-impressed',
-  'pattern_card_overlay'   => 'pattern_vartheme_bs5:card-overlay',
-  'pattern_card_text'      => 'pattern_vartheme_bs5:card-text',
-];
-
-$config_factory = \Drupal::configFactory();
-foreach ($config_factory->listAll('core.entity_view_display.') as $name) {
-  $display = $config_factory->getEditable($name);
-  // Varbase stores the pattern under Display Suite (ds); core Field Layout uses field_layout.
-  foreach (['ds.layout.id', 'field_layout.id'] as $key) {
-    $id = $display->get("third_party_settings.$key");
-    if ($id && isset($map[$id])) {
-      $display->set("third_party_settings.$key", $map[$id])->save(TRUE);
-      print "Updated $name: $id -> {$map[$id]}\n";
-    }
-  }
-}
-```
+**Blog "Featured card" view modes → `vartheme_bs5:card-featured`**
 
 ```bash
-ddev drush php:script scripts/varbase-migrate-uip1-cards.php
+ddev drush config:set core.entity_view_display.node.varbase_blog.featured_card_large  third_party_settings.ds.layout.id pattern_vartheme_bs5:card-featured -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.featured_card_medium third_party_settings.ds.layout.id pattern_vartheme_bs5:card-featured -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.featured_card_small  third_party_settings.ds.layout.id pattern_vartheme_bs5:card-featured -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.featured_card_xlarge third_party_settings.ds.layout.id pattern_vartheme_bs5:card-featured -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.featured_card_xsmall third_party_settings.ds.layout.id pattern_vartheme_bs5:card-featured -y
+ddev drush config:set core.entity_view_display.block_content.varbase_featured_card_block.default third_party_settings.ds.layout.id pattern_vartheme_bs5:card-featured -y
+```
+
+**Blog "Impressed card" view modes → `vartheme_bs5:card-impressed`**
+
+```bash
+ddev drush config:set core.entity_view_display.node.varbase_blog.impressed_card_large  third_party_settings.ds.layout.id pattern_vartheme_bs5:card-impressed -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.impressed_card_medium third_party_settings.ds.layout.id pattern_vartheme_bs5:card-impressed -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.impressed_card_small  third_party_settings.ds.layout.id pattern_vartheme_bs5:card-impressed -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.impressed_card_xlarge third_party_settings.ds.layout.id pattern_vartheme_bs5:card-impressed -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.impressed_card_xsmall third_party_settings.ds.layout.id pattern_vartheme_bs5:card-impressed -y
+ddev drush config:set core.entity_view_display.block_content.varbase_impressed_card_block.default third_party_settings.ds.layout.id pattern_vartheme_bs5:card-impressed -y
+```
+
+**Blog "Overlay card" view modes → `vartheme_bs5:card-overlay`**
+
+```bash
+ddev drush config:set core.entity_view_display.node.varbase_blog.overlay_card_large  third_party_settings.ds.layout.id pattern_vartheme_bs5:card-overlay -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.overlay_card_medium third_party_settings.ds.layout.id pattern_vartheme_bs5:card-overlay -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.overlay_card_xlarge third_party_settings.ds.layout.id pattern_vartheme_bs5:card-overlay -y
+ddev drush config:set core.entity_view_display.block_content.varbase_overlay_card_block.default third_party_settings.ds.layout.id pattern_vartheme_bs5:card-overlay -y
+```
+
+**Blog "Text card" view modes → `vartheme_bs5:card-text`**
+
+```bash
+ddev drush config:set core.entity_view_display.node.varbase_blog.text_card_large  third_party_settings.ds.layout.id pattern_vartheme_bs5:card-text -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.text_card_medium third_party_settings.ds.layout.id pattern_vartheme_bs5:card-text -y
+ddev drush config:set core.entity_view_display.node.varbase_blog.text_card_small  third_party_settings.ds.layout.id pattern_vartheme_bs5:card-text -y
+```
+
+**Hero Slider node displays → `vartheme_bs5:card-hero`**
+
+```bash
+ddev drush config:set core.entity_view_display.node.varbase_heroslider.default third_party_settings.ds.layout.id pattern_vartheme_bs5:card-hero -y
+ddev drush config:set core.entity_view_display.node.varbase_heroslider.full    third_party_settings.ds.layout.id pattern_vartheme_bs5:card-hero -y
+```
+
+Then run the migration and the updates again:
+
+```bash
 ddev drush updatedb -y
 ddev drush cache:rebuild
 ```
 
 {% hint style="info" %}
-**Custom themes:** if your project ships its own UI Patterns 1 patterns, add them to the `$map` in the
-script — map each `pattern_<old_id>` to `pattern_<your_theme>:<its-sdc-id>` (find the new id under your
-theme's `components/` directory). Then run the script and `updatedb` again.
+**Find any you may have missed** (and your own project's displays): each affected display keeps the
+old id at `third_party_settings.ds.layout.id`. Open **Structure → Content types → _(type)_ → Manage
+display** (and the block types' Manage display) and confirm the layout no longer shows a
+`pattern_card_*` value. **Custom themes:** for your own UI Patterns 1 patterns, run the same
+`ddev drush config:set … third_party_settings.ds.layout.id pattern_<your_theme>:<its-sdc-id> -y` on
+each of your displays (find the new id under your theme's `components/` directory), then run `updatedb`.
 {% endhint %}
 
-## 9. Confirm the Themes
+## 9. Render the Cards and the Media Hero Slider
+
+The `ui_patterns_update_10203` update in step 8 remaps the stored pattern id so the database updates
+finish — but that alone does **not** make the **Varbase Blog** cards or the homepage **Media Hero
+Slider** render. Two more things are missing:
+
+* A **Display Suite** **UI Patterns 2** layout also needs the **Single Directory Component** binding at
+  `third_party_settings.ds.layout.settings.ui_patterns.component_id` — the update only rewrites the old
+  pattern id, not this new component binding, so the card displays fall back to plain field output.
+* The **Media Hero Slider** view stays on its old `style: default` row style, so the homepage shows
+  stacked slides instead of a **Bootstrap 5** carousel.
+
+The complete fix is to **re-apply the shipped `10.1.x` display and view configuration** for **Varbase
+Blog** and **Varbase Media Hero Slider** (keeping every existing config's UUID, and creating the view
+modes and displays that are new in `10.1.x` — the `hero_card*` node view modes and their displays), then
+**repoint the homepage Layout Builder block**. The **Media Hero Slider** view's block display was
+renamed from `varbase_heroslider` to `heroslider_block`, so the block stored on the **Homepage** now
+points at a display that no longer exists and shows up as a *broken / missing* block placeholder — it has
+to be updated from `views_block:varbase_heroslider-varbase_heroslider` to
+`views_block:varbase_heroslider-heroslider_block`.
+
+There is no single Drush command for this re-provisioning, so it is done with one small helper script
+that re-imports the shipped `10.1.x` configuration through Drush's own `php:script` runner (no manual
+database edits). Add a `scripts/varbase-migrate-uip2-displays.php` helper to your project and run it,
+then rebuild the cache:
+
+```bash
+ddev drush cache:rebuild
+```
+
+The script re-provisions this configuration:
+
+| Configuration | What it does |
+| ------------- | ------------ |
+| **Varbase Blog** card entity view displays (`node.varbase_blog.*`) | Re-binds the featured / impressed / overlay / text card displays to the **Vartheme (Bootstrap 5)** card **Single Directory Components** |
+| **Media Hero Slider** node displays (`node.varbase_heroslider.*`) | Updates the default and full displays, and creates the `hero_card*` displays that are new in `10.1.x` |
+| **Media Hero Slider** node view modes (`hero_card*`) | Creates the node view modes the Hero Slider rows use |
+| **Media Hero Slider** view (`views.view.varbase_heroslider`) | Switches the view row style to the `vartheme_bs5:views-view-heroslider` **Single Directory Component** and adds the renamed `heroslider_block` display |
+| **Homepage** **Layout Builder** block | Repoints the stored Hero Slider block from `views_block:varbase_heroslider-varbase_heroslider` to `views_block:varbase_heroslider-heroslider_block` |
+
+**Manual alternative for the Layout Builder block.** If you would rather not run the block repoint in the
+script, fix the **Homepage** by hand: open it in **Layout Builder** (edit the **Homepage** landing page →
+**Layout**), remove the broken *Hero Slider* block, add the **Media Hero Slider** view block back in the
+same region, and **Save**.
+
+After this, the homepage shows a real **Bootstrap 5** carousel with the hero slides, and the **Varbase
+Blog** cards render through their **Single Directory Components**, with `0` console errors.
+
+{% hint style="info" %}
+**Custom themes:** projects that ship their own card or hero **Single Directory Components** re-provision
+the same way, pointed at their own theme's `components/` ids — extend the helper to also re-import your
+theme's card and hero displays and view, then re-run it and rebuild the cache.
+{% endhint %}
+
+{% hint style="info" %}
+This is a known `10.0` → `10.1` upgrade gap. Varbase intends to ship `hook_update_N` handlers upstream so
+this display re-provisioning becomes automatic; until then, use the step above.
+{% endhint %}
+
+## 10. Switch to the New Varbase Dashboards
+
+On the `10.0.x` line **Varbase Dashboards** was built on the contrib
+[**Dashboards**](https://www.drupal.org/project/dashboards) and **Dashboards Views** modules (uninstalled
+in step 3). On the `10.1.x` line **Varbase Dashboards** (for **Drupal `~11.4`**) is rebuilt on
+[**Dashboard**](https://www.drupal.org/project/dashboard) `~2`,
+[**Statistics**](https://www.drupal.org/project/statistics) `~1` and
+[**Layout Builder Restrictions**](https://www.drupal.org/project/layout_builder_restrictions) `~3`, and it
+integrates the Drupal core **Navigation** module's Dashboard.
+
+The in-place upgrade leaves **Varbase Dashboards** enabled but does **not** install these new
+dependencies, and it leaves the old dashboard configuration and a stale path alias behind — so
+`/admin/dashboard` returns a **404**. Switch to the new dashboards with these steps.
+
+**1. Enable the new dashboard stack.**
+
+```bash
+ddev drush pm:install dashboard statistics layout_builder_restrictions content_moderation -y
+```
+
+{% hint style="warning" %}
+Do **not** enable **Navigation Top Bar** (`navigation_top_bar`) — it is **obsolete in Drupal `11.4`**. The
+core **Navigation** module (already enabled) is all the new **Varbase Dashboards** needs.
+{% endhint %}
+
+{% hint style="info" %}
+The **Statistics** module here is the contrib [**Statistics**](https://www.drupal.org/project/statistics)
+`~1` module that the new **Varbase Dashboards** depend on (moved out of Drupal core in Drupal 11). This is a
+deliberate, separate install from the core statistics you uninstalled in step 3.
+{% endhint %}
+
+**2. Re-provision the Varbase Dashboards configuration.** There is no single Drush command for this, so
+it is done with one small helper script that re-imports the shipped `varbase_dashboards` recipe
+configuration through Drush's `php:script` runner. It creates the new `dashboard.dashboard.dashboard`
+entity and the 8 dashboard views, removes the orphaned old `dashboards.dashboard.dashboard` and
+`dashboards.settings` configuration, and deletes the leftover `/admin/dashboard` →
+`/dashboard/dashboard` **path alias** — that stale alias is the real cause of the 404. Add a
+`scripts/varbase-switch-dashboards.php` helper to your project and run it.
+
+{% hint style="info" %}
+**Manual alternative for the path alias.** If you prefer to remove the stale alias by hand, delete the
+`/admin/dashboard` alias at **Administration** \ **Configuration** \ **Search and Metadata** \ _**URL
+Aliases**_ (`/admin/config/search/path`).
+{% endhint %}
+
+**3. Grant the dashboard permissions** to the Varbase roles:
+
+```bash
+ddev drush role:perm:add editor 'view dashboard dashboard,access varbase dashboards content,access varbase dashboards recent changes,access varbase dashboards recently created'
+ddev drush role:perm:add seo_admin 'view dashboard dashboard,access varbase dashboards content,access varbase dashboards recent changes,access varbase dashboards recently created'
+ddev drush role:perm:add content_admin 'view dashboard dashboard,access varbase dashboards content,access varbase dashboards recent changes,access varbase dashboards recently created'
+ddev drush role:perm:add site_admin 'view dashboard dashboard,access varbase dashboards content,access varbase dashboards recent changes,access varbase dashboards recently created,administer dashboard,access varbase dashboards users'
+```
+
+**4. Rebuild the cache.**
+
+```bash
+ddev drush cache:rebuild
+```
+
+Now `/admin/dashboard` renders the **Varbase Dashboards** dashboard — the *Add content*, *My Site
+Overview*, *My Drafts*, *Content* and *Scheduled* widgets — with `0` errors.
+
+{% hint style="info" %}
+This is a known `10.0` → `10.1` upgrade gap. Varbase intends to ship `hook_update_N` handlers upstream so
+installing the new dependencies, re-provisioning the configuration and clearing the stale alias become
+automatic; until then, use the steps above.
+{% endhint %}
+
+## 11. Confirm the Themes
 
 The update sets **Vartheme (Bootstrap 5)** as the default (front-end) theme and **Gin** as the admin
 theme. Confirm and fix any leftover theme or library errors:
@@ -285,7 +438,7 @@ theme. Confirm and fix any leftover theme or library errors:
 ddev drush config:get system.theme
 ```
 
-## 10. Verify
+## 12. Verify
 
 ```bash
 ddev drush status                       # Drupal ~11.4, profile varbase
@@ -303,7 +456,7 @@ ddev composer update --dry-run   # "Nothing to install, update or remove"
 {% hint style="info" %}
 ### For AI Agents and Automated Upgrades
 
-The **`varbase-upgrade-10-0-to-10-1`** agent in [Vardot/dev-ai-agents](https://github.com/Vardot/dev-ai-agents) runs this exact flow end to end (uninstall the dropped modules &#x2192; update libraries &#x2192; repoint composer &#x2192; reapply patches with a full clean install &#x2192; run the database updates &#x2192; migrate UI Patterns 1 &#x2192; 2 &#x2192; verify), always through **review-gated MRs/PRs** and **never releasing**. The agent should also **ask the site owner to upgrade the project's custom modules and custom themes for Drupal 11 &#x2014; and to map their own UI Patterns 1 patterns to the theme's SDC ids** (steps 1 and 8) before running the updates; that code is outside the Varbase upgrade.
+The **`varbase-upgrade-10-0-to-10-1`** agent in [Vardot/dev-ai-agents](https://github.com/Vardot/dev-ai-agents) runs this exact flow end to end (uninstall the dropped modules &#x2192; update libraries &#x2192; repoint composer &#x2192; reapply patches with a full clean install &#x2192; run the database updates &#x2192; migrate UI Patterns 1 &#x2192; 2 &#x2192; re-provision the card and Hero Slider displays &#x2192; switch to the new Varbase Dashboards &#x2192; verify), always through **review-gated MRs/PRs** and **never releasing**. The agent should also **ask the site owner to upgrade the project's custom modules and custom themes for Drupal 11 &#x2014; and to map their own UI Patterns 1 patterns to the theme's SDC ids** (steps 1 and 8) before running the updates; that code is outside the Varbase upgrade.
 {% endhint %}
 
 ## Troubleshooting
@@ -314,5 +467,5 @@ The **`varbase-upgrade-10-0-to-10-1`** agent in [Vardot/dev-ai-agents](https://g
 * **The database updates cannot bootstrap with *"the service `eca.processor` has a dependency on a non-existent service `modeler_api.template_token_resolver`"*** — the older ECA on your site needs the new **Modeler API** module. Install it: `ddev drush pm:install modeler_api -y`.
 * **`updatedb` stops on `ui_patterns_update_10203` / "…plugin does not exist"** — run the card-display migration (step 8), including your own theme's patterns, then re-run `updatedb`.
 * **The front page shows "Site under maintenance" after `updatedb`** — turn maintenance mode off: `ddev drush state:set system.maintenance_mode 0 --input-format=integer && ddev drush cache:rebuild`.
-* **The Hero Slider renders as stacked slides (not a rotating carousel) after the upgrade** — on `10.0.x` the Hero Slider used a Slick carousel through the `varbase_heroslider` module template; on `10.1.x` it renders through the `vartheme_bs5:views-view-heroslider` **Single Directory Component** (a Bootstrap 5 carousel via the UI Patterns Views style). The stored view/display configuration is not migrated automatically. Re-provision the Hero Slider display from `10.1.x` — re-import the `varbase_heroslider` view and its entity view displays (from the module's `recipes/default/config`), or re-create the Hero Slider view mode to use the **UI Patterns** style with the `vartheme_bs5:views-view-heroslider` component. (Tracked as a Varbase upgrade-path gap.)
+* **The Hero Slider renders as stacked slides, or the blog cards show plain fields, after the upgrade** — on `10.0.x` the Hero Slider used a Slick carousel through the `varbase_heroslider` module template; on `10.1.x` it renders through the `vartheme_bs5:views-view-heroslider` **Single Directory Component** (a Bootstrap 5 carousel via the UI Patterns Views style), and the blog cards render through their card **Single Directory Components**. The stored view/display configuration is not migrated automatically — re-provision it with **step 9 (Render the Cards and the Media Hero Slider)** and repoint the homepage **Layout Builder** block. (Tracked as a Varbase upgrade-path gap.)
 * **`drush uli` one-time login link returns "Access denied"** — a Varbase security guard on the ~11.4 line. Log in through the normal `/user/login` form instead.
