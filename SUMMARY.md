@@ -25,6 +25,7 @@
       * [Varbase Workflow Base](developers/understanding-varbase/varbase-recipes/varbase-workflow-base.md)
       * [Varbase Performance Base](developers/understanding-varbase/varbase-recipes/varbase-performance-base.md)
       * [Varbase Blog Base](developers/understanding-varbase/varbase-recipes/varbase-blog-base.md)
+      * [Varbase News Base](developers/understanding-varbase/varbase-recipes/varbase-news-base.md)
       * [Varbase Page Base](developers/understanding-varbase/varbase-recipes/varbase-page-base.md)
       * [Varbase Webform Base](developers/understanding-varbase/varbase-recipes/varbase-webform-base.md)
       * [Varbase API Base](developers/understanding-varbase/varbase-recipes/varbase-api-base.md)
