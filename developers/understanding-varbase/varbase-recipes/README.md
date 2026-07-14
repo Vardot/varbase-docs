@@ -34,6 +34,7 @@ The following recipes comprise the Varbase 11.0.x recipe ecosystem:
 | [Varbase Performance Base](varbase-performance-base.md) | Page caching, asset aggregation, image optimization, and lazy loading                           |
 | [Varbase Blog Base](varbase-blog-base.md)               | Blog post content type with featured images, tags, categories, and listing pages                |
 | [Varbase News Base](varbase-news-base.md)               | News content type with featured images, categories, listing page, and Drupal Canvas templates   |
+| [Varbase Events Base](varbase-events-base.md)           | Event content type with smart date and location, events listing, and related events             |
 | [Varbase Webform Base](varbase-webform-base.md)         | Default webform modules, configurations, and professional contact form template                 |
 | [Varbase API Base](varbase-api-base.md)                 | JSON:API with authentication, authorization, and OpenAPI documentation                          |
 | [Varbase Auth Base](varbase-auth-base.md)               | Social Single Sign-On with default social authentication providers                              |
