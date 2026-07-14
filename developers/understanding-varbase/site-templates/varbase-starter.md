@@ -24,7 +24,7 @@ Depends on the following recipes:
 
 | Recipe | Description |
 |---|---|
-| [**Varbase Users Base**](varbase-users-base.md) | Default user roles, account settings, and user management configurations. |
+| [**Varbase Users Base**](../varbase-recipes/varbase-users-base.md) | Default user roles, account settings, and user management configurations. |
 | [**Drupal CMS Admin UI**](../drupal-cms-recipes/drupal-cms-admin-ui.md) | Administrative theme and navigation for Drupal CMS. |
 | [**Drupal CMS Anti-Spam**](../drupal-cms-recipes/drupal-cms-anti-spam.md) | Anti-spam and anti-abuse functionality. |
 | [**Drupal CMS Authentication**](../drupal-cms-recipes/drupal-cms-authentication.md) | Enhanced authentication features. |
@@ -35,18 +35,18 @@ Depends on the following recipes:
 | [**Drupal CMS SEO Tools**](../drupal-cms-recipes/drupal-cms-seo-tools.md) | Advanced SEO with meta tags and XML sitemaps. |
 | [**Drupal CMS Accessibility Tools**](../drupal-cms-recipes/drupal-cms-accessibility-tools.md) | Automated accessibility checks. |
 | [**Easy Email Express**](../easy-email-recipes/easy-email-express.md) | All-in-one HTML email support. |
-| [**Varbase Admin Base**](varbase-admin-base.md) | Default admin experience with Gin theme, navigation, and admin tools. |
-| [**Varbase Security Base**](varbase-security-base.md) | Hardened security with password policies and spam prevention. |
-| [**Varbase Media Base**](varbase-media-base.md) | Comprehensive media handling with image styles and media library. |
-| [**Varbase Editor Base**](varbase-editor-base.md) | CKEditor 5 with rich text editing capabilities and plugins. |
-| [**Varbase Content Base**](varbase-content-base.md) | Core content configuration including node types and taxonomy. |
-| [**Varbase Workflow Base**](varbase-workflow-base.md) | Content moderation, scheduled publishing, and workflows. |
-| [**Varbase SEO Base**](varbase-seo-base.md) | Comprehensive SEO modules and configurations. |
-| [**Varbase Webform Base**](varbase-webform-base.md) | Webform modules for building and managing forms. |
-| [**Varbase Page Base**](varbase-page-base.md) | Page content type with SEO fields, editorial workflow, and menu configuration. |
-| [**Varbase Blog Base**](varbase-blog-base.md) | Blog post content type with listing page. |
-| [**Varbase Performance Base**](varbase-performance-base.md) | Page caching, image optimization, and performance settings. |
-| [**Varbase Demo Content**](varbase-demo-content.md) | Demo content for new Varbase sites. | |
+| [**Varbase Admin Base**](../varbase-recipes/varbase-admin-base.md) | Default admin experience with Gin theme, navigation, and admin tools. |
+| [**Varbase Security Base**](../varbase-recipes/varbase-security-base.md) | Hardened security with password policies and spam prevention. |
+| [**Varbase Media Base**](../varbase-recipes/varbase-media-base.md) | Comprehensive media handling with image styles and media library. |
+| [**Varbase Editor Base**](../varbase-recipes/varbase-editor-base.md) | CKEditor 5 with rich text editing capabilities and plugins. |
+| [**Varbase Content Base**](../varbase-recipes/varbase-content-base.md) | Core content configuration including node types and taxonomy. |
+| [**Varbase Workflow Base**](../varbase-recipes/varbase-workflow-base.md) | Content moderation, scheduled publishing, and workflows. |
+| [**Varbase SEO Base**](../varbase-recipes/varbase-seo-base.md) | Comprehensive SEO modules and configurations. |
+| [**Varbase Webform Base**](../varbase-recipes/varbase-webform-base.md) | Webform modules for building and managing forms. |
+| [**Varbase Page Base**](../varbase-recipes/varbase-page-base.md) | Page content type with SEO fields, editorial workflow, and menu configuration. |
+| [**Varbase Blog Base**](../varbase-recipes/varbase-blog-base.md) | Blog post content type with listing page. |
+| [**Varbase Performance Base**](../varbase-recipes/varbase-performance-base.md) | Page caching, image optimization, and performance settings. |
+| [**Varbase Demo Content**](../varbase-recipes/varbase-demo-content.md) | Demo content for new Varbase sites. | |
 
 ## Included Modules
 
