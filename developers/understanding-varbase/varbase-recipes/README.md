@@ -15,7 +15,7 @@ This approach provides several advantages over the previous module-based archite
 
 ## The Varbase Starter Recipe
 
-The [Varbase Starter](varbase-starter.md) recipe serves as the main site template that orchestrates the entire Varbase installation. It bundles all core Varbase recipes along with Drupal CMS recipes, Easy Email, and the Vartheme BS5 theme. For most projects, applying the Varbase Starter recipe is the recommended starting point.
+The [Varbase Starter](../site-templates/varbase-starter.md) recipe serves as the main site template that orchestrates the entire Varbase installation. It bundles all core Varbase recipes along with Drupal CMS recipes, Easy Email, and the Vartheme BS5 theme. For most projects, applying the Varbase Starter recipe is the recommended starting point.
 
 ## Varbase Recipes Overview
 
@@ -23,7 +23,7 @@ The following recipes comprise the Varbase 11.0.x recipe ecosystem:
 
 | Recipe                                                  | Description                                                                                     |
 | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| [Varbase Starter](varbase-starter.md)                   | Main site template recipe that orchestrates the full Varbase installation                       |
+| [Varbase Starter](../site-templates/varbase-starter.md)                   | Main site template recipe that orchestrates the full Varbase installation                       |
 | [Varbase Admin Base](varbase-admin-base.md)             | Default admin experience with Gin theme, navigation, audit trail, and admin tools               |
 | [Varbase Content Base](varbase-content-base.md)         | Core content configuration including node types, taxonomy, views, and essential content modules |
 | [Varbase Media Base](varbase-media-base.md)             | Media types, image styles, responsive images, media library enhancements, and file handling     |
