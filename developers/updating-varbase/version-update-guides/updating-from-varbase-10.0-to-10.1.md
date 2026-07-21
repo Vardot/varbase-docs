@@ -184,6 +184,14 @@ ddev composer update -W
 
 You should end on **`vardot/varbase ~10.1.0`** and **`drupal/core ~11.4`**.
 
+{% hint style="info" %}
+As of **Varbase Project 10.1.3**, the `10.1.x` line no longer needs `mglaman/composer-drupal-lenient`
+at all. CKEditor Media Resize resolves through the **`vardot/ckeditor_media_resize`** fork
+(`~2.0.0`), pulled in transitively by `vardot/varbase` — you do not need to require or allow-list
+`drupal-lenient` yourself. If your `composer.json` still carries it from an earlier `10.1.x`
+snapshot, it is safe to remove.
+{% endhint %}
+
 ## 6. Reapply the Patches with a Full Clean Install
 
 `vardot/varbase-patches` re-applies the curated Drupal 11 patches. Reapply them with a **full clean
@@ -467,5 +475,6 @@ The **`varbase-upgrade-10-0-to-10-1`** agent in [Vardot/dev-ai-agents](https://g
 * **The database updates cannot bootstrap with *"the service `eca.processor` has a dependency on a non-existent service `modeler_api.template_token_resolver`"*** — the older ECA on your site needs the new **Modeler API** module. Install it: `ddev drush pm:install modeler_api -y`.
 * **`updatedb` stops on `ui_patterns_update_10203` / "…plugin does not exist"** — run the card-display migration (step 8), including your own theme's patterns, then re-run `updatedb`.
 * **The front page shows "Site under maintenance" after `updatedb`** — turn maintenance mode off: `ddev drush state:set system.maintenance_mode 0 --input-format=integer && ddev drush cache:rebuild`.
+* **Composer still resolves/mentions `mglaman/composer-drupal-lenient`** — that plugin is not needed on `10.1.x` as of Varbase Project 10.1.3; remove it from `composer.json` (`require`, `config.allow-plugins`, and `extra.drupal-lenient.allowed-list`) and re-resolve with `ddev composer update -W`. CKEditor Media Resize resolves via the `vardot/ckeditor_media_resize` fork instead.
 * **The Hero Slider renders as stacked slides, or the blog cards show plain fields, after the upgrade** — on `10.0.x` the Hero Slider used a Slick carousel through the `varbase_heroslider` module template; on `10.1.x` it renders through the `vartheme_bs5:views-view-heroslider` **Single Directory Component** (a Bootstrap 5 carousel via the UI Patterns Views style), and the blog cards render through their card **Single Directory Components**. The stored view/display configuration is not migrated automatically — re-provision it with **step 9 (Render the Cards and the Media Hero Slider)** and repoint the homepage **Layout Builder** block. (Tracked as a Varbase upgrade-path gap.)
 * **`drush uli` one-time login link returns "Access denied"** — a Varbase security guard on the ~11.4 line. Log in through the normal `/user/login` form instead.
