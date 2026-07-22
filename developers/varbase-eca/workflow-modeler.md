@@ -84,11 +84,11 @@ An ECA model is stored as its `eca.eca.*` configuration entity, not as a saved d
 
 Because of this, models authored earlier in the **BPMN.iO Modeler** open in the Workflow Modeler with no migration and no change to the stored configuration until you save. The pre-configured Varbase model **Redirect 403 to Login**, for example, opens as a clean event-condition-action diagram.
 
-![The Redirect 403 to Login model rendered in the Workflow Modeler](<../../.gitbook/assets/Workflow Modeler - Redirect 403 Model.png>)
+![The Redirect 403 to Login model rendered in the Workflow Modeler](<../../.gitbook/assets/Workflow Modeler - Redirect 403 to Login Model.png>)
 
 ## Pre-Configured Models
 
-Varbase ships several ready-made ECA models that you can open and study in the Workflow Modeler. See [Varbase ECA (Workflow Automation)](README.md) for the full list, including [Redirect 403 to Login](redirect-403-to-login.md), [User Login Notification](user-login-notification.md), and [Draft Reminder](draft-reminder.md).
+Varbase ships several ready-made ECA models that you can open and study in the Workflow Modeler. See the [pre-configured models list](README.md#pre-configured-eca-models-in-varbase) for the full set, including [Redirect 403 to Login](redirect-403-to-login.md), which the **Varbase Content Base** recipe ships.
 
 ## For QA
 
