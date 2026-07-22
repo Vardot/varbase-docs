@@ -48,15 +48,36 @@ From this page you can view, add, edit, enable, disable, clone, export, and dele
 
 ## Pre-Configured ECA Models in Varbase
 
-The following ECA models are included with Varbase recipes:
+A default Varbase 11.0.x install ships the ECA models below. Most of them run behind the scenes to apply configuration when something changes (for example, when a content type or media type is created), rather than sending notifications. You can open any of them in the **Workflow Modeler** from the ECA models list to see how they are built.
+
+### Shipped by the Varbase Content Base Recipe
 
 | Model | Description |
 | --- | --- |
-| [User Login Notification](user-login-notification.md) | Sends a notification when a user logs in |
-| [User Recertification](user-recertification.md) | Periodic user account recertification workflow |
-| [Admin Change Role Notification](admin-change-role-notification.md) | Notifies when an admin changes a user's role |
-| [Redirect 403 to Login](redirect-403-to-login.md) | Redirects access denied pages to the login page |
-| [Draft Reminder](draft-reminder.md) | Sends reminders about unpublished draft content |
+| Activate Full content view mode for new node types | Enables the Full content view mode whenever a new content type is created |
+| [Redirect 403 to Login](redirect-403-to-login.md) | Redirects access denied pages to the login page (included but disabled by default) |
+
+### Provided by the Bundled Drupal CMS Recipes
+
+These models come from the Drupal CMS recipes that Varbase builds on. They are present on a default install through those recipes.
+
+| Model | Description |
+| --- | --- |
+| Authentication redirects | Handles logging a user out and the related redirect |
+| Duplicate content | Adds the link, form, and local task used to duplicate a content item |
+| Disable preview when Canvas is enabled | Turns off the content preview for content types that use Canvas |
+| Unpublished 404 | Returns a "page not found" for unpublished content instead of an access-denied page |
+| Define custom breakpoints | Alters the breakpoints used for responsive images and media |
+| Grant media type permissions | Grants the matching permissions when a new media type is created |
+| Enable consent management for remote video | Adds consent handling when a remote video media item is created |
+| Automatically configure sitemap settings for content types | Applies sitemap defaults to content types |
+| Set up SEO fields | Adds SEO fields to content type bundles |
+| Show link to privacy settings | Adds a link to the site's privacy settings |
+| Allow content to be excluded from search | Lets content be flagged so it is left out of search |
+
+{% hint style="info" %}
+The exact set of models depends on which recipes are applied to your site. Open **Administration** \ **Configuration** \ **Workflow** \ _**ECA**_ to see the models on your own install.
+{% endhint %}
 
 ## ECA vs. Custom Modules
 

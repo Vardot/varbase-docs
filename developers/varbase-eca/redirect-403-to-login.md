@@ -2,6 +2,10 @@
 
 The **Redirect 403 to Login** ECA workflow automatically redirects users who encounter a 403 (Access Denied) page to the login page. After logging in, the user is redirected back to the page they were originally trying to access.
 
+This model is shipped by the **Varbase Content Base** recipe. It is included but disabled by default, so you can enable it when you want this behaviour. The screenshot below shows the model open in the **Workflow Modeler**.
+
+![The Redirect 403 to Login model open in the Workflow Modeler](<../../.gitbook/assets/Workflow Modeler - Redirect 403 to Login Model.png>)
+
 ## Overview
 
 By default, when an anonymous user tries to access a page they do not have permission to view, Drupal displays a 403 Access Denied error page. This can be confusing for users who simply need to log in to access the content. This workflow improves the user experience by redirecting anonymous users to the login page, with the original destination preserved so they are taken to the intended page after authentication.
