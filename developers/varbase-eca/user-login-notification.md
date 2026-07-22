@@ -35,7 +35,7 @@ To view or modify this ECA workflow:
 ```
 
 2. Find the **User Login Notification** model in the list.
-3. Click **Edit** to open the BPMN.io modeler.
+3. Click **Edit** to open the **Workflow Modeler**.
 4. Modify the workflow as needed:
    - Change the recipient email address in the send email action.
    - Add or modify conditions to filter which logins trigger notifications.

@@ -31,7 +31,7 @@ To view or modify this ECA workflow:
 ```
 
 2. Find the **Redirect 403 to Login** model in the list.
-3. Click **Edit** to open the BPMN.io modeler.
+3. Click **Edit** to open the **Workflow Modeler**.
 4. Modify the workflow as needed:
    - Adjust the conditions (for example, exclude certain paths from the redirect).
    - Change the redirect destination (for example, redirect to a custom login page).

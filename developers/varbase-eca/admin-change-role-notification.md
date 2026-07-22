@@ -36,7 +36,7 @@ To view or modify this ECA workflow:
 ```
 
 2. Find the **Admin Change Role Notification** model in the list.
-3. Click **Edit** to open the BPMN.io modeler.
+3. Click **Edit** to open the **Workflow Modeler**.
 4. Modify the workflow as needed:
    - Change the notification recipient email address.
    - Add conditions to filter which role changes trigger notifications (for example, only notify for administrator role changes).

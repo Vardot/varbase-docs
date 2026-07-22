@@ -33,7 +33,7 @@ To view or modify this ECA workflow:
 ```
 
 2. Find the **User Recertification** model in the list.
-3. Click **Edit** to open the BPMN.io modeler.
+3. Click **Edit** to open the **Workflow Modeler**.
 4. Modify the workflow as needed:
    - Adjust the recertification interval (for example, every 90 days, every 180 days).
    - Change the notification recipients.

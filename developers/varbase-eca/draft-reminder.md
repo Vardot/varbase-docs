@@ -36,7 +36,7 @@ To view or modify this ECA workflow:
 ```
 
 2. Find the **Draft Reminder** model in the list.
-3. Click **Edit** to open the BPMN.io modeler.
+3. Click **Edit** to open the **Workflow Modeler**.
 4. Modify the workflow as needed:
    - Adjust the age threshold for when reminders are sent.
    - Change the reminder recipients (author only, editors, or all users with a specific role).
