@@ -1,44 +1,56 @@
-# Varbase ECA (Visual Workflow Builder)
+# Varbase ECA (Workflow Automation)
 
-Varbase 11.0.x integrates **ECA (Event-Condition-Action)** as its primary workflow automation framework. ECA provides a visual, code-free approach to building automated workflows using the **BPMN.io modeler**, allowing site builders and administrators to create sophisticated automation logic directly through the Drupal admin interface.
+Varbase 11.0.x uses **ECA (Event-Condition-Action)** as its workflow automation framework. ECA lets site builders and administrators build automated behaviour, such as sending an email, changing a field, or redirecting a visitor, directly in the admin interface, without writing custom module code.
+
+In Varbase 11.0.x these workflows are drawn and reviewed in the **Workflow Modeler**, a visual editor enabled by the **Varbase Content Base** recipe. See [Building ECA Workflows With the Workflow Modeler](workflow-modeler.md) for the full walkthrough.
 
 ## What Is ECA?
 
-ECA stands for **Event-Condition-Action**, a pattern where:
+ECA stands for **Event-Condition-Action**, a pattern with three building blocks:
 
-- **Events** trigger the workflow (for example, a user logs in, content is saved, or a cron job runs).
-- **Conditions** determine whether the workflow should continue (for example, the user has a specific role, or the content is of a certain type).
-- **Actions** perform the desired operation (for example, send an email, change a field value, or redirect the user).
+- **Events** start the workflow (for example, a user logs in, content is saved, or an access-denied response is created).
+- **Conditions** decide whether the workflow continues (for example, the visitor is anonymous, or the content is of a certain type).
+- **Actions** do the work (for example, send an email, set a field value, or redirect the visitor).
 
-ECA workflows are created visually using the BPMN.io modeler, which provides a drag-and-drop interface for connecting events, conditions, and actions into flowcharts.
+An ECA workflow is called a **model**. Each model is stored as configuration, so it can be exported, imported, and version-controlled like any other Drupal configuration.
 
-## Accessing the ECA Modeler
+## How Varbase Uses ECA
 
-Navigate to **Configuration > Workflow > ECA**, or go to:
+Varbase ships a set of ready-made ECA models across its recipes to provide behaviour that would traditionally require custom module code. Because these are ECA models rather than code, the workflows are:
+
+- **Visible and editable** through the admin interface.
+- **Portable** as configuration that can be exported and imported.
+- **Maintainable** without a developer changing code for every adjustment.
+
+## The Workflow Modeler
+
+The **Workflow Modeler** (provided by the **Modeler API** and the **Workflow Modeler** module, `drupal/modeler`) is the default visual editor for ECA in Varbase 11.0.x. It draws each model as a diagram of connected nodes and can replay a real execution of the model step by step.
+
+An earlier editor, the **BPMN.iO Modeler**, is still available in the wider Drupal CMS ecosystem and can be installed alongside the Workflow Modeler, so both editors can coexist. Varbase defaults to the Workflow Modeler.
+
+A model is stored as its `eca.eca.*` configuration entity, not as a saved drawing. Each editor re-derives its own diagram from that configuration and lays it out automatically. This means a model authored in one editor opens in the other with no migration and no change to the stored configuration until you save.
+
+{% hint style="info" %}
+For step-by-step instructions, the canvas, the properties panel, and the **Review flow** replay, see [Building ECA Workflows With the Workflow Modeler](workflow-modeler.md).
+{% endhint %}
+
+## Accessing ECA Models
+
+Go to **Administration** \ **Configuration** \ **Workflow** \ _**ECA**_, or open:
 
 ```
 /admin/config/workflow/eca
 ```
 
-From this page you can:
+From this page you can view, add, edit, enable, disable, clone, export, and delete ECA models.
 
-- View all existing ECA models (workflows).
-- Create new ECA models.
-- Edit, enable, disable, or delete existing models.
+![The ECA models list at Configuration, Workflow, ECA](<../../.gitbook/assets/Workflow Modeler - ECA Models List.png>)
 
-## How Varbase Uses ECA
+## Pre-Configured ECA Models in Varbase
 
-Varbase uses ECA extensively across its recipes to provide automated behaviors that would traditionally require custom module code. By using ECA models instead of custom code, these workflows are:
+The following ECA models are included with Varbase recipes:
 
-- **Visible and editable** through the admin interface.
-- **Portable** as configuration that can be exported and imported.
-- **Maintainable** without requiring developer intervention for adjustments.
-
-## Varbase ECA Workflows
-
-The following ECA workflows are included in Varbase recipes:
-
-| Workflow | Description |
+| Model | Description |
 | --- | --- |
 | [User Login Notification](user-login-notification.md) | Sends a notification when a user logs in |
 | [User Recertification](user-recertification.md) | Periodic user account recertification workflow |
@@ -46,31 +58,16 @@ The following ECA workflows are included in Varbase recipes:
 | [Redirect 403 to Login](redirect-403-to-login.md) | Redirects access denied pages to the login page |
 | [Draft Reminder](draft-reminder.md) | Sends reminders about unpublished draft content |
 
-## Creating a Custom ECA Workflow
-
-To create your own ECA workflow:
-
-1. Navigate to **Configuration > Workflow > ECA**.
-2. Click **Add ECA**.
-3. Give the model a **name** and optional **description**.
-4. Use the BPMN.io modeler to:
-   - Add a **start event** (the trigger for the workflow).
-   - Add **gateways** for conditional branching.
-   - Add **tasks** for actions to perform.
-   - Connect elements with **sequence flows**.
-5. Configure each element by clicking on it and filling in its settings.
-6. Save the model.
-
 ## ECA vs. Custom Modules
 
-ECA is ideal for workflows that:
+ECA is a good fit for workflows that:
 
-- Can be expressed as event-condition-action patterns.
-- Need to be modified by site administrators without code changes.
+- Can be expressed as event-condition-action steps.
+- Should be adjustable by site administrators without code changes.
 - Are specific to a particular site's business logic.
 
 Custom modules remain appropriate for:
 
-- Complex logic that cannot be expressed as simple event-condition-action flows.
+- Complex logic that cannot be expressed as simple event-condition-action steps.
 - Performance-critical operations.
 - Reusable functionality intended for distribution across multiple sites.
