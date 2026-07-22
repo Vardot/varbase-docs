@@ -54,7 +54,7 @@ A default Varbase 11.0.x install ships the ECA models below. Most of them run be
 
 | Model | Description |
 | --- | --- |
-| Activate Full content view mode for new node types | Enables the Full content view mode whenever a new content type is created |
+| [Activate Full content view mode for new node types](enable-full-view-mode-node-type.md) | Enables the Full content view mode whenever a new content type is created |
 | [Redirect 403 to Login](redirect-403-to-login.md) | Redirects access denied pages to the login page (included but disabled by default) |
 
 ### Provided by the Bundled Drupal CMS Recipes
@@ -63,17 +63,17 @@ These models come from the Drupal CMS recipes that Varbase builds on. They are p
 
 | Model | Description |
 | --- | --- |
-| Authentication redirects | Handles logging a user out and the related redirect |
-| Duplicate content | Adds the link, form, and local task used to duplicate a content item |
-| Disable preview when Canvas is enabled | Turns off the content preview for content types that use Canvas |
-| Unpublished 404 | Returns a "page not found" for unpublished content instead of an access-denied page |
-| Define custom breakpoints | Alters the breakpoints used for responsive images and media |
-| Grant media type permissions | Grants the matching permissions when a new media type is created |
-| Enable consent management for remote video | Adds consent handling when a remote video media item is created |
-| Automatically configure sitemap settings for content types | Applies sitemap defaults to content types |
-| Set up SEO fields | Adds SEO fields to content type bundles |
-| Show link to privacy settings | Adds a link to the site's privacy settings |
-| Allow content to be excluded from search | Lets content be flagged so it is left out of search |
+| [Authentication redirects](auth-redirects.md) | Handles logging a user out and the related redirect |
+| [Duplicate content](content-duplicate.md) | Adds the link, form, and local task used to duplicate a content item |
+| [Disable preview when Canvas is enabled](content-template-disable-preview.md) | Turns off the content preview for content types that use Canvas |
+| [Unpublished 404](unpublished-404.md) | Returns a "page not found" for unpublished content instead of an access-denied page |
+| [Define custom breakpoints](define-breakpoints.md) | Alters the breakpoints used for responsive images and media |
+| [Grant media type permissions](grant-media-type-permissions.md) | Grants the matching permissions when a new media type is created |
+| [Enable consent management for remote video](remote-video-consent.md) | Adds consent handling when a remote video media item is created |
+| [Automatically configure sitemap settings for content types](node-sitemap-settings.md) | Applies sitemap defaults to content types |
+| [Set up SEO fields](setup-seo-fields.md) | Adds SEO fields to content type bundles |
+| [Show link to privacy settings](privacy-setting-link.md) | Adds a link to the site's privacy settings |
+| [Allow content to be excluded from search](search-exclude.md) | Lets content be flagged so it is left out of search |
 
 {% hint style="info" %}
 The exact set of models depends on which recipes are applied to your site. Open **Administration** \ **Configuration** \ **Workflow** \ _**ECA**_ to see the models on your own install.
