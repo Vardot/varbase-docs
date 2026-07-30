@@ -10,6 +10,7 @@ A site template is applied **during** the site installation. It is not applied w
 | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | [Varbase Starter](varbase-starter.md) | Main site template recipe that orchestrates the full Varbase installation                            |
 | [Educare](educare.md)                                    | Education site template for schools, universities, academies, and e-learning, on Vartheme BS5 Educare |
+| [Horizon Aid](horizon-aid.md)                            | NGO and humanitarian site template for nonprofits, charities, foundations, and aid organizations, on Vartheme BS5 Horizon Aid |
 
 ## What a Site Template Owns
 
