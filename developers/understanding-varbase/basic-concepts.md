@@ -72,6 +72,7 @@ Optional recipes ship with the project but are not applied by `varbase_starter`.
 
 - **Varbase optional recipes**: `varbase_api_base`, `varbase_auth_base`, `varbase_i18n_base`, `varbase_dev_base`
 - **Varbase AI recipes**: `varbase_ai_base` (which bundles `varbase_ai_editor_assistant`, `varbase_ai_image_alt`, and `varbase_ai_taxonomy_tagging`), plus `varbase_ai_context` and `varbase_ai_safety`
+- **Add-on recipes** (separate Drupal.org projects): `varbase_news_base`, `varbase_events_base`, and `varbase_ai_figma_base`
 
 ## How varbase_starter Orchestrates Everything
 
