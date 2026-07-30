@@ -40,6 +40,7 @@ Varbase 11 introduces a suite of **AI integration recipes** that bring artificia
 - **Varbase AI Taxonomy Tagging**: AI-powered taxonomy tagging for content
 - **Varbase AI Context**: Starter brand, editorial, and safety context items for all AI agents
 - **Varbase AI Safety**: Prompt safety and PII guardrails, AI logging, and AI observability
+- **Varbase AI Figma Base** _(add-on)_: Builds Drupal Canvas pages from Figma designs with the Drupal Canvas AI assistant
 
 ## Easy Email Recipes
 
