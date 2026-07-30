@@ -30,6 +30,8 @@ Brings in the following core and contributed modules to your site:
 
 | Module                                                                                                  | Purpose                                                                            |
 | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [**Varbase Components**](https://www.drupal.org/project/varbase_components)                             | The Varbase library of single-directory components used by the content templates.  |
+| [**Smart Date**](https://www.drupal.org/project/smart_date)                                             | The date field the event's When field is built on.                                 |
 | [**Selective Better Exposed Filters**](https://www.drupal.org/project/selective_better_exposed_filters) | Provide extra option for better exposed filters to show only used terms in filter. |
 | [**Webshare**](https://www.drupal.org/project/webshare)                                                 | Adds a share button that opens the browser's native share dialog.                   |
 
