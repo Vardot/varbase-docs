@@ -159,18 +159,18 @@ To apply your custom recipe using Drush:
 
 ### For Recipes in the Project Directory
 
-If your recipe is in a local directory:
+Place your recipe in the `recipes/` folder of your Varbase project, next to the Varbase recipes, then apply it:
 
 ```bash
-drush recipe path/to/my_custom_recipe
+ddev drush recipe ../recipes/my_custom_recipe
 ```
 
 ### For Recipes Installed via Composer
 
-If your recipe is published as a Composer package:
+If your recipe is published as a Composer package of type `drupal-recipe`, require it and Drupal core's **Recipe Unpack** plugin will unpack it into the `recipes/` folder, adding its dependencies to your project's `composer.json`. Then apply it:
 
 ```bash
-composer require my-vendor/my_custom_recipe
+ddev composer require my-vendor/my_custom_recipe
 ddev drush recipe ../recipes/my_custom_recipe
 ```
 

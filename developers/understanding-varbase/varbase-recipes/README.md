@@ -19,46 +19,57 @@ The [Varbase Starter](../site-templates/varbase-starter.md) recipe serves as the
 
 ## Varbase Recipes Overview
 
-The following recipes comprise the Varbase 11.0.x recipe ecosystem:
+The following recipes comprise the Varbase 11.0.x recipe ecosystem. The **Applied By** column shows whether a recipe is applied automatically when installing with the **Varbase Starter** recipe, ships in the project codebase as an optional recipe you can apply on demand, or is a separate add-on project you require first.
 
-| Recipe                                                  | Description                                                                                     |
-| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| [Varbase Starter](../site-templates/varbase-starter.md)                   | Main site template recipe that orchestrates the full Varbase installation                       |
-| [Varbase Admin Base](varbase-admin-base.md)             | Default admin experience with Gin theme, navigation, audit trail, and admin tools               |
-| [Varbase Content Base](varbase-content-base.md)         | Core content configuration including node types, taxonomy, views, and essential content modules |
-| [Varbase Media Base](varbase-media-base.md)             | Media types, image styles, responsive images, media library enhancements, and file handling     |
-| [Varbase Editor Base](varbase-editor-base.md)           | CKEditor 5 with rich text editing capabilities, plugins, and enhancements                       |
-| [Varbase Security Base](varbase-security-base.md)       | Password policies, CAPTCHA, honeypot, antibot, security kit, and flood control                  |
-| [Varbase SEO Base](varbase-seo-base.md)                 | SEO modules including metatag, pathauto, redirect, sitemap, and structured data                 |
-| [Varbase Workflow Base](varbase-workflow-base.md)       | Content moderation, scheduled publishing, and workflow notifications                            |
-| [Varbase Performance Base](varbase-performance-base.md) | Page caching, asset aggregation, image optimization, and lazy loading                           |
-| [Varbase Blog Base](varbase-blog-base.md)               | Blog post content type with featured images, tags, categories, and listing pages                |
-| [Varbase News Base](varbase-news-base.md)               | News content type with featured images, categories, listing page, and Drupal Canvas templates   |
-| [Varbase Events Base](varbase-events-base.md)           | Event content type with smart date and location, events listing, and related events             |
-| [Varbase Webform Base](varbase-webform-base.md)         | Default webform modules, configurations, and professional contact form template                 |
-| [Varbase API Base](varbase-api-base.md)                 | JSON:API with authentication, authorization, and OpenAPI documentation                          |
-| [Varbase Auth Base](varbase-auth-base.md)               | Social Single Sign-On with default social authentication providers                              |
-| [Varbase i18n Base](varbase-i18n-base.md)               | Internationalization, language management, and translation support                              |
-| [Varbase Dev Base](varbase-dev-base.md)                 | Development modules and configurations for local development environments                       |
-| [Varbase Page Base](varbase-page-base.md)               | Page content type with SEO fields, editorial workflow, and menu configuration                   |
-| [Varbase Users Base](varbase-users-base.md)             | Default user roles, account settings, and user management configurations                        |
-| [Varbase Demo Content](varbase-demo-content.md)         | Demo content for new Varbase sites                                                              |
-| [Varbase Media Assets](varbase-media-assets.md)         | Default demo media assets including images, videos, and documents                               |
+| Recipe                                                  | Description                                                                                     | Applied By |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------- |
+| [Varbase Starter](../site-templates/varbase-starter.md)                   | Main site template recipe that orchestrates the full Varbase installation                       | Installer |
+| [Varbase Users Base](varbase-users-base.md)             | Default user roles, account settings, and user management configurations                        | Varbase Starter |
+| [Varbase Admin Base](varbase-admin-base.md)             | Default admin experience with Gin theme, navigation, audit trail, and admin tools               | Varbase Starter |
+| [Varbase Content Base](varbase-content-base.md)         | Core content configuration including node types, taxonomy, views, ECA automation, and essential content modules | Varbase Starter |
+| [Varbase Media Base](varbase-media-base.md)             | Media types, image styles, responsive images, media library enhancements, and file handling     | Varbase Starter |
+| [Varbase Editor Base](varbase-editor-base.md)           | CKEditor 5 with rich text editing capabilities, plugins, and enhancements                       | Varbase Starter |
+| [Varbase Security Base](varbase-security-base.md)       | Password policies, CAPTCHA, honeypot, antibot, security kit, and flood control                  | Varbase Starter |
+| [Varbase SEO Base](varbase-seo-base.md)                 | SEO modules including metatag, pathauto, redirect, sitemap, and structured data                 | Varbase Starter |
+| [Varbase Workflow Base](varbase-workflow-base.md)       | Content moderation, scheduled publishing, and workflow notifications                            | Varbase Starter |
+| [Varbase Performance Base](varbase-performance-base.md) | Page caching, asset aggregation, image optimization, and lazy loading                           | Varbase Starter |
+| [Varbase Webform Base](varbase-webform-base.md)         | Default webform modules, configurations, and professional contact form template                 | Varbase Starter |
+| [Varbase Page Base](varbase-page-base.md)               | Page content type with SEO fields, editorial workflow, and menu configuration                   | Varbase Starter |
+| [Varbase Blog Base](varbase-blog-base.md)               | Blog post content type with featured images, tags, categories, and listing pages                | Varbase Starter |
+| [Varbase Demo Content](varbase-demo-content.md)         | Demo content for new Varbase sites                                                              | Varbase Starter |
+| [Varbase Media Assets](varbase-media-assets.md)         | Default demo media assets including images, videos, and documents                               | Varbase Demo Content |
+| [Varbase API Base](varbase-api-base.md)                 | JSON:API with authentication, authorization, and OpenAPI documentation                          | On demand |
+| [Varbase Auth Base](varbase-auth-base.md)               | Social Single Sign-On with default social authentication providers                              | On demand |
+| [Varbase Internationalization Base](varbase-i18n-base.md) | Internationalization, language management, and translation support                            | On demand |
+| [Varbase Development Base](varbase-dev-base.md)         | Development modules and configurations for local development environments                       | On demand |
+| [Varbase News Base](varbase-news-base.md)               | News content type with featured images, categories, listing page, and Drupal Canvas templates   | Add-on |
+| [Varbase Events Base](varbase-events-base.md)           | Event content type with smart date and location, events listing, and related events             | Add-on |
+
+{% hint style="info" %}
+The [**Varbase AI Recipes**](../varbase-ai-recipes/README.md) are documented in their own section. The **Varbase AI Base** recipe and its feature recipes ship in the project codebase and can be applied on demand.
+{% endhint %}
 
 ## Applying a Recipe
 
-Recipes are applied using Drush. The general workflow is:
+All recipes marked **Varbase Starter** or **On demand** already ship in the `recipes/` folder of your Varbase project. Composer downloads them as `drupal-recipe` packages, and Drupal core's **Recipe Unpack** plugin unpacks them into `recipes/` with their dependencies added to your project's `composer.json`.
 
-1. Require the recipe package via Composer:
-
-```bash
-composer require drupal/recipe_name
-```
-
-2. Apply the recipe using Drush:
+To apply a recipe that ships with the project, run Drush from the project:
 
 ```bash
 ddev drush recipe ../recipes/recipe_name
+```
+
+For example, to add multilingual support:
+
+```bash
+ddev drush recipe ../recipes/varbase_i18n_base
+```
+
+Recipes marked **Add-on**, such as **Varbase News Base** and **Varbase Events Base**, are separate Drupal.org projects. Require them first, then apply them:
+
+```bash
+ddev composer require drupal/varbase_news_base
+ddev drush recipe ../recipes/varbase_news_base
 ```
 
 Refer to each recipe's documentation page for specific installation commands and details.

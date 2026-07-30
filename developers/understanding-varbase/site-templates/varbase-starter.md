@@ -34,6 +34,7 @@ Depends on the following recipes:
 | [**Drupal CMS SEO Basic**](../drupal-cms-recipes/drupal-cms-seo-basic.md) | Basic SEO with URL aliases and redirect management. |
 | [**Drupal CMS SEO Tools**](../drupal-cms-recipes/drupal-cms-seo-tools.md) | Advanced SEO with meta tags and XML sitemaps. |
 | [**Drupal CMS Accessibility Tools**](../drupal-cms-recipes/drupal-cms-accessibility-tools.md) | Automated accessibility checks. |
+| [**Drupal CMS Search**](../drupal-cms-recipes/drupal-cms-search.md) | Fast, flexible site search. |
 | [**Easy Email Express**](../easy-email-recipes/easy-email-express.md) | All-in-one HTML email support. |
 | [**Varbase Admin Base**](../varbase-recipes/varbase-admin-base.md) | Default admin experience with Gin theme, navigation, and admin tools. |
 | [**Varbase Security Base**](../varbase-recipes/varbase-security-base.md) | Hardened security with password policies and spam prevention. |
@@ -46,7 +47,11 @@ Depends on the following recipes:
 | [**Varbase Page Base**](../varbase-recipes/varbase-page-base.md) | Page content type with SEO fields, editorial workflow, and menu configuration. |
 | [**Varbase Blog Base**](../varbase-recipes/varbase-blog-base.md) | Blog post content type with listing page. |
 | [**Varbase Performance Base**](../varbase-recipes/varbase-performance-base.md) | Page caching, image optimization, and performance settings. |
-| [**Varbase Demo Content**](../varbase-recipes/varbase-demo-content.md) | Demo content for new Varbase sites. | |
+| [**Varbase Demo Content**](../varbase-recipes/varbase-demo-content.md) | Demo content for new Varbase sites. |
+
+{% hint style="info" %}
+**Varbase Starter** also downloads a set of optional recipes into the project's `recipes/` folder without applying them: [**Varbase API Base**](../varbase-recipes/varbase-api-base.md), [**Varbase Auth Base**](../varbase-recipes/varbase-auth-base.md), [**Varbase Internationalization Base**](../varbase-recipes/varbase-i18n-base.md), [**Varbase Development Base**](../varbase-recipes/varbase-dev-base.md), and the [**Varbase AI Recipes**](../varbase-ai-recipes/README.md). You can apply any of them on demand with Drush.
+{% endhint %}
 
 ## Included Modules
 
