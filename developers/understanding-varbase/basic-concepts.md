@@ -20,10 +20,10 @@ A simple recipe structure looks like this:
 my_recipe/
   recipe.yml
   config/
-    actions/
-      ...
-    install/
-      ...
+    module_name.config_name.yml
+    another_module.another_config.yml
+  content/
+    ...
 ```
 
 ## How Recipes Differ from Modules and Profiles
@@ -57,20 +57,21 @@ Varbase organizes its recipes in a layered dependency hierarchy:
 ```
 varbase_starter
   |
-  |-- Varbase recipes (varbase_media, varbase_seo, varbase_admin, etc.)
+  |-- Varbase recipes (varbase_media_base, varbase_seo_base, varbase_admin_base, etc.)
   |     |
-  |     |-- Drupal CMS 2.0 recipes (drupal_cms_media, drupal_cms_seo, etc.)
+  |     |-- Drupal CMS 2.0 recipes (drupal_cms_media, drupal_cms_seo_basic, etc.)
   |           |
   |           |-- Drupal Core recipes
   |
-  |-- Varbase AI recipes (varbase_ai_base, varbase_ai_default, etc.)
-  |
-  |-- Easy Email recipes
-  |
-  |-- Varbase ECA recipes
+  |-- Easy Email recipes (easy_email_express)
 ```
 
 Each Varbase recipe declares its dependencies on lower-level recipes. When you apply the `varbase_starter` recipe, it automatically resolves and applies all dependent recipes in the correct order.
+
+Optional recipes ship with the project but are not applied by `varbase_starter`. They can be applied on demand:
+
+- **Varbase optional recipes**: `varbase_api_base`, `varbase_auth_base`, `varbase_i18n_base`, `varbase_dev_base`
+- **Varbase AI recipes**: `varbase_ai_base` (which bundles `varbase_ai_editor_assistant`, `varbase_ai_image_alt`, and `varbase_ai_taxonomy_tagging`), plus `varbase_ai_context` and `varbase_ai_safety`
 
 ## How varbase_starter Orchestrates Everything
 
@@ -86,7 +87,7 @@ The `varbase_starter` recipe is the **top-level entry point** for setting up a V
 Recipes in Varbase are managed through **Composer**. When you create a Varbase project with:
 
 ```bash
-ddev composer create-project "drupal/varbase_project:11.0.x-dev"
+ddev composer create-project "drupal/varbase_project:~11.0.0"
 ```
 
 Composer downloads:

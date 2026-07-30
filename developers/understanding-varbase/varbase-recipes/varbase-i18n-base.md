@@ -1,6 +1,6 @@
-# Varbase internationalization Base
+# Varbase Internationalization Base
 
-The **Varbase internationalization Base** recipe provides internationalization, language management, and translation support for building multilingual Varbase sites.
+The **Varbase Internationalization Base** recipe provides internationalization, language management, and translation support for building multilingual Varbase sites.
 
 ## Drupal.org Project
 

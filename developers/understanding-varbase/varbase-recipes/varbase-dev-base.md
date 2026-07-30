@@ -1,6 +1,6 @@
-# Varbase Dev Base
+# Varbase Development Base
 
-The **Varbase Dev Base** recipe provides development modules and configurations for local development environments. This recipe should be used during development only and must be disabled or removed before deploying to production.
+The **Varbase Development Base** recipe provides development modules and configurations for local development environments. This recipe should be used during development only and must be disabled or removed before deploying to production.
 
 > **Warning:** Do not apply this recipe on production environments. The modules included are intended for development and debugging purposes and may expose sensitive information or degrade performance if left enabled on a live site.
 

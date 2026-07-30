@@ -34,10 +34,12 @@ Varbase 11 integrates with the **Drupal CMS 2.0 initiative**, incorporating its 
 
 Varbase 11 introduces a suite of **AI integration recipes** that bring artificial intelligence capabilities into the CMS:
 
-- `varbase_ai_base`: Foundation recipe for AI integration
-- `varbase_ai_default`: Default AI configuration and setup
-- `varbase_ai_agents`: AI-powered agents for content and workflow automation
-- Additional AI recipes for specialized use cases
+- **Varbase AI Base**: Foundation recipe that installs the core AI modules and bundles the AI feature recipes
+- **Varbase AI Editor Assistant**: AI-powered assistance in the CKEditor 5 rich-text editor
+- **Varbase AI Image Alt**: AI-generated alternative text for images
+- **Varbase AI Taxonomy Tagging**: AI-powered taxonomy tagging for content
+- **Varbase AI Context**: Starter brand, editorial, and safety context items for all AI agents
+- **Varbase AI Safety**: Prompt safety and PII guardrails, AI logging, and AI observability
 
 ## Easy Email Recipes
 
