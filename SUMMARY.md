@@ -121,7 +121,7 @@
   * [Extending Varbase](developers/extending-varbase/README.md)
     * [Creating Your Own Recipe](developers/extending-varbase/creating-your-own-recipe.md)
     * [Overriding Varbase](developers/extending-varbase/overriding-varbase.md)
-  * [Automated Testing](developers/automated-testing/README.md)
+  * [Automated Functional Testing](developers/automated-testing/README.md)
   * [Frequently Asked Questions (FAQs)](developers/faqs.md)
 * [Content Designers](content-designers/README.md)
   * [Accessing the Administration Area](content-designers/accessing-the-administration-area/README.md)
