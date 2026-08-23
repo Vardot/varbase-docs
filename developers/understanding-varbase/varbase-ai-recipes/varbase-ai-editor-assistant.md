@@ -16,6 +16,7 @@ Brings in the following contributed modules to your site:
 
 | Module | Purpose |
 |---|---|
+| **Text Editor** _(in Drupal core)_ | Attaches a rich-text editor to text fields. |
 | [**AI CKEditor integration**](https://www.drupal.org/project/ai) | Adds a plugin for CKEditor 5 to let editors prompt AI for text generation purposes. |
 
 ## Configuration

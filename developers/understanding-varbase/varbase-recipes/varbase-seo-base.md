@@ -33,6 +33,7 @@ Brings in the following core and contributed modules to your site:
 | [**Simple XML Sitemap**](https://www.drupal.org/project/simple_sitemap)        | Generates standard-compliant hreflang XML sitemaps to enhance your site's SEO, notifies search engines of website changes via IndexNow and sitemap ping protocols, and provides a framework for developing other sitemap types. |
 | [**Real-time SEO for Drupal**](https://www.drupal.org/project/yoast_seo)       | Adds Real-time SEO page analysis and configuration.                                                                                                                                                                             |
 | [**Entity Clone**](https://www.drupal.org/project/entity_clone)                | Add a clone action for all entities.                                                                                                                                                                                            |
+| [**Easy Breadcrumb**](https://www.drupal.org/project/easy_breadcrumb)          | Builds the breadcrumb trail from the current URL.                                                                                                                                                                               |
 
 ## Installation
 
