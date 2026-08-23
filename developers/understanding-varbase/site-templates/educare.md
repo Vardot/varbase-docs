@@ -14,7 +14,7 @@ Site recipe (full site template)
 
 Educare composes the Varbase base recipes, installs its own theme, and adds what is its own: the pages, the Drupal Canvas patterns, and the demo content.
 
-It ships home, programs, admissions, research, student life, events, news, and contact pages, all built with Drupal Canvas, along with ready-made patterns that content editors can place on any page.
+It ships home, about, explore programs, admissions, research, student life, events, news, and contact pages, all built with Drupal Canvas, along with ready-made patterns that content editors can place on any page. Demo content fills them: programs, events, news, media, menus, and taxonomy terms.
 
 ## What It Composes
 
@@ -22,7 +22,15 @@ It ships home, programs, admissions, research, student life, events, news, and c
 | -------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | Events: the Event content type, the events listing, and related events | [Varbase Events Base](../varbase-recipes/varbase-events-base.md)     |
 | News: the News content type and its listing                    | [Varbase News Base](../varbase-recipes/varbase-news-base.md)                |
-| Pages, media, editor, workflow, SEO, forms, and the admin UI    | The Varbase and Drupal CMS base recipes                                     |
+| Pages, media, editor, workflow, SEO, forms, search, and the admin UI | The Varbase and Drupal CMS base recipes                                |
+
+## What It Owns
+
+Educare adds one content type of its own, on top of the content types that come from the base recipes:
+
+| Content type | Purpose                                                                                          |
+| ------------ | ------------------------------------------------------------------------------------------------ |
+| **Program**  | A course or degree program, with its study level, program type, degrees, description, and content. The **Explore programs** page lists them. |
 
 ## Included Themes
 
@@ -36,7 +44,7 @@ Create a Varbase project, require the Educare recipe, then choose **Educare** in
 
 ```bash
 composer create-project drupal/varbase_project:~11.0.0 PROJECT_DIR_NAME --no-dev --no-interaction
-composer require drupal/educare:1.0.x-dev
+composer require drupal/educare:~1.0.0
 ```
 
 With DDEV:
@@ -47,7 +55,7 @@ cd my_educare_site
 ddev config --project-type=drupal11 --docroot=web --php-version=8.4
 ddev start
 ddev composer create-project "drupal/varbase_project:~11.0.0"
-ddev composer require drupal/educare:1.0.x-dev
+ddev composer require drupal/educare:~1.0.0
 ddev launch
 ```
 
