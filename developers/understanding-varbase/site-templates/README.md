@@ -16,7 +16,9 @@ A site template is applied **during** the site installation. It is not applied w
 
 A site template composes the base recipes and adds what is its own: the theme, the pages, the patterns, and the demo content.
 
-Content types come from the base recipes. [Varbase Page Base](../varbase-recipes/varbase-page-base.md), [Varbase Blog Base](../varbase-recipes/varbase-blog-base.md), [Varbase News Base](../varbase-recipes/varbase-news-base.md), and [Varbase Events Base](../varbase-recipes/varbase-events-base.md) each provide a content type with its fields, its listing, and its Drupal Canvas content templates. A site template does not repeat them.
+Shared content types come from the base recipes. [Varbase Page Base](../varbase-recipes/varbase-page-base.md), [Varbase Blog Base](../varbase-recipes/varbase-blog-base.md), [Varbase News Base](../varbase-recipes/varbase-news-base.md), and [Varbase Events Base](../varbase-recipes/varbase-events-base.md) each provide a content type with its fields, its listing, and its Drupal Canvas content templates. A site template does not repeat them.
+
+A site template may still add a content type that only its kind of site needs, and then it owns that content type: **Educare** adds **Program**, and **Horizon Aid** adds **Country** and **Program**. Each template's page lists what it owns.
 
 ## Writing Your Own
 

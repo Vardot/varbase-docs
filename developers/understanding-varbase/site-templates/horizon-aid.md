@@ -14,7 +14,7 @@ Site recipe (full site template)
 
 Horizon Aid composes the Varbase base recipes, installs its own theme, and adds what is its own: the pages, the Drupal Canvas patterns, and the demo content.
 
-It ships home, about, resources, programmes, events, countries, and donation pages, all built with Drupal Canvas. Country presence pages describe the organization's role, its work on the ground, key figures, and partners, with demo countries included. Blog posts cover field updates and reports.
+It ships home, about, our impact, our programs, resources, events, countries, and donate pages, all built with Drupal Canvas. Demo content fills them: countries, programs, events, blog posts, media, and menus. Blog posts cover field updates and reports.
 
 ## What It Composes
 
@@ -23,6 +23,15 @@ It ships home, about, resources, programmes, events, countries, and donation pag
 | Events: the Event content type, the events listing, and related events | [Varbase Events Base](../varbase-recipes/varbase-events-base.md)        |
 | Blog: the Blog post content type and its listing                       | [Varbase Blog Base](../varbase-recipes/varbase-blog-base.md)            |
 | Pages, media, editor, workflow, SEO, forms, search, and the admin UI   | The Varbase and Drupal CMS base recipes                                 |
+
+## What It Owns
+
+Horizon Aid adds two content types of its own, on top of the content types that come from the base recipes:
+
+| Content type | Purpose                                                                                                                                          |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Country**  | A country presence page: the organization's role, its work on the ground, key figures, partners, a country code, and a featured image. The **Countries** page lists them. |
+| **Program**  | A programme of work, listed on the **Our Programs** page.                                                                                        |
 
 ## Included Themes
 
@@ -36,7 +45,7 @@ Create a Varbase project, require the Horizon Aid recipe, then choose **Horizon 
 
 ```bash
 composer create-project drupal/varbase_project:~11.0.0 PROJECT_DIR_NAME --no-dev --no-interaction
-composer require drupal/horizonaid:1.0.x-dev
+composer require drupal/horizonaid:~1.0.0
 ```
 
 With DDEV:
@@ -47,7 +56,7 @@ cd my_horizonaid_site
 ddev config --project-type=drupal11 --docroot=web --php-version=8.4
 ddev start
 ddev composer create-project "drupal/varbase_project:~11.0.0"
-ddev composer require drupal/horizonaid:1.0.x-dev
+ddev composer require drupal/horizonaid:~1.0.0
 ddev launch
 ```
 
