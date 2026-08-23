@@ -132,6 +132,7 @@
     * [Admin Change Role Notification](developers/varbase-eca-visual-workflow-builder/admin-change-role-notification.md)
     * [Redirect 403 to Login](developers/varbase-eca-visual-workflow-builder/redirect-403-to-login.md)
     * [Draft Reminder](developers/varbase-eca-visual-workflow-builder/draft-reminder.md)
+  * [Automated Functional Testing](developers/automated-testing/README.md)
   * [Frequently Asked Questions (FAQs)](developers/faqs.md)
   * [Extending Varbase](developers/extending-varbase/README.md)
     * [Overriding Varbase](developers/extending-varbase/overriding-varbase.md)
