@@ -5,7 +5,7 @@ Varbase 9.2.x ships an automated functional acceptance testing suite built with 
 Tests are written in plain language (Gherkin), so a product owner, a QA engineer and a developer read the same file. Every scenario runs in a real browser against a real Varbase site.
 
 {% hint style="info" %}
-**Varbase E2E replaces Webship-js.** The `varbase_project` 9.2.x branch requires [`@vardot/varbase-e2e`](https://www.npmjs.com/package/@vardot/varbase-e2e) `^2`. Old `webship-js` step paths in a project's `cucumber.js` no longer resolve; see [Moving From Webship-js](#moving-from-webship-js).
+The suite ships with the project: `varbase_project` 9.2.x requires [`@vardot/varbase-e2e`](https://www.npmjs.com/package/@vardot/varbase-e2e) `^2` and loads its step definitions from `cucumber.js`, so a fresh site is ready to test after `yarn install`.
 {% endhint %}
 
 ## What Varbase E2E Gives You
@@ -229,13 +229,3 @@ The full procedure, for both Node.js and DDEV projects, is in [`docs/install-var
 Vardot maintains an AI agent and a skill for this harness in [Vardot/dev-ai-agents](https://github.com/Vardot/dev-ai-agents): the **`varbase-e2e` agent** for long autonomous runs (scaffold, author, run, debug, report) and the **`varbase-e2e` skill** for the same knowledge in step-by-step form. Both read the installed package as the source of truth, so they follow the step phrasings of the version in your project. The harness and its practices are distilled from the book **Automated Functional Testing Recipes** by Rajab Natshah.
 
 The working rule when a person and an agent write tests together: **AI generates, humans validate, tests verify.** The Gherkin file stays the contract, and it is reviewed by a human before it is trusted.
-
-## Moving From Webship-js
-
-Projects that tested with `webship-js` need three changes:
-
-1. In `package.json`, replace the `webship-js` dependency with `"@vardot/varbase-e2e": "^2"`.
-2. In `cucumber.js`, change the step path `node_modules/webship-js/tests/step-definitions/**/*.js` to `node_modules/@vardot/varbase-e2e/tests/step-definitions/**/*.js`, and add `requireModule: ['tsx/cjs']`.
-3. Re-run `yarn install`, then run the suite and fix the few step sentences that were renamed. The step catalogue under [`docs/steps/`](https://github.com/Vardot/varbase-e2e/tree/2.0.x/docs/steps) gives the current phrasing for each one.
-
-The shipped Varbase suites on `varbase_project` 11.0.x, 10.1.x and 9.2.x have already made this move; use them as the reference.
