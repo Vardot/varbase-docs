@@ -17,6 +17,7 @@ Brings in the following core and contributed modules to your site:
 | Module | Purpose |
 |---|---|
 | **Node** _(in Drupal core)_ | Manages the creation, configuration, and display of the main site content. |
+| **Field** _(in Drupal core)_ | Provides the capabilities to add fields to entities. |
 | **Taxonomy** _(in Drupal core)_ | Enables the categorization of content. |
 | [**AI Core**](https://www.drupal.org/project/ai) | Provides an abstraction layer for AI services. |
 | [**AI Automators**](https://www.drupal.org/project/ai) | Allows AI and other tools and services to automatically generate field values on content creation. |

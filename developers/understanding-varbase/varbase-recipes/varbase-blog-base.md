@@ -28,6 +28,7 @@ Brings in the following core and contributed modules to your site:
 | Module                                                                                                  | Purpose                                                                            |
 | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | [**Selective Better Exposed Filters**](https://www.drupal.org/project/selective_better_exposed_filters) | Provide extra option for better exposed filters to show only used terms in filter. |
+| [**Webshare**](https://www.drupal.org/project/webshare)                                                 | Adds a share button that opens the browser's native share dialog.                  |
 
 ## Installation
 

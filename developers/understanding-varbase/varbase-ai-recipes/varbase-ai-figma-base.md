@@ -10,7 +10,7 @@ Varbase AI
 
 [https://www.drupal.org/project/varbase\_ai\_figma](https://www.drupal.org/project/varbase_ai_figma)
 
-This is a separate add-on project. It does not ship with the Varbase project codebase; require it with Composer first.
+The recipe ships in the `recipes/` folder of a Varbase project, so it can be applied on demand with no extra Composer step.
 
 ## Overview
 
@@ -69,10 +69,9 @@ The recipe applies the following configurations:
 
 ## Installation
 
-Require the add-on project, then apply the recipe using Drush:
+Apply the recipe using Drush:
 
 ```bash
-ddev composer require drupal/varbase_ai_figma
 ddev drush recipe ../recipes/varbase_ai_figma_base
 ```
 

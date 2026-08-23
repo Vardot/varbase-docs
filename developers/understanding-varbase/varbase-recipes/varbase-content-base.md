@@ -1,6 +1,6 @@
 # Varbase Content Base
 
-The **Varbase Content Base** recipe provides the core content configuration for Varbase sites, including node types, taxonomy vocabularies, block content, the menu system, path aliases, and essential content management modules.
+The **Varbase Content Base** recipe provides the core content configuration for Varbase sites, including node types, taxonomy vocabularies, blocks, the menu system, path aliases, and essential content management modules.
 
 ## Drupal.org Project
 
@@ -18,7 +18,6 @@ Brings in the following core and contributed modules to your site:
 | **Views** _(in Drupal core)_                                                          | Provides a framework to fetch information from the database and to display it in different formats.                                                                 |
 | **Field** _(in Drupal core)_                                                          | Provides the capabilities to add fields to entities.                                                                                                                |
 | **Block** _(in Drupal core)_                                                          | Allows users to configure blocks (containing content, forms, etc.) and to place them in the regions of a theme.                                                     |
-| **Block Content** _(in Drupal core)_                                                  | Allows the creation of content blocks and block types.                                                                                                              |
 | **Configuration Manager** _(in Drupal core)_                                          | Allows importing and exporting configuration changes.                                                                                                               |
 | **Datetime** _(in Drupal core)_                                                       | Defines field types for storing dates and times.                                                                                                                    |
 | **File** _(in Drupal core)_                                                           | Provides a field type for files and defines a "managed\_file" Form API element.                                                                                     |
@@ -36,12 +35,11 @@ Brings in the following core and contributed modules to your site:
 | [**Field Group**](https://www.drupal.org/project/field_group)                         | Provides the ability to group your fields on both form and display.                                                                                                 |
 | [**Smart Trim**](https://www.drupal.org/project/smart_trim)                           | Provides a more robust alternative to "summary or trimmed" textfield format.                                                                                        |
 | [**Advanced Text Formatter**](https://www.drupal.org/project/advanced_text_formatter) | Provides an additional formatter for text field, text area and text format.                                                                                         |
-| [**Block Class**](https://www.drupal.org/project/block_class)                         | Allows assigning classes, attributes and ID to blocks.                                                                                                              |
 | **Contextual Links** _(in Drupal core)_                                               | Provides contextual links to directly access tasks related to page elements.                                                                                        |
 | [**Diff**](https://www.drupal.org/project/diff)                                       | Shows changes between content revisions.                                                                                                                            |
 | [**ECA Core**](https://www.drupal.org/project/eca)                                    | Core module for ECA framework.                                                                                                                                      |
-| [**Modeler API**](https://www.drupal.org/project/modeler_api)                         | Provides an API for modules to use modelers like BPMN.iO.                                                                                                           |
-| [**BPMN.iO Modeler**](https://www.drupal.org/project/bpmn_io)                         | BPMN modeler, integrated into Drupal's admin UI.                                                                                                                    |
+| [**Modeler API**](https://www.drupal.org/project/modeler_api)                         | Provides an API that lets modules use a visual modeler to edit models.                                                                                              |
+| [**Workflow Modeler**](https://www.drupal.org/project/modeler)                        | The visual editor Varbase uses to build and read ECA models.                                                                                                        |
 | [**ECA UI**](https://www.drupal.org/project/eca)                                      | Provides a user interface for managing ECA models.                                                                                                                  |
 | [**ECA Base**](https://www.drupal.org/project/eca)                                    | Base events, conditions and actions.                                                                                                                                |
 | [**ECA Config**](https://www.drupal.org/project/eca)                                  | Config events.                                                                                                                                                      |

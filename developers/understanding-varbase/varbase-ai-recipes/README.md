@@ -18,7 +18,7 @@ This approach allows site builders to adopt only the AI features they need, keep
 | [AI Recipe Guardrails Prompt Safety](ai-recipe-guardrails-prompt-safety.md) | Installs prompt safety guardrails for the Drupal AI module (XSS, injection, liability topics, jailbreak detection). |
 | [Varbase AI Context](varbase-ai-context.md) | Installs Context Control Center (CCC) with starter brand, editorial, and safety context items for all AI agents. |
 | [Varbase AI Safety](varbase-ai-safety.md) | Bundles prompt safety, PII protection, AI logging with retention, and AI observability for enterprise/GDPR deployments. |
-| [Varbase AI Figma Base](varbase-ai-figma-base.md) | Add-on recipe that sets up the Figma-to-Canvas flow: the AI Figma engine, the Varbase customization for Vartheme BS5, and the Drupal Canvas AI Orchestrator wiring. |
+| [Varbase AI Figma Base](varbase-ai-figma-base.md) | Sets up the Figma-to-Canvas flow: the AI Figma engine, the Varbase customization for Vartheme BS5, and the Drupal Canvas AI Orchestrator wiring. |
 
 ## Architecture
 
@@ -26,4 +26,4 @@ The **Varbase AI Base** recipe bundles the core AI feature recipes (Editor Assis
 
 For enterprise deployments, apply **Varbase AI Safety** on top to enable the full guardrail and observability stack, and apply **Varbase AI Context** to give every AI agent site-specific brand, editorial, and safety knowledge out of the box.
 
-**Varbase AI Figma Base** is a separate add-on project ([drupal.org/project/varbase\_ai\_figma](https://www.drupal.org/project/varbase_ai_figma)) that builds on **Drupal CMS AI** and **Varbase AI Context** to turn Figma designs into Drupal Canvas pages.
+**Varbase AI Figma Base** ([drupal.org/project/varbase\_ai\_figma](https://www.drupal.org/project/varbase_ai_figma)) builds on **Drupal CMS AI** and **Varbase AI Context** to turn Figma designs into Drupal Canvas pages. It ships in the project codebase and is applied on demand like the other AI recipes.
