@@ -235,15 +235,6 @@ Varbase E2E documentation, all linkable:
 | Installing in a project, and in DDEV | [`docs/install-varbase-e2e.md`](https://github.com/Vardot/varbase-e2e/blob/2.0.x/docs/install-varbase-e2e.md) · [`docs/install-varbase-e2e/ddev-varbase-e2e.md`](https://github.com/Vardot/varbase-e2e/blob/2.0.x/docs/install-varbase-e2e/ddev-varbase-e2e.md) |
 | Global settings and environment variables | [`docs/global-settings.md`](https://github.com/Vardot/varbase-e2e/blob/2.0.x/docs/global-settings.md) |
 
-### Adding Varbase E2E to Any Project
-
-A project that is not a Varbase project can use the same harness. The DDEV add-on scaffolds the configuration, a starter feature file and the browsers:
-
-```bash
-ddev add-on get Vardot/ddev-varbase-e2e
-```
-
-The full procedure, for both Node.js and DDEV projects, is in [`docs/install-varbase-e2e.md`](https://github.com/Vardot/varbase-e2e/blob/2.0.x/docs/install-varbase-e2e.md).
 
 ### Writing Tests With AI Assistance
 
