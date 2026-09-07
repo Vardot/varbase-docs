@@ -8,7 +8,7 @@ Tests are written in plain language (Gherkin), so a product owner, a QA engineer
 The suite ships with the project: `varbase_project` 10.1.x requires [`@vardot/varbase-e2e`](https://www.npmjs.com/package/@vardot/varbase-e2e) `^2` and loads its step definitions from `cucumber.js`, so a fresh site is ready to test after `yarn install`.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/varbase-e2e-logo.svg" alt="" width="100%"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/varbase-e2e-logo.svg" alt="" width="768"><figcaption></figcaption></figure>
 
 ## What Varbase E2E Gives You
 
