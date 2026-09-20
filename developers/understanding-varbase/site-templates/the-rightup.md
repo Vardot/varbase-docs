@@ -16,6 +16,17 @@ RightUp composes the Varbase base recipes, installs its own theme, and adds what
 
 It ships a home page with a live feed ticker, section landing pages, news and podcast listings, article and podcast episode pages, a search results page with filters, and newsletter, about, contact, and policy pages, all built with Drupal Canvas. Demo content fills them: news articles, podcast episodes with audio and transcripts, authors, media, menus, and taxonomy terms.
 
+## What You Get
+
+- **Drupal CMS recipes**: admin UI, authentication, media, forms, search, SEO basic and SEO tools, accessibility tools, anti-spam and privacy.
+- **Varbase base recipes**: users, admin, security, media, editor, content, workflow, SEO, webform, page, blog and performance.
+- **Vartheme BS5 Rightup** installed and set as the default theme, with the front page set to `/home`.
+- **Pages ready to publish**: a home page with a live feed ticker, section landing pages, news and podcast listings, article and podcast episode pages, search results, newsletter, about and contact, and the policy pages the footer links to.
+- **News and podcasts**: articles with categories, tags, authors and media, and podcast episodes with audio and transcripts.
+- **A live feed ticker** an editor curates from an entity queue, falling back to the newest published content, so publishing an article reaches the home page without anyone editing it.
+- **Search that filters**: a results page with category, content type and date filters, and inline filters on the news listing.
+- **A header and footer built from the design**: main and offcanvas navigation, newsletter call to action, social links and a copy-page-link control.
+
 ## What It Composes
 
 | Section | Comes from |
@@ -41,32 +52,32 @@ RightUp adds no content type of its own. What it owns is the editorial presentat
 | ------ | ----------- |
 | [**Vartheme BS5 RightUp**](https://www.drupal.org/project/vartheme_bs5_rightup) | Media and magazine theme for Varbase, based on Vartheme BS5. |
 
-## Installation
+## Setup
 
-Create a Varbase project, require the RightUp recipe, then choose **Rightup** in the installer:
+A site template is applied **during** the site installation, so it is chosen in the installer rather than applied to a site that is already installed.
+
+### The RightUp on top of Drupal CMS with DDEV
 
 ```bash
-composer create-project drupal/varbase_project:~11.0.0 PROJECT_DIR_NAME --no-dev --no-interaction
-composer require drupal/rightup:~1.0.0
+mkdir -p ~/workspace/projects/my-drupal-site-rightup
+cd ~/workspace/projects/my-drupal-site-rightup
+ddev config --project-type=drupal11 --docroot=web
+ddev composer create-project drupal/cms
+ddev composer config minimum-stability dev
+ddev composer require drupal/rightup:1.0.x-dev
+ddev drush si -y ../recipes/rightup
+ddev launch
 ```
 
-With DDEV:
+### The RightUp on top of the Varbase project with DDEV
 
 ```bash
-mkdir my_rightup_site
-cd my_rightup_site
+mkdir -p ~/workspace/projects/my-varbase-rightup-site
+cd ~/workspace/projects/my-varbase-rightup-site
 ddev config --project-type=drupal11 --docroot=web --php-version=8.4
-ddev start
-ddev composer create-project "drupal/varbase_project:~11.0.0"
-ddev composer require drupal/rightup:~1.0.0
+ddev composer create-project drupal/varbase_project:11.0.x-dev
+ddev composer require drupal/rightup:1.0.x-dev
 ddev launch
 ```
 
 Finish the installation in the browser and select **Rightup** in the **Choose a site template** step.
-
-RightUp also installs on a Drupal CMS project:
-
-```bash
-ddev composer create-project "drupal/cms"
-ddev composer require drupal/rightup:~1.0.0
-```

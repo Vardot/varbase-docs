@@ -16,6 +16,12 @@ Educare composes the Varbase base recipes, installs its own theme, and adds what
 
 It ships home, about, explore programs, admissions, research, student life, events, news, and contact pages, all built with Drupal Canvas, along with ready-made patterns that content editors can place on any page. Demo content fills them: programs, events, news, media, menus, and taxonomy terms.
 
+## What You Get
+
+- **Drupal CMS recipes**: admin UI, authentication, media, forms, search, SEO basic and SEO tools, accessibility tools, anti-spam and privacy.
+- **Varbase base recipes**: users, admin, security, media, editor, content, workflow, SEO, webform, page, news, events and performance.
+- **Vartheme BS5 Educare** installed and set as the default theme, with the front page set to `/home`.
+
 ## What It Composes
 
 | Section                                                        | Comes from                                                                  |
@@ -38,24 +44,30 @@ Educare adds one content type of its own, on top of the content types that come 
 | ----------------------------------------------------------------------------- | ------------------------------------------------------ |
 | [**Vartheme BS5 Educare**](https://www.drupal.org/project/vartheme_bs5_educare) | Education theme for Varbase, based on Vartheme BS5.    |
 
-## Installation
+## Setup
 
-Create a Varbase project, require the Educare recipe, then choose **Educare** in the installer:
+A site template is applied **during** the site installation, so it is chosen in the installer rather than applied to a site that is already installed.
+
+### Educare on top of Drupal CMS with DDEV
 
 ```bash
-composer create-project drupal/varbase_project:~11.0.0 PROJECT_DIR_NAME --no-dev --no-interaction
-composer require drupal/educare:~1.0.0
+mkdir -p ~/workspace/projects/my-drupal-site-educare
+cd ~/workspace/projects/my-drupal-site-educare
+ddev config --project-type=drupal11 --docroot=web
+ddev composer create-project drupal/cms
+ddev composer require drupal/educare
+ddev drush si -y ../recipes/educare
+ddev launch
 ```
 
-With DDEV:
+### Educare on top of the Varbase project with DDEV
 
 ```bash
-mkdir my_educare_site
-cd my_educare_site
+mkdir -p ~/workspace/projects/my-varbase-educare-site
+cd ~/workspace/projects/my-varbase-educare-site
 ddev config --project-type=drupal11 --docroot=web --php-version=8.4
-ddev start
-ddev composer create-project "drupal/varbase_project:~11.0.0"
-ddev composer require drupal/educare:~1.0.0
+ddev composer create-project drupal/varbase_project:~11
+ddev composer require drupal/educare:~1
 ddev launch
 ```
 
