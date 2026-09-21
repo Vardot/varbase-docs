@@ -44,7 +44,7 @@ The following recipes comprise the Varbase 11.0.x recipe ecosystem. The **Applie
 | [Varbase Development Base](varbase-dev-base.md)         | Development modules and configurations for local development environments                       | On demand |
 | [Varbase News Base](varbase-news-base.md)               | News content type with featured images, categories, listing page, and Drupal Canvas templates   | Add-on |
 | [Varbase Podcasts Base](varbase-podcasts-base.md)       | Podcast episode content type with audio, transcripts, episode numbers, and a listing with an RSS feed | Add-on |
-| [Varbase Search Base](varbase-search-base.md)           | Search API database index, a Drupal Canvas search page, and its content type and date filters | Add-on |
+| [Varbase Search Base](varbase-search-base.md)           | Search API database index, a content type facet, a date published filter, and the search result displays | Add-on |
 | [Varbase Events Base](varbase-events-base.md)           | Event content type with smart date and location, events listing, and related events             | Add-on |
 
 {% hint style="info" %}
