@@ -1,6 +1,6 @@
 # Varbase Search Base
 
-The **Varbase Search Base** recipe provides site search for Varbase sites: the Search API database index, a Drupal Canvas search page, and its filters.
+The **Varbase Search Base** recipe provides site search for Varbase sites: a Search API database index, a content type facet, a date published filter, and the search result displays a results page is built from.
 
 ## Drupal.org Project
 
@@ -8,22 +8,31 @@ The **Varbase Search Base** recipe provides site search for Varbase sites: the S
 
 ## Overview
 
-Varbase Search Base installs Search API with the database backend and configures the server that indexes the site's content.
+Varbase Search Base builds on top of the [Drupal CMS Search](../drupal-cms-recipes/drupal-cms-search.md) recipe, which owns the search view and the content index. It adds the pieces a search results page needs: a **Content Type** facet on the node bundle, a **Date Published** grouped exposed filter on the authored date, a **Search result** node view mode for the result rows, a **Search index** view mode for what is indexed, and the index fields both the facet and the filter read.
 
-It also provides the search page itself: a Drupal Canvas page at `/search` built on [Vartheme BS5](https://www.drupal.org/project/vartheme_bs5) components, with a keyword bar, a results listing, and a filter rail of content type and date published. The content type filter is a facet, so it lists only the types that are actually in the results, with their counts.
+The results listing and the date filter are added to the search view as the `results_block` and `date_block` block displays. Because they are blocks, a site template places them where it wants, changes their wording and row view modes, and adds facets and displays of its own on top.
 
-A site template may place these blocks on a page of its own and bind its own components, and add facets for the fields it owns.
+The recipe does not ship a search page. The page that carries these blocks comes from the site template.
+
+## Recipe Dependencies
+
+Depends on the following recipes:
+
+| Recipe                                                              | Description                                                                   |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| [**Drupal CMS Search**](../drupal-cms-recipes/drupal-cms-search.md) | Search API with the database backend, the content index, and the search view. |
 
 ## Included Modules
 
 Brings in the following core and contributed modules to your site:
 
-| Module | Purpose |
-| ------- | -------- |
-| **Search** | Drupal core's search module. |
-| [**Search API**](https://www.drupal.org/project/search_api) | The search framework that indexes the site's content. |
-| **Search API Database Search** | Indexes content into the site's own database, with no external search server. |
-| [**Facets**](https://www.drupal.org/project/facets) | Filters that narrow a result set by the values it actually contains. |
+| Module                                                                              | Purpose                                                                             |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
+| **Search** _(in Drupal core)_                                                       | Drupal core's search module.                                                          |
+| [**Search API**](https://www.drupal.org/project/search_api)                         | Provides a generic framework for modules offering search capabilities.                |
+| [**Database Search**](https://www.drupal.org/project/search_api)                    | Offers an implementation of the Search API that uses database tables for indexing content. |
+| [**Facets**](https://www.drupal.org/project/facets)                                 | Filters that narrow a result set by the values it actually contains.                  |
+| [**Better Exposed Filters**](https://www.drupal.org/project/better_exposed_filters) | Provides advanced options (e.g. links, checkboxes, or other widgets) to exposed Views elements. |
 
 ## Installation
 
@@ -32,3 +41,5 @@ Apply the recipe using Drush:
 ```bash
 ddev drush recipe ../recipes/varbase_search_base
 ```
+
+This recipe is automatically applied when using the RightUp site template.
