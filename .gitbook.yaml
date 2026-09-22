@@ -1,0 +1,5 @@
+redirects:
+  getting-started/installing-varbase: developers/installing-varbase/README.md
+  dev-docs/theme-development-with-varbase/understanding-the-vartheme-base-theme: developers/theme-development-with-varbase/understanding-vartheme-bs5.md
+  developers/theme-development-with-varbase/understanding-the-vartheme-base-theme: developers/theme-development-with-varbase/understanding-vartheme-bs5.md
+  developers/theme-development-with-varbase/integration-of-varbase-with-storybook-2.0: developers/theme-development-with-varbase/integration-of-varbase-with-storybook.md

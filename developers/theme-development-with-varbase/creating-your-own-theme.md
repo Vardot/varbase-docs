@@ -4,7 +4,7 @@ After building and installing the project with the [**Varbase Project**](https:/
 
 Before that have a look at:
 
-[Understanding The Vartheme Starterkit Theme](https://docs.varbase.vardot.com/developers/theme-development-with-varbase/understanding-the-vartheme-base-theme)
+[Understanding The Vartheme Starterkit Theme](https://docs.varbase.vardot.com/developers/theme-development-with-varbase/understanding-vartheme-bs5)
 
 Learn more about Bootstrap standard build tools documentation, compile source code, run tests, and more.
 
