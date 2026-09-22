@@ -28,4 +28,4 @@ This documentation covers:
 
 ## Community
 
-Join the Varbase community on [Slack](http://slack.varbase.vardot.com/) for support and discussions.
+Join the Varbase community on [Slack](https://varbase.slack.com) for support and discussions.
