@@ -16,7 +16,7 @@ Before creating a new issue, search the existing issues to check if your questio
 
 Join the Varbase community on Slack for real-time discussions, questions, and community interaction:
 
-[http://slack.varbase.vardot.com/](http://slack.varbase.vardot.com/)
+[https://varbase.slack.com](https://varbase.slack.com)
 
 The Slack workspace is a good place to ask quick questions, share ideas, and connect with other Varbase users and developers.
 
