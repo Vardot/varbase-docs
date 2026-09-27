@@ -1,10 +1,21 @@
 # Varbase Starter
 
-The **Varbase Starter** recipe is the main site template recipe that orchestrates the entire Varbase installation. It serves as the single entry point for setting up a complete Varbase-powered Drupal site by bundling together all core Varbase recipes, Drupal CMS recipes, Easy Email, and the Vartheme BS5 theme.
+**Varbase Starter** is the default site template of Varbase 11, and the recipe-first successor to the older profile-based install. It works on both the Varbase project and Drupal CMS.
 
 ## Drupal.org Project
 
 [https://www.drupal.org/project/varbase\_starter](https://www.drupal.org/project/varbase_starter)
+
+## Demo
+
+- Site: [https://demo.varbase.vardot.com/](https://demo.varbase.vardot.com/)
+- Storybook: [https://storybook.demo.varbase.vardot.com/](https://storybook.demo.varbase.vardot.com/)
+
+## Release and Requirements
+
+- Latest release: **1.0.4** (27 September 2026), see the [release notes](https://www.drupal.org/project/varbase_starter/releases/1.0.4).
+- Drupal core `^11.4`, on Drupal CMS 2 or on Varbase 11 (`drupal/varbase_project:~11.0.0`).
+- PHP 8.4, see [Requirements](../../installing-varbase/requirements.md).
 
 ## Recipe Type
 
@@ -12,20 +23,14 @@ Site recipe (full site template)
 
 ## Overview
 
-Varbase Starter is designed to be the primary recipe that site builders apply when creating a new Varbase project. Rather than requiring manual installation of individual recipes, Varbase Starter composes all of the necessary dependencies into a single, unified installation process.
+Varbase Starter is one site template recipe that composes the Drupal CMS and Varbase base recipes into a working site, then installs **Vartheme BS5** and sets the front page. It ships home, about, features, blog, and contact pages built with **Drupal Canvas**.
 
-This recipe brings together:
-
-- **Drupal CMS recipes** for core functionality such as admin UI, anti-spam, authentication, forms, media, privacy, SEO, and accessibility
-- **Varbase recipes** for enhanced administration, security, media, editing, content management, workflows, SEO, webforms, blogging, and performance
-- **Easy Email Express** for email handling and templating
-- **Vartheme BS5** as the default front-end theme
-- **Additional modules** for extended functionality
+The Varbase project requires Varbase Starter, so a new Varbase site already has it. The other Vardot site templates are built the same way.
 
 ## What You Get
 
 - **Drupal CMS recipes**: admin UI, authentication, media, forms, search, SEO basic and SEO tools, accessibility tools, anti-spam and privacy.
-- **Varbase base recipes**: users, admin, security, media, editor, content, workflow, SEO, webform, page, blog and performance.
+- **Varbase base recipes**: users, admin, security, media, editor, content, Canvas, workflow, SEO, webform, page, blog and performance.
 - **Vartheme BS5** installed and set as the default theme, with the front page set to `/home`.
 - **A home page built with Drupal Canvas** out of Vartheme BS5 components, with ready-made patterns editors can drop onto any page.
 - **Demo content** from Varbase Demo Content: blog posts, pages, a media library and menus, so the site looks functional on first boot.
@@ -55,6 +60,7 @@ Depends on the following recipes:
 | [**Varbase Media Base**](../varbase-recipes/varbase-media-base.md) | Comprehensive media handling with image styles and media library. |
 | [**Varbase Editor Base**](../varbase-recipes/varbase-editor-base.md) | CKEditor 5 with rich text editing capabilities and plugins. |
 | [**Varbase Content Base**](../varbase-recipes/varbase-content-base.md) | Core content configuration including node types and taxonomy. |
+| **Varbase Canvas Base** | Installs Drupal Canvas and the Canvas Override module for per-content Canvas layout editing. |
 | [**Varbase Workflow Base**](../varbase-recipes/varbase-workflow-base.md) | Content moderation, scheduled publishing, and workflows. |
 | [**Varbase SEO Base**](../varbase-recipes/varbase-seo-base.md) | Comprehensive SEO modules and configurations. |
 | [**Varbase Webform Base**](../varbase-recipes/varbase-webform-base.md) | Webform modules for building and managing forms. |
@@ -64,17 +70,8 @@ Depends on the following recipes:
 | [**Varbase Demo Content**](../varbase-recipes/varbase-demo-content.md) | Demo content for new Varbase sites. |
 
 {% hint style="info" %}
-**Varbase Starter** also downloads a set of optional recipes into the project's `recipes/` folder without applying them: [**Varbase API Base**](../varbase-recipes/varbase-api-base.md), [**Varbase Auth Base**](../varbase-recipes/varbase-auth-base.md), [**Varbase Internationalization Base**](../varbase-recipes/varbase-i18n-base.md), [**Varbase Development Base**](../varbase-recipes/varbase-dev-base.md), and the [**Varbase AI Recipes**](../varbase-ai-recipes/README.md). You can apply any of them on demand with Drush.
+On the Varbase project, the Varbase profile also downloads optional recipes into the project's `recipes/` folder without applying them: [**Varbase API Base**](../varbase-recipes/varbase-api-base.md), [**Varbase Auth Base**](../varbase-recipes/varbase-auth-base.md), [**Varbase Internationalization Base**](../varbase-recipes/varbase-i18n-base.md), [**Varbase Development Base**](../varbase-recipes/varbase-dev-base.md), and [**Varbase AI Base**](../varbase-ai-recipes/varbase-ai-base.md). You can apply any of them on demand with Drush. A Drupal CMS site with Varbase Starter does not get them.
 {% endhint %}
-
-## Included Modules
-
-Brings in the following core and contributed modules to your site:
-
-| Module | Purpose |
-|---|---|
-| [**CVA (Class Variance Authority)**](https://www.drupal.org/project/cva) | Provides html_cva Twig function for managing component variants using Class Variance Authority pattern. |
-| [**Project Browser**](https://www.drupal.org/project/project_browser) | Provides a user interface for browsing available Drupal projects. |
 
 ## Included Themes
 
@@ -86,28 +83,41 @@ Brings in the following core and contributed modules to your site:
 
 A site template is applied **during** the site installation, so it is chosen in the installer rather than applied to a site that is already installed.
 
-### Varbase Starter on top of Drupal CMS with DDEV
+### Set Up Locally on Drupal CMS With DDEV
+
+You need [DDEV](https://docs.ddev.com/en/stable/users/install/) installed. These steps follow the [DDEV Drupal CMS quickstart](https://docs.ddev.com/en/stable/users/quickstart/#drupal-drupal-cms) and were tested on Drupal CMS 2.2.0 with Drupal core 11.4.8.
 
 ```bash
-mkdir -p ~/workspace/projects/my-drupal-site-varbase-starter
-cd ~/workspace/projects/my-drupal-site-varbase-starter
-ddev config --project-type=drupal11 --docroot=web
+mkdir my-drupal-site-varbase_starter
+cd my-drupal-site-varbase_starter
+ddev config --project-type=drupal11 --docroot=web --php-version=8.4
+ddev start
 ddev composer create-project drupal/cms
 ddev composer require drupal/varbase_starter
-ddev drush si -y ../recipes/varbase_starter
+ddev drush site:install -y ../recipes/varbase_starter
+ddev drush cache:rebuild
 ddev launch
 ```
 
-### Varbase Starter on top of the Varbase project with DDEV
+{% hint style="info" %}
+Add `--site-name="Varbase Starter"` to the `site:install` line to name the site; without it the site is named "Drush Site-Install". Keep the cache rebuild: right after install the home page can serve a cached 404 until the cache is rebuilt. Without DDEV, run the same `composer` and `drush` commands without the `ddev` prefix.
+{% endhint %}
+
+{% hint style="warning" %}
+The Drupal CMS browser installer only offers the site templates on its curated list. Adding Varbase Starter to that list is proposed in [drupal\_cms #3591479](https://git.drupalcode.org/project/drupal_cms/-/work_items/3591479) and is not merged yet, so on Drupal CMS install it with `drush site:install` as above.
+{% endhint %}
+
+### Set Up on the Varbase Project With DDEV
+
+See [Installing Varbase With DDEV](../../installing-varbase/installing-varbase-with-ddev.md) for the full guide.
 
 ```bash
-mkdir -p ~/workspace/projects/my-varbase-starter-site
-cd ~/workspace/projects/my-varbase-starter-site
+mkdir my-varbase-starter-site
+cd my-varbase-starter-site
 ddev config --project-type=drupal11 --docroot=web --php-version=8.4
+ddev start
 ddev composer create-project drupal/varbase_project:~11
 ddev launch
 ```
 
-Finish the installation in the browser and select **Varbase Starter** in the **Choose a site template** step.
-
-Installing with Varbase Starter installs and configures all of its dependencies, leaving a fully functional Varbase site ready for content creation and customization.
+Varbase Starter comes with the Varbase project, so there is nothing to require. Finish the installation in the browser and select **Varbase Starter** in the **Choose a site template** step.

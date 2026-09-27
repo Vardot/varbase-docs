@@ -17,7 +17,7 @@
       * [Varbase Starter](developers/understanding-varbase/site-templates/varbase-starter.md)
       * [Educare](developers/understanding-varbase/site-templates/educare.md)
       * [Horizon Aid](developers/understanding-varbase/site-templates/horizon-aid.md)
-      * [The RightUp](developers/understanding-varbase/site-templates/the-rightup.md)
+      * [The Rightup](developers/understanding-varbase/site-templates/the-rightup.md)
     * [Varbase Recipes](developers/understanding-varbase/varbase-recipes/README.md)
       * [Varbase Admin Base](developers/understanding-varbase/varbase-recipes/varbase-admin-base.md)
       * [Varbase Users Base](developers/understanding-varbase/varbase-recipes/varbase-users-base.md)

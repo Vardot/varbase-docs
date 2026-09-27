@@ -1,10 +1,20 @@
 # Horizon Aid
 
-The **Horizon Aid** site template is a site template for NGOs, nonprofits, charities, foundations, and humanitarian aid organizations. It is built on Varbase with the [Vartheme BS5 Horizon Aid](https://www.drupal.org/project/vartheme_bs5_horizonaid) front-end theme.
+**Horizon Aid** is a site template for NGOs, nonprofits, charities, foundations, and humanitarian aid organizations. It is built the Drupal recipe-first way, with the [**Vartheme BS5 Horizon Aid**](https://www.drupal.org/project/vartheme_bs5_horizonaid) front-end theme, and works on both Drupal CMS and the Varbase project.
 
 ## Drupal.org Project
 
 [https://www.drupal.org/project/horizonaid](https://www.drupal.org/project/horizonaid)
+
+## Demo
+
+[https://horizonaid.demos.vardot.com/](https://horizonaid.demos.vardot.com/)
+
+## Release and Requirements
+
+- Latest release: **1.0.5** (27 September 2026), see the [release notes](https://www.drupal.org/project/horizonaid/releases/1.0.5).
+- Drupal core `^11.3`, on Drupal CMS 2 or on Varbase 11 (`drupal/varbase_project:~11.0.0`).
+- PHP 8.4, see [Requirements](../../installing-varbase/requirements.md).
 
 ## Recipe Type
 
@@ -12,9 +22,9 @@ Site recipe (full site template)
 
 ## Overview
 
-Horizon Aid composes the Varbase base recipes, installs its own theme, and adds what is its own: the pages, the Drupal Canvas patterns, and the demo content.
+Horizon Aid composes the Varbase and Drupal CMS base recipes, installs its own theme, and adds what is its own: the pages, the **Drupal Canvas** patterns, and the demo content.
 
-It ships home, about, our impact, our programs, resources, events, countries, and donate pages, all built with Drupal Canvas. Demo content fills them: countries, programs, events, blog posts, media, and menus. Blog posts cover field updates and reports.
+It ships home, about, our impact, our programs, resources, events, countries, newsletter, and donate pages, all built with Drupal Canvas out of the Vartheme BS5 Horizon Aid components. Every listing is a view rendered through a card view mode, so adding or unpublishing content updates the site without editing a page. Demo content fills them: countries, programs, events, blog posts, media, and menus.
 
 ## What You Get
 
@@ -22,6 +32,7 @@ It ships home, about, our impact, our programs, resources, events, countries, an
 - **Varbase base recipes**: users, admin, security, media, editor, content, workflow, SEO, webform, page, blog, events and performance.
 - **Vartheme BS5 Horizon Aid** installed and set as the default theme, with the front page set to `/home`.
 - **Country**: a country presence page with our role, work on the ground, key figures and partners. Twelve countries ship as demo content.
+- **Program**: a programme of work, listed on the **Our Programs** page.
 - **Event**: from Varbase Events Base, with dates, location, categories and an events listing.
 - **Blog post**: from Varbase Blog Base, for field updates and reports.
 - **Demo media and menus**, so a fresh install looks like a working site rather than an empty shell.
@@ -53,24 +64,39 @@ Horizon Aid adds two content types of its own, on top of the content types that 
 
 A site template is applied **during** the site installation, so it is chosen in the installer rather than applied to a site that is already installed.
 
-### Horizon Aid on top of Drupal CMS with DDEV
+### Set Up Locally on Drupal CMS With DDEV
+
+You need [DDEV](https://docs.ddev.com/en/stable/users/install/) installed. These steps follow the [DDEV Drupal CMS quickstart](https://docs.ddev.com/en/stable/users/quickstart/#drupal-drupal-cms) and were tested on Drupal CMS 2.2.0 with Drupal core 11.4.8.
 
 ```bash
-mkdir -p ~/workspace/projects/my-drupal-site-horizonaid
-cd ~/workspace/projects/my-drupal-site-horizonaid
-ddev config --project-type=drupal11 --docroot=web
+mkdir my-drupal-site-horizonaid
+cd my-drupal-site-horizonaid
+ddev config --project-type=drupal11 --docroot=web --php-version=8.4
+ddev start
 ddev composer create-project drupal/cms
 ddev composer require drupal/horizonaid
-ddev drush si -y ../recipes/horizonaid
+ddev drush site:install -y ../recipes/horizonaid
+ddev drush cache:rebuild
 ddev launch
 ```
 
-### Horizon Aid on top of the Varbase project with DDEV
+{% hint style="info" %}
+Add `--site-name="Horizon Aid"` to the `site:install` line to name the site; without it the site is named "Drush Site-Install". Keep the cache rebuild: right after install the home page can serve a cached 404 until the cache is rebuilt. Without DDEV, run the same `composer` and `drush` commands without the `ddev` prefix.
+{% endhint %}
+
+{% hint style="warning" %}
+The Drupal CMS browser installer only offers the site templates on its curated list. Adding Horizon Aid to that list is proposed in [drupal\_cms #3591475](https://git.drupalcode.org/project/drupal_cms/-/work_items/3591475) and is not merged yet, so on Drupal CMS install it with `drush site:install` as above.
+{% endhint %}
+
+### Set Up on the Varbase Project With DDEV
+
+See [Installing Varbase With DDEV](../../installing-varbase/installing-varbase-with-ddev.md) for the full guide.
 
 ```bash
-mkdir -p ~/workspace/projects/my-varbase-horizonaid-site
-cd ~/workspace/projects/my-varbase-horizonaid-site
+mkdir my-varbase-horizonaid-site
+cd my-varbase-horizonaid-site
 ddev config --project-type=drupal11 --docroot=web --php-version=8.4
+ddev start
 ddev composer create-project drupal/varbase_project:~11
 ddev composer require drupal/horizonaid:~1
 ddev launch
