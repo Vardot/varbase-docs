@@ -42,4 +42,4 @@ Apply the recipe using Drush:
 ddev drush recipe ../recipes/varbase_search_base
 ```
 
-This recipe is automatically applied when using the RightUp site template.
+This recipe is automatically applied when using [The Rightup](../site-templates/the-rightup.md) site template.
