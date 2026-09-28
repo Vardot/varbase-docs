@@ -1,6 +1,6 @@
 # Site Templates
 
-A **site template** is a Drupal recipe of `type: Site`. It composes a whole site out of smaller recipes: the base recipes, a theme, the pages, and the demo content. Vardot's site templates work on both Drupal CMS and the Varbase project.
+A **site template** is a Drupal recipe of `type: Site`. It is what you choose in the installer's **Choose a site template** step, and it composes a whole site out of smaller recipes: the base recipes, a theme, the pages, and the demo content. Vardot's site templates work on both Drupal CMS and the Varbase project.
 
 A site template is applied **during** the site installation. It is not applied with `drush recipe` on a site that is already installed.
 
@@ -15,12 +15,22 @@ A site template is applied **during** the site installation. It is not applied w
 
 ## Installing a Site Template
 
-- **On Drupal CMS**: require the template with Composer, then install the site with `drush site:install ../recipes/<recipe>`. Each template's page has the DDEV steps under **Set Up Locally on Drupal CMS With DDEV**.
-- **On the Varbase project**: require the template with Composer, then select it in the browser installer's **Choose a site template** step, which lists every site template recipe in the project. Varbase Starter comes with the Varbase project.
+- **On Drupal CMS**: all four are listed in the Drupal CMS installer. Create a Drupal CMS project, open it in the browser, and choose the template on the **Choose a site template** step. Each card is **Created by Vardot** and links to Learn more, Demo and Documentation. Varbase Starter's card is named **Varbase**.
+- **Scripted or CI installs**: require the template with Composer, then install the site with `drush site:install ../recipes/<recipe>`.
+- **On the Varbase project**: require the template with Composer, then select it in the Varbase installer's **Choose a site template** step, which lists every site template recipe in the project. Varbase Starter comes with the Varbase project.
 
-{% hint style="info" %}
-The Drupal CMS browser installer only offers the site templates on its curated list. Adding all four Vardot site templates to that list is proposed in [#3591475](https://git.drupalcode.org/project/drupal_cms/-/work_items/3591475), [#3591477](https://git.drupalcode.org/project/drupal_cms/-/work_items/3591477), [#3591478](https://git.drupalcode.org/project/drupal_cms/-/work_items/3591478), and [#3591479](https://git.drupalcode.org/project/drupal_cms/-/work_items/3591479). None of them is merged yet.
-{% endhint %}
+Each template's page has the DDEV steps for all three.
+
+```bash
+mkdir my-drupal-site && cd my-drupal-site
+ddev config --project-type=drupal11 --docroot=web
+ddev composer create-project drupal/cms
+ddev launch
+```
+
+<figure><img src="../../../.gitbook/assets/Site Templates - Drupal CMS Installer - Choose a Site Template.png" alt="The Choose a site template step of the Drupal CMS installer, with the Blank, Starter and Byte templates at the top"><figcaption><p>The Choose a Site Template Step in the Drupal CMS Installer</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Site Templates - Drupal CMS Installer - Vardot Site Templates.png" alt="The Varbase, The Rightup, Educare and Horizon Aid cards in the Drupal CMS installer, each created by Vardot, next to other site templates"><figcaption><p>The Vardot Site Templates in the Drupal CMS Installer</p></figcaption></figure>
 
 ## What a Site Template Owns
 

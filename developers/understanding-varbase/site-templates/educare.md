@@ -60,9 +60,24 @@ Educare adds one content type of its own, on top of the content types that come 
 
 A site template is applied **during** the site installation, so it is chosen in the installer rather than applied to a site that is already installed.
 
-### Set Up Locally on Drupal CMS With DDEV
+### Install With the Drupal CMS Installer
 
-You need [DDEV](https://docs.ddev.com/en/stable/users/install/) installed. These steps follow the [DDEV Drupal CMS quickstart](https://docs.ddev.com/en/stable/users/quickstart/#drupal-drupal-cms) and were tested on Drupal CMS 2.2.0 with Drupal core 11.4.8.
+Educare is listed in the Drupal CMS installer. You need [DDEV](https://docs.ddev.com/en/stable/users/install/) installed; see also the [DDEV Drupal CMS quickstart](https://docs.ddev.com/en/stable/users/quickstart/#drupal-drupal-cms).
+
+```bash
+mkdir my-drupal-site && cd my-drupal-site
+ddev config --project-type=drupal11 --docroot=web
+ddev composer create-project drupal/cms
+ddev launch
+```
+
+In the browser, choose the **Educare** card (Created by Vardot) on the **Choose a site template** step and finish the installation. No `composer require` is needed.
+
+<figure><img src="../../../.gitbook/assets/Site Templates - Drupal CMS Installer - Educare Card.png" alt="The Educare card in the Drupal CMS installer, created by Vardot, with its description and the Learn more, Demo and Documentation links" width="390"><figcaption><p>The Educare Card in the Drupal CMS Installer</p></figcaption></figure>
+
+### Scripted Install With Composer and Drush
+
+For scripted or CI installs, require the template and install the site with Drush. Tested on Drupal CMS 2.2.0 with Drupal core 11.4.8.
 
 ```bash
 mkdir my-drupal-site-educare
@@ -78,10 +93,6 @@ ddev launch
 
 {% hint style="info" %}
 Add `--site-name="Educare"` to the `site:install` line to name the site; without it the site is named "Drush Site-Install". Keep the cache rebuild: right after install the home page can serve a cached 404 until the cache is rebuilt. Without DDEV, run the same `composer` and `drush` commands without the `ddev` prefix.
-{% endhint %}
-
-{% hint style="warning" %}
-The Drupal CMS browser installer only offers the site templates on its curated list. Adding Educare to that list is proposed in [drupal\_cms #3591477](https://git.drupalcode.org/project/drupal_cms/-/work_items/3591477) and is not merged yet, so on Drupal CMS install it with `drush site:install` as above.
 {% endhint %}
 
 ### Set Up on the Varbase Project With DDEV

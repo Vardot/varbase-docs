@@ -73,9 +73,24 @@ The Rightup adds no content type of its own. What it owns is the editorial prese
 
 A site template is applied **during** the site installation, so it is chosen in the installer rather than applied to a site that is already installed.
 
-### Set Up Locally on Drupal CMS With DDEV
+### Install With the Drupal CMS Installer
 
-You need [DDEV](https://docs.ddev.com/en/stable/users/install/) installed. These steps follow the [DDEV Drupal CMS quickstart](https://docs.ddev.com/en/stable/users/quickstart/#drupal-drupal-cms) and were tested on Drupal CMS 2.2.0 with Drupal core 11.4.8.
+The Rightup is listed in the Drupal CMS installer. You need [DDEV](https://docs.ddev.com/en/stable/users/install/) installed; see also the [DDEV Drupal CMS quickstart](https://docs.ddev.com/en/stable/users/quickstart/#drupal-drupal-cms).
+
+```bash
+mkdir my-drupal-site && cd my-drupal-site
+ddev config --project-type=drupal11 --docroot=web
+ddev composer create-project drupal/cms
+ddev launch
+```
+
+In the browser, choose the **The Rightup** card (Created by Vardot) on the **Choose a site template** step and finish the installation. No `composer require` is needed.
+
+<figure><img src="../../../.gitbook/assets/Site Templates - Drupal CMS Installer - The Rightup Card.png" alt="The Rightup card in the Drupal CMS installer, created by Vardot, with its description and the Learn more, Demo and Documentation links" width="390"><figcaption><p>The Rightup Card in the Drupal CMS Installer</p></figcaption></figure>
+
+### Scripted Install With Composer and Drush
+
+For scripted or CI installs, require the template and install the site with Drush. Tested on Drupal CMS 2.2.0 with Drupal core 11.4.8.
 
 ```bash
 mkdir my-drupal-site-rightup
@@ -93,10 +108,6 @@ ddev launch
 Add `--site-name="The Rightup"` to the `site:install` line to name the site; without it the site is named "Drush Site-Install". Keep the cache rebuild: right after install the home page can serve a cached 404 until the cache is rebuilt. Without DDEV, run the same `composer` and `drush` commands without the `ddev` prefix.
 {% endhint %}
 
-{% hint style="warning" %}
-The Drupal CMS browser installer only offers the site templates on its curated list. Adding The Rightup to that list is proposed in [drupal\_cms #3591478](https://git.drupalcode.org/project/drupal_cms/-/work_items/3591478) and is not merged yet, so on Drupal CMS install it with `drush site:install` as above.
-{% endhint %}
-
 ### Set Up on the Varbase Project With DDEV
 
 See [Installing Varbase With DDEV](../../installing-varbase/installing-varbase-with-ddev.md) for the full guide.
@@ -111,4 +122,4 @@ ddev composer require drupal/rightup:~1
 ddev launch
 ```
 
-Finish the installation in the browser and select **Rightup** (the name the installer shows) in the **Choose a site template** step.
+Finish the installation in the browser and select **Rightup** (the name the Varbase installer shows) in the **Choose a site template** step.
