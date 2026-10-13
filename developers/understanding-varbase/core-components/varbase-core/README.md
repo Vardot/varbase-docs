@@ -120,22 +120,6 @@ The response token gives `[token:status]`, `[token:client_error]` (`0` on succes
 The action does not send cookies, upload files or accept free-form Guzzle request options. This is by design.
 {% endhint %}
 
-### Updating From ECA Helper
-
-Since `varbase_core` **10.1.71**, **Varbase Core** no longer requires the **ECA Helper** module, which the Drupal Security Team marked as unsupported ([SA-CONTRIB-2026-193](https://www.drupal.org/sa-contrib-2026-193)). The update moves existing **ECA** models from the **ECA Helper** HTTP request action to the **Varbase Core** one, then uninstalls **ECA Helper** when nothing else needs it.
-
-```
-ddev composer update drupal/varbase_core
-ddev composer require drupal/eca_helper
-ddev drush updb
-ddev drush pm:uninstall eca_helper
-ddev composer remove drupal/eca_helper
-```
-
-{% hint style="warning" %}
-If your own **ECA** models use other **ECA Helper** actions, keep the module with `composer require drupal/eca_helper` and skip the last two commands.
-{% endhint %}
-
 ## Sub modules&#x20;
 
 The following sub modules are packaged in the **Varbase Core** module
@@ -175,6 +159,22 @@ The following sub modules are packaged in the **Varbase Core** module
 {% content-ref url="../../deprecated-components/varbase-updates-helper.md" %}
 [varbase-updates-helper.md](../../deprecated-components/varbase-updates-helper.md)
 {% endcontent-ref %}
+
+## Updating From ECA Helper
+
+Since `varbase_core` **10.1.71**, **Varbase Core** no longer requires the **ECA Helper** module, which the Drupal Security Team marked as unsupported ([SA-CONTRIB-2026-193](https://www.drupal.org/sa-contrib-2026-193)). The update moves existing **ECA** models from the **ECA Helper** HTTP request action to the **Varbase Core** one, then uninstalls **ECA Helper** when nothing else needs it.
+
+```
+ddev composer update drupal/varbase_core
+ddev composer require drupal/eca_helper
+ddev drush updb
+ddev drush pm:uninstall eca_helper
+ddev composer remove drupal/eca_helper
+```
+
+{% hint style="warning" %}
+If your own **ECA** models use other **ECA Helper** actions, keep the module with `composer require drupal/eca_helper` and skip the last two commands.
+{% endhint %}
 
 
 
