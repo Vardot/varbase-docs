@@ -100,7 +100,41 @@ Brings in the following core and contributed modules to your site:
 | [**ECA: Event - Condition - Action**](https://www.drupal.org/project/eca)                    | ECA is a powerful, versatile, and user-friendly rules engine for Drupal. The core module is a processor that validates and executes event-condition-action plugins.                |
 | [**BPMN.iO**](https://www.drupal.org/project/bpmn_io)                                        | BPMN.iO is a BPMN modeller for [ECA](https://www.drupal.org/project/eca) and is fully integrated into Drupal's admin UI. BPMN modeler, integrated into Drupal's admin UI.          |
 | [**ECA Tamper Integration**](https://www.drupal.org/project/eca_tamper)                      | Integrate ECA with the tamper module and its plugins available as actions.                                                                                                         |
-| [**ECA Helper**](https://www.drupal.org/project/eca_helper)                                  | Add helper functions for ECA module.                                                                                                                                               |
+
+## HTTP Request ECA Action
+
+**Varbase Core** provides an **HTTP request** action for **ECA** models (plugin ID `varbase_core_http_request`). It sends a request to another site and keeps the response in a token, so later steps of the model can use it. The **User login notification** model that comes with **Varbase Email** uses it to look up where a login came from.
+
+| Setting                       | What it does                                                                                       |
+| ----------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Method**                    | `GET`, `POST`, `PUT`, `PATCH`, `DELETE` or `HEAD`.                                                 |
+| **URL**                       | The address to call. Only `http` and `https` addresses work, and tokens in it are replaced.        |
+| **Data**                      | What to send, as raw text, JSON or URL-encoded form data.                                          |
+| **Query and headers**         | Query parameters and request headers, written as YAML.                                             |
+| **Timeout**                   | How many seconds to wait for an answer. The default is 5 and the most allowed is 30.               |
+| **Response token name**       | The token that holds the response.                                                                 |
+
+The response token gives `[token:status]`, `[token:client_error]` (`0` on success, `1` on an HTTP or connection error), `[token:body]`, `[token:json]` when the answer is JSON, and `[token:headers]`.
+
+{% hint style="info" %}
+The action does not send cookies, upload files or accept free-form Guzzle request options. This is by design.
+{% endhint %}
+
+### Updating From ECA Helper
+
+Since `varbase_core` **10.1.71**, **Varbase Core** no longer requires the **ECA Helper** module, which the Drupal Security Team marked as unsupported ([SA-CONTRIB-2026-193](https://www.drupal.org/sa-contrib-2026-193)). The update moves existing **ECA** models from the **ECA Helper** HTTP request action to the **Varbase Core** one, then uninstalls **ECA Helper** when nothing else needs it.
+
+```
+ddev composer update drupal/varbase_core
+ddev composer require drupal/eca_helper
+ddev drush updb
+ddev drush pm:uninstall eca_helper
+ddev composer remove drupal/eca_helper
+```
+
+{% hint style="warning" %}
+If your own **ECA** models use other **ECA Helper** actions, keep the module with `composer require drupal/eca_helper` and skip the last two commands.
+{% endhint %}
 
 ## Sub modules&#x20;
 
