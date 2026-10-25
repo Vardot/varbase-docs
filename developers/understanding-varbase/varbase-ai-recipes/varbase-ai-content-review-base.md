@@ -11,7 +11,7 @@ Varbase AI
 [https://www.drupal.org/project/varbase\_ai\_content\_review\_base](https://www.drupal.org/project/varbase_ai_content_review_base)
 
 {% hint style="warning" %}
-**Alpha release.** Version 1.0.0-alpha1. AI Content Review has no stable release yet. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
+**Alpha release.** AI Content Review has no stable release yet. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
 {% endhint %}
 
 ## What It Adds
@@ -21,7 +21,7 @@ Varbase AI
 - An **Editorial review** rule on every content type, passing at 70 and warning at 50.
 - Permissions: **Content Editor** runs reviews and views records. **Content Admin** and **Site Admin** also configure reviews and run batch reviews.
 
-The agents read the site's style guide from **Varbase AI Context** when it is there: brand voice, approved terms and audience personas.
+The agents read the site's style guide from **Varbase AI Context** when it is there: brand voice, approved terms and audience personas. Without the **Varbase AI Context** items, the agents fall back to general rules: a clear, professional voice, flagging only clearly inappropriate terms, and a general reader. Change the style guide in **AI Context**, not in the agents.
 
 ## Before You Apply
 
@@ -32,16 +32,19 @@ Apply [**Varbase AI Base**](varbase-ai-base.md) first. It sets a default chat mo
 Add the recipe with Composer, then apply it with Drush:
 
 ```bash
-ddev composer require drupal/varbase_ai_content_review_base:~1.0.0@alpha
+ddev composer require drupal/varbase_ai_content_review_base:~1
 ddev drush cr
 ddev drush recipe ../recipes/varbase_ai_content_review_base
 ddev drush cr
 ```
-
-Add `drupal/varbase_ai_content_review_base` to the recipe unpack ignore list first, as described in [Installing the Alpha Recipes](README.md#installing-the-alpha-recipes).
 
 ## Usage
 
 Open any content item and its **Review** tab. Manage the rules at **Administration** \ **AI** \ **Tools & Automation** \ _**AI Content Review**_.
 
 Each review makes one model call per criterion, four per content item.
+
+## Known Limitations
+
+- Reviews run on demand from the **Review** tab, or in batch from the queue. A review does not run on its own when content is sent for review.
+- Running a review again on unchanged content can answer **HTTP 409**, because **AI Content Review** skips input it has already reviewed.

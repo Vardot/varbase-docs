@@ -11,7 +11,7 @@ Varbase AI
 [https://www.drupal.org/project/varbase\_ai\_chatbot\_base](https://www.drupal.org/project/varbase_ai_chatbot_base)
 
 {% hint style="warning" %}
-**Alpha release.** Version 1.0.0-alpha1. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
+**Alpha release.** This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
 {% endhint %}
 
 ## What It Adds
@@ -29,13 +29,11 @@ Apply in this order: [**Varbase AI Base**](varbase-ai-base.md), one vector datab
 Add the recipe with Composer, then apply it with Drush:
 
 ```bash
-ddev composer require drupal/varbase_ai_chatbot_base:~1.0.0@alpha
+ddev composer require drupal/varbase_ai_chatbot_base:~1
 ddev drush cr
 ddev drush recipe ../recipes/varbase_ai_chatbot_base
 ddev drush cr
 ```
-
-Add `drupal/varbase_ai_chatbot_base` to the recipe unpack ignore list first, as described in [Installing the Alpha Recipes](README.md#installing-the-alpha-recipes).
 
 ## Usage
 
@@ -46,3 +44,11 @@ On a Drupal Canvas theme the chatbot block cannot be placed yet: Canvas does not
 {% endhint %}
 
 Varbase's consent manager asks visitors before the chatbot loads, because their questions are sent to the AI provider.
+
+On a theme that renders block regions, use these block settings: placement **Bottom right**, streaming **off** (with streaming on, the retrieved context was dropped mid-answer at times), and a first message saying the chatbot answers only from the site's pages.
+
+## Where Data Goes
+
+- The content stays in Drupal and in the vector database the site owner chooses.
+- Indexing sends each content chunk to the embeddings provider once, and again when the content changes.
+- Each answer sends the visitor's question and the retrieved passages to the chat model provider. Choose a provider whose data terms fit the site, or a self-hosted model.

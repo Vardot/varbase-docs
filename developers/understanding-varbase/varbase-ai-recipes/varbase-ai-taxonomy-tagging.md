@@ -21,16 +21,32 @@ Brings in the following core and contributed modules to your site:
 | **Taxonomy** _(in Drupal core)_ | Enables the categorization of content. |
 | [**AI Core**](https://www.drupal.org/project/ai) | Provides an abstraction layer for AI services. |
 | [**AI Automators**](https://www.drupal.org/project/ai) | Allows AI and other tools and services to automatically generate field values on content creation. |
+| [**Field Widget Actions**](https://www.drupal.org/project/field_widget_actions) | Adds the **Suggest tags** button to the tags field. |
 
-## Configuration
+## Install-Time Inputs
 
-During installation, the recipe accepts an input for the content type machine name (e.g. `blog`, `article`, `page`) to enable AI taxonomy tagging on.
+| Input | Purpose |
+|---|---|
+| **Content type** | The machine name of the content type to tag, for example `blog` or `page`. |
+| **Taxonomy field** | The taxonomy reference field to fill, for example `field_tags`. |
+| **Base field** | The text field the tags are generated from, for example `field_content` or `body`. |
+
+The content type must already have both fields. Tags are chosen from the vocabulary the taxonomy field points to.
+
+The recipe tags one content type per run. Apply it again for each content type, with the same taxonomy field, so they all share one vocabulary. Applying it again to a content type that is already tagged changes nothing. On Varbase, **Blog post** and **Page** both have a `field_tags` field on the shared **Tags** vocabulary.
+
+## Suggest Tags Button
+
+The recipe adds a **Suggest tags** button beside the tags field on the content form. Editors click it to fill the field, then remove or add tags before they save. This needs **AI Core** 1.5 or later and the **Field Widget Actions** module, which the recipe installs.
+
+Tags are also generated on save while the field is still empty. Each save of an untagged item makes one request to the AI provider.
 
 ## Installation
 
-Apply the recipe using Drush:
+Add the recipe with Composer, then apply it with Drush:
 
 ```bash
+ddev composer require drupal/varbase_ai_taxonomy_tagging:~2
 ddev drush recipe ../recipes/varbase_ai_taxonomy_tagging
 ```
 

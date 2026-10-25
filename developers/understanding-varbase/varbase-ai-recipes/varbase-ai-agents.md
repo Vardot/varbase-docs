@@ -17,6 +17,6 @@ Apply [**Varbase AI Base**](varbase-ai-base.md) first.
 ## Installation
 
 ```bash
-ddev composer require drupal/varbase_ai_agents:~1.0.0
+ddev composer require drupal/varbase_ai_agents:~1
 ddev drush recipe ../recipes/varbase_ai_agents
 ```

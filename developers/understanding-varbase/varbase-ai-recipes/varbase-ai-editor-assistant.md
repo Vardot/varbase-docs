@@ -25,9 +25,10 @@ During installation, the recipe accepts an optional input for the CKEditor 5 tex
 
 ## Installation
 
-Apply the recipe using Drush:
+Add the recipe with Composer, then apply it with Drush:
 
 ```bash
+ddev composer require drupal/varbase_ai_editor_assistant:~2
 ddev drush recipe ../recipes/varbase_ai_editor_assistant
 ```
 
