@@ -17,10 +17,11 @@ Depends on the following recipes:
 | [**Varbase AI Editor Assistant**](varbase-ai-editor-assistant.md) | CKEditor 5 AI-powered writing assistant. |
 | [**Varbase AI Taxonomy Tagging**](varbase-ai-taxonomy-tagging.md) | AI-powered automatic taxonomy term assignment. |
 | [**Varbase AI Context**](varbase-ai-context.md) | Context Control Center with starter brand, editorial and safety context items. |
+| [**Varbase AI Content Review Base**](varbase-ai-content-review-base.md) | Scored AI review of any content item against the site's style guide. |
 | [**Varbase AI Safety**](varbase-ai-safety.md) | Prompt safety and PII guardrails, image safety, AI logging and AI observability. |
 
 {% hint style="info" %}
-The development branch of **Varbase AI Base** also applies [**Varbase AI Content Review Base**](varbase-ai-content-review-base.md) by default, and requires all the Varbase AI recipes so they ship in the project codebase. This is not in a release yet.
+**Varbase AI Base** requires all the Varbase AI recipes, so they ship in the project codebase and can be applied when a site needs them.
 {% endhint %}
 
 ## Included Modules
