@@ -51,6 +51,7 @@
       * [Varbase AI Context](developers/understanding-varbase/varbase-ai-recipes/varbase-ai-context.md)
       * [Varbase AI Safety](developers/understanding-varbase/varbase-ai-recipes/varbase-ai-safety.md)
       * [Varbase AI Figma Base](developers/understanding-varbase/varbase-ai-recipes/varbase-ai-figma-base.md)
+      * [Varbase AI Media Base](developers/understanding-varbase/varbase-ai-recipes/varbase-ai-media-base.md)
     * [Drupal CMS Recipes](developers/understanding-varbase/drupal-cms-recipes/README.md)
       * [Drupal CMS Admin UI](developers/understanding-varbase/drupal-cms-recipes/drupal-cms-admin-ui.md)
       * [Drupal CMS Anti-Spam](developers/understanding-varbase/drupal-cms-recipes/drupal-cms-anti-spam.md)
