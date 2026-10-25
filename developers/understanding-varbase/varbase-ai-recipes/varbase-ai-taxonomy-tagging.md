@@ -31,9 +31,16 @@ Brings in the following core and contributed modules to your site:
 | **Taxonomy field** | The taxonomy reference field to fill, for example `field_tags`. |
 | **Base field** | The text field the tags are generated from, for example `field_content` or `body`. |
 
-The content type must already have both fields. Tags are chosen from the vocabulary the taxonomy field points to.
+The defaults are `blog`, `field_tags` and `field_content`. The content type must already have both fields, or the apply stops before it changes anything. Tags are chosen from the vocabulary the taxonomy field points to.
 
 The recipe tags one content type per run. Apply it again for each content type, with the same taxonomy field, so they all share one vocabulary. Applying it again to a content type that is already tagged changes nothing. On Varbase, **Blog post** and **Page** both have a `field_tags` field on the shared **Tags** vocabulary.
+
+Educare and The Rightup have no **Blog** content type: use `news` there.
+
+```bash
+ddev drush recipe ../recipes/varbase_ai_taxonomy_tagging \
+  --input=varbase_ai_taxonomy_tagging.content_type=news
+```
 
 ## Suggest Tags Button
 
