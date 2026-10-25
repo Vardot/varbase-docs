@@ -19,6 +19,7 @@ This approach allows site builders to adopt only the AI features they need, keep
 | [Varbase AI Context](varbase-ai-context.md) | Installs Context Control Center (CCC) with starter brand, editorial, and safety context items for all AI agents. |
 | [Varbase AI Safety](varbase-ai-safety.md) | Bundles prompt safety, PII protection, AI logging with retention, and AI observability for enterprise/GDPR deployments. |
 | [Varbase AI Figma Base](varbase-ai-figma-base.md) | Sets up the Figma-to-Canvas flow: the AI Figma engine, the Varbase customization for Vartheme BS5, and the Drupal Canvas AI Orchestrator wiring. |
+| [Varbase AI Media Base](varbase-ai-media-base.md) | Generates images and SVGs with AI from the Media Library, with the AI Media module and two AI media types for editors. |
 
 ## Architecture
 
