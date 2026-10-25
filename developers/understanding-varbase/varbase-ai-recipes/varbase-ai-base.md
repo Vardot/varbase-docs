@@ -45,6 +45,15 @@ ddev drush recipe ../recipes/varbase_ai_base
 
 The sub-recipes are applied in the order of the table above.
 
+{% hint style="info" %}
+[**Varbase AI Taxonomy Tagging**](varbase-ai-taxonomy-tagging.md) tags the **Blog** content type by default. On a site without it, such as [Educare](../site-templates/educare.md) or [The Rightup](../site-templates/the-rightup.md), pass another content type, or the apply stops with a validation error on `field.field.node.blog.field_tags`:
+
+```bash
+ddev drush recipe ../recipes/varbase_ai_base \
+  --input=varbase_ai_taxonomy_tagging.content_type=news
+```
+{% endhint %}
+
 ## Usage
 
 Once installed, navigate to the AI dashboard to configure your AI provider credentials and review the default settings.
