@@ -16,6 +16,12 @@ Depends on the following recipes:
 | [**Varbase AI Image Alt**](varbase-ai-image-alt.md) | AI-powered automatic alt text generation for images. |
 | [**Varbase AI Editor Assistant**](varbase-ai-editor-assistant.md) | CKEditor 5 AI-powered writing assistant. |
 | [**Varbase AI Taxonomy Tagging**](varbase-ai-taxonomy-tagging.md) | AI-powered automatic taxonomy term assignment. |
+| [**Varbase AI Context**](varbase-ai-context.md) | Context Control Center with starter brand, editorial and safety context items. |
+| [**Varbase AI Safety**](varbase-ai-safety.md) | Prompt safety and PII guardrails, image safety, AI logging and AI observability. |
+
+{% hint style="info" %}
+On the 1.0.x development branch, **Varbase AI Base** also applies [**Varbase AI Content Review Base**](varbase-ai-content-review-base.md) by default, and requires all the Varbase AI recipes so they ship in the project codebase. The latest release, 1.0.1, does not include this yet.
+{% endhint %}
 
 ## Included Modules
 
@@ -37,4 +43,8 @@ ddev drush recipe ../recipes/varbase_ai_base
 
 ## Usage
 
-Once installed, navigate to the AI dashboard to configure your AI provider credentials and review the default settings. All other Varbase AI recipes are bundled with this base recipe, so applying it will install the full Varbase AI feature set.
+Once installed, navigate to the AI dashboard to configure your AI provider credentials and review the default settings.
+
+**Varbase AI Safety** needs a default chat model. If the AI provider cannot set one during the apply, set up a provider and a default chat model first.
+
+The other Varbase AI recipes are applied separately, on demand. See the [apply order](README.md#apply-order).

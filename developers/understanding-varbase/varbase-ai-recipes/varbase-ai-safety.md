@@ -19,6 +19,19 @@ This recipe applies the following safety layers in one step:
 - **PII Protection set**: Detects email addresses, credit card numbers, IBANs, and international phone numbers.
 - **AI Logging**: Captures prompts and responses with a configurable retention window.
 - **AI Observability**: Surfaces AI agent activity and metrics for compliance reporting.
+- **Image safety**: Images uploaded to the **Image** media type are checked by the site's vision model and refused when they are not suitable for a general audience.
+
+## Image Safety
+
+Every image uploaded to the **Image** media type, from the media add form or the media library, is sent to the site's default vision model. It is refused when it shows nudity, sexually suggestive content, gore, graphic violence or graphic medical imagery, and the editor sees why.
+
+- The rule is an **AI image safety (Media: Image)** rule set. Edit its prompt or message at **Administration** \ **Structure** \ _**Field Validation**_.
+- It fails closed: when the provider errors or the model is removed, uploads are refused until it is back.
+- Applying the recipe again keeps an edited rule set as it is.
+
+{% hint style="warning" %}
+**Requirement:** a default model for **Chat with Image Vision** at **Administration** \ **Configuration** \ **AI** \ _**AI settings**_. The recipe stops before it changes anything when none is set.
+{% endhint %}
 
 ## Recipe Dependencies
 
@@ -35,6 +48,8 @@ Depends on the following recipes:
 |---|---|
 | [**AI Logging**](https://www.drupal.org/project/ai_logging) | Logs AI prompt and response payloads with retention controls. |
 | [**AI Observability**](https://www.drupal.org/project/ai_observability) | Provides reporting and dashboards over AI usage data. |
+| [**Field Validation**](https://www.drupal.org/project/field_validation) | Runs the image safety rule on uploaded images. |
+| [**AI Validations**](https://www.drupal.org/project/ai_validations) | Lets a validation rule ask an AI model. |
 
 ## Configuration
 
