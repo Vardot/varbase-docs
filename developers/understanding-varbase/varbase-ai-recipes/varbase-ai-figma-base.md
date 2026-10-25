@@ -8,7 +8,7 @@ Varbase AI
 
 ## Drupal.org Project
 
-[https://www.drupal.org/project/varbase\_ai\_figma](https://www.drupal.org/project/varbase_ai_figma)
+[https://www.drupal.org/project/varbase\_ai\_figma\_base](https://www.drupal.org/project/varbase_ai_figma_base)
 
 The recipe ships in the `recipes/` folder of a Varbase project, so it can be applied on demand with no extra Composer step.
 
