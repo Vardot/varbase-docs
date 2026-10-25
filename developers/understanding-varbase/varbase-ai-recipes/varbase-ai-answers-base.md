@@ -11,7 +11,7 @@ Varbase AI
 [https://www.drupal.org/project/varbase\_ai\_answers\_base](https://www.drupal.org/project/varbase_ai_answers_base)
 
 {% hint style="warning" %}
-**Alpha release.** Version 1.0.0-alpha1. AI Search is experimental and AI Answers is in beta. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
+**Alpha release.** AI Search is experimental and AI Answers is in beta. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
 {% endhint %}
 
 ## What It Adds
@@ -36,13 +36,11 @@ ddev drush cr
 Add the recipe with Composer, then apply it with Drush:
 
 ```bash
-ddev composer require drupal/varbase_ai_answers_base:~1.0.0@alpha
+ddev composer require drupal/varbase_ai_answers_base:~1
 ddev drush cr
 ddev drush recipe ../recipes/varbase_ai_answers_base
 ddev drush cr
 ```
-
-Add `drupal/varbase_ai_answers_base` to the recipe unpack ignore list first, as described in [Installing the Alpha Recipes](README.md#installing-the-alpha-recipes).
 
 Then index the content, and on a **Vartheme BS5** site apply the pattern:
 
@@ -59,3 +57,18 @@ Open a Canvas page in the editor, insert the **Ask AI (cited answers)** pattern 
 {% hint style="info" %}
 Each question costs one embeddings call and one chat call.
 {% endhint %}
+
+## Checking It
+
+```bash
+ddev drush search-api:status content_vector
+ddev drush search-api:search content_vector "mobile first websites"
+```
+
+A good answer carries a URL for each source. The no-answer message with no sources means search returned nothing: check the index status, the vector database settings and the AI log.
+
+## Known Limitations
+
+- Search has no language filter, so a passage in another language can be used. The agent still answers in the visitor's language.
+- A Canvas page cited as a source shows in full inside the **Sources** card, because Canvas pages have no teaser view mode. Content items show as teasers.
+- The pattern stores the component versions of the **AI Answers** blocks. A site that generated other versions needs the pattern regenerated. Read the active versions with `ddev drush cget canvas.component.block.ai_answers_question active_version`, and the same for `ai_answers_answer` and `ai_answers_sources`.

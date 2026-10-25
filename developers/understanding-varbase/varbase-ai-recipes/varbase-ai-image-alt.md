@@ -25,6 +25,18 @@ Brings in the following contributed modules to your site:
 | [**AI Image Alt Text**](https://www.drupal.org/project/ai_image_alt_text) | Provides the possibility to fill out the alt text of an image field using AI. |
 | [**AI Image Bulk Alt Text**](https://www.drupal.org/project/ai_image_alt_text) | Adds the possibility to bulk change the alt text. |
 
+## Configuration
+
+The recipe:
+
+- Adds **Image description** and **Image tags** fields to the **Image** media type, the **Image Classification** vocabulary and an image style for AI vision. The tags use the **Tagify** widget.
+- Adds two **AI Automators** that run on save: one writes the description from the image, the other picks the tags from the description.
+- Grants **Site Admin**, **SEO Admin**, **Content Admin** and **Content Editor** the `generate ai alt tags` permission, plus create, edit, select and view terms in **Image Classification**.
+
+It adds fields to the **Image** media type only, never to a content type. Content types take images through their media fields and **Add Media**.
+
+The field, vocabulary and image style names match the [**AI Image Classification**](https://www.drupal.org/project/ai_recipe_image_classification) recipe, so both recipes can be applied on one site without duplicate fields.
+
 ## Requirements
 
 - The **Drupal CMS AI** recipe applied first.
@@ -34,10 +46,10 @@ Each image saved with an empty description or empty tags makes AI calls, includi
 
 ## Installation
 
-Apply the recipe using Drush:
+Add the recipe with Composer, then apply it with Drush:
 
 ```bash
-ddev composer require drupal/varbase_ai_image_alt:~2.0.0
+ddev composer require drupal/varbase_ai_image_alt:~2
 ddev drush recipe ../recipes/varbase_ai_image_alt
 ```
 

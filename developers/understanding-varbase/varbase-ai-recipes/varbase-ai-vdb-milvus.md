@@ -13,7 +13,7 @@ Varbase AI
 [https://www.drupal.org/project/varbase\_ai\_vdb\_milvus](https://www.drupal.org/project/varbase_ai_vdb_milvus)
 
 {% hint style="warning" %}
-**Alpha release.** Version 1.0.0-alpha1. The Milvus VDB provider has no stable release yet. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
+**Alpha release.** The Milvus VDB provider has no stable release yet. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
 {% endhint %}
 
 ## What It Adds
@@ -42,13 +42,11 @@ It does not create a search index. That is the job of **Varbase AI Search Base**
 Add the recipe with Composer, then apply it with Drush:
 
 ```bash
-ddev composer require drupal/varbase_ai_vdb_milvus:~1.0.0@alpha
+ddev composer require drupal/varbase_ai_vdb_milvus:~1
 ddev drush cr
 ddev drush recipe ../recipes/varbase_ai_vdb_milvus
 ddev drush cr
 ```
-
-Add `drupal/varbase_ai_vdb_milvus` to the recipe unpack ignore list first, as described in [Installing the Alpha Recipes](README.md#installing-the-alpha-recipes).
 
 For a local Milvus in DDEV, add the service before applying the recipe:
 
@@ -69,8 +67,46 @@ Then create the `varbase_ai_search` database that **Varbase AI Search Base** use
 ddev exec 'curl -s http://milvus:19530/v2/vectordb/databases/create -X POST -H "Content-Type: application/json" -d "{\"dbName\":\"varbase_ai_search\"}"'
 ```
 
-For a remote server, set `MILVUS_SERVER`, `MILVUS_PORT` and `MILVUS_API_KEY` in the environment, then apply with `--input=varbase_ai_vdb_milvus.api_key=milvus_api_key`.
-
 {% hint style="warning" %}
 The local DDEV Milvus has no authorization. Keep it on the private DDEV network and never publish its ports.
 {% endhint %}
+
+## Where Milvus Runs
+
+| | Local: DDEV | Zilliz Cloud | Your Own Server |
+|---|---|---|---|
+| `MILVUS_SERVER` | `http://milvus` (the default) | `https://<cluster>.zillizcloud.com` | `https://milvus.example.com` |
+| `MILVUS_PORT` | `19530` (the default) | `443` | `19530`, or `443` behind TLS |
+| `MILVUS_API_KEY` | Not set | The Zilliz API token | `root:<password>` |
+| `api_key` input | Empty (the default) | `milvus_api_key` | `milvus_api_key` |
+
+For a remote server, set the three variables in the environment of the web server, never in configuration. In DDEV, use `web_environment` in `.ddev/config.local.yaml`. Then apply with the key:
+
+```bash
+ddev drush recipe ../recipes/varbase_ai_vdb_milvus --input=varbase_ai_vdb_milvus.api_key=milvus_api_key
+```
+
+On a remote server, create the `varbase_ai_search` database the same way as in DDEV, at `<server>:<port>/v2/vectordb/databases/create`, with `-H "Authorization: Bearer $MILVUS_API_KEY"` when the server has authorization.
+
+{% hint style="warning" %}
+Do not pass `api_key=milvus_api_key` while `MILVUS_API_KEY` is unset. The provider then fails with `TypeError: setApiKey(): Argument #1 must be of type string, null given`. Leave `api_key` empty only for a Milvus without authorization.
+{% endhint %}
+
+**Zilliz Cloud:** create a cluster, and copy its public endpoint and API token from the Zilliz console. Zilliz Cloud serverless has no database name to choose; enter any name, such as `default`.
+
+**Your own server:** the DDEV service file is a working starting point. Before it faces anything else, turn on authorization (`COMMON_SECURITY_AUTHORIZATIONENABLED: "true"`) and change the default `root` password. Publish only the REST port, behind a TLS reverse proxy that allows only the site's addresses.
+
+## Different Milvus per Environment
+
+The recipe stores the server and port in configuration, which moves between environments. To use the DDEV Milvus locally and a remote one on the live site, read them from the environment in `settings.php`, which wins over stored configuration:
+
+```php
+$config['ai_vdb_provider_milvus.settings']['server'] = getenv('MILVUS_SERVER') ?: 'http://milvus';
+$config['ai_vdb_provider_milvus.settings']['port'] = (int) (getenv('MILVUS_PORT') ?: 19530);
+$config['ai_vdb_provider_milvus.settings']['api_key'] = getenv('MILVUS_API_KEY') ? 'milvus_api_key' : '';
+```
+
+## Known Limitations
+
+- Clearing a search index drops the collection from the default Milvus database, not from `varbase_ai_search`, so old vectors can stay.
+- A DDEV project that switches to the single-container Milvus service file starts with an empty Milvus. Create the `varbase_ai_search` database again, then index the content again.

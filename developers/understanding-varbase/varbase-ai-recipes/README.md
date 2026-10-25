@@ -19,7 +19,7 @@ This approach allows site builders to adopt only the AI features they need, keep
 | [Varbase AI Context](varbase-ai-context.md) | Installs Context Control Center (CCC) with starter brand, editorial, and safety context items for all AI agents. |
 | [Varbase AI Safety](varbase-ai-safety.md) | Bundles prompt safety, PII protection, image safety checks, AI logging with retention, and AI observability for enterprise/GDPR deployments. |
 | [Varbase AI Figma Base](varbase-ai-figma-base.md) | Sets up the Figma-to-Canvas flow: the AI Figma engine, the Varbase customization for Vartheme BS5, and the Drupal Canvas AI Orchestrator wiring. |
-| [Varbase AI Agents](varbase-ai-agents.md) | An AI chatbot for site administration, with several task agents. |
+| [Varbase AI Figma](varbase-ai-figma.md) | The module behind Figma Base: decides what to reuse before it builds, and ships the Canvas build tools. |
 | [Varbase AI Media Base](varbase-ai-media-base.md) | Generates images and SVGs with AI from the Media Library, with the AI Media module and two AI media types for editors. |
 | [Varbase AI VDB: MariaDB](varbase-ai-vdb-mariadb.md) | MariaDB's built-in vector type as the vector database for AI search. Alpha. |
 | [Varbase AI VDB: Milvus](varbase-ai-vdb-milvus.md) | A Milvus or Zilliz Cloud vector database for AI search. Alpha. |
@@ -48,23 +48,6 @@ Apply the recipes in this order. Each one needs the ones before it.
 4. [**Varbase AI Chatbot Base**](varbase-ai-chatbot-base.md) and [**Varbase AI Answers Base**](varbase-ai-answers-base.md), which answer from that index.
 5. The others, in any order: **Content Review Base**, **Content Operations Base**, **MCP Server Base**, **Readable Base**, **SEO** and **Media Base**. They do not need a vector database. **MCP Server Base** and **Readable Base** do not need **Varbase AI Base** either.
 
-## Installing the Alpha Recipes
-
-The recipes released on 24 October 2026 are **1.0.0-alpha1**. They are early releases and are not covered by the Drupal security advisory policy. Try them on a development site first.
-
-Keep each recipe a locked package before you require it. Without this, Drupal core's recipe unpack plugin moves the recipe's requirements into the project's `composer.json` and drops the recipe itself. List every recipe you plan to use, and add to any list the project already has rather than replacing it:
-
-```bash
-ddev composer config --json extra.drupal-recipe-unpack.ignore '["drupal/varbase_ai_vdb_mariadb", "drupal/varbase_ai_search_base", "drupal/varbase_ai_chatbot_base", "drupal/varbase_ai_answers_base"]'
-```
-
-Then require and apply each recipe:
-
-```bash
-ddev composer require drupal/<recipe_name>:~1.0.0@alpha
-ddev drush cr
-ddev drush recipe ../recipes/<recipe_name>
-ddev drush cr
-```
-
-The `drush cr` before applying lets Drupal see the modules Composer just added.
+{% hint style="info" %}
+Before you require a recipe with Composer, add it to `extra.drupal-recipe-unpack.ignore` in the project's `composer.json`. Otherwise Drupal core's recipe unpack plugin moves the recipe's requirements into the project and drops the recipe itself. Then clear the cache before applying, so Drupal sees the modules Composer added.
+{% endhint %}

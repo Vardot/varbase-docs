@@ -43,6 +43,14 @@ config:
         - global
 ```
 
+## Permissions
+
+The items are created published. **Site Admin**, **SEO Admin**, **Content Admin** and **Content Editor** get the `access published ai context` permission, so the context reaches AI features for editors, not only administrators.
+
+The recipe also raises the limit on global context items to 10, so no starter item is dropped.
+
+**AI Image Alt Text** calls the AI provider directly, so alt text does not receive these items yet.
+
 ## Customizing Scope
 
 After install, narrow or broaden each context item's scope at **Admin → AI → Context**. Available scopes:
@@ -56,11 +64,14 @@ After install, narrow or broaden each context item's scope at **Admin → AI →
 
 ## Installation
 
-Apply the recipe using Drush:
+Add the recipe with Composer, then apply it with Drush:
 
 ```bash
+ddev composer require drupal/varbase_ai_context:~1
 ddev drush recipe ../recipes/varbase_ai_context
 ```
+
+The recipe can also be installed from **Project Browser**, in the Varbase recipes list.
 
 This recipe gives editorial teams a working baseline of brand and safety context without manual configuration. Update the three starter items to match the project's brand voice, editorial conventions, and safety policy.
 

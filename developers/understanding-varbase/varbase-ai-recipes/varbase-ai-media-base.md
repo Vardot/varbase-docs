@@ -10,8 +10,6 @@ Varbase AI
 
 [https://www.drupal.org/project/varbase\_ai\_media\_base](https://www.drupal.org/project/varbase_ai_media_base)
 
-Latest release: [1.0.0-alpha1](https://www.drupal.org/project/varbase_ai_media_base/releases/1.0.0-alpha1) (24 October 2026).
-
 ## Overview
 
 The recipe adds two media types:
@@ -55,7 +53,7 @@ The recipe applies the following configurations:
 
 ## Requirements
 
-- Drupal `^11.4`, **AI Core** `^1.5`, **AI Media** `1.0.0-alpha1`, **SVG Image** `^3.2.5`.
+- Drupal `^11.4`, **AI Core** `^1.5`, **AI Media**, **SVG Image** `^3.2.5`.
 - Default AI providers for `text_to_image` (images) and `chat` (SVGs). The [**Varbase AI Base**](varbase-ai-base.md) recipe sets up the AI stack.
 
 {% hint style="warning" %}
@@ -67,7 +65,7 @@ The recipe applies the following configurations:
 Require the recipe with Composer, then apply it using Drush:
 
 ```bash
-ddev composer require drupal/varbase_ai_media_base:1.0.0-alpha1
+ddev composer require drupal/varbase_ai_media_base:~1
 ddev drush recipe ../recipes/varbase_ai_media_base
 ddev drush cr
 ```
