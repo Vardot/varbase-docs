@@ -10,8 +10,6 @@ This approach allows site builders to adopt only the AI features they need, keep
 
 | Recipe | Description |
 | --- | --- |
-| [Varbase AI](varbase-ai.md) | The Varbase AI module. Installs the core AI modules and applies the default AI setup, image alt text and the CKEditor 5 AI assistant. |
-| [Varbase AI Default](varbase-ai-default.md) | Sets up the OpenAI provider, its key and the default AI models. Applied by the Varbase AI module. |
 | [Varbase AI Base](varbase-ai-base.md) | Installs core AI modules and applies default Varbase AI configurations. Foundation for all other Varbase AI recipes. |
 | [Varbase AI Editor Assistant](varbase-ai-editor-assistant.md) | CKEditor 5 AI-powered features for content creation, including grammar checking and style adjustments. |
 | [Varbase AI Image Alt](varbase-ai-image-alt.md) | AI alt text for images, plus an AI image description and image tags on save. |
@@ -22,7 +20,6 @@ This approach allows site builders to adopt only the AI features they need, keep
 | [Varbase AI Safety](varbase-ai-safety.md) | Bundles prompt safety, PII protection, image safety checks, AI logging with retention, and AI observability for enterprise/GDPR deployments. |
 | [Varbase AI Figma Base](varbase-ai-figma-base.md) | Sets up the Figma-to-Canvas flow: the AI Figma engine, the Varbase customization for Vartheme BS5, and the Drupal Canvas AI Orchestrator wiring. |
 | [Varbase AI Figma](varbase-ai-figma.md) | The module behind Figma Base: decides what to reuse before it builds, and ships the Canvas build tools. |
-| [Varbase AI Agents](varbase-ai-agents.md) | An AI chatbot for site administration, with several task agents. |
 | [Varbase AI Media Base](varbase-ai-media-base.md) | Generates images and SVGs with AI from the Media Library, with the AI Media module and two AI media types for editors. |
 | [Varbase AI VDB: MariaDB](varbase-ai-vdb-mariadb.md) | MariaDB's built-in vector type as the vector database for AI search. Alpha. |
 | [Varbase AI VDB: Milvus](varbase-ai-vdb-milvus.md) | A Milvus or Zilliz Cloud vector database for AI search. Alpha. |

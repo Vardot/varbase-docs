@@ -58,7 +58,6 @@ The other Varbase AI recipes are applied separately, on demand. See the [apply o
 
 | Recipe | What It Adds |
 |---|---|
-| [**Varbase AI Agents**](varbase-ai-agents.md) | An AI chatbot for site administration, with several task agents. |
 | [**Varbase AI Figma Base**](varbase-ai-figma-base.md) | Figma-to-Canvas page building. |
 | [**Varbase AI VDB: MariaDB**](varbase-ai-vdb-mariadb.md) or [**Varbase AI VDB: Milvus**](varbase-ai-vdb-milvus.md) | The vector database for AI search. |
 | [**Varbase AI Search Base**](varbase-ai-search-base.md) | A vector index of the site's content. |
