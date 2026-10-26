@@ -24,6 +24,6 @@ Step-by-step guide to creating a custom sub-theme that extends Vartheme BS5, inc
 
 Build and manage a Vartheme BS5 site visually with **Drupal Canvas** — no code:
 
-* [**Editing the Header and Footer With Drupal Canvas**](drupal-canvas/editing-the-header-and-footer-with-drupal-canvas.md) — the Allow Edit Global Regions permission, the region focus editor, dragging components and changing their props (a Donate button in the header and a Newsletter webform in the footer).
+* [**Editing the Header and Footer With Drupal Canvas**](drupal-canvas/editing-the-header-and-footer-with-drupal-canvas.md): the page template, the Administer page template permission, dragging components and changing their props (a Donate button in the header and a Newsletter webform in the footer).
 * [**Managing Multiple Accordions With Drupal Canvas**](drupal-canvas/managing-multiple-accordions-with-drupal-canvas.md) — dragging the Accordion components from the Library, reordering and managing items in the Layers panel, the "Keep multiple items open" setting, and holding any component inside an accordion (Text, a View, a Block or a Webform).
 * [**Hero Slider Container and Hero Slide With Drupal Canvas**](drupal-canvas/hero-slider-container-and-hero-slide-with-drupal-canvas.md) — building a hero carousel, managing slides in the Layers panel (including inside a Section layout), the container settings (transition, autoplay, indicators, controls, height, controller colour), the slide settings, and one example for each media position.

@@ -1,6 +1,6 @@
 ---
 description: >-
-  Editing a Vartheme BS5 site visually with Drupal Canvas — global regions,
+  Editing a Vartheme BS5 site visually with Drupal Canvas: page templates,
   components and layout, with no code.
 metaLinks:
   alternates:
@@ -11,7 +11,7 @@ metaLinks:
 # Drupal Canvas
 
 **Drupal Canvas** is the visual page builder that ships with **Varbase** and the
-**Vartheme BS5** theme. These guides show how to build and manage pages, regions and
+**Vartheme BS5** theme. These guides show how to build and manage pages, page templates and
 components with Drupal Canvas — no code required.
 
 {% content-ref url="introduction-to-drupal-canvas-in-varbase.md" %}
