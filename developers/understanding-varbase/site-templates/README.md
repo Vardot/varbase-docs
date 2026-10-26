@@ -6,12 +6,12 @@ A site template is applied **during** the site installation. It is not applied w
 
 ## Available Site Templates
 
-| Site template | Description | Latest release | Demo |
+| Site template | Description | Releases | Demo |
 | ------------- | ----------- | -------------- | ---- |
-| [Varbase Starter](varbase-starter.md) | The default site template of Varbase 11, on Vartheme BS5 | 1.0.4 | [Site](https://demo.varbase.vardot.com/), [Storybook](https://storybook.demo.varbase.vardot.com/) |
-| [Educare](educare.md) | Education site template for schools, universities, academies, and e-learning, on Vartheme BS5 Educare | 1.0.5 | [Site](https://educare.demos.vardot.com/) |
-| [Horizon Aid](horizon-aid.md) | NGO and humanitarian site template for nonprofits, charities, foundations, and aid organizations, on Vartheme BS5 Horizon Aid | 1.0.5 | [Site](https://horizonaid.demos.vardot.com/) |
-| [The Rightup](the-rightup.md) | Media, news, and magazine site template for newsrooms, publishers, and editorial teams, on Vartheme BS5 Rightup | 1.0.0 | [Site](https://rightup.demos.vardot.com/) |
+| [Varbase Starter](varbase-starter.md) | The default site template of Varbase 11, on Vartheme BS5 | [Release history](https://www.drupal.org/project/varbase_starter/releases) | [Site](https://demo.varbase.vardot.com/), [Storybook](https://storybook.demo.varbase.vardot.com/) |
+| [Educare](educare.md) | Education site template for schools, universities, academies, and e-learning, on Vartheme BS5 Educare | [Release history](https://www.drupal.org/project/educare/releases) | [Site](https://educare.demos.vardot.com/) |
+| [Horizon Aid](horizon-aid.md) | NGO and humanitarian site template for nonprofits, charities, foundations, and aid organizations, on Vartheme BS5 Horizon Aid | [Release history](https://www.drupal.org/project/horizonaid/releases) | [Site](https://horizonaid.demos.vardot.com/) |
+| [The Rightup](the-rightup.md) | Media, news, and magazine site template for newsrooms, publishers, and editorial teams, on Vartheme BS5 Rightup | [Release history](https://www.drupal.org/project/rightup/releases) | [Site](https://rightup.demos.vardot.com/) |
 
 ## Installing a Site Template
 
