@@ -1,7 +1,7 @@
 ---
 description: >-
-  How to edit and change the global header and footer of a Vartheme BS5 site
-  visually with Drupal Canvas, without writing any code.
+  How to edit and change the header and footer of a Vartheme BS5 site in its
+  Drupal Canvas page template, without writing any code.
 metaLinks:
   alternates:
     - >-
@@ -13,18 +13,17 @@ metaLinks:
 **Varbase** ships with **Drupal Canvas**, a visual page builder, and the
 **Vartheme BS5** (Bootstrap 5) base theme. With Drupal Canvas you can edit the
 site **Header** and **Footer** directly in the browser, with no code and no
-template overrides. The header and footer are **global page regions**: a change
-you publish in one place appears on every page that uses the **Vartheme BS5**
-page template.
+template overrides. The header and footer belong to a **page template**: a
+change you publish to the template appears on every page that uses it.
 
-This page explains how to enable Drupal Canvas page templates, open the editor,
-locate the global **Header** and **Footer** regions, edit their components, and
-publish the result.
+This page explains where the page template comes from, how to open it in the
+editor, edit the header and footer components, and publish the result.
 
 {% hint style="info" %}
-The **Header** and **Footer** are **global regions**. Editing them changes the
-header and footer across the whole site, not just on the page you opened in the
-editor. The page's own content is the separate **Content** region.
+In **Drupal Canvas** 1.11 and later, **page templates** replace the older
+global regions. Each page template is one full-page layout that holds the
+**Header**, the **Footer**, and a **Page content** marker that shows where each
+page's own content appears.
 {% endhint %}
 
 ## Before You Begin
@@ -33,58 +32,52 @@ editor. The page's own content is the separate **Content** region.
   module enabled.
 * **Vartheme BS5** set as the default theme
   (**Administration** \ **Appearance** \ _**Vartheme BS5**_).
-* A user account with the **Allow Edit Global Regions** permission (see
+* A user account with the **Administer page template** permission (see
   **Permissions** below). The **Site Admin** and **Super Admin** roles have it by
   default.
 
 ## Permissions
 
-Editing a global region (any region other than **Content**) is a permissioned
-action. In Drupal Canvas the access check `canvas_entity_access()` (in
-`canvas.module`) forbids `update`, `edit` and `delete` on the header and footer
-**page\_region** entities unless the user has the **Allow Edit Global Regions**
-permission (machine name `edit canvas global regions`).
+Creating and editing page templates, and choosing the site default, needs one
+permission in the **Drupal Canvas** group:
 
 | Permission | Machine name | What it allows |
 | --- | --- | --- |
-| **Allow Edit Global Regions** | `edit canvas global regions` | Edit the global Drupal Canvas page regions (such as the header and footer) of the default active theme. Marked _restrict access_ — give to trusted roles only. |
-| **Administer page template** | `administer page template` | Administer the page‑template (region) configuration; exposes the global‑region tools in the Canvas UI. |
+| **Administer page template** | `administer page template` | Create and edit the page templates that render pages, and choose the site default. |
 
-Grant the permission at **Administration** \ **People** \ _**Permissions**_
+Grant it at **Administration** \ **People** \ _**Permissions**_
 (`/admin/people/permissions/module/canvas`), in the **Drupal Canvas** group.
 
-![Allow Edit Global Regions Permission in the Drupal Canvas Group](<../../../.gitbook/assets/Canvas Header Footer - Allow Edit Global Regions Permission.png>)
-
 {% hint style="warning" %}
-**Allow Edit Global Regions** is a sensitive permission (it is flagged
-"restrict access"). Grant it only to trusted roles such as **Site Admin** and
-**Super Admin**.
+Changes to a page template reach every page that uses it. Grant **Administer
+page template** only to trusted roles, such as **Site Admin** and **Super
+Admin**. Users without it still see the page template in the editor, but cannot
+open it.
 {% endhint %}
 
-## Enabling Drupal Canvas for Page Templates
+## The Vartheme BS5 Page Template
 
-Before the header and footer can be edited in Drupal Canvas, the theme must be
-allowed to use Drupal Canvas for its page templates.
+The page template is created when **Drupal Canvas** is turned on for the theme.
 
 1. Navigate to **Administration** \ **Appearance** \ **Settings** \
    _**Vartheme BS5**_ (`/admin/appearance/settings/vartheme_bs5`).
-2. Open the **Drupal Canvas** section.
-3. Turn on **Use Drupal Canvas for page templates in this theme.**
-4. Under **Exposed regions**, make sure **Header** and **Footer** are checked.
-   The **Content** region is always managed by Drupal Canvas and cannot be
-   unchecked.
-5. Click **Save configuration.**
+2. In the **Drupal Canvas** section, make sure **Use Drupal Canvas for page
+   templates in this theme.** is on.
+3. Click **Save configuration.**
 
-![Enabling Drupal Canvas Page Templates and Exposing the Header and Footer Regions](<../../../.gitbook/assets/Canvas Header Footer - Enable Canvas Page Templates.png>)
+![Use Drupal Canvas for Page Templates in the Vartheme BS5 Settings](<../../../.gitbook/assets/Canvas Header Footer - Use Canvas for Page Templates.png>)
 
-{% hint style="warning" %}
-On a standard **Varbase** install these options are already enabled, so in most
-cases you can skip straight to opening the editor.
+Saving with the option on creates the **Vartheme\_bs5 theme** page template
+from the theme's current header and footer and makes it the site default.
+
+{% hint style="info" %}
+On a standard **Varbase** install this option is already on, so in most cases
+you can skip straight to opening the editor.
 {% endhint %}
 
-## Opening a Page in the Drupal Canvas Editor
+## Opening the Page Template
 
-Global regions are edited from inside any page editor.
+The page template is opened from inside any page editor.
 
 1. Navigate to **Administration** \ **Content** \ _**Pages**_ and open a
    Drupal Canvas page (for example, the **Home** page) in the editor, or go to
@@ -94,26 +87,28 @@ Global regions are edited from inside any page editor.
 
 ![The Drupal Canvas Editor Showing the Home Page With Its Header](<../../../.gitbook/assets/Canvas Header Footer - Page Editor Overview.png>)
 
-## Finding the Global Header and Footer Regions
+3. Open the page template in one of two ways:
+   * In the left toolbar, click the **Layers** icon. The page's **Content** tree
+     sits under a locked layer named after its page template, **Vartheme\_bs5
+     theme**. Click that layer.
+   * In the left toolbar, open the **Templates** panel. Under **Page
+     templates**, click **Vartheme\_bs5 theme** (marked **Default**).
 
-1. In the left toolbar, click the **Layers** icon to open the **Layers** panel.
-2. Scroll to the bottom of the layers tree. Below the page **Content** tree, and
-   separated by a divider, you will find the two global regions: **Header** and
-   **Footer**.
+![The Page Template Layer Above the Page Content in the Layers Panel](<../../../.gitbook/assets/Canvas Header Footer - Layers Page Template.png>)
 
-![The Global Header and Footer Regions at the Bottom of the Layers Panel](<../../../.gitbook/assets/Canvas Header Footer - Layers Global Regions.png>)
+![Page Templates in the Templates Panel](<../../../.gitbook/assets/Canvas Header Footer - Templates Panel Page Templates.png>)
 
-{% hint style="info" %}
-The items inside the page **Content** tree that may also be named "Header" or
-"Footer" are content blocks of that page. The **global** header and footer are
-the two entries below the divider, marked with the region icon.
-{% endhint %}
+On a page, the header and footer components are shown but locked. They are
+edited only in the page template, so a change there applies to every page that
+uses it. The **Page template** setting in a page's **Page data** panel chooses
+which template renders that page.
 
 ## Editing the Header
 
-1. In the **Layers** panel, click the global **Header** region. Drupal Canvas
-   highlights the header in the preview with a green **Header** label and
-   outline.
+In the page template, the **Header** holds a **Section** with the **Site
+Branding** logo, the **Main navigation** menu and the search toggle.
+
+1. In the **Layers** panel of the page template, expand **Header**.
 2. Click any component inside the header (for example, the **Site Branding**
    logo or the **Main navigation** menu) to select it.
 3. Use the settings panel on the right to change the component's properties, or
@@ -121,14 +116,17 @@ the two entries below the divider, marked with the region icon.
 4. Drag components in the **Layers** panel to reorder them, or use a component's
    context menu (**…**) to **Duplicate** or **Delete** it.
 
-![Selecting the Global Header Region in the Drupal Canvas Editor](<../../../.gitbook/assets/Canvas Header Footer - Edit Header Region.png>)
+{% hint style="info" %}
+The **Page content** marker shows where each page's own content appears. It
+cannot be deleted or duplicated, only moved.
+{% endhint %}
 
 ### Example: Adding a Red Outline Donate Button Before the Header Menu
 
 This example drags a ready-made **Button** component into the header, places it
 **before** the **Main navigation** menu, and styles it as a red outline button.
 
-1. Open the **Library** (the **+** icon) and search for **Button**.
+1. Open the **Vartheme\_bs5 theme** page template, then open the **Library** (the **+** icon) and search for **Button**.
 2. **Drag** the **Button** component into the header and drop it **before** the
    **Main navigation** menu. Drupal Canvas shows a drop indicator as you drag.
 3. Select the new button and change its props in the **Settings** panel:
@@ -139,34 +137,27 @@ This example drags a ready-made **Button** component into the header, places it
    * **Link URL** → `/donate`
 4. Click **Publish.**
 
-{% hint style="info" %}
-Double-click a component in a global region to open the **region focus editor**
-(`/canvas/editor/canvas_page/<id>/region/<region>`), where you edit that region on
-its own.
-{% endhint %}
-
 ![Changing the Button Props in the Settings Panel](<../../../.gitbook/assets/Canvas Header Footer - Button Props.png>)
 
 ![The Red Outline Donate Button, Before the Main Menu](<../../../.gitbook/assets/Canvas Header Footer - Example Donate Button.png>)
 
 ## Editing the Footer
 
-1. In the **Layers** panel, click the global **Footer** region. Drupal Canvas
-   highlights the footer in the preview with a green **Footer** label and
-   outline.
+In the page template, the **Footer** holds two **Section** components with the
+footer, secondary and social media menus.
+
+1. In the **Layers** panel of the page template, expand **Footer**.
 2. Edit the footer the same way as the header: select a component to change its
    settings, add new components from the **Library**, reorder them in the
    **Layers** panel, or remove them.
-
-![Selecting the Global Footer Region in the Drupal Canvas Editor](<../../../.gitbook/assets/Canvas Header Footer - Edit Footer Region.png>)
 
 ### Example: Adding a Newsletter Webform Under the Footer Social Menu
 
 This example places the **Newsletter Subscribe** webform in the footer, **under**
 the social media links menu, so visitors can sign up from any page.
 
-1. Select the global **Footer** region (or double-click it to open the region focus
-   editor).
+1. Open the **Vartheme\_bs5 theme** page template and expand **Footer** in the
+   **Layers** panel.
 2. From the **Library**, **drag** a **Webform** block into the same column as the
    **Social media menu**, dropping it **under** that menu.
 3. Select the webform block and, in the **Settings** panel, set **Webform** →
@@ -184,12 +175,13 @@ Drupal Canvas saves your work as an auto-saved draft while you edit. The changes
 are not live until you publish them.
 
 1. Click **Review changes** in the top bar to see what changed.
-2. Click **Publish** to make the new header and footer live across the site.
+2. Click **Publish** to make the new header and footer live on every page that
+   uses the page template.
 
 {% hint style="warning" %}
-Because the header and footer are **global regions**, publishing updates them on
-**every** page that uses the **Vartheme BS5** page template. Review your changes
-before publishing.
+Because the header and footer belong to the page template, publishing updates
+them on **every** page that uses the **Vartheme\_bs5 theme** page template.
+Review your changes before publishing.
 {% endhint %}
 
 ## Related Documentation

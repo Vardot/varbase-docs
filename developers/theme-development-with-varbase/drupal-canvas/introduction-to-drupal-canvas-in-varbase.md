@@ -22,7 +22,7 @@ step by step.
 * **Pages** — full pages you compose from components (for example a landing page).
   Varbase's Home, About, Features, Blog and Contact pages are built this way.
 * **The Header and Footer** — the site-wide bars at the top and bottom of every page. In
-  Drupal Canvas these are **global regions** you can edit visually too.
+  Drupal Canvas they belong to a **page template** you can edit visually too.
 
 ## The Key Ideas
 
@@ -30,7 +30,7 @@ step by step.
 | --- | --- |
 | **Page** | A page you build with Drupal Canvas. All your pages are listed under **Pages**. |
 | **Component** | A ready-made piece you place on the page — a heading, an image, a button, a card, an accordion, a hero slider, a menu, a form, and more. |
-| **Region** | A shared area that appears on every page — mainly the **Header** and **Footer**. Changing a region changes it site-wide. |
+| **Page template** | A shared layout around every page, holding the **Header** and **Footer**. Changing it changes every page that uses it. |
 | **Layout** | Containers such as **Section** and **Columns** that hold components and arrange them side by side or stacked. |
 | **Draft & Publish** | Your edits are saved as a private **draft** while you work. Nothing is live until you **Publish**. |
 
