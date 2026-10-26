@@ -4,14 +4,20 @@ Varbase implements a content moderation workflow that provides editorial control
 
 ## Moderation States
 
-The default content moderation workflow in Varbase includes three states:
+**Blog post** and **Utility page** content use the **Editorial** workflow, which has four states:
 
 ### Draft
 
 - Content is saved in the system but is **not visible to anonymous visitors**.
 - Drafts are only accessible to users with editorial permissions.
 - A content item can have multiple draft revisions before being published.
-- Use Draft for content that is being written, reviewed, or awaiting approval.
+- Use Draft for content that is being written.
+
+### In Review
+
+- Content is ready and waiting for someone to check it.
+- It is **not visible to anonymous visitors**.
+- Use **Send to review** when a draft needs approval before it goes live.
 
 ### Published
 
@@ -19,34 +25,31 @@ The default content moderation workflow in Varbase includes three states:
 - Publishing creates a new published revision of the content.
 - After publishing, you can continue to create new draft revisions without affecting the live version. The published revision remains visible until a new revision is published.
 
-### Archived
+### Archived / Unpublished
 
 - Content is **removed from public view** but is retained in the system.
-- Use Archived for content that has expired or is no longer relevant.
-- Archived content can be returned to Draft or Published at any time.
+- Use it for content that has expired or is no longer relevant.
+- Archived content can be published again, or returned to Draft.
 
 ## State Transitions
 
-The following transitions are available by default:
+The **Editorial** workflow has these transitions:
 
-| From | To | Description |
+| Transition | From | To |
 |---|---|---|
-| Draft | Published | Make content visible to site visitors. |
-| Draft | Draft | Save an updated draft without publishing. |
-| Published | Draft | Create a new draft revision of published content. |
-| Published | Archived | Remove content from public view. |
-| Archived | Draft | Bring archived content back for revision. |
-| Archived | Published | Republish archived content. |
+| **Create new draft** | Draft, In review, Published, Archived / Unpublished | Draft |
+| **Send to review** | Draft, In review | In review |
+| **Publish** | Draft, In review, Published | Published |
+| **Archive / Unpublish** | Published | Archived / Unpublished |
+| **Restore from archive** | Archived / Unpublished | Published |
+
+To review or change the workflow, go to **Administration** \ **Configuration** \ **Workflow** \ _**Workflows**_ (`/admin/config/workflow/workflows`) and edit **Editorial**.
 
 ## Editorial Roles and Permissions
 
-Different user roles have different levels of access to moderation transitions:
+On a new Varbase site, the **Content Editor**, **SEO Admin**, **Content Admin** and **Site Admin** roles can use every **Editorial** transition, including **Publish**. **Super Admin** has unrestricted access.
 
-- **Content Editor**: Can create and edit content, save drafts, and submit content for review. May or may not be able to publish directly, depending on your site's configuration.
-- **Content Admin**: Can publish, unpublish, and archive content. Has broader editorial control.
-- **SEO Admin**: Manages SEO-related fields and meta information. Typically can edit content but may not manage moderation states.
-- **Site Admin**: Full control over all content moderation states and site configuration.
-- **Administrator**: Unrestricted access to all site functionality.
+If your team needs a review step before content goes live, remove the **Editorial workflow: Use Publish transition** permission from the roles that should only send content to review. Set this at **Administration** \ **People** \ _**Permissions**_, in the **Content Moderation** group.
 
 See [Default Roles and Site Personas](user-management/default-roles-and-site-persons/) for details on each role.
 
@@ -71,7 +74,7 @@ Varbase supports **scheduled publishing**, allowing you to set specific dates an
 
 ## Best Practices
 
-1. **Always start with Draft.** Save new content as Draft to allow for review before publishing.
+1. **Always start with Draft.** Save new content as Draft, and use **Send to review** when someone else should approve it before publishing.
 2. **Use revision log messages.** When changing moderation states, add a log message explaining why (e.g., "Reviewed and approved by editor").
 3. **Archive rather than delete.** When content is no longer needed on the live site, archive it rather than deleting it to preserve the historical record.
 4. **Leverage scheduled publishing.** Use the scheduler to prepare content in advance and reduce the need for manual publishing at specific times.
