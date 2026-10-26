@@ -14,7 +14,7 @@ See [System](system/) for details.
 
 ### User Interface
 
-Settings that control the admin user experience, including navigation configuration, quick search tools, and responsive preview options.
+Settings that control the admin user experience, including navigation configuration and quick search tools.
 
 See [User Interface](user-interface/) for details.
 

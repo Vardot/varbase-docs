@@ -70,4 +70,4 @@ Layout Builder can operate in two modes:
 - Plan your layout before building it. Sketch out the section structure and block placement on paper or in a design tool.
 - Use section styles to create visual variety without custom code. See [Section Styles](section/section-styles.md).
 - Keep layouts consistent across similar pages to maintain a professional, cohesive site experience.
-- Preview the layout on different screen sizes to ensure it is responsive. See [Responsive Preview](../site-configuration/user-interface/responsive-preview.md).
+- Preview the layout on different screen sizes to ensure it is responsive. See [Preview Content](../content-management/preview-content.md).

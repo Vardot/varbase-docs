@@ -130,7 +130,7 @@ A content moderation state in which content is live and visible to all site visi
 A Drupal concept for packaging configuration, modules, and default content into a reusable set that can be applied to a site. Varbase uses recipes to provide optional feature bundles (e.g., `varbase_i18n_base` for multilingual support).
 
 ### Responsive Preview
-A feature that allows previewing site pages at different screen sizes, simulating how content appears on various devices.
+An optional module, not included in Varbase 11, that previews site pages at different screen sizes. Drupal Canvas has its own viewport selector for the same purpose.
 
 ### Revision
 A saved version of a content item. Drupal creates a new revision each time content is saved, allowing editors to review change history and revert to previous versions.
