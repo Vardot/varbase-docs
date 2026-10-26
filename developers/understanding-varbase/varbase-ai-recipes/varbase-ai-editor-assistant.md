@@ -21,7 +21,7 @@ Brings in the following contributed modules to your site:
 
 ## Configuration
 
-During installation, the recipe accepts an optional input for the CKEditor 5 text format machine name (e.g. `full_html`, `basic_html`) to configure with AI capabilities.
+During installation, the recipe accepts an optional input for the CKEditor 5 text format machine name to add the AI button to. The default is `full_html` (the **Rich editor** text format). It also grants the **Use AI CKEditor plugin** permission to the **Content Editor**, **SEO Admin**, **Content Admin** and **Site Admin** roles.
 
 ## Installation
 
@@ -36,4 +36,18 @@ This recipe is automatically applied when using the Varbase AI Base recipe.
 
 ## Usage
 
-Once installed, content editors will see an AI assistant button in the CKEditor 5 toolbar. Clicking the button provides access to content generation, grammar checking, and tone adjustment features. The assistant works within the editor context, allowing editors to refine and improve their content in real time.
+Content editors see an **AI Assistant** button in the CKEditor 5 toolbar of the **Rich editor** text format. The recipe turns its menu items on and off as follows:
+
+| Menu item | What it does | Default |
+|---|---|---|
+| **Generate with AI** | Get ideas and text completion from AI. | On |
+| **Modify with a prompt** | Apply your own instructions to the selected text. | On |
+| **Fix spelling** | Fix spelling and punctuation in the selected text. | On |
+| **Summarize** | Summarize the selected text. | On |
+| **Reformat HTML** | Clean up the markup of the selected text. | On |
+| **AI Agents CKEditor** | Let AI agents write the content for you. | On |
+| **Tone** | Change the tone of the selected text. | Off |
+| **Translate** | Translate the selected text into another language. | Off |
+| **Help and Support** | Where to get AI help and support. | Off |
+
+To change them, edit the text format at **Administration** \ **Configuration** \ **Content authoring** \ _**Text formats and editors**_, open the **AI tools** plugin settings, and turn each item on or off.
