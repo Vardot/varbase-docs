@@ -33,7 +33,7 @@ Creating content is one of the most frequent tasks for editors on a Varbase site
 
 ## Tips for Creating Content
 
-- Use the **Preview** button to see how your content will look before saving. See [Preview Content](../preview-content.md) for details.
+- Preview your content before saving, with the **Preview** button or, for content edited in **Drupal Canvas**, the Canvas preview. See [Preview Content](../preview-content.md) for details.
 - Fill in alt text for all images to ensure accessibility compliance.
 - Use meaningful, descriptive titles that help both users and search engines understand the content.
 - Take advantage of the revision log message field to describe what you created or changed. This helps other editors understand the content history.

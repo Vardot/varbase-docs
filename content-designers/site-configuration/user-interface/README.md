@@ -20,7 +20,7 @@ See [Navigation Settings](navigation-settings.md) for details.
 
 ### Responsive Preview
 
-Responsive Preview allows you to test how your site and content appear on different screen sizes and devices without leaving the admin interface.
+Responsive Preview is an optional module, not included in Varbase 11, for testing how your site appears on different screen sizes. Drupal Canvas pages use the Canvas viewport selector instead.
 
 See [Responsive Preview](responsive-preview.md) for details.
 

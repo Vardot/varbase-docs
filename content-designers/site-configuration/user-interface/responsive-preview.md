@@ -1,5 +1,11 @@
 # Responsive Preview
 
+{% hint style="warning" %}
+**Responsive Preview** is not included in Varbase 11. It is an optional contributed module ([Responsive Preview](https://www.drupal.org/project/responsive_preview)) that a developer can add with `composer require drupal/responsive_preview` and then enable. Pages built with **Drupal Canvas** are checked at different screen sizes with the viewport selector in the Canvas editor instead. See [Preview Content](../../content-management/preview-content.md).
+{% endhint %}
+
+The rest of this page applies only to sites that have added the module.
+
 Responsive Preview allows you to test how your site and content appear on different screen sizes and devices directly from the admin interface. This is valuable for ensuring that your content looks good across desktops, tablets, and mobile phones.
 
 ## How to Use Responsive Preview
@@ -49,6 +55,6 @@ Click the **Responsive Preview** icon again or click the close button (X) on the
 ## Tips
 
 - Preview content on at least one mobile, one tablet, and one desktop resolution before publishing.
-- Pay special attention to content with Layout Builder sections that use multiple columns, as these are most likely to be affected by responsive behavior.
+- Pay special attention to sections that use multiple columns, as these are most likely to be affected by responsive behavior.
 - If the preview reveals layout issues, adjust the content, section styles, or image sizes before publishing.
 - Use Responsive Preview in combination with the content Preview button to see exactly how unpublished content will appear on different devices.
