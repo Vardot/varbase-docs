@@ -13,7 +13,7 @@ This section is written for non-technical users who manage content and site conf
 - **Content Management**: Creating, editing, publishing, and deleting content using Varbase's editorial tools.
 - **Content Structure**: Managing EntityQueues, menus, and taxonomies to organize your content.
 - **Content Translation**: Setting up and managing multilingual content.
-- **Content Workflow**: Understanding the content moderation workflow (Draft, Published, Archived).
+- **Content Workflow**: Understanding the content moderation workflow (Draft, In review, Published, Archived / Unpublished).
 - **Layout Builder**: Customizing page layouts with sections and blocks.
 - **Webforms**: Creating and managing forms for user submissions.
 - **Media Management**: Uploading and organizing images, videos, documents, and audio files.

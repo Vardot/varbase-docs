@@ -20,7 +20,7 @@ Varbase defines a set of default user roles, each designed for a specific person
 - **Capabilities:**
   - Create new content items.
   - Edit their own content and, in some configurations, content created by others.
-  - Save content as Draft.
+  - Save content as Draft, send it to review, publish it and archive it.
   - Upload and manage media in the Media Library.
   - Use the rich-text editor (CKEditor 5).
   - Preview content before saving.

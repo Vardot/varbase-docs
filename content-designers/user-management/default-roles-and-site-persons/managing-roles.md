@@ -34,7 +34,7 @@ Alternatively, you can edit permissions for a single role:
 Permissions are organized by module. Key categories include:
 
 - **Node (Content)**: Permissions for creating, editing, and deleting content by content type.
-- **Content Moderation**: Permissions for transitioning content between moderation states (Draft, Published, Archived).
+- **Content Moderation**: Permissions for transitioning content between moderation states (Draft, In review, Published, Archived / Unpublished).
 - **Media**: Permissions for creating, editing, and deleting media items.
 - **Taxonomy**: Permissions for managing taxonomy vocabularies and terms.
 - **Menu**: Permissions for managing menu items.

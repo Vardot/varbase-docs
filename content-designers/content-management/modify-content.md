@@ -35,7 +35,7 @@ Once you have opened the edit form:
 
 1. Modify the fields as needed (title, body, media, taxonomy terms, etc.).
 2. Optionally enter a **Revision log message** describing your changes. This is helpful for other editors reviewing the content history.
-3. Set the appropriate **moderation state** (Draft, Published, or Archived).
+3. Set the appropriate **moderation state** (Draft, In review, Published, or Archived / Unpublished).
 4. Click **Save** to apply your changes.
 
 ## Revision Tracking

@@ -8,7 +8,7 @@ Varbase provides a robust content management system built on Drupal's content ar
 
 - **Content Types**: Pre-defined templates for different kinds of content (e.g., pages, articles, landing pages). Each content type has its own set of fields and configuration.
 - **Content Listing**: A central listing of all content items, accessible at **Content** in the admin navigation or at `/admin/content`.
-- **Content Moderation**: A publishing workflow with states (Draft, Published, Archived) that controls content visibility.
+- **Content Moderation**: A publishing workflow with states (Draft, In review, Published, Archived / Unpublished) that controls content visibility.
 - **Revision Tracking**: Every edit creates a new revision, allowing you to review the history of changes and revert to previous versions.
 - **Bulk Operations**: Perform actions on multiple content items at once using Views Bulk Operations.
 
