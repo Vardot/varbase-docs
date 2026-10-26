@@ -13,7 +13,7 @@
 
 ## Release and Requirements
 
-- Latest release: **1.0.4** (27 September 2026), see the [release notes](https://www.drupal.org/project/varbase_starter/releases/1.0.4).
+- Releases: the 1.0.x line. See the [release history](https://www.drupal.org/project/varbase_starter/releases) for the latest version and its release notes.
 - Drupal core `^11.4`, on Drupal CMS 2 or on Varbase 11 (`drupal/varbase_project:~11.0.0`).
 - PHP 8.4, see [Requirements](../../installing-varbase/requirements.md).
 
