@@ -1,35 +1,17 @@
 # Content Structure
 
-Content structure tools in Varbase help you organize and arrange your site's content in meaningful ways. These tools allow you to control the order of content in curated lists, manage navigation menus, and categorize content using taxonomy vocabularies.
+Content structure covers the tools that organise content rather than create it: menus for navigation, taxonomies for categories and tags, and EntityQueues for hand-picked lists. This section shows how to use each one.
 
-## Overview
+## In This Section
 
-Varbase provides three primary content structure mechanisms:
+| Tool | What it does | Where to find it |
+| --- | --- | --- |
+| [Menu Management](menu-management/) | Builds the site navigation, such as the main menu and footer links. | **Structure** \ **Menus** (`/admin/structure/menu`) |
+| [Taxonomies](taxonomies/) | Groups content with categories and tags. | **Structure** \ **Taxonomy** (`/admin/structure/taxonomy`) |
+| [EntityQueues](entityqueues/) | Keeps a list of content in an order you choose. | **Structure** \ **Entityqueues** (`/admin/structure/entityqueue`) |
 
-### EntityQueues
+All three are in the **Administration** menu of the **Navigation** sidebar, under **Structure**.
 
-EntityQueues allow you to create manually ordered lists of content. Unlike views that sort content automatically by date or title, EntityQueues give you full control over the order of items in a list. This is useful for curated content sections such as featured articles, staff directories, or highlighted resources.
+<!-- <figure><img src="../../.gitbook/assets/structure-overview-01-structure-menu.png" alt="The Structure item open in the Navigation sidebar, with Menus, Taxonomy and Entityqueues highlighted"><figcaption><p>Content Structure Tools Under Structure</p></figcaption></figure> -->
 
-See [EntityQueues](entityqueues/) for details.
-
-### Menu Management
-
-Menus define the navigation structure of your site. Varbase provides default menus for main navigation, footer links, and administrative navigation. You can add, edit, reorder, and remove menu items to control how visitors navigate your site.
-
-See [Menu Management](menu-management/) for details.
-
-### Taxonomies
-
-Taxonomies provide a way to categorize and tag content using structured vocabularies. Common uses include tags, categories, departments, or content topics. Taxonomy terms can be used to filter and organize content in views and listings.
-
-See [Taxonomies](taxonomies/) for details.
-
-## Accessing Content Structure Tools
-
-All content structure tools are accessible from the **Structure** section of the admin navigation sidebar:
-
-- **EntityQueues**: Structure > EntityQueues
-- **Menus**: Structure > Menus
-- **Taxonomy**: Structure > Taxonomy
-
-Additional structural features (content types, block types, views, etc.) are also available under the Structure section for users with appropriate permissions.
+Other items under **Structure**, such as **Content types** and **Views**, are for site builders and developers.

@@ -1,58 +1,38 @@
 # Add Terms
 
-This guide explains how to add new taxonomy terms to a vocabulary on your Varbase site.
+This page shows how to add terms to a vocabulary: one at a time, several at once, or while writing content.
 
-## Adding a Single Term
+## Adding One Term
 
-1. Navigate to **Structure > Taxonomy** in the admin navigation sidebar, or go to `/admin/structure/taxonomy`.
-2. Find the vocabulary you want to add a term to.
-3. Click **List terms** next to the vocabulary.
-4. Click the **Add term** button at the top of the page.
-5. Fill in the term fields:
-   - **Name**: The name of the term (required). This is the label that will be displayed when the term is used.
-   - **Description**: An optional description of the term. This may be displayed on the term's listing page depending on your site's configuration.
-   - **URL alias**: Optionally set a custom URL path for the term's page. If left blank, Pathauto may generate an alias automatically.
-   - **Relations**: Optionally assign a parent term to create a hierarchical structure within the vocabulary.
-6. Click **Save** to create the term.
+1. Go to **Structure** \ **Taxonomy** and click **List terms** next to the vocabulary, for example **Tags**.
+2. Click **Add term**.
+3. Fill in the form:
+   - **Name** (required): the label, as visitors will see it.
+   - **Description**: optional; may show on the term's page.
+   - **Relations**: optional; choose a parent term to place it under.
+   - **URL alias**: optional; a readable address for the term's page, such as `/tags/security`. Leave it empty to use the default address.
+   - **Published**: leave ticked to show the term on the site.
+4. Click **Save**.
 
-## Adding Terms via Taxonomy Manager
+<!-- <figure><img src="../../../.gitbook/assets/structure-taxonomies-02-add-term.png" alt="The Add term form for Tags with the Name, Description, Relations and URL alias fields"><figcaption><p>Adding a Term</p></figcaption></figure> -->
 
-For bulk term management, Varbase provides the **Taxonomy Manager** module, which offers an enhanced interface for managing terms.
+## Adding Several Terms With Taxonomy Manager
 
-### Using Taxonomy Manager
+**Taxonomy Manager** shows a vocabulary as a tree and adds many terms at once.
 
-1. Navigate to **Structure > Taxonomy** and click **List terms** for the desired vocabulary.
-2. If Taxonomy Manager is enabled, you will see an enhanced term management interface.
-3. The Taxonomy Manager provides:
-   - A tree view of all terms in the vocabulary.
-   - Inline editing of term names.
-   - Drag-and-drop reordering.
-   - Bulk add capability for entering multiple terms at once.
-   - Search and filter tools for large vocabularies.
+1. Go to **Structure** \ **Taxonomy manager** (`/admin/structure/taxonomy_manager/voc`) and click the vocabulary.
+2. Click **Add**.
+3. Type one term per line, and choose a parent if needed.
+4. Click **Add**.
 
-### Bulk Adding Terms
+<!-- <figure><img src="../../../.gitbook/assets/structure-taxonomies-03-taxonomy-manager.png" alt="Taxonomy Manager showing the Tags tree on the left and the Add terms box with several names, one per line"><figcaption><p>Adding Terms With Taxonomy Manager</p></figcaption></figure> -->
 
-With Taxonomy Manager, you can add multiple terms at once:
+## Adding a Tag While Writing
 
-1. Use the bulk add feature (if available in your site's configuration).
-2. Enter each new term on a separate line.
-3. Submit to create all terms at once.
-
-This is particularly useful when setting up a new vocabulary or importing a large set of categories.
-
-## Adding Terms While Editing Content
-
-Some taxonomy reference fields allow you to add new terms directly from the content editing form:
-
-1. While creating or editing content, find the taxonomy field (e.g., Tags or Categories).
-2. If the field uses an autocomplete widget, type the name of a new term.
-3. If the term does not exist and the field is configured to allow it, the new term will be created automatically when you save the content.
-
-**Note:** This capability depends on the field configuration. Not all taxonomy fields allow adding new terms inline.
+In a blog post or utility page, type a new tag in **Tags** and press **Enter**. The tag is created when you save the content.
 
 ## Tips
 
-- Use consistent naming conventions for terms (e.g., capitalize the first letter, use singular form).
-- Avoid creating duplicate terms. Before adding a new term, search the existing terms to check if a similar one already exists.
-- Plan your taxonomy structure in advance. A well-organized taxonomy makes content easier to find and manage.
-- For hierarchical vocabularies, assign parent terms to create logical groupings (e.g., "Fruits" as a parent, with "Apples" and "Oranges" as children).
+- Search the vocabulary first, so you do not add a second "SEO" next to "Seo".
+- Use one style: for example, capitalise each tag the same way.
+- Prefer a few well-used tags to many tags used once.

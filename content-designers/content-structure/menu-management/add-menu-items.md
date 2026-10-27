@@ -1,50 +1,40 @@
 # Add Menu Items
 
-This guide explains how to add new links to a menu on your Varbase site.
+This page shows how to add a link to a menu, either from the menu itself or from a utility page's form.
 
-## Steps to Add a Menu Item
+## Adding a Link From the Menu
 
-1. **Navigate to the menu.**
-   - Go to **Structure > Menus** in the admin navigation sidebar, or navigate to `/admin/structure/menu`.
-   - Find the menu you want to add a link to (e.g., Main navigation, Footer).
-   - Click **Edit menu** to open the menu management page.
+1. Go to **Structure** \ **Menus** and click **Edit menu** next to the menu, for example **Main navigation**.
+2. Click **Add link**.
+3. Fill in the form:
+   - **Menu link title**: the text visitors see.
+   - **Link**: start typing the title of a page on your site and pick it, or enter a full address such as `https://example.com`. Use `<front>` for the home page, or `<nolink>` for a heading that only opens a drop-down.
+   - **Enabled**: leave ticked to show the link.
+   - **Description**: optional text shown when visitors hover over the link.
+   - **Show as expanded**: tick to always show this link's sub-items.
+   - **Parent link**: choose where the link sits; keep the menu name for a top-level link.
+   - **Weight**: optional; you can drag to reorder later.
+4. Click **Save**.
 
-2. **Add a new link.**
-   - Click the **Add link** button at the top of the menu management page.
+<!-- <figure><img src="../../../.gitbook/assets/structure-menus-02-add-link.png" alt="The Add menu link form with the Menu link title, Link, Enabled, Description, Show as expanded, Parent link and Weight fields"><figcaption><p>The Add Menu Link Form</p></figcaption></figure> -->
 
-3. **Configure the menu item.**
+{% hint style="info" %}
+Under **Attributes**, you can also set the **Link target** (for example, to open the link in a new tab) and other options. Leave them empty unless you need them.
+{% endhint %}
 
-   Fill in the following fields:
+## Adding a Link From a Utility Page
 
-   - **Menu link title**: The text that will be displayed for the link. Choose a clear, concise title that tells visitors what they will find when they click.
-   - **Link**: The URL for the link. You can enter:
-     - An internal path (e.g., `/about-us` or start typing a page title for autocomplete suggestions).
-     - An external URL (e.g., `https://example.com`).
-     - `<front>` to link to the homepage.
-     - `<nolink>` to create a non-clickable parent item (useful for dropdown menu headings).
-   - **Enabled**: Check this box to make the menu item visible on the site. Uncheck to hide it without deleting it.
-   - **Description**: An optional description that appears as a tooltip when visitors hover over the link.
-   - **Show as expanded**: If checked, the menu item's children will always be displayed (useful for dropdown menus).
-   - **Parent link**: Select a parent item to nest this link under an existing menu item, creating a hierarchical structure. Leave as the top-level menu to place it at the root level.
-   - **Weight**: A number that determines the order of the item relative to its siblings. Lower numbers appear first. You can also adjust order later using drag and drop.
+1. Create or edit a **Utility page**.
+2. In the sidebar, open **Menu settings** and tick **Provide a menu link**.
+3. Enter the **Menu link title** and choose the **Parent link** in **Main navigation** or **Footer**.
+4. Save the page.
 
-4. **Save the menu item.**
-   - Click **Save** to add the link to the menu.
+<!-- <figure><img src="../../../.gitbook/assets/structure-menus-03-menu-settings.png" alt="The Menu settings section in the sidebar of a utility page form, with Provide a menu link ticked and the link title and parent filled in"><figcaption><p>Adding a Menu Link From a Utility Page</p></figcaption></figure> -->
 
-## Adding Menu Items from Content
-
-You can also add a content item to a menu directly from the content editing form:
-
-1. Open the content item for editing.
-2. Expand the **Menu settings** section (usually in the sidebar).
-3. Check **Provide a menu link**.
-4. Fill in the menu link title and select the parent item.
-5. Save the content. The menu link will be created automatically.
+Blog posts and Drupal Canvas pages do not have **Menu settings**; add their links from the menu.
 
 ## Tips
 
-- Keep menu titles short and descriptive. Visitors should understand what to expect from each link.
-- Limit the depth of menu nesting. Two levels (parent and child) is generally sufficient for most navigation menus. Deeply nested menus can be difficult for visitors to use.
-- Use `<nolink>` for parent items that serve only as category headings in dropdown menus.
-- Test the menu after adding items to verify that links work correctly and the menu structure is logical.
-- Remember to clear the cache if menu changes do not appear immediately on the live site.
+- Keep link titles short; the main menu has limited room, especially on phones.
+- Use at most two levels: a link and its sub-items.
+- Check the menu on the site after saving, including on a phone.
