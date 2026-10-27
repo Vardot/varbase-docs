@@ -113,12 +113,11 @@ Finish the installation in the browser and select **Educare** in the **Choose a 
 
 ### Add Varbase AI
 
-Educare has no **Blog** content type, which [Varbase AI Taxonomy Tagging](../varbase-ai-recipes/varbase-ai-taxonomy-tagging.md) tags by default. Point it at **News** when you apply [Varbase AI Base](../varbase-ai-recipes/varbase-ai-base.md):
+Apply [Varbase AI Base](../varbase-ai-recipes/varbase-ai-base.md). Its [Varbase AI Taxonomy Tagging](../varbase-ai-recipes/varbase-ai-taxonomy-tagging.md) tags **Page** by default. To tag **News** as well, apply Taxonomy Tagging again:
 
 ```bash
 ddev composer require drupal/varbase_ai_base:~1
-ddev drush recipe ../recipes/varbase_ai_base \
+ddev drush recipe ../recipes/varbase_ai_base
+ddev drush recipe ../recipes/varbase_ai_taxonomy_tagging \
   --input=varbase_ai_taxonomy_tagging.content_type=news
 ```
-
-To tag **Page** as well, apply Taxonomy Tagging again with `--input=varbase_ai_taxonomy_tagging.content_type=page`.
