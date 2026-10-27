@@ -1,60 +1,33 @@
 # Clearing Cache
 
-Drupal uses an extensive caching system to improve site performance by storing rendered pages, configuration, and other computed data. Sometimes you need to clear the cache to force the system to rebuild this stored data, especially after making configuration changes.
+Varbase keeps ready-made copies of pages, menus and settings, called the cache, so pages load quickly. Normally your changes show straight away. If one does not, clearing the cache makes the site build fresh copies. This page shows how.
 
 ## When to Clear the Cache
 
-You may need to clear the cache when:
+- A change you saved does not show on the site, even after reloading the page.
+- A menu or a setting change is not showing.
+- Your development team asks you to.
 
-- Configuration changes do not appear on the site immediately.
-- Menu changes or block placements are not reflected on the front end.
-- Theme changes (CSS, templates) are not visible.
-- You encounter unexpected behavior after changing settings.
-- A site administrator or developer advises you to do so.
+Try reloading the page first, and check you are looking at the right environment.
 
-## Methods to Clear the Cache
+## Clearing All Caches
 
-### From the Admin Interface
+1. In the **Navigation** sidebar, open **Administration** \ **Tools**.
+2. Click **Flush all caches**.
 
-1. Navigate to **Configuration > Development > Performance**, or go to `/admin/config/development/performance`.
-2. Click the **Clear all caches** button.
-3. Wait for the system to rebuild the cache. This may take a few seconds.
+<!-- <figure><img src="../../../.gitbook/assets/site-config-cache-01-tools.png" alt="The Tools menu open in the Navigation sidebar with Flush all caches, Flush individual cache and Run cron"><figcaption><p>Flushing the Caches From Tools</p></figcaption></figure> -->
 
-### Using Navigation Extra Tools
+Varbase shows a message when it is done. The next few pages may load a little slower while the cache is rebuilt.
 
-Varbase includes **Navigation Extra Tools** which provides a quick cache flush link directly in the admin toolbar:
+## Clearing One Kind of Cache
 
-1. Look for the cache clear option in the admin navigation sidebar or toolbar.
-2. Click the link to flush the cache without navigating to the Performance page.
+**Tools** \ **Flush individual cache** lists separate caches, such as **Flush CSS and JavaScript** or **Flush render cache**. Use one of these when your development team names it; it is lighter than flushing everything on a busy site.
 
-This is the quickest method for clearing the cache during routine content management tasks.
+## Who Can Clear the Cache
 
-### Using Drush (Command Line)
-
-For users with command-line access to the server, Drush provides the fastest way to clear the cache:
-
-```
-drush cr
-```
-
-This command rebuilds all caches and is commonly used by developers and site administrators working in terminal environments.
-
-## What Happens When You Clear the Cache
-
-When you clear the cache:
-
-1. All cached pages, configuration, and computed data are removed.
-2. The next page request triggers a rebuild of the necessary caches.
-3. The first page load after clearing the cache may be slower than usual, as the system regenerates cached data.
-4. Subsequent page loads will return to normal speed once caches are rebuilt.
-
-## Cache and Performance
-
-Clearing the cache temporarily reduces site performance because the system must rebuild all cached data. Avoid clearing the cache unnecessarily, especially on high-traffic production sites. Only clear the cache when you have a specific reason to do so.
+The **Content Admin**, **Site Admin** and **Super Admin** roles. A **Super Admin** can also use **Clear all caches** on **Configuration** \ **Development** \ _**Performance**_ (`/admin/config/development/performance`).
 
 ## Tips
 
-- If a change you made is not appearing on the site, try clearing the cache before troubleshooting further.
-- Use the Navigation Extra Tools quick flush link for the fastest cache clearing experience.
-- On production sites, try to clear the cache during low-traffic periods to minimize the performance impact.
-- If clearing the cache does not resolve an issue, the problem may be unrelated to caching. Consult your development team for further troubleshooting.
+- Clearing the cache on a busy live site makes it slower for a short time. Do it when it is needed, not as a habit.
+- If a change still does not show after clearing the cache, tell your development team which page and what you changed.

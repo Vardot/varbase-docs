@@ -1,44 +1,31 @@
 # System
 
-System configuration covers site-wide settings that affect performance, caching, analytics tracking, and other core operational aspects of your Varbase site.
+The **System** area holds the settings that keep the site running: its name and home page, caching, and scheduled tasks. This page explains each one and who can change it.
 
-## Overview
+## Site Information
 
-Key system configuration topics include:
+**Configuration** \ **System** \ _**Basic site settings**_ (`/admin/config/system/site-information`) holds:
 
-### Caching and Performance
+- **Site name** and **Slogan**: shown in the browser tab, the header and emails.
+- **Email address**: the address site emails come from.
+- **Default front page**: the page that opens at your site's main address. A Drupal Canvas page can also be made the home page with **Set as homepage** in the editor's **Pages** panel.
+- **Error pages**: the pages shown for "access denied" and "page not found".
 
-Drupal's caching system stores rendered pages and data to improve site performance. Clearing the cache is sometimes necessary after making configuration changes.
+These settings need the **Super Admin** role.
 
-See [Clearing Cache](clearing-cache.md) for details.
+## Caching
 
-### Analytics
+Varbase keeps ready-made copies of pages so the site is fast. Your changes normally show at once. See [Clearing Cache](clearing-cache.md) for when they do not.
 
-Track visitor behavior and site usage with analytics tools like Google Analytics or Google Tag Manager.
+## Scheduled Tasks (Cron)
 
-See [Google Analytics](google-analytics.md) for details.
+Cron runs background tasks on a timer: publishing scheduled content, rebuilding the sitemap and clearing old logs. Your hosting runs it regularly. A **Content Admin** or **Site Admin** can also start it with **Tools** \ **Run cron** in the **Navigation** sidebar.
 
-### Site Information
+## Analytics
 
-Basic site information can be configured at **Configuration > System > Basic site settings** (`/admin/config/system/site-information`), including:
+See [Google Analytics](google-analytics.md).
 
-- **Site name**: The name of your site, displayed in the browser title bar and various site locations.
-- **Site slogan**: An optional tagline or description.
-- **Email address**: The site-wide email address used for system notifications.
-- **Default front page**: The URL path used as the site's homepage.
-- **Error pages**: Custom pages to display for 403 (access denied) and 404 (page not found) errors.
+## In This Section
 
-### Cron
-
-Cron is a scheduled task system that runs periodic maintenance operations such as:
-
-- Checking for module and theme updates.
-- Indexing content for search.
-- Cleaning up temporary files.
-- Processing queued tasks.
-
-Cron settings can be configured at **Configuration > System > Cron** (`/admin/config/system/cron`).
-
-## Accessing System Configuration
-
-Navigate to **Configuration** in the admin navigation sidebar and look for the **System** section, or go directly to `/admin/config/system`.
+- [Clearing Cache](clearing-cache.md)
+- [Google Analytics](google-analytics.md)

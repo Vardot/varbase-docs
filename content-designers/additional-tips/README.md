@@ -1,6 +1,6 @@
 # Additional Tips
 
-This section provides helpful tips, best practices, and reference material for content editors and administrators working with Varbase 11.0.x.
+This section gives tips, best practices and reference material for editors and administrators working with Varbase 11.
 
 ## In This Section
 
@@ -13,7 +13,7 @@ This section provides helpful tips, best practices, and reference material for c
 
 - Draft your content in a text editor or planning tool before entering it into the CMS.
 - Review content for accuracy, grammar, and formatting before publishing.
-- Use the content moderation workflow (Draft > Published) to ensure proper review.
+- Use the content workflow (Draft, In review, Published) so a colleague can check content before it goes live.
 
 ### Keep Content Consistent
 

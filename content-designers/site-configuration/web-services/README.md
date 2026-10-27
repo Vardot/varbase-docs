@@ -1,42 +1,16 @@
 # Web Services
 
-Varbase supports web services that enable programmatic access to site content and configuration through APIs. These capabilities allow external applications, mobile apps, and frontend frameworks to interact with your Drupal site.
+Web services let other applications, such as a mobile app or a partner website, read your content from Varbase in a structured way. Editors do not use them directly, but it helps to know they exist: content you publish may also appear in those applications.
 
-## Overview
+## What Varbase Provides
 
-### JSON:API
+- **JSON:API**: a standard way for other applications to read content, media and terms.
+- **OpenAPI**: documentation of what the API offers, for developers. See [OpenAPI](openapi.md).
 
-Drupal core includes **JSON:API**, which provides a standards-compliant API for accessing and manipulating content entities (nodes, media, taxonomy terms, users, etc.). JSON:API follows the JSON:API specification and provides:
+Settings are at **Configuration** \ **Web services** (`/admin/config/services`) and are managed by a **Super Admin** or your development team.
 
-- Read access to published content.
-- Create, update, and delete operations (for authenticated users with appropriate permissions).
-- Filtering, sorting, and pagination of content listings.
-- Relationship handling between entities.
+## What This Means for Editors
 
-JSON:API is enabled by default in Drupal and does not require additional configuration for basic read access to published content.
-
-### OpenAPI
-
-**OpenAPI** (formerly Swagger) provides machine-readable documentation of your site's API endpoints. It generates a complete specification of available API routes, parameters, and response formats.
-
-See [OpenAPI](openapi.md) for details.
-
-## Accessing Web Services Configuration
-
-Navigate to **Configuration > Web services** in the admin navigation sidebar, or go to `/admin/config/services`.
-
-## Security Considerations
-
-- API access respects Drupal's permission system. Users can only access content through the API that they are permitted to access through the regular admin interface.
-- Anonymous API access is typically limited to reading published content.
-- Authenticated API access requires valid credentials and is subject to the user's role permissions.
-- Your development team should review and configure API permissions to ensure sensitive data is not exposed.
-
-## Who Uses Web Services?
-
-Web services are primarily used by:
-
-- **Frontend developers** building decoupled (headless) applications that consume Drupal content.
-- **Mobile app developers** who need to access site content in their applications.
-- **Integration developers** connecting your Drupal site with external systems (CRMs, marketing tools, etc.).
-- **Content editors** typically do not interact with web services directly, but may benefit from understanding that they exist for technical integrations.
+- Only published content is available to visitors of another application, the same as on the site.
+- Fill in descriptions and alt text carefully: other applications may show them without the rest of the page.
+- Tell your development team before renaming or removing content types or fields an app may use.
