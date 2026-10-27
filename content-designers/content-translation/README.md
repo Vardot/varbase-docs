@@ -1,45 +1,32 @@
 # Content Translation
 
-Varbase supports multilingual websites, allowing you to translate content, interface elements, and configuration into multiple languages. Multilingual capabilities are provided through the `varbase_i18n_base` recipe, which configures the necessary modules and settings for translation support.
+A multilingual Varbase site shows each page, post, menu and image in the visitor's language. You write the content once in the main language, then add a translation for each other language. This section explains how translation works and how visitors switch languages.
 
-## Overview
+## What Can Be Translated
 
-When multilingual support is enabled, Varbase provides:
+| What | How |
+| --- | --- |
+| **Blog posts and utility pages** | The **Translate** tab of the item. See [Translating Content](translating-content.md). |
+| **Drupal Canvas pages** | **Translate** in the Canvas editor. See [Translating a Page](../building-pages-with-drupal-canvas/translating-a-page.md). |
+| **Media, taxonomy terms and menu links** | The **Translate** tab of each item, the same way as blog posts. |
 
-- **Content translation**: Translate individual content items (nodes, media, taxonomy terms, etc.) into any enabled language.
-- **Interface translation**: Translate the administrative interface, labels, and system messages.
-- **Configuration translation**: Translate site configuration such as views, block titles, and menu items.
-- **Language detection**: Automatically detect and serve the appropriate language based on URL, browser preferences, or user settings.
+## Languages and Addresses
 
-## Enabling Multilingual Support
+The site's main language has no prefix in the address. Each other language adds its code, for example:
 
-Multilingual support requires the `varbase_i18n_base` recipe to be applied to your site. This recipe enables the following core modules:
+- English: `https://example.com/about-varbase`
+- Arabic: `https://example.com/ar/about-varbase`
+- French: `https://example.com/fr/about-varbase`
 
-- **Language**: Allows adding and managing site languages.
-- **Content Translation**: Provides the ability to translate content entities.
-- **Configuration Translation**: Enables translation of site configuration.
-- **Interface Translation**: Allows translation of the user interface.
+<!-- <figure><img src="../../.gitbook/assets/translation-overview-01-languages.png" alt="The Languages page listing English as the default language, with Arabic and French"><figcaption><p>The Site Languages</p></figcaption></figure> -->
 
-Your development team is responsible for applying this recipe and configuring the initial language setup.
+The list of languages is at **Configuration** \ **Region and language** \ _**Languages**_ (`/admin/config/regional/language`). Adding a language is a **Super Admin** task. Multilingual support comes from the **Varbase Internationalization Base** recipe; see [Varbase Internationalization Base](../../developers/understanding-varbase/varbase-recipes/varbase-i18n-base.md).
 
-## Adding Languages
+## Who Can Translate
 
-Once multilingual support is enabled, additional languages can be added:
+The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** roles can add and update translations. Only a **Site Admin** or **Super Admin** can delete a translation.
 
-1. Navigate to **Configuration > Regional and language > Languages**, or go to `/admin/config/regional/language`.
-2. Click **Add language**.
-3. Select the desired language from the list of predefined languages, or add a custom language.
-4. Click **Add language** to confirm.
+## In This Section
 
-The new language will be available for content translation and language switching.
-
-## Translation Tasks
-
-- [Translating Content](translating-content.md): How to translate content items into other languages.
-- [Language Switcher](language-switcher.md): How the language switcher allows visitors to switch between available translations.
-
-## Key Concepts
-
-- **Default language**: The primary language of your site. All content is initially created in the default language.
-- **Translation**: A version of a content item in a different language. Each translation is linked to the original content item.
-- **Language negotiation**: The mechanism that determines which language to display to a visitor, based on URL prefix, browser settings, or user preferences.
+- [Translating Content](translating-content.md)
+- [Language Switcher](language-switcher.md)
