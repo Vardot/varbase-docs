@@ -1,68 +1,45 @@
 # XML Sitemap
 
-An XML sitemap is a file that lists the important pages on your site, helping search engines discover, crawl, and index your content. Varbase uses the **Simple Sitemap** module to generate and maintain XML sitemaps automatically.
+An XML sitemap is a list of your site's pages written for search engines, at `/sitemap.xml`. It helps them find new and changed content quickly. Varbase builds and updates it for you; this page explains what is in it and how an SEO Admin manages it.
 
-## What Is an XML Sitemap?
+## What Is in the Sitemap
 
-An XML sitemap is a structured file (typically accessible at `/sitemap.xml`) that provides search engines with a list of URLs on your site, along with metadata about each URL:
+On a new Varbase site the sitemap includes:
 
-- **URL**: The address of the page.
-- **Last modified date**: When the page was last updated.
-- **Change frequency**: How often the page is expected to change (daily, weekly, monthly, etc.).
-- **Priority**: The relative importance of the page within your site (0.0 to 1.0).
+- **Blog posts** and **Utility pages**, in every language.
+- Taxonomy terms and menu links, when they are turned on for the sitemap.
 
-Search engines use this information to crawl your site more efficiently, prioritizing pages that have been recently updated or are marked as high priority.
+It is rebuilt automatically when the site's scheduled tasks (cron) run, so a new post appears in it soon after you publish it. Open `/sitemap.xml` to see it.
 
-## Accessing Simple Sitemap Configuration
+<!-- <figure><img src="../../.gitbook/assets/seo-sitemap-01-sitemap.png" alt="The XML sitemap of the site opened in the browser, listing blog post addresses with their language versions"><figcaption><p>The XML Sitemap</p></figcaption></figure> -->
 
-Navigate to **Configuration > Search and metadata > Simple Sitemap**, or go to `/admin/config/search/simplesitemap`.
+{% hint style="warning" %}
+Drupal Canvas pages are not in the sitemap on a new Varbase site. Ask your **SEO Admin** to add **Pages** under **Inclusion** if your landing pages should be listed.
+{% endhint %}
 
-## Configuring the Sitemap
+## Leaving One Item Out
 
-### Sitemap Types
+An **SEO Admin** can keep a single blog post or utility page out of the sitemap:
 
-Simple Sitemap allows you to create different sitemap types. The default configuration typically includes a standard sitemap that covers your main content.
+1. Edit the item and open **Simple XML Sitemap** in the sidebar.
+2. Choose **Do not index** for the sitemap.
+3. Save.
 
-### Adding Content to the Sitemap
+## Managing the Sitemap
 
-1. On the Simple Sitemap configuration page, you can specify which entity types and bundles (content types, taxonomy vocabularies, etc.) should be included in the sitemap.
-2. For each entity type, configure:
-   - **Index**: Whether to include this entity type in the sitemap.
-   - **Priority**: The default priority for pages of this type.
-   - **Change frequency**: How often these pages are expected to change.
-3. Click **Save** to apply the configuration.
+An **SEO Admin** manages it at **Configuration** \ **Search and metadata** \ _**Simple XML Sitemap**_ (`/admin/config/search/simplesitemap`):
 
-### Excluding Specific Pages
+- **Inclusion**: which kinds of content are listed, with their priority and change frequency.
+- **Custom links**: extra addresses to list.
+- **Rebuild queue & generate**: rebuild the sitemap now instead of waiting for cron.
 
-- Individual content items can be excluded from the sitemap by configuring their settings on the content editing form (look for the Simple Sitemap section).
-- You can exclude entire content types by disabling them in the Simple Sitemap configuration.
+<!-- <figure><img src="../../.gitbook/assets/seo-sitemap-02-inclusion.png" alt="The Inclusion tab of Simple XML Sitemap listing Content with Blog post and Utility page indexed"><figcaption><p>Choosing What the Sitemap Lists</p></figcaption></figure> -->
 
-### Regenerating the Sitemap
+## Submitting the Sitemap
 
-After making changes to the sitemap configuration:
-
-1. Navigate to the Simple Sitemap configuration page.
-2. Click **Generate sitemap** or **Rebuild queue** to regenerate the sitemap with the updated configuration.
-3. The sitemap will be rebuilt to reflect the changes.
-
-The sitemap is also regenerated automatically on a regular schedule (typically during cron runs).
-
-## Viewing the Sitemap
-
-To view your site's XML sitemap, navigate to `/sitemap.xml` in your browser. You will see a structured XML document listing all included URLs.
-
-## Submitting the Sitemap to Search Engines
-
-To help search engines find your sitemap:
-
-1. **Google Search Console**: Submit the sitemap URL (`https://example.com/sitemap.xml`) in the Sitemaps section of Google Search Console.
-2. **Bing Webmaster Tools**: Submit the sitemap URL in Bing Webmaster Tools.
-3. **Robots.txt**: Ensure your `robots.txt` file includes a reference to the sitemap: `Sitemap: https://example.com/sitemap.xml`.
+Give the address `https://example.com/sitemap.xml` to Google Search Console and Bing Webmaster Tools once. They read it again by themselves after that.
 
 ## Tips
 
-- Include all important content types in the sitemap (pages, articles, landing pages, etc.).
-- Set higher priority values for your most important pages (e.g., homepage, key landing pages).
-- Regenerate the sitemap after making significant content changes or structural updates.
-- Check the sitemap periodically to ensure it includes the correct pages and does not contain broken links.
-- Do not include pages that are blocked by `robots.txt` or have a `noindex` meta tag in the sitemap.
+- Leave out pages that are not useful from search, such as thank-you pages after a form.
+- After a large content change, use **Rebuild queue & generate** so search engines see it sooner.

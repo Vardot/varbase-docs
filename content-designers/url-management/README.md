@@ -1,32 +1,18 @@
 # URL Management
 
-URL management in Varbase covers two key aspects: **URL aliases** (human-readable paths for content) and **URL redirects** (forwarding old or changed URLs to their correct destinations). Proper URL management improves user experience, SEO, and site maintainability.
+Every page has a web address (URL). Readable addresses such as `/blog/securing-your-site` help visitors and search engines, and redirects keep old links working when an address changes. This section shows how Varbase handles both.
 
-## Overview
+## In This Section
 
-### URL Aliases
+| Tool | What it does | Where to find it |
+| --- | --- | --- |
+| [URL Aliases](url-aliases.md) | Gives each page a readable address. | The **URL alias** field of each item, and **Configuration** \ **Search and metadata** \ _**URL aliases**_ (`/admin/config/search/path`) |
+| [URL Redirects](url-redirects.md) | Sends visitors from an old address to the new one. | **Configuration** \ **Search and metadata** \ _**URL redirects**_ (`/admin/config/search/redirect`) |
 
-URL aliases allow you to create human-readable, meaningful URLs for your content pages. Instead of the default system path (e.g., `/node/42`), you can have a clean URL like `/about-us` or `/blog/my-first-post`.
+## Changing an Address Safely
 
-Varbase uses the **Pathauto** module to generate URL aliases automatically based on configurable patterns, and also supports manually set aliases for individual content items.
+When you change a page's address, Varbase keeps the old one working by adding a redirect for you. Check the **Top "page not found" errors** report from time to time for old links that still need one. See [Reports](../dashboard/reports.md).
 
-See [URL Aliases](url-aliases.md) for details.
+## Who Can Manage Addresses
 
-### URL Redirects
-
-URL redirects ensure that visitors and search engines are forwarded from old or obsolete URLs to the correct current pages. This is essential when content is moved, renamed, or restructured.
-
-Varbase includes the **Redirect** module for managing URL redirects, along with 404 error monitoring to identify broken links.
-
-See [URL Redirects](url-redirects.md) for details.
-
-## Why URL Management Matters
-
-- **User experience**: Clean, descriptive URLs help visitors understand where they are on the site and what to expect from a page.
-- **Search engine optimization**: Search engines favor descriptive URLs and penalize sites with broken links (404 errors). Proper aliases and redirects improve search rankings.
-- **Link integrity**: When content URLs change, redirects preserve the value of existing links from external sites, social media, and bookmarks.
-
-## Accessing URL Management Tools
-
-- **URL aliases**: Managed per content item (in the URL alias field on the content form) or globally via **Configuration > URL aliases** (`/admin/config/search/path`).
-- **URL redirects**: Managed at **Configuration > URL redirects** (`/admin/config/search/redirect`).
+The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** roles can set addresses on content and manage redirects. The **Content editor** and **SEO Admin** roles can also manage the list of all URL aliases.

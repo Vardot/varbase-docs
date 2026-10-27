@@ -1,49 +1,41 @@
 # SEO Management
 
-Varbase includes a comprehensive set of tools for search engine optimization (SEO), helping ensure your content is discoverable and well-represented in search engine results. These tools cover meta tags, XML sitemaps, content analysis, and structured data.
+Search engine optimisation (SEO) helps people find your site in search results. Varbase sets most SEO details for you, from page titles and descriptions to a sitemap and readable addresses, and gives you fields and checks to improve each page. This section shows how.
 
-## Overview
+## What Varbase Does for You
 
-Varbase provides the following SEO capabilities out of the box:
+- **Page titles and descriptions** for search results and social sharing, built from your content. See [Meta Tags](meta-tags.md).
+- **An XML sitemap** that lists your content for search engines. See [XML Sitemap](xml-sitemap.md).
+- **Readable addresses** and redirects for moved pages. See [URL Management](../url-management/).
+- **Language versions**: each page tells search engines about its translations.
 
-### Meta Tags
+## What You Do on Each Blog Post
 
-The **Metatag** module allows you to configure meta tags for every content item and at the global level. Meta tags control how your pages appear in search engine results, social media shares, and other contexts.
+Open **Search Engine Optimization (SEO) Information** in the blog post form:
 
-See [Meta Tags](meta-tags.md) for details.
+| Field | What it is for |
+| --- | --- |
+| **SEO title** | The title in search results, if it should differ from the post title. |
+| **SEO description** | The summary under the title in search results. If empty, the **Description** is used. |
+| **SEO image** | The picture shown when the post is shared on social media. If empty, the **Featured image** is used. |
+| **SEO analysis** | A live check of the post against a focus keyword. See [SEO Analysis With Yoast SEO](seo-analysis-yoast.md). |
 
-### XML Sitemap
+<!-- <figure><img src="../../.gitbook/assets/seo-overview-01-seo-fields.png" alt="The Search Engine Optimization (SEO) Information section of a blog post form, with the SEO title, SEO description, SEO image and SEO analysis fields"><figcaption><p>The SEO Fields of a Blog Post</p></figcaption></figure> -->
 
-An **XML sitemap** helps search engines discover and index the pages on your site. Varbase uses the **Simple Sitemap** module to generate and maintain an XML sitemap automatically.
+Utility pages use their **Title** and **Description**. Drupal Canvas pages use the **Title**, **Meta description** and **Image** in **Page data**.
 
-See [XML Sitemap](xml-sitemap.md) for details.
+## Who Manages SEO
 
-### Real-Time SEO Analysis
+Every editorial role can fill in the SEO fields of the content it edits. The **SEO Admin** role also manages the site-wide meta tag defaults, the sitemap, aliases and redirects.
 
-Varbase supports **Yoast SEO** (via the contributed module for Drupal), which provides real-time content analysis and recommendations while you are editing content. It evaluates:
+## Tips
 
-- Keyword usage and density.
-- Readability of the content.
-- Meta tag completeness.
-- Content structure (headings, paragraph length, etc.).
+- Write the SEO description for people: one or two sentences, under about 160 characters, saying what they will find.
+- Use headings in order and give every image alt text; both help search engines as much as people.
+- Link related posts to each other.
 
-### Structured Data (Schema.org)
+## In This Section
 
-Varbase can integrate **Schema.org** structured data to provide search engines with detailed information about your content. Structured data enables rich search results (e.g., breadcrumbs, article metadata, organization information).
-
-## Accessing SEO Tools
-
-- **Meta tags**: Configured per content item (in the Meta tags section of the content form) and globally at **Configuration > Search and metadata > Metatag**.
-- **XML Sitemap**: Configured at **Configuration > Search and metadata > Simple Sitemap**.
-- **Yoast SEO**: Available in the content editing form when the module is enabled.
-- **Schema.org**: Configured by the development team through contributed modules.
-
-## SEO Best Practices
-
-1. **Write descriptive page titles.** The title tag is one of the most important ranking factors. Keep it under 60 characters and include relevant keywords.
-2. **Craft compelling meta descriptions.** While not a direct ranking factor, a well-written meta description improves click-through rates from search results. Keep it under 160 characters.
-3. **Use heading tags properly.** Structure content with H2, H3, etc. (H1 is reserved for the page title). This helps search engines understand the content hierarchy.
-4. **Optimize images.** Use descriptive file names and alt text for all images.
-5. **Create clean URLs.** Use meaningful URL aliases (see [URL Management](../url-management/)).
-6. **Build internal links.** Link between related pages on your site to help search engines discover content and distribute page authority.
-7. **Keep content fresh.** Regularly update existing content and add new content to signal to search engines that your site is active.
+- [XML Sitemap](xml-sitemap.md)
+- [Meta Tags](meta-tags.md)
+- [SEO Analysis With Yoast SEO](seo-analysis-yoast.md)
