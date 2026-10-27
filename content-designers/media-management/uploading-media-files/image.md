@@ -1,55 +1,42 @@
 # Image
 
-This guide explains how to upload images to the Varbase Media Library.
+This page shows how to add an image to the **Media Library**, write its alt text and set its focal point.
 
-## Supported Formats
+## Formats
 
-Varbase supports the following image formats:
+**Image** accepts PNG, GIF, JPG, JPEG and WebP. Use **SVG Image** for SVG logos and icons.
 
-- **JPG / JPEG**: Best for photographs and images with many colors. Uses lossy compression.
-- **PNG**: Best for graphics, logos, and images that require transparency. Uses lossless compression.
-- **GIF**: Supports simple animations and transparency. Limited to 256 colors.
-- **SVG**: Scalable vector graphics. Ideal for logos, icons, and illustrations that need to scale without quality loss.
-- **WebP**: A modern format that provides superior compression for both lossy and lossless images. Recommended for web use.
+## Steps
 
-## Steps to Upload an Image
+1. Click **Media** in the **Navigation** sidebar, then **Add media** and **Image**. You can also add one from a content form. See [Uploading Media Files](./).
+2. In **Image**, click to choose the file, or drag it in.
+3. Fill in the fields:
+   - **Name** (required): a clear name for finding the image later, such as "Team photo, office 2026".
+   - **Alternative text** (required): what the image shows, for people who cannot see it. Click **Generate with AI** for a suggestion, then check and edit it.
+   - **Image description**: optional caption or credit.
+   - **Image tags**: optional labels from **Image Classification**, to find the image later.
+4. Drag the focal point cross onto the most important part of the image.
+5. Click **Save**.
 
-1. Navigate to **Content > Media** and click **Add media**, or use the media widget on a content editing form.
-2. Select **Image** as the media type.
-3. Upload the image file:
-   - Drag and drop the file into the upload area, or
-   - Click the upload area to browse your computer and select the file.
-4. Fill in the image metadata:
-   - **Name**: A descriptive name for the image. This is used in the Media Library for identification.
-   - **Alternative text (alt text)**: A text description of the image for accessibility. Screen readers use alt text to describe images to visually impaired users. This field is required.
-   - **Title**: An optional title attribute that appears as a tooltip when visitors hover over the image.
-5. **Set the focal point.**
-   - After the image uploads, a focal point indicator appears on the image preview.
-   - Click and drag the focal point marker to the most important area of the image.
-   - The focal point ensures this area remains visible when the image is cropped for different display sizes.
-6. Click **Save** to add the image to the Media Library.
+<!-- <figure><img src="../../../.gitbook/assets/media-image-01-form.png" alt="The Add Image form with an uploaded photo, the focal point cross, the Alternative text field with the Generate with AI button, and the Image description and Image tags fields"><figcaption><p>Adding an Image</p></figcaption></figure> -->
 
 ## Writing Good Alt Text
 
-Alt text is essential for accessibility and SEO. Follow these guidelines:
+- Say what the image shows and why it is there, in one short sentence.
+- Do not start with "Image of" or "Photo of"; screen readers already say it is an image.
+- For a linked image, describe where the link goes.
+- Always check AI suggestions: the AI does not know why you chose the image.
 
-- **Be descriptive.** Describe what the image shows (e.g., "Team members gathered around a conference table during a planning meeting").
-- **Be concise.** Keep alt text brief but informative, typically one to two sentences.
-- **Avoid redundancy.** Do not start with "Image of" or "Photo of", as screen readers already announce that it is an image.
-- **Convey purpose.** If the image serves a specific function (e.g., a button or link), describe the function rather than the visual appearance.
-- **Decorative images.** If the image is purely decorative and adds no informational value, alt text can be left empty (but this is rare for editorial content).
+## Editing an Image
 
-## Image Optimization Tips
+1. On the **Media** page, find the image and click **Edit**.
+2. Change the fields, replace the file, or move the focal point.
+3. Click **Save**.
 
-- **Resize before uploading.** Resize images to a reasonable resolution before uploading. Extremely large images (e.g., 5000x5000 pixels) are unnecessary for web display and increase page load times.
-- **Compress images.** Use image compression tools to reduce file size without noticeable quality loss.
-- **Use the right format.** Use JPG for photographs, PNG for graphics with transparency, SVG for vector illustrations, and WebP for general web use.
-- **Consistent dimensions.** For content types that display images in a grid or list, try to use images with consistent aspect ratios for a clean layout.
+The change shows everywhere the image is used.
 
-## Editing an Existing Image
+## Tips
 
-1. Navigate to **Content > Media** and find the image in the Media Library.
-2. Click **Edit** next to the image.
-3. Update the metadata (name, alt text, title) or replace the image file.
-4. Adjust the focal point if needed.
-5. Click **Save** to apply the changes.
+- Resize photos before uploading: 2000 pixels wide is enough for a full-width banner.
+- Use the same shape (for example, landscape) for images shown side by side in cards.
+- Choose WebP or JPG for photos, PNG for graphics with transparency.
