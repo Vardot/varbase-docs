@@ -1,61 +1,44 @@
 # Login and Registration
 
-This guide explains how users log in to and register for accounts on a Varbase site.
+This page shows how to log in, stay logged in, and reset a forgotten password, and explains how new accounts are created on a Varbase site.
 
-## Login
+## Logging In
 
-### Login Page
+1. Go to `/user/login`.
+2. Enter your **Username or email address** and your **Password**.
+3. Tick **Remember me** to stay logged in on this device for up to 30 days. Leave it off on a shared computer.
+4. Click **Log in**.
 
-The login page is accessible at `/user/login`. Varbase uses the **Gin Login** theme to provide a styled, professional login page that matches the Gin admin theme.
+<!-- <figure><img src="../../.gitbook/assets/users-login-01-form.png" alt="The login form with the Username or email address and Password fields, the Remember me box, the Log in button and the Forgot your password link"><figcaption><p>The Login Form</p></figcaption></figure> -->
 
-### How to Log In
+Varbase opens your **Dashboard**. See [Dashboard](../dashboard/).
 
-1. Navigate to `/user/login` in your browser.
-2. Enter your credentials:
-   - **Username or email address**: Varbase supports login with either your username or your email address.
-   - **Password**: Enter your account password.
-3. Click **Log in**.
-4. Upon successful login, you will be redirected to the admin dashboard or the page you were previously viewing.
+## Resetting a Forgotten Password
 
-### Forgot Password
+1. On the login page, click **Forgot your password?** (`/user/password`).
+2. Enter your **Username or email address** and click **Reset**.
+3. Open the email from the site and click the one-time link in it.
+4. Set a new password.
 
-If you have forgotten your password:
+## Password Rules
 
-1. On the login page, click the **Forgot your password?** link (or navigate to `/user/password`).
-2. Enter your username or email address.
-3. Click **Submit**.
-4. An email with a one-time password reset link will be sent to the email address associated with your account.
-5. Click the link in the email to set a new password.
+A password on a Varbase site must:
 
-## Registration
+- be at least 8 characters long,
+- contain an uppercase letter, a lowercase letter, a number and a special character,
+- not contain your username.
 
-User registration settings are configured by the site administrator. Depending on the configuration, new users may:
+The form shows which rules your new password meets as you type.
 
-- **Register freely**: Anyone can create an account by visiting `/user/register`.
-- **Register with admin approval**: Anyone can request an account, but it must be approved by an administrator before it becomes active.
-- **Admin-only registration**: Only administrators can create new user accounts. The registration form is not available to the public.
+## New Accounts
 
-### Self-Registration (When Enabled)
+Visitors cannot create their own accounts on a standard Varbase site: an administrator creates each account. See [Add User](add-user.md). The new user gets an email with a link to set their password.
 
-1. Navigate to `/user/register`.
-2. Fill in the required fields:
-   - **Username**: Choose a unique username.
-   - **Email address**: Provide a valid email address.
-3. Complete any additional required fields (if configured).
-4. Click **Create new account**.
-5. Depending on the site configuration:
-   - You may receive a verification email with a link to set your password.
-   - Your account may be pending admin approval.
+## Logging Out
 
-## Session Management
-
-- **Session timeout**: Login sessions expire after a period of inactivity (configured by the site administrator).
-- **Logging out**: Click your username or profile icon in the admin toolbar, then click **Log out**. You can also navigate to `/user/logout`.
-- **Multiple sessions**: By default, users can be logged in from multiple devices simultaneously.
+Open your user menu at the bottom of the **Navigation** sidebar and click **Log out**.
 
 ## Tips
 
-- Use a strong, unique password for your account.
-- If your site uses email-based login, you can log in with your email address instead of remembering a separate username.
-- If you experience login issues, try resetting your password using the "Forgot your password?" link before contacting the site administrator.
-- Administrators can configure additional login security measures such as two-factor authentication through contributed modules.
+- If a login fails several times in a row, the site blocks further attempts from that account for a while. Wait, or ask a **Site Admin** to unblock it at **People** \ **Flood unblock**.
+- Never share your account; ask for your own instead, so every change is recorded under the right name.

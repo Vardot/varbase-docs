@@ -1,82 +1,48 @@
 # Edit User
 
-This guide explains how to modify existing user accounts on your Varbase site.
+This page shows how to change an account: its details, status, roles and password. A **Site Admin** or **Super Admin** can edit any account; everyone can edit their own.
 
-## Finding a User Account
+## Finding the Account
 
-1. Navigate to **People** in the admin navigation sidebar, or go to `/admin/people`.
-2. Use the filters to locate the user account:
-   - **Name or email**: Search by username or email address.
-   - **Role**: Filter by user role.
-   - **Status**: Filter by Active or Blocked status.
-3. Click **Edit** in the operations column next to the user you want to modify.
+1. Go to **People** (`/admin/people`).
+2. Type part of the name or email address in **Name or email contains**, then click **Filter**.
+3. Click **Edit** next to the account.
 
-## Editing User Information
+## What You Can Change
 
-On the user edit form, you can modify the following:
+- **Email address** and **Username**.
+- **Password**: leave empty to keep the current one.
+- **Status**: **Blocked** stops the person from logging in, but keeps the account and its content.
+- **Roles**: if you can assign roles.
+- **Picture**, **Timezone** and the language of the administration screens.
 
-### Account Information
+Click **Save** when you finish.
 
-- **Email address**: Update the user's email address. This affects password reset emails and notifications.
-- **Username**: Change the username (note that this changes the user's login credential).
-- **Password**: Set a new password for the user. Leave the password fields blank to keep the current password.
-- **Status**: Change the account status:
-  - **Active**: The user can log in and use the site.
-  - **Blocked**: The user cannot log in. Blocking an account does not delete it or its associated content.
+<!-- <figure><img src="../../.gitbook/assets/users-edit-01-form.png" alt="The Edit account form of a test account with the Email address, Username, Password and Status fields"><figcaption><p>Editing an Account</p></figcaption></figure> -->
 
-### Roles
+## Common Tasks
 
-- Add or remove roles by checking or unchecking the role checkboxes.
-- Remember that changing roles immediately affects the user's permissions.
+### Blocking an Account
 
-### Additional Fields
+Set **Status** to **Blocked** and click **Save**. To block several accounts, tick them on the **People** list, choose **Block the selected user(s)** in **Action**, and click **Apply to selected items**.
 
-Depending on your site's configuration:
+### Changing a Role
 
-- **Profile picture**: Upload or change the user's profile image.
-- **Time zone**: Update the preferred time zone.
-- **Language preferences**: Change the preferred language for the admin interface.
+Tick or untick roles under **Roles** and click **Save**. On the **People** list, the **Action** list also has **Add the ... role** and **Remove the ... role** for several accounts at once.
 
-### Saving Changes
+### Resetting a Password
 
-Click **Save** to apply the changes to the user account.
+Ask the person to use **Forgot your password?** on the login page. They get a one-time link and choose a new password, so nobody else knows it. See [Login and Registration](login-and-registration.md).
 
-## Common User Management Tasks
+### Editing Your Own Account
 
-### Blocking a User
+Open your user menu at the bottom of the **Navigation** sidebar and click **Edit profile**. You can change your email address, password, picture and time zone.
 
-To prevent a user from logging in without deleting their account:
+## Checking What a Role Sees
 
-1. Navigate to the user's edit page.
-2. Change the **Status** to **Blocked**.
-3. Click **Save**.
-
-The user will no longer be able to log in. Their content and account remain intact.
-
-### Changing a User's Role
-
-To update a user's permissions:
-
-1. Navigate to the user's edit page.
-2. In the **Roles** section, check or uncheck the desired roles.
-3. Click **Save**.
-
-The user's permissions will be updated immediately.
-
-### Resetting a User's Password
-
-If a user cannot log in:
-
-1. Navigate to the user's edit page.
-2. Enter a new password in the **Password** field and confirm it.
-3. Click **Save**.
-4. Communicate the new password to the user through a secure channel.
-
-Alternatively, ask the user to use the **Forgot your password?** link on the login page to reset their password via email.
+A **Site Admin** can use **Masquerade** to browse the site as a test account with another role, then **Unmasquerade** to come back. Use it to check that a role sees what it should.
 
 ## Tips
 
-- Always communicate account changes to the affected user.
-- Be cautious when changing roles for users who are actively working on the site. Role changes take effect immediately.
-- Use the block feature instead of deletion when you may need to reactivate the account in the future.
-- Keep a record of role changes for auditing purposes.
+- Block, rather than cancel, the account of someone who leaves for a while.
+- Review the **People** list from time to time and block accounts that are no longer used.
