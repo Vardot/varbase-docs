@@ -1,56 +1,47 @@
 # Website Environments
 
-In professional web development, websites are maintained across multiple environments. Understanding these environments is essential for content managers to ensure content is created and published correctly.
+Most Varbase sites run in more than one copy, called environments. Knowing which copy you are working in keeps your content from being lost or published by mistake. This page explains the usual environments and how to work across them.
 
 ## Types of Environments
 
-### Development Environment
+### Development
 
-The development environment is where developers build new features, fix bugs, and test code changes. This environment is typically:
+Where developers build and test new features.
 
-- Accessible only to the development team.
-- Frequently updated with new code and configuration changes.
-- Not intended for final content entry.
-- Often running on a local machine or an internal server.
+- Usually open to the development team only.
+- Changes often, and its content can be replaced at any time.
+- **Do not enter real content here.** It may be overwritten.
 
-**Best practice for content managers:** Avoid entering production content in the development environment. Content entered here may be overwritten or lost during development cycles.
+### Staging
 
-### Staging Environment
+A close copy of the live site, used to check changes before they go live.
 
-The staging environment is a near-exact replica of the production site. It serves as the final testing ground before changes go live. This environment is typically:
+- Open to the project team, testers and reviewers.
+- Used for review, user acceptance testing and approvals.
+- Its database is often refreshed from the live site, which replaces what was entered on staging.
 
-- Accessible to the project team, QA testers, and client stakeholders.
-- Used for content review, user acceptance testing (UAT), and final approvals.
-- Periodically synchronized with production data for realistic testing.
+Use staging to try a workflow or check how a page looks, then do the real work on the live site unless your team says otherwise.
 
-**Best practice for content managers:** Use the staging environment to review content, test workflows, and verify that pages look correct before publishing on production. Report any issues found during staging review to the development team.
+### Production
 
-### Production Environment
+The live site that visitors see.
 
-The production environment is the live website that is publicly accessible to visitors. This environment is:
-
-- The authoritative source for all published content.
-- Managed with care to avoid downtime or errors.
+- The one place where final content belongs.
 - Backed up regularly.
+- Changes here are public as soon as they are published.
 
-**Best practice for content managers:** All final content should be entered or published on the production environment. Follow the content moderation workflow (Draft, Published, Archived) to manage content lifecycle.
+## Working Across Environments
 
-## Content Management Across Environments
+1. **Enter final content once**, on the environment your team names (usually production).
+2. **Ask when the databases are copied.** A copy from production to staging replaces staging content, and the other way round is rare and planned.
+3. **Save as a draft first.** Use the content workflow so nothing half finished goes live. See [Content Workflow](../content-workflow/).
+4. **Tell your team** what you are working on, so two people do not edit the same item in two places.
 
-When working across multiple environments, keep the following guidelines in mind:
+## Knowing Where You Are
 
-1. **Do not duplicate content entry.** Enter final content only on the environment designated by your team (usually production or staging).
-2. **Be aware of sync schedules.** Database synchronization between environments may overwrite content. Coordinate with your development team to understand when syncs occur.
-3. **Use content moderation.** Save content as Draft until it has been reviewed and approved. This prevents incomplete content from appearing on the live site.
-4. **Coordinate with your team.** Communicate with developers and other content editors about what is being worked on in each environment to avoid conflicts.
-5. **Test before publishing.** Use the staging environment to verify that content appears correctly across different devices and browsers before making it live on production.
+Check the address bar: each environment has its own web address, for example `staging.example.com` and `www.example.com`. Your team may also show the environment name in the site name or in a coloured label at the top of the page. If you are not sure, ask before you publish.
 
-## Identifying Your Current Environment
+## Tips
 
-Your development team may configure visual indicators to help you identify which environment you are working in. Common approaches include:
-
-- A colored banner or label in the admin toolbar (e.g., "STAGING" or "DEV").
-- Different site names or URLs for each environment.
-- Environment indicator modules that display the current environment name.
-
-If you are unsure which environment you are working in, check the URL in your browser's address bar or ask your development team.
+- Bookmark the login page of each environment with a clear name, such as "Staging, do not publish".
+- Before a large content task, confirm with your team that no database copy is planned that day.
