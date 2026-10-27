@@ -1,41 +1,37 @@
 # Bulk Edit Content
 
-Varbase provides **Views Bulk Operations (VBO)** functionality on the content listing page, allowing you to perform actions on multiple content items simultaneously. This is useful for tasks such as publishing, unpublishing, or deleting many items at once.
+The content list lets you apply one action to many items at once, such as deleting old posts or updating their web addresses. This page shows how, and which actions are available.
 
-## Accessing Bulk Operations
+## Steps
 
-1. Navigate to **Content** in the admin navigation sidebar, or go to `/admin/content`.
-2. The content listing displays a checkbox next to each content item.
+1. Click **CMS** in the **Navigation** sidebar (`/admin/content`).
+2. Use the filters to narrow the list, for example **Content type** **Blog post**, then click **Filter**.
+3. Tick the items you want. The box in the table heading ticks every item on the page.
+4. In **Action**, choose what to do.
+5. Click **Apply to selected items**, and confirm if asked.
 
-## Performing Bulk Actions
+<!-- <figure><img src="../../.gitbook/assets/content-management-bulk-01-action.png" alt="The Content list with three blog posts ticked and the Action list open above them, next to the Apply to selected items button"><figcaption><p>Applying an Action to Selected Items</p></figcaption></figure> -->
 
-### Step 1: Select Content Items
+Varbase shows a message with the result.
 
-- Click the checkbox next to each content item you want to include in the bulk action.
-- To select all items on the current page, click the checkbox in the table header row.
+## Available Actions
 
-### Step 2: Choose an Action
+| Action | What it does |
+| --- | --- |
+| **Delete content** | Moves the items to the **Trash**. See [Delete Content](delete-content.md). |
+| **Promote content to front page** / **Remove content from front page** | Sets or clears **Promoted to front page**. |
+| **Make content sticky** / **Make content unsticky** | Sets or clears **Sticky at top of lists**. |
+| **Update URL alias** | Regenerates the web address of each item from its title. See [URL Aliases](../url-management/url-aliases.md). |
+| **Save content** | Saves each item again, for example after a site-wide setting changed. |
 
-From the **Action** dropdown menu above the content listing, select the operation you want to perform. Available actions typically include:
+The list shows only the actions your role can use.
 
-- **Publish content**: Set selected items to the Published moderation state.
-- **Unpublish content**: Set selected items to an unpublished state (Draft).
-- **Delete content**: Move selected items to the trash.
-- **Change content language**: Update the language assignment for selected items (on multilingual sites).
-- **Make content sticky**: Promote selected items to the top of listings.
-- **Remove sticky flag**: Remove the sticky promotion from selected items.
+{% hint style="warning" %}
+**Publish content** and **Unpublish content** do not change blog posts or utility pages, because those use the content workflow. Varbase skips them and shows a warning. To publish or unpublish, open each item and change its state, or see [Publish Content](publish-content.md).
+{% endhint %}
 
-### Step 3: Apply the Action
+## Tips
 
-1. Click the **Apply to selected items** button.
-2. A confirmation page may appear, asking you to verify the action.
-3. Confirm the action to proceed.
-4. The system will process all selected items and display a summary of the results.
-
-## Tips for Bulk Operations
-
-- **Use filters first.** Before selecting items, use the content listing filters (title, content type, published status) to narrow down the list to the relevant content items.
-- **Review your selection.** Double-check which items are selected before applying an action, especially for destructive operations like deletion.
-- **Work in batches.** For very large numbers of content items, consider processing them in smaller batches to avoid timeout issues.
-- **Check permissions.** Bulk operations respect your user permissions. If a specific action is not available in the dropdown, you may not have the necessary permissions for that action.
-- **Use with caution on production.** Bulk publishing or unpublishing content can have an immediate impact on the live site. Coordinate with your team before performing bulk operations on production content.
+- Filter first, then tick: it is easy to select the wrong item in a long list.
+- Check the result message: it says how many items changed and which were skipped.
+- Work in batches of a page or two on a busy live site.

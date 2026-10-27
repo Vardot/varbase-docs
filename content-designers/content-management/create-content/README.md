@@ -1,40 +1,42 @@
 # Create Content
 
-Creating content is one of the most frequent tasks for editors on a Varbase site. This guide walks you through the process of adding new content.
+This page shows you how to add a blog post or a utility page. To add a designed page built from components, see [Building Pages With Drupal Canvas](../../building-pages-with-drupal-canvas/).
 
 ## Steps to Create Content
 
-1. **Navigate to the content creation page.**
-   - In the admin navigation sidebar, click **Content**.
-   - Click the **Add content** button at the top of the content listing page.
-   - Alternatively, navigate directly to `/node/add` in your browser.
+1. In the **Navigation** sidebar, click **Create**, then choose the content type, for example **Blog post**. You can also go to `/node/add`.
 
-2. **Select a content type.**
-   - You will see a list of available content types (e.g., Page, Article, Landing Page).
-   - Click on the content type you want to create. Each content type has different fields and layouts tailored to its purpose.
+   <!-- <figure><img src="../../../.gitbook/assets/content-management-create-01-create-menu.png" alt="The Create item open in the Navigation sidebar, listing Utility page and Blog post"><figcaption><p>Choosing a Content Type From Create</p></figcaption></figure> -->
 
-3. **Fill in the content fields.**
-   - **Title**: Enter a descriptive title for your content. This is typically required.
-   - **Body / Content fields**: Enter the main content using the rich text editor (CKEditor 5) or other field widgets as appropriate.
-   - **Media fields**: Add images, videos, or other media using the Media Library widget.
-   - **Taxonomy fields**: Categorize your content by selecting or adding taxonomy terms (e.g., tags, categories).
-   - **URL alias**: Optionally set a custom URL path for this content item. If left blank, Pathauto will generate an alias automatically.
-   - **Meta tags**: Configure SEO meta tags for the content item if applicable.
+2. Fill in the main fields:
+   - **Title** (required): a clear, descriptive title.
+   - **Featured image**: click **Add media** to pick or upload an image from the **Media Library**.
+   - **Description**: a short summary, used in lists and cards.
+   - **Content**: the body text, written in the rich-text editor. See [Rich-Text Editor "WYSIWYG"](rich-text-editor-wysiwyg.md).
+   - **Categories** and **Tags** (blog posts): choose a category and type tags to group the post with related content.
 
-4. **Set the moderation state.**
-   - Use the **Save as** dropdown or the moderation sidebar to set the initial state of your content:
-     - **Draft**: Saves the content without publishing it. Only editors and administrators can see drafts.
-     - **Published**: Makes the content visible to site visitors immediately.
-   - See [Publish Content](../publish-content.md) for more details on the publishing workflow.
+   <!-- <figure><img src="../../../.gitbook/assets/content-management-create-02-blog-form.png" alt="The Create Blog post form with the Title, Featured image, Description and Content fields in the main column and the settings sidebar on the right"><figcaption><p>The Create Blog Post Form</p></figcaption></figure> -->
 
-5. **Save the content.**
-   - Click the **Save** button to create the content item.
-   - You will be redirected to the newly created content page.
+3. For a blog post, open **Search Engine Optimization (SEO) Information** to set the **SEO title**, **SEO description** and **SEO image**, and to read the **SEO analysis**. See [SEO Analysis With Yoast SEO](../../search-engine-optimization/seo-analysis-yoast.md).
+4. Check the settings in the sidebar on the right:
+   - **URL alias**: leave **Generate automatic URL alias** on to get an address from the title. See [URL Aliases](../../url-management/url-aliases.md).
+   - **Scheduling options**: set a future publish or unpublish date. See [Scheduling Content](../../content-workflow/scheduling-content.md).
+   - **Authoring information**, **Promotion options** and, for utility pages, **Menu settings**.
+5. Under **Save as**, choose **Draft**, **In review** or **Published**. See [Publish Content](../publish-content.md).
+6. Optionally, write a **Revision log message** that says what you did.
+7. Click **Save**.
 
-## Tips for Creating Content
+   <!-- <figure><img src="../../../.gitbook/assets/content-management-create-03-save-as.png" alt="The Save as list in the form sidebar, open to show Draft, In review and Published, next to the Save button"><figcaption><p>Choosing the State and Saving</p></figcaption></figure> -->
 
-- Preview your content before saving, with the **Preview** button or, for content edited in **Drupal Canvas**, the Canvas preview. See [Preview Content](../preview-content.md) for details.
-- Fill in alt text for all images to ensure accessibility compliance.
-- Use meaningful, descriptive titles that help both users and search engines understand the content.
-- Take advantage of the revision log message field to describe what you created or changed. This helps other editors understand the content history.
-- If your site supports multiple languages, you can add translations after creating the initial content. See [Content Translation](../../content-translation/) for details.
+Varbase saves the item and opens it.
+
+{% hint style="info" %}
+While you work, Varbase saves a copy of your changes in the background. If the browser closes, it offers to restore them the next time you open the form. See [Content Workflow](../../content-workflow/#content-locking-and-autosave).
+{% endhint %}
+
+## Tips
+
+- Add alt text to every image you upload, so screen reader users know what it shows.
+- Start with **Draft** and publish when the item is ready.
+- Write the **Description** for people scanning a list: one or two sentences.
+- On a multilingual site, add translations after you save the original. See [Content Translation](../../content-translation/).
