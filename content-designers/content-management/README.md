@@ -1,41 +1,44 @@
 # Content Management
 
-Content management is the core activity for editors and administrators on a Varbase site. This section covers everything you need to know about creating, editing, publishing, and deleting content.
+Creating and keeping content up to date is most of an editor's work on a Varbase site. This section covers how to find, create, edit, preview, publish and delete content.
 
-## Overview
+## Kinds of Content
 
-Varbase provides a robust content management system built on Drupal's content architecture. Key features include:
+A Varbase site has two kinds of content, each with its own list:
 
-- **Content Types**: Pre-defined templates for different kinds of content (e.g., pages, articles, landing pages). Each content type has its own set of fields and configuration.
-- **Content Listing**: A central listing of all content items, accessible at **Content** in the admin navigation or at `/admin/content`.
-- **Content Moderation**: A publishing workflow with states (Draft, In review, Published, Archived / Unpublished) that controls content visibility.
-- **Revision Tracking**: Every edit creates a new revision, allowing you to review the history of changes and revert to previous versions.
-- **Bulk Operations**: Perform actions on multiple content items at once using Views Bulk Operations.
+| Kind | What it is for | Where to find it |
+| --- | --- | --- |
+| **Pages** | Landing pages and other designed pages, built from components with **Drupal Canvas**. | **Pages** in the **Navigation** sidebar (`/admin/content/pages`). See [Building Pages With Drupal Canvas](../building-pages-with-drupal-canvas/). |
+| **Content items** | Structured content filled in through a form, such as **Blog post** and **Utility page**. | **CMS** in the **Navigation** sidebar (`/admin/content`). |
 
-## Content Types
+On a standard Varbase 11 site the content types are:
 
-Varbase comes with several pre-configured content types. The specific content types available on your site depend on which Varbase recipes have been applied. Common content types include:
+- **Blog post**: news and articles shown in the blog, with a featured image, categories and tags.
+- **Utility page**: plain text pages such as a privacy policy or terms of use.
 
-- **Page**: A basic content page for static information.
-- **Article / Blog Post**: Time-based content with author attribution and categorization.
-- **Landing Page**: A flexible page built with Layout Builder for marketing and promotional content.
+Your site may have more content types, added by your development team or a site template.
 
-Your site may include additional custom content types configured by your development team.
+## The Content List
 
-## Content Listing
+**CMS** (`/admin/content`) lists every content item.
 
-The content listing page (`/admin/content`) provides a filterable, sortable table of all content on your site. From this page, you can:
+<!-- <figure><img src="../../.gitbook/assets/content-management-overview-01-content-list.png" alt="The Content list with the Title, Content type, Published status and Language filters above a table of blog posts and utility pages"><figcaption><p>The Content List</p></figcaption></figure> -->
 
-- Filter content by title, content type, published status, or language.
-- Sort content by title, content type, author, or last updated date.
-- Perform bulk operations on selected items.
-- Click on a content title to view it, or use the operations dropdown to edit, delete, or translate it.
+- **Filter** the list by **Title**, **Content type**, **Published status** and **Language**, then click **Filter**.
+- **Sort** by clicking a column heading, such as **Updated**.
+- **Open** an item by clicking its title, or use **Edit** in the **Operations** column.
+- **Act on several items** at once with the checkboxes. See [Bulk Edit Content](bulk-edit-content.md).
 
-## Key Tasks
+## Revisions
 
-- [Create Content](create-content/): Add new content to your site.
-- [Modify Content](modify-content.md): Edit existing content items.
-- [Delete Content](delete-content.md): Remove content (with soft-delete via Trash).
-- [Preview Content](preview-content.md): Preview content before publishing.
-- [Bulk Edit Content](bulk-edit-content.md): Perform actions on multiple items.
-- [Publish Content](publish-content.md): Manage publishing states and scheduling.
+Every time you save a content item, Varbase keeps the previous version as a revision. You can compare revisions and go back to an earlier one. See [Modify Content](modify-content.md#revisions).
+
+## In This Section
+
+- [Create Content](create-content/)
+- [Rich-Text Editor "WYSIWYG"](create-content/rich-text-editor-wysiwyg.md)
+- [Modify Content](modify-content.md)
+- [Delete Content](delete-content.md)
+- [Preview Content](preview-content.md)
+- [Bulk Edit Content](bulk-edit-content.md)
+- [Publish Content](publish-content.md)

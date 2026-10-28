@@ -1,54 +1,57 @@
 # Modify Content
 
-Editing existing content is a routine task for content editors. Varbase provides straightforward tools for finding and modifying content items, along with revision tracking to maintain a full history of changes.
+You will often update content that already exists: fix a typo, add a paragraph, replace an image. This page shows how to find the item, edit it, and use revisions to see or undo changes.
 
-## Finding Content to Edit
+## Finding the Content
 
-There are several ways to locate the content you want to edit:
+### From the Content List
 
-### From the Content Listing
+1. Click **CMS** in the **Navigation** sidebar (`/admin/content`).
+2. Type part of the title in **Title**, or choose a **Content type**, then click **Filter**.
+3. Click **Edit** in the **Operations** column of the item.
 
-1. Navigate to **Content** in the admin navigation sidebar, or go to `/admin/content`.
-2. Use the filters at the top of the listing to narrow your search:
-   - **Title**: Search by content title.
-   - **Content type**: Filter by a specific content type.
-   - **Published status**: Filter by published or unpublished content.
-   - **Language**: Filter by language (on multilingual sites).
-3. Locate the content item in the list.
-4. Click **Edit** in the operations column for that item.
+<!-- <figure><img src="../../.gitbook/assets/content-management-modify-01-filter.png" alt="The Content list filtered by a title, with the Edit button of the matching blog post highlighted in the Operations column"><figcaption><p>Finding an Item to Edit</p></figcaption></figure> -->
 
-### From the Front End
+### From the Site
 
-1. Navigate to the content page on the front end of the site.
-2. If you are logged in with editing permissions, you will see an **Edit** tab or button on the page.
-3. Click **Edit** to open the content editing form.
+1. While logged in, open the item on the site.
+2. Click **Edit** in the bar at the top of the page.
 
-### Using Coffee
+## Editing
 
-1. Press **Alt+D** to open the Coffee search box.
-2. Type the title of the content you want to edit.
-3. Select the content item from the results to navigate to its edit form.
+1. Change the fields you need.
+2. In **Change to**, choose the state to save in. To change a published item without showing the change yet, choose **Draft**; the published version stays live until you publish again.
+3. Write a **Revision log message** that says what changed, for example "Updated the opening hours".
+4. Click **Save**.
 
-## Editing Content
+<!-- <figure><img src="../../.gitbook/assets/content-management-modify-02-change-to.png" alt="The edit form sidebar showing Current state Published and the Change to list open with Draft, Published and Archived / Unpublished"><figcaption><p>Saving a Change as a Draft of a Published Item</p></figcaption></figure> -->
 
-Once you have opened the edit form:
+{% hint style="info" %}
+While you have an item open, other editors cannot edit it; they see who is editing. Click **Save** or **Unlock** when you finish so the lock is released. See [Content Workflow](../content-workflow/#content-locking-and-autosave).
+{% endhint %}
 
-1. Modify the fields as needed (title, body, media, taxonomy terms, etc.).
-2. Optionally enter a **Revision log message** describing your changes. This is helpful for other editors reviewing the content history.
-3. Set the appropriate **moderation state** (Draft, In review, Published, or Archived / Unpublished).
-4. Click **Save** to apply your changes.
+## Revisions
 
-## Revision Tracking
+Each save keeps the previous version. Open the item and click the **Revisions** tab to see the list, with the date, the author and the log message of each.
 
-Varbase automatically creates a new revision every time content is saved. This allows you to:
+<!-- <figure><img src="../../.gitbook/assets/content-management-modify-03-revisions.png" alt="The Revisions tab of a blog post listing its revisions with dates, authors and log messages, and the Compare selected revisions button"><figcaption><p>The Revisions Tab</p></figcaption></figure> -->
 
-- **View revision history**: Click the **Revisions** tab on a content item to see a list of all saved revisions, including the date, author, and log message for each.
-- **Compare revisions**: Use the revision diff feature to compare two revisions side by side. Select two revisions and click **Compare selected revisions** to see exactly what changed between them.
-- **Revert to a previous revision**: If a change was made in error, you can revert to any previous revision. Click **Revert** next to the desired revision in the revision history.
+### Comparing Two Revisions
 
-## Tips for Modifying Content
+1. On the **Revisions** tab, choose the two revisions with the radio buttons.
+2. Click **Compare selected revisions**.
 
-- Always review your changes using the **Preview** button before saving, especially for content that is already published.
-- Use descriptive revision log messages so that other team members can understand the purpose of each edit.
-- If you are making a significant change to published content, consider saving it as **Draft** first for review before publishing the updated version.
-- Coordinate with other editors to avoid simultaneous editing of the same content item.
+Varbase shows the two versions side by side with the changes marked.
+
+### Going Back to an Earlier Revision
+
+1. On the **Revisions** tab, click **Revert** next to the revision you want.
+2. Confirm.
+
+Varbase saves a new revision that copies the old one, so nothing is lost.
+
+## Tips
+
+- Keep log messages short and specific; your team reads them when something goes wrong.
+- For a large change to a published item, save as **Draft**, ask a colleague to check, then publish.
+- If someone else holds the lock on an item, ask them to finish rather than breaking the lock.

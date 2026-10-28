@@ -1,82 +1,58 @@
 # Publish Content
 
-Varbase uses Drupal's **Content Moderation** system to manage the publishing lifecycle of content. This provides a structured workflow that helps editorial teams control when and how content becomes visible to site visitors.
+Blog posts and utility pages are published through the content workflow: an item moves from **Draft** to **In review** to **Published**, and later to **Archived / Unpublished**. This page shows how to change an item's state and how to find content waiting for review.
 
-## Content Moderation States
+## The States
 
-Varbase configures the following moderation states by default:
+| State | Who sees it |
+| --- | --- |
+| **Draft** | Editors only. |
+| **In review** | Editors only. Waiting for someone to check it. |
+| **Published** | Everyone. |
+| **Archived / Unpublished** | Editors only. Kept for reference. |
 
-### Draft
+See [Content Workflow](../content-workflow/) for the full workflow.
 
-- Content is saved but **not visible** to anonymous site visitors.
-- Only users with appropriate editorial permissions can view drafts.
-- Use this state when content is still being written, reviewed, or awaiting approval.
-- You can have multiple draft revisions before publishing.
+## Publishing a New Item
 
-### Published
-
-- Content is **visible to all site visitors**.
-- When content transitions from Draft to Published, a published revision is created.
-- You can continue to make Draft revisions of published content without affecting the live version until you publish a new revision.
-
-### Archived
-
-- Content is **removed from public view** but retained in the system.
-- Use this state for content that is no longer current but may be needed for reference or future reuse.
-- Archived content can be returned to Draft or Published at any time.
-
-## How to Set the Moderation State
-
-### During Content Creation
-
-1. When creating new content, look for the **Save as** dropdown at the bottom of the content form.
-2. Select the desired state:
-   - **Draft** to save without publishing.
-   - **Published** to save and make visible immediately.
+1. Fill in the item. See [Create Content](create-content/).
+2. In **Save as**, choose **Published**.
 3. Click **Save**.
 
-### When Editing Existing Content
+## Changing the State of an Existing Item
 
-1. Open the content item for editing.
-2. Use the **Change to** dropdown or the moderation sidebar to select the new state.
-3. Click **Save** to apply the state change.
+1. Open the item and click **Edit**.
+2. In the sidebar, **Current state** shows where the item is now. In **Change to**, choose the new state:
+   - **Draft**: start a new draft. If the item is published, the published version stays live.
+   - **In review**: ask a colleague to check it.
+   - **Published**: make the current version live.
+   - **Archived / Unpublished**: take it off the site.
 
-### From the Content Listing
+   The list shows only the states the item can move to. A published item cannot go straight to **In review**: make a **Draft** first.
+3. Write a **Revision log message**, for example "Approved for launch".
+4. Click **Save**.
 
-1. Navigate to **Content** in the admin navigation (`/admin/content`).
-2. Use bulk operations to change the moderation state of multiple items at once. See [Bulk Edit Content](bulk-edit-content.md) for details.
+<!-- <figure><img src="../../.gitbook/assets/content-management-publish-01-change-to.png" alt="The edit form sidebar of a blog post in review, with Current state In review and Published chosen in the Change to list"><figcaption><p>Publishing an Item That Is in Review</p></figcaption></figure> -->
 
-## Scheduled Publishing
+## Finding Content Waiting for Review
 
-Varbase includes support for **Scheduler** functionality, which allows you to schedule content to be published or unpublished at a specific date and time.
+1. Go to `/admin/content/moderated`.
+2. In **Moderation state**, choose **In review**, then click **Filter**.
 
-### Setting a Scheduled Publish Date
+<!-- <figure><img src="../../.gitbook/assets/content-management-publish-02-moderated.png" alt="The Moderated content list filtered to the In review state, showing a blog post waiting for review"><figcaption><p>Content Waiting for Review</p></figcaption></figure> -->
 
-1. Open the content item for editing.
-2. Look for the **Scheduling options** section (usually in the sidebar or at the bottom of the form).
-3. Set the **Publish on** date and time for when the content should go live.
-4. Optionally set the **Unpublish on** date and time for when the content should be automatically unpublished.
-5. Save the content as **Draft**. The system will automatically publish it at the scheduled time.
+The **My Drafts** panel on the [Dashboard](../dashboard/) lists your own drafts.
 
-### Use Cases for Scheduling
+## Publishing Later
 
-- **Timed announcements**: Prepare content in advance and schedule it to go live at a specific time.
-- **Campaign content**: Set both publish and unpublish dates for time-limited promotional content.
-- **Coordinated releases**: Schedule multiple content items to publish simultaneously.
+To publish or unpublish at a set date and time, use **Scheduling options** in the sidebar. See [Scheduling Content](../content-workflow/scheduling-content.md).
 
-## Editorial Workflow Best Practices
+## Who Can Publish
 
-- **Use Draft for review.** Save content as Draft first, have it reviewed by a colleague or supervisor, and then publish it.
-- **Add revision log messages.** When changing moderation states, describe why the change was made (e.g., "Approved by editor" or "Archived per content audit").
-- **Leverage scheduling.** Use scheduled publishing to prepare content in advance rather than relying on manual publishing at specific times.
-- **Archive instead of delete.** When content is no longer needed on the live site, archive it rather than deleting it. This preserves the content for future reference.
+The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** roles can use every step of the workflow, including **Publish** and **Archive / Unpublish**. If your team wants a separate approval step, ask your site administrator to adjust the roles. See [Default Roles and Site Personas](../user-management/default-roles-and-site-persons/).
 
-## Permissions
+## Tips
 
-The ability to transition content between moderation states is controlled by user roles and permissions:
-
-- **Content Editors** can typically create drafts and submit content for review.
-- **Content Admins** can publish and archive content.
-- **Site Admins and Administrators** have full control over all moderation states.
-
-See [User Management](../user-management/) for details on roles and permissions.
+- Use **In review** with a log message that says what needs checking.
+- To take something off the site, archive it rather than deleting it.
+- The **Publish content** bulk action does not work on workflow content. See [Bulk Edit Content](bulk-edit-content.md).

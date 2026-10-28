@@ -1,33 +1,54 @@
 # Dashboard
 
-The Varbase admin dashboard provides a centralized starting point for managing your website. It offers quick access to the most commonly used administrative tasks, including content management, media library, and site configuration.
+The **Dashboard** is the first page you see after you log in. It shows what you can add, your own drafts, the latest content and pages, and what is scheduled to publish, so you can pick up your work in one place.
 
-## Accessing the Dashboard
+## Opening the Dashboard
 
-Navigate to `/admin/dashboard` in your browser, or click **Dashboard** in the admin navigation sidebar. The dashboard is the default landing page after logging in for most administrative roles.
+- Log in: Varbase opens the dashboard for you.
+- Or click **Dashboard** at the top of the **Navigation** sidebar.
+- Or go to `/admin/dashboard`.
 
-## Dashboard Overview
+## The Welcome Dashboard
 
-The Varbase dashboard is designed to give you an at-a-glance view of your site's status and provide shortcuts to common tasks. Depending on your site's configuration, the dashboard may include:
+Varbase ships one dashboard for editors, **Welcome to your site**. Every editorial role (**Content editor**, **Content Admin**, **SEO Admin** and **Site Admin**) can see it.
 
-- **Content Overview**: Quick links to create new content, view recent content, and manage existing pages.
-- **Media Overview**: Access to the Media Library for browsing and uploading media assets.
-- **Site Status**: Summary of the site's health, including any warnings or errors that need attention.
-- **Quick Links**: Shortcuts to frequently used administrative pages such as People, Structure, and Configuration.
+<!-- <figure><img src="../../.gitbook/assets/admin-area-dashboard-01-welcome.png" alt="The Welcome to your site dashboard, with the welcome panel, Add content and Top tasks in the left column, and My Drafts, Recent content and Recent pages in the right column"><figcaption><p>The Welcome to Your Site Dashboard</p></figcaption></figure> -->
 
-## Customizing the Dashboard
+### Left Column
 
-Site administrators can customize what appears on the dashboard by configuring dashboard blocks. This allows you to tailor the dashboard to your team's specific needs, showing only the information and shortcuts that are most relevant.
+| Panel | What it shows |
+| --- | --- |
+| **Welcome** | Your name and picture. |
+| **Add content** | Links to **Create**, **Pages**, **CMS**, **Media** and **Trash**, the same as the top of the **Navigation** sidebar. |
+| **Top tasks** | Setup shortcuts, such as **Change site appearance** and **Invite users to collaborate**. You see only the ones your role can use. |
 
-## Navigation from the Dashboard
+### Right Column
 
-From the dashboard, you can quickly navigate to:
+| Panel | What it shows |
+| --- | --- |
+| **My Drafts** | Content you last worked on that is still in the **Draft** state. |
+| **Recent content** | The five most recently changed items, with their type, status and date. |
+| **Recent pages** | The most recently changed **Drupal Canvas** pages. |
+| **Pages with accessibility alerts** | Pages where the accessibility checker found problems. Shown to a **Super Admin**, who manages accessibility results. See [Accessibility Checks](../accessibility-checks.md). |
 
-- **Content**: Manage all content items on your site.
-- **Media**: Browse, upload, and manage media files.
-- **Structure**: Access content types, menus, taxonomies, and other structural elements.
-- **People**: Manage user accounts and roles.
-- **Configuration**: Adjust site-wide settings.
-- **Reports**: View site reports and log messages.
+### Scheduled Content
 
-The admin navigation sidebar (powered by the Navigation module) is always available for direct access to any section of the administration area.
+The bottom of the dashboard lists content that is set to publish or unpublish at a future date. See [Scheduling Content](../content-workflow/scheduling-content.md).
+
+<!-- <figure><img src="../../.gitbook/assets/admin-area-dashboard-02-scheduled.png" alt="The Scheduled panel at the bottom of the Welcome dashboard, listing a blog post with its publish date"><figcaption><p>Scheduled Content on the Dashboard</p></figcaption></figure> -->
+
+Click any title in a panel to open that item.
+
+## Other Dashboards
+
+A **Super Admin** also sees the **AI Dashboard** (`/admin/dashboard/ai_dashboard`), which shows the AI provider setup, AI settings and status. Content designers do not need it to use the AI tools in the editor.
+
+## Changing a Dashboard
+
+A **Super Admin** can add, remove and arrange the panels at **Structure** \ **Dashboard** (`/admin/structure/dashboard`), and choose which roles see each dashboard. Each role gets the first dashboard in that list that it is allowed to see.
+
+## Tips
+
+- Use **My Drafts** each morning to see what you left unfinished.
+- If a panel is empty, there is nothing to show yet, for example no scheduled content.
+- Ask your site administrator if your team needs a panel that is not there, such as a list of content waiting for review.

@@ -1,60 +1,58 @@
 # Reports
 
-Varbase provides several built-in reports to help site administrators monitor the health and activity of the website. Reports are accessible from the admin navigation under **Reports** or by navigating to `/admin/reports`.
+Reports show what has happened on your site: errors, missing pages, failed access attempts and the site's health. They help you spot a broken link or a problem before visitors report it. This page lists the reports and who can open them.
 
-## Available Reports
+## Opening Reports
 
-### Status Report
+1. In the **Navigation** sidebar, open **Administration** \ **Reports**.
+2. Click the report you need.
 
-**Path:** `/admin/reports/status`
+You can also go to `/admin/reports`.
 
-The Status Report provides a comprehensive overview of your site's current state. It includes:
+<!-- <figure><img src="../../.gitbook/assets/admin-area-reports-01-list.png" alt="The Reports page listing Recent log messages, Top page not found errors and Top access denied errors"><figcaption><p>The Reports Page</p></figcaption></figure> -->
 
-- Drupal core version and update status.
-- PHP version and configuration.
-- Database connection status.
-- File system permissions.
-- Module and theme update availability.
-- Any warnings or errors that require attention.
+## Reports for Editorial Roles
 
-Review the Status Report regularly to ensure your site is running optimally and to catch any configuration issues early.
+The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** roles can open these reports.
 
 ### Recent Log Messages
 
-**Path:** `/admin/reports/dblog`
+`/admin/reports/dblog`
 
-The Recent Log Messages report (also known as the watchdog log) displays a chronological list of system events, including:
+A list of recent events on the site, newest first: content saved or deleted, users logging in, errors and warnings.
 
-- Content creation and modification events.
-- User login and logout activity.
-- System errors and warnings.
-- Module-specific log entries.
-- Access denied and page not found errors.
+1. Open **Recent log messages**.
+2. Use **Type** and **Severity** to narrow the list, then click **Filter**.
+3. Click a message to see its details.
 
-Use the filter options to narrow down log entries by type, severity, or date. This report is valuable for troubleshooting issues and auditing site activity.
+<!-- <figure><img src="../../.gitbook/assets/admin-area-reports-02-recent-log.png" alt="The Recent log messages report with the Type and Severity filters at the top and a list of events below"><figcaption><p>Recent Log Messages</p></figcaption></figure> -->
 
-### Available Updates
+### Top "Page Not Found" Errors
 
-**Path:** `/admin/reports/updates`
+`/admin/reports/page-not-found`
 
-The Available Updates report shows whether any installed modules, themes, or Drupal core have newer versions available. It categorizes updates as:
+The addresses visitors asked for that do not exist, with how often each was requested. Use it to find old links that need a redirect. See [URL Redirects](../url-management/url-redirects.md).
 
-- **Security updates**: Critical updates that address security vulnerabilities. These should be applied as soon as possible.
-- **Recommended updates**: Non-security updates that include bug fixes and improvements.
-- **Development updates**: Updates to development releases (if applicable).
+### Top "Access Denied" Errors
 
-Coordinate with your development team before applying updates, especially on production environments.
+`/admin/reports/access-denied`
 
-### Site Health
+The addresses visitors tried to open without permission. Many hits on one address can mean a link to a private page is published somewhere.
 
-The site health information is included as part of the Status Report and provides a summary of any issues affecting your site's performance, security, or configuration. Pay attention to items flagged as errors or warnings and work with your development team to resolve them.
+## Reports for the Super Admin
 
-## Accessing Reports
+These reports need the **Super Admin** role:
 
-1. Log in to the administration area.
-2. Click **Reports** in the admin navigation sidebar.
-3. Select the desired report from the list.
+| Report | Path | What it shows |
+| --- | --- | --- |
+| **Status report** | `/admin/reports/status` | The site's health: versions, warnings and errors to fix. |
+| **Available updates** | `/admin/reports/updates` | Newer versions of the site's software, including security updates. |
+| **Content Accessibility** | `/admin/reports/editoria11y` | Accessibility problems found on pages. See [Accessibility Checks](../accessibility-checks.md). |
 
-## Permissions
+An **SEO Admin** can also open **Metatag plugins** (`/admin/reports/metatag-plugins`), the list of meta tags the site supports.
 
-Access to reports is controlled by user permissions. Typically, only users with the **Site Admin** or **Administrator** role have full access to all reports. If you cannot access a specific report, contact your site administrator to verify your permissions.
+## Tips
+
+- Check **Top "page not found" errors** after you move or rename pages, and add redirects for the addresses that still get visits.
+- If you see an error in **Recent log messages** that you do not understand, send its details to your development team rather than changing settings.
+- Pass security updates listed in **Available updates** to your development team; updates are applied by developers, not from the editor screens.
