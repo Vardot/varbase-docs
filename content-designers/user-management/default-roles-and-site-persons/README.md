@@ -1,80 +1,65 @@
 # Default Roles and Site Personas
 
-Varbase defines a set of default user roles, each designed for a specific persona within a typical content management workflow. These roles control what actions users can perform on the site through a structured permission system.
+Varbase ships a role for each kind of person who works on a site. A role is a set of permissions; giving someone a role gives them everything it allows. This page describes each role as it is on a new Varbase site.
 
-## Role Descriptions
+## The Roles at a Glance
 
-### Anonymous
+| Role | For | In short |
+| --- | --- | --- |
+| **Anonymous user** | Visitors who are not logged in | See published content and fill in public forms. |
+| **Authenticated user** | Everyone who is logged in | The base for all other roles. |
+| **Content editor** | Writers and editors | Create and edit content, pages and media; publish blog posts and utility pages. |
+| **SEO Admin** | Search and marketing specialists | Manage meta tags, URL aliases, redirects and the sitemap. |
+| **Content Admin** | Editorial leads | Everything an editor does, plus publish Drupal Canvas pages, manage taxonomies, menus, queues and patterns. |
+| **Site Admin** | Site managers | Manage accounts, page and content templates, components, and webform results. |
+| **Super Admin** | Technical administrators | Unrestricted access. |
 
-- **Who:** Any visitor who is not logged in to the site.
-- **Capabilities:** Can view published content, search the site, and submit public forms (if configured). Cannot access the admin area or edit content.
+<!-- <figure><img src="../../../.gitbook/assets/users-roles-01-list.png" alt="The Roles page listing Content editor, Content Admin, SEO Admin, Site Admin and Super Admin with their operations"><figcaption><p>The Roles on a Varbase Site</p></figcaption></figure> -->
 
-### Authenticated
-
-- **Who:** Any user who has logged in to the site.
-- **Capabilities:** Has the same access as Anonymous, plus the ability to view their own user profile, change their password, and access any features specifically granted to authenticated users. This is the base role for all logged-in users.
+## What Each Role Can Do
 
 ### Content Editor
 
-- **Who:** Editorial staff responsible for creating and managing content.
-- **Capabilities:**
-  - Create new content items.
-  - Edit their own content and, in some configurations, content created by others.
-  - Save content as Draft, send it to review, publish it and archive it.
-  - Upload and manage media in the Media Library.
-  - Use the rich-text editor (CKEditor 5).
-  - Preview content before saving.
-  - View the content listing and their revision history.
+- Create and edit blog posts, utility pages and media.
+- Use every workflow step, including **Publish**, on blog posts and utility pages.
+- Create and edit Drupal Canvas pages, and delete them, but not publish them.
+- Translate content and pages.
+- Add terms, edit tags, manage menus and schedule content.
+- Restore deleted content and terms from the **Trash**.
 
 ### SEO Admin
 
-- **Who:** Staff responsible for search engine optimization.
-- **Capabilities:**
-  - Edit meta tags on content items.
-  - Manage URL aliases and redirects.
-  - Configure XML sitemap settings.
-  - Access SEO-related reports and tools.
-  - Edit content for SEO purposes.
+- Manage meta tag defaults, URL aliases, redirects and the XML sitemap.
+- Create, edit and delete blog posts and utility pages, including their SEO fields and the **SEO analysis**.
+- Translate content and pages.
+- Cannot edit Drupal Canvas pages.
 
 ### Content Admin
 
-- **Who:** Senior editorial staff with broader content management authority.
-- **Capabilities:**
-  - All capabilities of the Content Editor role.
-  - Publish and archive content (manage content moderation transitions).
-  - Delete content.
-  - Manage taxonomies, menus, and EntityQueues.
-  - Manage webform submissions.
-  - Perform bulk operations on content.
+- Nearly everything a **Content editor** does, except deleting Drupal Canvas pages and some media types.
+- Publish Drupal Canvas pages and create patterns.
+- Manage taxonomies (including deleting terms) and EntityQueues.
+- Edit any webform, and release another editor's content lock.
+- Restore deleted media and files from the **Trash**.
 
 ### Site Admin
 
-- **Who:** Technical or senior staff who manage the site's configuration and users.
-- **Capabilities:**
-  - All capabilities of the Content Admin role.
-  - Manage user accounts and roles.
-  - Configure site settings (appearance, performance, etc.).
-  - Manage blocks and Layout Builder templates.
-  - Access all reports and site health information.
-  - Install and configure contributed modules (if permitted).
+- Everything a **Content Admin** does, plus deleting Drupal Canvas pages, except releasing another editor's content lock.
+- Add, edit, block and cancel user accounts, and use **Masquerade** to check what other roles see.
+- Edit page templates (header and footer), content templates and the component library.
+- Read and export webform submissions.
+- Delete items permanently from the **Trash**.
 
-### Administrator
+### Super Admin
 
-- **Who:** Technical administrators with unrestricted access.
-- **Capabilities:**
-  - Full access to all site functionality with no permission restrictions.
-  - Can perform any action on the site, including managing permissions, running updates, and accessing developer tools.
-  - This role should be reserved for trusted technical staff only.
+Has every permission, including adding languages, changing roles and permissions, and site settings. Keep this role for a few trusted technical people.
 
-## Role Assignment Guidelines
+## Choosing Roles
 
-- Assign the **minimum necessary role** to each user. Follow the principle of least privilege.
-- A user can have multiple roles. When multiple roles are assigned, the user receives the combined permissions of all their roles.
-- **Content Editor** is the appropriate role for most editorial staff.
-- **Content Admin** should be assigned to editorial leads or team managers who need to publish and manage content structure.
-- **Site Admin** should be limited to staff responsible for site management and technical configuration.
-- **Administrator** should be assigned only to technical administrators and used sparingly.
+- Give each person the smallest role that covers their work.
+- A person can have more than one role; they get the permissions of all of them.
+- Most editors need **Content editor**. Add **SEO Admin** for someone who also manages search settings.
 
 ## See Also
 
-- [Managing Roles](managing-roles.md): How to manage roles and edit permissions.
+- [Managing Roles](managing-roles.md)

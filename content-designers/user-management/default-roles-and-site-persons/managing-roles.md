@@ -1,82 +1,45 @@
 # Managing Roles
 
-This guide explains how to manage user roles and their associated permissions on your Varbase site.
+Roles and their permissions decide what everyone on the site can do. Changing them is a **Super Admin** task, because one wrong tick can open the site to the wrong people. This page explains where roles are managed and how a **Site Admin** can be allowed to assign some of them.
 
-## Accessing Role Management
+## The Roles Page
 
-1. Navigate to **People > Roles** in the admin navigation sidebar, or go to `/admin/people/roles`.
-2. You will see a list of all roles configured on your site, including the default Varbase roles.
+Go to **People** \ **Roles** (`/admin/people/roles`) to see the roles. For each role, **Edit permissions** shows only that role's permissions, which is easier to read than the full list.
 
-## Viewing and Editing Permissions
+## Changing a Role's Permissions
 
-### Permissions Page
+1. On the **Roles** page, open the list next to the role and click **Edit permissions**.
+2. Tick or untick permissions. They are grouped by module, for example **Content Moderation** or **Drupal Canvas**.
+3. Click **Save permissions**.
 
-1. Navigate to **People > Permissions**, or go to `/admin/people/permissions`.
-2. The permissions page displays a matrix of all permissions organized by module, with columns for each role.
-3. Checkboxes indicate which permissions are granted to each role.
+<!-- <figure><img src="../../../.gitbook/assets/users-roles-02-permissions.png" alt="The permissions page of the Content editor role, open at the Drupal Canvas group, with the Save permissions button"><figcaption><p>Editing the Permissions of a Role</p></figcaption></figure> -->
 
-### Editing Permissions for a Role
+{% hint style="warning" %}
+Test every change by logging in with a test account that has the role, or with **Masquerade**. Do not test with a real person's account.
+{% endhint %}
 
-1. On the permissions page, find the permission you want to modify.
-2. Check or uncheck the checkbox in the column for the relevant role.
-3. Scroll to the bottom of the page and click **Save permissions**.
+## Letting a Site Admin Assign Roles
 
-Alternatively, you can edit permissions for a single role:
+On a new Varbase site, a **Site Admin** can manage accounts but cannot give anyone a role. A **Super Admin** can allow it for chosen roles:
 
-1. Navigate to **People > Roles**.
-2. Click **Edit permissions** next to the role you want to modify.
-3. This shows only the permissions for that specific role, making it easier to review and modify.
-4. Check or uncheck permissions as needed.
-5. Click **Save permissions**.
+1. Go to **People** \ **Role assign** (`/admin/people/roleassign`).
+2. Tick the roles a **Site Admin** may assign, for example **Content editor** and **SEO Admin**.
+3. Click **Save configuration**.
 
-## Common Permission Categories
+<!-- <figure><img src="../../../.gitbook/assets/users-roles-03-roleassign.png" alt="The Role assign settings with Content editor and SEO Admin ticked as roles a Site Admin may assign"><figcaption><p>Choosing the Roles a Site Admin May Assign</p></figcaption></figure> -->
 
-Permissions are organized by module. Key categories include:
+The ticked roles then appear on the account form for a **Site Admin**.
 
-- **Node (Content)**: Permissions for creating, editing, and deleting content by content type.
-- **Content Moderation**: Permissions for transitioning content between moderation states (Draft, In review, Published, Archived / Unpublished).
-- **Media**: Permissions for creating, editing, and deleting media items.
-- **Taxonomy**: Permissions for managing taxonomy vocabularies and terms.
-- **Menu**: Permissions for managing menu items.
-- **User**: Permissions for managing user accounts and roles.
-- **System**: Permissions for site configuration and administrative tasks.
-- **Webform**: Permissions for managing webforms and viewing submissions.
+## Adding a Role
 
-## Creating a New Role
+1. On the **Roles** page, click **Add role**.
+2. Enter the **Role name**, for example "Event editor", and click **Save**.
+3. Give it permissions as described above.
 
-If the default roles do not meet your needs, you can create additional roles:
+Start a new role from the permissions of the closest existing role, and remove what it does not need.
 
-1. Navigate to **People > Roles**.
-2. Click **Add role**.
-3. Enter a **Role name** (e.g., "Marketing Team" or "External Contributor").
-4. Click **Save**.
-5. Navigate to the permissions page and configure the permissions for the new role.
+## Tips
 
-## Editing a Role
-
-To rename or reconfigure an existing role:
-
-1. Navigate to **People > Roles**.
-2. Click **Edit** next to the role you want to modify.
-3. Update the role name if needed.
-4. Click **Save**.
-5. Adjust permissions on the permissions page as needed.
-
-## Deleting a Role
-
-To remove a custom role:
-
-1. Navigate to **People > Roles**.
-2. Click **Edit** next to the role you want to delete.
-3. Click the **Delete** button.
-4. Confirm the deletion.
-
-**Note:** You cannot delete the default system roles (Anonymous and Authenticated). Deleting a role removes it from all users who had it assigned. Those users will lose the permissions associated with the deleted role.
-
-## Best Practices
-
-- **Follow the principle of least privilege.** Grant each role only the permissions it needs. Start with minimal permissions and add more as needed.
-- **Review permissions after updates.** When new modules are installed or updated, new permissions may be added. Review the permissions page to ensure they are configured appropriately for each role.
-- **Test permission changes.** After modifying permissions, test the affected role by logging in as a user with that role (or using a browser in incognito mode) to verify the expected behavior.
-- **Document custom roles.** If you create custom roles, document their purpose and the permissions they include for future reference.
-- **Avoid modifying the Administrator role.** The Administrator role is designed to have unrestricted access. Adding restrictions to it can cause unexpected behavior.
+- Prefer the default roles; every custom role is one more thing to keep up to date after updates.
+- Review the permissions of each role after a Varbase update, since new features can add new permissions.
+- Do not remove permissions from **Super Admin**; it is meant to have them all.
