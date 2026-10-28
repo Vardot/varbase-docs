@@ -155,7 +155,7 @@
     * [Publish Content](content-designers/content-management/publish-content.md)
   * [Content Structure](content-designers/content-structure/README.md)
     * [EntityQueues](content-designers/content-structure/entityqueues/README.md)
-      * [Add a New Term](content-designers/content-structure/entityqueues/add-a-new-term.md)
+      * [Add Items to a Queue](content-designers/content-structure/entityqueues/add-items-to-a-queue.md)
     * [Menu Management](content-designers/content-structure/menu-management/README.md)
       * [Add Menu Items](content-designers/content-structure/menu-management/add-menu-items.md)
       * [Update Menu Items](content-designers/content-structure/menu-management/update-menu-items.md)

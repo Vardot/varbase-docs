@@ -1,43 +1,35 @@
 # EntityQueues
 
-EntityQueues allow you to create manually ordered lists of content items. They are ideal for situations where automatic sorting (by date, title, etc.) is not sufficient and you need full editorial control over the order in which items appear.
+An EntityQueue is a list of content kept in an order you choose, such as the featured posts on the home page. Unlike a list sorted by date or title, a queue shows exactly the items you pick, in your order. This page explains how queues work and how to manage one.
 
-## What Are EntityQueues?
+## Queues on Your Site
 
-An EntityQueue is a named, ordered collection of content (or other entity) references. Each queue has a defined set of content items arranged in a specific order. Queues are typically displayed on the site using views or blocks that pull from the queue.
+A new Varbase site has no queues. Your development team adds a queue when a part of the site needs a hand-picked list, and places it on the page. Once a queue exists, editors keep its items up to date.
 
-Common use cases include:
+## Opening a Queue
 
-- **Featured content**: A curated list of articles or pages highlighted on the homepage.
-- **Staff directory**: An ordered list of team members.
-- **Promoted resources**: A hand-picked selection of resources or downloads.
-- **Slider / Carousel content**: An ordered set of items for a rotating banner.
+1. Go to **Structure** \ **Entityqueues** (`/admin/structure/entityqueue`).
+2. Find the queue and click **Edit items**.
 
-## Accessing EntityQueues
+<!-- <figure><img src="../../../.gitbook/assets/structure-entityqueues-01-list.png" alt="The Entityqueues list with one queue, Featured blog posts, and its Edit items button"><figcaption><p>The Entityqueues List</p></figcaption></figure> -->
 
-1. Navigate to **Structure > EntityQueues** in the admin navigation sidebar, or go to `/admin/structure/entityqueue`.
-2. You will see a list of all available queues on your site.
-3. Each queue shows its name, the type of entities it contains, and the number of items currently in the queue.
+## Managing the Items
 
-## Managing a Queue
+On the queue form, the **Items** list shows the content in its current order.
 
-### Viewing Queue Items
+- **Reorder**: drag an item by its handle, then click **Save**.
+- **Remove**: click **Remove** next to an item, then click **Save**. The content itself is not deleted.
+- **Add**: see [Add Items to a Queue](add-items-to-a-queue.md).
 
-1. Click **Edit items** next to the queue you want to manage.
-2. You will see the current list of items in the queue, displayed in their current order.
+<!-- <figure><img src="../../../.gitbook/assets/structure-entityqueues-02-items.png" alt="The items form of a queue with three blog posts in order, their drag handles and Remove buttons, and the Reverse, Shuffle and Clear buttons"><figcaption><p>The Items of a Queue</p></figcaption></figure> -->
 
-### Reordering Items
+The form also has **Reverse** (flip the order), **Shuffle** (random order) and **Clear** (remove all items). They take effect when you click **Save**.
 
-1. In the queue editing interface, drag and drop items to rearrange their order.
-2. Click **Save** to apply the new order.
+## Who Can Manage Queues
 
-### Removing Items
+The **Content Admin**, **Site Admin** and **Super Admin** roles can edit queue items.
 
-1. In the queue editing interface, click the **Remove** button or link next to the item you want to remove from the queue.
-2. Click **Save** to apply the change.
+## Tips
 
-Removing an item from a queue does not delete the content itself. It only removes it from the queue.
-
-## Permissions
-
-Access to manage EntityQueues is controlled by user permissions. Typically, Content Admins and Site Admins have the ability to manage queue items. Contact your site administrator if you need access to manage queues.
+- Keep queues short: a home page feature usually shows three to six items.
+- Removing an item from a queue is safe; it only takes it off that list.

@@ -1,65 +1,39 @@
 # Update Menu Items
 
-This guide explains how to reorder and edit existing menu items on your Varbase site.
+This page shows how to reorder, edit, hide and delete the links in a menu.
 
-## Reordering Menu Items
+## Reordering Links
 
-Menu items can be reordered using drag and drop:
+1. Go to **Structure** \ **Menus** and click **Edit menu** next to the menu.
+2. Drag a link by its handle:
+   - up or down to change the order,
+   - to the right to place it under the link above,
+   - to the left to move it up a level.
+3. Click **Save**.
 
-1. Navigate to **Structure > Menus** in the admin navigation sidebar, or go to `/admin/structure/menu`.
-2. Click **Edit menu** next to the menu you want to reorder.
-3. You will see all menu items listed with a drag handle (cross-arrow icon) on the left side of each item.
-4. Click and hold the drag handle next to the item you want to move.
-5. Drag the item to its new position in the list:
-   - Move it up or down to change its order among sibling items.
-   - Drag it slightly to the right to nest it under the item above (creating a child item).
-   - Drag it slightly to the left to promote it to a higher level in the hierarchy.
-6. Release the mouse button to drop the item in its new position.
-7. Click **Save** at the bottom of the page to apply the new order.
+<!-- <figure><img src="../../../.gitbook/assets/structure-menus-04-reorder.png" alt="A menu form with one link being dragged by its handle and the You have unsaved changes message above the list"><figcaption><p>Reordering Menu Links</p></figcaption></figure> -->
 
-**Important:** Changes to menu order are not saved until you click the **Save** button.
+The new order is not kept until you click **Save**. You can also click **Show row weights** to type the order as numbers.
 
-## Editing a Menu Item
+## Editing a Link
 
-To modify the properties of an existing menu item:
+1. On the menu form, click **Edit** next to the link.
+2. Change the **Menu link title**, **Link**, **Parent link** or other fields.
+3. Click **Save**.
 
-1. Navigate to **Structure > Menus** and click **Edit menu** for the desired menu.
-2. Find the menu item you want to edit.
-3. Click the **Edit** button (or the operations dropdown) next to the item.
-4. Update the fields as needed:
-   - **Menu link title**: Change the displayed text.
-   - **Link**: Update the URL or internal path.
-   - **Enabled**: Toggle the visibility of the menu item.
-   - **Description**: Update the hover tooltip text.
-   - **Parent link**: Change the parent item to restructure the menu hierarchy.
-   - **Weight**: Adjust the sort order numerically.
-5. Click **Save** to apply the changes.
+## Hiding a Link
 
-## Disabling a Menu Item
+Untick **Enabled** next to the link on the menu form and click **Save**. The link stays in the menu for later, but visitors do not see it.
 
-If you want to temporarily hide a menu item without deleting it:
+## Deleting a Link
 
-1. Navigate to the menu editing page.
-2. Click **Edit** next to the menu item.
-3. Uncheck the **Enabled** checkbox.
-4. Click **Save**.
+1. On the menu form, open the list next to **Edit** and choose **Delete**.
+2. Click **Delete** to confirm.
 
-The menu item will remain in the menu configuration but will not be displayed to site visitors. You can re-enable it at any time by checking the Enabled checkbox again.
-
-## Deleting a Menu Item
-
-To permanently remove a menu item:
-
-1. Navigate to the menu editing page.
-2. Click the operations dropdown next to the menu item.
-3. Click **Delete**.
-4. Confirm the deletion when prompted.
-
-**Note:** Deleting a menu item only removes the link from the menu. It does not delete the content or page that the link pointed to.
+Deleting a link does not delete the page it points to.
 
 ## Tips
 
-- After reordering or editing menu items, visit the front end of the site to verify that the menu displays correctly.
-- If you have child items nested under a parent, moving or deleting the parent will also affect the child items.
-- Consider disabling menu items instead of deleting them if you think you may need them again in the future.
-- Clear the site cache if menu changes do not appear immediately. See [Clearing Cache](../../site-configuration/system/clearing-cache.md) for instructions.
+- Hide rather than delete a link you will need again, such as a seasonal campaign.
+- Moving or deleting a parent link also affects its sub-items.
+- If a change does not show on the site, reload the page. If it still does not show, ask your site administrator to clear the cache. See [Clearing Cache](../../site-configuration/system/clearing-cache.md).

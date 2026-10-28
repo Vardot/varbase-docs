@@ -1,44 +1,48 @@
 # Taxonomies
 
-Taxonomies provide a structured way to categorize and organize content on your Varbase site. They use vocabularies and terms to classify content, making it easier for visitors to find related information and for editors to maintain a well-organized site.
+Taxonomies group content so visitors can find related items: a blog post can have a category and several tags, and each one links to a list of everything else that shares it. This page explains vocabularies and terms on a Varbase site.
 
-## What Are Taxonomies?
+## Vocabularies and Terms
 
-A **taxonomy** is a classification system made up of:
+- A **vocabulary** is a set of labels for one purpose, such as **Tags**.
+- A **term** is one label in it, such as **Security** or **Multilingual**.
 
-- **Vocabularies**: A vocabulary is a group of related terms. For example, "Tags," "Categories," or "Departments" are all vocabularies.
-- **Terms**: A term is an individual item within a vocabulary. For example, "Technology," "Health," and "Education" might be terms within a "Categories" vocabulary.
+A Varbase site has these vocabularies:
 
-Content is categorized by assigning taxonomy terms to content items through taxonomy reference fields.
+| Vocabulary | Used for |
+| --- | --- |
+| **Blog Categories** | The single category of a blog post, chosen from a list. |
+| **Tags** | Free keywords on blog posts and utility pages. |
+| **Image Classification** | Labels for images in the media library. |
+| **AI Context Tags** | Labels used by the AI tools. Managed by your site administrator. |
 
-## Common Uses
+Each term has its own page on the site listing the content that uses it.
 
-- **Tags**: Freeform keywords applied to content for flexible categorization.
-- **Categories**: A predefined set of categories for organizing content into sections.
-- **Content topics**: Subject areas for filtering and grouping related content.
-- **Departments or teams**: Organizational units for associating content with specific groups.
+## Opening a Vocabulary
 
-## Accessing Taxonomy Management
+1. Go to **Structure** \ **Taxonomy** (`/admin/structure/taxonomy`).
+2. Click **List terms** next to the vocabulary.
 
-1. Navigate to **Structure > Taxonomy** in the admin navigation sidebar, or go to `/admin/structure/taxonomy`.
-2. You will see a list of all taxonomy vocabularies configured on your site.
-3. Click **List terms** next to a vocabulary to view and manage its terms.
+<!-- <figure><img src="../../../.gitbook/assets/structure-taxonomies-01-vocabularies.png" alt="The Taxonomy page listing Blog Categories, Tags, Image Classification and AI Context Tags, each with its List terms button"><figcaption><p>The Vocabularies</p></figcaption></figure> -->
 
-## Taxonomy Tasks
+## Using Terms in Content
 
-- [Add Terms](add-terms.md): Add new terms to a vocabulary.
-- [Reorder and Edit Terms](reorder-and-edit-terms.md): Change the order of terms and edit existing ones.
+- **Categories**: choose one from the list in the blog post form.
+- **Tags**: type a tag and pick it from the suggestions, or type a new one and press **Enter** to add it. New tags are created when you save the content.
 
-## How Taxonomies Are Used in Content
+## Who Can Do What
 
-When creating or editing content, you will encounter taxonomy reference fields where you can:
+| Task | Content editor | Content Admin | Site Admin |
+| --- | --- | --- | --- |
+| Add terms | Yes | Yes | Yes |
+| Edit tags | Yes | Yes | Yes |
+| Edit categories | No | Yes | Yes |
+| Reorder categories | Yes | Yes | Yes |
+| Delete terms | No | Yes | Yes |
 
-- Select from existing terms using a dropdown, checkboxes, or autocomplete field.
-- Add new terms on the fly (if the field is configured to allow it).
-- Assign multiple terms to a single content item.
+An **SEO Admin** can add terms and edit tags.
 
-The specific taxonomy fields available depend on the content type and your site's configuration.
+## In This Section
 
-## Taxonomy Pages
-
-Each taxonomy term automatically has its own page that lists all content tagged with that term. These pages can be customized by your development team to control the layout and display of tagged content.
+- [Add Terms](add-terms.md)
+- [Reorder and Edit Terms](reorder-and-edit-terms.md)

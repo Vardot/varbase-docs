@@ -9,3 +9,4 @@ redirects:
   content-designers/about-layout-builder/block-layout: content-designers/building-pages-with-drupal-canvas/adding-and-arranging-components.md
   content-designers/about-layout-builder/block-layout/block-styles: content-designers/building-pages-with-drupal-canvas/adding-and-arranging-components.md
   content-designers/about-layout-builder/reordering-blocks: content-designers/building-pages-with-drupal-canvas/adding-and-arranging-components.md
+  content-designers/content-structure/entityqueues/add-a-new-term: content-designers/content-structure/entityqueues/add-items-to-a-queue.md
