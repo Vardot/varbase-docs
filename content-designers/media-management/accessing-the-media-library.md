@@ -1,62 +1,43 @@
 # Accessing the Media Library
 
-The Media Library is the central interface for browsing, managing, and selecting media assets on your Varbase site. You can access it from the admin navigation or directly from content editing forms.
+The **Media Library** lists every image, video, document and audio file on your site. You can open it on its own to manage media, or from a content form to pick media for that item. This page shows both.
 
-## Accessing the Media Library from Admin Navigation
+## Opening the Media Library
 
-1. Navigate to **Content > Media** in the admin navigation sidebar, or go to `/admin/content/media`.
-2. The Media Library page displays all media items on your site.
+Click **Media** in the **Navigation** sidebar, or go to `/admin/content/media`.
 
-### Browsing Media
+The page has two views, as tabs:
 
-The Media Library provides two display modes:
+- **Table**: a list with the name, type, author, status and date of each item.
+- **Grid**: thumbnails, handy for finding an image by sight.
 
-- **Grid view**: Displays media items as thumbnails in a grid layout, making it easy to visually browse images and video thumbnails.
-- **Table view**: Displays media items in a sortable table with columns for name, type, author, and date.
+<!-- <figure><img src="../../.gitbook/assets/media-library-01-grid.png" alt="The Media page on the Grid tab, showing image thumbnails with the Name, Media type and Publishing status filters above them"><figcaption><p>The Media Library Grid</p></figcaption></figure> -->
 
-### Filtering and Searching
+## Finding Media
 
-Use the filter options at the top of the Media Library to find specific media:
+Use the filters at the top. On **Table** they are **Media name**, **Type**, **Published status** and **Language**; on **Grid** they are **Name**, **Media type**, **Publishing status** and **Language**. For example, choose **Image** as the type and type part of a name.
 
-- **Name**: Search by media item name or title.
-- **Type**: Filter by media type (Image, Video, Remote Video, Document, Audio).
-- **Language**: Filter by language (on multilingual sites).
-- **Published status**: Show published or unpublished media items.
+Click **Filter** to apply them.
 
-### Managing Media Items
+## Managing an Item
 
-From the Media Library, you can:
+- Click the name or thumbnail to open it.
+- Click **Edit** to change its name, alt text or file.
+- Choose **Delete** in its operations to move it to the **Trash**.
 
-- **View** a media item by clicking its name or thumbnail.
-- **Edit** a media item by clicking **Edit** in the operations column.
-- **Delete** a media item by clicking **Delete** in the operations column.
-- **Perform bulk operations** by selecting multiple items and choosing an action from the bulk operations dropdown.
+## Picking Media From a Content Form
 
-## Accessing the Media Library When Editing Content
+1. On a media field, such as **Featured image**, click **Add media**.
+2. The **Media Library** dialog opens. Choose the type tab, if there is more than one.
+3. Pick an existing item, or upload a new file in the upload area at the top.
+4. Click **Insert selected**.
 
-When creating or editing content, you can access the Media Library through media reference fields:
+<!-- <figure><img src="../../.gitbook/assets/media-library-02-dialog.png" alt="The Media Library dialog opened from the Featured image field, with the upload area at the top, a grid of images and one image selected"><figcaption><p>Picking an Image for a Content Item</p></figcaption></figure> -->
 
-1. On the content editing form, find a media field (e.g., "Main Image" or "Media").
-2. Click the **Add media** or **Select media** button.
-3. The Media Library widget opens, allowing you to:
-   - **Browse existing media**: Search and select from media already uploaded to the site.
-   - **Upload new media**: Upload a new file directly from the widget.
-4. Select the desired media item(s) and click **Insert selected** to add them to the content.
-
-## Bulk Upload
-
-Varbase supports uploading multiple media files at once:
-
-1. Navigate to the Media Library at **Content > Media**.
-2. Click **Add media** and select the media type.
-3. Use the drag-and-drop upload area (powered by DropzoneJS) to drag multiple files from your computer.
-4. Alternatively, click the upload area to open a file browser and select multiple files.
-5. Fill in the required fields for each uploaded item (e.g., alt text for images).
-6. Click **Save** to add all items to the Media Library.
+To change the picked item's alt text without leaving the form, click **Edit media item** on it in the field.
 
 ## Tips
 
-- Use descriptive names for media items so they are easy to find later.
-- Always fill in the **alt text** field for images to ensure accessibility compliance.
-- Before uploading a new media item, search the Media Library to check if it already exists. Reusing existing media avoids duplication and saves storage.
-- Organize media with consistent naming conventions to make the library easier to browse as it grows.
+- Search the library before uploading, to avoid two copies of the same file.
+- Give each item a clear name, such as "Team photo, office 2026", so others can find it.
+- Removing an image from a content item does not delete it from the library.
