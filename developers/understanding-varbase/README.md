@@ -40,3 +40,7 @@ The **`varbase_starter`** recipe is the main entry point for Varbase. When appli
 ### [Basic Concepts](basic-concepts.md)
 
 Learn the fundamental concepts behind Drupal Recipes, how they differ from traditional modules and profiles, and how Varbase uses them.
+
+### [Varbase AI Modules](varbase-ai-modules/README.md)
+
+The modules Vardot maintains for the Varbase AI recipes, such as **AI Media**: how they work, every setting, and how to extend them.
