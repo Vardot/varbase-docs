@@ -3,4 +3,10 @@ redirects:
   dev-docs/theme-development-with-varbase/understanding-the-vartheme-base-theme: developers/theme-development-with-varbase/understanding-vartheme-bs5.md
   developers/theme-development-with-varbase/understanding-the-vartheme-base-theme: developers/theme-development-with-varbase/understanding-vartheme-bs5.md
   developers/theme-development-with-varbase/integration-of-varbase-with-storybook-2.0: developers/theme-development-with-varbase/integration-of-varbase-with-storybook.md
+  content-designers/about-layout-builder: content-designers/building-pages-with-drupal-canvas/README.md
+  content-designers/about-layout-builder/section: content-designers/building-pages-with-drupal-canvas/adding-and-arranging-components.md
+  content-designers/about-layout-builder/section/section-styles: content-designers/building-pages-with-drupal-canvas/adding-and-arranging-components.md
+  content-designers/about-layout-builder/block-layout: content-designers/building-pages-with-drupal-canvas/adding-and-arranging-components.md
+  content-designers/about-layout-builder/block-layout/block-styles: content-designers/building-pages-with-drupal-canvas/adding-and-arranging-components.md
+  content-designers/about-layout-builder/reordering-blocks: content-designers/building-pages-with-drupal-canvas/adding-and-arranging-components.md
   content-designers/content-structure/entityqueues/add-a-new-term: content-designers/content-structure/entityqueues/add-items-to-a-queue.md
