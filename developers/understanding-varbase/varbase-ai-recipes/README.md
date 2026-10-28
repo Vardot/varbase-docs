@@ -20,7 +20,7 @@ This approach allows site builders to adopt only the AI features they need, keep
 | [Varbase AI Safety](varbase-ai-safety.md) | Bundles prompt safety, PII protection, image safety checks, AI logging with retention, and AI observability for enterprise/GDPR deployments. |
 | [Varbase AI Figma Base](varbase-ai-figma-base.md) | Sets up the Figma-to-Canvas flow: the AI Figma engine, the Varbase customization for Vartheme BS5, and the Drupal Canvas AI Orchestrator wiring. |
 | [Varbase AI Figma](varbase-ai-figma.md) | The module behind Figma Base: decides what to reuse before it builds, and ships the Canvas build tools. |
-| [Varbase AI Media Base](varbase-ai-media-base.md) | Generates images and SVGs with AI from the Media Library, with the AI Media module and two AI media types for editors. |
+| [Varbase AI Media Base](varbase-ai-media-base.md) | Generates images and SVGs with AI from the Media Library, into the Image and SVG Image media types, with the AI Media module. |
 | [Varbase AI VDB: MariaDB](varbase-ai-vdb-mariadb.md) | MariaDB's built-in vector type as the vector database for AI search. Alpha. |
 | [Varbase AI VDB: Milvus](varbase-ai-vdb-milvus.md) | A Milvus or Zilliz Cloud vector database for AI search. Alpha. |
 | [Varbase AI Search Base](varbase-ai-search-base.md) | A vector index of the site's content, for the chatbot and Ask AI. Alpha. |
