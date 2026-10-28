@@ -21,7 +21,7 @@ The **Translate** dashboard lists every page with a status for each language:
 | **Up to date** | The translation is published and matches the original. |
 | **Outdated** | The original changed after it was translated. |
 
-<!-- <figure><img src="../../.gitbook/assets/canvas-translate-01-dashboard.png" alt="The Translate dashboard listing the site's pages with a status for Arabic and French, and filters for language and status"><figcaption><p>The Translate Dashboard</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/canvas-translate-01-dashboard.png" alt="The Translate dashboard listing the site's pages with a status for Arabic and French, and filters for language and status"><figcaption><p>The Translate Dashboard</p></figcaption></figure>
 
 Use the filters to show one language or one status.
 

@@ -7,10 +7,14 @@ Scheduling lets you prepare a blog post or utility page now and have Varbase pub
 1. Create or edit the item, and save it as **Draft** or **In review** when you are ready.
 2. In the sidebar, open **Scheduling options**.
 3. In **Publish on**, enter the date and time.
-4. In **Publish state**, keep **Published**.
+4. In **Publish state**, choose **Published**.
 5. Click **Save**.
 
-<!-- <figure><img src="../../.gitbook/assets/workflow-scheduling-01-options.png" alt="The Scheduling options section in the sidebar of a blog post edit form, with a date and time in Publish on and Published in Publish state"><figcaption><p>Setting a Publish Date</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/workflow-scheduling-01-options.png" alt="The Scheduling options section in the sidebar of a blog post edit form, with a date and time in Publish on and the Publish state list below it"><figcaption><p>Setting a Publish Date</p></figcaption></figure>
+
+{% hint style="warning" %}
+If **Publish state** offers only **- None -**, the item will not be published at that time. Ask your site administrator to check the scheduling settings before you rely on it.
+{% endhint %}
 
 The item stays unpublished until that time, then Varbase publishes it.
 
@@ -30,7 +34,7 @@ The **Publish on** date must be in the future. Scheduled changes run when the si
 
 Go to **Administration** \ **Content** \ _**Scheduled Content**_ (`/admin/content/scheduled`) for the list of items with a publish or unpublish date. The **Scheduled** panel on the [Dashboard](../dashboard/) shows the same items.
 
-<!-- <figure><img src="../../.gitbook/assets/workflow-scheduling-02-scheduled-list.png" alt="The Scheduled content list showing a blog post with its Publish on date and time"><figcaption><p>The Scheduled Content List</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/workflow-scheduling-02-scheduled-list.png" alt="The Scheduled content list showing a blog post with its Publish on date and time"><figcaption><p>The Scheduled Content List</p></figcaption></figure>
 
 ## Changing or Cancelling a Schedule
 

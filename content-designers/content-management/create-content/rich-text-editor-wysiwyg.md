@@ -17,7 +17,7 @@ Changing the format of text you already wrote can remove formatting the new form
 
 ## The Rich Editor Toolbar
 
-<!-- <figure><img src="../../../.gitbook/assets/content-management-wysiwyg-01-toolbar.png" alt="The Rich editor toolbar of CKEditor 5 in a blog post, with its two rows of buttons above the Content field"><figcaption><p>The Rich Editor Toolbar</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/content-management-wysiwyg-01-toolbar.png" alt="The Rich editor toolbar of CKEditor 5 in a blog post, with its two rows of buttons above the Content field"><figcaption><p>The Rich Editor Toolbar</p></figcaption></figure>
 
 | Group | Buttons |
 | --- | --- |
@@ -50,7 +50,7 @@ The page title is the only **Heading 1**, so start your body text at **Heading 2
 
 Links picked from the suggestions keep working when the page's address changes.
 
-<!-- <figure><img src="../../../.gitbook/assets/content-management-wysiwyg-02-link.png" alt="The Link box under selected text, with a page title typed and matching pages from the site suggested below"><figcaption><p>Linking to a Page on Your Site</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/content-management-wysiwyg-02-link.png" alt="The Link box under selected text, with a page title typed and matching pages from the site suggested below"><figcaption><p>Linking to a Page on Your Site</p></figcaption></figure>
 
 ### Inserting an Image or Video
 
@@ -58,7 +58,7 @@ Links picked from the suggestions keep working when the page's address changes.
 2. Click **Insert Media**.
 3. Pick an existing item or upload a new one, then click **Insert selected**.
 
-<!-- <figure><img src="../../../.gitbook/assets/content-management-wysiwyg-03-insert-media.png" alt="The Media Library dialog opened from the editor, with the Image tab selected and a grid of images to choose from"><figcaption><p>Inserting Media From the Media Library</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/content-management-wysiwyg-03-insert-media.png" alt="The Media Library dialog opened from the editor, with the Image tab selected and a grid of images to choose from"><figcaption><p>Inserting Media From the Media Library</p></figcaption></figure>
 
 After inserting, click the media to change its alignment or alt text. See [Media Management](../../media-management/).
 

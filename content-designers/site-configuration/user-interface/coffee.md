@@ -8,7 +8,7 @@
 2. Type part of the page name, for example `redirect`.
 3. Use the arrow keys to choose a result and press **Enter**, or click it.
 
-<!-- <figure><img src="../../../.gitbook/assets/site-config-coffee-01-search.png" alt="The Coffee search box with the word redirect typed and URL redirects and Add redirect listed as results"><figcaption><p>Finding a Page With Coffee</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/site-config-coffee-01-search.png" alt="The Coffee search box with the word redirect typed and URL redirects and Add redirect listed as results"><figcaption><p>Finding a Page With Coffee</p></figcaption></figure>
 
 Press **Esc** to close it. Hold **Ctrl** (on a Mac, **Cmd**) while choosing a result to open it in a new tab.
 

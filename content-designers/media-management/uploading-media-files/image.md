@@ -2,6 +2,14 @@
 
 This page shows how to add an image to the **Media Library**, write its alt text and set its focal point.
 
+{% embed url="https://raw.githubusercontent.com/Vardot/varbase-docs/11.0.x/.gitbook/assets/cd-clip-12-upload-image.mp4" %}
+Uploading an Image With a Focal Point (Video)
+{% endembed %}
+
+[![Uploading an Image With a Focal Point (Video Poster)](<../../../.gitbook/assets/cd-clip-12-upload-image-poster.jpg>)](<../../../.gitbook/assets/cd-clip-12-upload-image.mp4>)
+
+If the video does not play, open [Uploading an Image With a Focal Point (MP4)](<../../../.gitbook/assets/cd-clip-12-upload-image.mp4>). Captions: [cd-clip-12-upload-image.vtt](<../../../.gitbook/assets/cd-clip-12-upload-image.vtt>).
+
 ## Formats
 
 **Image** accepts PNG, GIF, JPG, JPEG and WebP. Use **SVG Image** for SVG logos and icons.
@@ -18,7 +26,7 @@ This page shows how to add an image to the **Media Library**, write its alt text
 4. Drag the focal point cross onto the most important part of the image.
 5. Click **Save**.
 
-<!-- <figure><img src="../../../.gitbook/assets/media-image-01-form.png" alt="The Add Image form with an uploaded photo, the focal point cross, the Alternative text field with the Generate with AI button, and the Image description and Image tags fields"><figcaption><p>Adding an Image</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/media-image-01-form.png" alt="The Add Image form with an uploaded photo, the focal point cross, the Alternative text field with the Generate with AI button, and the Image description and Image tags fields"><figcaption><p>Adding an Image</p></figcaption></figure>
 
 ## Writing Good Alt Text
 

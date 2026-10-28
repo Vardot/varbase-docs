@@ -17,13 +17,13 @@ So the usual way to change a post's meta tags is to fill in its SEO fields. See 
 
 For **Drupal Canvas pages**, the **Meta description** and **Image** in **Page data** are used, and the **Metatags** section there sets any other tag for that page.
 
-<!-- <figure><img src="../../.gitbook/assets/seo-meta-tags-01-canvas-page-data.png" alt="The Page data panel of a Drupal Canvas page with the Meta description, Image and Metatags fields"><figcaption><p>Meta Tags of a Drupal Canvas Page</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/seo-meta-tags-01-canvas-page-data.png" alt="The Page data panel of a Drupal Canvas page with the Meta description, Image and Metatags fields"><figcaption><p>Meta Tags of a Drupal Canvas Page</p></figcaption></figure>
 
 ## Site-Wide Defaults
 
 An **SEO Admin** sets the defaults at **Configuration** \ **Search and metadata** \ _**Metatag**_ (`/admin/config/search/metatag`). There is one set for each kind of page: **Global**, **Front page**, **Content**, **Taxonomy term**, **User**, and the error pages.
 
-<!-- <figure><img src="../../.gitbook/assets/seo-meta-tags-02-defaults.png" alt="The Metatag defaults list with Global, Front page, Content, Taxonomy term and User, each with an Edit button"><figcaption><p>The Meta Tag Defaults</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/seo-meta-tags-02-defaults.png" alt="The Metatag defaults list with Global, Front page, Content, Taxonomy term and User, each with an Edit button"><figcaption><p>The Meta Tag Defaults</p></figcaption></figure>
 
 The values use tokens, placeholders such as `[node:title]` that are replaced by each page's own value. Change a default only if every page of that kind should change.
 

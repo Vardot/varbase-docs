@@ -1,0 +1,17 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:11.112
+Your changes in Drupal Canvas are saved as a draft. Visitors see them only after you publish. Here a content admin publishes a change.
+
+2
+00:00:11.112 --> 00:00:38.165
+We insert a pattern, so the page has one unpublished change. The review button now counts it.
+
+3
+00:00:38.165 --> 00:00:45.735
+Click the review button. Nothing is ticked yet, so tick the change, or click Select All.
+
+4
+00:00:45.735 --> 00:00:51.619
+Click Publish one selected. The page is now live for visitors.

@@ -18,7 +18,7 @@ The site's main language has no prefix in the address. Each other language adds 
 - Arabic: `https://example.com/ar/about-varbase`
 - French: `https://example.com/fr/about-varbase`
 
-<!-- <figure><img src="../../.gitbook/assets/translation-overview-01-languages.png" alt="The Languages page listing English as the default language, with Arabic and French"><figcaption><p>The Site Languages</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/translation-overview-01-languages.png" alt="The Languages page listing English as the default language, with Arabic and French"><figcaption><p>The Site Languages</p></figcaption></figure>
 
 The list of languages is at **Configuration** \ **Region and language** \ _**Languages**_ (`/admin/config/regional/language`). Adding a language is a **Super Admin** task. Multilingual support comes from the **Varbase Internationalization Base** recipe; see [Varbase Internationalization Base](../../developers/understanding-varbase/varbase-recipes/varbase-i18n-base.md).
 

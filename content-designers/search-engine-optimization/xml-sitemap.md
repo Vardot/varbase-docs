@@ -33,7 +33,7 @@ An **SEO Admin** manages it at **Configuration** \ **Search and metadata** \ _**
 - **Custom links**: extra addresses to list.
 - **Rebuild queue & generate**: rebuild the sitemap now instead of waiting for cron.
 
-<!-- <figure><img src="../../.gitbook/assets/seo-sitemap-02-inclusion.png" alt="The Inclusion tab of Simple XML Sitemap listing Content with Blog post and Utility page indexed"><figcaption><p>Choosing What the Sitemap Lists</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/seo-sitemap-02-inclusion.png" alt="The Inclusion tab of Simple XML Sitemap listing Content with Blog post and Utility page indexed"><figcaption><p>Choosing What the Sitemap Lists</p></figcaption></figure>
 
 ## Submitting the Sitemap
 

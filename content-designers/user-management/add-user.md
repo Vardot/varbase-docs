@@ -14,12 +14,12 @@ This page shows a **Site Admin** or **Super Admin** how to create an account for
 3. Optionally, add a **Picture** and choose the **Timezone**.
 4. Click **Create new account**.
 
-<!-- <figure><img src="../../.gitbook/assets/users-add-01-form.png" alt="The Add user form with the Email address, Username, Password, Status and Roles fields, and the Email user with password setup instructions box ticked"><figcaption><p>Adding a User</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/users-add-01-form.png" alt="The Add user form with the Email address, Username, Password, Status and Roles fields, and the Email user with password setup instructions box ticked"><figcaption><p>Adding a User</p></figcaption></figure>
 
 The person receives an email with a link to set their password.
 
 {% hint style="info" %}
-If the **Roles** list is missing, your account cannot assign roles. Create the account, then ask a **Super Admin** to add the role.
+A **Site Admin** sees the **Roles** list only after a **Super Admin** chooses which roles a Site Admin may assign, in **People** \ _**Role assign**_. See [Managing Roles](default-roles-and-site-persons/managing-roles.md). Until then, create the account and ask a **Super Admin** to add the role.
 {% endhint %}
 
 ## Tips

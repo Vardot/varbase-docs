@@ -19,7 +19,7 @@ The **Administration**, **Content**, **Tools**, **Top tasks** and **Navigation u
 1. Go to **Structure** \ **Menus** (`/admin/structure/menu`).
 2. Click **Edit menu** next to the menu.
 
-<!-- <figure><img src="../../../.gitbook/assets/structure-menus-01-main-menu.png" alt="The Main navigation menu form listing Home, About Varbase, Features, Blog and Contact Us with their drag handles, Enabled boxes and Edit buttons"><figcaption><p>The Main Navigation Menu</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/structure-menus-01-main-menu.png" alt="The Main navigation menu form listing Home, About Varbase, Features, Blog and Contact Us with their drag handles, Enabled boxes and Edit buttons"><figcaption><p>The Main Navigation Menu</p></figcaption></figure>
 
 The form lists every link in order, with sub-items indented under their parent.
 

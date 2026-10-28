@@ -6,7 +6,7 @@ Site configuration covers the settings that apply to the whole site: its name, c
 
 Go to **Configuration** in the **Administration** menu (`/admin/config`). You see only the areas your role can use.
 
-<!-- <figure><img src="../../.gitbook/assets/site-config-overview-01-configuration.png" alt="The Configuration page grouped into areas such as People, Content authoring, Search and metadata, System, User interface and Web services"><figcaption><p>The Configuration Page</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/site-config-overview-01-configuration.png" alt="The Configuration page grouped into areas such as People, Content authoring, Search and metadata, System, User interface and Web services"><figcaption><p>The Configuration Page</p></figcaption></figure>
 
 ## Areas Editors Use
 

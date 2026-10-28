@@ -11,7 +11,7 @@ A Drupal Canvas page is a stack of components: sections, columns, headings, text
 
    You can also right-click the component in the **Library** and choose **Insert**. It is added next to the selected component, or into the page if nothing is selected.
 
-<!-- <figure><img src="../../.gitbook/assets/canvas-components-01-library.png" alt="The Library panel open on the Components tab, with Heading typed in the search box and the Heading component being dragged onto the page"><figcaption><p>Adding a Component From the Library</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/canvas-components-01-library.png" alt="The Library panel open on the Components tab, with Heading typed in the search box and the Heading component listed"><figcaption><p>Adding a Component From the Library</p></figcaption></figure>
 
 {% hint style="info" %}
 Layout components such as **Section** and **Columns** hold other components. Add the layout first, then drop components into it.
@@ -22,7 +22,7 @@ Layout components such as **Section** and **Columns** hold other components. Add
 1. Click the component on the page. A frame shows it is selected.
 2. Change its content and options on the **Settings** tab of the right panel, for example the heading text, the heading level or the link of a button.
 
-<!-- <figure><img src="../../.gitbook/assets/canvas-components-02-settings.png" alt="A Heading component selected on the page, with its text and heading level shown on the Settings tab of the right panel"><figcaption><p>Changing a Component's Settings</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/canvas-components-02-settings.png" alt="A Heading component selected on the page, with its text and heading level shown on the Settings tab of the right panel"><figcaption><p>Changing a Component's Settings</p></figcaption></figure>
 
 The page updates as you type.
 
@@ -30,7 +30,7 @@ The page updates as you type.
 
 **Layers** in the left toolbar shows the page as an outline: every component, and the components inside it.
 
-<!-- <figure><img src="../../.gitbook/assets/canvas-components-03-layers.png" alt="The Layers panel showing the outline of a page, with sections that contain columns, headings and cards, and one layer being dragged to a new place"><figcaption><p>The Layers Panel</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/canvas-components-03-layers.png" alt="The Layers panel showing the outline of a page, with sections that contain columns, headings and cards, and one Section layer selected"><figcaption><p>The Layers Panel</p></figcaption></figure>
 
 - Click a layer to select that component on the page.
 - Drag a layer up or down, or into another layer, to move the component.
@@ -50,7 +50,7 @@ Right-click a component on the page or in **Layers** to open its menu:
 | **Move** | **Move up**, **Move down**, or into another container. |
 | **Delete** | Removes it from the page. |
 
-<!-- <figure><img src="../../.gitbook/assets/canvas-components-04-context-menu.png" alt="The right-click menu of a component with Duplicate, Copy, Paste, Create pattern, Move and Delete"><figcaption><p>The Component Menu</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/canvas-components-04-context-menu.png" alt="The right-click menu of a component with Duplicate, Copy, Paste, Create pattern, Move and Delete"><figcaption><p>The Component Menu</p></figcaption></figure>
 
 With a component selected, you can also press **Ctrl + C** and **Ctrl + V** to copy and paste, and **Delete** to remove it (on a Mac, use **Cmd**). **Undo** (**Ctrl + Z**) and **Redo** in the top bar take back a step.
 

@@ -8,7 +8,7 @@ A content template is the layout Drupal Canvas uses to show every item of a cont
 - The template places your fields on the page. A change to the template changes every blog post at once.
 - Blog posts also appear as cards in lists, such as **Latest Blog Posts**. Each card style is a template too.
 
-<!-- <figure><img src="../../.gitbook/assets/canvas-templates-01-blog-post.png" alt="A published blog post showing the title, featured image, date and text laid out by the Blog post content template"><figcaption><p>A Blog Post Laid Out by Its Content Template</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/canvas-templates-01-blog-post.png" alt="A published blog post showing the title, featured image, date and text laid out by the Blog post content template"><figcaption><p>A Blog Post Laid Out by Its Content Template</p></figcaption></figure>
 
 ## Editing a Content Template
 
@@ -20,7 +20,7 @@ Editing templates needs the **Site Admin** or **Super Admin** role.
 4. Change the layout the same way as a page: add, move and remove components, and choose which field each one shows.
 5. Publish the change. See [Preview and Publish](preview-and-publish.md).
 
-<!-- <figure><img src="../../.gitbook/assets/canvas-templates-02-templates-panel.png" alt="The Templates panel listing Blog post under Content types with its Full content and card templates"><figcaption><p>Content Templates in the Templates Panel</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/canvas-templates-02-templates-panel.png" alt="The Templates panel listing Blog post under Content types with its Full content and card templates"><figcaption><p>Content Templates in the Templates Panel</p></figcaption></figure>
 
 While you edit a template, the editor shows it filled with a real blog post so you can see the result.
 

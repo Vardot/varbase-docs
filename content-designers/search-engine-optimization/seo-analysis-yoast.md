@@ -9,7 +9,7 @@ The **SEO analysis** on a blog post checks your text against a focus keyword, th
 3. Click **Seo preview** to run the check with your latest text.
 4. Read the results and the search preview, change the post, and click **Seo preview** again.
 
-<!-- <figure><img src="../../.gitbook/assets/seo-yoast-01-analysis.png" alt="The SEO analysis of a blog post with a focus keyword entered, the search result preview, the overall status and the list of checks with their ratings"><figcaption><p>The SEO Analysis of a Blog Post</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/seo-yoast-01-analysis.png" alt="The SEO analysis of a blog post with a focus keyword entered, the search result preview, the overall status and the list of checks with their ratings"><figcaption><p>The SEO Analysis of a Blog Post</p></figcaption></figure>
 
 ## Reading the Results
 

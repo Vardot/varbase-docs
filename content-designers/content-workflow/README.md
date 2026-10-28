@@ -15,7 +15,7 @@ Varbase moves blog posts and utility pages through a publishing workflow, so not
 
 A published item can have a newer draft. Visitors keep seeing the published version until you publish the draft.
 
-<!-- <figure><img src="../../.gitbook/assets/workflow-overview-01-states.png" alt="The moderation block in the sidebar of a blog post edit form, showing Current state Draft and the Change to list"><figcaption><p>The Moderation Block in the Edit Form</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/workflow-overview-01-states.png" alt="The moderation block in the sidebar of a blog post edit form, showing Current state Draft and the Change to list"><figcaption><p>The Moderation Block in the Edit Form</p></figcaption></figure>
 
 ## State Transitions
 
@@ -54,7 +54,7 @@ When you open a blog post or utility page for editing, Varbase locks it so no on
 - A lock left behind ends by itself after 30 minutes.
 - A **Content Admin** or **Super Admin** can release someone else's lock with **Break the lock.** in that message, or **Break lock** in the item's **Operations** on the content list.
 
-<!-- <figure><img src="../../.gitbook/assets/workflow-overview-02-locked.png" alt="A blog post edit form showing the message that the content is being edited by another user and is locked, with the Break the lock link"><figcaption><p>An Item Locked by Another Editor</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/workflow-overview-02-locked.png" alt="A blog post edit form showing the message that the content is being edited by another user and is locked, with the Break the lock link"><figcaption><p>An Item Locked by Another Editor</p></figcaption></figure>
 
 ### Autosave
 
@@ -62,7 +62,7 @@ While a content form is open, Varbase saves a copy of your changes every minute 
 
 If you leave the form without saving, the next time you open the item Varbase asks whether to **Resume editing** with that copy or **Discard** it.
 
-<!-- <figure><img src="../../.gitbook/assets/workflow-overview-03-autosave-resume.png" alt="The autosave message on a blog post edit form, asking whether to resume editing or discard the saved draft, with the Resume editing and Discard buttons"><figcaption><p>Resuming an Autosaved Draft</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/workflow-overview-03-autosave-resume.png" alt="The autosave message on a blog post edit form, asking whether to resume editing or discard the saved draft, with the Resume editing and Discard buttons"><figcaption><p>Resuming an Autosaved Draft</p></figcaption></figure>
 
 ## Scheduling and the Trash
 

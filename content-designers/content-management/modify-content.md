@@ -10,7 +10,7 @@ You will often update content that already exists: fix a typo, add a paragraph, 
 2. Type part of the title in **Title**, or choose a **Content type**, then click **Filter**.
 3. Click **Edit** in the **Operations** column of the item.
 
-<!-- <figure><img src="../../.gitbook/assets/content-management-modify-01-filter.png" alt="The Content list filtered by a title, with the Edit button of the matching blog post highlighted in the Operations column"><figcaption><p>Finding an Item to Edit</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/content-management-modify-01-filter.png" alt="The Content list filtered by a title, with the Edit button of the matching blog post highlighted in the Operations column"><figcaption><p>Finding an Item to Edit</p></figcaption></figure>
 
 ### From the Site
 
@@ -24,7 +24,7 @@ You will often update content that already exists: fix a typo, add a paragraph, 
 3. Write a **Revision log message** that says what changed, for example "Updated the opening hours".
 4. Click **Save**.
 
-<!-- <figure><img src="../../.gitbook/assets/content-management-modify-02-change-to.png" alt="The edit form sidebar showing Current state Published and the Change to list open with Draft, Published and Archived / Unpublished"><figcaption><p>Saving a Change as a Draft of a Published Item</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/content-management-modify-02-change-to.png" alt="The edit form sidebar showing Current state Published and the Change to list open with Draft, Published and Archived / Unpublished"><figcaption><p>Saving a Change as a Draft of a Published Item</p></figcaption></figure>
 
 {% hint style="info" %}
 While you have an item open, other editors cannot edit it; they see who is editing. Click **Save** or **Unlock** when you finish so the lock is released. See [Content Workflow](../content-workflow/#content-locking-and-autosave).
@@ -34,7 +34,7 @@ While you have an item open, other editors cannot edit it; they see who is editi
 
 Each save keeps the previous version. Open the item and click the **Revisions** tab to see the list, with the date, the author and the log message of each.
 
-<!-- <figure><img src="../../.gitbook/assets/content-management-modify-03-revisions.png" alt="The Revisions tab of a blog post listing its revisions with dates, authors and log messages, and the Compare selected revisions button"><figcaption><p>The Revisions Tab</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/content-management-modify-03-revisions.png" alt="The Revisions tab of a blog post listing its revisions with dates, authors and log messages, and the Compare selected revisions button"><figcaption><p>The Revisions Tab</p></figcaption></figure>
 
 ### Comparing Two Revisions
 

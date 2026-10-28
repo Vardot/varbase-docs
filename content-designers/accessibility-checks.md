@@ -4,9 +4,9 @@ Varbase checks your pages for common accessibility problems as you work, so ever
 
 ## Where the Checker Appears
 
-When you are logged in and view a page on the site, the checker scans it. If it finds a problem, a panel opens with the number of issues and markers appear next to each one.
+When you are logged in and view a page on the site, the checker scans it and shows its button in the corner of the page. If it finds a problem, the button shows the number of issues and markers appear next to each one.
 
-<!-- <figure><img src="../.gitbook/assets/accessibility-checks-01-panel.png" alt="A published page viewed by a logged-in editor, with the accessibility checker panel open and a marker next to an image without alt text"><figcaption><p>The Accessibility Checker on a Page</p></figcaption></figure> -->
+<figure><img src="../.gitbook/assets/accessibility-checks-01-panel.png" alt="A published blog post viewed by a logged-in editor, with the accessibility checker button in the corner of the page"><figcaption><p>The Accessibility Checker on a Page</p></figcaption></figure>
 
 Visitors never see the checker.
 

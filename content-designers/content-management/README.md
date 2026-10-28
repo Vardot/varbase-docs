@@ -22,7 +22,7 @@ Your site may have more content types, added by your development team or a site 
 
 **CMS** (`/admin/content`) lists every content item.
 
-<!-- <figure><img src="../../.gitbook/assets/content-management-overview-01-content-list.png" alt="The Content list with the Title, Content type, Published status and Language filters above a table of blog posts and utility pages"><figcaption><p>The Content List</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/content-management-overview-01-content-list.png" alt="The Content list with the Title, Content type, Published status and Language filters above a table of blog posts and utility pages"><figcaption><p>The Content List</p></figcaption></figure>
 
 - **Filter** the list by **Title**, **Content type**, **Published status** and **Language**, then click **Filter**.
 - **Sort** by clicking a column heading, such as **Updated**.

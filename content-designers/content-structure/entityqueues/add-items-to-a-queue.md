@@ -11,7 +11,7 @@ This page shows how to add content to an existing EntityQueue and put it in the 
 5. Drag the new items to their place in the list.
 6. Click **Save**.
 
-<!-- <figure><img src="../../../.gitbook/assets/structure-entityqueues-03-add-item.png" alt="The items form of a queue with a title being typed in the new item field and matching blog posts suggested below it"><figcaption><p>Adding an Item to a Queue</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/structure-entityqueues-03-add-item.png" alt="The items form of a queue with a title being typed in the new item field and matching blog posts suggested below it"><figcaption><p>Adding an Item to a Queue</p></figcaption></figure>
 
 The change shows wherever the queue is displayed on the site.
 

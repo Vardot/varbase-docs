@@ -9,7 +9,7 @@ An email handler sends an email each time someone submits a form, for example to
 
 Forms made from a template already have handlers, usually an **Email notification** to your team and an **Email confirmation** to the visitor.
 
-<!-- <figure><img src="../../.gitbook/assets/webforms-handlers-01-list.png" alt="The Emails / Handlers tab of the Contact webform listing the Email confirmation and Email notification handlers, with the Add email button"><figcaption><p>The Handlers of a Webform</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/webforms-handlers-01-list.png" alt="The Emails / Handlers tab of the Contact webform listing the Email confirmation and Email notification handlers, with the Add email button"><figcaption><p>The Handlers of a Webform</p></figcaption></figure>
 
 ## Adding an Email
 
@@ -22,7 +22,7 @@ Forms made from a template already have handlers, usually an **Email notificatio
    - **Body**: keep **Default** to include every answer, or write your own text.
 3. Click **Save**.
 
-<!-- <figure><img src="../../.gitbook/assets/webforms-handlers-02-email.png" alt="The Add email handler form with the To email, From email, Reply-to email, Subject and Body settings"><figcaption><p>Setting Up an Email</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/webforms-handlers-02-email.png" alt="The Add email handler form with the To email, From email, Reply-to email, Subject and Body settings"><figcaption><p>Setting Up an Email</p></figcaption></figure>
 
 ## Testing the Emails
 

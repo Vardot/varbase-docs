@@ -1,0 +1,17 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:08.493
+A pattern is a ready made group of components. Here we insert the Feature Cards pattern into a page.
+
+2
+00:00:08.493 --> 00:00:32.014
+Open the Library, and switch to the Patterns tab.
+
+3
+00:00:32.014 --> 00:00:44.026
+Right click Feature Cards, and choose Insert. The cards are added to the page.
+
+4
+00:00:44.026 --> 00:00:50.903
+Each card is now a normal component. Select one to change its heading and text.

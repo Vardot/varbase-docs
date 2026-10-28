@@ -14,7 +14,7 @@ This page shows how to add terms to a vocabulary: one at a time, several at once
    - **Published**: leave ticked to show the term on the site.
 4. Click **Save**.
 
-<!-- <figure><img src="../../../.gitbook/assets/structure-taxonomies-02-add-term.png" alt="The Add term form for Tags with the Name, Description, Relations and URL alias fields"><figcaption><p>Adding a Term</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/structure-taxonomies-02-add-term.png" alt="The Add term form for Tags with the Name, Description, Relations and URL alias fields"><figcaption><p>Adding a Term</p></figcaption></figure>
 
 ## Adding Several Terms With Taxonomy Manager
 
@@ -25,7 +25,7 @@ This page shows how to add terms to a vocabulary: one at a time, several at once
 3. Type one term per line, and choose a parent if needed.
 4. Click **Add**.
 
-<!-- <figure><img src="../../../.gitbook/assets/structure-taxonomies-03-taxonomy-manager.png" alt="Taxonomy Manager showing the Tags tree on the left and the Add terms box with several names, one per line"><figcaption><p>Adding Terms With Taxonomy Manager</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/structure-taxonomies-03-taxonomy-manager.png" alt="Taxonomy Manager showing the Tags tree on the left and the Add terms box with several names, one per line"><figcaption><p>Adding Terms With Taxonomy Manager</p></figcaption></figure>
 
 ## Adding a Tag While Writing
 

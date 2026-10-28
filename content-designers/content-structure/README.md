@@ -12,6 +12,6 @@ Content structure covers the tools that organise content rather than create it: 
 
 All three are in the **Administration** menu of the **Navigation** sidebar, under **Structure**.
 
-<!-- <figure><img src="../../.gitbook/assets/structure-overview-01-structure-menu.png" alt="The Structure item open in the Navigation sidebar, with Menus, Taxonomy and Entityqueues highlighted"><figcaption><p>Content Structure Tools Under Structure</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/structure-overview-01-structure-menu.png" alt="The Structure item open in the Navigation sidebar, with Menus, Taxonomy and Entityqueues highlighted"><figcaption><p>Content Structure Tools Under Structure</p></figcaption></figure>
 
 Other items under **Structure**, such as **Content types** and **Views**, are for site builders and developers.

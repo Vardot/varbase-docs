@@ -12,7 +12,7 @@ The **Dashboard** is the first page you see after you log in. It shows what you 
 
 Varbase ships one dashboard for editors, **Welcome to your site**. Every editorial role (**Content editor**, **Content Admin**, **SEO Admin** and **Site Admin**) can see it.
 
-<!-- <figure><img src="../../.gitbook/assets/admin-area-dashboard-01-welcome.png" alt="The Welcome to your site dashboard, with the welcome panel, Add content and Top tasks in the left column, and My Drafts, Recent content and Recent pages in the right column"><figcaption><p>The Welcome to Your Site Dashboard</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/admin-area-dashboard-01-welcome.png" alt="The Welcome to your site dashboard, with the welcome panel, Add content and Top tasks in the left column, and My Drafts, Recent content and Recent pages in the right column"><figcaption><p>The Welcome to Your Site Dashboard</p></figcaption></figure>
 
 ### Left Column
 
@@ -35,7 +35,7 @@ Varbase ships one dashboard for editors, **Welcome to your site**. Every editori
 
 The bottom of the dashboard lists content that is set to publish or unpublish at a future date. See [Scheduling Content](../content-workflow/scheduling-content.md).
 
-<!-- <figure><img src="../../.gitbook/assets/admin-area-dashboard-02-scheduled.png" alt="The Scheduled panel at the bottom of the Welcome dashboard, listing a blog post with its publish date"><figcaption><p>Scheduled Content on the Dashboard</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/admin-area-dashboard-02-scheduled.png" alt="The Scheduled panel at the bottom of the Welcome dashboard, listing a blog post with its publish date"><figcaption><p>Scheduled Content on the Dashboard</p></figcaption></figure>
 
 Click any title in a panel to open that item.
 

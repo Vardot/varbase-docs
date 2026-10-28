@@ -6,7 +6,7 @@ Everyone who works on your Varbase site has their own account, and each account 
 
 Go to **People** (`/admin/people`) to see every account.
 
-<!-- <figure><img src="../../.gitbook/assets/users-overview-01-people.png" alt="The People list showing the test accounts with their status, roles and last access, and the Name or email contains, Status, Role and Permission filters"><figcaption><p>The People List</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/users-overview-01-people.png" alt="The People list showing the test accounts with their status, roles and last access, and the Name or email contains, Status, Role and Permission filters"><figcaption><p>The People List</p></figcaption></figure>
 
 - Filter by **Name or email contains**, **Status**, **Role** or **Permission**, then click **Filter**.
 - Click **Edit** next to an account to change it.

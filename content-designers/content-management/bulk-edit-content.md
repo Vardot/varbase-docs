@@ -10,7 +10,7 @@ The content list lets you apply one action to many items at once, such as deleti
 4. In **Action**, choose what to do.
 5. Click **Apply to selected items**, and confirm if asked.
 
-<!-- <figure><img src="../../.gitbook/assets/content-management-bulk-01-action.png" alt="The Content list with three blog posts ticked and the Action list open above them, next to the Apply to selected items button"><figcaption><p>Applying an Action to Selected Items</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/content-management-bulk-01-action.png" alt="The Content list with three blog posts ticked and the Action list open above them, next to the Apply to selected items button"><figcaption><p>Applying an Action to Selected Items</p></figcaption></figure>
 
 Varbase shows a message with the result.
 

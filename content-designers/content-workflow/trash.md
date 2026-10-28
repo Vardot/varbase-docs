@@ -12,7 +12,7 @@ Items in the trash are hidden from visitors and from the normal content lists.
 
 Click **Trash** in the **Navigation** sidebar, or go to `/admin/content/trash`. The tabs at the top split the trash by kind: **Content**, **Pages**, **Media entities**, **Taxonomy terms** and **Files**.
 
-<!-- <figure><img src="../../.gitbook/assets/workflow-trash-01-list.png" alt="The Trash page on the Content tab, listing a deleted blog post with its deletion date and the Restore and Purge operations"><figcaption><p>The Trash</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/workflow-trash-01-list.png" alt="The Trash page on the Content tab, listing a deleted blog post with its deletion date and the Restore and Purge operations"><figcaption><p>The Trash</p></figcaption></figure>
 
 ## Restoring an Item
 
@@ -21,7 +21,7 @@ Click **Trash** in the **Navigation** sidebar, or go to `/admin/content/trash`. 
 3. If the item has translations, tick the ones to restore too under **Translations**.
 4. Click **Confirm**.
 
-<!-- <figure><img src="../../.gitbook/assets/workflow-trash-02-restore.png" alt="The Restore confirmation for a deleted blog post, with the Confirm button highlighted"><figcaption><p>Restoring an Item From the Trash</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/workflow-trash-02-restore.png" alt="The Restore confirmation for a deleted blog post, with the Confirm button highlighted"><figcaption><p>Restoring an Item From the Trash</p></figcaption></figure>
 
 The item returns to its list with the state it had before.
 

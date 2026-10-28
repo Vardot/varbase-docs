@@ -1,0 +1,17 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:08.342
+Images live in the media library, so you can use them again anywhere on the site. Here we add one.
+
+2
+00:00:08.342 --> 00:00:19.333
+Open the Add image form and choose a file from your computer.
+
+3
+00:00:19.333 --> 00:00:29.059
+Drag the cross onto the most important part of the picture. Varbase keeps that part in view when it crops the image.
+
+4
+00:00:29.059 --> 00:00:37.399
+Write alternative text that says what the image shows. People who use screen readers depend on it.
