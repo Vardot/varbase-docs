@@ -1,58 +1,38 @@
 # Translating Content
 
-This guide explains how to translate content items into other languages on a multilingual Varbase site.
+This page shows how to translate a blog post or utility page. The same steps work for media, taxonomy terms and menu links. For Drupal Canvas pages, see [Translating a Page](../building-pages-with-drupal-canvas/translating-a-page.md).
 
-## Prerequisites
+## Adding a Translation
 
-- Multilingual support must be enabled on your site (via the `varbase_i18n_base` recipe).
-- At least one additional language must be added and enabled.
-- The content type must be configured to allow translations.
+1. Open the item and click the **Translate** tab.
 
-## Steps to Translate Content
+   The table lists each language with its status: the original language, **Not translated**, or the existing translation.
 
-1. **Navigate to the content item.**
-   - Find the content you want to translate via the content listing at **Content** (`/admin/content`), or navigate to the content page directly.
+   <!-- <figure><img src="../../.gitbook/assets/translation-content-01-translate-tab.png" alt="The Translate tab of a blog post, listing English as the original and Arabic and French with their translation status and Add or Edit buttons"><figcaption><p>The Translate Tab</p></figcaption></figure> -->
 
-2. **Open the Translate tab.**
-   - Click the **Translate** tab on the content item. This tab appears alongside View, Edit, and other tabs.
-   - You will see a table listing all enabled languages, showing the translation status for each:
-     - **Original language**: The language in which the content was originally created.
-     - **Not translated**: No translation exists for this language.
-     - **Translated**: A translation exists. You can edit it from here.
+2. Click **Add** next to the language.
+3. The form opens with the original text. Replace it with the translation:
+   - **Title**, **Description** and **Content**.
+   - The **SEO title** and **SEO description**, so search results show the right language.
+   - The **URL alias**, if you want a translated address.
+   - Images stay the same unless you choose another one for this language.
+4. Choose the state in **Save as**, for example **Draft** or **Published**.
+5. Click **Save**.
 
-3. **Add a translation.**
-   - Click **Add** next to the language you want to translate the content into.
-   - You will see the content editing form pre-populated with the original content.
-   - Translate the content fields:
-     - **Title**: Enter the translated title.
-     - **Body / Content fields**: Replace the original text with the translated text.
-     - **Media fields**: You can keep the same media or replace it with language-specific media.
-     - **URL alias**: Set a language-specific URL alias if needed.
-     - **Meta tags**: Provide translated meta tags for SEO.
-   - Set the appropriate moderation state for the translation (Draft or Published).
+<!-- <figure><img src="../../.gitbook/assets/translation-content-02-form.png" alt="The translation form of a blog post in Arabic, with the right-to-left title and content fields filled in"><figcaption><p>Translating a Blog Post Into Arabic</p></figcaption></figure> -->
 
-4. **Save the translation.**
-   - Click **Save** to create the translation.
-   - The translation is now linked to the original content item.
+## Editing a Translation
 
-## Editing an Existing Translation
+1. Open the item and click the **Translate** tab.
+2. Click **Edit** next to the language.
+3. Change the text and click **Save**.
 
-1. Navigate to the content item and click the **Translate** tab.
-2. Click **Edit** next to the language translation you want to update.
-3. Make your changes and click **Save**.
+## Translations and the Workflow
 
-## Translation and Content Moderation
+Each translation has its own state. You can publish the English post and keep the Arabic one as a **Draft** until it is checked. See [Content Workflow](../content-workflow/).
 
-Each translation has its own moderation state. This means you can:
+## Tips
 
-- Publish the original content while keeping a translation in Draft.
-- Archive a translation independently of the original.
-- Manage the translation workflow separately for each language.
-
-## Tips for Translating Content
-
-- **Translate all fields.** Ensure that all visible text fields are translated, including the title, body, summary, and any custom fields.
-- **Update translations when the original changes.** When the original content is updated, review and update all existing translations to keep them in sync.
-- **Use consistent terminology.** Maintain a translation glossary for your site to ensure consistent use of key terms across all translations.
-- **Set language-specific URL aliases.** Provide URL aliases in each language for better SEO and user experience (e.g., `/en/about-us` and `/ar/about-us`).
-- **Test the language switcher.** After adding a translation, verify that the language switcher correctly links between the original and translated versions.
+- After changing the original, update every translation; the site does not do it for you.
+- Keep a short list of how your key terms are translated, so all editors use the same words.
+- Check right-to-left languages such as Arabic on the site, especially lists, tables and links.
