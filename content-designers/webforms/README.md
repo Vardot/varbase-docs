@@ -1,64 +1,42 @@
 # Webforms
 
-Varbase includes the **Webform** module, a powerful form-building tool that allows you to create and manage a wide variety of forms, from simple contact forms to complex multi-step surveys.
+Webforms are the forms visitors fill in on your site: contact, feedback, registration, newsletter sign-up. You build them in the browser, choose who is emailed when someone submits one, and read the submissions in one place. This section shows how.
 
-## Overview
+## Forms on a Varbase Site
 
-The Webform module provides:
+A new site has ready forms, such as **Contact**, **Business Contact** and **Newsletter Subscribe**, and a set of templates to start new forms from: **Contact Us**, **Feedback**, **Registration**, **Job Application**, **Subscribe**, **Session Evaluation** and more.
 
-- A drag-and-drop form builder for creating forms without coding.
-- A wide range of field types (text, email, select, checkboxes, file upload, etc.).
-- Conditional logic for showing or hiding fields based on user input.
-- Email notification handlers for sending submissions to designated recipients.
-- Submission management for viewing, exporting, and analyzing form responses.
-- Integration with content as a block or embedded in pages.
+Go to **Structure** \ **Webforms** (`/admin/structure/webform`) to see them.
 
-## Professional Business Contact Template
+<!-- <figure><img src="../../.gitbook/assets/webforms-overview-01-list.png" alt="The Webforms list showing Contact, Business Contact and Newsletter Subscribe with their status and number of results"><figcaption><p>The Webforms List</p></figcaption></figure> -->
 
-Varbase includes a **Professional Business Contact** webform template that provides a ready-to-use contact form. This template includes:
+Each form has tabs: **View** (the form as visitors see it), **Test**, **Results**, **Build**, **Settings** and **Export**.
 
-- Name field.
-- Email address field.
-- Subject field.
-- Message body field.
-- Pre-configured email notification handler.
+## Showing a Form on a Page
 
-You can use this template as-is or customize it to fit your specific needs.
+- **Its own page**: every form has an address such as `/form/contact`.
+- **In a Drupal Canvas page**: add the **Webform** component from the **Library** and choose the form in its settings. See [Adding and Arranging Components](../building-pages-with-drupal-canvas/adding-and-arranging-components.md).
+- **On every page**: a **Site Admin** can add the **Webform** component to the footer of the page template, for example for a newsletter sign-up. See [Page Templates](../building-pages-with-drupal-canvas/page-templates.md).
 
-## Accessing Webform Management
+## Reading Submissions
 
-1. Navigate to **Structure > Webforms** in the admin navigation sidebar, or go to `/admin/structure/webform`.
-2. You will see a list of all webforms on your site, along with their status and submission counts.
+1. On the webforms list, click **Results** next to the form.
+2. Click a submission to read it.
+3. Click **Download** to export all submissions, for example as a CSV file for a spreadsheet.
 
-## Webform Tasks
+<!-- <figure><img src="../../.gitbook/assets/webforms-overview-02-results.png" alt="The Results tab of the Contact webform listing submissions with their date and submitted values"><figcaption><p>Webform Submissions</p></figcaption></figure> -->
 
-- [Create New Webform](create-new-webform.md): Build a new form from scratch or from a template.
-- [Setting up Email Handlers](setting-up-email-handlers.md): Configure email notifications for form submissions.
+## Who Can Do What
 
-## Displaying Webforms
+| Task | Content editor | Content Admin | Site Admin |
+| --- | --- | --- | --- |
+| Create forms | Yes | Yes | Yes |
+| Edit forms | Their own | Any | Any |
+| Read and export submissions | No | No | Yes |
 
-Webforms can be displayed on your site in several ways:
+A **Super Admin** can do all of these. Submissions hold visitors' personal details, so keep access to them narrow.
 
-- **Dedicated page**: Each webform has its own URL (e.g., `/form/contact`) where visitors can access and fill out the form.
-- **Block**: Place the webform as a block within Layout Builder or the block layout to embed it on specific pages.
-- **Embedded in content**: Reference the webform from a content item's form field to embed it within the content.
+## In This Section
 
-## Managing Submissions
-
-To view and manage form submissions:
-
-1. Navigate to **Structure > Webforms**.
-2. Click **Results** next to the webform you want to review.
-3. You can:
-   - View individual submissions.
-   - Export submissions as CSV for analysis.
-   - Delete submissions.
-   - View submission analytics and statistics.
-
-## Tips
-
-- Start with the Professional Business Contact template and customize it, rather than building a form from scratch.
-- Test your form thoroughly before making it available to visitors. Submit test entries to verify that all fields, validations, and email handlers work correctly.
-- Set up email handlers to ensure you receive notifications of new submissions. See [Setting up Email Handlers](setting-up-email-handlers.md).
-- Review submissions regularly and respond to inquiries promptly.
-- Use conditional logic to create streamlined forms that only show relevant fields to each user.
+- [Create New Webform](create-new-webform.md)
+- [Setting up Email Handlers](setting-up-email-handlers.md)
