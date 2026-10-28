@@ -1,70 +1,44 @@
 # URL Aliases
 
-URL aliases create human-readable paths for content pages. Varbase uses the **Pathauto** module to generate automatic aliases and also supports manually setting aliases for individual content items.
+A URL alias is the readable address of a page, such as `/about-varbase` instead of the system address `/page/5`. This page explains how Varbase creates aliases and how to set your own.
 
-## How URL Aliases Work
+## Automatic Aliases
 
-By default, Drupal assigns each content item a system path based on its internal ID (e.g., `/node/42`). URL aliases provide an alternative, user-friendly path (e.g., `/about-us`) that visitors and search engines can use instead.
+Varbase creates the alias from the title when you save:
 
-When a visitor navigates to an alias, Drupal internally resolves it to the system path and serves the correct content.
+| Content | Alias pattern | Example |
+| --- | --- | --- |
+| **Blog post** | `/blog/` and the title | `/blog/multilingual-websites-made-easy-with-varbase` |
+| **Utility page** | The title | `/privacy-policy` |
 
-## Automatic Aliases with Pathauto
+If you change the title, the alias changes too, and the old address redirects to the new one.
 
-Varbase uses **Pathauto** to generate URL aliases automatically whenever content is created or updated. Pathauto uses configurable patterns that typically include the content type and title.
+<!-- <figure><img src="../../.gitbook/assets/seo-url-aliases-01-sidebar.png" alt="The URL alias section in the sidebar of a blog post form, with Generate automatic URL alias ticked and the generated alias shown"><figcaption><p>The URL Alias of a Blog Post</p></figcaption></figure> -->
 
-### Default Patterns
+## Setting Your Own Alias
 
-Common default alias patterns include:
+1. Edit the item and open **URL alias** in the sidebar.
+2. Untick **Generate automatic URL alias**.
+3. Type the alias, starting with `/`, for example `/offers/spring-sale`.
+4. Save.
 
-- **Pages:** `/[node:title]` (e.g., `/about-us`)
-- **Articles:** `/blog/[node:title]` (e.g., `/blog/my-first-post`)
-- **Taxonomy terms:** `/[term:vocabulary]/[term:name]`
+## Drupal Canvas Pages and Terms
 
-Patterns can be customized by your site administrator at **Configuration > URL aliases > Patterns** (`/admin/config/search/path/patterns`).
+Drupal Canvas pages and taxonomy terms do not get an automatic alias. Set it yourself:
 
-### How Automatic Generation Works
+- For a page, in **URL alias** in the **Page data** panel of the editor. See [Building Pages With Drupal Canvas](../building-pages-with-drupal-canvas/).
+- For a term, in **URL alias** on the term form.
 
-1. When you create or edit a content item, Pathauto checks whether an alias should be generated.
-2. If the **Generate automatic URL alias** checkbox is checked on the content form, Pathauto generates an alias based on the configured pattern.
-3. The generated alias is saved and immediately available for use.
-4. If the content title changes, the alias is updated automatically (and the old alias may be redirected to the new one if the Redirect module is configured).
+Without an alias, the page uses its system address, such as `/page/7`.
 
-## Manual Aliases
+## The List of All Aliases
 
-You can set a custom alias for any content item:
+Go to **Configuration** \ **Search and metadata** \ _**URL aliases**_ (`/admin/config/search/path`) to see every alias with its **System path**. Filter by alias, and click **Edit** to change one.
 
-1. Open the content item for editing.
-2. Find the **URL alias** field (usually in the sidebar or under a collapsible section).
-3. Uncheck the **Generate automatic URL alias** checkbox.
-4. Enter the desired alias in the **URL alias** field (e.g., `/custom-page-path`).
-5. Click **Save**.
-
-### Manual Alias Guidelines
-
-- Always start the alias with a forward slash (`/`).
-- Use lowercase letters, numbers, and hyphens.
-- Avoid spaces, special characters, and uppercase letters.
-- Keep aliases short, descriptive, and relevant to the content.
-
-## Managing All Aliases
-
-To view and manage all URL aliases on the site:
-
-1. Navigate to **Configuration > URL aliases**, or go to `/admin/config/search/path`.
-2. You will see a list of all aliases on the site, with the alias path and the system path it maps to.
-3. You can filter, edit, or delete individual aliases from this page.
-
-## Bulk Generating Aliases
-
-If you need to generate or regenerate aliases for existing content:
-
-1. Navigate to **Configuration > URL aliases > Bulk generate** (`/admin/config/search/path/update_bulk`).
-2. Select which entity types to generate aliases for.
-3. Click **Update** to generate aliases for all items that do not currently have one, or regenerate aliases for all items.
+<!-- <figure><img src="../../.gitbook/assets/seo-url-aliases-02-list.png" alt="The URL aliases list showing aliases such as /about-varbase and /blog with their system paths and Edit buttons"><figcaption><p>The URL Aliases List</p></figcaption></figure> -->
 
 ## Tips
 
-- Let Pathauto handle alias generation for consistency. Only use manual aliases when you need a specific URL that differs from the automatic pattern.
-- Avoid changing aliases for published content unless necessary, as it can break existing links. Use URL redirects to handle changed URLs.
-- Review alias patterns periodically to ensure they meet your site's URL strategy.
-- Keep aliases as short and descriptive as possible for better usability and SEO.
+- Use short, lowercase words separated by hyphens.
+- Avoid dates in aliases unless the content is about that date.
+- On a multilingual site, each translation can have its own alias.
