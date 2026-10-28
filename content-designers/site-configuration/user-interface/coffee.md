@@ -1,43 +1,30 @@
 # Coffee
 
-The **Coffee** module provides a quick navigation tool for the Varbase admin interface. It works like a spotlight search, allowing you to jump to any admin page by typing part of its name.
+**Coffee** is a quick search for administration pages: you type part of a page name and jump straight to it, without browsing the menus. This page shows how to use it.
 
-## How to Use Coffee
+## Using Coffee
 
-1. Press **Alt+D** on your keyboard to open the Coffee search box.
-   - On macOS, use **Option+D**.
-2. A search overlay appears at the top of the page.
-3. Start typing the name of the admin page you want to navigate to (e.g., "content," "people," "metatag," "blocks").
-4. As you type, a list of matching admin pages appears.
-5. Use the arrow keys to highlight the desired result, then press **Enter** to navigate to it.
-6. Alternatively, click on a result with your mouse.
+1. Press **Alt + D** (on a Mac, **Option + D**), or click **Go To** in the bar at the top of the page.
+2. Type part of the page name, for example `redirect`.
+3. Use the arrow keys to choose a result and press **Enter**, or click it.
 
-## What Coffee Searches
+<!-- <figure><img src="../../../.gitbook/assets/site-config-coffee-01-search.png" alt="The Coffee search box with the word redirect typed and URL redirects and Add redirect listed as results"><figcaption><p>Finding a Page With Coffee</p></figcaption></figure> -->
 
-Coffee searches across all admin menu items available to your current user role. This includes:
+Press **Esc** to close it. Hold **Ctrl** (on a Mac, **Cmd**) while choosing a result to open it in a new tab.
 
-- Content management pages (Content, Add content, Media).
-- Structure pages (Content types, Menus, Taxonomy, Blocks, Views).
-- Configuration pages (Performance, Metatag, URL redirects).
-- People management pages (Users, Roles, Permissions).
-- Reports pages (Status report, Log messages).
-- Any other admin pages accessible to your role.
+## What Coffee Finds
+
+Coffee searches the pages of the **Administration** menu that your role can open, and shows up to seven results. It does not search content by title; use **CMS** for that. See [Content Management](../../content-management/).
 
 ## Examples
 
-| Type | Result |
-|---|---|
-| `content` | Navigate to the Content listing page. |
-| `add` | Shows options for Add content, Add media, Add user, etc. |
-| `menu` | Navigate to the Menu management page. |
-| `people` | Navigate to the People (user management) page. |
-| `performance` | Navigate to the Performance (cache) configuration page. |
-| `taxonomy` | Navigate to the Taxonomy management page. |
+| Type | To open |
+| --- | --- |
+| `menus` | **Menus** |
+| `taxonomy` | **Taxonomy** |
+| `redirect` | **URL redirects** |
+| `trash` | **Trash** |
 
-## Tips
+## Who Can Use It
 
-- Coffee is the fastest way to navigate the admin interface when you know the name of the page you need.
-- You only need to type a few characters for results to appear. Coffee matches partial strings.
-- If you do not see the page you are looking for, you may not have permission to access it. Check your role and permissions.
-- Coffee only searches admin pages. It does not search for content items by title. To find specific content, use the content listing at `/admin/content`.
-- The keyboard shortcut (**Alt+D**) works from any page on the site, whether you are on the front end or in the admin area.
+The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** roles.

@@ -11,7 +11,7 @@ Following consistent standards when uploading content ensures a professional, pe
 - **Choose the right format:**
   - **JPG**: Photographs and images with many colors.
   - **PNG**: Graphics, logos, and images requiring transparency.
-  - **SVG**: Icons, logos, and illustrations that need to scale.
+  - **SVG**: Icons, logos, and illustrations that need to scale. Upload these as the **SVG Image** media type.
   - **WebP**: General web use with superior compression (recommended when supported).
   - **GIF**: Simple animations only.
 
@@ -102,3 +102,8 @@ Alt text (alternative text) is essential for accessibility. Screen readers use a
 - Use tables only for tabular data, not for layout purposes.
 - Include header rows for clarity.
 - Keep tables simple and avoid excessive nesting.
+
+## Check Before You Publish
+
+- View the page while logged in: the accessibility checker marks missing alt text, skipped headings and unclear links. See [Accessibility Checks](../accessibility-checks.md).
+- Use **Generate with AI** for a first draft of alt text, then correct it. See [Image](../media-management/uploading-media-files/image.md).

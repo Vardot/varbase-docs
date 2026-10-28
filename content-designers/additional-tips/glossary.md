@@ -4,8 +4,8 @@ This glossary defines key terms and concepts used throughout the Varbase documen
 
 ## A
 
-### Administrator
-The highest-level user role in Varbase with unrestricted access to all site functionality.
+### AI Review
+An AI check of a content item against your editorial rules, run from the item's **AI Review** tab.
 
 ### Alt Text (Alternative Text)
 A text description of an image used by screen readers for accessibility and by search engines for indexing. Required for all editorial images.
@@ -19,10 +19,10 @@ A content moderation state in which content is removed from public view but reta
 ## B
 
 ### Block
-A reusable or inline content element placed within a region or Layout Builder section. Blocks can contain text, media, menus, forms, and dynamic content listings.
+A reusable piece of content or functionality, such as a menu, a form or a list. In Drupal Canvas, blocks are added as components.
 
 ### Bulk Operations
-Actions performed on multiple content items simultaneously, such as publishing, unpublishing, or deleting. Powered by Views Bulk Operations (VBO).
+Actions performed on several content items at once from a list, such as deleting them or updating their URL aliases.
 
 ## C
 
@@ -32,14 +32,24 @@ The rich-text editor (WYSIWYG) used in Varbase for formatting content. CKEditor 
 ### Coffee
 A Drupal module that provides a quick-search overlay for admin navigation. Activated by pressing Alt+D.
 
+### Component
+A ready-made piece of a Drupal Canvas page, such as a heading, an image, a card or a slider.
+
 ### Content Admin
 A Varbase user role with broader content management authority, including the ability to publish, archive, and manage content structure.
 
 ### Content Editor
-A Varbase user role for editorial staff who create and manage content, upload media, and work with drafts.
+A Varbase user role for editorial staff who create and manage content, upload media, and build Drupal Canvas pages for others to publish.
+
+### Content Lock
+A temporary lock on a content item while someone edits it, so two people do not overwrite each other's changes.
 
 ### Content Moderation
 A Drupal core feature that provides a publishing workflow with defined states (Draft, Published, Archived) and controlled transitions between them.
+
+
+### Content Template
+The Drupal Canvas layout used to show every item of a content type, such as every blog post.
 
 ### Content Type
 A template that defines the structure of a kind of content, including its fields, display settings, and form configuration. Examples: Page, Article, Landing Page.
@@ -49,8 +59,14 @@ A scheduled task system that runs periodic maintenance operations on the site, s
 
 ## D
 
+### Dashboard
+The first page you see after logging in, with your drafts, recent content and shortcuts.
+
 ### Draft
 A content moderation state in which content is saved but not visible to anonymous site visitors. Used for content that is being created, reviewed, or revised.
+
+### Drupal Canvas
+The visual page builder in Varbase 11. You build pages from components and patterns and see them as visitors will.
 
 ### Drush
 A command-line tool for managing Drupal sites. Used by developers and administrators for tasks such as clearing cache, running updates, and managing configuration.
@@ -62,6 +78,10 @@ A JavaScript library integrated into Varbase for drag-and-drop file uploading.
 
 ### ECA (Event-Condition-Action)
 A Drupal module that enables building automated workflows based on site events. Allows defining rules such as "When event X happens, if condition Y is met, perform action Z."
+
+
+### Editoria11y
+The accessibility checker that marks problems on pages for logged-in editors.
 
 ### EntityQueue
 A module that provides manually ordered lists of content items. Used for curated content sections where editorial control over order is needed.
@@ -81,10 +101,15 @@ The admin theme used by Varbase 11.0.x. Provides a modern, clean, and accessible
 ### JSON:API
 A Drupal core module that provides a standards-compliant API for accessing and manipulating content entities. Follows the JSON:API specification.
 
+## K
+
+### Klaro
+The cookie consent manager that asks visitors before loading services such as YouTube videos.
+
 ## L
 
 ### Layout Builder
-A Drupal core feature that allows editors to customize page layouts by adding sections and blocks through a drag-and-drop interface.
+An older Drupal page layout tool. Varbase 11 builds pages with **Drupal Canvas** instead.
 
 ### Linkit
 A Drupal module that provides an autocomplete-based link insertion tool for the rich-text editor. Allows finding and linking to internal content by title.
@@ -118,8 +143,15 @@ A specification for describing RESTful APIs. Provides interactive documentation 
 
 ## P
 
+### Page Template
+The Drupal Canvas layout around every page, holding the header and footer.
+
 ### Pathauto
 A Drupal module that automatically generates URL aliases for content based on configurable patterns.
+
+
+### Pattern
+A ready-made page section in Drupal Canvas, such as a hero slider or a set of feature cards.
 
 ### Published
 A content moderation state in which content is live and visible to all site visitors.
@@ -148,6 +180,9 @@ The practice of optimizing website content and configuration to improve visibili
 
 ### Simple Sitemap
 A Drupal module that generates XML sitemaps to help search engines discover and index site content.
+
+### Super Admin
+The Varbase user role with every permission. Keep it for a few trusted technical people.
 
 ## T
 
@@ -183,3 +218,8 @@ An editing approach where content in the editor appears similar to the final pub
 
 ### XML Sitemap
 A structured XML file that lists the important pages on a site, helping search engines discover and crawl content efficiently.
+
+## Y
+
+### Yoast SEO
+The SEO analysis on blog posts that checks the text against a focus keyword and previews the search result.

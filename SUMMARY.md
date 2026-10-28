@@ -210,6 +210,7 @@
       * [Responsive Preview](content-designers/site-configuration/user-interface/responsive-preview.md)
     * [Web Services](content-designers/site-configuration/web-services/README.md)
       * [OpenAPI](content-designers/site-configuration/web-services/openapi.md)
+  * [AI Tools in the Editor](content-designers/ai-tools-in-the-editor.md)
   * [Additional Tips](content-designers/additional-tips/README.md)
     * [Content Uploading Standards](content-designers/additional-tips/content-uploading-standards.md)
     * [Glossary](content-designers/additional-tips/glossary.md)

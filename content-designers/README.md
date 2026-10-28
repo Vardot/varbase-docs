@@ -1,35 +1,31 @@
 # Content Designers
 
-This guide is intended for website administrators, content editors, and content managers working with Varbase 11.0.x sites. It covers the out-of-the-box features provided by Varbase from an administrative and editorial perspective.
-
-## Who Is This Guide For?
-
-This section is written for non-technical users who manage content and site configuration through the Varbase administration interface. Whether you are a content editor, a site administrator, or a marketing team member, this guide will help you understand and use the tools available to you.
+This guide is for the people who run a Varbase 11 site day to day: content editors, content and site administrators, SEO and marketing staff. It covers the editorial features that come with Varbase, from writing a blog post to building a landing page and keeping the site findable and accessible.
 
 ## What You Will Find Here
 
-- **Accessing the Administration Area**: How to log in and navigate the admin interface using the Gin admin theme and the Navigation module.
-- **Dashboard**: An overview of the admin dashboard and available reports.
-- **Content Management**: Creating, editing, publishing, and deleting content using Varbase's editorial tools.
-- **Content Structure**: Managing EntityQueues, menus, and taxonomies to organize your content.
-- **Content Translation**: Setting up and managing multilingual content.
-- **Content Workflow**: Understanding the content moderation workflow (Draft, In review, Published, Archived / Unpublished).
-- **Layout Builder**: Customizing page layouts with sections and blocks.
-- **Webforms**: Creating and managing forms for user submissions.
-- **Media Management**: Uploading and organizing images, videos, documents, and audio files.
-- **User Management**: Managing users, roles, and permissions.
-- **URL Management**: Configuring URL aliases and redirects.
-- **SEO Management**: Optimizing your site for search engines.
-- **Site Configuration**: Adjusting system settings, user interface options, and web services.
-- **Additional Tips**: Best practices, standards, and a glossary of key terms.
+- **[Accessing the Administration Area](accessing-the-administration-area/)**: logging in, the **Navigation** sidebar and **Coffee**.
+- **[Dashboard](dashboard/)**: your starting page and the site reports.
+- **[Content Management](content-management/)**: creating, editing, previewing, publishing and deleting content.
+- **[Content Structure](content-structure/)**: menus, taxonomies and EntityQueues.
+- **[Content Translation](content-translation/)**: translating content and the language switcher.
+- **[Content Workflow](content-workflow/)**: the publishing states, content locking, autosave, scheduling and the **Trash**.
+- **[Building Pages With Drupal Canvas](building-pages-with-drupal-canvas/)**: building pages from components and patterns, templates, publishing and translating pages.
+- **[Webforms](webforms/)**: forms, their emails and their submissions.
+- **[Media Management](media-management/)**: images, videos, documents and audio.
+- **[User Management](user-management/)**: accounts and the default roles.
+- **[URL Management](url-management/)** and **[SEO Management](search-engine-optimization/)**: addresses, redirects, meta tags, the sitemap and the **SEO analysis**.
+- **[Accessibility Checks](accessibility-checks.md)** and **[Cookie Consent](cookie-consent.md)**.
+- **[Site Configuration](site-configuration/)**: system, interface and web services settings.
+- **[AI Tools in the Editor](ai-tools-in-the-editor.md)**: writing help, alt text suggestions and AI review.
+- **[Additional Tips](additional-tips/)**: uploading standards and a glossary.
 
-## Varbase 11.0.x Highlights
+## Varbase 11 Highlights for Editors
 
-Varbase 11.0.x provides a modern content management experience built on Drupal. Key features include:
-
-- The **Gin** admin theme for a clean, accessible administration interface.
-- The **Navigation** module for streamlined admin sidebar navigation.
-- **CKEditor 5** with premium features for rich text editing.
-- **Content moderation** workflows for editorial control.
-- **Layout Builder** for flexible page design.
-- A comprehensive **Media Library** for managing all media assets.
+- **Drupal Canvas** for building pages visually, with ready-made patterns.
+- The **Gin** administration theme and the **Navigation** sidebar, with a **Dashboard** to start from.
+- **CKEditor 5** with an AI assistant, spell checking and media.
+- An editorial **workflow** with review, scheduling, content locking and autosave.
+- A shared **Media Library** with focal points and AI alt text suggestions.
+- Built-in **accessibility checks**, **SEO analysis** and **cookie consent**.
+- A **Trash** that lets you restore deleted content.

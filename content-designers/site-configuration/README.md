@@ -1,43 +1,27 @@
 # Site Configuration
 
-The Site Configuration section covers administrative settings that control the behavior, appearance, and functionality of your Varbase site. These settings are typically managed by Site Admins and Administrators.
+Site configuration covers the settings that apply to the whole site: its name, caching, the administration tools and the connections other systems use. Most of these settings are for a **Super Admin**; editors mostly use the tools they provide. This section explains what each area does and who uses it.
 
-## Overview
+## Opening Configuration
 
-Site configuration is organized into several categories:
+Go to **Configuration** in the **Administration** menu (`/admin/config`). You see only the areas your role can use.
 
-### System
+<!-- <figure><img src="../../.gitbook/assets/site-config-overview-01-configuration.png" alt="The Configuration page grouped into areas such as People, Content authoring, Search and metadata, System, User interface and Web services"><figcaption><p>The Configuration Page</p></figcaption></figure> -->
 
-System-level settings that affect the overall behavior of the site, including caching, performance, and third-party analytics integration.
+## Areas Editors Use
 
-See [System](system/) for details.
+| Area | What editors do there | See |
+| --- | --- | --- |
+| **Search and metadata** | URL aliases, redirects, meta tags and the sitemap | [URL Management](../url-management/), [SEO Management](../search-engine-optimization/) |
+| **Content authoring** | Scheduler and accessibility settings (Super Admin) | [Scheduling Content](../content-workflow/scheduling-content.md) |
+| **Region and language** | Languages (Super Admin) | [Content Translation](../content-translation/) |
 
-### User Interface
+## In This Section
 
-Settings that control the admin user experience, including navigation configuration and quick search tools.
+- [System](system/): site information, caching and analytics.
+- [User Interface](user-interface/): **Coffee**, the **Navigation** sidebar and screen-size previews.
+- [Web Services](web-services/): the connections other applications use to read your content.
 
-See [User Interface](user-interface/) for details.
+## Who Changes Settings
 
-### Web Services
-
-Configuration for API access and documentation, including JSON:API and OpenAPI/Swagger.
-
-See [Web Services](web-services/) for details.
-
-## Accessing Site Configuration
-
-Navigate to **Configuration** in the admin navigation sidebar, or go to `/admin/config`. The Configuration page organizes all settings into categories:
-
-- **People**: Account settings, registration, and login configuration.
-- **Content authoring**: Text formats, editor settings, and content creation tools.
-- **Development**: Logging, error reporting, and maintenance mode.
-- **Search and metadata**: URL aliases, redirects, meta tags, and sitemaps.
-- **System**: Site information, cron, performance, and caching.
-- **User interface**: Navigation settings, shortcuts, and UI tools.
-- **Regional and language**: Date/time formats, language settings, and translation.
-- **Media**: File system, image styles, and media configuration.
-- **Web services**: API configuration and documentation.
-
-## Permissions
-
-Access to site configuration is controlled by user permissions. Most configuration pages require the **Site Admin** or **Administrator** role. If you cannot access a specific configuration page, verify your role and permissions with your site administrator.
+Site-wide settings, such as the site name, performance and the administration tools, need the **Super Admin** role. A **Content Admin** or **Site Admin** can clear the cache and run scheduled tasks from **Tools** in the **Navigation** sidebar.
