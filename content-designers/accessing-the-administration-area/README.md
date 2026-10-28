@@ -1,38 +1,51 @@
 # Accessing the Administration Area
 
-Varbase 11.0.x uses the **Gin** admin theme to provide a modern, clean, and accessible administration experience. The admin area is where you manage all aspects of your website, including content, media, users, and site configuration.
+The administration area is where you manage your Varbase site: pages, blog posts, media, menus, users and settings. This page shows you how to log in, what you see first, and the quickest ways to get around.
 
-## How to Access the Admin Area
+## Logging In
 
-There are several ways to reach the Varbase administration area:
+1. Go to `/user/login` on your site (for example, `https://example.com/user/login`).
+2. Enter your **Username or email address** and your **Password**.
+3. Click **Log in**.
 
-1. **Direct URL**: Navigate to `/admin` in your browser (e.g., `https://example.com/admin`). You will be prompted to log in if you are not already authenticated.
-2. **Login Page**: Navigate to `/user/login` to access the login form. After logging in, you will be redirected to the admin area based on your role.
-3. **Admin Toolbar**: Once logged in, the admin toolbar appears at the top or side of the page, providing quick access to all admin sections.
+<!-- <figure><img src="../../.gitbook/assets/admin-area-accessing-01-login.png" alt="The Varbase login page with the Username or email address field, the Password field and the Log in button"><figcaption><p>The Login Page</p></figcaption></figure> -->
 
-## The Gin Admin Theme
+After you log in, Varbase opens the **Dashboard**. If you open an administration page such as `/admin/content` while logged out, Varbase shows the login form in its place.
 
-Varbase uses the **Gin** admin theme as its default administration theme. Gin provides:
+{% hint style="info" %}
+What you can see and do depends on your role. A **Content editor** sees fewer menu items than a **Site Admin**. See [Default Roles and Site Personas](../user-management/default-roles-and-site-persons/) for what each role can do.
+{% endhint %}
 
-- A clean, modern interface with improved typography and spacing.
-- A responsive design that works on desktops, tablets, and mobile devices.
-- Support for light and dark modes.
-- An accent color system for visual customization of the admin interface.
-- Improved form layouts and content editing experience.
+## The Administration Screen
 
-## The Navigation Module
+Every administration page has the same three parts:
 
-Varbase 11.0.x uses Drupal's **Navigation** module for the primary admin navigation. The Navigation module provides:
+- **The Navigation sidebar** on the left, with **Dashboard**, **Create**, **Pages**, **CMS**, **Media**, **Trash** and the **Administration** menu. See [Navigation Sidebar](navigation-sidebar.md).
+- **The page header**, with the page title, its tabs, and the main action button for the page, such as **Add content**.
+- **The page content**: a form, a list of items with filters, or a report.
 
-- A sidebar-based navigation that replaces the traditional admin toolbar.
-- Collapsible menu sections for easier browsing of admin pages.
-- Quick access to Content, Structure, Appearance, Configuration, People, and Reports sections.
-- Integration with the Gin admin theme for a consistent visual experience.
+<!-- <figure><img src="../../.gitbook/assets/admin-area-accessing-02-admin-screen.png" alt="The Content page in the administration area, with the Navigation sidebar on the left, the page title and tabs at the top, and the list of content in the middle"><figcaption><p>The Parts of an Administration Page</p></figcaption></figure> -->
 
-## Quick Navigation with Coffee
+Varbase uses the **Gin** administration theme for these pages. It works on desktop, tablet and mobile screens.
 
-For fast access to any admin page, Varbase includes the **Coffee** module. Press **Alt+D** to open the Coffee search box, then type the name of any admin page to navigate directly to it.
+## Jumping to a Page With Coffee
 
-## Requirements
+**Coffee** lets you open any administration page by typing its name.
 
-To access the administration area, you must have a user account with appropriate permissions. The level of access depends on your assigned role. See the [User Management](../user-management/) section for details on roles and permissions.
+1. Press **Alt + D** (on a Mac, **Option + D**), or click **Go To** in the bar at the top of the page.
+2. Start typing the page name, for example `menus`.
+3. Use the arrow keys to pick a result, then press **Enter**.
+
+<!-- <figure><img src="../../.gitbook/assets/admin-area-accessing-03-coffee.png" alt="The Coffee search box open over an administration page, with the word menus typed and a list of matching pages below it"><figcaption><p>Searching for a Page With Coffee</p></figcaption></figure> -->
+
+Press **Esc** to close the search box. Coffee lists only the pages your role can open.
+
+## Logging Out
+
+Open your user menu at the bottom of the **Navigation** sidebar and click **Log out**. Varbase returns you to the login page.
+
+## Tips
+
+- Bookmark `/user/login` for each site you manage, so you always log in to the right one. See [Website Environments](website-environments.md).
+- If a page you expect is missing from the menu, your role probably does not include it. Ask your site administrator.
+- Use **Coffee** for pages you open often; it is faster than browsing the menus.

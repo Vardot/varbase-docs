@@ -142,6 +142,7 @@
 * [Content Designers](content-designers/README.md)
   * [Accessing the Administration Area](content-designers/accessing-the-administration-area/README.md)
     * [Website Environments](content-designers/accessing-the-administration-area/website-environments.md)
+    * [Navigation Sidebar](content-designers/accessing-the-administration-area/navigation-sidebar.md)
   * [Dashboard](content-designers/dashboard/README.md)
     * [Reports](content-designers/dashboard/reports.md)
   * [Content Management](content-designers/content-management/README.md)
