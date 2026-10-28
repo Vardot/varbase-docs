@@ -1,90 +1,82 @@
 # Rich-Text Editor "WYSIWYG"
 
-Varbase 11.0.x uses **CKEditor 5** as its rich-text editor, providing a modern "What You See Is What You Get" (WYSIWYG) editing experience. CKEditor 5 is integrated directly into Drupal core and enhanced with additional features by Varbase.
+Varbase uses **CKEditor 5** for the body of your content. You format text with toolbar buttons and see the result as you type ("What You See Is What You Get"). This page explains the toolbar and the text formats that decide which buttons you get.
 
-## CKEditor 5 Features
+## Text Formats
 
-The CKEditor 5 toolbar in Varbase includes the following capabilities:
+The **Text format** list under the editor decides which tools you have.
 
-### Text Formatting
+| Format | Where it is used | What it offers |
+| --- | --- | --- |
+| **Rich editor** | **Blog post** content (the default) | The full toolbar, including media, tables, styles, the AI assistant and spell checking. |
+| **Content** | **Utility page** content | A shorter toolbar: headings, bold, italic, quotes, links, lists, alignment, tables and media. |
 
-- **Bold**, **Italic**, **Underline**, and **Strikethrough** for basic text styling.
-- **Headings** (H2 through H6) for structuring your content hierarchy.
-- **Block quotes** for highlighting quoted text.
-- **Code blocks** for displaying code snippets.
-- **Superscript** and **Subscript** for specialized text.
+{% hint style="warning" %}
+Changing the format of text you already wrote can remove formatting the new format does not allow. Pick the format before you start writing.
+{% endhint %}
 
-### Lists and Indentation
+## The Rich Editor Toolbar
 
-- **Bulleted lists** (unordered lists) for non-sequential items.
-- **Numbered lists** (ordered lists) for sequential items.
-- **Indent** and **Outdent** for adjusting list nesting and text indentation.
+<!-- <figure><img src="../../../.gitbook/assets/content-management-wysiwyg-01-toolbar.png" alt="The Rich editor toolbar of CKEditor 5 in a blog post, with its two rows of buttons above the Content field"><figcaption><p>The Rich Editor Toolbar</p></figcaption></figure> -->
 
-### Links
+| Group | Buttons |
+| --- | --- |
+| **AI and history** | **AI** assistant, **Undo**, **Redo** |
+| **Media** | **Insert Media** (from the Media Library), **Insert Media Embed** (a link to a video or post on another site) |
+| **Blocks** | **Block quote**, **Horizontal line**, **Insert table** |
+| **Links** | **Link**, **Anchor** |
+| **Code and view** | **Code**, **Code Block**, **Source**, **Show blocks**, **Full screen** |
+| **Structure** | **Heading**, **Style** |
+| **Text** | **Bold**, **Italic**, **Underline**, **Strikethrough**, **Subscript**, **Superscript**, **Remove Format** |
+| **Characters** | **Special characters**, **Emoji** |
+| **Lists** | **Numbered List**, **Bulleted List**, **Decrease indent**, **Increase indent** |
+| **Layout** | **Text alignment**, **Text direction** (left to right or right to left) |
+| **Checking** | **WProofreader** spelling and grammar, **Find and replace** |
 
-Varbase integrates the **Linkit** module with CKEditor 5, providing an enhanced link insertion experience:
+## Common Tasks
 
-- Click the **Link** button in the toolbar or press **Ctrl+K** / **Cmd+K**.
-- Type the title of an internal page, and Linkit will suggest matching content items.
-- Select from the suggestions to create an internal link, or paste an external URL.
-- Configure link attributes such as title text and target (open in new window).
+### Adding a Heading
 
-### Media Embedding
+1. Place the cursor in the line.
+2. Open **Heading** and choose **Heading 2** for a main section, **Heading 3** for a sub-section.
 
-Varbase provides seamless media embedding within the editor:
+The page title is the only **Heading 1**, so start your body text at **Heading 2**.
 
-- Click the **Insert Media** button in the toolbar to open the Media Library.
-- Browse existing media or upload new files directly from the editor.
-- Supported media types include images, videos, remote videos (YouTube, Vimeo), and documents.
-- After inserting media, you can configure alignment, alt text, and display options.
+### Linking to a Page
 
-### Tables
+1. Select the text, then click **Link** (or press **Ctrl + K**, **Cmd + K** on a Mac).
+2. Start typing the title of a page on your site and pick it from the suggestions, or paste a full web address.
+3. Press **Enter**.
 
-- Insert and edit tables directly in the editor.
-- Add or remove rows and columns.
-- Configure table headers, captions, and cell properties.
-- Merge and split cells as needed.
+Links picked from the suggestions keep working when the page's address changes.
 
-### Source Editing
+<!-- <figure><img src="../../../.gitbook/assets/content-management-wysiwyg-02-link.png" alt="The Link box under selected text, with a page title typed and matching pages from the site suggested below"><figcaption><p>Linking to a Page on Your Site</p></figcaption></figure> -->
 
-- Click the **Source** button to view and edit the raw HTML of your content.
-- Useful for advanced formatting adjustments or troubleshooting.
-- The HTML filter ensures that only allowed tags and attributes are preserved.
+### Inserting an Image or Video
 
-## CKEditor 5 Premium Features
+1. Place the cursor where the media should go.
+2. Click **Insert Media**.
+3. Pick an existing item or upload a new one, then click **Insert selected**.
 
-Varbase supports **CKEditor 5 Premium Features** when configured, which can include:
+<!-- <figure><img src="../../../.gitbook/assets/content-management-wysiwyg-03-insert-media.png" alt="The Media Library dialog opened from the editor, with the Image tab selected and a grid of images to choose from"><figcaption><p>Inserting Media From the Media Library</p></figcaption></figure> -->
 
-- **Track Changes**: Track edits made by different editors with accept/reject functionality.
-- **Comments**: Add inline comments for editorial collaboration.
-- **Revision History**: View and restore previous versions of content within the editor.
-- **Paste from Office Enhanced**: Improved paste handling from Microsoft Word and Google Docs.
-- **Export to PDF / Word**: Export editor content to PDF or Word format.
+After inserting, click the media to change its alignment or alt text. See [Media Management](../../media-management/).
 
-Contact your site administrator to learn which premium features are available on your site.
+### Using a Style
 
-## Paste Filter
+**Style** applies a predefined look, such as **Callout Info**, **Alert warning** or **Table Striped**, so the content matches the site's design. Select the text or table first, then choose the style.
 
-Varbase configures CKEditor 5 to clean up pasted content automatically:
+### Pasting From Word or Google Docs
 
-- When pasting from Microsoft Word, Google Docs, or other rich-text sources, extraneous formatting and hidden markup are stripped.
-- The pasted content is normalized to use clean, semantic HTML.
-- This ensures consistent styling across your site and prevents layout issues caused by external formatting.
+Paste as usual. Varbase removes hidden formatting from Word and similar sources, so the text takes the site's own styles. Check the result, especially headings and lists.
 
-## Text Format Profiles
+## Using the AI Assistant
 
-Varbase provides pre-configured text format profiles that determine which CKEditor features are available. Common profiles include:
+Select text and click **AI** to have it written, summarised, reworded, reformatted or its spelling fixed. See [AI Tools in the Editor](../../ai-tools-in-the-editor.md).
 
-- **Full HTML**: Provides the complete set of formatting tools. Typically available to content administrators.
-- **Basic HTML**: A restricted set of tools suitable for simple content entry.
-- **Plain Text**: No formatting; content is saved as plain text.
+## Tips
 
-The available text format depends on your user role and the specific field you are editing. Your site administrator can configure which formats are available to each role.
-
-## Tips for Using the Editor
-
-- Use **headings** to structure your content logically. Start with H2 for main sections (H1 is reserved for the page title).
-- Avoid excessive formatting. Let the site's theme handle visual styling.
-- Always provide **alt text** for embedded images to ensure accessibility.
-- Use the **Linkit** autocomplete feature for internal links rather than pasting full URLs. This ensures links remain valid if URL paths change.
-- If pasting content from an external source, review it after pasting to confirm the formatting is clean.
+- Use headings in order (**Heading 2**, then **Heading 3**) so screen readers and search engines understand the structure.
+- Let the site's styles do the design: avoid underlining text that is not a link.
+- Use **Find and replace** for a word that appears many times.
+- Use **Full screen** for long texts.

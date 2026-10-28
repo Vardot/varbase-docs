@@ -1,68 +1,37 @@
 # Delete Content
 
-Varbase includes the **Trash** module, which provides a soft-delete mechanism for content. Instead of permanently removing content immediately, deleted items are moved to the trash where they can be reviewed and restored if needed.
+When you delete a content item in Varbase, it goes to the **Trash** first, not away for good. You can restore it from there if you change your mind. This page shows how to delete one item or several.
 
-## Deleting Content (Soft Delete)
+## Deleting One Item
 
-When you delete a content item, it is moved to the trash rather than being permanently removed:
+1. Click **CMS** in the **Navigation** sidebar (`/admin/content`).
+2. In the **Operations** column of the item, open the list next to **Edit** and choose **Delete**.
+3. Read the confirmation and click **Delete**.
 
-1. Navigate to the content listing at **Content** in the admin navigation sidebar, or go to `/admin/content`.
-2. Locate the content item you want to delete.
-3. Click the **dropdown arrow** in the operations column and select **Delete**.
-4. Confirm the deletion when prompted.
+<!-- <figure><img src="../../.gitbook/assets/content-management-delete-01-confirm.png" alt="The delete confirmation for a blog post, saying the item will be moved to the trash, with the Delete button highlighted"><figcaption><p>Confirming the Deletion</p></figcaption></figure> -->
 
-The content item is now moved to the trash. It is no longer visible to site visitors or in the content listing, but it has not been permanently removed.
+You can also click **Delete** in the bar at the top of the item, or at the bottom of its edit form.
 
-### Deleting from the Edit Form
+The item leaves the content list and the site, and appears in the **Trash**.
 
-You can also delete content from the content edit form:
+## Deleting Several Items
 
-1. Open the content item for editing.
-2. Click the **Delete** button (usually located at the bottom of the form).
-3. Confirm the deletion when prompted.
+1. On the content list, tick the items.
+2. In **Action**, choose **Delete content**.
+3. Click **Apply to selected items**, then confirm.
 
-## Accessing the Trash
+See [Bulk Edit Content](bulk-edit-content.md).
 
-To view and manage deleted content:
+## Restoring or Removing for Good
 
-1. Navigate to the trash section from the admin navigation.
-2. You will see a list of all content items that have been soft-deleted.
-3. Each item shows the title, content type, deletion date, and the user who deleted it.
+Open **Trash** in the **Navigation** sidebar (`/admin/content/trash`) to restore an item or delete it permanently. See [Trash](../content-workflow/trash.md).
 
-## Restoring Content from Trash
-
-If content was deleted by mistake, you can restore it:
-
-1. Navigate to the trash.
-2. Locate the content item you want to restore.
-3. Click **Restore** in the operations column.
-4. The content item is returned to the content listing in its previous moderation state.
-
-## Permanent Deletion
-
-To permanently remove content that is in the trash:
-
-1. Navigate to the trash.
-2. Locate the content item you want to permanently delete.
-3. Click **Delete permanently** in the operations column.
-4. Confirm the permanent deletion when prompted.
-
-**Warning:** Permanent deletion cannot be undone. The content and all its revisions will be removed from the system entirely.
-
-## Bulk Deletion
-
-You can also delete multiple content items at once using bulk operations:
-
-1. Navigate to the content listing at `/admin/content`.
-2. Select the checkboxes next to the content items you want to delete.
-3. Choose **Delete content** from the **Action** dropdown.
-4. Click **Apply to selected items**.
-5. Confirm the bulk deletion when prompted.
-
-All selected items will be moved to the trash.
+{% hint style="warning" %}
+Only a **Site Admin** or **Super Admin** can delete items permanently from the trash, and that cannot be undone.
+{% endhint %}
 
 ## Tips
 
-- Use the trash feature as a safety net. Avoid permanent deletion unless you are certain the content is no longer needed.
-- Regularly review the trash to clean up old deleted content and free up system resources.
-- Only users with appropriate permissions can delete content. If you cannot see the Delete option, contact your site administrator.
+- If an item is only out of date, **Archive / Unpublish** it instead of deleting it. It stays in the content list for later. See [Publish Content](publish-content.md).
+- Before deleting, check that no menu link or other page points to the item.
+- Pages built with **Drupal Canvas** are deleted from **Pages** in the same way.
