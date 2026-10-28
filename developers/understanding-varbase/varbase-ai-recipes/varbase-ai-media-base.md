@@ -1,6 +1,6 @@
 # Varbase AI Media Base
 
-The **Varbase AI Media Base** recipe lets editors generate images and SVGs with AI on Varbase 11. It installs the **AI Media** module, which saves what it generates into the site's own **Image** and **SVG Image** media types, adds the AI tabs to the **Media Library**, and grants the permissions to the editorial roles. It is configuration only, with no custom PHP.
+The **Varbase AI Media Base** recipe lets editors generate images and SVGs with AI on Varbase 11. It installs the **AI Media** module, which saves what it generates into the site's own **Image** and **SVG Image** media types, adds **Generate with AI** to the **Media Library**, and grants the permissions to the editorial roles. It is configuration only, with no custom PHP.
 
 ## Recipe Type
 
@@ -22,10 +22,16 @@ Varbase AI
 
 Editors find the generators in these places:
 
-- The **Media Library**, as a **Generate image with AI** tab right after **Image** and a **Generate SVG with AI** tab right after **SVG Image**. Each tab is marked **New** until it is opened.
+- The **Media Library**, inside the tab of each media type: the **Image**, **SVG Image** and **Video** tabs open with an **Upload | Generate with AI** switch. **Generate with AI** is marked **New** until it is opened.
 - **Insert Media** in CKEditor for the **Full HTML** text format.
-- The **Add media** page (`/media/add/image`, `/media/add/svg_image`), which keeps the file upload and adds **Or generate with AI** below it.
-- **Content** \ _**Media**_, through the **Generate media with AI** button.
+- The **Add media** page (`/media/add/image`, `/media/add/svg_image`), which starts with the same **Upload | Generate with AI** switch.
+- **Content** \ _**Media**_, through the **Generate media with AI** button, which opens the **Add media** page in **Generate with AI** mode.
+
+{% hint style="info" %}
+The **Upload | Generate with AI** switch, the **Examples** button, the alternative text written by AI from the image and **Focal Point** on a generated image need **AI Media** `1.0.x`, the next release after `1.0.0-alpha3`. With `1.0.0-alpha3`, editors get a separate **Generate image with AI** tab instead.
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/Varbase AI Media Base - Upload or Generate With AI.webp" alt="The Add or select media dialog on the Image tab, with an Upload and Generate with AI switch at the top, Generate with AI marked New, and the file upload below"><figcaption><p>The Upload or Generate With AI Switch in the Image Tab</p></figcaption></figure>
 
 ## Included Modules
 
@@ -73,21 +79,26 @@ Applying the recipe twice is safe.
 
 ## Generating an Image
 
-1. Open the **Generate image with AI** tab in the **Media Library**, or the **Add media** page for **Image**.
-2. Describe the image: the subject, the setting and the style. The example buttons put a sample description in the field. The form names the provider your description is sent to.
+1. Open the **Image** tab in the **Media Library**, or the **Add media** page for **Image**, and choose **Generate with AI**.
+2. Describe the image: the subject, the setting and the style. The field starts empty. **Examples** opens a list of up to eight sample descriptions; pick one to put it in the field. The info button next to it says which provider your description is sent to.
 3. Press **Generate image**. Each press is one paid request to the provider.
-4. Review the result. The name and alternative text are prefilled from the description; change them to match what the image shows.
-5. Press **Save**. Nothing is added to the library until you save.
+4. Review the result. AI writes the name and the alternative text from the image, marked **Written by AI from the image. Check it.** Change them if they do not match what the image shows.
+5. Set the **Focal Point** if needed. The crosshair starts in the centre of the image.
+6. Press **Save**. Nothing is added to the library until you save.
 
-<figure><img src="../../../.gitbook/assets/Varbase AI Media Base - Or Generate With AI.webp" alt="The Add Image page with the file upload, then an Or generate with AI box holding the image description field, two example descriptions, a note naming the provider and the Generate image button"><figcaption><p>Or Generate With AI on the Add Image Page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Varbase AI Media Base - Generate With AI Mode.webp" alt="The Image tab in Generate with AI mode, with an empty Describe the image field, an Examples button, an info button, the Generate image button and a note that each press is a paid request to the provider"><figcaption><p>Generate With AI Mode in the Image Tab</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Varbase AI Media Base - Generate Image With AI Tab.png" alt="The Add or select media dialog with the Generate image with AI tab selected after Image, a description field, two example prompts, a note naming the provider, and the Generate image button"><figcaption><p>The Generate Image With AI Tab in the Media Library</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Varbase AI Media Base - Example Descriptions.webp" alt="The Examples list open under the description field, with eight sample image descriptions and a note that picking one replaces the text in the box"><figcaption><p>Picking an Example Description</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Varbase AI Media Base - Review Generated Image.webp" alt="A generated illustration of a team reviewing a website, ready for review with the name and alternative text prefilled from the description and a note that it is not saved yet"><figcaption><p>Reviewing a Generated Image Before Saving</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Varbase AI Media Base - Review Generated Image.webp" alt="A generated illustration of a team planning around a table, with the name and alternative text written by AI from the image, the Focal Point crosshair in the centre, and a Generate with AI button under the alternative text"><figcaption><p>Reviewing a Generated Image Before Saving</p></figcaption></figure>
+
+{% hint style="info" %}
+When the **AI Image Alt Text** module is enabled, its **Generate with AI** button stays under the image, so you can write the alternative text again. The first time, it asks for consent to send the image to the AI provider; accept it to continue.
+{% endhint %}
 
 ## Generating an SVG
 
-The **Generate SVG with AI** tab works the same way and saves into **SVG Image**. Every SVG is checked and cleaned before it is kept, so it holds no scripts or outside links.
+Choose **Generate with AI** in the **SVG Image** tab. It works the same way and saves into **SVG Image**. Every SVG is checked and cleaned before it is kept, so it holds no scripts or outside links.
 
 An SVG can be static or animated. Editors see the **Style** option under **Options** only when **Editor options** \ **SVG** \ _**Show the style**_ is on in the **AI Media** settings. The styles are:
 
@@ -102,30 +113,38 @@ An SVG can be static or animated. Editors see the **Style** option under **Optio
 An animated SVG moves only when it is shown inline: with the **Inline SVG (animated)** display on the media type, or with the **Animated SVG** component. Shown as a plain image, it stays still. Visitors who ask for reduced motion see the finished drawing.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Varbase AI Media Base - Review Generated SVG.png" alt="A generated SVG icon of a lighthouse in the Media Library, with the name and alternative text prefilled from the description, before saving"><figcaption><p>Reviewing a Generated SVG Before Saving</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Varbase AI Media Base - SVG Image Tab Switch.webp" alt="The SVG Image tab of the Add or select media dialog, with the Upload and Generate with AI switch at the top and an upload area that allows SVG files"><figcaption><p>The Upload or Generate With AI Switch in the SVG Image Tab</p></figcaption></figure>
 
 ## Generating a Video
 
-The **Video** generator is experimental and off by default. It needs a provider that offers **image to video**, and none of the common providers (**OpenAI**, **Gemini**, **Anthropic**, **amazee.ai**) does yet. Video generation has not been tested on Varbase.
+The **Video** generator is experimental and off by default. When it is turned on, the **Video** tab gets the same **Upload | Generate with AI** switch. It needs a provider that offers **image to video**, and none of the common providers (**OpenAI**, **Gemini**, **Anthropic**, **amazee.ai**) does yet. Video generation has not been tested on Varbase.
+
+<figure><img src="../../../.gitbook/assets/Varbase AI Media Base - Video Tab Switch.webp" alt="The Video tab of the Add or select media dialog, with the Upload and Generate with AI switch at the top and an upload area that allows MP4 files"><figcaption><p>The Upload or Generate With AI Switch in the Video Tab</p></figcaption></figure>
 
 ## AI Media Settings
 
 Configure the generators at **Administration** \ **Configuration** \ **AI** \ _**AI Media**_ (`/admin/config/ai/ai-media`):
 
-- **Generators**: shows or hides the AI tabs, sets where they appear, and picks the media type, formats and order of each generator.
+- **Generators**: shows or hides **Generate with AI** in the **Media Library**, sets where it appears, and picks the media type, formats and order of each generator.
 - **Editor options**: what editors may choose under **Options**, such as size, format, model and the SVG style. All are hidden by default.
 - **Name, title and alternative text**: fills each from the description, asks AI, or leaves it empty.
 - **Safety**: attaches one of the site's guardrail sets to every **AI Media** request.
 - **Site context**: uses the site's **AI Context** items.
 - **Description** and **Advanced**: the description length, example descriptions, dictation and file handling.
 
-<figure><img src="../../../.gitbook/assets/Varbase AI Media Base - AI Media Settings.webp" alt="The Generators tab of the AI Media settings, with options to offer the AI tabs in the Media Library, place them right after their media type, show a New badge, and a table of generators with their media type"><figcaption><p>The Generators Tab in the AI Media Settings</p></figcaption></figure>
+**Where should the AI tabs appear?** on the **Generators** tab has three choices:
+
+- **Inside the tab of their media type**: the **Upload | Generate with AI** switch. This is the default.
+- **As a tab of their own, right after the tab of their media type**: a **Generate image with AI** tab after **Image**, a **Generate SVG with AI** tab after **SVG Image**, and so on.
+- **As a tab of their own, after all the other tabs**.
+
+<figure><img src="../../../.gitbook/assets/Varbase AI Media Base - Where the AI Tabs Appear.webp" alt="The Generators tab of the AI Media settings, with the Offer the AI tabs in the Media Library toggle, the three choices for where the AI tabs appear with Inside the tab of their media type selected, and the Show a New badge toggle"><figcaption><p>Where the AI Tabs Appear in the AI Media Settings</p></figcaption></figure>
 
 When **AI Logging** or **AI Observability** is enabled, **AI Media** requests are tagged with `ai_media`, so you can filter them there.
 
 ## Troubleshooting
 
-- **No AI tab**: check that the generator is enabled and has a media type, that the media type is allowed in that field or text format, that the user may generate and create that media, and that **Drupal AI** has a default provider for the operation.
+- **No Generate with AI**: check that the generator is enabled and has a media type, that the media type is allowed in that field or text format, that the user may generate and create that media, and that **Drupal AI** has a default provider for the operation.
 - **"… generation is not set up"**: set a default provider for the operation in the **Drupal AI** settings.
 - **An animated SVG does not move**: show it with the **Inline SVG (animated)** display or the **Animated SVG** component.
 
