@@ -14,7 +14,7 @@ A **Super Admin** can change the logo at the top of the sidebar:
 2. Under **Logo options**, in **Choose logo handling**, choose **Custom logo** and upload the image. Keep it small and square; it is shown at up to 40 by 40 pixels.
 3. Click **Save configuration**.
 
-<!-- <figure><img src="../../../.gitbook/assets/site-config-navigation-01-settings.png" alt="The Navigation settings page with the Logo options, Choose logo handling and the upload field for a custom logo"><figcaption><p>The Navigation Settings</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/site-config-navigation-01-settings.png" alt="The Navigation settings page with the Logo options, Choose logo handling and the upload field for a custom logo"><figcaption><p>The Navigation Settings</p></figcaption></figure>
 
 ## Tips
 

@@ -23,7 +23,7 @@ You can add media from the **Media** page, from a content form while you work, o
 3. Wait for each file to finish, then fill in the shared fields.
 4. Click **Save**.
 
-<!-- <figure><img src="../../../.gitbook/assets/media-upload-01-bulk.png" alt="The bulk upload page with three images dropped into the upload area, each showing a finished progress bar"><figcaption><p>Uploading Several Files at Once</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/media-upload-01-bulk.png" alt="The bulk upload page with three images dropped into the upload area, each showing a finished progress bar"><figcaption><p>Uploading Several Files at Once</p></figcaption></figure>
 
 Varbase creates one media item per file, named after the file. Open each image afterwards to add its alt text.
 
@@ -31,7 +31,7 @@ Varbase creates one media item per file, named after the file. Open each image a
 
 Images, and the cover images of videos, have a focal point: a cross on the preview you drag to the most important part, such as a face. When the image is cropped for a card or a banner, that part stays in view.
 
-<!-- <figure><img src="../../../.gitbook/assets/media-upload-02-focal-point.png" alt="An uploaded image in the media form with the focal point cross dragged onto the main subject"><figcaption><p>Setting the Focal Point</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/media-upload-02-focal-point.png" alt="An uploaded image in the media form with the focal point cross dragged onto the main subject"><figcaption><p>Setting the Focal Point</p></figcaption></figure>
 
 ## File Size
 

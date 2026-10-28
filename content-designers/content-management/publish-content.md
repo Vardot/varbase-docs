@@ -32,14 +32,18 @@ See [Content Workflow](../content-workflow/) for the full workflow.
 3. Write a **Revision log message**, for example "Approved for launch".
 4. Click **Save**.
 
-<!-- <figure><img src="../../.gitbook/assets/content-management-publish-01-change-to.png" alt="The edit form sidebar of a blog post in review, with Current state In review and Published chosen in the Change to list"><figcaption><p>Publishing an Item That Is in Review</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/content-management-publish-01-change-to.png" alt="The edit form sidebar of a blog post in review, with Current state In review and Published chosen in the Change to list"><figcaption><p>Publishing an Item That Is in Review</p></figcaption></figure>
 
 ## Finding Content Waiting for Review
 
-1. Go to `/admin/content/moderated`.
-2. In **Moderation state**, choose **In review**, then click **Filter**.
+1. Go to **Content** \ _**Moderated content**_ (`/admin/content/moderated`).
+2. Look for **In review** in the **Moderation state** column.
 
-<!-- <figure><img src="../../.gitbook/assets/content-management-publish-02-moderated.png" alt="The Moderated content list filtered to the In review state, showing a blog post waiting for review"><figcaption><p>Content Waiting for Review</p></figcaption></figure> -->
+<!-- <figure><img src="../../.gitbook/assets/content-management-publish-02-moderated.png" alt="The Moderated content list with a blog post marked In review in the Moderation state column"><figcaption><p>Content Waiting for Review</p></figcaption></figure> -->
+
+{% hint style="info" %}
+On a new Varbase 11.0 site the **Moderation state** filter above this list offers only **- Any -**, so you cannot filter by state yet.
+{% endhint %}
 
 The **My Drafts** panel on the [Dashboard](../dashboard/) lists your own drafts.
 

@@ -4,17 +4,19 @@ Varbase ships a role for each kind of person who works on a site. A role is a se
 
 ## The Roles at a Glance
 
+On a Varbase training or demo site, each role has a demo user, so you can log in and see it for yourself. See [What Each Role Sees](what-each-role-sees.md).
+
 | Role | For | In short |
 | --- | --- | --- |
 | **Anonymous user** | Visitors who are not logged in | See published content and fill in public forms. |
-| **Authenticated user** | Everyone who is logged in | The base for all other roles. |
+| **Authenticated user** | Everyone who is logged in, such as the **Normal user** demo account | The base for all other roles. |
 | **Content editor** | Writers and editors | Create and edit content, pages and media; publish blog posts and utility pages. |
 | **SEO Admin** | Search and marketing specialists | Manage meta tags, URL aliases, redirects and the sitemap. |
 | **Content Admin** | Editorial leads | Everything an editor does, plus publish Drupal Canvas pages, manage taxonomies, menus, queues and patterns. |
 | **Site Admin** | Site managers | Manage accounts, page and content templates, components, and webform results. |
 | **Super Admin** | Technical administrators | Unrestricted access. |
 
-<!-- <figure><img src="../../../.gitbook/assets/users-roles-01-list.png" alt="The Roles page listing Content editor, Content Admin, SEO Admin, Site Admin and Super Admin with their operations"><figcaption><p>The Roles on a Varbase Site</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/users-roles-01-list.png" alt="The Roles page listing Content editor, Content Admin, SEO Admin, Site Admin and Super Admin with their operations"><figcaption><p>The Roles on a Varbase Site</p></figcaption></figure>
 
 ## What Each Role Can Do
 
@@ -63,3 +65,4 @@ Has every permission, including adding languages, changing roles and permissions
 ## See Also
 
 - [Managing Roles](managing-roles.md)
+- [What Each Role Sees](what-each-role-sees.md): one demo user per role, and what each can do.

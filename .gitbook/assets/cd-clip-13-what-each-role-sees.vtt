@@ -1,0 +1,17 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:08.953
+Varbase comes with a demo user for each role. Each one sees a different set of tools. Let us compare them.
+
+2
+00:00:08.953 --> 00:00:16.371
+A normal user can log in and manage their own account, but has no administration area.
+
+3
+00:00:16.371 --> 00:00:26.247
+A content editor writes blog posts and utility pages, and can publish them. Canvas pages need someone else to publish.
+
+4
+00:00:26.247 --> 00:00:35.586
+A site admin also manages accounts and many site settings. Only a super admin can change roles and permissions.

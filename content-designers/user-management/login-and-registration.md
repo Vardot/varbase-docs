@@ -9,7 +9,7 @@ This page shows how to log in, stay logged in, and reset a forgotten password, a
 3. Tick **Remember me** to stay logged in on this device for up to 30 days. Leave it off on a shared computer.
 4. Click **Log in**.
 
-<!-- <figure><img src="../../.gitbook/assets/users-login-01-form.png" alt="The login form with the Username or email address and Password fields, the Remember me box, the Log in button and the Forgot your password link"><figcaption><p>The Login Form</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/users-login-01-form.png" alt="The login form with the Username or email address and Password fields, the Remember me box, the Log in button and the Forgot your password link"><figcaption><p>The Login Form</p></figcaption></figure>
 
 Varbase opens your **Dashboard**. See [Dashboard](../dashboard/).
 

@@ -8,7 +8,7 @@ When you delete a content item in Varbase, it goes to the **Trash** first, not a
 2. In the **Operations** column of the item, open the list next to **Edit** and choose **Delete**.
 3. Read the confirmation and click **Delete**.
 
-<!-- <figure><img src="../../.gitbook/assets/content-management-delete-01-confirm.png" alt="The delete confirmation for a blog post, saying the item will be moved to the trash, with the Delete button highlighted"><figcaption><p>Confirming the Deletion</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/content-management-delete-01-confirm.png" alt="The delete confirmation for a blog post, saying the item will be moved to the trash, with the Delete button highlighted"><figcaption><p>Confirming the Deletion</p></figcaption></figure>
 
 You can also click **Delete** in the bar at the top of the item, or at the bottom of its edit form.
 

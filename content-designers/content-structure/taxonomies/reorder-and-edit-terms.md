@@ -8,7 +8,7 @@ This page shows how to change the order of terms, rename them and delete the one
 2. Drag a term by its handle: up or down to change the order, to the right to place it under the term above, to the left to move it up a level.
 3. Click **Save**.
 
-<!-- <figure><img src="../../../.gitbook/assets/structure-taxonomies-04-reorder.png" alt="The term list of a vocabulary with a term being dragged by its handle and the Save button at the bottom"><figcaption><p>Reordering Terms</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/structure-taxonomies-04-reorder.png" alt="The term list of a vocabulary with a term being dragged by its handle and the Save button at the bottom"><figcaption><p>Reordering Terms</p></figcaption></figure>
 
 The order is used in lists, such as the **Categories** choice in the blog post form. Click **Reset to alphabetical** to sort the terms by name again.
 

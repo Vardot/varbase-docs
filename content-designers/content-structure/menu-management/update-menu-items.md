@@ -2,6 +2,14 @@
 
 This page shows how to reorder, edit, hide and delete the links in a menu.
 
+{% embed url="https://raw.githubusercontent.com/Vardot/varbase-docs/11.0.x/.gitbook/assets/cd-clip-09-reorder-menu.mp4" %}
+Reordering the Main Menu (Video)
+{% endembed %}
+
+[![Reordering the Main Menu (Video Poster)](<../../../.gitbook/assets/cd-clip-09-reorder-menu-poster.jpg>)](<../../../.gitbook/assets/cd-clip-09-reorder-menu.mp4>)
+
+If the video does not play, open [Reordering the Main Menu (MP4)](<../../../.gitbook/assets/cd-clip-09-reorder-menu.mp4>). Captions: [cd-clip-09-reorder-menu.vtt](<../../../.gitbook/assets/cd-clip-09-reorder-menu.vtt>).
+
 ## Reordering Links
 
 1. Go to **Structure** \ **Menus** and click **Edit menu** next to the menu.
@@ -11,7 +19,7 @@ This page shows how to reorder, edit, hide and delete the links in a menu.
    - to the left to move it up a level.
 3. Click **Save**.
 
-<!-- <figure><img src="../../../.gitbook/assets/structure-menus-04-reorder.png" alt="A menu form with one link being dragged by its handle and the You have unsaved changes message above the list"><figcaption><p>Reordering Menu Links</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/structure-menus-04-reorder.png" alt="A menu form with one link being dragged by its handle and the You have unsaved changes message above the list"><figcaption><p>Reordering Menu Links</p></figcaption></figure>
 
 The new order is not kept until you click **Save**. You can also click **Show row weights** to type the order as numbers.
 

@@ -4,7 +4,7 @@ The **Navigation** sidebar on the left of every administration page is how you m
 
 ## Parts of the Sidebar
 
-<!-- <figure><img src="../../.gitbook/assets/admin-area-navigation-01-sidebar.png" alt="The Navigation sidebar expanded, showing Dashboard, Create, Pages, CMS, Media and Trash at the top, the Administration menu below, and the user menu at the bottom"><figcaption><p>The Navigation Sidebar</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/admin-area-navigation-01-sidebar.png" alt="The Navigation sidebar expanded, showing Dashboard, Create, Pages, CMS, Media and Trash at the top, the Administration menu below, and the user menu at the bottom"><figcaption><p>The Navigation Sidebar</p></figcaption></figure>
 
 ### Content Tasks
 
@@ -21,7 +21,7 @@ The **Navigation** sidebar on the left of every administration page is how you m
 
 The **Administration** menu holds the full site menu: **Content**, **Structure**, **Appearance**, **Extend**, **Configuration**, **Reports**, **People**, **Help** and **Tools**. Click an item to open its sub-menu, then click the page you want.
 
-<!-- <figure><img src="../../.gitbook/assets/admin-area-navigation-02-administration-menu.png" alt="The Structure item open in the Administration menu of the Navigation sidebar, listing Menus, Taxonomy, Webforms and other pages"><figcaption><p>A Sub-Menu Open in the Administration Menu</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/admin-area-navigation-02-administration-menu.png" alt="The Structure item open in the Administration menu of the Navigation sidebar, listing Menus, Taxonomy, Webforms and other pages"><figcaption><p>A Sub-Menu Open in the Administration Menu</p></figcaption></figure>
 
 You see only the items your role can use. A **Content editor**, for example, does not see **Extend** or **Appearance**.
 
@@ -36,7 +36,7 @@ At the bottom of the sidebar, click your name to open **View profile**, **Edit p
 1. Click **Collapse sidebar** (the arrow button at the bottom of the sidebar) to shrink it to icons only.
 2. Click **Expand sidebar** to show the labels again.
 
-<!-- <figure><img src="../../.gitbook/assets/admin-area-navigation-03-collapsed.png" alt="The Navigation sidebar collapsed to a narrow column of icons, with the Expand sidebar button highlighted"><figcaption><p>The Collapsed Sidebar</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/admin-area-navigation-03-collapsed.png" alt="The Navigation sidebar collapsed to a narrow column of icons, with the Expand sidebar button highlighted"><figcaption><p>The Collapsed Sidebar</p></figcaption></figure>
 
 Varbase remembers your choice in your browser. On a small screen the sidebar is hidden behind a menu button at the top of the page.
 

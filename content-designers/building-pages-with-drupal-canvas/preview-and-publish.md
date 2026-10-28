@@ -2,6 +2,14 @@
 
 Drupal Canvas saves your work as you go, as a draft that only editors see. Visitors see your changes only after they are published. This page shows how to check a page and publish it.
 
+{% embed url="https://raw.githubusercontent.com/Vardot/varbase-docs/11.0.x/.gitbook/assets/cd-clip-07-publish-page.mp4" %}
+Reviewing and Publishing a Page (Video)
+{% endembed %}
+
+[![Reviewing and Publishing a Page (Video Poster)](<../../.gitbook/assets/cd-clip-07-publish-page-poster.jpg>)](<../../.gitbook/assets/cd-clip-07-publish-page.mp4>)
+
+If the video does not play, open [Reviewing and Publishing a Page (MP4)](<../../.gitbook/assets/cd-clip-07-publish-page.mp4>). Captions: [cd-clip-07-publish-page.vtt](<../../.gitbook/assets/cd-clip-07-publish-page.vtt>).
+
 ## Your Changes Are Saved as a Draft
 
 Every change you make in the editor is saved automatically. You can close the editor and come back later: your draft is still there. The review button in the top bar counts your unpublished changes, for example **Review 3 changes**.
@@ -9,20 +17,20 @@ Every change you make in the editor is saved automatically. You can close the ed
 ## Previewing a Page
 
 1. Click **Preview** (the eye) in the top bar. The editing panels close and you see the page on its own.
-2. Choose **Mobile**, **Tablet**, **Desktop** or **Large Desktop** to check the page at each screen size.
+2. Open the size list at the top left (it starts on **Full Width**) and choose **Mobile**, **Tablet**, **Desktop** or **Large Desktop** to check the page at each screen size.
 3. Click **Exit Preview** to go back to editing.
 
-<!-- <figure><img src="../../.gitbook/assets/canvas-publish-01-preview.png" alt="A page in Preview, with the editing panels hidden and the Mobile, Tablet, Desktop and Large Desktop sizes above the page"><figcaption><p>Previewing a Page</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/canvas-publish-01-preview.png" alt="A page in Preview, with the editing panels hidden and the size list open on Full Width, Mobile, Tablet, Desktop and Large Desktop"><figcaption><p>Previewing a Page</p></figcaption></figure>
 
 ## Reviewing and Publishing
 
 Publishing needs the **Content Admin**, **Site Admin** or **Super Admin** role. A **Content editor** sees the review list without the publish button, and asks one of them to publish.
 
 1. Click the review button, for example **Review 3 changes**. The **Unpublished changes** list opens.
-2. Check the list. Each change is ticked; untick any you do not want to publish yet.
+2. Tick the changes you want to publish, or click **Select All**. Nothing is ticked until you choose.
 3. Click **Publish N selected**, for example **Publish 3 selected**.
 
-<!-- <figure><img src="../../.gitbook/assets/canvas-publish-02-review.png" alt="The Unpublished changes list open under the review button, with two changed pages ticked and the Publish 2 selected button"><figcaption><p>Reviewing Changes Before Publishing</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/canvas-publish-02-review.png" alt="The Unpublished changes list open under the review button, with the changed page ticked and the Publish 1 selected button"><figcaption><p>Reviewing Changes Before Publishing</p></figcaption></figure>
 
 The list can hold changes to more than one page or template, for example a page and the page template. A new page becomes visible to visitors when it is first published.
 

@@ -8,7 +8,7 @@ This page shows how to translate a blog post or utility page. The same steps wor
 
    The table lists each language with its status: the original language, **Not translated**, or the existing translation.
 
-   <!-- <figure><img src="../../.gitbook/assets/translation-content-01-translate-tab.png" alt="The Translate tab of a blog post, listing English as the original and Arabic and French with their translation status and Add or Edit buttons"><figcaption><p>The Translate Tab</p></figcaption></figure> -->
+   <figure><img src="../../.gitbook/assets/translation-content-01-translate-tab.png" alt="The Translate tab of a blog post, listing English as the original and Arabic and French with their translation status and Add or Edit buttons"><figcaption><p>The Translate Tab</p></figcaption></figure>
 
 2. Click **Add** next to the language.
 3. The form opens with the original text. Replace it with the translation:

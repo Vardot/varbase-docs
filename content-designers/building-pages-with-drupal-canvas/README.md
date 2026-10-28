@@ -2,6 +2,14 @@
 
 **Drupal Canvas** is the page builder in Varbase. You build a page by placing ready-made components, such as headings, images, cards and sliders, and editing them where they appear on the page. This section shows you how to create pages, work in the editor and publish your changes.
 
+{% embed url="https://raw.githubusercontent.com/Vardot/varbase-docs/11.0.x/.gitbook/assets/cd-clip-04-canvas-editor-tour.mp4" %}
+Finding Your Way in Drupal Canvas (Video)
+{% endembed %}
+
+[![Finding Your Way in Drupal Canvas (Video Poster)](<../../.gitbook/assets/cd-clip-04-canvas-editor-tour-poster.jpg>)](<../../.gitbook/assets/cd-clip-04-canvas-editor-tour.mp4>)
+
+If the video does not play, open [Finding Your Way in Drupal Canvas (MP4)](<../../.gitbook/assets/cd-clip-04-canvas-editor-tour.mp4>). Captions: [cd-clip-04-canvas-editor-tour.vtt](<../../.gitbook/assets/cd-clip-04-canvas-editor-tour.vtt>).
+
 ## What You Build With Drupal Canvas
 
 - **Pages**: landing pages and other designed pages. The **Home**, **About Varbase**, **Features**, **Blog** and **Contact Us** pages of a new site are Drupal Canvas pages.
@@ -14,7 +22,7 @@ Blog posts and utility pages are still filled in through a form. See [Content Ma
 
 Click **Pages** in the **Navigation** sidebar (`/admin/content/pages`) to see every Drupal Canvas page with its **Title**, **Status**, **Author** and **Updated** date.
 
-<!-- <figure><img src="../../.gitbook/assets/canvas-overview-01-pages-list.png" alt="The Pages list with Home, About Varbase, Features, Blog, Contact Us and Search, each with its status, author, update date and Edit action"><figcaption><p>The Pages List</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/canvas-overview-01-pages-list.png" alt="The Pages list with Home, About Varbase, Features, Blog, Contact Us and Search, each with its status, author, update date and Edit action"><figcaption><p>The Pages List</p></figcaption></figure>
 
 ## Creating a Page
 
@@ -28,7 +36,7 @@ Click **Pages** in the **Navigation** sidebar (`/admin/content/pages`) to see ev
 
 Click **Edit** next to a page to open it in the editor.
 
-<!-- <figure><img src="../../.gitbook/assets/canvas-overview-02-editor.png" alt="The Drupal Canvas editor with the left toolbar, the page in the middle, the Page data panel on the right and the top bar with the page name, Preview and Review changes"><figcaption><p>The Drupal Canvas Editor</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/canvas-overview-02-editor.png" alt="The Drupal Canvas editor with the left toolbar, the page in the middle, the Page data panel on the right and the top bar with the page name, Preview and Review changes"><figcaption><p>The Drupal Canvas Editor</p></figcaption></figure>
 
 | Area | What it holds |
 | --- | --- |

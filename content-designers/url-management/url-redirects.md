@@ -16,7 +16,7 @@ When an automatic alias changes, for example because you renamed a blog post, Va
    - **Redirect status**: keep **301 Moved Permanently** for a permanent move. Use a temporary status only for a short-term change.
 4. Click **Save**.
 
-<!-- <figure><img src="../../.gitbook/assets/seo-redirects-01-add.png" alt="The Add redirect form with an old path in Path, a page chosen in To and 301 Moved Permanently selected in Redirect status"><figcaption><p>Adding a Redirect</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/seo-redirects-01-add.png" alt="The Add redirect form with an old path in Path, a page chosen in To and 301 Moved Permanently selected in Redirect status"><figcaption><p>Adding a Redirect</p></figcaption></figure>
 
 ## Finding Old Links That Need a Redirect
 
@@ -24,7 +24,7 @@ When an automatic alias changes, for example because you renamed a blog post, Va
 2. The list shows addresses visitors asked for that do not exist, with how many times.
 3. Click **Add redirect** next to an address to send it to the right page.
 
-<!-- <figure><img src="../../.gitbook/assets/seo-redirects-02-fix-404.png" alt="The Fix 404 pages list showing missing addresses with their request counts and Add redirect buttons"><figcaption><p>Fixing Missing Pages With Redirects</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/seo-redirects-02-fix-404.png" alt="The Fix 404 pages list showing missing addresses with their request counts and Add redirect buttons"><figcaption><p>Fixing Missing Pages With Redirects</p></figcaption></figure>
 
 ## Editing or Deleting a Redirect
 

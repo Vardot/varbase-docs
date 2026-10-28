@@ -13,7 +13,7 @@ When someone leaves the team, you cancel their account. Varbase lets you choose 
    - **Delete the account and its content.** The account and everything they created are removed.
 4. Click **Confirm**.
 
-<!-- <figure><img src="../../.gitbook/assets/users-delete-01-cancel.png" alt="The Cancel account form of a test account with the four choices for the account and its content, and Disable the account and keep its content selected"><figcaption><p>Cancelling an Account</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/users-delete-01-cancel.png" alt="The Cancel account form of a test account with the four choices for the account and its content, and Disable the account and keep its content selected"><figcaption><p>Cancelling an Account</p></figcaption></figure>
 
 {% hint style="warning" %}
 The two **Delete** choices cannot be undone for the account itself. Choose them only when you are sure.

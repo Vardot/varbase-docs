@@ -23,7 +23,7 @@ Each term has its own page on the site listing the content that uses it.
 1. Go to **Structure** \ **Taxonomy** (`/admin/structure/taxonomy`).
 2. Click **List terms** next to the vocabulary.
 
-<!-- <figure><img src="../../../.gitbook/assets/structure-taxonomies-01-vocabularies.png" alt="The Taxonomy page listing Blog Categories, Tags, Image Classification and AI Context Tags, each with its List terms button"><figcaption><p>The Vocabularies</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/structure-taxonomies-01-vocabularies.png" alt="The Taxonomy page listing Blog Categories, Tags, Image Classification and AI Context Tags, each with its List terms button"><figcaption><p>The Vocabularies</p></figcaption></figure>
 
 ## Using Terms in Content
 

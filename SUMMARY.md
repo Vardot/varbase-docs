@@ -191,6 +191,7 @@
     * [Delete User](content-designers/user-management/delete-user.md)
     * [Default Roles and Site Personas](content-designers/user-management/default-roles-and-site-persons/README.md)
       * [Managing Roles](content-designers/user-management/default-roles-and-site-persons/managing-roles.md)
+      * [What Each Role Sees](content-designers/user-management/default-roles-and-site-persons/what-each-role-sees.md)
   * [URL Management](content-designers/url-management/README.md)
     * [URL Aliases](content-designers/url-management/url-aliases.md)
     * [URL Redirects](content-designers/url-management/url-redirects.md)

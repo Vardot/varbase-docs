@@ -2,11 +2,19 @@
 
 This page shows you how to add a blog post or a utility page. To add a designed page built from components, see [Building Pages With Drupal Canvas](../../building-pages-with-drupal-canvas/).
 
+{% embed url="https://raw.githubusercontent.com/Vardot/varbase-docs/11.0.x/.gitbook/assets/cd-clip-01-create-blog-post.mp4" %}
+Creating a Blog Post (Video)
+{% endembed %}
+
+[![Creating a Blog Post (Video Poster)](<../../../.gitbook/assets/cd-clip-01-create-blog-post-poster.jpg>)](<../../../.gitbook/assets/cd-clip-01-create-blog-post.mp4>)
+
+If the video does not play, open [Creating a Blog Post (MP4)](<../../../.gitbook/assets/cd-clip-01-create-blog-post.mp4>). Captions: [cd-clip-01-create-blog-post.vtt](<../../../.gitbook/assets/cd-clip-01-create-blog-post.vtt>).
+
 ## Steps to Create Content
 
 1. In the **Navigation** sidebar, click **Create**, then choose the content type, for example **Blog post**. You can also go to `/node/add`.
 
-   <!-- <figure><img src="../../../.gitbook/assets/content-management-create-01-create-menu.png" alt="The Create item open in the Navigation sidebar, listing Utility page and Blog post"><figcaption><p>Choosing a Content Type From Create</p></figcaption></figure> -->
+   <figure><img src="../../../.gitbook/assets/content-management-create-01-create-menu.png" alt="The Create item open in the Navigation sidebar, listing Utility page and Blog post"><figcaption><p>Choosing a Content Type From Create</p></figcaption></figure>
 
 2. Fill in the main fields:
    - **Title** (required): a clear, descriptive title.
@@ -15,7 +23,7 @@ This page shows you how to add a blog post or a utility page. To add a designed 
    - **Content**: the body text, written in the rich-text editor. See [Rich-Text Editor "WYSIWYG"](rich-text-editor-wysiwyg.md).
    - **Categories** and **Tags** (blog posts): choose a category and type tags to group the post with related content.
 
-   <!-- <figure><img src="../../../.gitbook/assets/content-management-create-02-blog-form.png" alt="The Create Blog post form with the Title, Featured image, Description and Content fields in the main column and the settings sidebar on the right"><figcaption><p>The Create Blog Post Form</p></figcaption></figure> -->
+   <figure><img src="../../../.gitbook/assets/content-management-create-02-blog-form.png" alt="The Create Blog post form with the Title, Featured image, Description and Content fields in the main column and the settings sidebar on the right"><figcaption><p>The Create Blog Post Form</p></figcaption></figure>
 
 3. For a blog post, open **Search Engine Optimization (SEO) Information** to set the **SEO title**, **SEO description** and **SEO image**, and to read the **SEO analysis**. See [SEO Analysis With Yoast SEO](../../search-engine-optimization/seo-analysis-yoast.md).
 4. Check the settings in the sidebar on the right:
@@ -26,7 +34,7 @@ This page shows you how to add a blog post or a utility page. To add a designed 
 6. Optionally, write a **Revision log message** that says what you did.
 7. Click **Save**.
 
-   <!-- <figure><img src="../../../.gitbook/assets/content-management-create-03-save-as.png" alt="The Save as list in the form sidebar, open to show Draft, In review and Published, next to the Save button"><figcaption><p>Choosing the State and Saving</p></figcaption></figure> -->
+   <figure><img src="../../../.gitbook/assets/content-management-create-03-save-as.png" alt="The Save as list in the form sidebar, open to show Draft, In review and Published, next to the Save button"><figcaption><p>Choosing the State and Saving</p></figcaption></figure>
 
 Varbase saves the item and opens it.
 

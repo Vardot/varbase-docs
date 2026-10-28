@@ -15,7 +15,7 @@ Try reloading the page first, and check you are looking at the right environment
 1. In the **Navigation** sidebar, open **Administration** \ **Tools**.
 2. Click **Flush all caches**.
 
-<!-- <figure><img src="../../../.gitbook/assets/site-config-cache-01-tools.png" alt="The Tools menu open in the Navigation sidebar with Flush all caches, Flush individual cache and Run cron"><figcaption><p>Flushing the Caches From Tools</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/site-config-cache-01-tools.png" alt="The Tools menu open in the Navigation sidebar with Flush all caches, Flush individual cache and Run cron"><figcaption><p>Flushing the Caches From Tools</p></figcaption></figure>
 
 Varbase shows a message when it is done. The next few pages may load a little slower while the cache is rebuilt.
 

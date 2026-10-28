@@ -2,6 +2,14 @@
 
 A pattern is a whole page section, already built and filled with starter content: a hero slider, a set of feature cards, a contact form with details, a call to action. Inserting a pattern is the quickest way to build a page that matches your site's design.
 
+{% embed url="https://raw.githubusercontent.com/Vardot/varbase-docs/11.0.x/.gitbook/assets/cd-clip-06-insert-pattern.mp4" %}
+Inserting a Pattern (Video)
+{% endembed %}
+
+[![Inserting a Pattern (Video Poster)](<../../.gitbook/assets/cd-clip-06-insert-pattern-poster.jpg>)](<../../.gitbook/assets/cd-clip-06-insert-pattern.mp4>)
+
+If the video does not play, open [Inserting a Pattern (MP4)](<../../.gitbook/assets/cd-clip-06-insert-pattern.mp4>). Captions: [cd-clip-06-insert-pattern.vtt](<../../.gitbook/assets/cd-clip-06-insert-pattern.vtt>).
+
 ## Patterns That Come With Varbase
 
 | Pattern | What it is |
@@ -29,9 +37,9 @@ A pattern is a whole page section, already built and filled with starter content
 3. Drag the pattern onto the page, or right-click it and choose **Insert**.
 4. Select the pieces inside it, such as headings, text, buttons and images, and change them on the **Settings** tab.
 
-<!-- <figure><img src="../../.gitbook/assets/canvas-patterns-01-insert.png" alt="The Patterns tab of the Library with the right-click menu of Feature Cards open on Insert"><figcaption><p>Inserting a Pattern</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/canvas-patterns-01-insert.png" alt="The Patterns tab of the Library with the right-click menu of Feature Cards open on Insert"><figcaption><p>Inserting a Pattern</p></figcaption></figure>
 
-<!-- <figure><img src="../../.gitbook/assets/canvas-patterns-02-inserted.png" alt="The Feature Cards pattern on the page after inserting it, with one card's heading selected and its settings on the right"><figcaption><p>A Pattern After Inserting It</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/canvas-patterns-02-inserted.png" alt="The Feature Cards pattern on the page after inserting it, selected, with its settings on the right"><figcaption><p>A Pattern After Inserting It</p></figcaption></figure>
 
 Each insert is an independent copy. Changing it on one page never changes the pattern or other pages.
 

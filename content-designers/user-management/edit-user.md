@@ -18,7 +18,7 @@ This page shows how to change an account: its details, status, roles and passwor
 
 Click **Save** when you finish.
 
-<!-- <figure><img src="../../.gitbook/assets/users-edit-01-form.png" alt="The Edit account form of a test account with the Email address, Username, Password and Status fields"><figcaption><p>Editing an Account</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/users-edit-01-form.png" alt="The Edit account form of a test account with the Email address, Username, Password and Status fields"><figcaption><p>Editing an Account</p></figcaption></figure>
 
 ## Common Tasks
 

@@ -11,7 +11,7 @@ The page has two views, as tabs:
 - **Table**: a list with the name, type, author, status and date of each item.
 - **Grid**: thumbnails, handy for finding an image by sight.
 
-<!-- <figure><img src="../../.gitbook/assets/media-library-01-grid.png" alt="The Media page on the Grid tab, showing image thumbnails with the Name, Media type and Publishing status filters above them"><figcaption><p>The Media Library Grid</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/media-library-01-grid.png" alt="The Media page on the Grid tab, showing image thumbnails with the Name, Media type and Publishing status filters above them"><figcaption><p>The Media Library Grid</p></figcaption></figure>
 
 ## Finding Media
 
@@ -32,7 +32,7 @@ Click **Filter** to apply them.
 3. Pick an existing item, or upload a new file in the upload area at the top.
 4. Click **Insert selected**.
 
-<!-- <figure><img src="../../.gitbook/assets/media-library-02-dialog.png" alt="The Media Library dialog opened from the Featured image field, with the upload area at the top, a grid of images and one image selected"><figcaption><p>Picking an Image for a Content Item</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/media-library-02-dialog.png" alt="The Media Library dialog opened from the Featured image field, with the upload area at the top, a grid of images and one image selected"><figcaption><p>Picking an Image for a Content Item</p></figcaption></figure>
 
 To change the picked item's alt text without leaving the form, click **Edit media item** on it in the field.
 

@@ -12,7 +12,7 @@ Go to **People** \ **Roles** (`/admin/people/roles`) to see the roles. For each 
 2. Tick or untick permissions. They are grouped by module, for example **Content Moderation** or **Drupal Canvas**.
 3. Click **Save permissions**.
 
-<!-- <figure><img src="../../../.gitbook/assets/users-roles-02-permissions.png" alt="The permissions page of the Content editor role, open at the Drupal Canvas group, with the Save permissions button"><figcaption><p>Editing the Permissions of a Role</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/users-roles-02-permissions.png" alt="The permissions page of the Content editor role, open at the Drupal Canvas group, with the Save permissions button"><figcaption><p>Editing the Permissions of a Role</p></figcaption></figure>
 
 {% hint style="warning" %}
 Test every change by logging in with a test account that has the role, or with **Masquerade**. Do not test with a real person's account.
@@ -26,7 +26,7 @@ On a new Varbase site, a **Site Admin** can manage accounts but cannot give anyo
 2. Tick the roles a **Site Admin** may assign, for example **Content editor** and **SEO Admin**.
 3. Click **Save configuration**.
 
-<!-- <figure><img src="../../../.gitbook/assets/users-roles-03-roleassign.png" alt="The Role assign settings with Content editor and SEO Admin ticked as roles a Site Admin may assign"><figcaption><p>Choosing the Roles a Site Admin May Assign</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/users-roles-03-roleassign.png" alt="The Role assign settings with Content editor and SEO Admin ticked as roles a Site Admin may assign"><figcaption><p>Choosing the Roles a Site Admin May Assign</p></figcaption></figure>
 
 The ticked roles then appear on the account form for a **Site Admin**.
 

@@ -20,7 +20,7 @@ Open **Search Engine Optimization (SEO) Information** in the blog post form:
 | **SEO image** | The picture shown when the post is shared on social media. If empty, the **Featured image** is used. |
 | **SEO analysis** | A live check of the post against a focus keyword. See [SEO Analysis With Yoast SEO](seo-analysis-yoast.md). |
 
-<!-- <figure><img src="../../.gitbook/assets/seo-overview-01-seo-fields.png" alt="The Search Engine Optimization (SEO) Information section of a blog post form, with the SEO title, SEO description, SEO image and SEO analysis fields"><figcaption><p>The SEO Fields of a Blog Post</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/seo-overview-01-seo-fields.png" alt="The Search Engine Optimization (SEO) Information section of a blog post form, with the SEO title, SEO description, SEO image and SEO analysis fields"><figcaption><p>The SEO Fields of a Blog Post</p></figcaption></figure>
 
 Utility pages use their **Title** and **Description**. Drupal Canvas pages use the **Title**, **Meta description** and **Image** in **Page data**.
 

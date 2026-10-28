@@ -14,7 +14,7 @@ A video file is stored on your own site and played by the browser's video player
 4. Optionally, upload a **Cover Image** to show before the video plays.
 5. Click **Save**.
 
-<!-- <figure><img src="../../../.gitbook/assets/media-video-01-form.png" alt="The Add Video form with an uploaded MP4 file in Video file and the Name and Cover Image fields"><figcaption><p>Adding a Video File</p></figcaption></figure> -->
+<figure><img src="../../../.gitbook/assets/media-video-01-form.png" alt="The Add Video form with an uploaded MP4 file in Video file and the Name and Cover Image fields"><figcaption><p>Adding a Video File</p></figcaption></figure>
 
 ## Video File or Remote Video?
 

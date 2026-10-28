@@ -8,7 +8,7 @@ The administration area is where you manage your Varbase site: pages, blog posts
 2. Enter your **Username or email address** and your **Password**.
 3. Click **Log in**.
 
-<!-- <figure><img src="../../.gitbook/assets/admin-area-accessing-01-login.png" alt="The Varbase login page with the Username or email address field, the Password field and the Log in button"><figcaption><p>The Login Page</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/admin-area-accessing-01-login.png" alt="The Varbase login page with the Username or email address field, the Password field and the Log in button"><figcaption><p>The Login Page</p></figcaption></figure>
 
 After you log in, Varbase opens the **Dashboard**. If you open an administration page such as `/admin/content` while logged out, Varbase shows the login form in its place.
 
@@ -24,7 +24,7 @@ Every administration page has the same three parts:
 - **The page header**, with the page title, its tabs, and the main action button for the page, such as **Add content**.
 - **The page content**: a form, a list of items with filters, or a report.
 
-<!-- <figure><img src="../../.gitbook/assets/admin-area-accessing-02-admin-screen.png" alt="The Content page in the administration area, with the Navigation sidebar on the left, the page title and tabs at the top, and the list of content in the middle"><figcaption><p>The Parts of an Administration Page</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/admin-area-accessing-02-admin-screen.png" alt="The Content page in the administration area, with the Navigation sidebar on the left, the page title and tabs at the top, and the list of content in the middle"><figcaption><p>The Parts of an Administration Page</p></figcaption></figure>
 
 Varbase uses the **Gin** administration theme for these pages. It works on desktop, tablet and mobile screens.
 
@@ -36,7 +36,7 @@ Varbase uses the **Gin** administration theme for these pages. It works on deskt
 2. Start typing the page name, for example `menus`.
 3. Use the arrow keys to pick a result, then press **Enter**.
 
-<!-- <figure><img src="../../.gitbook/assets/admin-area-accessing-03-coffee.png" alt="The Coffee search box open over an administration page, with the word menus typed and a list of matching pages below it"><figcaption><p>Searching for a Page With Coffee</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/admin-area-accessing-03-coffee.png" alt="The Coffee search box open over an administration page, with the word menus typed and a list of matching pages below it"><figcaption><p>Searching for a Page With Coffee</p></figcaption></figure>
 
 Press **Esc** to close the search box. Coffee lists only the pages your role can open.
 

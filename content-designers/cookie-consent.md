@@ -11,7 +11,7 @@ Varbase asks only when a page uses a service that needs consent:
 
 <!-- <figure><img src="../.gitbook/assets/cookie-consent-01-video.png" alt="An embedded YouTube video on a page replaced by the consent message Load external content supplied by YouTube with the Yes this time and Always buttons"><figcaption><p>Asking for Consent Before a Video Loads</p></figcaption></figure> -->
 
-<!-- <figure><img src="../.gitbook/assets/cookie-consent-02-settings.png" alt="The privacy settings dialog listing the site's services with a switch for each, and the buttons to save the choice"><figcaption><p>The Privacy Settings</p></figcaption></figure> -->
+<figure><img src="../.gitbook/assets/cookie-consent-02-settings.png" alt="The privacy settings dialog listing the site's services with a switch for each, and the buttons to save the choice"><figcaption><p>The Privacy Settings</p></figcaption></figure>
 
 ## What It Means for Your Content
 

@@ -12,7 +12,7 @@ The Varbase page template, **Vartheme\_bs5 theme**, has three parts:
 
 On a page, the header and footer are shown but locked. You see them while you edit, but you change them only in the page template.
 
-<!-- <figure><img src="../../.gitbook/assets/canvas-page-templates-01-layers.png" alt="The Layers panel of a page, with the page content under a locked layer named Vartheme_bs5 theme"><figcaption><p>A Page Inside Its Page Template</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/canvas-page-templates-01-layers.png" alt="The Layers panel of a page, listing only the page's own components; the header and footer of the page template are not in the list"><figcaption><p>A Page Inside Its Page Template</p></figcaption></figure>
 
 ## Choosing the Page Template for a Page
 
@@ -27,7 +27,7 @@ Editing page templates needs the **Site Admin** or **Super Admin** role (the **A
 3. Select a component in the header or footer and change it, or add one from the **Library**.
 4. Publish the change. It appears on every page.
 
-<!-- <figure><img src="../../.gitbook/assets/canvas-page-templates-02-templates-panel.png" alt="The Templates panel with Vartheme_bs5 theme marked Default under Page templates"><figcaption><p>The Page Template in the Templates Panel</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/canvas-page-templates-02-templates-panel.png" alt="The Templates panel with Vartheme_bs5 theme marked Default under Page templates"><figcaption><p>The Page Template in the Templates Panel</p></figcaption></figure>
 
 For a full walkthrough with examples, such as adding a button to the header or a newsletter form to the footer, see [Editing the Header and Footer With Drupal Canvas](../../developers/theme-development-with-varbase/drupal-canvas/editing-the-header-and-footer-with-drupal-canvas.md).
 

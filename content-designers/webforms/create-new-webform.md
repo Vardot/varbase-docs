@@ -26,7 +26,7 @@ The new form has the template's fields and emails, ready to change.
 4. Click **Save**.
 5. Drag the fields into order, then click **Save elements**.
 
-<!-- <figure><img src="../../.gitbook/assets/webforms-create-02-build.png" alt="The Build tab of a webform listing its fields with drag handles, the Add element button and the Save elements button"><figcaption><p>Building the Form</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/webforms-create-02-build.png" alt="The Build tab of a webform listing its fields with drag handles, the Add element button and the Save elements button"><figcaption><p>Building the Form</p></figcaption></figure>
 
 ## Main Settings
 
