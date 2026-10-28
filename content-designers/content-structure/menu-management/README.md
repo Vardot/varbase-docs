@@ -1,41 +1,40 @@
 # Menu Management
 
-Menus define the navigation structure of your Varbase site. They control how visitors browse and find content by providing organized sets of links displayed in various locations across the site.
+Menus are the sets of links visitors use to move around your site: the main menu in the header, the footer links and the social media links. This page lists the menus on a Varbase site and the basics of managing them.
 
-## Overview
+## Menus on a Varbase Site
 
-Varbase comes with several pre-configured menus:
+| Menu | Where it shows |
+| --- | --- |
+| **Main navigation** | The main menu in the site header. |
+| **Footer** | Links in the footer, such as **Privacy policy** and **Terms and Conditions**. |
+| **Secondary menu** | The footer link groups, such as **Support** and **Quicklinks**. |
+| **Social media menu** | The social network links in the footer. |
+| **User account menu** | Account links, such as **Log in** and **My account**. |
 
-### Main Navigation
+The **Administration**, **Content**, **Tools**, **Top tasks** and **Navigation user links** menus drive the administration screens. Leave them to your site administrator.
 
-The **Main navigation** menu is the primary navigation menu displayed to site visitors, typically appearing in the site header. It contains links to the most important pages and sections of your site.
+## Opening a Menu
 
-### Footer Menu
+1. Go to **Structure** \ **Menus** (`/admin/structure/menu`).
+2. Click **Edit menu** next to the menu.
 
-The **Footer** menu contains links displayed in the site's footer area. Common items include links to privacy policy, terms of service, contact information, and other utility pages.
+<!-- <figure><img src="../../../.gitbook/assets/structure-menus-01-main-menu.png" alt="The Main navigation menu form listing Home, About Varbase, Features, Blog and Contact Us with their drag handles, Enabled boxes and Edit buttons"><figcaption><p>The Main Navigation Menu</p></figcaption></figure> -->
 
-### Admin Menu
+The form lists every link in order, with sub-items indented under their parent.
 
-The **Administration** menu is used by the admin navigation sidebar (powered by the Navigation module) and provides links to all administrative sections. This menu is only visible to authenticated users with administrative permissions.
+## Key Ideas
 
-### Other Menus
+- **Menu link**: one link, with a title and a destination.
+- **Parent link**: a link can sit under another to make a drop-down.
+- **Weight**: the order among links at the same level. Dragging sets it for you.
+- **Enabled**: an unticked link stays in the menu but is hidden from visitors.
 
-Your site may include additional custom menus created for specific purposes, such as a secondary navigation, sidebar navigation, or social media links.
+## Who Can Manage Menus
 
-## Accessing Menu Management
+The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** roles can manage the site menus.
 
-1. Navigate to **Structure > Menus** in the admin navigation sidebar, or go to `/admin/structure/menu`.
-2. You will see a list of all menus on the site.
-3. Click **Edit menu** to manage a specific menu's items.
+## In This Section
 
-## Menu Management Tasks
-
-- [Add Menu Items](add-menu-items.md): Add new links to a menu.
-- [Update Menu Items](update-menu-items.md): Reorder and edit existing menu items.
-
-## Key Concepts
-
-- **Menu item**: A single link within a menu. Each menu item has a title, URL, and optional parent item.
-- **Parent item**: A menu item can be nested under another item to create a hierarchical (dropdown) menu structure.
-- **Weight**: Determines the order of menu items at the same level. Items with lower weights appear first. Drag-and-drop reordering adjusts weights automatically.
-- **Enabled / Disabled**: Menu items can be enabled or disabled. Disabled items remain in the menu configuration but are not displayed to site visitors.
+- [Add Menu Items](add-menu-items.md)
+- [Update Menu Items](update-menu-items.md)
