@@ -12,7 +12,7 @@ Varbase AI
 
 ## Overview
 
-**AI Media** has no media types of its own. Each generator saves into an existing media type:
+**AI Media** has no media types of its own. Each generator saves into an existing media type. For how the module works, see the [**AI Media**](../varbase-ai-modules/ai-media/README.md) module page.
 
 | Generator | Saves Into | Output | AI Operation |
 |---|---|---|---|
@@ -148,4 +148,4 @@ When **AI Logging** or **AI Observability** is enabled, **AI Media** requests ar
 - **"… generation is not set up"**: set a default provider for the operation in the **Drupal AI** settings.
 - **An animated SVG does not move**: show it with the **Inline SVG (animated)** display or the **Animated SVG** component.
 
-See the [**AI Media** documentation](https://project.pages.drupalcode.org/ai_media/) for every setting.
+See the [**AI Media**](../varbase-ai-modules/ai-media/README.md) module page for every setting, the providers it uses, SVG and animated SVG, and writing a generator plugin.
