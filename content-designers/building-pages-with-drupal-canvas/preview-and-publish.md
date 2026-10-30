@@ -2,7 +2,7 @@
 
 Drupal Canvas saves your work as you go, as a draft that only editors see. Visitors see your changes only after they are published. This page shows how to check a page and publish it.
 
-{% embed url="https://raw.githubusercontent.com/Vardot/varbase-docs/11.0.x/.gitbook/assets/cd-clip-07-publish-page.mp4" %}
+{% embed url="https://youtu.be/ojIUMiSNnjU" %}
 Reviewing and Publishing a Page (Video)
 {% endembed %}
 

@@ -2,7 +2,7 @@
 
 This page shows you how to add a blog post or a utility page. To add a designed page built from components, see [Building Pages With Drupal Canvas](../../building-pages-with-drupal-canvas/).
 
-{% embed url="https://raw.githubusercontent.com/Vardot/varbase-docs/11.0.x/.gitbook/assets/cd-clip-01-create-blog-post.mp4" %}
+{% embed url="https://youtu.be/sBJ4ocfzljA" %}
 Creating a Blog Post (Video)
 {% endembed %}
 
