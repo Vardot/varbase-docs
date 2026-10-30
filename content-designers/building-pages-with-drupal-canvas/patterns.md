@@ -2,7 +2,7 @@
 
 A pattern is a whole page section, already built and filled with starter content: a hero slider, a set of feature cards, a contact form with details, a call to action. Inserting a pattern is the quickest way to build a page that matches your site's design.
 
-{% embed url="https://raw.githubusercontent.com/Vardot/varbase-docs/11.0.x/.gitbook/assets/cd-clip-06-insert-pattern.mp4" %}
+{% embed url="https://youtu.be/3xAjy-VDtOA" %}
 Inserting a Pattern (Video)
 {% endembed %}
 

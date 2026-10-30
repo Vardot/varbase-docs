@@ -2,7 +2,7 @@
 
 This page shows how to add an image to the **Media Library**, write its alt text and set its focal point.
 
-{% embed url="https://raw.githubusercontent.com/Vardot/varbase-docs/11.0.x/.gitbook/assets/cd-clip-12-upload-image.mp4" %}
+{% embed url="https://youtu.be/lIakHVjDHo4" %}
 Uploading an Image With a Focal Point (Video)
 {% endembed %}
 

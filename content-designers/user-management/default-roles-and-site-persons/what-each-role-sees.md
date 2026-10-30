@@ -2,7 +2,7 @@
 
 A Varbase training or demo site has one demo user for each role: **Normal user**, **Content editor**, **Content admin**, **SEO admin**, **Site admin** and **Super admin**. Log in as each one to see how the administration area changes. Your site administrator gives you the demo users' password.
 
-{% embed url="https://raw.githubusercontent.com/Vardot/varbase-docs/11.0.x/.gitbook/assets/cd-clip-13-what-each-role-sees.mp4" %}
+{% embed url="https://youtu.be/k4aJxea7nyU" %}
 What Each Role Sees (Video)
 {% endembed %}
 

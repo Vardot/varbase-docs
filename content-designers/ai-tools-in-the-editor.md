@@ -2,7 +2,7 @@
 
 Varbase includes AI tools that help you write and check content: drafting and editing text in the rich-text editor, suggesting alt text for images, and reviewing a post before it is published. You stay in charge: every suggestion is yours to accept, change or discard. This page shows each tool.
 
-{% embed url="https://raw.githubusercontent.com/Vardot/varbase-docs/11.0.x/.gitbook/assets/cd-clip-14-ai-draft.mp4" %}
+{% embed url="https://youtu.be/aYmUE-PteQc" %}
 Writing With the AI Assistant (Video)
 {% endembed %}
 

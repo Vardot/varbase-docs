@@ -2,7 +2,7 @@
 
 This page shows how to reorder, edit, hide and delete the links in a menu.
 
-{% embed url="https://raw.githubusercontent.com/Vardot/varbase-docs/11.0.x/.gitbook/assets/cd-clip-09-reorder-menu.mp4" %}
+{% embed url="https://youtu.be/7rDUR7c5hY0" %}
 Reordering the Main Menu (Video)
 {% endembed %}
 
