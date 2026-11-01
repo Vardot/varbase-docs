@@ -1,5 +1,9 @@
 # Drupal CMS Content Type Base
 
+{% hint style="warning" %}
+This recipe is marked **unsupported** on [Drupal.org](https://www.drupal.org/project/drupal_cms_content_type_base), and Varbase 11.0.x does not apply it: **Varbase Starter** 1.0.x does not list it, and the Varbase recipes cover the same ground. See [Drupal CMS and Varbase](../../drupal-cms-and-varbase.md).
+{% endhint %}
+
 ## Description
 
 The Drupal CMS Content Type Base recipe provides the basic tools for creating and managing content. It establishes content editing workflows, URL alias patterns, scheduled publishing, and other essential content management features that other content type recipes build upon.

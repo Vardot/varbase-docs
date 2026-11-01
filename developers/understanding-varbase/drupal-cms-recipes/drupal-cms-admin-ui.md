@@ -1,10 +1,12 @@
 # Drupal CMS Admin UI
 
+{% hint style="warning" %}
+This recipe is marked **unsupported** on [Drupal.org](https://www.drupal.org/project/drupal_cms_admin_ui), and Varbase 11.0.x does not apply it: **Varbase Starter** 1.0.x does not list it, and the Varbase recipes cover the same ground. See [Drupal CMS and Varbase](../../drupal-cms-and-varbase.md).
+{% endhint %}
+
 ## Description
 
 The Drupal CMS Admin UI recipe sets up the administrative theme and navigation for Drupal CMS sites. It provides a modern, polished administration experience using the Gin theme along with productivity tools for site administrators.
-
-This recipe is used by the **varbase\_starter** recipe as part of the Varbase 11.0.x installation.
 
 ## Included Modules
 

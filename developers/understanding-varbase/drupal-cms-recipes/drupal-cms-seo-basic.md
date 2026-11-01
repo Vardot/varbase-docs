@@ -1,5 +1,9 @@
 # Drupal CMS SEO Basic
 
+{% hint style="warning" %}
+This recipe is marked **unsupported** on [Drupal.org](https://www.drupal.org/project/drupal_cms_seo_basic). Drupal CMS 2.2 moved its features into `drupal_cms_site_template_base`. **Varbase Starter** 1.0.x still applies it. See [Drupal CMS and Varbase](../../drupal-cms-and-varbase.md).
+{% endhint %}
+
 ## Description
 
 The Drupal CMS SEO Basic recipe applies basic SEO best practices to your Drupal site. It configures automatic URL alias generation, breadcrumb navigation, and redirect management to improve search engine visibility and user navigation.

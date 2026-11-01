@@ -10,7 +10,6 @@ Depends on the following recipes:
 
 | Recipe | Description |
 |---|---|
-| [**Drupal CMS Privacy Basic**](drupal-cms-privacy-basic.md) | Basic privacy features for managing consent around AI-processed data. |
 | **content_editor_role** *(Drupal core)* | Creates the content editor role with AI-related permissions. |
 
 ## AI Providers
