@@ -94,9 +94,18 @@ If an editor can do these five things, they are ready for daily work:
 4. Filter the listing to your own content type and language.
 5. Open one of your posts on the site, then edit it from its tabs.
 
+## Getting Help Inside the Site
+
+Every editorial role can open **Help** at the bottom of the **Navigation** sidebar (`/admin/help`). It explains many of the site's modules in plain words and is a good first stop before asking a developer. For tasks, the Content Designers section of this documentation is free to share with a client's editors after their training.
+
 ## Logging Out
 
 Open your user menu at the bottom of the **Navigation** sidebar and click **Log out**. Varbase returns you to the login page.
+
+## Questions Clients Ask
+
+- **Can we brand the admin area?** Partly. The **Gin** admin theme has an accent colour and a light or dark mode, the sidebar can show the client's logo (see [Navigation Settings](../site-configuration/user-interface/navigation-settings.md)), and the login page carries the site's logo. Changing the admin theme settings is a **Super Admin** task. A full re-skin of the admin area is not recommended.
+- **Can each team see a different dashboard?** Yes. A site can hold several dashboards, each shown to chosen roles. See [Dashboard](dashboard/).
 
 ## Planning Notes
 
