@@ -56,20 +56,24 @@ ddev composer create-project "drupal/varbase_project:~11.0.0"
 
 This downloads Varbase and all of its dependencies (Drupal core, contributed modules, recipes, themes, and libraries) into the project directory.
 
-The **Varbase Installer** will handle the Drupal installation and apply all Varbase recipes automatically, configuring the full feature set including:
+Composer only downloads the code. The site is installed in the next step.
 
-* Drupal CMS 2.0 recipes (admin UI, media, SEO, anti-spam, privacy, and more)
-* Varbase recipes (content, admin, media, editor, security, SEO, workflow, blog, and more)
-* Easy Email recipes for HTML email support
-* Vartheme BS5 front-end theme and Gin admin theme
+## Step 5: Run the Installer
 
-## Step 5: Launch Your Site
-
-After the installation is complete, open your site in a browser:
+Open the site in a browser:
 
 ```bash
 ddev launch
 ```
+
+The **Varbase installer** opens. On the **Choose a site template** step, keep **Varbase Starter** or pick another site template you added to the project with Composer, then give the site a name. The installer applies the site template and its recipes:
+
+* Drupal CMS 2 recipes (anti-spam, authentication, forms, SEO basic and SEO tools, accessibility tools and search)
+* Varbase recipes (users, admin, security, media, editor, content, Canvas, workflow, search, SEO, webform, page, blog, performance and demo content)
+* Easy Email recipes for HTML email
+* Vartheme BS5 as the front-end theme and Gin as the admin theme
+
+To install without the browser, run `ddev install-varbase minimal` (see below) or `ddev drush site:install varbase`.
 
 ## Complete Installation Commands
 

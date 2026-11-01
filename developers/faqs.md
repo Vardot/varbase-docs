@@ -13,7 +13,7 @@ In Varbase 10.x, functionality was provided through custom Varbase modules (such
 Other key differences include:
 
 * **Drupal version**: Varbase 10.x is built on Drupal 10; Varbase 11.x is built on Drupal 11.
-* **PHP requirement**: Varbase 11.x requires PHP 8.3 or later.
+* **PHP requirement**: Varbase 11.x runs on Drupal core 11.4, which requires PHP 8.3 or later; PHP 8.4 is recommended.
 * **Email handling**: Varbase Email module has been replaced by Easy Email recipes.
 * **Workflow automation**: ECA (Event-Condition-Action) is now used for workflow automation.
 * **Theme system**: Vartheme BS5 now uses Single Directory Components (SDC) and CVA.
@@ -22,26 +22,20 @@ Other key differences include:
 
 ## How do I apply a single Varbase recipe?
 
-You can apply any individual Varbase recipe using Drush:
-
-1. First, require the recipe via Composer:
+Most Varbase recipes already ship in the project's `recipes/` folder. Apply one with Drush:
 
 ```bash
-composer require drupal/recipe_name
+ddev drush recipe ../recipes/varbase_i18n_base
 ```
 
-2. Then apply it with Drush:
+If the recipe is not in `recipes/` yet, require it with Composer first, then apply it:
 
 ```bash
-ddev drush recipe ../recipes/recipe_name
+ddev composer require drupal/varbase_news_base
+ddev drush recipe ../recipes/varbase_news_base
 ```
 
-For example, to apply only the Varbase Media Base recipe:
-
-```bash
-composer require drupal/varbase_media_base
-ddev drush recipe ../recipes/varbase_media_base
-```
+See [Module and Recipe Inventory](understanding-varbase/module-and-recipe-inventory.md) for which recipes ship with the project.
 
 ***
 
@@ -57,11 +51,9 @@ Each recipe declares its own dependencies, so applying a recipe will automatical
 
 ## How do I update from Varbase 10.x to 11.x?
 
-There is currently **no supported update or upgrade path** from Varbase 10.x to Varbase 11.x. The shift from a module-based architecture to a recipe-based architecture is too fundamental to support an in-place migration.
+No in-place upgrade path from Varbase 10.x to Varbase 11.x is published. The shift from Varbase modules to recipes changes how the site is built, so the recommended approach is to start a new Varbase 11.x site and migrate your content with Drupal's Migrate API or another migration tool.
 
-The recommended approach is to start a new Varbase 11.x site and migrate your content using Drupal's Migrate API or other content migration tools.
-
-For more details, see the [Updating from Varbase 10.x to 11.x](/broken/pages/qoKt7lPCjR1zNVFhylKv) page.
+See [Updating Varbase](updating-varbase.md) for updates within Varbase 11.0.x.
 
 ***
 
@@ -103,7 +95,7 @@ For detailed installation instructions, see the [Installing Varbase](installing-
 
 ## What PHP version does Varbase 11.x require?
 
-Varbase 11.x requires **PHP 8.4** or later. This is a requirement inherited from Drupal 11.
+Varbase 11.0.x runs on Drupal core `~11.4.0`, which requires **PHP 8.3** or later. **PHP 8.4** is recommended and is what the DDEV setup in these docs uses. See [Requirements](installing-varbase/requirements.md).
 
 ***
 
@@ -123,7 +115,7 @@ See the [Theme Development with Varbase](theme-development-with-varbase/) sectio
 
 Varbase 11.x uses Easy Email for email management. You can customize email templates through the admin interface:
 
-1. Navigate to **Structure > Easy Email > Email Templates**.
+1. Navigate to **Structure > Email templates** (`/admin/structure/email-templates/templates`).
 2. Edit the template you want to customize.
 3. Modify the subject, body, and other fields.
 4. Save the template.
