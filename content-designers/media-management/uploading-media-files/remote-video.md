@@ -6,7 +6,7 @@ A remote video plays from YouTube or Vimeo inside your page. The video stays on 
 
 1. Click **Media** in the **Navigation** sidebar, then **Add media** and **Remote video**.
 2. In **Video URL**, paste the address of the video, for example `https://www.youtube.com/watch?v=...` or `https://vimeo.com/...`.
-3. Fill in the **Name**, or leave it to be filled from the video's title.
+3. Fill in the **Name** (required).
 4. Optionally, upload a **Cover Image** to show before the video plays, and set its focal point.
 5. Click **Save**.
 

@@ -21,8 +21,8 @@ If the video does not play, open [Uploading an Image With a Focal Point (MP4)](<
 3. Fill in the fields:
    - **Name** (required): a clear name for finding the image later, such as "Team photo, office 2026".
    - **Alternative text** (required): what the image shows, for people who cannot see it. Click **Generate with AI** for a suggestion, then check and edit it.
-   - **Image description**: optional caption or credit.
-   - **Image tags**: optional labels from **Image Classification**, to find the image later.
+   - **Image description**: optional. Left empty, AI writes a description when you save.
+   - **Image tags**: optional labels to find the image later. Left empty, AI picks up to 5 tags when you save.
 4. Drag the focal point cross onto the most important part of the image.
 5. Click **Save**.
 
