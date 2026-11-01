@@ -37,6 +37,17 @@ Go to **Configuration** \ **Search and metadata** \ _**URL aliases**_ (`/admin/c
 
 <figure><img src="../../.gitbook/assets/seo-url-aliases-02-list.png" alt="The URL aliases list showing aliases such as /about-varbase and /blog with their system paths and Edit buttons"><figcaption><p>The URL Aliases List</p></figcaption></figure>
 
+## Rebuilding Aliases After a Pattern Change
+
+When an alias pattern changes, or after content is migrated, existing items keep their old aliases until the aliases are rebuilt:
+
+- **One item or a few**: in the content list, tick the items and use the **Update URL alias** action. See [Bulk Edit Content](../content-workflow/bulk-edit-content.md).
+- **Everything of a type**: a **Super Admin** uses the **Bulk generate** tab of **URL aliases** (`/admin/config/search/path/update_bulk`).
+
+{% hint style="warning" %}
+Changing a pattern on a live site changes many addresses at once. Plan the redirects from the old addresses before you rebuild. See [URL Redirects](url-redirects.md).
+{% endhint %}
+
 ## Tips
 
 - Use short, lowercase words separated by hyphens.
