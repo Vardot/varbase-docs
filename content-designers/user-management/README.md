@@ -39,12 +39,12 @@ Go to **People** (`/admin/people`) to see every account.
 
 A **Site Admin** can add, edit, block and cancel accounts, and switch to another role to check what it sees. Giving roles to people, and changing what a role can do, are **Super Admin** tasks unless your Super Admin has allowed a **Site Admin** to assign certain roles. See [Managing Roles](default-roles-and-site-persons/managing-roles.md).
 
-## Scenario: Onboard and Offboard People
+## Common Tasks
 
-1. **Add**: on **People**, click **Add user**, enter the email and username, choose the status and roles, and tick the option to email password set-up instructions. Nobody else ever knows their password. See [Add User](add-user.md).
-2. **Partners and freelancers**: their own account, the narrowest role that fits, and a noted end date.
-3. **Leave**: on the day someone leaves, block or cancel the account. Cancelling disables it and keeps its content, so the history of who wrote what stays. See [Delete User](delete-user.md).
-4. **Review quarterly**: sort **People** by last access and ask the client whether each person still needs access.
+- [Add User](add-user.md) when someone joins, and [Delete User](delete-user.md) on the day they leave.
+- [Review Who Has Access](review-who-has-access.md): a quarterly check that every account still has an owner.
+- [Check a Role With Masquerade](check-a-role-with-masquerade.md): see the site as another account.
+- [Build a Role Matrix With a Client](build-a-role-matrix-with-a-client.md): agree who may do what.
 
 ## Reading Permissions
 
@@ -58,31 +58,9 @@ A **Site Admin** can add, edit, block and cancel accounts, and switch to another
 - **Restricted permissions** carry a warning; never give them to editorial roles.
 - **After every feature update**, check whether editorial roles need the new permissions, which often arrive given to nobody.
 
-## Scenario: Check a Role With Masquerade
-
-A **Site Admin** can temporarily act as an editorial account to see the site as that role.
-
-1. On **People**, open the account's operations and choose **Masquerade as**.
-2. Do the role's main tasks from start to finish, then try something it should not do and confirm it is refused.
-3. Switch back by logging out of the masqueraded session, then log in again.
-
-{% hint style="warning" %}
-On a Varbase 11.0 site the Gin navigation does not show an **Unmasquerade** link. Log out to end a masquerade session.
-{% endhint %}
-
-## Scenario: Build a Role Matrix With a Client
-
-1. List the people or groups who will use the site, their tasks, the content they own and their languages.
-2. Map each group to the closest default role. Most fit exactly.
-3. Draw a matrix: roles down the side, main tasks across the top, a tick where a role may do the task. It is easier to approve than a list of permissions and becomes the basis for testing.
-4. Set up **Role assign** (**People** \ _**Role assign**_) before handover, so the client's **Site Admin** can give roles. Keep **Super Admin** out of the list.
-5. Agree how access requests work after launch: who asks, who approves, who grants, and when access ends.
-
 ## Questions Clients Ask
 
-- **Can people edit only their own section?** Roles give access by type of content, not by section. Section-level access is possible with extra configuration or modules, but it adds complexity and testing. Raise it early.
 - **Can staff sign in with their work accounts?** The optional **Varbase Auth Base** recipe adds sign-in with outside accounts such as Google; other company sign-in systems usually need extra modules. Scope it with the client's identity team.
-- **Do we need a new role?** Only when an existing role with one more permission will not do, such as translators who may only translate. Creating a role is easy; deciding and testing its permissions is the work.
 
 ## In This Section
 
@@ -92,3 +70,7 @@ On a Varbase 11.0 site the Gin navigation does not show an **Unmasquerade** link
 - [Delete User](delete-user.md)
 - [Default Roles and Site Personas](default-roles-and-site-persons/)
   - [Managing Roles](default-roles-and-site-persons/managing-roles.md)
+  - [What Each Role Sees](default-roles-and-site-persons/what-each-role-sees.md)
+- [Review Who Has Access](review-who-has-access.md)
+- [Check a Role With Masquerade](check-a-role-with-masquerade.md)
+- [Build a Role Matrix With a Client](build-a-role-matrix-with-a-client.md)
