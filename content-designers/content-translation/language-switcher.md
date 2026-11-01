@@ -12,10 +12,10 @@ On a Varbase site the switcher is a **Language switcher** component in the heade
 
 1. Open any page in the Drupal Canvas editor.
 2. Click **Templates**, then **Vartheme\_bs5 theme** under **Page templates**.
-3. Click **Library**, search for `Language switcher`, and drag it into the **Header**, for example next to the search.
+3. Click **Library** and search for `Language switcher`. It is in the **System** group. Drag it into the **Header**, for example next to the search.
 4. Publish the page template.
 
-<!-- <figure><img src="../../.gitbook/assets/translation-switcher-01-component.png" alt="The Language switcher component in the Library, being dragged into the header of the page template"><figcaption><p>Adding the Language Switcher to the Header</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/translation-switcher-01-component.png" alt="The page template open in the Drupal Canvas editor, with the Library searched for Language switcher and the Language switcher component listed in the System group, next to the header with the logo, the main menu and the search"><figcaption><p>Finding the Language Switcher in the Library</p></figcaption></figure>
 
 The switcher then shows on every page. See [Page Templates](../building-pages-with-drupal-canvas/page-templates.md).
 
