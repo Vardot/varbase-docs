@@ -29,7 +29,7 @@ The screenshots come from one demo site built for the course with **Varbase Star
 | 7 | Media | [Media](media-management/) |
 | 8 | Pages with Drupal Canvas, part 1 | [Building Pages With Drupal Canvas](building-pages-with-drupal-canvas/) |
 | 9 | Drupal Canvas, part 2 | [Templates, Page Types and Consistency](building-pages-with-drupal-canvas/templates-and-page-types.md) |
-| 10 | The design system | The Design System |
+| 10 | The design system | [The Design System](the-design-system/) |
 | 11 | Navigation and web addresses | [Navigation and Web Addresses](url-management/) |
 | 12 | Search engines and AI readiness | [Search Engines and AI Readiness](search-engine-optimization/) |
 | 13 | Multilingual and right to left | [Multilingual and Right to Left](content-translation/) |

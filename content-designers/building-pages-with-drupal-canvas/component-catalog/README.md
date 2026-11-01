@@ -24,7 +24,7 @@ A page is a tree: sections hold columns, and columns hold headings, text, cards 
 | Accordions and tabs | **Accordion container**, **Accordion**, **Tabs** | [Accordions and Tabs](accordions-and-tabs.md) |
 | Live components | Blog lists, search, menus, breadcrumbs, language switcher, webforms, AI answers | [Live Components](live-components.md) |
 
-The catalog matches a Varbase Starter site on Vartheme BS5. A site template, or your own theme, can add or restyle components; the **Library** panel always shows what your site has. To see every variation of a component, open your project's Storybook (see [Integration of Varbase With Storybook](../../../developers/theme-development-with-varbase/integration-of-varbase-with-storybook.md)).
+The catalog matches a Varbase Starter site on Vartheme BS5. A site template, or your own theme, can add or restyle components; the **Library** panel always shows what your site has. To see every variation of a component, open your project's Storybook (see [The Design System](../../the-design-system/)).
 
 ## Choosing a Component
 
