@@ -7,13 +7,13 @@ Live components show content from elsewhere on the site, and update themselves w
 | **Blog: Latest blog posts** | The newest posts, as cards | [Creating Content](../../content-management/) |
 | **Blog: All blog posts** with **Exposed form: blog-all** | The full blog list and its filters | [Creating Content](../../content-management/) |
 | **Blog: Related blog posts** | Posts that share tags with the current one | Tags on each post |
-| **Search: Header search form**, **Search results**, **Search: Date filter block**, **Content Type** and **Tags** filters, and the **Exposed form** blocks | The search box, results and filters | [Varbase Search Base](../../../developers/understanding-varbase/varbase-recipes/varbase-search-base.md) |
+| **Search: Header search form**, **Search results**, **Search: Date filter block**, **Content Type** and **Tags** filters, and the **Exposed form** blocks | The search box, results and filters | [Site Search](../../search-forms-and-email/site-search.md) |
 | **Main navigation**, **Footer**, **Social media menu** | A menu's links | [Menu Management](../../url-management/menu-management/) |
 | **Breadcrumbs** | The path to the current page | Automatic |
 | **Site branding** | The site logo and name | Site settings |
 | **Language switcher** | Links to the page in other languages | [Language Switcher](../../content-translation/language-switcher.md) |
 | **Webform** | A form, such as the contact form | [Webforms](../../search-forms-and-email/webforms/) |
-| **AI Answers: Question**, **Answer** and **Sources** | A question box with answers cited from the site | [Varbase AI Answers Base](../../../developers/understanding-varbase/varbase-ai-recipes/varbase-ai-answers-base.md) |
+| **AI Answers: Question**, **Answer** and **Sources** | A question box with answers cited from the site | [AI Agents, Answers and Automation](../../ai-in-varbase/ai-agents-answers-and-automation.md) |
 
 Your site may list more, such as **Dashboard welcome** or **User profile details**; those are for admin pages and profiles.
 

@@ -57,7 +57,7 @@ Take the client's designs page by page and label every element:
 - **Settings**: the logo, the browser icon, the content width, a sticky header.
 - **Design work** (front-end developer): colours, fonts, spacing and component shapes, set as tokens in the theme's style files.
 - **Fonts**: a brand font needs a web licence and affects page speed (Varbase can preload fonts). Arabic and other scripts need fonts that support them.
-- **Beyond pages**: the emails the site sends have their own theme (see [Easy Email Recipes](../../developers/understanding-varbase/easy-email-recipes/)), and the theme includes a print logo.
+- **Beyond pages**: the emails the site sends have their own theme (see [Email Templates](../search-forms-and-email/email-templates.md)), and the theme includes a print logo.
 
 Questions for the brand kick-off:
 

@@ -36,9 +36,9 @@ The screenshots come from one demo site built for the course with **Varbase Star
 | 14 | Users, roles, personas and permissions | [Users, Roles, Personas and Permissions](user-management/) |
 | 15 | Security and privacy | [Security and Privacy](security-and-privacy/) |
 | 16 | Accessibility | [Accessibility](accessibility-checks.md) |
-| 17 | Search, forms and email | Search, Forms and Email |
-| 18 | AI in Varbase, part 1 | AI in Varbase |
-| 19 | AI in Varbase, part 2 | AI Agents, Answers and Automation |
+| 17 | Search, forms and email | [Search, Forms and Email](search-forms-and-email/) |
+| 18 | AI in Varbase, part 1 | [AI in Varbase](ai-in-varbase/) |
+| 19 | AI in Varbase, part 2 | [AI Agents, Answers and Automation](ai-in-varbase/ai-agents-answers-and-automation.md) |
 | 20 | From client needs to a Varbase plan | From Client Needs to a Varbase Plan |
 
 Reference pages follow the lessons: [Site Configuration](site-configuration/) and [Additional Tips](additional-tips/), with content uploading standards and a glossary.

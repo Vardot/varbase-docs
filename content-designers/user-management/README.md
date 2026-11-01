@@ -19,7 +19,7 @@ Everyone who works on your Varbase site has their own account, and each account 
 | **Content Admin** | Editorial lead | Everything an editor does, plus publish Canvas pages; menus, terms, webforms, Canvas patterns, entity queues |
 | **SEO Admin** | SEO specialist | Meta tags, aliases, redirects, sitemap, llms.txt; edits and publishes posts and utility pages; no Canvas pages |
 | **Site Admin** | Site manager | Accounts, most settings, webforms, page and content templates, publish Canvas pages; assigns roles once the Role assign list is set up; cannot change permissions |
-| **MCP agent** | An outside AI assistant | Draft posts and pages only, never publish (see [Varbase AI MCP Server Base](../../developers/understanding-varbase/varbase-ai-recipes/varbase-ai-mcp-server-base.md)) |
+| **MCP agent** | An outside AI assistant | Draft posts and pages only, never publish (see [AI Agents, Answers and Automation](../ai-in-varbase/ai-agents-answers-and-automation.md#mcp-connecting-outside-ai-assistants)) |
 | **Super Admin** | Technical administrator | Everything, including permissions, the Status report, available updates and the accessibility report. Keep to very few people |
 
 A logged-out visitor has the **Anonymous user** role, and every account starts as **Authenticated user** (a "normal user" with no admin sidebar) before a role is added. See [What Each Role Sees](default-roles-and-site-persons/what-each-role-sees.md).

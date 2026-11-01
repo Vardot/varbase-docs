@@ -54,7 +54,7 @@ Many countries require consent before a site loads services that collect persona
 <figure><img src="../../.gitbook/assets/learn-15-consent-services.png" alt="The Klaro Service entities list with services such as Drupal CMS, Bluesky, Consent manager, Deepchat, Drupal AI Alt Text Generation, External Map, Facebook and Google Maps, with their purposes and whether each is enabled"><figcaption><p>Consent Services: Which Outside Services Need the Visitor's Consent</p></figcaption></figure>
 
 - **The privacy policy** is the client's legal team's job; publishing it is a launch task. Until it is published, its footer link is hidden from visitors.
-- **AI and personal data**: guardrails detect email addresses, card numbers, bank account numbers and phone numbers in what is sent to AI. See [AI Recipe Guardrails PII](../../developers/understanding-varbase/varbase-ai-recipes/ai-recipe-guardrails-pii.md).
+- **AI and personal data**: guardrails detect email addresses, card numbers, bank account numbers and phone numbers in what is sent to AI. See [AI in Varbase](../ai-in-varbase/#guardrails-logs-and-consent).
 - **Forms** store every submission until someone deletes it. Agree how long submissions are kept and who may see them.
 - **Uploaded files are public** to anyone with the link. Agree another approach for sensitive documents.
 
