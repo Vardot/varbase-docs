@@ -96,6 +96,7 @@ The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** role
 
 - **Can we connect our DAM?** Not out of the box. It is an integration project; scope it in discovery against the DAM's API.
 - **Where should large videos live?** On a video platform, as **Remote video**. The site stores the link and a cover image. Keep local videos under about 50 MB.
+- **Can editors generate images with AI?** Yes, with the optional **Varbase AI Media Base** recipe, which adds **Generate with AI** to the **Media Library** for images and SVG graphics. It is not applied by default. Agree brand rules, rights and review first, because a generated image still represents the organisation. See [Varbase AI Media Base](../../developers/understanding-varbase/varbase-ai-recipes/varbase-ai-media-base.md).
 - **Do embedded videos need consent?** Players from outside services can collect visitor data. Varbase asks for consent before loading them; switch it on for each service the client uses. See [Cookie Consent](../security-and-privacy/cookie-consent.md).
 
 ## Planning Notes
