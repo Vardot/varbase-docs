@@ -10,7 +10,7 @@ Lesson 9: Drupal Canvas, Part 2 (Video)
 
 ## Read More in the Docs
 
-- [Page Types and Templates](../building-pages-with-drupal-canvas/templates-and-page-types.md)
+- [Page Types and Templates](../building-pages-with-drupal-canvas/templates-and-page-types/README.md)
 
 ## Chapters
 

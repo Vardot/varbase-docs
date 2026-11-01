@@ -18,7 +18,7 @@ Varbase: Content Designers (Playlist)
 | 6 | [Editorial Workflow](lesson-06-editorial-workflow.md) | 18:13 | [youtu.be/wIRbId0aEQM](https://youtu.be/wIRbId0aEQM) | [Content Workflow](../content-workflow/README.md) |
 | 7 | [Media](lesson-07-media.md) | 18:20 | [youtu.be/DjaKFFxInlk](https://youtu.be/DjaKFFxInlk) | [Media Management](../media-management/README.md) |
 | 8 | [Pages With Drupal Canvas, Part 1](lesson-08-pages-with-drupal-canvas-part-1.md) | 20:45 | [youtu.be/ghvA2EXHXXw](https://youtu.be/ghvA2EXHXXw) | [Building Pages With Drupal Canvas](../building-pages-with-drupal-canvas/README.md), [Component Catalog](../building-pages-with-drupal-canvas/component-catalog/README.md) |
-| 9 | [Drupal Canvas, Part 2](lesson-09-drupal-canvas-part-2.md) | 18:11 | [youtu.be/4IU0lRN6NYk](https://youtu.be/4IU0lRN6NYk) | [Page Types and Templates](../building-pages-with-drupal-canvas/templates-and-page-types.md) |
+| 9 | [Drupal Canvas, Part 2](lesson-09-drupal-canvas-part-2.md) | 18:11 | [youtu.be/4IU0lRN6NYk](https://youtu.be/4IU0lRN6NYk) | [Page Types and Templates](../building-pages-with-drupal-canvas/templates-and-page-types/README.md) |
 | 10 | [The Design System](lesson-10-the-design-system.md) | 18:13 | [youtu.be/hWrak_fizpE](https://youtu.be/hWrak_fizpE) | [The Design System](../the-design-system/README.md) |
 
 Each lesson page ends with a few questions to check yourself.
