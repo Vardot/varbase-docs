@@ -22,6 +22,7 @@ Editors already pick media in one place. When the right image does not exist, th
 - Type a description and press **Generate**. **Generate again** replaces the result in place, and the description stays editable. Generate uses core HTMX; everything else in the **Media Library** is core's own.
 - Generated media are ordinary media of those types, so image styles, view modes, formatters, **Focal Point** and **Insert Media** in CKEditor 5 keep working.
 - An unsaved result is a temporary file that cron removes.
+- It works in the language the editor writes in: a French or Arabic description gives a result, name and alternative text in that language, and right-to-left languages are mirrored. See [Other Languages](generating-media.md#other-languages).
 - Each kind of media is an `#[AiMediaGenerator]` plugin, so a new kind of media is a new plugin, not a fork.
 - Core's **Add media** page and **Content** \ _**Media**_ offer the generator too, through the **Generate media with AI** button.
 - **AI Media** adds no AI rules of its own: requests are tagged `ai_media`, and the site's guardrails, moderation, AI Prompts, **AI Context**, logging and observability apply to them. See [How AI Media Works With the AI Module](ai-integration.md).

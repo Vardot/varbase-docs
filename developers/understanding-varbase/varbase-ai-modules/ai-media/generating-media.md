@@ -37,6 +37,28 @@ The result waits in the same step as an upload, with its **Name** and, for image
 Nothing reaches the library until you save. A result you walk away from is a temporary file that cron removes.
 {% endhint %}
 
+## Other Languages
+
+**AI Media** works in the language you write in, for all four kinds of media: image, SVG image, video and audio.
+
+- **Image and SVG image.** Describe the picture in French or Arabic and the result follows the description. The name and alternative text that **AI Media** writes are in that same language.
+- **Audio.** The text is read aloud in the language it is written in, so an Arabic text gives an Arabic clip. The name is in that language too.
+- **Video.** The description works the same way once an image-to-video provider is set up. None is published on drupal.org yet.
+
+<figure><img src="../../../../.gitbook/assets/Varbase AI Media Base - French Description and Generated Result.webp" alt="French Add Image form after generation: the name reads Phare blanc sur falaise au coucher soleil, the French description is filled in, and the preview shows a watercolour of a white lighthouse on a cliff at sunset with a French alternative text"><figcaption><p>A French Description Gives a French Name and Alternative Text</p></figcaption></figure>
+
+On a right-to-left language such as Arabic, the **Add media** form, the **Upload | Generate with AI** switch, the **Options** summary and the players are mirrored with the admin theme (**Gin** and **Default Admin**).
+
+<figure><img src="../../../../.gitbook/assets/Varbase AI Media Base - Arabic Generate Form Right to Left.webp" alt="Arabic Add Image form laid out right to left with the Generate with AI switch, a Name field, an empty description field with an AI badge and a Generate button"><figcaption><p>The Generate With AI Form in Arabic, Right to Left</p></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/Varbase AI Media Base - Arabic Generated Result Right to Left.webp" alt="Arabic Add Image form after generation: the name and alternative text fields hold Arabic text, laid out right to left, beside a preview of a small wooden boat on a calm lake at sunrise"><figcaption><p>An Arabic Description Gives an Arabic Name and Alternative Text</p></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/Varbase AI Media Base - Arabic Audio Generated Player.webp" alt="Arabic Add Audio form after generation: the name and the text to speak are in Arabic, right to left, and the Audio file section shows an MP3 with an audio player"><figcaption><p>Arabic Text Read Aloud Into an Audio Clip</p></figcaption></figure>
+
+{% hint style="info" %}
+The module's own interface text is not translated yet, so some labels show in English. Translations come through [localize.drupal.org](https://localize.drupal.org).
+{% endhint %}
+
 ## When Generate With AI Is Missing or Says It Is Not Set Up
 
 See [Troubleshooting](troubleshooting.md).
