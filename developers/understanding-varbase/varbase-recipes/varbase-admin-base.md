@@ -32,7 +32,6 @@ Brings in the following core and contributed modules to your site:
 | **Update Status** _(in Drupal core)_                                                          | Checks for updates and can notify users if there are new releases available.                         |
 | [**Autosave Form**](https://www.drupal.org/project/autosave_form)                             | Adds autosave feature on forms.                                                                      |
 | **Settings Tray** _(in Drupal core)_                                                          | Allows users to directly edit the configuration of blocks on the current page.                       |
-| [**Entity Clone**](https://www.drupal.org/project/entity_clone)                               | Add a clone action for all entities.                                                                 |
 | [**Taxonomy Manager**](https://www.drupal.org/project/taxonomy_manager)                       | Tool for administrating taxonomy terms.                                                              |
 | [**Taxonomy Access Fix**](https://www.drupal.org/project/taxonomy_access_fix)                 | Extends access handling of Drupal Core's Taxonomy module.                                            |
 | [**Coffee**](https://www.drupal.org/project/coffee)                                           | Provides an Alfred like search box to navigate within your site.                                     |
@@ -64,6 +63,10 @@ The following modules are downloaded with this recipe but not enabled during ins
 | Theme                                         | Description                                                            |
 | --------------------------------------------- | ---------------------------------------------------------------------- |
 | [**Gin**](https://www.drupal.org/project/gin) | Admin theme with a strong focus on improving the Editorial Experience. |
+
+{% hint style="info" %}
+In Varbase 11.0.0, **Entity Clone** moved out of the base recipes and into the **Varbase** profile until it has a stable release ([#3621480](https://www.drupal.org/i/3621480)). A site built from the Varbase project still gets it as a Composer requirement, but this recipe no longer enables it.
+{% endhint %}
 
 ## Installation
 

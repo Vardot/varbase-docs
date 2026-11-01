@@ -27,11 +27,13 @@ The following recipes comprise the Varbase 11.0.x recipe ecosystem. The **Applie
 | [Varbase Users Base](varbase-users-base.md)             | Default user roles, account settings, and user management configurations                        | Varbase Starter |
 | [Varbase Admin Base](varbase-admin-base.md)             | Default admin experience with Gin theme, navigation, audit trail, and admin tools               | Varbase Starter |
 | [Varbase Content Base](varbase-content-base.md)         | Core content configuration including node types, taxonomy, views, ECA automation, and essential content modules | Varbase Starter |
+| [Varbase Canvas Base](varbase-canvas-base.md)           | Installs Drupal Canvas and Canvas Override                                                       | Varbase Starter |
 | [Varbase Media Base](varbase-media-base.md)             | Media types, image styles, responsive images, media library enhancements, and file handling     | Varbase Starter |
 | [Varbase Editor Base](varbase-editor-base.md)           | CKEditor 5 with rich text editing capabilities, plugins, and enhancements                       | Varbase Starter |
 | [Varbase Security Base](varbase-security-base.md)       | Password policies, CAPTCHA, honeypot, antibot, security kit, and flood control                  | Varbase Starter |
 | [Varbase SEO Base](varbase-seo-base.md)                 | SEO modules including metatag, pathauto, redirect, sitemap, and structured data                 | Varbase Starter |
 | [Varbase Workflow Base](varbase-workflow-base.md)       | Content moderation, scheduled publishing, and workflow notifications                            | Varbase Starter |
+| [Varbase Search Base](varbase-search-base.md)           | Search API database index, a content type facet, a date published filter, and the search result displays | Varbase Starter |
 | [Varbase Performance Base](varbase-performance-base.md) | Page caching, asset aggregation, image optimization, and lazy loading                           | Varbase Starter |
 | [Varbase Webform Base](varbase-webform-base.md)         | Default webform modules, configurations, and professional contact form template                 | Varbase Starter |
 | [Varbase Page Base](varbase-page-base.md)               | Page content type with SEO fields, editorial workflow, and menu configuration                   | Varbase Starter |
@@ -44,11 +46,10 @@ The following recipes comprise the Varbase 11.0.x recipe ecosystem. The **Applie
 | [Varbase Development Base](varbase-dev-base.md)         | Development modules and configurations for local development environments                       | On demand |
 | [Varbase News Base](varbase-news-base.md)               | News content type with featured images, categories, listing page, and Drupal Canvas templates   | Add-on |
 | [Varbase Podcasts Base](varbase-podcasts-base.md)       | Podcast episode content type with audio, transcripts, episode numbers, and a listing with an RSS feed | Add-on |
-| [Varbase Search Base](varbase-search-base.md)           | Search API database index, a content type facet, a date published filter, and the search result displays | Add-on |
 | [Varbase Events Base](varbase-events-base.md)           | Event content type with smart date and location, events listing, and related events             | Add-on |
 
 {% hint style="info" %}
-The [**Varbase AI Recipes**](../varbase-ai-recipes/README.md) are documented in their own section. The **Varbase AI Base** recipe, its feature recipes, and **Varbase AI Figma Base** all ship in the project codebase and can be applied on demand. The alpha AI recipes released on 24 October 2026 are added with Composer first.
+The [**Varbase AI Recipes**](../varbase-ai-recipes/README.md) are documented in their own section. The **Varbase AI Base** recipe, its feature recipes, and **Varbase AI Figma Base** all ship in the project codebase and can be applied on demand. Since **Varbase AI Base** 1.0.2, Composer downloads every Varbase AI recipe with it.
 {% endhint %}
 
 ## Applying a Recipe
@@ -67,7 +68,7 @@ For example, to add multilingual support:
 ddev drush recipe ../recipes/varbase_i18n_base
 ```
 
-Recipes marked **Add-on**, such as **Varbase News Base** and **Varbase Events Base**, are separate Drupal.org projects. Require them first, then apply them:
+Recipes marked **Add-on**, such as **Varbase News Base**, **Varbase Events Base** and **Varbase Podcasts Base**, are separate Drupal.org projects that the other site templates use. Require them first, then apply them:
 
 ```bash
 ddev composer require drupal/varbase_news_base
@@ -81,17 +82,13 @@ Refer to each recipe's documentation page for specific installation commands and
 
 Provides general custom config action plugins for Drupal recipes.
 
-Manages a custom optional list of Varbase recipes for projects, with the full list of [**Varbase Recipes**](https://docs.varbase.vardot.com/11.0.x/developers/understanding-varbase/varbase-recipes) to apply, and integration with the [Project Browser](https://www.drupal.org/project/project_browser).
+Manages a custom optional list of Varbase recipes for projects, with the full list of [**Varbase Recipes**](README.md) to apply, and integration with the [Project Browser](https://www.drupal.org/project/project_browser).
 {% endhint %}
 
 
 
-**Varbase Recipes - Page 1**
+<figure><img src="../../../.gitbook/assets/Browse-projects-My-Varbase-site-03-13-2026_01_42_AM.png" alt="The Varbase recipes tab of Browse projects, listing each Varbase recipe as Installed or with an Install button, page 1"><figcaption><p>Varbase Recipes in Project Browser, Page 1</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Browse-projects-My-Varbase-site-03-13-2026_01_42_AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Browse-projects-My-Varbase-site-03-13-2026_01_43_AM.png" alt="The Varbase recipes tab of Browse projects, listing each Varbase recipe as Installed or with an Install button, page 2"><figcaption><p>Varbase Recipes in Project Browser, Page 2</p></figcaption></figure>
 
-**Varbase Recipes - Page 2**
-
-<br>
-
-<figure><img src="../../../.gitbook/assets/Browse-projects-My-Varbase-site-03-13-2026_01_43_AM.png" alt=""><figcaption></figcaption></figure>
+For version lines and links of every recipe, see [Module and Recipe Inventory](../module-and-recipe-inventory.md).

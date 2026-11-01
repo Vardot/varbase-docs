@@ -15,7 +15,7 @@
 
 - Releases: the 1.0.x line. See the [release history](https://www.drupal.org/project/varbase_starter/releases) for the latest version and its release notes.
 - Drupal core `^11.4`, on Drupal CMS 2 or on Varbase 11 (`drupal/varbase_project:~11.0.0`).
-- PHP 8.4, see [Requirements](../../installing-varbase/requirements.md).
+- PHP 8.3 or later (8.4 recommended), see [Requirements](../../installing-varbase/requirements.md).
 
 ## Recipe Type
 
@@ -29,8 +29,8 @@ The Varbase project requires Varbase Starter, so a new Varbase site already has 
 
 ## What You Get
 
-- **Drupal CMS recipes**: admin UI, authentication, media, forms, search, SEO basic and SEO tools, accessibility tools, anti-spam and privacy.
-- **Varbase base recipes**: users, admin, security, media, editor, content, Canvas, workflow, SEO, webform, page, blog and performance.
+- **Drupal CMS recipes**: anti-spam, authentication, forms, SEO basic, SEO tools, accessibility tools and search. **Drupal CMS AI** and **Drupal CMS Google Analytics** are downloaded but not applied; the template lists them as recommended add-ons in its `recommended.yml`, a file Drupal CMS reads.
+- **Varbase base recipes**: users, admin, security, media, editor, content, Canvas, workflow, search, SEO, webform, page, blog and performance.
 - **Vartheme BS5** installed and set as the default theme, with the front page set to `/home`.
 - **A home page built with Drupal Canvas** out of Vartheme BS5 components, with ready-made patterns editors can drop onto any page.
 - **Demo content** from Varbase Demo Content: blog posts, pages, a media library and menus, so the site looks functional on first boot.
@@ -39,17 +39,14 @@ The Varbase project requires Varbase Starter, so a new Varbase site already has 
 
 ## Recipe Dependencies
 
-Depends on the following recipes:
+Depends on the following recipes, in the order they are applied ([`recipe.yml`](https://git.drupalcode.org/project/varbase_starter/-/blob/1.0.x/recipe.yml)):
 
 | Recipe | Description |
 |---|---|
 | [**Varbase Users Base**](../varbase-recipes/varbase-users-base.md) | Default user roles, account settings, and user management configurations. |
-| [**Drupal CMS Admin UI**](../drupal-cms-recipes/drupal-cms-admin-ui.md) | Administrative theme and navigation for Drupal CMS. |
 | [**Drupal CMS Anti-Spam**](../drupal-cms-recipes/drupal-cms-anti-spam.md) | Anti-spam and anti-abuse functionality. |
 | [**Drupal CMS Authentication**](../drupal-cms-recipes/drupal-cms-authentication.md) | Enhanced authentication features. |
 | [**Drupal CMS Forms**](../drupal-cms-recipes/drupal-cms-forms.md) | Contact form and form building tools. |
-| [**Drupal CMS Media**](../drupal-cms-recipes/drupal-cms-media.md) | Media types with responsive images, focal point, and SVG support. |
-| [**Drupal CMS Privacy Basic**](../drupal-cms-recipes/drupal-cms-privacy-basic.md) | Basic privacy features with consent management. |
 | [**Drupal CMS SEO Basic**](../drupal-cms-recipes/drupal-cms-seo-basic.md) | Basic SEO with URL aliases and redirect management. |
 | [**Drupal CMS SEO Tools**](../drupal-cms-recipes/drupal-cms-seo-tools.md) | Advanced SEO with meta tags and XML sitemaps. |
 | [**Drupal CMS Accessibility Tools**](../drupal-cms-recipes/drupal-cms-accessibility-tools.md) | Automated accessibility checks. |
@@ -60,8 +57,9 @@ Depends on the following recipes:
 | [**Varbase Media Base**](../varbase-recipes/varbase-media-base.md) | Comprehensive media handling with image styles and media library. |
 | [**Varbase Editor Base**](../varbase-recipes/varbase-editor-base.md) | CKEditor 5 with rich text editing capabilities and plugins. |
 | [**Varbase Content Base**](../varbase-recipes/varbase-content-base.md) | Core content configuration including node types and taxonomy. |
-| **Varbase Canvas Base** | Installs Drupal Canvas and the Canvas Override module for per-content Canvas layout editing. |
+| [**Varbase Canvas Base**](../varbase-recipes/varbase-canvas-base.md) | Installs Drupal Canvas and the Canvas Override module for per-content Canvas layout editing. |
 | [**Varbase Workflow Base**](../varbase-recipes/varbase-workflow-base.md) | Content moderation, scheduled publishing, and workflows. |
+| [**Varbase Search Base**](../varbase-recipes/varbase-search-base.md) | Search API database index, facets and the search results page. |
 | [**Varbase SEO Base**](../varbase-recipes/varbase-seo-base.md) | Comprehensive SEO modules and configurations. |
 | [**Varbase Webform Base**](../varbase-recipes/varbase-webform-base.md) | Webform modules for building and managing forms. |
 | [**Varbase Page Base**](../varbase-recipes/varbase-page-base.md) | Page content type with SEO fields, editorial workflow, and menu configuration. |

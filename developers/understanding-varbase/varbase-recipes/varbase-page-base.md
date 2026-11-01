@@ -8,7 +8,7 @@ The **Varbase Page Base** recipe provides a Page content type for Varbase with s
 
 ## Overview
 
-Varbase Page Base sets up the standard Page content type that serves as the foundation for basic pages on Varbase sites. It builds on top of Drupal CMS Content Type Base and several Varbase recipes to provide a complete page management experience with editorial workflow, SEO tools, and menu integration.
+Varbase Page Base sets up the standard Page content type that serves as the foundation for basic pages on Varbase sites. It builds on top of several Varbase recipes to provide a complete page management experience with editorial workflow, SEO tools, and menu integration.
 
 ## Recipe Dependencies
 
@@ -16,9 +16,9 @@ Depends on the following recipes:
 
 | Recipe | Description |
 |---|---|
-| [**Drupal CMS Content Type Base**](../drupal-cms-recipes/drupal-cms-content-type-base.md) | Provides basic tools for creating content types. |
 | [**Varbase Content Base**](varbase-content-base.md) | Core content configuration including node types and taxonomy. |
 | [**Varbase Media Base**](varbase-media-base.md) | Comprehensive media handling with image styles and media library. |
+| [**Varbase Editor Base**](varbase-editor-base.md) | CKEditor 5 with rich text editing capabilities and plugins. |
 | [**Varbase SEO Base**](varbase-seo-base.md) | Comprehensive SEO modules and configurations. |
 | [**Varbase Workflow Base**](varbase-workflow-base.md) | Content moderation, scheduled publishing, and workflows. |
 
