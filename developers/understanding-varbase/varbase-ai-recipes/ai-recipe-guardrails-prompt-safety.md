@@ -14,8 +14,8 @@ AI Initiative
 
 The recipe enables two complementary guardrail layers:
 
-- **Security guardrails** — pattern-based filters that detect HTML tags, `<script>` blocks, inline event handlers, CSS expression payloads, and other markup-driven attack vectors in the prompt before it reaches the AI provider.
-- **Liability guardrails** — semantic filters that detect requests for legal advice, medical advice, sensitive topics, and attempts to override the agent's operating instructions (prompt jailbreaks).
+- **Security guardrails**: pattern-based filters that detect HTML tags, `<script>` blocks, inline event handlers, CSS expression payloads, and other markup-driven attack vectors in the prompt before it reaches the AI provider.
+- **Liability guardrails**: semantic filters that detect requests for legal advice, medical advice, sensitive topics, and attempts to override the agent's operating instructions (prompt jailbreaks).
 
 Both layers run against AI inputs and outputs, and matched messages are blocked instead of being forwarded.
 
