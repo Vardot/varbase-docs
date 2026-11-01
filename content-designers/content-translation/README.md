@@ -52,19 +52,10 @@ Languages do not all have to arrive at launch. When a language is added, the int
 
 The community interface translations keep improving. **Reports** \ _**Available translation updates**_ (`/admin/reports/translations`) shows whether newer ones exist for each language. Updating them is a routine step for the development team, done with other updates.
 
-## Scenario: Translate a Blog Post
+## Translating, Step by Step
 
-1. Open the post and click its **Translate** tab. Each language is listed with its status.
-2. Click **Add** for the target language. The form opens filled with the original; replace the text field by field. Shared fields, such as a non-translatable image, stay the same.
-3. On Arabic, the form and the editor switch to right to left. Use the direction buttons to mark an English product name inside an Arabic sentence.
-4. Save it as a draft. Each translation has its own workflow state: the English original can be published while the French version is still a draft.
-5. Publish when a native speaker has reviewed it. See [Translating Content](translating-content.md).
-
-<figure><img src="../../.gitbook/assets/learn-13-translate-tab.png" alt="The Translate tab of a blog post listing English as the original language and the Arabic and French translations, all published, with Edit buttons"><figcaption><p>The Translate Tab: Three Published Versions</p></figcaption></figure>
-
-Content does not have to start in the default language: set **Language** on the form, and an Arabic team can publish in Arabic first.
-
-Drupal Canvas pages have their own translation workspace, with every page in every language, its status (not translated, draft, up to date, outdated) and how complete it is. See [Translating a Page](../building-pages-with-drupal-canvas/translating-a-page.md).
+- Blog posts, utility pages, media, terms and menu links: [Translating Content](translating-content.md). Each translation has its own workflow state, so the English original can be published while the French version is still a draft.
+- Drupal Canvas pages have their own translation workspace, with every page in every language, its status and how complete it is. See [Translating a Page](../building-pages-with-drupal-canvas/translating-a-page.md).
 
 <figure><img src="../../.gitbook/assets/learn-13-french-blog-listing.png" alt="The French blog listing with the menu in French, the heading Blog, the subheading Dernières Actualités and translated filter labels"><figcaption><p>The French Blog Listing</p></figcaption></figure>
 
