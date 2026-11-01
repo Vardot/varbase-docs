@@ -1,7 +1,7 @@
 ---
 description: >-
   How to build and manage a hero carousel with the Hero Slider Container and Hero
-  Slide components in Drupal Canvas, with the Vartheme BS5 theme — no code.
+  Slide components in Drupal Canvas, with the Vartheme BS5 theme, no code.
 metaLinks:
   alternates:
     - >-
@@ -35,14 +35,14 @@ dragging in the **Layers** panel.
 
 ![Hero Slider and Hero Slide in the Library Hero group](<../../../.gitbook/assets/Canvas Hero Slider - Library Source.png>)
 
-## Managing Slides — Inside a Layout Too
+## Managing Slides: Inside a Layout Too
 
 The **Layers** panel is where you reorder and manage everything. It works the same
 whether the slider sits on its own or inside a **Layout** (a **Section** with columns).
 
-* **Reorder** — drag a Hero Slide up or down in the tree.
-* **Duplicate / Delete** — open a slide's context menu (the **…**).
-* **Move into a layout** — drop the Hero Slider into a **Section** column; the tree then
+* **Reorder**: drag a Hero Slide up or down in the tree.
+* **Duplicate / Delete**: open a slide's context menu (the **…**).
+* **Move into a layout**: drop the Hero Slider into a **Section** column; the tree then
   shows **Section → Column → Hero Slider (Container) → Slides → Hero Slide**, and you
   still manage the slides the same way.
 
@@ -60,7 +60,7 @@ Select the **Hero Slider (Container)** to open its **Settings**:
 | **Pause on hover** | Stop autoplay while the visitor's pointer is over the slider. |
 | **Show indicators** | Show the little dots that mark each slide. |
 | **Show prev/next controls** | Show the arrows to move between slides. |
-| **Slider height** | A fixed height — 500, 700 or 900 pixels. |
+| **Slider height** | A fixed height, 500, 700 or 900 pixels. |
 | **Controller color** | The colour of the arrows and dots. |
 
 {% hint style="info" %}
@@ -75,17 +75,17 @@ prev/next arrows stay visible as the slides change.
 
 Select a **Hero Slide** to set:
 
-* **Enabled** — show or hide this slide.
-* **Active by default** — the slide shown first when the page loads.
-* **Title** and **Content** — the heading and rich-text body.
-* **Image** — the slide's picture (from the Media library).
-* **Media position** — the slide layout (see below).
+* **Enabled**: show or hide this slide.
+* **Active by default**: the slide shown first when the page loads.
+* **Title** and **Content**: the heading and rich-text body.
+* **Image**: the slide's picture (from the Media library).
+* **Media position**: the slide layout (see below).
 * **Title tag** / **Title size**, **Content max width**, **Vertical alignment**, **Text alignment**.
-* **Button** — optional call-to-action: text, link and style.
+* **Button**: optional call-to-action: text, link and style.
 
 ![Hero slide settings](<../../../.gitbook/assets/Canvas Hero Slider - Slide Settings.png>)
 
-## Slide Layouts — One Example per Media Position
+## Slide Layouts: One Example per Media Position
 
 Each slide's **Media position** sets its layout. There are five choices.
 
@@ -95,13 +95,13 @@ The image fills the slide and the text sits on top.
 
 ![Overlay layout](<../../../.gitbook/assets/Canvas Hero Slider - Media Overlay.png>)
 
-### Split — image start
+### Split: image start
 
 The image is on one side and the text on the other, image first.
 
 ![Image start layout](<../../../.gitbook/assets/Canvas Hero Slider - Media Image Start.png>)
 
-### Split — image end
+### Split: image end
 
 The same split layout, with the image after the text.
 
@@ -109,7 +109,7 @@ The same split layout, with the image after the text.
 
 ### Text only
 
-No image — just the title, content and button.
+No image, just the title, content and button.
 
 ![Text only layout](<../../../.gitbook/assets/Canvas Hero Slider - Media Text Only.png>)
 

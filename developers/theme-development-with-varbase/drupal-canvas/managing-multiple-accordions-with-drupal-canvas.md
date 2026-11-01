@@ -1,7 +1,7 @@
 ---
 description: >-
   How to add and manage multiple accordions inside the Accordion container in
-  Drupal Canvas with the Vartheme BS5 theme — no code.
+  Drupal Canvas with the Vartheme BS5 theme, no code.
 metaLinks:
   alternates:
     - >-
@@ -32,7 +32,7 @@ Accordion items** inside it.
 2. **Drag** the **Accordion container** onto the page.
 3. **Drag** one or more **Accordion** items into the container's **Accordion content**
    slot.
-4. Drop content inside each Accordion item — **not only Text**. An accordion item can
+4. Drop content inside each Accordion item, **not only Text**. An accordion item can
    hold **any** component: a **Text** block, a **View** (for example _Blog: Latest blog
    posts_), a **Block** (for example a menu), or a **Webform** (for example _Newsletter
    Subscribe_).
@@ -44,9 +44,9 @@ Accordion items** inside it.
 The **Layers** panel is where you reorder and manage the accordions. The tree shows the
 **Accordion container**, each **Accordion** item, and the content inside it.
 
-* **Reorder** — drag an **Accordion** up or down in the tree.
-* **Duplicate / Delete** — open an item's context menu (the **…**).
-* **Select** — click an item or the container to edit its settings on the right.
+* **Reorder**: drag an **Accordion** up or down in the tree.
+* **Duplicate / Delete**: open an item's context menu (the **…**).
+* **Select**: click an item or the container to edit its settings on the right.
 
 ![The Layers panel with the accordion fully in view, holding a Webform, a View and a Block](<../../../.gitbook/assets/Canvas Accordion - Layers and Container.png>)
 
@@ -54,21 +54,21 @@ The **Layers** panel is where you reorder and manage the accordions. The tree sh
 
 Select the **Accordion container** to open its **Settings**:
 
-* **Accordion ID** — optional; leave it empty and Drupal Canvas fills it in for you.
-* **Flush style** — remove the outer borders and rounding.
-* **Keep multiple items open** — **off** = only one item open at a time (FAQ behaviour);
+* **Accordion ID**: optional; leave it empty and Drupal Canvas fills it in for you.
+* **Flush style**: remove the outer borders and rounding.
+* **Keep multiple items open**: **off** = only one item open at a time (FAQ behaviour);
   **on** = several items can stay open together.
-* **Header color** — optional; pick a colour for the item headers, or leave the default.
+* **Header color**: optional; pick a colour for the item headers, or leave the default.
 
 ## Item Settings: Heading and Open State
 
 Select an **Accordion** item to set:
 
-* **Heading** — the text shown in the item's header.
-* **Heading level** — H2–H6, for a correct page outline.
-* **Expanded by default** — open this item when the page loads.
-* **Keep this item independent** — let it stay open regardless of the container.
-* **Header color** — keep the same as the container, or pick a colour for this item.
+* **Heading**: the text shown in the item's header.
+* **Heading level**: H2 to H6, for a correct page outline.
+* **Expanded by default**: open this item when the page loads.
+* **Keep this item independent**: let it stay open regardless of the container.
+* **Header color**: keep the same as the container, or pick a colour for this item.
 
 ![The Accordion item settings, with the item holding a View](<../../../.gitbook/assets/Canvas Accordion - Item Settings.png>)
 

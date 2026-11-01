@@ -1,6 +1,6 @@
 ---
 description: >-
-  What Drupal Canvas is and how it works in Varbase — the visual, drag-and-drop
+  What Drupal Canvas is and how it works in Varbase, the visual, drag-and-drop
   page builder in the Vartheme BS5 theme, with no code.
 ---
 
@@ -8,20 +8,13 @@ description: >-
 
 **Drupal Canvas** is the visual page builder that comes with **Varbase**. You build and
 arrange pages by dragging ready-made pieces onto the page and editing them right in the
-browser — **no code**. What you see while you edit is what visitors see.
-
-{% hint style="info" %}
-**Who this is for.** Everyone who works with pages — content designers and site builders
-who create and edit pages, and developers who provide the building blocks and set who can
-do what. This page explains the big picture; the other Drupal Canvas guides show each task
-step by step.
-{% endhint %}
+browser, **no code**. What you see while you edit is what visitors see.
 
 ## What You Can Build
 
-* **Pages** — full pages you compose from components (for example a landing page).
+* **Pages**: full pages you compose from components (for example a landing page).
   Varbase's Home, About, Features, Blog and Contact pages are built this way.
-* **The Header and Footer** — the site-wide bars at the top and bottom of every page. In
+* **The Header and Footer**: the site-wide bars at the top and bottom of every page. In
   Drupal Canvas they belong to a **page template** you can edit visually too.
 
 ## The Key Ideas
@@ -29,7 +22,7 @@ step by step.
 | Term | What it means |
 | --- | --- |
 | **Page** | A page you build with Drupal Canvas. All your pages are listed under **Pages**. |
-| **Component** | A ready-made piece you place on the page — a heading, an image, a button, a card, an accordion, a hero slider, a menu, a form, and more. |
+| **Component** | A ready-made piece you place on the page, a heading, an image, a button, a card, an accordion, a hero slider, a menu, a form, and more. |
 | **Page template** | A shared layout around every page, holding the **Header** and **Footer**. Changing it changes every page that uses it. |
 | **Layout** | Containers such as **Section** and **Columns** that hold components and arrange them side by side or stacked. |
 | **Draft & Publish** | Your edits are saved as a private **draft** while you work. Nothing is live until you **Publish**. |
@@ -46,25 +39,25 @@ date. Use **+ Add Page** to create a new one, or **Edit** to open a page in the 
 
 Opening a page opens the Drupal Canvas editor. It has three main areas:
 
-* **Left toolbar** — the **Library** (all the components you can add), the **Layers** panel
+* **Left toolbar**: the **Library** (all the components you can add), the **Layers** panel
   (the outline of everything on the page), and more.
-* **Canvas (middle)** — a live preview of the page. You can switch the view between
+* **Canvas (middle)**: a live preview of the page. You can switch the view between
   **Mobile**, **Tablet** and **Desktop**, and zoom in or out.
-* **Settings (right)** — the options for whatever you have selected (the page, or a single
+* **Settings (right)**: the options for whatever you have selected (the page, or a single
   component).
 
 The picture below shows the **Layers** panel open: a page is simply a tree of components.
 The top bar shows the page name, whether it is **Published**, a **Preview** button, and the
 publish button that lights up when you have unsaved changes.
 
-![The Drupal Canvas editor — left toolbar with Library and Layers, the canvas preview in the middle, and the settings panel on the right](<../../../.gitbook/assets/Canvas Introduction - Editor Overview.png>)
+![The Drupal Canvas editor: left toolbar with Library and Layers, the canvas preview in the middle, and the settings panel on the right](<../../../.gitbook/assets/Canvas Introduction - Editor Overview.png>)
 
 ## How You Work: Draft, Review, Publish
 
-1. **Edit** — add components from the Library, arrange them, and change their settings.
+1. **Edit**: add components from the Library, arrange them, and change their settings.
    Everything you do is saved automatically as a **draft**.
-2. **Review changes** — see what you changed before it goes live.
-3. **Publish** — make your changes visible to visitors. Below is a published page as a
+2. **Review changes**: see what you changed before it goes live.
+3. **Publish**: make your changes visible to visitors. Below is a published page as a
    visitor sees it.
 
 ![A published Drupal Canvas page as visitors see it](<../../../.gitbook/assets/Canvas Introduction - Live Page.png>)
@@ -77,7 +70,7 @@ publish button that lights up when you have unsaved changes.
 | **Developers** | Provide the building blocks (theme components), decide which components are available, set who can edit and publish, and build advanced pieces such as content templates. |
 
 {% hint style="warning" %}
-**Permissions.** Some actions are limited — for example, editing the global header and
+**Permissions.** Some actions are limited, for example, editing the global header and
 footer needs a specific permission. Your administrator decides who can do what.
 {% endhint %}
 
@@ -87,6 +80,10 @@ It uses the building blocks that come with the **Vartheme BS5** theme, so pages 
 site's look automatically.
 
 ## Where to Go Next
+
+* [**Component Reference: Vartheme BS5 in Drupal Canvas**](vartheme-bs5-components-in-drupal-canvas.md), for developers
+* [**Component Catalog**](../../../content-designers/building-pages-with-drupal-canvas/component-catalog/), for editors: every component and its settings
+* [**Building Pages With Drupal Canvas**](../../../content-designers/building-pages-with-drupal-canvas/), the editor guide in Content Designers
 
 * [**Editing the Header and Footer With Drupal Canvas**](editing-the-header-and-footer-with-drupal-canvas.md)
 * [**Managing Multiple Accordions With Drupal Canvas**](managing-multiple-accordions-with-drupal-canvas.md)
