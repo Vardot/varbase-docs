@@ -8,7 +8,7 @@ Your development team adds Google Analytics, usually with the **Google Analytics
 
 ## Consent Comes First
 
-Analytics sets cookies, so visitors are asked for consent first. The cookie consent manager already lists **Google Analytics** and **Google Tag Manager** as services; your team turns the right one on when analytics is added. Visitors who decline are not tracked. See [Cookie Consent](../../cookie-consent.md).
+Analytics sets cookies, so visitors are asked for consent first. The cookie consent manager already lists **Google Analytics** and **Google Tag Manager** as services; your team turns the right one on when analytics is added. Visitors who decline are not tracked. See [Cookie Consent](../../security-and-privacy/cookie-consent.md).
 
 ## Checking It Works
 

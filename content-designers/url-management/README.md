@@ -11,7 +11,7 @@ Every page has a web address (URL). Readable addresses such as `/blog/securing-y
 
 ## Changing an Address Safely
 
-When you change a page's address, Varbase keeps the old one working by adding a redirect for you. Check the **Top "page not found" errors** report from time to time for old links that still need one. See [Reports](../dashboard/reports.md).
+When you change a page's address, Varbase keeps the old one working by adding a redirect for you. Check the **Top "page not found" errors** report from time to time for old links that still need one. See [Reports](../accessing-the-administration-area/dashboard/reports.md).
 
 ## Who Can Manage Addresses
 

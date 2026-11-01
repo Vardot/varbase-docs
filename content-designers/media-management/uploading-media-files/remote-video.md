@@ -18,7 +18,7 @@ A remote video plays from YouTube or Vimeo inside your page. The video stays on 
 - In the rich-text editor, click **Insert Media** and choose **Remote video**.
 
 {% hint style="info" %}
-When you add the first YouTube or Vimeo video, Varbase turns on cookie consent for that service. Visitors then see a consent message before the video loads, and it plays after they accept. See [Cookie Consent](../../cookie-consent.md).
+When you add the first YouTube or Vimeo video, Varbase turns on cookie consent for that service. Visitors then see a consent message before the video loads, and it plays after they accept. See [Cookie Consent](../../security-and-privacy/cookie-consent.md).
 {% endhint %}
 
 ## Tips

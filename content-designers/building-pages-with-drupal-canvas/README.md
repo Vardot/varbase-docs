@@ -6,10 +6,6 @@
 Finding Your Way in Drupal Canvas (Video)
 {% endembed %}
 
-[![Finding Your Way in Drupal Canvas (Video Poster)](<../../.gitbook/assets/cd-clip-04-canvas-editor-tour-poster.jpg>)](<../../.gitbook/assets/cd-clip-04-canvas-editor-tour.mp4>)
-
-If the video does not play, open [Finding Your Way in Drupal Canvas (MP4)](<../../.gitbook/assets/cd-clip-04-canvas-editor-tour.mp4>). Captions: [cd-clip-04-canvas-editor-tour.vtt](<../../.gitbook/assets/cd-clip-04-canvas-editor-tour.vtt>).
-
 ## What You Build With Drupal Canvas
 
 - **Pages**: landing pages and other designed pages. The **Home**, **About Varbase**, **Features**, **Blog** and **Contact Us** pages of a new site are Drupal Canvas pages.

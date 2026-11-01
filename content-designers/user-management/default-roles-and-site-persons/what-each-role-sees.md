@@ -6,10 +6,6 @@ A Varbase training or demo site has one demo user for each role: **Normal user**
 What Each Role Sees (Video)
 {% endembed %}
 
-[![What Each Role Sees (Video Poster)](<../../../.gitbook/assets/cd-clip-13-what-each-role-sees-poster.jpg>)](<../../../.gitbook/assets/cd-clip-13-what-each-role-sees.mp4>)
-
-If the video does not play, open [What Each Role Sees (MP4)](<../../../.gitbook/assets/cd-clip-13-what-each-role-sees.mp4>). Captions: [cd-clip-13-what-each-role-sees.vtt](<../../../.gitbook/assets/cd-clip-13-what-each-role-sees.vtt>).
-
 ## What Each Role Can Do
 
 | Task | Normal user | Content editor | Content Admin | SEO Admin | Site Admin | Super Admin |

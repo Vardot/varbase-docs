@@ -6,10 +6,6 @@ A pattern is a whole page section, already built and filled with starter content
 Inserting a Pattern (Video)
 {% endembed %}
 
-[![Inserting a Pattern (Video Poster)](<../../.gitbook/assets/cd-clip-06-insert-pattern-poster.jpg>)](<../../.gitbook/assets/cd-clip-06-insert-pattern.mp4>)
-
-If the video does not play, open [Inserting a Pattern (MP4)](<../../.gitbook/assets/cd-clip-06-insert-pattern.mp4>). Captions: [cd-clip-06-insert-pattern.vtt](<../../.gitbook/assets/cd-clip-06-insert-pattern.vtt>).
-
 ## Patterns That Come With Varbase
 
 | Pattern | What it is |

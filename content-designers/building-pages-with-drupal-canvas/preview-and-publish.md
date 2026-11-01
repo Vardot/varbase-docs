@@ -6,10 +6,6 @@ Drupal Canvas saves your work as you go, as a draft that only editors see. Visit
 Reviewing and Publishing a Page (Video)
 {% endembed %}
 
-[![Reviewing and Publishing a Page (Video Poster)](<../../.gitbook/assets/cd-clip-07-publish-page-poster.jpg>)](<../../.gitbook/assets/cd-clip-07-publish-page.mp4>)
-
-If the video does not play, open [Reviewing and Publishing a Page (MP4)](<../../.gitbook/assets/cd-clip-07-publish-page.mp4>). Captions: [cd-clip-07-publish-page.vtt](<../../.gitbook/assets/cd-clip-07-publish-page.vtt>).
-
 ## Your Changes Are Saved as a Draft
 
 Every change you make in the editor is saved automatically. You can close the editor and come back later: your draft is still there. The review button in the top bar counts your unpublished changes, for example **Review 3 changes**.

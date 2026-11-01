@@ -10,3 +10,16 @@ redirects:
   content-designers/about-layout-builder/block-layout/block-styles: content-designers/building-pages-with-drupal-canvas/adding-and-arranging-components.md
   content-designers/about-layout-builder/reordering-blocks: content-designers/building-pages-with-drupal-canvas/adding-and-arranging-components.md
   content-designers/content-structure/entityqueues/add-a-new-term: content-designers/content-structure/entityqueues/add-items-to-a-queue.md
+  content-designers/dashboard: content-designers/accessing-the-administration-area/dashboard/README.md
+  content-designers/dashboard/reports: content-designers/accessing-the-administration-area/dashboard/reports.md
+  content-designers/site-configuration/user-interface/coffee: content-designers/accessing-the-administration-area/coffee.md
+  content-designers/content-structure/menu-management: content-designers/url-management/menu-management/README.md
+  content-designers/content-structure/menu-management/add-menu-items: content-designers/url-management/menu-management/add-menu-items.md
+  content-designers/content-structure/menu-management/update-menu-items: content-designers/url-management/menu-management/update-menu-items.md
+  content-designers/content-management/publish-content: content-designers/content-workflow/publish-content.md
+  content-designers/content-management/bulk-edit-content: content-designers/content-workflow/bulk-edit-content.md
+  content-designers/cookie-consent: content-designers/security-and-privacy/cookie-consent.md
+  content-designers/webforms: content-designers/search-forms-and-email/webforms/README.md
+  content-designers/webforms/create-new-webform: content-designers/search-forms-and-email/webforms/create-new-webform.md
+  content-designers/webforms/setting-up-email-handlers: content-designers/search-forms-and-email/webforms/setting-up-email-handlers.md
+  content-designers/ai-tools-in-the-editor: content-designers/ai-in-varbase/ai-tools-in-the-editor.md
