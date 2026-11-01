@@ -24,6 +24,11 @@ Varbase 11 is best pictured as three layers:
 
 Because Varbase uses the Drupal CMS layer rather than replacing it, improvements made by the wider Drupal community reach Varbase sites too. Drupal CMS has its own version numbers: Varbase 11 uses the recipes of Drupal CMS 2, and still runs Drupal 11 underneath.
 
+Two Drupal CMS ideas matter in client conversations:
+
+- **Site templates in the installer.** When Drupal CMS is installed, the installer asks the team to choose a site template. The four Vardot templates (**Varbase Starter**, **Educare**, **Horizon Aid** and **The Rightup**) are offered there, so a team that starts from plain Drupal CMS can still start from a Vardot template.
+- **One connection to AI.** A site connects to an AI provider once, and every AI feature on the site uses that connection. The Varbase AI recipes build on it, which is why they work with several providers. See [AI in Varbase](../ai-in-varbase/).
+
 ### Reading a Version Number
 
 Drupal and Varbase versions have three numbers: **major**, **minor** and **patch**.
@@ -42,6 +47,18 @@ Drupal and Varbase versions have three numbers: **major**, **minor** and **patch
 - Updates go to a development copy first, then staging, then production. Never straight to the live site.
 
 See [Release Cycle and Supported Versions](../../overview/release-cycle-and-supported-versions.md) for the current table.
+
+### What Changed in Varbase 11
+
+Clients upgrading from Varbase 9 or 10 notice three changes first:
+
+| Before (Varbase 9 and 10) | Now (Varbase 11) | What it means for a project |
+| --- | --- | --- |
+| An installation profile set everything up at once. | Recipes, with **Varbase Starter** as the entry point. | Features are added later, one recipe at a time, as needs grow. |
+| The **Claro** admin theme. | The **Gin** admin theme with the **Navigation** sidebar. | Editors need a short tour of the new admin area. See [Accessing the Administration Area](../accessing-the-administration-area/). |
+| Deleting removed content for good. | Deleting moves items to the **Trash**, where they can be restored. | Decide who may empty the Trash. See [Trash](../content-workflow/trash.md). |
+
+Moving to Varbase 11 is planned with the development team as a project of its own: the content is kept, while configuration, custom code and the theme need checking.
 
 ## Why It Matters
 
