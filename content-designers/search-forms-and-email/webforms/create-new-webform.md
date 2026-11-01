@@ -30,7 +30,7 @@ The new form has the template's fields and emails, ready to change.
 
 ## Conditions and Validation
 
-- **Conditions** show or hide a field depending on an earlier answer, so visitors see only what applies to them. Open a field's settings and use its **Conditions** tab, for example to show **Company name** only when **I am contacting you for** is **Business**.
+- **Conditions** show or hide a field depending on an earlier answer, so visitors see only what applies to them. Open a field's settings and use its **Conditions** tab. For example, a form can ask for a company name only when the visitor says they are writing on behalf of a business.
 - **Validation** checks an answer before the form is sent, such as a valid email address, a number range or a maximum length. It is in the field's settings too.
 
 Both make forms shorter and cleaner, and both are settings, not code.
