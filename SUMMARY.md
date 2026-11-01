@@ -235,6 +235,7 @@
   * [AI in Varbase](content-designers/ai-in-varbase/README.md)
     * [AI Tools in the Editor](content-designers/ai-in-varbase/ai-tools-in-the-editor.md)
     * [AI Agents, Answers and Automation](content-designers/ai-in-varbase/ai-agents-answers-and-automation.md)
+  * [From Client Needs to a Varbase Plan](content-designers/from-client-needs-to-a-varbase-plan/README.md)
   * [Site Configuration](content-designers/site-configuration/README.md)
     * [System](content-designers/site-configuration/system/README.md)
       * [Clearing Cache](content-designers/site-configuration/system/clearing-cache.md)
