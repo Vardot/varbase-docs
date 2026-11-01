@@ -2,9 +2,7 @@
 
 Clients often ask "is this Drupal?" The answer is yes. This page explains how **Drupal**, **Drupal CMS** and **Varbase** fit together, how to read a version number, and how to plan for releases, security updates and support over the life of a site.
 
-{% embed url="https://youtu.be/6cNM_1YEL0Q" %}
-Lesson 1: Varbase in the Drupal World (Video)
-{% endembed %}
+Watch the lesson: [Varbase in the Drupal World](../varbase-content-designers-course/lesson-01-varbase-in-the-drupal-world.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## What It Is
 
@@ -98,11 +96,3 @@ Ask how the client's team will work on the site every day; the answer usually po
 - **Community**: the Varbase issue queue on drupal.org for bugs and feature requests (search it first), the Varbase Slack for quick questions, and the Vardot GitHub organisation for the code.
 - **Professional**: support, consulting and training from Vardot. See [How to Get Support](../../overview/how-to-get-support.md).
 - **Security problems** are never reported in public. They go through the Drupal security team's private process.
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. How would you explain the difference between Drupal CMS and Varbase to a client in two sentences?
-2. What does the first number of a Varbase version tell you?
-3. Where would you check whether a site's version still receives security fixes?
-{% endhint %}

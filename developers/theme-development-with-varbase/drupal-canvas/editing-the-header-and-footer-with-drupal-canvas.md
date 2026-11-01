@@ -165,7 +165,7 @@ the social media links menu, so visitors can sign up from any page.
    Newsletter_).
 4. Click **Publish.**
 
-![The Webform Block Setting — Newsletter Subscribe](<../../../.gitbook/assets/Canvas Header Footer - Webform Settings.png>)
+![The Webform Block Setting: Newsletter Subscribe](<../../../.gitbook/assets/Canvas Header Footer - Webform Settings.png>)
 
 ![The Newsletter Webform Under the Social Media Links in the Footer](<../../../.gitbook/assets/Canvas Header Footer - Example Newsletter Webform.png>)
 

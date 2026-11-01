@@ -1,10 +1,8 @@
-# Editorial Workflow
+# Content Workflow
 
 Varbase moves blog posts and utility pages through a publishing workflow, so nothing reaches visitors before it is ready. This page explains the states, who can change them, revisions, scheduling, the Trash, and the two safety features that protect your work while you edit: content locking and autosave. The workflow is where a website meets an organisation's way of working.
 
-{% embed url="https://youtu.be/wIRbId0aEQM" %}
-Lesson 6: Editorial Workflow (Video)
-{% endembed %}
+Watch the lesson: [Editorial Workflow](../varbase-content-designers-course/lesson-06-editorial-workflow.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## Why It Matters
 
@@ -141,11 +139,3 @@ Drupal Canvas pages do not use the Editorial workflow. Every change in the Canva
 3. **Archive rather than delete** content you may need again.
 4. **Save or unlock when you finish**, so colleagues are not locked out.
 5. **Review permissions regularly**, so each role has the access your process needs.
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. A client wants every blog post approved by a manager before it goes live. What would you change on a new Varbase Starter site?
-2. What do visitors see while an edit to a published post is still a draft?
-3. What is the difference between archiving and deleting?
-{% endhint %}

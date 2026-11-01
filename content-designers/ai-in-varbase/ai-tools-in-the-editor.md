@@ -42,6 +42,12 @@ In the **Rich editor** text format, used for blog posts, the toolbar has an **AI
 
 The **Content** format of utility pages has no **AI Assistant** button. For the full list and the actions that are off by default, see [Varbase AI Editor Assistant](../../developers/understanding-varbase/varbase-ai-recipes/varbase-ai-editor-assistant.md).
 
+## Suggesting Tags
+
+On a blog post, **Suggest tags** next to the **Tags** field reads the text and proposes tags from the site's existing vocabulary. Keep the useful ones and remove the rest. Because suggestions come from the existing list, tags stay consistent instead of filling with near-duplicates.
+
+<figure><img src="../../.gitbook/assets/learn-18-suggest-tags.png" alt="A blog post edit form with the Tags field holding Multilingual, Global Audience, Varbase and Drupal, and the Suggest tags (AI) button marked below it"><figcaption><p>Suggest Tags Under the Tags Field</p></figcaption></figure>
+
 ## Suggesting Alt Text for Images
 
 When you add an image, click **Generate with AI** next to **Alternative text**. Varbase describes the image in the language of the content. Check the suggestion: the AI does not know why you chose the image. See [Image](../media-management/uploading-media-files/image.md).

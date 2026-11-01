@@ -1,10 +1,8 @@
-# Media
+# Media Management
 
 Images, videos, documents and audio on a Varbase site live in one shared **Media Library**. Each file or link is a media item: you add it once, then reuse it on any page. A change to the item, such as better alt text or a new file, shows everywhere it is used. This page also covers the habits that keep a library healthy for years.
 
-{% embed url="https://youtu.be/DjaKFFxInlk" %}
-Lesson 7: Media (Video)
-{% endembed %}
+Watch the lesson: [Media](../varbase-content-designers-course/lesson-07-media.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## Why It Matters
 
@@ -115,11 +113,3 @@ The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** role
    - [Image](uploading-media-files/image.md)
    - [Remote Video](uploading-media-files/remote-video.md)
    - [Video](uploading-media-files/video.md)
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. Why should content point to media items instead of holding its own copies of images?
-2. What does the focal point do, and when does it matter most?
-3. What should you check before deleting an image from the library?
-{% endhint %}

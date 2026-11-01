@@ -1,47 +1,31 @@
 # Content Designers
 
-This section is the Varbase learning pack for the people who plan, sell and run Varbase 11 sites: project managers, product owners, content designers and editors. It follows the 20-lesson course one to one. Each lesson theme explains what a feature is, why it matters, how to use it step by step on a real Varbase Starter site, and ends with a **Check Yourself** box.
+This guide is for the people who plan and run a Varbase 11 site day to day: content editors, content and site administrators, SEO and marketing staff, project managers and product owners. It covers the editorial features that come with Varbase, from writing a blog post to building a landing page and keeping the site findable, accessible and secure. Each section explains what a feature is, why it matters, and how to use it step by step, with screenshots from a Varbase Starter site.
 
-{% embed url="https://www.youtube.com/playlist?list=PLRf-g9-Bc-LI" %}
-Varbase: Content Designers (Video Playlist)
-{% endembed %}
+## What You Will Find Here
 
-## How Each Page Works
+- **[Varbase in the Drupal World](varbase-in-the-drupal-world/)** and **[How Varbase Is Built](how-varbase-is-built/)**: Drupal, Drupal CMS and Varbase, versions, recipes and site templates.
+- **[Accessing the Administration Area](accessing-the-administration-area/)**: logging in, the **Navigation** sidebar, the **Dashboard** and **Coffee**.
+- **[Content Structure](content-structure/)**: content types, fields, taxonomies and EntityQueues.
+- **[Content Management](content-management/)**: creating, editing, previewing and deleting content, and the rich-text editor.
+- **[Content Workflow](content-workflow/)**: publishing states, review, revisions, scheduling, bulk edit and the **Trash**.
+- **[Media Management](media-management/)**: images, videos, documents and audio in the **Media Library**.
+- **[Building Pages With Drupal Canvas](building-pages-with-drupal-canvas/)**: pages from components and patterns, the component catalog, templates, publishing and translating pages.
+- **[The Design System](the-design-system/)**: **Vartheme BS5**, variants and **Storybook**.
+- **[URL Management](url-management/)**: menus, URL aliases, redirects and broken links.
+- **[Search Engine Optimization](search-engine-optimization/)**: meta tags, the sitemap, **SEO analysis** and files for AI tools.
+- **[Content Translation](content-translation/)**: translating content, right-to-left languages and the language switcher.
+- **[User Management](user-management/)**: accounts, the default roles and permissions.
+- **[Security and Privacy](security-and-privacy/)**: built-in protections and **Cookie Consent**.
+- **[Accessibility](accessibility-checks.md)**: the **Editoria11y** checker and editorial habits.
+- **[Search, Forms and Email](search-forms-and-email/)**: site search, **Webforms** and email templates.
+- **[AI in Varbase](ai-in-varbase/)**: AI tools in the editor, guardrails, agents, answers and automation.
+- **[Planning a Varbase Project](from-client-needs-to-a-varbase-plan/)**: from client needs to a scoped plan and a launch checklist.
+- **[Site Configuration](site-configuration/)** and **[Additional Tips](additional-tips/)**: system and interface settings, uploading standards and a glossary.
 
-- **What it is**: the feature in plain words.
-- **Why it matters**: the outcome it buys a client or a team.
-- **Scenarios**: tested step-by-step paths, as the course shows them on the studio site.
-- **Questions clients ask** and **Planning notes**: honest answers and where effort really goes. Estimates are labelled as assumptions.
-- **Check yourself**: the questions from the end of each lesson.
+## Video Course
 
-The screenshots come from one demo site built for the course with **Varbase Starter**: English, Arabic and French content, the default roles, and the optional AI recipes applied. Your site may show fewer items if it does not use those recipes.
-
-## The Course
-
-| # | Lesson | Pages |
-| --- | --- | --- |
-| 1 | Varbase in the Drupal world | [Varbase in the Drupal World](varbase-in-the-drupal-world/) |
-| 2 | How Varbase is built | [How Varbase Is Built](how-varbase-is-built/) |
-| 3 | Finding your way | [Finding Your Way in the Admin Area](accessing-the-administration-area/) |
-| 4 | The content model | [The Content Model](content-structure/) |
-| 5 | Creating content | [Creating Content](content-management/) |
-| 6 | Editorial workflow | [Editorial Workflow](content-workflow/) |
-| 7 | Media | [Media](media-management/) |
-| 8 | Pages with Drupal Canvas, part 1 | [Building Pages With Drupal Canvas](building-pages-with-drupal-canvas/) |
-| 9 | Drupal Canvas, part 2 | Templates, Page Types and Consistency |
-| 10 | The design system | The Design System |
-| 11 | Navigation and web addresses | [Navigation and Web Addresses](url-management/) |
-| 12 | Search engines and AI readiness | [Search Engines and AI Readiness](search-engine-optimization/) |
-| 13 | Multilingual and right to left | [Multilingual and Right to Left](content-translation/) |
-| 14 | Users, roles, personas and permissions | [Users, Roles, Personas and Permissions](user-management/) |
-| 15 | Security and privacy | Security and Privacy |
-| 16 | Accessibility | [Accessibility](accessibility-checks.md) |
-| 17 | Search, forms and email | Search, Forms and Email |
-| 18 | AI in Varbase, part 1 | AI in Varbase |
-| 19 | AI in Varbase, part 2 | AI Agents, Answers and Automation |
-| 20 | From client needs to a Varbase plan | From Client Needs to a Varbase Plan |
-
-Reference pages follow the lessons: [Site Configuration](site-configuration/) and [Additional Tips](additional-tips/), with content uploading standards and a glossary.
+A free video course walks through these topics on a demo site, one lesson at a time. See [Varbase: Content Designers Course](varbase-content-designers-course/).
 
 ## Varbase 11 Highlights for Editors
 

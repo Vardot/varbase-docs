@@ -2,9 +2,7 @@
 
 Two ideas shape every Varbase project: **recipes** and **site templates**. This page explains both without code, so you can look at a client's needs and say which template and which recipes give the best starting point.
 
-{% embed url="https://youtu.be/Mijc0B8D-hY" %}
-Lesson 2: How Varbase Is Built (Video)
-{% endembed %}
+Watch the lesson: [How Varbase Is Built](../varbase-content-designers-course/lesson-02-how-varbase-is-built.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## What It Is
 
@@ -88,11 +86,3 @@ Recipes start features; they do not finish projects. They do not write the clien
 - Decide at kick-off which optional recipes are in scope. Each is a line item.
 - Demo content helps in the early weeks; removing or replacing it before launch is a task with an owner.
 - Custom features should become a project recipe, so they install the same way on every environment.
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. What happens to a site's settings if a recipe is updated after it was applied?
-2. Which site template would you show first to a university, and which content type does it add?
-3. What is one thing a recipe will never do for a client?
-{% endhint %}

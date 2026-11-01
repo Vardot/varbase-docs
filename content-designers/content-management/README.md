@@ -1,10 +1,8 @@
-# Creating Content
+# Content Management
 
 This is where editors spend their day. Varbase keeps the content form short, puts publishing controls in a sidebar, and uses **CKEditor 5** for rich text. This page follows a blog post from first idea to saved draft, and collects the habits that keep a client's content clean, accessible and consistent.
 
-{% embed url="https://youtu.be/MpL5cLAIiyc" %}
-Lesson 5: Creating Content (Video)
-{% endembed %}
+Watch the lesson: [Creating Content](../varbase-content-designers-course/lesson-05-creating-content.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## What It Is
 
@@ -109,11 +107,3 @@ Every time you save a content item, Varbase keeps the previous version as a revi
 - [Preview Content](preview-content.md)
 - [Bulk Edit Content](../content-workflow/bulk-edit-content.md)
 - [Publish Content](../content-workflow/publish-content.md)
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. Why should the first heading inside a post be a heading two?
-2. What happens to the live page when an editor saves a change to a published post as a draft?
-3. Why is linking to a page by its title better than pasting its address?
-{% endhint %}
