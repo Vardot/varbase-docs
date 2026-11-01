@@ -19,7 +19,7 @@ The tabs above the listing open **Pages** (Drupal Canvas pages), **Media** and *
 
 ## Tabs on Each Item
 
-Each content item has its own tabs: **View**, **Edit**, **Revisions**, **Translate**, **Duplicate** and, with the AI recipes, **AI Review**. When you visit the item on the site while logged in, its main tabs appear above it too, so you can fix a typo the moment you see it.
+Each content item has its own tabs: **View**, **Edit**, **Revisions**, **Translate**, **Duplicate** and, with the AI recipes, **AI Review**. When you visit the item on the site while logged in, the bar at the top of the page has an **Edit** button and a menu with **Delete**, **Revisions**, **Translate** and **AI Review**, so you can fix a typo the moment you see it.
 
 ## Tips
 
