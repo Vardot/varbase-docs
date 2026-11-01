@@ -8,7 +8,7 @@ Watch the lesson: [Creating Content](../varbase-content-designers-course/lesson-
 
 - **The content form**: fields on the left (language, title, featured image, description, content, categories, tags, SEO fields) and a sidebar on the right (revision log, **Save as**, scheduling, sitemap, URL alias, authoring and promotion options).
 - **The rich-text editor**: headings, styles, lists, links that find pages by title, tables, images and video from the media library, writing direction, find and replace, and the **AI Assistant**. Pasted text from Word or Google Docs is cleaned automatically. See [Rich-Text Editor "WYSIWYG"](create-content/rich-text-editor-wysiwyg.md).
-- **Save as**: the workflow state of this version. Start new content as a **Draft**. See [Editorial Workflow](../content-workflow/).
+- **Save as**: the workflow state of this version. Start new content as a **Draft**. See [Content Workflow](../content-workflow/).
 - **Safety nets**: autosave keeps a backup of the form about every minute, and **content locking** stops two people editing the same item.
 - **Preview**: utility pages have a **Preview** button; blog posts do not, because their layout comes from a Drupal Canvas content template, so the saved draft is the preview. See [Preview Content](preview-content.md).
 
@@ -47,33 +47,11 @@ Your site may have more content types, added by your development team or a site 
 - **Open** an item by clicking its title, or use **Edit** in the **Operations** column.
 - **Act on several items** at once with the checkboxes. See [Bulk Edit Content](../content-workflow/bulk-edit-content.md).
 
-## Scenario: Write a Blog Post From Start to Draft
+## Common Tasks
 
-1. In the sidebar, click **Create** \ _**Blog post**_ (or **Add content** on the dashboard or the content list).
-2. Check the **Language**, then write the **Title**: clear and specific, still meaningful alone in a list of search results. It also becomes the page heading and, by default, the web address.
-3. Under **Featured image**, click **Add media** and pick an existing image from the library, or upload one. A reused image already has its alt text and focal point.
-4. Write the **Description**: one or two sentences for someone scanning a list of cards.
-5. Write the **Content**. Start sub-sections with **Heading 2**, then **Heading 3**, without skipping levels. Make link text describe where it leads. Use **Insert Media** for images and videos.
-6. Pick **Categories** and **Tags**. Search for an existing tag before typing a new one.
-7. Leave the SEO fields empty unless you need them: Varbase uses sensible defaults. See [Search Engines and AI Readiness](../search-engine-optimization/).
-8. Write a one-line **Revision log message**, such as "First draft for the launch campaign".
-9. Set **Save as** to **Draft** and click **Save**. Read the message at the top. The post now appears in **My Drafts** on the dashboard.
-
-<figure><img src="../../.gitbook/assets/learn-05-post-on-the-site.png" alt="A published blog post on the site with breadcrumbs, the title Multilingual Websites Made Easy With Varbase, the date and the featured image"><figcaption><p>The Post as Visitors See It</p></figcaption></figure>
-
-## Scenario: Update a Live Post Safely
-
-1. Open the published post and click **Edit**. The post is locked for others while you work; **Unlock** releases it.
-2. Make the change, add a revision log message, and set **Change to** to **Draft** (or **In review**).
-3. Click **Save**. Visitors keep seeing the published version until the draft is published.
-
-<figure><img src="../../.gitbook/assets/learn-05-edit-published-post.png" alt="Editing a published blog post, with headings in the rich-text editor, Current state Published and Change to Published in the sidebar, and the Unlock and Delete buttons at the top"><figcaption><p>Editing a Published Post: Content on the Left, State and Options on the Right</p></figcaption></figure>
-
-## After Publishing
-
-A published post also appears on the blog listing, the latest updates on the home page, related content and search. Search updates when the site's scheduled tasks run, so a new post may take a few minutes to appear there. For an important post, tour those places and check it on a phone.
-
-To show a draft to someone who never logs in, such as a director, an editor with the permission can create a temporary secret link that works without an account until it expires. Agree with the client who may create these links.
+- [Write a Blog Post](write-a-blog-post.md): from an empty form to a saved draft.
+- [Update a Live Post Safely](update-a-live-post-safely.md): change a published post without visitors seeing the work in progress.
+- [Share a Draft With a Temporary Link](share-a-draft-with-a-temporary-link.md): let someone without an account read a draft.
 
 ## Revisions
 
@@ -90,12 +68,11 @@ Every time you save a content item, Varbase keeps the previous version as a revi
 ## Questions Clients Ask
 
 - **Can we get track changes and comments like in Word?** **CKEditor 5** premium features (track changes, comments, revision history) are supported when licensed. The licence is a client cost.
-- **Can editors paste from Word?** Yes. The editor keeps headings, lists and links and drops hidden styling. Check headings and links after pasting.
 
 ## Planning Notes
 
 - Agree text formats per role: advanced tools such as **Source** for experienced editors only.
-- Decide whether editors may publish. If every post needs a reviewer, remove the publish transition from the **Content editor** role (see [Editorial Workflow](../content-workflow/)).
+- Decide whether editors may publish. If every post needs a reviewer, remove the publish transition from the **Content editor** role (see [Content Workflow](../content-workflow/)).
 - Write a one-page content standards sheet for the client. [Content Uploading Standards](../additional-tips/content-uploading-standards.md) is a good base.
 
 ## In This Section
@@ -105,5 +82,8 @@ Every time you save a content item, Varbase keeps the previous version as a revi
 - [Modify Content](modify-content.md)
 - [Delete Content](delete-content.md)
 - [Preview Content](preview-content.md)
+- [Write a Blog Post](write-a-blog-post.md)
+- [Update a Live Post Safely](update-a-live-post-safely.md)
+- [Share a Draft With a Temporary Link](share-a-draft-with-a-temporary-link.md)
 - [Bulk Edit Content](../content-workflow/bulk-edit-content.md)
 - [Publish Content](../content-workflow/publish-content.md)
