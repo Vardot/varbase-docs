@@ -40,6 +40,18 @@ The site's main language has no prefix in the address. Each other language adds 
 
 The list of languages is at **Configuration** \ **Region and language** \ _**Languages**_ (`/admin/config/regional/language`). Adding a language is a **Super Admin** task. Multilingual support comes from the **Varbase Internationalization Base** recipe; see [Varbase Internationalization Base](../../developers/understanding-varbase/varbase-recipes/varbase-i18n-base.md).
 
+### How the Site Chooses a Language
+
+On a new multilingual Varbase site, the address alone decides the language: `/ar` means Arabic. Other rules can be added under **Configuration** \ **Region and language** \ **Languages** \ _**Detection and selection**_ (`/admin/config/regional/language/detection`), such as the visitor's browser language or the language set in their account. The address rule is the most predictable; keep it unless there is a strong reason.
+
+One rule helps multilingual teams: **Account administration pages** lets each person choose the language of the admin screens on their profile, apart from the language of the content they edit. An Arabic-speaking editor then works with Arabic menus and buttons while editing English content. It is off by default; switching it on is a **Super Admin** task.
+
+### Adding a Language Later
+
+Languages do not all have to arrive at launch. When a language is added, the interface translations for common languages download by themselves; content, pages, menus and settings then need translating. Add the language on a staging site, translate there, and publish when the main pages are ready.
+
+The community interface translations keep improving. **Reports** \ _**Available translation updates**_ (`/admin/reports/translations`) shows whether newer ones exist for each language. Updating them is a routine step for the development team, done with other updates.
+
 ## Scenario: Translate a Blog Post
 
 1. Open the post and click its **Translate** tab. Each language is listed with its status.
@@ -80,7 +92,7 @@ The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** role
 - Estimate by arithmetic: words of content, interface and configuration, times languages, plus review. AI drafts cut translation time, not review time. Remember the ongoing cost of every new post.
 - Give every translator a glossary of the organisation's key terms in each language.
 - Consider a translator role that can translate but not create or publish.
-- Test each template and page in each language, moving between languages, search, forms and emails, with native speakers.
+- Test each template and page in each language, the header and footer in each language (menu links are translated as menu items, other words through Drupal Canvas translation), moving between languages, search, forms and emails, with native speakers.
 
 ## In This Section
 

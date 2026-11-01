@@ -24,6 +24,8 @@ Varbase recipes come in five groups:
 | **Optional** | Internationalization (languages), API, authentication (sign-in with outside accounts), AI recipes | Only when needed |
 | **Demo content** | Sample pages, posts, images and menus | Removed or replaced before launch |
 
+Two foundation recipes answer questions clients always ask. The **performance** recipe turns on page caching and image optimisation, so pages load quickly and images arrive at sensible sizes. The **security** recipe sets a password policy, spam protection for forms, limits on failed logins and security headers. Both are on from the first day, not added at the end of the project. See [Security and Privacy](../security-and-privacy/).
+
 Not every recipe has Varbase in its name: the **Drupal CMS** recipes provide the admin interface, anti-spam, forms, media, privacy, search engine basics and accessibility tools, and Varbase adds its layer on top.
 
 <figure><img src="../../.gitbook/assets/learn-02-roles-from-the-users-recipe.png" alt="The Roles page listing Anonymous user, Authenticated user, Content editor, Content Admin, SEO Admin, Site Admin, MCP agent and Super Admin"><figcaption><p>Editorial Roles Created by the Users Recipe</p></figcaption></figure>
@@ -38,6 +40,8 @@ A **site template** is a recipe that composes a whole site: the base recipes, a 
 | **Educare** | Schools, universities, academies, e-learning | A **Program** content type (study level, program type); programs, admissions, research, student life pages |
 | **Horizon Aid** | Nonprofits, charities, foundations, humanitarian organisations | **Country** and **Program** content types; impact, programs, resources, donate pages; listings that update themselves |
 | **The Rightup** | Newsrooms, publishers, magazines | News and podcasts, a live feed ticker curated from a queue, search with filters, section landing pages |
+
+A template also brings **patterns**, which editors use every day to build pages. **Varbase Starter**'s patterns come from its own demo pages: a hero slider, a page intro banner, feature cards, counters, a question and answer accordion, call to action sections and a contact section. Each sector template brings patterns in its own style. See [Patterns](../building-pages-with-drupal-canvas/patterns.md).
 
 All four share the same foundation, so the workflow, roles, security, media, SEO tools and accessibility checks work the same way. An editor trained on one template finds their way around another in minutes. See [Site Templates](../../developers/understanding-varbase/site-templates/) for demos and release lines.
 

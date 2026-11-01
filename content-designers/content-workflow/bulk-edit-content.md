@@ -30,6 +30,10 @@ The list shows only the actions your role can use.
 **Publish content** and **Unpublish content** do not change blog posts or utility pages, because those use the content workflow. Varbase skips them and shows a warning. To publish or unpublish, open each item and change its state, or see [Publish Content](publish-content.md).
 {% endhint %}
 
+## Changing a Field on Many Items
+
+Varbase ships a bulk edit tool that changes one field on many items at once, for example adding the same tag to twenty posts. On a new Varbase 11 site it is not yet an action on the content list, so adding it is a small configuration task for the development team. Plan it for a content clean-up or a migration, keep it for experienced editors, and try a large change on a test copy first.
+
 ## Tips
 
 - Filter first, then tick: it is easy to select the wrong item in a long list.

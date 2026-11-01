@@ -47,6 +47,8 @@ A **Super Admin** also sees the **AI Dashboard** (`/admin/dashboard/ai_dashboard
 
 A **Super Admin** can add, remove and arrange the panels at **Structure** \ **Dashboard** (`/admin/structure/dashboard`), and choose which roles see each dashboard. Each role gets the first dashboard in that list that it is allowed to see.
 
+The **Top tasks** panel is a menu called **Top tasks**. Anyone who can manage menus can replace its links with the jobs their own team does most often, under **Structure** \ _**Menus**_. See [Menu Management](../../url-management/menu-management/).
+
 ## Tips
 
 - Use **My Drafts** each morning to see what you left unfinished.

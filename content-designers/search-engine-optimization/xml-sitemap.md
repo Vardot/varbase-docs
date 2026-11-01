@@ -11,8 +11,6 @@ On a new Varbase site the sitemap includes:
 
 It is rebuilt automatically when the site's scheduled tasks (cron) run, so a new post appears in it soon after you publish it. Open `/sitemap.xml` to see it.
 
-<!-- <figure><img src="../../.gitbook/assets/seo-sitemap-01-sitemap.png" alt="The XML sitemap of the site opened in the browser, listing blog post addresses with their language versions"><figcaption><p>The XML Sitemap</p></figcaption></figure> -->
-
 {% hint style="warning" %}
 Drupal Canvas pages are not in the sitemap on a new Varbase site. Ask your **SEO Admin** to add **Pages** under **Inclusion** if your landing pages should be listed.
 {% endhint %}
@@ -32,6 +30,10 @@ An **SEO Admin** manages it at **Configuration** \ **Search and metadata** \ _**
 - **Inclusion**: which kinds of content are listed, with their priority and change frequency.
 - **Custom links**: extra addresses to list.
 - **Rebuild queue & generate**: rebuild the sitemap now instead of waiting for cron.
+
+The **Sitemaps** tab shows each sitemap with its status and **Link count**. Use the count as a quick check: with three languages, every blog post or utility page adds three links.
+
+<figure><img src="../../.gitbook/assets/learn-12-sitemap-status.png" alt="The Sitemaps tab of Simple XML Sitemap with the Rebuild queue and Rebuild queue and generate buttons, a full progress bar, and the Default hreflang sitemap published with a link count of 39"><figcaption><p>The Sitemap Status and Link Count</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/seo-sitemap-02-inclusion.png" alt="The Inclusion tab of Simple XML Sitemap listing Content with Blog post and Utility page indexed"><figcaption><p>Choosing What the Sitemap Lists</p></figcaption></figure>
 

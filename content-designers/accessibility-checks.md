@@ -53,6 +53,20 @@ A **Super Admin** can see every issue found across the site at **Reports** \ **C
 
 <figure><img src="../.gitbook/assets/learn-16-content-accessibility-report.png" alt="The Content Accessibility Issues report with Top issues, Pages with the most issues (Contact Us and About Varbase) and Recent issues"><figcaption><p>The Content Accessibility Issues Report</p></figcaption></figure>
 
+The report's results can be exported as spreadsheets (a summary, the issues, and the dismissals), which is a simple way to report progress to the client's accessibility lead.
+
+## What the Checker Looks For
+
+The checker runs a set of tests on every page an editor views, including:
+
+- images without alt text, or with alt text that is meaningless or just a file name;
+- empty headings and empty links, and skipped heading levels;
+- link text that is only a web address, and links that open a new window;
+- tables without headers;
+- embedded video or audio that may need captions or a transcript.
+
+On a new Varbase site every test is on. A **Super Admin** can switch off a test that does not apply, under **Configuration** \ **Content authoring** \ _**Editoria11y**_ (`/admin/config/content/editoria11y`). Do it rarely, and record why.
+
 ## What a Checker Cannot Do
 
 A checker can tell that an image has alt text, not whether it is accurate. It cannot judge reading order, clear instructions, or whether a video's captions are right. Automated checks find a share of issues; plan manual tests and, for regulated clients, an independent audit.
@@ -77,6 +91,8 @@ The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** role
 ## Questions Clients Ask
 
 - **Do accessible sites have to look plain?** No. Good design and accessibility work together.
+- **Does it only help a few people?** No. It helps people who use screen readers, keyboards, zoom or captions, people reading in a second language, and everyone on a phone in bright sun.
+- **Is it a one-time task?** No. Every new page and every new component can add or remove barriers, so checks continue after launch.
 - **Is the site accessible once it passes the checker?** No. The checker covers common content problems; plan keyboard, zoom and screen reader tests too.
 
 ## Planning Notes

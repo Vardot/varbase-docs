@@ -29,6 +29,8 @@ The form lists every link in order, with sub-items indented under their parent.
 - **Parent link**: a link can sit under another to make a drop-down.
 - **Weight**: the order among links at the same level. Dragging sets it for you.
 - **Enabled**: an unticked link stays in the menu but is hidden from visitors.
+- **Hidden by itself**: a link to a page a visitor may not see, such as an unpublished draft, is hidden from that visitor. Before launch, check that every link leads to a published page.
+- **Translations**: on a multilingual site, each menu link title is translated from the link's **Translate** tab, so the Arabic menu reads in Arabic. A link to a page that exists in only some languages should show only in those languages.
 
 ## Who Can Manage Menus
 

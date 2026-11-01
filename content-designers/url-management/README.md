@@ -54,6 +54,15 @@ Not every entry needs a redirect: some are robots probing the site. Fix the ones
 - **Avoid redirect chains and loops**: an address that redirects to another redirect, or two that redirect to each other. Review the redirect list once a year.
 - **Custom addresses are the exception**: they do not update when the title changes.
 
+## Breadcrumbs and the Active Trail
+
+- **Breadcrumbs** show the path from the home page to the current page. Varbase builds them from the page's address, which is one more reason to plan address patterns. By default the trail does not repeat the current page's title. The settings are under **Configuration** \ **User interface** \ _**Easy breadcrumb**_ (`/admin/config/user-interface/easy-breadcrumb`), a **Super Admin** task.
+- **The active trail** is the highlighted menu item that tells visitors which section they are in. It works by itself for pages in the menu. For content that is not in the menu, such as single blog posts, **menu position rules** place it under a menu item, for example every blog post under **Blog**. A new site has no rules, so a blog post does not highlight **Blog**. A **Super Admin** adds them under **Structure** \ _**Menu position rules**_ (`/admin/structure/menu-position`); it is a small task with a big effect on how oriented visitors feel.
+
+## Search Is Navigation Too
+
+Many visitors skip the menu and go straight to search. The **Top search phrases** report shows what they look for, in their own words. If people often search for something that is buried in the menu, the menu may need to change. See [Site Search](../search-forms-and-email/site-search.md).
+
 ## Questions Clients Ask
 
 - **Can addresses be in Arabic letters?** Each translation has its own address with the language prefix (`/ar`). By default, Arabic titles become Latin letters, which are safe to share and type; addresses in the original script are a setting to agree per language.

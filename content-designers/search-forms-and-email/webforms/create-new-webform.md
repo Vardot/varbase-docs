@@ -28,14 +28,23 @@ The new form has the template's fields and emails, ready to change.
 
 <figure><img src="../../../.gitbook/assets/webforms-create-02-build.png" alt="The Build tab of a webform listing its fields with drag handles, the Add element button and the Save elements button"><figcaption><p>Building the Form</p></figcaption></figure>
 
+## Conditions and Validation
+
+- **Conditions** show or hide a field depending on an earlier answer, so visitors see only what applies to them. Open a field's settings and use its **Conditions** tab. For example, a form can ask for a company name only when the visitor says they are writing on behalf of a business.
+- **Validation** checks an answer before the form is sent, such as a valid email address, a number range or a maximum length. It is in the field's settings too.
+
+Both make forms shorter and cleaner, and both are settings, not code.
+
 ## Main Settings
 
 On the **Settings** tab you can change, among others:
 
 - **General**: open or close the form.
 - **Form**: the submit button label.
+- **Submissions**: **Submission limit settings**, such as one submission per person for a registration or a total for an event with limited places, and **Submission purge settings**, which delete old submissions after a set number of days. Agree the period with the client and state it in the privacy notice.
 - **Confirmation**: the message or page visitors see after submitting.
 - **Emails / Handlers**: who is emailed. See [Setting up Email Handlers](setting-up-email-handlers.md).
+- **Access**: who may fill in the form, for example everyone or only logged-in staff, and who may see, edit or delete its submissions. An internal request form can be limited to staff while a contact form stays open to everyone.
 
 ## Testing the Form
 
