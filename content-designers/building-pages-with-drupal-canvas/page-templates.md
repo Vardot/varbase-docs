@@ -33,5 +33,5 @@ For a full walkthrough with examples, such as adding a button to the header or a
 
 ## Tips
 
-- To change the links in the main menu or footer menus, edit the menus rather than the template. See [Menu Management](../content-structure/menu-management/).
+- To change the links in the main menu or footer menus, edit the menus rather than the template. See [Menu Management](../url-management/menu-management/).
 - Review a page template change on a few pages and at the **Mobile** size before publishing.

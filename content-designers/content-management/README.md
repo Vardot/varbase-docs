@@ -27,7 +27,7 @@ Your site may have more content types, added by your development team or a site 
 - **Filter** the list by **Title**, **Content type**, **Published status** and **Language**, then click **Filter**.
 - **Sort** by clicking a column heading, such as **Updated**.
 - **Open** an item by clicking its title, or use **Edit** in the **Operations** column.
-- **Act on several items** at once with the checkboxes. See [Bulk Edit Content](bulk-edit-content.md).
+- **Act on several items** at once with the checkboxes. See [Bulk Edit Content](../content-workflow/bulk-edit-content.md).
 
 ## Revisions
 
@@ -40,5 +40,5 @@ Every time you save a content item, Varbase keeps the previous version as a revi
 - [Modify Content](modify-content.md)
 - [Delete Content](delete-content.md)
 - [Preview Content](preview-content.md)
-- [Bulk Edit Content](bulk-edit-content.md)
-- [Publish Content](publish-content.md)
+- [Bulk Edit Content](../content-workflow/bulk-edit-content.md)
+- [Publish Content](../content-workflow/publish-content.md)

@@ -6,7 +6,7 @@ Content structure covers the tools that organise content rather than create it: 
 
 | Tool | What it does | Where to find it |
 | --- | --- | --- |
-| [Menu Management](menu-management/) | Builds the site navigation, such as the main menu and footer links. | **Structure** \ **Menus** (`/admin/structure/menu`) |
+| [Menu Management](../url-management/menu-management/) | Builds the site navigation, such as the main menu and footer links. | **Structure** \ **Menus** (`/admin/structure/menu`) |
 | [Taxonomies](taxonomies/) | Groups content with categories and tags. | **Structure** \ **Taxonomy** (`/admin/structure/taxonomy`) |
 | [EntityQueues](entityqueues/) | Keeps a list of content in an order you choose. | **Structure** \ **Entityqueues** (`/admin/structure/entityqueue`) |
 

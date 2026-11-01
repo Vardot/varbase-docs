@@ -5,19 +5,19 @@ This guide is for the people who run a Varbase 11 site day to day: content edito
 ## What You Will Find Here
 
 - **[Accessing the Administration Area](accessing-the-administration-area/)**: logging in, the **Navigation** sidebar and **Coffee**.
-- **[Dashboard](dashboard/)**: your starting page and the site reports.
+- **[Dashboard](accessing-the-administration-area/dashboard/)**: your starting page and the site reports.
 - **[Content Management](content-management/)**: creating, editing, previewing, publishing and deleting content.
 - **[Content Structure](content-structure/)**: menus, taxonomies and EntityQueues.
 - **[Content Translation](content-translation/)**: translating content and the language switcher.
 - **[Content Workflow](content-workflow/)**: the publishing states, content locking, autosave, scheduling and the **Trash**.
 - **[Building Pages With Drupal Canvas](building-pages-with-drupal-canvas/)**: building pages from components and patterns, templates, publishing and translating pages.
-- **[Webforms](webforms/)**: forms, their emails and their submissions.
+- **[Webforms](search-forms-and-email/webforms/)**: forms, their emails and their submissions.
 - **[Media Management](media-management/)**: images, videos, documents and audio.
 - **[User Management](user-management/)**: accounts and the default roles.
 - **[URL Management](url-management/)** and **[SEO Management](search-engine-optimization/)**: addresses, redirects, meta tags, the sitemap and the **SEO analysis**.
-- **[Accessibility Checks](accessibility-checks.md)** and **[Cookie Consent](cookie-consent.md)**.
+- **[Accessibility Checks](accessibility-checks.md)** and **[Cookie Consent](security-and-privacy/cookie-consent.md)**.
 - **[Site Configuration](site-configuration/)**: system, interface and web services settings.
-- **[AI Tools in the Editor](ai-tools-in-the-editor.md)**: writing help, alt text suggestions and AI review.
+- **[AI Tools in the Editor](ai-in-varbase/ai-tools-in-the-editor.md)**: writing help, alt text suggestions and AI review.
 - **[Additional Tips](additional-tips/)**: uploading standards and a glossary.
 
 ## Varbase 11 Highlights for Editors

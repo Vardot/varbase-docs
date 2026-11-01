@@ -32,7 +32,7 @@ The **Publish on** date must be in the future. Scheduled changes run when the si
 
 ## Seeing What Is Scheduled
 
-Go to **Administration** \ **Content** \ _**Scheduled Content**_ (`/admin/content/scheduled`) for the list of items with a publish or unpublish date. The **Scheduled** panel on the [Dashboard](../dashboard/) shows the same items.
+Go to **Administration** \ **Content** \ _**Scheduled Content**_ (`/admin/content/scheduled`) for the list of items with a publish or unpublish date. The **Scheduled** panel on the [Dashboard](../accessing-the-administration-area/dashboard/) shows the same items.
 
 <figure><img src="../../.gitbook/assets/workflow-scheduling-02-scheduled-list.png" alt="The Scheduled content list showing a blog post with its Publish on date and time"><figcaption><p>The Scheduled Content List</p></figcaption></figure>
 

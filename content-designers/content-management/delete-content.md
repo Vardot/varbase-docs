@@ -20,7 +20,7 @@ The item leaves the content list and the site, and appears in the **Trash**.
 2. In **Action**, choose **Delete content**.
 3. Click **Apply to selected items**, then confirm.
 
-See [Bulk Edit Content](bulk-edit-content.md).
+See [Bulk Edit Content](../content-workflow/bulk-edit-content.md).
 
 ## Restoring or Removing for Good
 
@@ -32,6 +32,6 @@ Only a **Site Admin** or **Super Admin** can delete items permanently from the t
 
 ## Tips
 
-- If an item is only out of date, **Archive / Unpublish** it instead of deleting it. It stays in the content list for later. See [Publish Content](publish-content.md).
+- If an item is only out of date, **Archive / Unpublish** it instead of deleting it. It stays in the content list for later. See [Publish Content](../content-workflow/publish-content.md).
 - Before deleting, check that no menu link or other page points to the item.
 - Pages built with **Drupal Canvas** are deleted from **Pages** in the same way.

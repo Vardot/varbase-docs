@@ -6,10 +6,6 @@ This page shows how to reorder, edit, hide and delete the links in a menu.
 Reordering the Main Menu (Video)
 {% endembed %}
 
-[![Reordering the Main Menu (Video Poster)](<../../../.gitbook/assets/cd-clip-09-reorder-menu-poster.jpg>)](<../../../.gitbook/assets/cd-clip-09-reorder-menu.mp4>)
-
-If the video does not play, open [Reordering the Main Menu (MP4)](<../../../.gitbook/assets/cd-clip-09-reorder-menu.mp4>). Captions: [cd-clip-09-reorder-menu.vtt](<../../../.gitbook/assets/cd-clip-09-reorder-menu.vtt>).
-
 ## Reordering Links
 
 1. Go to **Structure** \ **Menus** and click **Edit menu** next to the menu.

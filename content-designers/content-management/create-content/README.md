@@ -6,10 +6,6 @@ This page shows you how to add a blog post or a utility page. To add a designed 
 Creating a Blog Post (Video)
 {% endembed %}
 
-[![Creating a Blog Post (Video Poster)](<../../../.gitbook/assets/cd-clip-01-create-blog-post-poster.jpg>)](<../../../.gitbook/assets/cd-clip-01-create-blog-post.mp4>)
-
-If the video does not play, open [Creating a Blog Post (MP4)](<../../../.gitbook/assets/cd-clip-01-create-blog-post.mp4>). Captions: [cd-clip-01-create-blog-post.vtt](<../../../.gitbook/assets/cd-clip-01-create-blog-post.vtt>).
-
 ## Steps to Create Content
 
 1. In the **Navigation** sidebar, click **Create**, then choose the content type, for example **Blog post**. You can also go to `/node/add`.
@@ -30,7 +26,7 @@ If the video does not play, open [Creating a Blog Post (MP4)](<../../../.gitbook
    - **URL alias**: leave **Generate automatic URL alias** on to get an address from the title. See [URL Aliases](../../url-management/url-aliases.md).
    - **Scheduling options**: set a future publish or unpublish date. See [Scheduling Content](../../content-workflow/scheduling-content.md).
    - **Authoring information**, **Promotion options** and, for utility pages, **Menu settings**.
-5. Under **Save as**, choose **Draft**, **In review** or **Published**. See [Publish Content](../publish-content.md).
+5. Under **Save as**, choose **Draft**, **In review** or **Published**. See [Publish Content](../../content-workflow/publish-content.md).
 6. Optionally, write a **Revision log message** that says what you did.
 7. Click **Save**.
 

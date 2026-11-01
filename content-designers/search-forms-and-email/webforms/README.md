@@ -8,15 +8,15 @@ A new site has ready forms, such as **Contact**, **Business Contact** and **News
 
 Go to **Structure** \ **Webforms** (`/admin/structure/webform`) to see them.
 
-<figure><img src="../../.gitbook/assets/webforms-overview-01-list.png" alt="The Webforms list showing Contact, Business Contact and Newsletter Subscribe with their status and number of results"><figcaption><p>The Webforms List</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/webforms-overview-01-list.png" alt="The Webforms list showing Contact, Business Contact and Newsletter Subscribe with their status and number of results"><figcaption><p>The Webforms List</p></figcaption></figure>
 
 Each form has tabs: **View** (the form as visitors see it), **Test**, **Results**, **Build**, **Settings** and **Export**.
 
 ## Showing a Form on a Page
 
 - **Its own page**: every form has an address such as `/form/contact`.
-- **In a Drupal Canvas page**: add the **Webform** component from the **Library** and choose the form in its settings. See [Adding and Arranging Components](../building-pages-with-drupal-canvas/adding-and-arranging-components.md).
-- **On every page**: a **Site Admin** can add the **Webform** component to the footer of the page template, for example for a newsletter sign-up. See [Page Templates](../building-pages-with-drupal-canvas/page-templates.md).
+- **In a Drupal Canvas page**: add the **Webform** component from the **Library** and choose the form in its settings. See [Adding and Arranging Components](../../building-pages-with-drupal-canvas/adding-and-arranging-components.md).
+- **On every page**: a **Site Admin** can add the **Webform** component to the footer of the page template, for example for a newsletter sign-up. See [Page Templates](../../building-pages-with-drupal-canvas/page-templates.md).
 
 ## Reading Submissions
 
@@ -24,7 +24,7 @@ Each form has tabs: **View** (the form as visitors see it), **Test**, **Results*
 2. Click a submission to read it.
 3. Click **Download** to export all submissions, for example as a CSV file for a spreadsheet.
 
-<figure><img src="../../.gitbook/assets/webforms-overview-02-results.png" alt="The Results tab of a webform listing two demo submissions with their date and submitted values"><figcaption><p>Webform Submissions</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/webforms-overview-02-results.png" alt="The Results tab of a webform listing two demo submissions with their date and submitted values"><figcaption><p>Webform Submissions</p></figcaption></figure>
 
 ## Who Can Do What
 

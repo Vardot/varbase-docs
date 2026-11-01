@@ -18,7 +18,7 @@ Varbase shows a message with the result.
 
 | Action | What it does |
 | --- | --- |
-| **Delete content** | Moves the items to the **Trash**. See [Delete Content](delete-content.md). |
+| **Delete content** | Moves the items to the **Trash**. See [Delete Content](../content-management/delete-content.md). |
 | **Promote content to front page** / **Remove content from front page** | Sets or clears **Promoted to front page**. |
 | **Make content sticky** / **Make content unsticky** | Sets or clears **Sticky at top of lists**. |
 | **Update URL alias** | Regenerates the web address of each item from its title. See [URL Aliases](../url-management/url-aliases.md). |

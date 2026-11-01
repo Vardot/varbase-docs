@@ -9,7 +9,7 @@ Reports show what has happened on your site: errors, missing pages, failed acces
 
 You can also go to `/admin/reports`.
 
-<figure><img src="../../.gitbook/assets/admin-area-reports-01-list.png" alt="The Reports page listing Recent log messages, Top page not found errors and Top access denied errors"><figcaption><p>The Reports Page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/admin-area-reports-01-list.png" alt="The Reports page listing Recent log messages, Top page not found errors and Top access denied errors"><figcaption><p>The Reports Page</p></figcaption></figure>
 
 ## Reports for Editorial Roles
 
@@ -25,13 +25,13 @@ A list of recent events on the site, newest first: content saved or deleted, use
 2. Use **Type** and **Severity** to narrow the list, then click **Filter**.
 3. Click a message to see its details.
 
-<figure><img src="../../.gitbook/assets/admin-area-reports-02-recent-log.png" alt="The Recent log messages report with the Type and Severity filters at the top and a list of events below"><figcaption><p>Recent Log Messages</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/admin-area-reports-02-recent-log.png" alt="The Recent log messages report with the Type and Severity filters at the top and a list of events below"><figcaption><p>Recent Log Messages</p></figcaption></figure>
 
 ### Top "Page Not Found" Errors
 
 `/admin/reports/page-not-found`
 
-The addresses visitors asked for that do not exist, with how often each was requested. Use it to find old links that need a redirect. See [URL Redirects](../url-management/url-redirects.md).
+The addresses visitors asked for that do not exist, with how often each was requested. Use it to find old links that need a redirect. See [URL Redirects](../../url-management/url-redirects.md).
 
 ### Top "Access Denied" Errors
 
@@ -47,7 +47,7 @@ These reports need the **Super Admin** role:
 | --- | --- | --- |
 | **Status report** | `/admin/reports/status` | The site's health: versions, warnings and errors to fix. |
 | **Available updates** | `/admin/reports/updates` | Newer versions of the site's software, including security updates. |
-| **Content Accessibility** | `/admin/reports/editoria11y` | Accessibility problems found on pages. See [Accessibility Checks](../accessibility-checks.md). |
+| **Content Accessibility** | `/admin/reports/editoria11y` | Accessibility problems found on pages. See [Accessibility Checks](../../accessibility-checks.md). |
 
 An **SEO Admin** can also open **Metatag plugins** (`/admin/reports/metatag-plugins`), the list of meta tags the site supports.
 

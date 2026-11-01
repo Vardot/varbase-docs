@@ -10,7 +10,7 @@ The **Navigation** sidebar on the left of every administration page is how you m
 
 | Item | What it opens |
 | --- | --- |
-| **Dashboard** | Your starting page. See [Dashboard](../dashboard/). |
+| **Dashboard** | Your starting page. See [Dashboard](dashboard/). |
 | **Create** | A list of the content types you can add, such as **Blog post** and **Utility page**. |
 | **Pages** | The list of pages built with **Drupal Canvas** (`/admin/content/pages`). |
 | **CMS** | The list of all other content, such as blog posts and utility pages (`/admin/content`). |

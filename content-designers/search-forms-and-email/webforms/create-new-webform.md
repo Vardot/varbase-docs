@@ -8,7 +8,7 @@ This page shows how to create a form, from a template or from scratch, add field
 2. Find a template, for example **Contact Us**, and click **Select**.
 3. Enter the **Title** of your form, and click **Save**.
 
-<!-- <figure><img src="../../.gitbook/assets/webforms-create-01-templates.png" alt="The webform Templates tab listing Contact Us, Feedback, Registration and other templates, each with Preview and Select buttons"><figcaption><p>Choosing a Webform Template</p></figcaption></figure> -->
+<!-- <figure><img src="../../../.gitbook/assets/webforms-create-01-templates.png" alt="The webform Templates tab listing Contact Us, Feedback, Registration and other templates, each with Preview and Select buttons"><figcaption><p>Choosing a Webform Template</p></figcaption></figure> -->
 
 The new form has the template's fields and emails, ready to change.
 
@@ -26,7 +26,7 @@ The new form has the template's fields and emails, ready to change.
 4. Click **Save**.
 5. Drag the fields into order, then click **Save elements**.
 
-<figure><img src="../../.gitbook/assets/webforms-create-02-build.png" alt="The Build tab of a webform listing its fields with drag handles, the Add element button and the Save elements button"><figcaption><p>Building the Form</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/webforms-create-02-build.png" alt="The Build tab of a webform listing its fields with drag handles, the Add element button and the Save elements button"><figcaption><p>Building the Form</p></figcaption></figure>
 
 ## Main Settings
 

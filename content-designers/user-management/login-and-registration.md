@@ -11,7 +11,7 @@ This page shows how to log in, stay logged in, and reset a forgotten password, a
 
 <figure><img src="../../.gitbook/assets/users-login-01-form.png" alt="The login form with the Username or email address and Password fields, the Remember me box, the Log in button and the Forgot your password link"><figcaption><p>The Login Form</p></figcaption></figure>
 
-Varbase opens your **Dashboard**. See [Dashboard](../dashboard/).
+Varbase opens your **Dashboard**. See [Dashboard](../accessing-the-administration-area/dashboard/).
 
 ## Resetting a Forgotten Password
 

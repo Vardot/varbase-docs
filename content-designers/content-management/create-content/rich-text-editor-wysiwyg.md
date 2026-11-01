@@ -72,7 +72,7 @@ Paste as usual. Varbase removes hidden formatting from Word and similar sources,
 
 ## Using the AI Assistant
 
-Select text and click **AI** to have it written, summarised, reworded, reformatted or its spelling fixed. See [AI Tools in the Editor](../../ai-tools-in-the-editor.md).
+Select text and click **AI** to have it written, summarised, reworded, reformatted or its spelling fixed. See [AI Tools in the Editor](../../ai-in-varbase/ai-tools-in-the-editor.md).
 
 ## Tips
 

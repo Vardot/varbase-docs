@@ -27,7 +27,7 @@ A published item can have a newer draft. Visitors keep seeing the published vers
 | **Archive / Unpublish** | Published | Archived / Unpublished |
 | **Restore from archive** | Archived / Unpublished | Published |
 
-The **Change to** list in the edit form shows only the states the item can move to. For the steps, see [Publish Content](../content-management/publish-content.md).
+The **Change to** list in the edit form shows only the states the item can move to. For the steps, see [Publish Content](publish-content.md).
 
 To review or change the workflow, go to **Administration** \ **Configuration** \ **Workflow** \ _**Workflows**_ (`/admin/config/workflow/workflows`) and edit **Editorial**.
 

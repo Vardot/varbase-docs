@@ -15,7 +15,7 @@ See [Content Workflow](../content-workflow/) for the full workflow.
 
 ## Publishing a New Item
 
-1. Fill in the item. See [Create Content](create-content/).
+1. Fill in the item. See [Create Content](../content-management/create-content/).
 2. In **Save as**, choose **Published**.
 3. Click **Save**.
 
@@ -45,7 +45,7 @@ See [Content Workflow](../content-workflow/) for the full workflow.
 On a new Varbase 11.0 site the **Moderation state** filter above this list offers only **- Any -**, so you cannot filter by state yet.
 {% endhint %}
 
-The **My Drafts** panel on the [Dashboard](../dashboard/) lists your own drafts.
+The **My Drafts** panel on the [Dashboard](../accessing-the-administration-area/dashboard/) lists your own drafts.
 
 ## Publishing Later
 

@@ -9,13 +9,13 @@ Varbase asks only when a page uses a service that needs consent:
 - **Embedded content**, such as a YouTube or Vimeo video, shows a message in its place: **Load external content supplied by YouTube?** The visitor chooses **Yes (this time)** or **Always**.
 - The **My privacy settings** link in the footer opens the consent settings, where visitors see each service and can turn it on or off at any time.
 
-<!-- <figure><img src="../.gitbook/assets/cookie-consent-01-video.png" alt="An embedded YouTube video on a page replaced by the consent message Load external content supplied by YouTube with the Yes this time and Always buttons"><figcaption><p>Asking for Consent Before a Video Loads</p></figcaption></figure> -->
+<!-- <figure><img src="../../.gitbook/assets/cookie-consent-01-video.png" alt="An embedded YouTube video on a page replaced by the consent message Load external content supplied by YouTube with the Yes this time and Always buttons"><figcaption><p>Asking for Consent Before a Video Loads</p></figcaption></figure> -->
 
-<figure><img src="../.gitbook/assets/cookie-consent-02-settings.png" alt="The privacy settings dialog listing the site's services with a switch for each, and the buttons to save the choice"><figcaption><p>The Privacy Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cookie-consent-02-settings.png" alt="The privacy settings dialog listing the site's services with a switch for each, and the buttons to save the choice"><figcaption><p>The Privacy Settings</p></figcaption></figure>
 
 ## What It Means for Your Content
 
-- When you add the first YouTube or Vimeo video, Varbase turns on consent for that service by itself. See [Remote Video](media-management/uploading-media-files/remote-video.md).
+- When you add the first YouTube or Vimeo video, Varbase turns on consent for that service by itself. See [Remote Video](../media-management/uploading-media-files/remote-video.md).
 - Next to an important video, add a short text summary, so visitors who decline still get the message.
 - Do not paste embed code from other services into your content: Varbase cannot ask for consent for it. Ask your site administrator to add the service first.
 

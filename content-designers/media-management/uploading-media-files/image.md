@@ -6,10 +6,6 @@ This page shows how to add an image to the **Media Library**, write its alt text
 Uploading an Image With a Focal Point (Video)
 {% endembed %}
 
-[![Uploading an Image With a Focal Point (Video Poster)](<../../../.gitbook/assets/cd-clip-12-upload-image-poster.jpg>)](<../../../.gitbook/assets/cd-clip-12-upload-image.mp4>)
-
-If the video does not play, open [Uploading an Image With a Focal Point (MP4)](<../../../.gitbook/assets/cd-clip-12-upload-image.mp4>). Captions: [cd-clip-12-upload-image.vtt](<../../../.gitbook/assets/cd-clip-12-upload-image.vtt>).
-
 ## Formats
 
 **Image** accepts PNG, GIF, JPG, JPEG and WebP. Use **SVG Image** for SVG logos and icons.

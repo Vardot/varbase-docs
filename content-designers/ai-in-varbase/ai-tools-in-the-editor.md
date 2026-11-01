@@ -6,10 +6,6 @@ Varbase includes AI tools that help you write and check content: drafting and ed
 Writing With the AI Assistant (Video)
 {% endembed %}
 
-[![Writing With the AI Assistant (Video Poster)](<../.gitbook/assets/cd-clip-14-ai-draft-poster.jpg>)](<../.gitbook/assets/cd-clip-14-ai-draft.mp4>)
-
-If the video does not play, open [Writing With the AI Assistant (MP4)](<../.gitbook/assets/cd-clip-14-ai-draft.mp4>). Captions: [cd-clip-14-ai-draft.vtt](<../.gitbook/assets/cd-clip-14-ai-draft.vtt>).
-
 {% hint style="info" %}
 The AI tools work only after your site administrator connects an AI provider. If a button gives an error, ask them whether AI is set up on your site.
 {% endhint %}
@@ -21,9 +17,9 @@ The first time you use an AI tool, Varbase asks for your consent, because the to
 - Click **Yes (this time)** to allow it for this visit only.
 - Click **Manage privacy settings** to turn each AI service on or off for good. You can change this at any time.
 
-<figure><img src="../.gitbook/assets/ai-tools-04-privacy-prompt.png" alt="The consent prompt Transfer image and meta data to chosen AI service, shown in place of the Generate with AI button, with the Yes (this time) button highlighted"><figcaption><p>The Privacy Prompt Before an AI Tool Runs</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ai-tools-04-privacy-prompt.png" alt="The consent prompt Transfer image and meta data to chosen AI service, shown in place of the Generate with AI button, with the Yes (this time) button highlighted"><figcaption><p>The Privacy Prompt Before an AI Tool Runs</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/ai-tools-05-privacy-settings.png" alt="The privacy settings dialog with a switch for the Functional services, a switch for Live chat, a switch to toggle all services and the Save button"><figcaption><p>Managing Your Privacy Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ai-tools-05-privacy-settings.png" alt="The privacy settings dialog with a switch for the Functional services, a switch for Live chat, a switch to toggle all services and the Save button"><figcaption><p>Managing Your Privacy Settings</p></figcaption></figure>
 
 ## Writing With the AI Assistant
 
@@ -42,15 +38,15 @@ In the **Rich editor** text format, used for blog posts, the toolbar has an **AI
 
 3. Read the result in the dialog, then insert it or try again.
 
-<figure><img src="../.gitbook/assets/ai-tools-01-editor-menu.png" alt="The AI Assistant menu open in the rich-text editor toolbar, listing Generate with AI, Modify with a prompt, Reformat HTML, Fix spelling and Summarize"><figcaption><p>The AI Menu in the Editor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ai-tools-01-editor-menu.png" alt="The AI Assistant menu open in the rich-text editor toolbar, listing Generate with AI, Modify with a prompt, Reformat HTML, Fix spelling and Summarize"><figcaption><p>The AI Menu in the Editor</p></figcaption></figure>
 
-The **Content** format of utility pages has no **AI Assistant** button. For the full list and the actions that are off by default, see [Varbase AI Editor Assistant](../developers/understanding-varbase/varbase-ai-recipes/varbase-ai-editor-assistant.md).
+The **Content** format of utility pages has no **AI Assistant** button. For the full list and the actions that are off by default, see [Varbase AI Editor Assistant](../../developers/understanding-varbase/varbase-ai-recipes/varbase-ai-editor-assistant.md).
 
 ## Suggesting Alt Text for Images
 
-When you add an image, click **Generate with AI** next to **Alternative text**. Varbase describes the image in the language of the content. Check the suggestion: the AI does not know why you chose the image. See [Image](media-management/uploading-media-files/image.md).
+When you add an image, click **Generate with AI** next to **Alternative text**. Varbase describes the image in the language of the content. Check the suggestion: the AI does not know why you chose the image. See [Image](../media-management/uploading-media-files/image.md).
 
-<figure><img src="../.gitbook/assets/ai-tools-02-alt-text.png" alt="An image form with the Alternative text filled in by AI after clicking Generate with AI"><figcaption><p>Alt Text Suggested by AI</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ai-tools-02-alt-text.png" alt="An image form with the Alternative text filled in by AI after clicking Generate with AI"><figcaption><p>Alt Text Suggested by AI</p></figcaption></figure>
 
 ## Reviewing a Post Before Publishing
 
@@ -60,13 +56,13 @@ The **AI Review** tab on a blog post or utility page checks it against your site
 2. Run the review and wait for the results.
 3. Read each suggestion, and apply or dismiss it.
 
-<figure><img src="../.gitbook/assets/ai-tools-03-review.png" alt="The AI Review tab of a blog post with the Editorial review results and a list of suggestions"><figcaption><p>An AI Review of a Blog Post</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ai-tools-03-review.png" alt="The AI Review tab of a blog post with the Editorial review results and a list of suggestions"><figcaption><p>An AI Review of a Blog Post</p></figcaption></figure>
 
 The **AI Review** column on the **CMS** list shows the latest result of each item.
 
 ## Building Pages With the Canvas AI Agent
 
-The Drupal Canvas editor can also draft a page from a short request. On a new site this is limited to the **Super Admin**. See [Building Pages With the Drupal Canvas AI Agent](../developers/theme-development-with-varbase/drupal-canvas/building-pages-with-the-drupal-canvas-ai-agent.md).
+The Drupal Canvas editor can also draft a page from a short request. On a new site this is limited to the **Super Admin**. See [Building Pages With the Drupal Canvas AI Agent](../../developers/theme-development-with-varbase/drupal-canvas/building-pages-with-the-drupal-canvas-ai-agent.md).
 
 ## Who Can Use the Tools
 
