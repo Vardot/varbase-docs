@@ -41,7 +41,7 @@ On the **Settings** tab you can change, among others:
 
 - **General**: open or close the form.
 - **Form**: the submit button label.
-- **Submissions**: limits, such as one submission per person for a registration or a total for an event with limited places, and **Submission purging**, which deletes old submissions after a set number of days. Agree the period with the client and state it in the privacy notice.
+- **Submissions**: **Submission limit settings**, such as one submission per person for a registration or a total for an event with limited places, and **Submission purge settings**, which delete old submissions after a set number of days. Agree the period with the client and state it in the privacy notice.
 - **Confirmation**: the message or page visitors see after submitting.
 - **Emails / Handlers**: who is emailed. See [Setting up Email Handlers](setting-up-email-handlers.md).
 - **Access**: who may fill in the form, for example everyone or only logged-in staff, and who may see, edit or delete its submissions. An internal request form can be limited to staff while a contact form stays open to everyone.
