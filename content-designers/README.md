@@ -17,7 +17,7 @@ This guide is for the people who plan and run a Varbase 11 site day to day: cont
 - **[Content Translation](content-translation/)**: translating content, right-to-left languages and the language switcher.
 - **[User Management](user-management/)**: accounts, the default roles and permissions.
 - **[Security and Privacy](security-and-privacy/)**: built-in protections and **Cookie Consent**.
-- **[Accessibility](accessibility-checks.md)**: the **Editoria11y** checker and editorial habits.
+- **[Accessibility](accessibility-checks/README.md)**: the **Editoria11y** checker and editorial habits.
 - **[Search, Forms and Email](search-forms-and-email/)**: site search, **Webforms** and email templates.
 - **[AI in Varbase](ai-in-varbase/)**: AI tools in the editor, guardrails, agents, answers and automation.
 - **[Planning a Varbase Project](from-client-needs-to-a-varbase-plan/)**: from client needs to a scoped plan and a launch checklist.

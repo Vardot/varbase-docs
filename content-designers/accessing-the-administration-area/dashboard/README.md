@@ -29,7 +29,7 @@ Varbase ships one dashboard for editors, **Welcome to your site**. Every editori
 | **My Drafts** | Content you last worked on that is still in the **Draft** state. |
 | **Recent content** | The five most recently changed items, with their type, status and date. |
 | **Recent pages** | The most recently changed **Drupal Canvas** pages. |
-| **Pages with accessibility alerts** | Pages where the accessibility checker found problems. Shown to a **Super Admin**, who manages accessibility results. See [Accessibility Checks](../../accessibility-checks.md). |
+| **Pages with accessibility alerts** | Pages where the accessibility checker found problems. Shown to a **Super Admin**, who manages accessibility results. See [Accessibility](../../accessibility-checks/README.md). |
 
 ### Scheduled Content
 
