@@ -1,15 +1,12 @@
-# From Client Needs to a Varbase Plan
+# Planning a Varbase Project
 
-This page brings the learning pack together into the skill that matters most for a project manager or product owner: turning a client's needs into a clear, honest Varbase plan. It follows seven steps: discover, map, choose a starting point, demo, estimate, plan the launch, and plan life after launch.
+This page is a method for project managers and product owners for turning a client's needs into a clear, honest Varbase plan. It follows seven steps: discover, map, choose a starting point, demo, estimate, plan the launch, and plan life after launch.
 
-<!-- TODO(lesson-20-video): when the unlisted upload exists, replace the hint block below with an embed block for its https://youtu.be/ link, captioned "Lesson 20: From Client Needs to a Varbase Plan (Video)". -->
-{% hint style="info" %}
-**Lesson 20 video: coming soon.** It will appear here and in the [Varbase: Content Designers playlist](https://www.youtube.com/playlist?list=PLRf-g9-Bc-LI).
-{% endhint %}
+Watch the lesson: [From Client Needs to a Varbase Plan](../varbase-content-designers-course/lesson-20-from-client-needs-to-a-varbase-plan.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## 1. Discover
 
-Ask questions grouped by topic; each lesson gave you some:
+Ask questions grouped by topic:
 
 | Topic | Ask |
 | --- | --- |
@@ -91,7 +88,7 @@ With Varbase the site is often ready before the content. Plan content from week 
 
 ## 6. Plan the Launch
 
-Every lesson added items. A combined checklist:
+A combined checklist from the sections of this guide:
 
 - [ ] Site template chosen; optional recipes listed (AI, multilingual, sign-in, API)
 - [ ] Content model and taxonomy workshop held; vocabularies have owners

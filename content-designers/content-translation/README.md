@@ -1,11 +1,8 @@
-# Multilingual and Right to Left
+# Content Translation
 
 A multilingual Varbase site shows each page, post, menu and image in the visitor's language, and mirrors the whole layout for right-to-left languages such as Arabic. You write the content once in its original language, then add a translation for each other language. This section explains how translation works, how visitors switch languages, and how to plan a multilingual project. Full right-to-left support is one of Varbase's strongest differentiators, especially for Gulf and MENA clients.
 
-<!-- TODO(lesson-13-video): when the unlisted upload exists, replace the hint block below with an embed block for its https://youtu.be/ link, captioned "Lesson 13: Multilingual and Right to Left (Video)". -->
-{% hint style="info" %}
-**Lesson 13 video: coming soon.** It will appear here and in the [Varbase: Content Designers playlist](https://www.youtube.com/playlist?list=PLRf-g9-Bc-LI).
-{% endhint %}
+Watch the lesson: [Multilingual and Right to Left](../varbase-content-designers-course/lesson-13-multilingual-and-right-to-left.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 <figure><img src="../../.gitbook/assets/learn-13-arabic-home-page-rtl.png" alt="The Arabic home page mirrored right to left, with the logo on the right, the menu in Arabic and the hero heading and button aligned to the right"><figcaption><p>The Arabic Home Page, Mirrored Right to Left</p></figcaption></figure>
 
@@ -91,11 +88,3 @@ The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** role
 
 - [Translating Content](translating-content.md)
 - [Language Switcher](language-switcher.md)
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. What are the three kinds of translation, and which one is most often forgotten?
-2. Can the English version of a post be published while its Arabic version is still a draft?
-3. What does the Drupal Canvas translation workspace show for each page and language?
-{% endhint %}

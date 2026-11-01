@@ -1,11 +1,8 @@
-# Users, Roles, Personas and Permissions
+# User Management
 
 Everyone who works on your Varbase site has their own account, and each account has one or more roles that decide what it can do. Varbase ships roles that match real editorial jobs, so the permission plan starts mostly done. This section shows how people log in, how accounts are added, changed and removed, what each role allows, and how to plan access with a client.
 
-<!-- TODO(lesson-14-video): when the unlisted upload exists, replace the hint block below with an embed block for its https://youtu.be/ link, captioned "Lesson 14: Users, Roles, Personas and Permissions (Video)". -->
-{% hint style="info" %}
-**Lesson 14 video: coming soon.** It will appear here and in the [Varbase: Content Designers playlist](https://www.youtube.com/playlist?list=PLRf-g9-Bc-LI).
-{% endhint %}
+Watch the lesson: [Users, Roles, Personas and Permissions](../varbase-content-designers-course/lesson-14-users-roles-personas-and-permissions.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## What It Is
 
@@ -97,11 +94,3 @@ On a Varbase 11.0 site the Gin navigation does not show an **Unmasquerade** link
 - [Delete User](delete-user.md)
 - [Default Roles and Site Personas](default-roles-and-site-persons/)
   - [Managing Roles](default-roles-and-site-persons/managing-roles.md)
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. What should happen to an account on the day its owner leaves the organisation?
-2. Which role would you give a client's web manager, and what can it not do?
-3. How would you check what a Content editor sees, without knowing their password?
-{% endhint %}

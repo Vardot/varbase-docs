@@ -2,9 +2,7 @@
 
 A design system is a shared set of building blocks and rules for how a site looks and behaves: colours, fonts, spacing, and components such as buttons, cards and forms. On a Varbase Starter site it lives in the **Vartheme BS5** theme, and it is what keeps Drupal Canvas pages on brand. This page explains how it works, how a client's brand is applied, and how to use **Storybook** in a project.
 
-{% embed url="https://youtu.be/hWrak_fizpE" %}
-Lesson 10: The Design System (Video)
-{% endembed %}
+Watch the lesson: [The Design System](../varbase-content-designers-course/lesson-10-the-design-system.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## What It Is
 
@@ -84,11 +82,3 @@ Questions for the brand kick-off:
 - Design each key page for a phone as well as a desktop, using the theme's breakpoints. A desktop-only design is half a design.
 - After launch, check every new request against the library first, remove unused variants, and keep Storybook up to date.
 - Developers: see [Understanding Vartheme BS5](../../developers/theme-development-with-varbase/understanding-vartheme-bs5.md), [Creating Your Own Theme](../../developers/theme-development-with-varbase/creating-your-own-theme.md) and [Integration of Varbase With Storybook](../../developers/theme-development-with-varbase/integration-of-varbase-with-storybook.md).
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. Why do editors choose variants instead of colours?
-2. What is the difference in cost between using an existing component, adding a variant and creating a new component?
-3. Who uses Storybook in a project, and for what?
-{% endhint %}

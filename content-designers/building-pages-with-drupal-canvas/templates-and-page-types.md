@@ -1,10 +1,8 @@
-# Templates, Page Types and Consistency
+# Page Types and Templates
 
 Building one page is the start. This page is about consistency across hundreds of pages: the common page types most clients need, built with one repeatable method; the header and footer every page shares; and content templates, which lay out every blog post and every card without anyone building them one by one.
 
-{% embed url="https://youtu.be/4IU0lRN6NYk" %}
-Lesson 9: Drupal Canvas, Part 2 (Video)
-{% endembed %}
+Watch the lesson: [Drupal Canvas, Part 2](../varbase-content-designers-course/lesson-09-drupal-canvas-part-2.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## Why It Matters
 
@@ -97,11 +95,3 @@ Content templates need the **Administer content templates** permission, held by 
 - Label every page in the client's sitemap: built from existing patterns (editing work), listing pages (need their content type and list), or new patterns and components (design and development time).
 - List each content type and the views it needs (full page, cards, search result). Each is a template to design and test: five content types with three views each is fifteen templates. Reusing Varbase's card styles keeps that down.
 - Agree header and footer contents in discovery: logo, menu items, one main call to action, search, legal links, social channels, newsletter. Legal and communications people are involved.
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. A client wants a new link in the main menu. Is that a Canvas task, and who can do it?
-2. What happens to old blog posts when the full content template changes?
-3. When would you give a single post its own layout?
-{% endhint %}

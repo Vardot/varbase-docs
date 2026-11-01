@@ -2,10 +2,7 @@
 
 [AI in Varbase](./) covered AI help for editors and the controls around it. This page covers the larger features: answers for visitors, AI review of content, an assistant for editors, the Drupal Canvas AI agent that drafts pages, connections to outside AI assistants through MCP, and no-code automation with ECA. Most of these are early releases; position them as pilots.
 
-<!-- TODO(lesson-19-video): when the unlisted upload exists, replace the hint block below with an embed block for its https://youtu.be/ link, captioned "Lesson 19: AI in Varbase, Part 2 (Video)". -->
-{% hint style="info" %}
-**Lesson 19 video: coming soon.** It will appear here and in the [Varbase: Content Designers playlist](https://www.youtube.com/playlist?list=PLRf-g9-Bc-LI).
-{% endhint %}
+Watch the lesson: [AI in Varbase, Part 2](../varbase-content-designers-course/lesson-19-ai-in-varbase-part-2.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## Why It Matters
 
@@ -95,11 +92,3 @@ A sensible roadmap for many clients has three phases: help for editors with cont
 - AI search needs a vector database (MariaDB or Milvus) and an embeddings provider; include indexing in the content migration plan.
 - Write evaluation questions with the client and track answer quality as an acceptance criterion.
 - Assumption: a scoped AI pilot (one feature, one content area, evaluation) is 1 to 2 weeks including client review.
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. What does Ask AI do when the site has no answer to a question?
-2. What may an outside AI assistant connected through MCP never do?
-3. Name two automations a Varbase site already runs with ECA.
-{% endhint %}

@@ -2,10 +2,7 @@
 
 Varbase adds AI where it helps the people who write and publish, with the controls that keep it safe and on brand. This page covers how AI is added to a site, the help it gives editors every day, and the governance around it: providers, context, guardrails, logs and consent. [AI Agents, Answers and Automation](ai-agents-answers-and-automation.md) covers the AI that acts: agents, answers for visitors, the Canvas AI builder, MCP and automation.
 
-<!-- TODO(lesson-18-video): when the unlisted upload exists, replace the hint block below with an embed block for its https://youtu.be/ link, captioned "Lesson 18: AI in Varbase, Part 1 (Video)". -->
-{% hint style="info" %}
-**Lesson 18 video: coming soon.** It will appear here and in the [Varbase: Content Designers playlist](https://www.youtube.com/playlist?list=PLRf-g9-Bc-LI).
-{% endhint %}
+Watch the lesson: [AI in Varbase, Part 1](../varbase-content-designers-course/lesson-18-ai-in-varbase-part-1.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## Four Principles
 
@@ -17,7 +14,7 @@ Varbase adds AI where it helps the people who write and publish, with the contro
 ## What It Is
 
 - **Varbase AI Base** connects the providers and brings the editor assistant, image alt text, taxonomy tagging, AI context and safety. Other recipes add SEO, search, answers, chat, review and more. See [Varbase AI Recipes](../../developers/understanding-varbase/varbase-ai-recipes/).
-- **Providers** do the work; a site can connect several (the course's demo site uses Anthropic, OpenAI and amazee.io) and pick a default model per task: writing, describing images, searching by meaning. Keys are stored as secrets, never in content, email or tickets, and the provider account belongs to the client.
+- **Providers** do the work; a site can connect several (for example Anthropic, OpenAI and amazee.io) and pick a default model per task: writing, describing images, searching by meaning. Keys are stored as secrets, never in content, email or tickets, and the provider account belongs to the client.
 - **Editor help**: the writing assistant in the editor, **Suggest tags**, AI SEO titles and descriptions that fill only empty fields, and an automator that can fill almost any field from other fields. See [AI Tools in the Editor](ai-tools-in-the-editor.md).
 - **Image help**: alt text on request, in a house style; an image description and up to five image tags on save; a bulk alt text tool; and a safety check that refuses unsuitable uploads.
 - **AI Setup and Configuration** is its own group under **Configuration**: infrastructure (providers, models, vector databases), tools and automation, and safety and compliance.
@@ -74,11 +71,3 @@ AI models know a lot about the world and nothing about the client. The **context
 - Five questions: which provider and where may data be processed; the monthly budget; which roles use which features; who writes and owns the context; who reviews the AI's work and how often.
 - Be honest: AI saves time on routine work (tags, descriptions, first drafts); it does not replace editorial judgement, subject knowledge or legal review, and its quality depends on the context the client gives it.
 - Assumption: provider usage for editorial help is low; measure it in the pilot month.
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. Why does Varbase keep the AI provider as a setting rather than building it into each feature?
-2. What does the context control center do, and who should write its content?
-3. Name two kinds of guardrails.
-{% endhint %}

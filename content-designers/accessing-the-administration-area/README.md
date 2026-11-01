@@ -1,10 +1,8 @@
-# Finding Your Way in the Admin Area
+# Accessing the Administration Area
 
 The administration area is where you manage your Varbase site: pages, blog posts, media, menus, users and settings. This page shows you how to log in, what you see first, and the quickest ways to get around. It answers most of a new editor's questions in their first week.
 
-{% embed url="https://youtu.be/ZbGtfilou6M" %}
-Lesson 3: Finding Your Way (Video)
-{% endembed %}
+Watch the lesson: [Finding Your Way](../varbase-content-designers-course/lesson-03-finding-your-way.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## What It Is
 
@@ -88,7 +86,7 @@ See [What Each Role Sees](../user-management/default-roles-and-site-persons/what
 
 ## Scenario: A First-Week Checklist for Editors
 
-If an editor can do these five things, they are ready for the rest of the course:
+If an editor can do these five things, they are ready for daily work:
 
 1. Log in, and check which environment you are on (see [Website Environments](website-environments.md)).
 2. Find your drafts in **My Drafts** on the dashboard.
@@ -112,11 +110,3 @@ Open your user menu at the bottom of the **Navigation** sidebar and click **Log 
 - Bookmark `/user/login` for each site you manage, so you always log in to the right one. See [Website Environments](website-environments.md).
 - If a page you expect is missing from the menu, your role probably does not include it. Ask your site administrator.
 - Use **Coffee** for pages you open often; it is faster than browsing the menus.
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. Where would an editor find a draft they started yesterday?
-2. How would you check what a Content editor can see, before giving the site to a client's team?
-3. Which report tells you what visitors are searching for?
-{% endhint %}

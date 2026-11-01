@@ -1,10 +1,8 @@
-# The Content Model
+# Content Structure
 
 The content model is the client's information architecture expressed in the site: the **content types** it has, the **fields** they carry, and the **taxonomies** that organise them. It sounds technical, but it is a set of business decisions, and it shapes listings, search, templates, translation and AI. Time spent on it early is the cheapest time in a project.
 
-{% embed url="https://youtu.be/56RErvbw-Hk" %}
-Lesson 4: The Content Model (Video)
-{% endembed %}
+Watch the lesson: [The Content Model](../varbase-content-designers-course/lesson-04-the-content-model.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## What It Is
 
@@ -58,11 +56,3 @@ A simple rule: if the client will publish **many** of something, it is a content
 - If there is an old site, map each old content kind to a new content type and each old field to a new field. Content that does not fit needs a decision: reshape, move by hand, or leave behind.
 - Taxonomy terms get no automatic URL alias. If term pages matter, plan their addresses (see [Navigation and Web Addresses](../url-management/)).
 - Plan a vocabulary review before launch, especially after a migration.
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. A client publishes about two hundred events a year, and a yearly gala page with a custom design. What is each one?
-2. What is the difference between a tag and a category, and who should own each?
-3. Name two questions you would ask before adding a new field.
-{% endhint %}

@@ -2,10 +2,7 @@
 
 Clients rarely ask for security in a feature list, but they always expect it, and their IT teams ask hard questions early, especially in enterprise and government projects. Varbase answers most of them with configuration that is already on. This page walks through the layers, what is switched on by default, and what a project still has to decide.
 
-<!-- TODO(lesson-15-video): when the unlisted upload exists, replace the hint block below with an embed block for its https://youtu.be/ link, captioned "Lesson 15: Security and Privacy (Video)". -->
-{% hint style="info" %}
-**Lesson 15 video: coming soon.** It will appear here and in the [Varbase: Content Designers playlist](https://www.youtube.com/playlist?list=PLRf-g9-Bc-LI).
-{% endhint %}
+Watch the lesson: [Security and Privacy](../varbase-content-designers-course/lesson-15-security-and-privacy.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## What It Is
 
@@ -72,11 +69,3 @@ Many countries require consent before a site loads services that collect persona
 - Agree password expiry and forced resets with the client's security team; many now prefer long passwords without expiry.
 - Report security issues privately through the Drupal security process, never in a public queue.
 - Habits beat settings: apply updates promptly, review accounts quarterly, never share accounts, keep secrets out of email and tickets.
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. What happens after five failed logins from the same address?
-2. Why can a footer link to the privacy policy be hidden from visitors, and who should fix it?
-3. Which outside services need the visitor's consent before they load?
-{% endhint %}

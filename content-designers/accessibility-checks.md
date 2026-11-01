@@ -2,10 +2,7 @@
 
 Accessibility means a website that works for everyone, including people who use screen readers, keyboards, zoom or captions. It is partly theme and partly content: Varbase builds the theme, components and admin area with accessibility in mind, and checks your content as you work with **Editoria11y**, which points to each problem on the page and explains how to fix it. This page shows how to use the checker and the habits that prevent most problems.
 
-<!-- TODO(lesson-16-video): when the unlisted upload exists, replace the hint block below with an embed block for its https://youtu.be/ link, captioned "Lesson 16: Accessibility (Video)". -->
-{% hint style="info" %}
-**Lesson 16 video: coming soon.** It will appear here and in the [Varbase: Content Designers playlist](https://www.youtube.com/playlist?list=PLRf-g9-Bc-LI).
-{% endhint %}
+Watch the lesson: [Accessibility](varbase-content-designers-course/lesson-16-accessibility.md) in the [Varbase: Content Designers Course](varbase-content-designers-course/).
 
 ## Why It Matters
 
@@ -36,7 +33,7 @@ Some alerts are manual checks: the checker asks whether a link's text is meaning
 
 ## Scenario: Fix a Link That Is a Web Address
 
-On the course's demo site, the checker found a link on the **About Varbase** page whose text was a web address. A screen reader reads it letter by letter.
+On a demo site, the checker found a link on the **About Varbase** page whose text was a web address. A screen reader reads it letter by letter.
 
 1. Open the page and click the marker to read the alert.
 2. Edit the page and change the link text to words, such as "the Varbase documentation".
@@ -98,11 +95,3 @@ The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** role
 
 - Fix issues when you publish, not later: it takes a minute then and much longer in a clean-up.
 - The checker finds common problems, not all of them. Also check that the page makes sense with images off and read aloud.
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. Why is a skipped heading level a problem for screen reader users?
-2. What can an automated checker not tell you about alternative text?
-3. Where would you look to choose the topic of an editors' refresher training?
-{% endhint %}

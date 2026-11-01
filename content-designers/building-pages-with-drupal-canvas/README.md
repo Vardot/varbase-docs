@@ -2,9 +2,7 @@
 
 **Drupal Canvas** is the page builder in Varbase. You build a page by placing ready-made components, such as headings, images, cards and sliders, and editing them where they appear on the page. It is the feature to lead with when a client's marketing team will own the site. This section shows how to create pages, work in the editor, use every component, and publish your changes.
 
-{% embed url="https://youtu.be/ghvA2EXHXXw" %}
-Lesson 8: Pages With Drupal Canvas, Part 1 (Video)
-{% endembed %}
+Watch the lesson: [Pages With Drupal Canvas, Part 1](../varbase-content-designers-course/lesson-08-pages-with-drupal-canvas-part-1.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## Why It Matters
 
@@ -76,7 +74,7 @@ Finding Your Way in Drupal Canvas (Video)
 
 ## Scenario: Build a Programme Page From Patterns
 
-This is how the course builds a page about a training programme, from an empty page to published, without code.
+This builds a page about a training programme, from an empty page to published, without code.
 
 1. On the **Pages** list, click **Add Page**. In **Page data**, enter the **Title**; the **URL alias** follows it. Add a **Meta description** and an **Image** for sharing.
 2. Open **Library** \ _**Patterns**_ and insert **Page Intro Banner**. Select its heading and type your title, change the intro line, and pick an image from the media library.
@@ -145,11 +143,3 @@ A **Content editor** prepares changes and asks a **Content Admin** or **Site Adm
 - Start from a pattern rather than a blank page; it is faster and stays on brand.
 - Your work is saved as you go. Nothing is live until it is published.
 - The [Drupal Canvas guides for developers](../../developers/theme-development-with-varbase/drupal-canvas/) show more examples, such as accordions and hero sliders.
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. What is the difference between a component and a pattern?
-2. Why are editors limited to the variants the design system allows, and why is that good for a client?
-3. What does **Review changes** let an editor do before publishing?
-{% endhint %}

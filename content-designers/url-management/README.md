@@ -1,11 +1,8 @@
-# Navigation and Web Addresses
+# URL Management
 
 A site can have excellent content and still fail visitors who cannot find their way. This section covers the menus that guide people, the readable addresses (URLs) that identify each page, and the redirects that keep old links working. Varbase automates most of it, which is where launches usually go wrong.
 
-<!-- TODO(lesson-11-video): when the unlisted upload exists, replace the hint block below with an embed block for its https://youtu.be/ link, captioned "Lesson 11: Navigation and Web Addresses (Video)". -->
-{% hint style="info" %}
-**Lesson 11 video: coming soon.** It will appear here and in the [Varbase: Content Designers playlist](https://www.youtube.com/playlist?list=PLRf-g9-Bc-LI).
-{% endhint %}
+Watch the lesson: [Navigation and Web Addresses](../varbase-content-designers-course/lesson-11-navigation-and-web-addresses.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## What It Is
 
@@ -27,7 +24,7 @@ A site can have excellent content and still fail visitors who cannot find their 
 
 ## Scenario: Fix a Broken Footer Link
 
-On the course's demo site, the **Fix 404 pages** report showed `/terms-and-conditions` at the top: the footer linked to a page that did not exist.
+On a demo site, the **Fix 404 pages** report showed `/terms-and-conditions` at the top: the footer linked to a page that did not exist.
 
 1. Go to **Configuration** \ **Search and metadata** \ **URL redirects** \ _**Fix 404 pages**_ (`/admin/config/search/redirect/404`). Sort by **Count**.
 2. Confirm the problem as a visitor: follow the link and see the page not found.
@@ -89,11 +86,3 @@ The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** role
 - [Menu Management](menu-management/)
 - [URL Aliases](url-aliases.md)
 - [URL Redirects](url-redirects.md)
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. Why should a menu link point to the page itself rather than to its address?
-2. What happens to an old address when a post's title changes?
-3. What would you do first with a new client's old website addresses?
-{% endhint %}

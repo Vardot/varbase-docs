@@ -2,10 +2,7 @@
 
 Three features connect a site with its visitors: **search** helps them find content, **forms** let them speak to the organisation, and **email** carries messages both ways. Every site needs them and nobody wants to build them from scratch; Varbase ships all three ready.
 
-<!-- TODO(lesson-17-video): when the unlisted upload exists, replace the hint block below with an embed block for its https://youtu.be/ link, captioned "Lesson 17: Search, Forms and Email (Video)". -->
-{% hint style="info" %}
-**Lesson 17 video: coming soon.** It will appear here and in the [Varbase: Content Designers playlist](https://www.youtube.com/playlist?list=PLRf-g9-Bc-LI).
-{% endhint %}
+Watch the lesson: [Search, Forms and Email](../varbase-content-designers-course/lesson-17-search-forms-and-email.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## What It Is
 
@@ -36,7 +33,7 @@ Then use the form's **Test** tab, submit it on a test site, check both emails in
 <figure><img src="../../.gitbook/assets/learn-17-business-contact-build.png" alt="The Build tab of the Business Contact webform listing its elements Name, Company name, Industry, Country, Email, Phone number, Subject, Message and an agreement checkbox, with their keys, types and Required checkboxes"><figcaption><p>The Business Contact Form in the Builder</p></figcaption></figure>
 
 {% hint style="warning" %}
-On the course's demo site, the **Newsletter Subscribe** form had no email handler and no newsletter connection: sign-ups were stored, but nobody was told and no address reached a mailing list. Check every form for this before launch. An agreement checkbox that links to an unpublished privacy policy or a missing terms page is the same kind of gap.
+On a demo site, the **Newsletter Subscribe** form had no email handler and no newsletter connection: sign-ups were stored, but nobody was told and no address reached a mailing list. Check every form for this before launch. An agreement checkbox that links to an unpublished privacy policy or a missing terms page is the same kind of gap.
 {% endhint %}
 
 ## Questions Clients Ask
@@ -51,11 +48,3 @@ On the course's demo site, the **Newsletter Subscribe** form had no email handle
 - List every email the site can send, agree its wording and languages, and test each one before launch.
 - For large or multilingual search, consider Solr or AI search. Assumption: database search suits most sites under tens of thousands of items.
 - Agree retention and access for form submissions; they hold personal data.
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. A new post does not appear in search. Where do you look first?
-2. What can be missing from a newsletter form, and why does it matter?
-3. Where would you check whether a password reset email was sent?
-{% endhint %}

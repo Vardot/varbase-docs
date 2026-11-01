@@ -1,11 +1,8 @@
-# Search Engines and AI Readiness
+# Search Engine Optimization
 
 Search engine optimisation (SEO) helps people find your site in search results, and more people now also ask AI assistants, which read websites to answer questions. Varbase sets most SEO details for you, from page titles and descriptions to a sitemap and readable addresses, gives you fields and checks to improve each page, and adds the files AI tools look for. This section shows how.
 
-<!-- TODO(lesson-12-video): when the unlisted upload exists, replace the hint block below with an embed block for its https://youtu.be/ link, captioned "Lesson 12: Search Engines and AI Readiness (Video)". -->
-{% hint style="info" %}
-**Lesson 12 video: coming soon.** It will appear here and in the [Varbase: Content Designers playlist](https://www.youtube.com/playlist?list=PLRf-g9-Bc-LI).
-{% endhint %}
+Watch the lesson: [Search Engines and AI Readiness](../varbase-content-designers-course/lesson-12-search-engines-and-ai-readiness.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## Why It Matters
 
@@ -106,11 +103,3 @@ Every editorial role can fill in the SEO fields of the content it edits. The **S
 - [Meta Tags](meta-tags.md)
 - [SEO Analysis With Yoast SEO](seo-analysis-yoast.md)
 - [llms.txt and Markdown for AI Tools](llms-txt.md)
-
-{% hint style="success" %}
-**Check Yourself**
-
-1. What happens to a post's search result title if the editor leaves the SEO title empty?
-2. What small launch task did the course find in the demo site's robots file?
-3. What does adding `.md` to a post's address give an AI tool?
-{% endhint %}
