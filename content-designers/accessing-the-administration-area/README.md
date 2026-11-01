@@ -64,35 +64,9 @@ After most actions, Varbase shows a short message at the top of the page. A **st
 
 ## Finding Content Fast
 
-The content listing (**CMS** in the sidebar, `/admin/content`) has filters for **Title**, **Content type**, **Published status** and **Language**, and columns you can sort by clicking their heading. Tabs above it open **Pages** (Drupal Canvas pages), **Media** and **Trash**; below them, **Moderated content** and **Scheduled content** list what is not yet published or waiting for a date.
-
-Combine the filters: blog posts in Arabic, sorted by **Updated**, shows the translations that most need attention. Sorting by the oldest update is a simple way to plan a content review.
-
-Each content item has its own tabs: **View**, **Edit**, **Revisions**, **Translate**, **Duplicate** and, with the AI recipes, **AI Review**. The same tabs appear above the item when you visit it on the site while logged in, so you can fix a typo the moment you see it.
+The content listing (**CMS** in the sidebar, `/admin/content`) has filters, sortable columns and tabs for **Pages**, **Media** and **Trash**, and each item has tabs for its own tasks. See [Find Content Fast](find-content-fast.md).
 
 <figure><img src="../../.gitbook/assets/learn-03-create-menu.png" alt="The Create item open in the Navigation sidebar, listing Blog post and Utility page"><figcaption><p>Create Lists the Content Types You May Add</p></figcaption></figure>
-
-## Scenario: Check What a Role Sees Before Handover
-
-Log in as each role before launch and check that every person sees what they need and nothing more.
-
-1. Ask your site administrator for a one-time login link for a test account of the role, for example **Content editor**. Never share passwords.
-2. Open the link in a private window. Varbase opens the **Dashboard**.
-3. Compare the sidebar with a **Site Admin**'s. A **Content editor** has no **Tools**, **Appearance**, **Extend** or **People**, and **Configuration** holds only **URL aliases**, **URL redirects** and the taxonomy manager.
-4. Note anything a person needs but cannot reach, and agree the change with the client.
-5. Log out of the private window.
-
-See [What Each Role Sees](../user-management/default-roles-and-site-persons/what-each-role-sees.md).
-
-## Scenario: A First-Week Checklist for Editors
-
-If an editor can do these five things, they are ready for daily work:
-
-1. Log in, and check which environment you are on (see [Website Environments](website-environments.md)).
-2. Find your drafts in **My Drafts** on the dashboard.
-3. Open **Coffee** with **Alt + D** and jump to the content listing.
-4. Filter the listing to your own content type and language.
-5. Open one of your posts on the site, then edit it from its tabs.
 
 ## Getting Help Inside the Site
 
@@ -110,9 +84,16 @@ Open your user menu at the bottom of the **Navigation** sidebar and click **Log 
 ## Planning Notes
 
 - A dashboard per team (newsroom, marketing) is a small configuration task with a daily return. Collect what editors want to see during training. Assumption: about a day per extra dashboard; confirm with the developer lead.
-- Email delivery must work on each environment, or password reset links never arrive.
-- On multilingual sites, decide whether each person chooses their admin language on their profile, or the language follows the address (the default).
-- Only the **Super Admin** opens the **Status report**. Run demos of that screen as Super Admin.
+
+## In This Section
+
+- [Navigation Sidebar](navigation-sidebar.md)
+- [Dashboard](dashboard/)
+- [Coffee](coffee.md)
+- [Website Environments](website-environments.md)
+- [Find Content Fast](find-content-fast.md)
+- [Check What a Role Sees Before Handover](check-what-a-role-sees-before-handover.md)
+- [Get an Editor Ready in Their First Week](get-an-editor-ready-in-their-first-week.md)
 
 ## Tips
 
