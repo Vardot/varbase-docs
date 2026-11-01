@@ -56,7 +56,7 @@ Each action of the writing assistant sends a prepared instruction, called a prom
 
 ### How Long Logs Are Kept
 
-By default, the AI logs keep up to 1,000 requests for 90 days, under **AI Logging Settings**. The client's privacy team should agree the period, the same way they do for form submissions. **AI Observability** (`/admin/config/ai/observability`) decide which AI events are logged, whether the text sent and received is kept (off by default), and whether AI activity is also sent to the client's own monitoring tools. Both are **Super Admin** settings.
+The **Varbase AI Safety** recipe keeps AI logs for 90 days, and at most 1,000 entries, after which older ones are deleted automatically (**AI Logging Settings**). The client's privacy team should agree the period, the same way they do for form submissions. **AI Observability** (`/admin/config/ai/observability`) decide which AI events are logged, whether the text sent and received is kept (off by default), and whether AI activity is also sent to the client's own monitoring tools. Both are **Super Admin** settings.
 
 <figure><img src="../../.gitbook/assets/learn-18-ai-observability-settings.png" alt="The AI Observability Settings page with Enable logging AI events switched on, the log event types Pre-generate, Post-generate and Post-streaming response ticked, and Log input and Log output switched off"><figcaption><p>AI Observability Settings</p></figcaption></figure>
 
