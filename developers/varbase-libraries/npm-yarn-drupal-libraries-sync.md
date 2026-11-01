@@ -1,5 +1,9 @@
 # NPM/YARN with drupal-libraries-sync
 
+{% hint style="warning" %}
+**Legacy.** This workflow applies to Varbase 11.0.0 pre-releases only. Varbase 11.0.0 dropped the `drupal-libraries-sync` script from **Varbase Starter** ([#3620357](https://www.drupal.org/i/3620357)), and the libraries now come from Composer. See [Varbase Libraries](README.md).
+{% endhint %}
+
 The **drupal-libraries-sync** tool bridges the gap between NPM/Yarn package management and Drupal's library system. It copies the necessary files from `node_modules/` into Drupal's `libraries/` directory, making them available to modules and themes that expect libraries in that location.
 
 ## How It Works
