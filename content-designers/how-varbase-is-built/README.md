@@ -53,27 +53,10 @@ All four share the same foundation, so the workflow, roles, security, media, SEO
 - **Grow later**: a feature such as languages or AI is added by applying a recipe when the client is ready, not by rebuilding.
 - **Reliable estimates**: each feature starts from a known, tested setup, and teams' skills carry over between sites.
 
-## Scenario: Choose the Starting Point With a Client
+## Common Tasks
 
-1. Ask the four questions below in an early meeting.
-2. If a template matches the client's sector, show its demo early. Ask what they like, what they would change, and what is missing.
-3. Turn the answers into scope: what is kept, what is restyled, what is new.
-4. If no template matches, start from **Varbase Starter** and build the sector-specific parts on top.
-5. List the optional recipes in scope (languages, AI, sign-in, API). Each is a line item in the estimate.
-
-Questions for the client:
-
-- Which of these sites looks closest to what you have in mind: Varbase Starter, Educare, Horizon Aid or The Rightup?
-- Which kinds of content do you publish today, and are any of them news, events or podcasts?
-- Which languages do you need at launch, and which later?
-- Are you planning to use AI on the site this year, next year, or not at all?
-
-## Scenario: Find Out What an Existing Site Was Built From
-
-1. As a **Super Admin**, open **Reports** \ _**Status report**_ for the Drupal version.
-2. Open **Appearance**: the default theme usually tells you the site template (for example **Vartheme BS5** for Varbase Starter).
-3. Look at **Structure** \ _**Content types**_: News, Events or Program types show which add-on or template recipes were applied.
-4. Ask the development team for the list of applied recipes from the project files. It is the quickest way to know what the site can already do.
+- [Choose the Starting Point With a Client](choose-the-starting-point-with-a-client.md): a site template or Varbase Starter, and the recipes in scope.
+- [Find Out What an Existing Site Was Built From](find-out-what-an-existing-site-was-built-from.md): before you plan changes to a site you did not build.
 
 ## What Recipes Do Not Do
 
@@ -81,12 +64,8 @@ Recipes start features; they do not finish projects. They do not write the clien
 
 ## Questions Clients Ask
 
-- **Can we switch site template later?** Not by re-applying a template. A template is applied at installation; features are added later with individual recipes.
-- **If we remove a recipe, does the feature go away?** Recipes are not switched off. Removing a feature means a developer uninstalls the modules it brought. Plan it as a task, not a toggle.
 - **We run many sites. Can they share our standards?** Yes. A team can write its own recipe (brand settings, roles, legal pages) so every new site starts the same way. Writing it is a developer task; deciding what goes in is a product decision. See [Creating Your Own Recipe](../../developers/extending-varbase/creating-your-own-recipe.md).
 
 ## Planning Notes
 
-- Decide at kick-off which optional recipes are in scope. Each is a line item.
-- Demo content helps in the early weeks; removing or replacing it before launch is a task with an owner.
 - Custom features should become a project recipe, so they install the same way on every environment.
