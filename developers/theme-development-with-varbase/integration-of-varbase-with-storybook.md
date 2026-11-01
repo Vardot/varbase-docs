@@ -25,18 +25,18 @@ The `ddev storybook` command is a convenience wrapper. The underlying `yarn` scr
 | Command | What it does | `yarn` equivalent |
 | --- | --- | --- |
 | `ddev storybook init` | Full first-time setup (same as `ddev init-storybook`). | `ddev init-storybook` |
-| `ddev storybook enable` | Turn **on** the development local services (CORS + Twig debug) so the `storybook.*` subdomain can render stories. | — |
-| `ddev storybook disable` | Turn them **off** and keep them off across restarts. | — |
-| `ddev storybook list` | Print the Storybook URLs / domains to open. | — |
-| `ddev storybook status` | Show module / dev-services / daemon / port / CORS health. | — |
-| `ddev storybook stats` | Show how many stories are served, grouped by component group. | — |
-| `ddev storybook doctor` | Diagnose common problems and print the exact command to fix each. | — |
+| `ddev storybook enable` | Turn **on** the development local services (CORS + Twig debug) so the `storybook.*` subdomain can render stories. | None |
+| `ddev storybook disable` | Turn them **off** and keep them off across restarts. | None |
+| `ddev storybook list` | Print the Storybook URLs / domains to open. | None |
+| `ddev storybook status` | Show module / dev-services / daemon / port / CORS health. | None |
+| `ddev storybook stats` | Show how many stories are served, grouped by component group. | None |
+| `ddev storybook doctor` | Diagnose common problems and print the exact command to fix each. | None |
 | `ddev storybook gen` | Regenerate `*.stories.json` from Twig. | `ddev yarn storybook:gen` (or `storybook:gen-new`) |
 | `ddev storybook build` | Build a static Storybook into `./storybook`. | `ddev yarn storybook:build` |
-| — (manual dev server) | Run a foreground dev server on port `6006`. | `ddev yarn storybook:dev` / `ddev yarn storybook:ddev` |
-| — (free port 6006) | Kill a running Storybook process. | `ddev yarn storybook:kill` |
+| (manual dev server) | Run a foreground dev server on port `6006`. | `ddev yarn storybook:dev` / `ddev yarn storybook:ddev` |
+| (free port 6006) | Kill a running Storybook process. | `ddev yarn storybook:kill` |
 
-> **Note:** The Storybook **dev server runs automatically** as a DDEV `web_extra_daemon` (see `web_extra_daemons` in `.ddev/config.yaml`). You do **not** need to start it by hand — after `ddev storybook init` it is already serving on port `6006` and on the Storybook subdomain. All `yarn` scripts are defined in `package.json` and can also be run on the host without DDEV (`yarn storybook:build`, `yarn storybook:dev`, …).
+> **Note:** The Storybook **dev server runs automatically** as a DDEV `web_extra_daemon` (see `web_extra_daemons` in `.ddev/config.yaml`). You do **not** need to start it by hand: after `ddev storybook init` it is already serving on port `6006` and on the Storybook subdomain. All `yarn` scripts are defined in `package.json` and can also be run on the host without DDEV (`yarn storybook:build`, `yarn storybook:dev`, …).
 
 ## Initialize Storybook for DDEV
 
@@ -116,7 +116,7 @@ To check everything is healthy:
 ddev storybook status
 ```
 
-If a story fails to render (for example a CORS error in the browser console), run the doctor — it tells you exactly what to fix:
+If a story fails to render (for example a CORS error in the browser console), run the doctor, which tells you exactly what to fix:
 
 ```bash
 ddev storybook doctor
@@ -140,7 +140,7 @@ ddev storybook enable
 
 ### Starting the dev server manually
 
-You normally never need this — the daemon already runs it. To run a fresh foreground dev server (for example to watch its log), use the yarn script:
+You normally never need this: the daemon already runs it. To run a fresh foreground dev server (for example to watch its log), use the yarn script:
 
 ```bash
 ddev yarn storybook:ddev
@@ -164,8 +164,8 @@ An Express middleware that proxies Drupal static assets (CSS, JS, fonts, images)
 
 Custom fetch function for `@storybook/server` that:
 
-* Cleans up Drupal SDC params before sending — strips `undefined`/`null` values and converts bare `#` URI values to empty strings (Drupal SDC validation rejects both)
-* In development, relies on `middleware.js` to proxy assets — no rewriting needed
+* Cleans up Drupal SDC params before sending: strips `undefined`/`null` values and converts bare `#` URI values to empty strings (Drupal SDC validation rejects both)
+* In development, relies on `middleware.js` to proxy assets: no rewriting needed
 * In production (static `storybook:build` export), rewrites relative root-relative `href`/`src`/`action` attributes to absolute Drupal URLs so assets load from the live Drupal server instead of 404-ing on the static host
 
 ## When Adding or Changing Stories
@@ -252,7 +252,7 @@ Add the following to `settings.local.php` or `settings.ddev.php`:
 $settings['container_yamls'][] = $app_root . '/' . $site_path . '/development.local.services.yml';
 ```
 
-> **Note:** With DDEV, `settings.ddev.php` is regenerated on every start, which would drop this line. The `ddev storybook` command handles that for you by re-adding it from a `post-start` hook — prefer `ddev storybook enable` over editing `settings.ddev.php` by hand.
+> **Note:** With DDEV, `settings.ddev.php` is regenerated on every start, which would drop this line. The `ddev storybook` command handles that for you by re-adding it from a `post-start` hook: prefer `ddev storybook enable` over editing `settings.ddev.php` by hand.
 
 ### Install Dependencies and Start
 

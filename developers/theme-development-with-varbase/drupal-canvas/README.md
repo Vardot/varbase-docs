@@ -15,7 +15,7 @@ metaLinks:
 
 ## How It Is Set Up in Varbase
 
-- **Varbase Canvas Base** installs Drupal Canvas and **Canvas Override** (per-item layouts, off by default for every content type). A Varbase Starter site also enables Canvas page template components, the icon picker and Canvas translation; the AI recipes add the Canvas AI agent.
+- [**Varbase Canvas Base**](../../understanding-varbase/varbase-recipes/varbase-canvas-base.md) installs Drupal Canvas and **Canvas Override** (per-item layouts, off by default for every content type). A Varbase Starter site also enables Canvas page template components and the icon picker. **Varbase Internationalization Base** adds Canvas translation, and the AI recipes add the Canvas AI agent.
 - **Components** come from Vartheme BS5 as single directory components, plus eligible blocks. See [Component Reference: Vartheme BS5 in Drupal Canvas](vartheme-bs5-components-in-drupal-canvas.md).
 - **Page templates** hold the header and footer (Drupal Canvas 1.11 and later replace global regions). **Use Drupal Canvas for page templates in this theme** is on in the Vartheme BS5 settings. See [Editing the Header and Footer With Drupal Canvas](editing-the-header-and-footer-with-drupal-canvas.md).
 - **Content templates** lay out each content type's view modes, such as the blog post's full page, cards and search result.

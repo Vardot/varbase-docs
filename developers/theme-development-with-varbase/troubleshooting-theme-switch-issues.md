@@ -15,7 +15,7 @@ For each config it:
 * Replaces filesystem paths: `themes/contrib/vartheme_bs5/` → `themes/custom/mytheme/`
 * Updates theme dependencies listed in each config's `dependencies.theme` array
 
-Component definition configs that belong to the old theme itself (e.g. `canvas.component.sdc.vartheme_bs5.*`) are intentionally skipped — the new theme already has its own equivalent component definitions and renaming those would cause UUID conflicts on cache rebuild.
+Component definition configs that belong to the old theme itself (e.g. `canvas.component.sdc.vartheme_bs5.*`) are intentionally skipped: the new theme already has its own equivalent component definitions and renaming those would cause UUID conflicts on cache rebuild.
 
 ### Step 2: Replace Component IDs in Content Entity Field Data <a href="#step-2-replace-component-ids-in-content-entity-field-data" id="step-2-replace-component-ids-in-content-entity-field-data"></a>
 
@@ -31,7 +31,7 @@ The **Replace Theme Paths in Text Fields** step scans all text, long text, and t
 
 After the component IDs in config entities are updated, the stored `component_version` hashes may still reference version snapshots that only existed in the old theme's component config. The **Fix Component Versions in Configs** step loads the active version of each new-theme component and replaces any invalid stored hash with the correct active version. This prevents Canvas from rendering components with stale or missing version data.
 
-In some edge cases the automatic migration may not complete fully — for example if the theme was changed through a recipe, a Drush command, or a batch process that does not fire the standard config save event. The **Varbase Components Drush Commands** (`VarbaseComponentsCommands`) expose the same migration logic as the subscriber so it can be run manually, inspected, or re-run after a failure.
+In some edge cases the automatic migration may not complete fully: for example if the theme was changed through a recipe, a Drush command, or a batch process that does not fire the standard config save event. The **Varbase Components Drush Commands** (`VarbaseComponentsCommands`) expose the same migration logic as the subscriber so it can be run manually, inspected, or re-run after a failure.
 
 ## Scan for Remaining References to an Old Theme <a href="#scan-for-remaining-references-to-an-old-theme" id="scan-for-remaining-references-to-an-old-theme"></a>
 
