@@ -34,7 +34,7 @@ The screenshots come from one demo site built for the course with **Varbase Star
 | 12 | Search engines and AI readiness | [Search Engines and AI Readiness](search-engine-optimization/) |
 | 13 | Multilingual and right to left | [Multilingual and Right to Left](content-translation/) |
 | 14 | Users, roles, personas and permissions | [Users, Roles, Personas and Permissions](user-management/) |
-| 15 | Security and privacy | Security and Privacy |
+| 15 | Security and privacy | [Security and Privacy](security-and-privacy/) |
 | 16 | Accessibility | [Accessibility](accessibility-checks.md) |
 | 17 | Search, forms and email | Search, Forms and Email |
 | 18 | AI in Varbase, part 1 | AI in Varbase |
