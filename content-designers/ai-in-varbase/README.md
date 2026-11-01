@@ -15,6 +15,7 @@ Varbase adds AI where it helps the people who write and publish, with the contro
 - **Providers** do the work; a site can connect several (for example Anthropic, OpenAI and amazee.io) and pick a default model per task: writing, describing images, searching by meaning. Keys are stored as secrets, never in content, email or tickets, and the provider account belongs to the client.
 - **Editor help**: the writing assistant in the editor, **Suggest tags**, AI SEO titles and descriptions that fill only empty fields, and an automator that can fill almost any field from other fields. See [AI Tools in the Editor](ai-tools-in-the-editor.md).
 - **Image help**: alt text on request, in a house style; an image description and up to five image tags on save; a bulk alt text tool; and a safety check that refuses unsuitable uploads.
+- **Not applied by default**: generating images and SVG graphics in the media library (**Varbase AI Media Base**) and turning Figma designs into pages (**Varbase AI Figma**). Both are optional recipes for a client who asks.
 - **AI Setup and Configuration** is its own group under **Configuration**: infrastructure (providers, models, vector databases), tools and automation, and safety and compliance.
 
 <figure><img src="../../.gitbook/assets/learn-18-ai-dashboard.png" alt="The AI Dashboard tab of the Dashboard with the Setup section for adding a provider and a Features section for AI functionality"><figcaption><p>The AI Dashboard</p></figcaption></figure>
@@ -33,6 +34,12 @@ AI models know a lot about the world and nothing about the client. The **context
 
 <figure><img src="../../.gitbook/assets/learn-18-ai-context-items.png" alt="The Context Items list with Varbase AI Editorial Rules, Varbase AI Safety Guardrails and Varbase Brand and Identity Guidelines, each Global and Published, with their token counts"><figcaption><p>AI Context Items: Editorial Rules, Safety Guidelines and Brand Guidelines</p></figcaption></figure>
 
+Start with a few global items, and add targeted ones as needs appear: for example a house style for alt text that applies only to image tasks, or a stricter tone that applies only to press releases. Writing and changing context items is a **Super Admin** task on a new site, so agree who on the client side owns the wording.
+
+### Tuning the Assistant's Prompts
+
+Each action of the writing assistant sends a prepared instruction, called a prompt. The prompts are listed under **Configuration** \ **AI Setup and Configuration** \ _**Prompt Library**_ (`/admin/config/ai/prompts`): modify, reformat, fix spelling, summarize, change tone and translate, including the actions that are switched off in the editor. A **Super Admin** can adjust them, for example to always use British spelling or to keep summaries under fifty words. Small changes make the assistant feel made for the client.
+
 ### Scenario: Show a Client What Context Changes
 
 1. Write a brand context item with the client, adapted from their brand and style guides: voice and tone, words to use and avoid, do's and don'ts.
@@ -46,6 +53,12 @@ AI models know a lot about the world and nothing about the client. The **context
 - **Consent**: where AI processes something a person provides, such as an image or a chatbot question, the consent manager asks first. See [Cookie Consent](../security-and-privacy/cookie-consent.md).
 
 <figure><img src="../../.gitbook/assets/learn-18-ai-guardrails.png" alt="The AI Guardrails configuration listing guardrails such as Liability: Legal Advice, Liability: Medical Advice, PII: Credit Card Number, PII: Email Address, PII: IBAN, PII: Phone Number and several Security checks"><figcaption><p>AI Guardrails</p></figcaption></figure>
+
+### How Long Logs Are Kept
+
+By default, the AI logs keep up to 1,000 requests for 90 days, under **AI Logging Settings**. The client's privacy team should agree the period, the same way they do for form submissions. **AI Observability** (`/admin/config/ai/observability`) decide which AI events are logged, whether the text sent and received is kept (off by default), and whether AI activity is also sent to the client's own monitoring tools. Both are **Super Admin** settings.
+
+<figure><img src="../../.gitbook/assets/learn-18-ai-observability-settings.png" alt="The AI Observability Settings page with Enable logging AI events switched on, the log event types Pre-generate, Post-generate and Post-streaming response ticked, and Log input and Log output switched off"><figcaption><p>AI Observability Settings</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/learn-18-ai-logging.png" alt="The AI Logging page with links to AI Logs, AI Log Threads, AI Logging Settings and AI Log Types"><figcaption><p>AI Logging</p></figcaption></figure>
 
