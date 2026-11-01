@@ -29,16 +29,16 @@ Use the filters to show one language or one status.
 
 1. In **Translating into**, choose the language, for example **Arabic**.
 2. Click the page.
-3. For each component, type the translation in the right column. The original text is on the left, for reference.
-4. Your translation is saved as a draft as you type.
+3. For each component, type the translation in the right column. The original text is on the left, for reference. **Next field** jumps to the next field that still needs a translation, and the bar at the top shows how many fields are done.
+4. Your translation is saved as a draft as you type. **Show preview** shows the translated page.
 
-<!-- <figure><img src="../../.gitbook/assets/canvas-translate-02-side-by-side.png" alt="The side-by-side translation editor with the English text of each component on the left and the Arabic translation being typed on the right"><figcaption><p>Translating Side by Side</p></figcaption></figure> -->
+<figure><img src="../../.gitbook/assets/canvas-translate-02-side-by-side.png" alt="The side-by-side translation editor for the About Varbase page, English to Arabic, with the English title, heading and text on the left, their Arabic translations on the right, the field count at the top and the Review and publish button"><figcaption><p>Translating Side by Side</p></figcaption></figure>
 
 Text you leave untranslated shows the original, so a published page is never half empty.
 
 ## Reviewing and Publishing a Translation
 
-1. Click **Review** to see what you translated.
+1. Click **Review & publish** to see what you translated.
 2. Click **Publish**.
 
 Publishing a translation does not publish the original page or other languages, and the **Publish** button for the original page never publishes an unfinished translation.

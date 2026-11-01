@@ -37,8 +37,8 @@ Prefer a remote type for long videos and podcasts: the service streams them, and
 - **Upload**: on the **Media** page click **Add media** and choose the type, or upload from a media field or the editor. See [Uploading Media Files](uploading-media-files/).
 - **Reuse**: on a media field or in the editor, open the dialog and pick an existing item instead of uploading the same file again. See [Accessing the Media Library](accessing-the-media-library.md).
 - **Embed in text**: in the editor, click **Insert Media**, pick or upload the item, then click **Insert selected**.
-- **Replace**: open the item from the **Media** page, click **Remove** on the file, upload the new one and click **Save**. Every page using the item shows the new file.
-- **Delete**: choose **Delete** in the item's operations. The item moves to the **Trash**, where you can restore it. See [Trash](../content-workflow/trash.md).
+- **Replace**: swap the file once and every page using the item shows the new one. See [Replace an Image Everywhere](replace-an-image-everywhere.md).
+- **Delete**: check where the item is used first; deleted items go to the **Trash**. See [Delete a Media Item Safely](delete-a-media-item-safely.md).
 
 {% hint style="info" %}
 Removing media from a page does not delete it from the library. Before deleting an item, check that no page still uses it.
@@ -59,7 +59,8 @@ Removing media from a page does not delete it from the library. Before deleting 
 
 - **Focal point**: mark the important part of an image so it stays in view when the image is cropped for cards and banners.
 - **Alt text with AI**: click **Generate with AI** to get a suggested description of an image, then check and edit it.
-- **Bulk upload**: upload up to 20 images, videos and audio files at once.
+- **Bulk upload**: upload up to 20 images, videos and audio files at once. See [Upload Many Files at Once](uploading-media-files/upload-many-files-at-once.md).
+- **Bulk alt text**: generate alt text for many images in one run. See [Generate Alt Text for Many Images](generate-alt-text-for-many-images.md).
 
 <figure><img src="../../.gitbook/assets/learn-07-media-library-grid.png" alt="The Media page in Grid view, with filters for Published, Name, Media type, Language and Sort by, and a grid of image thumbnails with their names"><figcaption><p>The Media Library in Grid View</p></figcaption></figure>
 
@@ -73,20 +74,6 @@ Removing media from a page does not delete it from the library. Before deleting 
 - **Text inside images**: avoid it. It cannot be read by screen readers and must be redone for every language.
 
 With the AI recipes, saving an image fills an **Image description** and up to five **Image tags** when they are empty, and the image can be checked for safety on upload. See [AI Tools in the Editor](../ai-in-varbase/ai-tools-in-the-editor.md).
-
-## Scenario: Add an Image the Right Way
-
-1. On the **Media** page, click **Add media** \ _**Image**_, or drag files onto the upload area.
-2. Give it a descriptive **Name** and upload the file.
-3. Write the **Alternative text**, or click **Generate with AI** and check the suggestion.
-4. Click the important part of the preview to set the **focal point**.
-5. Click **Save**. The image is ready to reuse from any media field or the editor.
-
-## Scenario: Replace or Remove an Image Safely
-
-1. Open the item and check its **Usage** tab for the content that uses it. Images placed on Drupal Canvas pages are not listed there yet, so check those pages too.
-2. To replace, click **Remove** on the file, upload the new one and **Save**. Every page shows the new file.
-3. To remove, choose **Delete**. The item goes to the **Trash**; a deleted image leaves a gap on every page that used it.
 
 ## Who Can Do What
 
@@ -102,15 +89,13 @@ The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** role
 ## Planning Notes
 
 - Agree image ratios with design early; the focal point solves cropping, not wrong ratios.
-- Decide who may delete media. On a new site editors can delete any image; some clients keep that for senior roles.
-- Migrating media is usually the slowest part of a content migration. Count files and total size, and plan who writes the missing alt text (the bulk AI tool helps, then sample and correct).
+- Migrating media is usually the slowest part of a content migration. Count files and total size, and plan who writes the missing alt text. See [Generate Alt Text for Many Images](generate-alt-text-for-many-images.md).
 - Photos of people need permission for a purpose and a period. Name an owner for those rights and a way to remove photos quickly.
-- Plan a library clean-up once or twice a year: oldest items, usage, names and descriptions.
 
 ## In This Section
 
 1. [Accessing the Media Library](accessing-the-media-library.md): finding, filtering and picking media.
 2. [Uploading Media Files](uploading-media-files/): where to start and what each media type asks for.
-   - [Image](uploading-media-files/image.md)
-   - [Remote Video](uploading-media-files/remote-video.md)
-   - [Video](uploading-media-files/video.md)
+3. [Replace an Image Everywhere](replace-an-image-everywhere.md): swap a file on every page at once.
+4. [Delete a Media Item Safely](delete-a-media-item-safely.md): check where it is used before it goes.
+5. [Generate Alt Text for Many Images](generate-alt-text-for-many-images.md): fill missing alt text after a migration.

@@ -66,25 +66,10 @@ Moving to Varbase 11 is planned with the development team as a project of its ow
 - **Plannable support**: a steady release rhythm lets you budget regular small updates instead of rare large ones.
 - **The right line**: a new project on 11.0.x is on the line that gets new features, including the AI work.
 
-## Scenario: Answer "Which Version Is This Site On?"
+## Common Tasks
 
-You take over an existing Varbase site and need to know whether it still gets security fixes.
-
-1. Log in as a **Super Admin**. Other roles cannot open this report.
-2. Go to **Reports** \ _**Status report**_ (`/admin/reports/status`).
-3. Read **Drupal Version** in **General System Information**. On the studio site it is 11.4.11.
-4. Compare the Varbase line of the project with [Release Cycle and Supported Versions](../../overview/release-cycle-and-supported-versions.md).
-5. If the site is on an end-of-life line, plan the upgrade as a project with the development team.
-
-## Scenario: Show What Recipes Already Did
-
-Recipes are tested setup steps that are applied once. You can show their effect on any Varbase site:
-
-1. Go to `/admin/config/content/honeypot`: **Honeypot**, from the Drupal CMS anti-spam recipe, already protects every form with a hidden field that spam robots fill in.
-2. Go to `/admin/config/user-interface/antibot`: **Antibot**, from the Varbase security recipe, checks that a real browser sends each form.
-3. On the **Dashboard**, the **Top tasks** block and **Choose recommended add-ons** (the **Project Browser**) come from Drupal CMS.
-
-Nobody on the project had to choose these modules or decide their settings. See [How Varbase Is Built](../how-varbase-is-built/) for recipes in detail.
+- [Check Which Version a Site Is On](check-which-version-a-site-is-on.md): is the site still getting security fixes?
+- [Show What Recipes Already Did](show-what-recipes-already-did.md): features nobody had to choose or configure.
 
 ## When to Choose Drupal CMS or Varbase
 
@@ -98,15 +83,12 @@ Ask how the client's team will work on the site every day; the answer usually po
 ## Questions Clients Ask
 
 - **Is Varbase a fork of Drupal?** No. It is Drupal core plus contributed modules and recipes. Nothing is forked.
-- **We are on Varbase 9 or 10. Do we have to rebuild?** Moving to 11 is an upgrade project, not a rebuild by default. The content is kept; configuration, custom code and the theme need checking. 9.x and 10.0.x are end of life, so plan it.
 - **What happens when Drupal 12 arrives?** A future Varbase major version will track it. Until then, 11.0.x is the line to be on.
 
 ## Planning Notes
 
 - Budget a recurring maintenance slot for the release rhythm. Assumption: about half a day per release for update, test and deploy on a typical site, with AI-assisted testing.
 - In proposals, name the product and its version (for example Varbase 11 on Drupal 11), so nobody is confused later.
-- For an upgrade from 9.x or 10.x, run a discovery on custom modules and layouts first. Layout Builder pages do not turn into Drupal Canvas pages by themselves.
-- Agree in the contract who applies security updates and how quickly.
 
 ## Where to Get Help
 

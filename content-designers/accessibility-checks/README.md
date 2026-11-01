@@ -13,47 +13,16 @@ Accessibility means a website that works for everyone, including people who use 
 
 When you are logged in and view a page on the site, the checker scans it and shows its button in the corner of the page. If it finds a problem, the button shows the number of issues and markers appear next to each one.
 
-<figure><img src="../.gitbook/assets/accessibility-checks-01-panel.png" alt="A published blog post viewed by a logged-in editor, with the accessibility checker button in the corner of the page"><figcaption><p>The Accessibility Checker on a Page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/accessibility-checks-01-panel.png" alt="A published blog post viewed by a logged-in editor, with the accessibility checker button in the corner of the page"><figcaption><p>The Accessibility Checker on a Page</p></figcaption></figure>
 
 Visitors never see the checker.
 
-<figure><img src="../.gitbook/assets/learn-16-checker-on-contact-page.png" alt="The Contact Us page viewed by a logged-in editor, with Editoria11y markers next to items that need a manual check, such as the contact information heading and a link"><figcaption><p>Editoria11y Markers on the Contact Us Page</p></figcaption></figure>
-
 The dashboard's **Pages with accessibility alerts** block lists pages with issues, so problems are seen every day, not once a year in an audit.
 
-## Fixing a Problem
+## Common Tasks
 
-1. Click a marker on the page, or use the arrows in the panel to go from one issue to the next.
-2. Read the explanation, for example that an image has no alternative text.
-3. Edit the content and fix it, then view the page again: the issue disappears.
-
-Some alerts are manual checks: the checker asks whether a link's text is meaningful, or whether a bold line should be a heading. If the answer is that it is fine, a role allowed to dismiss alerts marks it as checked, and the dismissal is recorded with the person's name.
-
-## Scenario: Fix a Link That Is a Web Address
-
-On a demo site, the checker found a link on the **About Varbase** page whose text was a web address. A screen reader reads it letter by letter.
-
-1. Open the page and click the marker to read the alert.
-2. Edit the page and change the link text to words, such as "the Varbase documentation".
-3. Publish and view the page again: the alert is gone.
-
-## Common Problems
-
-| Problem | Fix |
-| --- | --- |
-| Image has no alternative text | Add alt text to the image in the **Media Library**. |
-| Heading levels skipped | Use **Heading 2**, then **Heading 3**, without jumping levels. |
-| Link text is not clear, such as "click here" | Write link text that says where the link goes. |
-| Text formatted to look like a heading | Use a real heading from the **Heading** list. |
-| Table without headers | Mark the first row or column as headers. |
-
-## The Site-Wide Report
-
-A **Super Admin** can see every issue found across the site at **Reports** \ **Content Accessibility** (`/admin/reports/editoria11y`): top issues, pages with the most issues, and recent issues and dismissals. Ask them for the list when you plan an accessibility clean-up. The top issues are the best training topics; checking the issue counts each month gives a simple trend for the client's accessibility lead.
-
-<figure><img src="../.gitbook/assets/learn-16-content-accessibility-report.png" alt="The Content Accessibility Issues report with Top issues, Pages with the most issues (Contact Us and About Varbase) and Recent issues"><figcaption><p>The Content Accessibility Issues Report</p></figcaption></figure>
-
-The report's results can be exported as spreadsheets (a summary, the issues, and the dismissals), which is a simple way to report progress to the client's accessibility lead.
+- [Fix an Accessibility Alert](fix-an-accessibility-alert.md): read a marker on the page and fix the content, with the most common problems.
+- [Review the Site-Wide Accessibility Report](review-the-site-wide-accessibility-report.md): every issue across the site, for a clean-up or a monthly trend.
 
 ## What the Checker Looks For
 
@@ -102,8 +71,11 @@ The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** role
 - New components carry the cost; reuse existing ones where possible.
 - A simple test plan: key pages with a keyboard only, browser zoom at 200%, the automated checks, then specialists with assistive technology.
 - Many organisations must publish an accessibility statement: the target, known issues and how to report a problem. The client writes it, often with the agency's help.
-- If the client's content lead should see the site-wide report, plan that permission change.
-- After launch: editors fix alerts as they appear, a lead reviews the report monthly, an independent check once a year.
+
+## In This Section
+
+- [Fix an Accessibility Alert](fix-an-accessibility-alert.md)
+- [Review the Site-Wide Accessibility Report](review-the-site-wide-accessibility-report.md)
 
 ## Tips
 

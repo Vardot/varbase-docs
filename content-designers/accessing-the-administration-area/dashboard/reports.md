@@ -47,7 +47,7 @@ These reports need the **Super Admin** role:
 | --- | --- | --- |
 | **Status report** | `/admin/reports/status` | The site's health: versions, warnings and errors to fix. |
 | **Available updates** | `/admin/reports/updates` | Newer versions of the site's software, including security updates. |
-| **Content Accessibility** | `/admin/reports/editoria11y` | Accessibility problems found on pages. See [Accessibility Checks](../../accessibility-checks.md). |
+| **Content Accessibility** | `/admin/reports/editoria11y` | Accessibility problems found on pages. See [Accessibility](../../accessibility-checks/README.md). |
 
 An **SEO Admin** can also open **Metatag plugins** (`/admin/reports/metatag-plugins`), the list of meta tags the site supports.
 

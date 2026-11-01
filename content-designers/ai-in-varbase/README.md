@@ -40,11 +40,7 @@ Start with a few global items, and add targeted ones as needs appear: for exampl
 
 Each action of the writing assistant sends a prepared instruction, called a prompt. The prompts are listed under **Configuration** \ **AI Setup and Configuration** \ _**Prompt Library**_ (`/admin/config/ai/prompts`): modify, reformat, fix spelling, summarize, change tone and translate, including the actions that are switched off in the editor. A **Super Admin** can adjust them, for example to always use British spelling or to keep summaries under fifty words. Small changes make the assistant feel made for the client.
 
-### Scenario: Show a Client What Context Changes
-
-1. Write a brand context item with the client, adapted from their brand and style guides: voice and tone, words to use and avoid, do's and don'ts.
-2. Ask for the same thing twice, such as alt text for one image: once with the item in draft, once published.
-3. Compare the tone and format. It shows the client why the context is worth their time.
+To see the difference context makes, see [Show a Client What Context Changes](show-a-client-what-context-changes.md).
 
 ## Guardrails, Logs and Consent
 
@@ -62,23 +58,21 @@ The **Varbase AI Safety** recipe keeps AI logs for 90 days, and at most 1,000 en
 
 <figure><img src="../../.gitbook/assets/learn-18-ai-logging.png" alt="The AI Logging page with links to AI Logs, AI Log Threads, AI Logging Settings and AI Log Types"><figcaption><p>AI Logging</p></figcaption></figure>
 
-## Scenario: Run an AI Pilot
-
-1. Pick one team and two or three features, such as tag suggestions and alt text.
-2. Agree the provider, where data may be processed, and a monthly budget.
-3. Write the brand and editorial context with the client.
-4. Train editors: where the AI help is, what it is good at, where it goes wrong, and the rule that the editor is responsible for everything published.
-5. Run it for a few weeks and measure: time per task before and with AI, how often editors changed the suggestion, cost, and whether editors want to keep it.
-6. Decide what to extend.
-
 ## Questions Clients Ask
 
 - **Where does our data go?** To the provider the client chooses, for the feature in use. Read its terms for three things: is data used for training, where is it processed and stored, and how long is it kept. Pick a provider with suitable business terms, or a self-hosted model.
-- **What does it cost?** Most providers charge per use. Small features cost very little; bulk runs, such as alt text for a thousand images, cost more and should be planned. Budget it as a running cost.
+- **What does it cost?** Most providers charge per use; budget it as a running cost. See [Run an AI Pilot](run-an-ai-pilot.md).
 - **Will AI publish anything by itself?** Not in this part. Suggestions land in fields an editor reviews.
 
 ## Planning Notes
 
-- Five questions: which provider and where may data be processed; the monthly budget; which roles use which features; who writes and owns the context; who reviews the AI's work and how often.
+- Start with a pilot. See [Run an AI Pilot](run-an-ai-pilot.md).
 - Be honest: AI saves time on routine work (tags, descriptions, first drafts); it does not replace editorial judgement, subject knowledge or legal review, and its quality depends on the context the client gives it.
-- Assumption: provider usage for editorial help is low; measure it in the pilot month.
+
+## In This Section
+
+- [AI Tools in the Editor](ai-tools-in-the-editor.md)
+- [AI Agents, Answers and Automation](ai-agents-answers-and-automation.md)
+- [Show a Client What Context Changes](show-a-client-what-context-changes.md)
+- [Run an AI Pilot](run-an-ai-pilot.md)
+- [Generate Alt Text for Many Images](../media-management/generate-alt-text-for-many-images.md)

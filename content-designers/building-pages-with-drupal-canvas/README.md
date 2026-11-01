@@ -40,6 +40,8 @@ Click **Pages** in the **Navigation** sidebar (`/admin/content/pages`) to see ev
 4. Add components. See [Adding and Arranging Components](adding-and-arranging-components.md).
 5. Publish the page. See [Preview and Publish](preview-and-publish.md).
 
+For a full example from an empty page to published, see [Create a Page From a Pattern](create-a-page-from-a-pattern.md).
+
 ## The Editor
 
 Click **Edit** next to a page to open it in the editor. Nothing you do there is visible to visitors until you publish.
@@ -71,21 +73,6 @@ Finding Your Way in Drupal Canvas (Video)
 | **Metatags** | Detailed search and social sharing settings. See [Meta Tags](../search-engine-optimization/meta-tags.md). |
 
 <figure><img src="../../.gitbook/assets/learn-08-layers-panel.png" alt="The Layers panel showing the page as a tree of sections, columns, a hero slider container with hero slides, headings, text and buttons"><figcaption><p>Layers: the Page as a Tree of Sections, Columns and Components</p></figcaption></figure>
-
-## Scenario: Build a Programme Page From Patterns
-
-This builds a page about a training programme, from an empty page to published, without code.
-
-1. On the **Pages** list, click **Add Page**. In **Page data**, enter the **Title**; the **URL alias** follows it. Add a **Meta description** and an **Image** for sharing.
-2. Open **Library** \ _**Patterns**_ and insert **Page Intro Banner**. Select its heading and type your title, change the intro line, and pick an image from the media library.
-3. Insert **Feature Cards** for the three parts of the programme, **FAQ Accordion** for dates and requirements, and **Call to Action Banner** to invite people to register.
-4. Fill the cards: a title, a short line and an icon each. Keep the three titles parallel and the lines a similar length.
-5. Add a single **Button** to the call to action, labelled "Register for the programme", linking to the contact page.
-6. Use **Layers** to select small items and reorder sections; use the component menu to **Duplicate** or **Delete**, and **Undo** for mistakes.
-7. Check headings are in order and every image has alt text, then switch the preview to **Mobile**.
-8. Click **Review changes**, select the page's changes, and **Publish**. Only **Content Admin**, **Site Admin** and **Super Admin** can publish; a **Content editor** asks one of them. See [Preview and Publish](preview-and-publish.md).
-
-Give each section one message: the banner says what the page is about, the cards what is inside, the questions remove doubts, and the call to action says what to do next.
 
 ## Page Actions
 
@@ -119,20 +106,14 @@ A **Content editor** prepares changes and asks a **Content Admin** or **Site Adm
 - Count unique components in the design, not pages; that drives front-end effort.
 - Agree the publishing split: editors build pages, a **Content Admin** or above publishes them.
 - Drupal Canvas pages get no automatic URL alias and are not in the XML sitemap on Varbase 11.0. Plan each page's address and how landing pages reach search engines.
-- Train in two sessions: a real page from patterns only first, then single components, **Layers** and review. Leave templates to a smaller group.
-
-## Common Mistakes
-
-- Too many sections, because adding is easy and removing feels like a loss.
-- Mixed card styles on one page.
-- Publishing without checking the phone view. A short review checklist before every publish prevents all three.
 
 ## In This Section
 
 - [Component Catalog](component-catalog/)
 - [Adding and Arranging Components](adding-and-arranging-components.md)
 - [Patterns](patterns.md)
-- [Templates, Page Types and Consistency](templates-and-page-types.md)
+- [Create a Page From a Pattern](create-a-page-from-a-pattern.md)
+- [Page Types and Templates](templates-and-page-types/)
 - [Content Templates](content-templates.md)
 - [Page Templates](page-templates.md)
 - [Preview and Publish](preview-and-publish.md)

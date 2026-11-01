@@ -105,5 +105,5 @@ Alt text (alternative text) is essential for accessibility. Screen readers use a
 
 ## Check Before You Publish
 
-- View the page while logged in: the accessibility checker marks missing alt text, skipped headings and unclear links. See [Accessibility Checks](../accessibility-checks.md).
+- View the page while logged in: the accessibility checker marks missing alt text, skipped headings and unclear links. See [Accessibility](../accessibility-checks/README.md).
 - Use **Generate with AI** for a first draft of alt text, then correct it. See [Image](../media-management/uploading-media-files/image.md).

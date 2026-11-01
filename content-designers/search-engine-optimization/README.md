@@ -38,22 +38,10 @@ Open **Search Engine Optimization (SEO) Information** in the blog post form:
 
 Utility pages use their **Title** and **Description**. Drupal Canvas pages use the **Title**, **Meta description** and **Image** in **Page data**.
 
-## Scenario: Write a Search Result That Gets the Right Clicks
+## Common Tasks
 
-1. Open a post and the **Search Engine Optimization (SEO) Information** group.
-2. Enter a focus keyword in **SEO analysis**, the phrase people are likely to search for, and read the checks as you write.
-3. Adjust **SEO title** and **SEO description** until the preview reads well. Treat the description as an advert for the page: "Three steps to prepare your website for launch, with a checklist you can use today" beats "Learn more about our services and solutions".
-4. Save as usual.
-
-## Scenario: Fill Missing Descriptions With AI
-
-With the AI recipes, saving a post or utility page with empty SEO fields lets AI write a title and description from the content. An editor's own wording is never replaced. For older content:
-
-1. Go to **Content** \ _**AI SEO meta tags**_. It lists content whose SEO title or description is missing.
-2. Filter, select the items, choose the generate action and apply it. Each row is one AI call, so a large selection takes a while.
-3. Review a sample in each language: accurate, on brand, promising nothing the page does not say.
-
-<figure><img src="../../.gitbook/assets/learn-12-ai-seo-meta-tags.png" alt="The AI SEO meta tags tab listing blog posts with their content type, language, and missing SEO title and SEO description"><figcaption><p>Content Missing an SEO Title or Description</p></figcaption></figure>
+- [Write a Search Result That Gets the Right Clicks](write-a-search-result-that-gets-the-right-clicks.md): the SEO title and description of one post.
+- [Fill Missing Descriptions With AI](fill-missing-descriptions-with-ai.md): fill the gaps on older content in bulk.
 
 ## Search Exclude Is Not Robots
 
@@ -101,3 +89,5 @@ Every editorial role can fill in the SEO fields of the content it edits. The **S
 - [Meta Tags](meta-tags.md)
 - [SEO Analysis With Yoast SEO](seo-analysis-yoast.md)
 - [llms.txt and Markdown for AI Tools](llms-txt.md)
+- [Write a Search Result That Gets the Right Clicks](write-a-search-result-that-gets-the-right-clicks.md)
+- [Fill Missing Descriptions With AI](fill-missing-descriptions-with-ai.md)
