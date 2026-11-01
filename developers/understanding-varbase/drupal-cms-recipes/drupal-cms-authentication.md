@@ -1,5 +1,9 @@
 # Drupal CMS Authentication
 
+{% hint style="warning" %}
+This recipe is marked **unsupported** on [Drupal.org](https://www.drupal.org/project/drupal_cms_authentication). Drupal CMS 2.2 moved its features into `drupal_cms_site_template_base`. **Varbase Starter** 1.0.x still applies it. See [Drupal CMS and Varbase](../../drupal-cms-and-varbase.md).
+{% endhint %}
+
 ## Description
 
 The Drupal CMS Authentication recipe provides enhanced authentication features, including the ability for users to log in with either their email address or username. It also sets up user profile pictures and event-driven automation for authentication workflows.

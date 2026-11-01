@@ -1,5 +1,9 @@
 # Drupal CMS Privacy Basic
 
+{% hint style="warning" %}
+This recipe is marked **unsupported** on [Drupal.org](https://www.drupal.org/project/drupal_cms_privacy_basic), and Varbase 11.0.x does not apply it: **Varbase Starter** 1.0.x does not list it, and the Varbase recipes cover the same ground. See [Drupal CMS and Varbase](../../drupal-cms-and-varbase.md).
+{% endhint %}
+
 ## Description
 
 The Drupal CMS Privacy Basic recipe provides basic privacy features including consent management and remote content blocking. It helps sites comply with privacy regulations by giving visitors control over cookies and external content loading.

@@ -41,6 +41,7 @@ Understanding the distinction between recipes, modules, and installation profile
 - Profiles run **once** during site installation.
 - Profiles bundle a set of modules and configuration into a single installation process.
 - A site can only use **one** profile, and changing it after installation is difficult.
+- In Varbase 11.0.x the **Varbase** profile is thin: it runs the installer and lets you choose a site template, and the recipes do the rest.
 
 ### Recipes
 
@@ -52,36 +53,35 @@ Understanding the distinction between recipes, modules, and installation profile
 
 ## Recipe Dependency Hierarchy in Varbase
 
-Varbase organizes its recipes in a layered dependency hierarchy:
+Varbase organizes its recipes in layers. The site template sits on top and lists the base recipes in the order they are applied:
 
 ```
-varbase_starter
+varbase_starter (type: Site)
   |
-  |-- Varbase recipes (varbase_media_base, varbase_seo_base, varbase_admin_base, etc.)
-  |     |
-  |     |-- Drupal CMS 2.0 recipes (drupal_cms_media, drupal_cms_seo_basic, etc.)
-  |           |
-  |           |-- Drupal Core recipes
-  |
+  |-- Drupal CMS recipes (drupal_cms_anti_spam, drupal_cms_seo_basic, drupal_cms_search, ...)
   |-- Easy Email recipes (easy_email_express)
+  |-- Varbase recipes (varbase_users_base, varbase_media_base, varbase_canvas_base, ...)
+        |
+        |-- Drupal core recipes (core/recipes/image_media_type, core/recipes/content_editor_role, ...)
 ```
 
-Each Varbase recipe declares its dependencies on lower-level recipes. When you apply the `varbase_starter` recipe, it automatically resolves and applies all dependent recipes in the correct order.
+Each recipe declares the recipes it needs. When the installer applies `varbase_starter`, Drupal applies every recipe it lists, in order, and skips any that is already applied. See the full list in [`varbase_starter/recipe.yml`](https://git.drupalcode.org/project/varbase_starter/-/blob/1.0.x/recipe.yml).
 
-Optional recipes ship with the project but are not applied by `varbase_starter`. They can be applied on demand:
+Some recipes ship with the Varbase project but are **not** applied by `varbase_starter`. Apply them on demand:
 
-- **Varbase optional recipes**: `varbase_api_base`, `varbase_auth_base`, `varbase_i18n_base`, `varbase_dev_base`
-- **Varbase AI recipes**: `varbase_ai_base` (which bundles `varbase_ai_editor_assistant`, `varbase_ai_image_alt`, and `varbase_ai_taxonomy_tagging`), plus `varbase_ai_context`, `varbase_ai_safety`, and `varbase_ai_figma_base`
-- **Add-on recipes** (separate Drupal.org projects): `varbase_news_base` and `varbase_events_base`
+- **Varbase optional recipes**, required by the Varbase profile: `varbase_api_base`, `varbase_auth_base`, `varbase_i18n_base`, `varbase_dev_base`.
+- **Varbase AI recipes**: `varbase_ai_base` applies `drupal_cms_ai`, `varbase_ai_image_alt`, `varbase_ai_editor_assistant`, `varbase_ai_taxonomy_tagging`, `varbase_ai_context`, `varbase_ai_content_review_base` and `varbase_ai_safety`. `varbase_ai_figma_base` is applied on its own. The other AI recipes are added with Composer first; see [Varbase AI Recipes](varbase-ai-recipes/README.md).
+- **Content type recipes used by the other site templates** (separate Drupal.org projects): `varbase_news_base`, `varbase_events_base` and `varbase_podcasts_base`.
 
 ## How varbase_starter Orchestrates Everything
 
-The `varbase_starter` recipe is the **top-level entry point** for setting up a Varbase site. It:
+The `varbase_starter` recipe is the **top-level entry point** for a Varbase site. It:
 
-1. **Declares dependencies** on all Varbase recipes that make up the distribution.
-2. **Ensures correct ordering**: recipes are applied in dependency order, so foundational recipes (Drupal Core, Drupal CMS) are applied before Varbase-specific recipes.
-3. **Configures the full feature set**: after `varbase_starter` finishes, the site has all Varbase features installed and configured.
+1. **Lists the base recipes** that make up the site, in the order they must run.
+2. **Installs the theme** (Vartheme BS5) and sets it as the default, and sets the front page to `/home`.
+3. **Ships the site content**: the Canvas pages, patterns and demo content.
 
+A site template is applied **once, during installation**. Updating the template package later does not re-apply it to a site that is already installed. See [Updating Varbase](../updating-varbase.md).
 
 ## Composer and Recipe Management
 
@@ -99,12 +99,13 @@ Composer downloads:
 - All Varbase recipes
 - Theme and library dependencies
 
-Recipes are placed in the `recipes/` directory within the project structure. Composer handles version resolution and dependency management, ensuring that all recipe dependencies are satisfied.
+Recipes are placed in the `recipes/` directory at the project root, next to `web/`. Composer handles version resolution and dependency management, ensuring that all recipe dependencies are satisfied.
 
-To update recipes along with the rest of the project, use:
+To update the project, use:
 
 ```bash
-composer update
+ddev composer update
+ddev drush updatedb
 ```
 
-This pulls in the latest compatible versions of all packages, including updated recipes.
+This pulls in the latest compatible versions of all packages, including recipes. A recipe that is already applied is not applied again, so new configuration in an updated recipe does not reach an existing site by itself. See [Updating Varbase](../updating-varbase.md).

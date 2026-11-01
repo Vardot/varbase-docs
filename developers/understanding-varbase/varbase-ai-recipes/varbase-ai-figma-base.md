@@ -1,6 +1,6 @@
 # Varbase AI Figma Base
 
-The **Varbase AI Figma Base** recipe sets up the Figma-to-Canvas flow on a Varbase site in one step: design in **Figma**, then let the **Drupal Canvas AI** assistant build the page in Drupal — no hand-coding. It installs the general **AI Figma** engine plus the **Varbase AI Figma** customization for the **Vartheme BS5** theme, and wires the Figma tools into the **Drupal Canvas AI Orchestrator**.
+The **Varbase AI Figma Base** recipe sets up the Figma-to-Canvas flow on a Varbase site in one step: design in **Figma**, then let the **Drupal Canvas AI** assistant build the page in Drupal, with no hand-coding. It installs the general **AI Figma** engine plus the **Varbase AI Figma** customization for the **Vartheme BS5** theme, and wires the Figma tools into the **Drupal Canvas AI Orchestrator**.
 
 ## Recipe Type
 
@@ -14,12 +14,12 @@ The recipe ships in the `recipes/` folder of a Varbase project, so it can be app
 
 ## Overview
 
-Varbase AI Figma Base applies the **Drupal CMS AI** recipe first (AI providers and API keys — it never creates its own provider keys), then **Varbase AI Context**, and then installs and configures the Figma stack:
+Varbase AI Figma Base applies the **Drupal CMS AI** recipe first (AI providers and API keys; it never creates its own provider keys), then **Varbase AI Context**, and then installs and configures the Figma stack:
 
 - **AI Figma** reads live Figma design context through the Figma REST API and exposes it to Drupal AI Agent tools.
 - **Varbase AI Figma** tunes that engine for the **Vartheme BS5** theme: layouts, component choices, and a demo Figma file, so a Varbase site builds Canvas pages from a Figma link out of the box.
 - The **Drupal Canvas AI Orchestrator** is taught to resolve a design against what the site already ships before it builds anything: it scans the site inventory (components, saved sections, blocks, and lists) and decides, region by region, whether to **reuse**, **adapt**, or **build**. It reuses an existing component, pattern, block, or view before creating a new one, binds the design to real component inputs, and never freezes live content into static markup.
-- The resolver's tuning — content roles, signal weights, reuse/adapt/build thresholds, and exclusions — lives in the `varbase_ai_figma.settings` configuration, so behavior is adjusted in configuration rather than in code.
+- The resolver's tuning (content roles, signal weights, reuse/adapt/build thresholds, and exclusions) lives in the `varbase_ai_figma.settings` configuration, so behavior is adjusted in configuration rather than in code.
 - The recipe also ships curated **AI Agent Modes** for the Figma and Canvas flows (page, section, component, pattern, Figma page, page review, pattern create, and site connect).
 
 ## Install-Time Inputs

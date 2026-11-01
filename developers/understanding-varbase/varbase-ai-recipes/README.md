@@ -49,5 +49,5 @@ Apply the recipes in this order. Each one needs the ones before it.
 5. The others, in any order: **Content Review Base**, **Content Operations Base**, **MCP Server Base**, **Readable Base**, **SEO** and **Media Base**. They do not need a vector database. **MCP Server Base** and **Readable Base** do not need **Varbase AI Base** either.
 
 {% hint style="info" %}
-Before you require a recipe with Composer, add it to `extra.drupal-recipe-unpack.ignore` in the project's `composer.json`. Otherwise Drupal core's recipe unpack plugin moves the recipe's requirements into the project and drops the recipe itself. Then clear the cache before applying, so Drupal sees the modules Composer added.
+On the Varbase project, **Varbase AI Base** 1.0.2 and later already requires every recipe on this page, so they are in `recipes/`. On another project, before you require a recipe with Composer, add it to `extra.drupal-recipe-unpack.ignore` in the project's `composer.json`. Otherwise Drupal core's recipe unpack plugin moves the recipe's requirements into the project and drops the recipe itself. Then clear the cache before applying, so Drupal sees the modules Composer added.
 {% endhint %}

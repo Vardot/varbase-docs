@@ -4,42 +4,29 @@ This section provides a deeper look at how Varbase 11.0.x is structured and how 
 
 ## Architecture Overview
 
-Varbase 11.0.x is built entirely on the **Drupal Recipes** system. Instead of using a traditional Drupal installation profile with bundled modules, Varbase uses composable recipes that can be applied to a Drupal site to configure features, install modules, set permissions, and establish default configurations.
+Varbase 11.0.x is built on **Drupal Recipes**. Recipes install modules, import configuration and grant permissions. A thin **Varbase** installation profile runs the installer and picks the site template; everything else comes from recipes.
 
-## The Three-Layer Recipe Stack
+| Layer | Package | What it does |
+| --- | --- | --- |
+| Project template | [`drupal/varbase_project`](https://www.drupal.org/project/varbase_project) | The root `composer.json`: Drupal core `~11.4`, the patch plugin, DDEV commands, Storybook and test tooling. |
+| Installation profile | [`vardot/varbase`](https://www.drupal.org/project/varbase) | The installer: the **Choose a site template** step lists every recipe of `type: Site` in the project, and **Varbase Starter** is the default. It also requires packages kept for existing sites, such as **Entity Clone** and **Ultimate Cron**. |
+| Site template | [`drupal/varbase_starter`](https://www.drupal.org/project/varbase_starter) or another [site template](site-templates/README.md) | A `type: Site` recipe that composes the base recipes, installs the theme and ships the pages and demo content. |
+| Base recipes | Drupal core, [Drupal CMS](drupal-cms-recipes/README.md), [Varbase](varbase-recipes/README.md), [Varbase AI](varbase-ai-recipes/README.md) and [Easy Email](easy-email-recipes/README.md) recipes | Each one owns a feature: media, SEO, workflow, search, Canvas and so on. |
+| Theme | [**Vartheme BS5**](https://www.drupal.org/project/vartheme_bs5) with [**Varbase Components**](https://www.drupal.org/project/varbase_components) | Bootstrap 5 single directory components used by Drupal Canvas. |
 
-Varbase's architecture consists of three layers of recipes, each building on the one below it:
+Source: [`varbase.info.yml`](https://git.drupalcode.org/project/varbase/-/blob/11.0.x/varbase.info.yml) and the [Varbase 11.0.0 release notes](https://www.drupal.org/project/varbase/releases/11.0.0).
 
-### 1. Drupal Core Recipes
-
-The foundational layer provided by Drupal core itself. These recipes handle basic Drupal functionality such as standard content types, user roles, and core module configuration.
-
-### 2. Drupal CMS 2.0 Recipes
-
-The second layer comes from the [Drupal CMS 2.0](https://www.drupal.org/project/cms) initiative. These recipes provide common website features that most sites need:
-
-- Admin UI enhancements
-- Anti-spam and CAPTCHA protection
-- Authentication and login management
-- Form building tools
-- Media management
-- Privacy and compliance
-- SEO configuration
-- Accessibility tooling
-
-### 3. Varbase Recipes
-
-The top layer consists of Varbase-specific recipes that build on the Drupal CMS foundation to provide enterprise-grade features and configurations. These include enhanced media handling, editorial workflows, AI integration, ECA automation, and the Vartheme BS5 theme system.
-
-## The varbase_starter Recipe
-
-The **`varbase_starter`** recipe is the main entry point for Varbase. When applied, it orchestrates the application of all necessary recipes in the correct dependency order, resulting in a fully configured Varbase site.
+For the full list of recipes and modules with their version lines, see [Module and Recipe Inventory](module-and-recipe-inventory.md). For how Varbase relates to Drupal CMS, see [Drupal CMS and Varbase](../drupal-cms-and-varbase.md).
 
 ## Sections
 
 ### [Basic Concepts](basic-concepts.md)
 
 Learn the fundamental concepts behind Drupal Recipes, how they differ from traditional modules and profiles, and how Varbase uses them.
+
+### [Module and Recipe Inventory](module-and-recipe-inventory.md)
+
+Every recipe and Vardot module in Varbase 11.0.x, with its purpose, version line and how it is applied.
 
 ### [Varbase AI Modules](varbase-ai-modules/README.md)
 

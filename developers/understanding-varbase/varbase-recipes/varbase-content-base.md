@@ -34,7 +34,6 @@ Brings in the following core and contributed modules to your site:
 | [**Date Filter**](https://www.drupal.org/project/date_filter)                         | Improves the core datetime Views date filter.                                                                                                                       |
 | [**Field Group**](https://www.drupal.org/project/field_group)                         | Provides the ability to group your fields on both form and display.                                                                                                 |
 | [**Smart Trim**](https://www.drupal.org/project/smart_trim)                           | Provides a more robust alternative to "summary or trimmed" textfield format.                                                                                        |
-| [**Advanced Text Formatter**](https://www.drupal.org/project/advanced_text_formatter) | Provides an additional formatter for text field, text area and text format.                                                                                         |
 | **Contextual Links** _(in Drupal core)_                                               | Provides contextual links to directly access tasks related to page elements.                                                                                        |
 | [**Diff**](https://www.drupal.org/project/diff)                                       | Shows changes between content revisions.                                                                                                                            |
 | [**ECA Core**](https://www.drupal.org/project/eca)                                    | Core module for ECA framework.                                                                                                                                      |
@@ -71,21 +70,17 @@ Brings in the following core and contributed modules to your site:
 | **Inline Form Errors** _(in Drupal core)_                                             | Places error messages adjacent to form inputs, for improved usability and accessibility.                                                                            |
 | [**Menu Position**](https://www.drupal.org/project/menu_position)                     | Customize menu position of nodes depending on their content type, associated terms and others conditions.                                                           |
 | [**Tagify**](https://www.drupal.org/project/tagify)                                   | Makes entity reference fields more user-friendly using Tagify.                                                                                                      |
-| [**Rabbit Hole**](https://www.drupal.org/project/rabbit_hole)                         | Basic functionality that is shared among the different Rabbit Hole modules.                                                                                         |
-| [**Canvas Override**](https://www.drupal.org/project/canvas_override)                 | Provides overrides and enhancements for the Drupal Canvas page builder.                                                                                             |
 | [**View Modes Inventory**](https://www.drupal.org/project/vmi)                        | This module has a set of template view modes that we typically use (some of them) in each website.                                                                  |
 | [**Varbase Components**](https://www.drupal.org/project/varbase_components)           | Provides SDC components for Varbase.                                                                                                                                |
 | [**Content Lock**](https://www.drupal.org/project/content_lock)                       | Prevents simultaneous edits to a node by locking it for the user who began editing first.                                                                           |
 | [**Content Lock Timeout**](https://www.drupal.org/project/content_lock)               | Releases stale Content Lock holds after a configured idle timeout.                                                                                                  |
 | [**Node Edit Protection**](https://www.drupal.org/project/node_edit_protection)       | Warns editors before navigating away from an unsaved node edit form.                                                                                                |
 
-## Available Modules (Not Enabled by Default)
+{% hint style="info" %}
+In Varbase 11.0.0, **Entity Clone**, **Rabbit Hole** and **Advanced Text Formatter** moved out of the base recipes and into the **Varbase** profile until they have a stable release ([#3621480](https://www.drupal.org/i/3621480)). A site built from the Varbase project still gets them as a Composer requirement, but this recipe no longer enables them.
+{% endhint %}
 
-The following modules are downloaded with this recipe but not enabled during installation. You can enable them manually if needed:
-
-| Module                                                          | Purpose                              |
-| --------------------------------------------------------------- | ------------------------------------ |
-| [**Entity Clone**](https://www.drupal.org/project/entity_clone) | Add a clone action for all entities. |
+**Canvas Override** is installed by [Varbase Canvas Base](varbase-canvas-base.md).
 
 ## Installation
 

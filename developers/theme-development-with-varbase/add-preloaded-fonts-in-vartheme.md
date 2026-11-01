@@ -13,7 +13,7 @@ Following the new way in the new **Drupal** default front end theme [**Olivero**
 `{% include '@olivero/includes/preload.twig' with { olivero_path: olivero_path } only %}`
 
 {% hint style="info" %}
-Check the code on [**Olivero**](https://www.drupal.org/project/olivero)&#x20;
+Check the code on [**Olivero**](https://www.drupal.org/project/olivero)
 
 The **html.html.twig** file [https://git.drupalcode.org/project/drupal/-/blob/10.1.x/core/themes/olivero/templates/layout/html.html.twig#L43](https://git.drupalcode.org/project/drupal/-/blob/10.1.x/core/themes/olivero/templates/layout/html.html.twig#L43)
 
@@ -62,7 +62,7 @@ Or hire a typography font designer.
 
 * Copy the list of web font files to `"PROJECT_PATH/themes/custom/MYTHEME/fonts/lora/webfonts"`
 * Create the `"PROJECT_PATH/themes/custom/MYTHEME/fonts/lora/css/lora.css"` file
-* Define the `@font-face` for the Lora font.&#x20;
+* Define the `@font-face` for the Lora font.
 
 ```
 /*
@@ -145,7 +145,7 @@ Change the logic in this file in the generated theme for the project. To match t
 ### Links to Learn by Example
 
 {% hint style="info" %}
-Check the following links:&#x20;
+Check the following links:
 
 Vartheme **Fonts** folder:
 

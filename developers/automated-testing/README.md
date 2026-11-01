@@ -1,6 +1,6 @@
 # Automated Functional Testing
 
-Varbase 11.0.x ships an automated functional acceptance testing suite built with [**Varbase E2E**](https://github.com/Vardot/varbase-e2e) — the Vardot QA team's BDD harness on top of [**Playwright**](https://playwright.dev/) and [**Cucumber-JS**](https://github.com/cucumber/cucumber-js).
+Varbase 11.0.x ships an automated functional acceptance testing suite built with [**Varbase E2E**](https://github.com/Vardot/varbase-e2e): the Vardot QA team's BDD harness on top of [**Playwright**](https://playwright.dev/) and [**Cucumber-JS**](https://github.com/cucumber/cucumber-js).
 
 Tests are written in plain language (Gherkin), so a product owner, a QA engineer and a developer read the same file. Every scenario runs in a real browser against a real Varbase site.
 
@@ -8,7 +8,7 @@ Tests are written in plain language (Gherkin), so a product owner, a QA engineer
 The suite ships with the project: `varbase_project` 11.0.x requires [`@vardot/varbase-e2e`](https://www.npmjs.com/package/@vardot/varbase-e2e) `^2` and loads its step definitions from `cucumber.js`, so a fresh site is ready to test after `yarn install`.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/varbase-e2e-logo.svg" alt="" width="768"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/varbase-e2e-logo.svg" alt="Varbase E2E logo" width="768"><figcaption><p>Varbase E2E</p></figcaption></figure>
 
 ## What Varbase E2E Gives You
 
@@ -197,7 +197,7 @@ Feature: Website Base Requirements - Front-end pages warm-up
 
 Three rules keep a suite readable:
 
-1. **Search the step catalogue before writing a step.** Most sentences already exist. One page per category under [`docs/steps/`](https://github.com/Vardot/varbase-e2e/tree/2.0.x/docs/steps) — for example [`drupal-canvas.md`](https://github.com/Vardot/varbase-e2e/blob/2.0.x/docs/steps/drupal-canvas.md), [`varbase.md`](https://github.com/Vardot/varbase-e2e/blob/2.0.x/docs/steps/varbase.md), [`a11y.md`](https://github.com/Vardot/varbase-e2e/blob/2.0.x/docs/steps/a11y.md), [`wait.md`](https://github.com/Vardot/varbase-e2e/blob/2.0.x/docs/steps/wait.md).
+1. **Search the step catalogue before writing a step.** Most sentences already exist. One page per category under [`docs/steps/`](https://github.com/Vardot/varbase-e2e/tree/2.0.x/docs/steps): for example [`drupal-canvas.md`](https://github.com/Vardot/varbase-e2e/blob/2.0.x/docs/steps/drupal-canvas.md), [`varbase.md`](https://github.com/Vardot/varbase-e2e/blob/2.0.x/docs/steps/varbase.md), [`a11y.md`](https://github.com/Vardot/varbase-e2e/blob/2.0.x/docs/steps/a11y.md), [`wait.md`](https://github.com/Vardot/varbase-e2e/blob/2.0.x/docs/steps/wait.md).
 2. **Assert what the user sees**, not the markup a theme happens to produce.
 3. **Put a new file in the numbered folder it belongs to**, following the existing naming.
 

@@ -121,4 +121,4 @@ Blocks appear in the **Library** when their settings have a fully validatable co
 
 ## Related Modules
 
-A Varbase Starter site enables `canvas` with `canvas_page_template_component`, `canvas_icon_picker`, `canvas_translate`, `canvas_override` and, with the AI recipes, `canvas_ai`. `canvas_override` allows per-item layouts, but they must be switched on per content type and are off by default.
+A Varbase Starter site enables `canvas` with `canvas_page_template_component`, `canvas_icon_picker` and `canvas_override`. **Varbase Internationalization Base** adds `canvas_translate`, and the AI recipes (**Drupal CMS AI**, **Varbase AI Figma Base**) add `canvas_ai`. `canvas_override` allows per-item layouts, but they must be switched on per content type and are off by default.

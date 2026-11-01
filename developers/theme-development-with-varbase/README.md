@@ -8,7 +8,7 @@ Varbase 11.0.x provides a modern theming system built on established front-end t
 
 ## [Design System Base Install](https://storybook.demo.varbase.vardot.com/)
 
-Using Storybook 10.3 with Vartheme BS5 starter kit.
+Uses **Storybook 10** with the Vartheme BS5 starter kit. The Varbase project requires `storybook: ^10` in its `package.json` ([#3583717](https://www.drupal.org/i/3583717)). See [Integration of Varbase With Storybook](integration-of-varbase-with-storybook.md).
 
 ## Sections
 
@@ -22,8 +22,29 @@ Step-by-step guide to creating a custom sub-theme that extends Vartheme BS5, inc
 
 ### [Drupal Canvas](drupal-canvas/README.md)
 
-Build and manage a Vartheme BS5 site visually with **Drupal Canvas** — no code:
+Build and manage a Vartheme BS5 site visually with **Drupal Canvas**, with no code:
 
-* [**Editing the Header and Footer With Drupal Canvas**](drupal-canvas/editing-the-header-and-footer-with-drupal-canvas.md): the page template, the Administer page template permission, dragging components and changing their props (a Donate button in the header and a Newsletter webform in the footer).
-* [**Managing Multiple Accordions With Drupal Canvas**](drupal-canvas/managing-multiple-accordions-with-drupal-canvas.md) — dragging the Accordion components from the Library, reordering and managing items in the Layers panel, the "Keep multiple items open" setting, and holding any component inside an accordion (Text, a View, a Block or a Webform).
-* [**Hero Slider Container and Hero Slide With Drupal Canvas**](drupal-canvas/hero-slider-container-and-hero-slide-with-drupal-canvas.md) — building a hero carousel, managing slides in the Layers panel (including inside a Section layout), the container settings (transition, autoplay, indicators, controls, height, controller colour), the slide settings, and one example for each media position.
+* [**Introduction to Drupal Canvas in Varbase**](drupal-canvas/introduction-to-drupal-canvas-in-varbase.md): what Canvas is and how the editor works.
+* [**Component Reference: Vartheme BS5 in Drupal Canvas**](drupal-canvas/vartheme-bs5-components-in-drupal-canvas.md): how a theme component reaches Canvas, and the 46 components with their IDs and slots.
+* [**Editing the Header and Footer With Drupal Canvas**](drupal-canvas/editing-the-header-and-footer-with-drupal-canvas.md): the page template and the Administer page template permission.
+* [**Managing Multiple Accordions With Drupal Canvas**](drupal-canvas/managing-multiple-accordions-with-drupal-canvas.md): the Accordion components, the Layers panel, and holding any component inside an accordion.
+* [**Hero Slider Container and Hero Slide With Drupal Canvas**](drupal-canvas/hero-slider-container-and-hero-slide-with-drupal-canvas.md): a hero carousel, its container settings and one example for each media position.
+* [**Building Common Page Types With Drupal Canvas**](drupal-canvas/building-common-page-types-with-drupal-canvas.md): services, products and event pages.
+* [**Building Pages With the Drupal Canvas AI Agent**](drupal-canvas/building-pages-with-the-drupal-canvas-ai-agent.md): drafting a page from a prompt.
+* [**Default Canvas Patterns**](drupal-canvas/default-canvas-patterns.md): the ready sections shipped with the site template.
+
+### [Troubleshooting Theme Switch Issues](troubleshooting-theme-switch-issues.md)
+
+What to do when Canvas pages still point at the old theme's components after switching themes.
+
+### [Integration of Varbase With Storybook](integration-of-varbase-with-storybook.md)
+
+The `ddev storybook` command, generating stories, and running Storybook on DDEV and Upsun.
+
+### [Add Preloaded Fonts in Vartheme](add-preloaded-fonts-in-vartheme.md)
+
+Preload web fonts in a theme built from Vartheme BS5.
+
+### [Manually Install Needed Theming Tools](manually-install-needed-theming-tools.md)
+
+Install Node.js, npm and Yarn by hand when you do not use the DDEV commands.

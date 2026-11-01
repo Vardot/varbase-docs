@@ -14,7 +14,7 @@
 
 - Releases: the 1.0.x line. See the [release history](https://www.drupal.org/project/horizonaid/releases) for the latest version and its release notes.
 - Drupal core `^11.3`, on Drupal CMS 2 or on Varbase 11 (`drupal/varbase_project:~11.0.0`).
-- PHP 8.4, see [Requirements](../../installing-varbase/requirements.md).
+- PHP 8.3 or later (8.4 recommended), see [Requirements](../../installing-varbase/requirements.md).
 
 ## Recipe Type
 

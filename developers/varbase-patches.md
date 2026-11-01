@@ -16,7 +16,7 @@ Use `"vardot/varbase-patches": "~11.0.0"`
 
 Drupal **core** patches are managed in a dedicated package, [**`vardot/drupal-core-patches`**](https://github.com/Vardot/drupal-core-patches), so that **Varbase** can always track the latest **Drupal core** release while keeping core patches separate from contrib patches.
 
-[**`vardot/varbase-patches`**](https://github.com/Vardot/varbase-patches) **requires** **`vardot/drupal-core-patches`**. The core-patches package stores the curated **Drupal core** patches with **one git branch per Drupal core `major.minor`** — `10.4.x`, `10.5.x`, `10.6.x`, `11.1.x`, `11.2.x`, `11.3.x`, `11.4.x`, `12.0.x` — plus a flat **`patches`** branch that stores the actual `.patch` files. Each `drupal-core-patches` release `require`s `drupal/core ~<minor>.0`, so **Composer** automatically selects the patch set that matches the **Drupal core** version installed in your project.
+[**`vardot/varbase-patches`**](https://github.com/Vardot/varbase-patches) **requires** **`vardot/drupal-core-patches`**. The core-patches package stores the curated **Drupal core** patches with **one git branch per Drupal core `major.minor`** (`10.4.x`, `10.5.x`, `10.6.x`, `11.1.x`, `11.2.x`, `11.3.x`, `11.4.x`, `12.0.x`), plus a flat **`patches`** branch that stores the actual `.patch` files. Each `drupal-core-patches` release `require`s `drupal/core ~<minor>.0`, so **Composer** automatically selects the patch set that matches the **Drupal core** version installed in your project.
 
 On this branch `vardot/varbase-patches` requires:
 
@@ -27,7 +27,7 @@ On this branch `vardot/varbase-patches` requires:
 ```
 
 {% hint style="warning" %}
-`vardot/drupal-core-patches` is a **metapackage** — a storage for **Drupal core** patches — **not** a **Composer** plugin. The only **Varbase** patch *plugin* is `vardot/varbase-patches`. List `vardot/drupal-core-patches` only under `extra.composer-patches.allowed-dependency-patches`, and **never** under `config.allow-plugins`.
+`vardot/drupal-core-patches` is a **metapackage**, a storage for **Drupal core** patches, **not** a **Composer** plugin. The only **Varbase** patch *plugin* is `vardot/varbase-patches`. It must be listed under `extra.composer-patches.allowed-dependency-patches`. It does not need an entry in `config.allow-plugins`; the [Varbase project template](https://git.drupalcode.org/project/varbase_project/-/blob/11.0.x/composer.json) lists it there, which has no effect.
 {% endhint %}
 
 ### Allowing the patch packages
@@ -59,13 +59,15 @@ When there's a need to handle local patches for a project without relying on Var
 
 ### Remove Varbase Patches in Varbase \~11.0.0
 
-> &#x20;With **CKEditor 5** and **Drupal \~11** : Use the `"Vardot/varbase-patches": "11.0.0.0"` static version to have no patches and manage local patches in the project with a copy of patches from [https://github.com/Vardot/varbase-patches/blob/11.0.x/composer.json](https://github.com/Vardot/varbase-patches/blob/10.0.x/composer.json)
+Use the static `"vardot/varbase-patches": "11.0.0.0"` version to get no patches from Varbase Patches, and manage local patches in the project with a copy of the patches listed in [`composer.json` on the 11.0.x branch](https://github.com/Vardot/varbase-patches/blob/11.0.x/composer.json).
 
 ## Storage of Local Patches Branch
 
 This [**Patches**](https://github.com/Vardot/varbase-patches/tree/patches) branch is a storage branch for the list of needed local patches.
 
-&#x20;[<mark style="background-color:orange;">**Ones a patch is added, never to be deleted**</mark>](#user-content-fn-1)[^1]<mark style="background-color:orange;">**!**</mark>
+{% hint style="warning" %}
+**Once a patch is added, it is never deleted.**
+{% endhint %}
 
 It should be considered a permanent part of the solution and should not be deleted under normal circumstances. Deleting patches can lead to unexpected behavior or loss of functionality, especially if other components of the system depend on them.
 
@@ -90,7 +92,7 @@ To understand the process better, consult the [Drupal Contributor Guide](https:/
 
 When creating merge requests, it's better to use **composer-patches**' solution for dealing with merge request URLs from **drupal.org**. This solution adds support for patch checksums, preventing issues where the new patch wouldn't apply due to checksum mismatches.
 
-Such issues can disrupt builds, compromising stability and security. Note that this solution is included in version 2, which hasn't been officially released at the time of writing.
+Such issues can disrupt builds, compromising stability and security. This support is part of **Composer Patches 2**, which Varbase 11.0.x uses (`cweagans/composer-patches: ~2.0`).
 
 {% hint style="danger" %}
 **Choosing direct merge requests over patching isn't the best option for maintaining stability, especially considering Drupal's shift from patching to merge requests.**
@@ -102,7 +104,7 @@ Therefore, necessary patches originating from merge requests will be stored in t
 
 * [Patches from drupal.org merge request URLs are dangerous?](https://github.com/cweagans/composer-patches/issues/347)
 * [Add support for patch checksums](https://github.com/cweagans/composer-patches/pull/388).
-* [**`composer-patches 2.0.0`** hasn't been released yet](https://github.com/cweagans/composer-patches/issues/451)
+* [**`composer-patches 2.0.0`** release](https://github.com/cweagans/composer-patches/releases/tag/2.0.0)
 
 ***
 
@@ -175,7 +177,7 @@ List of package-name patterns to exclude **after** the allowlist is applied. Use
 }
 ```
 
-When `allowed-dependency-patches` is set to the default `["vardot/varbase-patches"]`, `ignore-dependency-patches` is redundant — nothing else passes the allowlist.
+When `allowed-dependency-patches` is set to the default `["vardot/varbase-patches"]`, `ignore-dependency-patches` is redundant: nothing else passes the allowlist.
 
 ### `patches-ignore`
 
@@ -219,13 +221,13 @@ Or a flat array of URLs:
 }
 ```
 
-Matching is done by URL string. The description (if you use the dict form) is informational only — `vardot/varbase-patches` and the consumer can disagree on the description and the URL still matches.
+Matching is done by URL string. The description (if you use the dict form) is informational only: `vardot/varbase-patches` and the consumer can disagree on the description and the URL still matches.
 
 
 
 ### Ignoring Drupal Core Patches
 
-`vardot/drupal-core-patches` is an ordinary dependency that contributes patches through the dependency resolver, so the same `extra` keys control it — use `vardot/drupal-core-patches` as the **source** package and `drupal/core` as the **target**.
+`vardot/drupal-core-patches` is an ordinary dependency that contributes patches through the dependency resolver, so the same `extra` keys control it. Use `vardot/drupal-core-patches` as the **source** package and `drupal/core` as the **target**.
 
 #### Ignore a single Drupal core patch
 
@@ -247,44 +249,42 @@ Matching is by URL string, the same as for `vardot/varbase-patches`.
 
 ## Composer Command to Clean up Any Merge Request Patches
 
-### **Clean up the Root \`composer.json\` File**
+### Clean up the Root `composer.json` File
 
 {% hint style="success" %}
-**Name:** `varbase-patches:composer:cleanup:patches`\
+**Name:** `varbase-patches:cleanup:patches`\
 **Aliases:** `var-ccup`\
-**Description:** This command detects any merge request patches, downloads them to the local patches folder with a timestamp, and updates the **root** `` `composer.json` `` file to use the timestamped local patch file.
+**Description:** This command detects any merge request patches, downloads them to the local patches folder with a timestamp, and updates the **root** `composer.json` file to use the timestamped local patch file.
 {% endhint %}
 
 **Example:**
 
-```php
-composer varbase-patches:composer:cleanup:patches
+```bash
+composer varbase-patches:cleanup:patches
 ```
 
 or
 
-```php
+```bash
 composer var-ccup
 ```
 
-### **Clean up the External \`patches-file\` JSON File**
+### Clean up the External `patches-file` JSON File
 
 {% hint style="success" %}
-**Name:** `varbase-patches:composer:cleanup:patches-file`\
+**Name:** `varbase-patches:cleanup:patches-file`\
 **Aliases:** `var-ccupf`\
-**Description:** This command detects any merge request patches, downloads them to the local patches folder with a timestamp, and updates the `` `patches-file JSON` `` file to use the timestamped local patch file.
+**Description:** This command detects any merge request patches, downloads them to the local patches folder with a timestamp, and updates the `patches-file` JSON file to use the timestamped local patch file.
 {% endhint %}
 
 **Example:**
 
-```php
-composer varbase-patches:composer:cleanup:patches-file
+```bash
+composer varbase-patches:cleanup:patches-file
 ```
 
 or
 
-```php
+```bash
 composer var-ccupf
 ```
-
-[^1]: 

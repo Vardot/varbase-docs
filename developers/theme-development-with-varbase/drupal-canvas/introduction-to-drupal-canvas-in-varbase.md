@@ -84,7 +84,7 @@ site's look automatically.
 * [**Component Reference: Vartheme BS5 in Drupal Canvas**](vartheme-bs5-components-in-drupal-canvas.md), for developers
 * [**Component Catalog**](../../../content-designers/building-pages-with-drupal-canvas/component-catalog/), for editors: every component and its settings
 * [**Building Pages With Drupal Canvas**](../../../content-designers/building-pages-with-drupal-canvas/), the editor guide in Content Designers
-
 * [**Editing the Header and Footer With Drupal Canvas**](editing-the-header-and-footer-with-drupal-canvas.md)
 * [**Managing Multiple Accordions With Drupal Canvas**](managing-multiple-accordions-with-drupal-canvas.md)
 * [**Hero Slider Container and Hero Slide With Drupal Canvas**](hero-slider-container-and-hero-slide-with-drupal-canvas.md)
+* [**Varbase Canvas Base**](../../understanding-varbase/varbase-recipes/varbase-canvas-base.md), the recipe that installs Drupal Canvas

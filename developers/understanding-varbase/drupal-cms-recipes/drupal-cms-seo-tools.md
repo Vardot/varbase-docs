@@ -1,5 +1,9 @@
 # Drupal CMS SEO Tools
 
+{% hint style="warning" %}
+This recipe is marked **unsupported** on [Drupal.org](https://www.drupal.org/project/drupal_cms_seo_tools). Drupal CMS 2.2 moved its features into `drupal_cms_site_template_base`. **Varbase Starter** 1.0.x still applies it. See [Drupal CMS and Varbase](../../drupal-cms-and-varbase.md).
+{% endhint %}
+
 ## Description
 
 The Drupal CMS SEO Tools recipe provides advanced SEO capabilities including meta tags, XML sitemap generation, robots.txt management, and real-time SEO analysis with Yoast integration. It builds on basic SEO to give site managers comprehensive control over search engine optimization.

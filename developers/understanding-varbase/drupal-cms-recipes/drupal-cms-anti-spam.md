@@ -1,5 +1,9 @@
 # Drupal CMS Anti-Spam
 
+{% hint style="warning" %}
+This recipe is marked **unsupported** on [Drupal.org](https://www.drupal.org/project/drupal_cms_anti_spam). Drupal CMS 2.2 moved its features into `drupal_cms_site_template_base`. **Varbase Starter** 1.0.x still applies it. See [Drupal CMS and Varbase](../../drupal-cms-and-varbase.md).
+{% endhint %}
+
 ## Description
 
 The Drupal CMS Anti-Spam recipe provides anti-spam and anti-abuse functionality for Drupal sites. It combines CAPTCHA challenges with honeypot techniques to protect forms from automated spam submissions.

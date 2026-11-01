@@ -1,5 +1,9 @@
 # Drupal CMS Media
 
+{% hint style="warning" %}
+This recipe is marked **unsupported** on [Drupal.org](https://www.drupal.org/project/drupal_cms_media), and Varbase 11.0.x does not apply it: **Varbase Starter** 1.0.x does not list it, and the Varbase recipes cover the same ground. See [Drupal CMS and Varbase](../../drupal-cms-and-varbase.md).
+{% endhint %}
+
 ## Description
 
 The Drupal CMS Media recipe provides basic media types including responsive image styles, focal point cropping, SVG support, video handling, and file upload management. It extends Drupal core media types with additional functionality for a comprehensive media experience.
