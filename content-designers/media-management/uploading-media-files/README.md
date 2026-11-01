@@ -60,87 +60,15 @@ The **Rich editor** toolbar also has **Media embed**, which embeds a pasted link
 
 The size limit and accepted file types are shown under the upload field; click the **?** next to **Add a new file** to see them. The size limit comes from your hosting; it is 100 MB in these screenshots.
 
-### Image
-
-Use for photos and graphics.
-
-- **Accepts**: PNG, GIF, JPG, JPEG and WebP, one file.
-- **Required**: **Name**, the **Image** file and **Alternative text**, which appears once the file is uploaded.
-- **Focal point**: drag the cross on the preview to the most important part.
-- **Generate with AI**: suggests the alternative text. If the form asks "Transfer image and meta data to chosen AI service?", click **Yes (this time)** to show the button.
-- **AI description and tags**: **Image description** and **Image tags** are optional and on the full form. Left empty, AI writes them when you save.
-
-There is no caption field on the item: add a caption where you place the image, for example in the editor.
-
-<figure><img src="../../../.gitbook/assets/media-upload-04-image.png" alt="The Add Image form with a photo uploaded, the focal point cross on the preview, the Alternative text filled in and the Generate with AI button"><figcaption><p>Adding an Image</p></figcaption></figure>
-
-{% hint style="warning" %}
-With **Varbase AI Safety** on, each uploaded image is checked for unsuitable content and flagged images are refused. If the form says "AI provider failed to evaluate the content", the file is likely too large for the check: resize it, for example to 2000 pixels wide, and upload it again.
-{% endhint %}
-
-See [Image](image.md) for alt text tips.
-
-### SVG Image
-
-Use for logos and icons that must stay sharp at any size.
-
-- **Accepts**: SVG, one file.
-- **Required**: **Name**, the **Image** file and **Alternative text**.
-- There is no focal point: SVG images are not cropped.
-
-<figure><img src="../../../.gitbook/assets/media-upload-05-svg-image.png" alt="The Add SVG Image form with the Name field and the Image upload field showing one file only, the 100 MB limit and svg as the allowed type"><figcaption><p>Adding an SVG Image</p></figcaption></figure>
-
-### Document
-
-Use for files visitors download, such as a PDF report or a price list.
-
-- **Accepts**: TXT, RTF, DOC, DOCX, PPT, PPTX, XLS, XLSX, PDF, ODF, ODG, ODP, ODS, ODT, FODT, FODS, FODP, FODG, KEY, NUMBERS and PAGES, one file.
-- **Required**: **Name** and the **Document** file.
-
-<figure><img src="../../../.gitbook/assets/media-upload-06-document.png" alt="The Add Document form with the Name field, the Document upload field and the Language field"><figcaption><p>Adding a Document</p></figcaption></figure>
-
-### Video
-
-Use for short clips stored on your site, such as a looping background.
-
-- **Accepts**: MP4, one file.
-- **Required**: **Name** and the **Video file**.
-- **Cover Image**: optional, shown before the video plays, with a focal point. It is on the full form, or edit the item after saving.
-
-<figure><img src="../../../.gitbook/assets/media-upload-07-video.png" alt="The Add Video form with the Video file upload field showing the 100 MB limit and mp4 as the allowed type, and the optional Cover Image field"><figcaption><p>Adding a Video File</p></figcaption></figure>
-
-See [Video](video.md) for when to prefer a remote video.
-
-### Audio
-
-Use for sound files stored on your site, such as a recorded talk.
-
-- **Accepts**: MP3, WAV and AAC, one file.
-- **Required**: **Name** and the **Audio file**.
-
-<figure><img src="../../../.gitbook/assets/media-upload-08-audio.png" alt="The Add Audio form with the Name field and the Audio file upload field showing the 100 MB limit and mp3, wav and aac as the allowed types"><figcaption><p>Adding an Audio File</p></figcaption></figure>
-
-### Remote Video
-
-Use for videos on YouTube or Vimeo. Your site keeps only the link.
-
-- **Accepts**: a **Video URL** from YouTube or Vimeo.
-- **Required**: **Name** and **Video URL**.
-- **Cover Image**: optional, with a focal point. It is on the full form, or edit the item after saving.
-
-<figure><img src="../../../.gitbook/assets/media-upload-09-remote-video.png" alt="The Add Remote video form with a YouTube address in the Video URL field and the optional Cover Image field"><figcaption><p>Adding a Remote Video</p></figcaption></figure>
-
-See [Remote Video](remote-video.md) for cookie consent and tips.
-
-### Remote Audio
-
-Use for podcasts and tracks hosted elsewhere. Your site keeps only the link.
-
-- **Accepts**: an **Audio URL** from SoundCloud, Spotify, MixCloud, Apple Podcasts, Acast, Audioboom, Simplecast or Spreaker.
-- **Required**: **Name** and **Audio URL**.
-- **Where**: the full form (`/media/add/remote_audio`), or **Insert Media** in an editor that uses the **Content** text format. The **Media** page's **Add media** list does not offer it.
-
-<figure><img src="../../../.gitbook/assets/media-upload-10-remote-audio.png" alt="The Add Remote audio form with the Name field and the Audio URL field, its help listing the supported services"><figcaption><p>Adding Remote Audio</p></figcaption></figure>
+| Type | Use it for | Steps |
+| --- | --- | --- |
+| **Image** | Photos and graphics | [Image](image.md) |
+| **SVG Image** | Logos and icons that stay sharp at any size | [SVG Image](svg-image.md) |
+| **Document** | Files visitors download, such as a PDF report | [Document](document.md) |
+| **Video** | Short clips stored on your site | [Video](video.md) |
+| **Audio** | Sound files stored on your site | [Audio](audio.md) |
+| **Remote video** | Videos on YouTube or Vimeo | [Remote Video](remote-video.md) |
+| **Remote audio** | Podcasts and tracks on SoundCloud, Spotify and similar services | [Remote Audio](remote-audio.md) |
 
 ## After You Save
 
@@ -149,29 +77,22 @@ Use for podcasts and tracks hosted elsewhere. Your site keeps only the link.
 - The item is listed on the **Media** page and in the **Media Library** dialog, ready to reuse.
 - Editing the item later changes it everywhere it is used.
 
-## Uploading Many Files at Once
-
-1. On the **Media** page, click **Upload media in bulk** (`/media/bulk-upload`).
-2. Drag your files into the upload area, or click it to choose them. Up to 20 images, videos and audio files can be mixed.
-3. Wait for each file to finish, then fill in the shared fields.
-4. Click **Save**.
-
-<figure><img src="../../../.gitbook/assets/media-upload-01-bulk.png" alt="The bulk upload page with three images dropped into the upload area, each showing a finished progress bar"><figcaption><p>Uploading Several Files at Once</p></figcaption></figure>
-
-Varbase creates one media item per file, named after the file. Open each image afterwards to add its alt text.
-
-## Setting the Focal Point
-
-Images, and the cover images of videos, have a focal point: a cross on the preview you drag to the most important part, such as a face. When the image is cropped for a card or a banner, that part stays in view.
-
-<figure><img src="../../../.gitbook/assets/media-upload-02-focal-point.png" alt="An uploaded image in the media form with the focal point cross dragged onto the main subject"><figcaption><p>Setting the Focal Point</p></figcaption></figure>
-
 ## File Size
 
 Compress large files before uploading. See [Content Uploading Standards](../../additional-tips/content-uploading-standards.md).
 
+## Uploading Many Files
+
+To upload up to 20 images, videos and audio files together, see [Upload Many Files at Once](upload-many-files-at-once.md). To keep the important part of an image in view when it is cropped, see [Set the Focal Point](set-the-focal-point.md).
+
 ## In This Section
 
 - [Image](image.md)
-- [Remote Video](remote-video.md)
+- [SVG Image](svg-image.md)
+- [Document](document.md)
 - [Video](video.md)
+- [Audio](audio.md)
+- [Remote Video](remote-video.md)
+- [Remote Audio](remote-audio.md)
+- [Upload Many Files at Once](upload-many-files-at-once.md)
+- [Set the Focal Point](set-the-focal-point.md)

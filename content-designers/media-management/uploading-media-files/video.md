@@ -11,7 +11,7 @@ A video file is stored on your own site and played by the browser's video player
 1. Click **Media** in the **Navigation** sidebar, then **Add media** and **Video**.
 2. In **Video file**, choose the file and wait for the upload to finish.
 3. Fill in the **Name**.
-4. Optionally, upload a **Cover Image** to show before the video plays.
+4. Optionally, upload a **Cover Image** to show before the video plays, and set its focal point. It is on the full form at `/media/add/video`, or edit the item after saving.
 5. Click **Save**.
 
 <figure><img src="../../../.gitbook/assets/media-video-01-form.png" alt="The Add Video form with an uploaded MP4 file in Video file and the Name and Cover Image fields"><figcaption><p>Adding a Video File</p></figcaption></figure>

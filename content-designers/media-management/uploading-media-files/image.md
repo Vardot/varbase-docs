@@ -19,10 +19,18 @@ Uploading an Image With a Focal Point (Video)
    - **Alternative text** (required): what the image shows, for people who cannot see it. Click **Generate with AI** for a suggestion, then check and edit it.
    - **Image description**: optional. Left empty, AI writes a description when you save.
    - **Image tags**: optional labels to find the image later. Left empty, AI picks up to 5 tags when you save.
-4. Drag the focal point cross onto the most important part of the image.
+4. Drag the focal point cross onto the most important part of the image. See [Set the Focal Point](set-the-focal-point.md).
 5. Click **Save**.
 
 <figure><img src="../../../.gitbook/assets/media-image-01-form.png" alt="The Add Image form with an uploaded photo, the focal point cross, the Alternative text field with the Generate with AI button, and the Image description and Image tags fields"><figcaption><p>Adding an Image</p></figcaption></figure>
+
+If the form asks "Transfer image and meta data to chosen AI service?", click **Yes (this time)** to show **Generate with AI**. **Image description** and **Image tags** are on the full form at `/media/add/image`; you can also fill them later by editing the image.
+
+There is no caption field on the item: add a caption where you place the image, for example in the editor.
+
+{% hint style="warning" %}
+With **Varbase AI Safety** on, each uploaded image is checked for unsuitable content and flagged images are refused. If the form says "AI provider failed to evaluate the content", the file is likely too large for the check: resize it, for example to 2000 pixels wide, and upload it again.
+{% endhint %}
 
 ## Writing Good Alt Text
 
