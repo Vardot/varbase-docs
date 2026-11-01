@@ -2,8 +2,6 @@
 
 Everyone who works on your Varbase site has their own account, and each account has one or more roles that decide what it can do. Varbase ships roles that match real editorial jobs, so the permission plan starts mostly done. This section shows how people log in, how accounts are added, changed and removed, what each role allows, and how to plan access with a client.
 
-Watch the lesson: [Users, Roles, Personas and Permissions](../varbase-content-designers-course/lesson-14-users-roles-personas-and-permissions.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
-
 ## What It Is
 
 - An **account** belongs to one person and holds personal data: name, email, picture, language, time zone.

@@ -2,8 +2,6 @@
 
 Search engine optimisation (SEO) helps people find your site in search results, and more people now also ask AI assistants, which read websites to answer questions. Varbase sets most SEO details for you, from page titles and descriptions to a sitemap and readable addresses, gives you fields and checks to improve each page, and adds the files AI tools look for. This section shows how.
 
-Watch the lesson: [Search Engines and AI Readiness](../varbase-content-designers-course/lesson-12-search-engines-and-ai-readiness.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
-
 ## Why It Matters
 
 - Clean titles, descriptions and structured data from launch day, without per-page effort.

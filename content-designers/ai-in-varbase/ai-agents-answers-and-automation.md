@@ -2,8 +2,6 @@
 
 [AI in Varbase](./) covered AI help for editors and the controls around it. This page covers the larger features: answers for visitors, AI review of content, an assistant for editors, the Drupal Canvas AI agent that drafts pages, connections to outside AI assistants through MCP, and no-code automation with ECA. Most of these are early releases; position them as pilots.
 
-Watch the lesson: [AI in Varbase, Part 2](../varbase-content-designers-course/lesson-19-ai-in-varbase-part-2.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
-
 ## Why It Matters
 
 - Visitors get answers grounded in the client's own content, with sources.

@@ -2,8 +2,6 @@
 
 A multilingual Varbase site shows each page, post, menu and image in the visitor's language, and mirrors the whole layout for right-to-left languages such as Arabic. You write the content once in its original language, then add a translation for each other language. This section explains how translation works, how visitors switch languages, and how to plan a multilingual project. Full right-to-left support is one of Varbase's strongest differentiators, especially for Gulf and MENA clients.
 
-Watch the lesson: [Multilingual and Right to Left](../varbase-content-designers-course/lesson-13-multilingual-and-right-to-left.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
-
 <figure><img src="../../.gitbook/assets/learn-13-arabic-home-page-rtl.png" alt="The Arabic home page mirrored right to left, with the logo on the right, the menu in Arabic and the hero heading and button aligned to the right"><figcaption><p>The Arabic Home Page, Mirrored Right to Left</p></figcaption></figure>
 
 ## Why It Matters

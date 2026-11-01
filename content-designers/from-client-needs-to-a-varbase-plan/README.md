@@ -2,8 +2,6 @@
 
 This page is a method for project managers and product owners for turning a client's needs into a clear, honest Varbase plan. It follows seven steps: discover, map, choose a starting point, demo, estimate, plan the launch, and plan life after launch.
 
-Watch the lesson: [From Client Needs to a Varbase Plan](../varbase-content-designers-course/lesson-20-from-client-needs-to-a-varbase-plan.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
-
 ## 1. Discover
 
 Ask questions grouped by topic:

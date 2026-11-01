@@ -2,8 +2,6 @@
 
 Three features connect a site with its visitors: **search** helps them find content, **forms** let them speak to the organisation, and **email** carries messages both ways. Every site needs them and nobody wants to build them from scratch; Varbase ships all three ready.
 
-Watch the lesson: [Search, Forms and Email](../varbase-content-designers-course/lesson-17-search-forms-and-email.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
-
 ## What It Is
 
 - **Site search** on **Search API**, with an index in the site's own database (no extra search server). The search page is a Drupal Canvas page with a search box, results and filters by tag, content type and date. See [Site Search](site-search.md).

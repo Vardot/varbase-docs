@@ -2,8 +2,6 @@
 
 Accessibility means a website that works for everyone, including people who use screen readers, keyboards, zoom or captions. It is partly theme and partly content: Varbase builds the theme, components and admin area with accessibility in mind, and checks your content as you work with **Editoria11y**, which points to each problem on the page and explains how to fix it. This page shows how to use the checker and the habits that prevent most problems.
 
-Watch the lesson: [Accessibility](varbase-content-designers-course/lesson-16-accessibility.md) in the [Varbase: Content Designers Course](varbase-content-designers-course/).
-
 ## Why It Matters
 
 - **The law**: many countries require public-sector and many private-sector sites to meet accessibility standards. Most contracts ask for **WCAG** level AA (content must be perceivable, operable, understandable and robust).

@@ -59,4 +59,4 @@ Lesson 10: The Design System (Video)
 3. Who uses Storybook in a project, and for what?
 {% endhint %}
 
-Previous: [Lesson 9: Drupal Canvas, Part 2](lesson-09-drupal-canvas-part-2.md) | Next: [Lesson 11: Navigation and Web Addresses](lesson-11-navigation-and-web-addresses.md)
+Previous: [Lesson 9: Drupal Canvas, Part 2](lesson-09-drupal-canvas-part-2.md)

@@ -1,6 +1,6 @@
 # Varbase: Content Designers Course
 
-A free video course on Varbase 11 for project managers, product owners and content designers. Twenty lessons of about 15 to 20 minutes each follow a Varbase Starter demo site in English, Arabic and French, from what Varbase is to turning a client's needs into a plan. Each lesson page lists its chapters and the documentation sections that go deeper.
+A free video course on Varbase 11 for project managers, product owners and content designers. Lessons of about 15 to 20 minutes each follow a Varbase Starter demo site in English, Arabic and French, from what Varbase is to building pages and the design system. New lessons are added here as they are published. Each lesson page lists its chapters and the documentation sections that go deeper.
 
 {% embed url="https://www.youtube.com/playlist?list=PLRf-g9-Bc-LI" %}
 Varbase: Content Designers (Playlist)
@@ -20,15 +20,5 @@ Varbase: Content Designers (Playlist)
 | 8 | [Pages With Drupal Canvas, Part 1](lesson-08-pages-with-drupal-canvas-part-1.md) | 20:45 | [youtu.be/ghvA2EXHXXw](https://youtu.be/ghvA2EXHXXw) | [Building Pages With Drupal Canvas](../building-pages-with-drupal-canvas/README.md), [Component Catalog](../building-pages-with-drupal-canvas/component-catalog/README.md) |
 | 9 | [Drupal Canvas, Part 2](lesson-09-drupal-canvas-part-2.md) | 18:11 | [youtu.be/4IU0lRN6NYk](https://youtu.be/4IU0lRN6NYk) | [Page Types and Templates](../building-pages-with-drupal-canvas/templates-and-page-types.md) |
 | 10 | [The Design System](lesson-10-the-design-system.md) | 18:13 | [youtu.be/hWrak_fizpE](https://youtu.be/hWrak_fizpE) | [The Design System](../the-design-system/README.md) |
-| 11 | [Navigation and Web Addresses](lesson-11-navigation-and-web-addresses.md) | about 18 min | Coming soon | [URL Management](../url-management/README.md) |
-| 12 | [Search Engines and AI Readiness](lesson-12-search-engines-and-ai-readiness.md) | about 18 min | Coming soon | [Search Engine Optimization](../search-engine-optimization/README.md), [llms.txt and Markdown for AI Tools](../search-engine-optimization/llms-txt.md) |
-| 13 | [Multilingual and Right to Left](lesson-13-multilingual-and-right-to-left.md) | about 18 min | Coming soon | [Content Translation](../content-translation/README.md) |
-| 14 | [Users, Roles, Personas and Permissions](lesson-14-users-roles-personas-and-permissions.md) | about 18 min | Coming soon | [User Management](../user-management/README.md) |
-| 15 | [Security and Privacy](lesson-15-security-and-privacy.md) | about 17 min | Coming soon | [Security and Privacy](../security-and-privacy/README.md) |
-| 16 | [Accessibility](lesson-16-accessibility.md) | about 17 min | Coming soon | [Accessibility](../accessibility-checks.md) |
-| 17 | [Search, Forms and Email](lesson-17-search-forms-and-email.md) | about 17 min | Coming soon | [Search, Forms and Email](../search-forms-and-email/README.md) |
-| 18 | [AI in Varbase, Part 1](lesson-18-ai-in-varbase-part-1.md) | about 19 min | Coming soon | [AI in Varbase](../ai-in-varbase/README.md), [AI Tools in the Editor](../ai-in-varbase/ai-tools-in-the-editor.md) |
-| 19 | [AI in Varbase, Part 2](lesson-19-ai-in-varbase-part-2.md) | about 16 min | Coming soon | [AI Agents, Answers and Automation](../ai-in-varbase/ai-agents-answers-and-automation.md) |
-| 20 | [From Client Needs to a Varbase Plan](lesson-20-from-client-needs-to-a-varbase-plan.md) | about 17 min | Coming soon | [Planning a Varbase Project](../from-client-needs-to-a-varbase-plan/README.md) |
 
 Each lesson page ends with a few questions to check yourself.

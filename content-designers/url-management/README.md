@@ -2,8 +2,6 @@
 
 A site can have excellent content and still fail visitors who cannot find their way. This section covers the menus that guide people, the readable addresses (URLs) that identify each page, and the redirects that keep old links working. Varbase automates most of it, which is where launches usually go wrong.
 
-Watch the lesson: [Navigation and Web Addresses](../varbase-content-designers-course/lesson-11-navigation-and-web-addresses.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
-
 ## What It Is
 
 - **Menus**: **Main navigation**, **Footer**, **Secondary menu** and **Social media menu** are the visitor menus, under **Structure** \ _**Menus**_. Links are reordered and nested by dragging, and can be disabled without deleting. See [Menu Management](menu-management/).

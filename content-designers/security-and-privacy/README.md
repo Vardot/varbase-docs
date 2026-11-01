@@ -2,8 +2,6 @@
 
 Clients rarely ask for security in a feature list, but they always expect it, and their IT teams ask hard questions early, especially in enterprise and government projects. Varbase answers most of them with configuration that is already on. This page walks through the layers, what is switched on by default, and what a project still has to decide.
 
-Watch the lesson: [Security and Privacy](../varbase-content-designers-course/lesson-15-security-and-privacy.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
-
 ## What It Is
 
 Security works in layers, so one weakness does not open everything:
