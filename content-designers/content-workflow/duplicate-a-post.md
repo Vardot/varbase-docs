@@ -4,8 +4,8 @@ Sometimes the best start for a new post is an old one, such as this year's event
 
 ## Steps
 
-1. Open the post you want to copy, on the site or from the content list.
-2. Click the **Duplicate** tab, or choose **Duplicate** in the item's **Operations** on the content list.
+1. On the content list, find the post you want to copy.
+2. Choose **Duplicate** in its **Operations**, or open the post's **Edit** or **Revisions** tab and click the **Duplicate** tab there.
 3. The create form opens with the fields of the original filled in, and a message naming the post you are duplicating.
 4. Change the **Title** and everything else that should differ: dates, images, the description, the tags.
 5. Set **Save as** and click **Save**. Until you save, nothing is created.
