@@ -2,11 +2,11 @@
 
 Use and explain the Varbase media library (media types, uploads, alternative text, focal point, reuse, video and documents, AI help for images), and plan a client's media needs, standards and migration.
 
-{% embed url="https://youtu.be/fAnMk12iLbk" %}
+{% embed url="https://youtu.be/jQ5g1QmfpP0" %}
 Lesson 7: Media (Video)
 {% endembed %}
 
-**Length:** 19:20
+**Length:** 19:23
 
 ## Read More in the Docs
 
@@ -29,25 +29,25 @@ Lesson 7: Media (Video)
 - `07:14` Image safety
 - `07:51` Image sizes and styles
 - `08:47` Which file format
-- `09:16` Upload standards
-- `10:13` Remote video
-- `10:45` Video and consent
-- `11:18` Hosted video and audio
-- `11:48` Documents
-- `12:23` Vector graphics
-- `12:51` Media inside content
-- `13:24` Editing media from content
-- `13:48` Where is this used?
-- `14:19` Bulk uploads
-- `14:46` Translating media
-- `15:18` Deleting media
-- `15:38` Media and privacy
-- `16:09` Housekeeping
-- `16:34` Generating images with AI
-- `17:03` Planning media in a project
-- `17:40` Common pitfalls
-- `18:10` Recap
-- `18:49` Check yourself, and what comes next
+- `09:17` Upload standards
+- `10:15` Remote video
+- `10:46` Video and consent
+- `11:19` Hosted video and audio
+- `11:49` Documents
+- `12:25` Vector graphics
+- `12:52` Media inside content
+- `13:25` Editing media from content
+- `13:50` Where is this used?
+- `14:22` Bulk uploads
+- `14:48` Translating media
+- `15:20` Deleting media
+- `15:40` Media and privacy
+- `16:11` Housekeeping
+- `16:36` Generating images with AI
+- `17:05` Planning media in a project
+- `17:42` Common pitfalls
+- `18:12` Recap
+- `18:52` Check yourself, and what comes next
 
 ## Check Yourself
 
