@@ -35,3 +35,4 @@ Varbase is designed for:
 * **Drupal.org project page**: [https://www.drupal.org/project/varbase](https://www.drupal.org/project/varbase)
 * **GitHub organization**: [https://github.com/Vardot](https://github.com/Vardot)
 * **Vardot website**: [https://www.vardot.com/](https://www.vardot.com/)
+* **Talks and podcasts**: [Varbase in the Community](varbase-in-the-community.md)
