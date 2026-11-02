@@ -2,7 +2,7 @@
 
 **Drupal Canvas** is the page builder in Varbase. You build a page by placing ready-made components, such as headings, images, cards and sliders, and editing them where they appear on the page. It is the feature to lead with when a client's marketing team will own the site. This section shows how to create pages, work in the editor, use every component, and publish your changes.
 
-Watch the lesson: [Pages With Drupal Canvas, Part 1](../varbase-content-designers-course/lesson-08-pages-with-drupal-canvas-part-1.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
+Watch the lesson: [Pages With Drupal Canvas](../varbase-content-designers-course/lesson-08-pages-with-drupal-canvas-part-1.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
 
 ## Why It Matters
 

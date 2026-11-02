@@ -1,9 +1,9 @@
-# Lesson 8: Pages With Drupal Canvas, Part 1
+# Lesson 8: Pages With Drupal Canvas
 
 Open, read and use the Drupal Canvas editor (Library, Layers, preview and settings), build a new page from components and patterns, review and publish it, and explain to a client what editors can and cannot change.
 
 {% embed url="https://youtu.be/ghvA2EXHXXw" %}
-Lesson 8: Pages With Drupal Canvas, Part 1 (Video)
+Lesson 8: Pages With Drupal Canvas (Video)
 {% endembed %}
 
 **Length:** 20:45
@@ -64,4 +64,4 @@ Lesson 8: Pages With Drupal Canvas, Part 1 (Video)
 3. What does **Review changes** let an editor do before publishing?
 {% endhint %}
 
-Previous: [Lesson 7: Media](lesson-07-media.md) | Next: [Lesson 9: Drupal Canvas, Part 2](lesson-09-drupal-canvas-part-2.md)
+Previous: [Lesson 7: Media](lesson-07-media.md) | Next: [Lesson 9: Drupal Canvas: Templates and Page Types](lesson-09-drupal-canvas-part-2.md)

@@ -57,4 +57,4 @@ Lesson 7: Media (Video)
 3. What should you check before deleting an image from the library?
 {% endhint %}
 
-Previous: [Lesson 6: Editorial Workflow](lesson-06-editorial-workflow.md) | Next: [Lesson 8: Pages With Drupal Canvas, Part 1](lesson-08-pages-with-drupal-canvas-part-1.md)
+Previous: [Lesson 6: Editorial Workflow](lesson-06-editorial-workflow.md) | Next: [Lesson 8: Pages With Drupal Canvas](lesson-08-pages-with-drupal-canvas-part-1.md)
