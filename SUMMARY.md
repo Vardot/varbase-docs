@@ -5,6 +5,7 @@
   * [Roadmap](overview/roadmap.md)
   * [Release Cycle and Supported Versions](overview/release-cycle-and-supported-versions.md)
   * [How to Get Support](overview/update.md)
+  * [Varbase in the Community](overview/varbase-in-the-community.md)
 * [Developers](developers/README.md)
   * [Getting Started](developers/getting-started.md)
   * [Installing Varbase](developers/installing-varbase/README.md)
