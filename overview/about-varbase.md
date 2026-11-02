@@ -33,6 +33,10 @@ We simplify and organize all the work for you! So you can enjoy building your we
 
 
 
+## Varbase in the Community
+
+Talks and podcasts about Varbase are collected on [Varbase in the Community](varbase-in-the-community.md).
+
 ## Credits
 
 [Varbase](https://www.drupal.org/project/varbase) is a product of [Vardot](https://www.vardot.com/), the enterprise Drupal solutions provider.
