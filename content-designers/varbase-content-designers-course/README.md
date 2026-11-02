@@ -15,7 +15,7 @@ Varbase: Content Designers (Playlist)
 | 3 | [Finding Your Way](lesson-03-finding-your-way.md) | 21:29 | [youtu.be/ZbGtfilou6M](https://youtu.be/ZbGtfilou6M) | [Accessing the Administration Area](../accessing-the-administration-area/README.md) |
 | 4 | [The Content Model](lesson-04-the-content-model.md) | 20:29 | [youtu.be/56RErvbw-Hk](https://youtu.be/56RErvbw-Hk) | [Content Structure](../content-structure/README.md), [Content Types and Fields](../content-structure/content-types-and-fields.md) |
 | 5 | [Creating Content](lesson-05-creating-content.md) | 19:24 | [youtu.be/ib2ZC7eQs4M](https://youtu.be/ib2ZC7eQs4M) | [Content Management](../content-management/README.md) |
-| 6 | [Editorial Workflow](lesson-06-editorial-workflow.md) | 18:13 | [youtu.be/wIRbId0aEQM](https://youtu.be/wIRbId0aEQM) | [Content Workflow](../content-workflow/README.md) |
+| 6 | [Editorial Workflow](lesson-06-editorial-workflow.md) | 19:15 | [youtu.be/eLAoF0tgoe4](https://youtu.be/eLAoF0tgoe4) | [Content Workflow](../content-workflow/README.md) |
 | 7 | [Media](lesson-07-media.md) | 18:20 | [youtu.be/DjaKFFxInlk](https://youtu.be/DjaKFFxInlk) | [Media Management](../media-management/README.md) |
 | 8 | [Pages With Drupal Canvas](lesson-08-pages-with-drupal-canvas-part-1.md) | 20:45 | [youtu.be/ghvA2EXHXXw](https://youtu.be/ghvA2EXHXXw) | [Building Pages With Drupal Canvas](../building-pages-with-drupal-canvas/README.md), [Component Catalog](../building-pages-with-drupal-canvas/component-catalog/README.md) |
 | 9 | [Drupal Canvas: Templates and Page Types](lesson-09-drupal-canvas-part-2.md) | 18:11 | [youtu.be/4IU0lRN6NYk](https://youtu.be/4IU0lRN6NYk) | [Page Types and Templates](../building-pages-with-drupal-canvas/templates-and-page-types/README.md) |
