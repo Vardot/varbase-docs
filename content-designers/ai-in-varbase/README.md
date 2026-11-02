@@ -2,6 +2,8 @@
 
 Varbase adds AI where it helps the people who write and publish, with the controls that keep it safe and on brand. This page covers how AI is added to a site, the help it gives editors every day, and the governance around it: providers, context, guardrails, logs and consent. [AI Agents, Answers and Automation](ai-agents-answers-and-automation.md) covers the AI that acts: agents, answers for visitors, the Canvas AI builder, MCP and automation.
 
+Watch the lessons: [AI in Varbase: Recipes, Writing Help, Images and Guardrails](../varbase-content-designers-course/lesson-18-ai-recipes-writing-help-images-and-guardrails.md) and [AI in Varbase: Answers, Reviews, Assistants and Automation](../varbase-content-designers-course/lesson-19-ai-answers-reviews-assistants-and-automation.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
+
 ## Four Principles
 
 1. **Optional**: each AI feature is a recipe, applied only if the client wants it.

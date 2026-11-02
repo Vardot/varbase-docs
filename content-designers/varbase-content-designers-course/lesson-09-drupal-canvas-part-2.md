@@ -1,9 +1,9 @@
-# Lesson 9: Drupal Canvas, Part 2
+# Lesson 9: Drupal Canvas: Templates and Page Types
 
 Build common page types with one repeatable method, explain and safely edit the header and footer in the Canvas page template, and explain how content templates lay out every blog post and card, so a client's page plan can be scoped and estimated.
 
 {% embed url="https://youtu.be/4IU0lRN6NYk" %}
-Lesson 9: Drupal Canvas, Part 2 (Video)
+Lesson 9: Drupal Canvas: Templates and Page Types (Video)
 {% endembed %}
 
 **Length:** 18:11
@@ -61,4 +61,4 @@ Lesson 9: Drupal Canvas, Part 2 (Video)
 3. When would you give a single post its own layout?
 {% endhint %}
 
-Previous: [Lesson 8: Pages With Drupal Canvas, Part 1](lesson-08-pages-with-drupal-canvas-part-1.md) | Next: [Lesson 10: The Design System](lesson-10-the-design-system.md)
+Previous: [Lesson 8: Pages With Drupal Canvas](lesson-08-pages-with-drupal-canvas-part-1.md) | Next: [Lesson 10: The Design System](lesson-10-the-design-system.md)

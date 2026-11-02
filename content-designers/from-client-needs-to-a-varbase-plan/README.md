@@ -2,6 +2,8 @@
 
 This page is a method for project managers and product owners for turning a client's needs into a clear, honest Varbase plan. It follows seven steps, each on its own page below.
 
+Watch the lesson: [From Client Needs to a Varbase Plan](../varbase-content-designers-course/lesson-20-from-client-needs-to-a-varbase-plan.md) in the [Varbase: Content Designers Course](../varbase-content-designers-course/).
+
 ## The Method
 
 1. [Run a Discovery Session](run-a-discovery-session.md): questions by topic, the real need behind each request, constraints and who decides.

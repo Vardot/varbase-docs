@@ -2,7 +2,7 @@
 
 Building one page is the start. This page is about consistency across hundreds of pages: the common page types most clients need, built with one repeatable method; the header and footer every page shares; and content templates, which lay out every blog post and every card without anyone building them one by one.
 
-Watch the lesson: [Drupal Canvas, Part 2](../../varbase-content-designers-course/lesson-09-drupal-canvas-part-2.md) in the [Varbase: Content Designers Course](../../varbase-content-designers-course/).
+Watch the lesson: [Drupal Canvas: Templates and Page Types](../../varbase-content-designers-course/lesson-09-drupal-canvas-part-2.md) in the [Varbase: Content Designers Course](../../varbase-content-designers-course/).
 
 ## Why It Matters
 
