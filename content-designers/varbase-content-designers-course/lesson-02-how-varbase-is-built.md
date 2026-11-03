@@ -14,36 +14,36 @@ Lesson 2: How Varbase Is Built (Video)
 
 ## Chapters
 
-- `00:04` Welcome to lesson two
-- `00:48` The problem recipes solve
-- `01:35` What is inside a recipe
-- `02:10` Applied once, then it belongs to the site
-- `02:52` Layers of recipes
-- `03:34` Where recipes come from
-- `04:06` An everyday comparison
-- `04:41` Foundation recipes
-- `05:17` What the foundation looks like on the site
-- `05:58` Performance and security out of the box
-- `06:39` Content recipes
-- `07:23` Feature recipes
-- `07:54` Optional recipes
-- `08:33` Demo content
-- `09:10` Recipes from Drupal CMS and Easy Email
-- `09:53` What a site template is
-- `10:30` Varbase Starter
-- `11:20` Patterns come with the template
-- `12:15` Educare
-- `12:55` Horizon Aid
-- `13:34` The Rightup
-- `14:16` Same base, different starting points
-- `14:58` Choosing the starting point
-- `15:39` Adding features later
-- `16:16` What recipes do not do
-- `16:50` Your own recipes
-- `17:31` Questions to ask the client
-- `18:11` Checking what a site has
-- `18:43` Recap
-- `19:30` Check yourself, and what comes next
+- [00:00](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=0s) Welcome to lesson two
+- [00:48](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=48s) The problem recipes solve
+- [01:35](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=95s) What is inside a recipe
+- [02:10](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=130s) Applied once, then it belongs to the site
+- [02:52](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=172s) Layers of recipes
+- [03:34](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=214s) Where recipes come from
+- [04:06](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=246s) An everyday comparison
+- [04:41](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=281s) Foundation recipes
+- [05:17](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=317s) What the foundation looks like on the site
+- [05:58](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=358s) Performance and security out of the box
+- [06:39](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=399s) Content recipes
+- [07:23](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=443s) Feature recipes
+- [07:54](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=474s) Optional recipes
+- [08:33](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=513s) Demo content
+- [09:10](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=550s) Recipes from Drupal CMS and Easy Email
+- [09:53](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=593s) What a site template is
+- [10:30](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=630s) Varbase Starter
+- [11:20](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=680s) Patterns come with the template
+- [12:15](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=735s) Educare
+- [12:55](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=775s) Horizon Aid
+- [13:34](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=814s) The Rightup
+- [14:16](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=856s) Same base, different starting points
+- [14:58](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=898s) Choosing the starting point
+- [15:39](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=939s) Adding features later
+- [16:16](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=976s) What recipes do not do
+- [16:50](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=1010s) Your own recipes
+- [17:31](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=1051s) Questions to ask the client
+- [18:11](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=1091s) Checking what a site has
+- [18:43](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=1123s) Recap
+- [19:30](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=1170s) Check yourself, and what comes next
 
 ## Check Yourself
 
