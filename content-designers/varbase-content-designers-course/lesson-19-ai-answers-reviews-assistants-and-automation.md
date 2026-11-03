@@ -15,44 +15,44 @@ Lesson 19: AI in Varbase: Answers, Reviews, Assistants and Automation (Video)
 
 ## Chapters
 
-- `00:00` Welcome to lesson nineteen
-- `00:39` Search by meaning
-- `01:21` Ask AI
-- `01:50` Adding Ask AI to a page
-- `02:18` Asking a question
-- `02:52` Answers in the visitor's language
-- `03:14` Content quality drives answers
-- `03:38` The visitor chatbot
-- `04:11` Promising answers responsibly
-- `04:39` AI content review
-- `05:02` The four criteria
-- `05:38` Running a review
-- `06:01` Rules and records
-- `06:29` Reviews in daily work
-- `07:00` Reviews for content audits
-- `07:26` The content operations assistant
-- `07:55` Asking for an audit
-- `08:21` Changes need approval
-- `08:48` The site set-up assistant
-- `09:08` The Drupal Canvas AI agent
-- `09:33` Drafting a page
-- `10:09` From a picture
-- `10:38` Why the result stays on brand
-- `11:04` Reviewing an AI-built page
-- `11:31` Who may use it
-- `11:53` MCP: outside AI tools
-- `12:21` How it is protected
-- `12:48` What the assistant can do
-- `13:23` What ECA is
-- `14:00` What the studio site automates
-- `14:33` The Workflow Modeler
-- `14:58` AI and automation together
-- `15:27` Governing automation
-- `15:48` Automations clients ask for
-- `16:21` What to promise, what to pilot
-- `16:58` A sensible roadmap
-- `17:30` Recap
-- `18:19` Check yourself, and what comes next
+- [00:00](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=0s) Welcome to lesson nineteen
+- [00:39](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=39s) Search by meaning
+- [01:21](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=81s) Ask AI
+- [01:50](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=110s) Adding Ask AI to a page
+- [02:18](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=138s) Asking a question
+- [02:52](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=172s) Answers in the visitor's language
+- [03:14](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=194s) Content quality drives answers
+- [03:38](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=218s) The visitor chatbot
+- [04:11](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=251s) Promising answers responsibly
+- [04:39](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=279s) AI content review
+- [05:02](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=302s) The four criteria
+- [05:38](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=338s) Running a review
+- [06:01](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=361s) Rules and records
+- [06:29](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=389s) Reviews in daily work
+- [07:00](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=420s) Reviews for content audits
+- [07:26](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=446s) The content operations assistant
+- [07:55](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=475s) Asking for an audit
+- [08:21](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=501s) Changes need approval
+- [08:48](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=528s) The site set-up assistant
+- [09:08](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=548s) The Drupal Canvas AI agent
+- [09:33](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=573s) Drafting a page
+- [10:09](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=609s) From a picture
+- [10:38](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=638s) Why the result stays on brand
+- [11:04](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=664s) Reviewing an AI-built page
+- [11:31](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=691s) Who may use it
+- [11:53](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=713s) MCP: outside AI tools
+- [12:21](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=741s) How it is protected
+- [12:48](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=768s) What the assistant can do
+- [13:23](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=803s) What ECA is
+- [14:00](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=840s) What the studio site automates
+- [14:33](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=873s) The Workflow Modeler
+- [14:58](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=898s) AI and automation together
+- [15:27](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=927s) Governing automation
+- [15:48](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=948s) Automations clients ask for
+- [16:21](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=981s) What to promise, what to pilot
+- [16:58](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=1018s) A sensible roadmap
+- [17:30](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=1050s) Recap
+- [18:19](https://www.youtube.com/watch?v=A5wXR2dRFis&list=PLRf-g9-Bc-LI&t=1099s) Check yourself, and what comes next
 
 ## Check Yourself
 

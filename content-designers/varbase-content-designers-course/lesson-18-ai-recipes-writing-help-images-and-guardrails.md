@@ -16,44 +16,44 @@ Lesson 18: AI in Varbase: Recipes, Writing Help, Images and Guardrails (Video)
 
 ## Chapters
 
-- `00:00` Welcome to lesson eighteen
-- `00:39` The principles
-- `01:11` AI as recipes
-- `01:55` What is on the studio site
-- `02:30` Where AI lives in the admin
-- `03:01` Providers
-- `03:30` Default models per task
-- `04:03` Keys are secrets
-- `04:29` The data agreement
-- `04:58` Cost in plain words
-- `05:28` The writing assistant
-- `06:06` Using a suggestion
-- `06:35` Prompts can be tuned
-- `07:09` Suggesting tags
-- `07:32` Search engine fields
-- `07:58` AI on any field
-- `08:29` Alternative text on request
-- `09:01` House style for alternative text
-- `09:29` Description and tags on save
-- `09:53` Many images at once
-- `10:15` Image safety
-- `10:44` Why context matters
-- `11:10` The context control center
-- `11:40` Inside a context item
-- `12:10` Testing the effect of context
-- `12:39` Targeting context
-- `13:10` Guardrails
-- `13:38` Guardrail sets
-- `14:12` AI logs
-- `14:40` How long logs are kept
-- `15:03` Consent
-- `15:31` Start small
-- `15:56` Measuring value
-- `16:21` Training editors on AI
-- `16:49` Questions for the client
-- `17:13` Honest expectations
-- `17:41` Recap
-- `18:29` Check yourself, and what comes next
+- [00:00](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=0s) Welcome to lesson eighteen
+- [00:39](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=39s) The principles
+- [01:11](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=71s) AI as recipes
+- [01:55](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=115s) What is on the studio site
+- [02:30](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=150s) Where AI lives in the admin
+- [03:01](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=181s) Providers
+- [03:30](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=210s) Default models per task
+- [04:03](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=243s) Keys are secrets
+- [04:29](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=269s) The data agreement
+- [04:58](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=298s) Cost in plain words
+- [05:28](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=328s) The writing assistant
+- [06:06](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=366s) Using a suggestion
+- [06:35](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=395s) Prompts can be tuned
+- [07:09](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=429s) Suggesting tags
+- [07:32](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=452s) Search engine fields
+- [07:58](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=478s) AI on any field
+- [08:29](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=509s) Alternative text on request
+- [09:01](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=541s) House style for alternative text
+- [09:29](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=569s) Description and tags on save
+- [09:53](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=593s) Many images at once
+- [10:15](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=615s) Image safety
+- [10:44](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=644s) Why context matters
+- [11:10](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=670s) The context control center
+- [11:40](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=700s) Inside a context item
+- [12:10](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=730s) Testing the effect of context
+- [12:39](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=759s) Targeting context
+- [13:10](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=790s) Guardrails
+- [13:38](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=818s) Guardrail sets
+- [14:12](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=852s) AI logs
+- [14:40](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=880s) How long logs are kept
+- [15:03](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=903s) Consent
+- [15:31](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=931s) Start small
+- [15:56](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=956s) Measuring value
+- [16:21](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=981s) Training editors on AI
+- [16:49](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=1009s) Questions for the client
+- [17:13](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=1033s) Honest expectations
+- [17:41](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=1061s) Recap
+- [18:29](https://www.youtube.com/watch?v=r4N62ebDNVQ&list=PLRf-g9-Bc-LI&t=1109s) Check yourself, and what comes next
 
 ## Check Yourself
 
