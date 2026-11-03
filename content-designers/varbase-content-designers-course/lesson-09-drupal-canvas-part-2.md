@@ -2,11 +2,11 @@
 
 Build common page types with one repeatable method, explain and safely edit the header and footer in the Canvas page template, and explain how content templates lay out every blog post and card, so a client's page plan can be scoped and estimated.
 
-{% embed url="https://youtu.be/4IU0lRN6NYk" %}
+{% embed url="https://youtu.be/lKkW02bs8V8" %}
 Lesson 9: Drupal Canvas: Templates and Page Types (Video)
 {% endembed %}
 
-**Length:** 18:11
+**Length:** 20:01
 
 ## Read More in the Docs
 
@@ -15,43 +15,43 @@ Lesson 9: Drupal Canvas: Templates and Page Types (Video)
 ## Chapters
 
 - `00:00` Welcome to lesson nine
-- `00:39` The repeatable method
-- `01:10` A services page
-- `01:55` A products or plans page
-- `02:22` An event page
-- `03:02` A campaign landing page
-- `03:37` Starting from a copy
-- `04:04` An about page
-- `04:37` A contact page
-- `05:06` Listing pages
-- `05:40` The search page
-- `06:05` New pages and the menu
-- `06:33` Search engine details for pages
-- `06:58` Planning a site's pages
-- `07:26` The page template
-- `07:53` Turned on in the theme
-- `08:13` Who may edit them
-- `08:39` Opening the page template
-- `09:11` Menus are edited elsewhere
-- `09:35` Adding a button to the header
-- `10:02` Editing the template on its own
-- `10:24` Header and footer on phones
-- `10:48` Reviewing a template change
-- `11:09` Footer changes
-- `11:33` Planning the header and footer
-- `12:02` What a content template is
-- `12:35` Templates for each view
-- `13:02` Opening a template
-- `13:25` Fields in components
-- `13:51` Changing a template
-- `14:20` Caution with templates
-- `14:44` Who may change templates
-- `15:14` Templates and languages
-- `15:37` Testing a template change
-- `15:59` One post, its own layout
-- `16:32` Planning templates in a project
-- `17:01` Recap
-- `17:38` Check yourself, and what comes next
+- `00:42` The repeatable method
+- `01:15` A services page
+- `02:05` A products or plans page
+- `02:36` An event page
+- `03:17` A campaign landing page
+- `03:55` Starting from a copy
+- `04:24` An about page
+- `05:04` A contact page
+- `05:36` Listing pages
+- `06:13` The search page
+- `06:41` New pages and the menu
+- `07:10` Search engine details for pages
+- `07:38` Planning a site's pages
+- `08:10` The page template
+- `08:40` Turned on in the theme
+- `09:02` Who may edit them
+- `09:31` Opening the page template
+- `10:10` Menus are edited elsewhere
+- `10:37` Adding a button to the header
+- `11:06` Editing the template on its own
+- `11:29` Header and footer on phones
+- `11:53` Reviewing a template change
+- `12:16` Footer changes
+- `12:42` Planning the header and footer
+- `13:14` What a content template is
+- `13:49` Templates for each view
+- `14:20` Opening a template
+- `14:48` Fields in components
+- `15:18` Changing a template
+- `15:49` Caution with templates
+- `16:14` Who may change templates
+- `16:47` Templates and languages
+- `17:13` Testing a template change
+- `17:35` One post, its own layout
+- `18:12` Planning templates in a project
+- `18:43` Recap
+- `19:24` Check yourself, and what comes next
 
 ## Check Yourself
 
