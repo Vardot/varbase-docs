@@ -10,7 +10,7 @@ Varbase: Content Designers (Playlist)
 
 | # | Lesson | Length | Video | Docs |
 | --- | --- | --- | --- | --- |
-| 1 | [Varbase in the Drupal World](lesson-01-varbase-in-the-drupal-world.md) | 19:45 | [youtu.be/6cNM_1YEL0Q](https://youtu.be/6cNM_1YEL0Q) | [Varbase in the Drupal World](../varbase-in-the-drupal-world/README.md) |
+| 1 | [Varbase in the Drupal World](lesson-01-varbase-in-the-drupal-world.md) | 19:32 | [youtu.be/h2uhzf7MKOQ](https://youtu.be/h2uhzf7MKOQ) | [Varbase in the Drupal World](../varbase-in-the-drupal-world/README.md) |
 | 2 | [How Varbase Is Built](lesson-02-how-varbase-is-built.md) | 20:05 | [youtu.be/Mijc0B8D-hY](https://youtu.be/Mijc0B8D-hY) | [How Varbase Is Built](../how-varbase-is-built/README.md) |
 | 3 | [Finding Your Way](lesson-03-finding-your-way.md) | 21:29 | [youtu.be/ZbGtfilou6M](https://youtu.be/ZbGtfilou6M) | [Accessing the Administration Area](../accessing-the-administration-area/README.md) |
 | 4 | [The Content Model](lesson-04-the-content-model.md) | 20:29 | [youtu.be/56RErvbw-Hk](https://youtu.be/56RErvbw-Hk) | [Content Structure](../content-structure/README.md), [Content Types and Fields](../content-structure/content-types-and-fields.md) |
