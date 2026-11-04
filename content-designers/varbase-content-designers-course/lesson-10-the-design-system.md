@@ -59,4 +59,4 @@ Lesson 10: The Design System (Video)
 3. Who uses Storybook in a project, and for what?
 {% endhint %}
 
-Previous: [Lesson 9: Drupal Canvas: Templates and Page Types](lesson-09-drupal-canvas-part-2.md) | Next: [Lesson 18: AI in Varbase: Recipes, Writing Help, Images and Guardrails](lesson-18-ai-recipes-writing-help-images-and-guardrails.md)
+Previous: [Lesson 9: Drupal Canvas: Templates and Page Types](lesson-09-drupal-canvas-part-2.md) | Next: [Lesson 11: Navigation and Web Addresses](lesson-11-navigation-and-web-addresses.md)

@@ -310,6 +310,7 @@
     * [Lesson 8: Pages With Drupal Canvas](content-designers/varbase-content-designers-course/lesson-08-pages-with-drupal-canvas-part-1.md)
     * [Lesson 9: Drupal Canvas: Templates and Page Types](content-designers/varbase-content-designers-course/lesson-09-drupal-canvas-part-2.md)
     * [Lesson 10: The Design System](content-designers/varbase-content-designers-course/lesson-10-the-design-system.md)
+    * [Lesson 11: Navigation and Web Addresses](content-designers/varbase-content-designers-course/lesson-11-navigation-and-web-addresses.md)
     * [Lesson 18: AI in Varbase: Recipes, Writing Help, Images and Guardrails](content-designers/varbase-content-designers-course/lesson-18-ai-recipes-writing-help-images-and-guardrails.md)
     * [Lesson 19: AI in Varbase: Answers, Reviews, Assistants and Automation](content-designers/varbase-content-designers-course/lesson-19-ai-answers-reviews-assistants-and-automation.md)
     * [Lesson 20: From Client Needs to a Varbase Plan](content-designers/varbase-content-designers-course/lesson-20-from-client-needs-to-a-varbase-plan.md)
