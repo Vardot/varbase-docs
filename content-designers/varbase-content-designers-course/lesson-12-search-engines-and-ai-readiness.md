@@ -63,4 +63,4 @@ Lesson 12: Search Engines and AI Readiness (Video)
 3. What does adding .md to a post's address give an AI tool?
 {% endhint %}
 
-Previous: [Lesson 11: Navigation and Web Addresses](lesson-11-navigation-and-web-addresses.md) | Next: [Lesson 18: AI in Varbase: Recipes, Writing Help, Images and Guardrails](lesson-18-ai-recipes-writing-help-images-and-guardrails.md)
+Previous: [Lesson 11: Navigation and Web Addresses](lesson-11-navigation-and-web-addresses.md) | Next: [Lesson 13: Multilingual Sites and Right-to-Left](lesson-13-multilingual-sites-and-right-to-left.md)
