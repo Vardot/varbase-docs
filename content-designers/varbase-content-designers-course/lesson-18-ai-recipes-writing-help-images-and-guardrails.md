@@ -63,4 +63,4 @@ Lesson 18: AI in Varbase: Recipes, Writing Help, Images and Guardrails (Video)
 3. Name two kinds of guardrails on the studio site.
 {% endhint %}
 
-Previous: [Lesson 13: Multilingual Sites and Right-to-Left](lesson-13-multilingual-sites-and-right-to-left.md) | Next: [Lesson 19: AI in Varbase: Answers, Reviews, Assistants and Automation](lesson-19-ai-answers-reviews-assistants-and-automation.md)
+Previous: [Lesson 14: Users, Roles, Personas and Permissions](lesson-14-users-roles-personas-and-permissions.md) | Next: [Lesson 19: AI in Varbase: Answers, Reviews, Assistants and Automation](lesson-19-ai-answers-reviews-assistants-and-automation.md)
