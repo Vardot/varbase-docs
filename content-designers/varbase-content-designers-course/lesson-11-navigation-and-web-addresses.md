@@ -65,4 +65,4 @@ Lesson 11: Navigation and Web Addresses (Video)
 3. What would you do first with a new client's old website addresses?
 {% endhint %}
 
-Previous: [Lesson 10: The Design System](lesson-10-the-design-system.md) | Next: [Lesson 18: AI in Varbase: Recipes, Writing Help, Images and Guardrails](lesson-18-ai-recipes-writing-help-images-and-guardrails.md)
+Previous: [Lesson 10: The Design System](lesson-10-the-design-system.md) | Next: [Lesson 12: Search Engines and AI Readiness](lesson-12-search-engines-and-ai-readiness.md)
