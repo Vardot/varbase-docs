@@ -2,11 +2,11 @@
 
 Explain how the Varbase design system works (Vartheme BS5, its component library from foundation to organisms, and Storybook), how a client's brand is applied, and how to scope design and front-end work against what already exists.
 
-{% embed url="https://youtu.be/hWrak_fizpE" %}
+{% embed url="https://youtu.be/SG_NIgG4T5c" %}
 Lesson 10: The Design System (Video)
 {% endembed %}
 
-**Length:** 18:13
+**Length:** 20:53
 
 ## Read More in the Docs
 
@@ -14,42 +14,42 @@ Lesson 10: The Design System (Video)
 
 ## Chapters
 
-- `00:00` Welcome to lesson ten
-- `00:31` A design system in plain words
-- `01:07` Why it matters to a client
-- `01:43` Vartheme BS5
-- `02:15` The theme and Canvas
-- `02:44` Built to be extended
-- `03:14` Responsive by design
-- `03:44` Speed comes with it
-- `04:10` From small to large
-- `04:50` Counting the pieces
-- `05:21` Layout components
-- `05:55` Forms follow the system too
-- `06:18` Cards, a closer look
-- `06:59` Variants instead of free styling
-- `07:32` Icons
-- `07:55` Accessibility built into components
-- `08:24` What Storybook is
-- `08:52` Finding your way in Storybook
-- `09:17` A component's stories
-- `10:02` Getting started in Storybook
-- `10:17` Reviewing accessibility in Storybook
-- `10:42` Changing a story's settings
-- `11:09` Storybook in the project process
-- `11:37` The demo Storybook
-- `11:53` What changes for a brand
-- `12:22` Tokens: change once, apply everywhere
-- `12:56` Fonts
-- `13:24` Beyond the website
-- `13:52` Mapping a design to the system
-- `14:24` A worked example
-- `15:00` When the template theme fits
-- `15:37` Who changes what
-- `16:05` Questions for the brand kick-off
-- `16:39` Keeping the system healthy
-- `17:02` Recap
-- `17:42` Check yourself, and what comes next
+- [00:00](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=0s) Welcome to lesson ten
+- [00:34](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=34s) A design system in plain words
+- [01:18](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=78s) Why it matters to a client
+- [02:01](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=121s) Vartheme BS5
+- [02:34](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=154s) The theme and Canvas
+- [03:10](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=190s) Built to be extended
+- [03:53](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=233s) Responsive by design
+- [04:24](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=264s) Speed comes with it
+- [04:53](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=293s) From small to large
+- [05:36](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=336s) Counting the pieces
+- [06:11](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=371s) Layout components
+- [06:51](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=411s) Forms follow the system too
+- [07:17](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=437s) Cards, a closer look
+- [08:10](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=490s) Variants instead of free styling
+- [08:45](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=525s) Icons
+- [09:10](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=550s) Accessibility built into components
+- [09:41](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=581s) What Storybook is
+- [10:12](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=612s) Finding your way in Storybook
+- [10:40](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=640s) A component's stories
+- [11:35](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=695s) Getting started in Storybook
+- [11:52](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=712s) Reviewing accessibility in Storybook
+- [12:19](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=739s) Changing a story's settings
+- [12:52](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=772s) Storybook in the project process
+- [13:21](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=801s) The demo Storybook
+- [13:38](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=818s) What changes for a brand
+- [14:11](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=851s) Tokens: change once, apply everywhere
+- [15:01](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=901s) Fonts
+- [15:36](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=936s) Beyond the website
+- [16:04](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=964s) Mapping a design to the system
+- [16:41](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=1001s) A worked example
+- [17:23](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=1043s) When the template theme fits
+- [18:03](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=1083s) Who changes what
+- [18:32](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=1112s) Questions for the brand kick-off
+- [19:10](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=1150s) Keeping the system healthy
+- [19:35](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=1175s) Recap
+- [20:19](https://www.youtube.com/watch?v=SG_NIgG4T5c&list=PLRf-g9-Bc-LI&t=1219s) Check yourself, and what comes next
 
 ## Check Yourself
 
@@ -59,4 +59,4 @@ Lesson 10: The Design System (Video)
 3. Who uses Storybook in a project, and for what?
 {% endhint %}
 
-Previous: [Lesson 9: Drupal Canvas: Templates and Page Types](lesson-09-drupal-canvas-part-2.md) | Next: [Lesson 18: AI in Varbase: Recipes, Writing Help, Images and Guardrails](lesson-18-ai-recipes-writing-help-images-and-guardrails.md)
+Previous: [Lesson 9: Drupal Canvas: Templates and Page Types](lesson-09-drupal-canvas-part-2.md) | Next: [Lesson 11: Navigation and Web Addresses](lesson-11-navigation-and-web-addresses.md)
