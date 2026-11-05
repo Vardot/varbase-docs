@@ -66,4 +66,4 @@ Lesson 13: Multilingual Sites and Right-to-Left (Video)
 3. What does the Canvas translation workspace show for each page and language?
 {% endhint %}
 
-Previous: [Lesson 12: Search Engines and AI Readiness](lesson-12-search-engines-and-ai-readiness.md) | Next: [Lesson 18: AI in Varbase: Recipes, Writing Help, Images and Guardrails](lesson-18-ai-recipes-writing-help-images-and-guardrails.md)
+Previous: [Lesson 12: Search Engines and AI Readiness](lesson-12-search-engines-and-ai-readiness.md) | Next: [Lesson 14: Users, Roles, Personas and Permissions](lesson-14-users-roles-personas-and-permissions.md)
