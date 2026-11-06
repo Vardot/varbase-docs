@@ -2,11 +2,11 @@
 
 Explain recipes and site templates without code, name the main Varbase recipe groups and what each gives a site, compare the four Vardot site templates, and use them to shape a project's starting point and scope.
 
-{% embed url="https://youtu.be/Mijc0B8D-hY" %}
+{% embed url="https://youtu.be/XTDtcoo3ZsA" %}
 Lesson 2: How Varbase Is Built (Video)
 {% endembed %}
 
-**Length:** 20:05
+**Length:** 19:25
 
 ## Read More in the Docs
 
@@ -14,36 +14,36 @@ Lesson 2: How Varbase Is Built (Video)
 
 ## Chapters
 
-- [00:00](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=0s) Welcome to lesson two
-- [00:48](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=48s) The problem recipes solve
-- [01:35](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=95s) What is inside a recipe
-- [02:10](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=130s) Applied once, then it belongs to the site
-- [02:52](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=172s) Layers of recipes
-- [03:34](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=214s) Where recipes come from
-- [04:06](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=246s) An everyday comparison
-- [04:41](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=281s) Foundation recipes
-- [05:17](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=317s) What the foundation looks like on the site
-- [05:58](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=358s) Performance and security out of the box
-- [06:39](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=399s) Content recipes
-- [07:23](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=443s) Feature recipes
-- [07:54](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=474s) Optional recipes
-- [08:33](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=513s) Demo content
-- [09:10](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=550s) Recipes from Drupal CMS and Easy Email
-- [09:53](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=593s) What a site template is
-- [10:30](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=630s) Varbase Starter
-- [11:20](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=680s) Patterns come with the template
-- [12:15](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=735s) Educare
-- [12:55](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=775s) Horizon Aid
-- [13:34](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=814s) The Rightup
-- [14:16](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=856s) Same base, different starting points
-- [14:58](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=898s) Choosing the starting point
-- [15:39](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=939s) Adding features later
-- [16:16](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=976s) What recipes do not do
-- [16:50](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=1010s) Your own recipes
-- [17:31](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=1051s) Questions to ask the client
-- [18:11](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=1091s) Checking what a site has
-- [18:43](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=1123s) Recap
-- [19:30](https://www.youtube.com/watch?v=Mijc0B8D-hY&list=PLRf-g9-Bc-LI&t=1170s) Check yourself, and what comes next
+- [00:00](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=0s) Welcome to lesson two
+- [00:37](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=37s) The problem recipes solve
+- [01:22](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=82s) What is inside a recipe
+- [01:55](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=115s) Applied once, then it belongs to the site
+- [02:34](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=154s) Layers of recipes
+- [03:14](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=194s) Where recipes come from
+- [03:44](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=224s) An everyday comparison
+- [04:19](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=259s) Foundation recipes
+- [05:00](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=300s) What the foundation looks like on the site
+- [05:37](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=337s) Performance and security out of the box
+- [06:18](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=378s) Content recipes
+- [06:59](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=419s) Feature recipes
+- [07:28](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=448s) Optional recipes
+- [08:06](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=486s) Demo content
+- [08:39](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=519s) Recipes from Drupal CMS and Easy Email
+- [09:20](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=560s) What a site template is
+- [09:56](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=596s) Varbase Starter
+- [10:38](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=638s) Patterns come with the template
+- [11:33](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=693s) Educare
+- [12:19](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=739s) Horizon Aid
+- [13:04](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=784s) The Rightup
+- [13:50](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=830s) Same base, different starting points
+- [14:33](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=873s) Choosing the starting point
+- [15:09](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=909s) Adding features later
+- [15:46](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=946s) What recipes do not do
+- [16:20](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=980s) Your own recipes
+- [16:56](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=1016s) Questions to ask the client
+- [17:36](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=1056s) Checking what a site has
+- [18:05](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=1085s) Recap
+- [18:53](https://www.youtube.com/watch?v=XTDtcoo3ZsA&list=PLRf-g9-Bc-LI&t=1133s) Check yourself, and what comes next
 
 ## Check Yourself
 
