@@ -71,4 +71,4 @@ Lesson 14: Users, Roles, Personas and Permissions (Video)
 3. How would you check what a Content editor sees, without knowing their password?
 {% endhint %}
 
-Previous: [Lesson 13: Multilingual Sites and Right-to-Left](lesson-13-multilingual-sites-and-right-to-left.md) | Next: [Lesson 18: AI in Varbase: Recipes, Writing Help, Images and Guardrails](lesson-18-ai-recipes-writing-help-images-and-guardrails.md)
+Previous: [Lesson 13: Multilingual Sites and Right-to-Left](lesson-13-multilingual-sites-and-right-to-left.md) | Next: [Lesson 15: Security and Privacy](lesson-15-security-and-privacy.md)
