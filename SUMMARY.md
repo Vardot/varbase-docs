@@ -316,6 +316,7 @@
     * [Lesson 14: Users, Roles, Personas and Permissions](content-designers/varbase-content-designers-course/lesson-14-users-roles-personas-and-permissions.md)
     * [Lesson 15: Security and Privacy](content-designers/varbase-content-designers-course/lesson-15-security-and-privacy.md)
     * [Lesson 16: Accessibility](content-designers/varbase-content-designers-course/lesson-16-accessibility.md)
+    * [Lesson 17: Search, Forms and Email](content-designers/varbase-content-designers-course/lesson-17-search-forms-email.md)
     * [Lesson 18: AI in Varbase: Recipes, Writing Help, Images and Guardrails](content-designers/varbase-content-designers-course/lesson-18-ai-recipes-writing-help-images-and-guardrails.md)
     * [Lesson 19: AI in Varbase: Answers, Reviews, Assistants and Automation](content-designers/varbase-content-designers-course/lesson-19-ai-answers-reviews-assistants-and-automation.md)
     * [Lesson 20: From Client Needs to a Varbase Plan](content-designers/varbase-content-designers-course/lesson-20-from-client-needs-to-a-varbase-plan.md)
