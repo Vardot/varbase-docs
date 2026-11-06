@@ -64,4 +64,4 @@ Lesson 15: Security and Privacy (Video)
 3. Which outside services on the studio site are listed in the consent manager?
 {% endhint %}
 
-Previous: [Lesson 14: Users, Roles, Personas and Permissions](lesson-14-users-roles-personas-and-permissions.md) | Next: [Lesson 18: AI in Varbase: Recipes, Writing Help, Images and Guardrails](lesson-18-ai-recipes-writing-help-images-and-guardrails.md)
+Previous: [Lesson 14: Users, Roles, Personas and Permissions](lesson-14-users-roles-personas-and-permissions.md) | Next: [Lesson 16: Accessibility](lesson-16-accessibility.md)
