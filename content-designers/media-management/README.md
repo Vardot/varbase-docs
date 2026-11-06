@@ -50,8 +50,10 @@ Removing media from a page does not delete it from the library. Before deleting 
 | --- | --- |
 | **Media** page (table) | `/admin/content/media` |
 | **Media** page (grid) | `/admin/content/media-grid` |
-| Add a media item | `/media/add` |
-| Upload media in bulk | `/media/bulk-upload` |
+| **Add media** on the **Media** page (several files of one type) | `/admin/content/media/bulk-upload` |
+| Add a media item (the full form, all seven types) | `/media/add` |
+| **Upload media in bulk** (images, videos and audio mixed) | `/media/bulk-upload` |
+| Where an item is used | Its **Usage** tab, such as `/media/2/edit/usage` |
 | Deleted media | **Trash**, **Media entities** tab, at `/admin/content/trash` |
 | Uploaded files | A folder per year and month, such as `/sites/default/files/2026-11/` |
 
@@ -59,7 +61,7 @@ Removing media from a page does not delete it from the library. Before deleting 
 
 - **Focal point**: mark the important part of an image so it stays in view when the image is cropped for cards and banners.
 - **Alt text with AI**: click **Generate with AI** to get a suggested description of an image, then check and edit it.
-- **Bulk upload**: upload up to 20 images, videos and audio files at once. See [Upload Many Files at Once](uploading-media-files/upload-many-files-at-once.md).
+- **Bulk upload**: upload up to 20 images, videos and audio files at once, or several files of one type with **Add media**. See [Upload Many Files at Once](uploading-media-files/upload-many-files-at-once.md).
 - **Bulk alt text**: generate alt text for many images in one run. See [Generate Alt Text for Many Images](generate-alt-text-for-many-images.md).
 
 <figure><img src="../../.gitbook/assets/learn-07-media-library-grid.png" alt="The Media page in Grid view, with filters for Published, Name, Media type, Language and Sort by, and a grid of image thumbnails with their names"><figcaption><p>The Media Library in Grid View</p></figcaption></figure>
@@ -75,16 +77,20 @@ Removing media from a page does not delete it from the library. Before deleting 
 
 With the AI recipes, saving an image fills an **Image description** and up to five **Image tags** when they are empty, and the image can be checked for safety on upload. See [AI Tools in the Editor](../ai-in-varbase/ai-tools-in-the-editor.md).
 
+## Translating Media
+
+On a multilingual site, open the item's **Translate** tab (for example `/media/2/edit/translations`). The file usually stays the same, while the **Name** and the **Alternative text** are translated, so a screen reader reads the description in the visitor's language. An image that needs a different version per language, such as a banner with text in it, can have its own file per translation. Avoiding text inside images makes translation much easier.
+
 ## Who Can Do What
 
-The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** roles can add media and use it in content. Editing and deleting depend on the type: for example, an **SEO Admin** can edit any image but not documents.
+The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** roles can add media and use it in content. Editing and deleting depend on the type: for example, a **Content editor** can delete any media item, of any type, while an **SEO Admin** can edit any image but not documents. Agree with the client whether deleting should stay with senior roles, because a deleted image affects every page that uses it. Media permissions are listed by media type in **People** \ _**Permissions**_ (`/admin/people/permissions`).
 
 ## Questions Clients Ask
 
 - **Can we connect our DAM?** Not out of the box. It is an integration project; scope it in discovery against the DAM's API.
 - **Where should large videos live?** On a video platform, as **Remote video**. The site stores the link and a cover image. Keep local videos under about 50 MB.
 - **Can editors generate images with AI?** Yes, with the optional **Varbase AI Media Base** recipe, which adds **Generate with AI** to the **Media Library** for images and SVG graphics. It is not applied by default. Agree brand rules, rights and review first, because a generated image still represents the organisation. See [Varbase AI Media Base](../../developers/understanding-varbase/varbase-ai-recipes/varbase-ai-media-base.md).
-- **Do embedded videos need consent?** Players from outside services can collect visitor data. Varbase asks for consent before loading them; switch it on for each service the client uses. See [Cookie Consent](../security-and-privacy/cookie-consent.md).
+- **Do embedded videos need consent?** Players from outside services can collect visitor data. Varbase asks for consent before loading them: the YouTube and Vimeo consent services are switched on when the first video from that service is added; any other outside service the client uses needs consent switched on as part of the plan. See [Cookie Consent](../security-and-privacy/cookie-consent.md).
 
 ## Planning Notes
 

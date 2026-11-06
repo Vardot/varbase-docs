@@ -13,7 +13,7 @@ Search respects the language of the page: on the Arabic site it finds Arabic con
 ## How It Works
 
 - Content is copied into an **index** designed for fast searching. On a Varbase Starter site the index lives in the site's own database, the right choice for most sites.
-- When content is published or changed, it is queued and the site's scheduled tasks (cron) update the index, usually within minutes. Administrators see indexing status under **Configuration** \ **Search and metadata** \ _**Search API**_ and can re-index after a large change, such as a migration.
+- When content is published or changed, it is queued and the site's scheduled tasks (cron) update the index, usually within minutes. Administrators see indexing status under **Configuration** \ **Search and metadata** \ _**Search API**_: the **Content** index (`/admin/config/search/search-api/index/content`) shows **Index status**, with **Index now** and **Queue all items for reindexing** for a re-index after a large change, such as a migration. The second index there, **Content vector (Ask AI)**, holds content for Ask AI.
 - The search page is a Drupal Canvas page made of components: the search box, the results and each filter. Editors can add an introduction or reorder filters without a developer. See [Live Components](../building-pages-with-drupal-canvas/component-catalog/live-components.md).
 
 <figure><img src="../../.gitbook/assets/learn-17-search-api-indexes.png" alt="The Search API page listing the Database server and Content index used by site search, and a Content vector (Ask AI) server and index used by AI answers"><figcaption><p>Search Servers and Indexes</p></figcaption></figure>
@@ -21,13 +21,13 @@ Search respects the language of the page: on the Arabic site it finds Arabic con
 ## Scenario: A New Post Does Not Appear in Search
 
 1. Check the post is published. Site search shows only published content, as visitors see it; drafts are found in the content list filters instead.
-2. Check **Search API Exclude** on the post's form is not ticked. It keeps an item out of site search (it does not affect outside search engines).
+2. Check that **Prevent this node from being indexed.**, under **Search API Exclude** on the post's form, is not ticked. It keeps an item out of site search, such as a thank-you page (it does not affect outside search engines).
 3. Wait for the scheduled tasks to run, or ask an administrator to check the index status.
 4. If the problem continues, ask the development team to check cron on that server.
 
 ## Learning From What Visitors Search For
 
-**Reports** \ _**Top search phrases**_ shows what visitors type, in their own words, and what they cannot find in the menus. Review it monthly: improve titles and descriptions, add missing content, or rename menu items.
+**Reports** \ _**Top search phrases**_ (`/admin/reports/search`) shows what visitors type, in their own words, and what they cannot find in the menus. Review it monthly: improve titles and descriptions, add missing content, or rename menu items. If the report is empty on a new site, ask the development team to check that search phrases are being logged.
 
 ## Good Results Start With Good Content
 

@@ -15,7 +15,7 @@ Real client sites often have five to fifteen. Each one has a cost to design, bui
 
 ## Reading the Fields
 
-Click **Manage fields** next to **Blog post**. Each row is a field with its label and type:
+Click **Manage fields** next to **Blog post** (`/admin/structure/types/manage/blog/fields`). Each row is a field with its label and type:
 
 - **Title**, **Featured image**, **Description**, **Content**, **Categories** and **Tags**.
 - The SEO group: **SEO title**, **SEO description**, **SEO image** and **SEO analysis**. SEO is part of the model, not an afterthought.
@@ -35,22 +35,26 @@ The type decides what an editor can enter:
 
 Other common types are dates, links, numbers, files, and references to other content.
 
+### Adding a Field
+
+**Create a new field** on **Manage fields** lists the field types to choose from; you then give the field a label and a few settings, and it appears on the form. **Re-use an existing field** adds a field that another content type already has, which keeps the model consistent. Adding a field is configuration, not programming, but treat it as a change request: removing a field once content depends on it is not easy.
+
 ## The Form and Its Widgets
 
-The **Manage form display** tab decides the order of fields on the editor's form, how they are grouped, and the **widget** each one uses. **Tags** use a widget that suggests existing tags as you type; **Featured image** uses the media library. Changes here affect only the form, not the content, so they are safe to adjust after the first month of use. Ask editors which fields they never use and which they keep looking for.
+The **Manage form display** tab decides the order of fields on the editor's form, how they are grouped, and the **widget** each one uses. On **Blog post**, the SEO fields sit together in **Search Engine Optimization (SEO) Information**, and the publishing settings have their own groups in the sidebar, such as **Scheduling options**, **URL alias** and **Authoring information**. **Tags** use a widget that suggests existing tags as you type; **Featured image** uses the media library. Changes here affect only the form, not the content, so they are safe to adjust after the first month of use. Ask editors which fields they never use and which they keep looking for.
 
 ## Displays and View Modes
 
-A **view mode** is one way of showing an item to visitors: the full page, a card in a list, or a search result. The studio site has many card sizes (small, medium and large featured cards, overlay cards, text cards). On Varbase, the layout of each view mode is designed in Drupal Canvas as a content template. See [Content Templates](../building-pages-with-drupal-canvas/content-templates.md).
+A **view mode** is one way of showing an item to visitors: the full page, a card in a list, or a search result. The **Manage display** tab of **Blog post** has a tab for each one, such as **Default**, **Card**, **Featured card - large**, **Full content** and **Search result**, and **Structure** \ _**Display modes**_ (`/admin/structure/display-modes`) lists them all. A Varbase Starter site has many card sizes (small, medium and large featured cards, overlay cards, text cards). On Varbase, the layout of each view mode is designed in Drupal Canvas as a content template. See [Content Templates](../building-pages-with-drupal-canvas/content-templates.md).
 
 ## Settings on Every Field
 
-Open a field's settings, for example **Description**:
+Open a field's settings, for example **Description** (`/admin/structure/types/manage/blog/fields/node.blog.field_description`, **Description settings for Blog post**):
 
 - **Required field**: use it for what every item truly needs, not for what is sometimes useful.
 - **Help text**: one line under the field, such as "A one-sentence summary shown on cards, about 150 characters". It is the cheapest training tool there is. Write it with the client's content lead.
 - **Users may translate this field**: on multilingual sites, text is usually translated; a date or a price usually is not.
-- **AI Automator**: with the AI recipes, a field can be filled from other fields, for example an SEO description from the main text. AI help can be added to a field later without changing the model.
+- **Enable AI Automator** and **AI Automator Settings**: with the AI recipes, a field can be filled from other fields, for example an SEO description from the main text. AI help can be added to a field later without changing the model.
 
 ## Fields With a Purpose
 

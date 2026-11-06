@@ -28,7 +28,11 @@ Publishing needs the **Content Admin**, **Site Admin** or **Super Admin** role. 
 
 <figure><img src="../../.gitbook/assets/canvas-publish-02-review.png" alt="The Unpublished changes list open under the review button, with the changed page ticked and the Publish 1 selected button"><figcaption><p>Reviewing Changes Before Publishing</p></figcaption></figure>
 
-The list can hold changes to more than one page or template, for example a page and the page template. A new page becomes visible to visitors when it is first published.
+The list can hold changes to more than one page or template, for example a page and the page template. Changes you leave unticked stay drafts, so several editors can work on different pages at once. A new page becomes visible to visitors at its address as soon as it is first published.
+
+{% hint style="warning" %}
+The first time a new or changed page is viewed, an image on it can fail to load once and then appear when you reload the page. This is a known issue on Varbase 11.0; reload before you report a missing image.
+{% endhint %}
 
 ## Publishing or Unpublishing a Whole Page
 
@@ -39,7 +43,7 @@ The home page cannot be unpublished. To replace it, choose **Set as homepage** o
 
 ## Discarding a Change
 
-Use **Undo** in the top bar while you work. To drop all unpublished changes to one page, open the review list, open the menu on that change and choose **Discard changes**.
+Use **Undo** in the top bar while you work. To drop all unpublished changes to one page or template, open the review list, open the menu on that change and choose **Discard changes**. On a live page, visitors keep seeing the published version until you publish or discard.
 
 ## Tips
 

@@ -8,7 +8,7 @@ A link styled as a button, such as **Register** or **Get a quote**.
 
 <figure><img src="../../../.gitbook/assets/canvas-component-button.png" alt="A single button reading Button"><figcaption><p>A Button</p></figcaption></figure>
 
-- **Key settings**: **Label**, **Link URL (optional)**, **Link target** (same tab or new tab), **Variant**, **Outline**, **Size**, **Icon (optional)** with **Change icon position to left**, **Alignment** (inline, left, center, right), **Full width** and **Border radius**.
+- **Key settings**: **Label**, **Link URL (optional)**, **Link target** (same tab or new tab), **Variant**, **Outline**, **Size**, **Icon (optional)** with **Change icon position to left**, **Alignment** (inline, left, center, right), **Full width** and **Border radius**. Click **Change** under the icon setting to open a searchable icon picker.
 - **Tip**: write labels that say what happens: "Register for the programme", never "Click here". For two buttons side by side, set **Alignment** to **Inline** and put them in a **Group**.
 
 ## Icon

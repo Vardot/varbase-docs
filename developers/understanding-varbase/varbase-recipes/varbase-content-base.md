@@ -82,6 +82,16 @@ In Varbase 11.0.0, **Entity Clone**, **Rabbit Hole** and **Advanced Text Formatt
 
 **Canvas Override** is installed by [Varbase Canvas Base](varbase-canvas-base.md).
 
+## Configuration Worth Knowing
+
+* **Content Lock** is set to `verbose: true` (`content_lock.settings`), so every content edit form shows "This content is now locked against simultaneous editing…". Turn the message off at `/admin/config/content/content_lock` if only a conflicting editor should see one.
+* **Entity Usage** shows "Modifications on this form will affect all existing usages of this entity" on every media, taxonomy term and paragraphs library item edit form (`entity_usage.settings`, `edit_warning_message_entity_types`).
+* The **Moderated content** view (`views.view.moderated_content`, `/admin/content/moderated`) filters on Drupal core's `editorial` workflow states, so it stays empty on a Varbase site.
+* The **Basic** workflow (`workflows.workflow.basic_editorial`) lists **Basic page**, which **Varbase Page Base** also adds to the **Editorial** workflow.
+* **Administer page template**, the Canvas permission for page templates, is granted to **Site admin**.
+
+See [Known Issues on a New Varbase 11 Site](../../known-issues-on-a-new-varbase-11-site.md).
+
 ## Installation
 
 Apply the recipe using Drush:

@@ -48,14 +48,14 @@ A **Site Admin** can add, edit, block and cancel accounts, and switch to another
 
 ## Reading Permissions
 
-**People** \ _**Permissions**_ shows every permission as a row and every role as a column. Type a word such as `publish` in the filter. Each role's own page shows only its column, which is easier to read with a client.
+**People** \ _**Permissions**_ shows every permission as a row and every role as a column. Type a word such as `publish` in **Filter by permission name**. Each role's own page shows only its column, which is easier to read with a client.
 
 <figure><img src="../../.gitbook/assets/learn-14-canvas-permissions-by-role.png" alt="The permissions page filtered to Drupal Canvas, with rows such as Administer brand kit, Administer components, Administer content templates, Administer page template and Administer patterns, and a column of checkboxes per role"><figcaption><p>Drupal Canvas Permissions per Role</p></figcaption></figure>
 
 - **Workflow transitions are permissions**: send to review, publish, archive. Changing who may publish is a few ticks that change how the whole team works.
 - **Finer permissions**: a role can manage one menu but not another, or one vocabulary but not others.
-- **Custom permissions**: an administrator can create a permission for one admin page without a developer.
-- **Restricted permissions** carry a warning; never give them to editorial roles.
+- **Custom permissions**: an administrator can create a permission for one admin page without a developer, on the **Custom permissions** tab of **People** (`/admin/people/custom-permissions/list`).
+- **Restricted permissions** carry the warning **Warning: Give to trusted roles only**, such as **Administer roles and permissions**; never give them to editorial roles, and record why when one is given.
 - **After every feature update**, check whether editorial roles need the new permissions, which often arrive given to nobody.
 
 ## Questions Clients Ask

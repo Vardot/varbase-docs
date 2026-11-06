@@ -8,7 +8,7 @@ A remote video plays from YouTube or Vimeo inside your page. The video stays on 
 2. In **Video URL**, paste the address of the video, for example `https://www.youtube.com/watch?v=...` or `https://vimeo.com/...`.
 3. Fill in the **Name** (required).
 4. Optionally, upload a **Cover Image** to show before the video plays, and set its focal point.
-5. Click **Save**.
+5. Click **Save**. The site fetches the video's title and preview from the service when the item is saved.
 
 <figure><img src="../../../.gitbook/assets/media-remote-video-01-form.png" alt="The Add Remote video form with a YouTube address in the Video URL field and the Name and Cover Image fields"><figcaption><p>Adding a Remote Video</p></figcaption></figure>
 

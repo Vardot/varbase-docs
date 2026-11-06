@@ -4,13 +4,17 @@ A **Site Admin** can temporarily act as an editorial account to see the site as 
 
 ## Steps
 
-1. On **People**, open the account's operations and choose **Masquerade as**.
+1. On **People**, open the account's operations and choose **Masquerade as**, or open the account's page and click **Masquerade as** followed by its name.
 2. Do the role's main tasks from start to finish, then try something it should not do and confirm it is refused.
 3. Switch back by logging out of the masqueraded session, then log in again.
 
 {% hint style="warning" %}
-On a Varbase 11.0 site the Gin navigation does not show an **Unmasquerade** link. Log out to end a masquerade session.
+On a Varbase 11.0 site there is no **Unmasquerade** link: the user menu at the bottom of the **Navigation** sidebar shows only **View profile**, **Edit profile** and **Log out**. Click **Log out** to end the masquerade session, then log in again with your own account.
 {% endhint %}
+
+## Who Can Masquerade
+
+A **Site Admin** can masquerade as accounts whose roles are **Authenticated user** (the **Normal user** demo account), **Content editor**, **Content Admin**, **SEO Admin** or **Site Admin**. A **Site Admin** cannot masquerade as a **Super Admin** account. Every use should be deliberate, and the client should know the feature exists.
 
 ## Tips
 

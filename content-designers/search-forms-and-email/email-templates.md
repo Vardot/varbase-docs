@@ -15,11 +15,11 @@ Go to **Structure** \ _**Email templates**_ (`/admin/structure/email-templates/t
 3. Write in the organisation's voice, and translate the template into each language: account emails follow the person's language.
 4. Save, then trigger the email on a test site and check it in the test mailbox.
 
-The **Overrides** tab makes emails from other parts of the site, such as forms or modules, use the same look and sending setup. The email theme, with the logo and colours, is separate from the website theme because email programs display design differently; include it in the brand work.
+The **Overrides** tab makes emails from other parts of the site, such as forms or modules, use the same look and sending setup; on a new site it lists the **Default** and **User** overrides. The email theme, with the logo and colours, is on the **Theme settings** tab. It is separate from the website theme because email programs display design differently; include it in the brand work.
 
 ## Scenario: "I Never Got the Password Reset"
 
-1. Open **Reports** \ _**Email log**_ (`/admin/reports/email`). It shows who each email was for, when it was created and sent, and whether it succeeded.
+1. Open **Reports** \ _**Email log**_ (`/admin/reports/email`). Its **Recipients**, **Created**, **Sent** and **Status** columns show who each email was for, when it was created and sent, and whether it succeeded. It holds email addresses, so access is limited to administrators.
 2. If it was sent, ask the person to check spam, and ask the client's IT team whether the domain authorises the site to send email.
 3. If it was not sent, ask the development team to check the mail service on that server.
 
@@ -29,7 +29,7 @@ On development and staging sites, emails must never reach real people by acciden
 
 ## Planning Notes
 
-- Choose the sending service and sender address, and have the client's IT team add the domain records that authorise the site to send.
+- Choose the sending service and sender address, and have the client's IT team add the domain records that authorise the site to send. The development team sets the service up under **Configuration** \ **System** \ _**Mail System**_ (`/admin/config/system/mailsystem`) and the email transport settings, which hold the service's credentials: keep them off screen.
 - Ask the development team for a list of every email the site can send; agree wording and languages for each.
 - Editor notifications, such as a post waiting for review, are not on by default; they can be added with the automation tools.
 - Developers: see [Easy Email Recipes](../../developers/understanding-varbase/easy-email-recipes/).

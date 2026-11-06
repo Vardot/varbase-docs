@@ -10,9 +10,9 @@ AI assistants read websites to answer questions, and they prefer clean, well-str
 
 ### Editing It
 
-1. Go to **Content** \ _**/llms.txt**_.
+1. Go to **Content** \ _**/llms.txt**_ (`/admin/content/llms-txt`).
 2. Edit **Content of the llms.txt**. It uses placeholders, such as the site name and slogan and the menus. **Browse available tokens** lists them.
-3. Add a short paragraph about the organisation or links to key documents if useful. Keep it short and factual: it is a signpost, not a brochure.
+3. Add a short paragraph about the organisation or links to key documents if useful, or add extra sections on the **/llms.txt sections** tab. Keep it short and factual: it is a signpost, not a brochure.
 4. Click **Save configuration**.
 
 <figure><img src="../../.gitbook/assets/learn-12-llms-txt-configuration.png" alt="The llms.txt configuration tab with an explanation of llms.txt and the Content of the llms.txt field holding placeholders for the site name, slogan and main navigation"><figcaption><p>Editing the llms.txt Content</p></figcaption></figure>
@@ -21,7 +21,7 @@ If the site slogan is empty, the line it fills stays empty: fill **Slogan** in t
 
 ## Markdown Versions of Posts
 
-Add `.md` to a post's address, such as `/blog/my-post.md`, to see its text without menus, scripts and layout. The normal page tells AI tools that this version exists. Taxonomy terms have one too.
+Add `.md` to a post's address, such as `/blog/my-post.md`, to see its text without menus, scripts and layout. The normal page tells AI tools that this version exists, with a `rel="alternate" type="text/markdown"` link in its code. The pages visitors see do not change. Taxonomy terms have one too.
 
 Drupal Canvas pages and listing pages have no Markdown version yet. They appear in `/llms.txt` as links, so AI tools can still find them.
 

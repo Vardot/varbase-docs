@@ -11,7 +11,7 @@ When a site is relaunched, its old addresses still live in search results, bookm
 
 ## Questions Clients Ask
 
-- **Can the old domain or the address without www send visitors to the main domain?** Yes, with domain redirects. It involves the client's IT team and domain registrar; start early.
+- **Can the old domain or the address without www send visitors to the main domain?** Yes, with domain redirects (the **Domain redirects** tab of **URL redirects**). It involves the client's IT team and domain registrar; start early. See [URL Redirects](url-redirects.md#domain-redirects).
 
 ## Planning Notes
 

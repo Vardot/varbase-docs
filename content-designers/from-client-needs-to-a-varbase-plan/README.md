@@ -27,7 +27,7 @@ If two templates partly fit, pick the one that matches most of the structure and
 
 ### Worked Examples (Invented Clients)
 
-- **A university**: programmes, admissions, news, events and research in English and Arabic. Start from **Educare**; English and Arabic are translation work, right to left comes with the platform; research papers are a new content type.
+- **A university**: programmes, admissions, news, events and research in English and Arabic. Start from **Educare**; English and Arabic are translation work, right to left comes with the platform; research papers are a new content type; a link to the student system for applications is build work with its own estimate.
 - **A humanitarian organisation**: work by country and programme, reports, stories, donations. Start from **Horizon Aid**; reports are documents in the media library; online donations usually mean a payment integration (build).
 - **A publisher**: news, podcasts, sections, a live ticker, search, a newsletter. Start from **The Rightup**; the newsletter connection is configuration or integration depending on the service.
 - **A professional services firm**: services, case studies, team profiles, insights, contact. Start from **Varbase Starter**; services and contact are Canvas pages from patterns, insights use the blog, case studies and team profiles are new content types.

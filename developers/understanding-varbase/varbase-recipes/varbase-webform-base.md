@@ -18,6 +18,15 @@ Brings in the following core and contributed modules to your site:
 | [**Webform Views Integration**](https://www.drupal.org/project/webform_views) | Webform integration with views.                                     |
 | [**ECA Webform**](https://www.drupal.org/project/eca_webform)                 | Integrate ECA with the Webform module and its plugins.              |
 
+## Webforms It Ships
+
+| Webform | Notes |
+| --- | --- |
+| **Business Contact** (`business_contact`) | The form on the **Contact Us** page. Its agreement checkbox links to `/terms-and-conditions` and `/privacy-policy`. |
+| **Newsletter Subscribe** (`newsletter_subscribe`) | Ships with no handlers: sign-ups are stored, but nobody is notified and nothing reaches a mailing list. Add an email handler or a mailing list integration before it goes live. |
+
+The recipe also sets `archive: true` on the Webform module's own **Contact** webform (`webform.webform.contact`). An archived webform is always closed, so `/form/contact` says it is closed to new submissions. See [Known Issues on a New Varbase 11 Site](../../known-issues-on-a-new-varbase-11-site.md).
+
 ## Installation
 
 Apply the recipe using Drush:

@@ -7,8 +7,10 @@ Watch the lesson: [The Design System](../varbase-content-designers-course/lesson
 ## What It Is
 
 - **Vartheme BS5** is the default front-end theme, built on **Bootstrap 5**, an open-source framework with a proven grid, responsive behaviour and accessible patterns. Vartheme adds Varbase's own components. The admin area uses the **Gin** theme.
-- **Components** are organised from small to large: the **foundation** (colours, typography, spacing and grids, icons, images, logos), **atoms** (button, heading, image, badge, form field), **molecules** (accordion, breadcrumb, share bar, tabs) and **organisms** (cards, heroes, header). About 130 components; 46 appear in the Drupal Canvas library. See the [Component Catalog](../building-pages-with-drupal-canvas/component-catalog/).
-- **Variants** are the named choices a component allows, such as a primary or secondary button and its sizes. Editors pick a variant; they do not type colours or fonts.
+- **Components** are organised from small to large: the **foundation** (colours, typography, spacing and grids, icons, images, logos), **atoms** (button, heading, image, badge, form field), **molecules** (accordion, breadcrumb, share bar, tabs) and **organisms** (cards, heroes, the navigation bar, the footer), then **templates and pages** that show how it comes together. About 130 components, 70 of them documented in Storybook with more than 400 stories; 46 appear in the Drupal Canvas library, because some exist only to build others, such as form inputs. See the [Component Catalog](../building-pages-with-drupal-canvas/component-catalog/).
+- **Variants** are the named choices a component allows. A **Button**, for example, has **Variant** (such as primary or secondary), **Outline** and **Size**. Editors pick a variant; they do not type colours or fonts.
+- **Cards** come in families: featured, overlay, text, impressed, icon, logo, pricing and testimonial cards, each in sizes from extra small to extra large. When a design shows a new kind of card, ask which family is closest first.
+- **Icons** come from an icon set in the theme. Editors pick one in Drupal Canvas from a searchable picker (**Change** under the icon setting) instead of uploading images. A client's own icon set is design work; raise it early.
 - **Tokens** are named values such as the primary colour, the heading font or the standard spacing. Change a token and every component follows.
 - **Starter kit**: a project creates its own theme from Vartheme BS5 for the client's brand, rather than editing Vartheme. The site templates do this: Educare, Horizon Aid and The Rightup each have their own theme on Vartheme BS5.
 
@@ -27,6 +29,8 @@ Each component declares its settings, and Drupal Canvas turns them into the form
 
 **Storybook** shows every component on its own, outside any page, with **stories** for its variants and states. It is for the project team (designers, developers, testers, product owners), not for visitors, and it runs on development and staging sites, not production.
 
+The sidebar groups components by family: **Getting Started** (**Welcome** and **About Varbase**, a good first page for a new designer or tester), **Foundation**, **Base**, **Atoms**, **Layout**, **Molecules**, **Cards**, **Hero**, **Organisms** and **Others**. The search box at the top finds a component by name.
+
 <figure><img src="../../.gitbook/assets/learn-10-storybook-welcome.png" alt="Storybook with the sidebar listing Getting Started, Foundation (Logos, Colors, Typography, Spacing and Grids, Icons, Images) and Base components, and the Welcome to Varbase's Design System page"><figcaption><p>Storybook: Foundations and Every Component</p></figcaption></figure>
 
 ### Scenario: Review a Component in Storybook
@@ -37,6 +41,10 @@ Each component declares its settings, and Drupal Canvas turns them into the form
 4. In **Controls**, change its settings: type a longer title, switch a variant, remove the image. Check how it copes with awkward content, long words and right-to-left text.
 5. Check it with the keyboard, read its text alternatives, and look at contrast. Problems found here are fixed once, for every page.
 6. Open the Drupal Canvas **Library** and find the same component there.
+
+{% hint style="warning" %}
+Two stories do not render on Varbase 11.0: the Hero Slider story with three slides shows an error in its preview, and the **Accordion container** stories show an empty area. The components themselves work on pages; check them in the Canvas editor instead.
+{% endhint %}
 
 ## Scenario: Map a Design to the System
 
@@ -52,7 +60,7 @@ Take the client's designs page by page and label every element:
 
 ## Applying a Brand
 
-- **Settings**: the logo, the browser icon, the content width, a sticky header.
+- **Settings**: the logo, the browser icon, the content width, a sticky header. They are the **Logo image**, **Favicon**, **Containers** and **Header** groups of the theme settings (`/admin/appearance/settings/vartheme_bs5`).
 - **Design work** (front-end developer): colours, fonts, spacing and component shapes, set as tokens in the theme's style files.
 - **Fonts**: a brand font needs a web licence and affects page speed (Varbase can preload fonts). Arabic and other scripts need fonts that support them.
 - **Beyond pages**: the emails the site sends have their own theme (see [Email Templates](../search-forms-and-email/email-templates.md)), and the theme includes a print logo.

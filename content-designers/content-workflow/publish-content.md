@@ -41,8 +41,8 @@ See [Content Workflow](../content-workflow/) for the full workflow.
 
 <!-- <figure><img src="../../.gitbook/assets/content-management-publish-02-moderated.png" alt="The Moderated content list with a blog post marked In review in the Moderation state column"><figcaption><p>Content Waiting for Review</p></figcaption></figure> -->
 
-{% hint style="info" %}
-On a new Varbase 11.0 site the **Moderation state** filter above this list offers only **- Any -**, so you cannot filter by state yet.
+{% hint style="warning" %}
+On a new Varbase 11.0 site the **Moderated content** list stays empty, even when drafts and items in review exist, and its **Moderation state** filter offers only **- Any -**. Until your site is fixed, use the content list: go to **CMS** (`/admin/content`), set **Published status** to unpublished and click **Filter**. Ask your development team to check the list.
 {% endhint %}
 
 The **My Drafts** panel on the [Dashboard](../accessing-the-administration-area/dashboard/) lists your own drafts.

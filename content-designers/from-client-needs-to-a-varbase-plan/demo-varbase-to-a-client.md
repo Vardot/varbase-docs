@@ -6,9 +6,11 @@ A demo on a real site replaces promises with something the client can click, and
 
 1. Reset the demo site to a saved snapshot before every demo.
 2. Prepare a short story from the client's own day: an editor writes, a reviewer approves, a page is built, a visitor finds it.
-3. Tailor lightly: their logo, a few real headlines, their language. Say clearly it is a demo, not the design.
-4. Never show real personal data, secrets such as provider keys, or other clients' names or projects unless they are approved public case studies.
-5. Send a short note afterwards: what you showed, what the client said, open questions, next steps. It becomes the first draft of the requirement map.
+3. Test every live AI step beforehand, and have a recorded fallback, because AI answers can be slow on the day.
+4. Show visitor pages logged out, for example in a private window, so the admin toolbar is not in the way.
+5. Tailor lightly: their logo (**Logo image** in the theme settings, `/admin/appearance/settings/vartheme_bs5`), a few real headlines, their language. Say clearly it is a demo, not the design.
+6. Never show real personal data, secrets such as provider keys, or other clients' names or projects unless they are approved public case studies.
+7. Send a short note afterwards: what you showed, what the client said, open questions, next steps. It becomes the first draft of the requirement map.
 
 ## A 30-Minute Running Order
 

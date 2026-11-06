@@ -28,6 +28,10 @@ Every image uploaded to the **Image** media type, from the media add form or the
 - The rule is an **AI image safety (Media: Image)** rule set. Edit its prompt or message at **Administration** \ **Structure** \ _**Field Validation**_.
 - It fails closed: when the provider errors or the model is removed, uploads are refused until it is back.
 - Applying the recipe again keeps an edited rule set as it is.
+- The rule (`field_validation.rule_set.media_image`) sets no **Image style**, so the **original** file is sent to the provider. A provider that caps images at 10 MB then fails the check, and because the rule fails closed, a large image is refused with "AI provider failed to evaluate the content". On one site this happened from about 7.5 MB, while the image field allows 100 MB. Pick a downscale style in the rule's **Image style** setting to send a smaller copy.
+- The check runs on the server when the image is uploaded. It does not wait for the "Transfer image and meta data to chosen AI service?" consent that the alt text button asks for. Decide per project whether consent should cover both, and say so in the site's privacy notice.
+
+See [Known Issues on a New Varbase 11 Site](../../known-issues-on-a-new-varbase-11-site.md).
 
 {% hint style="warning" %}
 **Requirement:** a default model for **Chat with Image Vision** at **Administration** \ **Configuration** \ **AI** \ _**AI settings**_. The recipe stops before it changes anything when none is set.

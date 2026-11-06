@@ -28,7 +28,15 @@ When an automatic alias changes, for example because you renamed a blog post, Va
 
 ## Editing or Deleting a Redirect
 
-In the list, click **Edit** next to the redirect, or choose **Delete** from its operations.
+In the list, filter by the from address, the destination, the status code or the language to find a redirect. Click **Edit** next to it, or choose **Delete** from its operations. A new site has no redirects until something moves.
+
+## Domain Redirects
+
+The **Domain redirects** tab (`/admin/config/search/redirect/domain`) sends a whole domain to another, for example an old domain, or the address without `www`, to the main domain. Each row has a **From domain** and a **Destination**. Domain decisions involve the client's IT team and their domain registrar, so start that conversation early.
+
+## Who Can Manage Redirects
+
+The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** roles can manage redirects, so whoever owns the **Fix 404 pages** report does not need an administrator to fix a broken link.
 
 ## Tips
 

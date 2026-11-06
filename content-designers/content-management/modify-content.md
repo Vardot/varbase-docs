@@ -20,7 +20,7 @@ You will often update content that already exists: fix a typo, add a paragraph, 
 ## Editing
 
 1. Change the fields you need.
-2. In **Change to**, choose the state to save in. To change a published item without showing the change yet, choose **Draft**; the published version stays live until you publish again.
+2. In **Change to**, choose the state to save in. To change a published item without showing the change yet, choose **Draft**; the published version stays live until you publish again. A published item offers **Draft**, **Published** and **Archived / Unpublished**.
 3. Write a **Revision log message** that says what changed, for example "Updated the opening hours".
 4. Click **Save**.
 
@@ -28,6 +28,8 @@ You will often update content that already exists: fix a typo, add a paragraph, 
 
 {% hint style="info" %}
 While you have an item open, other editors cannot edit it; they see who is editing. Click **Save** or **Unlock** when you finish so the lock is released. See [Content Workflow](../content-workflow/#content-locking-and-autosave).
+
+On a new site, every edit form opens with the message "This content is now locked against simultaneous editing." It confirms your own lock, not a problem; you can carry on editing.
 {% endhint %}
 
 ## Revisions

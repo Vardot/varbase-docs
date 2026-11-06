@@ -16,7 +16,9 @@ A Varbase site has these vocabularies:
 | **Image Classification** | Labels for images in the media library. |
 | **AI Context Tags** | Labels used by the AI tools. Managed by your site administrator. |
 
-Each term has its own page on the site listing the content that uses it.
+Each term has its own page on the site listing the content that uses it. Like content, terms can be translated, so filters read correctly in each language.
+
+With the Varbase Starter demo content, **Tags** holds about thirty terms, while **Blog Categories** is empty until the client decides its list.
 
 ## Opening a Vocabulary
 
@@ -41,7 +43,7 @@ Many sites use both. Each term has its own page listing the content tagged with 
 
 ### Managing Many Terms
 
-For larger vocabularies, the **Taxonomy Manager** (the **Taxonomy Manager** tab on **Structure** \ _**Taxonomy**_) shows terms as a tree, and can add several terms at once, move them under a new parent, search them, delete unused ones and **Export CSV**. Exporting is a simple way to review a vocabulary with the client's content lead before deciding what to merge. Keep hierarchies shallow.
+For larger vocabularies, the **Taxonomy Manager** (the **Taxonomy Manager** tab on **Structure** \ _**Taxonomy**_, for example `/admin/structure/taxonomy_manager/voc/tags`) shows terms as a tree. Its **Add**, **Move**, **Delete**, **Search terms** and **Export CSV** tools add several terms at once, move them under a new parent, find them, remove unused ones and export the list. Exporting is a simple way to review a vocabulary with the client's content lead before deciding what to merge. Keep hierarchies shallow.
 
 With the AI recipes, **Suggest tags** on the content form proposes tags from the existing list, which keeps tagging consistent. See [AI Tools in the Editor](../../ai-in-varbase/ai-tools-in-the-editor.md).
 

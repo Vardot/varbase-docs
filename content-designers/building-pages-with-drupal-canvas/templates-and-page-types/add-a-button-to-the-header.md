@@ -6,9 +6,9 @@ The header and footer live in the page template, so a button added there shows o
 
 1. In the editor, open **Layers**. Click the locked page template layer at the top, or open **Templates** \ _**Page templates**_, to open the template on its own. A **Page content** marker shows where each page's content goes.
 2. Select the header. On a Varbase Starter site it holds the logo, the main menu and the search control.
-3. Add a **Button** next to the main menu. Set its label (such as "Donate"), its link and a style.
+3. In **Layers**, expand **Header** and select **Main navigation**. In the **Library**, search for `Button`, right-click it and choose **Insert**: it lands next to the main menu. Set its **Label** (such as "Donate"), its **Link URL** and its **Variant**.
 4. Switch the preview to **Mobile**: the menu folds into a button, and the new button must still fit beside the logo.
-5. Open **Review changes**. The header change is listed on its own, so you can publish it, or a page, without the other. Publish when it has been reviewed.
+5. Open **Review changes**. The header change is listed on its own, so you can publish it, or a page, without the other. Publish when it has been reviewed. If the template was marked **Changed** before you edited it, see the warning in [Page Templates](../page-templates.md).
 
 <figure><img src="../../../.gitbook/assets/learn-09-theme-canvas-page-templates-setting.png" alt="The Vartheme BS5 theme settings with the Drupal Canvas group open and Use Drupal Canvas for page templates in this theme switched on"><figcaption><p>Drupal Canvas Page Templates Switched On in the Theme</p></figcaption></figure>
 

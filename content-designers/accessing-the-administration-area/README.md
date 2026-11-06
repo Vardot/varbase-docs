@@ -23,12 +23,17 @@ Watch the lesson: [Finding Your Way](../varbase-content-designers-course/lesson-
 ## Logging In
 
 1. Go to `/user/login` on your site (for example, `https://example.com/user/login`).
-2. Enter your **Username or email address** and your **Password**.
-3. Click **Log in**.
+2. Enter your **Username or email address** and your **Password**. Use **Show password** to check what you typed, which helps on a phone or with a long password.
+3. Tick **Remember me** to stay logged in on your own device. Leave it unticked on a shared or public computer.
+4. Click **Log in**.
 
 <figure><img src="../../.gitbook/assets/admin-area-accessing-01-login.png" alt="The Varbase login page with the Username or email address field, the Password field and the Log in button"><figcaption><p>The Login Page</p></figcaption></figure>
 
 After you log in, Varbase opens the **Dashboard**. If you open an administration page such as `/admin/content` while logged out, Varbase shows the login form in its place.
+
+### Forgotten Passwords
+
+Click **Forgot your password?** on the login page. The **Reset your password** form (`/user/password`) sends a one-time link by email, and you choose a new password that meets the site's password policy. The email arrives only if email delivery is set up on that environment, which is a task for the development team before launch.
 
 {% hint style="info" %}
 What you can see and do depends on your role. A **Content editor** sees fewer menu items than a **Site Admin**. See [Default Roles and Site Personas](../user-management/default-roles-and-site-persons/) for what each role can do.
@@ -71,6 +76,10 @@ The content listing (**CMS** in the sidebar, `/admin/content`) has filters, sort
 ## Getting Help Inside the Site
 
 Every editorial role can open **Help** at the bottom of the **Navigation** sidebar (`/admin/help`). It explains many of the site's modules in plain words and is a good first stop before asking a developer. For tasks, the Content Designers section of this documentation is free to share with a client's editors after their training.
+
+{% hint style="warning" %}
+On some sites the bottom of the **Navigation** sidebar shows two **Help** links. One opens the site's own help pages (`/admin/help`), described here; the other opens the Drupal CMS documentation on another website.
+{% endhint %}
 
 ## Logging Out
 

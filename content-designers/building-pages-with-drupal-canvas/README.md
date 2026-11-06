@@ -44,7 +44,7 @@ For a full example from an empty page to published, see [Create a Page From a Pa
 
 ## The Editor
 
-Click **Edit** next to a page to open it in the editor. Nothing you do there is visible to visitors until you publish.
+Click **Edit** next to a page to open it in the editor, for example `/canvas/editor/canvas_page/2` for the **Home** page. The editor takes a moment to load. Nothing you do there is visible to visitors until you publish. **Exit Drupal Canvas** in the top bar takes you back to the admin area.
 
 {% embed url="https://youtu.be/-DsRYLjgwn4" %}
 Finding Your Way in Drupal Canvas (Video)
@@ -56,7 +56,7 @@ Finding Your Way in Drupal Canvas (Video)
 | --- | --- |
 | **Top bar** | The page name (click it to switch pages), **Undo** and **Redo**, **Preview**, and the review button, which shows how many changes you have made, for example **Review 3 changes**. |
 | **Left toolbar** | **Library** (components and patterns), **Layers** (the outline of the page), **Pages**, **Templates** (for roles that manage templates) and **Translate**. |
-| **Page (middle)** | The page as visitors will see it. Click a component to select it. The controls under the page change the screen size (**Mobile**, **Tablet**, **Desktop**, **Large Desktop**) and the zoom. |
+| **Page (middle)** | The page as visitors will see it. Click a component to select it. The controls under the page change the screen size (**Mobile**, **Tablet**, **Desktop**, **Large Desktop**) and the zoom (**Select zoom level**). Check the **Mobile** size before every publish. |
 | **Right panel** | **Page data** for the page itself, and **Settings** for the component you selected. |
 
 ### Page Data
@@ -67,16 +67,22 @@ Finding Your Way in Drupal Canvas (Video)
 | --- | --- |
 | **Title** | The page name, shown in the browser tab and in lists. |
 | **Meta description** | The summary search engines show under the title. |
-| **URL alias** | The page address, such as `/about-us`. |
+| **URL alias** | The page address, such as `/about-us`. It fills in from the title as you type the title, until you change it yourself. |
 | **Image** | The picture used when the page is shared or shown as a card. |
 | **Page template** | Which page template (header and footer) the page uses. |
 | **Metatags** | Detailed search and social sharing settings. See [Meta Tags](../search-engine-optimization/meta-tags.md). |
+
+Fill these early, so drafts are easy to find in the **Pages** list.
+
+{% hint style="warning" %}
+The browser's developer console shows errors every time the editor loads, for every role, and a **Content editor** sees one more about the **Administer page template** permission. Inserting a pattern can log another. These are known on Varbase 11.0 and the editor keeps working, so you do not need to report them.
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/learn-08-layers-panel.png" alt="The Layers panel showing the page as a tree of sections, columns, a hero slider container with hero slides, headings, text and buttons"><figcaption><p>Layers: the Page as a Tree of Sections, Columns and Components</p></figcaption></figure>
 
 ## Page Actions
 
-The **Pages** panel in the editor offers actions on whole pages: **Duplicate page** (a quick start for a series of similar pages), **Set as homepage**, **Unpublish page** and **Delete page**. Keep setting the home page and deleting pages for senior roles. A section that works well can be saved as a new pattern for other editors; managing patterns needs the **Administer patterns** permission.
+The **Pages** panel in the editor offers actions on whole pages: **Duplicate page** (a quick start for a series of similar pages), **Set as homepage**, **Unpublish page** and **Delete page**. Keep setting the home page and deleting pages for senior roles. Open the menu on a page (**Open contextual menu**) to see them. A section that works well can be saved as a new pattern for other editors; managing patterns needs the **Administer patterns** permission, held by **Content Admin** and **Site Admin**.
 
 ## Who Can Do What
 
@@ -105,7 +111,7 @@ A **Content editor** prepares changes and asks a **Content Admin** or **Site Adm
 - Walk the client's designs and the pattern list side by side. Sort each section into existing patterns, patterns to restyle, and new patterns. The new ones are where design and development time goes.
 - Count unique components in the design, not pages; that drives front-end effort.
 - Agree the publishing split: editors build pages, a **Content Admin** or above publishes them.
-- Drupal Canvas pages get no automatic URL alias and are not in the XML sitemap on Varbase 11.0. Plan each page's address and how landing pages reach search engines.
+- Drupal Canvas pages have no URL alias pattern: the editor fills **URL alias** from the title, and nothing updates it later. They are not in the XML sitemap on Varbase 11.0. Plan each page's address and how landing pages reach search engines.
 
 ## In This Section
 

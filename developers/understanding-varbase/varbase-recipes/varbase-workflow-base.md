@@ -31,6 +31,13 @@ The following modules are downloaded with this recipe but not enabled during ins
 | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
 | [**Content Moderation Notifications**](https://www.drupal.org/project/content_moderation_notifications) | Allows emails to be sent on state transitions. |
 
+## What It Configures
+
+* The **Editorial** workflow (`workflows.workflow.varbase_editorial_workflow`) with four states: **Draft**, **In review**, **Published** and **Archived / Unpublished**. New content starts as a Draft. **Varbase Blog Base** and **Varbase Page Base** add **Blog post** and **Basic page** to it.
+* Every transition of the Editorial workflow, and of the **Basic** workflow from Varbase Content Base, for the **Content editor**, **Content admin**, **SEO admin** and **Site admin** roles, with `schedule publishing of nodes` and `view scheduled content`.
+
+See [Content Moderation and Workflows](../../configuring-a-varbase-site/content-moderation-and-workflows.md) for the transitions, and [Known Issues on a New Varbase 11 Site](../../known-issues-on-a-new-varbase-11-site.md) for the empty **Moderated content** list and the Basic page that is listed in two workflows.
+
 ## Installation
 
 Apply the recipe using Drush:

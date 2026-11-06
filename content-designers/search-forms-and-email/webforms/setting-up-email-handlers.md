@@ -7,7 +7,7 @@ An email handler sends an email each time someone submits a form, for example to
 1. Go to **Structure** \ **Webforms**.
 2. Open the form, click **Settings**, then **Emails / Handlers**.
 
-Forms made from a template already have handlers, usually an **Email notification** to your team and an **Email confirmation** to the visitor.
+Forms made from a template already have handlers, usually an **Email notification** to your team and an **Email confirmation** to the visitor. On a new site the **Business Contact** form has both, while the **Newsletter Subscribe** form has none: add one before launch, so someone is told about each sign-up.
 
 <figure><img src="../../../.gitbook/assets/webforms-handlers-01-list.png" alt="The Emails / Handlers tab of the Contact webform listing the Email confirmation and Email notification handlers, with the Add email button"><figcaption><p>The Handlers of a Webform</p></figcaption></figure>
 

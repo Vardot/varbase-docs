@@ -31,7 +31,9 @@ Then use the form's **Test** tab, submit it on a test site, check both emails in
 <figure><img src="../../.gitbook/assets/learn-17-business-contact-build.png" alt="The Build tab of the Business Contact webform listing its elements Name, Company name, Industry, Country, Email, Phone number, Subject, Message and an agreement checkbox, with their keys, types and Required checkboxes"><figcaption><p>The Business Contact Form in the Builder</p></figcaption></figure>
 
 {% hint style="warning" %}
-On a demo site, the **Newsletter Subscribe** form had no email handler and no newsletter connection: sign-ups were stored, but nobody was told and no address reached a mailing list. Check every form for this before launch. An agreement checkbox that links to an unpublished privacy policy or a missing terms page is the same kind of gap.
+On a new Varbase Starter site, the **Newsletter Subscribe** form has no handlers and no newsletter connection: sign-ups are stored, but nobody is told and no address reaches a mailing list. Check every form for this before launch.
+
+The agreement checkbox of the business contact form, **By submitting this form you agree to our Terms of Service and Privacy Policy.**, is the same kind of gap: on a new site the privacy policy page is still a draft and `/terms-and-conditions` does not exist. A form should never ask people to agree to pages they cannot read. See [Security and Privacy](../security-and-privacy/README.md#privacy-and-consent).
 {% endhint %}
 
 ## Questions Clients Ask

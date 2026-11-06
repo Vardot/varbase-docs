@@ -13,7 +13,7 @@ Uploading an Image With a Focal Point (Video)
 ## Steps
 
 1. Click **Media** in the **Navigation** sidebar, then **Add media** and **Image**. You can also add one from a content form. See [Uploading Media Files](./).
-2. In **Image**, click to choose the file, or drag it in.
+2. Under **Add a new file**, click to choose the file, or drag it in from your desktop. As soon as the file is uploaded, the form asks for its alternative text.
 3. Fill in the fields:
    - **Name** (required): a clear name for finding the image later, such as "Team photo, office 2026".
    - **Alternative text** (required): what the image shows, for people who cannot see it. Click **Generate with AI** for a suggestion, then check and edit it.
@@ -24,12 +24,14 @@ Uploading an Image With a Focal Point (Video)
 
 <figure><img src="../../../.gitbook/assets/media-image-01-form.png" alt="The Add Image form with an uploaded photo, the focal point cross, the Alternative text field with the Generate with AI button, and the Image description and Image tags fields"><figcaption><p>Adding an Image</p></figcaption></figure>
 
-If the form asks "Transfer image and meta data to chosen AI service?", click **Yes (this time)** to show **Generate with AI**. **Image description** and **Image tags** are on the full form at `/media/add/image`; you can also fill them later by editing the image.
+If the form asks "Transfer image and meta data to chosen AI service?", click **Yes (this time)** to show **Generate with AI**. **Image description** and **Image tags** are in the **AI description and tags** group of the full form at `/media/add/image`; you can also fill them later by editing the image. If you fill either field yourself, the AI leaves it alone.
 
 There is no caption field on the item: add a caption where you place the image, for example in the editor.
 
 {% hint style="warning" %}
-With **Varbase AI Safety** on, each uploaded image is checked for unsuitable content and flagged images are refused. If the form says "AI provider failed to evaluate the content", the file is likely too large for the check: resize it, for example to 2000 pixels wide, and upload it again.
+With **Varbase AI Safety** on, each uploaded image is sent to the AI service and checked for unsuitable content, and flagged images are refused with the reason. The check runs on upload, before the consent question that **Generate with AI** asks. If the AI service is unavailable, uploads wait until it is back.
+
+An image larger than about 7.5 MB is refused with "AI provider failed to evaluate the content" under **Alternative text** and **Focal point**, although the upload field allows 100 MB. Resize it, for example to 2000 pixels wide, and upload it again.
 {% endhint %}
 
 ## Writing Good Alt Text
@@ -45,7 +47,7 @@ With **Varbase AI Safety** on, each uploaded image is checked for unsuitable con
 2. Change the fields, replace the file, or move the focal point.
 3. Click **Save**.
 
-The change shows everywhere the image is used.
+The change shows everywhere the image is used. That is why every media edit form shows the warning "Modifications on this form will affect all existing usages of this entity". It is a reminder, not an error: check the **Usage** tab if you are not sure where the image appears.
 
 ## Tips
 

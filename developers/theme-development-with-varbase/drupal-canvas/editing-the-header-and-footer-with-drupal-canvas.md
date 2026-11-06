@@ -55,6 +55,12 @@ Admin**. Users without it still see the page template in the editor, but cannot
 open it.
 {% endhint %}
 
+For a role without this permission, such as **Content editor**, the editor still
+requests `/canvas/api/v0/settings/default-page-variant`, which answers 403, and
+the browser console logs "RTK Query error: ... The 'administer page template'
+permission is required." The editor works normally; allow the message if your
+automated tests fail on console errors.
+
 ## The Vartheme BS5 Page Template
 
 The page template is created when **Drupal Canvas** is turned on for the theme.
@@ -97,6 +103,10 @@ The page template is opened from inside any page editor.
 ![The Page Template Layer Above the Page Content in the Layers Panel](<../../../.gitbook/assets/Canvas Header Footer - Layers Page Template.png>)
 
 ![Page Templates in the Templates Panel](<../../../.gitbook/assets/Canvas Header Footer - Templates Panel Page Templates.png>)
+
+{% hint style="warning" %}
+On one Varbase 11 site, opening the page template (`/canvas/editor/page_variant/theme_vartheme_bs5`) with no edit at all marked it **Changed** and showed **Review 1 change**. Three auto-save entries were stored for whoever opened it: the page variant and the staged Arabic and French config overrides. Before anyone publishes, check **Review changes** and discard entries nobody made. See [Known Issues on a New Varbase 11 Site](../../known-issues-on-a-new-varbase-11-site.md).
+{% endhint %}
 
 On a page, the header and footer components are shown but locked. They are
 edited only in the page template, so a change there applies to every page that
@@ -155,6 +165,13 @@ footer, secondary and social media menus.
 
 This example places the **Newsletter Subscribe** webform in the footer, **under**
 the social media links menu, so visitors can sign up from any page.
+
+{% hint style="info" %}
+**Newsletter Subscribe** ships with no handlers: sign-ups are stored, but nobody
+is notified and no address reaches a mailing list. Add an email handler or a
+mailing list integration before the form goes live. See
+[Varbase Webform Base](../../understanding-varbase/varbase-recipes/varbase-webform-base.md).
+{% endhint %}
 
 1. Open the **Vartheme\_bs5 theme** page template and expand **Footer** in the
    **Layers** panel.

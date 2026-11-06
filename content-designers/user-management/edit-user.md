@@ -40,7 +40,7 @@ Open your user menu at the bottom of the **Navigation** sidebar and click **Edit
 
 ## Checking What a Role Sees
 
-A **Site Admin** can use **Masquerade** to browse the site as a test account with another role, then **Unmasquerade** to come back. Use it to check that a role sees what it should.
+A **Site Admin** can use **Masquerade** to browse the site as a test account with another role. Use it to check that a role sees what it should. The **Navigation** sidebar has no **Unmasquerade** link, so log out to end it. See [Check a Role With Masquerade](check-a-role-with-masquerade.md).
 
 ## Tips
 

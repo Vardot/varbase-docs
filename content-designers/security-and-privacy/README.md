@@ -10,9 +10,9 @@ Security works in layers, so one weakness does not open everything:
 | --- | --- |
 | **Platform** | Drupal's security team and release schedule; Varbase follows it. Apply security updates promptly. |
 | **Accounts** | A **password policy** (on a new site: at least eight characters, upper and lower case, a number and a special character, not containing the username); **flood control** (five failed logins from one address, or four for one username, within thirty minutes, block further attempts); the password reset form gives the same answer whether or not an account exists. |
-| **Forms** | Quiet anti-spam checks: **Honeypot** (a hidden field robots fill in) and **Antibot** (a real browser must send the form); a visible **CAPTCHA** challenge (**ALTCHA** by default, with reCAPTCHA and Friendly Captcha available) added only where spam gets through. |
+| **Forms** | Quiet anti-spam checks: **Honeypot** (a hidden field robots fill in, on the registration and password reset forms) and **Antibot** (a real browser must send the form, on the password reset, registration and contact forms and every webform); a visible **CAPTCHA** challenge (**ALTCHA** by default, with reCAPTCHA and Friendly Captcha available) added only where spam gets through. On a new site no form has a challenge switched on. |
 | **Browser** | **Security Kit** sends security headers, for example to stop the site being shown inside another site's frame (clickjacking). |
-| **Data** | Secrets such as AI provider keys stored as keys, never shown; an audit trail of who did what; **Trash** and revisions; unpublished content answers page not found. |
+| **Data** | Secrets such as AI provider keys stored as keys (**Configuration** \ **System** \ _**Keys**_), encrypted and never shown; an audit trail of who did what; **Trash** and revisions; unpublished content answers page not found. |
 | **Privacy** | A consent manager (**Klaro**) that asks visitors before loading outside services. See [Cookie Consent](cookie-consent.md). |
 
 <figure><img src="../../.gitbook/assets/learn-15-password-policies.png" alt="The Password Policies page listing the Default policy with an Edit button, and the Add Policy and Force Password Reset buttons"><figcaption><p>Password Policies</p></figcaption></figure>
@@ -27,9 +27,10 @@ Security works in layers, so one weakness does not open everything:
 
 ## Scenario: Unblock Someone Who Locked Themselves Out
 
-1. A **Site Admin** goes to **People** \ _**Flood Unblock**_.
-2. Find the blocked address or username and unblock it.
-3. If many blocks appear for one account, treat it as a possible attack, not a forgetful user, and tell the development team.
+1. A **Site Admin** goes to **People** \ _**Flood Unblock**_ (`/admin/people/flood-unblock`).
+2. Open **Filter** and tick **Only blocked** to see only the blocked addresses and usernames.
+3. Tick the entries to release and click **Remove selected items from the flood table**.
+4. If many blocks appear for one account, treat it as a possible attack, not a forgetful user, and tell the development team.
 
 ## Scenario: Spam Gets Through a Form
 
@@ -37,6 +38,8 @@ Security works in layers, so one weakness does not open everything:
 2. Check that form's own settings, such as limits on submissions per visitor (see [Webforms](../search-forms-and-email/webforms/)).
 3. Add a visible challenge to that form only, so other forms stay friction-free. **ALTCHA** works in the background without images and without sending data to a third party.
 4. Review the decision after a few weeks.
+
+Challenges are added per form under **Configuration** \ **People** \ _**CAPTCHA settings**_, on the **Captcha Points** tab (`/admin/config/people/captcha/captcha-points`).
 
 <figure><img src="../../.gitbook/assets/learn-15-captcha-settings.png" alt="The CAPTCHA settings page with Default challenge type ALTCHA and options to add CAPTCHA challenges on all forms and to administration forms"><figcaption><p>CAPTCHA Settings</p></figcaption></figure>
 
@@ -49,9 +52,21 @@ Many countries require consent before a site loads services that collect persona
 <figure><img src="../../.gitbook/assets/learn-15-consent-services.png" alt="The Klaro Service entities list with services such as Drupal CMS, Bluesky, Consent manager, Deepchat, Drupal AI Alt Text Generation, External Map, Facebook and Google Maps, with their purposes and whether each is enabled"><figcaption><p>Consent Services: Which Outside Services Need the Visitor's Consent</p></figcaption></figure>
 
 - **The privacy policy** is the client's legal team's job; publishing it is a launch task. Until it is published, its footer link is hidden from visitors.
-- **AI and personal data**: guardrails detect email addresses, card numbers, bank account numbers and phone numbers in what is sent to AI. See [AI in Varbase](../ai-in-varbase/#guardrails-logs-and-consent).
+- **AI and personal data**: guardrails detect email addresses, card numbers, bank account numbers and phone numbers in what is sent to AI, and visitors are asked for consent before the chatbot or the AI alt text feature runs. The AI image safety check on image uploads sends the image to the AI provider without asking first; include it in the privacy review. See [AI in Varbase](../ai-in-varbase/#guardrails-logs-and-consent).
 - **Forms** store every submission until someone deletes it. Agree how long submissions are kept and who may see them.
 - **Uploaded files are public** to anyone with the link. Agree another approach for sensitive documents.
+
+{% hint style="warning" %}
+On a new Varbase Starter site, two policy links need work before launch. The **Privacy policy** page (a **Utility page**) is still a draft, so the footer's links to it are hidden from visitors, and the business contact form's agreement checkbox points to a page visitors cannot open: publish it once the client's legal team has written it. The footer's **Terms and Conditions** link goes to `/terms-and-conditions`, which does not exist and answers page not found (once visited, it shows up in **Fix 404 pages**): create that page, or disable the link in the **Footer** menu.
+{% endhint %}
+
+## The Audit Trail
+
+**Reports** \ _**Admin audit trails (Legacy)**_ (`/admin/reports/audit-trail/legacy`) records important actions, such as logins and changes to content, media, menus, taxonomy, users and workflow steps, with the **Type**, **Operation**, **Description** and **User** of each. After an incident, it is how the team finds out what happened. Agree with the client how long the records are kept, because they are personal data too.
+
+{% hint style="info" %}
+The report is marked **Deprecated**, and on a Varbase 11.0 site there is no newer report to replace it yet. Keep using it.
+{% endhint %}
 
 ## Questions Clients Ask
 

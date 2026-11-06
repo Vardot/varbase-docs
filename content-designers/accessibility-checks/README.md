@@ -17,7 +17,7 @@ When you are logged in and view a page on the site, the checker scans it and sho
 
 Visitors never see the checker.
 
-The dashboard's **Pages with accessibility alerts** block lists pages with issues, so problems are seen every day, not once a year in an audit.
+The dashboard's **Pages with accessibility alerts** block lists pages with issues, so problems are seen every day, not once a year in an audit. On a new Varbase Starter site it lists **Contact Us** and **About Varbase**, whose alerts are typical, easy fixes. See [Fix an Accessibility Alert](fix-an-accessibility-alert.md).
 
 ## Common Tasks
 
@@ -34,7 +34,7 @@ The checker runs a set of tests on every page an editor views, including:
 - tables without headers;
 - embedded video or audio that may need captions or a transcript.
 
-On a new Varbase site every test is on. A **Super Admin** can switch off a test that does not apply, under **Configuration** \ **Content authoring** \ _**Editoria11y**_ (`/admin/config/content/editoria11y`). Do it rarely, and record why.
+On a new Varbase site every test is on. A **Super Admin** can switch off a test that does not apply, under **Configuration** \ **Content authoring** \ _**Editoria11y**_ (`/admin/config/content/editoria11y`), in **Turn off specific tests**. Do it rarely, and record why.
 
 ## What a Checker Cannot Do
 
@@ -55,7 +55,7 @@ Each translation declares its language automatically, so screen readers use the 
 
 ## Who Sees the Checker
 
-The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** roles. On a new site, only a **Super Admin** can mark an issue as checked or hide it.
+The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** roles, on the pages they can edit, so each editor sees the problems on their own content rather than the whole site's backlog. For a manual check, these roles can click **Mark as ignored**, which hides the alert for them only. On a new site, only a **Super Admin** can click **Mark as OK**, which hides it for all editors, and open the site-wide report.
 
 ## Questions Clients Ask
 

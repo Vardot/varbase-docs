@@ -4,7 +4,7 @@ Use **Remote audio** for podcasts and tracks hosted on another service. Your sit
 
 ## Steps
 
-1. Go to `/media/add/remote_audio`. The **Media** page's **Add media** list does not offer this type.
+1. Go to `/media/add/remote_audio`. The **Media** page's **Add media** list does not offer this type, for any editorial role.
 2. Paste the **Audio URL** from a supported service.
 3. Fill in the **Name**.
 4. Click **Save**.
@@ -15,7 +15,11 @@ Use **Remote audio** for podcasts and tracks hosted on another service. Your sit
 
 SoundCloud, Spotify, MixCloud, Apple Podcasts, Acast, Audioboom, Simplecast and Spreaker.
 
-You can also add remote audio with **Insert Media** in an editor that uses the **Content** text format.
+You can also add remote audio with **Insert Media** in an editor that uses the **Content** text format. The **Rich editor** format, used by blog posts, does not offer it.
+
+{% hint style="warning" %}
+Unlike the other media types, the **Add Remote audio** form has no **Language** field, so you cannot choose the item's language. On a multilingual site, tell your site administrator if you need it.
+{% endhint %}
 
 ## Tips
 

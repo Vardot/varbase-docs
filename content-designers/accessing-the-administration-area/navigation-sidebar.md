@@ -25,7 +25,11 @@ The **Administration** menu holds the full site menu: **Content**, **Structure**
 
 You see only the items your role can use. A **Content editor**, for example, does not see **Extend** or **Appearance**.
 
-**Tools** has shortcuts such as **Flush all caches** and **Run cron**, for roles allowed to use them. See [Clearing Cache](../site-configuration/system/clearing-cache.md).
+**Tools** has shortcuts such as **Flush all caches** and **Run cron**, for roles allowed to use them. Flushing caches is the usual answer when a change does not appear, but if it happens often, report it to your development team instead. See [Clearing Cache](../site-configuration/system/clearing-cache.md).
+
+{% hint style="warning" %}
+On some sites the bottom of the sidebar shows two **Help** links: the site's own help pages (`/admin/help`) and the Drupal CMS documentation on another website.
+{% endhint %}
 
 ### Your User Menu
 
@@ -38,7 +42,7 @@ At the bottom of the sidebar, click your name to open **View profile**, **Edit p
 
 <figure><img src="../../.gitbook/assets/admin-area-navigation-03-collapsed.png" alt="The Navigation sidebar collapsed to a narrow column of icons, with the Expand sidebar button highlighted"><figcaption><p>The Collapsed Sidebar</p></figcaption></figure>
 
-Varbase remembers your choice in your browser. On a small screen the sidebar is hidden behind a menu button at the top of the page.
+Varbase remembers your choice in your browser. On a small screen the sidebar is hidden behind a menu button at the top of the page; it opens over the page and closes when you tap outside it.
 
 ## The Top Bar
 

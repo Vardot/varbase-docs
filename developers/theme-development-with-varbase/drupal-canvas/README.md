@@ -24,6 +24,8 @@ metaLinks:
 
 Drupal Canvas pages get no automatic URL alias and are not listed in the XML sitemap on Varbase 11.0; plan both per project.
 
+For Canvas behaviour seen on a new site, such as per-item layouts that are installed but off, the **Ask AI (cited answers)** pattern that blocks publishing, and the page template marked **Changed** on open, see [Known Issues on a New Varbase 11 Site](../../known-issues-on-a-new-varbase-11-site.md).
+
 ## For Editors
 
 The editor-facing guide, with the full component catalog, lives in Content Designers: [Building Pages With Drupal Canvas](../../../content-designers/building-pages-with-drupal-canvas/) and the [Component Catalog](../../../content-designers/building-pages-with-drupal-canvas/component-catalog/).

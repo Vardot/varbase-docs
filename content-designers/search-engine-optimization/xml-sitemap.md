@@ -20,7 +20,7 @@ Drupal Canvas pages are not in the sitemap on a new Varbase site. Ask your **SEO
 An **SEO Admin** can keep a single blog post or utility page out of the sitemap:
 
 1. Edit the item and open **Simple XML Sitemap** in the sidebar.
-2. Choose **Do not index** for the sitemap.
+2. Choose **Do not index this Blog post entity in sitemap** (the wording names the content type). **Priority** sets how important the item is compared with the rest of the site.
 3. Save.
 
 ## Managing the Sitemap
@@ -31,6 +31,8 @@ An **SEO Admin** manages it at **Configuration** \ **Search and metadata** \ _**
 - **Custom links**: extra addresses to list.
 - **Rebuild queue & generate**: rebuild the sitemap now instead of waiting for cron.
 
+The page has the tabs **Sitemaps**, **Inclusion**, **Status**, **Types** and **Settings**.
+
 The **Sitemaps** tab shows each sitemap with its status and **Link count**. Use the count as a quick check: with three languages, every blog post or utility page adds three links.
 
 <figure><img src="../../.gitbook/assets/learn-12-sitemap-status.png" alt="The Sitemaps tab of Simple XML Sitemap with the Rebuild queue and Rebuild queue and generate buttons, a full progress bar, and the Default hreflang sitemap published with a link count of 39"><figcaption><p>The Sitemap Status and Link Count</p></figcaption></figure>
@@ -39,7 +41,11 @@ The **Sitemaps** tab shows each sitemap with its status and **Link count**. Use 
 
 ## Submitting the Sitemap
 
-Give the address `https://example.com/sitemap.xml` to Google Search Console and Bing Webmaster Tools once. They read it again by themselves after that.
+Give the address `https://example.com/sitemap.xml` to Google Search Console and Bing Webmaster Tools once. They read it again by themselves after that. These accounts belong to the client, not to the agency; make sure the client's team has access before launch. Both ask you to prove you own the site; the verification codes go in the meta tag settings. See [Meta Tags](meta-tags.md).
+
+{% hint style="warning" %}
+On a new Varbase site, `/robots.txt` does not mention the sitemap: there is no `Sitemap:` line. Ask your development team to add `Sitemap: https://example.com/sitemap.xml` (with your own domain) before launch. The **SEO checklist** lists it as **Verify your XML Sitemap is in your robots.txt file**.
+{% endhint %}
 
 ## Tips
 

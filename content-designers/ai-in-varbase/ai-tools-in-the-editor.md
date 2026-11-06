@@ -19,6 +19,10 @@ The first time you use an AI tool, Varbase asks for your consent, because the to
 
 <figure><img src="../../.gitbook/assets/ai-tools-04-privacy-prompt.png" alt="The consent prompt Transfer image and meta data to chosen AI service, shown in place of the Generate with AI button, with the Yes (this time) button highlighted"><figcaption><p>The Privacy Prompt Before an AI Tool Runs</p></figcaption></figure>
 
+{% hint style="warning" %}
+The privacy prompt covers **Generate with AI**, not the **AI image safety** check. When you upload an image on a site with the AI recipes, the safety check sends it to the AI provider straight away, without asking. Keep this in mind before uploading an image that should not leave the site.
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/ai-tools-05-privacy-settings.png" alt="The privacy settings dialog with a switch for the Functional services, a switch for Live chat, a switch to toggle all services and the Save button"><figcaption><p>Managing Your Privacy Settings</p></figcaption></figure>
 
 ## Writing With the AI Assistant
@@ -50,9 +54,19 @@ On a blog post, **Suggest tags** next to the **Tags** field reads the text and p
 
 ## Suggesting Alt Text for Images
 
-When you add an image, click **Generate with AI** next to **Alternative text**. Varbase describes the image in the language of the content. Check the suggestion: the AI does not know why you chose the image. See [Image](../media-management/uploading-media-files/image.md).
+When you add an image, click **Generate with AI** next to **Alternative text**. Varbase describes the image in the language of the content. Check the suggestion against the picture before saving: the AI does not know why you chose the image. See [Image](../media-management/uploading-media-files/image.md).
+
+When an image is saved with its **Image description** and **Image tags** empty (in the **AI description and tags** group), AI writes a longer description and picks up to five tags from an image vocabulary. Fill either field yourself, and the AI leaves it alone.
+
+{% hint style="warning" %}
+An image larger than about 7.5 MB can be refused with **AI provider failed to evaluate the content** on **Alternative text** and **Focal point**, although the field accepts much larger files. Resize the image, then upload it again. See [Content Uploading Standards](../additional-tips/content-uploading-standards.md).
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/ai-tools-02-alt-text.png" alt="An image form with the Alternative text filled in by AI after clicking Generate with AI"><figcaption><p>Alt Text Suggested by AI</p></figcaption></figure>
+
+## Filling Other Fields With AI
+
+Tags, the SEO title and description, and the image description and tags are filled by **automators**: rules that let AI fill a field from other fields. Almost any field can have one, for example a summary written from the main text. An automator is set up on the field's own settings, with **Enable AI Automator** and **AI Automator Settings**. On a new site it is off for the other fields, such as the **Description** of a blog post, so ask your site administrator when a field should get one.
 
 ## Reviewing a Post Before Publishing
 

@@ -14,9 +14,13 @@ Each form has tabs: **View** (the form as visitors see it), **Test**, **Results*
 
 ## Showing a Form on a Page
 
-- **Its own page**: every form has an address such as `/form/contact`.
+- **Its own page**: every form has an address such as `/form/contact`, which is handy for links in emails or campaigns.
 - **In a Drupal Canvas page**: add the **Webform** component from the **Library** and choose the form in its settings. See [Adding and Arranging Components](../../building-pages-with-drupal-canvas/adding-and-arranging-components.md).
 - **On every page**: a **Site Admin** can add the **Webform** component to the footer of the page template, for example for a newsletter sign-up. See [Page Templates](../../building-pages-with-drupal-canvas/page-templates.md).
+
+{% hint style="warning" %}
+On a new Varbase Starter site, the **Contact** form at `/form/contact` says **Sorry… This form is closed to new submissions.** The form in use is the business contact form on the **Contact Us** page (`/contact-us`): link to that page instead, or ask a **Site Admin** to reopen the **Contact** form if you need it.
+{% endhint %}
 
 ## Reading Submissions
 
@@ -32,7 +36,7 @@ Each form has tabs: **View** (the form as visitors see it), **Test**, **Results*
 | --- | --- | --- | --- |
 | Create forms | Yes | Yes | Yes |
 | Edit forms | Their own | Any | Any |
-| Read and export submissions | No | No | Yes |
+| Read and export submissions | Of forms they own | Yes | Yes |
 
 A **Super Admin** can do all of these. Submissions hold visitors' personal details, so keep access to them narrow.
 

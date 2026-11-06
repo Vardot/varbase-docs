@@ -24,6 +24,10 @@ Inserting a Pattern (Video)
 | **Contact Form with Info** | A contact form beside contact details. |
 | **Ask AI (cited answers)** | A box where visitors ask a question and get an answer that cites your site's content. |
 
+{% hint style="warning" %}
+A page with the **Ask AI (cited answers)** pattern cannot be published straight after you insert it: **Review changes** shows two errors saying the value in the **Target Answer block** element is not allowed. Select the pattern's **Question** block and its **Sources** block in turn, pick the page's own answer block as their **Target** again, then publish.
+{% endhint %}
+
 **Site Header** and **Site Footer** add the standard header or footer as a section of a page. The header and footer shown on every page come from the page template. See [Page Templates](page-templates.md).
 
 ## Inserting a Pattern
@@ -37,11 +41,11 @@ Inserting a Pattern (Video)
 
 <figure><img src="../../.gitbook/assets/canvas-patterns-02-inserted.png" alt="The Feature Cards pattern on the page after inserting it, selected, with its settings on the right"><figcaption><p>A Pattern After Inserting It</p></figcaption></figure>
 
-Each insert is an independent copy. Changing it on one page never changes the pattern or other pages.
+Each insert is an independent copy, and nothing in it is locked. Changing it on one page never changes the pattern or other pages.
 
 ## Saving Your Own Pattern
 
-A **Content Admin** or **Site Admin** can save a section they built as a new pattern:
+A **Content Admin** or **Site Admin** (the **Administer patterns** permission) can save a section they built as a new pattern:
 
 1. Right-click the component that holds the section, for example its **Section**.
 2. Choose **Create pattern**.

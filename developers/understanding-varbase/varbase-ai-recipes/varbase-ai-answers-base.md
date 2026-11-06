@@ -54,6 +54,10 @@ ddev drush cr
 
 Open a Canvas page in the editor, insert the **Ask AI (cited answers)** pattern from the **Patterns** panel, and publish.
 
+{% hint style="warning" %}
+On one site the page could not be published after inserting the pattern: **Review changes** showed "The submitted value … in the Target Answer block element is not allowed" twice. The pattern's **Ask AI question** and **Ask AI sources** blocks target the answer block by a fixed id (`ai-answers-answer-c2f9a2b4-…`), and inserting a pattern gives each component a new id. After inserting, select the question block and the sources block, pick the page's answer block as their target again, then publish. See [Known Issues on a New Varbase 11 Site](../../known-issues-on-a-new-varbase-11-site.md).
+{% endhint %}
+
 {% hint style="info" %}
 Each question costs one embeddings call and one chat call.
 {% endhint %}

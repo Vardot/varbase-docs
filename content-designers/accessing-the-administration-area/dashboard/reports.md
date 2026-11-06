@@ -1,6 +1,6 @@
 # Reports
 
-Reports show what has happened on your site: errors, missing pages, failed access attempts and the site's health. They help you spot a broken link or a problem before visitors report it. This page lists the reports and who can open them.
+Reports show what has happened on your site: errors, missing pages, failed access attempts, search phrases and the site's health. They help you spot a broken link or a problem before visitors report it. This page lists the reports and who can open them.
 
 ## Opening Reports
 
@@ -39,6 +39,12 @@ The addresses visitors asked for that do not exist, with how often each was requ
 
 The addresses visitors tried to open without permission. Many hits on one address can mean a link to a private page is published somewhere.
 
+### Top Search Phrases
+
+`/admin/reports/search`
+
+The words visitors type into the site search, with how often each was searched. Use it to see what visitors look for.
+
 ## Reports for the Super Admin
 
 These reports need the **Super Admin** role:
@@ -56,3 +62,4 @@ An **SEO Admin** can also open **Metatag plugins** (`/admin/reports/metatag-plug
 - Check **Top "page not found" errors** after you move or rename pages, and add redirects for the addresses that still get visits.
 - If you see an error in **Recent log messages** that you do not understand, send its details to your development team rather than changing settings.
 - Pass security updates listed in **Available updates** to your development team; updates are applied by developers, not from the editor screens.
+- If admin pages show "There are security updates available for one or more of your modules or themes" in red, a module or theme on the site has a security release. Tell your development team.
