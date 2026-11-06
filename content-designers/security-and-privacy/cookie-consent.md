@@ -7,7 +7,12 @@ Some services on a page, such as an embedded YouTube video, set cookies or send 
 Varbase asks only when a page uses a service that needs consent:
 
 - **Embedded content**, such as a YouTube or Vimeo video, shows a message in its place: **Load external content supplied by YouTube?** The visitor chooses **Yes (this time)** or **Always**.
+- **AI features** that send something to an AI provider ask first. For example, **Generate with AI** for alt text is replaced by **Transfer image and meta data to chosen AI service?** until the person agrees. See [AI Tools in the Editor](../ai-in-varbase/ai-tools-in-the-editor.md#the-privacy-prompt).
 - The **My privacy settings** link in the footer opens the consent settings, where visitors see each service and can turn it on or off at any time.
+
+{% hint style="warning" %}
+The **AI image safety** check that runs when an image is uploaded sends the image to the AI provider without this prompt, while the alt text button on the same form asks first. Mention it in the privacy review of any site with the AI recipes.
+{% endhint %}
 
 <!-- <figure><img src="../../.gitbook/assets/cookie-consent-01-video.png" alt="An embedded YouTube video on a page replaced by the consent message Load external content supplied by YouTube with the Yes this time and Always buttons"><figcaption><p>Asking for Consent Before a Video Loads</p></figcaption></figure> -->
 
@@ -21,7 +26,9 @@ Varbase asks only when a page uses a service that needs consent:
 
 ## Who Manages the Settings
 
-The list of services and the texts visitors see are managed by a **Super Admin** at **Configuration** \ **User interface** \ _**Klaro! settings**_ (`/admin/config/user-interface/klaro`). The consent text links to your **privacy policy** page; keep that page up to date.
+The list of services and the texts visitors see are managed by a **Super Admin** at **Configuration** \ **User interface** \ _**Klaro! settings**_ (`/admin/config/user-interface/klaro`). The services are on its **Klaro! Service entities** page (`/admin/config/user-interface/klaro/services`): on a site with the AI recipes, **Drupal CMS**, **Consent manager**, **Deepchat** (the AI chatbot) and **Drupal AI Alt Text Generation** are on, while **YouTube** and **Google Analytics** are prepared but off. Every new outside service in a project should get an entry there before launch.
+
+The consent text links to your **privacy policy** page (`/privacy-policy`); keep that page up to date. On a new Varbase Starter site that page is still a draft, so publish it before launch. See [Security and Privacy](README.md#privacy-and-consent).
 
 ## Tips
 

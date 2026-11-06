@@ -16,4 +16,8 @@ Each item is named after its file. Open each image afterwards to give it a descr
 ## Tips
 
 - Rename files before uploading (`team-workshop-2026.jpg`, not `IMG_0042.jpg`); the name carries over.
-- Bulk upload takes **Audio**, **Image** and **Video** only. Add documents and SVG images one at a time.
+- **Upload media in bulk** takes **Audio**, **Image** and **Video** only. For documents and SVG images, use **Add media** on the **Media** page, choose the type, and drop several files of that type at once.
+
+{% hint style="info" %}
+The **Media** page has two ways to upload many files, with different types: **Upload media in bulk** (`/media/bulk-upload`) mixes **Audio**, **Image** and **Video** in one go, while **Add media** (`/admin/content/media/bulk-upload`) takes one type at a time and also offers **Document** and **SVG Image**. Neither offers **Remote audio**; see [Remote Audio](remote-audio.md).
+{% endhint %}

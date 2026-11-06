@@ -5,7 +5,7 @@ A site can have excellent content and still fail visitors who cannot find their 
 ## What It Is
 
 - **Menus**: **Main navigation**, **Footer**, **Secondary menu** and **Social media menu** are the visitor menus, under **Structure** \ _**Menus**_. Links are reordered and nested by dragging, and can be disabled without deleting. See [Menu Management](menu-management/).
-- **URL aliases**: readable addresses such as `/blog/securing-your-site`, generated from patterns. Blog posts get `/blog/[title]`, utility pages `/[title]`. **Drupal Canvas pages and taxonomy terms get no automatic alias**: set their address by hand. See [URL Aliases](url-aliases.md).
+- **URL aliases**: readable addresses such as `/blog/securing-your-site`, generated from patterns. Blog posts get `/blog/[title]`, utility pages `/[title]`, and a third pattern, **Menu Path**, builds the address from a page's place in the menu. **Drupal Canvas pages and taxonomy terms have no pattern**: the Canvas editor fills a page's alias from its title as you type it, and a term's address is set by hand. See [URL Aliases](url-aliases.md).
 - **Redirects**: send anyone who asks for one address to another. When a title changes, Varbase adds a redirect from the old address for you. See [URL Redirects](url-redirects.md).
 - **Fix 404 pages**: a report of addresses visitors asked for and did not find, each with **Add redirect**.
 - **Breadcrumbs** and the **active trail**: the path to the current page, and the highlighted menu item for the current section, built from the page's address and place in the menu.
@@ -51,7 +51,7 @@ Many visitors skip the menu and go straight to search. The **Top search phrases*
 
 - Agree the menu tree before pages are built: main menu (five to seven items), footer groups, social and legal links, and who may change each menu after launch. Varbase can grant permission menu by menu.
 - Agree address rules: the pattern per content type, how languages appear, how non-Latin titles are written, and when custom addresses are allowed.
-- List every Drupal Canvas page with its agreed address, since none is generated. Do the same for term pages if they are public.
+- List every Drupal Canvas page with its agreed address: the editor proposes one from the title, but no pattern keeps it in line later. Do the same for term pages if they are public.
 - For a relaunch, the redirect map is a deliverable with an owner and a deadline. See [Plan Redirects for a New Site](plan-redirects-for-a-new-site.md).
 - Name an owner for the 404 report, often the **SEO Admin**.
 

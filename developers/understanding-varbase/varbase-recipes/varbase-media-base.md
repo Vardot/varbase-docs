@@ -38,6 +38,7 @@ Brings in the following core and contributed modules to your site:
 | **Field UI** _(in Drupal core)_                                                       | Provides a user interface for the Field module.                                                     |
 | [**Media Bulk Upload**](https://www.drupal.org/project/media_bulk_upload)             | Allows uploading files in bulk and converting them to media entities.                               |
 | [**Media Bulk Upload: DropzoneJS**](https://www.drupal.org/project/media_bulk_upload) | Allows DropzoneJS integration with media bulk upload.                                               |
+| [**Media Library Bulk Upload**](https://www.drupal.org/project/media_library_bulk_upload) | Adds a multi-file upload page, with a permission per media type. |
 | [**Media Library Edit**](https://www.drupal.org/project/media_library_edit)           | Add an edit button to the Media Library widget when an item is selected.                            |
 | [**Views Bulk Operations**](https://www.drupal.org/project/views_bulk_operations)     | Adds an ability to perform bulk operations on selected entities from view results.                  |
 | [**Views Infinite Scroll**](https://www.drupal.org/project/views_infinite_scroll)     | A pager which allows an infinite scroll effect for views.                                           |
@@ -45,6 +46,17 @@ Brings in the following core and contributed modules to your site:
 | [**WebP**](https://www.drupal.org/project/webp)                                       | Generates WebP copies of image style derivatives.                                                   |
 | [**Varbase Media**](https://www.drupal.org/project/varbase_media)                     | Provides Varbase media types, view modes, and configurations.                                       |
 | [**Drupal Canvas**](https://www.drupal.org/project/canvas)                            | Page builder used by Varbase. Enabled here so media references resolve inside Canvas pages.         |
+
+## Bulk Uploads
+
+Two modules upload several files at once, with different media types. Both appear on the Media page:
+
+| Path | Module | Media types |
+| --- | --- | --- |
+| `/media/bulk-upload` | Media Bulk Upload | Audio, Image and Video, from `media_bulk_upload.media_bulk_config.media_bulk_upload` (`remote_video: 0`). |
+| `/admin/content/media/bulk-upload` | Media Library Bulk Upload | One `use media <type> bulk upload form` permission per type. |
+
+Varbase Media Base grants the Media Library Bulk Upload permission for `audio`, `document`, `image`, `remote_video`, `svg_image` and `video` to the **Content editor**, **Content admin** and **Site admin** roles, and `use media_bulk_upload bulk upload form` to those and the **SEO admin** role. No role gets it for `remote_audio`, so **Remote audio** is added at `/media/add/remote_audio`. See [Known Issues on a New Varbase 11 Site](../../known-issues-on-a-new-varbase-11-site.md).
 
 ## Installation
 

@@ -6,8 +6,8 @@ Every file or link you add becomes a media item in the **Media Library**, ready 
 
 | Start from | How | Types offered |
 | --- | --- | --- |
-| The **Media** page | **Media** in the **Navigation** sidebar, then **Add media** | **Audio**, **Document**, **Image**, **Remote video**, **SVG Image** and **Video** |
-| The full form | Go to `/media/add` and choose the type | All seven types, including **Remote audio** |
+| The **Media** page | **Media** in the **Navigation** sidebar, then **Add media** (`/admin/content/media/bulk-upload`) | **Audio**, **Document**, **Image**, **Remote video**, **SVG Image** and **Video**, several files at a time |
+| The full form | Go to `/media/add` (**Add media item**) and choose the type | All seven types, including **Remote audio** |
 | A media field | **Add media** on the field, such as **Featured image** | Only the types the field accepts (**Featured image** takes **Image**) |
 | The rich-text editor | **Insert Media** on the editor toolbar | Depends on the text format: **Content** offers all seven; **Rich editor** offers **Image**, **Audio**, **Remote video** and **Video** |
 | Bulk upload | **Upload media in bulk** on the **Media** page (`/media/bulk-upload`) | **Audio**, **Image** and **Video** |
@@ -53,7 +53,7 @@ The **Media** page, the field and the editor show a short form: **Name**, the fi
 <figure><img src="../../../.gitbook/assets/media-upload-12-editor-dialog.png" alt="The Add or select media dialog opened from the editor toolbar, with tabs for Image, Audio, Remote video and Video and the upload area on the Image tab"><figcaption><p>The Media Library Dialog From the Editor</p></figcaption></figure>
 
 {% hint style="info" %}
-The **Rich editor** toolbar also has **Media embed**, which embeds a pasted link without adding it to the **Media Library**. Use **Insert Media** for anything you may reuse.
+The **Rich editor** toolbar also has **Media embed**, whose tooltip reads **Insert media** with a small m. It embeds a pasted link without adding it to the **Media Library**. Use **Insert Media** for anything you may reuse.
 {% endhint %}
 
 ## Media Types

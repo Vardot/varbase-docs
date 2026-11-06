@@ -21,11 +21,13 @@ For **Drupal Canvas pages**, the **Meta description** and **Image** in **Page da
 
 ## Site-Wide Defaults
 
-An **SEO Admin** sets the defaults at **Configuration** \ **Search and metadata** \ _**Metatag**_ (`/admin/config/search/metatag`). There is one set for each kind of page: **Global**, **Front page**, **Content**, **Taxonomy term**, **User**, and the error pages.
+An **SEO Admin** sets the defaults at **Configuration** \ **Search and metadata** \ _**Metatag**_ (`/admin/config/search/metatag`). There is one set for each kind of page: **Global**, **Front page**, **Content**, **Taxonomy term**, **User**, and the error pages **403 access denied** and **404 page not found**, which keep error pages out of search results.
 
 <figure><img src="../../.gitbook/assets/seo-meta-tags-02-defaults.png" alt="The Metatag defaults list with Global, Front page, Content, Taxonomy term and User, each with an Edit button"><figcaption><p>The Meta Tag Defaults</p></figcaption></figure>
 
 The values use tokens, placeholders such as `[node:title]` that are replaced by each page's own value. Change a default only if every page of that kind should change.
+
+The verification codes that Google Search Console and Bing Webmaster Tools ask for, to prove the client owns the site, also go in the meta tag settings. Plan them as a launch task with the client's marketing or IT team.
 
 ## Tips
 

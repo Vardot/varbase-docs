@@ -156,6 +156,7 @@
     * [Creating Your Own Recipe](developers/extending-varbase/creating-your-own-recipe.md)
     * [Overriding Varbase](developers/extending-varbase/overriding-varbase.md)
   * [Automated Functional Testing](developers/automated-testing/README.md)
+  * [Known Issues on a New Varbase 11 Site](developers/known-issues-on-a-new-varbase-11-site.md)
   * [Frequently Asked Questions (FAQs)](developers/faqs.md)
 * [Content Designers](content-designers/README.md)
   * [Varbase in the Drupal World](content-designers/varbase-in-the-drupal-world/README.md)

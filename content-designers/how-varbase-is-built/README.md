@@ -24,7 +24,13 @@ Varbase recipes come in five groups:
 | **Optional** | Internationalization (languages), API, authentication (sign-in with outside accounts), AI recipes | Only when needed |
 | **Demo content** | Sample pages, posts, images and menus | Removed or replaced before launch |
 
-Two foundation recipes answer questions clients always ask. The **performance** recipe turns on page caching and image optimisation, so pages load quickly and images arrive at sensible sizes. The **security** recipe sets a password policy, spam protection for forms, limits on failed logins and security headers. Both are on from the first day, not added at the end of the project. See [Security and Privacy](../security-and-privacy/).
+You can see what the foundation recipes left behind on any Varbase site: the editorial roles at **People** \ _**Roles**_ (`/admin/people/roles`), the **Editorial** workflow with its draft, review, published and archived states (`/admin/config/workflow/workflows`), and meta tag defaults for the whole site, the front page and each kind of content (`/admin/config/search/metatag`). None of it was configured by hand.
+
+Two foundation recipes answer questions clients always ask. The **performance** recipe turns on page caching and image optimisation, so pages load quickly and images arrive at sensible sizes. The **security** recipe sets a password policy, spam protection for forms, limits on failed logins and security headers. Both are on from the first day, not added at the end of the project. To show them, open `/admin/config/development/performance` and `/admin/config/security/password-policy`. See [Security and Privacy](../security-and-privacy/).
+
+{% hint style="warning" %}
+On some sites the **Performance** page shows a CAPTCHA warning about page caching on every visit. It comes from the default settings; pass it to the development team rather than changing the cache settings in front of a client.
+{% endhint %}
 
 Not every recipe has Varbase in its name: the **Drupal CMS** recipes provide the admin interface, anti-spam, forms, media, privacy, search engine basics and accessibility tools, and Varbase adds its layer on top.
 

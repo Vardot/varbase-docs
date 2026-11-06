@@ -14,7 +14,7 @@ Creating a Blog Post (Video)
 
 2. Fill in the main fields:
    - **Title** (required): a clear, descriptive title.
-   - **Featured image**: click **Add media** to pick or upload an image from the **Media Library**.
+   - **Featured image**: click **Add media** to open the **Add or select media** dialog, then pick or upload an image and click **Insert selected**. A reused image already has its alt text and focal point.
    - **Description**: a short summary, used in lists and cards.
    - **Content**: the body text, written in the rich-text editor. See [Rich-Text Editor "WYSIWYG"](rich-text-editor-wysiwyg.md).
    - **Categories** and **Tags** (blog posts): choose a category and type tags to group the post with related content.
@@ -25,7 +25,8 @@ Creating a Blog Post (Video)
 4. Check the settings in the sidebar on the right:
    - **URL alias**: leave **Generate automatic URL alias** on to get an address from the title. See [URL Aliases](../../url-management/url-aliases.md).
    - **Scheduling options**: set a future publish or unpublish date. See [Scheduling Content](../../content-workflow/scheduling-content.md).
-   - **Authoring information**, **Promotion options** and, for utility pages, **Menu settings**.
+   - **Authoring information** (the author and the date) and **Promotion options**.
+   - **Menu settings** (utility pages only): tick **Provide a menu link**, then set the **Menu link title** and the **Parent link**, to add the page to a menu, such as the footer, from its own form. Blog posts have no menu settings, because they are found through listings.
 5. Under **Save as**, choose **Draft**, **In review** or **Published**. See [Publish Content](../../content-workflow/publish-content.md).
 6. Optionally, write a **Revision log message** that says what you did.
 7. Click **Save**.
@@ -35,7 +36,7 @@ Creating a Blog Post (Video)
 Varbase saves the item and opens it.
 
 {% hint style="info" %}
-While you work, Varbase saves a copy of your changes in the background. If the browser closes, it offers to restore them the next time you open the form. See [Content Workflow](../../content-workflow/#content-locking-and-autosave).
+While you work, Varbase saves a copy of your changes in the background, about every minute, and shows when it **Last saved** near the form buttons. If the browser closes, it offers to restore them the next time you open the form. See [Content Workflow](../../content-workflow/#content-locking-and-autosave).
 {% endhint %}
 
 ## Tips

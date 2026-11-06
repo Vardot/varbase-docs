@@ -6,7 +6,7 @@ The **Content Accessibility** report collects every issue the checker has found 
 
 1. As a **Super Admin**, go to **Reports** \ _**Content Accessibility**_ (`/admin/reports/editoria11y`).
 2. Read **Top issues**: the most common problems are the best training topics.
-3. Open a page from **Pages with the most issues** and fix its alerts. See [Fix an Accessibility Alert](fix-an-accessibility-alert.md).
+3. Open a page from **Pages with the most issues** and fix its alerts. See [Fix an Accessibility Alert](fix-an-accessibility-alert.md). Click **All pages with issues** for the full table; checking it each month gives a simple trend.
 4. Check **Recent issues** and the dismissals, to see who marked what as checked.
 5. Export the results as spreadsheets (a summary, the issues, and the dismissals) to report progress.
 

@@ -20,7 +20,7 @@ Varbase ships one dashboard for editors, **Welcome to your site**. Every editori
 | --- | --- |
 | **Welcome** | Your name and picture. |
 | **Add content** | Links to **Create**, **Pages**, **CMS**, **Media** and **Trash**, the same as the top of the **Navigation** sidebar. |
-| **Top tasks** | Setup shortcuts, such as **Change site appearance** and **Invite users to collaborate**. You see only the ones your role can use. |
+| **Top tasks** | Setup shortcuts: **Change site appearance** (the themes), **Invite users to collaborate** (the new account form) and **Choose recommended add-ons** (the **Project Browser**). You see only the ones your role can use. |
 
 ### Right Column
 
@@ -45,7 +45,7 @@ A **Super Admin** also sees the **AI Dashboard** (`/admin/dashboard/ai_dashboard
 
 ## Changing a Dashboard
 
-A **Super Admin** can add, remove and arrange the panels at **Structure** \ **Dashboard** (`/admin/structure/dashboard`), and choose which roles see each dashboard. Each role gets the first dashboard in that list that it is allowed to see.
+A **Super Admin** can add, remove and arrange the panels with **Edit layout** on the dashboard itself, which opens the layout editor (for the welcome dashboard, `/admin/structure/dashboard/welcome/layout`). **Structure** \ **Dashboard** (`/admin/structure/dashboard`) lists the dashboards, has **Add dashboard** for a new one, and decides which roles see each dashboard. Each role gets the first dashboard in that list that it is allowed to see.
 
 The **Top tasks** panel is a menu called **Top tasks**. Anyone who can manage menus can replace its links with the jobs their own team does most often, under **Structure** \ _**Menus**_. See [Menu Management](../../url-management/menu-management/).
 

@@ -32,7 +32,7 @@ Open **Search Engine Optimization (SEO) Information** in the blog post form:
 | **SEO title** | The title in search results, if it should differ from the post title. |
 | **SEO description** | The summary under the title in search results. If empty, the **Description** is used. |
 | **SEO image** | The picture shown when the post is shared on social media. If empty, the **Featured image** is used. |
-| **SEO analysis** | A live check of the post against a focus keyword. See [SEO Analysis With Yoast SEO](seo-analysis-yoast.md). |
+| **SEO analysis** | A live check of the post against a **Focus keyword**, with a **Snippet preview** of the search result. See [SEO Analysis With Yoast SEO](seo-analysis-yoast.md). |
 
 <figure><img src="../../.gitbook/assets/seo-overview-01-seo-fields.png" alt="The Search Engine Optimization (SEO) Information section of a blog post form, with the SEO title, SEO description, SEO image and SEO analysis fields"><figcaption><p>The SEO Fields of a Blog Post</p></figcaption></figure>
 
@@ -45,11 +45,15 @@ Utility pages use their **Title** and **Description**. Drupal Canvas pages use t
 
 ## Search Exclude Is Not Robots
 
-**Search API Exclude** on the content form keeps an item out of the site's own search, such as a thank-you page. It does not hide it from outside search engines; that is a robots setting in the item's meta tags. Each item can also be left out of the sitemap from its form.
+**Search API Exclude** on the content form (**Prevent this node from being indexed.**) keeps an item out of the site's own search, such as a thank-you page. It does not hide it from outside search engines; that is a robots setting in the item's meta tags. Each item can also be left out of the sitemap from its form.
 
 ## The SEO Checklist
 
-Go to **Configuration** \ **Search and metadata** \ _**SEO checklist**_. It lists 45 tasks, ticks those Varbase already did (clean addresses, meta tags, sitemap) and leaves the launch tasks: submitting the sitemap, analytics, the robots file. Save the form to record its progress.
+Go to **Configuration** \ **Search and metadata** \ _**SEO checklist**_ (`/admin/config/search/seo-checklist`). It lists 45 tasks in tabs such as **Clean URLs**, **Meta tags and Schema.org Vocabularies**, **Search engines** and **Optimizing content**. It ticks those Varbase already did (clean addresses, meta tags, sitemap) and leaves the launch tasks, such as **Verify your XML Sitemap is in your robots.txt file**, **Submit XML sitemap to Google** and **Submit XML sitemap to Bing**. Save the form to record its progress; because it lives in the site, it records who ticked what and when.
+
+{% hint style="warning" %}
+On a new site, every visit to the checklist shows "SEO checklist found 10 unchecked items that were already completed and checked them for you. Save the form to record the changes." The message comes back until someone saves the form once. Save it, and it stops.
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/learn-12-seo-checklist.png" alt="The SEO checklist with a progress bar, tabs such as Clean URLs, Meta tags and Schema.org Vocabularies and Search engines, and ticked items such as Install and Enable Redirect module"><figcaption><p>The SEO Checklist</p></figcaption></figure>
 
@@ -57,10 +61,11 @@ Go to **Configuration** \ **Search and metadata** \ _**SEO checklist**_. It list
 
 1. Meta tag defaults reviewed, with the site name and slogan filled in.
 2. SEO fields filled on key pages, by editors or by AI with a review.
-3. Sitemap generated, its address added to the robots file (not there by default), and submitted to Google Search Console and Bing Webmaster Tools, in accounts the client owns. Verification codes go in the meta tag settings.
+3. Sitemap generated, its address added to the robots file (`/robots.txt` has no `Sitemap:` line by default), and submitted to Google Search Console and Bing Webmaster Tools, in accounts the client owns. Verification codes go in the meta tag settings.
 4. Redirects from the old site in place.
-5. Analytics and consent agreed. Analytics is an optional recipe; the consent services for it exist but are off until switched on.
-6. A decision on AI crawlers: welcome them, or ask some to stay away in the robots file.
+5. Analytics and consent agreed. Analytics is an optional recipe; the consent services for it exist but are off until switched on (`/admin/config/user-interface/klaro/services`).
+6. `/llms.txt` checked, with a short description of the organisation.
+7. A decision on AI crawlers: welcome them, or ask some to stay away in the robots file.
 
 ## Who Manages SEO
 

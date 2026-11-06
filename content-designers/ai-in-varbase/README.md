@@ -14,9 +14,9 @@ Watch the lessons: [AI in Varbase: Recipes, Writing Help, Images and Guardrails]
 ## What It Is
 
 - **Varbase AI Base** connects the providers and brings the editor assistant, image alt text, taxonomy tagging, AI context and safety. Other recipes add SEO, search, answers, chat, review and more. See [Varbase AI Recipes](../../developers/understanding-varbase/varbase-ai-recipes/).
-- **Providers** do the work; a site can connect several (for example Anthropic, OpenAI and amazee.io) and pick a default model per task: writing, describing images, searching by meaning. Keys are stored as secrets, never in content, email or tickets, and the provider account belongs to the client.
+- **Providers** do the work; a site can connect several (for example amazee.ai, Anthropic and OpenAI) and pick a default model per task: writing, describing images, searching by meaning. Keys are stored as secrets, never in content, email or tickets, and the provider account belongs to the client.
 - **Editor help**: the writing assistant in the editor, **Suggest tags**, AI SEO titles and descriptions that fill only empty fields, and an automator that can fill almost any field from other fields. See [AI Tools in the Editor](ai-tools-in-the-editor.md).
-- **Image help**: alt text on request, in a house style; an image description and up to five image tags on save; a bulk alt text tool; and a safety check that refuses unsuitable uploads.
+- **Image help**: alt text on request, in a house style (**AI Image Alt Text Settings**, `/admin/config/ai/ai_image_alt_text`); an image description and up to five image tags on save, in the **AI description and tags** group of the image form; a bulk alt text tool (**Bulk Generate Alt Text**); and a safety check that refuses unsuitable uploads with a reason (**AI image safety (Media: Image)** under `/admin/structure/field_validation`). If the AI service is unavailable, uploads wait rather than letting unchecked images through. On a new site **Autogenerate on upload** is off, so alt text is written only when someone clicks **Generate with AI**.
 - **Not applied by default**: generating images and SVG graphics in the media library (**Varbase AI Media Base**) and turning Figma designs into pages (**Varbase AI Figma**). Both are optional recipes for a client who asks.
 - **AI Setup and Configuration** is its own group under **Configuration**: infrastructure (providers, models, vector databases), tools and automation, and safety and compliance.
 
@@ -32,7 +32,7 @@ Watch the lessons: [AI in Varbase: Recipes, Writing Help, Images and Guardrails]
 
 ## Context: Teaching the AI About the Client
 
-AI models know a lot about the world and nothing about the client. The **context control center** (**Configuration** \ **AI Setup and Configuration** \ _**Context Control Center**_) holds plain-language guidance every AI feature receives: brand and identity guidelines, editorial rules and safety guidelines. An item can apply everywhere or only to one use case, language or part of the site, and has a status, so it can be drafted before it goes live.
+AI models know a lot about the world and nothing about the client. The **context control center** (**Configuration** \ **AI Setup and Configuration** \ _**Context Control Center**_, with the items on its **Context Items** tab, `/admin/config/ai/context/items`) holds plain-language guidance every AI feature receives: brand and identity guidelines, editorial rules and safety guidelines. An item can apply everywhere or only to one use case, language or part of the site, and has a status: it takes effect only once it is **Published**, so it can be drafted and reviewed first.
 
 <figure><img src="../../.gitbook/assets/learn-18-ai-context-items.png" alt="The Context Items list with Varbase AI Editorial Rules, Varbase AI Safety Guardrails and Varbase Brand and Identity Guidelines, each Global and Published, with their token counts"><figcaption><p>AI Context Items: Editorial Rules, Safety Guidelines and Brand Guidelines</p></figcaption></figure>
 

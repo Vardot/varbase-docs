@@ -40,13 +40,17 @@ A published item can have a newer draft. Visitors keep seeing the published vers
 
 The **Change to** list in the edit form shows only the states the item can move to. For the steps, see [Publish Content](publish-content.md).
 
-To review or change the workflow, go to **Administration** \ **Configuration** \ **Workflow** \ _**Workflows**_ (`/admin/config/workflow/workflows`) and edit **Editorial**.
+To review or change the workflow, go to **Administration** \ **Configuration** \ **Workflow** \ _**Workflows**_ (`/admin/config/workflow/workflows`) and edit **Editorial**. Its page lists the **States**, the **Transitions**, the content types under **This workflow applies to:** and, in **Workflow Settings**, the **Default moderation state** (**Draft**).
+
+{% hint style="warning" %}
+On some sites the **Workflows** page also lists **Basic page** under the **Basic** workflow. Blog posts and utility pages use **Editorial**; read the **Editorial** workflow for how they move.
+{% endhint %}
 
 ## Editorial Roles and Permissions
 
 On a new Varbase site, the **Content editor**, **SEO Admin**, **Content Admin** and **Site Admin** roles can use every **Editorial** transition, including **Publish**. **Super Admin** has unrestricted access.
 
-If your team needs a review step before content goes live, remove the **Editorial workflow: Use Publish transition** permission from the roles that should only send content to review. Set this at **Administration** \ **People** \ _**Permissions**_, in the **Content Moderation** group.
+If your team needs a review step before content goes live, remove the **Editorial workflow: Use Publish transition** permission from the roles that should only send content to review. Set this at **Administration** \ **People** \ _**Permissions**_ (`/admin/people/permissions`), in the **Content Moderation** group; type `Editorial workflow` in **Filter by permission name** to see each transition's row.
 
 See [Default Roles and Site Personas](../user-management/default-roles-and-site-persons/) for details on each role.
 
@@ -57,6 +61,7 @@ See [Default Roles and Site Personas](../user-management/default-roles-and-site-
 When you open a blog post or utility page for editing, Varbase locks it so no one else can edit it at the same time.
 
 - Another editor who opens it sees a message naming you, and cannot save changes.
+- Opening the form shows the message "This content is now locked against simultaneous editing." On a new site it appears on every edit form, for your own lock; it is not an error.
 - The lock is released when you click **Save**, or **Unlock** at the top of the form.
 - A lock left behind ends by itself after 30 minutes.
 - A **Content Admin** or **Super Admin** can release someone else's lock with **Break the lock.** in that message, or **Break lock** in the item's **Operations** on the content list.
@@ -87,6 +92,14 @@ To start a new post from an old one, such as this year's event from last year's,
 - **Bulk actions** on the content list apply one action to many items. See [Bulk Edit Content](bulk-edit-content.md).
 
 <figure><img src="../../.gitbook/assets/learn-06-change-to-and-scheduling.png" alt="The edit form of a published blog post with Change to marked in the sidebar and the Scheduling options group open, showing Publish on, Publish state and Unpublish on"><figcaption><p>Change To and the Scheduling Options in the Sidebar</p></figcaption></figure>
+
+## Who Did What
+
+Beyond revisions, Varbase keeps an **audit trail** of admin actions, such as content being created, edited, published or deleted, with who did it and when. Its settings, which list the events that are logged, are at `/admin/config/development/audit-trail/settings`. Agree with the client how long these records are kept: that is a policy decision, not a technical one.
+
+{% hint style="warning" %}
+On some sites the audit trail report (`/admin/reports/audit-trail/legacy`) is marked **Deprecated**, and no newer report replaces it yet. Ask your development team how to read the audit trail on your site.
+{% endhint %}
 
 ## Drupal Canvas Pages Are Different
 

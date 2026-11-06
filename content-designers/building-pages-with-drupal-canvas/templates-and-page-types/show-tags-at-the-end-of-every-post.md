@@ -15,7 +15,7 @@ See [Content Templates](../content-templates.md).
 
 ## Questions Clients Ask
 
-- **Can a single post break out of the template?** Only if per-item layouts are switched on for the content type (in the content type's Canvas settings). They are off on a new Varbase Starter site. Use it for the one exception, such as an annual report summary; an overridden item no longer follows template changes.
+- **Can a single post break out of the template?** Only if per-item layouts are switched on for the content type (in the content type's Canvas settings). They are installed but switched on for no content type on a new Varbase Starter site, so a post shows no **Canvas layout** tab. See [Content Templates](../content-templates.md#one-item-with-its-own-layout). Use it for the one exception, such as an annual report summary; an overridden item no longer follows template changes.
 
 ## Planning Notes
 

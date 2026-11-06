@@ -10,7 +10,7 @@ Items in the trash are hidden from visitors and from the normal content lists.
 
 ## Opening the Trash
 
-Click **Trash** in the **Navigation** sidebar, or go to `/admin/content/trash`. The tabs at the top split the trash by kind: **Content**, **Pages**, **Media entities**, **Taxonomy terms** and **Files**.
+Click **Trash** in the **Navigation** sidebar, or go to `/admin/content/trash`. The tabs at the top split the trash by kind: **Content**, **Pages**, **Media entities**, **Taxonomy terms** and **Files**. Each list shows who deleted each item and when.
 
 <figure><img src="../../.gitbook/assets/workflow-trash-01-list.png" alt="The Trash page on the Content tab, listing a deleted blog post with its deletion date and the Restore and Purge operations"><figcaption><p>The Trash</p></figcaption></figure>
 

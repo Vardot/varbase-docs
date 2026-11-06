@@ -16,6 +16,9 @@ See **URL Alias**.
 ### Archived
 A content moderation state in which content is removed from public view but retained in the system for reference or future reuse.
 
+### Ask AI
+A box on a page where visitors ask a question and get a short answer written from the site's own content, with numbered sources. It is added with the **Ask AI (cited answers)** pattern.
+
 ## B
 
 ### Block
@@ -36,7 +39,7 @@ A Drupal module that provides a quick-search overlay for admin navigation. Activ
 A ready-made piece of a Drupal Canvas page, such as a heading, an image, a card or a slider.
 
 ### Content Admin
-A Varbase user role with broader content management authority, including the ability to publish, archive, and manage content structure.
+A Varbase user role for editorial leads: everything a **Content editor** does, plus publishing Drupal Canvas pages and managing taxonomy, menus, webforms and patterns.
 
 ### Content Editor
 A Varbase user role for editorial staff who create and manage content, upload media, and build Drupal Canvas pages for others to publish.
@@ -52,7 +55,10 @@ A Drupal core feature that provides a publishing workflow with defined states (D
 The Drupal Canvas layout used to show every item of a content type, such as every blog post.
 
 ### Content Type
-A template that defines the structure of a kind of content, including its fields, display settings, and form configuration. Examples: Page, Article, Landing Page.
+A template that defines the structure of a kind of content, including its fields, display settings, and form configuration. Examples on a Varbase site: Blog post, Utility page.
+
+### Context Control Center
+The place where an AI-enabled site keeps plain-language guidance, such as brand guidelines and editorial rules, that every AI feature receives with each request.
 
 ### Cron
 A scheduled task system that runs periodic maintenance operations on the site, such as checking for updates, indexing search content, and processing queues.
@@ -80,6 +86,9 @@ A JavaScript library integrated into Varbase for drag-and-drop file uploading.
 A Drupal module that enables building automated workflows based on site events. Allows defining rules such as "When event X happens, if condition Y is met, perform action Z."
 
 
+### Easy Email
+The module that gives every email the site sends, such as a password reset, its own template and branded look.
+
 ### Editoria11y
 The accessibility checker that marks problems on pages for logged-in editors.
 
@@ -95,6 +104,9 @@ A feature that allows setting a point of interest on an image. When the image is
 
 ### Gin
 The admin theme used by Varbase 11.0.x. Provides a modern, clean, and accessible administration interface with support for light and dark modes.
+
+### Guardrail
+A check on what is sent to AI and what comes back, for example for personal data, risky topics or attempts to trick the AI.
 
 ## J
 
@@ -115,6 +127,12 @@ An older Drupal page layout tool. Varbase 11 builds pages with **Drupal Canvas**
 A Drupal module that provides an autocomplete-based link insertion tool for the rich-text editor. Allows finding and linking to internal content by title.
 
 ## M
+
+### Masquerade
+A tool that lets a **Site Admin** or **Super Admin** act as another account for a while, to see the site as that role. Log out to end it.
+
+### MCP (Model Context Protocol)
+A standard way to connect an outside AI assistant to the site. The assistant acts with the **MCP agent** role, which may create and edit drafts but never publish.
 
 ### Media Library
 The central interface for browsing, managing, and selecting media assets (images, videos, documents, audio) on a Drupal site.
@@ -153,6 +171,9 @@ A Drupal module that automatically generates URL aliases for content based on co
 ### Pattern
 A ready-made page section in Drupal Canvas, such as a hero slider or a set of feature cards.
 
+### Persona
+A typical job that a default role is designed around, such as the writer behind **Content editor** or the web manager behind **Site Admin**.
+
 ### Published
 A content moderation state in which content is live and visible to all site visitors.
 
@@ -167,6 +188,9 @@ An optional module, not included in Varbase 11, that previews site pages at diff
 ### Revision
 A saved version of a content item. Drupal creates a new revision each time content is saved, allowing editors to review change history and revert to previous versions.
 
+### Role
+A named set of permissions. Giving someone a role gives them everything it allows; a person can hold more than one role.
+
 ## S
 
 ### Scheduler
@@ -175,11 +199,17 @@ A module that allows scheduling content to be automatically published or unpubli
 ### Schema.org
 A structured data vocabulary used to provide search engines with detailed information about web content. Enables rich search results.
 
+### SEO Admin
+A Varbase user role for search specialists: meta tags, URL aliases, redirects and the sitemap, and blog posts and utility pages, but not Drupal Canvas pages.
+
 ### SEO (Search Engine Optimization)
 The practice of optimizing website content and configuration to improve visibility and ranking in search engine results.
 
 ### Simple Sitemap
 A Drupal module that generates XML sitemaps to help search engines discover and index site content.
+
+### Site Admin
+A Varbase user role for the client's web manager: accounts, most settings, page and content templates, and publishing Drupal Canvas pages, but not changing permissions.
 
 ### Super Admin
 The Varbase user role with every permission. Keep it for a few trusted technical people.

@@ -8,7 +8,7 @@ Place each requirement in one of three columns:
 
 | Out of the box | Configure | Build |
 | --- | --- | --- |
-| Admin area and dashboard, editorial workflow, revisions, scheduling, Trash, media library and focal points, Drupal Canvas with patterns, the design system, readable addresses, redirects, meta tags, sitemap, accessibility checks, security defaults, consent | New content types and fields, vocabularies, roles and workflow rules, menus, forms, email handlers, languages and translation, AI features with context and guardrails | Integrations (CRM, single sign-on, payments), new components, special access rules such as editing by section, content migration |
+| Admin area and dashboard, editorial workflow, revisions, scheduling, Trash, media library and focal points, Drupal Canvas with patterns, the design system, readable addresses, redirects, meta tags, sitemap, structured data, accessibility checks, security defaults, consent, site search, forms and branded emails | New content types and fields, vocabularies, roles and workflow rules, menus, forms, email handlers, languages and translation, AI features with context and guardrails | Integrations (CRM, single sign-on, payments), new components, special access rules such as editing by section, content migration |
 | Work: content and training | Predictable work; most project hours | Most uncertainty: ranges and written assumptions |
 
 ## Common Requests

@@ -74,6 +74,12 @@ When reporting a bug, please include:
 
 ***
 
+## Something on my new Varbase 11 site looks broken. Is it a known issue?
+
+Check [Known Issues on a New Varbase 11 Site](known-issues-on-a-new-varbase-11-site.md) first. It lists the configuration and behaviour issues found on one Varbase 11.0.0 site with Varbase Starter, such as the empty **Moderated content** list, media types missing from **Insert Media**, the closed `/form/contact` webform and the unpublished **Privacy policy** page, with the cause and a fix for each. Check each one on your own site before you change anything, and report what you confirm on the issue queue of the recipe that ships it.
+
+***
+
 ## How do I install Varbase?
 
 The recommended way to install Varbase 11.x is using DDEV:

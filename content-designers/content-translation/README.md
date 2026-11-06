@@ -15,8 +15,8 @@ A multilingual Varbase site shows each page, post, menu and image in the visitor
 | Kind | Covers | Where |
 | --- | --- | --- |
 | **Content** | Posts, pages, media, terms: the words editors write | The **Translate** tab, or **Translate** in the Canvas editor |
-| **Interface** | Words the software shows: buttons, labels, messages | Downloaded from the Drupal community; the rest under **Configuration** \ **Region and language** \ _**User interface translation**_ |
-| **Configuration** | Words in settings: site name and slogan, menu link titles, form labels and messages, email templates | The **Translate** operation on each item |
+| **Interface** | Words the software shows: buttons, labels, messages | Downloaded from the Drupal community; the rest under **Configuration** \ **Region and language** \ _**User interface translation**_ (`/admin/config/regional/translate`), found with **String contains** |
+| **Configuration** | Words in settings: site name and slogan, menu link titles, form labels and messages, email templates | The **Translate** operation on each item, listed under **Configuration** \ **Region and language** \ _**Configuration translation**_ (`/admin/config/regional/config-translation`) |
 
 Configuration translation is the one most often forgotten: a contact form or an account email that greets an Arabic visitor in English undermines trust.
 
@@ -26,7 +26,10 @@ Configuration translation is the one most often forgotten: a contact form or an 
 | --- | --- |
 | **Blog posts and utility pages** | The **Translate** tab of the item. See [Translating Content](translating-content.md). |
 | **Drupal Canvas pages** | **Translate** in the Canvas editor. See [Translating a Page](../building-pages-with-drupal-canvas/translating-a-page.md). |
-| **Media, taxonomy terms and menu links** | The **Translate** tab of each item, the same way as blog posts. |
+| **Media, taxonomy terms and menu links** | The **Translate** tab of each item, the same way as blog posts. For an image, translate its name and alt text, so screen readers read it in the visitor's language. |
+| **Webforms and email templates** | Their own **Translate** operations, with the original beside the translation. Test each email in each language. |
+
+What is translatable, and which fields are shared between languages, is set under **Configuration** \ **Region and language** \ _**Content language**_ (`/admin/config/regional/content-language`). On a Varbase site, content, media, Drupal Canvas pages, taxonomy terms and custom menu links are translatable.
 
 ## Languages and Addresses
 
@@ -65,11 +68,11 @@ Varbase mirrors menus, cards, directional icons and forms for Arabic. Check font
 
 ## AI and Translation
 
-The editor's AI translate action is off by default and can be switched on. An editor can also ask the assistant to rewrite a passage in another language as a first draft. Agree a rule: AI drafts are saved as drafts with a revision note saying so, and a native speaker publishes them.
+The editor's AI translate action is off by default and can be switched on: until then, **AI Assistant** in the editor toolbar offers actions such as **Reformat HTML**, **Fix spelling** and **Summarize**, but no translation. An editor can also ask the assistant to rewrite a passage in another language as a first draft. Agree a rule: AI drafts are saved as drafts with a revision note saying so, and a native speaker publishes them.
 
 ## Who Can Translate
 
-The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** roles can add and update translations. Only a **Site Admin** or **Super Admin** can delete a translation.
+The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** roles can add and update translations, including Drupal Canvas pages (the **Translate Canvas content** permission). Only a **Content Admin**, **Site Admin** or **Super Admin** can delete a translation.
 
 ## Questions Clients Ask
 

@@ -13,7 +13,7 @@ Use **Document** for files visitors download, such as a PDF report or a price li
 
 ## Accepted Files
 
-TXT, RTF, DOC, DOCX, PPT, PPTX, XLS, XLSX, PDF, ODF, ODG, ODP, ODS, ODT, FODT, FODS, FODP, FODG, KEY, NUMBERS and PAGES, one file per item.
+TXT, RTF, DOC, DOCX, PPT, PPTX, XLS, XLSX, PDF, ODF, ODG, ODP, ODS, ODT, FODT, FODS, FODP, FODG, KEY, NUMBERS and PAGES, one file per item. The list and the size limit show under the upload field as **Allowed types**.
 
 ## Replacing a Document
 

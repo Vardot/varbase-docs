@@ -20,6 +20,8 @@ Varbase opens your **Dashboard**. See [Dashboard](../accessing-the-administratio
 3. Open the email from the site and click the one-time link in it.
 4. Set a new password.
 
+The form gives the same answer whether or not the account exists, so nobody can use it to find out which usernames are real.
+
 ## Password Rules
 
 A password on a Varbase site must:
@@ -34,11 +36,13 @@ The form shows which rules your new password meets as you type.
 
 Visitors cannot create their own accounts on a standard Varbase site: an administrator creates each account. See [Add User](add-user.md). The new user gets an email with a link to set their password.
 
+This is set in **Configuration** \ **People** \ _**Account settings**_ (`/admin/config/people/accounts`), under **Registration and cancellation**, where **Administrators only** is chosen. Opening registration to visitors brings spam and privacy duties, so treat it as a real requirement of the project, not a default. The same section sets what happens when an account is cancelled: **Disable the account and keep its content.**
+
 ## Logging Out
 
 Open your user menu at the bottom of the **Navigation** sidebar and click **Log out**.
 
 ## Tips
 
-- If a login fails several times in a row, the site blocks further attempts from that account for a while. Wait, or ask a **Site Admin** to unblock it at **People** \ **Flood unblock**.
+- After five failed logins from one address, or four for one username, within 30 minutes, the site blocks further attempts for a while. Wait, or ask a **Site Admin** to unblock it at **People** \ **Flood unblock**. See [Security and Privacy](../security-and-privacy/).
 - Never share your account; ask for your own instead, so every change is recorded under the right name.

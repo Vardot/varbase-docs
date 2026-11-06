@@ -28,6 +28,8 @@ If you have added or changed Pathauto patterns and need to generate aliases for 
 /admin/config/search/path/update_bulk
 ```
 
+In the Gin admin theme the **Bulk generate** tab may not show on the aliases page; open the path directly.
+
 2. Select the entity types for which you want to generate aliases (for example, Content, Taxonomy terms, Users).
 3. Choose whether to generate aliases only for entities that do not already have one, or regenerate all aliases.
 4. Click **Update** to start the bulk generation process.

@@ -34,6 +34,14 @@ Brings in the following core and contributed modules to your site:
 | [**CKEditor 5 WProofreader**](https://www.drupal.org/project/ckeditor5_plugin_pack)                       | Provides free access to the CKEditor 5 WProofreader plugin. Requires the CKEditor 5 Premium Features module to work. |
 | [**CKEditor(5) Emoji**](https://www.drupal.org/project/ckeditor_emoji)                                    | Provides Emoji CKEditor Plugin for CKEditor5.                                                                        |
 
+## Media in the Rich Editor Format
+
+The **Rich editor** text format (`full_html`) limits **Insert Media** to the types in its **Embed media** filter (`media_embed.allowed_media_types` in `filter.format.full_html.yml`). Varbase Editor Base 1.0.1 lists `audio`, `file`, `image`, `remote_video` and `video`. There is no `file` media type (the type is `document`), so editors can insert only Image, Audio, Remote video and Video. The **Content** format (`content_format`) leaves the list empty, which allows every media type. **Varbase AI Media Base** adds `svg_image` to the Rich editor list.
+
+The Rich editor toolbar also has two media buttons: **Insert Media** (`drupalMedia`, the Media Library) and **Insert media** (`MediaEmbed`, paste a media link).
+
+See [Known Issues on a New Varbase 11 Site](../../known-issues-on-a-new-varbase-11-site.md) for the fix.
+
 ## Installation
 
 Apply the recipe using Drush:

@@ -21,6 +21,14 @@ Varbase keeps ready-made copies of pages so the site is fast. Your changes norma
 
 Cron runs background tasks on a timer: publishing scheduled content, rebuilding the sitemap and clearing old logs. Your hosting runs it regularly. A **Content Admin** or **Site Admin** can also start it with **Tools** \ **Run cron** in the **Navigation** sidebar.
 
+## Security and Email Settings
+
+The **System** area also holds settings that protect the site and send its emails. A **Super Admin** or your development team manages them:
+
+- **Keys** (`/admin/config/system/keys`): the secrets the site uses, such as AI provider keys, stored in one place and encrypted. Their values are never shown; never paste one into an email, a ticket or a chat.
+- **Security Kit settings** (`/admin/config/system/seckit`): the security headers sent with every page. See [Security and Privacy](../../security-and-privacy/).
+- **Mail System** (`/admin/config/system/mailsystem`) and the email transport: how the site hands its emails to a mail service. See [Email Templates](../../search-forms-and-email/email-templates.md).
+
 ## Analytics
 
 See [Google Analytics](google-analytics.md).

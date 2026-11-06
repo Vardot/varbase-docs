@@ -8,7 +8,7 @@ Click **Media** in the **Navigation** sidebar, or go to `/admin/content/media`.
 
 The page has two views, as tabs:
 
-- **Table**: a list with the name, type, author, status and date of each item.
+- **Table**: a list with the **Thumbnail**, **Media name**, **Type**, **Author**, **Status** and **Updated** date of each item. Sort by **Updated**, oldest first, for a yearly clean-up.
 - **Grid**: thumbnails, handy for finding an image by sight.
 
 <figure><img src="../../.gitbook/assets/media-library-01-grid.png" alt="The Media page on the Grid tab, showing image thumbnails with the Name, Media type and Publishing status filters above them"><figcaption><p>The Media Library Grid</p></figcaption></figure>
@@ -22,13 +22,13 @@ Click **Filter** to apply them.
 ## Managing an Item
 
 - Click the name or thumbnail to open it.
-- Click **Edit** to change its name, alt text or file.
+- Click **Edit** to change its name, alt text or file. The **Usage** tab lists the content that uses it, and **Translate** holds its translations.
 - Choose **Delete** in its operations to move it to the **Trash**.
 
 ## Picking Media From a Content Form
 
 1. On a media field, such as **Featured image**, click **Add media**.
-2. The **Media Library** dialog opens. Choose the type tab, if there is more than one.
+2. The **Add or select media** dialog opens. Choose the type tab, if there is more than one.
 3. Pick an existing item, or upload a new file in the upload area at the top.
 4. Click **Insert selected**.
 

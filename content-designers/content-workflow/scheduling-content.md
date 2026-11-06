@@ -13,7 +13,7 @@ Scheduling lets you prepare a blog post or utility page now and have Varbase pub
 <figure><img src="../../.gitbook/assets/workflow-scheduling-01-options.png" alt="The Scheduling options section in the sidebar of a blog post edit form, with a date and time in Publish on and the Publish state list below it"><figcaption><p>Setting a Publish Date</p></figcaption></figure>
 
 {% hint style="warning" %}
-If **Publish state** offers only **- None -**, the item will not be published at that time. Ask your site administrator to check the scheduling settings before you rely on it.
+On some sites **Publish state** offers only **- None -**, for every role. The schedule still saves and shows in **Scheduled content**, but the item is not published when the time comes. Ask your site administrator to check the scheduling settings before you rely on it, and check the item after its publish time.
 {% endhint %}
 
 The item stays unpublished until that time, then Varbase publishes it.

@@ -8,11 +8,11 @@ Menus are the sets of links visitors use to move around your site: the main menu
 | --- | --- |
 | **Main navigation** | The main menu in the site header. |
 | **Footer** | Links in the footer, such as **Privacy policy** and **Terms and Conditions**. |
-| **Secondary menu** | The footer link groups, such as **Support** and **Quicklinks**. |
+| **Secondary menu** | The footer link groups, such as **Quicklinks** and **Support**. They are headings that link nowhere (`<nolink>`) and become the titles of two columns of links. |
 | **Social media menu** | The social network links in the footer. |
 | **User account menu** | Account links, such as **Log in** and **My account**. |
 
-The **Administration**, **Content**, **Tools**, **Top tasks** and **Navigation user links** menus drive the administration screens. Leave them to your site administrator.
+The **Administration**, **Content**, **Tools**, **Top tasks** (the dashboard menu) and **Navigation user links** menus drive the administration screens. Leave them to your site administrator.
 
 ## Opening a Menu
 
@@ -30,11 +30,15 @@ The form lists every link in order, with sub-items indented under their parent.
 - **Weight**: the order among links at the same level. Dragging sets it for you.
 - **Enabled**: an unticked link stays in the menu but is hidden from visitors.
 - **Hidden by itself**: a link to a page a visitor may not see, such as an unpublished draft, is hidden from that visitor. Before launch, check that every link leads to a published page.
-- **Translations**: on a multilingual site, each menu link title is translated from the link's **Translate** tab, so the Arabic menu reads in Arabic. A link to a page that exists in only some languages should show only in those languages.
+
+{% hint style="warning" %}
+Two footer links need attention on a new Varbase Starter site. The **Footer** menu has two privacy policy links, **Privacy policy** and **Privacy Policy**, and visitors see neither, because the privacy policy page ships as an unpublished draft. **Terms and Conditions** leads to a page that does not exist. Before launch, publish the policy pages, remove the duplicate link, and create the terms page or disable its link. See [Fix a Broken Link](../fix-a-broken-link.md).
+{% endhint %}
+- **Translations**: on a multilingual site, each menu link title is translated from the link's **Translate** tab, so the Arabic menu reads in Arabic. **Translate menu** on the menu form lists the menu's own translations. A link to a page that exists in only some languages should show only in those languages.
 
 ## Who Can Manage Menus
 
-The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** roles can manage the site menus.
+The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** roles can manage the site menus (the **Administer menus and menu links** permission). Varbase can also grant permission menu by menu, so a team can edit the footer but not the main navigation.
 
 ## In This Section
 

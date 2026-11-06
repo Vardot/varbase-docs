@@ -22,6 +22,10 @@ The **Simple Sitemap** module generates XML sitemaps that search engines use to 
 
 Configure at: **Configuration > Search and metadata > Simple Sitemap**
 
+{% hint style="warning" %}
+Simple XML Sitemap does not add itself to `robots.txt`. A new site serves Drupal core's default `robots.txt`, with no `Sitemap:` line. Add `Sitemap: https://<your-domain>/sitemap.xml` as a launch task. Core's Composer scaffolding rewrites `robots.txt`, so add the line through an `append` entry in the project's `extra.drupal-scaffold.file-mapping` rather than editing the file by hand.
+{% endhint %}
+
 ### Yoast SEO (Real-time SEO)
 
 The **Real-time SEO for Drupal** module (based on Yoast SEO) provides real-time SEO analysis and recommendations while editing content. It checks keyword density, readability, meta tag completeness, and other SEO factors directly within the content editing form.
@@ -35,6 +39,12 @@ The **Pathauto** module generates automatic URL aliases based on configurable pa
 The **Redirect** module manages URL redirects, automatically creating redirects when URL aliases change and providing an interface for managing custom redirects. This helps prevent broken links and preserves search engine rankings when URLs change.
 
 Configure at: **Configuration > URL aliases > Redirects**
+
+### SEO Checklist
+
+The **SEO Checklist** module, installed by **Drupal CMS SEO Tools**, lists SEO tasks at `/admin/config/search/seo-checklist`. On one new site, every visit showed "SEO checklist found 10 unchecked items that were already completed and checked them for you. Save the form to record the changes." Nothing is recorded until someone clicks **Save**, so open the checklist once and save it.
+
+See [Known Issues on a New Varbase 11 Site](../../known-issues-on-a-new-varbase-11-site.md).
 
 ## Sections
 

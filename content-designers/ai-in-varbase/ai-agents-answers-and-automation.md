@@ -12,10 +12,14 @@
 
 **Search by meaning** matches ideas, not just words, so a question about protecting a site finds a post about security. Varbase keeps a second, vector index of the content for this. On top of it, **Ask AI** (Varbase AI Answers Base) answers a visitor's question in plain words using only what it found, with numbered citations and source cards. It answers in the visitor's language, and says so when the site has no answer.
 
-- It is placed with the **Ask AI (cited answers)** pattern in Drupal Canvas, on a help or support page.
+- It is placed with the **Ask AI (cited answers)** pattern from the **Patterns** tab of the Canvas **Library**, on a help, support or search page. On a new site the pattern is not on any page yet.
 - Answers are only as good as the content: clear headings, accurate and current pages. Visitor feedback on answers is a list of content to improve.
 - Each question costs one search and one AI call.
 - A **visitor chatbot** answers from the same index in a conversation and asks for consent before it loads. On sites where every page is a Drupal Canvas page, its block cannot yet be placed as a component.
+
+{% hint style="warning" %}
+A page with the **Ask AI (cited answers)** pattern may refuse to publish: **Review changes** shows two errors saying that the submitted value in the **Target Answer block** element is not allowed. After inserting the pattern, select its **Question** block and its **Sources** block and choose the page's answer block as their **Target** again, then publish.
+{% endhint %}
 
 ## AI Content Review
 
@@ -31,7 +35,7 @@ See [AI Tools in the Editor](ai-tools-in-the-editor.md#reviewing-a-post-before-p
 
 ## The Content Operations Assistant
 
-A chat for editors in the admin area that audits, reports on and updates content: for example "which blog posts have no SEO description?". It works with the editor's own permissions, shows every change first, saves only what the editor approves as a new revision with a note, and never deletes content or changes users or settings. A separate set-up assistant from Drupal CMS helps administrators with site settings; use it on a test site first.
+A chat for editors in the admin area that audits, reports on and updates content: for example "which blog posts have no SEO description?". The **Content editor**, **Content Admin**, **SEO Admin** and **Site Admin** roles open it from **Assistant** in the admin toolbar. Its first message lists what it can do: audit links and alt text, draft missing meta descriptions, find unused or duplicate tags, report what was published and what is stuck in draft, and rename a term across the site. Answers can take a while on a large site. It works with the editor's own permissions, shows every change first, saves only what the editor approves as a new revision with a note, and never deletes content or changes users or settings. So a mistake can always be undone from the **Revisions** tab. Administrators may also see a second assistant, **Drupal Agent**, a Drupal CMS feature that helps with site set-up; use it on a test site first.
 
 ## The Drupal Canvas AI Agent
 
@@ -42,12 +46,16 @@ In the Canvas editor, the AI panel drafts whole pages from a description, or fro
 ### Scenario: Draft a Webinar Landing Page
 
 1. Open a new, unpublished page in the editor and open the AI panel.
-2. Describe the page: "A landing page for a training webinar: a hero with the date and a register button, three cards on what attendees learn, questions and answers, and a call to action." Or attach a picture of the layout.
+2. Describe the page: "A landing page for a training webinar: a hero with the date and a register button, three cards on what attendees learn, questions and answers, and a call to action." Or attach a picture of the layout, where the panel offers it.
 3. Wait for the draft. It is made of normal components, such as a hero, cards, an accordion and a call to action.
 4. Review it like any page: every fact, number and link, images and their alt text, heading order, the phone view, and whether it sounds like the client.
 5. Change any word or image, reorder sections, then publish through **Review changes**.
 
-The agent can only use components and variants that exist in the design system, so the result stays on brand. On a new site only the **Super Admin** may use it; each draft uses several AI calls. See [Building Pages With the Drupal Canvas AI Agent](../../developers/theme-development-with-varbase/drupal-canvas/building-pages-with-the-drupal-canvas-ai-agent.md).
+{% hint style="info" %}
+On some sites the AI panel has no control to attach a picture. Describe the layout in words instead, section by section from top to bottom.
+{% endhint %}
+
+The agent can only use components and variants that exist in the design system, so the result stays on brand. On a new site only the **Super Admin** has the **Use Drupal Canvas AI** permission; each draft uses several AI calls. See [Building Pages With the Drupal Canvas AI Agent](../../developers/theme-development-with-varbase/drupal-canvas/building-pages-with-the-drupal-canvas-ai-agent.md).
 
 ## MCP: Connecting Outside AI Assistants
 
@@ -55,7 +63,7 @@ The agent can only use components and variants that exist in the design system, 
 
 - A person connects their assistant, logs in to the site and approves it through a standard secure sign-in (OAuth). Without approval, access is refused.
 - The assistant acts with the **MCP agent** role: it may create and edit drafts of posts and pages, and it can never publish.
-- Each capability is a tool (list and read content, read field definitions, create or update drafts); an administrator decides which tools are available.
+- Each capability is a tool (list and read content, read field definitions, create or update drafts); an administrator decides which tools are available on **MCP Tool Configurations** (`/admin/config/services/mcp-server/tools`).
 
 <figure><img src="../../.gitbook/assets/learn-19-mcp-tool-configurations.png" alt="The MCP Tool Configurations page listing tools such as bundle field definitions, entity field values, entity list, entity load, entity revision add and entity save, each Enabled"><figcaption><p>MCP Tool Configurations</p></figcaption></figure>
 

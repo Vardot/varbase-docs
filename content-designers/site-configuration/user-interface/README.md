@@ -6,4 +6,4 @@ The **User interface** area covers the tools that make the administration screen
 - [Navigation Settings](navigation-settings.md): the logo of the **Navigation** sidebar.
 - [Responsive Preview](responsive-preview.md): how to check pages at phone, tablet and desktop sizes.
 
-The settings live at **Configuration** \ **User interface** (`/admin/config/user-interface`) and need the **Super Admin** role. The cookie consent settings are there too. See [Cookie Consent](../../security-and-privacy/cookie-consent.md).
+The settings live at **Configuration** \ **User interface** (`/admin/config/user-interface`) and need the **Super Admin** role. The cookie consent settings are there too (see [Cookie Consent](../../security-and-privacy/cookie-consent.md)), and so are the **Antibot** settings (`/admin/config/user-interface/antibot`), which protect forms from robots (see [Security and Privacy](../../security-and-privacy/)).

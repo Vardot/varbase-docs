@@ -14,7 +14,7 @@ The releases that matter to a developer on Varbase 11.0.x, newest first. Each en
 | --- | --- | --- |
 | Varbase profile | [11.0.0](https://www.drupal.org/project/varbase/releases/11.0.0) | 8 September 2026 |
 | Varbase Project template | [11.0.11](https://www.drupal.org/project/varbase_project/releases/11.0.11) | 10 October 2026 |
-| Varbase Starter | [1.0.8](https://www.drupal.org/project/varbase_starter/releases/1.0.8) | 27 October 2026 |
+| Varbase Starter | [1.0.9](https://www.drupal.org/project/varbase_starter/releases/1.0.9) | 1 November 2026 |
 | Vartheme BS5 | [5.0.8](https://www.drupal.org/project/vartheme_bs5/releases/5.0.8) | 29 October 2026 |
 | Varbase Components | [4.0.3](https://www.drupal.org/project/varbase_components/releases/4.0.3) | 11 October 2026 |
 | Drupal Canvas | [1.12.0](https://www.drupal.org/project/canvas/releases/1.12.0) | 25 September 2026 |
@@ -23,6 +23,12 @@ The releases that matter to a developer on Varbase 11.0.x, newest first. Each en
 | Drupal Core Patches | [11.4.0.8](https://packagist.org/packages/vardot/drupal-core-patches#11.4.0.8) | 10 October 2026 |
 
 Drupal core is `~11.4.0`. Every recipe and module, with its version line, is in the [Module and Recipe Inventory](understanding-varbase/module-and-recipe-inventory.md).
+
+## November 2026
+
+* **1 November**: [Varbase Starter 1.0.9](https://www.drupal.org/project/varbase_starter/releases/1.0.9).
+
+For issues seen on a new site built with these releases, see [Known Issues on a New Varbase 11 Site](known-issues-on-a-new-varbase-11-site.md).
 
 ## October 2026
 

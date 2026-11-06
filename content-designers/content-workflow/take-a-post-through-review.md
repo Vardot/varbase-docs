@@ -5,7 +5,7 @@ When someone else should approve a post before visitors see it, the author sends
 ## Steps
 
 1. **The author** writes the post, sets **Save as** to **In review**, writes a short note such as "Ready for review", and saves. Visitors still cannot see it.
-2. **The reviewer** finds it in the content list: filter **Published status** by unpublished, or open **Moderated content**.
+2. **The reviewer** finds it in the content list (`/admin/content`): filter **Published status** by unpublished. **Moderated content** is meant for this too, but see the warning below.
 3. The reviewer opens the post, reads it, and may make small corrections.
 4. If it is ready: **Change to** **Published**, a note such as "Approved", and **Save**. The history records who approved it and when.
 5. If it is not ready: **Change to** **Draft** with a note on what to change. The note stays in the post's history, so the author knows why.
@@ -23,7 +23,7 @@ On a new Varbase site, every editorial role can use **Publish**, so a review ste
 ## Questions Clients Ask
 
 - **Do translations follow the same workflow?** Yes, and each translation has its own state.
-- **Who can see what changed and when?** The **Revisions** tab per item, plus an audit trail of admin actions. Agree with the client how long those records are kept.
+- **Who can see what changed and when?** The **Revisions** tab per item, plus an audit trail of admin actions. Agree with the client how long those records are kept. See [Who Did What](README.md#who-did-what).
 
 ## Related
 

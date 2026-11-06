@@ -11,9 +11,11 @@ Ask questions grouped by topic:
 | Content | What do you publish, how much, how often, and who writes it? |
 | People | Who reviews and approves, in which roles? |
 | Pages | Which pages do you want to build and change yourselves? |
-| Languages | Which at launch, which later, who translates? |
+| Languages | Which at launch, which later, who translates, and is anything right to left? |
+| Search, forms and email | What must visitors find, what do they send you, and where should it go? |
+| Security and privacy | Which rules and standards must you follow? |
 | Integrations | Which other systems must the site talk to? |
-| AI | This year, next year, or not at all? Which provider and budget? |
+| AI | Eager, careful or not yet? Which provider and budget? |
 
 - **Listen for the real need.** Behind "a chatbot" may be "visitors must find answers faster"; behind "a new design" may be "pages editors can change". Ask why, twice, and write the need next to the request.
 - **Collect constraints**: accessibility level, privacy laws, hosting rules such as data staying in one country, procurement and security questionnaires.
