@@ -63,4 +63,4 @@ Lesson 16: Accessibility (Video)
 3. Where would you look to choose the topic of an editors' refresher training?
 {% endhint %}
 
-Previous: [Lesson 15: Security and Privacy](lesson-15-security-and-privacy.md) | Next: [Lesson 18: AI in Varbase: Recipes, Writing Help, Images and Guardrails](lesson-18-ai-recipes-writing-help-images-and-guardrails.md)
+Previous: [Lesson 15: Security and Privacy](lesson-15-security-and-privacy.md) | Next: [Lesson 17: Search, Forms and Email](lesson-17-search-forms-email.md)
