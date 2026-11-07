@@ -2,11 +2,11 @@
 
 Log in, read the dashboard, use the navigation sidebar, Coffee and the content listing with confidence, and explain to a client how the admin area changes by role.
 
-{% embed url="https://youtu.be/ZbGtfilou6M" %}
+{% embed url="https://youtu.be/gIOpTcED3qc" %}
 Lesson 3: Finding Your Way (Video)
 {% endembed %}
 
-**Length:** 21:29
+**Length:** 18:05
 
 ## Read More in the Docs
 
@@ -14,39 +14,39 @@ Lesson 3: Finding Your Way (Video)
 
 ## Chapters
 
-- [00:00](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=0s) Welcome to lesson three
-- [00:45](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=45s) The login page
-- [01:45](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=105s) Forgotten passwords
-- [02:25](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=145s) Which site am I on?
-- [03:02](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=182s) Logging in
-- [03:26](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=206s) Reading the messages
-- [04:00](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=240s) A first look
-- [04:45](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=285s) Add content and top tasks
-- [05:30](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=330s) Drafts and recent work
-- [06:11](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=371s) Accessibility alerts and scheduled content
-- [06:48](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=408s) Changing the dashboard
-- [07:26](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=446s) A dashboard for each team
-- [08:05](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=485s) The AI dashboard
-- [08:40](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=520s) The sidebar at a glance
-- [09:27](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=567s) Create and content
-- [10:06](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=606s) Structure, appearance and extend
-- [10:57](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=657s) Configuration
-- [11:43](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=703s) Tools, people and reports
-- [12:28](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=748s) Collapsing and settings
-- [12:54](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=774s) Your own account
-- [13:40](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=820s) Coffee
-- [14:14](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=854s) What Coffee searches
-- [14:43](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=883s) The content listing
-- [15:24](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=924s) Finding the right item fast
-- [16:00](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=960s) Tabs above the listing
-- [16:38](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=998s) Tabs on a content item
-- [17:17](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=1037s) Editing from the front end
-- [17:46](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=1066s) The same site, a different role
-- [18:30](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=1110s) Reports and help
-- [19:08](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=1148s) Help from the documentation
-- [19:39](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=1179s) A first-week checklist
-- [20:13](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=1213s) Recap
-- [20:55](https://www.youtube.com/watch?v=ZbGtfilou6M&list=PLRf-g9-Bc-LI&t=1255s) Check yourself, and what comes next
+- [00:00](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=0s) Welcome to lesson three
+- [00:37](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=37s) The login page
+- [01:26](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=86s) Forgotten passwords
+- [01:56](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=116s) Which site am I on?
+- [02:31](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=151s) Logging in
+- [02:53](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=173s) Reading the messages
+- [03:26](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=206s) A first look
+- [03:58](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=238s) Add content and top tasks
+- [04:30](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=270s) Drafts and recent work
+- [04:58](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=298s) Accessibility alerts and scheduled content
+- [05:29](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=329s) Changing the dashboard
+- [06:02](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=362s) A dashboard for each team
+- [06:38](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=398s) The AI dashboard
+- [07:05](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=425s) The sidebar at a glance
+- [07:35](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=455s) Create and content
+- [08:04](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=484s) Structure, appearance and extend
+- [08:39](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=519s) Configuration
+- [09:19](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=559s) Tools, people and reports
+- [09:56](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=596s) Collapsing and settings
+- [10:18](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=618s) Your own account
+- [11:02](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=662s) Coffee
+- [11:31](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=691s) What Coffee searches
+- [11:55](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=715s) The content listing
+- [12:30](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=750s) Finding the right item fast
+- [13:05](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=785s) Tabs above the listing
+- [13:37](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=817s) Tabs on a content item
+- [14:11](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=851s) Editing from the front end
+- [14:37](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=877s) The same site, a different role
+- [15:18](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=918s) Reports and help
+- [15:51](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=951s) Help from the documentation
+- [16:19](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=979s) A first-week checklist
+- [16:54](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=1014s) Recap
+- [17:33](https://www.youtube.com/watch?v=gIOpTcED3qc&list=PLRf-g9-Bc-LI&t=1053s) Check yourself, and what comes next
 
 ## Check Yourself
 
