@@ -10,6 +10,7 @@ Varbase: Content Designers (Playlist)
 
 | # | Lesson | Length | Video | Docs |
 | --- | --- | --- | --- | --- |
+| Intro | Course Intro | 1:26 | [youtu.be/8mgTp6JcnXw](https://youtu.be/8mgTp6JcnXw) | [Content Designers](../README.md) |
 | 1 | [Varbase in the Drupal World](lesson-01-varbase-in-the-drupal-world.md) | 19:30 | [youtu.be/nZ0CT4PhlOY](https://youtu.be/nZ0CT4PhlOY) | [Varbase in the Drupal World](../varbase-in-the-drupal-world/README.md) |
 | 2 | [How Varbase Is Built](lesson-02-how-varbase-is-built.md) | 19:25 | [youtu.be/XTDtcoo3ZsA](https://youtu.be/XTDtcoo3ZsA) | [How Varbase Is Built](../how-varbase-is-built/README.md) |
 | 3 | [Finding Your Way](lesson-03-finding-your-way.md) | 18:05 | [youtu.be/gIOpTcED3qc](https://youtu.be/gIOpTcED3qc) | [Accessing the Administration Area](../accessing-the-administration-area/README.md) |
@@ -30,5 +31,6 @@ Varbase: Content Designers (Playlist)
 | 18 | [AI in Varbase: Recipes, Writing Help, Images and Guardrails](lesson-18-ai-recipes-writing-help-images-and-guardrails.md) | 19:08 | [youtu.be/r4N62ebDNVQ](https://youtu.be/r4N62ebDNVQ) | [AI in Varbase](../ai-in-varbase/README.md), [AI Tools in the Editor](../ai-in-varbase/ai-tools-in-the-editor.md) |
 | 19 | [AI in Varbase: Answers, Reviews, Assistants and Automation](lesson-19-ai-answers-reviews-assistants-and-automation.md) | 18:54 | [youtu.be/A5wXR2dRFis](https://youtu.be/A5wXR2dRFis) | [AI Agents, Answers and Automation](../ai-in-varbase/ai-agents-answers-and-automation.md), [Run an AI Pilot](../ai-in-varbase/run-an-ai-pilot.md) |
 | 20 | [From Client Needs to a Varbase Plan](lesson-20-from-client-needs-to-a-varbase-plan.md) | 20:08 | [youtu.be/6G38D0vQodU](https://youtu.be/6G38D0vQodU) | [Planning a Varbase Project](../from-client-needs-to-a-varbase-plan/README.md) |
+| Closing | Course Closing | 0:58 | [youtu.be/WfvFp_58KjI](https://youtu.be/WfvFp_58KjI) | [Content Designers](../README.md) |
 
 Each lesson page ends with a few questions to check yourself, except the last one.
