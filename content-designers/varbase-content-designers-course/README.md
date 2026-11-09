@@ -20,7 +20,7 @@ Varbase: Content Designers (Playlist)
 | 7 | [Media](lesson-07-media.md) | 19:29 | [youtu.be/F7KHkUyKR2Q](https://youtu.be/F7KHkUyKR2Q) | [Media Management](../media-management/README.md) |
 | 8 | [Pages With Drupal Canvas](lesson-08-pages-with-drupal-canvas-part-1.md) | 21:45 | [youtu.be/U3CdAZY6fjY](https://youtu.be/U3CdAZY6fjY) | [Building Pages With Drupal Canvas](../building-pages-with-drupal-canvas/README.md), [Component Catalog](../building-pages-with-drupal-canvas/component-catalog/README.md) |
 | 9 | [Drupal Canvas: Templates and Page Types](lesson-09-drupal-canvas-part-2.md) | 19:55 | [youtu.be/0z53iXfh-Pc](https://youtu.be/0z53iXfh-Pc) | [Page Types and Templates](../building-pages-with-drupal-canvas/templates-and-page-types/README.md) |
-| 10 | [The Design System](lesson-10-the-design-system.md) | 20:53 | [youtu.be/SG_NIgG4T5c](https://youtu.be/SG_NIgG4T5c) | [The Design System](../the-design-system/README.md) |
+| 10 | [The Design System](lesson-10-the-design-system.md) | 20:43 | [youtu.be/X1laBTA-6vw](https://youtu.be/X1laBTA-6vw) | [The Design System](../the-design-system/README.md) |
 | 11 | [Navigation and Web Addresses](lesson-11-navigation-and-web-addresses.md) | 19:14 | [youtu.be/vkIFna_rjME](https://youtu.be/vkIFna_rjME) | [URL Management](../url-management/README.md) |
 | 12 | [Search Engines and AI Readiness](lesson-12-search-engines-and-ai-readiness.md) | 19:29 | [youtu.be/sXhbZFbUUSo](https://youtu.be/sXhbZFbUUSo) | [Search Engine Optimization](../search-engine-optimization/README.md) |
 | 13 | [Multilingual Sites and Right-to-Left](lesson-13-multilingual-sites-and-right-to-left.md) | 19:50 | [youtu.be/KxMQRBf2Myc](https://youtu.be/KxMQRBf2Myc) | [Content Translation](../content-translation/README.md) |
