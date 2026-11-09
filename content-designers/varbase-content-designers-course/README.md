@@ -16,8 +16,8 @@ Varbase: Content Designers (Playlist)
 | 3 | [Finding Your Way](lesson-03-finding-your-way.md) | 18:05 | [youtu.be/gIOpTcED3qc](https://youtu.be/gIOpTcED3qc) | [Accessing the Administration Area](../accessing-the-administration-area/README.md) |
 | 4 | [The Content Model](lesson-04-the-content-model.md) | 18:57 | [youtu.be/DDBH_LgS7iM](https://youtu.be/DDBH_LgS7iM) | [Content Structure](../content-structure/README.md), [Content Types and Fields](../content-structure/content-types-and-fields.md) |
 | 5 | [Creating Content](lesson-05-creating-content.md) | 19:24 | [youtu.be/ib2ZC7eQs4M](https://youtu.be/ib2ZC7eQs4M) | [Content Management](../content-management/README.md) |
-| 6 | [Editorial Workflow](lesson-06-editorial-workflow.md) | 19:15 | [youtu.be/eLAoF0tgoe4](https://youtu.be/eLAoF0tgoe4) | [Content Workflow](../content-workflow/README.md) |
-| 7 | [Media](lesson-07-media.md) | 19:23 | [youtu.be/jQ5g1QmfpP0](https://youtu.be/jQ5g1QmfpP0) | [Media Management](../media-management/README.md) |
+| 6 | [Editorial Workflow](lesson-06-editorial-workflow.md) | 19:18 | [youtu.be/SeeBc4xei4s](https://youtu.be/SeeBc4xei4s) | [Content Workflow](../content-workflow/README.md) |
+| 7 | [Media](lesson-07-media.md) | 19:29 | [youtu.be/F7KHkUyKR2Q](https://youtu.be/F7KHkUyKR2Q) | [Media Management](../media-management/README.md) |
 | 8 | [Pages With Drupal Canvas](lesson-08-pages-with-drupal-canvas-part-1.md) | 21:45 | [youtu.be/U3CdAZY6fjY](https://youtu.be/U3CdAZY6fjY) | [Building Pages With Drupal Canvas](../building-pages-with-drupal-canvas/README.md), [Component Catalog](../building-pages-with-drupal-canvas/component-catalog/README.md) |
 | 9 | [Drupal Canvas: Templates and Page Types](lesson-09-drupal-canvas-part-2.md) | 19:55 | [youtu.be/0z53iXfh-Pc](https://youtu.be/0z53iXfh-Pc) | [Page Types and Templates](../building-pages-with-drupal-canvas/templates-and-page-types/README.md) |
 | 10 | [The Design System](lesson-10-the-design-system.md) | 20:53 | [youtu.be/SG_NIgG4T5c](https://youtu.be/SG_NIgG4T5c) | [The Design System](../the-design-system/README.md) |
