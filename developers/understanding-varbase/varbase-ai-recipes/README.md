@@ -11,7 +11,7 @@ This approach allows site builders to adopt only the AI features they need, keep
 | Recipe | Description |
 | --- | --- |
 | [Varbase AI Base](varbase-ai-base.md) | Installs core AI modules and applies default Varbase AI configurations. Foundation for all other Varbase AI recipes. |
-| [Varbase AI Default](https://www.drupal.org/project/varbase_ai_default) | Applies Varbase AI Base and every Varbase AI recipe in one step, with MariaDB as the vector database. For demos and sites that want the full AI stack. |
+| [Varbase AI Default](varbase-ai-default.md) | Applies Varbase AI Base and every Varbase AI recipe in one step, with MariaDB as the vector database. For demos and sites that want the full AI stack. |
 | [Varbase AI Editor Assistant](varbase-ai-editor-assistant.md) | CKEditor 5 AI-powered features for content creation, including grammar checking and style adjustments. |
 | [Varbase AI Image Alt](varbase-ai-image-alt.md) | AI alt text for images, plus an AI image description and image tags on save. |
 | [Varbase AI Taxonomy Tagging](varbase-ai-taxonomy-tagging.md) | AI-powered automatic taxonomy term assignment by analyzing content body for improved content organization. |
@@ -45,9 +45,11 @@ Apply the recipes in this order. Each one needs the ones before it.
 
 1. [**Varbase AI Base**](varbase-ai-base.md): AI providers and default models.
 2. **One** vector database recipe: [**Varbase AI VDB: MariaDB**](varbase-ai-vdb-mariadb.md) or [**Varbase AI VDB: Milvus**](varbase-ai-vdb-milvus.md). Its provider must be the site's default vector database.
-3. [**Varbase AI Search Base**](varbase-ai-search-base.md): the vector index of the site's content.
-4. [**Varbase AI Chatbot Base**](varbase-ai-chatbot-base.md) and [**Varbase AI Answers Base**](varbase-ai-answers-base.md), which answer from that index.
-5. The others, in any order: **Content Operations Base**, **MCP Server Base**, **Readable Base**, **SEO** and **Media Base**. They do not need a vector database. **MCP Server Base** and **Readable Base** do not need **Varbase AI Base** either.
+3. [**Varbase AI Search Base**](varbase-ai-search-base.md): the vector index of the site's content. It applies **Varbase Search Base** itself.
+4. [**Varbase AI Chatbot Base**](varbase-ai-chatbot-base.md) and [**Varbase AI Answers Base**](varbase-ai-answers-base.md), which answer from that index. **Answers Base** applies **Search Base** itself.
+5. The others, in any order: **Content Operations Base**, **MCP Server Base**, **Readable Base**, **SEO**, **Media Base** and **Figma Base**. They do not need a vector database. **MCP Server Base** and **Readable Base** do not need **Varbase AI Base** either, and **Figma Base** applies **Drupal CMS AI** and **Varbase AI Context** itself.
+
+To apply all of them at once with MariaDB as the vector database, apply [**Varbase AI Default**](varbase-ai-default.md) instead.
 
 {% hint style="info" %}
 On the Varbase project, the current **Varbase AI Base** already requires every recipe on this page, so they are in `recipes/`. On another project, before you require a recipe with Composer, add it to `extra.drupal-recipe-unpack.ignore` in the project's `composer.json`. Otherwise Drupal core's recipe unpack plugin moves the recipe's requirements into the project and drops the recipe itself. Then clear the cache before applying, so Drupal sees the modules Composer added.

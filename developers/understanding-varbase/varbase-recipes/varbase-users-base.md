@@ -19,6 +19,8 @@ Brings in the following core modules to your site:
 | **Node** _(in Drupal core)_ | Manages the creation, configuration, and display of the main site content. |
 | **Block** _(in Drupal core)_ | Allows users to configure blocks (containing content, forms, etc.) and to place them in the regions of a theme. |
 | [**Persistent Login**](https://www.drupal.org/project/persistent_login) | Provides "remember me" functionality for users with secure long-lived login tokens. |
+| [**ECA**](https://www.drupal.org/project/eca) | Event, condition and action automation. The recipe uses the core, base, render and user parts. |
+| [**Modeler API**](https://www.drupal.org/project/modeler_api) | The API that ECA models are built with. |
 
 ## User Roles
 

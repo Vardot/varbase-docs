@@ -20,7 +20,7 @@ Brings in the following core and contributed modules to your site:
 | **Internal Dynamic Page Cache** _(in Drupal core)_                                            | Caches pages, including those with dynamic content, for all users.                                    |
 | [**ImageMagick**](https://www.drupal.org/project/imagemagick)                                 | Provides ImageMagick integration.                                                                     |
 | [**Image Optimize (or ImageAPI Optimize)**](https://www.drupal.org/project/imageapi_optimize) | Define pipelines for image optimization and provide integration with core image styles.               |
-| [**Fast 404**](https://www.drupal.org/project/fast404)                                        | Provides faster 404 responses by short-circuiting the standard Drupal bootstrap for missing files.    |
+| [**Fast 404**](https://www.drupal.org/project/fast_404)                                        | Provides faster 404 responses by short-circuiting the standard Drupal bootstrap for missing files.    |
 
 ## Recipe Dependencies
 

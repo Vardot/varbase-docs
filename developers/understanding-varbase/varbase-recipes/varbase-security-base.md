@@ -25,6 +25,9 @@ Brings in the following core and contributed modules to your site:
 | [**Security Kit**](https://www.drupal.org/project/seckit)                                             | Enhance security of your Drupal website.                                                                                                         |
 | [**Username Enumeration Prevention**](https://www.drupal.org/project/username_enumeration_prevention) | Removes the error message produced by the forgot password form, when an invalid user has been supplied.                                          |
 | [**Flood control**](https://www.drupal.org/project/flood_control)                                     | Allows configuring hidden flood control options and unblocking IP addresses and user ID's that are blocked after multiple failed login attempts. |
+| [**Klaro Cookie & Consent Manager**](https://www.drupal.org/project/klaro) | Cookie consent with the Klaro consent manager. |
+| [**ECA**](https://www.drupal.org/project/eca) | Event, condition and action automation. The recipe uses the base, config, content and user parts. |
+| [**Modeler API**](https://www.drupal.org/project/modeler_api) | The API that ECA models are built with. |
 
 ## Installation
 

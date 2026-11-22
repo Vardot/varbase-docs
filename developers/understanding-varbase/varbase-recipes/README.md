@@ -52,6 +52,31 @@ The following recipes comprise the Varbase 11.0.x recipe ecosystem. The **Applie
 The [**Varbase AI Recipes**](../varbase-ai-recipes/README.md) are documented in their own section. The **Varbase AI Base** recipe, its feature recipes, and **Varbase AI Figma Base** all ship in the project codebase and can be applied on demand. Composer downloads every Varbase AI recipe with the current **Varbase AI Base**.
 {% endhint %}
 
+## Contributed Recipes in Varbase 11
+
+Varbase 11 also ships recipes from other projects. They are in the project's `recipes/` folder, and the Varbase recipes apply them for you.
+
+| Recipe | Description | Applied By |
+| --- | --- | --- |
+| [Drupal CMS Accessibility Tools](https://www.drupal.org/project/drupal_cms_accessibility_tools) | Automated checks that help content meet web accessibility guidelines. | Varbase Starter |
+| [Drupal CMS Anti-Spam](https://www.drupal.org/project/drupal_cms_anti_spam) | Anti-spam and anti-abuse protection. | Varbase Starter |
+| [Drupal CMS Authentication](https://www.drupal.org/project/drupal_cms_authentication) | Useful authentication features. | Varbase Starter |
+| [Drupal CMS Forms](https://www.drupal.org/project/drupal_cms_forms) | A simple contact form and form-building tools, with spam protection. | Varbase Starter |
+| [Drupal CMS SEO Basic](https://www.drupal.org/project/drupal_cms_seo_basic) | Basic SEO best practices. | Varbase Starter |
+| [Drupal CMS SEO Tools](https://www.drupal.org/project/drupal_cms_seo_tools) | Meta tags, XML sitemap, robots.txt management and other SEO tools. | Varbase Starter |
+| [Drupal CMS Search](https://www.drupal.org/project/drupal_cms_search) | A site search for visitors. | Varbase Starter, Varbase Search Base |
+| [Drupal CMS AI](https://www.drupal.org/project/drupal_cms_ai) | AI provider setup, alt text generation and a site-building assistant. | Varbase AI Base, Varbase AI Figma Base |
+| [Drupal CMS Google Analytics](https://www.drupal.org/project/drupal_cms_google_analytics) | Traffic tracking with Google Analytics and Google Tag Manager. | On demand |
+| [Easy Email Express](https://www.drupal.org/project/easy_email_express) | Replaces all core emails with HTML emails. | Varbase Starter |
+| [Easy Email Standard](https://www.drupal.org/project/easy_email_standard) | The Easy Email module and theme for HTML emails. | Easy Email Express |
+| [Easy Email Types Core](https://www.drupal.org/project/easy_email_types_core) | Email templates that match the emails Drupal core sends. | Easy Email Express |
+| [Easy Email Types Default](https://www.drupal.org/project/easy_email_types_default) | A default template that overrides every email the site sends. | Easy Email Express |
+| [Easy Email Text Format](https://www.drupal.org/project/easy_email_text_format) | The text format and editor for the HTML body of email templates. | Easy Email Types Core, Easy Email Types Default |
+| [AI Guardrails PII](https://www.drupal.org/project/ai_recipe_guardrails_pii) | Blocks email addresses, card numbers, IBANs and phone numbers in AI input and output. | Varbase AI Safety |
+| [AI Guardrails Prompt Safety](https://www.drupal.org/project/ai_recipe_guardrails_prompt_safety) | Blocks malicious input and harmful requests to AI. | Varbase AI Safety |
+
+See also [Drupal CMS Recipes](../drupal-cms-recipes/README.md) and [Easy Email Recipes](../easy-email-recipes/README.md).
+
 ## Applying a Recipe
 
 All recipes marked **Varbase Starter** or **On demand** already ship in the `recipes/` folder of your Varbase project. Composer downloads them as `drupal-recipe` packages, and Drupal core's **Recipe Unpack** plugin unpacks them into `recipes/` with their dependencies added to your project's `composer.json`.

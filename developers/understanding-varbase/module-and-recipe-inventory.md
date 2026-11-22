@@ -57,6 +57,7 @@ Checked against the Drupal.org project pages and a Varbase 11.0.x project. Each 
 | Name | Purpose | Applied | Version line |
 | --- | --- | --- | --- |
 | [Varbase AI Base](varbase-ai-recipes/varbase-ai-base.md) | AI providers, dashboard, and the AI feature recipes below | On demand | `1.0.x` |
+| [Varbase AI Default](varbase-ai-recipes/varbase-ai-default.md) | Applies Varbase AI Base and every Varbase AI recipe, with MariaDB | On demand | `2.0.x` |
 | [Varbase AI Editor Assistant](varbase-ai-recipes/varbase-ai-editor-assistant.md) | CKEditor 5 AI assistant permissions | Varbase AI Base | `2.0.x` |
 | [Varbase AI Image Alt](varbase-ai-recipes/varbase-ai-image-alt.md) | AI alt text, image description and tags | Varbase AI Base | `2.0.x` |
 | [Varbase AI Taxonomy Tagging](varbase-ai-recipes/varbase-ai-taxonomy-tagging.md) | AI taxonomy tagging | Varbase AI Base | `2.0.x` |
@@ -76,7 +77,7 @@ Checked against the Drupal.org project pages and a Varbase 11.0.x project. Each 
 | [Varbase AI SEO](varbase-ai-recipes/varbase-ai-seo.md) | AI SEO title and description | On demand | `1.0.x` |
 
 {% hint style="info" %}
-**Varbase AI Base** requires every Varbase AI recipe, so on the Varbase project they are all in `recipes/`. It applies only the ones marked **Varbase AI Base**. It also requires [`drupal/varbase_ai_default`](https://www.drupal.org/project/varbase_ai_default) without applying it. Recipes released as alpha or beta are marked so on their release pages. See [Varbase AI Recipes](varbase-ai-recipes/README.md) for the apply order.
+**Varbase AI Base** requires every Varbase AI recipe, so on the Varbase project they are all in `recipes/`. It applies only the ones marked **Varbase AI Base**. It also requires [**Varbase AI Default**](varbase-ai-recipes/varbase-ai-default.md) without applying it. Recipes released as alpha or beta are marked so on their release pages. See [Varbase AI Recipes](varbase-ai-recipes/README.md) for the apply order.
 {% endhint %}
 
 ## Drupal CMS Recipes Used by Varbase
