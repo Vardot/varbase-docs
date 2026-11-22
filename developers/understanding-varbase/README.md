@@ -32,6 +32,10 @@ Every recipe and Vardot module in Varbase 11.0.x, with its purpose, version line
 
 The small set of Vardot modules and themes that Varbase 11.0.x keeps next to its recipes.
 
+### [Varbase Themes](varbase-themes/README.md)
+
+The front-end themes of Varbase 11.0.x: **Vartheme BS5** and the themes of the site templates.
+
 ### [Varbase AI Modules](varbase-ai-modules/README.md)
 
 The modules Vardot maintains for the Varbase AI recipes, such as **AI Media**: how they work, every setting, and how to extend them.
