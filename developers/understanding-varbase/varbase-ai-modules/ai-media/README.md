@@ -103,5 +103,5 @@ See [Settings](settings.md#recipes) for every config action.
 Developed and maintained by [Vardot](https://www.drupal.org/vardot).
 
 {% hint style="info" %}
-This documentation is written for **AI Media** `1.0.x`, released as `1.0.0-beta1`.
+This documentation is written for **AI Media** `1.0.x`.
 {% endhint %}

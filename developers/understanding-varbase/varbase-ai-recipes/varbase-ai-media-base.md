@@ -28,7 +28,7 @@ Editors find the generators in these places:
 - **Content** \ _**Media**_, through the **Generate media with AI** button, which opens the **Add media** page in **Generate with AI** mode.
 
 {% hint style="info" %}
-The **Upload | Generate with AI** switch, the **Examples** button, the alternative text written by AI from the image and **Focal Point** on a generated image need **AI Media** `1.0.x`, the next release after `1.0.0-alpha3`. With `1.0.0-alpha3`, editors get a separate **Generate image with AI** tab instead.
+The **Upload | Generate with AI** switch, the **Examples** button, the alternative text written by AI from the image and **Focal Point** on a generated image need **AI Media** `1.0.x`.
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/Varbase AI Media Base - Upload or Generate With AI.webp" alt="The Add or select media dialog on the Image tab, with an Upload and Generate with AI switch at the top, Generate with AI marked New, and the file upload below"><figcaption><p>The Upload or Generate With AI Switch in the Image Tab</p></figcaption></figure>

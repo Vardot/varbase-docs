@@ -28,6 +28,10 @@ Learn the fundamental concepts behind Drupal Recipes, how they differ from tradi
 
 Every recipe and Vardot module in Varbase 11.0.x, with its purpose, version line and how it is applied.
 
+### [Varbase Modules](varbase-modules/README.md)
+
+The small set of Vardot modules and themes that Varbase 11.0.x keeps next to its recipes.
+
 ### [Varbase AI Modules](varbase-ai-modules/README.md)
 
 The modules Vardot maintains for the Varbase AI recipes, such as **AI Media**: how they work, every setting, and how to extend them.

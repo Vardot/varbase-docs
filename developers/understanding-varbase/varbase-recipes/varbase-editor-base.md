@@ -36,7 +36,7 @@ Brings in the following core and contributed modules to your site:
 
 ## Media in the Rich Editor Format
 
-The **Rich editor** text format (`full_html`) limits **Insert Media** to the types in its **Embed media** filter (`media_embed.allowed_media_types` in `filter.format.full_html.yml`). Varbase Editor Base 1.0.1 lists `audio`, `file`, `image`, `remote_video` and `video`. There is no `file` media type (the type is `document`), so editors can insert only Image, Audio, Remote video and Video. The **Content** format (`content_format`) leaves the list empty, which allows every media type. **Varbase AI Media Base** adds `svg_image` to the Rich editor list.
+The **Rich editor** text format (`full_html`) limits **Insert Media** to the types in its **Embed media** filter (`media_embed.allowed_media_types` in `filter.format.full_html.yml`). Varbase Editor Base lists `audio`, `file`, `image`, `remote_video` and `video`. There is no `file` media type (the type is `document`), so editors can insert only Image, Audio, Remote video and Video. The **Content** format (`content_format`) leaves the list empty, which allows every media type. **Varbase AI Media Base** adds `svg_image` to the Rich editor list.
 
 The Rich editor toolbar also has two media buttons: **Insert Media** (`drupalMedia`, the Media Library) and **Insert media** (`MediaEmbed`, paste a media link).
 

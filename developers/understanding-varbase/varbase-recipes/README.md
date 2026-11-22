@@ -49,7 +49,7 @@ The following recipes comprise the Varbase 11.0.x recipe ecosystem. The **Applie
 | [Varbase Events Base](varbase-events-base.md)           | Event content type with smart date and location, events listing, and related events             | Add-on |
 
 {% hint style="info" %}
-The [**Varbase AI Recipes**](../varbase-ai-recipes/README.md) are documented in their own section. The **Varbase AI Base** recipe, its feature recipes, and **Varbase AI Figma Base** all ship in the project codebase and can be applied on demand. Since **Varbase AI Base** 1.0.2, Composer downloads every Varbase AI recipe with it.
+The [**Varbase AI Recipes**](../varbase-ai-recipes/README.md) are documented in their own section. The **Varbase AI Base** recipe, its feature recipes, and **Varbase AI Figma Base** all ship in the project codebase and can be applied on demand. Composer downloads every Varbase AI recipe with the current **Varbase AI Base**.
 {% endhint %}
 
 ## Applying a Recipe
