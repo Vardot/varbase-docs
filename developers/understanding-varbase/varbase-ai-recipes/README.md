@@ -20,7 +20,6 @@ This approach allows site builders to adopt only the AI features they need, keep
 | [Varbase AI Context](varbase-ai-context.md) | Installs Context Control Center (CCC) with starter brand, editorial, and safety context items for all AI agents. |
 | [Varbase AI Safety](varbase-ai-safety.md) | Bundles prompt safety, PII protection, image safety checks, AI logging with retention, and AI observability for enterprise/GDPR deployments. |
 | [Varbase AI Figma Base](varbase-ai-figma-base.md) | Sets up the Figma-to-Canvas flow: the AI Figma engine, the Varbase customization for Vartheme BS5, and the Drupal Canvas AI Orchestrator wiring. |
-| [Varbase AI Figma](varbase-ai-figma.md) | The module behind Figma Base: decides what to reuse before it builds, and ships the Canvas build tools. |
 | [Varbase AI Media Base](varbase-ai-media-base.md) | Generates images and SVGs with AI from the Media Library, into the Image and SVG Image media types, with the AI Media module. |
 | [Varbase AI VDB: MariaDB](varbase-ai-vdb-mariadb.md) | MariaDB's built-in vector type as the vector database for AI search. |
 | [Varbase AI VDB: Milvus](varbase-ai-vdb-milvus.md) | A Milvus or Zilliz Cloud vector database for AI search. |
@@ -37,7 +36,7 @@ This approach allows site builders to adopt only the AI features they need, keep
 
 The **Varbase AI Base** recipe depends on the **Drupal CMS AI** recipe for core provider configuration, then applies **Varbase AI Image Alt**, **Varbase AI Editor Assistant**, **Varbase AI Taxonomy Tagging**, **Varbase AI Context**, **Varbase AI Content Review Base** and **Varbase AI Safety**. Installing it gives you the AI feature set, the AI dashboard, provider configuration, guardrails and AI logging that the other recipes build upon.
 
-**Varbase AI Figma Base** ([drupal.org/project/varbase\_ai\_figma\_base](https://www.drupal.org/project/varbase_ai_figma_base)) builds on **Drupal CMS AI** and **Varbase AI Context** to turn Figma designs into Drupal Canvas pages. It ships in the project codebase and is applied on demand like the other AI recipes.
+**Varbase AI Figma Base** ([drupal.org/project/varbase\_ai\_figma\_base](https://www.drupal.org/project/varbase_ai_figma_base)) builds on **Drupal CMS AI** and **Varbase AI Context** to turn Figma designs into Drupal Canvas pages. It installs the [**Varbase AI Figma**](../varbase-ai-modules/varbase-ai-figma/README.md) module, ships in the project codebase and is applied on demand like the other AI recipes.
 
 ## Apply Order
 

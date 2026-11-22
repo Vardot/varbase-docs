@@ -1,6 +1,6 @@
 # Varbase AI Figma Agent Tools
 
-**Varbase AI Figma** ships 29 **AI Agent** tools. The **Drupal Canvas AI** assistant calls them to turn a Figma design into a Canvas page. They are grouped here in the order the [**Varbase AI Figma Base**](varbase-ai-figma-base.md) recipe hands them to the **Drupal Canvas AI Orchestrator**: understand the design, understand the site and decide, build, connect, then check and improve.
+**Varbase AI Figma** ships 29 **AI Agent** tools. The **Drupal Canvas AI** assistant calls them to turn a Figma design into a Canvas page. They are grouped here in the order the [**Varbase AI Figma Base**](../../varbase-ai-recipes/varbase-ai-figma-base.md) recipe hands them to the **Drupal Canvas AI Orchestrator**: understand the design, understand the site and decide, build, connect, then check and improve.
 
 Every tool ID starts with `varbase_ai_figma:`. A user needs **any one** of the listed permissions, not all of them. Unless a row says otherwise, a tool needs `administer ai agents` or `use Drupal Canvas AI`.
 
@@ -66,4 +66,4 @@ The inputs are optional. A pasted `figma_url` wins over `file_key` and `node_id`
 
 ## Turning Tools On
 
-The recipe turns on the tools the orchestrator needs. An administrator can switch on the others on the agent's edit form (`/admin/config/ai/tools-automation/agents`). See [Orchestrator Tools](varbase-ai-figma-base.md#orchestrator-tools) before changing the list.
+The recipe turns on the tools the orchestrator needs. An administrator can switch on the others on the agent's edit form (`/admin/config/ai/tools-automation/agents`). See [Orchestrator Tools](../../varbase-ai-recipes/varbase-ai-figma-base.md#orchestrator-tools) before changing the list.

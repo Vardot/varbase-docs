@@ -9,7 +9,7 @@ The Varbase AI recipes install and configure contributed modules. The modules be
 | Module | Description |
 | --- | --- |
 | [AI Media](ai-media/README.md) | Generates images, SVGs and, experimental, videos with AI right from the **Media Library**, into the site's own media types. |
-| [Varbase AI Figma](../varbase-ai-recipes/varbase-ai-figma.md) | Tunes the Figma-to-Canvas engine for **Vartheme BS5** and wires in the **Context Control Center**. Decides what to reuse before it builds. |
+| [Varbase AI Figma](varbase-ai-figma/README.md) | Tunes the Figma-to-Canvas engine for **Vartheme BS5** and wires in the **Context Control Center**. Decides what to reuse before it builds. |
 | [AI Figma](https://www.drupal.org/project/ai_figma) | Turns a Figma design into a **Drupal Canvas** page built from the theme's components. |
 | [AI Agent Modes](https://www.drupal.org/project/ai_agent_modes) | Adds a mode selector that limits an AI agent to a chosen set of its sub-agents. |
 | [AI Content Review](https://www.drupal.org/project/ai_content_review) | AI-assisted content quality review for editors. |

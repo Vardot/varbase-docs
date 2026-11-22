@@ -23,3 +23,5 @@ redirects:
   content-designers/webforms/create-new-webform: content-designers/search-forms-and-email/webforms/create-new-webform.md
   content-designers/webforms/setting-up-email-handlers: content-designers/search-forms-and-email/webforms/setting-up-email-handlers.md
   content-designers/ai-tools-in-the-editor: content-designers/ai-in-varbase/ai-tools-in-the-editor.md
+  developers/understanding-varbase/varbase-ai-recipes/varbase-ai-figma: developers/understanding-varbase/varbase-ai-modules/varbase-ai-figma/README.md
+  developers/understanding-varbase/varbase-ai-recipes/varbase-ai-figma-agent-tools: developers/understanding-varbase/varbase-ai-modules/varbase-ai-figma/agent-tools.md

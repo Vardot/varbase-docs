@@ -8,7 +8,7 @@ AI
 
 ## Drupal.org Project
 
-[https://www.drupal.org/project/ai](https://www.drupal.org/project/ai)
+[https://www.drupal.org/project/ai\_recipe\_guardrails\_pii](https://www.drupal.org/project/ai_recipe_guardrails_pii)
 
 ## Overview
 
