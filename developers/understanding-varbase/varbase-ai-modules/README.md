@@ -9,7 +9,9 @@ The Varbase AI recipes install and configure contributed modules. Some of those 
 | Module | Description |
 | --- | --- |
 | [AI Media](ai-media/README.md) | Generates images, SVGs and, experimental, videos with AI right from the **Media Library**, into the site's own media types. |
+| [Varbase AI Figma](../varbase-ai-recipes/varbase-ai-figma.md) | Tunes the Figma-to-Canvas engine for **Vartheme BS5** and wires in the **Context Control Center**. Decides what to reuse before it builds. |
+| [Varbase AI](https://www.drupal.org/project/varbase_ai) | The AI feature set of **Varbase 10.1.x**: requires the `1.0.x` lines of **Varbase AI Default**, **Image Alt**, **Editor Assistant**, **Taxonomy Tagging** and **Agents**. Varbase 11.0.x uses the [Varbase AI Recipes](../varbase-ai-recipes/README.md) instead. |
 
 {% hint style="info" %}
-To install a module together with its Varbase configuration, use its recipe. **AI Media** is installed by the [**Varbase AI Media Base**](../varbase-ai-recipes/varbase-ai-media-base.md) recipe.
+To install a module together with its Varbase configuration, use its recipe. **AI Media** is installed by the [**Varbase AI Media Base**](../varbase-ai-recipes/varbase-ai-media-base.md) recipe. **Varbase AI Figma** is installed by the [**Varbase AI Figma Base**](../varbase-ai-recipes/varbase-ai-figma-base.md) recipe.
 {% endhint %}

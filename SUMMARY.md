@@ -46,6 +46,7 @@
       * [Varbase Development Base](developers/understanding-varbase/varbase-recipes/varbase-dev-base.md)
       * [Varbase Demo Content](developers/understanding-varbase/varbase-recipes/varbase-demo-content.md)
       * [Varbase Media Assets](developers/understanding-varbase/varbase-recipes/varbase-media-assets.md)
+    * [Varbase Modules](developers/understanding-varbase/varbase-modules/README.md)
     * [Varbase AI Recipes](developers/understanding-varbase/varbase-ai-recipes/README.md)
       * [Varbase AI Base](developers/understanding-varbase/varbase-ai-recipes/varbase-ai-base.md)
       * [Varbase AI Editor Assistant](developers/understanding-varbase/varbase-ai-recipes/varbase-ai-editor-assistant.md)
