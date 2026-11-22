@@ -30,7 +30,7 @@ Every recipe and Vardot module in Varbase 11.0.x, with its purpose, version line
 
 ### [Varbase Modules](varbase-modules/README.md)
 
-The small set of Vardot modules and themes that Varbase 11.0.x keeps next to its recipes, with the latest release of each.
+The small set of Vardot modules and themes that Varbase 11.0.x keeps next to its recipes.
 
 ### [Varbase AI Modules](varbase-ai-modules/README.md)
 

@@ -22,16 +22,16 @@ This approach allows site builders to adopt only the AI features they need, keep
 | [Varbase AI Figma Base](varbase-ai-figma-base.md) | Sets up the Figma-to-Canvas flow: the AI Figma engine, the Varbase customization for Vartheme BS5, and the Drupal Canvas AI Orchestrator wiring. |
 | [Varbase AI Figma](varbase-ai-figma.md) | The module behind Figma Base: decides what to reuse before it builds, and ships the Canvas build tools. |
 | [Varbase AI Media Base](varbase-ai-media-base.md) | Generates images and SVGs with AI from the Media Library, into the Image and SVG Image media types, with the AI Media module. |
-| [Varbase AI VDB: MariaDB](varbase-ai-vdb-mariadb.md) | MariaDB's built-in vector type as the vector database for AI search. Release candidate. |
-| [Varbase AI VDB: Milvus](varbase-ai-vdb-milvus.md) | A Milvus or Zilliz Cloud vector database for AI search. Release candidate. |
-| [Varbase AI Search Base](varbase-ai-search-base.md) | A vector index of the site's content, for the chatbot and Ask AI. Release candidate. |
-| [Varbase AI Chatbot Base](varbase-ai-chatbot-base.md) | A visitor chatbot that answers only from the site's content, with links. Release candidate. |
-| [Varbase AI Answers Base](varbase-ai-answers-base.md) | Ask AI: a question box with cited answers from the site's content. Release candidate. |
-| [Varbase AI Content Review Base](varbase-ai-content-review-base.md) | Scored AI review of any content item against the site's style guide. Release candidate. |
-| [Varbase AI Content Operations Base](varbase-ai-content-operations-base.md) | An editor assistant in the admin toolbar that audits and updates content, with approval before every save. Release candidate. |
-| [Varbase AI MCP Server Base](varbase-ai-mcp-server-base.md) | An MCP server so external AI assistants can read the site and save drafts. Release candidate. |
-| [Varbase AI Readable Base](varbase-ai-readable-base.md) | Serves `/llms.txt` and a Markdown version of content for AI tools. Release candidate. |
-| [Varbase AI SEO](varbase-ai-seo.md) | AI writes the SEO title and description of blog posts and pages. Release candidate. |
+| [Varbase AI VDB: MariaDB](varbase-ai-vdb-mariadb.md) | MariaDB's built-in vector type as the vector database for AI search. |
+| [Varbase AI VDB: Milvus](varbase-ai-vdb-milvus.md) | A Milvus or Zilliz Cloud vector database for AI search. |
+| [Varbase AI Search Base](varbase-ai-search-base.md) | A vector index of the site's content, for the chatbot and Ask AI. |
+| [Varbase AI Chatbot Base](varbase-ai-chatbot-base.md) | A visitor chatbot that answers only from the site's content, with links. |
+| [Varbase AI Answers Base](varbase-ai-answers-base.md) | Ask AI: a question box with cited answers from the site's content. |
+| [Varbase AI Content Review Base](varbase-ai-content-review-base.md) | Scored AI review of any content item against the site's style guide. |
+| [Varbase AI Content Operations Base](varbase-ai-content-operations-base.md) | An editor assistant in the admin toolbar that audits and updates content, with approval before every save. |
+| [Varbase AI MCP Server Base](varbase-ai-mcp-server-base.md) | An MCP server so external AI assistants can read the site and save drafts. |
+| [Varbase AI Readable Base](varbase-ai-readable-base.md) | Serves `/llms.txt` and a Markdown version of content for AI tools. |
+| [Varbase AI SEO](varbase-ai-seo.md) | AI writes the SEO title and description of blog posts and pages. |
 
 ## Architecture
 
