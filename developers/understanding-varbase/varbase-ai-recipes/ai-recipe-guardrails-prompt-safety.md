@@ -8,7 +8,7 @@ AI Initiative
 
 ## Drupal.org Project
 
-[https://www.drupal.org/project/ai](https://www.drupal.org/project/ai)
+[https://www.drupal.org/project/ai\_recipe\_guardrails\_prompt\_safety](https://www.drupal.org/project/ai_recipe_guardrails_prompt_safety)
 
 ## Overview
 

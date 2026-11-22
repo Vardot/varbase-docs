@@ -51,7 +51,7 @@ Brings in the following core and contributed modules to your site:
 | [**AI Context**](https://www.drupal.org/project/ai_context) | Context Control Center for AI agents. |
 | [**AI Agent Modes**](https://www.drupal.org/project/ai_agent_modes) | Curated modes that focus an AI agent on one job at a time. |
 | [**AI Figma**](https://www.drupal.org/project/ai_figma) | Reads live Figma design context via the Figma REST API and exposes it to Drupal AI Agent tools. |
-| [**Varbase AI Figma**](varbase-ai-figma.md) | Varbase customization of AI Figma for the Vartheme BS5 theme, with the design resolver and Canvas build tools. |
+| [**Varbase AI Figma**](../varbase-ai-modules/varbase-ai-figma/README.md) | Varbase customization of AI Figma for the Vartheme BS5 theme, with the design resolver and Canvas build tools. |
 | [**Drupal Canvas AI**](https://www.drupal.org/project/canvas) | The AI assistant inside the Drupal Canvas page editor. |
 | [**Key**](https://www.drupal.org/project/key) | Manages the Figma access token as a key. |
 | [**Easy Encryption**](https://www.drupal.org/project/easy_encryption) | Encrypts stored secrets. |
@@ -88,7 +88,7 @@ The recipe gives the **Drupal Canvas AI Orchestrator** a short list of tools, in
 5. **Connect it to the site**: `site_wiring`, `menu_link`, `apply_recipe`.
 6. **Check and improve**: `preview_token_url`, `check_page_render`, `audit_page`, `improve_text`, `alt_text`, `meta_description`, `translate_page`.
 
-The other **Varbase AI Figma** tools stay available for an administrator to switch on in the agent settings (`/admin/config/ai/tools-automation/agents`). See [**Varbase AI Figma Agent Tools**](varbase-ai-figma-agent-tools.md) for each tool.
+The other **Varbase AI Figma** tools stay available for an administrator to switch on in the agent settings (`/admin/config/ai/tools-automation/agents`). See [**Varbase AI Figma Agent Tools**](../varbase-ai-modules/varbase-ai-figma/agent-tools.md) for each tool.
 
 {% hint style="warning" %}
 The recipe sets the orchestrator's tools with `simpleConfigUpdate`, which **replaces** the whole tools list. To add a tool of your own, list all the tools above plus yours. Anything missing is removed when the recipe is applied again, including Drupal Canvas's own agents.

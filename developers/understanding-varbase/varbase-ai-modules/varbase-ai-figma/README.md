@@ -21,10 +21,10 @@ Varbase AI
 
 So the assistant reuses a component, a saved pattern, a block or a View instead of making something the site already has. Listings and forms stay live, and are never frozen into static markup.
 
-The module ships 29 tools. See [**Varbase AI Figma Agent Tools**](varbase-ai-figma-agent-tools.md).
+The module ships 29 tools. See [**Varbase AI Figma Agent Tools**](agent-tools.md).
 
 {% hint style="info" %}
-Most sites apply the [**Varbase AI Figma Base**](varbase-ai-figma-base.md) recipe instead. It installs this module, grants the permissions to the Varbase roles and wires the tools into the **Drupal Canvas AI Orchestrator** in one step.
+Most sites apply the [**Varbase AI Figma Base**](../../varbase-ai-recipes/varbase-ai-figma-base.md) recipe instead. It installs this module, grants the permissions to the Varbase roles and wires the tools into the **Drupal Canvas AI Orchestrator** in one step.
 {% endhint %}
 
 ## Requirements
@@ -96,7 +96,7 @@ The permissions come from **AI Figma** and **Drupal Canvas**. Grant them to the 
 | `use ai figma design context` | **Site Admin** and **Content Admin**. |
 | `use Drupal Canvas AI` | **Content Admin** and **Content Editor**: the Canvas AI panel. |
 
-The [**Varbase AI Figma Base**](varbase-ai-figma-base.md#permissions) recipe grants these to the Varbase roles.
+The [**Varbase AI Figma Base**](../../varbase-ai-recipes/varbase-ai-figma-base.md#permissions) recipe grants these to the Varbase roles.
 
 ## Uninstalling
 
