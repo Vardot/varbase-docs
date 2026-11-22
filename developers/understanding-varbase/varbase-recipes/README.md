@@ -1,6 +1,6 @@
 # Varbase Recipes
 
-**Varbase 11.0.x** adopts a modern, recipes-based architecture built on **Drupal Recipes**, replacing the traditional [module-based installation approach](../varbase-modules/README.md) used in earlier Varbase versions. Drupal Recipes are a standardized way to package and apply sets of modules, configurations, and permissions as reusable, composable units.
+**Varbase 11.0.x** adopts a modern, recipes-based architecture built on **Drupal Recipes**, replacing the traditional module-based installation approach used in earlier Varbase versions. Drupal Recipes are a standardized way to package and apply sets of modules, configurations, and permissions as reusable, composable units.
 
 ## What Are Drupal Recipes?
 
@@ -47,7 +47,6 @@ The following recipes comprise the Varbase 11.0.x recipe ecosystem. The **Applie
 | [Varbase News Base](varbase-news-base.md)               | News content type with featured images, categories, listing page, and Drupal Canvas templates   | Add-on |
 | [Varbase Podcasts Base](varbase-podcasts-base.md)       | Podcast episode content type with audio, transcripts, episode numbers, and a listing with an RSS feed | Add-on |
 | [Varbase Events Base](varbase-events-base.md)           | Event content type with smart date and location, events listing, and related events             | Add-on |
-| [Varbase Privacy](https://www.drupal.org/project/varbase_privacy) | Cookie consent with Klaro, with the permissions for visitors and site admins                   | Add-on |
 
 {% hint style="info" %}
 The [**Varbase AI Recipes**](../varbase-ai-recipes/README.md) are documented in their own section. The **Varbase AI Base** recipe, its feature recipes, and **Varbase AI Figma Base** all ship in the project codebase and can be applied on demand. Since **Varbase AI Base** 1.0.2, Composer downloads every Varbase AI recipe with it.
