@@ -25,7 +25,7 @@ The **Latest release** column shows the latest release of the line that Varbase 
 | [Vartheme BS5 Rightup](https://www.drupal.org/project/vartheme_bs5_rightup) | Front-end theme of **The Rightup** site template. | [1.0.11](https://www.drupal.org/project/vartheme_bs5_rightup/releases/1.0.11) |
 
 {% hint style="info" %}
-The modules behind the Varbase AI recipes, such as **AI Media** and **Varbase AI Figma**, are listed in [Varbase AI Modules](../varbase-ai-modules/README.md).
+The AI modules that Varbase 11.0.x uses, such as **AI Media** and **Varbase AI Figma**, are listed in [Varbase AI Modules](../varbase-ai-modules/README.md).
 {% endhint %}
 
 ## Adding a Module
