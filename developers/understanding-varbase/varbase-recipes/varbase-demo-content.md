@@ -37,7 +37,7 @@ ddev drush recipe ../recipes/varbase_demo_content
 
 Demo content is intended for initial site setup and demonstration purposes. On production sites, you may want to remove or replace the demo content with your own content before launch.
 
-Varbase Demo Content 1.0.0 adds 12 blog posts and their tags. The rest of a new site's starting content comes from other recipes, and some of it needs work before launch:
+Varbase Demo Content adds 12 blog posts and their tags. The rest of a new site's starting content comes from other recipes, and some of it needs work before launch:
 
 * **Varbase Starter** adds the Canvas pages (Home, Blog, Contact Us, About Varbase, Features, Search) and the main, footer, secondary and social media menu links. Its footer **Terms and Conditions** link points to `/terms-and-conditions`, which has no page and answers 404.
 * **Varbase Page Base** adds the **Privacy policy** page at `/privacy-policy`, **unpublished**, with a footer link to it. Visitors cannot open it until it is published.
