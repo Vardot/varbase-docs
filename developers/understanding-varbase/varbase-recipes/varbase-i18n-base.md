@@ -18,6 +18,8 @@ Brings in the following core and contributed modules to your site:
 | **Content Translation** *(in Drupal core)* | Allows users to translate content. |
 | [**ECA Core**](https://www.drupal.org/project/eca) | Core module for ECA framework. |
 | [**ECA Language**](https://www.drupal.org/project/eca) | Advanced language handling within ECA. |
+| [**Canvas Translate**](https://www.drupal.org/project/canvas_translate) | Translates Drupal Canvas pages. |
+| [**Config Language Lock**](https://www.drupal.org/project/config_language_lock) | Keeps the configuration language independent of the site language. |
 
 ## Installation
 

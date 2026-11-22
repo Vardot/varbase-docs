@@ -75,6 +75,16 @@ Brings in the following core and contributed modules to your site:
 | [**Content Lock**](https://www.drupal.org/project/content_lock)                       | Prevents simultaneous edits to a node by locking it for the user who began editing first.                                                                           |
 | [**Content Lock Timeout**](https://www.drupal.org/project/content_lock)               | Releases stale Content Lock holds after a configured idle timeout.                                                                                                  |
 | [**Node Edit Protection**](https://www.drupal.org/project/node_edit_protection)       | Warns editors before navigating away from an unsaved node edit form.                                                                                                |
+| [**Drupal Canvas**](https://www.drupal.org/project/canvas) | The page builder: editors compose pages from components. Also installs the Canvas Stark theme. |
+| [**Autosave Form**](https://www.drupal.org/project/autosave_form) | Saves form input automatically while editing. |
+| [**Linkit**](https://www.drupal.org/project/linkit) | An easy interface for internal and external links in the editor. |
+| [**Pathauto**](https://www.drupal.org/project/pathauto) | Generates URL aliases automatically from patterns. |
+| [**Scheduler**](https://www.drupal.org/project/scheduler) | Publishes and unpublishes content on set dates and times. |
+| [**Scheduler Content Moderation Integration**](https://www.drupal.org/project/scheduler_content_moderation_integration) | Lets Scheduler publish and unpublish through content moderation states. |
+| [**Trash**](https://www.drupal.org/project/trash) | Soft-deletes content, so it can be restored. |
+| [**Menu Link Attributes**](https://www.drupal.org/project/menu_link_attributes) | Adds attributes to menu links. |
+| [**BPMN.iO Modeler**](https://www.drupal.org/project/bpmn_io) | The BPMN modeler for ECA models in the admin interface. |
+| [**Drupal CMS Helper**](https://www.drupal.org/project/drupal_cms_helper) | Drupal CMS functionality that is not yet in Drupal core. Should not be uninstalled. |
 
 {% hint style="info" %}
 In Varbase 11.0.0, **Entity Clone**, **Rabbit Hole** and **Advanced Text Formatter** moved out of the base recipes and into the **Varbase** profile until they have a stable release ([#3621480](https://www.drupal.org/i/3621480)). A site built from the Varbase project still gets them as a Composer requirement, but this recipe no longer enables them.

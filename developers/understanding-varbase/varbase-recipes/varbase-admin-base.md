@@ -47,6 +47,17 @@ Brings in the following core and contributed modules to your site:
 | [**ECA VBO**](https://www.drupal.org/project/eca_vbo)                                         | Integrates ECA: Event - Condition - Action with Views Bulk Operations (VBO).                         |
 | [**UI Icons Form element**](https://www.drupal.org/project/ui_icons)                          | Core Icons main form element for Icon autocomplete.                                                  |
 | [**Varbase Recipes**](https://www.drupal.org/project/varbase_recipes)                         | Provides Varbase recipes as a source for the Project Browser.                                        |
+| [**Canvas Icon Picker**](https://www.drupal.org/project/canvas_icon_picker) | Visual icon picker for Drupal Canvas text inputs, backed by the core Icon API. |
+| [**Smart Date**](https://www.drupal.org/project/smart_date) | Stores start and end times with duration, with a friendly admin interface and formatting options. |
+| [**Dashboard**](https://www.drupal.org/project/dashboard) | Provides customizable dashboards. |
+| [**Drupical**](https://www.drupal.org/project/drupical) | Displays Drupal community events from drupal.org. |
+| [**Menu Block**](https://www.drupal.org/project/menu_block) | Provides configurable blocks of menu links. |
+| [**Project Browser**](https://www.drupal.org/project/project_browser) | A user interface for browsing Drupal projects and recipes. |
+| [**Simple Add More**](https://www.drupal.org/project/sam) | Shows one empty element at a time on multi-value field widgets. |
+| [**Tagify**](https://www.drupal.org/project/tagify) | Makes entity reference fields easier to use, including the Tagify user list widget. |
+| [**View Password**](https://www.drupal.org/project/view_password) | Lets users see what they typed in password fields before submitting. |
+| [**Automatic Updates**](https://www.drupal.org/project/automatic_updates) | Updates Drupal core automatically. |
+| [**Drupal CMS Helper**](https://www.drupal.org/project/drupal_cms_helper) | Drupal CMS functionality that is not yet in Drupal core. Should not be uninstalled. |
 
 ## Available Modules (Not Enabled by Default)
 

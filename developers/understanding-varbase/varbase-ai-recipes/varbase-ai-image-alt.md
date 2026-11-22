@@ -24,6 +24,9 @@ Brings in the following contributed modules to your site:
 | [**AI Core**](https://www.drupal.org/project/ai) | Provides an abstraction layer for AI services. |
 | [**AI Image Alt Text**](https://www.drupal.org/project/ai_image_alt_text) | Provides the possibility to fill out the alt text of an image field using AI. |
 | [**AI Image Bulk Alt Text**](https://www.drupal.org/project/ai_image_alt_text) | Adds the possibility to bulk change the alt text. |
+| [**Field Group**](https://www.drupal.org/project/field_group) | Groups fields on forms and displays. |
+| [**Tagify**](https://www.drupal.org/project/tagify) | Makes entity reference fields easier to use. |
+| [**Token**](https://www.drupal.org/project/token) | A user interface for tokens, and extra tokens. |
 
 ## Configuration
 

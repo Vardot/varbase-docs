@@ -49,6 +49,7 @@
     * [Varbase Modules](developers/understanding-varbase/varbase-modules/README.md)
     * [Varbase AI Recipes](developers/understanding-varbase/varbase-ai-recipes/README.md)
       * [Varbase AI Base](developers/understanding-varbase/varbase-ai-recipes/varbase-ai-base.md)
+      * [Varbase AI Default](developers/understanding-varbase/varbase-ai-recipes/varbase-ai-default.md)
       * [Varbase AI Editor Assistant](developers/understanding-varbase/varbase-ai-recipes/varbase-ai-editor-assistant.md)
       * [Varbase AI Image Alt](developers/understanding-varbase/varbase-ai-recipes/varbase-ai-image-alt.md)
       * [Varbase AI Taxonomy Tagging](developers/understanding-varbase/varbase-ai-recipes/varbase-ai-taxonomy-tagging.md)

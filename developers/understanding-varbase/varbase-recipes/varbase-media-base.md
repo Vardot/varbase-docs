@@ -12,7 +12,9 @@ Depends on the following Drupal core recipes:
 
 | Recipe                                            | Description                                                                          |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **core/recipes/content\_editor\_role** _(Drupal core)_ | Adds the Content editor role. |
 | **core/recipes/audio\_media\_type** _(Drupal core)_        | Adds the Audio media type for managing audio file content.                  |
+| **core/recipes/document\_media\_type** _(Drupal core)_ | Adds the Document media type for files such as PDFs. |
 | **core/recipes/image\_media\_type** _(Drupal core)_        | Adds the Image media type with default image-handling configuration.        |
 | **core/recipes/local\_video\_media\_type** _(Drupal core)_ | Adds the local Video media type for self-hosted video files.                |
 | **core/recipes/remote\_video\_media\_type** _(Drupal core)_| Adds the remote Video media type for embedding YouTube and Vimeo content.   |
@@ -43,9 +45,14 @@ Brings in the following core and contributed modules to your site:
 | [**Views Bulk Operations**](https://www.drupal.org/project/views_bulk_operations)     | Adds an ability to perform bulk operations on selected entities from view results.                  |
 | [**Views Infinite Scroll**](https://www.drupal.org/project/views_infinite_scroll)     | A pager which allows an infinite scroll effect for views.                                           |
 | [**Views Bulk Edit**](https://www.drupal.org/project/views_bulk_edit)                 | Allows bulk edition of entity field values.                                                         |
-| [**WebP**](https://www.drupal.org/project/webp)                                       | Generates WebP copies of image style derivatives.                                                   |
 | [**Varbase Media**](https://www.drupal.org/project/varbase_media)                     | Provides Varbase media types, view modes, and configurations.                                       |
 | [**Drupal Canvas**](https://www.drupal.org/project/canvas)                            | Page builder used by Varbase. Enabled here so media references resolve inside Canvas pages.         |
+| [**Media Library Form Element**](https://www.drupal.org/project/media_library_form_element) | A form element to select or add media items. |
+| [**Media File Delete**](https://www.drupal.org/project/media_file_delete) | Lets editors delete the file when they delete a media item. |
+| [**ECA**](https://www.drupal.org/project/eca) | Event, condition and action automation. The recipe uses the base, config, render, UI and user parts. |
+| [**Modeler API**](https://www.drupal.org/project/modeler_api) | The API that ECA models are built with. |
+| [**Token**](https://www.drupal.org/project/token) | A user interface for tokens, and extra tokens. |
+| [**Drupal CMS Helper**](https://www.drupal.org/project/drupal_cms_helper) | Drupal CMS functionality that is not yet in Drupal core. Should not be uninstalled. |
 
 ## Bulk Uploads
 

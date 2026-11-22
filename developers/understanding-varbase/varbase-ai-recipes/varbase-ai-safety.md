@@ -50,8 +50,8 @@ Depends on the following recipes:
 
 | Module | Purpose |
 |---|---|
-| [**AI Logging**](https://www.drupal.org/project/ai_logging) | Logs AI prompt and response payloads with retention controls. |
-| [**AI Observability**](https://www.drupal.org/project/ai_observability) | Provides reporting and dashboards over AI usage data. |
+| [**AI Logging**](https://www.drupal.org/project/ai) | Part of the **AI** module. Logs AI prompt and response payloads with retention controls. |
+| [**AI Observability**](https://www.drupal.org/project/ai) | Part of the **AI** module. Provides reporting and dashboards over AI usage data. |
 | [**Field Validation**](https://www.drupal.org/project/field_validation) | Runs the image safety rule on uploaded images. |
 | [**AI Validations**](https://www.drupal.org/project/ai_validations) | Lets a validation rule ask an AI model. |
 
