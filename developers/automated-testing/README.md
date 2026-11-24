@@ -35,7 +35,7 @@ You do not write browser code for the common cases. You write the sentence, and 
 ```bash
 mkdir my-varbase-site
 cd my-varbase-site
-ddev config --project-type=drupal11 --docroot=web --php-version=8.4
+ddev config --project-type=drupal11 --docroot=web --php-version=8.5
 ddev start
 ddev composer create-project "drupal/varbase_project:~11.0.0" --no-interaction
 ddev init-full-automated-testing

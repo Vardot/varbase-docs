@@ -9,7 +9,7 @@ The recommended way to install Varbase is using DDEV. Create a project directory
 ```bash
 mkdir my_varbase_site
 cd my_varbase_site
-ddev config --project-type=drupal11 --docroot=web --php-version=8.4
+ddev config --project-type=drupal11 --docroot=web --php-version=8.5
 ddev start
 ddev composer create-project "drupal/varbase_project:~11.0.0"
 ddev launch
