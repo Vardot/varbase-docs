@@ -87,7 +87,7 @@ The recommended way to install Varbase 11.x is using DDEV:
 ```bash
 mkdir my_varbase_site
 cd my_varbase_site
-ddev config --project-type=drupal11 --docroot=web --php-version=8.4
+ddev config --project-type=drupal11 --docroot=web --php-version=8.5
 ddev start
 ddev composer create-project "drupal/varbase_project:~11.0.0"
 ddev launch

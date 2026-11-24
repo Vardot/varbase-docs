@@ -82,7 +82,7 @@ For scripted or CI installs, require the template and install the site with Drus
 ```bash
 mkdir my-drupal-site-educare
 cd my-drupal-site-educare
-ddev config --project-type=drupal11 --docroot=web --php-version=8.4
+ddev config --project-type=drupal11 --docroot=web --php-version=8.5
 ddev start
 ddev composer create-project drupal/cms
 ddev composer require drupal/educare
@@ -102,7 +102,7 @@ See [Installing Varbase With DDEV](../../installing-varbase/installing-varbase-w
 ```bash
 mkdir my-varbase-educare-site
 cd my-varbase-educare-site
-ddev config --project-type=drupal11 --docroot=web --php-version=8.4
+ddev config --project-type=drupal11 --docroot=web --php-version=8.5
 ddev start
 ddev composer create-project drupal/varbase_project:~11
 ddev composer require drupal/educare:~1

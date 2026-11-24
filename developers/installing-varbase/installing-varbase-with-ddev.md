@@ -27,7 +27,7 @@ Replace `my_varbase_site` with your desired project directory name.
 Run the DDEV configuration command with the following options:
 
 ```bash
-ddev config --project-type=drupal11 --docroot=web --php-version=8.4
+ddev config --project-type=drupal11 --docroot=web --php-version=8.5
 ```
 
 This configures the project as a Drupal 11 site with:
@@ -82,7 +82,7 @@ Here are all the commands together for quick reference:
 ```bash
 mkdir my_varbase_site
 cd my_varbase_site
-ddev config --project-type=drupal11 --docroot=web --php-version=8.4
+ddev config --project-type=drupal11 --docroot=web --php-version=8.5
 ddev start
 ddev composer create-project "drupal/varbase_project:~11.0.0"
 ddev launch
