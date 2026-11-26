@@ -70,7 +70,7 @@ The report is marked **Deprecated**, and on a Varbase 11.0 site there is no newe
 
 ## Questions Clients Ask
 
-- **Is Varbase covered by Drupal security advisories?** Drupal core and stable contributed modules are. Recipes marked alpha (several AI recipes) are not covered by the advisory policy yet.
+- **Is Varbase covered by Drupal security advisories?** Drupal core and stable contributed modules are.
 - **Do you support two-factor authentication or company sign-in?** Through additional modules and setup; neither is on by default. Scope it with the client's IT team.
 - **What do security teams usually ask?** Hosting and server access, how fast updates are applied, how admin accounts are protected, where personal data is stored and which outside services receive it, backups, and incident response. Keep a short security summary per project.
 

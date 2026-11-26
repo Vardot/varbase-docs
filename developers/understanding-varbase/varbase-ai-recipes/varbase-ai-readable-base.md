@@ -10,10 +10,6 @@ Varbase AI
 
 [https://www.drupal.org/project/varbase\_ai\_readable\_base](https://www.drupal.org/project/varbase_ai_readable_base)
 
-{% hint style="warning" %}
-**Alpha release.** The modules it installs, **llms.txt** and **Markdownify**, are stable. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
-{% endhint %}
-
 ## What It Adds
 
 - Installs **llms.txt** and **Markdownify**, with Markdown at a path alias plus `.md`.

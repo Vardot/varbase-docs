@@ -32,5 +32,5 @@ The tools help, but the content matters most: clear headings, short paragraphs, 
 ## Tips
 
 - Decide with the client whether they welcome AI tools reading their content. Most organisations that publish public information do; some publishers ask certain AI crawlers to stay away in the robots file.
-- The AI Readable Base recipe is alpha. The `/llms.txt` address needs a small exception in the site settings on some servers; add it to the deployment checklist.
+- The `/llms.txt` address needs a small exception in the site settings on some servers; add it to the deployment checklist.
 - See [Varbase AI Readable Base](../../developers/understanding-varbase/varbase-ai-recipes/varbase-ai-readable-base.md) for developers.

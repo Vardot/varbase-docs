@@ -10,10 +10,6 @@ Varbase AI
 
 [https://www.drupal.org/project/varbase\_ai\_content\_operations\_base](https://www.drupal.org/project/varbase_ai_content_operations_base)
 
-{% hint style="warning" %}
-**Alpha release.** Tool API and Tool Belt have no stable release yet. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
-{% endhint %}
-
 ## What It Adds
 
 - A **Content operations assistant** agent with tools to list, read and update content.

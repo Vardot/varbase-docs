@@ -10,10 +10,6 @@ Varbase AI
 
 [https://www.drupal.org/project/varbase\_ai\_seo](https://www.drupal.org/project/varbase_ai_seo)
 
-{% hint style="warning" %}
-**Alpha release.** This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
-{% endhint %}
-
 ## What It Adds
 
 - Four AI prompts, one per field, for **Blog post** and **Utility page**.

@@ -10,10 +10,6 @@ Varbase AI
 
 [https://www.drupal.org/project/varbase\_ai\_search\_base](https://www.drupal.org/project/varbase_ai_search_base)
 
-{% hint style="warning" %}
-**Alpha release.** AI Search is an experimental module. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
-{% endhint %}
-
 ## What It Adds
 
 - Applies **Varbase Search Base** first.

@@ -10,10 +10,6 @@ Varbase AI
 
 [https://www.drupal.org/project/varbase\_ai\_answers\_base](https://www.drupal.org/project/varbase_ai_answers_base)
 
-{% hint style="warning" %}
-**Alpha release.** AI Search is experimental and AI Answers is in beta. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
-{% endhint %}
-
 ## What It Adds
 
 - Applies [**Varbase AI Search Base**](varbase-ai-search-base.md) first.
