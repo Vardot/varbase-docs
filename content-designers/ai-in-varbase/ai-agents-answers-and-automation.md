@@ -83,11 +83,9 @@ Govern automation: every model has an owner and a description, changes are teste
 
 ## What to Promise, What to Pilot
 
-| Mature, simple to rely on | Early releases, best as pilots |
+| Mature, simple to rely on | Newer, best as pilots |
 | --- | --- |
-| Writing help, alt text, tag suggestions, guardrails, logging, ECA automation | Ask AI, the chatbot, AI content review, the content operations assistant, the MCP server, the readable files (alpha); the Canvas AI agent (beta) |
-
-Early-release recipes are not covered by Drupal security advisories. Run them as a pilot on a non-production environment first.
+| Writing help, alt text, tag suggestions, guardrails, logging, ECA automation | Ask AI, the chatbot, AI content review, the content operations assistant, the MCP server, the readable files; the Canvas AI agent (beta) |
 
 A sensible roadmap for many clients has three phases: help for editors with context and guardrails in place; then review and the content assistant for the editorial team; then answers for visitors and outside assistants, once content quality is proven.
 

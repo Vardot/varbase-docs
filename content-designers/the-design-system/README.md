@@ -82,7 +82,7 @@ Questions for the brand kick-off:
 
 ## Questions Clients Ask
 
-- **Can we use our Figma design system?** Yes: the components are themed to it. The optional Varbase AI Figma recipes can also turn Figma frames into Canvas pages (alpha). See [Varbase AI Figma Base](../../developers/understanding-varbase/varbase-ai-recipes/varbase-ai-figma-base.md).
+- **Can we use our Figma design system?** Yes: the components are themed to it. The optional Varbase AI Figma recipes can also turn Figma frames into Canvas pages. See [Varbase AI Figma Base](../../developers/understanding-varbase/varbase-ai-recipes/varbase-ai-figma-base.md).
 
 ## Planning Notes
 
