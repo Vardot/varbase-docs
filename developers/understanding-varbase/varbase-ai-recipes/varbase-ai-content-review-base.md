@@ -10,10 +10,6 @@ Varbase AI
 
 [https://www.drupal.org/project/varbase\_ai\_content\_review\_base](https://www.drupal.org/project/varbase_ai_content_review_base)
 
-{% hint style="warning" %}
-**Alpha release.** AI Content Review has no stable release yet. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
-{% endhint %}
-
 ## What It Adds
 
 - Installs **AI**, **AI Agents** and **AI Content Review**.

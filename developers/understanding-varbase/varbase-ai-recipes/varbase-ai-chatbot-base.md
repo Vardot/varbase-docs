@@ -10,10 +10,6 @@ Varbase AI
 
 [https://www.drupal.org/project/varbase\_ai\_chatbot\_base](https://www.drupal.org/project/varbase_ai_chatbot_base)
 
-{% hint style="warning" %}
-**Alpha release.** This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
-{% endhint %}
-
 ## What It Adds
 
 - A **Varbase AI chatbot** agent that searches the `content_vector` index before every answer.

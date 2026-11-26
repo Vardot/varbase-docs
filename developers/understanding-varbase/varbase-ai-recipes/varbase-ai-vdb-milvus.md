@@ -12,10 +12,6 @@ Varbase AI
 
 [https://www.drupal.org/project/varbase\_ai\_vdb\_milvus](https://www.drupal.org/project/varbase_ai_vdb_milvus)
 
-{% hint style="warning" %}
-**Alpha release.** The Milvus VDB provider has no stable release yet. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
-{% endhint %}
-
 ## What It Adds
 
 - Installs **Key**, **AI**, **AI Search** and the **Milvus VDB Provider**.

@@ -12,10 +12,6 @@ Varbase AI
 
 [https://www.drupal.org/project/varbase\_ai\_vdb\_mariadb](https://www.drupal.org/project/varbase_ai_vdb_mariadb)
 
-{% hint style="warning" %}
-**Alpha release.** The MariaDB vector provider it installs has a stable release. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
-{% endhint %}
-
 ## What It Adds
 
 - Installs **AI**, **AI Search** and the **MariaDB VDB Provider**.
